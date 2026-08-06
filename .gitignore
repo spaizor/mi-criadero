@@ -1,0 +1,15 @@
+# OJO: aqui NO se ignoran los *.json.
+# El contenido de la web vive en data/**.json y tiene que versionarse.
+
+# Windows / macOS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+
+# Temporales
+*.log
+*.tmp
