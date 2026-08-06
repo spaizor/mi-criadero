@@ -7,16 +7,17 @@ function escapar(texto) {
   return d.innerHTML;
 }
 
-function pintarNoticia(n) {
+function pintarNoticia(n, indice) {
   const enlace = n.enlace
     ? ` · <a href="${escapar(n.enlace)}" target="_blank" rel="noopener">Leer mas</a>`
     : '';
+  const fecha = n.fecha ? ` · ${escapar(n.fecha)}` : '';
   const fuente = n.fuente ? escapar(n.fuente) : 'Sin fuente';
   return `
     <article class="noticia">
-      <h2>${escapar(n.titulo)}</h2>
+      <h2><span class="num">${indice + 1}</span>${escapar(n.titulo)}</h2>
       <p>${escapar(n.resumen)}</p>
-      <div class="meta">${fuente}${enlace}</div>
+      <div class="meta">${fuente}${fecha}${enlace}</div>
     </article>`;
 }
 

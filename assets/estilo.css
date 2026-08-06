@@ -112,6 +112,13 @@ body[data-seccion="nin"] { --acento: var(--acento-nin); }
   line-height: 1.35;
 }
 
+.noticia .num {
+  display: inline-block;
+  min-width: 1.5em;
+  color: var(--acento);
+  font-weight: 700;
+}
+
 .noticia p {
   margin: 0;
   color: var(--texto-suave);
