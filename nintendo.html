@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nintendo · Mi Criadero</title>
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body data-seccion="nin">
+  <header class="cabecera">
+    <a class="volver" href="index.html">← Inicio</a>
+    <h1>🎮 Nintendo</h1>
+    <p class="lema" id="fecha">Cargando…</p>
+  </header>
+
+  <main class="contenedor">
+    <div id="noticias" class="lista-noticias"></div>
+  </main>
+
+  <footer class="pie">
+    <p>Actualizado automaticamente.</p>
+  </footer>
+
+  <script src="assets/noticias.js"></script>
+  <script>cargarNoticias('data/nintendo.json');</script>
+</body>
+</html>
