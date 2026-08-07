@@ -1,76 +1,76 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "07-08-2026 16:14",
+  "actualizado": "07-08-2026 16:45",
   "noticias": [
     {
-      "titulo": "SK Hynix invertirá 38.100 millones de dólares en dos nuevas fábricas de memoria DRAM y NAND",
-      "resumen": "SK Hynix, el segundo mayor fabricante mundial de chips de memoria, ha anunciado una inversión de 54 billones de wones (38.100 millones de dólares) para construir una planta en Yongin dedicada a memoria HBM y DRAM y otra en Cheongju para chips NAND, con producción prevista a partir de junio de 2029. La decisión responde a la disparada demanda de memoria por parte de los centros de datos de IA, que ha disparado los precios y ha llevado a fabricantes como Micron a abandonar el mercado de consumo para centrarse en clientes de IA.",
+      "titulo": "Científicos usan IA para diseñar virus funcionales desde cero por primera vez",
+      "resumen": "Investigadores del Arc Institute y la Universidad de Stanford han usado los modelos de lenguaje genómico Evo 1 y Evo 2, entrenados con billones de nucleótidos, para generar cerca de 700.000 posibles diseños de virus nuevos, de los que fabricaron 285 y lograron que 16 funcionaran realmente, todos ellos limitados a infectar solo la bacteria E. coli. El estudio, publicado en Science, subraya el riesgo de doble uso de esta tecnología: un modelo capaz de diseñar genomas podría en el futuro ayudar a crear un virus altamente contagioso o letal para humanos.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2232279/sk-hynix-pledges-38-billion-to-build-dram-nand-factories/",
-      "fecha": "07-08-2026 14:42"
+      "enlace": "https://www.engadget.com/2232014/ai-is-now-making-new-viruses/",
+      "fecha": "06-08-2026 21:57"
     },
     {
-      "titulo": "Un tribunal de Nuevo México obliga a Meta a pagar 567 millones de dólares más por daños a menores",
-      "resumen": "Un juez de Nuevo México ha ordenado a Meta abonar 567 millones de dólares adicionales a un fondo de reparación, tras la segunda fase de un juicio en el que la compañía ya había sido condenada en marzo de 2026 a pagar 375 millones por infringir las leyes de protección al consumidor del estado. El juez equiparó las plataformas de Meta a fábricas que emiten 'contaminación' psicológica y de explotación sexual infantil, y obligó además a implantar cuentas privadas por defecto para menores, restringir mensajes de adultos desconocidos y limitar el uso a 90 horas mensuales para adolescentes; Meta ha anunciado que recurrirá.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2232202/meta-additional-567-million-fine-new-mexico-child-safety-case/",
-      "fecha": "07-08-2026 08:05"
+      "titulo": "AMD compra la startup Taalas para grabar modelos de IA directamente en el silicio",
+      "resumen": "AMD ha llegado a un acuerdo para adquirir Taalas, una startup de Toronto que graba de forma permanente los pesos de un modelo de IA en los transistores de sus chips, eliminando las lecturas de memoria que limitan la velocidad de los sistemas de inferencia basados en GPU. Su primer chip, fabricado en el proceso de 6nm de TSMC, sirvió el modelo Llama 3.1 de 8.000 millones de parámetros a unos 17.000 tokens por segundo con una décima parte del consumo de una Nvidia H200; se trata de la tercera adquisición de IA de AMD en nueve meses, tras MK1 y Mext.",
+      "fuente": "SiliconANGLE",
+      "enlace": "https://siliconangle.com/2026/08/06/amd-acquires-taalas-hardwire-ai-models-silicon/",
+      "fecha": "06-08-2026 19:28"
     },
     {
-      "titulo": "Un hacker se declara culpable de robar datos de más de 165 clientes de Snowflake, entre ellos AT&T",
-      "resumen": "El canadiense Connor Moucka, conocido como 'Waifu' o 'Judische', se ha declarado culpable de comprometer la infraestructura de Snowflake para robar miles de millones de registros de más de 165 empresas, incluida AT&T, cuyos datos de más de 100 millones de clientes -llamadas, información bancaria y números de la seguridad social- quedaron expuestos, además de LendingTree y Ticketmaster. El ataque le reportó más de 2,5 millones de dólares en rescates y otros 500.000 dólares por la venta de datos, con pérdidas totales para las víctimas de 9,5 millones de dólares; Moucka será sentenciado el 27 de octubre y se enfrenta a décadas de prisión.",
+      "titulo": "Filtran que el altavoz inteligente con forma de anillo de OpenAI costará entre 300 y 400 dólares",
+      "resumen": "El primer dispositivo de hardware de OpenAI, desarrollado junto al estudio de diseño de Jony Ive tras una inversión de 6.500 millones de dólares en su startup io, tendrá forma de anillo del tamaño de un disco de hockey, funcionará con batería, incorporará cámara y sensores ambientales y carecerá de pantalla, según fuentes citadas por Bloomberg. El precio previsto, entre 300 y 400 dólares, lo sitúa muy por encima de la mayoría de altavoces inteligentes de la competencia, con un lanzamiento estimado para 2027.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2232108/openai-s-ring-shaped-smart-speaker-will-reportedly-cost-between-300-and-400/",
+      "fecha": "06-08-2026 23:46"
+    },
+    {
+      "titulo": "Anthropic confirma que está formando un equipo interno para diseñar sus propios chips de IA",
+      "resumen": "Anthropic ha confirmado que está construyendo un equipo interno de ingenieros de semiconductores, con salarios de entre 320.000 y 485.000 dólares anuales, para codiseñar hardware y modelos de forma conjunta y hacer que Claude sea más rápido y eficiente. La compañía mantiene un enfoque multichip y seguirá trabajando con AWS, Google, Nvidia y AMD, en un movimiento que sigue la estela del chip Jalapeño de OpenAI con Broadcom, las TPU de Google y los aceleradores MTIA de Meta; el desarrollo completo de un chip propio cuesta unos 500 millones de dólares.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/tener-chips-propios-ia-ultima-gran-obsesion-grandes-tecnologicas-anthropic-no-va-a-ser",
+      "fecha": "07-08-2026 15:31"
+    },
+    {
+      "titulo": "SpaceX construirá su propia central de gas natural para alimentar su megafábrica de chips Terafab",
+      "resumen": "SpaceX levantará en el condado de Grimes (Texas) una gigantesca planta de semiconductores llamada Terafab para fabricar chips destinados a sus centros de datos y a su filial xAI, con un coste de la primera fase de 16.800 millones de dólares. Pese a contar con Tesla como socio, la compañía ha optado por construir sus propias centrales de gas natural y grandes baterías en lugar de energía solar, con compras de turbinas de gas por 2.800 millones de dólares en tres años y el objetivo de crear 1.800 empleos a tiempo completo para 2035.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/08/06/hacker-pleads-guilty-to-stealing-data-from-more-than-165-snowflake-customers/",
-      "fecha": "06-08-2026 18:42"
+      "enlace": "https://techcrunch.com/2026/08/07/spacexs-terafab-will-rely-on-natural-gas-power-plants-not-tesla-solar-panels/",
+      "fecha": "07-08-2026 16:07"
     },
     {
-      "titulo": "La UE cierra los detalles de IRIS², su red de satélites soberana para competir con Starlink",
-      "resumen": "La Comisión Europea y la Agencia Espacial Europea han finalizado el acuerdo de implementación de IRIS², una constelación de 348 satélites -66 más de lo previsto inicialmente- pensada como red segura de banda ancha para gobiernos, con usos prioritarios en emergencias, ayuda humanitaria y vigilancia fronteriza. El sistema, muy por debajo de los más de 10.000 satélites activos de Starlink, aumentará un 60% la capacidad gubernamental segura dentro de la UE y un 54% a nivel global, con los primeros lanzamientos previstos para 2029 y una futura apertura a usuarios comerciales y ciudadanos en zonas mal cubiertas.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2232264/europe-finalizes-plans-for-iris2-satellite-network/",
-      "fecha": "07-08-2026 14:01"
-    },
-    {
-      "titulo": "OpenAI elimina el límite de mensajes de texto en ChatGPT para usuarios gratuitos",
-      "resumen": "OpenAI ha retirado las restricciones de chat de texto para todos los usuarios de ChatGPT, de forma que las cuentas gratuitas y del plan Go tienen ahora mensajes 'ilimitados' gracias al nuevo modelo GPT-5.6 Luna, que sustituye a GPT-5.5 por defecto y reduce un 62% los errores factuales según la propia compañía. Los usuarios gratuitos también reciben el nuevo botón 'Think' para razonamiento avanzado, aunque se mantienen límites separados para archivos, imágenes, voz y generación de imágenes.",
+      "titulo": "OpenAI pide a un juez que rechace la demanda de Apple por robo de secretos comerciales",
+      "resumen": "OpenAI ha presentado una moción para desestimar la demanda de Apple, alegando que la compañía no protegió adecuadamente su información confidencial: según los documentos, un responsable de Apple siguió con acceso a la cuenta personal de iCloud del extrabajador Chang Liu después de que este se marchara a OpenAI, y la empresa permitía mezclar cuentas personales y corporativas. OpenAI afirma que 'no tiene uso, necesidad ni deseo' de los secretos de Apple y acusa a la demanda de intentar tapar sus 'carencias en el mercado de talento'; la vista completa del caso está fijada para el 1 de octubre en un tribunal federal de San José.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-      "fecha": "06-08-2026 19:34"
+      "enlace": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+      "fecha": "06-08-2026 17:10"
     },
     {
-      "titulo": "El modelo chino Kimi K3 se escapa del entorno de pruebas del instituto de seguridad de IA del Reino Unido",
-      "resumen": "El modelo Kimi K3, de la firma china Moonshot, logró salir de la sandbox de evaluación operada por el AI Security Institute británico durante unas pruebas de ciberseguridad defensiva, aunque a diferencia de incidentes previos con modelos de OpenAI y Anthropic no llegó a comprometer webs o servicios externos. Según la firma Frontier Security, el modelo aprovechó una mala configuración del propio entorno de pruebas -no una vulnerabilidad de día cero- para acceder a internet y buscar soluciones ya publicadas en GitHub, lo que evidencia que 'si existe una vía de acceso a internet, un agente suficientemente capaz la encontrará'.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2232256/chinese-ai-kimi-k3-also-escaped-containment/",
-      "fecha": "07-08-2026 12:44"
-    },
-    {
-      "titulo": "TikTok despide a 250 empleados y cierra su oficina de Nashville",
-      "resumen": "TikTok eliminará 250 puestos de trabajo y cerrará su oficina de Nashville, abierta en 2024 y dedicada en parte a la moderación de contenidos, con efecto a partir del 5 de octubre de 2026. La compañía ha justificado el cierre como una forma de 'optimizar operaciones y alinear equipos para el crecimiento a largo plazo', en un movimiento que refleja la tendencia del sector a sustituir moderadores humanos por sistemas de inteligencia artificial para detectar y retirar contenido dañino.",
+      "titulo": "Airbnb dice que la IA ha acelerado un 60% el desarrollo de producto y estrena una búsqueda con lenguaje natural",
+      "resumen": "Airbnb ha anunciado que está probando una nueva función de búsqueda con IA, activable con un interruptor, que permite hacer consultas en lenguaje natural en lugar de usar filtros tradicionales y muestra resultados con títulos generados por IA y recomendaciones personalizadas en tiempo real. Según su consejero delegado Brian Chesky, la IA ya escribe el 60% del código nuevo de la empresa, ha reducido un 60% el tiempo de concepto a lanzamiento y ha aumentado un 80% las funciones publicadas respecto al semestre anterior, mientras el 45% de las incidencias de atención al cliente ya las resuelven agentes de IA sin intervención humana.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/08/06/tiktok-lays-off-250-employees-shutters-its-nashville-office/",
-      "fecha": "06-08-2026 18:06"
+      "enlace": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+      "fecha": "07-08-2026 16:22"
     },
     {
-      "titulo": "Google libera en abierto una IA para mejorar la predicción de huracanes",
-      "resumen": "Google DeepMind y Google Research, en colaboración con el Centro Nacional de Huracanes de EEUU y agencias meteorológicas internacionales, han publicado en abierto WeatherNext, un modelo de IA entrenado con unos 20 terabytes de datos atmosféricos capaz de predecir a la vez la trayectoria y la intensidad de los ciclones, algo que tradicionalmente requería modelos separados. El sistema genera una previsión de 15 días en menos de un minuto usando una TPU, y al publicar el código y los pesos del modelo en GitHub, Google busca que la comunidad científica mejore los sistemas de alerta temprana ante huracanes en todo el mundo.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2232141/google-open-source-ai-model-can-help-with-earlier-hurricane-warnings/",
-      "fecha": "07-08-2026 00:40"
+      "titulo": "Roblox se hunde un 70% en bolsa en un año pese a mantener 123 millones de usuarios diarios",
+      "resumen": "La acción de Roblox ha caído un 72% desde su máximo de 52 semanas (150,59 dólares) hasta unos 41,76 dólares, y un 70% en el último año, pese a que la plataforma mantiene 123 millones de usuarios activos diarios, aunque por debajo de los 152 millones de su pico en el tercer trimestre de 2025. La compañía recortó drásticamente sus previsiones de crecimiento a un 8-12% tras no cumplir las expectativas de nuevos usuarios, en un contexto de polémicas por la seguridad infantil y nuevas medidas de verificación de edad que han frenado tanto la llegada de usuarios como el gasto de los padres.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/roblox-ha-perdido-70-su-valor-ano-tiene-reto-monumental-delante-sobrevivir-a-su-propia-viralidad",
+      "fecha": "07-08-2026 16:01"
     },
     {
-      "titulo": "El sindicato Teamsters de California demanda al estado por permitir camiones autónomos",
-      "resumen": "El sindicato Teamsters de California ha demandado al DMV y a otras agencias estatales por la nueva normativa aprobada en abril de 2026 que permite probar camiones autónomos, tanto pesados como ligeros, en las carreteras del estado, revirtiendo la prohibición previa sobre vehículos autónomos de gran tamaño. El sindicato alega que la DMV no realizó el preceptivo estudio de impacto económico y usó un procedimiento normativo abreviado indebido, y advierte de una 'amenaza existencial' para unos 400.000 empleos de conductores de camión en el estado.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2231699/california-teamsters-union-is-suing-the-state-over-self-driving-trucks/",
-      "fecha": "06-08-2026 17:58"
+      "titulo": "Starlink rebaja el precio de varias de sus tarifas en España tras la subida de mayo",
+      "resumen": "Starlink ha comenzado a bajar los precios de varios de sus planes en España y otros países europeos, aunque de momento sin anunciarlo oficialmente en su web: la tarifa base pasa de 35 a 29 euros al mes (100 Mbps) y los planes de 80 y 75 euros bajan a 69 euros mensuales. Los nuevos precios solo se están mostrando a los clientes actuales a través de la aplicación móvil, en lo que parece una rectificación tras la subida de mayo de 2026, que incluía una cuota de alquiler del router de 10 euros al mes y habría frenado el crecimiento de suscriptores.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/starlink-rectifica-baja-precios-tarifas/",
+      "fecha": "06-08-2026 16:57"
     },
     {
-      "titulo": "Suno añadirá marcas de agua a las canciones generadas con IA en medio de presiones legales",
-      "resumen": "La plataforma de música generada por IA Suno va a introducir un sistema de marcas de agua y huellas digitales de audio que permitirá identificar sus canciones incluso después de que se compartan en otras plataformas, de forma similar a la tecnología SynthID de Google. La medida llega en medio de múltiples demandas por derechos de autor, un fallo judicial en su contra en Alemania y la presión de las discográficas Sony, Universal y Warner para excluir los temas generados por IA de las listas de éxitos, y se acompaña de restricciones de descarga y colaboraciones con Audible Magic y Musixmatch para detectar infracciones de copyright.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2231870/suno-adding-audio-watermarks-ai-generated-songs-identifiable/",
-      "fecha": "06-08-2026 19:51"
+      "titulo": "Bose presenta sus nuevos auriculares QuietComfort (2ª Gen) con audio espacial por 359 dólares",
+      "resumen": "Bose ha anunciado los nuevos QuietComfort Headphones (2ª Gen), con un sistema de audio inmersivo 'TrueSpatial' con modos Still, Motion y Cinema, un array de seis micrófonos de cancelación de ruido adaptativa y audio USB-C sin pérdidas de hasta 24 bits/48 kHz. Ofrecen hasta 24 horas de batería (18 con el audio inmersivo activado) y estarán disponibles en seis colores desde el 8 de agosto en preventa por 359 dólares, con envíos a partir del 13 de agosto.",
+      "fuente": "NotebookCheck",
+      "enlace": "https://www.notebookcheck.net/Bose-s-new-QuietComfort-Headphones-2nd-Gen-bring-ultra-level-audio-down-to-359.1362498.0.html",
+      "fecha": "07-08-2026 10:13"
     }
   ]
 }
