@@ -40,11 +40,15 @@ JSON, y anadir su tarjeta en `index.html`.
 
 ## Formato de los JSON de contenido
 
+Cada seccion tiene dos niveles: **5 destacadas** que la rutina abre y lee, y
+hasta **25 titulares** que salen del listado del medio sin abrir el articulo.
+Los titulares se pintan en un bloque plegable debajo de las destacadas.
+
 ```json
 {
   "seccion": "tecnologia",
   "actualizado": "DD-MM-AAAA HH:MM",
-  "noticias": [
+  "destacadas": [
     {
       "titulo": "Titular en espanol",
       "resumen": "2-3 frases con los hechos concretos",
@@ -52,12 +56,26 @@ JSON, y anadir su tarjeta en `index.html`.
       "enlace": "https://...",
       "fecha": "DD-MM-AAAA HH:MM"
     }
+  ],
+  "titulares": [
+    {
+      "titulo": "Titular en espanol",
+      "fuente": "Nombre del medio",
+      "enlace": "https://...",
+      "fecha": "DD-MM-AAAA"
+    }
   ]
 }
 ```
 
-Todas las fechas en hora espanola. Si `noticias` esta vacio, la pagina muestra
-un aviso de "todavia no hay noticias" en lugar de romperse.
+Todas las fechas en hora espanola. **Los titulares llevan fecha sin hora a
+proposito**: como no se abre el articulo, no hay forma de saber la hora de
+publicacion, y pedirsela solo consigue que se la invente.
+
+Si los dos arrays estan vacios, la pagina muestra un aviso de "todavia no hay
+noticias" en lugar de romperse. `assets/noticias.js` acepta ademas el formato
+antiguo (un unico array `noticias`) como respaldo, para que la web no se quede
+en blanco entre un cambio de formato y la primera ejecucion de la rutina.
 
 ## Publicacion
 

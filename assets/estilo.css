@@ -138,6 +138,65 @@ body[data-seccion="nin"] { --acento: var(--acento-nin); }
 
 .noticia .meta a:hover { text-decoration: underline; }
 
+/* Titulares del dia (bloque plegable bajo las destacadas) */
+.mas-titulares {
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+}
+
+.mas-titulares > summary {
+  padding: 14px 20px;
+  color: var(--acento);
+  font-size: 0.92rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.mas-titulares > summary::-webkit-details-marker { display: none; }
+
+.mas-titulares > summary::before {
+  content: "\25B8";
+  display: inline-block;
+  margin-right: 8px;
+  transition: transform .15s;
+}
+
+.mas-titulares[open] > summary::before { transform: rotate(90deg); }
+
+.lista-titulares {
+  margin: 0;
+  padding: 0 20px 6px;
+  list-style: none;
+  border-top: 1px solid var(--borde);
+}
+
+.titular {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--borde);
+}
+
+.titular:last-child { border-bottom: none; }
+
+.titular a {
+  color: var(--texto);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.titular a:hover {
+  color: var(--acento);
+  text-decoration: underline;
+}
+
+.titular .meta {
+  display: block;
+  margin-top: 3px;
+  font-size: 0.8rem;
+  color: var(--texto-suave);
+}
+
 .aviso {
   padding: 20px;
   border: 1px dashed var(--borde);
