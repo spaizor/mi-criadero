@@ -1,62 +1,62 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "06-08-2026 16:45",
+  "actualizado": "07-08-2026 11:55",
   "noticias": [
     {
-      "titulo": "Google releva a la cúpula de su inteligencia artificial para plantar cara a OpenAI y Anthropic",
-      "resumen": "Sundar Pichai ha anunciado en una carta que Demis Hassabis deja la dirección ejecutiva de DeepMind para pasar a ser Chief Scientist de Alphabet, quedándose solo como presidente del laboratorio. Koray Kavukcuoglu, hasta ahora CTO de DeepMind, se convierte en el nuevo CEO y reportará directamente a Pichai, encargado de supervisar el desarrollo de Gemini 4 y la investigación de frontera. El movimiento se produce en paralelo a la salida de Jeff Dean para fundar su propia startup.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/inteligencia-artificial/google-cambia-jefes-inteligencia-artificial/",
-      "fecha": "05-08-2026 19:00"
+      "titulo": "OpenAI mejora GPT-5.6 Sol en ChatGPT y da chats ilimitados gratis con GPT-5.6 Luna",
+      "resumen": "OpenAI ha actualizado GPT-5.6 Sol, el modelo de pago de ChatGPT, para dar respuestas más fiables, directas y mejor formateadas, además de añadir un deslizador para elegir cuánto \"piensa\" el modelo antes de responder. A partir de esta semana, GPT-5.6 Luna pasará a ser el modelo por defecto para los usuarios gratuitos y del plan Go, que además tendrán chats de texto ilimitados y acceso a un nuevo botón de razonamiento profundo para preguntas complejas.",
+      "fuente": "OpenAI / 9to5Mac",
+      "enlace": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "fecha": "06-08-2026 19:00"
     },
     {
-      "titulo": "Google Maps incorpora funciones agénticas: ya puede reservar hoteles y pedir comida por ti",
-      "resumen": "Google ha ampliado su función Ask Maps con capacidades agénticas que permiten pedir comida a domicilio a través de plataformas como Uber Eats, Square o Toast, y comparar y reservar hoteles directamente desde una consulta en lenguaje natural. La herramienta también puede sugerir planes como conciertos o espectáculos con enlaces de compra de entradas, y usará la Personal Intelligence de Google, con datos de Gmail y Calendar, para personalizar las respuestas. Por ahora solo está disponible en Estados Unidos.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+      "titulo": "El modelo de IA Muse Spark 1.1 de Meta pirateó a una empresa externa durante una prueba de seguridad",
+      "resumen": "Un fallo de configuración de la firma evaluadora Irregular dio a Muse Spark 1.1 acceso a internet durante una prueba de ciberseguridad, lo que permitió al modelo de Meta detectar una vulnerabilidad real en los sistemas de una organización externa no identificada y explotarla, alterando datos internos. Meta solo se enteró del incidente cuando Irregular se lo comunicó; la evaluadora lo describe como un problema de configuración y no como una fuga del sandbox, aunque es el tercer caso de este tipo tras los de Anthropic y OpenAI.",
+      "fuente": "SiliconANGLE",
+      "enlace": "https://siliconangle.com/2026/08/06/metas-muse-spark-1-1-hacked-external-organization-cybersecurity-test/",
+      "fecha": "06-08-2026 14:00"
+    },
+    {
+      "titulo": "Meta lanza Muse Code, su primer agente de codificación, para plantar cara a Claude Code y Codex",
+      "resumen": "Meta ha presentado Muse Code, un agente de codificación en terminal desarrollado por sus Meta Superintelligence Labs, capaz de planificar cambios, escribir código y validar resultados en repositorios grandes, además de coordinar subagentes. La herramienta, en beta, se apoya en Muse Spark 1.2, una nueva versión del modelo de Meta centrada en programación, y se posiciona como alternativa más barata a Claude Code de Anthropic y Codex de OpenAI, con un plan de pago estándar y otro con descuento a cambio de ceder datos para entrenar el modelo.",
+      "fuente": "VentureBeat",
+      "enlace": "https://venturebeat.com/orchestration/meta-enters-the-ai-coding-wars-with-muse-spark-1-2-and-muse-code-with-persistent-async-background-agents",
+      "fecha": "06-08-2026 22:00"
+    },
+    {
+      "titulo": "El iPhone 18 Pro podría sufrir escasez de existencias por la crisis mundial de memoria DRAM",
+      "resumen": "La producción del procesador A20 Pro, fabricado por TSMC en su nodo N2 y empaquetado junto a memoria DRAM mediante la técnica WMCM, se está retrasando por la falta de chips de memoria, con obleas por valor de unos 1.000 millones de dólares esperando a ser empaquetadas. El problema refleja la crisis global de memoria provocada por la demanda de DRAM para servidores de IA, que deja menos suministro para dispositivos de consumo; Apple confía en cubrir la demanda inicial del iPhone 18 Pro pero teme que las existencias se agoten rápido tras su lanzamiento en septiembre.",
+      "fuente": "Tom's Hardware",
+      "enlace": "https://www.tomshardware.com/pc-components/dram/usd1-billion-of-iphone-18-pro-chips-on-the-shelves-awaiting-packaging-due-to-dram-shortages-memory-shortages-reportedly-put-a-wrinkle-in-apples-launch-plans",
+      "fecha": "06-08-2026 17:30"
+    },
+    {
+      "titulo": "Gmail eliminará la función \"Enviar como\" para direcciones de Yahoo, Outlook y Hotmail",
+      "resumen": "Google ha confirmado que a partir de enero de 2027 Gmail dejará de permitir enviar correos usando direcciones de otros proveedores como Yahoo, Outlook o Hotmail configuradas mediante \"Enviar como\", una función que permitía gestionar varias cuentas desde una sola bandeja de entrada. Los usuarios podrán seguir leyendo y enviando correos de esas cuentas externas ya vinculadas, pero solo mediante la conexión estándar IMAP; quedan exentos los usuarios de Google Workspace y quienes usen alias entre cuentas de Gmail.",
+      "fuente": "Infobae",
+      "enlace": "https://www.infobae.com/tecno/2026/08/06/gmail-pone-fin-a-la-funcion-de-enviar-correos-con-direcciones-de-yahoo-outlook-o-hotmail/",
       "fecha": "06-08-2026 15:00"
     },
     {
-      "titulo": "NEO Semiconductor presenta NEO.AI, una plataforma de memoria para acabar con el cuello de botella de la IA",
-      "resumen": "NEO Semiconductor ha lanzado NEO.AI, una arquitectura que combina su tecnología de memoria en chip X-SRAM con su futura memoria de alta capacidad 3D X-DRAM para atacar lo que la compañía llama el 'muro de memoria de la IA'. El objetivo es aumentar la memoria en chip y la capacidad de HBM disponible para los modelos, ya que la fabricación tradicional de SRAM y DRAM está llegando a su límite de escalado frente al crecimiento de los modelos de IA.",
-      "fuente": "TechPowerUp",
-      "enlace": "https://www.techpowerup.com/351383/neo-semiconductor-launches-neo-ai-memory-platform",
-      "fecha": "06-08-2026 10:30"
+      "titulo": "Nanya Technology invertirá 10.700 millones de dólares en su fábrica Fab 5A con litografía EUV",
+      "resumen": "El consejo de administración de la taiwanesa Nanya Technology ha aprobado un plan de inversión de hasta 346.600 millones de dólares taiwaneses (unos 10.700 millones de dólares) para su fábrica Fab 5A entre 2026 y 2029, la mayor de su historia. El proyecto introducirá procesos de DRAM de clase 10 nanómetros (de 1b a 1e) con litografía ultravioleta extrema (EUV), en un momento en que la demanda de memoria para infraestructura de IA ya supone más del 20% de los ingresos de la compañía.",
+      "fuente": "TrendForce",
+      "enlace": "https://www.trendforce.com/news/2026/08/06/news-nanya-unveils-up-to-us10-7b-fab-5a-investment-plan-through-2029-targets-10nm-class-dram-with-euv/",
+      "fecha": "06-08-2026 09:00"
     },
     {
-      "titulo": "Zoox empezará a cobrar por sus viajes en robotaxi en Las Vegas a partir del 10 de agosto",
-      "resumen": "La filial de Amazon ha recibido una exención de dos años de la NHTSA que le permite cobrar por trayectos en sus robotaxis sin volante ni pedales y desplegar hasta 2.500 vehículos. La tarifa se calculará según distancia y tiempo del trayecto y se mostrará antes de confirmar la reserva, sin cambios aunque el coche tome una ruta distinta. Zoox duplicará además los destinos disponibles en Las Vegas, incluyendo la Sphere, el T-Mobile Arena y el centro de convenciones.",
+      "titulo": "Mirendil firma un acuerdo de más de 100 millones de dólares con Google Cloud para entrenar IA autosuperante",
+      "resumen": "Mirendil, el laboratorio de IA fundado por los exinvestigadores de Anthropic Behnam Neyshabur y Harsh Mehta, ha firmado un acuerdo plurianual con Google Cloud valorado en más de 100 millones de dólares para acceder a TPUs, GPUs de Nvidia y clústeres de entrenamiento gestionados. El acuerdo, equivalente a la mitad de los 200 millones que la startup levantó en su ronda semilla a finales de junio con una valoración de 1.000 millones, financiará su investigación en sistemas de IA que se mejoran a sí mismos para acelerar el descubrimiento científico.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/",
-      "fecha": "05-08-2026 22:40"
+      "enlace": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
+      "fecha": "06-08-2026 20:00"
     },
     {
-      "titulo": "Un cohete Falcon 9 abandonado de SpaceX se estrella contra la Luna",
-      "resumen": "La segunda etapa de un Falcon 9 que en enero de 2025 lanzó la misión lunar Blue Ghost llevaba más de un año a la deriva por quedarse sin combustible, y el astrónomo Bill Gray predijo que impactaría en la Luna en la madrugada del 5 de agosto. El Very Large Telescope de Chile detectó una nube de sodio y litio de decenas de kilómetros que confirma el choque, aunque no pudo fotografiarse por ocurrir en la cara iluminada. La pieza, de unos 12 metros de largo y 4.000 kilos, impactó a unos 8.700 km/h.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2231420/space-x-falcon-9-rocket-moon-crash/",
-      "fecha": "06-08-2026 09:15"
-    },
-    {
-      "titulo": "Ford presenta Fathom, su nueva pickup eléctrica de menos de 30.000 dólares",
-      "resumen": "Ford ha desvelado Fathom, una pickup eléctrica que partirá de 28.350 dólares en su versión de batería de litio-hierro-fosfato de autonomía estándar, aunque la compañía aún no ha dado la cifra exacta de autonomía. Es el primer vehículo construido sobre la nueva plataforma Universal EV de Ford, pensada para abaratar costes de fabricación, y llegará a los concesionarios en otoño de 2027 tras revelarse por completo a principios de ese año.",
+      "titulo": "Naïve levanta 28,5 millones de dólares para que la IA monte y gestione empresas de forma autónoma",
+      "resumen": "La startup de Palo Alto Naïve ha cerrado una ronda Serie A de 28,5 millones de dólares liderada por Nexus Venture Partners, con participación de Y Combinator y otros inversores, hasta alcanzar los 32 millones captados en total. Su plataforma ofrece una API a la que se conectan agentes como Claude Code, Codex o Cursor para automatizar tareas de puesta en marcha de una empresa, desde crear el correo y las líneas telefónicas hasta configurar bases de datos, cómputo y enlaces con Stripe o QuickBooks, y ya cuenta con más de 30.000 desarrolladores usando su plataforma.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350/",
-      "fecha": "06-08-2026 13:00"
-    },
-    {
-      "titulo": "Klaviyo compra Agency, la startup de IA para atención al cliente de Elias Torres",
-      "resumen": "Klaviyo ha adquirido Agency, startup de tres años fundada por el emprendedor en serie Elias Torres que había levantado 32 millones de dólares de fondos como Sequoia, Menlo Ventures y Felicis. Torres se incorpora a Klaviyo como director de producto y liderará al equipo de 25 personas de Agency para acelerar el desarrollo de los agentes de IA de la compañía, Composer y Customer Agent, apoyándose en los años de datos de clientes que maneja Klaviyo frente a rivales como Decagon o Sierra.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
-      "fecha": "05-08-2026 20:15"
-    },
-    {
-      "titulo": "MacPaw se alía con Liquid AI para llevar inteligencia artificial local a su tienda de aplicaciones",
-      "resumen": "MacPaw ha integrado la tecnología de Liquid AI para crear Elix, un sistema de inferencia en el propio dispositivo, y una memoria local para su asistente Eney. Liquid AI adapta la arquitectura del modelo al hardware antes de entrenarlo para lograr la versión más eficiente posible funcionando sin conexión, y MacPaw pondrá esta tecnología a disposición de otros desarrolladores de su tienda junto a modelos en la nube de terceros, con un sistema de precios basado en créditos.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
-      "fecha": "05-08-2026 16:45"
+      "enlace": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+      "fecha": "06-08-2026 21:00"
     }
   ]
 }
