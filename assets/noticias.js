@@ -1,5 +1,11 @@
 // Carga el JSON de una seccion y pinta las noticias.
 // El HTML no cambia nunca: las tareas programadas solo reescriben el JSON.
+//
+// Dos niveles: "destacadas" (con resumen, se leyeron enteras) y "titulares"
+// (solo titular y enlace, sacados del listado del medio).
+// Se acepta tambien el formato antiguo con "noticias" como respaldo, para que
+// la web no se quede en blanco entre que se publica un cambio aqui y corre la
+// primera rutina con el formato nuevo.
 
 function escapar(texto) {
   const d = document.createElement('div');
@@ -7,7 +13,7 @@ function escapar(texto) {
   return d.innerHTML;
 }
 
-function pintarNoticia(n, indice) {
+function pintarDestacada(n, indice) {
   const enlace = n.enlace
     ? ` · <a href="${escapar(n.enlace)}" target="_blank" rel="noopener">Leer mas</a>`
     : '';
@@ -19,6 +25,30 @@ function pintarNoticia(n, indice) {
       <p>${escapar(n.resumen)}</p>
       <div class="meta">${fuente}${fecha}${enlace}</div>
     </article>`;
+}
+
+function pintarTitular(n) {
+  const titulo = escapar(n.titulo);
+  const titular = n.enlace
+    ? `<a href="${escapar(n.enlace)}" target="_blank" rel="noopener">${titulo}</a>`
+    : titulo;
+  const fecha = n.fecha ? ` · ${escapar(n.fecha)}` : '';
+  const fuente = n.fuente ? escapar(n.fuente) : 'Sin fuente';
+  return `
+    <li class="titular">
+      ${titular}
+      <span class="meta">${fuente}${fecha}</span>
+    </li>`;
+}
+
+function pintarTitulares(titulares) {
+  if (!titulares.length) return '';
+  const palabra = titulares.length === 1 ? 'titular' : 'titulares';
+  return `
+    <details class="mas-titulares">
+      <summary>Ver los otros ${titulares.length} ${palabra} del dia</summary>
+      <ul class="lista-titulares">${titulares.map(pintarTitular).join('')}</ul>
+    </details>`;
 }
 
 async function cargarNoticias(ruta) {
@@ -34,9 +64,15 @@ async function cargarNoticias(ruta) {
       ? 'Actualizado: ' + datos.actualizado
       : '';
 
-    const noticias = Array.isArray(datos.noticias) ? datos.noticias : [];
-    contenedor.innerHTML = noticias.length
-      ? noticias.map(pintarNoticia).join('')
+    // "noticias" es el formato antiguo; se mantiene como respaldo.
+    let destacadas = [];
+    if (Array.isArray(datos.destacadas)) destacadas = datos.destacadas;
+    else if (Array.isArray(datos.noticias)) destacadas = datos.noticias;
+
+    const titulares = Array.isArray(datos.titulares) ? datos.titulares : [];
+
+    contenedor.innerHTML = (destacadas.length || titulares.length)
+      ? destacadas.map(pintarDestacada).join('') + pintarTitulares(titulares)
       : '<div class="aviso">Todavia no hay noticias en esta seccion.</div>';
   } catch (e) {
     fecha.textContent = '';
