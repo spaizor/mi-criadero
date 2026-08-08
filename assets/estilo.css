@@ -1,4 +1,5 @@
 :root {
+  color-scheme: dark;
   --fondo: #0f1115;
   --fondo-tarjeta: #191d25;
   --borde: #272d38;
@@ -90,6 +91,71 @@ body[data-seccion="nin"] { --acento: var(--acento-nin); }
 .tarjeta-seccion .icono { font-size: 2rem; }
 .tarjeta-seccion .titulo { font-size: 1.2rem; font-weight: 600; }
 .tarjeta-seccion .desc { color: var(--texto-suave); font-size: 0.88rem; }
+
+/* Enlace discreto bajo las tarjetas: no debe competir con ellas */
+.enlace-secundario {
+  margin: 18px 0 0;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.enlace-secundario a {
+  color: var(--texto-suave);
+  text-decoration: none;
+}
+
+.enlace-secundario a:hover {
+  color: var(--acento);
+  text-decoration: underline;
+}
+
+/* Historico: pestanas de seccion y selector de dia */
+.controles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.pestanas {
+  display: flex;
+  gap: 8px;
+}
+
+.pestana {
+  padding: 7px 14px;
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  color: var(--texto-suave);
+  font-family: inherit;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: border-color .15s, color .15s;
+}
+
+.pestana:hover { color: var(--texto); }
+
+.pestana.activa {
+  border-color: var(--acento);
+  color: var(--acento);
+}
+
+.selector {
+  flex: 1;
+  min-width: 180px;
+  padding: 7px 12px;
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  color: var(--texto);
+  font-family: inherit;
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+
+.selector:focus-visible { outline: 2px solid var(--acento); }
 
 /* Noticias */
 .lista-noticias {
@@ -219,6 +285,7 @@ body[data-seccion="nin"] { --acento: var(--acento-nin); }
 /* Tema claro */
 @media (prefers-color-scheme: light) {
   :root {
+    color-scheme: light;
     --fondo: #f6f7f9;
     --fondo-tarjeta: #ffffff;
     --borde: #e1e4e9;

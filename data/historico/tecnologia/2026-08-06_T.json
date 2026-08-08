@@ -1,0 +1,62 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "06-08-2026 16:45",
+  "noticias": [
+    {
+      "titulo": "Google releva a la cúpula de su inteligencia artificial para plantar cara a OpenAI y Anthropic",
+      "resumen": "Sundar Pichai ha anunciado en una carta que Demis Hassabis deja la dirección ejecutiva de DeepMind para pasar a ser Chief Scientist de Alphabet, quedándose solo como presidente del laboratorio. Koray Kavukcuoglu, hasta ahora CTO de DeepMind, se convierte en el nuevo CEO y reportará directamente a Pichai, encargado de supervisar el desarrollo de Gemini 4 y la investigación de frontera. El movimiento se produce en paralelo a la salida de Jeff Dean para fundar su propia startup.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/google-cambia-jefes-inteligencia-artificial/",
+      "fecha": "05-08-2026 19:00"
+    },
+    {
+      "titulo": "Google Maps incorpora funciones agénticas: ya puede reservar hoteles y pedir comida por ti",
+      "resumen": "Google ha ampliado su función Ask Maps con capacidades agénticas que permiten pedir comida a domicilio a través de plataformas como Uber Eats, Square o Toast, y comparar y reservar hoteles directamente desde una consulta en lenguaje natural. La herramienta también puede sugerir planes como conciertos o espectáculos con enlaces de compra de entradas, y usará la Personal Intelligence de Google, con datos de Gmail y Calendar, para personalizar las respuestas. Por ahora solo está disponible en Estados Unidos.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+      "fecha": "06-08-2026 15:00"
+    },
+    {
+      "titulo": "NEO Semiconductor presenta NEO.AI, una plataforma de memoria para acabar con el cuello de botella de la IA",
+      "resumen": "NEO Semiconductor ha lanzado NEO.AI, una arquitectura que combina su tecnología de memoria en chip X-SRAM con su futura memoria de alta capacidad 3D X-DRAM para atacar lo que la compañía llama el 'muro de memoria de la IA'. El objetivo es aumentar la memoria en chip y la capacidad de HBM disponible para los modelos, ya que la fabricación tradicional de SRAM y DRAM está llegando a su límite de escalado frente al crecimiento de los modelos de IA.",
+      "fuente": "TechPowerUp",
+      "enlace": "https://www.techpowerup.com/351383/neo-semiconductor-launches-neo-ai-memory-platform",
+      "fecha": "06-08-2026 10:30"
+    },
+    {
+      "titulo": "Zoox empezará a cobrar por sus viajes en robotaxi en Las Vegas a partir del 10 de agosto",
+      "resumen": "La filial de Amazon ha recibido una exención de dos años de la NHTSA que le permite cobrar por trayectos en sus robotaxis sin volante ni pedales y desplegar hasta 2.500 vehículos. La tarifa se calculará según distancia y tiempo del trayecto y se mostrará antes de confirmar la reserva, sin cambios aunque el coche tome una ruta distinta. Zoox duplicará además los destinos disponibles en Las Vegas, incluyendo la Sphere, el T-Mobile Arena y el centro de convenciones.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/",
+      "fecha": "05-08-2026 22:40"
+    },
+    {
+      "titulo": "Un cohete Falcon 9 abandonado de SpaceX se estrella contra la Luna",
+      "resumen": "La segunda etapa de un Falcon 9 que en enero de 2025 lanzó la misión lunar Blue Ghost llevaba más de un año a la deriva por quedarse sin combustible, y el astrónomo Bill Gray predijo que impactaría en la Luna en la madrugada del 5 de agosto. El Very Large Telescope de Chile detectó una nube de sodio y litio de decenas de kilómetros que confirma el choque, aunque no pudo fotografiarse por ocurrir en la cara iluminada. La pieza, de unos 12 metros de largo y 4.000 kilos, impactó a unos 8.700 km/h.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2231420/space-x-falcon-9-rocket-moon-crash/",
+      "fecha": "06-08-2026 09:15"
+    },
+    {
+      "titulo": "Ford presenta Fathom, su nueva pickup eléctrica de menos de 30.000 dólares",
+      "resumen": "Ford ha desvelado Fathom, una pickup eléctrica que partirá de 28.350 dólares en su versión de batería de litio-hierro-fosfato de autonomía estándar, aunque la compañía aún no ha dado la cifra exacta de autonomía. Es el primer vehículo construido sobre la nueva plataforma Universal EV de Ford, pensada para abaratar costes de fabricación, y llegará a los concesionarios en otoño de 2027 tras revelarse por completo a principios de ese año.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350/",
+      "fecha": "06-08-2026 13:00"
+    },
+    {
+      "titulo": "Klaviyo compra Agency, la startup de IA para atención al cliente de Elias Torres",
+      "resumen": "Klaviyo ha adquirido Agency, startup de tres años fundada por el emprendedor en serie Elias Torres que había levantado 32 millones de dólares de fondos como Sequoia, Menlo Ventures y Felicis. Torres se incorpora a Klaviyo como director de producto y liderará al equipo de 25 personas de Agency para acelerar el desarrollo de los agentes de IA de la compañía, Composer y Customer Agent, apoyándose en los años de datos de clientes que maneja Klaviyo frente a rivales como Decagon o Sierra.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+      "fecha": "05-08-2026 20:15"
+    },
+    {
+      "titulo": "MacPaw se alía con Liquid AI para llevar inteligencia artificial local a su tienda de aplicaciones",
+      "resumen": "MacPaw ha integrado la tecnología de Liquid AI para crear Elix, un sistema de inferencia en el propio dispositivo, y una memoria local para su asistente Eney. Liquid AI adapta la arquitectura del modelo al hardware antes de entrenarlo para lograr la versión más eficiente posible funcionando sin conexión, y MacPaw pondrá esta tecnología a disposición de otros desarrolladores de su tienda junto a modelos en la nube de terceros, con un sistema de precios basado en créditos.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
+      "fecha": "05-08-2026 16:45"
+    }
+  ]
+}
