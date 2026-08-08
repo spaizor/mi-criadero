@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historico · Mi Criadero</title>
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body data-seccion="tec">
+  <header class="cabecera">
+    <a class="volver" href="index.html">← Inicio</a>
+    <h1>🗂 Historico</h1>
+    <p class="lema" id="fecha">Cargando…</p>
+  </header>
+
+  <main class="contenedor">
+    <div class="controles">
+      <div class="pestanas" id="pestanas"></div>
+      <select class="selector" id="turnos" aria-label="Dia y turno"></select>
+    </div>
+    <div id="noticias" class="lista-noticias"></div>
+  </main>
+
+  <footer class="pie">
+    <p>Se guardan los ultimos 90 dias.</p>
+  </footer>
+
+  <script src="assets/noticias.js"></script>
+  <script>
+    // Las noticias de cada turno se pintan con el mismo cargarNoticias() que
+    // usan las secciones: el formato del JSON archivado es identico al del dia.
+    // Aqui solo se elige que fichero cargar.
+
+    const DIAS = 90;
+    const SECCIONES = [
+      { id: 'tecnologia', acento: 'tec', nombre: '💻 Tecnologia' },
+      { id: 'nintendo', acento: 'nin', nombre: '🎮 Nintendo' }
+    ];
+
+    const elPestanas = document.getElementById('pestanas');
+    const elTurnos = document.getElementById('turnos');
+    const elNoticias = document.getElementById('noticias');
+    const elFecha = document.getElementById('fecha');
+
+    function fechaLegible(entrada) {
+      const [a, m, d] = entrada.fecha.split('-');
+      const turno = entrada.turno === 'M' ? 'mañana' : 'tarde';
+      return `${d}-${m}-${a} · ${turno}`;
+    }
+
+    function dentroDelLimite(entrada) {
+      const limite = new Date();
+      limite.setDate(limite.getDate() - DIAS);
+      return new Date(entrada.fecha + 'T00:00:00') >= limite;
+    }
+
+    function avisar(texto) {
+      elTurnos.hidden = true;
+      elFecha.textContent = '';
+      elNoticias.innerHTML = `<div class="aviso">${texto}</div>`;
+    }
+
+    async function cargarSeccion(seccion) {
+      document.body.dataset.seccion = seccion.acento;
+      for (const boton of elPestanas.children) {
+        boton.classList.toggle('activa', boton.dataset.id === seccion.id);
+      }
+
+      const base = `data/historico/${seccion.id}/`;
+      let indice;
+      try {
+        const resp = await fetch(base + 'indice.json?v=' + Date.now());
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        indice = await resp.json();
+      } catch (e) {
+        avisar('No se ha podido cargar el historico.<br>' +
+               'Si estas abriendo el archivo en local, usa un servidor web ' +
+               '(en GitHub Pages funciona directamente).');
+        return;
+      }
+
+      const entradas = (indice.entradas || []).filter(dentroDelLimite);
+      if (!entradas.length) {
+        avisar('Todavia no hay dias guardados en esta seccion.');
+        return;
+      }
+
+      elTurnos.hidden = false;
+      elTurnos.innerHTML = entradas
+        .map((e, i) => `<option value="${i}">${fechaLegible(e)}</option>`)
+        .join('');
+      elTurnos.onchange = () => cargarNoticias(base + entradas[elTurnos.value].fichero);
+      cargarNoticias(base + entradas[0].fichero);
+    }
+
+    SECCIONES.forEach((seccion) => {
+      const boton = document.createElement('button');
+      boton.className = 'pestana';
+      boton.dataset.id = seccion.id;
+      boton.textContent = seccion.nombre;
+      boton.onclick = () => cargarSeccion(seccion);
+      elPestanas.appendChild(boton);
+    });
+
+    const pedida = new URLSearchParams(location.search).get('seccion');
+    cargarSeccion(SECCIONES.find((s) => s.id === pedida) || SECCIONES[0]);
+  </script>
+</body>
+</html>

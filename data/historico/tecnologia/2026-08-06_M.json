@@ -1,0 +1,76 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "06-08-2026 11:30",
+  "noticias": [
+    {
+      "titulo": "Jeff Dean y otros investigadores clave dejan Google para fundar su propia startup",
+      "resumen": "Jeff Dean, en Google desde 1999, sale de la empresa junto a Sanjay Ghemawat, Quoc Le y Oriol Vinyals para crear Discovery Loop, una compania de beneficio publico centrada en acelerar la investigacion cientifica con IA. Ya ha levantado financiacion de Radical Ventures, Khosla Ventures, Kleiner Perkins, Lightspeed y Doerr Capital, con apoyo de la propia Alphabet. Su objetivo es automatizar ciclos experimentales completos.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+      "fecha": "05-08-2026 21:30"
+    },
+    {
+      "titulo": "Anthropic confirma que fabricara sus propios chips de IA para Claude",
+      "resumen": "Anthropic ha reconocido publicamente que esta formando un equipo para disenar chips propios optimizados para entrenar y ejecutar Claude. La compania mantendra una estrategia de multiples proveedores, siguiendo con NVIDIA, AMD, Amazon y Google. Previamente se habia informado de negociaciones con Samsung para fabricarlos en 2 nanometros.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/anthropic-confirma-que-planea-crear-sus-propios-chips-de-ia-para-claude/",
+      "fecha": "05-08-2026 17:00"
+    },
+    {
+      "titulo": "Meta lanza Muse Code, su agente de IA para grandes bases de codigo",
+      "resumen": "Meta ha presentado en beta Muse Code, un agente disenado para ayudar a programadores en tareas complejas dentro de repositorios grandes. El sistema planifica cambios, escribe codigo y valida resultados usando subagentes que trabajan en paralelo sin alterar el codigo existente.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "fecha": "05-08-2026 23:21"
+    },
+    {
+      "titulo": "DeepSeek lanza V4-Flash, el modelo de IA mas barato del mercado ahora mismo",
+      "resumen": "Segun Artificial Analysis, DeepSeek V4-Flash es el modelo conocido mas barato que existe: completar su bateria de pruebas de inteligencia costo apenas 3 centimos. Sus tarifas son de 0,14 dolares por millon de tokens de entrada y 0,28 de salida, unas 100 veces menos que Claude Fable 5. El truco esta en el rendimiento: 50 puntos en el indice de inteligencia y una tasa de alucinacion del 84%.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/deepseek-ha-lanzado-modelo-ia-100-veces-barato-que-fable-5-truco-esta-que-no-cuenta",
+      "fecha": "05-08-2026 15:05"
+    },
+    {
+      "titulo": "El Private Relay de Apple puede acabar revelando tu direccion IP",
+      "resumen": "Investigadores de seguridad han detectado que la funcion Private Relay, pensada para enmascarar la IP en Safari, tiene fugas por problemas en WebKit. El fallo se da sobre todo al autenticarse con passkeys, porque esas peticiones salen fuera del navegador y no quedan protegidas. Afecta a todos los navegadores de iOS que usan WebKit, incluidos los centrados en privacidad como OnionBrowser.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2231360/apple-private-relay-feature-could-reveal-your-ip-address/",
+      "fecha": "06-08-2026 08:06"
+    },
+    {
+      "titulo": "OpenAI pagara 3,2 millones y tendra tres anos de supervision del Departamento de Justicia",
+      "resumen": "OpenAI y su antigua filial Statsig han firmado un acuerdo con el DOJ estadounidense por supuestas practicas discriminatorias en contratacion. Pagaran 3,2 millones de dolares, incluida una multa de 1,2 millones, y quedaran bajo supervision durante tres anos. El DOJ sostiene que no hicieron esfuerzos significativos por contratar ciudadanos estadounidenses antes de patrocinar visados permanentes a empleados extranjeros.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/08/05/trumps-doj-gains-oversight-of-openais-green-card-employee-sponsorships/",
+      "fecha": "05-08-2026 23:05"
+    },
+    {
+      "titulo": "El Reddit clasico podria ser la proxima victima de su guerra contra el scraping de IA",
+      "resumen": "Reddit prepara cambios sin concretar en Old Reddit, la version clasica que lleva 21 anos en pie, como parte de su ofensiva contra el raspado de datos para IA. La compania tambien cerrara progresivamente su API publica y obligara a los desarrolladores a migrar a Devvit, su plataforma mas controlada. Ademas ampliara Rules Hub, su moderacion con IA llamada a sustituir a AutoMod.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2230544/old-reddit-could-be-the-next-casualty-of-reddits-war-on-ai-scraping/",
+      "fecha": "05-08-2026 18:46"
+    },
+    {
+      "titulo": "Moove capta 250 millones para convertirse en la espina dorsal de los robotaxis",
+      "resumen": "Moove ha cerrado una Serie C de 250 millones de dolares con una valoracion de 2.100 millones, liderada por Mubadala. Fundada en Nigeria en 2020 y ahora con sede en Dubai, opera 42.000 vehiculos en 14 paises y se expande hacia la gestion de flotas autonomas. Ya gestiona robotaxis de Waymo en Phoenix, Miami, Las Vegas y proximamente Londres.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/",
+      "fecha": "05-08-2026 22:50"
+    },
+    {
+      "titulo": "Gmail eliminara la funcion Enviar como para cuentas de terceros en enero de 2027",
+      "resumen": "Google retirara la opcion Enviar como para direcciones externas, de modo que ya no se podra escribir desde cuentas de Outlook o Yahoo a traves de la web y la app de Gmail. La compania justifica la decision alegando que la funcion exige recursos de mantenimiento desproporcionados.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/google-fecha-eliminar-funcion-clave-gmail/",
+      "fecha": "05-08-2026 12:53"
+    },
+    {
+      "titulo": "Samsung prepara el Galaxy Aero, un reloj que aguantaria una semana sin cargar",
+      "resumen": "Samsung estaria desarrollando el Galaxy Aero, un smartwatch que usaria RTOS en lugar de Wear OS para priorizar la eficiencia y llegar a una semana de autonomia. Se situaria entre el Galaxy Fit 4 y el Galaxy Watch FE, con funciones basicas y sin soporte para aplicaciones adicionales.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/samsung-galaxy-aero-smartwatch-sin-wear-os/",
+      "fecha": "05-08-2026 20:30"
+    }
+  ]
+}

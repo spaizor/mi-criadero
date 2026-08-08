@@ -29,14 +29,48 @@ automatica rompa el diseno.
 index.html            portada con los botones de seccion
 tecnologia.html       seccion (carga data/tecnologia.json)
 nintendo.html         seccion (carga data/nintendo.json)
+historico.html        dias anteriores (carga data/historico/)
 assets/estilo.css     estilo compartido, claro/oscuro, responsive
 assets/noticias.js    hace fetch del JSON y pinta las tarjetas
 data/*.json           <-- lo unico que tocan las rutinas
+data/historico/       <-- y su copia por turno, ver mas abajo
 ```
 
 Al anadir una seccion nueva: copiar un HTML de seccion, cambiar el titulo, el
 `data-seccion` del `<body>` (define el color de acento en el CSS) y la ruta del
-JSON, y anadir su tarjeta en `index.html`.
+JSON, y anadir su tarjeta en `index.html`. Para que salga tambien en el
+historico hay que anadirla al array `SECCIONES` de `historico.html` y crear su
+`data/historico/<seccion>/indice.json`.
+
+## Historico
+
+Cada ejecucion guarda una copia de su JSON, ademas de en `data/<seccion>.json`,
+en `data/historico/<seccion>/AAAA-MM-DD_<M|T>.json` (M = ejecucion de la manana,
+T = de la tarde), y anade una entrada al principio de
+`data/historico/<seccion>/indice.json`:
+
+```json
+{
+  "seccion": "tecnologia",
+  "entradas": [
+    { "fecha": "2026-08-08", "turno": "M",
+      "actualizado": "08-08-2026 06:15", "fichero": "2026-08-08_M.json" }
+  ]
+}
+```
+
+Tres decisiones que no hay que deshacer sin pensarlo:
+
+- **Se escriben dos ficheros nuevos, no se renombra el anterior.** Renombrar
+  primero y escribir despues deja una ventana en la que `data/<seccion>.json`
+  no existe: si la rutina falla ahi, la web se queda rota.
+- **Un indice por seccion**, no uno comun: asi cada rutina toca solo ficheros
+  suyos y las dos no pueden pisarse.
+- **Las rutinas no borran nada.** El historico solo crece; el limite de 90 dias
+  lo aplica `historico.html` al pintar, no un borrado automatico.
+
+El nombre del fichero va en orden ANO-MES-DIA (ordena solo alfabeticamente),
+al reves que las fechas de dentro del JSON, que van en DD-MM-AAAA.
 
 ## Formato de los JSON de contenido
 
