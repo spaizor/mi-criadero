@@ -13,3 +13,7 @@ desktop.ini
 # Temporales
 *.log
 *.tmp
+
+# Python (solo scripts/noticias.py; no hay proyecto Python aqui)
+__pycache__/
+*.pyc
