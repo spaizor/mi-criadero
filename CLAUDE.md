@@ -72,6 +72,36 @@ Tres decisiones que no hay que deshacer sin pensarlo:
 El nombre del fichero va en orden ANO-MES-DIA (ordena solo alfabeticamente),
 al reves que las fechas de dentro del JSON, que van en DD-MM-AAAA.
 
+## scripts/noticias.py
+
+Todo el trabajo mecanico de las rutinas. La idea: una instruccion en el prompt
+se paga en cada ejecucion y ademas puede olvidarse; un script no. Solo usa la
+biblioteca estandar, porque el entorno de las rutinas no lo controlamos.
+
+```
+python3 scripts/noticias.py anteriores <seccion>   lo ya publicado, para no repetirlo
+python3 scripts/noticias.py validar    <seccion>   revisa el JSON recien escrito
+python3 scripts/noticias.py archivar   <seccion>   copia del turno + indice
+python3 scripts/noticias.py publicar   "<mensaje>" commit de data/ y push
+```
+
+- `validar` distingue **ERROR** (algo objetivamente mal: sale con codigo 1) de
+  **AVISO** (sospechoso pero no invalido, normalmente haber consultado pocos
+  medios). Los textos de error estan escritos para que se entiendan solos:
+  ahi es donde viven ahora las explicaciones largas que antes ocupaban sitio
+  en el prompt, y solo se pagan el dia que algo falla.
+- `validar` compara con los turnos anteriores del historico **excluyendo el
+  turno propio**; si no, una ejecucion ya archivada se marca entera como
+  repetida.
+- `archivar` es idempotente: repetir el mismo turno reescribe su fichero y
+  actualiza su entrada, no anade una nueva. Nunca borra nada.
+- `publicar` hace `git add` solo de `data/`. Asi el HTML y el CSS no pueden
+  acabar en un commit automatico aunque una ejecucion los toque por error.
+
+Los limites de reparto (maximo por medio, minimo de medios) estan en las
+constantes de arriba del script y **repiten los del prompt**: si se cambian en
+un sitio, hay que cambiarlos en el otro.
+
 ## Formato de los JSON de contenido
 
 Cada seccion tiene dos niveles: **5 destacadas** que la rutina abre y lee, y
