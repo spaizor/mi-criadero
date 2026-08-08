@@ -29,9 +29,11 @@ automatica rompa el diseno.
 index.html            portada con los botones de seccion
 tecnologia.html       seccion (carga data/tecnologia.json)
 nintendo.html         seccion (carga data/nintendo.json)
+ofertas.html          seccion (carga data/ofertas.json)
 historico.html        dias anteriores (carga data/historico/)
 assets/estilo.css     estilo compartido, claro/oscuro, responsive
 assets/noticias.js    hace fetch del JSON y pinta las tarjetas
+assets/ofertas.js     lo mismo para la seccion de precios
 data/*.json           <-- lo unico que tocan las rutinas
 data/historico/       <-- y su copia por turno, ver mas abajo
 ```
@@ -176,6 +178,41 @@ Si los dos arrays estan vacios, la pagina muestra un aviso de "todavia no hay
 noticias" en lugar de romperse. `assets/noticias.js` acepta ademas el formato
 antiguo (un unico array `noticias`) como respaldo, para que la web no se quede
 en blanco entre un cambio de formato y la primera ejecucion de la rutina.
+
+## La seccion de Ofertas
+
+No busca ofertas: sigue el precio de una lista cerrada de productos, que vive
+en `scripts/productos.json`. `scripts/precios.py consultar` abre cada ficha,
+lee el precio y escribe `data/ofertas.json`. La rutina no elige nada, solo
+lanza el script: por eso esta seccion cuesta una fraccion de lo que cuestan las
+de noticias.
+
+El precio **no se saca leyendo la pagina**, sino del bloque `schema.org/Product`
+que las tiendas incrustan para Google. Las dos formas conviven y hay que cubrir
+las dos: GAME lo publica en una etiqueta `<script type="application/ld+json">`
+indentada, y MediaMarkt comprimido dentro del estado interno de la pagina, sin
+etiqueta. Como una ficha trae ademas variantes y productos relacionados con sus
+propios precios, se elige el bloque que contiene la referencia numerica de la
+URL pedida.
+
+Comprobado el 08-08-2026: **GAME y MediaMarkt** dejan pasar a un script. **El
+Corte Ingles, Fnac, Carrefour e Idealo** responden 403. **Amazon queda fuera a
+proposito**: bloquea scripts y su normativa lo prohibe. Antes de anadir una
+tienda nueva al catalogo hay que pasarla por `precios.py probar <url>`.
+
+Tres decisiones sobre no mentir en los precios:
+
+- **Si una tienda no responde se conserva su ultimo precio** marcado como
+  `viejo`, y la web avisa. Borrarlo dejaria un hueco; inventarlo seria peor.
+- **`disponible` puede ser `null`**, que no es lo mismo que `false`. GAME no
+  declara el stock: darlo por agotado seria publicar algo falso.
+- **Se guarda el vendedor cuando la ficha lo dice.** En el marketplace de
+  MediaMarkt el precio mas bajo suele ser de un tercero, no de la tienda.
+
+El minimo historico vive dentro de `data/ofertas.json` y lo actualiza el script
+comparando con la ejecucion anterior. Esta seccion **no usa `data/historico/`**,
+y por eso `publicar` solo exige copia archivada a las secciones que tienen
+carpeta ahi.
 
 ## Publicacion
 

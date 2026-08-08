@@ -1,0 +1,37 @@
+{
+  "seccion": "ofertas",
+  "actualizado": "08-08-2026 17:19",
+  "productos": [
+    {
+      "id": "star-fox-switch-2",
+      "nombre": "Star Fox",
+      "plataforma": "Nintendo Switch 2",
+      "precios": [
+        {
+          "tienda": "MediaMarkt",
+          "precio": 50.9,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-star-fox-1665418.html",
+          "consultado": "08-08-2026 17:19",
+          "minimo": 50.9,
+          "minimo_fecha": "08-08-2026",
+          "estado": "ok"
+        },
+        {
+          "tienda": "GAME",
+          "precio": 59.99,
+          "moneda": "EUR",
+          "disponible": null,
+          "vendedor": null,
+          "enlace": "https://www.game.es/star-fox-nintendo-switch-2-261234",
+          "consultado": "08-08-2026 17:19",
+          "minimo": 59.99,
+          "minimo_fecha": "08-08-2026",
+          "estado": "ok"
+        }
+      ]
+    }
+  ]
+}

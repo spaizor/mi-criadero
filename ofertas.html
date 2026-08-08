@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ofertas · Mi Criadero</title>
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body data-seccion="ofe">
+  <header class="cabecera">
+    <a class="volver" href="index.html">← Inicio</a>
+    <h1>🏷 Ofertas</h1>
+    <p class="lema" id="fecha">Cargando…</p>
+  </header>
+
+  <main class="contenedor">
+    <div id="ofertas" class="lista-noticias"></div>
+    <p class="nota-precios">
+      El precio es el que tenia la ficha en el momento de la consulta. Puede
+      haber cambiado: comprueba siempre en la tienda antes de comprar.
+    </p>
+  </main>
+
+  <footer class="pie">
+    <p>Actualizado automaticamente.</p>
+  </footer>
+
+  <script src="assets/ofertas.js"></script>
+  <script>cargarOfertas('data/ofertas.json');</script>
+</body>
+</html>

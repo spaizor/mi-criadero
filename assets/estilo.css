@@ -8,6 +8,7 @@
   --acento: #4f9cf9;
   --acento-tec: #4f9cf9;
   --acento-nin: #e60012;
+  --acento-ofe: #2fbf71;
 }
 
 * { box-sizing: border-box; }
@@ -23,6 +24,7 @@ body {
 
 body[data-seccion="tec"] { --acento: var(--acento-tec); }
 body[data-seccion="nin"] { --acento: var(--acento-nin); }
+body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 
 /* Cabecera */
 .cabecera {
@@ -87,6 +89,7 @@ body[data-seccion="nin"] { --acento: var(--acento-nin); }
 
 .tarjeta-seccion.tec:hover { border-color: var(--acento-tec); }
 .tarjeta-seccion.nin:hover { border-color: var(--acento-nin); }
+.tarjeta-seccion.ofe:hover { border-color: var(--acento-ofe); }
 
 .tarjeta-seccion .icono { font-size: 2rem; }
 .tarjeta-seccion .titulo { font-size: 1.2rem; font-weight: 600; }
@@ -261,6 +264,100 @@ body[data-seccion="nin"] { --acento: var(--acento-nin); }
   margin-top: 3px;
   font-size: 0.8rem;
   color: var(--texto-suave);
+}
+
+/* Ofertas: un bloque por producto con una fila por tienda */
+.producto {
+  padding: 18px 20px;
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-left: 3px solid var(--acento);
+  border-radius: 10px;
+}
+
+.producto h2 {
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.35;
+}
+
+.producto .plataforma {
+  margin: 2px 0 0;
+  color: var(--texto-suave);
+  font-size: 0.82rem;
+}
+
+.lista-precios {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.precio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  padding: 10px 0;
+  border-top: 1px solid var(--borde);
+}
+
+.precio .tienda {
+  flex: 1;
+  min-width: 120px;
+  font-size: 0.95rem;
+}
+
+.precio .tienda a {
+  color: var(--texto);
+  text-decoration: none;
+}
+
+.precio .tienda a:hover {
+  color: var(--acento);
+  text-decoration: underline;
+}
+
+.precio .importe {
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.precio.destacado .importe { color: var(--acento); }
+
+.precio .importe.sin-dato {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--texto-suave);
+}
+
+.precio .detalles {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  align-items: center;
+  font-size: 0.78rem;
+  color: var(--texto-suave);
+}
+
+.etiqueta {
+  padding: 2px 8px;
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+}
+
+.etiqueta.barato { border-color: var(--acento); color: var(--acento); }
+.etiqueta.agotado, .etiqueta.viejo { border-style: dashed; }
+
+/* El aviso de que el precio puede haber cambiado no debe pasar desapercibido,
+   pero tampoco competir con los precios */
+.nota-precios {
+  margin: 18px 0 0;
+  color: var(--texto-suave);
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .aviso {
