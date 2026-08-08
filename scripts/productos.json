@@ -1,0 +1,43 @@
+{
+  "_instrucciones": {
+    "que_es": "Catalogo cerrado de productos cuyo precio se sigue en la seccion de Ofertas. Lo lee scripts/precios.py, que consulta cada URL y escribe data/ofertas.json.",
+    "regla_principal": "Esto no busca ofertas: consulta EXACTAMENTE estas fichas y ninguna mas. Si un producto no esta aqui, no sale en la web.",
+    "como_anadir_un_producto": [
+      "Abrir la ficha del producto en la tienda y copiar su URL SIN los parametros de seguimiento (todo lo que va detras de '?').",
+      "Comprobarla con: python3 scripts/precios.py probar <url>",
+      "Si devuelve el nombre y el precio correctos, anadir el bloque aqui.",
+      "Cada producto puede tener varias tiendas; se comparan entre si en la web."
+    ],
+    "tiendas_que_funcionan": {
+      "MediaMarkt": "Si. El precio viene del bloque Product incrustado en la pagina.",
+      "GAME": "Si. Publica un bloque Product con AggregateOffer.",
+      "El Corte Ingles, Fnac, Carrefour": "No: devuelven 403 a cualquier script.",
+      "Idealo": "No: devuelve 403.",
+      "Amazon": "No se usa: bloquea scripts y su normativa lo prohibe."
+    },
+    "campos": {
+      "id": "Identificador corto en minusculas. No se muestra; sirve para conservar el minimo historico entre ejecuciones aunque cambie el nombre.",
+      "nombre": "Nombre del juego tal cual se quiere ver en la web.",
+      "plataforma": "Consola o formato, para distinguir ediciones.",
+      "tiendas": "Lista de fichas. 'tienda' es el nombre que se muestra; 'url' la ficha exacta."
+    },
+    "verificado_el": "08-08-2026"
+  },
+  "productos": [
+    {
+      "id": "star-fox-switch-2",
+      "nombre": "Star Fox",
+      "plataforma": "Nintendo Switch 2",
+      "tiendas": [
+        {
+          "tienda": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-star-fox-1665418.html"
+        },
+        {
+          "tienda": "GAME",
+          "url": "https://www.game.es/star-fox-nintendo-switch-2-261234"
+        }
+      ]
+    }
+  ]
+}

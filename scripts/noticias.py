@@ -582,6 +582,10 @@ def falta_archivar(seccion):
     actual = ruta_actual(seccion)
     if not actual.exists():
         return None
+    if not carpeta_historico(seccion).exists():
+        # No todas las secciones llevan historico: ofertas, por ejemplo, guarda
+        # su minimo dentro del propio JSON. Sin carpeta no hay nada que exigir.
+        return None
     datos = leer_json(actual)
     try:
         fecha, turno, _ = partir_actualizado(str(datos.get("actualizado", "")))
