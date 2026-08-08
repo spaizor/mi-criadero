@@ -79,6 +79,7 @@ se paga en cada ejecucion y ademas puede olvidarse; un script no. Solo usa la
 biblioteca estandar, porque el entorno de las rutinas no lo controlamos.
 
 ```
+python3 scripts/noticias.py candidatos <seccion>   titulares nuevos, sacados de los RSS
 python3 scripts/noticias.py anteriores <seccion>   lo ya publicado, para no repetirlo
 python3 scripts/noticias.py validar    <seccion>   revisa el JSON recien escrito
 python3 scripts/noticias.py archivar   <seccion>   copia del turno + indice
@@ -97,10 +98,45 @@ python3 scripts/noticias.py publicar   "<mensaje>" commit de data/ y push
   actualiza su entrada, no anade una nueva. Nunca borra nada.
 - `publicar` hace `git add` solo de `data/`. Asi el HTML y el CSS no pueden
   acabar en un commit automatico aunque una ejecucion los toque por error.
+  Antes de hacer commit comprueba que cada seccion tocada tiene su copia en el
+  historico: publicar sin archivar deja un hueco que ya no se puede rellenar,
+  porque el JSON viejo se ha sobrescrito.
+- `publicar` empuja con `git push origin HEAD:main`, no `origin main`. Las
+  rutinas trabajan a veces con HEAD desacoplado, y ahi `origin main` empuja la
+  rama local vieja; si ademas coincide con la remota, git responde "up to date"
+  y da por publicado un commit que no ha subido. Despues del push compara el
+  commit local con `origin/main` para no fiarse del codigo de salida.
 
 Los limites de reparto (maximo por medio, minimo de medios) estan en las
 constantes de arriba del script y **repiten los del prompt**: si se cambian en
-un sitio, hay que cambiarlos en el otro.
+un sitio, hay que cambiarlos en el otro. Los minimos son **por turno**: el de
+tarde solo cubre desde la ejecucion de la manana, asi que exigirle lo mismo que
+al de manana solo consigue que se rellene con guias y ofertas.
+
+## scripts/medios.json y el comando `candidatos`
+
+`medios.json` es la lista de medios por seccion, con su RSS. **No esta en
+`data/`** a proposito: ahi lo publicaria `publicar` si una ejecucion lo tocara
+por error. Solo se usan los medios con `"comprobado": true` y `feed` no nulo;
+el resto se ignoran, asi que un medio roto nunca rompe una ejecucion.
+
+`candidatos` descarga esos feeds y devuelve, en JSON, lo publicado **desde el
+turno anterior** (fecha que saca del indice del historico), ya sin lo repetido
+ni lo que huele a guia u oferta. De ahi salen los titulares: titulo, enlace y
+fecha vienen del feed, no del criterio del modelo, que es justo donde antes se
+inventaban las horas. El campo se llama `titulo_original` para que se note si
+alguien lo copia sin traducir.
+
+Las lineas que empiezan por `#` son el parte de la descarga y hay que leerlas:
+
+- `FEED CAIDO <medio>`: no ha respondido esta vez. Reintentar suele bastar.
+- `SIN FEED <medio>`: no tiene RSS utilizable y hay que abrirlo a mano. Ahora
+  mismo son Vandal (su servidor corta la conexion a los scripts aunque el feed
+  funcione en un navegador) y 3DJuegos (no publica RSS).
+
+La lista es el **minimo**, no el techo: si un dia da poco, se busca ademas por
+fuera. Y `candidatos` no cubre las 5 destacadas, que siguen exigiendo abrir y
+leer el articulo.
 
 ## Formato de los JSON de contenido
 

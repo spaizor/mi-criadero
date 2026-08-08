@@ -1,0 +1,183 @@
+{
+  "_instrucciones": {
+    "que_es": "Lista de medios que las rutinas de noticias consultan en cada seccion. Lo lee scripts/noticias.py: 'candidatos' descarga estos feeds y 'validar' saca de aqui que medios son espanoles y cuantos se esperan.",
+    "regla_principal": "Solo se usan los medios con 'comprobado': true y 'feed' distinto de null. El resto se ignoran, asi que un medio roto no rompe la ejecucion.",
+    "que_hay_que_completar": [
+      "Rellenar el campo 'feed' de los medios que lo tienen a null.",
+      "Poner 'comprobado': true SOLO tras abrir la URL y ver que devuelve XML de RSS o Atom con noticias de los ultimos dias.",
+      "Se pueden anadir medios nuevos siguiendo el mismo formato."
+    ],
+    "reglas": [
+      "'feed' tiene que ser la URL de un RSS o Atom (XML), no la portada del medio ni una pagina HTML.",
+      "Si un medio no tiene RSS publico, dejar 'feed' en null y explicar en 'nota' que se ha probado.",
+      "Preferir el feed general de la seccion sobre feeds tematicos o de una sola etiqueta.",
+      "No inventar URLs: si no se puede comprobar, dejar 'comprobado' en false.",
+      "No cambiar el campo 'nombre': ese texto es el que aparece publicado en la web como fuente.",
+      "'idioma' es 'es' o 'en'. Cada seccion necesita al menos un medio en 'es' comprobado.",
+      "Mantener el fichero como JSON valido, sin comentarios y con la misma estructura."
+    ],
+    "campos": {
+      "nombre": "Nombre del medio tal cual se publica en la web. No se traduce ni se abrevia.",
+      "web": "Portada del medio. Sirve de respaldo si el feed falla.",
+      "feed": "URL del RSS o Atom. null si no se conoce.",
+      "idioma": "'es' o 'en'.",
+      "comprobado": "true solo si se ha abierto el feed y trae noticias recientes.",
+      "nota": "Opcional. Avisos: feed lento, hay que filtrar por tema, codificacion rara, etc."
+    },
+    "verificado_el": "08-08-2026"
+  },
+  "secciones": {
+    "tecnologia": {
+      "medios": [
+        {
+          "nombre": "Xataka",
+          "web": "https://www.xataka.com/",
+          "feed": "https://www.xataka.com/feedburner.xml",
+          "idioma": "es",
+          "comprobado": true,
+          "nota": ""
+        },
+        {
+          "nombre": "Genbeta",
+          "web": "https://www.genbeta.com/",
+          "feed": "https://www.genbeta.com/index.xml",
+          "idioma": "es",
+          "comprobado": false,
+          "nota": "El feed responde, pero su ultima entrada es del 31-12-2025: el medio parece parado. Se queda fuera hasta que vuelva a publicar."
+        },
+        {
+          "nombre": "Hipertextual",
+          "web": "https://hipertextual.com/",
+          "feed": "https://hipertextual.com/feed",
+          "idioma": "es",
+          "comprobado": true,
+          "nota": ""
+        },
+        {
+          "nombre": "ADSLZone",
+          "web": "https://www.adslzone.net/",
+          "feed": "https://www.adslzone.net/feed/",
+          "idioma": "es",
+          "comprobado": true,
+          "nota": "Publica muchas guias y tutoriales mezclados con las noticias."
+        },
+        {
+          "nombre": "ComputerHoy",
+          "web": "https://computerhoy.20minutos.es/",
+          "feed": "https://computerhoy.20minutos.es/rss",
+          "idioma": "es",
+          "comprobado": true,
+          "nota": "Feed largo (mas de 70 entradas) y con bastantes ofertas y guias."
+        },
+        {
+          "nombre": "TechCrunch",
+          "web": "https://techcrunch.com/",
+          "feed": "https://techcrunch.com/feed/",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": ""
+        },
+        {
+          "nombre": "The Verge",
+          "web": "https://www.theverge.com/",
+          "feed": "https://www.theverge.com/rss/index.xml",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Es Atom, no RSS: las entradas van en <entry> y la fecha en <updated>."
+        },
+        {
+          "nombre": "Ars Technica",
+          "web": "https://arstechnica.com/",
+          "feed": "https://feeds.arstechnica.com/arstechnica/index",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": ""
+        },
+        {
+          "nombre": "Engadget",
+          "web": "https://www.engadget.com/",
+          "feed": "https://www.engadget.com/rss.xml",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": ""
+        },
+        {
+          "nombre": "Wired",
+          "web": "https://www.wired.com/",
+          "feed": "https://www.wired.com/feed/rss",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": ""
+        }
+      ]
+    },
+    "nintendo": {
+      "medios": [
+        {
+          "nombre": "Nintenderos",
+          "web": "https://www.nintenderos.com/",
+          "feed": "https://www.nintenderos.com/feed",
+          "idioma": "es",
+          "comprobado": true,
+          "nota": ""
+        },
+        {
+          "nombre": "Vandal",
+          "web": "https://vandal.elespanol.com/",
+          "feed": "https://vandal.elespanol.com/rss/",
+          "idioma": "es",
+          "comprobado": false,
+          "nota": "El feed existe y funciona en un navegador, pero el servidor corta la conexion a los scripts. Hay que abrirlo con la herramienta de fetch, no con 'candidatos'."
+        },
+        {
+          "nombre": "3DJuegos",
+          "web": "https://www.3djuegos.com/",
+          "feed": null,
+          "idioma": "es",
+          "comprobado": false,
+          "nota": "Sin RSS publico: /rss/, /rss.xml, /feed/ y /noticias/rss/ dan 404 o cortan la conexion."
+        },
+        {
+          "nombre": "Areajugones",
+          "web": "https://areajugones.sport.es/",
+          "feed": "https://areajugones.sport.es/feed/",
+          "idioma": "es",
+          "comprobado": true,
+          "nota": "Feed general de videojuegos con muchas ofertas: hay que filtrar por Nintendo."
+        },
+        {
+          "nombre": "HobbyConsolas",
+          "web": "https://www.hobbyconsolas.com/",
+          "feed": "https://www.hobbyconsolas.com/rss",
+          "idioma": "es",
+          "comprobado": true,
+          "nota": "Feed general de videojuegos: hay que filtrar por Nintendo."
+        },
+        {
+          "nombre": "Nintendo Life",
+          "web": "https://www.nintendolife.com/",
+          "feed": "https://www.nintendolife.com/feeds/latest",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": ""
+        },
+        {
+          "nombre": "Nintendo Everything",
+          "web": "https://nintendoeverything.com/",
+          "feed": "https://nintendoeverything.com/feed/",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Servidor lento: a veces hace falta reintentar."
+        },
+        {
+          "nombre": "Eurogamer",
+          "web": "https://www.eurogamer.net/",
+          "feed": "https://www.eurogamer.net/feed",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Feed general de videojuegos (100 entradas): hay que filtrar por Nintendo."
+        }
+      ]
+    }
+  }
+}

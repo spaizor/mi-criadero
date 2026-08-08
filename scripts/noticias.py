@@ -4,6 +4,7 @@
 Todo lo que no requiere criterio vive aqui y no en el prompt: una instruccion
 del prompt se paga en cada ejecucion, y ademas puede olvidarse. Un script no.
 
+    python3 scripts/noticias.py candidatos <seccion> [--horas N] [--por-medio N]
     python3 scripts/noticias.py anteriores <seccion> [--turnos N]
     python3 scripts/noticias.py validar    <seccion>
     python3 scripts/noticias.py archivar   <seccion>
@@ -17,12 +18,19 @@ import json
 import re
 import subprocess
 import sys
+import time
+import urllib.error
+import urllib.request
+import xml.etree.ElementTree as ET
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
+from html import unescape
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 HISTORICO = RAIZ / "data" / "historico"
+MEDIOS = Path(__file__).resolve().parent / "medios.json"
 
 # Turnos del historico que se miran para detectar noticias ya publicadas.
 # 4 son dos dias: repetir algo de anteayer tambien es repetir.
@@ -31,17 +39,29 @@ TURNOS_ANTERIORES = 4
 FORMATO_FECHA_HORA = "%d-%m-%Y %H:%M"
 FORMATO_FECHA = "%d-%m-%Y"
 
-MEDIOS_ESPANOLES = {
-    "tecnologia": {"xataka", "genbeta", "hipertextual", "computerhoy",
-                   "computer hoy", "adslzone"},
-    "nintendo": {"nintenderos", "vandal", "3djuegos", "areajugones",
-                 "hobbyconsolas"},
-}
-
 # Limites de reparto. Son los del prompt: si se cambian ahi, cambiarlos aqui.
 MAX_DESTACADAS_POR_MEDIO = 2
 MAX_TITULARES_POR_MEDIO = 5
-MIN_MEDIOS_TITULARES = 5
+
+# Minimos por turno. El turno de tarde solo puede coger lo publicado desde la
+# manana, asi que exigirle lo mismo solo consigue que se rellene con paja.
+MIN_TITULARES = {"M": 15, "T": 8}
+MIN_MEDIOS_TITULARES = {"M": 5, "T": 3}
+
+# Horas hacia atras que mira 'candidatos' cuando no hay turno anterior.
+HORAS_POR_DEFECTO = 18
+
+AGENTE = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+          "(KHTML, like Gecko) Chrome/120.0 Safari/537.36")
+
+# Titulares que no son noticia: guias, ofertas, listas y analisis. Se descartan
+# antes de ensenarlos para que no acaben de relleno un dia flojo.
+RUIDO = re.compile(
+    r"^(como |cómo |guia|guía|analisis|análisis|review|top \d|los mejores|"
+    r"las mejores|mejores |ofertas|chollo|ver online|donde ver|dónde ver)"
+    r"|oferta|descuento|rebajad|precio m[ií]nimo|cupon|cupón",
+    re.IGNORECASE,
+)
 
 
 def ruta_actual(seccion):
@@ -77,19 +97,224 @@ def leer_indice(seccion):
     return leer_json(ruta)
 
 
+def zona_espanola():
+    """Europe/Madrid, o el desfase de verano/invierno si no hay tzdata."""
+    try:
+        from zoneinfo import ZoneInfo
+        return ZoneInfo("Europe/Madrid")
+    except Exception:
+        mes = datetime.now().month
+        return timezone(timedelta(hours=2 if 4 <= mes <= 10 else 1))
+
+
+ESPANA = zona_espanola()
+
+
+def leer_medios(seccion, solo_utiles=True):
+    """Medios de la seccion. Utiles = con feed y comprobado; el resto, a mano."""
+    if not MEDIOS.exists():
+        return []
+    secciones = leer_json(MEDIOS).get("secciones", {})
+    medios = secciones.get(seccion, {}).get("medios", [])
+    if not solo_utiles:
+        return medios
+    return [m for m in medios if m.get("feed") and m.get("comprobado")]
+
+
+def medios_espanoles(seccion):
+    # Todos, no solo los que tienen feed: que a un medio le falle el RSS no lo
+    # vuelve extranjero, y sus noticias se pueden haber sacado a mano.
+    return {m["nombre"].strip().lower()
+            for m in leer_medios(seccion, solo_utiles=False)
+            if m.get("idioma") == "es"}
+
+
+def publicados_antes(seccion, turnos=TURNOS_ANTERIORES, excluir=(None, None)):
+    """Enlaces ya publicados en los ultimos turnos -> fecha en que salieron."""
+    previos = [e for e in leer_indice(seccion).get("entradas", [])
+               if (e.get("fecha"), e.get("turno")) != excluir]
+    vistos = {}
+    for entrada in previos[:turnos]:
+        ruta = carpeta_historico(seccion) / entrada["fichero"]
+        if not ruta.exists():
+            continue
+        datos = leer_json(ruta)
+        for clave in ("destacadas", "titulares", "noticias"):
+            for noticia in datos.get(clave, []):
+                if noticia.get("enlace"):
+                    vistos.setdefault(noticia["enlace"], entrada["fecha"])
+    return vistos
+
+
+# --------------------------------------------------------------------------
+# candidatos: descarga los feeds de medios.json y saca lo publicado desde el
+# turno anterior. Es la materia prima de los titulares: titulo, enlace y fecha
+# salen del feed, no del criterio de nadie.
+# --------------------------------------------------------------------------
+
+def descargar(url, intentos=3):
+    # Varios medios espanoles cortan la conexion al primer intento y responden
+    # al segundo, asi que se espera un poco entre intentos en vez de insistir.
+    cabeceras = {
+        "User-Agent": AGENTE,
+        "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8",
+    }
+    for intento in range(1, intentos + 1):
+        try:
+            peticion = urllib.request.Request(url, headers=cabeceras)
+            with urllib.request.urlopen(peticion, timeout=25) as respuesta:
+                return respuesta.read(), None
+        except Exception as e:  # red, timeout, 404, certificados...
+            if intento == intentos:
+                return None, str(e)
+            time.sleep(2 * intento)
+    return None, "sin intentos"
+
+
+def sin_espacio(tag):
+    return tag.rsplit("}", 1)[-1]
+
+
+def texto_hijo(elemento, nombre):
+    for hijo in elemento:
+        if sin_espacio(hijo.tag) == nombre and hijo.text:
+            return unescape(hijo.text).strip()
+    return ""
+
+
+def enlace_de(elemento):
+    """RSS lo pone como texto; Atom, en el atributo href de <link rel=alternate>."""
+    directo = texto_hijo(elemento, "link")
+    if directo:
+        return directo
+    for hijo in elemento:
+        if sin_espacio(hijo.tag) == "link":
+            rel = hijo.attrib.get("rel", "alternate")
+            if rel == "alternate" and hijo.attrib.get("href"):
+                return hijo.attrib["href"]
+    return ""
+
+
+def fecha_de(elemento):
+    for nombre in ("pubDate", "published", "updated", "date"):
+        valor = texto_hijo(elemento, nombre)
+        if not valor:
+            continue
+        try:
+            momento = parsedate_to_datetime(valor)
+        except (TypeError, ValueError):
+            try:
+                momento = datetime.fromisoformat(valor.replace("Z", "+00:00"))
+            except ValueError:
+                continue
+        if momento.tzinfo is None:
+            momento = momento.replace(tzinfo=timezone.utc)
+        return momento.astimezone(ESPANA)
+    return None
+
+
+def entradas_del_feed(contenido):
+    raiz = ET.fromstring(contenido)
+    piezas = [e for e in raiz.iter() if sin_espacio(e.tag) in ("item", "entry")]
+    salida = []
+    for pieza in piezas:
+        titulo = texto_hijo(pieza, "title")
+        enlace = enlace_de(pieza)
+        if titulo and enlace:
+            salida.append((titulo, enlace, fecha_de(pieza)))
+    return salida
+
+
+def cmd_candidatos(args):
+    medios = leer_medios(args.seccion)
+    if not medios:
+        print(f"ERROR: no hay medios comprobados para '{args.seccion}' en "
+              f"scripts/medios.json. Repasa ese fichero.")
+        return 1
+
+    ahora = datetime.now(ESPANA)
+    if args.horas:
+        corte = ahora - timedelta(hours=args.horas)
+        desde = f"ultimas {args.horas} h"
+    else:
+        entradas = leer_indice(args.seccion).get("entradas", [])
+        previo = validar_fecha(entradas[0]["actualizado"], FORMATO_FECHA_HORA) if entradas else None
+        if previo:
+            corte = previo.replace(tzinfo=ESPANA)
+            desde = f"turno anterior ({entradas[0]['actualizado']})"
+        else:
+            corte = ahora - timedelta(hours=HORAS_POR_DEFECTO)
+            desde = f"ultimas {HORAS_POR_DEFECTO} h (no hay turno anterior)"
+
+    ya_publicado = publicados_antes(args.seccion)
+
+    candidatos, fallos, descartes = [], [], Counter()
+    for medio in medios:
+        contenido, error = descargar(medio["feed"])
+        if contenido is None:
+            fallos.append(f"{medio['nombre']}: {error}")
+            continue
+        try:
+            entradas = entradas_del_feed(contenido)
+        except ET.ParseError as e:
+            fallos.append(f"{medio['nombre']}: el feed no es XML valido ({e})")
+            continue
+
+        del_medio = []
+        for titulo, enlace, fecha in entradas:
+            if fecha is None or fecha < corte:
+                descartes["viejas o sin fecha"] += 1
+                continue
+            if enlace in ya_publicado:
+                descartes["ya publicadas"] += 1
+                continue
+            if RUIDO.search(titulo):
+                descartes["guias, ofertas y analisis"] += 1
+                continue
+            del_medio.append({
+                "titulo_original": titulo,
+                "fuente": medio["nombre"],
+                "enlace": enlace,
+                "fecha": fecha.strftime(FORMATO_FECHA),
+                "publicado": fecha.strftime(FORMATO_FECHA_HORA),
+            })
+        del_medio.sort(key=lambda c: c["publicado"], reverse=True)
+        candidatos.extend(del_medio[: args.por_medio])
+
+    candidatos.sort(key=lambda c: c["publicado"], reverse=True)
+
+    print(f"# {len(candidatos)} candidatos de {len(medios) - len(fallos)} medios, "
+          f"desde el {desde}.")
+    print("# 'titulo_original' viene del feed TAL CUAL: hay que reescribirlo en "
+          "espanol antes de publicarlo.")
+    print("# La fecha sale del propio feed, no se toca.")
+    for motivo, veces in descartes.most_common():
+        print(f"# Descartadas {veces} por {motivo}.")
+    for fallo in fallos:
+        print(f"# FEED CAIDO {fallo}")
+    utiles = {m["nombre"] for m in medios}
+    for medio in leer_medios(args.seccion, solo_utiles=False):
+        if medio["nombre"] not in utiles:
+            print(f"# SIN FEED {medio['nombre']} ({medio['web']}): "
+                  f"{medio.get('nota') or 'no tiene RSS utilizable'}")
+    if len(medios) - len(fallos) < 2:
+        print("# Han fallado casi todos los feeds: puede que no haya salida a "
+              "internet. Busca los titulares a mano abriendo cada medio.")
+    print(json.dumps(candidatos, ensure_ascii=False, indent=2))
+    return 0
+
+
 # --------------------------------------------------------------------------
 # anteriores: que se publico en los ultimos turnos, para no repetirlo
 # --------------------------------------------------------------------------
 
 def cmd_anteriores(args):
-    indice = leer_indice(args.seccion)
-    entradas = indice.get("entradas", [])[: args.turnos]
-
+    entradas = leer_indice(args.seccion).get("entradas", [])[: args.turnos]
     if not entradas:
         print("No hay ejecuciones anteriores: no hay nada que evitar.")
         return 0
 
-    vistos = {}
+    titulos = {}
     for entrada in entradas:
         ruta = carpeta_historico(args.seccion) / entrada["fichero"]
         if not ruta.exists():
@@ -97,14 +322,13 @@ def cmd_anteriores(args):
         datos = leer_json(ruta)
         for clave in ("destacadas", "titulares", "noticias"):
             for noticia in datos.get(clave, []):
-                enlace = noticia.get("enlace")
-                if enlace and enlace not in vistos:
-                    vistos[enlace] = noticia.get("titulo", "")
+                if noticia.get("enlace"):
+                    titulos.setdefault(noticia["enlace"], noticia.get("titulo", ""))
 
     print(f"Ya publicado en los ultimos {len(entradas)} turnos "
-          f"({len(vistos)} noticias). No repitas nada de esto, ni la misma "
+          f"({len(titulos)} noticias). No repitas nada de esto, ni la misma "
           f"noticia contada por otro medio con otro titular:\n")
-    for enlace, titulo in vistos.items():
+    for enlace, titulo in titulos.items():
         print(f"- {titulo}\n  {enlace}")
     return 0
 
@@ -181,8 +405,9 @@ def validar_noticia(rev, noticia, indice, es_destacada, momento):
             rev.error(f"{etiqueta}: fecha posterior al dia de ejecucion ({valor}).")
 
 
-def validar_reparto(rev, seccion, destacadas, titulares):
-    espanoles = MEDIOS_ESPANOLES.get(seccion, set())
+def validar_reparto(rev, seccion, destacadas, titulares, turno):
+    espanoles = medios_espanoles(seccion)
+    min_medios = MIN_MEDIOS_TITULARES.get(turno, 5)
 
     def es_espanol(fuente):
         return str(fuente).strip().lower() in espanoles
@@ -205,11 +430,13 @@ def validar_reparto(rev, seccion, destacadas, titulares):
                       f"{MAX_TITULARES_POR_MEDIO} como mucho). Suele significar "
                       f"que has consultado pocos medios.")
 
-    if titulares and len(cuenta) < MIN_MEDIOS_TITULARES:
+    if titulares and len(cuenta) < min_medios:
         plural = "medio distinto" if len(cuenta) == 1 else "medios distintos"
         rev.aviso(f"Solo {len(cuenta)} {plural} entre los titulares "
-                  f"(recomendado: {MIN_MEDIOS_TITULARES}). Abre el listado de "
-                  f"mas medios: el problema no es que el dia venga flojo.")
+                  f"(esperados {min_medios} en el turno {turno}). Comprueba que "
+                  f"'candidatos' no ha dejado feeds caidos sin mirar. Si de "
+                  f"verdad no hay mas, se publica con lo que haya: es preferible "
+                  f"a rellenar con guias u ofertas.")
 
     if titulares and espanoles and not any(es_espanol(n.get("fuente")) for n in titulares):
         rev.aviso("Ningun titular viene de un medio espanol.")
@@ -270,31 +497,23 @@ def cmd_validar(args):
     # repitiendo el mismo turno), su copia esta en el historico y si no se
     # descarta sale el fichero entero marcado como repetido.
     propio = partir_actualizado(actualizado)[:2] if momento else (None, None)
-    previos = [e for e in leer_indice(args.seccion).get("entradas", [])
-               if (e.get("fecha"), e.get("turno")) != propio]
-
-    publicados = {}
-    for entrada in previos[:TURNOS_ANTERIORES]:
-        fichero = carpeta_historico(args.seccion) / entrada["fichero"]
-        if fichero.exists():
-            previo = leer_json(fichero)
-            for clave in ("destacadas", "titulares", "noticias"):
-                for noticia in previo.get(clave, []):
-                    if noticia.get("enlace"):
-                        publicados[noticia["enlace"]] = entrada["fecha"]
+    publicados = publicados_antes(args.seccion, excluir=propio)
     for enlace in enlaces:
         if enlace in publicados:
             rev.error(f"Ya se publico el {publicados[enlace]}: {enlace}")
 
-    validar_reparto(rev, args.seccion, destacadas, titulares)
+    turno = propio[1] or "M"
+    validar_reparto(rev, args.seccion, destacadas, titulares, turno)
     validar_horas_inventadas(rev, destacadas)
 
     if len(destacadas) < 5:
         rev.aviso(f"Solo {len(destacadas)} destacadas de 5.")
-    if len(titulares) < 15:
-        rev.aviso(f"Solo {len(titulares)} titulares (el tope son 25). Si no has "
-                  f"abierto el listado de todos los medios, hazlo antes de darlo "
-                  f"por bueno.")
+    minimo = MIN_TITULARES.get(turno, 15)
+    if len(titulares) < minimo:
+        rev.aviso(f"Solo {len(titulares)} titulares (esperados {minimo} en el "
+                  f"turno {turno}, tope 25). Repasa la salida de 'candidatos': "
+                  f"si algun feed fallo, vuelve a lanzarlo antes de darlo por "
+                  f"bueno.")
 
     for texto in rev.errores:
         print(f"ERROR: {texto}")
@@ -358,6 +577,24 @@ def git(*args, comprobar=True):
                           capture_output=True, text=True, check=comprobar)
 
 
+def falta_archivar(seccion):
+    """Devuelve el motivo por el que la seccion no esta bien archivada, o None."""
+    actual = ruta_actual(seccion)
+    if not actual.exists():
+        return None
+    datos = leer_json(actual)
+    try:
+        fecha, turno, _ = partir_actualizado(str(datos.get("actualizado", "")))
+    except ValueError:
+        return "su campo 'actualizado' no tiene el formato 'DD-MM-AAAA HH:MM'"
+    copia = carpeta_historico(seccion) / f"{fecha}_{turno}.json"
+    if not copia.exists():
+        return f"no existe su copia {copia.name} en el historico"
+    if leer_json(copia) != datos:
+        return f"su copia {copia.name} no coincide con lo que se va a publicar"
+    return None
+
+
 def cmd_publicar(args):
     # Solo data/: el HTML y el CSS no se tocan nunca, y asi no puede pasar
     # aunque una ejecucion los haya modificado por error.
@@ -366,11 +603,36 @@ def cmd_publicar(args):
         print("No hay cambios en data/ que publicar.")
         return 0
 
+    # Publicar sin archivar deja la web actualizada y el historico con un hueco,
+    # y el hueco ya no se puede rellenar: la noticia vieja se ha sobrescrito.
+    cambiados = git("diff", "--cached", "--name-only").stdout.split()
+    for fichero in cambiados:
+        partes = fichero.split("/")
+        if len(partes) == 2 and partes[0] == "data" and partes[1].endswith(".json"):
+            seccion = partes[1][: -len(".json")]
+            motivo = falta_archivar(seccion)
+            if motivo:
+                print(f"ERROR: {seccion} sin archivar ({motivo}). Lanza "
+                      f"'python3 scripts/noticias.py archivar {seccion}' y repite.")
+                return 1
+
     git("commit", "-m", args.mensaje)
 
+    # HEAD:main y no main a secas: las rutinas a veces trabajan con HEAD
+    # desacoplado, y ahi 'push origin main' empuja la rama local vieja. Si
+    # ademas coincide con la remota, git responde "up to date" y el push da
+    # por bueno un commit que no ha subido.
     for intento in range(1, 4):
-        if git("push", "origin", "main", comprobar=False).returncode == 0:
-            print(f"Publicado en main (intento {intento}).")
+        if git("push", "origin", "HEAD:main", comprobar=False).returncode == 0:
+            local = git("rev-parse", "HEAD").stdout.strip()
+            git("fetch", "origin", "main", comprobar=False)
+            remoto = git("rev-parse", "FETCH_HEAD", comprobar=False).stdout.strip()
+            if local != remoto:
+                print(f"ERROR: git ha aceptado el push pero origin/main sigue en "
+                      f"{remoto[:7]} y el commit es {local[:7]}. No se ha "
+                      f"publicado nada.")
+                return 1
+            print(f"Publicado en main como {local[:7]} (intento {intento}).")
             return 0
         print(f"Push rechazado (intento {intento}), reintentando con rebase...")
         rebase = git("pull", "--rebase", "origin", "main", comprobar=False)
@@ -387,6 +649,14 @@ def cmd_publicar(args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     ordenes = parser.add_subparsers(dest="orden", required=True)
+
+    p = ordenes.add_parser("candidatos", help="titulares nuevos de los feeds")
+    p.add_argument("seccion")
+    p.add_argument("--horas", type=int, default=0,
+                   help="mirar N horas atras en vez de desde el turno anterior")
+    p.add_argument("--por-medio", type=int, default=12,
+                   help="maximo de candidatos por medio")
+    p.set_defaults(func=cmd_candidatos)
 
     p = ordenes.add_parser("anteriores", help="que se publico en turnos previos")
     p.add_argument("seccion")
