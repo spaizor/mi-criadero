@@ -1,0 +1,72 @@
+# Actualiza data/ofertas.json sin pasar por Claude.
+#
+# La seccion de Ofertas no elige nada: scripts/precios.py abre cada ficha del
+# catalogo, lee el precio y escribe el JSON. Como eso es puro trabajo mecanico
+# y el script solo usa la biblioteca estandar, cabe entero aqui y no hace falta
+# gastar una rutina en lanzarlo.
+#
+# Lo que hay que vigilar: los runners de GitHub salen por IPs de datacenter,
+# que es justo lo que filtran las tiendas. GAME y MediaMarkt dejan pasar a un
+# script desde una conexion domestica; si desde aqui responden 403, este
+# workflow no sirve y hay que volver a la rutina.
+
+name: Precios
+
+on:
+  schedule:
+    # 03:00 UTC = 05:00 en horario de verano espanol. Deja hueco a las rutinas
+    # de noticias, que empujan al mismo repo a las 02:00 y 02:30 UTC.
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+# Sin esto el GITHUB_TOKEN es de solo lectura y el push falla al final,
+# despues de haber consultado todas las tiendas.
+permissions:
+  contents: write
+
+concurrency:
+  group: precios
+  cancel-in-progress: false
+
+jobs:
+  consultar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Consultar precios
+        run: python3 scripts/precios.py consultar
+
+      - name: Contar precios frescos
+        id: salud
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json
+          d = json.load(open("data/ofertas.json", encoding="utf-8"))
+          precios = [p for prod in d["productos"] for p in prod["precios"]]
+          ok = [p for p in precios if p.get("estado") == "ok"]
+          print(f"ok={len(ok)}")
+          print(f"total={len(precios)}")
+          EOF
+
+      - name: Publicar
+        # Si no ha entrado ni un precio, lo mas probable es que las tiendas
+        # esten bloqueando al runner. Publicar entonces solo serviria para
+        # dejar un commit diario que marca todo como viejo sin haber mirado
+        # nada: mejor no tocar el JSON y que el fallo se vea.
+        if: steps.salud.outputs.ok != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 scripts/noticias.py publicar "Actualizar precios ($(TZ=Europe/Madrid date '+%d-%m-%Y %H:%M'))"
+
+      - name: Avisar si no ha entrado ningun precio
+        if: steps.salud.outputs.ok == '0'
+        run: |
+          echo "Ninguna tienda ha respondido: ${{ steps.salud.outputs.total }} consultas, 0 precios."
+          echo "Si se repite, las tiendas estan bloqueando la IP del runner y esta via no sirve."
+          exit 1
