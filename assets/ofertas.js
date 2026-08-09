@@ -2,10 +2,15 @@
 // tienda. Igual que en las noticias, el HTML no cambia nunca: el JSON lo
 // reescribe scripts/precios.py en cada ejecucion.
 //
-// Un precio puede venir en tres estados:
-//   ok    -> consultado en esta ejecucion
-//   viejo -> la tienda no respondio y se conserva el anterior, avisando
-//   nuevo -> producto recien anadido, todavia sin consultar
+// Un precio puede venir en cuatro estados:
+//   ok     -> consultado en esta ejecucion
+//   viejo  -> la tienda no respondio y se conserva el anterior, avisando
+//   nuevo  -> producto recien anadido, todavia sin consultar
+//   enlace -> tienda que solo responde desde casa: no se consulta, se deja el
+//             enlace y el ultimo precio conocido con su fecha
+//
+// Solo 'ok' compite por ser el mas barato. Coronar un precio de hace dias
+// frente a uno de hoy seria dar por buena una comparacion que no se ha hecho.
 
 function escaparOferta(texto) {
   const d = document.createElement('div');
@@ -19,11 +24,18 @@ function formatearPrecio(valor, moneda) {
 }
 
 function pintarPrecio(p, esMasBarato) {
+  const enlazado = p.enlace
+    ? `<a href="${escaparOferta(p.enlace)}" target="_blank" rel="noopener">${escaparOferta(p.tienda)}</a>`
+    : escaparOferta(p.tienda);
+
   if (p.precio == null) {
+    // Sin precio conocido, la tienda sigue valiendo como enlace: el aviso
+    // invita a mirarlo alli en vez de dejar la fila muerta.
     return `
       <li class="precio">
-        <span class="tienda">${escaparOferta(p.tienda)}</span>
-        <span class="importe sin-dato">Sin consultar</span>
+        <span class="tienda">${enlazado}</span>
+        <span class="importe sin-dato">${
+          p.estado === 'enlace' ? 'Ver en la tienda' : 'Sin consultar'}</span>
       </li>`;
   }
 
@@ -31,6 +43,10 @@ function pintarPrecio(p, esMasBarato) {
   if (esMasBarato) etiquetas.push('<span class="etiqueta barato">Mas barato</span>');
   if (p.estado === 'viejo') {
     etiquetas.push('<span class="etiqueta viejo">No responde: ultimo precio conocido</span>');
+  }
+  if (p.estado === 'enlace') {
+    etiquetas.push(`<span class="etiqueta enlace">No se consulta sola${
+      p.consultado ? ': precio visto el ' + escaparOferta(p.consultado) : ''}</span>`);
   }
   if (p.disponible === false) {
     etiquetas.push('<span class="etiqueta agotado">Sin stock</span>');
@@ -46,13 +62,9 @@ function pintarPrecio(p, esMasBarato) {
         ? '<span class="minimo">Es el minimo que hemos visto</span>'
         : '');
 
-  const tienda = p.enlace
-    ? `<a href="${escaparOferta(p.enlace)}" target="_blank" rel="noopener">${escaparOferta(p.tienda)}</a>`
-    : escaparOferta(p.tienda);
-
   return `
     <li class="precio${esMasBarato ? ' destacado' : ''}">
-      <span class="tienda">${tienda}</span>
+      <span class="tienda">${enlazado}</span>
       <span class="importe">${formatearPrecio(p.precio, p.moneda)}</span>
       <span class="detalles">${etiquetas.join('')}${minimo}</span>
     </li>`;
@@ -60,13 +72,14 @@ function pintarPrecio(p, esMasBarato) {
 
 function pintarProducto(producto) {
   const precios = Array.isArray(producto.precios) ? producto.precios : [];
-  const validos = precios.filter(p => p.precio != null);
+  const validos = precios.filter(p => p.precio != null && p.estado === 'ok');
   const barato = validos.length > 1
     ? Math.min(...validos.map(p => p.precio))
     : null;
 
   const filas = precios.length
-    ? precios.map(p => pintarPrecio(p, barato != null && p.precio === barato)).join('')
+    ? precios.map(p => pintarPrecio(
+        p, barato != null && p.estado === 'ok' && p.precio === barato)).join('')
     : '<li class="precio"><span class="importe sin-dato">Sin tiendas configuradas</span></li>';
 
   return `

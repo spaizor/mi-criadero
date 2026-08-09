@@ -33,6 +33,12 @@ SALIDA = RAIZ / "data" / "ofertas.json"
 #   nuevo -> producto recien anadido que todavia no se ha podido consultar
 OK, VIEJO, NUEVO = "ok", "viejo", "nuevo"
 
+# Tiendas que solo responden desde una conexion domestica (MediaMarkt da 403 a
+# cualquier servidor). No se consultan desde el workflow: se dejan en la web
+# con su enlace y su ultimo precio conocido, fechado. Asi el usuario puede
+# mirar el precio el mismo, en vez de perder la tienda de vista.
+ENLACE = "enlace"
+
 
 def traer(url):
     """HTML de una ficha, decodificado con la codificacion que diga la tienda."""
@@ -65,6 +71,18 @@ def aplanar(datos):
             yield from aplanar(elemento)
 
 
+def es_producto(objeto):
+    """Si el @type de un objeto JSON-LD dice que es un producto.
+
+    Sin mirar mayusculas y aceptando lista: el estandar dice "Product", pero
+    PcComponentes lo escribe en minuscula y otras tiendas ponen varios tipos a
+    la vez. Exigir la forma exacta descarta fichas que traen el precio bien.
+    """
+    tipo = objeto.get("@type")
+    tipos = tipo if isinstance(tipo, list) else [tipo]
+    return any(isinstance(t, str) and t.lower() == "product" for t in tipos)
+
+
 def objetos_producto(html):
     """Objetos JSON de tipo Product que haya en la pagina.
 
@@ -84,9 +102,9 @@ def objetos_producto(html):
             datos = json.loads(bloque)
         except json.JSONDecodeError:
             continue
-        encontrados.extend(d for d in aplanar(datos) if d.get("@type") == "Product")
+        encontrados.extend(d for d in aplanar(datos) if es_producto(d))
 
-    for marca in re.finditer(r'\{\s*"@type"\s*:\s*"Product"', html):
+    for marca in re.finditer(r'\{\s*"@type"\s*:\s*"[Pp]roduct"', html):
         inicio = marca.start()
         nivel, i, en_cadena, escapado = 0, inicio, False, False
         while i < len(html):
@@ -192,6 +210,21 @@ def cmd_consultar(args):
             clave = (producto["id"], tienda["tienda"])
             anterior = anteriores.get(clave, {})
             etiqueta = f"{producto['nombre']} en {tienda['tienda']}"
+
+            if tienda.get("solo_enlace"):
+                # Ni se intenta: se sabe que va a fallar y un fallo esperado
+                # ensucia el parte y hace dudar de los que si importan.
+                conservado = dict(anterior)
+                conservado.update({
+                    "tienda": tienda["tienda"],
+                    "enlace": tienda["url"],
+                    "estado": ENLACE,
+                })
+                conservado.setdefault("precio", None)
+                precios.append(conservado)
+                visto = anterior.get("consultado", "nunca")
+                print(f"{etiqueta}: solo enlace (ultimo precio visto: {visto})")
+                continue
 
             try:
                 precio, extra = leer_precio(traer(tienda["url"]), tienda["url"])
