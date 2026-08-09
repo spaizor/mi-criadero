@@ -12,7 +12,7 @@
     ],
     "tiendas_comprobadas_el_09-08-2026": {
       "GAME": "Si, tambien desde el runner. Publica un bloque Product con AggregateOffer.",
-      "PcComponentes": "Si en local. Escribe el @type en minuscula, por eso hubo que dejar de exigir 'Product' exacto.",
+      "PcComponentes": "Solo en local: 403 desde el runner, comprobado. Escribe el @type en minuscula, por eso hubo que dejar de exigir 'Product' exacto. Va con 'solo_enlace': true.",
       "MediaMarkt": "Solo en local: da 403 a cualquier servidor. Va con 'solo_enlace': true.",
       "Xtralife": "No: responde, pero monta la ficha con JavaScript y el HTML llega sin precio.",
       "El Corte Ingles, Fnac, Carrefour, Worten, Idealo": "No: devuelven 403 incluso desde una conexion domestica.",
@@ -44,7 +44,8 @@
         },
         {
           "tienda": "PcComponentes",
-          "url": "https://www.pccomponentes.com/star-fox-nintendo-switch-2"
+          "url": "https://www.pccomponentes.com/star-fox-nintendo-switch-2",
+          "solo_enlace": true
         }
       ]
     }
