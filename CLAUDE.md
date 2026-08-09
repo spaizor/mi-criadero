@@ -183,9 +183,14 @@ en blanco entre un cambio de formato y la primera ejecucion de la rutina.
 
 No busca ofertas: sigue el precio de una lista cerrada de productos, que vive
 en `scripts/productos.json`. `scripts/precios.py consultar` abre cada ficha,
-lee el precio y escribe `data/ofertas.json`. La rutina no elige nada, solo
-lanza el script: por eso esta seccion cuesta una fraccion de lo que cuestan las
-de noticias.
+lee el precio y escribe `data/ofertas.json`.
+
+Como aqui no se elige nada, esta seccion **no la actualiza una rutina de Claude
+sino `.github/workflows/precios.yml`**: lanza el script, y si ha entrado algun
+precio publica reutilizando `noticias.py publicar`. Si no entra **ninguno**, no
+publica y falla el job a proposito: seria un commit diario marcando todo como
+viejo sin haber mirado nada, y ademas taparia el aviso de que las tiendas han
+empezado a bloquear al runner.
 
 El precio **no se saca leyendo la pagina**, sino del bloque `schema.org/Product`
 que las tiendas incrustan para Google. Las dos formas conviven y hay que cubrir
@@ -199,6 +204,14 @@ Comprobado el 08-08-2026: **GAME y MediaMarkt** dejan pasar a un script. **El
 Corte Ingles, Fnac, Carrefour e Idealo** responden 403. **Amazon queda fuera a
 proposito**: bloquea scripts y su normativa lo prohibe. Antes de anadir una
 tienda nueva al catalogo hay que pasarla por `precios.py probar <url>`.
+
+Ojo con esa comprobacion: se hizo desde un PC de casa y **MediaMarkt solo
+responde ahi**. Ni el runner de GitHub ni la nube de Anthropic le sacan un
+precio, asi que su unica lectura buena sigue siendo la del 08-08-2026 17:19 y
+en la web sale casi siempre como `viejo`. Es un bloqueo por IP de datacenter,
+no un corte pasajero: no se arregla cambiando la hora ni volviendo a la rutina.
+Al probar una tienda nueva conviene tenerlo en cuenta, porque pasar
+`precios.py probar` en local no garantiza que funcione al publicar.
 
 Tres decisiones sobre no mentir en los precios:
 
