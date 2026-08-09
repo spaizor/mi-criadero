@@ -207,13 +207,40 @@ tienda nueva al catalogo hay que pasarla por `precios.py probar <url>`.
 
 Ojo con esa comprobacion: se hizo desde un PC de casa y **MediaMarkt solo
 responde ahi**. Ni el runner de GitHub ni la nube de Anthropic le sacan un
-precio, asi que su unica lectura buena sigue siendo la del 08-08-2026 17:19 y
-en la web sale casi siempre como `viejo`. Es un bloqueo por IP de datacenter,
-no un corte pasajero: no se arregla cambiando la hora ni volviendo a la rutina.
-Al probar una tienda nueva conviene tenerlo en cuenta, porque pasar
-`precios.py probar` en local no garantiza que funcione al publicar.
+precio: es un bloqueo por IP de datacenter, no un corte pasajero, y no se
+arregla cambiando la hora ni volviendo a la rutina. Por eso una tienda hay que
+probarla **en los dos sitios**: `precios.py probar <url>` en local y el campo
+`probar` del workflow para el runner.
 
-Tres decisiones sobre no mentir en los precios:
+Repaso del 09-08-2026 con la ficha de Star Fox:
+
+| Tienda | Local | Runner | En el catalogo |
+|---|---|---|---|
+| GAME | si | si | si |
+| PcComponentes | si | por comprobar | si |
+| MediaMarkt | si | 403 | si, con `solo_enlace` |
+| Xtralife | responde pero sin precio | — | no |
+| El Corte Ingles, Fnac, Carrefour, Worten, Idealo | 403 | 403 | no |
+
+**Xtralife no es un bloqueo**: devuelve 5 KB y monta la ficha con JavaScript,
+asi que en el HTML no hay precio que leer. Distinguirlo de un 403 importa,
+porque un bloqueo puede cambiar y esto no va a cambiar solo.
+
+**PcComponentes escribe `"@type": "product"` en minuscula.** Por eso
+`es_producto()` compara sin mayusculas y aceptando lista: exigir la forma
+exacta del estandar tiraba una ficha que traia el precio perfectamente.
+
+Cinco decisiones sobre no mentir en los precios:
+
+- **Una tienda que solo responde desde casa no se borra: se marca
+  `"solo_enlace": true`** en `productos.json`. El script no la consulta (un
+  fallo que se sabe seguro solo ensucia el parte y hace dudar de los que si
+  importan) pero conserva su ultimo precio con su fecha, y la web la pinta con
+  su hipervinculo para poder mirarla a mano. Perder de vista la tienda que
+  suele ser la mas barata seria peor que no tener su precio del dia.
+- **Solo los precios en estado `ok` compiten por "Mas barato".** Comparar uno
+  de hace dias con uno de hoy y coronarlo seria dar por hecha una comparacion
+  que nadie ha hecho.
 
 - **Si una tienda no responde se conserva su ultimo precio** marcado como
   `viejo`, y la web avisa. Borrarlo dejaria un hueco; inventarlo seria peor.
