@@ -217,7 +217,7 @@ Repaso del 09-08-2026 con la ficha de Star Fox:
 | Tienda | Local | Runner | En el catalogo |
 |---|---|---|---|
 | GAME | si | si | si |
-| PcComponentes | si | por comprobar | si |
+| PcComponentes | si | 403 | si, con `solo_enlace` |
 | MediaMarkt | si | 403 | si, con `solo_enlace` |
 | Xtralife | responde pero sin precio | — | no |
 | El Corte Ingles, Fnac, Carrefour, Worten, Idealo | 403 | 403 | no |
