@@ -16,8 +16,10 @@
       "PcComponentes": "Si, con 'navegador': true. Escribe el @type en minuscula, por eso hubo que dejar de exigir 'Product' exacto. Dio 403 en una de tres pasadas, asi que se reintenta.",
       "Xtralife": "Si, con 'navegador': true. Monta el bloque Product con JavaScript, asi que a urllib le llega la pagina sin precio. Ojo: el dominio es .com, el .es es otro sitio.",
       "Carrefour": "Si, con 'navegador': true. Estaba descartada por la teoria vieja; con Chromium da precio en local y en el runner.",
-      "El Corte Ingles y Fnac": "No: 403 en local y en el runner INCLUSO con navegador, y eso ya es tras los tres reintentos. Ahi hay deteccion mas alla del User-Agent, no una puerta entornada.",
-      "Worten e Idealo": "Sin reprobar con navegador. Worten queda fuera porque no interesa.",
+      "El Corte Ingles": "No se puede consultar: 403 en local y en el runner INCLUSO con navegador, y eso ya es tras los tres reintentos. Ahi hay deteccion mas alla del User-Agent. Aun asi esta en el catalogo con 'solo_enlace': true, para tener el enlace a mano aunque nunca traiga precio.",
+      "Fnac": "No: mismo 403 que El Corte Ingles en los dos sitios y con navegador.",
+      "Worten": "Fuera: no interesa.",
+      "Idealo": "Fuera: es un comparador y mezcla tiendas digitales, que no es lo que se sigue aqui.",
       "Amazon": "No se usa: bloquea scripts y su normativa lo prohibe. Esto no es una limitacion tecnica y el navegador no lo cambia."
     },
     "campos": {
@@ -26,7 +28,7 @@
       "plataforma": "Consola o formato, para distinguir ediciones.",
       "tiendas": "Lista de fichas. 'tienda' es el nombre que se muestra; 'url' la ficha exacta.",
       "navegador": "Opcional. Abre la ficha con Chromium en vez de con urllib. Lo necesitan las tiendas que rechazan a los scripts (MediaMarkt, PcComponentes) y las que montan el precio con JavaScript (Xtralife). Cuesta unos segundos por ficha, asi que no se pone a las que no lo piden.",
-      "solo_enlace": "Opcional y ahora mismo sin usar. La tienda no se consulta pero se queda en la web con su enlace y su ultimo precio conocido, fechado. Se reserva para una tienda que no responda ni con navegador y que interese no perder de vista."
+      "solo_enlace": "Opcional. La tienda no se consulta pero se queda en la web con su enlace y, si alguna vez se le saco, su ultimo precio conocido fechado. Para tiendas que no responden ni con navegador y que aun asi interesa tener a un clic. Puede no haber tenido precio nunca: la web pinta 'Ver en la tienda' y ya."
     },
     "verificado_el": "10-08-2026"
   },
@@ -59,6 +61,11 @@
           "tienda": "Carrefour",
           "url": "https://www.carrefour.es/star-fox-para-switch-2/VC4A-33647650/p",
           "navegador": true
+        },
+        {
+          "tienda": "El Corte Ingles",
+          "url": "https://www.elcorteingles.es/videojuegos/A200846533-star-fox-nintendo-switch-2/",
+          "solo_enlace": true
         }
       ]
     }

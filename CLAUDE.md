@@ -225,8 +225,10 @@ teoria vieja, Carrefour cayo a la primera.
 
 **El Corte Ingles y Fnac si estan cerradas de verdad**: 403 en local y en el
 runner con Chromium, y eso ya es tras los tres reintentos. Ahi hay deteccion
-mas alla del User-Agent. Quedan **Idealo sin reprobar** y Worten fuera porque
-no interesa.
+mas alla del User-Agent. Aun asi **El Corte Ingles esta en el catalogo con
+`solo_enlace`**: no dara precio nunca, pero interesa tener el enlace a un clic.
+Worten e Idealo quedan fuera por decision del usuario; Idealo ademas es un
+comparador y mezcla tiendas digitales, que no es lo que se sigue aqui.
 
 **Amazon sigue fuera, y esto no lo cambia**: su normativa lo prohibe, que no es
 un obstaculo tecnico.
@@ -262,11 +264,12 @@ quince minutos despues. Los dos casos son medidos, no simetricos por gusto.
 
 Cinco decisiones sobre no mentir en los precios:
 
-- **`"solo_enlace": true` sigue existiendo, ahora sin usar.** La tienda no se
-  consulta pero conserva su ultimo precio con su fecha y la web la pinta con su
-  hipervinculo, para no perder de vista una que suela ser la mas barata. Se
-  reserva para la que no responda **ni con navegador**: mientras responda, lo
-  correcto es consultarla, no guardarle el sitio.
+- **`"solo_enlace": true` es para las que no responden ni con navegador.** No
+  se consultan (un fallo que se sabe seguro solo ensucia el parte y hace dudar
+  de los que si importan) pero la web las pinta con su hipervinculo, y con su
+  ultimo precio fechado si alguna vez se les saco. Puede no haberlo habido
+  nunca, como en El Corte Ingles: entonces se pinta "Ver en la tienda" y ya.
+  Mientras una tienda responda, lo correcto es consultarla, no guardarle sitio.
 - **Solo los precios en estado `ok` compiten por "Mas barato".** Comparar uno
   de hace dias con uno de hoy y coronarlo seria dar por hecha una comparacion
   que nadie ha hecho.
