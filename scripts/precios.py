@@ -7,15 +7,18 @@ incrustan en su HTML para Google, no del criterio de nadie. Por eso este paso
 lo hace un script entero y la rutina solo lo lanza.
 
     python3 scripts/precios.py consultar
-    python3 scripts/precios.py probar <url>
+    python3 scripts/precios.py probar <url> [--navegador]
 
-Solo biblioteca estandar. Comparte utilidades con noticias.py, que esta al lado.
+Biblioteca estandar, salvo las tiendas marcadas con "navegador": true en
+productos.json, que necesitan Playwright. Comparte utilidades con noticias.py.
 """
 
 import argparse
 import json
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime
 from pathlib import Path
@@ -39,6 +42,112 @@ OK, VIEJO, NUEVO = "ok", "viejo", "nuevo"
 # mirar el precio el mismo, en vez de perder la tienda de vista.
 ENLACE = "enlace"
 
+# Reintentos de descarga ante un corte de red, y espera (en segundos) antes de
+# cada uno. La espera crece con el intento para no insistir sobre una tienda
+# que este teniendo un mal momento.
+INTENTOS = 3
+ESPERA_REINTENTO = 3
+
+# Un navegador normal y corriente. Sin esto Playwright se presenta como
+# "HeadlessChrome" y las tiendas que filtran robots lo cazan igual.
+AGENTE_NAVEGADOR = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/127.0.0.0 Safari/537.36")
+
+# Margen (ms) para que la ficha acabe de montarse antes de leer el HTML.
+ESPERA_RENDER = 4000
+
+
+class Navegador:
+    """Chromium de verdad, para las tiendas que dan 403 a un script pelado.
+
+    Probado el 10-08-2026 desde el runner: MediaMarkt y PcComponentes devuelven
+    403 a urllib y precio a esto, en la misma IP y con segundos de diferencia.
+    O sea que lo que filtran no es la direccion, es parecer un script. Por eso
+    el navegador va por tienda y no para todas: GAME responde a urllib en
+    milisegundos y arrancarle un Chromium seria pagar 20 segundos por nada.
+
+    Se abre uno solo por ejecucion y se reaprovecha para todas las fichas:
+    arrancarlo es lo caro, cada pagina despues sale casi gratis.
+    """
+
+    def __init__(self):
+        self._playwright = None
+        self._navegador = None
+
+    def _arrancar(self):
+        if self._navegador:
+            return
+        try:
+            from playwright.sync_api import sync_playwright
+        except ImportError:
+            raise RuntimeError(
+                "falta Playwright, que necesitan las tiendas marcadas con "
+                "\"navegador\": true en productos.json. Instalalo con: "
+                "pip install playwright && playwright install chromium"
+            )
+        self._playwright = sync_playwright().start()
+        self._navegador = self._playwright.chromium.launch()
+
+    def html(self, url):
+        """HTML de una ficha ya renderizada, reintentando los 403 pasajeros."""
+        self._arrancar()
+        for intento in range(INTENTOS):
+            contexto = self._navegador.new_context(
+                # Con el User-Agent por defecto pone "HeadlessChrome" y volvemos
+                # a estar donde estabamos: anunciandonos como un robot.
+                user_agent=AGENTE_NAVEGADOR,
+                locale="es-ES",
+                viewport={"width": 1366, "height": 768},
+            )
+            try:
+                pagina = contexto.new_page()
+                respuesta = pagina.goto(url, wait_until="domcontentloaded",
+                                        timeout=45000)
+                estado = respuesta.status if respuesta else 0
+                if estado >= 400:
+                    # Aqui si se reintenta un 403, al reves que en urllib: el de
+                    # PcComponentes resulto ser intermitente (403 en una pasada
+                    # y precio en la siguiente, 15 minutos despues).
+                    raise RuntimeError(f"HTTP {estado}")
+                pagina.wait_for_timeout(ESPERA_RENDER)
+                return pagina.content()
+            except Exception:
+                if intento == INTENTOS - 1:
+                    raise
+                time.sleep(ESPERA_REINTENTO * (intento + 1))
+            finally:
+                contexto.close()
+
+    def cerrar(self):
+        if self._navegador:
+            self._navegador.close()
+        if self._playwright:
+            self._playwright.stop()
+
+
+def descargar(peticion):
+    """Bytes de una ficha, reintentando los cortes de red pasajeros.
+
+    Un timeout suelto no significa que la tienda bloquee: la misma URL que
+    fallo aqui responde al segundo intento. Y como casi todo el catalogo son
+    tiendas de solo enlace, un unico timeout puede dejar la ejecucion con cero
+    precios, que es justo el caso en el que el workflow falla a proposito.
+
+    Solo se reintentan los fallos de red. Un 403 es una respuesta, no un corte:
+    repetirlo tres veces alarga la ejecucion para llegar al mismo sitio.
+    """
+    for intento in range(INTENTOS):
+        try:
+            with urllib.request.urlopen(peticion, timeout=30) as respuesta:
+                return respuesta.read(), respuesta.headers.get_content_charset()
+        except urllib.error.HTTPError:
+            raise
+        except (urllib.error.URLError, TimeoutError, OSError):
+            if intento == INTENTOS - 1:
+                raise
+            time.sleep(ESPERA_REINTENTO * (intento + 1))
+
 
 def traer(url):
     """HTML de una ficha, decodificado con la codificacion que diga la tienda."""
@@ -47,9 +156,8 @@ def traer(url):
         "Accept": "text/html,application/xhtml+xml",
         "Accept-Language": "es-ES,es;q=0.9",
     })
-    with urllib.request.urlopen(peticion, timeout=30) as respuesta:
-        crudo = respuesta.read()
-        codificaciones = [respuesta.headers.get_content_charset(), "utf-8", "cp1252"]
+    crudo, declarada = descargar(peticion)
+    codificaciones = [declarada, "utf-8", "cp1252"]
     for codificacion in codificaciones:
         if not codificacion:
             continue
@@ -203,6 +311,9 @@ def cmd_consultar(args):
     ahora = datetime.now(ESPANA)
     anteriores = previos()
     salida, fallos, consultados = [], [], 0
+    # Se crea siempre pero no arranca nada hasta la primera ficha que lo pida:
+    # si el catalogo no tiene ninguna tienda con navegador, no se paga.
+    navegador = Navegador()
 
     for producto in catalogo:
         precios = []
@@ -227,7 +338,11 @@ def cmd_consultar(args):
                 continue
 
             try:
-                precio, extra = leer_precio(traer(tienda["url"]), tienda["url"])
+                if tienda.get("navegador"):
+                    html = navegador.html(tienda["url"])
+                else:
+                    html = traer(tienda["url"])
+                precio, extra = leer_precio(html, tienda["url"])
             except Exception as e:  # red, timeout, 403, 404...
                 precio, extra = None, str(e)
 
@@ -278,6 +393,8 @@ def cmd_consultar(args):
             "precios": precios,
         })
 
+    navegador.cerrar()
+
     escribir_json(SALIDA, {
         "seccion": "ofertas",
         "actualizado": ahora.strftime(FORMATO_FECHA_HORA),
@@ -295,13 +412,26 @@ def cmd_consultar(args):
 
 def cmd_probar(args):
     """Para comprobar una ficha antes de meterla en el catalogo."""
+    navegador = Navegador() if args.navegador else None
     try:
-        precio, extra = leer_precio(traer(args.url), args.url)
+        html = navegador.html(args.url) if navegador else traer(args.url)
+        precio, extra = leer_precio(html, args.url)
     except Exception as e:
         print(f"ERROR: no se ha podido abrir la ficha: {e}")
+        if not args.navegador:
+            # El 403 de un script no significa que la tienda este cerrada:
+            # MediaMarkt, PcComponentes y Xtralife lo dan aqui y sueltan el
+            # precio con --navegador.
+            print("Prueba otra vez con --navegador antes de descartarla.")
         return 1
+    finally:
+        if navegador:
+            navegador.cerrar()
     if precio is None:
         print(f"ERROR: {extra}. Esta tienda no sirve para el catalogo.")
+        if not args.navegador:
+            print("Prueba otra vez con --navegador: puede que la ficha monte "
+                  "el precio con JavaScript, como hace Xtralife.")
         return 1
     print(f"Ficha    : {extra['nombre_ficha']}")
     print(f"Precio   : {precio:.2f} {extra['moneda']}")
@@ -324,6 +454,9 @@ def main():
 
     p = ordenes.add_parser("probar", help="comprueba una ficha suelta")
     p.add_argument("url")
+    p.add_argument("--navegador", action="store_true",
+                   help="abrir la ficha con Chromium, como las tiendas que "
+                        "dan 403 a un script o montan el precio con JavaScript")
     p.set_defaults(func=cmd_probar)
 
     args = parser.parse_args()

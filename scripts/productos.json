@@ -5,27 +5,28 @@
     "como_anadir_un_producto": [
       "Abrir la ficha del producto en la tienda y copiar su URL SIN los parametros de seguimiento (todo lo que va detras de '?').",
       "Comprobarla con: python3 scripts/precios.py probar <url>",
+      "Si da 403 o no encuentra precio, repetir con --navegador antes de descartarla: casi todas las tiendas que parecian cerradas solo rechazaban a los scripts.",
       "Comprobarla TAMBIEN desde el runner: Actions > Precios > Run workflow, pegando la URL en el campo 'probar'. Que funcione en local no basta.",
-      "Si devuelve el nombre y el precio correctos en los dos sitios, anadir el bloque aqui.",
-      "Si solo funciona en local, anadirlo igual con 'solo_enlace': true.",
+      "Si devuelve el nombre y el precio correctos, anadir el bloque aqui, con 'navegador': true si lo ha necesitado.",
       "Cada producto puede tener varias tiendas; se comparan entre si en la web."
     ],
-    "tiendas_comprobadas_el_09-08-2026": {
-      "GAME": "Si, tambien desde el runner. Publica un bloque Product con AggregateOffer.",
-      "PcComponentes": "Solo en local: 403 desde el runner, comprobado. Escribe el @type en minuscula, por eso hubo que dejar de exigir 'Product' exacto. Va con 'solo_enlace': true.",
-      "MediaMarkt": "Solo en local: da 403 a cualquier servidor. Va con 'solo_enlace': true.",
-      "Xtralife": "No: responde, pero monta la ficha con JavaScript y el HTML llega sin precio.",
-      "El Corte Ingles, Fnac, Carrefour, Worten, Idealo": "No: devuelven 403 incluso desde una conexion domestica.",
-      "Amazon": "No se usa: bloquea scripts y su normativa lo prohibe."
+    "tiendas_comprobadas_el_10-08-2026": {
+      "GAME": "Si, con urllib y desde el runner. Publica un bloque Product con AggregateOffer. No necesita navegador.",
+      "MediaMarkt": "Si, con 'navegador': true. Da 403 a urllib y precio a Chromium desde la misma IP: filtra el parecer un script, no la direccion. Tres pasadas, mismo precio.",
+      "PcComponentes": "Si, con 'navegador': true. Escribe el @type en minuscula, por eso hubo que dejar de exigir 'Product' exacto. Dio 403 en una de tres pasadas, asi que se reintenta.",
+      "Xtralife": "Si, con 'navegador': true. Monta el bloque Product con JavaScript, asi que a urllib le llega la pagina sin precio. Ojo: el dominio es .com, el .es es otro sitio.",
+      "El Corte Ingles, Fnac, Carrefour, Worten, Idealo": "Sin reprobar desde que hay navegador. Daban 403 a urllib incluso desde casa, que ya no significa que esten cerradas.",
+      "Amazon": "No se usa: bloquea scripts y su normativa lo prohibe. Esto no es una limitacion tecnica y el navegador no lo cambia."
     },
     "campos": {
       "id": "Identificador corto en minusculas. No se muestra; sirve para conservar el minimo historico entre ejecuciones aunque cambie el nombre.",
       "nombre": "Nombre del juego tal cual se quiere ver en la web.",
       "plataforma": "Consola o formato, para distinguir ediciones.",
       "tiendas": "Lista de fichas. 'tienda' es el nombre que se muestra; 'url' la ficha exacta.",
-      "solo_enlace": "Opcional. La tienda no se consulta (solo responde desde casa), pero se queda en la web con su enlace y su ultimo precio conocido, fechado. Sirve para no perder de vista una tienda que suele ser la mas barata."
+      "navegador": "Opcional. Abre la ficha con Chromium en vez de con urllib. Lo necesitan las tiendas que rechazan a los scripts (MediaMarkt, PcComponentes) y las que montan el precio con JavaScript (Xtralife). Cuesta unos segundos por ficha, asi que no se pone a las que no lo piden.",
+      "solo_enlace": "Opcional y ahora mismo sin usar. La tienda no se consulta pero se queda en la web con su enlace y su ultimo precio conocido, fechado. Se reserva para una tienda que no responda ni con navegador y que interese no perder de vista."
     },
-    "verificado_el": "09-08-2026"
+    "verificado_el": "10-08-2026"
   },
   "productos": [
     {
@@ -36,7 +37,7 @@
         {
           "tienda": "MediaMarkt",
           "url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-star-fox-1665418.html",
-          "solo_enlace": true
+          "navegador": true
         },
         {
           "tienda": "GAME",
@@ -45,7 +46,12 @@
         {
           "tienda": "PcComponentes",
           "url": "https://www.pccomponentes.com/star-fox-nintendo-switch-2",
-          "solo_enlace": true
+          "navegador": true
+        },
+        {
+          "tienda": "Xtralife",
+          "url": "https://www.xtralife.com/producto/star-fox-switch-2-edition-switch-2-edicion-estandar/111034",
+          "navegador": true
         }
       ]
     }
