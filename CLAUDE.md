@@ -214,12 +214,19 @@ otra con Chromium. Medido el 10-08-2026 desde el runner:
 | MediaMarkt | 403 | **50,99 EUR** | si, con `navegador` |
 | PcComponentes | 403 | **50,99 EUR** (403 en 1 de 3) | si, con `navegador` |
 | Xtralife | pagina sin precio | **52,95 EUR** | si, con `navegador` |
+| Carrefour | 403 | **50,99 EUR** | si, con `navegador` |
+| El Corte Ingles, Fnac | 403 | 403 | no |
 
 Lo que filtran es **parecer un script**, no la direccion. Misma IP, mismo
 minuto, distinto resultado: eso descarta la IP como explicacion. La leccion
 util es que un 403 mide *como* pides, no si te dejan; antes de descartar una
-tienda hay que repetir con `--navegador`. El Corte Ingles, Fnac, Carrefour,
-Worten e Idealo se descartaron con la teoria vieja y **estan sin reprobar**.
+tienda hay que repetir con `--navegador`. De las cinco descartadas con la
+teoria vieja, Carrefour cayo a la primera.
+
+**El Corte Ingles y Fnac si estan cerradas de verdad**: 403 en local y en el
+runner con Chromium, y eso ya es tras los tres reintentos. Ahi hay deteccion
+mas alla del User-Agent. Quedan **Idealo sin reprobar** y Worten fuera porque
+no interesa.
 
 **Amazon sigue fuera, y esto no lo cambia**: su normativa lo prohibe, que no es
 un obstaculo tecnico.

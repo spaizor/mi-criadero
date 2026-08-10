@@ -15,7 +15,9 @@
       "MediaMarkt": "Si, con 'navegador': true. Da 403 a urllib y precio a Chromium desde la misma IP: filtra el parecer un script, no la direccion. Tres pasadas, mismo precio.",
       "PcComponentes": "Si, con 'navegador': true. Escribe el @type en minuscula, por eso hubo que dejar de exigir 'Product' exacto. Dio 403 en una de tres pasadas, asi que se reintenta.",
       "Xtralife": "Si, con 'navegador': true. Monta el bloque Product con JavaScript, asi que a urllib le llega la pagina sin precio. Ojo: el dominio es .com, el .es es otro sitio.",
-      "El Corte Ingles, Fnac, Carrefour, Worten, Idealo": "Sin reprobar desde que hay navegador. Daban 403 a urllib incluso desde casa, que ya no significa que esten cerradas.",
+      "Carrefour": "Si, con 'navegador': true. Estaba descartada por la teoria vieja; con Chromium da precio en local y en el runner.",
+      "El Corte Ingles y Fnac": "No: 403 en local y en el runner INCLUSO con navegador, y eso ya es tras los tres reintentos. Ahi hay deteccion mas alla del User-Agent, no una puerta entornada.",
+      "Worten e Idealo": "Sin reprobar con navegador. Worten queda fuera porque no interesa.",
       "Amazon": "No se usa: bloquea scripts y su normativa lo prohibe. Esto no es una limitacion tecnica y el navegador no lo cambia."
     },
     "campos": {
@@ -51,6 +53,11 @@
         {
           "tienda": "Xtralife",
           "url": "https://www.xtralife.com/producto/star-fox-switch-2-edition-switch-2-edicion-estandar/111034",
+          "navegador": true
+        },
+        {
+          "tienda": "Carrefour",
+          "url": "https://www.carrefour.es/star-fox-para-switch-2/VC4A-33647650/p",
           "navegador": true
         }
       ]
