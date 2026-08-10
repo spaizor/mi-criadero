@@ -1,6 +1,6 @@
 {
   "seccion": "ofertas",
-  "actualizado": "09-08-2026 10:47",
+  "actualizado": "10-08-2026 10:08",
   "productos": [
     {
       "id": "star-fox-switch-2",
@@ -9,15 +9,15 @@
       "precios": [
         {
           "tienda": "MediaMarkt",
-          "precio": 50.9,
+          "precio": 50.99,
           "moneda": "EUR",
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-star-fox-1665418.html",
-          "consultado": "08-08-2026 17:19",
+          "consultado": "10-08-2026 10:08",
           "minimo": 50.9,
           "minimo_fecha": "08-08-2026",
-          "estado": "enlace"
+          "estado": "ok"
         },
         {
           "tienda": "GAME",
@@ -26,7 +26,7 @@
           "disponible": null,
           "vendedor": null,
           "enlace": "https://www.game.es/star-fox-nintendo-switch-2-261234",
-          "consultado": "09-08-2026 10:47",
+          "consultado": "10-08-2026 10:08",
           "minimo": 59.99,
           "minimo_fecha": "08-08-2026",
           "estado": "ok"
@@ -38,10 +38,22 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.pccomponentes.com/star-fox-nintendo-switch-2",
-          "consultado": "09-08-2026 10:42",
+          "consultado": "10-08-2026 10:08",
           "minimo": 50.99,
           "minimo_fecha": "09-08-2026",
-          "estado": "enlace"
+          "estado": "ok"
+        },
+        {
+          "tienda": "Xtralife",
+          "precio": 52.95,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.xtralife.com/producto/star-fox-switch-2-edition-switch-2-edicion-estandar/111034",
+          "consultado": "10-08-2026 10:08",
+          "minimo": 52.95,
+          "minimo_fecha": "10-08-2026",
+          "estado": "ok"
         }
       ]
     }
