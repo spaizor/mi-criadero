@@ -200,44 +200,66 @@ etiqueta. Como una ficha trae ademas variantes y productos relacionados con sus
 propios precios, se elige el bloque que contiene la referencia numerica de la
 URL pedida.
 
-Comprobado el 08-08-2026: **GAME y MediaMarkt** dejan pasar a un script. **El
-Corte Ingles, Fnac, Carrefour e Idealo** responden 403. **Amazon queda fuera a
-proposito**: bloquea scripts y su normativa lo prohibe. Antes de anadir una
-tienda nueva al catalogo hay que pasarla por `precios.py probar <url>`.
+### Un 403 no dice que la tienda este cerrada
 
-Ojo con esa comprobacion: se hizo desde un PC de casa y **MediaMarkt solo
-responde ahi**. Ni el runner de GitHub ni la nube de Anthropic le sacan un
-precio: es un bloqueo por IP de datacenter, no un corte pasajero, y no se
-arregla cambiando la hora ni volviendo a la rutina. Por eso una tienda hay que
-probarla **en los dos sitios**: `precios.py probar <url>` en local y el campo
-`probar` del workflow para el runner.
+Durante dos dias se dio por hecho que MediaMarkt y PcComponentes filtraban las
+**IP de datacenter**: daban precio desde casa y 403 desde el runner, y de ahi
+salio `solo_enlace`. Era falso, y la forma de verlo fue pedir la misma ficha
+**dos veces desde el mismo sitio y en el mismo segundo**, una con `urllib` y
+otra con Chromium. Medido el 10-08-2026 desde el runner:
 
-Repaso del 09-08-2026 con la ficha de Star Fox:
-
-| Tienda | Local | Runner | En el catalogo |
+| Tienda | urllib | Chromium | En el catalogo |
 |---|---|---|---|
-| GAME | si | si | si |
-| PcComponentes | si | 403 | si, con `solo_enlace` |
-| MediaMarkt | si | 403 | si, con `solo_enlace` |
-| Xtralife | responde pero sin precio | — | no |
-| El Corte Ingles, Fnac, Carrefour, Worten, Idealo | 403 | 403 | no |
+| GAME | 59,99 EUR | 59,99 EUR | si, sin navegador |
+| MediaMarkt | 403 | **50,99 EUR** | si, con `navegador` |
+| PcComponentes | 403 | **50,99 EUR** (403 en 1 de 3) | si, con `navegador` |
+| Xtralife | pagina sin precio | **52,95 EUR** | si, con `navegador` |
 
-**Xtralife no es un bloqueo**: devuelve 5 KB y monta la ficha con JavaScript,
-asi que en el HTML no hay precio que leer. Distinguirlo de un 403 importa,
-porque un bloqueo puede cambiar y esto no va a cambiar solo.
+Lo que filtran es **parecer un script**, no la direccion. Misma IP, mismo
+minuto, distinto resultado: eso descarta la IP como explicacion. La leccion
+util es que un 403 mide *como* pides, no si te dejan; antes de descartar una
+tienda hay que repetir con `--navegador`. El Corte Ingles, Fnac, Carrefour,
+Worten e Idealo se descartaron con la teoria vieja y **estan sin reprobar**.
+
+**Amazon sigue fuera, y esto no lo cambia**: su normativa lo prohibe, que no es
+un obstaculo tecnico.
+
+**Xtralife necesita el navegador por otro motivo**: no bloquea a nadie, monta
+el bloque `Product` con JavaScript, asi que a `urllib` le llega la ficha sin
+precio. Su dominio bueno es **`.com`**; `xtralife.es` es otro sitio, y probar
+alli dio un "no publica precio" que no decia nada de esta tienda.
+
+El coste de abrir Chromium (unos segundos por ficha) solo lo pagan las tiendas
+marcadas: GAME responde a `urllib` en milisegundos y no tiene por que. El
+navegador se abre **una vez por ejecucion** y se reaprovecha; arrancarlo es lo
+caro, cada pagina despues sale casi gratis.
+
+Esto rompe el "solo biblioteca estandar" que si cumple `noticias.py`:
+`precios.py` necesita **Playwright** para las tiendas marcadas, y el workflow
+lo instala. Si falta, el error lo dice con el comando para instalarlo. Para
+probar en local: `pip install playwright && playwright install chromium`.
+
+**La cadencia sigue siendo una vez al dia.** Lo que hace que esto funcione es
+pasar por una visita normal; consultar cada media hora dejaria de serlo, y para
+precios de videojuegos no aportaria nada.
 
 **PcComponentes escribe `"@type": "product"` en minuscula.** Por eso
 `es_producto()` compara sin mayusculas y aceptando lista: exigir la forma
 exacta del estandar tiraba una ficha que traia el precio perfectamente.
 
+**Se reintenta tres veces, y no lo mismo en cada camino.** `traer()` (urllib)
+reintenta los fallos de red pero **no** los HTTP: alli el 403 fue consistente y
+repetirlo solo alarga la ejecucion. `Navegador.html()` **si** reintenta el 403,
+porque el de PcComponentes resulto ser intermitente: 403 en una pasada y precio
+quince minutos despues. Los dos casos son medidos, no simetricos por gusto.
+
 Cinco decisiones sobre no mentir en los precios:
 
-- **Una tienda que solo responde desde casa no se borra: se marca
-  `"solo_enlace": true`** en `productos.json`. El script no la consulta (un
-  fallo que se sabe seguro solo ensucia el parte y hace dudar de los que si
-  importan) pero conserva su ultimo precio con su fecha, y la web la pinta con
-  su hipervinculo para poder mirarla a mano. Perder de vista la tienda que
-  suele ser la mas barata seria peor que no tener su precio del dia.
+- **`"solo_enlace": true` sigue existiendo, ahora sin usar.** La tienda no se
+  consulta pero conserva su ultimo precio con su fecha y la web la pinta con su
+  hipervinculo, para no perder de vista una que suela ser la mas barata. Se
+  reserva para la que no responda **ni con navegador**: mientras responda, lo
+  correcto es consultarla, no guardarle el sitio.
 - **Solo los precios en estado `ok` compiten por "Mas barato".** Comparar uno
   de hace dias con uno de hoy y coronarlo seria dar por hecha una comparacion
   que nadie ha hecho.

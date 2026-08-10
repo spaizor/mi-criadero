@@ -5,10 +5,14 @@
 # y el script solo usa la biblioteca estandar, cabe entero aqui y no hace falta
 # gastar una rutina en lanzarlo.
 #
-# Lo que hay que vigilar: los runners de GitHub salen por IPs de datacenter,
-# que es justo lo que filtran las tiendas. GAME y MediaMarkt dejan pasar a un
-# script desde una conexion domestica; si desde aqui responden 403, este
-# workflow no sirve y hay que volver a la rutina.
+# Las tiendas marcadas con "navegador": true en productos.json se abren con
+# Chromium. Se comprobo el 10-08-2026 que MediaMarkt, PcComponentes y Xtralife
+# dan 403 (o pagina sin precio) a urllib y sueltan el precio a un navegador
+# desde esta misma IP: lo que filtran es parecer un script, no el datacenter.
+#
+# La cadencia es UNA VEZ AL DIA a proposito. Lo que hace que esto funcione es
+# pasar por una visita normal, y un producto consultado cada media hora deja de
+# serlo. Para precios de videojuegos, ademas, no aporta nada.
 
 name: Precios
 
@@ -43,12 +47,17 @@ jobs:
         with:
           python-version: "3.13"
 
-      # Homologar una tienda desde el PC no vale: MediaMarkt responde ahi y da
-      # 403 desde cualquier servidor. Antes de meter una tienda en el catalogo
-      # hay que probarla en el sitio donde va a correr de verdad, que es este.
+      - name: Instalar Playwright
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      # Homologar una tienda desde el PC no basta: lo que responde a una IP
+      # domestica puede no responder aqui. Antes de meterla en el catalogo hay
+      # que probarla en el sitio donde va a correr de verdad, que es este.
       - name: Probar una ficha suelta
         if: inputs.probar != ''
-        run: python3 scripts/precios.py probar "${{ inputs.probar }}"
+        run: python3 scripts/precios.py probar "${{ inputs.probar }}" --navegador
 
       - name: Consultar precios
         if: inputs.probar == ''
