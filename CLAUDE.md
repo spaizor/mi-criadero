@@ -279,6 +279,29 @@ el contado. Tres cosas que hay que tener presentes:
 - Por eso el registro lleva `"estimado"` y **la web lo dice** con su etiqueta.
   Un precio calculado por nosotros no puede presentarse igual que uno leido.
 
+**Y una red por si aparece otro Orange.** El caso se caza a mano una vez, pero
+las fichas no se leen todos los dias, asi que `descartar_absurdos()` lo
+automatiza: un precio por debajo del **25% de la mediana del dia** no se
+publica, se degrada como un fallo y el parte explica que mirar. Detalles que
+importan:
+
+- **Mediana y no media**, porque el valor absurdo arrastraria la media hacia
+  abajo y podria acabar tapandose a si mismo.
+- **El 25% no toca una rebaja de verdad**: probado con un -60%, que pasa. La
+  cuota de Orange era el 4% del precio real, o sea que cae con mucho margen.
+- **Con menos de tres precios no se juzga**: el raro podria ser justo el que
+  marca la referencia.
+- Se compara contra los precios del mismo dia, no contra un umbral fijo, para
+  que valga igual con un juego de 60 EUR que con uno de 3.
+
+**Al navegador se le espera al bloque, no un rato fijo.** Xtralife fallaba a
+veces con "no trae ningun bloque de producto": el JavaScript no habia acabado.
+Se sondea la pagina hasta que el bloque aparece, con un tope de 20 segundos, y
+se sale en cuanto esta. Preguntar por el dato y no por un elemento del DOM hace
+que sirva para las dos formas de publicarlo, la etiqueta de GAME y el estado
+interno de MediaMarkt. De paso la ejecucion entera bajo de unos 20 segundos a
+menos de 10, porque las fichas rapidas ya no esperan de balde.
+
 Seis decisiones sobre no mentir en los precios:
 
 - **`"solo_enlace": true` es para las que no responden ni con navegador.** No

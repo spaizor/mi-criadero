@@ -17,6 +17,7 @@ import argparse
 import json
 import re
 import sys
+import statistics
 import time
 import urllib.error
 import urllib.request
@@ -54,12 +55,27 @@ AGENTE_NAVEGADOR = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                     "AppleWebKit/537.36 (KHTML, like Gecko) "
                     "Chrome/127.0.0.0 Safari/537.36")
 
-# Margen (ms) para que la ficha acabe de montarse antes de leer el HTML.
-ESPERA_RENDER = 4000
+# Tope (segundos) que se le da a una ficha para montar su bloque de producto.
+# No es una espera fija: se sondea y se sale en cuanto aparece, asi que las
+# tiendas rapidas no lo pagan y solo las lentas gastan el margen entero.
+ESPERA_RENDER_MAX = 20
 
 # IVA general espanol. Hace falta porque hay tiendas que publican el precio sin
 # el, y ese numero no es el que paga nadie.
 IVA = 1.21
+
+# Red de seguridad contra un precio bien formado pero absurdo, como la cuota de
+# 2,07 EUR que Orange declara donde deberia ir el precio. Un precio por debajo
+# de esta parte de la mediana del dia no se publica.
+#
+# 0.25 esta elegido para no tocar una rebaja de verdad: un juego al 25% de lo
+# que piden las demas tiendas el mismo dia no es una oferta, es otra cosa. La
+# cuota de Orange era el 4%, asi que cae con muchisimo margen.
+FACTOR_SOSPECHA = 0.25
+
+# Con uno o dos precios no hay mediana que valga: el sospechoso podria ser
+# justo el que marca la referencia. Se prefiere no juzgar a juzgar mal.
+MINIMO_PARA_JUZGAR = 3
 
 
 class Navegador:
@@ -114,8 +130,29 @@ class Navegador:
                     # PcComponentes resulto ser intermitente (403 en una pasada
                     # y precio en la siguiente, 15 minutos despues).
                     raise RuntimeError(f"HTTP {estado}")
-                pagina.wait_for_timeout(ESPERA_RENDER)
-                return pagina.content()
+                # Se espera al bloque de producto en si, no un rato fijo ni a
+                # que la red se calme. Con una espera de 4 segundos Xtralife
+                # fallaba a veces con "no trae ningun bloque de producto", que
+                # es lo que se ve cuando el JavaScript aun no ha montado la
+                # ficha; y esperar por si acaso penaliza a las que ya estaban
+                # listas. Sondeando se sale en cuanto aparece.
+                #
+                # Sirve para las dos formas de publicarlo, la etiqueta ld+json
+                # de GAME y el estado interno de MediaMarkt, porque pregunta
+                # por el dato y no por un elemento concreto del DOM.
+                limite = time.monotonic() + ESPERA_RENDER_MAX
+                while True:
+                    html = pagina.content()
+                    if objetos_producto(html):
+                        return html
+                    if time.monotonic() >= limite:
+                        break
+                    pagina.wait_for_timeout(500)
+                # Puede que la ficha no publique bloque nunca, o que hoy vaya
+                # lenta. Se reintenta por lo segundo; si es lo primero, el
+                # ultimo intento acaba fallando igual.
+                raise RuntimeError("la pagina no trae ningun bloque de "
+                                   "producto")
             except Exception:
                 if intento == INTENTOS - 1:
                     raise
@@ -312,6 +349,52 @@ def de_cuota_a_contado(cuota, meses):
     return round(cuota * IVA * meses, 2)
 
 
+def descartar_absurdos(precios, anteriores, id_producto):
+    """Quita los precios que no pueden ser de este producto.
+
+    Un precio puede estar perfectamente formado y aun asi no ser un precio: la
+    cuota de Orange lo demuestra. Como se detecto leyendo una ficha a mano, y a
+    mano no se van a leer todos los dias, aqui se automatiza el olfato: se
+    compara cada precio con la mediana de los del mismo dia, que es la mejor
+    referencia disponible de lo que vale el producto.
+
+    Se usa la mediana y no la media justo porque el valor sospechoso arrastraria
+    la media hacia abajo y podria acabar tapandose a si mismo.
+
+    Devuelve la lista de avisos; los precios se degradan en el sitio.
+    """
+    frescos = [p for p in precios
+               if p.get("estado") == OK and p.get("precio") is not None]
+    if len(frescos) < MINIMO_PARA_JUZGAR:
+        return []
+
+    umbral = statistics.median(p["precio"] for p in frescos) * FACTOR_SOSPECHA
+    avisos = []
+    for p in frescos:
+        if p["precio"] >= umbral:
+            continue
+        avisos.append(
+            f"{p['tienda']}: {p['precio']:.2f} EUR es menos del "
+            f"{FACTOR_SOSPECHA:.0%} de lo que piden las demas hoy (umbral "
+            f"{umbral:.2f}). No se publica: casi seguro que la ficha no da el "
+            f"precio del producto, sino una cuota, un accesorio o una variante. "
+            f"Si el precio es real, mirar la ficha y anadir 'cuota' o corregir "
+            f"la URL en productos.json."
+        )
+        # Se degrada como cualquier otro fallo: con el ultimo precio bueno si
+        # lo hay. Publicar el absurdo seria peor que no publicar nada.
+        anterior = anteriores.get((id_producto, p["tienda"]), {})
+        conservado = dict(anterior) if anterior else {}
+        conservado.update({
+            "tienda": p["tienda"],
+            "enlace": p["enlace"],
+            "estado": VIEJO if anterior else NUEVO,
+        })
+        conservado.setdefault("precio", None)
+        precios[precios.index(p)] = conservado
+    return avisos
+
+
 def previos():
     """Lo publicado en la ejecucion anterior, indexado por producto y tienda."""
     if not SALIDA.exists():
@@ -426,6 +509,12 @@ def cmd_consultar(args):
             calculo = (f"  (calculado: {estimado['cuota']:.2f} x {estimado['meses']} "
                        f"cuotas + IVA)") if estimado else ""
             print(f"{etiqueta}: {precio:.2f} {extra['moneda']}{stock}{calculo}{aviso}")
+
+        # Ya con todos los precios del producto delante, que es cuando se puede
+        # saber si alguno se sale de lo que piden los demas.
+        for aviso in descartar_absurdos(precios, anteriores, producto["id"]):
+            fallos.append(f"{producto['nombre']} en {aviso}")
+            consultados -= 1
 
         salida.append({
             "id": producto["id"],
