@@ -297,7 +297,10 @@ importan:
 **Al navegador se le espera al bloque, no un rato fijo.** Xtralife fallaba a
 veces con "no trae ningun bloque de producto": el JavaScript no habia acabado.
 Se sondea la pagina hasta que el bloque aparece, con un tope de 20 segundos, y
-se sale en cuanto esta. Preguntar por el dato y no por un elemento del DOM hace
+se sale en cuanto esta. Al sondear hay que tragarse el "the page is navigating
+and changing the content" de `content()`: significa haber preguntado mientras
+la ficha navegaba, no que la tienda falle. Solo aparecio en el runner, donde la
+red va distinto, y tumbo a Xtralife los tres intentos. Preguntar por el dato y no por un elemento del DOM hace
 que sirva para las dos formas de publicarlo, la etiqueta de GAME y el estado
 interno de MediaMarkt. De paso la ejecucion entera bajo de unos 20 segundos a
 menos de 10, porque las fichas rapidas ya no esperan de balde.
