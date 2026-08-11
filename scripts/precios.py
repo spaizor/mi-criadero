@@ -142,8 +142,17 @@ class Navegador:
                 # por el dato y no por un elemento concreto del DOM.
                 limite = time.monotonic() + ESPERA_RENDER_MAX
                 while True:
-                    html = pagina.content()
-                    if objetos_producto(html):
+                    try:
+                        html = pagina.content()
+                    except Exception:
+                        # "the page is navigating and changing the content":
+                        # se ha pedido el HTML justo mientras la ficha navegaba.
+                        # No es un fallo de la tienda, es haber preguntado en
+                        # mal momento, asi que se vuelve a mirar luego. Paso en
+                        # el runner con Xtralife y nunca en local: depende de lo
+                        # que tarde la red.
+                        html = ""
+                    if html and objetos_producto(html):
                         return html
                     if time.monotonic() >= limite:
                         break
