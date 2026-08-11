@@ -51,6 +51,14 @@ function pintarPrecio(p, esMasBarato) {
   if (p.disponible === false) {
     etiquetas.push('<span class="etiqueta agotado">Sin stock</span>');
   }
+  // La tienda no publica el precio del producto sino la cuota de una
+  // financiacion: el importe de al lado lo hemos reconstruido nosotros, y
+  // decirlo es la diferencia entre un dato y una invencion.
+  if (p.estimado) {
+    etiquetas.push(`<span class="etiqueta estimado">Estimado: ${
+      formatearPrecio(p.estimado.cuota, p.moneda)}/mes x ${
+      p.estimado.meses} + IVA</span>`);
+  }
   if (p.vendedor) {
     etiquetas.push(`<span class="etiqueta">Vende ${escaparOferta(p.vendedor)}</span>`);
   }

@@ -57,6 +57,10 @@ AGENTE_NAVEGADOR = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
 # Margen (ms) para que la ficha acabe de montarse antes de leer el HTML.
 ESPERA_RENDER = 4000
 
+# IVA general espanol. Hace falta porque hay tiendas que publican el precio sin
+# el, y ese numero no es el que paga nadie.
+IVA = 1.21
+
 
 class Navegador:
     """Chromium de verdad, para las tiendas que dan 403 a un script pelado.
@@ -291,6 +295,23 @@ def leer_precio(html, url):
     return None, "hay bloques de producto pero ninguno trae precio"
 
 
+def de_cuota_a_contado(cuota, meses):
+    """Precio de contado a partir de una cuota mensual publicada sin IVA.
+
+    Orange no publica el precio del producto: su bloque Product trae la cuota
+    de una financiacion, y ademas sin IVA. Con la ficha de Star Fox se vio la
+    cadena entera: 59,99 / 1,21 / 24 = 2,07, que es exactamente lo que declara,
+    y 2,07 x 1,21 = 2,50, que es lo que pinta en pantalla.
+
+    Ojo con lo que sale de aqui: 2,07 x 1,21 x 24 da 60,11 y el PVP es 59,99.
+    Los 12 centimos son el redondeo de la cuota, que viene con dos decimales.
+    O sea que esto es una reconstruccion con un error de unos centimos, no un
+    precio leido, y por eso el registro se marca con "estimado": true y la web
+    lo avisa. El plazo tampoco esta en la ficha: lo pone el catalogo.
+    """
+    return round(cuota * IVA * meses, 2)
+
+
 def previos():
     """Lo publicado en la ejecucion anterior, indexado por producto y tienda."""
     if not SALIDA.exists():
@@ -364,13 +385,27 @@ def cmd_consultar(args):
                     })
                 continue
 
+            # Tiendas que publican una cuota en vez del precio: se reconstruye
+            # el contado antes de comparar nada, porque una cuota compitiendo
+            # con precios enteros ganaria siempre "Mas barato".
+            cuota = tienda.get("cuota")
+            estimado = None
+            if cuota:
+                mensual = precio
+                precio = de_cuota_a_contado(mensual, cuota["meses"])
+                estimado = {
+                    "cuota": mensual,
+                    "meses": cuota["meses"],
+                    "iva": round((IVA - 1) * 100),
+                }
+
             consultados += 1
             minimo = anterior.get("minimo")
             minimo_fecha = anterior.get("minimo_fecha")
             if minimo is None or precio < minimo:
                 minimo, minimo_fecha = precio, ahora.strftime(FORMATO_FECHA)
 
-            precios.append({
+            registro = {
                 "tienda": tienda["tienda"],
                 "precio": precio,
                 "moneda": extra["moneda"],
@@ -381,10 +416,16 @@ def cmd_consultar(args):
                 "minimo": minimo,
                 "minimo_fecha": minimo_fecha,
                 "estado": OK,
-            })
+            }
+            if estimado:
+                registro["estimado"] = estimado
+            precios.append(registro)
+
             aviso = "" if extra["elegido_por_referencia"] else "  (ojo: ficha elegida por descarte)"
             stock = " [sin stock]" if extra["disponible"] is False else ""
-            print(f"{etiqueta}: {precio:.2f} {extra['moneda']}{stock}{aviso}")
+            calculo = (f"  (calculado: {estimado['cuota']:.2f} x {estimado['meses']} "
+                       f"cuotas + IVA)") if estimado else ""
+            print(f"{etiqueta}: {precio:.2f} {extra['moneda']}{stock}{calculo}{aviso}")
 
         salida.append({
             "id": producto["id"],
@@ -434,7 +475,14 @@ def cmd_probar(args):
                   "el precio con JavaScript, como hace Xtralife.")
         return 1
     print(f"Ficha    : {extra['nombre_ficha']}")
-    print(f"Precio   : {precio:.2f} {extra['moneda']}")
+    if args.cuotas:
+        contado = de_cuota_a_contado(precio, args.cuotas)
+        print(f"Cuota    : {precio:.2f} {extra['moneda']}/mes sin IVA")
+        print(f"Contado  : {contado:.2f} {extra['moneda']}  (calculado: "
+              f"cuota x {args.cuotas} x IVA, con unos centimos de error)")
+        precio = contado
+    else:
+        print(f"Precio   : {precio:.2f} {extra['moneda']}")
     print(f"Stock    : {'si' if extra['disponible'] else 'no'}")
     if extra["vendedor"]:
         print(f"Vendedor : {extra['vendedor']}")
@@ -457,6 +505,9 @@ def main():
     p.add_argument("--navegador", action="store_true",
                    help="abrir la ficha con Chromium, como las tiendas que "
                         "dan 403 a un script o montan el precio con JavaScript")
+    p.add_argument("--cuotas", type=int, metavar="MESES",
+                   help="la ficha publica una cuota mensual sin IVA en vez del "
+                        "precio (Orange): reconstruir el contado con este plazo")
     p.set_defaults(func=cmd_probar)
 
     args = parser.parse_args()

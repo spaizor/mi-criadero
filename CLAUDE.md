@@ -262,7 +262,24 @@ repetirlo solo alarga la ejecucion. `Navegador.html()` **si** reintenta el 403,
 porque el de PcComponentes resulto ser intermitente: 403 en una pasada y precio
 quince minutos despues. Los dos casos son medidos, no simetricos por gusto.
 
-Cinco decisiones sobre no mentir en los precios:
+**Hay tiendas que publican una cuota donde deberia ir el precio.** Orange
+declara en su bloque `Product` un `"price": "2.07"` impecable de forma, pero es
+la **cuota mensual sin IVA** de una financiacion a 24 meses. La cadena cuadra
+entera: 59,99 / 1,21 / 24 = 2,07 (lo que declara) y 2,07 x 1,21 = 2,50 (lo que
+pinta en pantalla). Sin darse cuenta, Orange habria salido en la web a 2,07 EUR
+y coronada como la mas barata siendo de las mas caras.
+
+El catalogo lo arregla con `"cuota": { "meses": 24 }`, y el script reconstruye
+el contado. Tres cosas que hay que tener presentes:
+
+- **El plazo no esta en la ficha.** Se dedujo probando plazos contra un PVP
+  conocido; ahi no hay nada que leer, asi que lo pone el catalogo a mano.
+- **El resultado no es exacto**: 2,07 x 1,21 x 24 = 60,11 y el PVP es 59,99.
+  Los 12 centimos son el redondeo de la cuota a dos decimales.
+- Por eso el registro lleva `"estimado"` y **la web lo dice** con su etiqueta.
+  Un precio calculado por nosotros no puede presentarse igual que uno leido.
+
+Seis decisiones sobre no mentir en los precios:
 
 - **`"solo_enlace": true` es para las que no responden ni con navegador.** No
   se consultan (un fallo que se sabe seguro solo ensucia el parte y hace dudar
@@ -280,6 +297,8 @@ Cinco decisiones sobre no mentir en los precios:
   declara el stock: darlo por agotado seria publicar algo falso.
 - **Se guarda el vendedor cuando la ficha lo dice.** En el marketplace de
   MediaMarkt el precio mas bajo suele ser de un tercero, no de la tienda.
+- **Un precio reconstruido se marca como tal.** Los de `"cuota"` salen con su
+  etiqueta de estimado y el calculo a la vista, para que se pueda comprobar.
 
 El minimo historico vive dentro de `data/ofertas.json` y lo actualiza el script
 comparando con la ejecucion anterior. Esta seccion **no usa `data/historico/`**,

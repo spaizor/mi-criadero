@@ -349,7 +349,8 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 }
 
 .etiqueta.barato { border-color: var(--acento); color: var(--acento); }
-.etiqueta.agotado, .etiqueta.viejo, .etiqueta.enlace { border-style: dashed; }
+.etiqueta.agotado, .etiqueta.viejo, .etiqueta.enlace,
+.etiqueta.estimado { border-style: dashed; }
 
 /* El aviso de que el precio puede haber cambiado no debe pasar desapercibido,
    pero tampoco competir con los precios */
