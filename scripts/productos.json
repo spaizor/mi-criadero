@@ -18,6 +18,7 @@
       "Carrefour": "Si, con 'navegador': true. Estaba descartada por la teoria vieja; con Chromium da precio en local y en el runner.",
       "El Corte Ingles": "No se puede consultar: 403 en local y en el runner INCLUSO con navegador, y eso ya es tras los tres reintentos. Ahi hay deteccion mas alla del User-Agent. Aun asi esta en el catalogo con 'solo_enlace': true, para tener el enlace a mano aunque nunca traiga precio.",
       "Fnac": "No se puede consultar: mismo 403 que El Corte Ingles en los dos sitios y con navegador. Tambien esta con 'solo_enlace': true, solo por el enlace.",
+      "Orange": "Si, con urllib, pero publica la cuota mensual SIN IVA de una financiacion a 24 meses, no el precio. Va con 'cuota': {'meses': 24} y su precio sale marcado como estimado. Comprobado con Star Fox: declara 2.07, que es 59,99 / 1,21 / 24, y pinta 2,50/mes en pantalla. Es marketplace y pide ser cliente.",
       "Worten": "Fuera: no interesa.",
       "Idealo": "Fuera: es un comparador y mezcla tiendas digitales, que no es lo que se sigue aqui.",
       "Amazon": "No se usa: bloquea scripts y su normativa lo prohibe. Esto no es una limitacion tecnica y el navegador no lo cambia."
@@ -28,6 +29,7 @@
       "plataforma": "Consola o formato, para distinguir ediciones.",
       "tiendas": "Lista de fichas. 'tienda' es el nombre que se muestra; 'url' la ficha exacta.",
       "navegador": "Opcional. Abre la ficha con Chromium en vez de con urllib. Lo necesitan las tiendas que rechazan a los scripts (MediaMarkt, PcComponentes) y las que montan el precio con JavaScript (Xtralife). Cuesta unos segundos por ficha, asi que no se pone a las que no lo piden.",
+      "cuota": "Opcional, con la forma { \"meses\": 24 }. Para tiendas cuyo bloque Product publica la cuota mensual de una financiacion, sin IVA, en vez del precio del producto (Orange). El script reconstruye el contado multiplicando por el IVA y por los meses, y marca el precio como estimado para que la web lo avise. El plazo NO viene en la ficha: se pone aqui.",
       "solo_enlace": "Opcional. La tienda no se consulta pero se queda en la web con su enlace y, si alguna vez se le saco, su ultimo precio conocido fechado. Para tiendas que no responden ni con navegador y que aun asi interesa tener a un clic. Puede no haber tenido precio nunca: la web pinta 'Ver en la tienda' y ya."
     },
     "verificado_el": "10-08-2026"
@@ -71,6 +73,11 @@
           "tienda": "Fnac",
           "url": "https://www.fnac.es/Star-Fox-Nintendo-Switch-2-Videojuego-Nintendo-Switch-2/a13126792",
           "solo_enlace": true
+        },
+        {
+          "tienda": "Orange",
+          "url": "https://www.orange.es/dispositivos/videojuegos/nintendo/star-fox-para-nintendo-switch-2/MKP000915784811.html",
+          "cuota": { "meses": 24 }
         }
       ]
     }
