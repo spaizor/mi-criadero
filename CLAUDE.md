@@ -256,6 +256,16 @@ precios de videojuegos no aportaria nada.
 `es_producto()` compara sin mayusculas y aceptando lista: exigir la forma
 exacta del estandar tiraba una ficha que traia el precio perfectamente.
 
+**Un `AggregateOffer` no es una oferta, es el resumen de varias**, y su
+`lowPrice` puede ser de otro vendedor. La ficha de The Adventures of Elliot en
+PcComponentes resume dos ofertas con `lowPrice: 49` y `highPrice: 61.99`
+cuando el precio de la tienda son los 61,99. Con Star Fox no se veia porque
+`offerCount` era 1 y los dos valores coincidian: el fallo estaba ahi desde el
+principio y solo aparecio al meter el segundo juego. `oferta_de()` busca ahora
+la oferta cuya URL es la ficha pedida, y si no puede identificarla se queda con
+`highPrice`: publicar de mas es un error que se ve al abrir la tienda, y
+publicar de menos es un reclamo falso que nadie comprueba.
+
 **Se reintenta tres veces, y no lo mismo en cada camino.** `traer()` (urllib)
 reintenta los fallos de red pero **no** los HTTP: alli el 403 fue consistente y
 repetirlo solo alarga la ejecucion. `Navegador.html()` **si** reintenta el 403,
