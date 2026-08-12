@@ -82,10 +82,12 @@ biblioteca estandar, porque el entorno de las rutinas no lo controlamos.
 
 ```
 python3 scripts/noticias.py candidatos <seccion>   titulares nuevos, sacados de los RSS
+python3 scripts/noticias.py titulares  <seccion>   rellena los titulares espanoles
 python3 scripts/noticias.py anteriores <seccion>   lo ya publicado, para no repetirlo
 python3 scripts/noticias.py validar    <seccion>   revisa el JSON recien escrito
 python3 scripts/noticias.py archivar   <seccion>   copia del turno + indice
 python3 scripts/noticias.py publicar   "<mensaje>" commit de data/ y push
+python3 scripts/noticias.py estado                 que turnos faltan por publicar
 ```
 
 - `validar` distingue **ERROR** (algo objetivamente mal: sale con codigo 1) de
@@ -108,6 +110,109 @@ python3 scripts/noticias.py publicar   "<mensaje>" commit de data/ y push
   rama local vieja; si ademas coincide con la remota, git responde "up to date"
   y da por publicado un commit que no ha subido. Despues del push compara el
   commit local con `origin/main` para no fiarse del codigo de salida.
+
+### El comando `titulares`: los medios espanoles no pasan por el modelo
+
+En un medio espanol **no hay nada que traducir**: el titulo del feed ya es
+publicable. Hacerlo pasar por el modelo solo anadia el riesgo de siempre —
+horas y fuentes inventadas— en la mitad del contenido. Asi que el reparto de
+trabajo es ahora este:
+
+1. `candidatos` da la materia prima.
+2. El modelo escribe `data/<seccion>.json` con **las 5 destacadas y los
+   titulares de los medios de fuera**, que si hay que traducir.
+3. `titulares <seccion>` anade los de los medios `"idioma": "es"` leyendolos
+   del feed, y reescribe el fichero.
+4. `validar` -> `archivar` -> `publicar`, igual que antes.
+
+Va despues de escribir el fichero y no antes porque necesita saber que ha
+puesto el modelo: descarta por enlace contra las destacadas y contra los
+titulares que ya haya, ademas de contra los turnos anteriores.
+
+Lo que hay que saber para no romperlo:
+
+- **El titulo se publica tal cual sale del feed.** El modelo hoy los reescribe
+  un poco (de "El Galaxy S26 FE filtra todas sus caracteristicas" a "Se filtran
+  todas las caracteristicas del Galaxy S26 FE"), y eso se pierde. Es un cambio
+  aceptado, no un descuido: se cambia un retoque de estilo por la garantia de
+  que el titular es el que publico el medio.
+- **En tecnologia se pierde ademas al modelo como filtro de tema.** Colo un
+  "Netflix confirma la proxima serie de Prime Video" de ADSLZone: `RUIDO` caza
+  guias y ofertas, pero no lo que simplemente no viene a cuento. En nintendo
+  eso lo tapa el filtro por tema; en tecnologia no, ver mas abajo.
+- **Reparte uno de cada medio por vuelta**, no los 5 del primero que llega. Un
+  feed largo como el de ComputerHoy se llevaria el hueco entero y el turno
+  saldria con dos medios, que es justo lo que `validar` avisa.
+- **Se planta si `data/<seccion>.json` es de un turno ya archivado.** Sin eso,
+  una ejecucion en la que el modelo no llegase a escribir su fichero acabaria
+  anadiendo las noticias de hoy al turno de ayer y publicandolo como nuevo.
+- `--probar` ensena lo que anadiria sin tocar el fichero, y `--maximo` cambia
+  el tope de 25 contando los que ya hay.
+
+### El filtro por tema
+
+Los medios generalistas de videojuegos colaban PlayStation, Xbox, Steam, anime
+y cine en la seccion de Nintendo. Lo arregla el bloque `tema` de la seccion en
+`medios.json`, que se aplica **solo a los medios con `"filtrar_tema": true`**.
+
+**La regla es exigir el tema propio, no descartar la plataforma ajena.** Es al
+reves de lo que parece y se decidio midiendo, no opinando:
+
+- Descartando por "PS5, Xbox, Steam" pasaba todo lo que no nombra ninguna
+  plataforma, que en un medio generalista es medio feed: de las 30 entradas de
+  Areajugones solo caian 10, y lo que quedaba era manga, anime y Marvel.
+- Exigiendo mencion de Nintendo caen 27 de 30 en Areajugones, 42 de 54 en
+  HobbyConsolas y 93 de 100 en Eurogamer, y lo que queda es todo de la seccion.
+- **Los multiplataforma no se pierden**, que era el miedo razonable: "El Senor
+  de los Anillos ya esta disponible para PS5, Switch, Xbox y PC" nombra Switch,
+  asi que entra. Por eso la lista `ajeno` que hubo al principio sobra.
+
+**A los medios de Nintendo no se les aplica y no es un descuido**: sus noticias
+dan la consola por sabida y no la nombran, asi que exigirsela tiraria la mitad
+(5 de 9 en Nintenderos, 13 de 25 en Nintendo Life). El filtro es para los que
+publican de todo, no para los especializados.
+
+Se compara sin tildes en los dos lados, asi que da igual escribir "Pokemon" o
+"Pokémon" en la lista. **Tecnologia no tiene `tema` a proposito**: "fuera de
+tema" en una seccion de tecnologia general no se deja escribir como una lista
+de palabras, y una lista a medias tiraria noticias buenas.
+
+Los dos comandos que leen feeds (`candidatos` y `titulares`) aplican el filtro,
+y tambien **descartan repetidos dentro de la misma ejecucion**: hay feeds que
+publican la misma noticia dos veces (HobbyConsolas lo hace), asi que no basta
+con mirar contra lo ya publicado. Se compara por enlace y, dentro de un mismo
+medio, tambien por titulo.
+
+### El comando `estado`
+
+Contesta a la pregunta que antes habia que mirar a mano: **se ha publicado el
+turno de hoy?** Recorre las secciones con historico y pinta, por dia y turno, la
+hora a la que salio y cuanto trajo (`04:12 (5+22)` = 5 destacadas y 22
+titulares). Sale con codigo 1 si falta algun turno, asi que sirve tal cual para
+encadenarlo o lanzarlo desde un workflow.
+
+Cuatro decisiones que lo hacen fiable:
+
+- **Compara contra `origin/main`, no contra la copia de trabajo.** Las rutinas
+  corren en la nube y empujan alli; un clon local sin traer no tiene los turnos
+  de hoy y los daria por perdidos estando publicados. Se vio a la primera: la
+  copia local no tenia el turno de tarde que si estaba en `origin`. Hace `git
+  fetch` y lee con `git show FETCH_HEAD:<ruta>`. Si no hay red, avisa y usa lo
+  local; `--local` fuerza ese modo.
+- **Un turno no esta perdido hasta pasada su hora limite** (`LIMITE_TURNO`, 9:00
+  y 21:00). Las rutinas salen a las 4:00 y 16:30, asi que hay margen de sobra
+  para un reintento; sin esa espera el comando daria una falsa alarma cada
+  manana y se dejaria de mirar.
+- **Se cuentan las noticias de cada turno, no solo si existe.** Una ejecucion
+  puede publicar y archivar un JSON vacio: ese dia la web dice "todavia no hay
+  noticias" y el indice tan contento. Un turno con 0 destacadas sale como AVISO,
+  no como error, porque publicado esta; los del 07-08-2026 son del montaje.
+- **`--dias` cuenta hacia atras desde hoy**, por defecto 2: con eso, un fallo de
+  la tarde se ve a la manana siguiente.
+
+Como el turno perdido no se recupera (los feeds solo dan lo reciente), lo que
+aporta el comando no es arreglarlo sino enterarse a tiempo de mirar el log en
+https://claude.ai/code/routines antes del turno siguiente.
 
 Los limites de reparto (maximo por medio, minimo de medios) estan en las
 constantes de arriba del script y **repiten los del prompt**: si se cambian en
