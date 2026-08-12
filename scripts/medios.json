@@ -22,7 +22,14 @@
       "feed": "URL del RSS o Atom. null si no se conoce.",
       "idioma": "'es' o 'en'.",
       "comprobado": "true solo si se ha abierto el feed y trae noticias recientes.",
+      "filtrar_tema": "Opcional. true en los medios generalistas, que publican de todas las plataformas. Hace que se les aplique el 'tema' de la seccion.",
       "nota": "Opcional. Avisos: feed lento, hay que filtrar por tema, codificacion rara, etc."
+    },
+    "tema": {
+      "que_es": "Opcional, por seccion. Su lista 'propio' son los terminos que hacen que un titular sea de esta seccion: la consola, la marca y sus sagas.",
+      "a_quien_se_aplica": "Solo a los medios con 'filtrar_tema': true. En un medio de la propia marca no se aplica, porque sus noticias dan la consola por sabida y no la nombran.",
+      "por_que_asi": "Se exige el tema propio en vez de descartar por plataforma ajena (PS5, Xbox, Steam): eso dejaba pasar todo lo que no nombra ninguna plataforma, que en un medio generalista es medio feed de anime y cine. Los multiplataforma no se pierden: 'Silksong llega a Switch, PS5 y Xbox' nombra Switch.",
+      "acentos": "Da igual escribirlos con tilde o sin ella: se comparan sin tildes."
     },
     "verificado_el": "08-08-2026"
   },
@@ -112,6 +119,15 @@
       ]
     },
     "nintendo": {
+      "tema": {
+        "propio": [
+          "Nintendo", "Switch", "Switch 2", "eShop", "Joy-Con", "amiibo",
+          "Mario", "Luigi", "Yoshi", "Zelda", "Hyrule", "Link", "Pokemon",
+          "Metroid", "Samus", "Kirby", "Donkey Kong", "Splatoon", "Pikmin",
+          "Xenoblade", "Fire Emblem", "Animal Crossing", "Smash Bros",
+          "Kart", "Wii", "GameCube", "Game Boy", "3DS", "Miyamoto"
+        ]
+      },
       "medios": [
         {
           "nombre": "Nintenderos",
@@ -143,6 +159,7 @@
           "feed": "https://areajugones.sport.es/feed/",
           "idioma": "es",
           "comprobado": true,
+          "filtrar_tema": true,
           "nota": "Feed general de videojuegos con muchas ofertas: hay que filtrar por Nintendo."
         },
         {
@@ -151,6 +168,7 @@
           "feed": "https://www.hobbyconsolas.com/rss",
           "idioma": "es",
           "comprobado": true,
+          "filtrar_tema": true,
           "nota": "Feed general de videojuegos: hay que filtrar por Nintendo."
         },
         {
@@ -175,6 +193,7 @@
           "feed": "https://www.eurogamer.net/feed",
           "idioma": "en",
           "comprobado": true,
+          "filtrar_tema": true,
           "nota": "Feed general de videojuegos (100 entradas): hay que filtrar por Nintendo."
         }
       ]

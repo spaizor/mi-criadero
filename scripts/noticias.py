@@ -5,10 +5,12 @@ Todo lo que no requiere criterio vive aqui y no en el prompt: una instruccion
 del prompt se paga en cada ejecucion, y ademas puede olvidarse. Un script no.
 
     python3 scripts/noticias.py candidatos <seccion> [--horas N] [--por-medio N]
+    python3 scripts/noticias.py titulares  <seccion> [--maximo N] [--probar]
     python3 scripts/noticias.py anteriores <seccion> [--turnos N]
     python3 scripts/noticias.py validar    <seccion>
     python3 scripts/noticias.py archivar   <seccion>
     python3 scripts/noticias.py publicar   "mensaje de commit"
+    python3 scripts/noticias.py estado     [--dias N] [--local]
 
 Solo biblioteca estandar: las rutinas corren en un entorno que no controlamos.
 """
@@ -19,6 +21,7 @@ import re
 import subprocess
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -42,6 +45,7 @@ FORMATO_FECHA = "%d-%m-%Y"
 # Limites de reparto. Son los del prompt: si se cambian ahi, cambiarlos aqui.
 MAX_DESTACADAS_POR_MEDIO = 2
 MAX_TITULARES_POR_MEDIO = 5
+MAX_TITULARES = 25
 
 # Minimos por turno. El turno de tarde solo puede coger lo publicado desde la
 # manana, asi que exigirle lo mismo solo consigue que se rellene con paja.
@@ -50,6 +54,12 @@ MIN_MEDIOS_TITULARES = {"M": 5, "T": 3}
 
 # Horas hacia atras que mira 'candidatos' cuando no hay turno anterior.
 HORAS_POR_DEFECTO = 18
+
+# Hora a partir de la cual 'estado' da por perdido un turno que no esta. Las
+# rutinas salen a las 4:00 y las 16:30 (una hora menos en invierno), asi que
+# esto es margen de sobra: antes de su limite un turno que falta esta pendiente,
+# no perdido, y avisar de el seria una falsa alarma cada manana.
+LIMITE_TURNO = {"M": 9, "T": 21}
 
 AGENTE = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
           "(KHTML, like Gecko) Chrome/120.0 Safari/537.36")
@@ -119,6 +129,51 @@ def leer_medios(seccion, solo_utiles=True):
     if not solo_utiles:
         return medios
     return [m for m in medios if m.get("feed") and m.get("comprobado")]
+
+
+def sin_tildes(texto):
+    return "".join(c for c in unicodedata.normalize("NFD", texto)
+                   if unicodedata.category(c) != "Mn")
+
+
+def patron_de(terminos):
+    """Regex que caza cualquiera de los terminos como palabra suelta."""
+    if not terminos:
+        return None
+    # Sin tildes en los dos lados: un feed que escriba 'Pokemon' tiene que
+    # cazar igual que uno que escriba 'Pokemon' con tilde.
+    partes = sorted((re.escape(sin_tildes(t)) for t in terminos),
+                    key=len, reverse=True)
+    return re.compile(r"(?<!\w)(" + "|".join(partes) + r")(?!\w)", re.IGNORECASE)
+
+
+def leer_tema(seccion):
+    """Terminos que hacen que un titular sea de esta seccion, o None."""
+    if not MEDIOS.exists():
+        return None
+    tema = leer_json(MEDIOS).get("secciones", {}).get(seccion, {}).get("tema")
+    return patron_de((tema or {}).get("propio"))
+
+
+def fuera_de_tema(titulo, tema, medio):
+    """Titular de un medio generalista que no menciona el tema de la seccion.
+
+    Se exige el tema propio en vez de descartar por plataforma ajena, que era
+    lo primero que se probo. Dos motivos, los dos medidos sobre los feeds:
+
+    - Descartar por 'PS5, Xbox, Steam' deja pasar todo lo que no nombra ninguna
+      plataforma, que en un medio generalista es medio feed de anime, manga y
+      cine. Se colaban 20 de 30 de Areajugones.
+    - Y no se pierden los multiplataforma, que es lo que se temia: 'Silksong
+      llega a Switch, PS5 y Xbox' nombra Switch, asi que entra igual.
+
+    Solo se aplica a los medios marcados con 'filtrar_tema'. En los de Nintendo
+    seria contraproducente: sus noticias dan la consola por sabida y no la
+    nombran, asi que exigirsela tiraria la mitad (Nintenderos, 5 de 9).
+    """
+    if tema is None or not medio.get("filtrar_tema"):
+        return False
+    return not tema.search(sin_tildes(titulo))
 
 
 def medios_espanoles(seccion):
@@ -225,6 +280,21 @@ def entradas_del_feed(contenido):
     return salida
 
 
+def ventana_del_turno(seccion, horas=0):
+    """Desde cuando se cogen noticias, y como explicarselo a quien mire."""
+    ahora = datetime.now(ESPANA)
+    if horas:
+        return ahora - timedelta(hours=horas), f"ultimas {horas} h"
+    entradas = leer_indice(seccion).get("entradas", [])
+    previo = (validar_fecha(entradas[0]["actualizado"], FORMATO_FECHA_HORA)
+              if entradas else None)
+    if previo:
+        return (previo.replace(tzinfo=ESPANA),
+                f"turno anterior ({entradas[0]['actualizado']})")
+    return (ahora - timedelta(hours=HORAS_POR_DEFECTO),
+            f"ultimas {HORAS_POR_DEFECTO} h (no hay turno anterior)")
+
+
 def cmd_candidatos(args):
     medios = leer_medios(args.seccion)
     if not medios:
@@ -232,23 +302,11 @@ def cmd_candidatos(args):
               f"scripts/medios.json. Repasa ese fichero.")
         return 1
 
-    ahora = datetime.now(ESPANA)
-    if args.horas:
-        corte = ahora - timedelta(hours=args.horas)
-        desde = f"ultimas {args.horas} h"
-    else:
-        entradas = leer_indice(args.seccion).get("entradas", [])
-        previo = validar_fecha(entradas[0]["actualizado"], FORMATO_FECHA_HORA) if entradas else None
-        if previo:
-            corte = previo.replace(tzinfo=ESPANA)
-            desde = f"turno anterior ({entradas[0]['actualizado']})"
-        else:
-            corte = ahora - timedelta(hours=HORAS_POR_DEFECTO)
-            desde = f"ultimas {HORAS_POR_DEFECTO} h (no hay turno anterior)"
-
+    corte, desde = ventana_del_turno(args.seccion, args.horas)
     ya_publicado = publicados_antes(args.seccion)
+    tema = leer_tema(args.seccion)
 
-    candidatos, fallos, descartes = [], [], Counter()
+    candidatos, fallos, descartes, vistos = [], [], Counter(), set()
     for medio in medios:
         contenido, error = descargar(medio["feed"])
         if contenido is None:
@@ -260,16 +318,24 @@ def cmd_candidatos(args):
             fallos.append(f"{medio['nombre']}: el feed no es XML valido ({e})")
             continue
 
-        del_medio = []
+        del_medio, repetidos = [], set()
         for titulo, enlace, fecha in entradas:
             if fecha is None or fecha < corte:
                 descartes["viejas o sin fecha"] += 1
                 continue
-            if enlace in ya_publicado:
-                descartes["ya publicadas"] += 1
+            # Hay feeds que traen la misma noticia dos veces (HobbyConsolas lo
+            # hace), asi que no basta con mirar lo ya publicado.
+            clave = sin_tildes(titulo).strip().lower()
+            if enlace in ya_publicado or enlace in vistos or clave in repetidos:
+                descartes["ya publicadas o repetidas"] += 1
                 continue
+            vistos.add(enlace)
+            repetidos.add(clave)
             if RUIDO.search(titulo):
                 descartes["guias, ofertas y analisis"] += 1
+                continue
+            if fuera_de_tema(titulo, tema, medio):
+                descartes["de otra plataforma"] += 1
                 continue
             del_medio.append({
                 "titulo_original": titulo,
@@ -288,6 +354,9 @@ def cmd_candidatos(args):
     print("# 'titulo_original' viene del feed TAL CUAL: hay que reescribirlo en "
           "espanol antes de publicarlo.")
     print("# La fecha sale del propio feed, no se toca.")
+    print(f"# Los titulares de los medios espanoles los pone solo 'titulares "
+          f"{args.seccion}'. De esta lista salen las destacadas y los titulares "
+          f"de los medios de fuera, que si hay que traducir.")
     for motivo, veces in descartes.most_common():
         print(f"# Descartadas {veces} por {motivo}.")
     for fallo in fallos:
@@ -301,6 +370,182 @@ def cmd_candidatos(args):
         print("# Han fallado casi todos los feeds: puede que no haya salida a "
               "internet. Busca los titulares a mano abriendo cada medio.")
     print(json.dumps(candidatos, ensure_ascii=False, indent=2))
+    return 0
+
+
+# --------------------------------------------------------------------------
+# titulares: rellena el bloque de titulares con los medios espanoles, sin que
+# pase por el modelo. En un medio espanol no hay nada que traducir: el titulo
+# del feed ya es publicable, y copiarlo es justo donde se inventaban las horas
+# y las fuentes. El modelo se queda con las destacadas y los medios de fuera.
+# --------------------------------------------------------------------------
+
+def limpiar_titulo(titulo):
+    """El titulo del feed tal cual, pero sin restos del XML."""
+    # unescape otra vez porque hay feeds que escapan dos veces (&amp;amp;), y
+    # sin saltos de linea ni espacios dobles, que en el JSON cantan mucho.
+    return " ".join(unescape(titulo).split())
+
+
+def turno_ya_archivado(seccion, datos):
+    """True si el JSON que hay en data/ es un turno ya archivado.
+
+    Protege del caso feo: el modelo no ha llegado a escribir su fichero y en
+    data/<seccion>.json sigue el del turno pasado. Sin esto, 'titulares' le
+    anadiria las noticias de hoy al turno de ayer y lo publicaria como suyo.
+    """
+    try:
+        fecha, turno, _ = partir_actualizado(str(datos.get("actualizado", "")))
+    except ValueError:
+        return False
+    return any(e.get("fecha") == fecha and e.get("turno") == turno
+               for e in leer_indice(seccion).get("entradas", []))
+
+
+def cmd_titulares(args):
+    ruta = ruta_actual(args.seccion)
+    try:
+        datos = leer_json(ruta)
+    except FileNotFoundError:
+        print(f"ERROR: no existe {ruta.relative_to(RAIZ)}. Este comando rellena "
+              f"los titulares de un fichero que ya tiene sus destacadas: "
+              f"escribelo primero y lanzalo despues.")
+        return 1
+    except json.JSONDecodeError as e:
+        print(f"ERROR: {ruta.relative_to(RAIZ)} no es JSON valido: {e}")
+        return 1
+
+    if turno_ya_archivado(args.seccion, datos):
+        print(f"ERROR: data/{args.seccion}.json es del turno "
+              f"{datos.get('actualizado')}, que ya esta archivado. Parece el "
+              f"fichero del turno anterior: escribe el de este turno (con su "
+              f"'actualizado' y sus destacadas) antes de rellenar titulares.")
+        return 1
+
+    espanoles = [m for m in leer_medios(args.seccion) if m.get("idioma") == "es"]
+    if not espanoles:
+        print(f"ERROR: no hay ningun medio espanol comprobado en "
+              f"'{args.seccion}' dentro de scripts/medios.json, asi que no hay "
+              f"nada que rellenar sin pasar por el modelo.")
+        return 1
+
+    destacadas = datos.get("destacadas") or []
+    ya_estan = datos.get("titulares") or []
+    if not isinstance(destacadas, list) or not isinstance(ya_estan, list):
+        print("ERROR: 'destacadas' y 'titulares' tienen que ser listas.")
+        return 1
+
+    corte, desde = ventana_del_turno(args.seccion, args.horas)
+    tema = leer_tema(args.seccion)
+    # Lo de turnos pasados y lo que el modelo ya haya puesto en este.
+    vetados = set(publicados_antes(args.seccion))
+    vetados.update(n.get("enlace") for n in destacadas + ya_estan if n.get("enlace"))
+    # Normalizado: si el modelo escribe 'xataka' y el catalogo 'Xataka', sin
+    # esto no se le contarian los que ya ha puesto y se pasaria del maximo.
+    hueco = Counter(str(n.get("fuente", "")).strip().lower() for n in ya_estan)
+
+    tope = args.maximo - len(ya_estan)
+    if tope <= 0:
+        print(f"El fichero ya trae {len(ya_estan)} titulares y el tope es "
+              f"{args.maximo}: no cabe ninguno mas. Este comando pone los de "
+              f"los medios espanoles, asi que al modelo le tocan solo los de "
+              f"fuera; si ha llenado el cupo el, no queda sitio para ellos.")
+        return 0
+
+    por_medio, fallos, descartes = {}, [], Counter()
+    for medio in espanoles:
+        contenido, error = descargar(medio["feed"])
+        if contenido is None:
+            fallos.append(f"{medio['nombre']}: {error}")
+            continue
+        try:
+            entradas = entradas_del_feed(contenido)
+        except ET.ParseError as e:
+            fallos.append(f"{medio['nombre']}: el feed no es XML valido ({e})")
+            continue
+
+        nuevos, repetidos = [], set()
+        for titulo, enlace, fecha in entradas:
+            # Hay feeds que traen la misma noticia dos veces (HobbyConsolas lo
+            # hace), asi que ademas del enlace se mira el titulo del medio.
+            clave = sin_tildes(titulo).strip().lower()
+            if fecha is None or fecha < corte:
+                descartes["viejas o sin fecha"] += 1
+            elif enlace in vetados or clave in repetidos:
+                descartes["ya publicadas, ya puestas o repetidas"] += 1
+            elif RUIDO.search(titulo):
+                descartes["guias, ofertas y analisis"] += 1
+            elif fuera_de_tema(titulo, tema, medio):
+                descartes["de otra plataforma"] += 1
+            else:
+                vetados.add(enlace)
+                repetidos.add(clave)
+                nuevos.append({
+                    "titulo": limpiar_titulo(titulo),
+                    "fuente": medio["nombre"],
+                    "enlace": enlace,
+                    # Sin hora a proposito: no se abre el articulo. La del feed
+                    # es la de publicacion, pero el formato de los titulares no
+                    # la lleva y anadirla aqui solo la haria parecer verificada.
+                    "fecha": fecha.strftime(FORMATO_FECHA),
+                    "_publicado": fecha,
+                })
+        nuevos.sort(key=lambda n: n["_publicado"], reverse=True)
+        sitio = MAX_TITULARES_POR_MEDIO - hueco[medio["nombre"].strip().lower()]
+        if sitio > 0 and nuevos:
+            por_medio[medio["nombre"]] = nuevos[:sitio]
+
+    # Uno de cada medio por vuelta y no los 5 del primero: si un feed largo se
+    # lleva todo el hueco, el reparto queda con dos medios y 'validar' avisa.
+    elegidos, ronda = [], 0
+    while len(elegidos) < tope:
+        quedan = [lista for lista in por_medio.values() if len(lista) > ronda]
+        if not quedan:
+            break
+        for lista in quedan:
+            if len(elegidos) >= tope:
+                break
+            elegidos.append(lista[ronda])
+        ronda += 1
+
+    print(f"# {len(elegidos)} titulares de {len(espanoles) - len(fallos)} "
+          f"medios espanoles, desde el {desde}.")
+    print(f"# Titulo, enlace y fecha salen del feed sin tocar: no hay nada que "
+          f"traducir ni que resumir en un medio espanol.")
+    for motivo, veces in descartes.most_common():
+        print(f"# Descartadas {veces} por {motivo}.")
+    for fallo in fallos:
+        print(f"# FEED CAIDO {fallo}")
+    for nombre, lista in sorted(por_medio.items()):
+        puestos = len([n for n in elegidos if n["fuente"] == nombre])
+        if puestos < len(lista):
+            print(f"# {nombre}: {puestos} de {len(lista)} (no cabian mas).")
+
+    if not elegidos:
+        print("\nNo hay nada nuevo que anadir. Si es la primera ejecucion del "
+              "dia, revisa los feeds caidos de arriba antes de darlo por bueno.")
+        return 0
+
+    for noticia in elegidos:
+        noticia.pop("_publicado")
+    # Por dia y estable: dentro del mismo dia se respeta el orden con el que
+    # llegaron, que es lo mas parecido a 'lo mas reciente primero' que se puede
+    # decir sin hora. Los titulares no la llevan a proposito.
+    salida = ya_estan + elegidos
+    salida.sort(key=lambda n: validar_fecha(str(n.get("fecha", "")), FORMATO_FECHA)
+                or datetime.min, reverse=True)
+
+    if args.probar:
+        print("\n--probar: no se ha escrito nada. Se anadirian:")
+        for noticia in elegidos:
+            print(f"- [{noticia['fuente']}] {noticia['titulo']}")
+        return 0
+
+    datos["titulares"] = salida
+    escribir_json(ruta, datos)
+    print(f"\ndata/{args.seccion}.json: {len(ya_estan)} titulares del modelo + "
+          f"{len(elegidos)} de los feeds espanoles = {len(salida)}. Ahora "
+          f"'validar {args.seccion}'.")
     return 0
 
 
@@ -511,9 +756,9 @@ def cmd_validar(args):
     minimo = MIN_TITULARES.get(turno, 15)
     if len(titulares) < minimo:
         rev.aviso(f"Solo {len(titulares)} titulares (esperados {minimo} en el "
-                  f"turno {turno}, tope 25). Repasa la salida de 'candidatos': "
-                  f"si algun feed fallo, vuelve a lanzarlo antes de darlo por "
-                  f"bueno.")
+                  f"turno {turno}, tope {MAX_TITULARES}). Repasa la salida de "
+                  f"'candidatos': si algun feed fallo, vuelve a lanzarlo antes "
+                  f"de darlo por bueno.")
 
     for texto in rev.errores:
         print(f"ERROR: {texto}")
@@ -573,8 +818,11 @@ def cmd_archivar(args):
 # --------------------------------------------------------------------------
 
 def git(*args, comprobar=True):
+    # encoding fijo y no el del sistema: 'estado' lee por aqui JSON con acentos,
+    # y en Windows la salida saldria en cp1252 y los reventaria.
     return subprocess.run(["git", "-C", str(RAIZ)] + list(args),
-                          capture_output=True, text=True, check=comprobar)
+                          capture_output=True, text=True, check=comprobar,
+                          encoding="utf-8", errors="replace")
 
 
 def falta_archivar(seccion):
@@ -650,6 +898,139 @@ def cmd_publicar(args):
     return 1
 
 
+# --------------------------------------------------------------------------
+# estado: que turnos deberian estar publicados y cuales faltan
+# --------------------------------------------------------------------------
+
+def traer_remoto():
+    """origin/main al dia, o None si no hay red.
+
+    Se compara contra lo publicado, no contra la copia de trabajo: las rutinas
+    corren en la nube y empujan alli, asi que un clon local sin actualizar no
+    tiene los turnos de hoy y los daria por perdidos estando publicados.
+    """
+    if git("fetch", "origin", "main", comprobar=False).returncode != 0:
+        return None
+    return "FETCH_HEAD"
+
+
+def leer_publicado(ruta, remoto):
+    """Contenido de un fichero del repo en origin/main, o None si no esta."""
+    if remoto is None:
+        local = RAIZ / ruta
+        if not local.exists():
+            return None
+        texto = local.read_text(encoding="utf-8")
+    else:
+        hecho = git("show", f"{remoto}:{ruta}", comprobar=False)
+        if hecho.returncode != 0:
+            return None
+        texto = hecho.stdout
+    try:
+        return json.loads(texto)
+    except json.JSONDecodeError:
+        return None
+
+
+def secciones_con_historico(remoto):
+    """Secciones que llevan historico, que son las que actualiza una rutina."""
+    if remoto is None:
+        if not HISTORICO.exists():
+            return []
+        return sorted(d.name for d in HISTORICO.iterdir() if d.is_dir())
+    hecho = git("ls-tree", "--name-only", f"{remoto}:data/historico",
+                comprobar=False)
+    if hecho.returncode != 0:
+        return []
+    return sorted(n.rstrip("/") for n in hecho.stdout.split()
+                  if not n.endswith(".json"))
+
+
+def resumen_del_turno(seccion, entrada, remoto):
+    """('04:12 (5+22)', vacio): a que hora salio el turno y cuanto trajo."""
+    datos = leer_publicado(
+        f"data/historico/{seccion}/{entrada.get('fichero', '')}", remoto)
+    hora = str(entrada.get("actualizado", ""))[-5:] or "??:??"
+    if datos is None:
+        # El indice lo da por archivado pero su fichero no aparece. No es lo
+        # mismo que faltar el turno, asi que se dice y no se cuenta como fallo.
+        return f"{hora} (sin su fichero)", False
+    destacadas = len(datos.get("destacadas", []))
+    titulares = len(datos.get("titulares", []))
+    # Un turno sin destacadas se publico, pero ese dia la web decia "todavia no
+    # hay noticias". Se avisa y no se da por perdido: existe y esta archivado.
+    return f"{hora} ({destacadas}+{titulares})", destacadas == 0
+
+
+def cmd_estado(args):
+    remoto = None if args.local else traer_remoto()
+    if remoto is None and not args.local:
+        print("# No se ha podido leer origin/main: se compara con la copia "
+              "local, que puede ir por detras de lo que hayan publicado las "
+              "rutinas. Un turno marcado como perdido puede estar sin traer.")
+
+    secciones = secciones_con_historico(remoto)
+    if not secciones:
+        print("ERROR: no hay ninguna seccion con historico en data/historico/, "
+              "asi que no hay turnos que comprobar.")
+        return 1
+
+    ahora = datetime.now(ESPANA)
+    dias = [(ahora - timedelta(days=n)).strftime("%Y-%m-%d")
+            for n in range(args.dias)]
+    hoy = dias[0]
+
+    donde = "la copia local" if remoto is None else "origin/main"
+    print(f"Estado a {ahora.strftime(FORMATO_FECHA_HORA)} segun {donde}. "
+          f"Entre parentesis, destacadas+titulares de cada turno.\n")
+
+    perdidos, vacios = [], []
+    for seccion in secciones:
+        indice = leer_publicado(
+            f"data/historico/{seccion}/indice.json", remoto) or {}
+        turnos = {(e.get("fecha"), e.get("turno")): e
+                  for e in indice.get("entradas", [])}
+        print(seccion)
+        for dia in dias:
+            celdas = []
+            for turno in ("M", "T"):
+                entrada = turnos.get((dia, turno))
+                if entrada:
+                    texto, vacio = resumen_del_turno(seccion, entrada, remoto)
+                    celdas.append(f"{turno} {texto}")
+                    if vacio:
+                        vacios.append((seccion, dia, turno))
+                elif dia == hoy and ahora.hour < LIMITE_TURNO[turno]:
+                    celdas.append(f"{turno} pendiente (hasta las "
+                                  f"{LIMITE_TURNO[turno]}:00)")
+                else:
+                    celdas.append(f"{turno} FALTA")
+                    perdidos.append((seccion, dia, turno))
+            print(f"  {dia}  {celdas[0]:<26}{celdas[1]}")
+        print()
+
+    if vacios:
+        print("AVISO: turnos publicados sin ninguna destacada. Ese dia la web "
+              "decia 'todavia no hay noticias':")
+        for seccion, dia, turno in vacios:
+            print(f"- {seccion}, turno {turno} del {dia}.")
+        print()
+
+    if not perdidos:
+        print("Todos los turnos que ya tocaban estan publicados.")
+        return 0
+
+    print(f"Falta{'n' if len(perdidos) > 1 else ''} "
+          f"{len(perdidos)} turno{'s' if len(perdidos) > 1 else ''}:")
+    for seccion, dia, turno in perdidos:
+        cuando = "la manana" if turno == "M" else "la tarde"
+        print(f"- {seccion}, turno {turno} ({cuando}) del {dia}.")
+    print("\nEl log de cada ejecucion esta en https://claude.ai/code/routines. "
+          "Un turno perdido no se recupera: los feeds solo dan lo reciente, "
+          "asi que lo util es ver por que fallo antes del turno siguiente.")
+    return 1
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     ordenes = parser.add_subparsers(dest="orden", required=True)
@@ -661,6 +1042,17 @@ def main():
     p.add_argument("--por-medio", type=int, default=12,
                    help="maximo de candidatos por medio")
     p.set_defaults(func=cmd_candidatos)
+
+    p = ordenes.add_parser("titulares",
+                           help="rellena los titulares de los medios espanoles")
+    p.add_argument("seccion")
+    p.add_argument("--horas", type=int, default=0,
+                   help="mirar N horas atras en vez de desde el turno anterior")
+    p.add_argument("--maximo", type=int, default=MAX_TITULARES,
+                   help="tope de titulares del fichero, contando los que ya hay")
+    p.add_argument("--probar", action="store_true",
+                   help="ensenar lo que se anadiria sin escribir el fichero")
+    p.set_defaults(func=cmd_titulares)
 
     p = ordenes.add_parser("anteriores", help="que se publico en turnos previos")
     p.add_argument("seccion")
@@ -678,6 +1070,13 @@ def main():
     p = ordenes.add_parser("publicar", help="commit y push de data/")
     p.add_argument("mensaje")
     p.set_defaults(func=cmd_publicar)
+
+    p = ordenes.add_parser("estado", help="que turnos faltan por publicar")
+    p.add_argument("--dias", type=int, default=2,
+                   help="dias hacia atras que se revisan, contando hoy")
+    p.add_argument("--local", action="store_true",
+                   help="no traer origin/main: mirar la copia de trabajo")
+    p.set_defaults(func=cmd_estado)
 
     args = parser.parse_args()
     return args.func(args)
