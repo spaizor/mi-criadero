@@ -80,6 +80,52 @@
           "cuota": { "meses": 24 }
         }
       ]
+    },
+    {
+      "id": "elliot-switch-2",
+      "nombre": "The Adventures of Elliot: The Millennium Tales",
+      "plataforma": "Nintendo Switch 2",
+      "tiendas": [
+        {
+          "tienda": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-adventures-of-elliot-the-millennium-tales-game-key-card-1620443.html",
+          "navegador": true
+        },
+        {
+          "tienda": "GAME",
+          "url": "https://www.game.es/the-adventures-of-elliot-the-millennium-tales-nintendo-switch-2-256693"
+        },
+        {
+          "tienda": "PcComponentes",
+          "url": "https://www.pccomponentes.com/the-adventures-of-elliot-the-millennium-tales-switch-2",
+          "navegador": true
+        },
+        {
+          "tienda": "Xtralife",
+          "url": "https://www.xtralife.com/producto/the-adventures-of-elliot-the-millenium-tales-switch-2-edicion-estandar/105604",
+          "navegador": true
+        },
+        {
+          "tienda": "Carrefour",
+          "url": "https://www.carrefour.es/the-adventures-of-elliot-the-millennium-tales-para-switch-2/VC4A-32889758/p",
+          "navegador": true
+        },
+        {
+          "tienda": "El Corte Ingles",
+          "url": "https://www.elcorteingles.es/videojuegos/A200291732-the-adventures-of-elliot-the-millennium-tales-nintendo-switch-2-gkc/",
+          "solo_enlace": true
+        },
+        {
+          "tienda": "Fnac",
+          "url": "https://www.fnac.es/The-Adventures-of-Elliot-The-Millennium-Tales-Nintendo-Switch-2-Videojuego-Nintendo-Switch-2/a12827557",
+          "solo_enlace": true
+        },
+        {
+          "tienda": "Orange",
+          "url": "https://www.orange.es/dispositivos/videojuegos/nintendo/the-adventures-elliot-the-millennium-tales-switch2/MKP000913697594.html",
+          "cuota": { "meses": 24 }
+        }
+      ]
     }
   ]
 }
