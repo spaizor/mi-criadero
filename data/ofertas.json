@@ -1,6 +1,6 @@
 {
   "seccion": "ofertas",
-  "actualizado": "12-08-2026 10:48",
+  "actualizado": "12-08-2026 10:56",
   "productos": [
     {
       "id": "star-fox-switch-2",
@@ -14,7 +14,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-star-fox-1665418.html",
-          "consultado": "12-08-2026 10:48",
+          "consultado": "12-08-2026 10:56",
           "minimo": 50.9,
           "minimo_fecha": "08-08-2026",
           "estado": "ok"
@@ -26,7 +26,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.game.es/star-fox-nintendo-switch-2-261234",
-          "consultado": "12-08-2026 10:48",
+          "consultado": "12-08-2026 10:56",
           "minimo": 59.99,
           "minimo_fecha": "08-08-2026",
           "estado": "ok"
@@ -38,7 +38,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.pccomponentes.com/star-fox-nintendo-switch-2",
-          "consultado": "12-08-2026 10:48",
+          "consultado": "12-08-2026 10:56",
           "minimo": 50.99,
           "minimo_fecha": "09-08-2026",
           "estado": "ok"
@@ -50,7 +50,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.xtralife.com/producto/star-fox-switch-2-edition-switch-2-edicion-estandar/111034",
-          "consultado": "12-08-2026 10:48",
+          "consultado": "12-08-2026 10:56",
           "minimo": 52.95,
           "minimo_fecha": "10-08-2026",
           "estado": "ok"
@@ -62,7 +62,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.carrefour.es/star-fox-para-switch-2/VC4A-33647650/p",
-          "consultado": "12-08-2026 10:48",
+          "consultado": "12-08-2026 10:56",
           "minimo": 50.99,
           "minimo_fecha": "10-08-2026",
           "estado": "ok"
@@ -86,7 +86,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.orange.es/dispositivos/videojuegos/nintendo/star-fox-para-nintendo-switch-2/MKP000915784811.html",
-          "consultado": "12-08-2026 10:48",
+          "consultado": "12-08-2026 10:56",
           "minimo": 60.11,
           "minimo_fecha": "11-08-2026",
           "estado": "ok",
@@ -110,7 +110,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-adventures-of-elliot-the-millennium-tales-game-key-card-1620443.html",
-          "consultado": "12-08-2026 10:48",
+          "consultado": "12-08-2026 10:56",
           "minimo": 61.9,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -122,7 +122,7 @@
           "disponible": false,
           "vendedor": null,
           "enlace": "https://www.game.es/the-adventures-of-elliot-the-millennium-tales-nintendo-switch-2-256693",
-          "consultado": "12-08-2026 10:48",
+          "consultado": "12-08-2026 10:56",
           "minimo": 69.99,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -134,7 +134,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.pccomponentes.com/the-adventures-of-elliot-the-millennium-tales-switch-2",
-          "consultado": "12-08-2026 10:48",
+          "consultado": "12-08-2026 10:56",
           "minimo": 61.99,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -149,7 +149,7 @@
           "consultado": "12-08-2026 10:48",
           "minimo": 64.95,
           "minimo_fecha": "12-08-2026",
-          "estado": "ok"
+          "estado": "viejo"
         },
         {
           "tienda": "Carrefour",
@@ -158,7 +158,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.carrefour.es/the-adventures-of-elliot-the-millennium-tales-para-switch-2/VC4A-32889758/p",
-          "consultado": "12-08-2026 10:48",
+          "consultado": "12-08-2026 10:56",
           "minimo": 61.99,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -182,12 +182,108 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.orange.es/dispositivos/videojuegos/nintendo/the-adventures-elliot-the-millennium-tales-switch2/MKP000913697594.html",
-          "consultado": "12-08-2026 10:48",
+          "consultado": "12-08-2026 10:56",
           "minimo": 72.02,
           "minimo_fecha": "12-08-2026",
           "estado": "ok",
           "estimado": {
             "cuota": 2.48,
+            "meses": 24,
+            "iva": 21
+          }
+        }
+      ]
+    },
+    {
+      "id": "yoshi-libro-switch-2",
+      "nombre": "Yoshi and the Mysterious Book",
+      "plataforma": "Nintendo Switch 2",
+      "precios": [
+        {
+          "tienda": "MediaMarkt",
+          "precio": 58.99,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-yoshi-y-el-libro-misterioso-1623929.html",
+          "consultado": "12-08-2026 10:56",
+          "minimo": 58.99,
+          "minimo_fecha": "12-08-2026",
+          "estado": "ok"
+        },
+        {
+          "tienda": "GAME",
+          "precio": 69.99,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.game.es/yoshi-and-the-mysterious-book-nintendo-switch-2-258399",
+          "consultado": "12-08-2026 10:56",
+          "minimo": 69.99,
+          "minimo_fecha": "12-08-2026",
+          "estado": "ok"
+        },
+        {
+          "tienda": "PcComponentes",
+          "precio": 57.99,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.pccomponentes.com/yoshi-and-the-mysterious-book-switch-2",
+          "consultado": "12-08-2026 10:56",
+          "minimo": 57.99,
+          "minimo_fecha": "12-08-2026",
+          "estado": "ok"
+        },
+        {
+          "tienda": "Xtralife",
+          "precio": 62.95,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.xtralife.com/producto/yoshi-and-the-mysterious-book-switch-2-edicion-estandar/109940",
+          "consultado": "12-08-2026 10:56",
+          "minimo": 62.95,
+          "minimo_fecha": "12-08-2026",
+          "estado": "ok"
+        },
+        {
+          "tienda": "Carrefour",
+          "precio": 54.99,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.carrefour.es/yoshi-and-the-mysterious-book-para-switch-2/VC4A-33096377/p",
+          "consultado": "12-08-2026 10:56",
+          "minimo": 54.99,
+          "minimo_fecha": "12-08-2026",
+          "estado": "ok"
+        },
+        {
+          "tienda": "El Corte Ingles",
+          "enlace": "https://www.elcorteingles.es/videojuegos/A200435236-yohsi-and-the-mysterious-book-nintendo-switch-2/",
+          "estado": "enlace",
+          "precio": null
+        },
+        {
+          "tienda": "Fnac",
+          "enlace": "https://www.fnac.es/Yoshi-and-the-Mysterious-Book-Nintendo-Switch-2-Videojuego-Nintendo-Switch-2/a12911880",
+          "estado": "enlace",
+          "precio": null
+        },
+        {
+          "tienda": "Orange",
+          "precio": 69.99,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.orange.es/dispositivos/videojuegos/nintendo/yoshi-and-the-mysterious-book-nintendo-switch-2/MKP000910345727.html",
+          "consultado": "12-08-2026 10:56",
+          "minimo": 69.99,
+          "minimo_fecha": "12-08-2026",
+          "estado": "ok",
+          "estimado": {
+            "cuota": 2.41,
             "meses": 24,
             "iva": 21
           }
