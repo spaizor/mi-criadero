@@ -1,6 +1,6 @@
 {
   "seccion": "ofertas",
-  "actualizado": "12-08-2026 06:42",
+  "actualizado": "12-08-2026 10:48",
   "productos": [
     {
       "id": "star-fox-switch-2",
@@ -14,7 +14,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-star-fox-1665418.html",
-          "consultado": "12-08-2026 06:42",
+          "consultado": "12-08-2026 10:48",
           "minimo": 50.9,
           "minimo_fecha": "08-08-2026",
           "estado": "ok"
@@ -23,10 +23,10 @@
           "tienda": "GAME",
           "precio": 59.99,
           "moneda": "EUR",
-          "disponible": null,
+          "disponible": true,
           "vendedor": null,
           "enlace": "https://www.game.es/star-fox-nintendo-switch-2-261234",
-          "consultado": "12-08-2026 06:42",
+          "consultado": "12-08-2026 10:48",
           "minimo": 59.99,
           "minimo_fecha": "08-08-2026",
           "estado": "ok"
@@ -38,7 +38,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.pccomponentes.com/star-fox-nintendo-switch-2",
-          "consultado": "12-08-2026 06:42",
+          "consultado": "12-08-2026 10:48",
           "minimo": 50.99,
           "minimo_fecha": "09-08-2026",
           "estado": "ok"
@@ -50,7 +50,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.xtralife.com/producto/star-fox-switch-2-edition-switch-2-edicion-estandar/111034",
-          "consultado": "12-08-2026 06:42",
+          "consultado": "12-08-2026 10:48",
           "minimo": 52.95,
           "minimo_fecha": "10-08-2026",
           "estado": "ok"
@@ -62,7 +62,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.carrefour.es/star-fox-para-switch-2/VC4A-33647650/p",
-          "consultado": "12-08-2026 06:42",
+          "consultado": "12-08-2026 10:48",
           "minimo": 50.99,
           "minimo_fecha": "10-08-2026",
           "estado": "ok"
@@ -86,12 +86,108 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.orange.es/dispositivos/videojuegos/nintendo/star-fox-para-nintendo-switch-2/MKP000915784811.html",
-          "consultado": "12-08-2026 06:42",
+          "consultado": "12-08-2026 10:48",
           "minimo": 60.11,
           "minimo_fecha": "11-08-2026",
           "estado": "ok",
           "estimado": {
             "cuota": 2.07,
+            "meses": 24,
+            "iva": 21
+          }
+        }
+      ]
+    },
+    {
+      "id": "elliot-switch-2",
+      "nombre": "The Adventures of Elliot: The Millennium Tales",
+      "plataforma": "Nintendo Switch 2",
+      "precios": [
+        {
+          "tienda": "MediaMarkt",
+          "precio": 61.9,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-adventures-of-elliot-the-millennium-tales-game-key-card-1620443.html",
+          "consultado": "12-08-2026 10:48",
+          "minimo": 61.9,
+          "minimo_fecha": "12-08-2026",
+          "estado": "ok"
+        },
+        {
+          "tienda": "GAME",
+          "precio": 69.99,
+          "moneda": "EUR",
+          "disponible": false,
+          "vendedor": null,
+          "enlace": "https://www.game.es/the-adventures-of-elliot-the-millennium-tales-nintendo-switch-2-256693",
+          "consultado": "12-08-2026 10:48",
+          "minimo": 69.99,
+          "minimo_fecha": "12-08-2026",
+          "estado": "ok"
+        },
+        {
+          "tienda": "PcComponentes",
+          "precio": 61.99,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.pccomponentes.com/the-adventures-of-elliot-the-millennium-tales-switch-2",
+          "consultado": "12-08-2026 10:48",
+          "minimo": 61.99,
+          "minimo_fecha": "12-08-2026",
+          "estado": "ok"
+        },
+        {
+          "tienda": "Xtralife",
+          "precio": 64.95,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.xtralife.com/producto/the-adventures-of-elliot-the-millenium-tales-switch-2-edicion-estandar/105604",
+          "consultado": "12-08-2026 10:48",
+          "minimo": 64.95,
+          "minimo_fecha": "12-08-2026",
+          "estado": "ok"
+        },
+        {
+          "tienda": "Carrefour",
+          "precio": 61.99,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.carrefour.es/the-adventures-of-elliot-the-millennium-tales-para-switch-2/VC4A-32889758/p",
+          "consultado": "12-08-2026 10:48",
+          "minimo": 61.99,
+          "minimo_fecha": "12-08-2026",
+          "estado": "ok"
+        },
+        {
+          "tienda": "El Corte Ingles",
+          "enlace": "https://www.elcorteingles.es/videojuegos/A200291732-the-adventures-of-elliot-the-millennium-tales-nintendo-switch-2-gkc/",
+          "estado": "enlace",
+          "precio": null
+        },
+        {
+          "tienda": "Fnac",
+          "enlace": "https://www.fnac.es/The-Adventures-of-Elliot-The-Millennium-Tales-Nintendo-Switch-2-Videojuego-Nintendo-Switch-2/a12827557",
+          "estado": "enlace",
+          "precio": null
+        },
+        {
+          "tienda": "Orange",
+          "precio": 72.02,
+          "moneda": "EUR",
+          "disponible": true,
+          "vendedor": null,
+          "enlace": "https://www.orange.es/dispositivos/videojuegos/nintendo/the-adventures-elliot-the-millennium-tales-switch2/MKP000913697594.html",
+          "consultado": "12-08-2026 10:48",
+          "minimo": 72.02,
+          "minimo_fecha": "12-08-2026",
+          "estado": "ok",
+          "estimado": {
+            "cuota": 2.48,
             "meses": 24,
             "iva": 21
           }
