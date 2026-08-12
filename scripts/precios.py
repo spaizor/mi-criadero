@@ -58,7 +58,28 @@ AGENTE_NAVEGADOR = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
 # Tope (segundos) que se le da a una ficha para montar su bloque de producto.
 # No es una espera fija: se sondea y se sale en cuanto aparece, asi que las
 # tiendas rapidas no lo pagan y solo las lentas gastan el margen entero.
-ESPERA_RENDER_MAX = 30
+#
+# Medido el 12-08-2026 en las cuatro tiendas con navegador: cuando la carga va
+# bien, el bloque ya esta al primer segundo. Lo que agotaba el margen no eran
+# fichas lentas sino paginas que nunca iban a traerlo, asi que un tope generoso
+# solo servia para tardar mas en darse por vencido.
+ESPERA_RENDER_MAX = 12
+
+# Segundos minimos entre dos peticiones a la misma tienda. Xtralife empezo a
+# fallar cuando el catalogo crecio: devolvia la ficha sin su bloque de producto
+# aunque el bloque existiera, y solo ella, unas 3 de cada 8 veces. Pedirle tres
+# fichas casi seguidas no es pasar por una visita normal, que es justo lo que
+# hace que todo esto funcione. Con la cadencia diaria, estos segundos no
+# cuestan nada.
+PAUSA_MISMA_TIENDA = 4
+
+# Una pagina de error del servidor, que llega con el estado 200 de la peticion
+# original porque la tienda navega a ella despues. Reconocerla por el titulo
+# evita quedarse los 30 segundos del sondeo esperando un bloque de producto en
+# una pagina que solo dice "502 Bad Gateway".
+ERROR_DE_SERVIDOR = re.compile(
+    r"<title>[^<]*(50[0234]|bad gateway|service unavailable|gateway time)",
+    re.I)
 
 # IVA general espanol. Hace falta porque hay tiendas que publican el precio sin
 # el, y ese numero no es el que paga nadie.
@@ -94,6 +115,8 @@ class Navegador:
     def __init__(self):
         self._playwright = None
         self._navegador = None
+        # Cuando se pidio la ultima ficha a cada tienda, para no encadenarlas.
+        self._ultima_visita = {}
 
     def _arrancar(self):
         if self._navegador:
@@ -109,9 +132,19 @@ class Navegador:
         self._playwright = sync_playwright().start()
         self._navegador = self._playwright.chromium.launch()
 
+    def _esperar_turno(self, url):
+        """Deja pasar un rato entre dos fichas de la misma tienda."""
+        dominio = url.split("/")[2] if "//" in url else url
+        pendiente = (self._ultima_visita.get(dominio, 0)
+                     + PAUSA_MISMA_TIENDA - time.monotonic())
+        if pendiente > 0:
+            time.sleep(pendiente)
+        return dominio
+
     def html(self, url):
         """HTML de una ficha ya renderizada, reintentando los 403 pasajeros."""
         self._arrancar()
+        dominio = self._esperar_turno(url)
         for intento in range(INTENTOS):
             contexto = self._navegador.new_context(
                 # Con el User-Agent por defecto pone "HeadlessChrome" y volvemos
@@ -154,6 +187,13 @@ class Navegador:
                         html = ""
                     if html and objetos_producto(html):
                         return html
+                    if html and ERROR_DE_SERVIDOR.search(html):
+                        # La tienda se ha caido para esta peticion. Esperar mas
+                        # no la levanta, asi que se corta ya y se reintenta tras
+                        # la pausa, que es lo unico que puede ayudar.
+                        raise RuntimeError(
+                            "la tienda ha devuelto una pagina de error de "
+                            "servidor (5xx), no la ficha")
                     if time.monotonic() >= limite:
                         break
                     pagina.wait_for_timeout(500)
@@ -167,6 +207,10 @@ class Navegador:
                     raise
                 time.sleep(ESPERA_REINTENTO * (intento + 1))
             finally:
+                # Cuenta desde que se suelta la ficha, no desde que se pidio:
+                # lo que se quiere espaciar son las visitas, y una pagina lenta
+                # ya ha ocupado a la tienda todo ese rato.
+                self._ultima_visita[dominio] = time.monotonic()
                 contexto.close()
 
     def cerrar(self):

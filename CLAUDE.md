@@ -304,6 +304,22 @@ importan:
 - Se compara contra los precios del mismo dia, no contra un umbral fijo, para
   que valga igual con un juego de 60 EUR que con uno de 3.
 
+**"No trae bloque de producto" puede querer decir que la tienda se ha caido.**
+Xtralife empezo a fallar a menudo al crecer el catalogo y parecia que nos
+estuviera limitando por pedirle varias fichas seguidas. No era eso: **devuelve
+502 Bad Gateway** cada pocas cargas. Lo que despista es que la peticion inicial
+responde 200 y la pagina **navega despues** a la de error, asi que el estado no
+lo delata y lo que queda es una pagina sin bloque. Por eso `ERROR_DE_SERVIDOR`
+mira el titulo: sin eso, el sondeo se pasaba su margen entero esperando un
+bloque en una pagina que solo decia "502 Bad Gateway".
+
+La leccion es que un fallo de la tienda se disfrazaba de fallo nuestro. Antes
+de dar por buena una explicacion de este tipo hay que **mirar que llega**: se
+vio cargando la ficha y volcando tamano, titulo y bloques cada pocos segundos.
+
+Aun asi las visitas a una misma tienda van espaciadas (`PAUSA_MISMA_TIENDA`),
+que con la cadencia diaria no cuesta nada y evita encadenarle peticiones.
+
 **Al navegador se le espera al bloque, no un rato fijo.** Xtralife fallaba a
 veces con "no trae ningun bloque de producto": el JavaScript no habia acabado.
 Se sondea la pagina hasta que el bloque aparece, con un tope de 20 segundos, y
