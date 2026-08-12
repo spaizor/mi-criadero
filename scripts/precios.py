@@ -58,7 +58,7 @@ AGENTE_NAVEGADOR = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
 # Tope (segundos) que se le da a una ficha para montar su bloque de producto.
 # No es una espera fija: se sondea y se sale en cuanto aparece, asi que las
 # tiendas rapidas no lo pagan y solo las lentas gastan el margen entero.
-ESPERA_RENDER_MAX = 20
+ESPERA_RENDER_MAX = 30
 
 # IVA general espanol. Hace falta porque hay tiendas que publican el precio sin
 # el, y ese numero no es el que paga nadie.
@@ -294,11 +294,48 @@ def referencia_de(url):
     return numeros[-1] if numeros else ""
 
 
-def oferta_de(producto):
+def oferta_de(producto, url=""):
+    """La oferta de la que sacar el precio, que no siempre es la primera.
+
+    Una ficha puede traer un AggregateOffer, que no es una oferta sino el
+    resumen de varias: `lowPrice` es la mas barata de todas, y esa puede ser de
+    otro vendedor. Paso con The Adventures of Elliot en PcComponentes, que
+    resume dos ofertas con `lowPrice: 49` y `highPrice: 61.99` cuando el precio
+    de la tienda son los 61,99. Con Star Fox no se noto porque solo habia una
+    oferta y los dos valores coincidian.
+
+    Asi que ante un agregado se busca la oferta concreta de la ficha pedida,
+    comparando su URL. Si no se puede identificar, se prefiere `highPrice` a
+    `lowPrice`: publicar de mas es un error visible que se corrige mirando la
+    tienda, y publicar de menos es un reclamo falso que nadie comprueba.
+    """
     oferta = producto.get("offers") or {}
     if isinstance(oferta, list):
         oferta = oferta[0] if oferta else {}
-    return oferta if isinstance(oferta, dict) else {}
+    if not isinstance(oferta, dict):
+        return {}
+
+    tipo = str(oferta.get("@type", "")).lower()
+    if tipo != "aggregateoffer":
+        return oferta
+
+    dentro = oferta.get("offers") or []
+    if isinstance(dentro, dict):
+        dentro = [dentro]
+    dentro = [o for o in dentro if isinstance(o, dict) and o.get("price") is not None]
+
+    pedida = url.split("?")[0].rstrip("/").lower()
+    for o in dentro:
+        suya = str(o.get("url", "")).split("?")[0].rstrip("/").lower()
+        if suya and pedida and suya.endswith(pedida.split("//")[-1]):
+            return o
+    if len(dentro) == 1:
+        return dentro[0]
+    # Sin forma de identificar cual es la de la tienda: el resumen, pero sin
+    # su lowPrice, que es de quien sea.
+    resumen = dict(oferta)
+    resumen.pop("lowPrice", None)
+    return resumen
 
 
 def leer_precio(html, url):
@@ -316,8 +353,9 @@ def leer_precio(html, url):
     candidatos = [p for p in productos
                   if referencia and referencia in json.dumps(p, ensure_ascii=False)]
     for producto in candidatos or productos:
-        oferta = oferta_de(producto)
-        bruto = oferta.get("price") or oferta.get("lowPrice")
+        oferta = oferta_de(producto, url)
+        bruto = (oferta.get("price") or oferta.get("highPrice")
+                 or oferta.get("lowPrice"))
         if bruto is None:
             continue
         try:
