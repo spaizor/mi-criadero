@@ -126,6 +126,52 @@
           "cuota": { "meses": 24 }
         }
       ]
+    },
+    {
+      "id": "yoshi-libro-switch-2",
+      "nombre": "Yoshi and the Mysterious Book",
+      "plataforma": "Nintendo Switch 2",
+      "tiendas": [
+        {
+          "tienda": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-yoshi-y-el-libro-misterioso-1623929.html",
+          "navegador": true
+        },
+        {
+          "tienda": "GAME",
+          "url": "https://www.game.es/yoshi-and-the-mysterious-book-nintendo-switch-2-258399"
+        },
+        {
+          "tienda": "PcComponentes",
+          "url": "https://www.pccomponentes.com/yoshi-and-the-mysterious-book-switch-2",
+          "navegador": true
+        },
+        {
+          "tienda": "Xtralife",
+          "url": "https://www.xtralife.com/producto/yoshi-and-the-mysterious-book-switch-2-edicion-estandar/109940",
+          "navegador": true
+        },
+        {
+          "tienda": "Carrefour",
+          "url": "https://www.carrefour.es/yoshi-and-the-mysterious-book-para-switch-2/VC4A-33096377/p",
+          "navegador": true
+        },
+        {
+          "tienda": "El Corte Ingles",
+          "url": "https://www.elcorteingles.es/videojuegos/A200435236-yohsi-and-the-mysterious-book-nintendo-switch-2/",
+          "solo_enlace": true
+        },
+        {
+          "tienda": "Fnac",
+          "url": "https://www.fnac.es/Yoshi-and-the-Mysterious-Book-Nintendo-Switch-2-Videojuego-Nintendo-Switch-2/a12911880",
+          "solo_enlace": true
+        },
+        {
+          "tienda": "Orange",
+          "url": "https://www.orange.es/dispositivos/videojuegos/nintendo/yoshi-and-the-mysterious-book-nintendo-switch-2/MKP000910345727.html",
+          "cuota": { "meses": 24 }
+        }
+      ]
     }
   ]
 }
