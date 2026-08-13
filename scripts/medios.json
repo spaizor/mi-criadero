@@ -29,9 +29,12 @@
       "que_es": "Opcional, por seccion. Su lista 'propio' son los terminos que hacen que un titular sea de esta seccion: la consola, la marca y sus sagas.",
       "a_quien_se_aplica": "Solo a los medios con 'filtrar_tema': true. En un medio de la propia marca no se aplica, porque sus noticias dan la consola por sabida y no la nombran.",
       "por_que_asi": "Se exige el tema propio en vez de descartar por plataforma ajena (PS5, Xbox, Steam): eso dejaba pasar todo lo que no nombra ninguna plataforma, que en un medio generalista es medio feed de anime y cine. Los multiplataforma no se pierden: 'Silksong llega a Switch, PS5 y Xbox' nombra Switch.",
-      "acentos": "Da igual escribirlos con tilde o sin ella: se comparan sin tildes."
+      "acentos": "Da igual escribirlos con tilde o sin ella: se comparan sin tildes.",
+      "no_repetir_lo_que_ya_entra": "Los terminos se cazan como palabra suelta dentro del titular, asi que 'Nintendo' ya cubre 'Nintendo Direct' y 'Nintendo Museum', 'Mario' cubre 'Paper Mario' y 'Mario Kart', y 'Wii' cubre 'Wii U'. De 78 terminos propuestos una vez, 26 ya entraban solos. Anadirlos no suma y alarga la lista.",
+      "nada_de_palabras_corrientes": "El peligro no es quedarse corto, es colar. La mitad de los medios filtrados son ingleses, asi que un termino que tambien sea una palabra normal deja pasar cualquier cosa: 'Mother' entra en 'A mother sues Roblox', 'ARMS' en 'the best arms in the meta', 'DS' en 'Sony DS controller', y lo mismo 'Toad', 'Peach', 'Ness' y 'Labo'. Por eso estan fuera a proposito, y su saga se cubre con un termino especifico: 'Earthbound' en vez de 'Mother', 'Captain Toad' en vez de 'Toad'.",
+      "como_comprobar_uno_nuevo": "Medirlo antes de meterlo: aplicarlo a los feeds y ver que titulares pasan a entrar que antes no. Si alguno no es de la seccion, el termino sobra."
     },
-    "verificado_el": "08-08-2026"
+    "verificado_el": "13-08-2026"
   },
   "secciones": {
     "tecnologia": {
@@ -125,7 +128,20 @@
           "Mario", "Luigi", "Yoshi", "Zelda", "Hyrule", "Link", "Pokemon",
           "Metroid", "Samus", "Kirby", "Donkey Kong", "Splatoon", "Pikmin",
           "Xenoblade", "Fire Emblem", "Animal Crossing", "Smash Bros",
-          "Kart", "Wii", "GameCube", "Game Boy", "3DS", "Miyamoto"
+          "Kart", "Wii", "GameCube", "Game Boy", "3DS", "Miyamoto",
+          "F-Zero", "Star Fox", "Wario", "Bayonetta", "Advance Wars",
+          "Kid Icarus", "Punch-Out", "Famicom", "NES", "SNES",
+          "Super Nintendo", "Virtual Boy",
+          "Tears of the Kingdom", "Breath of the Wild", "Ganon", "Ganondorf",
+          "Bowser", "Olimar", "Pikachu", "Charizard", "Detective Pikachu",
+          "Captain Toad", "Golden Sun", "Earthbound", "Chibi-Robo", "Pushmo",
+          "Pullblox", "Rhythm Heaven", "Elite Beat Agents", "Ring Fit",
+          "Tomodachi Life", "Nintendogs", "Big Brain Academy", "Ice Climbers",
+          "Duck Hunt", "Excitebike", "Pilotwings", "Sin & Punishment",
+          "Xenosaga", "Triangle Strategy", "Astral Chain", "Ever Oasis",
+          "Game & Watch", "DSi", "Satoru Iwata", "Shuntaro Furukawa",
+          "Retro Studios", "Intelligent Systems", "HAL Laboratory",
+          "Game Freak", "Monolith Soft"
         ]
       },
       "medios": [
@@ -142,16 +158,26 @@
           "web": "https://vandal.elespanol.com/",
           "feed": "https://vandal.elespanol.com/rss/",
           "idioma": "es",
-          "comprobado": false,
-          "nota": "El feed existe y funciona en un navegador, pero el servidor corta la conexion a los scripts. Hay que abrirlo con la herramienta de fetch, no con 'candidatos'."
+          "comprobado": true,
+          "filtrar_tema": true,
+          "nota": "Nunca bloqueo a los scripts: manda el feed con gzip sin que se lo pidan, y hasta que 'descargar' aprendio a descomprimirlo parecia que cortase la conexion. Feed general con Wordle, Free Fire y futbol: hay que filtrar por Nintendo."
         },
         {
           "nombre": "3DJuegos",
           "web": "https://www.3djuegos.com/",
-          "feed": null,
+          "feed": "https://www.3djuegos.com/feedburner.xml",
+          "idioma": "es",
+          "comprobado": true,
+          "filtrar_tema": true,
+          "nota": "Su RSS es /feedburner.xml, como el de Xataka; /rss/, /rss.xml, /feed/ y /noticias/rss/ dan 404. Lo declara su propia portada, que es donde habia que mirar en vez de probar rutas a ciegas. Feed general: hay que filtrar por Nintendo."
+        },
+        {
+          "nombre": "Meristation",
+          "web": "https://as.com/meristation/",
+          "feed": "https://as.com/rss/meristation/portada.xml",
           "idioma": "es",
           "comprobado": false,
-          "nota": "Sin RSS publico: /rss/, /rss.xml, /feed/ y /noticias/rss/ dan 404 o cortan la conexion."
+          "nota": "El feed responde y trae 48 entradas, pero la ultima es del 08-02-2023: lo dejaron de actualizar. El de /noticias.xml igual (27-03-2023) y la portada da 403 a los scripts. Mismo caso que Genbeta."
         },
         {
           "nombre": "Areajugones",
@@ -172,6 +198,14 @@
           "nota": "Feed general de videojuegos: hay que filtrar por Nintendo."
         },
         {
+          "nombre": "NextN",
+          "web": "https://www.nextn.es/",
+          "feed": "https://www.nextn.es/feed/",
+          "idioma": "es",
+          "comprobado": true,
+          "nota": "Especializado en Nintendo, asi que no se le filtra por tema. Feed corto (10 entradas)."
+        },
+        {
           "nombre": "Nintendo Life",
           "web": "https://www.nintendolife.com/",
           "feed": "https://www.nintendolife.com/feeds/latest",
@@ -188,6 +222,30 @@
           "nota": "Servidor lento: a veces hace falta reintentar."
         },
         {
+          "nombre": "GoNintendo",
+          "web": "https://gonintendo.com/",
+          "feed": "https://gonintendo.com/rss.xml",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "El feed esta en /rss.xml: /feed, /rss y /feed.xml dan 404, y /feeds/news.rss da 406. Feed largo (45 entradas)."
+        },
+        {
+          "nombre": "My Nintendo News",
+          "web": "https://mynintendonews.com/",
+          "feed": "https://mynintendonews.com/feed/",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": ""
+        },
+        {
+          "nombre": "Nintendo Wire",
+          "web": "https://nintendowire.com/",
+          "feed": "https://nintendowire.com/feed/",
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "403 a los scripts en /feed/, /rss/, /feed/rss/ y /news/feed/, y tambien en la portada, asi que no es cosa del feed ni del gzip. Aqui si hay bloqueo de verdad: hay que abrirlo con la herramienta de fetch."
+        },
+        {
           "nombre": "Eurogamer",
           "web": "https://www.eurogamer.net/",
           "feed": "https://www.eurogamer.net/feed",
@@ -195,6 +253,33 @@
           "comprobado": true,
           "filtrar_tema": true,
           "nota": "Feed general de videojuegos (100 entradas): hay que filtrar por Nintendo."
+        },
+        {
+          "nombre": "Gematsu",
+          "web": "https://www.gematsu.com/",
+          "feed": "https://www.gematsu.com/feed",
+          "idioma": "en",
+          "comprobado": true,
+          "filtrar_tema": true,
+          "nota": "Generalista de juego japones: sin filtrar cuela Persona, Gundam y moviles. Con el tema caen 13 de 20."
+        },
+        {
+          "nombre": "Siliconera",
+          "web": "https://www.siliconera.com/",
+          "feed": "https://www.siliconera.com/feed/",
+          "idioma": "en",
+          "comprobado": true,
+          "filtrar_tema": true,
+          "nota": "Generalista de juego japones y anime: con el tema caen 13 de 15, asi que aporta poco pero lo que deja es de la seccion."
+        },
+        {
+          "nombre": "Automaton",
+          "web": "https://automaton-media.com/en/",
+          "feed": "https://automaton-media.com/en/feed/",
+          "idioma": "en",
+          "comprobado": true,
+          "filtrar_tema": true,
+          "nota": "Generalista japones muy volcado en PC e indies: con el tema caen 29 de 30. Se queda por variedad, pero es el que menos aporta."
         }
       ]
     }
