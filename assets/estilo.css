@@ -266,13 +266,22 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
   color: var(--texto-suave);
 }
 
-/* Ofertas: un bloque por producto con una fila por tienda */
+/* Ofertas: un bloque por producto con una fila por tienda.
+   La fila es una rejilla de tres columnas y no un flex: asi los importes caen
+   todos en la misma vertical y la comparacion se hace con la vista, sin tener
+   que leer cifra por cifra. Las etiquetas van en su propia linea, que solo
+   existe en las filas que tienen algo que contar. */
 .producto {
-  padding: 18px 20px;
   background: var(--fondo-tarjeta);
   border: 1px solid var(--borde);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.producto-cab {
+  padding: 16px 20px 14px;
+  border-bottom: 1px solid var(--borde);
   border-left: 3px solid var(--acento);
-  border-radius: 10px;
 }
 
 .producto h2 {
@@ -288,24 +297,30 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 }
 
 .lista-precios {
-  margin: 12px 0 0;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .precio {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
   align-items: baseline;
-  gap: 4px 10px;
-  padding: 10px 0;
-  border-top: 1px solid var(--borde);
+  column-gap: 12px;
+  padding: 11px 20px;
+}
+
+.precio + .precio { border-top: 1px solid var(--borde); }
+
+/* El mas barato se marca con el fondo y no solo con el color del numero: es
+   lo unico que se busca al entrar, y tiene que verse sin leer. */
+.precio.destacado {
+  background: color-mix(in srgb, var(--acento) 9%, transparent);
 }
 
 .precio .tienda {
-  flex: 1;
-  min-width: 120px;
   font-size: 0.95rem;
+  min-width: 0;
 }
 
 .precio .tienda a {
@@ -322,22 +337,46 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
   font-size: 1.15rem;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
+  text-align: right;
 }
 
 .precio.destacado .importe { color: var(--acento); }
 
 .precio .importe.sin-dato {
+  grid-column: 1 / -1;
+  text-align: left;
   font-size: 0.9rem;
   font-weight: 400;
   color: var(--texto-suave);
 }
 
+/* Cuanto se paga de mas que en la mas barata. En gris y pequeno: acompana al
+   precio, no compite con el. */
+.precio .diferencia {
+  font-size: 0.82rem;
+  color: var(--texto-suave);
+  font-variant-numeric: tabular-nums;
+}
+
+.marca-barato {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--acento);
+  color: var(--fondo);
+  white-space: nowrap;
+}
+
 .precio .detalles {
-  flex-basis: 100%;
+  grid-column: 1 / -1;
   display: flex;
   flex-wrap: wrap;
-  gap: 6px 10px;
+  gap: 6px 8px;
   align-items: center;
+  margin-top: 7px;
   font-size: 0.78rem;
   color: var(--texto-suave);
 }
@@ -348,9 +387,39 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
   border-radius: 999px;
 }
 
-.etiqueta.barato { border-color: var(--acento); color: var(--acento); }
 .etiqueta.agotado, .etiqueta.viejo, .etiqueta.enlace,
 .etiqueta.estimado { border-style: dashed; }
+
+/* Las tiendas de las que no se saca precio: siguen a un clic, pero agrupadas
+   y en pequeno dejan de ocupar lo mismo que un precio de verdad. */
+.sin-precio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 14px;
+  padding: 11px 20px;
+  border-top: 1px solid var(--borde);
+  font-size: 0.82rem;
+}
+
+.sin-precio-titulo { color: var(--texto-suave); }
+
+.sin-precio ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sin-precio a {
+  color: var(--texto-suave);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--borde);
+}
+
+.sin-precio a:hover { color: var(--acento); border-bottom-color: var(--acento); }
 
 /* El aviso de que el precio puede haber cambiado no debe pasar desapercibido,
    pero tampoco competir con los precios */
