@@ -183,6 +183,33 @@ publican la misma noticia dos veces (HobbyConsolas lo hace), asi que no basta
 con mirar contra lo ya publicado. Se compara por enlace y, dentro de un mismo
 medio, tambien por titulo.
 
+#### Ampliar la lista `tema`: el peligro es colar, no quedarse corto
+
+De 78 terminos que se propusieron de golpe una vez, **26 ya entraban solos**:
+los terminos se cazan como palabra suelta *dentro* del titular, asi que
+"Nintendo" ya cubre "Nintendo Direct" y "Nintendo Museum", "Mario" cubre "Paper
+Mario" y "Mario Party", y "Wii" cubre "Wii U". Anadirlos no suma nada.
+
+Y **7 eran peligrosos**, que es lo que importa: la mitad de los medios
+filtrados son ingleses (Eurogamer solo trae 100 entradas al dia), asi que un
+termino que ademas sea una palabra corriente deja pasar cualquier cosa.
+"Mother" entra en *"A mother sues Roblox"*, "ARMS" en *"the best arms in the
+meta"*, "DS" en *"Sony's DS controller patent"*, y lo mismo "Toad", "Peach",
+"Ness" y "Labo". Contra los feeds de un dia no se disparo ninguno, pero eso fue
+suerte de la muestra: hay que forzarlos a mano para verlo.
+
+La salida es **cubrir la saga con un termino que no sea ambiguo**: "Earthbound"
+en vez de "Mother", "Captain Toad" en vez de "Toad". Se gana lo mismo sin abrir
+la puerta.
+
+El procedimiento para meter uno nuevo es el de siempre en este proyecto,
+medirlo: aplicarlo a los feeds y mirar **que titulares pasan a entrar que antes
+no**. Si alguno no es de la seccion, el termino sobra. Los 37 que se anadieron
+asi dieron +1 titular sobre 305 y ningun falso positivo, que es justo lo que se
+busca: la lista no esta para pescar mas, sino para no perder un "Tears of the
+Kingdom" que no diga "Zelda". El criterio esta tambien en `_instrucciones.tema`
+de `medios.json`, que es donde se mira al editarlo.
+
 ### El comando `estado`
 
 Contesta a la pregunta que antes habia que mirar a mano: **se ha publicado el
@@ -238,12 +265,37 @@ Las lineas que empiezan por `#` son el parte de la descarga y hay que leerlas:
 
 - `FEED CAIDO <medio>`: no ha respondido esta vez. Reintentar suele bastar.
 - `SIN FEED <medio>`: no tiene RSS utilizable y hay que abrirlo a mano. Ahora
-  mismo son Vandal (su servidor corta la conexion a los scripts aunque el feed
-  funcione en un navegador) y 3DJuegos (no publica RSS).
+  mismo son Nintendo Wire (403 a los scripts hasta en la portada) y Meristation
+  (su feed responde, pero la ultima entrada es de febrero de 2023).
 
 La lista es el **minimo**, no el techo: si un dia da poco, se busca ademas por
 fuera. Y `candidatos` no cubre las 5 destacadas, que siguen exigiendo abrir y
 leer el articulo.
+
+### Un medio "que bloquea a los scripts" casi nunca bloquea
+
+Vandal estuvo meses fuera con la nota de que su servidor cortaba la conexion a
+los scripts aunque el feed funcionase en un navegador. Era falso. Lo que manda
+es el feed **con gzip sin que se lo pidan**, y como `descargar` no lo
+descomprimia, lo que llegaba eran bytes binarios que el parser rechazaba como
+XML invalido. Por eso `descargar` mira ahora el numero magico `1f 8b` ademas de
+la cabecera `Content-Encoding`, que no todos la mandan bien.
+
+3DJuegos estaba fuera con un "no publica RSS" sacado de probar `/rss/`,
+`/rss.xml`, `/feed/` y `/noticias/rss/`. Si lo publica: en
+**`/feedburner.xml`**, igual que Xataka, y **lo declara su propia portada**.
+Adivinar rutas no lo iba a encontrar nunca; leer el HTML del medio, si.
+
+Las dos lecciones valen para el proximo medio que parezca cerrado:
+
+- **Antes de dar un medio por bloqueado, mirar que llega de verdad.** Un fallo
+  de parseo no es un bloqueo, y los dos se cuentan igual en el parte. Volcar el
+  tamano y los primeros bytes lo resuelve en un minuto.
+- **La ruta del feed se lee, no se adivina.** Esta en el `<link>` de la portada
+  o en el HTML; probar rutas a ciegas solo descarta las que se te ocurren.
+
+Un 403 de verdad, ese si existe: Nintendo Wire lo da en las cuatro rutas **y en
+la portada**, asi que ahi no es el feed ni la compresion.
 
 ## Formato de los JSON de contenido
 
@@ -461,6 +513,29 @@ El minimo historico vive dentro de `data/ofertas.json` y lo actualiza el script
 comparando con la ejecucion anterior. Esta seccion **no usa `data/historico/`**,
 y por eso `publicar` solo exige copia archivada a las secciones que tienen
 carpeta ahi.
+
+### Como lo pinta `assets/ofertas.js`
+
+El JSON no cambia; lo que sigue son decisiones de la web, y las dos primeras
+son la misma idea que las de arriba llevada al diseno:
+
+- **Los precios de hoy van juntos y arriba, ordenados de mas barato a mas
+  caro; los `viejo`, detras.** Intercalar uno de hace dias entre dos de hoy lo
+  haria parecer igual de comparable de un vistazo, que es lo mismo que ya evita
+  el que solo los `ok` compitan por "Mas barato".
+- **Las tiendas sin precio se agrupan abajo en pequeno** ("Tambien a la venta
+  en"). Ocupando una fila entera como las demas parecian tener algo que
+  comparar, y no lo tienen; a un clic siguen estando.
+- **El minimo historico solo se pinta cuando el precio de hoy esta por
+  encima.** Como los precios casi nunca bajan, decir "es el minimo que hemos
+  visto" salia en 18 de 24 filas: lo que aparece en todas partes no informa, y
+  encima tapaba la unica fila que si habia estado mas barata alguna vez.
+- **Se pinta la diferencia contra el mas barato** (`+9,00 €`). Es la
+  comparacion a la que se entra, y ahorra restar de cabeza; cuando dos tiendas
+  salen a `+0,09 €` se ve solo que da igual cual elegir.
+
+Empatar es normal (tres tiendas a 50,99), asi que puede haber varias filas
+marcadas como mas baratas a la vez. Es correcto, no un fallo del reparto.
 
 ## Publicacion
 
