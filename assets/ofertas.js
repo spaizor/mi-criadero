@@ -11,6 +11,8 @@
 //
 // Solo 'ok' compite por ser el mas barato. Coronar un precio de hace dias
 // frente a uno de hoy seria dar por buena una comparacion que no se ha hecho.
+// Por lo mismo los 'ok' se pintan juntos y arriba: intercalar entre ellos un
+// precio viejo lo haria parecer igual de comparable de un vistazo.
 
 function escaparOferta(texto) {
   const d = document.createElement('div');
@@ -23,24 +25,14 @@ function formatearPrecio(valor, moneda) {
   return numero + ' ' + (moneda === 'EUR' || !moneda ? '€' : escaparOferta(moneda));
 }
 
-function pintarPrecio(p, esMasBarato) {
+function pintarPrecio(p, barato) {
   const enlazado = p.enlace
     ? `<a href="${escaparOferta(p.enlace)}" target="_blank" rel="noopener">${escaparOferta(p.tienda)}</a>`
     : escaparOferta(p.tienda);
 
-  if (p.precio == null) {
-    // Sin precio conocido, la tienda sigue valiendo como enlace: el aviso
-    // invita a mirarlo alli en vez de dejar la fila muerta.
-    return `
-      <li class="precio">
-        <span class="tienda">${enlazado}</span>
-        <span class="importe sin-dato">${
-          p.estado === 'enlace' ? 'Ver en la tienda' : 'Sin consultar'}</span>
-      </li>`;
-  }
+  const esMasBarato = barato != null && p.estado === 'ok' && p.precio === barato;
 
   const etiquetas = [];
-  if (esMasBarato) etiquetas.push('<span class="etiqueta barato">Mas barato</span>');
   if (p.estado === 'viejo') {
     etiquetas.push('<span class="etiqueta viejo">No responde: ultimo precio conocido</span>');
   }
@@ -62,39 +54,77 @@ function pintarPrecio(p, esMasBarato) {
   if (p.vendedor) {
     etiquetas.push(`<span class="etiqueta">Vende ${escaparOferta(p.vendedor)}</span>`);
   }
+  // Solo se enarbola el minimo cuando dice algo: si el precio de hoy YA es el
+  // mas bajo que hemos visto, un "es el minimo" debajo de casi todas las filas
+  // es ruido que tapa justo a las dos que si han bajado de precio alguna vez.
+  if (p.minimo != null && p.minimo < p.precio) {
+    etiquetas.push(`<span class="etiqueta minimo">Visto a ${
+      formatearPrecio(p.minimo, p.moneda)}${
+      p.minimo_fecha ? ' el ' + escaparOferta(p.minimo_fecha) : ''}</span>`);
+  }
 
-  const minimo = (p.minimo != null && p.minimo < p.precio)
-    ? `<span class="minimo">Minimo visto: ${formatearPrecio(p.minimo, p.moneda)}${
-        p.minimo_fecha ? ' · ' + escaparOferta(p.minimo_fecha) : ''}</span>`
-    : (p.minimo != null
-        ? '<span class="minimo">Es el minimo que hemos visto</span>'
-        : '');
+  // Cuanto cuesta de mas que el mas barato de hoy. Es la comparacion que se
+  // venia a hacer, y en numero se lee sin restar de cabeza.
+  let diferencia = '';
+  if (esMasBarato) {
+    diferencia = '<span class="marca-barato">Mas barato</span>';
+  } else if (barato != null && p.estado === 'ok') {
+    diferencia = `<span class="diferencia">+${formatearPrecio(p.precio - barato, p.moneda)}</span>`;
+  }
 
   return `
     <li class="precio${esMasBarato ? ' destacado' : ''}">
       <span class="tienda">${enlazado}</span>
+      ${diferencia}
       <span class="importe">${formatearPrecio(p.precio, p.moneda)}</span>
-      <span class="detalles">${etiquetas.join('')}${minimo}</span>
+      ${etiquetas.length ? `<span class="detalles">${etiquetas.join('')}</span>` : ''}
     </li>`;
+}
+
+function pintarSinPrecio(p) {
+  const enlazado = p.enlace
+    ? `<a href="${escaparOferta(p.enlace)}" target="_blank" rel="noopener">${escaparOferta(p.tienda)}</a>`
+    : escaparOferta(p.tienda);
+  return `<li>${enlazado}</li>`;
 }
 
 function pintarProducto(producto) {
   const precios = Array.isArray(producto.precios) ? producto.precios : [];
-  const validos = precios.filter(p => p.precio != null && p.estado === 'ok');
+  const conPrecio = precios.filter(p => p.precio != null);
+  // Las tiendas sin precio no ocupan una fila entera cada una: juntas abajo
+  // siguen a un clic, pero dejan de competir en tamano con los precios.
+  const sinPrecio = precios.filter(p => p.precio == null);
+
+  const validos = conPrecio.filter(p => p.estado === 'ok');
   const barato = validos.length > 1
     ? Math.min(...validos.map(p => p.precio))
     : null;
 
-  const filas = precios.length
-    ? precios.map(p => pintarPrecio(
-        p, barato != null && p.estado === 'ok' && p.precio === barato)).join('')
-    : '<li class="precio"><span class="importe sin-dato">Sin tiendas configuradas</span></li>';
+  // Los de hoy primero y de mas barato a mas caro; los viejos, detras.
+  const ordenados = conPrecio.slice().sort((a, b) => {
+    const fresco = (a.estado === 'ok' ? 0 : 1) - (b.estado === 'ok' ? 0 : 1);
+    return fresco !== 0 ? fresco : a.precio - b.precio;
+  });
+
+  const filas = ordenados.length
+    ? ordenados.map(p => pintarPrecio(p, barato)).join('')
+    : '<li class="precio"><span class="importe sin-dato">Sin precios todavia</span></li>';
+
+  const otras = sinPrecio.length
+    ? `<div class="sin-precio">
+         <span class="sin-precio-titulo">Tambien a la venta en</span>
+         <ul>${sinPrecio.map(pintarSinPrecio).join('')}</ul>
+       </div>`
+    : '';
 
   return `
     <article class="producto">
-      <h2>${escaparOferta(producto.nombre)}</h2>
-      ${producto.plataforma ? `<p class="plataforma">${escaparOferta(producto.plataforma)}</p>` : ''}
+      <header class="producto-cab">
+        <h2>${escaparOferta(producto.nombre)}</h2>
+        ${producto.plataforma ? `<p class="plataforma">${escaparOferta(producto.plataforma)}</p>` : ''}
+      </header>
       <ul class="lista-precios">${filas}</ul>
+      ${otras}
     </article>`;
 }
 
