@@ -117,6 +117,9 @@ class Navegador:
         self._navegador = None
         # Cuando se pidio la ultima ficha a cada tienda, para no encadenarlas.
         self._ultima_visita = {}
+        # Tiendas a las que hay que visitarles la portada antes de la ficha.
+        # Se aprende sobre la marcha, ver _contexto().
+        self._calentar = set()
 
     def _arrancar(self):
         if self._navegador:
@@ -132,6 +135,48 @@ class Navegador:
         self._playwright = sync_playwright().start()
         self._navegador = self._playwright.chromium.launch()
 
+    def _contexto(self, dominio):
+        """Sesion nueva para una ficha, pasando antes por la portada si toca.
+
+        Hay tiendas que rechazan la ficha pedida en frio, o sea con la sesion
+        recien creada y sin haber cargado antes nada suyo. Xtralife contesta
+        502 a eso: medido el 13-08-2026 con Luigi's Mansion 3, directo daba 502
+        las dos veces y tras cualquier otra pagina suya daba 200 las dos veces.
+        Sus fichas mas visitadas (Star Fox, Octopath II) respondian bien hasta
+        en frio, y por eso el fallo parecia aleatorio y suyo.
+
+        Pero la portada no se puede visitar por norma, porque a otras tiendas
+        les pasa justo lo contrario: **PcComponentes y Carrefour dan 403 si la
+        sesion viene de su portada, o si se les piden dos fichas seguidas con
+        la misma**. Medido el mismo dia: con sesion compartida y calentada
+        fallaron 12 de 14 fichas; con sesion nueva y en frio, ninguna.
+
+        Asi que la sesion es nueva para cada ficha y lo unico que se recuerda
+        es a que tiendas hay que calentarles la portada, aprendido del primer
+        fallo. El que va bien en frio no paga nada; Xtralife pierde el primer
+        intento de su primera ficha y a partir de ahi entra a la primera.
+        """
+        contexto = self._navegador.new_context(
+            # Con el User-Agent por defecto pone "HeadlessChrome" y volvemos
+            # a estar donde estabamos: anunciandonos como un robot.
+            user_agent=AGENTE_NAVEGADOR,
+            locale="es-ES",
+            viewport={"width": 1366, "height": 768},
+        )
+        if dominio in self._calentar:
+            try:
+                pagina = contexto.new_page()
+                pagina.goto(f"https://{dominio}/",
+                            wait_until="domcontentloaded", timeout=45000)
+                # La cookie de sesion no esta puesta al acabar el HTML: sin
+                # esta espera la ficha siguiente volvia a salir 502.
+                pagina.wait_for_timeout(2000)
+                pagina.close()
+            except Exception:
+                # Que la portada falle no dice nada de la ficha: se sigue.
+                pass
+        return contexto
+
     def _esperar_turno(self, url):
         """Deja pasar un rato entre dos fichas de la misma tienda."""
         dominio = url.split("/")[2] if "//" in url else url
@@ -146,13 +191,7 @@ class Navegador:
         self._arrancar()
         dominio = self._esperar_turno(url)
         for intento in range(INTENTOS):
-            contexto = self._navegador.new_context(
-                # Con el User-Agent por defecto pone "HeadlessChrome" y volvemos
-                # a estar donde estabamos: anunciandonos como un robot.
-                user_agent=AGENTE_NAVEGADOR,
-                locale="es-ES",
-                viewport={"width": 1366, "height": 768},
-            )
+            contexto = self._contexto(dominio)
             try:
                 pagina = contexto.new_page()
                 respuesta = pagina.goto(url, wait_until="domcontentloaded",
@@ -204,7 +243,14 @@ class Navegador:
                                    "producto")
             except Exception:
                 if intento == INTENTOS - 1:
+                    # Calentar tampoco la ha arreglado, asi que la proxima
+                    # ficha vuelve a probar en frio en vez de arrastrar una
+                    # receta que no funciona.
+                    self._calentar.discard(dominio)
                     raise
+                # Puede que el problema sea pedir la ficha en frio, asi que el
+                # siguiente intento pasa antes por la portada de la tienda.
+                self._calentar.add(dominio)
                 time.sleep(ESPERA_REINTENTO * (intento + 1))
             finally:
                 # Cuenta desde que se suelta la ficha, no desde que se pidio:

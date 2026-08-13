@@ -477,6 +477,31 @@ vio cargando la ficha y volcando tamano, titulo y bloques cada pocos segundos.
 Aun asi las visitas a una misma tienda van espaciadas (`PAUSA_MISMA_TIENDA`),
 que con la cadencia diaria no cuesta nada y evita encadenarle peticiones.
 
+**Y ese 502 tampoco era aleatorio: era pedir la ficha en frio.** Al meter los
+cuatro juegos de Switch 1, tres de sus fichas de Xtralife daban 502 sin fallar
+una sola vez en 18 intentos, mientras Star Fox y Octopath II entraban siempre.
+Parecia que esas fichas estuvieran rotas, y no: **con la sesion recien creada
+dan 502, y tras cargar cualquier otra pagina suya dan 200**, medido dos veces
+seguidas con cada opcion. Las fichas mas visitadas responden bien igual, que es
+lo que hacia parecer el fallo cosa de la tienda y no del modo de pedir.
+
+Lo que **no** se puede hacer es visitar la portada siempre, y esto es lo que
+tiene gracia: **PcComponentes y Carrefour dan 403 si la sesion viene de su
+portada, o si se les piden dos fichas seguidas con la misma sesion.** Medido el
+mismo dia: sesion compartida y calentada, 12 fichas de 14 caidas; sesion nueva
+y en frio, ninguna. Lo que cura a una tienda mata a las otras dos.
+
+Por eso `Navegador._contexto()` crea **una sesion nueva para cada ficha** y solo
+recuerda a que dominios hay que calentarles la portada, aprendido del primer
+fallo (`self._calentar`). Quien va bien en frio no paga nada; Xtralife pierde el
+primer intento de su primera ficha y a partir de ahi entra a la primera. Si
+calentando tampoco sale, el dominio se olvida, para no arrastrar toda la
+ejecucion una receta que no funciona.
+
+La leccion que se repite: **antes de dar una tienda por rota, cambiar como se
+pide**. Primero fue el 403 (script contra navegador), ahora el 502 (en frio
+contra con sesion). En los dos casos la ficha estaba perfectamente.
+
 **Al navegador se le espera al bloque, no un rato fijo.** Xtralife fallaba a
 veces con "no trae ningun bloque de producto": el JavaScript no habia acabado.
 Se sondea la pagina hasta que el bloque aparece, con un tope de 20 segundos, y

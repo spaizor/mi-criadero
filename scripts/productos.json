@@ -172,6 +172,175 @@
           "cuota": { "meses": 24 }
         }
       ]
+    },
+    {
+      "id": "mario-luigi-fraternal-switch",
+      "nombre": "Mario & Luigi: Conexión fraternal",
+      "plataforma": "Nintendo Switch",
+      "tiendas": [
+        {
+          "tienda": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/product/_nintendo-switch-mario-and-luigi-conexion-fraternal-1577831.html",
+          "navegador": true
+        },
+        {
+          "tienda": "GAME",
+          "url": "https://www.game.es/mario-luigi-conexion-fraternal-nintendo-switch-232666"
+        },
+        {
+          "tienda": "PcComponentes",
+          "url": "https://www.pccomponentes.com/mario-luigi-conexion-fraternal-nintendo-switch",
+          "navegador": true
+        },
+        {
+          "tienda": "Xtralife",
+          "url": "https://www.xtralife.com/producto/mario-luigi-conexion-fraternal-switch-edicion-estandar/90396",
+          "navegador": true
+        },
+        {
+          "tienda": "Carrefour",
+          "url": "https://www.carrefour.es/mario-luigi-conexion-fraternal-para-switch/VC4A-27774616/p",
+          "navegador": true
+        },
+        {
+          "tienda": "El Corte Ingles",
+          "url": "https://www.elcorteingles.es/videojuegos/A52182954-mario-and-luigi-conexion-fraternal-nintendo-switch/",
+          "solo_enlace": true
+        },
+        {
+          "tienda": "Fnac",
+          "url": "https://www.fnac.es/Mario-et-Luigi-Conexion-fraternal-Nintendo-Switch-Videojuego-Nintendo-Switch/a11137317",
+          "solo_enlace": true
+        },
+        {
+          "tienda": "Orange",
+          "url": "https://www.orange.es/dispositivos/videojuegos/nintendo/mario-luigi-conexion-fraternal-nintendo-switch/MKP000913987717.html",
+          "cuota": { "meses": 24 }
+        }
+      ]
+    },
+    {
+      "id": "super-mario-rpg-switch",
+      "nombre": "Super Mario RPG",
+      "plataforma": "Nintendo Switch",
+      "tiendas": [
+        {
+          "tienda": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/product/_nintendo-switch-super-mario-rpg-1556536.html",
+          "navegador": true
+        },
+        {
+          "tienda": "GAME",
+          "url": "https://www.game.es/super-mario-rpg-nintendo-switch-220109"
+        },
+        {
+          "tienda": "PcComponentes",
+          "url": "https://www.pccomponentes.com/super-mario-rpg-nintendo-switch",
+          "navegador": true
+        },
+        {
+          "tienda": "Xtralife",
+          "url": "https://www.xtralife.com/producto/super-mario-rpg-switch-edicion-estandar/80492",
+          "navegador": true
+        },
+        {
+          "tienda": "Carrefour",
+          "url": "https://www.carrefour.es/super-mario-rpg-para-switch/VC4A-23203867/p",
+          "navegador": true
+        },
+        {
+          "tienda": "El Corte Ingles",
+          "url": "https://www.elcorteingles.es/videojuegos/A48481634-super-mario-rpg-nintendo-switch/",
+          "solo_enlace": true
+        },
+        {
+          "tienda": "Fnac",
+          "url": "https://www.fnac.es/Super-Mario-RPG-Nintendo-Switch-Videojuego-Nintendo-Switch/a10301450",
+          "solo_enlace": true
+        }
+      ]
+    },
+    {
+      "id": "octopath-traveler-2-switch",
+      "nombre": "Octopath Traveler II",
+      "plataforma": "Nintendo Switch",
+      "tiendas": [
+        {
+          "tienda": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/product/_nintendo-switch-octopath-traveler-ii-1541076.html",
+          "navegador": true
+        },
+        {
+          "tienda": "GAME",
+          "url": "https://www.game.es/octopath-traveler-ii-nintendo-switch-209293"
+        },
+        {
+          "tienda": "PcComponentes",
+          "url": "https://www.pccomponentes.com/octopath-traveler-ii-nintendo-switch",
+          "navegador": true
+        },
+        {
+          "tienda": "Xtralife",
+          "url": "https://www.xtralife.com/producto/octopath-traveler-ii-switch-estandar/76081",
+          "navegador": true
+        },
+        {
+          "tienda": "Carrefour",
+          "url": "https://www.carrefour.es/octopath-traveler-ii-para-switch/VC4A-20932880/p",
+          "navegador": true
+        },
+        {
+          "tienda": "El Corte Ingles",
+          "url": "https://www.elcorteingles.es/videojuegos/A46767736-octopath-traveler-2-nintendo-switch/",
+          "solo_enlace": true
+        },
+        {
+          "tienda": "Fnac",
+          "url": "https://www.fnac.es/Octopath-Traveler-II-Nintendo-Switch-Videojuego-Nintendo-Switch/a9656862",
+          "solo_enlace": true
+        }
+      ]
+    },
+    {
+      "id": "luigis-mansion-3-switch",
+      "nombre": "Luigi's Mansion 3",
+      "plataforma": "Nintendo Switch",
+      "tiendas": [
+        {
+          "tienda": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/product/_nintendo-switch-luigi-s-mansion-3-1458164.html",
+          "navegador": true
+        },
+        {
+          "tienda": "GAME",
+          "url": "https://www.game.es/luigis-mansion-3-nintendo-switch-169066"
+        },
+        {
+          "tienda": "PcComponentes",
+          "url": "https://www.pccomponentes.com/luigis-mansion-3-nintendo-switch",
+          "navegador": true
+        },
+        {
+          "tienda": "Xtralife",
+          "url": "https://www.xtralife.com/producto/luigis-mansion-3-switch-edicion-estandar/26509",
+          "navegador": true
+        },
+        {
+          "tienda": "Carrefour",
+          "url": "https://www.carrefour.es/luigis-mansion-3-para-nintendo-switch/VC4A-7886390/p",
+          "navegador": true
+        },
+        {
+          "tienda": "El Corte Ingles",
+          "url": "https://www.elcorteingles.es/videojuegos/A31028590-nintendo-switch-luigis-mansion-3/",
+          "solo_enlace": true
+        },
+        {
+          "tienda": "Fnac",
+          "url": "https://www.fnac.es/Luigi-s-Mansion-3-Nintendo-Switch-Videojuego-Nintendo-Switch/a6783885",
+          "solo_enlace": true
+        }
+      ]
     }
   ]
 }
