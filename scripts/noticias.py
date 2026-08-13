@@ -16,6 +16,7 @@ Solo biblioteca estandar: las rutinas corren en un entorno que no controlamos.
 """
 
 import argparse
+import gzip
 import json
 import re
 import subprocess
@@ -25,6 +26,7 @@ import unicodedata
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
+import zlib
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -207,6 +209,27 @@ def publicados_antes(seccion, turnos=TURNOS_ANTERIORES, excluir=(None, None)):
 # salen del feed, no del criterio de nadie.
 # --------------------------------------------------------------------------
 
+def descomprimir(datos, cabeceras):
+    """Deshace el gzip o el deflate de una respuesta que venga comprimida.
+
+    Hay servidores que comprimen aunque no se les pida: Vandal manda gzip a
+    pelo. Sin esto, lo que llega son bytes binarios que 'entradas_del_feed'
+    rechaza como XML invalido, y el medio parecia estar bloqueando a los
+    scripts cuando en realidad respondia perfectamente. Se estuvo dando por
+    caido por esto, asi que ante la duda se mira tambien el numero magico y no
+    solo la cabecera, que no todos la mandan bien.
+    """
+    codificacion = (cabeceras.get("Content-Encoding") or "").lower()
+    if "gzip" in codificacion or datos[:2] == b"\x1f\x8b":
+        return gzip.decompress(datos)
+    if "deflate" in codificacion:
+        try:
+            return zlib.decompress(datos)
+        except zlib.error:  # deflate crudo, sin la cabecera de zlib
+            return zlib.decompress(datos, -zlib.MAX_WBITS)
+    return datos
+
+
 def descargar(url, intentos=3):
     # Varios medios espanoles cortan la conexion al primer intento y responden
     # al segundo, asi que se espera un poco entre intentos en vez de insistir.
@@ -218,7 +241,7 @@ def descargar(url, intentos=3):
         try:
             peticion = urllib.request.Request(url, headers=cabeceras)
             with urllib.request.urlopen(peticion, timeout=25) as respuesta:
-                return respuesta.read(), None
+                return descomprimir(respuesta.read(), respuesta.headers), None
         except Exception as e:  # red, timeout, 404, certificados...
             if intento == intentos:
                 return None, str(e)
