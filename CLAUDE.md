@@ -306,15 +306,41 @@ descargaron a la primera**, o sea que las tres notas eran falsas. El robots.txt
 de Nintendo World Report son 34 bytes con un `Crawl-delay` para msnbot: no
 prohibe nada.
 
-Pero el de **TechPowerUp si**, y ese es el motivo por el que se quedo fuera:
-prohibe expresamente el uso del contenido para *"machine learning, artificial
-intelligence (AI), and/or large language models"* y lleva `Disallow: /` para
-ClaudeBot, GPTBot y compania. **El Chapuzas** esta en la misma zona
-(`ai-train=no` y `ClaudeBot: Disallow: /`, aunque con `Allow: /feed/`).
+Pero **TechPowerUp si prohibe**, y ese es el motivo por el que se quedo fuera.
+Ahora bien, hay que leer **cual** de los dos "no" es, porque son distintos y
+confundirlos deja una regla que este proyecto se salta en 8 sitios.
 
-La leccion, que es la de Amazon otra vez: el feed respondiendo no es permiso.
-Antes de meter un medio conviene abrir su `robots.txt`, porque ahi es donde
-esta el unico "no" que no se arregla cambiando como se pide.
+**El "no" por nombre no nos aplica.** Casi todos los medios grandes llevan
+bloques del tipo `User-agent: ClaudeBot` -> `Disallow: /`. Eso le habla a un
+rastreador concreto, el que Anthropic pasea por la web por su cuenta. Nuestro
+script no es ese: se lanza cuando lo lanza la rutina y **pide el RSS**, que es
+un fichero que el medio publica justamente para que lo lean programas y lo citen
+con enlace. Prueba de que no va con nosotros: ninguno de ellos cierra el feed.
+Quien no quiere que le lean cierra de verdad, como Nintendo Wire, que da 403
+hasta en la portada.
+
+Si ese bloque contase como veto, habria que echar a **TechCrunch, The Verge,
+Areajugones, Nintendo Everything, The Register, 404 Media y Nintenduo**: son
+8 de los 26 medios activos, medido el 15-08-2026. O sea, media seccion de
+tecnologia por una regla que nadie estaba aplicando.
+
+**El "no" general si nos aplica.** El de TechPowerUp no nombra rastreadores:
+dice que esta prohibido *"any device, tool, or process designed to data mine or
+scrape the content using automated means... without prior written permission"*.
+Eso no habla de IA, habla de **cualquiera que automatice**, y `candidatos` es
+exactamente eso. Su punto (1), el "text and data mining" del Art. 4 de la
+Directiva europea, es la clausula que permite a un medio reservarse ese derecho,
+y ese robots.txt es la reserva. **El Chapuzas** esta en la misma zona por
+`ai-train=no`.
+
+Ojo con citar el punto (2) de TechPowerUp ("the development of any software,
+machine learning, AI and/or LLMs") como motivo: habla de **desarrollar o
+entrenar** modelos, que es justo lo que aqui no se hace. El (4), "commercial
+purposes", tampoco, porque la web no monetiza.
+
+Asi que el criterio, en una linea: **veta la prohibicion general de automatizar,
+no el bloqueo por nombre de rastreador.** Y el feed respondiendo no es permiso,
+igual que en Amazon: ahi el limite tampoco era tecnico.
 
 ## Formato de los JSON de contenido
 
