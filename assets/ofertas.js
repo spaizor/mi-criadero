@@ -88,6 +88,19 @@ function pintarSinPrecio(p) {
   return `<li>${enlazado}</li>`;
 }
 
+// El precio que se ve con el producto plegado. Se prefiere el mas bajo de hoy;
+// solo si ninguna tienda ha respondido se cae al mas bajo que se conserve, y
+// entonces se dice, porque un precio de hace dias sin avisar en el sitio mas
+// visible de la pagina es justo lo que evita que los 'viejo' no compitan por
+// "Mas barato" ahi abajo.
+function precioDeCabecera(conPrecio) {
+  const deHoy = conPrecio.filter(p => p.estado === 'ok');
+  const base = deHoy.length ? deHoy : conPrecio;
+  if (!base.length) return null;
+  const barato = base.reduce((a, b) => (b.precio < a.precio ? b : a));
+  return { precio: barato.precio, moneda: barato.moneda, esDeHoy: deHoy.length > 0 };
+}
+
 function pintarProducto(producto) {
   const precios = Array.isArray(producto.precios) ? producto.precios : [];
   const conPrecio = precios.filter(p => p.precio != null);
@@ -117,15 +130,30 @@ function pintarProducto(producto) {
        </div>`
     : '';
 
+  const cabecera = precioDeCabecera(conPrecio);
+  const importe = cabecera
+    ? `${cabecera.esDeHoy ? '' : '<span class="cab-nota">no es de hoy</span>'}
+       <span class="cab-precio">${formatearPrecio(cabecera.precio, cabecera.moneda)}</span>`
+    : '<span class="cab-precio sin-dato">Sin precios</span>';
+
+  // Un <details> y no un desplegable a mano: el navegador ya da el teclado, el
+  // estado para los lectores de pantalla y la busqueda dentro de la pagina.
+  // Plegado se ve solo el precio mas bajo, que es a lo que se entra; las
+  // tiendas, que es la comparacion, estan a un clic.
   return `
-    <article class="producto">
-      <header class="producto-cab">
-        <h2>${escaparOferta(producto.nombre)}</h2>
-        ${producto.plataforma ? `<p class="plataforma">${escaparOferta(producto.plataforma)}</p>` : ''}
-      </header>
+    <details class="producto">
+      <summary class="producto-cab">
+        <span class="producto-titulo">
+          <span class="nombre">${escaparOferta(producto.nombre)}</span>
+          ${producto.plataforma
+            ? `<span class="plataforma">${escaparOferta(producto.plataforma)}</span>`
+            : ''}
+        </span>
+        ${importe}
+      </summary>
       <ul class="lista-precios">${filas}</ul>
       ${otras}
-    </article>`;
+    </details>`;
 }
 
 async function cargarOfertas(ruta) {

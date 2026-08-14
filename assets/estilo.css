@@ -278,22 +278,82 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
   overflow: hidden;
 }
 
+/* La cabecera es el <summary> del producto: plegada ensena solo el nombre y el
+   precio mas bajo, que es a lo que se entra. Se usa <details> nativo y no un
+   desplegable a mano porque trae gratis el teclado y el estado hablado. */
 .producto-cab {
-  padding: 16px 20px 14px;
-  border-bottom: 1px solid var(--borde);
+  display: flex;
+  align-items: center;
+  gap: 6px 12px;
+  padding: 14px 20px;
   border-left: 3px solid var(--acento);
+  cursor: pointer;
+  list-style: none;
 }
 
-.producto h2 {
-  margin: 0;
+.producto-cab::-webkit-details-marker { display: none; }
+
+/* La raya solo separa cuando hay algo debajo que separar. */
+.producto[open] .producto-cab { border-bottom: 1px solid var(--borde); }
+
+.producto-titulo {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.producto-cab .nombre {
   font-size: 1.08rem;
+  font-weight: 700;
   line-height: 1.35;
 }
 
+.producto-cab:hover .nombre { color: var(--acento); }
+
 .producto .plataforma {
-  margin: 2px 0 0;
   color: var(--texto-suave);
   font-size: 0.82rem;
+}
+
+/* Plegado, este numero es lo unico que se ve del producto: se lee como el
+   importe de una fila, no como un detalle al margen. */
+.producto-cab .cab-precio {
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.producto-cab .cab-precio.sin-dato {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--texto-suave);
+}
+
+/* Solo sale el dia que ninguna tienda ha respondido. Pequeno pero delante del
+   precio: quien lea el numero lee antes que no es de hoy. */
+.producto-cab .cab-nota {
+  font-size: 0.72rem;
+  color: var(--texto-suave);
+  white-space: nowrap;
+}
+
+/* Flecha propia: el marcador nativo no se puede colocar al otro lado. */
+.producto-cab::after {
+  content: '';
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--texto-suave);
+  border-bottom: 2px solid var(--texto-suave);
+  transform: translateY(-2px) rotate(45deg);
+  transition: transform 0.15s ease;
+}
+
+.producto[open] .producto-cab::after {
+  transform: translateY(2px) rotate(-135deg);
 }
 
 .lista-precios {
@@ -318,9 +378,15 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
   background: color-mix(in srgb, var(--acento) 9%, transparent);
 }
 
+/* El nombre se recorta con puntos suspensivos en vez de desbordar su columna.
+   Sin esto, en movil un nombre largo se metia debajo del "Mas barato" y los dos
+   se leian pegados: recortado sigue identificando la tienda, solapado no. */
 .precio .tienda {
   font-size: 0.95rem;
   min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .precio .tienda a {
@@ -450,6 +516,17 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 }
 
 /* Tema claro */
+/* En pantalla estrecha la fila de precio va justa: tres columnas, un nombre de
+   tienda y una etiqueta que no puede partirse. Se recupera el sitio de donde no
+   cuesta nada, los margenes laterales y el tamano de la etiqueta, antes que
+   recortando el nombre de la tienda. */
+@media (max-width: 430px) {
+  .precio, .producto-cab { padding-left: 13px; padding-right: 13px; }
+  .precio { column-gap: 8px; }
+  .marca-barato { font-size: 0.63rem; padding: 3px 7px; }
+  .sin-precio { padding-left: 13px; padding-right: 13px; }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color-scheme: light;

@@ -10,17 +10,25 @@
 # dan 403 (o pagina sin precio) a urllib y sueltan el precio a un navegador
 # desde esta misma IP: lo que filtran es parecer un script, no el datacenter.
 #
-# La cadencia es UNA VEZ AL DIA a proposito. Lo que hace que esto funcione es
-# pasar por una visita normal, y un producto consultado cada media hora deja de
-# serlo. Para precios de videojuegos, ademas, no aporta nada.
+# La cadencia son DOS VECES AL DIA y ese numero tiene tope por arriba: lo que
+# hace que esto funcione es pasar por una visita normal, y un producto
+# consultado cada media hora deja de serlo. Dos pasadas siguen pareciendo
+# trafico humano con holgura y recogen las dos tandas a las que las tiendas
+# mueven precios (manana y mediodia); a partir de ahi se apuesta contra las
+# tiendas, y esa apuesta se pierde entera, no de a poco.
 
 name: Precios
 
 on:
   schedule:
-    # 03:00 UTC = 05:00 en horario de verano espanol. Deja hueco a las rutinas
-    # de noticias, que empujan al mismo repo a las 02:00 y 02:30 UTC.
-    - cron: "0 3 * * *"
+    # En horario de verano espanol (UTC+2): 06:10 y 14:10; en invierno, una hora
+    # menos. Las dos dejan hueco a las rutinas de noticias, que empujan al mismo
+    # repo a las 02:00, 02:30 y 14:30 UTC.
+    #
+    # El minuto 10 y no el 0 es a proposito: GitHub encola muchisimos crons en
+    # las horas en punto y los retrasa, asi que pedir las 04:00 no las acerca.
+    - cron: "10 4 * * *"
+    - cron: "10 12 * * *"
   workflow_dispatch:
     inputs:
       probar:
