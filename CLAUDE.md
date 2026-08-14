@@ -459,9 +459,15 @@ Esto rompe el "solo biblioteca estandar" que si cumple `noticias.py`:
 lo instala. Si falta, el error lo dice con el comando para instalarlo. Para
 probar en local: `pip install playwright && playwright install chromium`.
 
-**La cadencia sigue siendo una vez al dia.** Lo que hace que esto funcione es
-pasar por una visita normal; consultar cada media hora dejaria de serlo, y para
-precios de videojuegos no aportaria nada.
+**La cadencia son dos pasadas al dia** (14-08-2026; antes era una), a las 6:10
+y las 14:10 hora espanola, que es cuando las tiendas han movido ya la tanda de
+la manana y la del mediodia. **El techo no es el coste sino parecer una visita
+normal**: el runner es gratis (repo publico, minutos ilimitados) y aqui no
+interviene Claude, asi que la tentacion de subir la frecuencia no la frena
+ningun contador. La frena que consultar cada media hora deja de ser una visita,
+y lo que se juega es la seccion entera: quien empieza a bloquear no devuelve
+precios peores, devuelve 403. Para precios de videojuegos, ademas, ni siquiera
+aportaria: no se mueven dentro del mismo dia.
 
 **PcComponentes escribe `"@type": "product"` en minuscula.** Por eso
 `es_producto()` compara sin mayusculas y aceptando lista: exigir la forma
@@ -597,6 +603,18 @@ carpeta ahi.
 
 El JSON no cambia; lo que sigue son decisiones de la web, y las dos primeras
 son la misma idea que las de arriba llevada al diseno:
+
+- **Cada producto es un `<details>` plegado**: se ve el nombre y el precio mas
+  bajo, y las tiendas salen al pulsar. Con el catalogo creciendo, la lista
+  desplegada obligaba a hacer scroll para comparar dos juegos entre si, que es
+  lo primero que se mira. Es `<details>` nativo y no un desplegable a mano
+  porque trae gratis el teclado, el estado para los lectores de pantalla y la
+  busqueda del navegador dentro de la pagina.
+- **El precio de la cabecera es el mas bajo de hoy**, y solo si ninguna tienda
+  ha respondido se cae al mas bajo que se conserve, diciendolo con un "no es de
+  hoy" al lado. Es la misma regla que impide a un `viejo` competir por "Mas
+  barato", aplicada al sitio mas visible de la pagina: ahi un precio de hace
+  dias sin avisar se leeria como el precio de hoy.
 
 - **Los precios de hoy van juntos y arriba, ordenados de mas barato a mas
   caro; los `viejo`, detras.** Intercalar uno de hace dias entre dos de hoy lo
