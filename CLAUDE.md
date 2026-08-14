@@ -297,6 +297,25 @@ Las dos lecciones valen para el proximo medio que parezca cerrado:
 Un 403 de verdad, ese si existe: Nintendo Wire lo da en las cuatro rutas **y en
 la portada**, asi que ahi no es el feed ni la compresion.
 
+### Y un "no" que no es tecnico: mirar el robots.txt
+
+Al valorar ocho medios el 14-08-2026, tres venian con la nota de que bloqueaban
+a los scripts (El Chapuzas "402", TechPowerUp "deteccion de bots", Nintendo
+World Report "su robots.txt prohibe el acceso automatico"). **Los tres
+descargaron a la primera**, o sea que las tres notas eran falsas. El robots.txt
+de Nintendo World Report son 34 bytes con un `Crawl-delay` para msnbot: no
+prohibe nada.
+
+Pero el de **TechPowerUp si**, y ese es el motivo por el que se quedo fuera:
+prohibe expresamente el uso del contenido para *"machine learning, artificial
+intelligence (AI), and/or large language models"* y lleva `Disallow: /` para
+ClaudeBot, GPTBot y compania. **El Chapuzas** esta en la misma zona
+(`ai-train=no` y `ClaudeBot: Disallow: /`, aunque con `Allow: /feed/`).
+
+La leccion, que es la de Amazon otra vez: el feed respondiendo no es permiso.
+Antes de meter un medio conviene abrir su `robots.txt`, porque ahi es donde
+esta el unico "no" que no se arregla cambiando como se pide.
+
 ## Formato de los JSON de contenido
 
 Cada seccion tiene dos niveles: **5 destacadas** que la rutina abre y lee, y
@@ -387,8 +406,17 @@ mas alla del User-Agent. Aun asi **El Corte Ingles esta en el catalogo con
 Worten e Idealo quedan fuera por decision del usuario; Idealo ademas es un
 comparador y mezcla tiendas digitales, que no es lo que se sigue aqui.
 
-**Amazon sigue fuera, y esto no lo cambia**: su normativa lo prohibe, que no es
-un obstaculo tecnico.
+**Amazon esta con `solo_enlace`, y la distincion importa.** Lo que prohibe su
+normativa es **sacarle el precio con un script**, no que se enlace a una ficha
+suya: un hipervinculo no le pide nada que no le pida cualquier web que la cite.
+Asi que desde el 14-08-2026 esta en el catalogo como El Corte Ingles y Fnac,
+con su enlace y sin consultarla nunca.
+
+Lo que **no** hay que hacer es ascenderla a tienda con precio. Sus fichas
+responden perfectamente a `urllib` (las siete devolvieron 200 y su titulo al
+comprobarlas), asi que la tentacion va a estar ahi: **que se pueda no quiere
+decir que se deba**, y aqui el limite no es tecnico. Es el unico sitio del
+catalogo donde `solo_enlace` no significa "no responde" sino "no se le pide".
 
 **Xtralife necesita el navegador por otro motivo**: no bloquea a nadie, monta
 el bloque `Product` con JavaScript, asi que a `urllib` le llega la ficha sin

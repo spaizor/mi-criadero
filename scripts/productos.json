@@ -21,7 +21,7 @@
       "Orange": "Si, con urllib, pero publica la cuota mensual SIN IVA de una financiacion a 24 meses, no el precio. Va con 'cuota': {'meses': 24} y su precio sale marcado como estimado. Comprobado con Star Fox: declara 2.07, que es 59,99 / 1,21 / 24, y pinta 2,50/mes en pantalla. Es marketplace y pide ser cliente.",
       "Worten": "Fuera: no interesa.",
       "Idealo": "Fuera: es un comparador y mezcla tiendas digitales, que no es lo que se sigue aqui.",
-      "Amazon": "No se usa: bloquea scripts y su normativa lo prohibe. Esto no es una limitacion tecnica y el navegador no lo cambia."
+      "Amazon": "Solo enlace, nunca precio. Lo que prohibe su normativa es sacarle el precio con un script; enlazar a una ficha publica no le pide nada, asi que va con 'solo_enlace': true como El Corte Ingles y Fnac. NO ponerle 'navegador' ni quitarle el 'solo_enlace' aunque se vea que responde: que se pueda no quiere decir que se deba."
     },
     "campos": {
       "id": "Identificador corto en minusculas. No se muestra; sirve para conservar el minimo historico entre ejecuciones aunque cambie el nombre.",
@@ -63,6 +63,11 @@
           "tienda": "Carrefour",
           "url": "https://www.carrefour.es/star-fox-para-switch-2/VC4A-33647650/p",
           "navegador": true
+        },
+        {
+          "tienda": "Amazon",
+          "url": "https://www.amazon.es/dp/B0GZW7QWCJ",
+          "solo_enlace": true
         },
         {
           "tienda": "El Corte Ingles",
@@ -111,6 +116,11 @@
           "navegador": true
         },
         {
+          "tienda": "Amazon",
+          "url": "https://www.amazon.es/dp/B0GM6TGZXS",
+          "solo_enlace": true
+        },
+        {
           "tienda": "El Corte Ingles",
           "url": "https://www.elcorteingles.es/videojuegos/A200291732-the-adventures-of-elliot-the-millennium-tales-nintendo-switch-2-gkc/",
           "solo_enlace": true
@@ -155,6 +165,11 @@
           "tienda": "Carrefour",
           "url": "https://www.carrefour.es/yoshi-and-the-mysterious-book-para-switch-2/VC4A-33096377/p",
           "navegador": true
+        },
+        {
+          "tienda": "Amazon",
+          "url": "https://www.amazon.es/dp/B0GS3J5D3Y",
+          "solo_enlace": true
         },
         {
           "tienda": "El Corte Ingles",
@@ -203,6 +218,11 @@
           "navegador": true
         },
         {
+          "tienda": "Amazon",
+          "url": "https://www.amazon.es/dp/B0D7DQKXX6",
+          "solo_enlace": true
+        },
+        {
           "tienda": "El Corte Ingles",
           "url": "https://www.elcorteingles.es/videojuegos/A52182954-mario-and-luigi-conexion-fraternal-nintendo-switch/",
           "solo_enlace": true
@@ -249,6 +269,11 @@
           "navegador": true
         },
         {
+          "tienda": "Amazon",
+          "url": "https://www.amazon.es/dp/B0C8YVMY1V",
+          "solo_enlace": true
+        },
+        {
           "tienda": "El Corte Ingles",
           "url": "https://www.elcorteingles.es/videojuegos/A48481634-super-mario-rpg-nintendo-switch/",
           "solo_enlace": true
@@ -290,6 +315,11 @@
           "navegador": true
         },
         {
+          "tienda": "Amazon",
+          "url": "https://www.amazon.es/dp/B0BFXFRBN4",
+          "solo_enlace": true
+        },
+        {
           "tienda": "El Corte Ingles",
           "url": "https://www.elcorteingles.es/videojuegos/A46767736-octopath-traveler-2-nintendo-switch/",
           "solo_enlace": true
@@ -329,6 +359,11 @@
           "tienda": "Carrefour",
           "url": "https://www.carrefour.es/luigis-mansion-3-para-nintendo-switch/VC4A-7886390/p",
           "navegador": true
+        },
+        {
+          "tienda": "Amazon",
+          "url": "https://www.amazon.es/dp/B07HCRY5L9",
+          "solo_enlace": true
         },
         {
           "tienda": "El Corte Ingles",

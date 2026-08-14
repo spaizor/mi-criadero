@@ -118,6 +118,22 @@
           "idioma": "en",
           "comprobado": true,
           "nota": ""
+        },
+        {
+          "nombre": "The Register",
+          "web": "https://www.theregister.com/",
+          "feed": "https://www.theregister.com/headlines.atom",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Atom, como The Verge. Empresa, cloud y seguridad: medido el 14-08-2026, 18 entradas utiles en 30 h y ninguna repetida con TechCrunch ni Engadget."
+        },
+        {
+          "nombre": "404 Media",
+          "web": "https://www.404media.co/",
+          "feed": "https://www.404media.co/rss",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Sin barra final: /rss/ redirige. Investigacion, no producto: trae poco (2 entradas en 30 h) pero nada de guias ni ofertas."
         }
       ]
     },
@@ -204,6 +220,14 @@
           "idioma": "es",
           "comprobado": true,
           "nota": "Especializado en Nintendo, asi que no se le filtra por tema. Feed corto (10 entradas)."
+        },
+        {
+          "nombre": "Nintendúo",
+          "web": "https://nintenduo.com/",
+          "feed": "https://nintenduo.com/feed/",
+          "idioma": "es",
+          "comprobado": true,
+          "nota": "Especializado en Nintendo, asi que no se le filtra por tema. Medido el 14-08-2026: 12 entradas en 30 h, de las que solo 2 las traia ya otro medio."
         },
         {
           "nombre": "Nintendo Life",
