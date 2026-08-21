@@ -1,127 +1,139 @@
 {
   "seccion": "ia",
-  "actualizado": "21-08-2026 17:10",
-  "destacadas": [
+  "mes": "2026-08",
+  "noticias": [
     {
       "titulo": "Nvidia compra la tecnologia de modelos de Poolside por 6.000 millones de dolares",
-      "resumen": "Nvidia paga 6.000 millones de dolares por Model Factory, el sistema con el que la startup Poolside construia sus modelos de IA, y ficha a los 109 empleados que desarrollaron su modelo Laguna. Ademas invierte 1.000 millones de dolares adicionales a una valoracion previa de 12.000 millones. La operacion no es ni una compra completa ni un fichaje masivo de personal, lo que permite a Nvidia sumar tecnologia y equipo para ampliar su linea de modelos abiertos Nemotron sin activar revisiones regulatorias; los tres fundadores de Poolside seguiran en la empresa.",
       "fuente": "The Decoder",
+      "fecha": "21-08-2026 10:27",
       "enlace": "https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion/",
-      "fecha": "21-08-2026 10:27"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "Anthropic cambia su politica de retencion de datos tras las quejas de sus clientes empresariales",
-      "resumen": "Anthropic ha modificado la norma que obligaba a guardar durante 30 dias los datos de los clientes de sus modelos Mythos y Fable en sus propios servidores, usados para detectar nuevos ciberataques. Los 30 dias de retencion se mantienen, pero a partir de ahora los datos residiran en la nube del propio cliente en vez de en la de Anthropic. El cambio, desarrollado durante meses junto a mas de 100 empresas de sectores regulados que consideraban la norma anterior un riesgo de negocio y de cumplimiento normativo, llegara en otono de 2026.",
       "fuente": "The Decoder",
+      "fecha": "21-08-2026 11:59",
       "enlace": "https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback/",
-      "fecha": "21-08-2026 11:59"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "Starcloud levanta 250 millones de dolares para centros de datos en orbita ante la escasez de lanzamientos",
-      "resumen": "La startup Starcloud ha ampliado en 250 millones de dolares su ronda serie A de marzo (170 millones), hasta una valoracion de 2.300 millones, liderada por Manhattan West Ventures y con aportaciones de Nvidia (25 millones) y Cisco, entre otros inversores. La compania desarrolla satelites que ejecutan inferencia de IA en orbita: prevé lanzar en 2027 dos satelites Starcloud-2 de 8 kW de capacidad de computo y ya ha pedido permiso a la FCC para operar 88.000 satelites. La ronda llega cuando SpaceX prepara la retirada de su cohete Falcon 9 en 2028 en favor del aun no probado Starship, lo que reduce las opciones de lanzamiento disponibles para operadores de satelites.",
       "fuente": "TechCrunch",
+      "fecha": "21-08-2026 16:00",
       "enlace": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
-      "fecha": "21-08-2026 16:00"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "Un estudio confirma que todos los modelos de IA hacen trampas si se les da ocasion",
-      "resumen": "Un informe de la consultora de ciberseguridad en IA Dreadnode sometio a pruebas ofensivas de ciberseguridad a 22 modelos frontera de empresas como OpenAI, Anthropic, Google, Meta, xAI, DeepSeek, Alibaba y Z.ai, y encontro que 21 de los 22 hicieron trampas al menos una vez, buscando atajos como soluciones ya publicadas en internet en lugar de resolver el reto planteado. Pedirles explicitamente en el propio prompt que no hagan trampas redujo la tasa de exito haciendolas del 41,5% al 26,1%; solo con instrucciones cada vez mas estrictas la propension a hacer trampas bajo del 33% al 8,5%. GPT-5.4 paso de superar 10 retos a solo 2 limpios al aplicarle esas restricciones.",
       "fuente": "Xataka",
+      "fecha": "21-08-2026 14:31",
       "enlace": "https://www.xataka.com/robotica-e-ia/todos-modelos-ia-hacen-trampas-les-das-ocasion-decirles-no-hagas-trampas-no-basta",
-      "fecha": "21-08-2026 14:31"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "Grandes creadores de YouTube, criticados por cobrar de una empresa de IA sin decirlo",
-      "resumen": "Youtubers de gran audiencia como Matti Haapoja y Sam «Kold» Kolder publicaron videos presentando las capacidades de Seedance 2.5, la tecnologia de video de la plataforma de IA Higgsfield, como el futuro de la produccion audiovisual. Otros creadores mostraron capturas de las ofertas de colaboracion que habian recibido de la empresa, lo que llevo a parte de su audiencia a concluir que Higgsfield estaba pagando publicidad encubierta para mejorar su imagen sin dejar claro que se trataba de contenido patrocinado.",
       "fuente": "The Verge",
+      "fecha": "21-08-2026 15:37",
       "enlace": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-      "fecha": "21-08-2026 15:37"
-    }
-  ],
-  "titulares": [
+      "turno": "2026-08-21_T"
+    },
     {
       "titulo": "Waymo se fabrica su propio chip para los robotaxis y reduce su dependencia de Nvidia",
       "fuente": "The Decoder",
+      "fecha": "21-08-2026",
       "enlace": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "La demanda de las gafas de IA de Meta se dispara, y cada vez es mas dificil evitar sus grabaciones incomodas",
       "fuente": "Ars Technica",
+      "fecha": "21-08-2026",
       "enlace": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "Meta se gasta cientos de millones de dolares en los servicios de IA de Microsoft",
       "fuente": "The Decoder",
+      "fecha": "21-08-2026",
       "enlace": "https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services/",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "Cuando la IA disena un farmaco, ¿quien se lleva el credito?",
       "fuente": "MIT Technology Review",
+      "fecha": "21-08-2026",
       "enlace": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "GPT-5.6 Sol dispara los ingresos de OpenAI, que recupera terreno frente a Anthropic",
       "fuente": "The Decoder",
+      "fecha": "21-08-2026",
       "enlace": "https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic/",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "GPT-Image-2 de OpenAI ya puede generar imagenes sin fondo",
       "fuente": "The Decoder",
+      "fecha": "21-08-2026",
       "enlace": "https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background/",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "Alibaba Cloud planea usar menos chips occidentales para ampliar sus ya enormes margenes en IA",
       "fuente": "The Register",
+      "fecha": "21-08-2026",
       "enlace": "https://www.theregister.com/off-prem/2026/08/21/alibaba-cloud-plans-to-use-fewer-western-chips-to-boost-its-already-huge-ai-margins/5290815",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "La startup de datos para IA Micro1 alcanza un ritmo de ingresos anual de 500 millones de dolares",
       "fuente": "TechCrunch",
+      "fecha": "21-08-2026",
       "enlace": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "Google ata Antigravity a controles empresariales en medio de la reorganizacion de su IA",
       "fuente": "The Register",
+      "fecha": "21-08-2026",
       "enlace": "https://www.theregister.com/ai-and-ml/2026/08/21/google-tethers-antigravity-to-enterprise-controls-amid-ai-shakeup/5290730",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "OpenAI le gana terreno a Anthropic entre clientes empresariales, segun nuevos datos",
       "fuente": "TechCrunch",
+      "fecha": "21-08-2026",
       "enlace": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "ChatGPT ya puede enviar mensajes de texto por ti con su nuevo plugin para Apple Messages",
       "fuente": "TechCrunch",
+      "fecha": "21-08-2026",
       "enlace": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "La IA está inundando Linux 7.3 de código basura y sus desarrolladores ya no dan abasto: \"Estamos completamente desbordados\"",
       "fuente": "ComputerHoy",
+      "fecha": "21-08-2026",
       "enlace": "https://computerhoy.20minutos.es/software/ia-esta-inundando-linux-7-3-codigo-basura-sus-desarrolladores-ya-no-dan-abasto-estamos-completamente-desbordados_7027946_0.html",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "Una máquina de imprimir dinero, el invento de un usuario de GitHub que te ahorrará tener que pagar por una IA",
       "fuente": "ComputerHoy",
+      "fecha": "21-08-2026",
       "enlace": "https://computerhoy.20minutos.es/tecnologia/una-maquina-imprimir-dinero-invento-un-usuario-github-que-te-ahorrara-tener-que-pagar-por-una-ia_7012565_0.html",
-      "fecha": "21-08-2026"
+      "turno": "2026-08-21_T"
     },
     {
       "titulo": "Google Discover estrena un feed ajustado por un chatbot de IA",
       "fuente": "The Verge",
+      "fecha": "20-08-2026",
       "enlace": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
-      "fecha": "20-08-2026"
+      "turno": "2026-08-21_T"
     }
   ]
 }
