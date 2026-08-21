@@ -1139,13 +1139,18 @@ def cmd_estado(args):
         # no existia. Sin esto, el dia que se anadio 'ia' el comando pedia
         # explicaciones por los turnos de la semana anterior, y un aviso que
         # sale siempre y no significa nada es un aviso que se deja de leer.
+        #
+        # Admite dia ("2026-08-22") o dia y turno ("2026-08-21_T"), porque una
+        # rutina nueva empieza a la hora que se cree, no a medianoche: 'ia'
+        # arranco una tarde, y con la fecha a secas habia que elegir entre
+        # reclamar su manana, que nunca existio, o no vigilar su primer turno.
         desde = indice.get("desde")
         print(seccion)
         for dia in dias:
             celdas = []
             for turno in ("M", "T"):
                 entrada = turnos.get((dia, turno))
-                if desde and dia < desde:
+                if desde and (f"{dia}_{turno}" if "_" in desde else dia) < desde:
                     celdas.append(f"{turno} —")
                 elif entrada:
                     texto, vacio = resumen_del_turno(seccion, entrada, remoto)
