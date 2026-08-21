@@ -45,11 +45,15 @@ JSON, y anadir su tarjeta en `index.html`. Para que salga tambien en el
 historico hay que anadirla al array `SECCIONES` de `historico.html` y crear su
 `data/historico/<seccion>/indice.json`.
 
-Ese indice recien creado lleva **`"desde": "AAAA-MM-DD"`**, la fecha del primer
-turno que se le va a pedir. Sin eso, `estado` reclama los turnos de los dias
-anteriores a que la seccion existiera, y un aviso que sale siempre y no
-significa nada es un aviso que se deja de leer. Si la rutina se crea mas tarde
-de lo previsto, hay que mover esa fecha.
+Ese indice recien creado lleva **`"desde"`**, el primer turno que se le va a
+pedir. Sin eso, `estado` reclama los turnos de los dias anteriores a que la
+seccion existiera, y un aviso que sale siempre y no significa nada es un aviso
+que se deja de leer. Admite dia (`"2026-08-22"`) o **dia y turno**
+(`"2026-08-21_T"`), que es lo que hace falta de verdad: una rutina nueva
+empieza a la hora que se crea, no a medianoche. `ia` arranco una tarde, y con
+la fecha a secas habia que elegir entre reclamar una manana que nunca existio o
+no vigilar su primer turno. Si la rutina se crea mas tarde de lo previsto, hay
+que mover ese valor.
 
 ## Historico
 
