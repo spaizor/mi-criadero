@@ -7,6 +7,7 @@
   --texto-suave: #9aa3b2;
   --acento: #4f9cf9;
   --acento-tec: #4f9cf9;
+  --acento-ia: #a78bfa;
   --acento-nin: #e60012;
   --acento-ofe: #2fbf71;
 }
@@ -23,6 +24,7 @@ body {
 }
 
 body[data-seccion="tec"] { --acento: var(--acento-tec); }
+body[data-seccion="ia"]  { --acento: var(--acento-ia); }
 body[data-seccion="nin"] { --acento: var(--acento-nin); }
 body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 
@@ -88,6 +90,7 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 }
 
 .tarjeta-seccion.tec:hover { border-color: var(--acento-tec); }
+.tarjeta-seccion.ia:hover  { border-color: var(--acento-ia); }
 .tarjeta-seccion.nin:hover { border-color: var(--acento-nin); }
 .tarjeta-seccion.ofe:hover { border-color: var(--acento-ofe); }
 

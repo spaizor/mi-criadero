@@ -54,6 +54,23 @@ MAX_TITULARES = 25
 MIN_TITULARES = {"M": 15, "T": 8}
 MIN_MEDIOS_TITULARES = {"M": 5, "T": 3}
 
+# Y los de las secciones que no dan para tanto. Una seccion estrecha no es una
+# seccion mal hecha: 'ia' se midio antes de abrirla y da 18 candidatos por turno
+# contra los 50 de tecnologia, asi que pedirle 25 titulares solo conseguiria que
+# 'validar' avisara en todas las ejecuciones y se dejara de leer. Los avisos
+# valen para algo mientras signifiquen que ha pasado algo raro.
+CUPOS = {
+    "ia": {
+        "max_titulares": 15,
+        "min_titulares": {"M": 8, "T": 5},
+        "min_medios": {"M": 4, "T": 3},
+    },
+}
+
+
+def cupo(seccion, cual, por_defecto):
+    return CUPOS.get(seccion, {}).get(cual, por_defecto)
+
 # Horas hacia atras que mira 'candidatos' cuando no hay turno anterior.
 HORAS_POR_DEFECTO = 18
 
@@ -68,10 +85,28 @@ AGENTE = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 
 # Titulares que no son noticia: guias, ofertas, listas y analisis. Se descartan
 # antes de ensenarlos para que no acaben de relleno un dia flojo.
+#
+# El segundo bloque salio de medir las 1.211 noticias publicadas entre el
+# 08-08-2026 y el 21-08-2026: son las formulas exactas que se colaron, no
+# terminos imaginados. Cada una se probo contra ese historico y ninguna toca
+# una noticia de verdad, que es el criterio de esta lista: aqui el peligro es
+# colar de mas, no quedarse corto.
+#
+# Dos cosas que parecian obvias y se cayeron al medirlas:
+# - "rebaja" a secas tira "Digi rebaja el roaming en cuatro paises", que es
+#   noticia de telecos; y "rebaja el precio" no aparecio ni una vez.
+# - "por menos de N" tira "Xiaomi lanza una lavadora un 30% mas eficiente por
+#   menos de 450 euros", que es un lanzamiento. "por solo N" no falla.
 RUIDO = re.compile(
     r"^(como |cómo |guia|guía|analisis|análisis|review|top \d|los mejores|"
     r"las mejores|mejores |ofertas|chollo|ver online|donde ver|dónde ver)"
-    r"|oferta|descuento|rebajad|precio m[ií]nimo|cupon|cupón",
+    r"|oferta|descuento|rebajad|precio m[ií]nimo|cupon|cupón"
+    # Formulas de compra que se colaban por no ir al principio del titular.
+    r"|,\s*(analisis|análisis|review)\s*:"
+    r"|(desploma|hunde|tumba|derrumba)[^.]{0,20}precio"
+    r"|ah[óo]rrate|cons[íi]guelo|hazte con [ée]l|por s[óo]?lo \d"
+    # En primera persona es el medio quien regala: publirreportaje, no noticia.
+    r"|sorteo|sorteamos|regalamos|patrocinad",
     re.IGNORECASE,
 )
 
@@ -157,6 +192,29 @@ def leer_tema(seccion):
     return patron_de((tema or {}).get("propio"))
 
 
+def leer_tema_ajeno(seccion):
+    """Terminos que mandan un titular a OTRA seccion, o None.
+
+    Existe porque al abrir 'ia' habia que decidir que pasaba con las noticias de
+    IA de tecnologia, que eran el 29% de lo que publicaba. Dejarlas en las dos
+    secciones significa que quien entra en Tecnologia y luego en IA se encuentra
+    los mismos titulares dos veces: el lector no gana una seccion, pierde media.
+
+    La lista no se copia, se apunta a la de la otra seccion con
+    'tema_ajeno': {"de_la_seccion": "ia"}. Dos listas iguales en dos sitios
+    empiezan iguales y acaban distintas, y el dia que se desincronizan aparece
+    justo el fallo que esto evita: una noticia que ni entra en una ni en otra.
+    """
+    if not MEDIOS.exists():
+        return None
+    secciones = leer_json(MEDIOS).get("secciones", {})
+    ajeno = secciones.get(seccion, {}).get("tema_ajeno")
+    if not ajeno:
+        return None
+    otra = secciones.get(ajeno.get("de_la_seccion"), {}).get("tema", {})
+    return patron_de(otra.get("propio"))
+
+
 def fuera_de_tema(titulo, tema, medio):
     """Titular de un medio generalista que no menciona el tema de la seccion.
 
@@ -176,6 +234,43 @@ def fuera_de_tema(titulo, tema, medio):
     if tema is None or not medio.get("filtrar_tema"):
         return False
     return not tema.search(sin_tildes(titulo))
+
+
+def de_otra_seccion(enlace, medio):
+    """Titular que el propio medio ha metido en una categoria que no es la nuestra.
+
+    Se filtra por el enlace, no por el titular, y por eso no puede haber falsos
+    positivos: no se adivina de que va la noticia, se lee la seccion en la que
+    el medio la ha colgado. Sale de mirar las 1.211 publicadas hasta el
+    21-08-2026, donde este era el ruido que quedaba en tecnologia:
+
+    - hipertextual.com/cine-television/ puso 23 titulares, todos de cine y
+      series ('Las cinco mejores sitcom de los 2000'). Es el 28% de lo que
+      aporta Hipertextual.
+    - adslzone.net/ofertas/ puso 8, todos de compra ('AliExpress hunde el
+      precio...'). RUIDO no los cazaba porque no dicen 'oferta' ni 'descuento'.
+
+    Ninguno de los 31 era noticia de la seccion, asi que no se pierde nada.
+    Solo sirve donde el medio pone la categoria en la URL: en los de Nintendo
+    no la ponen (GoNintendo cuelga todo de /contents/) y ahi filtra 'tema'.
+    """
+    rutas = medio.get("excluir_rutas")
+    if not rutas:
+        return False
+    enlace = enlace.lower()
+    return any(ruta.lower() in enlace for ruta in rutas)
+
+
+def es_de_otra_seccion(titulo, ajeno):
+    """Titular que le toca a la seccion hermana. Se aplica a todos los medios.
+
+    Al reves que 'fuera_de_tema', aqui no se distingue entre medios
+    especializados y generalistas: lo que decide no es de quien viene la
+    noticia sino de que va. Un medio de IA puro no se pone en tecnologia.
+    """
+    if ajeno is None:
+        return False
+    return bool(ajeno.search(sin_tildes(titulo)))
 
 
 def medios_espanoles(seccion):
@@ -328,6 +423,7 @@ def cmd_candidatos(args):
     corte, desde = ventana_del_turno(args.seccion, args.horas)
     ya_publicado = publicados_antes(args.seccion)
     tema = leer_tema(args.seccion)
+    ajeno = leer_tema_ajeno(args.seccion)
 
     candidatos, fallos, descartes, vistos = [], [], Counter(), set()
     for medio in medios:
@@ -357,8 +453,14 @@ def cmd_candidatos(args):
             if RUIDO.search(titulo):
                 descartes["guias, ofertas y analisis"] += 1
                 continue
+            if de_otra_seccion(enlace, medio):
+                descartes["de otra seccion del propio medio"] += 1
+                continue
             if fuera_de_tema(titulo, tema, medio):
                 descartes["de otra plataforma"] += 1
+                continue
+            if es_de_otra_seccion(titulo, ajeno):
+                descartes["le tocan a la seccion hermana"] += 1
                 continue
             del_medio.append({
                 "titulo_original": titulo,
@@ -426,6 +528,8 @@ def turno_ya_archivado(seccion, datos):
 
 
 def cmd_titulares(args):
+    if args.maximo is None:
+        args.maximo = cupo(args.seccion, "max_titulares", MAX_TITULARES)
     ruta = ruta_actual(args.seccion)
     try:
         datos = leer_json(ruta)
@@ -460,6 +564,7 @@ def cmd_titulares(args):
 
     corte, desde = ventana_del_turno(args.seccion, args.horas)
     tema = leer_tema(args.seccion)
+    ajeno = leer_tema_ajeno(args.seccion)
     # Lo de turnos pasados y lo que el modelo ya haya puesto en este.
     vetados = set(publicados_antes(args.seccion))
     vetados.update(n.get("enlace") for n in destacadas + ya_estan if n.get("enlace"))
@@ -498,8 +603,12 @@ def cmd_titulares(args):
                 descartes["ya publicadas, ya puestas o repetidas"] += 1
             elif RUIDO.search(titulo):
                 descartes["guias, ofertas y analisis"] += 1
+            elif de_otra_seccion(enlace, medio):
+                descartes["de otra seccion del propio medio"] += 1
             elif fuera_de_tema(titulo, tema, medio):
                 descartes["de otra plataforma"] += 1
+            elif es_de_otra_seccion(titulo, ajeno):
+                descartes["le tocan a la seccion hermana"] += 1
             else:
                 vetados.add(enlace)
                 repetidos.add(clave)
@@ -675,7 +784,7 @@ def validar_noticia(rev, noticia, indice, es_destacada, momento):
 
 def validar_reparto(rev, seccion, destacadas, titulares, turno):
     espanoles = medios_espanoles(seccion)
-    min_medios = MIN_MEDIOS_TITULARES.get(turno, 5)
+    min_medios = cupo(seccion, "min_medios", MIN_MEDIOS_TITULARES).get(turno, 5)
 
     def es_espanol(fuente):
         return str(fuente).strip().lower() in espanoles
@@ -776,10 +885,11 @@ def cmd_validar(args):
 
     if len(destacadas) < 5:
         rev.aviso(f"Solo {len(destacadas)} destacadas de 5.")
-    minimo = MIN_TITULARES.get(turno, 15)
+    minimo = cupo(args.seccion, "min_titulares", MIN_TITULARES).get(turno, 15)
+    tope = cupo(args.seccion, "max_titulares", MAX_TITULARES)
     if len(titulares) < minimo:
         rev.aviso(f"Solo {len(titulares)} titulares (esperados {minimo} en el "
-                  f"turno {turno}, tope {MAX_TITULARES}). Repasa la salida de "
+                  f"turno {turno}, tope {tope}). Repasa la salida de "
                   f"'candidatos': si algun feed fallo, vuelve a lanzarlo antes "
                   f"de darlo por bueno.")
 
@@ -1013,12 +1123,19 @@ def cmd_estado(args):
             f"data/historico/{seccion}/indice.json", remoto) or {}
         turnos = {(e.get("fecha"), e.get("turno")): e
                   for e in indice.get("entradas", [])}
+        # Una seccion recien abierta no tiene turnos perdidos detras: su rutina
+        # no existia. Sin esto, el dia que se anadio 'ia' el comando pedia
+        # explicaciones por los turnos de la semana anterior, y un aviso que
+        # sale siempre y no significa nada es un aviso que se deja de leer.
+        desde = indice.get("desde")
         print(seccion)
         for dia in dias:
             celdas = []
             for turno in ("M", "T"):
                 entrada = turnos.get((dia, turno))
-                if entrada:
+                if desde and dia < desde:
+                    celdas.append(f"{turno} —")
+                elif entrada:
                     texto, vacio = resumen_del_turno(seccion, entrada, remoto)
                     celdas.append(f"{turno} {texto}")
                     if vacio:
@@ -1071,7 +1188,7 @@ def main():
     p.add_argument("seccion")
     p.add_argument("--horas", type=int, default=0,
                    help="mirar N horas atras en vez de desde el turno anterior")
-    p.add_argument("--maximo", type=int, default=MAX_TITULARES,
+    p.add_argument("--maximo", type=int, default=None,
                    help="tope de titulares del fichero, contando los que ya hay")
     p.add_argument("--probar", action="store_true",
                    help="ensenar lo que se anadiria sin escribir el fichero")
