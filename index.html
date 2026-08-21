@@ -4,6 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mi Criadero</title>
+  <meta name="description" content="Noticias de tecnologia, IA y Nintendo, y el precio de hoy de los juegos que sigo. Se actualiza sola dos veces al dia.">
+
+  <!-- Icono, color de la barra del navegador y datos de instalacion. Con el
+       manifest, "anadir a pantalla de inicio" deja una app con su icono y su
+       nombre en vez de un acceso directo en blanco.
+       No se ponen las metas de standalone de iOS a proposito: alli capturan la
+       navegacion, y esta web enlaza todo el rato a medios de fuera, que se
+       quedarian abiertos sin barra ni boton de volver. -->
+  <link rel="icon" href="assets/icono.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icono-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/icono-180.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
+
+  <!-- Lo que se ve al pegar el enlace en WhatsApp o Telegram. Las dos URL van
+       absolutas a proposito: quien genera la previsualizacion no resuelve
+       rutas relativas, y con una relativa la imagen simplemente no sale. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mi Criadero">
+  <meta property="og:title" content="Mi Criadero">
+  <meta property="og:description" content="Noticias de tecnologia, IA y Nintendo, y el precio de hoy de los juegos que sigo. Se actualiza sola dos veces al dia.">
+  <meta property="og:url" content="https://spaizor.github.io/mi-criadero/">
+  <meta property="og:image" content="https://spaizor.github.io/mi-criadero/assets/og.png">
+
   <link rel="stylesheet" href="assets/estilo.css">
 </head>
 <body>
@@ -13,28 +38,57 @@
   </header>
 
   <main class="contenedor">
-    <nav class="rejilla">
-      <a class="tarjeta-seccion tec" href="tecnologia.html">
-        <span class="icono">💻</span>
-        <span class="titulo">Tecnologia</span>
-        <span class="desc">Lo importante del sector, cada dia.</span>
-      </a>
-      <a class="tarjeta-seccion ia" href="ia.html">
-        <span class="icono">🤖</span>
-        <span class="titulo">IA</span>
-        <span class="desc">Modelos, empresas y lo que traen.</span>
-      </a>
-      <a class="tarjeta-seccion nin" href="nintendo.html">
-        <span class="icono">🎮</span>
-        <span class="titulo">Nintendo</span>
-        <span class="desc">Juegos, consolas y anuncios.</span>
-      </a>
-      <a class="tarjeta-seccion ofe" href="ofertas.html">
-        <span class="icono">🏷</span>
-        <span class="titulo">Ofertas</span>
-        <span class="desc">Precio de hoy de los juegos que sigo.</span>
-      </a>
+    <nav class="chips">
+      <a class="chip tec" href="tecnologia.html"><span class="icono">💻</span>Tecnologia</a>
+      <a class="chip ia" href="ia.html"><span class="icono">🤖</span>IA</a>
+      <a class="chip nin" href="nintendo.html"><span class="icono">🎮</span>Nintendo</a>
+      <a class="chip ofe" href="ofertas.html"><span class="icono">🏷</span>Ofertas</a>
     </nav>
+
+    <!-- Una entrada por seccion, con la noticia numero 1 de su turno de hoy.
+         La rellena assets/portada.js leyendo los mismos JSON que pinta cada
+         seccion; el texto que va escrito aqui es el respaldo para cuando un
+         JSON no cargue, y es el que tenia la portada de siempre. -->
+    <div class="entradas">
+      <a class="entrada tec" href="tecnologia.html"
+         data-id="tecnologia" data-json="data/tecnologia.json" data-tipo="noticias">
+        <span class="entrada-seccion">
+          Tecnologia
+          <span class="entrada-cuando"></span>
+          <span class="nuevo" hidden>nuevo</span>
+        </span>
+        <span class="entrada-titulo">Lo importante del sector, cada dia.</span>
+      </a>
+
+      <a class="entrada ia" href="ia.html"
+         data-id="ia" data-json="data/ia.json" data-tipo="noticias">
+        <span class="entrada-seccion">
+          IA
+          <span class="entrada-cuando"></span>
+          <span class="nuevo" hidden>nuevo</span>
+        </span>
+        <span class="entrada-titulo">Modelos, empresas y lo que traen.</span>
+      </a>
+
+      <a class="entrada nin" href="nintendo.html"
+         data-id="nintendo" data-json="data/nintendo.json" data-tipo="noticias">
+        <span class="entrada-seccion">
+          Nintendo
+          <span class="entrada-cuando"></span>
+          <span class="nuevo" hidden>nuevo</span>
+        </span>
+        <span class="entrada-titulo">Juegos, consolas y anuncios.</span>
+      </a>
+
+      <a class="entrada ofe" href="ofertas.html"
+         data-id="ofertas" data-json="data/ofertas.json" data-tipo="ofertas">
+        <span class="entrada-seccion">
+          Ofertas
+          <span class="entrada-cuando"></span>
+        </span>
+        <span class="entrada-titulo">Precio de hoy de los juegos que sigo.</span>
+      </a>
+    </div>
 
     <p class="enlace-secundario">
       <a href="historico.html">🗂 Ver dias anteriores</a>
@@ -44,5 +98,7 @@
   <footer class="pie">
     <p>Actualizado automaticamente.</p>
   </footer>
+
+  <script src="assets/portada.js"></script>
 </body>
 </html>

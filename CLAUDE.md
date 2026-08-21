@@ -97,6 +97,7 @@ python3 scripts/noticias.py titulares  <seccion>   rellena los titulares espanol
 python3 scripts/noticias.py anteriores <seccion>   lo ya publicado, para no repetirlo
 python3 scripts/noticias.py validar    <seccion>   revisa el JSON recien escrito
 python3 scripts/noticias.py archivar   <seccion>   copia del turno + indice
+python3 scripts/noticias.py indexar    <seccion>   rehace el indice del buscador
 python3 scripts/noticias.py publicar   "<mensaje>" commit de data/ y push
 python3 scripts/noticias.py estado                 que turnos faltan por publicar
 ```
@@ -301,6 +302,50 @@ constantes de arriba del script y **repiten los del prompt**: si se cambian en
 un sitio, hay que cambiarlos en el otro. Los minimos son **por turno**: el de
 tarde solo cubre desde la ejecucion de la manana, asi que exigirle lo mismo que
 al de manana solo consigue que se rellene con guias y ofertas.
+
+### El buscador del historico
+
+Con 1.211 noticias guardadas, el desplegable de dia y turno ya no bastaba:
+encontrar algo obligaba a abrir turno por turno. Desde el 21-08-2026 `archivar`
+mantiene ademas un indice en `data/historico/<seccion>/busqueda/AAAA-MM.json`
+con el titulo, la fuente, la fecha, el enlace y el turno de cada noticia, y
+`historico.html` filtra sobre el.
+
+**Un fichero por mes y no uno solo con los 90 dias, y esto se midio.** El indice
+crece a 24 KB al dia entre las tres secciones. Con un fichero unico, cada turno
+reescribe los 90 dias enteros: **1,5 GB al ano** de churn en el repo. Por meses
+solo se reescribe el mes en curso y baja a **0,2 GB**, y ademas un mes cerrado
+no se vuelve a tocar nunca. Los meses que hay que pedir salen del `indice.json`,
+que ya se descarga.
+
+Cuatro cosas mas que hay que saber:
+
+- **Se rehace el mes entero en vez de anadir al final.** Leer sus turnos cuesta
+  milisegundos y asi el fichero se repara solo si un dia sale mal. Por eso mismo
+  **no lleva marca de tiempo dentro**: sin ella, rehacerlo sin cambios deja el
+  fichero identico y git no ve un cambio donde no lo hay.
+- **El indice se descarga al escribir la primera letra, no al abrir la pagina.**
+  Quien entra a mirar el turno de ayer no tiene por que pagar 240 KB; quien
+  busca acepta esperar una vez, y despues se queda en memoria.
+- **Se busca solo en la seccion abierta**, la que dicen las pestanas. Con las
+  tres a la vez habria que bajarse los tres indices para la primera letra que se
+  teclee. Cuando no hay resultados, el aviso lo dice y manda a probar en otra.
+- **Se descartan las repetidas por enlace**, quedandose con el turno mas
+  reciente: el buscador esta para encontrar una noticia, no para contar cuantas
+  veces se publico. En nintendo eso junto 531 en 529.
+
+`indexar` rehace todos los meses de una seccion. Sirve para sembrar una seccion
+anterior al buscador (asi se hizo con tecnologia y nintendo) o para reparar; el
+dia a dia lo lleva `archivar` solo.
+
+**Los tres limites del historico no son el mismo, y conviene tenerlo claro:**
+en disco no caduca nada (las rutinas no borran); el desplegable de dia y turno
+enseña los ultimos 90 dias exactos (`DIAS` en `historico.html`); y el buscador
+cubre esos mismos 90 dias **redondeados al mes**, porque los meses salen de las
+entradas ya filtradas pero se pide el fichero del mes entero. Si el corte cae el
+23 de mayo, `2026-05.json` entra completo. En la practica el buscador ve entre
+90 y 120 dias segun el dia del mes. No se noto hasta ahora porque el historico
+empezo el 07-08-2026: los tres limites coinciden hasta el 05-11-2026.
 
 ## scripts/medios.json y el comando `candidatos`
 
@@ -758,6 +803,43 @@ son la misma idea que las de arriba llevada al diseno:
 
 Empatar es normal (tres tiendas a 50,99), asi que puede haber varias filas
 marcadas como mas baratas a la vez. Es correcto, no un fallo del reparto.
+
+## Icono, manifest y previsualizacion
+
+La web se lee en el movil todos los dias, asi que desde el 21-08-2026 se
+instala como una app: `manifest.json` en la raiz, iconos en `assets/` y las
+metas en el `<head>` de las seis paginas.
+
+**El icono lo genera `scripts/iconos.py`, no un editor de imagenes.** Los cuatro
+colores salen de `assets/estilo.css` (`--acento-tec`, `--acento-ia`,
+`--acento-nin`, `--acento-ofe`), asi que el dia que cambie el acento de una
+seccion se regenera con `python3 scripts/iconos.py` en vez de repintarlo a
+mano. Escribe el PNG a mano con `zlib` y `struct`, que para figuras planas son
+treinta lineas, y asi el script sigue la regla del proyecto de no depender de
+nada que no sea la biblioteca estandar.
+
+El dibujo son los cuatro colores en rejilla, **sin letras a proposito**: a 32 px
+una inicial no se lee, y cuatro manchas de color si se reconocen entre veinte
+pestanas.
+
+Cuatro cosas que hay que saber para no romperlo:
+
+- **El "maskable" lleva mas margen que los demas** (26% contra 14%). Android
+  recorta ese icono a un circulo y solo garantiza el 80% central: con el margen
+  normal le cortaria las esquinas a los cuadros de arriba.
+- **El de Apple va cuadrado y opaco.** iOS redondea el icono el solo y no lleva
+  bien la transparencia: se la rellena de negro.
+- **`og:image` y `og:url` van en absoluto.** Quien genera la previsualizacion de
+  WhatsApp o Telegram no resuelve rutas relativas; con una relativa la imagen
+  simplemente no sale. Por eso son las unicas URL del proyecto que llevan el
+  dominio escrito.
+- **No se ponen las metas de standalone de iOS** (`apple-mobile-web-app-capable`)
+  y no es un olvido: alli capturan la navegacion, y esta web enlaza todo el rato
+  a medios de fuera, que se abririan dentro sin barra ni boton de volver. En
+  Android el `display: standalone` del manifest si se pone, porque los enlaces
+  externos salen en una pestana del sistema que si tiene con que volver.
+
+Nada de esto lo tocan las rutinas: `publicar` hace `git add` solo de `data/`.
 
 ## Publicacion
 

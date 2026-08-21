@@ -4,6 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Historico · Mi Criadero</title>
+  <meta name="description" content="Los turnos anteriores de cada seccion de Mi Criadero, hasta 90 dias atras.">
+
+  <link rel="icon" href="assets/icono.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icono-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/icono-180.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mi Criadero">
+  <meta property="og:title" content="Historico · Mi Criadero">
+  <meta property="og:description" content="Los turnos anteriores de cada seccion de Mi Criadero, hasta 90 dias atras.">
+  <meta property="og:url" content="https://spaizor.github.io/mi-criadero/historico.html">
+  <meta property="og:image" content="https://spaizor.github.io/mi-criadero/assets/og.png">
+
   <link rel="stylesheet" href="assets/estilo.css">
 </head>
 <body data-seccion="tec">
@@ -18,6 +34,9 @@
       <div class="pestanas" id="pestanas"></div>
       <select class="selector" id="turnos" aria-label="Dia y turno"></select>
     </div>
+    <input type="search" class="buscador" id="buscador"
+           placeholder="Buscar en esta seccion..."
+           aria-label="Buscar en esta seccion">
     <div id="noticias" class="lista-noticias"></div>
   </main>
 
@@ -42,6 +61,7 @@
     const elTurnos = document.getElementById('turnos');
     const elNoticias = document.getElementById('noticias');
     const elFecha = document.getElementById('fecha');
+    const elBuscador = document.getElementById('buscador');
 
     function fechaLegible(entrada) {
       const [a, m, d] = entrada.fecha.split('-');
@@ -57,6 +77,7 @@
 
     function avisar(texto) {
       elTurnos.hidden = true;
+      entradasActuales = [];
       elFecha.textContent = '';
       elNoticias.innerHTML = `<div class="aviso">${texto}</div>`;
     }
@@ -90,9 +111,145 @@
       elTurnos.innerHTML = entradas
         .map((e, i) => `<option value="${i}">${fechaLegible(e)}</option>`)
         .join('');
-      elTurnos.onchange = () => cargarNoticias(base + entradas[elTurnos.value].fichero);
-      cargarNoticias(base + entradas[0].fichero);
+      elTurnos.onchange = () => {
+        elBuscador.value = '';
+        cargarNoticias(base + entradas[elTurnos.value].fichero);
+      };
+
+      entradasActuales = entradas;
+      seccionActual = seccion.id;
+
+      // Cambiar de pestana con algo escrito repite la busqueda en la seccion
+      // nueva, que es lo que se venia a hacer al pulsarla.
+      if (elBuscador.value.trim()) buscar(elBuscador.value.trim());
+      else cargarNoticias(base + entradas[0].fichero);
     }
+
+    // -- Buscador ----------------------------------------------------------
+    //
+    // El indice vive en data/historico/<seccion>/busqueda/AAAA-MM.json, un
+    // fichero por mes, y lo escribe 'noticias.py archivar'. Aqui solo se
+    // descarga y se filtra.
+    //
+    // Se descarga la primera vez que se escribe algo y no al abrir la pagina:
+    // quien viene a mirar el turno de ayer no tiene por que pagarlo, y quien
+    // busca acepta esperar una vez. Despues se queda en memoria mientras la
+    // pagina siga abierta.
+    //
+    // Busca solo en la seccion abierta, la que dicen las pestanas: con las
+    // tres a la vez habria que bajarse los tres indices para la primera letra
+    // que se teclee.
+
+    let entradasActuales = [];
+    let seccionActual = null;
+    const indices = {};
+
+    function normalizar(texto) {
+      return (texto || '').toLowerCase().normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '');
+    }
+
+    async function indiceDe(seccion, entradas) {
+      if (indices[seccion]) return indices[seccion];
+
+      const meses = [...new Set(entradas.map((e) => e.fecha.slice(0, 7)))];
+      const partes = await Promise.all(meses.map(async (mes) => {
+        try {
+          const resp = await fetch(
+            `data/historico/${seccion}/busqueda/${mes}.json?v=` + Date.now());
+          if (!resp.ok) throw new Error('HTTP ' + resp.status);
+          return (await resp.json()).noticias || [];
+        } catch (e) {
+          // Un mes que falte no invalida los demas: se busca en lo que haya.
+          return [];
+        }
+      }));
+
+      indices[seccion] = partes.flat();
+      return indices[seccion];
+    }
+
+    function pintarResultados(encontradas, texto) {
+      const cuantas = encontradas.length;
+      if (!cuantas) {
+        elNoticias.innerHTML =
+          `<div class="aviso">Ninguna noticia con "${escapar(texto)}" en esta ` +
+          'seccion.<br>Prueba en otra, o con menos palabras.</div>';
+        return;
+      }
+
+      // El tope es al pintar, no al buscar: la cuenta que se ensena es la de
+      // verdad, y con mil resultados lo que hace falta es afinar la busqueda.
+      const TOPE = 100;
+      const visibles = encontradas.slice(0, TOPE);
+      const sobran = cuantas - visibles.length;
+
+      const filas = visibles.map((n) => {
+        const titulo = escapar(n.titulo);
+        const enlazado = n.enlace
+          ? `<a href="${escapar(n.enlace)}" target="_blank" rel="noopener">${titulo}</a>`
+          : titulo;
+        const turno = n.turno.endsWith('M') ? 'la mañana' : 'la tarde';
+        return `
+          <li class="titular">
+            ${enlazado}
+            <span class="meta">${escapar(n.fuente)} · ${escapar(n.fecha)} ·
+              <button class="ir-turno" data-turno="${escapar(n.turno)}">ver el turno de ${turno}</button></span>
+          </li>`;
+      }).join('');
+
+      elNoticias.innerHTML = `
+        <div class="resultados">
+          <p class="resultados-cuenta">${cuantas} ${
+            cuantas === 1 ? 'noticia' : 'noticias'} con "${escapar(texto)}"${
+            sobran ? `, se ensenan las ${TOPE} mas recientes` : ''}</p>
+          <ul class="lista-titulares">${filas}</ul>
+        </div>`;
+    }
+
+    async function buscar(texto) {
+      const palabras = normalizar(texto).split(/\s+/).filter(Boolean);
+      if (!palabras.length) {
+        // Al vaciar el campo se vuelve al turno que estuviera elegido.
+        if (entradasActuales.length) {
+          cargarNoticias(`data/historico/${seccionActual}/` +
+                         entradasActuales[elTurnos.value || 0].fichero);
+        }
+        return;
+      }
+
+      elFecha.textContent = 'Buscando...';
+      const noticias = await indiceDe(seccionActual, entradasActuales);
+      const encontradas = noticias.filter((n) => {
+        const donde = normalizar(n.titulo + ' ' + n.fuente);
+        return palabras.every((palabra) => donde.includes(palabra));
+      });
+
+      elFecha.textContent = `${noticias.length} noticias guardadas en esta seccion`;
+      pintarResultados(encontradas, texto);
+    }
+
+    // Se espera a que se pare de teclear: sin esto "switch 2" dispara ocho
+    // busquedas, y la primera se lleva ademas la descarga del indice.
+    let espera = null;
+    elBuscador.addEventListener('input', () => {
+      clearTimeout(espera);
+      espera = setTimeout(() => buscar(elBuscador.value.trim()), 200);
+    });
+
+    // Delegado: los botones de "ver el turno" se pintan y se tiran con cada
+    // busqueda, asi que escucha el contenedor, que no se mueve.
+    elNoticias.addEventListener('click', (evento) => {
+      const boton = evento.target.closest('.ir-turno');
+      if (!boton) return;
+      const indice = entradasActuales.findIndex(
+        (e) => e.fichero === boton.dataset.turno + '.json');
+      if (indice < 0) return;
+      elBuscador.value = '';
+      elTurnos.value = indice;
+      cargarNoticias(`data/historico/${seccionActual}/` +
+                     entradasActuales[indice].fichero);
+    });
 
     SECCIONES.forEach((seccion) => {
       const boton = document.createElement('button');
