@@ -466,7 +466,11 @@ Tres cosas que hay que saber para no romperla:
 - **Los cupos de esta seccion son mas bajos** (15 titulares de tope, 8 minimos
   por la manana), y viven en `CUPOS` dentro de `noticias.py`. Una seccion
   estrecha no es una seccion mal hecha: pedirle los 25 de tecnologia solo
-  conseguiria que `validar` avisara en todas las ejecuciones.
+  conseguiria que `validar` avisara en todas las ejecuciones. Ahi esta tambien
+  la unica regla que cambia de rango: **no traer ninguna destacada de un medio
+  espanol es aviso y no error**, porque los medios espanoles de IA dan 2
+  candidatos por turno y habra turnos sin ninguno. Un ERROR que quien lo recibe
+  no puede corregir solo ensena a saltarse los errores.
 - **Tecnologia ya no publica IA**, y por eso su bloque `tema_ajeno` en
   `medios.json` apunta a la lista de `ia`. Se apunta, no se copia: dos listas
   iguales en dos sitios acaban distintas, y el dia que se desincronizan aparece

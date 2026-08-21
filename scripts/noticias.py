@@ -64,6 +64,12 @@ CUPOS = {
         "max_titulares": 15,
         "min_titulares": {"M": 8, "T": 5},
         "min_medios": {"M": 4, "T": 3},
+        # En tecnologia exigir una destacada espanola es razonable: sus medios
+        # espanoles dan 25 candidatos por turno. Aqui dan 2, asi que habra
+        # turnos sin ninguna noticia espanola de IA, y eso no es un fallo de la
+        # ejecucion ni algo que pueda arreglar. Un ERROR que quien lo recibe no
+        # puede corregir solo ensena a saltarse los errores.
+        "destacada_espanola": "aviso",
     },
 }
 
@@ -797,8 +803,14 @@ def validar_reparto(rev, seccion, destacadas, titulares, turno):
                       f"noticias de otros medios que hayas encontrado.")
 
     if destacadas and espanoles and not any(es_espanol(n.get("fuente")) for n in destacadas):
-        rev.error("Ninguna destacada viene de un medio espanol. Tiene que haber "
-                  "al menos una.")
+        aviso = cupo(seccion, "destacada_espanola", "error") == "aviso"
+        (rev.aviso if aviso else rev.error)(
+            "Ninguna destacada viene de un medio espanol. Tiene que haber "
+            "al menos una." if not aviso else
+            "Ninguna destacada viene de un medio espanol. En esta seccion es "
+            "un aviso y no un error: sus medios espanoles publican poco y hay "
+            "turnos en los que no hay ninguna. Comprueba que no se ha quedado "
+            "un feed espanol caido antes de darlo por bueno.")
 
     cuenta = Counter(n.get("fuente", "") for n in titulares)
     for fuente, veces in cuenta.items():
