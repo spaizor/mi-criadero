@@ -66,37 +66,134 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 }
 
 /* Portada */
-.rejilla {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
+/* Los chips son navegacion y nada mas. La hora y la marca de "nuevo" viven
+   abajo, en la entrada de cada seccion, que es donde esta el contenido de ese
+   turno: repetirlas aqui arriba solo seria decir dos veces lo mismo. */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
 }
 
-.tarjeta-seccion {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding: 24px;
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
   background: var(--fondo-tarjeta);
   border: 1px solid var(--borde);
-  border-radius: 14px;
+  border-radius: 999px;
+  color: var(--texto-suave);
   text-decoration: none;
+  font-size: 0.88rem;
+  transition: border-color .15s, color .15s;
+}
+
+.chip .icono { font-size: 1.05rem; }
+
+.chip:hover {
+  border-color: var(--acento);
+  color: var(--acento);
+}
+
+/* El acento propio de cada seccion, el mismo que usa el body con data-seccion
+   dentro de cada pagina. Lo llevan el chip y la entrada. */
+.tec { --acento: var(--acento-tec); }
+.ia  { --acento: var(--acento-ia); }
+.nin { --acento: var(--acento-nin); }
+.ofe { --acento: var(--acento-ofe); }
+
+/* Cada entrada es la noticia numero 1 de su seccion y enlaza a ella. Es la
+   misma caja que .noticia dentro de las secciones, franja de color incluida:
+   la portada se lee como se lee todo lo demas.
+   En lista y no en rejilla a proposito: en rejilla las cajas de una fila se
+   igualan a la mas alta, y la seccion con menos texto se queda con un hueco
+   vacio debajo. En vertical cada una mide lo que mide, asi que el titular
+   tampoco hay que recortarlo. */
+.entradas {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.entrada {
+  display: block;
+  padding: 15px 20px;
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-left: 3px solid var(--acento);
+  border-radius: 10px;
   color: var(--texto);
+  text-decoration: none;
   transition: border-color .15s, transform .15s;
 }
 
-.tarjeta-seccion:hover {
+.entrada:hover {
+  border-color: var(--acento);
   transform: translateY(-2px);
 }
 
-.tarjeta-seccion.tec:hover { border-color: var(--acento-tec); }
-.tarjeta-seccion.ia:hover  { border-color: var(--acento-ia); }
-.tarjeta-seccion.nin:hover { border-color: var(--acento-nin); }
-.tarjeta-seccion.ofe:hover { border-color: var(--acento-ofe); }
+.entrada-seccion {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  color: var(--acento);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
 
-.tarjeta-seccion .icono { font-size: 2rem; }
-.tarjeta-seccion .titulo { font-size: 1.2rem; font-weight: 600; }
-.tarjeta-seccion .desc { color: var(--texto-suave); font-size: 0.88rem; }
+/* Dentro de la misma linea, pero en gris y sin mayusculas: el nombre de la
+   seccion identifica, la hora acompana. */
+.entrada-cuando {
+  color: var(--texto-suave);
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Vacia mientras no carga el JSON, y un hueco de gap por un span vacio deja la
+   linea dando un salto al terminar de cargar. */
+.entrada-cuando:empty { display: none; }
+
+.entrada-titulo {
+  display: block;
+  margin-top: 5px;
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.entrada:hover .entrada-titulo { color: var(--acento); }
+
+/* Un "todavia no hay noticias" no es un titular: en gris y sin negrita se ve
+   que ahi no hay nada que leer, sin tener que leerlo. */
+.entrada.vacia .entrada-titulo {
+  color: var(--texto-suave);
+  font-weight: 400;
+}
+
+.entrada.vacia:hover .entrada-titulo { color: var(--texto-suave); }
+
+/* Se ve, pero no grita: en una linea con el nombre de la seccion y la hora,
+   una pastilla de color solido se lleva la mirada antes que el titular, que es
+   lo que se viene a leer. */
+.nuevo {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--acento) 16%, transparent);
+  color: var(--acento);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.nuevo[hidden] { display: none; }
 
 /* Enlace discreto bajo las tarjetas: no debe competir con ellas */
 .enlace-secundario {
@@ -162,6 +259,59 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 }
 
 .selector:focus-visible { outline: 2px solid var(--acento); }
+
+/* El buscador va en su propia linea y no en .controles: con las pestanas y el
+   selector al lado se queda en un hueco de dos palabras, y lo que se escribe
+   aqui son titulares. */
+.buscador {
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 9px 14px;
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  color: var(--texto);
+  font-family: inherit;
+  font-size: 0.92rem;
+}
+
+.buscador::placeholder { color: var(--texto-suave); }
+
+.buscador:focus-visible {
+  outline: none;
+  border-color: var(--acento);
+}
+
+.resultados {
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+}
+
+.resultados-cuenta {
+  margin: 0;
+  padding: 13px 20px;
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+}
+
+/* Con resultados debajo, la cuenta es la cabecera de la lista; sola, es todo
+   lo que hay que decir. */
+.resultados .lista-titulares { border-top: 1px solid var(--borde); }
+
+/* Salta al turno completo del que salio ese titular. Es un boton porque no
+   navega a ninguna parte: cambia lo que se pinta debajo. */
+.ir-turno {
+  padding: 0;
+  background: none;
+  border: none;
+  color: var(--acento);
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.ir-turno:hover { text-decoration: underline; }
 
 /* Noticias */
 .lista-noticias {

@@ -51,7 +51,26 @@ function pintarTitulares(titulares) {
     </details>`;
 }
 
-async function cargarNoticias(ruta) {
+// La portada marca "nuevo" comparando el 'actualizado' de cada seccion con el
+// que se apunto la ultima vez que se abrio. Se apunta aqui y no al pulsar la
+// tarjeta porque lo que cuenta como visto es haber entrado y que el turno haya
+// cargado, no haber hecho clic.
+//
+// La clave es la misma que lee assets/portada.js. Si se cambia, cambiarla ahi.
+// El almacenamiento puede estar capado (ventana privada, ajustes del movil):
+// que se pierda la marca no importa, que reviente la seccion si.
+function apuntarVisto(seccion, actualizado) {
+  if (!seccion || !actualizado) return;
+  try {
+    localStorage.setItem('visto:' + seccion, actualizado);
+  } catch (e) {
+    /* sin marca, la portada dira "nuevo" de mas: es el fallo bueno */
+  }
+}
+
+// 'seccion' solo lo pasan las paginas de seccion. El historico llama sin el:
+// mirar un turno de hace tres dias no es haber leido el de hoy.
+async function cargarNoticias(ruta, seccion) {
   const contenedor = document.getElementById('noticias');
   const fecha = document.getElementById('fecha');
 
@@ -59,6 +78,8 @@ async function cargarNoticias(ruta) {
     const resp = await fetch(ruta + '?v=' + Date.now());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const datos = await resp.json();
+
+    apuntarVisto(seccion, datos.actualizado);
 
     fecha.textContent = datos.actualizado
       ? 'Actualizado: ' + datos.actualizado

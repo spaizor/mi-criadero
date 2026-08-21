@@ -952,9 +952,101 @@ def cmd_archivar(args):
     indice["entradas"] = entradas
     escribir_json(carpeta_historico(args.seccion) / "indice.json", indice)
 
+    # El indice de busqueda del mes al que pertenece este turno. Va aqui y no
+    # en un comando aparte porque un buscador que no encuentra lo de hoy no es
+    # medio buscador: es uno en el que se deja de confiar.
+    indexadas = escribir_busqueda(args.seccion, mes_de(fecha))
+
     print(f"Archivado en data/historico/{args.seccion}/{nombre} "
           f"({'entrada actualizada' if repetido else 'entrada nueva'}). "
-          f"El historico tiene {len(entradas)} turnos.")
+          f"El historico tiene {len(entradas)} turnos. "
+          f"Buscador: {indexadas} noticias en {mes_de(fecha)}.")
+    return 0
+
+
+# --------------------------------------------------------------------------
+# busqueda: el indice que hace consultable el historico
+# --------------------------------------------------------------------------
+
+def carpeta_busqueda(seccion):
+    return carpeta_historico(seccion) / "busqueda"
+
+
+def mes_de(fecha):
+    """'2026-08-21' -> '2026-08'"""
+    return str(fecha)[:7]
+
+
+def escribir_busqueda(seccion, mes):
+    """Rehace el indice de busqueda de un mes leyendo sus turnos archivados.
+
+    Un fichero por mes y no uno solo con los 90 dias, y esto se midio: el
+    indice crece a 24 KB al dia entre las tres secciones. Con un fichero unico,
+    cada turno reescribe los 90 dias enteros y el repo engorda ~1,5 GB al ano;
+    por meses solo se reescribe el mes en curso y baja a ~0,2 GB. La otra mitad
+    de la razon es que un mes cerrado no se vuelve a tocar nunca.
+
+    Se rehace entero en vez de anadir al final: leer los turnos del mes cuesta
+    milisegundos, y asi el fichero se repara solo si un dia sale mal. Por eso
+    mismo no lleva marca de tiempo dentro: sin ella, rehacerlo sin cambios deja
+    el fichero identico y git no ve un cambio donde no lo hay.
+    """
+    entradas = [e for e in leer_indice(seccion).get("entradas", [])
+                if mes_de(e.get("fecha", "")) == mes]
+    entradas.sort(key=lambda e: (e["fecha"], e["turno"]), reverse=True)
+
+    noticias, vistos = [], set()
+    for entrada in entradas:
+        ruta = carpeta_historico(seccion) / entrada["fichero"]
+        if not ruta.exists():
+            continue
+        datos = leer_json(ruta)
+        turno = f"{entrada['fecha']}_{entrada['turno']}"
+        for noticia in ((datos.get("destacadas") or []) +
+                        (datos.get("titulares") or [])):
+            enlace = noticia.get("enlace") or ""
+            # Si la misma noticia salio en dos turnos se queda la del mas
+            # reciente: el buscador esta para encontrarla, no para contar
+            # cuantas veces se publico.
+            if enlace and enlace in vistos:
+                continue
+            if enlace:
+                vistos.add(enlace)
+            noticias.append({
+                "titulo": noticia.get("titulo", ""),
+                "fuente": noticia.get("fuente", ""),
+                "fecha": noticia.get("fecha", ""),
+                "enlace": enlace,
+                "turno": turno,
+            })
+
+    escribir_json(carpeta_busqueda(seccion) / f"{mes}.json",
+                  {"seccion": seccion, "mes": mes, "noticias": noticias})
+    return len(noticias)
+
+
+def cmd_indexar(args):
+    """Rehace los indices de busqueda de una seccion, mes a mes.
+
+    'archivar' ya mantiene el mes del turno que archiva, asi que esto es para
+    sembrar una seccion que viene de antes del buscador, o para reparar.
+    """
+    meses = sorted({mes_de(e.get("fecha", ""))
+                    for e in leer_indice(args.seccion).get("entradas", [])})
+    if not meses:
+        print(f"ERROR: '{args.seccion}' no tiene historico del que sacar un "
+              "indice de busqueda. Comprueba que la seccion existe y que "
+              f"data/historico/{args.seccion}/indice.json tiene entradas.")
+        return 1
+
+    total = 0
+    for mes in meses:
+        cuantas = escribir_busqueda(args.seccion, mes)
+        total += cuantas
+        print(f"  {mes}: {cuantas} noticias")
+    print(f"{total} noticias indexadas en {len(meses)} "
+          f"{'mes' if len(meses) == 1 else 'meses'} "
+          f"({args.seccion}).")
     return 0
 
 
@@ -1223,6 +1315,11 @@ def main():
     p = ordenes.add_parser("archivar", help="copia el turno al historico")
     p.add_argument("seccion")
     p.set_defaults(func=cmd_archivar)
+
+    p = ordenes.add_parser("indexar",
+                           help="rehace el indice de busqueda del historico")
+    p.add_argument("seccion")
+    p.set_defaults(func=cmd_indexar)
 
     p = ordenes.add_parser("publicar", help="commit y push de data/")
     p.add_argument("mensaje")
