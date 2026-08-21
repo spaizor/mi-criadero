@@ -28,6 +28,7 @@ automatica rompa el diseno.
 ```
 index.html            portada con los botones de seccion
 tecnologia.html       seccion (carga data/tecnologia.json)
+ia.html               seccion (carga data/ia.json)
 nintendo.html         seccion (carga data/nintendo.json)
 ofertas.html          seccion (carga data/ofertas.json)
 historico.html        dias anteriores (carga data/historico/)
@@ -43,6 +44,12 @@ Al anadir una seccion nueva: copiar un HTML de seccion, cambiar el titulo, el
 JSON, y anadir su tarjeta en `index.html`. Para que salga tambien en el
 historico hay que anadirla al array `SECCIONES` de `historico.html` y crear su
 `data/historico/<seccion>/indice.json`.
+
+Ese indice recien creado lleva **`"desde": "AAAA-MM-DD"`**, la fecha del primer
+turno que se le va a pedir. Sin eso, `estado` reclama los turnos de los dias
+anteriores a que la seccion existiera, y un aviso que sale siempre y no
+significa nada es un aviso que se deja de leer. Si la rutina se crea mas tarde
+de lo previsto, hay que mover esa fecha.
 
 ## Historico
 
@@ -209,6 +216,50 @@ asi dieron +1 titular sobre 305 y ningun falso positivo, que es justo lo que se
 busca: la lista no esta para pescar mas, sino para no perder un "Tears of the
 Kingdom" que no diga "Zelda". El criterio esta tambien en `_instrucciones.tema`
 de `medios.json`, que es donde se mira al editarlo.
+
+### El filtro por seccion de la URL: `excluir_rutas`
+
+Con dos semanas de historico (1.211 noticias publicadas entre el 08 y el
+21-08-2026) ya se podia medir que ruido quedaba en vez de imaginarlo, que era
+lo que se estaba esperando. En nintendo casi nada: 1 publirreportaje en 531.
+En tecnologia el ruido que quedaba **no era de titulares sueltos, eran dos
+categorias enteras**:
+
+- `hipertextual.com/cine-television/` puso **23 titulares**, todos de cine y
+  series ("Las cinco mejores sitcom de los 2000", "3 razones para ver..."). Es
+  el **28%** de lo que aporta Hipertextual, y el dia que se midio su feed traia
+  6 de 15 entradas de ahi.
+- `adslzone.net/ofertas/` puso **8**, todos de compra ("AliExpress hunde el
+  precio de la tablet de Xiaomi"). `RUIDO` no los cazaba porque no dicen
+  "oferta" ni "descuento" en el titular.
+
+Los 31 eran ruido: **ni uno era noticia de la seccion**. Por eso el filtro no
+mira el titular sino el enlace: **no se adivina de que va la noticia, se lee la
+categoria en la que el propio medio la ha colgado**. Asi no puede haber falsos
+positivos, que es el peligro de siempre de una lista de terminos, y no hay que
+elegir palabras: el trabajo ya lo hizo el redactor al archivarla.
+
+Lo que hay que saber para usarlo:
+
+- **Solo sirve donde el medio categoriza en la URL.** Los de Nintendo no lo
+  hacen: GoNintendo cuelga todo de `/contents/` y Nintendo Life de `/news/`.
+  Ahi el trabajo lo sigue haciendo `tema`, y por eso los dos filtros conviven.
+- **Se comprueba igual que `tema`, midiendo**: agrupar por el primer tramo de
+  la URL lo ya publicado de ese medio y mirar que caeria. Si cae una sola
+  noticia buena, la ruta sobra.
+- Es preferible a pedir el feed de la categoria buena, que fue lo primero que
+  se penso: ni Hipertextual ni ADSLZone declaran mas feed que el general en su
+  portada, y adivinar la ruta del feed por categoria es justo lo que este
+  proyecto ya aprendio a no hacer.
+
+En la misma medicion se ampliaron seis formulas de `RUIDO`, tambien sacadas de
+lo que se colo de verdad y no de lo que suena a ruido: `", analisis:"` en medio
+del titular, "hunde/tumba/desploma el precio", "ahorrate", "consiguelo",
+"por solo N" y "sorteo/regalamos". Dos candidatas se cayeron al medirlas, y por
+eso no estan: **"rebaja"** a secas tiraba "Digi rebaja el roaming en cuatro
+paises", que es noticia de telecos, y **"por menos de N"** tiraba "Xiaomi lanza
+una lavadora un 30% mas eficiente por menos de 450 euros", que es un
+lanzamiento. Las seis que quedaron no tocan ninguna de las 1.211.
 
 ### El comando `estado`
 
@@ -381,6 +432,56 @@ noticias" en lugar de romperse. `assets/noticias.js` acepta ademas el formato
 antiguo (un unico array `noticias`) como respaldo, para que la web no se quede
 en blanco entre un cambio de formato y la primera ejecucion de la rutina.
 
+## La seccion de IA
+
+Abierta el **21-08-2026**, sacandola de tecnologia. La idea de partida era otra
+—dividir tecnologia en IA y hardware— y lo que la cambio fue medir las 680
+noticias de tecnologia ya publicadas y la materia prima de 48 h de sus feeds:
+
+| | Publicado | Materia prima | Por turno |
+|---|---|---|---|
+| IA | 26% | 14% | 9,5 |
+| Hardware | 13% | 11% | 7,2 |
+| Ni una ni otra | **59%** | **74%** | 49,5 |
+
+Los dos motivos por los que la division en dos no se hizo estan en esa tabla:
+
+- **Partir en IA y hardware no reparte, amputa.** Casi tres cuartas partes de
+  lo que hay no es ni una cosa ni la otra: espacio, ciberseguridad, telecos,
+  redes sociales, software, juicios, centros de datos. Sin una seccion que las
+  recoja se pierden, y con ella la division no es tal, son dos secciones nuevas.
+- **Hardware no da de comer.** 7,2 candidatos por turno contra los 30 que pide
+  el formato (5 destacadas + 25 titulares). Saldria medio vacia dos veces al
+  dia, que es peor que no tenerla.
+
+IA si da, pero **no con los feeds de tecnologia** (9,5 por turno). Da con feeds
+de categoria, que es lo que se busco despues: simulando la seccion entera salen
+**18 candidatos por turno de 10 medios, 3 de ellos espanoles**. De ahi que la
+lista de `ia` en `medios.json` no sea la de tecnologia con un filtro: la mitad
+son feeds de la seccion de IA del medio (TechCrunch, The Verge, Ars, y el de
+Hipertextual, cuya ruta con `/categoria/` delante da 410).
+
+Tres cosas que hay que saber para no romperla:
+
+- **Los cupos de esta seccion son mas bajos** (15 titulares de tope, 8 minimos
+  por la manana), y viven en `CUPOS` dentro de `noticias.py`. Una seccion
+  estrecha no es una seccion mal hecha: pedirle los 25 de tecnologia solo
+  conseguiria que `validar` avisara en todas las ejecuciones.
+- **Tecnologia ya no publica IA**, y por eso su bloque `tema_ajeno` en
+  `medios.json` apunta a la lista de `ia`. Se apunta, no se copia: dos listas
+  iguales en dos sitios acaban distintas, y el dia que se desincronizan aparece
+  una noticia que no entra en ninguna de las dos. Tecnologia se queda con 84
+  candidatos por turno de los que 13 se van a IA, o sea que no se resiente.
+- **La lista `propio` de IA son nombres propios y siglas**, no conceptos. Esta
+  a proposito **sin "Nvidia"** (vende tarjetas graficas de juego), sin "chip" y
+  sin "algoritmo": el filtro se aplico a las 680 publicadas y las 196 que se
+  llevaba eran todas de IA, sin un solo falso positivo. Con "Nvidia" dentro,
+  una noticia de graficas para jugar acabaria en la seccion de IA.
+
+Como el filtro decide **de que va la noticia y no de quien viene**, se aplica a
+todos los medios de tecnologia y no solo a los generalistas, al reves que
+`filtrar_tema`. Un medio dedicado solo a IA no se pone en tecnologia.
+
 ## La seccion de Ofertas
 
 No busca ofertas: sigue el precio de una lista cerrada de productos, que vive
@@ -393,6 +494,14 @@ precio publica reutilizando `noticias.py publicar`. Si no entra **ninguno**, no
 publica y falla el job a proposito: seria un commit diario marcando todo como
 viejo sin haber mirado nada, y ademas taparia el aviso de que las tiendas han
 empezado a bloquear al runner.
+
+**El job lleva `timeout-minutes` porque un fallo mudo ya paso.** El 19-08-2026
+el paso de instalar Playwright se quedo colgado y el job estuvo **seis horas**
+ahi hasta que GitHub lo mato por su limite; la pasada de la manana se perdio.
+Lo peor no fue perderla sino que **un run cancelado no avisa**: el fallo solo
+se vio al revisar el historial dos dias despues. Con el tope, un cuelgue acaba
+en fallo, y un fallo si manda correo. La ejecucion normal tarda 3-4 minutos, o
+sea que 20 no aprieta nada.
 
 El precio **no se saca leyendo la pagina**, sino del bloque `schema.org/Product`
 que las tiendas incrustan para Google. Las dos formas conviven y hay que cubrir
@@ -466,8 +575,16 @@ normal**: el runner es gratis (repo publico, minutos ilimitados) y aqui no
 interviene Claude, asi que la tentacion de subir la frecuencia no la frena
 ningun contador. La frena que consultar cada media hora deja de ser una visita,
 y lo que se juega es la seccion entera: quien empieza a bloquear no devuelve
-precios peores, devuelve 403. Para precios de videojuegos, ademas, ni siquiera
-aportaria: no se mueven dentro del mismo dia.
+precios peores, devuelve 403.
+
+La segunda pasada **si aporta**, y eso hubo que medirlo porque se metio dando
+por hecho lo contrario: aqui puso que los precios de videojuegos "no se mueven
+dentro del mismo dia". Revisadas las 12 ejecuciones del 15 al 21-08-2026,
+**4 de las 6 pasadas de tarde trajeron cambios** (entre 1 y 3 precios), y no
+son de redondeo: Carrefour subio Star Fox de 50,99 a 54,99 una tarde y
+MediaMarkt bajo Elliot de 66,99 a 61,90 en otra. Sin la pasada de tarde la web
+habria dado esos precios con medio dia de retraso. Lo que sigue en pie es el
+techo por arriba: dos pasadas se quedan, tres no se prueban.
 
 **PcComponentes escribe `"@type": "product"` en minuscula.** Por eso
 `es_producto()` compara sin mayusculas y aceptando lista: exigir la forma

@@ -48,6 +48,15 @@ concurrency:
 jobs:
   consultar:
     runs-on: ubuntu-latest
+
+    # El 19-08-2026 el paso de instalar Playwright se quedo colgado y el job
+    # estuvo SEIS HORAS ahi, hasta que GitHub lo mato por su limite. Un run
+    # cancelado no manda aviso, asi que el turno de la manana se perdio sin
+    # que nadie se enterase. La ejecucion entera tarda 3-4 minutos: con 20 el
+    # margen es de sobra, y si vuelve a colgarse falla pronto y avisa, que es
+    # justo lo que no paso.
+    timeout-minutes: 20
+
     steps:
       - uses: actions/checkout@v4
 

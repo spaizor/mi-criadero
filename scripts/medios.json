@@ -23,7 +23,8 @@
       "idioma": "'es' o 'en'.",
       "comprobado": "true solo si se ha abierto el feed y trae noticias recientes.",
       "filtrar_tema": "Opcional. true en los medios generalistas, que publican de todas las plataformas. Hace que se les aplique el 'tema' de la seccion.",
-      "nota": "Opcional. Avisos: feed lento, hay que filtrar por tema, codificacion rara, etc."
+      "nota": "Opcional. Avisos: feed lento, hay que filtrar por tema, codificacion rara, etc.",
+      "excluir_rutas": "Opcional. Lista de trozos de URL cuya categoria no es de esta seccion: si el enlace los contiene, el titular se descarta. Se filtra por el enlace y no por el titular a proposito, asi que no puede haber falsos positivos: no se adivina de que va la noticia, se lee la seccion en la que el propio medio la ha colgado. Solo sirve en medios que ponen la categoria en la URL."
     },
     "tema": {
       "que_es": "Opcional, por seccion. Su lista 'propio' son los terminos que hacen que un titular sea de esta seccion: la consola, la marca y sus sagas.",
@@ -34,10 +35,21 @@
       "nada_de_palabras_corrientes": "El peligro no es quedarse corto, es colar. La mitad de los medios filtrados son ingleses, asi que un termino que tambien sea una palabra normal deja pasar cualquier cosa: 'Mother' entra en 'A mother sues Roblox', 'ARMS' en 'the best arms in the meta', 'DS' en 'Sony DS controller', y lo mismo 'Toad', 'Peach', 'Ness' y 'Labo'. Por eso estan fuera a proposito, y su saga se cubre con un termino especifico: 'Earthbound' en vez de 'Mother', 'Captain Toad' en vez de 'Toad'.",
       "como_comprobar_uno_nuevo": "Medirlo antes de meterlo: aplicarlo a los feeds y ver que titulares pasan a entrar que antes no. Si alguno no es de la seccion, el termino sobra."
     },
-    "verificado_el": "13-08-2026"
+    "excluir_rutas": {
+      "que_es": "Opcional, por medio. Descarta por la categoria que el medio pone en su propia URL, no por lo que diga el titular.",
+      "por_que": "Medido sobre las 1.211 noticias publicadas hasta el 21-08-2026: en tecnologia el ruido que quedaba venia de dos categorias enteras. hipertextual.com/cine-television/ colo 23 titulares de cine y series (el 28% de lo que aporta Hipertextual) y adslzone.net/ofertas/ colo 8 de compra que RUIDO no cazaba porque no dicen 'oferta' ni 'descuento'. Los 31 eran ruido: ni uno era noticia de la seccion.",
+      "como_comprobar_uno_nuevo": "Igual que 'tema': medirlo. Agrupar por el primer tramo de la URL lo ya publicado de ese medio y mirar que caeria. Si cae una sola noticia buena, la ruta sobra.",
+      "cuando_no_sirve": "En medios que no categorizan en la URL. Los de Nintendo cuelgan todo de una ruta unica (GoNintendo /contents/, Nintendo Life /news/), asi que ahi el trabajo lo hace 'tema'."
+    },
+    "verificado_el": "21-08-2026"
   },
   "secciones": {
     "tecnologia": {
+      "tema_ajeno": {
+        "de_la_seccion": "ia",
+        "por_que": "Desde el 21-08-2026 la IA tiene seccion propia. Sin esto las noticias de IA saldrian en las dos (eran el 29% de lo que publicaba tecnologia) y quien entrase en las dos se encontraria los mismos titulares repetidos.",
+        "ojo": "No se copia aqui la lista de terminos, se apunta a la de la seccion 'ia'. Dos listas iguales en dos sitios acaban distintas, y el dia que se desincronizan aparece una noticia que no entra en ninguna de las dos."
+      },
       "medios": [
         {
           "nombre": "Xataka",
@@ -61,7 +73,8 @@
           "feed": "https://hipertextual.com/feed",
           "idioma": "es",
           "comprobado": true,
-          "nota": ""
+          "nota": "Cuelga bastante cine y series de /cine-television/: 23 de sus 83 titulares publicados hasta el 21-08-2026, el 28%.",
+          "excluir_rutas": ["/cine-television/"]
         },
         {
           "nombre": "ADSLZone",
@@ -69,7 +82,8 @@
           "feed": "https://www.adslzone.net/feed/",
           "idioma": "es",
           "comprobado": true,
-          "nota": "Publica muchas guias y tutoriales mezclados con las noticias."
+          "nota": "Publica muchas guias y tutoriales mezclados con las noticias. Su seccion /ofertas/ son articulos de compra: 8 colados hasta el 21-08-2026.",
+          "excluir_rutas": ["/ofertas/"]
         },
         {
           "nombre": "ComputerHoy",
@@ -134,6 +148,116 @@
           "idioma": "en",
           "comprobado": true,
           "nota": "Sin barra final: /rss/ redirige. Investigacion, no producto: trae poco (2 entradas en 30 h) pero nada de guias ni ofertas."
+        }
+      ]
+    },
+    "ia": {
+      "tema": {
+        "propio": [
+          "IA", "AI", "inteligencia artificial", "artificial intelligence",
+          "ChatGPT", "OpenAI", "GPT", "Claude", "Anthropic", "Gemini", "Copilot",
+          "Copiloto", "LLM", "LLMs", "modelo de lenguaje", "modelos de lenguaje",
+          "Grok", "Llama", "Mistral", "DeepSeek", "Midjourney",
+          "Stable Diffusion", "Sora", "Perplexity", "chatbot", "chatbots",
+          "machine learning", "deep learning", "aprendizaje automatico",
+          "red neuronal", "redes neuronales", "DeepMind", "Hugging Face",
+          "AGI", "Gemma", "Qwen", "Kimi", "xAI", "generativa", "generativo",
+          "deepfake", "deepfakes"
+        ]
+      },
+      "medios": [
+        {
+          "nombre": "Xataka",
+          "web": "https://www.xataka.com/",
+          "feed": "https://www.xataka.com/feedburner.xml",
+          "idioma": "es",
+          "comprobado": true,
+          "filtrar_tema": true,
+          "nota": "Feed general: aporta poco a esta seccion (0,5 por turno) pero es de los pocos medios espanoles que la alimentan."
+        },
+        {
+          "nombre": "ComputerHoy",
+          "web": "https://computerhoy.20minutos.es/",
+          "feed": "https://computerhoy.20minutos.es/rss",
+          "idioma": "es",
+          "comprobado": true,
+          "filtrar_tema": true,
+          "nota": "Feed general, filtrado por tema."
+        },
+        {
+          "nombre": "Hipertextual",
+          "web": "https://hipertextual.com/inteligencia-artificial",
+          "feed": "https://hipertextual.com/inteligencia-artificial/feed",
+          "idioma": "es",
+          "comprobado": true,
+          "nota": "Feed de su categoria de IA, no el general: por eso no lleva 'filtrar_tema'. La ruta con /categoria/ delante da 410."
+        },
+        {
+          "nombre": "TechCrunch",
+          "web": "https://techcrunch.com/category/artificial-intelligence/",
+          "feed": "https://techcrunch.com/category/artificial-intelligence/feed/",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "El que mas aporta con diferencia: 5 por turno. Feed de categoria."
+        },
+        {
+          "nombre": "The Decoder",
+          "web": "https://the-decoder.com/",
+          "feed": "https://the-decoder.com/feed/",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Medio dedicado solo a IA, asi que su feed general ya viene filtrado."
+        },
+        {
+          "nombre": "The Verge",
+          "web": "https://www.theverge.com/ai-artificial-intelligence",
+          "feed": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Feed de su canal de IA."
+        },
+        {
+          "nombre": "MIT Technology Review",
+          "web": "https://www.technologyreview.com/",
+          "feed": "https://www.technologyreview.com/feed/",
+          "idioma": "en",
+          "comprobado": true,
+          "filtrar_tema": true,
+          "nota": "Feed general de la revista: publica tambien biotecnologia y clima, por eso va filtrado."
+        },
+        {
+          "nombre": "Ars Technica",
+          "web": "https://arstechnica.com/ai/",
+          "feed": "https://arstechnica.com/ai/feed/",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Feed de su seccion de IA."
+        },
+        {
+          "nombre": "Wired",
+          "web": "https://www.wired.com/",
+          "feed": "https://www.wired.com/feed/rss",
+          "idioma": "en",
+          "comprobado": true,
+          "filtrar_tema": true,
+          "nota": "Feed general, filtrado por tema."
+        },
+        {
+          "nombre": "The Register",
+          "web": "https://www.theregister.com/",
+          "feed": "https://www.theregister.com/headlines.atom",
+          "idioma": "en",
+          "comprobado": true,
+          "filtrar_tema": true,
+          "nota": "Feed general de titulares: 4 por turno pasan el filtro, es el segundo que mas aporta."
+        },
+        {
+          "nombre": "VentureBeat",
+          "web": "https://venturebeat.com/category/ai/",
+          "feed": null,
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "Su feed de IA responde pero apenas publica: 1 entrada en 48 h el 21-08-2026, y la unica reciente era una nota corporativa. Se deja fuera hasta que vuelva a moverse."
         }
       ]
     },
