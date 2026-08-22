@@ -525,6 +525,21 @@ Tres cosas que hay que saber para no romperla:
   iguales en dos sitios acaban distintas, y el dia que se desincronizan aparece
   una noticia que no entra en ninguna de las dos. Tecnologia se queda con 84
   candidatos por turno de los que 13 se van a IA, o sea que no se resiente.
+- **El titular no basta para separarlas, tambien se mira de que feed vienen.**
+  Los dos primeros turnos con IA abierta publicaron una noticia repetida en las
+  dos secciones cada uno, las dos de TechCrunch: "Nvidia partners with data
+  center developer Cloverleaf" y "Starcloud raises $250 million for orbital data
+  centers". Ninguna decia en el titular una palabra de `propio` ("Nvidia" esta
+  fuera a proposito y "data center" no esta), asi que `tema_ajeno` no podia
+  cazarlas. Pero el propio medio ya las habia clasificado: estaban en su feed de
+  IA. `enlaces_de_la_hermana()` descarta lo que el medio cuelga en el feed de la
+  seccion hermana, que es `de_otra_seccion` aplicado a las hermanas: alli la
+  categoria se lee en la URL y aqui en de que feed viene. Medido el 22-08-2026:
+  de 8 noticias en los dos feeds a la vez, el titular cazaba 6 y escapaban esas
+  2. Solo cuesta descargas en los medios con feed aparte para la hermana
+  (Hipertextual, TechCrunch, The Verge y Ars Technica), y si ese feed no
+  responde no se descarta nada suyo y se avisa: quedarse sin un medio entero por
+  un fallo de red es peor que la repetida que esto evita.
 - **La lista `propio` de IA son nombres propios y siglas**, no conceptos. Esta
   a proposito **sin "Nvidia"** (vende tarjetas graficas de juego), sin "chip" y
   sin "algoritmo": el filtro se aplico a las 680 publicadas y las 196 que se
