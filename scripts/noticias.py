@@ -221,6 +221,62 @@ def leer_tema_ajeno(seccion):
     return patron_de(otra.get("propio"))
 
 
+def enlaces_de_la_hermana(seccion, medios):
+    """Enlaces que el propio medio ha colgado en su feed de la seccion hermana.
+
+    Es 'de_otra_seccion' llevado a las secciones hermanas: alli la categoria se
+    lee en la URL y aqui en de que feed viene la noticia. En los dos casos se
+    lee donde la ha puesto el medio en vez de adivinarlo por el titular, que es
+    lo que no puede dar falsos positivos.
+
+    Existe porque el filtro por titular ('tema_ajeno') no llega a todo, y se
+    vio en las dos primeras ejecuciones con la seccion de IA ya abierta: el
+    21-08-2026 y el 22-08-2026 salio una noticia repetida en las dos secciones,
+    una por turno. Las dos eran de TechCrunch, que publica la misma entrada en
+    su feed general y en el de IA, y ninguna decia en el titular una palabra de
+    la lista 'propio': 'Nvidia partners with data center developer Cloverleaf' y
+    'Starcloud raises $250 million for orbital data centers'. 'Nvidia' esta
+    fuera de esa lista a proposito (vende tarjetas graficas de juego) y 'data
+    center' no esta, asi que por titular no habia forma de cazarlas.
+
+    Medido sobre los feeds del 22-08-2026: de las 8 noticias que estaban en los
+    dos feeds a la vez, el titular cazaba 6 y se escapaban esas 2.
+
+    Solo mira los medios que publican un feed aparte para la hermana (ahora
+    Hipertextual, TechCrunch, The Verge y Ars Technica). Si ese feed no
+    responde no se descarta nada suyo y se avisa en el parte: dejar de publicar
+    a un medio entero por un fallo de red seria mucho peor que la repetida
+    ocasional que esto evita.
+    """
+    if not MEDIOS.exists():
+        return set(), []
+    secciones = leer_json(MEDIOS).get("secciones", {})
+    ajeno = secciones.get(seccion, {}).get("tema_ajeno")
+    if not ajeno:
+        return set(), []
+    hermana = {m["nombre"].strip().lower(): m
+               for m in secciones.get(ajeno.get("de_la_seccion"), {}).get("medios", [])
+               if m.get("feed") and m.get("comprobado")}
+
+    enlaces, fallos = set(), []
+    for medio in medios:
+        otro = hermana.get(medio["nombre"].strip().lower())
+        # Que las dos secciones usen el mismo feed no dice nada de la noticia:
+        # lo que la clasifica es que el medio tenga un feed aparte para la
+        # hermana y la haya puesto ahi.
+        if not otro or otro["feed"] == medio.get("feed"):
+            continue
+        contenido, error = descargar(otro["feed"])
+        if contenido is None:
+            fallos.append(f"{medio['nombre']}: {error}")
+            continue
+        try:
+            enlaces.update(enlace for _, enlace, _ in entradas_del_feed(contenido))
+        except ET.ParseError as e:
+            fallos.append(f"{medio['nombre']}: el feed no es XML valido ({e})")
+    return enlaces, fallos
+
+
 def fuera_de_tema(titulo, tema, medio):
     """Titular de un medio generalista que no menciona el tema de la seccion.
 
@@ -430,6 +486,7 @@ def cmd_candidatos(args):
     ya_publicado = publicados_antes(args.seccion)
     tema = leer_tema(args.seccion)
     ajeno = leer_tema_ajeno(args.seccion)
+    de_la_hermana, fallos_hermana = enlaces_de_la_hermana(args.seccion, medios)
 
     candidatos, fallos, descartes, vistos = [], [], Counter(), set()
     for medio in medios:
@@ -468,6 +525,9 @@ def cmd_candidatos(args):
             if es_de_otra_seccion(titulo, ajeno):
                 descartes["le tocan a la seccion hermana"] += 1
                 continue
+            if enlace in de_la_hermana:
+                descartes["colgadas por el medio en su feed de la hermana"] += 1
+                continue
             del_medio.append({
                 "titulo_original": titulo,
                 "fuente": medio["nombre"],
@@ -492,6 +552,10 @@ def cmd_candidatos(args):
         print(f"# Descartadas {veces} por {motivo}.")
     for fallo in fallos:
         print(f"# FEED CAIDO {fallo}")
+    for fallo in fallos_hermana:
+        print(f"# FEED HERMANO CAIDO {fallo}: no se ha podido comprobar si sus "
+              f"noticias le tocan a la otra seccion, asi que puede colarse "
+              f"alguna repetida.")
     utiles = {m["nombre"] for m in medios}
     for medio in leer_medios(args.seccion, solo_utiles=False):
         if medio["nombre"] not in utiles:
@@ -571,6 +635,7 @@ def cmd_titulares(args):
     corte, desde = ventana_del_turno(args.seccion, args.horas)
     tema = leer_tema(args.seccion)
     ajeno = leer_tema_ajeno(args.seccion)
+    de_la_hermana, fallos_hermana = enlaces_de_la_hermana(args.seccion, espanoles)
     # Lo de turnos pasados y lo que el modelo ya haya puesto en este.
     vetados = set(publicados_antes(args.seccion))
     vetados.update(n.get("enlace") for n in destacadas + ya_estan if n.get("enlace"))
@@ -615,6 +680,8 @@ def cmd_titulares(args):
                 descartes["de otra plataforma"] += 1
             elif es_de_otra_seccion(titulo, ajeno):
                 descartes["le tocan a la seccion hermana"] += 1
+            elif enlace in de_la_hermana:
+                descartes["colgadas por el medio en su feed de la hermana"] += 1
             else:
                 vetados.add(enlace)
                 repetidos.add(clave)
@@ -654,6 +721,10 @@ def cmd_titulares(args):
         print(f"# Descartadas {veces} por {motivo}.")
     for fallo in fallos:
         print(f"# FEED CAIDO {fallo}")
+    for fallo in fallos_hermana:
+        print(f"# FEED HERMANO CAIDO {fallo}: no se ha podido comprobar si sus "
+              f"noticias le tocan a la otra seccion, asi que puede colarse "
+              f"alguna repetida.")
     for nombre, lista in sorted(por_medio.items()):
         puestos = len([n for n in elegidos if n["fuente"] == nombre])
         if puestos < len(lista):
