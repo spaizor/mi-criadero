@@ -257,6 +257,31 @@ Lo que hay que saber para usarlo:
   portada, y adivinar la ruta del feed por categoria es justo lo que este
   proyecto ya aprendio a no hacer.
 
+#### Medir lo publicado no basta: `adslzone.net/noticias/streaming-tv/`
+
+**Esta ruta se probo el 22-08-2026 y se dejo fuera, asi que no hay que volver a
+meterla sin releer esto.** Parecia el caso de libro: 18 titulares publicados,
+todos estrenos de cine, series y futbol por TV ("SkyShowtime estrena el viernes
+la nueva pelicula...", "Hoy tienes futbol gratis en la TDT"), ni uno de la
+seccion. Mas volumen incluso que el `/cine-television/` de Hipertextual.
+
+Lo que lo tumbo fue mirar **el feed y no solo lo publicado**, y ahi esta la
+leccion que sirve para la proxima ruta: lo publicado es lo que el modelo ya
+eligio, o sea una muestra sesgada de la categoria. Ese mismo dia el feed traia
+por esa ruta **"Ya es oficial: YouTube Premium sube otra vez de precio en
+Espana"**, que es noticia de tecnologia de pleno derecho. Un solo falso positivo
+y la ruta sobra, que es la regla de arriba.
+
+El motivo de fondo es que la categoria del medio **mezcla dos cosas**: los
+estrenos (ruido) y el negocio de las plataformas (noticia). Donde si se separan
+solas es en `/noticias/operadores/`, por donde han entrado las buenas de este
+tipo (Movistar Plus, la comparativa de precios del futbol).
+
+Asi que el ruido de cine y series de ADSLZone **sigue entrando** y esta
+pendiente: necesita un corte mas fino que la categoria, y a dia de hoy no lo
+hay. Antes de intentarlo otra vez conviene juntar mas dias y medir sobre el
+feed, no sobre lo publicado.
+
 En la misma medicion se ampliaron seis formulas de `RUIDO`, tambien sacadas de
 lo que se colo de verdad y no de lo que suena a ruido: `", analisis:"` en medio
 del titular, "hunde/tumba/desploma el precio", "ahorrate", "consiguelo",
