@@ -1,0 +1,62 @@
+# Avisa cuando una rutina de noticias no ha publicado su turno.
+#
+# Las rutinas no corren aqui sino en la nube de Anthropic, asi que GitHub no se
+# entera si fallan: no hay job que falle ni correo que salga. Lo unico que se ve
+# es que ese dia falta un turno en data/historico/, y para verlo hay que
+# acordarse de mirar. 'estado' comprueba exactamente eso y sale con codigo 1 si
+# falta alguno, asi que basta con lanzarlo desde aqui: un job que falla SI manda
+# correo, y lo manda solo al dueno del repositorio.
+#
+# Es el mismo arreglo que el 'timeout-minutes' de precios.yml aplicado al otro
+# agujero: convertir un fallo mudo en uno ruidoso. El precedente es el cuelgue
+# del 19-08-2026, que se descubrio dos dias despues.
+#
+# Ojo con lo que esto NO hace: un turno perdido no se recupera, porque los feeds
+# solo dan lo reciente. Lo que se gana es enterarse el mismo dia para ir a mirar
+# el log en https://claude.ai/code/routines antes del turno siguiente.
+
+name: Vigilancia
+
+on:
+  schedule:
+    # 09:15 y 21:15 en horario de verano espanol; una hora menos en invierno.
+    # Son las de LIMITE_TURNO en noticias.py: antes de esa hora un turno que
+    # falta esta pendiente, no perdido. Las rutinas salen a las 4:00 y 16:30,
+    # asi que hay margen de sobra para un reintento, y avisar antes seria una
+    # falsa alarma cada manana.
+    - cron: "15 7 * * *"
+    - cron: "15 19 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: vigilancia
+  cancel-in-progress: false
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+
+    # Por lo mismo que en precios.yml, y con mas motivo: un job colgado no
+    # avisa, y este existe justamente para avisar.
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      # --local y no la comparacion contra origin/main: el checkout que se
+      # acaba de hacer ES origin/main, asi que traerlo otra vez solo anade una
+      # llamada de red que puede fallar y dar una falsa alarma. Un aviso en el
+      # que no se confia es un aviso que se deja de leer.
+      - name: Turnos publicados
+        run: python3 scripts/noticias.py estado --dias 2 --local
+
+      # Con 'always()' aunque falle el anterior: si ademas hay una seccion mal
+      # dada de alta, interesa verlo en este correo y no en el de dentro de
+      # doce horas.
+      - name: Coherencia de las secciones
+        if: always()
+        run: python3 scripts/noticias.py comprobar

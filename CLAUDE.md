@@ -98,6 +98,7 @@ python3 scripts/noticias.py anteriores <seccion>   lo ya publicado, para no repe
 python3 scripts/noticias.py validar    <seccion>   revisa el JSON recien escrito
 python3 scripts/noticias.py archivar   <seccion>   copia del turno + indice
 python3 scripts/noticias.py indexar    <seccion>   rehace el indice del buscador
+python3 scripts/noticias.py comprobar              secciones dadas de alta enteras
 python3 scripts/noticias.py publicar   "<mensaje>" commit de data/ y push
 python3 scripts/noticias.py estado                 que turnos faltan por publicar
 ```
@@ -809,6 +810,58 @@ comparando con la ejecucion anterior. Esta seccion **no usa `data/historico/`**,
 y por eso `publicar` solo exige copia archivada a las secciones que tienen
 carpeta ahi.
 
+### El precio objetivo, la serie y los avisos
+
+Anadido el 23-08-2026. Tres piezas que responden a la misma pregunta: cuando
+comprar.
+
+**El objetivo** es un campo opcional de `productos.json` (`"objetivo": 30`). La
+web pinta **siempre lo que falta** (`Tu precio: 30,00 EUR - te faltan 20,90`), no
+solo cuando se cruza, y eso se decidio midiendo: los siete objetivos piden
+caidas de entre el 25% y el 53%, y en quince dias de datos **ninguno se habia
+rozado**. Una marca que apareciera solo al cumplirse no se veria en meses; la
+distancia dice algo cada dia. Al cruzarse, entonces si, pastilla grande.
+
+Los objetivos **se publican** en `data/ofertas.json`, y el repositorio es
+publico. No es un dato sensible, pero conviene saberlo antes de ponerlos.
+
+**La serie** vive en `data/precios/AAAA-MM.json`, con un punto **solo cuando un
+precio cambia**. Tambien medido: de las 889 lecturas guardadas en los 39 commits
+que habia, solo **62 traian un precio distinto, el 7%**. Una entrada por pasada
+guardaria catorce veces el mismo numero. Al ser escalonada -un precio vale hasta
+el punto siguiente- no se pierde nada. Por meses, por lo mismo que el indice del
+buscador.
+
+`precios.py sembrar` la reconstruye desde el historial de git, que es donde ya
+estaba: cada commit de la seccion es una pasada. Asi el grafico nacio con quince
+dias dentro en vez de vacio. Con `--rehacer` reescribe tambien los meses que ya
+tengan fichero.
+
+**El grafico dibuja una sola linea: el precio mas bajo del producto en cada
+momento**, no una por tienda. Seis lineas en 44 px no se leen, y la pregunta a
+la que se viene es cuanto ha costado el juego. Dos detalles que costaron:
+
+- **Los puntos del mismo instante entran todos antes de calcular el minimo.**
+  Uno a uno, la primera pasada dibujaba un escalon que nunca existio: Super
+  Mario RPG arrancaba en 56,12 y caia a 39,99 en el mismo minuto, solo porque en
+  el primer evento aun no se conocian las demas tiendas. Lo caza una simulacion
+  de la serie, no la vista.
+- **El objetivo solo se dibuja en el grafico si cae dentro de lo que ha valido.**
+  Con un objetivo un 40% por debajo, meterlo en la escala aplastaria la linea
+  contra el techo y no se veria ningun movimiento.
+
+**Los avisos de la portada** salen en dos casos y solo en dos: un juego que llega
+a su objetivo, y **una bajada en Orange**, donde hay ventajas por comprar. El
+resto de bajadas se ven dentro de la seccion con su etiqueta; subirlas todas a
+la portada la llenaria de avisos a diario y se dejarian de leer.
+
+**Ojo con las bajadas de Orange**, que es justo la tienda donde el aviso es mas
+fragil: su precio no se lee, se reconstruye de una cuota mensual, y **el plazo
+no esta en la ficha sino a mano en el catalogo**. Si Orange cambia la
+financiacion de 24 a 36 meses, el precio reconstruido caeria un tercio sin que
+el PVP se mueva, y eso llegaria a la portada como una bajada. Ante una bajada
+suya sospechosamente redonda, lo primero que hay que mirar es el plazo.
+
 ### Como lo pinta `assets/ofertas.js`
 
 El JSON no cambia; lo que sigue son decisiones de la web, y las dos primeras
@@ -843,6 +896,76 @@ son la misma idea que las de arriba llevada al diseno:
 
 Empatar es normal (tres tiendas a 50,99), asi que puede haber varias filas
 marcadas como mas baratas a la vez. Es correcto, no un fallo del reparto.
+
+## Vigilancia: los fallos que no avisaban
+
+Dos agujeros del mismo tipo, tapados el 23-08-2026 con la misma idea que ya
+habia arreglado el cuelgue de Playwright: **convertir un fallo mudo en uno
+ruidoso**.
+
+### `.github/workflows/vigilancia.yml`
+
+Las rutinas de noticias **no corren en GitHub** sino en la nube de Anthropic, asi
+que si fallan aqui no se entera nadie: no hay job que falle ni correo que salga.
+Lo unico que se ve es que ese dia falta un turno en `data/historico/`, y para
+verlo hay que acordarse de mirar.
+
+El workflow lanza `estado --dias 2 --local` a las **09:15 y 21:15**, y como
+`estado` sale con codigo 1 cuando falta un turno, el job falla y **GitHub manda
+el correo solo al dueno del repositorio**. La direccion no se publica en ninguna
+parte; lo que si es publico, como en cualquier repo publico, es el log del run,
+que dice que turnos han salido y a que hora.
+
+Tres decisiones:
+
+- **Las horas son las de `LIMITE_TURNO`** (9:00 y 21:00). Antes de esa hora un
+  turno que falta esta pendiente, no perdido: las rutinas salen a las 4:00 y
+  16:30 y hay margen para un reintento. Avisar antes seria una falsa alarma cada
+  manana.
+- **`--local` y no la comparacion contra `origin/main`.** El checkout que se
+  acaba de hacer ES `origin/main`, asi que traerlo otra vez solo anade una
+  llamada de red que puede fallar y dar una falsa alarma.
+- **`timeout-minutes`, con mas motivo que en precios**: un job colgado no avisa,
+  y este existe justamente para avisar.
+
+Lo que **no** arregla: un turno perdido no se recupera, porque los feeds solo dan
+lo reciente. Lo que se gana es enterarse el mismo dia para mirar el log en
+https://claude.ai/code/routines antes del turno siguiente, en vez de descubrirlo
+dos dias despues.
+
+### `assets/secciones.json` y el comando `comprobar`
+
+Dar de alta una seccion toca **ocho sitios** (su HTML, el chip y la entrada de
+`index.html`, tres reglas de `estilo.css`, `medios.json` y el `indice.json` con
+su `desde`), y el problema no es que sean muchos: es que **olvidarse de uno no
+rompe nada de forma visible**. Sin su bloque en el historico la seccion funciona
+pero no tiene dias anteriores; sin el `desde`, `estado` reclama turnos de antes
+de que existiera. Los dos aparecen semanas despues.
+
+`secciones.json` es ahora la lista buena. **La leen** `historico.html` (las
+pestanas), `scripts/iconos.py` (los cuatro colores, en ese orden) y `comprobar`.
+**No la leen, y no es un descuido:**
+
+- **`estilo.css`**, porque una hoja de estilos no puede leer un JSON. Los
+  `--acento-<acento>` siguen a mano, y `comprobar` vigila que no falte ninguno.
+- **`index.html`**, porque sus chips y entradas escritos son lo que hace que la
+  portada se quede como estaba cuando un fetch falla, en vez de en blanco.
+  Generarlos ahorraria repetirlos y cambiaria robustez por menos duplicacion, y
+  en la pagina que mas se abre ese cambio no compensa. En `historico.html` si se
+  depende del fetch porque sin red esa pagina no tiene nada que ensenar de todas
+  formas.
+
+`comprobar` cruza la lista con el repo en los dos sentidos: avisa de la seccion
+que este a medias, y tambien de los medios o las carpetas de historico de una
+seccion que ya no esta en la lista. Probado dando de alta una seccion falsa: los
+ocho sitios que faltaban salieron como ocho errores, cada uno diciendo que hacer.
+El workflow lo lanza detras de `estado` con `if: always()`, para que un alta a
+medias se vea en el mismo correo y no en el de doce horas despues.
+
+**Al anadir la quinta seccion hay que decidir que hace el icono**: son cuatro
+cuadros en rejilla, asi que `iconos.py` se planta a proposito si la lista no
+tiene cuatro. Quedarse con las cuatro primeras dejaria una seccion fuera sin
+decirlo.
 
 ## Icono, manifest y previsualizacion
 

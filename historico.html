@@ -51,11 +51,11 @@
     // Aqui solo se elige que fichero cargar.
 
     const DIAS = 90;
-    const SECCIONES = [
-      { id: 'tecnologia', acento: 'tec', nombre: '💻 Tecnologia' },
-      { id: 'ia', acento: 'ia', nombre: '🤖 IA' },
-      { id: 'nintendo', acento: 'nin', nombre: '🎮 Nintendo' }
-    ];
+
+    // Las secciones salen de assets/secciones.json, que es la lista buena.
+    // Aqui si se puede depender de un fetch: sin red esta pagina no tiene nada
+    // que ensenar de todas formas, porque los turnos tambien se descargan. En
+    // la portada es distinto, y por eso alli siguen escritas en el HTML.
 
     const elPestanas = document.getElementById('pestanas');
     const elTurnos = document.getElementById('turnos');
@@ -251,17 +251,40 @@
                      entradasActuales[indice].fichero);
     });
 
-    SECCIONES.forEach((seccion) => {
-      const boton = document.createElement('button');
-      boton.className = 'pestana';
-      boton.dataset.id = seccion.id;
-      boton.textContent = seccion.nombre;
-      boton.onclick = () => cargarSeccion(seccion);
-      elPestanas.appendChild(boton);
-    });
+    async function arrancar() {
+      let secciones;
+      try {
+        const resp = await fetch('assets/secciones.json?v=' + Date.now());
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        // Solo las que guardan un turno por ejecucion: ofertas no tiene
+        // historico, su minimo vive dentro de su propio JSON.
+        secciones = (await resp.json()).secciones.filter((s) => s.historico);
+      } catch (e) {
+        avisar('No se ha podido cargar la lista de secciones.<br>' +
+               'Si estas abriendo el archivo en local, usa un servidor web ' +
+               '(en GitHub Pages funciona directamente).');
+        return;
+      }
 
-    const pedida = new URLSearchParams(location.search).get('seccion');
-    cargarSeccion(SECCIONES.find((s) => s.id === pedida) || SECCIONES[0]);
+      if (!secciones.length) {
+        avisar('Ninguna seccion guarda historico todavia.');
+        return;
+      }
+
+      for (const seccion of secciones) {
+        const boton = document.createElement('button');
+        boton.className = 'pestana';
+        boton.dataset.id = seccion.id;
+        boton.textContent = `${seccion.emoji} ${seccion.nombre}`;
+        boton.onclick = () => cargarSeccion(seccion);
+        elPestanas.appendChild(boton);
+      }
+
+      const pedida = new URLSearchParams(location.search).get('seccion');
+      cargarSeccion(secciones.find((s) => s.id === pedida) || secciones[0]);
+    }
+
+    arrancar();
   </script>
 </body>
 </html>

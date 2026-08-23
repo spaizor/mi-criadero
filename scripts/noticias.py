@@ -37,6 +37,11 @@ RAIZ = Path(__file__).resolve().parent.parent
 HISTORICO = RAIZ / "data" / "historico"
 MEDIOS = Path(__file__).resolve().parent / "medios.json"
 
+# Las secciones de la web. En assets/ y no en data/ por lo mismo que medios.json:
+# 'publicar' hace git add solo de data/, y ahi una rutina podria publicarlo sin
+# querer.
+SECCIONES = RAIZ / "assets" / "secciones.json"
+
 # Turnos del historico que se miran para detectar noticias ya publicadas.
 # 4 son dos dias: repetir algo de anteayer tambien es repetir.
 TURNOS_ANTERIORES = 4
@@ -1122,6 +1127,113 @@ def cmd_indexar(args):
 
 
 # --------------------------------------------------------------------------
+# comprobar: que una seccion este dada de alta en todos los sitios
+# --------------------------------------------------------------------------
+
+def leer_secciones():
+    return leer_json(SECCIONES).get("secciones", [])
+
+
+def cmd_comprobar(args):
+    """Cruza assets/secciones.json con el resto del repo.
+
+    Dar de alta una seccion toca ocho sitios, y olvidarse de uno no rompe nada
+    de forma visible: sin su bloque en historico.html la seccion funciona pero
+    no tiene dias anteriores, y sin el 'desde' de su indice 'estado' reclama
+    turnos de antes de que existiera. Los dos fallos aparecen semanas despues.
+    Esto los convierte en un mensaje.
+    """
+    secciones = leer_secciones()
+    if not secciones:
+        print(f"ERROR: {SECCIONES.name} no tiene ninguna seccion. Sin esa "
+              "lista, el historico se queda sin pestanas y el icono sin "
+              "colores.")
+        return 1
+
+    rev = Revision()
+    portada = (RAIZ / "index.html").read_text(encoding="utf-8")
+    css = (RAIZ / "assets" / "estilo.css").read_text(encoding="utf-8")
+    medios = leer_json(MEDIOS).get("secciones", {})
+
+    for seccion in secciones:
+        ident = seccion.get("id", "")
+        acento = seccion.get("acento", "")
+        quien = f"'{ident}'"
+
+        if not (RAIZ / f"{ident}.html").exists():
+            rev.error(f"{quien}: falta {ident}.html. Copia el de otra seccion, "
+                      "cambia el titulo, el data-seccion del <body> y la ruta "
+                      "del JSON.")
+
+        if not ruta_actual(ident).exists():
+            rev.error(f"{quien}: falta data/{ident}.json, que es lo que pinta "
+                      "la pagina. Hasta que la rutina escriba el primero, vale "
+                      'uno con los dos arrays vacios.')
+
+        # Dos veces en la portada: el chip de arriba y la entrada de abajo.
+        enlaces = portada.count(f'href="{ident}.html"')
+        if not enlaces:
+            rev.error(f"{quien}: index.html no la enlaza. Sin chip ni entrada, "
+                      "a la seccion no se llega desde la portada.")
+        elif enlaces < 2:
+            rev.aviso(f"{quien}: index.html la enlaza {enlaces} vez. Deberian "
+                      "ser dos, el chip de arriba y la entrada de abajo.")
+
+        for trozo, donde in ((f"--acento-{acento}:", "la variable de color"),
+                             (f'body[data-seccion="{acento}"]', "el acento de la pagina"),
+                             (f".{acento} ", "la clase de la portada")):
+            if trozo not in css:
+                rev.error(f"{quien}: falta {donde} en assets/estilo.css "
+                          f"({trozo}). El CSS no lee este JSON, hay que "
+                          "escribirlo a mano.")
+
+        if seccion.get("tipo") == "noticias" and ident not in medios:
+            rev.error(f"{quien}: no tiene medios en scripts/medios.json, asi "
+                      "que 'candidatos' no sabria de donde sacar noticias.")
+
+        if seccion.get("historico"):
+            indice = carpeta_historico(ident) / "indice.json"
+            if not indice.exists():
+                rev.error(f"{quien}: falta data/historico/{ident}/indice.json. "
+                          "Crealo con 'seccion', 'entradas': [] y un 'desde'.")
+            else:
+                datos = leer_json(indice)
+                if not datos.get("entradas") and not datos.get("desde"):
+                    rev.error(f"{quien}: su indice no tiene turnos ni 'desde'. "
+                              "Sin 'desde', 'estado' reclama todos los turnos "
+                              "anteriores a que la seccion existiera, y un "
+                              "aviso que sale siempre se deja de leer.")
+
+    # Y al reves: lo que hay en el repo y no en la lista.
+    conocidas = {s.get("id") for s in secciones}
+    for ident in medios:
+        if ident not in conocidas:
+            rev.aviso(f"scripts/medios.json tiene medios de '{ident}', que no "
+                      f"esta en {SECCIONES.name}: nadie los va a leer.")
+
+    if HISTORICO.exists():
+        for carpeta in sorted(HISTORICO.iterdir()):
+            if carpeta.is_dir() and carpeta.name not in conocidas:
+                rev.aviso(f"data/historico/{carpeta.name}/ guarda turnos de una "
+                          f"seccion que no esta en {SECCIONES.name}: no sale en "
+                          "el historico de la web.")
+
+    for texto in rev.errores:
+        print(f"ERROR: {texto}")
+    for texto in rev.avisos:
+        print(f"AVISO: {texto}")
+
+    if rev.errores:
+        print(f"\n{len(rev.errores)} errores en el alta de las secciones.")
+        return 1
+
+    nombres = ", ".join(s.get("id", "?") for s in secciones)
+    print(f"Las {len(secciones)} secciones estan completas: {nombres}." +
+          (f" {len(rev.avisos)} avisos que revisar." if rev.avisos else ""))
+    return 0
+
+
+# --------------------------------------------------------------------------
 # publicar: commit y push, con reintento si la rama ha avanzado
 # --------------------------------------------------------------------------
 
@@ -1391,6 +1503,10 @@ def main():
                            help="rehace el indice de busqueda del historico")
     p.add_argument("seccion")
     p.set_defaults(func=cmd_indexar)
+
+    p = ordenes.add_parser("comprobar",
+                           help="que las secciones esten dadas de alta enteras")
+    p.set_defaults(func=cmd_comprobar)
 
     p = ordenes.add_parser("publicar", help="commit y push de data/")
     p.add_argument("mensaje")

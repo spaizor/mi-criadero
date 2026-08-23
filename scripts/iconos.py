@@ -13,6 +13,7 @@ Solo biblioteca estandar, como el resto de scripts del proyecto: el PNG se
 escribe a mano (zlib + struct), que para figuras planas son treinta lineas.
 """
 
+import json
 import math
 import re
 import struct
@@ -22,9 +23,22 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 CSS = RAIZ / "assets" / "estilo.css"
 ASSETS = RAIZ / "assets"
+LISTA = ASSETS / "secciones.json"
 
-# Orden de la portada: tecnologia, IA, nintendo, ofertas.
-SECCIONES = ("tec", "ia", "nin", "ofe")
+
+def acentos():
+    """Los sufijos de color de cada seccion, en el orden en que se pintan."""
+    secciones = json.loads(LISTA.read_text(encoding="utf-8"))["secciones"]
+    nombres = [s["acento"] for s in secciones]
+    if len(nombres) != 4:
+        raise SystemExit(
+            f"ERROR: el icono son cuatro cuadros en rejilla y "
+            f"{LISTA.name} tiene {len(nombres)} secciones.\n"
+            "Con otro numero hay que decidir antes que dibujo se quiere: "
+            "cinco colores no caben en un 2x2, y quedarse con los cuatro "
+            "primeros dejaria una seccion fuera sin decirlo."
+        )
+    return nombres
 
 
 def color(css, nombre):
@@ -171,11 +185,12 @@ def compartir(ancho, alto, colores, fondo):
 
 def main():
     css = CSS.read_text(encoding="utf-8")
-    colores = [color(css, "acento-" + s) for s in SECCIONES]
+    secciones = acentos()
+    colores = [color(css, "acento-" + s) for s in secciones]
     fondo = color(css, "fondo")
 
     print("Colores leidos de assets/estilo.css:")
-    for nombre, tinta in zip(SECCIONES, colores):
+    for nombre, tinta in zip(secciones, colores):
         print("  --acento-%-4s #%02x%02x%02x" % (nombre, *tinta))
     print("  --fondo    #%02x%02x%02x" % fondo)
     print()
