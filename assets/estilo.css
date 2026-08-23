@@ -111,6 +111,39 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
    igualan a la mas alta, y la seccion con menos texto se queda con un hueco
    vacio debajo. En vertical cada una mide lo que mide, asi que el titular
    tampoco hay que recortarlo. */
+/* Los avisos de precio. Van encima de todo porque cuando salen son lo unico
+   que importa, y casi nunca salen: un juego llegando a su precio o bajando en
+   Orange. El verde es el acento de Ofertas, que es a donde llevan. */
+.avisos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.avisos:empty { display: none; }
+
+.aviso-precio {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  padding: 13px 18px;
+  background: color-mix(in srgb, var(--acento-ofe) 12%, var(--fondo-tarjeta));
+  border: 1px solid var(--acento-ofe);
+  border-radius: 10px;
+  color: var(--texto);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.aviso-precio + .aviso-precio { margin-top: -8px; }
+
+.aviso-precio:hover {
+  background: color-mix(in srgb, var(--acento-ofe) 20%, var(--fondo-tarjeta));
+}
+
+.aviso-icono { font-size: 1.15rem; }
+
 .entradas {
   display: flex;
   flex-direction: column;
@@ -468,6 +501,62 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 .producto .plataforma {
   color: var(--texto-suave);
   font-size: 0.82rem;
+}
+
+/* Cuanto falta para el precio al que interesa comprarlo. Se pinta siempre y no
+   solo al cumplirse: ninguno de los siete objetivos se habia rozado en los
+   primeros quince dias de datos, asi que una marca que apareciera solo al
+   cruzarse no se veria en meses. La distancia, en cambio, dice algo cada dia. */
+.producto .objetivo {
+  color: var(--texto-suave);
+  font-size: 0.78rem;
+}
+
+/* Y cumplirlo es lo contrario: raro, y el dia que pase tiene que verse sin
+   leer. Por eso este si es una pastilla y no una linea de texto mas. */
+.producto .objetivo.cumplido {
+  align-self: flex-start;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: var(--acento);
+  color: var(--fondo);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* La evolucion del precio mas bajo en los ultimos 30 dias. Una sola linea y no
+   una por tienda: seis lineas en 44 px no se leen, y la pregunta a la que se
+   viene es cuanto ha costado el juego, no cual subio primero. */
+.grafico {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+  padding: 12px 20px;
+  /* El trazo va con currentColor: hereda el acento de la seccion en vez de
+     repetir el color aqui. */
+  color: var(--acento);
+}
+
+.grafico svg {
+  flex: none;
+  width: 200px;
+  height: auto;
+}
+
+.grafico-pie {
+  color: var(--texto-suave);
+  font-size: 0.78rem;
+}
+
+/* Que ha bajado es justo lo que se viene a ver: en el color de la seccion y no
+   en el gris de las demas etiquetas. */
+.etiqueta.baja {
+  border-style: solid;
+  border-color: var(--acento);
+  color: var(--acento);
 }
 
 /* Plegado, este numero es lo unico que se ve del producto: se lee como el

@@ -25,11 +25,16 @@ from datetime import datetime
 from pathlib import Path
 
 from noticias import (AGENTE, ESPANA, FORMATO_FECHA, FORMATO_FECHA_HORA,
-                      escribir_json, leer_json)
+                      escribir_json, git, leer_json)
 
 RAIZ = Path(__file__).resolve().parent.parent
 CATALOGO = Path(__file__).resolve().parent / "productos.json"
 SALIDA = RAIZ / "data" / "ofertas.json"
+
+# La evolucion de cada precio, un fichero por mes. Por mes y no uno solo por lo
+# mismo que el indice del buscador: asi un mes cerrado no se vuelve a tocar y
+# el repo no engorda reescribiendo lo de siempre.
+SERIES = RAIZ / "data" / "precios"
 
 # Estados de un precio, tal como los pinta la web:
 #   ok    -> consultado ahora mismo
@@ -532,6 +537,101 @@ def descartar_absurdos(precios, anteriores, id_producto):
     return avisos
 
 
+def ruta_serie(mes):
+    return SERIES / f"{mes}.json"
+
+
+def leer_serie(mes):
+    ruta = ruta_serie(mes)
+    if not ruta.exists():
+        return {"mes": mes, "productos": {}}
+    return leer_json(ruta)
+
+
+def anotar_serie(serie, cuando, productos):
+    """Anade a la serie los precios que hayan cambiado. Devuelve cuantos.
+
+    Solo los cambios, y esto se midio: de las 889 lecturas guardadas en los 39
+    commits que habia el 23-08-2026, unicamente 62 traian un precio distinto
+    del anterior, el 7%. Una entrada por pasada guardaria catorce veces el
+    mismo numero. Con los cambios la serie es escalonada -un precio vale hasta
+    el punto siguiente- y no se pierde ni un dato.
+
+    Cada mes arranca con el primer precio que vea de cada tienda, aunque no sea
+    un cambio: asi el fichero del mes se puede dibujar solo, sin tener que
+    abrir el anterior para saber de donde venia la linea.
+    """
+    dentro = serie.setdefault("productos", {})
+    nuevos = 0
+    for producto in productos:
+        por_tienda = dentro.setdefault(producto["id"], {})
+        for precio in producto.get("precios", []):
+            if precio.get("estado") != OK or precio.get("precio") is None:
+                continue
+            puntos = por_tienda.setdefault(precio["tienda"], [])
+            if puntos and puntos[-1]["precio"] == precio["precio"]:
+                continue
+            puntos.append({"cuando": cuando, "precio": precio["precio"]})
+            nuevos += 1
+    return nuevos
+
+
+def cmd_sembrar(args):
+    """Reconstruye las series leyendo el historial de git de ofertas.json.
+
+    La serie de las primeras semanas no hay que inventarla: esta entera en los
+    commits de la seccion, uno por pasada. Sirve para que el grafico nazca con
+    datos en vez de vacio, y para reparar si un fichero se pierde.
+    """
+    commits = git("log", "--format=%H", "--reverse",
+                  "--", "data/ofertas.json").stdout.split()
+    if not commits:
+        print("ERROR: no hay ningun commit de data/ofertas.json del que sacar "
+              "la serie. Comprueba que estas en el repositorio.")
+        return 1
+
+    series, leidos = {}, 0
+    for commit in commits:
+        crudo = git("show", f"{commit}:data/ofertas.json", comprobar=False)
+        if crudo.returncode:
+            continue
+        try:
+            datos = json.loads(crudo.stdout)
+        except ValueError:
+            continue
+        cuando = datos.get("actualizado")
+        if not cuando:
+            continue
+        # El mes sale del 'actualizado' del propio fichero y no de la fecha del
+        # commit: el commit puede llegar minutos despues, y en un cambio de mes
+        # eso mandaria la pasada al fichero equivocado.
+        try:
+            mes = datetime.strptime(cuando, FORMATO_FECHA_HORA).strftime("%Y-%m")
+        except ValueError:
+            continue
+        serie = series.setdefault(mes, {"mes": mes, "productos": {}})
+        anotar_serie(serie, cuando, datos.get("productos", []))
+        leidos += 1
+
+    escritos = []
+    for mes, serie in sorted(series.items()):
+        ruta = ruta_serie(mes)
+        if ruta.exists() and not args.rehacer:
+            print(f"  {mes}: ya existe, no se toca (--rehacer para "
+                  "reconstruirlo desde git)")
+            continue
+        escribir_json(ruta, serie)
+        puntos = sum(len(p) for t in serie["productos"].values()
+                     for p in t.values())
+        escritos.append(mes)
+        print(f"  {mes}: {puntos} puntos")
+
+    cuantos = len(escritos)
+    print(f"{leidos} pasadas leidas del historial, {cuantos} "
+          f"{'fichero escrito' if cuantos == 1 else 'ficheros escritos'}.")
+    return 0
+
+
 def previos():
     """Lo publicado en la ejecucion anterior, indexado por producto y tienda."""
     if not SALIDA.exists():
@@ -625,6 +725,15 @@ def cmd_consultar(args):
             if minimo is None or precio < minimo:
                 minimo, minimo_fecha = precio, ahora.strftime(FORMATO_FECHA)
 
+            # Que ha bajado respecto a la ultima lectura que teniamos, que es
+            # lo que se viene a mirar. Se compara contra el precio anterior
+            # aunque estuviera marcado como viejo: si la tienda no respondio
+            # ayer, la referencia sigue siendo el ultimo precio conocido.
+            antes = anterior.get("precio")
+            bajada = None
+            if antes is not None and precio < antes:
+                bajada = {"desde": antes, "cuando": anterior.get("consultado")}
+
             registro = {
                 "tienda": tienda["tienda"],
                 "precio": precio,
@@ -639,6 +748,8 @@ def cmd_consultar(args):
             }
             if estimado:
                 registro["estimado"] = estimado
+            if bajada:
+                registro["bajada"] = bajada
             precios.append(registro)
 
             aviso = "" if extra["elegido_por_referencia"] else "  (ojo: ficha elegida por descarte)"
@@ -653,14 +764,29 @@ def cmd_consultar(args):
             fallos.append(f"{producto['nombre']} en {aviso}")
             consultados -= 1
 
-        salida.append({
+        bloque = {
             "id": producto["id"],
             "nombre": producto["nombre"],
             "plataforma": producto.get("plataforma", ""),
             "precios": precios,
-        })
+        }
+        # El precio al que interesa comprarlo. Es opcional en el catalogo, asi
+        # que solo se publica cuando lo hay: un objetivo a null obligaria a la
+        # web a distinguir "sin objetivo" de "objetivo cero".
+        if producto.get("objetivo") is not None:
+            bloque["objetivo"] = producto["objetivo"]
+        salida.append(bloque)
 
     navegador.cerrar()
+
+    # La serie del mes, con los precios que hayan cambiado. Si no ha cambiado
+    # ninguno no se escribe el fichero: un commit diario que solo mueve la
+    # marca de tiempo es ruido en el historial.
+    mes = ahora.strftime("%Y-%m")
+    serie = leer_serie(mes)
+    nuevos = anotar_serie(serie, ahora.strftime(FORMATO_FECHA_HORA), salida)
+    if nuevos:
+        escribir_json(ruta_serie(mes), serie)
 
     escribir_json(SALIDA, {
         "seccion": "ofertas",
@@ -672,6 +798,9 @@ def cmd_consultar(args):
         print(f"FALLO {fallo}")
     print(f"\nEscrito data/ofertas.json: {len(salida)} productos, "
           f"{consultados} precios consultados, {len(fallos)} fallos.")
+    print(f"Serie de {mes}: {nuevos} "
+          f"{'precio ha cambiado' if nuevos == 1 else 'precios han cambiado'}"
+          f"{'' if nuevos else ' (fichero sin tocar)'}.")
     # Los fallos no tumban la ejecucion: la web se queda con el precio anterior
     # marcado como viejo, que es mejor que no publicar nada.
     return 0
@@ -725,6 +854,12 @@ def main():
 
     p = ordenes.add_parser("consultar", help="escribe data/ofertas.json")
     p.set_defaults(func=cmd_consultar)
+
+    p = ordenes.add_parser("sembrar",
+                           help="reconstruye la serie desde el historial de git")
+    p.add_argument("--rehacer", action="store_true",
+                   help="reescribir tambien los meses que ya tengan fichero")
+    p.set_defaults(func=cmd_sembrar)
 
     p = ordenes.add_parser("probar", help="comprueba una ficha suelta")
     p.add_argument("url")

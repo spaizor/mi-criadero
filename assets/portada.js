@@ -105,6 +105,70 @@ function deOfertas(datos) {
   };
 }
 
+// -- Avisos de precio -----------------------------------------------------
+//
+// Dos cosas merecen sacar al usuario de la portada, y ninguna pasa a menudo:
+// que un juego llegue al precio al que interesa comprarlo, y que baje en
+// Orange, donde hay ventajas por comprar. El resto de bajadas se ven dentro de
+// la seccion: subirlas aqui llenaria la portada de avisos todos los dias y
+// acabaria por no leerse ninguno.
+const TIENDA_VIGILADA = 'Orange';
+
+function avisosDeOfertas(datos) {
+  const avisos = [];
+
+  for (const producto of datos.productos || []) {
+    const deHoy = (producto.precios || []).filter(
+      (p) => p.estado === 'ok' && p.precio != null);
+    if (!deHoy.length) continue;
+
+    const barato = deHoy.reduce((a, b) => (b.precio < a.precio ? b : a));
+
+    if (producto.objetivo != null && barato.precio <= producto.objetivo) {
+      avisos.push({
+        clase: 'cumplido',
+        icono: '🎯',
+        texto: `${producto.nombre} esta a ${euros(barato.precio, barato.moneda)} en ` +
+               `${barato.tienda}: ha llegado a tu precio.`,
+      });
+    }
+
+    const vigilada = deHoy.find((p) => p.tienda === TIENDA_VIGILADA && p.bajada);
+    if (vigilada && vigilada.bajada.desde > vigilada.precio) {
+      avisos.push({
+        clase: 'bajada',
+        icono: '⬇',
+        texto: `${producto.nombre} ha bajado en ${TIENDA_VIGILADA} a ` +
+               `${euros(vigilada.precio, vigilada.moneda)}, desde ` +
+               `${euros(vigilada.bajada.desde, vigilada.moneda)}.`,
+      });
+    }
+  }
+
+  return avisos;
+}
+
+function pintarAvisos(datos) {
+  const caja = document.getElementById('avisos');
+  if (!caja) return;
+
+  const avisos = avisosDeOfertas(datos);
+  if (!avisos.length) return;   // vacio se queda sin ocupar sitio
+
+  caja.innerHTML = avisos.map((aviso) => `
+    <a class="aviso-precio ${aviso.clase}" href="ofertas.html">
+      <span class="aviso-icono" aria-hidden="true">${aviso.icono}</span>
+      <span class="aviso-texto"></span>
+    </a>`).join('');
+
+  // El texto lleva nombres de producto que vienen de un JSON: se escribe como
+  // texto y no como HTML, igual que en el resto de la web.
+  caja.querySelectorAll('.aviso-texto').forEach((nodo, i) => {
+    nodo.textContent = avisos[i].texto;
+  });
+}
+
+
 async function cargarPortada() {
   const entradas = document.querySelectorAll('.entrada[data-json]');
 
@@ -118,7 +182,10 @@ async function cargarPortada() {
       return;  // la entrada se queda con lo que trae escrito
     }
 
-    const resumen = entrada.dataset.tipo === 'ofertas' ? deOfertas(datos) : deNoticias(datos);
+    const esOfertas = entrada.dataset.tipo === 'ofertas';
+    if (esOfertas) pintarAvisos(datos);
+
+    const resumen = esOfertas ? deOfertas(datos) : deNoticias(datos);
 
     const titulo = entrada.querySelector('.entrada-titulo');
     if (titulo) titulo.textContent = resumen.titulo;

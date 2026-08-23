@@ -32,13 +32,15 @@
       "cuota": "Opcional, con la forma { \"meses\": 24 }. Para tiendas cuyo bloque Product publica la cuota mensual de una financiacion, sin IVA, en vez del precio del producto (Orange). El script reconstruye el contado multiplicando por el IVA y por los meses, y marca el precio como estimado para que la web lo avise. El plazo NO viene en la ficha: se pone aqui.",
       "solo_enlace": "Opcional. La tienda no se consulta pero se queda en la web con su enlace y, si alguna vez se le saco, su ultimo precio conocido fechado. Para tiendas que no responden ni con navegador y que aun asi interesa tener a un clic. Puede no haber tenido precio nunca: la web pinta 'Ver en la tienda' y ya."
     },
-    "verificado_el": "10-08-2026"
+    "verificado_el": "10-08-2026",
+    "precio_objetivo": "'objetivo' es el precio al que interesa comprar ese juego. Es opcional: un producto sin el sale igual, solo que sin barra de progreso. La web pinta SIEMPRE cuanto falta para llegar ('te faltan 20,90 EUR'), no solo cuando se cruza, porque ninguno de los siete objetivos se ha rozado en los primeros quince dias de datos: una etiqueta que solo aparece al cruzarse no se veria en meses, y la distancia informa cada dia. Cuidado al cambiarlos: el objetivo se publica en data/ofertas.json y el repositorio es publico."
   },
   "productos": [
     {
       "id": "star-fox-switch-2",
       "nombre": "Star Fox",
       "plataforma": "Nintendo Switch 2",
+      "objetivo": 30,
       "tiendas": [
         {
           "tienda": "MediaMarkt",
@@ -82,7 +84,9 @@
         {
           "tienda": "Orange",
           "url": "https://www.orange.es/dispositivos/videojuegos/nintendo/star-fox-para-nintendo-switch-2/MKP000915784811.html",
-          "cuota": { "meses": 24 }
+          "cuota": {
+            "meses": 24
+          }
         }
       ]
     },
@@ -90,6 +94,7 @@
       "id": "elliot-switch-2",
       "nombre": "The Adventures of Elliot: The Millennium Tales",
       "plataforma": "Nintendo Switch 2",
+      "objetivo": 30,
       "tiendas": [
         {
           "tienda": "MediaMarkt",
@@ -133,7 +138,9 @@
         {
           "tienda": "Orange",
           "url": "https://www.orange.es/dispositivos/videojuegos/nintendo/the-adventures-elliot-the-millennium-tales-switch2/MKP000913697594.html",
-          "cuota": { "meses": 24 }
+          "cuota": {
+            "meses": 24
+          }
         }
       ]
     },
@@ -141,6 +148,7 @@
       "id": "yoshi-libro-switch-2",
       "nombre": "Yoshi and the Mysterious Book",
       "plataforma": "Nintendo Switch 2",
+      "objetivo": 26,
       "tiendas": [
         {
           "tienda": "MediaMarkt",
@@ -184,7 +192,9 @@
         {
           "tienda": "Orange",
           "url": "https://www.orange.es/dispositivos/videojuegos/nintendo/yoshi-and-the-mysterious-book-nintendo-switch-2/MKP000910345727.html",
-          "cuota": { "meses": 24 }
+          "cuota": {
+            "meses": 24
+          }
         }
       ]
     },
@@ -192,6 +202,7 @@
       "id": "mario-luigi-fraternal-switch",
       "nombre": "Mario & Luigi: Conexión fraternal",
       "plataforma": "Nintendo Switch",
+      "objetivo": 30,
       "tiendas": [
         {
           "tienda": "MediaMarkt",
@@ -235,7 +246,9 @@
         {
           "tienda": "Orange",
           "url": "https://www.orange.es/dispositivos/videojuegos/nintendo/mario-luigi-conexion-fraternal-nintendo-switch/MKP000913987717.html",
-          "cuota": { "meses": 24 }
+          "cuota": {
+            "meses": 24
+          }
         }
       ]
     },
@@ -243,6 +256,7 @@
       "id": "super-mario-rpg-switch",
       "nombre": "Super Mario RPG",
       "plataforma": "Nintendo Switch",
+      "objetivo": 30,
       "tiendas": [
         {
           "tienda": "MediaMarkt",
@@ -289,6 +303,7 @@
       "id": "octopath-traveler-2-switch",
       "nombre": "Octopath Traveler II",
       "plataforma": "Nintendo Switch",
+      "objetivo": 20,
       "tiendas": [
         {
           "tienda": "MediaMarkt",
@@ -335,6 +350,7 @@
       "id": "luigis-mansion-3-switch",
       "nombre": "Luigi's Mansion 3",
       "plataforma": "Nintendo Switch",
+      "objetivo": 30,
       "tiendas": [
         {
           "tienda": "MediaMarkt",
