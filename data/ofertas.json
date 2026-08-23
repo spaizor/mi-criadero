@@ -1,12 +1,11 @@
 {
   "seccion": "ofertas",
-  "actualizado": "23-08-2026 06:48",
+  "actualizado": "23-08-2026 14:58",
   "productos": [
     {
       "id": "star-fox-switch-2",
       "nombre": "Star Fox",
       "plataforma": "Nintendo Switch 2",
-      "objetivo": 30,
       "precios": [
         {
           "tienda": "MediaMarkt",
@@ -15,7 +14,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-star-fox-1665418.html",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 50.9,
           "minimo_fecha": "08-08-2026",
           "estado": "ok"
@@ -27,7 +26,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.game.es/star-fox-nintendo-switch-2-261234",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 59.99,
           "minimo_fecha": "08-08-2026",
           "estado": "ok"
@@ -39,7 +38,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.pccomponentes.com/star-fox-nintendo-switch-2",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 50.9,
           "minimo_fecha": "22-08-2026",
           "estado": "ok"
@@ -51,7 +50,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.xtralife.com/producto/star-fox-switch-2-edition-switch-2-edicion-estandar/111034",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 52.95,
           "minimo_fecha": "10-08-2026",
           "estado": "ok"
@@ -63,7 +62,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.carrefour.es/star-fox-para-switch-2/VC4A-33647650/p",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 50.99,
           "minimo_fecha": "10-08-2026",
           "estado": "ok"
@@ -93,7 +92,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.orange.es/dispositivos/videojuegos/nintendo/star-fox-para-nintendo-switch-2/MKP000915784811.html",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 60.11,
           "minimo_fecha": "11-08-2026",
           "estado": "ok",
@@ -103,13 +102,13 @@
             "iva": 21
           }
         }
-      ]
+      ],
+      "objetivo": 30
     },
     {
       "id": "elliot-switch-2",
       "nombre": "The Adventures of Elliot: The Millennium Tales",
       "plataforma": "Nintendo Switch 2",
-      "objetivo": 30,
       "precios": [
         {
           "tienda": "MediaMarkt",
@@ -118,7 +117,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-adventures-of-elliot-the-millennium-tales-game-key-card-1620443.html",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 61.9,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -130,7 +129,7 @@
           "disponible": false,
           "vendedor": null,
           "enlace": "https://www.game.es/the-adventures-of-elliot-the-millennium-tales-nintendo-switch-2-256693",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 69.99,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -142,7 +141,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.pccomponentes.com/the-adventures-of-elliot-the-millennium-tales-switch-2",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 61.99,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -154,7 +153,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.xtralife.com/producto/the-adventures-of-elliot-the-millenium-tales-switch-2-edicion-estandar/105604",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 64.95,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -166,7 +165,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.carrefour.es/the-adventures-of-elliot-the-millennium-tales-para-switch-2/VC4A-32889758/p",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 61.99,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -196,7 +195,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.orange.es/dispositivos/videojuegos/nintendo/the-adventures-elliot-the-millennium-tales-switch2/MKP000913697594.html",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 72.02,
           "minimo_fecha": "12-08-2026",
           "estado": "ok",
@@ -206,13 +205,13 @@
             "iva": 21
           }
         }
-      ]
+      ],
+      "objetivo": 30
     },
     {
       "id": "yoshi-libro-switch-2",
       "nombre": "Yoshi and the Mysterious Book",
       "plataforma": "Nintendo Switch 2",
-      "objetivo": 26,
       "precios": [
         {
           "tienda": "MediaMarkt",
@@ -221,7 +220,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-yoshi-y-el-libro-misterioso-1623929.html",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 54.9,
           "minimo_fecha": "21-08-2026",
           "estado": "ok"
@@ -233,7 +232,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.game.es/yoshi-and-the-mysterious-book-nintendo-switch-2-258399",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 69.99,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -245,7 +244,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.pccomponentes.com/yoshi-and-the-mysterious-book-switch-2",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 57.99,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -257,7 +256,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.xtralife.com/producto/yoshi-and-the-mysterious-book-switch-2-edicion-estandar/109940",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 62.95,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -269,7 +268,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.carrefour.es/yoshi-and-the-mysterious-book-para-switch-2/VC4A-33096377/p",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 54.99,
           "minimo_fecha": "12-08-2026",
           "estado": "ok"
@@ -299,7 +298,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.orange.es/dispositivos/videojuegos/nintendo/yoshi-and-the-mysterious-book-nintendo-switch-2/MKP000910345727.html",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 69.99,
           "minimo_fecha": "12-08-2026",
           "estado": "ok",
@@ -309,13 +308,13 @@
             "iva": 21
           }
         }
-      ]
+      ],
+      "objetivo": 26
     },
     {
       "id": "mario-luigi-fraternal-switch",
       "nombre": "Mario & Luigi: Conexión fraternal",
       "plataforma": "Nintendo Switch",
-      "objetivo": 30,
       "precios": [
         {
           "tienda": "MediaMarkt",
@@ -324,7 +323,7 @@
           "disponible": true,
           "vendedor": "You Get - Innovation and Technology",
           "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-mario-and-luigi-conexion-fraternal-1577831.html",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 55.91,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -336,7 +335,7 @@
           "disponible": false,
           "vendedor": null,
           "enlace": "https://www.game.es/mario-luigi-conexion-fraternal-nintendo-switch-232666",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 49.99,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -348,7 +347,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.pccomponentes.com/mario-luigi-conexion-fraternal-nintendo-switch",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 41.99,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -360,7 +359,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.xtralife.com/producto/mario-luigi-conexion-fraternal-switch-edicion-estandar/90396",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 39.95,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -372,7 +371,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.carrefour.es/mario-luigi-conexion-fraternal-para-switch/VC4A-27774616/p",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 47.99,
           "minimo_fecha": "14-08-2026",
           "estado": "ok"
@@ -402,7 +401,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.orange.es/dispositivos/videojuegos/nintendo/mario-luigi-conexion-fraternal-nintendo-switch/MKP000913987717.html",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 60.11,
           "minimo_fecha": "13-08-2026",
           "estado": "ok",
@@ -412,13 +411,13 @@
             "iva": 21
           }
         }
-      ]
+      ],
+      "objetivo": 30
     },
     {
       "id": "super-mario-rpg-switch",
       "nombre": "Super Mario RPG",
       "plataforma": "Nintendo Switch",
-      "objetivo": 30,
       "precios": [
         {
           "tienda": "MediaMarkt",
@@ -427,7 +426,7 @@
           "disponible": true,
           "vendedor": "Todoconsolas",
           "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-super-mario-rpg-1556536.html",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 56.12,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -439,7 +438,7 @@
           "disponible": false,
           "vendedor": null,
           "enlace": "https://www.game.es/super-mario-rpg-nintendo-switch-220109",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 39.99,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -451,7 +450,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.pccomponentes.com/super-mario-rpg-nintendo-switch",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 51.99,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -463,7 +462,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.xtralife.com/producto/super-mario-rpg-switch-edicion-estandar/80492",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 39.95,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -475,7 +474,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.carrefour.es/super-mario-rpg-para-switch/VC4A-23203867/p",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 49.99,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -498,13 +497,13 @@
           "estado": "enlace",
           "precio": null
         }
-      ]
+      ],
+      "objetivo": 30
     },
     {
       "id": "octopath-traveler-2-switch",
       "nombre": "Octopath Traveler II",
       "plataforma": "Nintendo Switch",
-      "objetivo": 20,
       "precios": [
         {
           "tienda": "MediaMarkt",
@@ -513,7 +512,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-octopath-traveler-ii-1541076.html",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 38.9,
           "minimo_fecha": "21-08-2026",
           "estado": "ok"
@@ -525,7 +524,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.game.es/octopath-traveler-ii-nintendo-switch-209293",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 39.99,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -537,7 +536,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.pccomponentes.com/octopath-traveler-ii-nintendo-switch",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 34.99,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -549,7 +548,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.xtralife.com/producto/octopath-traveler-ii-switch-estandar/76081",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 39.95,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -561,7 +560,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.carrefour.es/octopath-traveler-ii-para-switch/VC4A-20932880/p",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 40.51,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -584,13 +583,13 @@
           "estado": "enlace",
           "precio": null
         }
-      ]
+      ],
+      "objetivo": 20
     },
     {
       "id": "luigis-mansion-3-switch",
       "nombre": "Luigi's Mansion 3",
       "plataforma": "Nintendo Switch",
-      "objetivo": 30,
       "precios": [
         {
           "tienda": "MediaMarkt",
@@ -599,7 +598,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.mediamarkt.es/es/product/_nintendo-switch-luigi-s-mansion-3-1458164.html",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 51.9,
           "minimo_fecha": "21-08-2026",
           "estado": "ok"
@@ -611,7 +610,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.game.es/luigis-mansion-3-nintendo-switch-169066",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 49.99,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -623,7 +622,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.pccomponentes.com/luigis-mansion-3-nintendo-switch",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 48.99,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -635,7 +634,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.xtralife.com/producto/luigis-mansion-3-switch-edicion-estandar/26509",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 49.95,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -647,7 +646,7 @@
           "disponible": true,
           "vendedor": null,
           "enlace": "https://www.carrefour.es/luigis-mansion-3-para-nintendo-switch/VC4A-7886390/p",
-          "consultado": "23-08-2026 06:48",
+          "consultado": "23-08-2026 14:58",
           "minimo": 49.99,
           "minimo_fecha": "13-08-2026",
           "estado": "ok"
@@ -670,7 +669,8 @@
           "estado": "enlace",
           "precio": null
         }
-      ]
+      ],
+      "objetivo": 30
     }
   ]
 }
