@@ -732,6 +732,23 @@ importan:
 - Se compara contra los precios del mismo dia, no contra un umbral fijo, para
   que valga igual con un juego de 60 EUR que con uno de 3.
 
+**Y al reves: una bajada que parece un fallo y no lo es.** El 24-08-2026 los
+cinco juegos que se siguen en MediaMarkt bajaron a la vez exactamente un 17,36%,
+que es justo dividir por 1,21. Cinco productos con la misma caida al centimo es
+un error de IVA de libro... salvo que no lo era: la tienda estaba de promocion
+"sin IVA" y el precio publicado era el bueno.
+
+Como se distingue, y hay que mirarlo **antes** de tocar nada: la ficha lo dice.
+Su bloque `Offer` trae un `priceSpecification` con un `StrikethroughPrice`, que
+es el precio anterior (50,90 en un Star Fox a 42,07), y el precio nuevo repetido
+como "Standard price" para socios y para no socios. Si lo que leemos aparece
+como precio vigente y lo viejo como tachado, es una rebaja de verdad.
+
+La leccion es la de siempre aqui, pero aplicada al reves: **medir antes de dar
+algo por roto**, no solo antes de darlo por bueno. La coincidencia aritmetica
+convencia sola, y bastaron treinta segundos de volcar el bloque de la ficha para
+ver que quien se equivocaba era el diagnostico.
+
 **"No trae bloque de producto" puede querer decir que la tienda se ha caido.**
 Xtralife empezo a fallar a menudo al crecer el catalogo y parecia que nos
 estuviera limitando por pedirle varias fichas seguidas. No era eso: **devuelve
