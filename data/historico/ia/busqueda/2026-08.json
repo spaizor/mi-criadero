@@ -3,6 +3,139 @@
   "mes": "2026-08",
   "noticias": [
     {
+      "titulo": "Un agente de IA de Anthropic intento colar malware en un proyecto de codigo abierto con cuentas falsas",
+      "fuente": "The Decoder",
+      "fecha": "24-08-2026 16:23",
+      "enlace": "https://the-decoder.com/rogue-ai-agent-used-fake-accounts-and-a-staged-apology-to-push-malware-into-an-open-source-project/",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Hugging Face negocia su venta por 13.000 millones de dolares",
+      "fuente": "TechCrunch",
+      "fecha": "24-08-2026 15:47",
+      "enlace": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Sam Altman reconoce que las empresas no han adoptado la IA tan rapido como esperaba",
+      "fuente": "Xataka",
+      "fecha": "24-08-2026 13:31",
+      "enlace": "https://www.xataka.com/robotica-e-ia/me-equivoque-muchas-cosas-todo-economia-tiene-mucha-inercia-sam-altman-reconoce-que-empresas-no-han-adoptado-ia-como-imaginaba",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Por que los niños aprenden idiomas con muchos menos datos que los modelos de IA",
+      "fuente": "MIT Technology Review",
+      "fecha": "24-08-2026 11:00",
+      "enlace": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Nvidia negocia invertir en Perplexity a una valoracion de mas de 30.000 millones de dolares",
+      "fuente": "The Decoder",
+      "fecha": "24-08-2026 10:44",
+      "enlace": "https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "OpenAI esta construyendo agentes de IA para todo: ¿los usara todo el mundo?",
+      "fuente": "TechCrunch",
+      "fecha": "24-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Thomson Reuters apuesta 40 millones de dolares por tener su propia IA en vez de alquilarla a OpenAI o Anthropic",
+      "fuente": "The Decoder",
+      "fecha": "24-08-2026",
+      "enlace": "https://the-decoder.com/thomson-reuters-bets-40m-on-owning-its-ai-instead-of-renting-from-openai-or-anthropic/",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Los proveedores de IA se pasan al hardware a medida mientras Microsoft da marcha atras en Windows",
+      "fuente": "The Register",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/08/24/ai-vendors-are-turning-to-custom-hardware-as-microsoft-winds-back-the-clock-on-windows/5291293",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Cerebras presenta el CS-4, con el doble de rendimiento en el mismo chip",
+      "fuente": "The Decoder",
+      "fecha": "24-08-2026",
+      "enlace": "https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip/",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Los chatbots de IA enlazan con regularidad a paginas antiaborto a usuarias embarazadas sin avisarlo",
+      "fuente": "The Decoder",
+      "fecha": "24-08-2026",
+      "enlace": "https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure/",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Dedicaron su vida a la enseñanza. Entonces empezaron los deepfakes",
+      "fuente": "Wired",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Canonical respalda el proyecto para traducir con IA montañas de codigo C a Rust seguro",
+      "fuente": "The Register",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.theregister.com/software/2026/08/24/canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai/5290959",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Los alumnos que usan IA hacen mejor los deberes. El problema llega en los exámenes",
+      "fuente": "Xataka",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/alumnos-que-usan-ia-hacen-mejor-deberes-problema-llega-examenes",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Navya Jammalamadaka, programadora de la Generación Z: \"Antes programaba sin descanso todo el día, ahora mi trabajo es guiar a la IA para que escriba el código\"",
+      "fuente": "ComputerHoy",
+      "fecha": "24-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/navya-jammalamadaka-programadora-generacion-z-antes-programaba-sin-descanso-24-horas-ahora-mi-trabajo-es-guiar-ia-para-que-escriba-codigo_6979644_0.html",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Ya hay gente nostálgica de la IA del pasado: el pequeño lamento por todo lo que DALL-E 2 nos dio y se perdió por el camino",
+      "fuente": "Xataka",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/hay-gente-nostalgica-ia-pasado-pequeno-lamento-todo-que-dall-e-2-nos-dio-se-perdio-camino",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Linus Torvalds admite que ha necesitado a la IA para corregir un error del kernel de Linux: \"Sospecho que esas cosas han sido entrenadas por personas que tal vez no sean tan tercas como yo\"",
+      "fuente": "ComputerHoy",
+      "fecha": "24-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-admite-que-ha-necesitado-ia-para-corregir-un-error-kernel-linux-sospecho-que-esas-cosas-han-sido-entrenadas-por-personas-que-tal-vez-no-sean-tan-tercas-como-yo_7028585_0.html",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Ox Alpha es el nuevo y misterioso modelo de IA del que todos hablan. Nadie sabe quién está detrás",
+      "fuente": "Xataka",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/ox-alpha-nuevo-misterioso-modelo-ia-que-todos-hablan-nadie-sabe-quien-esta-detras",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Marian Sánchez, experta en tecnología, desvela el truco para ahorrar dinero gracias a ChatGPT: \"Sirve para cualquier artículo que quieras comprar online\"",
+      "fuente": "ComputerHoy",
+      "fecha": "24-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/marian-sanchez-experta-tecnologia-desvela-truco-para-ahorrar-dinero-gracias-chatgpt-sirve-para-cualquier-articulo-que-quieras-comprar-online_7023523_0.html",
+      "turno": "2026-08-24_T"
+    },
+    {
+      "titulo": "Hay vida más allá de ChatGPT: estas son las IA que he probado, y las hay muy buenas (y gratis)",
+      "fuente": "ComputerHoy",
+      "fecha": "24-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/recomendados/edu-recomienda-mejores-ia-llm-he-probado_6984879_0.html",
+      "turno": "2026-08-24_T"
+    },
+    {
       "titulo": "Un misterioso modelo de IA llamado Ox Alpha desata la especulacion sobre quien esta detras",
       "fuente": "TechCrunch",
       "fecha": "23-08-2026 22:01",
