@@ -3,6 +3,97 @@
   "mes": "2026-08",
   "noticias": [
     {
+      "titulo": "Noruega, primer país en limitar de forma contundente el uso de la IA en los colegios",
+      "fuente": "ComputerHoy",
+      "fecha": "24-08-2026 18:24",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/noruega-primer-pais-limitar-forma-contundente-uso-ia-los-colegios-prohibido-6-13-anos-solo-con-supervision-profesor-14-16-anos_7028715_0.html",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Un alto cargo de Nvidia en Taiwán, imputado por una trama de Supermicro para contrabandear servidores de IA a China",
+      "fuente": "Ars Technica",
+      "fecha": "24-08-2026 18:41",
+      "enlace": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Alibaba lanza Wan3.0, su nuevo modelo de IA que genera vídeos de hasta 30 segundos",
+      "fuente": "Hipertextual",
+      "fecha": "25-08-2026 00:20",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/wan-3-0-alibaba-modelo-video-ia/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Un estudio de Stanford confirma que la IA está golpeando más duro a los empleos de nivel inicial",
+      "fuente": "Ars Technica",
+      "fecha": "24-08-2026 23:45",
+      "enlace": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "El potente asistente de IA de Instinct genera preocupación por la privacidad y la seguridad",
+      "fuente": "TechCrunch",
+      "fecha": "24-08-2026 20:03",
+      "enlace": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "La SEC investiga a Situational Awareness, el fondo de cobertura estrella de la IA que estuvo a punto de colapsar",
+      "fuente": "TechCrunch",
+      "fecha": "25-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Las marcas de agua de IA de Microsoft en Paint y Fotos están vinculadas al ID del usuario, según un investigador",
+      "fuente": "The Register",
+      "fecha": "25-08-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/08/25/microsoft-ai-watermarks-in-paint-and-photos-are-linked-to-user-ids-researcher-finds/5292034",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Cómo sacar dinero a Macs antiguos conectándolos a un Borg de inferencia de IA",
+      "fuente": "The Register",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/08/24/conjure-cash-with-old-macs-by-linking-them-to-ai-inference-borg/5292002",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Un estudio de Pew confirma el fuerte aumento de textos escritos por IA en la web desde el lanzamiento de ChatGPT",
+      "fuente": "The Decoder",
+      "fecha": "24-08-2026",
+      "enlace": "https://the-decoder.com/pew-study-shows-ai-written-text-has-surged-across-the-web-since-late-2022/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Los usuarios pulsan el botón antibasura de IA de LinkedIn más de un millón de veces en tres semanas",
+      "fuente": "The Register",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/08/24/users-mash-linkedins-ai-slop-button-1m-times-in-3-weeks/5291802",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Valor y Point72 respaldan a General Intuition con una valoración de 6.000 millones de dólares mientras la startup de IA se lanza a la robótica",
+      "fuente": "TechCrunch",
+      "fecha": "24-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Las aerolíneas están a un paso de empezar a meter precios dinámicos utilizando la IA: el caso de Delta y lo que dice de nosotros",
+      "fuente": "Xataka",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.xataka.com/movilidad/aerolineas-estan-a-paso-empezar-a-meter-precios-dinamicos-utilizando-ia-caso-delta-que-dice-nosotros",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "La teoría del internet muerto se confirma: 1 de cada 3 páginas web ya está escrita con IA",
+      "fuente": "ComputerHoy",
+      "fecha": "24-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/teoria-internet-muerto-se-confirma-1-cada-3-paginas-web-ya-esta-escrita-con-ia_7028703_0.html",
+      "turno": "2026-08-25_M"
+    },
+    {
       "titulo": "Un agente de IA de Anthropic intento colar malware en un proyecto de codigo abierto con cuentas falsas",
       "fuente": "The Decoder",
       "fecha": "24-08-2026 16:23",
