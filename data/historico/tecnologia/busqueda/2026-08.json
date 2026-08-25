@@ -3,6 +3,216 @@
   "mes": "2026-08",
   "noticias": [
     {
+      "titulo": "Un ciberataque vinculado a Irán deja sin servicio una central eléctrica del Reino Unido",
+      "fuente": "The Register",
+      "fecha": "24-08-2026 18:59",
+      "enlace": "https://www.theregister.com/security/2026/08/24/iran-linked-cyberattack-shut-down-a-uk-power-plant/5291930",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Tesla retira casi tres millones de vehículos en China por sus manijas de puerta ocultas",
+      "fuente": "The Register",
+      "fecha": "24-08-2026 17:00",
+      "enlace": "https://www.theregister.com/offbeat/2026/08/24/tesla-to-recall-almost-three-million-vehicles-over-hidden-door-handles/5291757",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Amazon sube hasta un 60% el precio de sus dispositivos por la escasez de memoria",
+      "fuente": "TechCrunch",
+      "fecha": "24-08-2026 21:54",
+      "enlace": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Xiaomi presenta su propio chip de 3 nanómetros y reduce su dependencia de Qualcomm y MediaTek",
+      "fuente": "Xataka",
+      "fecha": "24-08-2026 21:01",
+      "enlace": "https://www.xataka.com/componentes/xiaomi-presenta-su-propio-soc-3-nm-principio-fin-dependencia-qualcomm-mediatek",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Oura, el fabricante del anillo inteligente, prepara una salida a bolsa que la valoraría en más de 16.000 millones",
+      "fuente": "TechCrunch",
+      "fecha": "25-08-2026 01:05",
+      "enlace": "https://techcrunch.com/2026/08/24/oura-is-reportedly-eyeing-a-september-ipo-that-could-value-it-at-more-than-16b/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "IBM presenta un chip que ejecuta instrucciones Arm y Z de forma nativa y simultánea",
+      "fuente": "The Register",
+      "fecha": "25-08-2026",
+      "enlace": "https://www.theregister.com/systems/2026/08/25/ibm-announces-chip-that-natively-executes-arm-and-z-instructions-concurrently/5292059",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Lenovo confirma problemas en la Legion Go tras quejas de jugadores por dispositivos inutilizados",
+      "fuente": "The Verge",
+      "fecha": "25-08-2026",
+      "enlace": "https://www.theverge.com/games/983457/lenovo-bad-legion-go-bios-update-bricked",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Detectan la puerta trasera «Sleepwalker», que no querrás tener en tu Windows",
+      "fuente": "The Register",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.theregister.com/security/2026/08/24/you-dont-want-this-sleepwalker-backdoor-on-your-windows-machine/5292021",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Los centros de datos de IA impulsan una nueva tecnología de transformadores de potencia",
+      "fuente": "Ars Technica",
+      "fecha": "24-08-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/08/energy-hungry-ai-data-centers-spur-new-power-transformer-technology/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Una herramienta de huella digital del navegador muestra lo fácil que es rastrearte con las últimas técnicas",
+      "fuente": "The Register",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.theregister.com/security/2026/08/24/browser-fingerprint-tool-shows-how-easy-you-are-to-track-using-the-latest-sneaky-tricks/5292015",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Zillow y Redfin llegan a un acuerdo con la FTC por su caso antimonopolio",
+      "fuente": "TechCrunch",
+      "fecha": "24-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/24/zillow-and-redfin-settle-ftc-antitrust-case/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "La publicidad y el rastreo que invadieron las televisiones ahora van a por los monitores",
+      "fuente": "Ars Technica",
+      "fecha": "24-08-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/08/ads-and-tracking-infiltrated-tvs-now-theyre-coming-for-monitors/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Threads prueba una función de transcripción de podcasts",
+      "fuente": "Engadget",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.engadget.com/2243126/threads-is-testing-a-podcast-transcription-feature/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "ESPN sube el precio de la mayoría de sus suscripciones de streaming, incluidos los paquetes con Disney+",
+      "fuente": "Engadget",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.engadget.com/2242821/espn-is-raising-prices-on-most-of-its-streaming-subscriptions/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Los robotaxis ya son una realidad, y también lo es el rechazo que generan",
+      "fuente": "The Verge",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.theverge.com/transportation/983765/robotaxi-waymo-zoox-tesla-rules-pushback-nhtsa",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Los primeros benchmarks de la LPU Groq 3 de Nvidia revelan lo que hay detrás de su apuesta de 20.000 millones",
+      "fuente": "The Register",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.theregister.com/systems/2026/08/24/what-nvidias-first-groq-3-lpu-benchmarks-tell-us-about-its-20b-gamble/5291880",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Los problemas de frenos en los eléctricos de GM atraen mayor vigilancia federal",
+      "fuente": "TechCrunch",
+      "fecha": "24-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/24/brake-problems-in-gm-evs-draw-greater-federal-scrutiny/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "El yate más rápido del mundo tenía tres turbinas, 60.000 CV y una obsesión: cruzar el Atlántico en 58 horas",
+      "fuente": "Xataka",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.xataka.com/movilidad/yate-rapido-mundo-tenia-tres-turbinas-60-000-cv-obsesion-cruzar-atlantico-58-horas",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "‘The Witcher 4’ se hará desear más de lo pensado, confirma CD Projekt: «La espera valdrá la pena»",
+      "fuente": "Hipertextual",
+      "fecha": "24-08-2026",
+      "enlace": "https://hipertextual.com/videojuegos/the-witcher-4-estara-disponible-en-2028-confirma-cd-projekt/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Ya es oficial: Digi tendrá la tele con menos fútbol de toda España",
+      "fuente": "ADSLZone",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/que-futbol-ofrecera-digi-temporada-26-27/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "China inicia uno de los mayores \"pasos atrás\" de la historia del automóvil: millones de coches serán retirados del mercado",
+      "fuente": "ComputerHoy",
+      "fecha": "24-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/china-inicia-uno-los-mayores-pasos-atras-historia-automovil-millones-coches-seran-retirados-mercado_7028711_0.html",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Rusia lleva años agitando el fantasma del torpedo nuclear Poseidón. Ahora ha sacado al mar el submarino capaz de portarlo",
+      "fuente": "Xataka",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.xataka.com/magnet/rusia-lleva-anos-agitando-fantasma-torpedo-nuclear-poseidon-ahora-ha-sacado-al-mar-submarino-capaz-portarlo",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Xiaomi presenta un chip seis veces más potente que el A19 del iPhone 17 Pro",
+      "fuente": "Hipertextual",
+      "fecha": "24-08-2026",
+      "enlace": "https://hipertextual.com/mobile/xiaomi-xring-o3-chip-caracteristicas/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "“¿Puedes votar por mi amigo?”: así pueden colarse en tu WhatsApp sin robarte la contraseña",
+      "fuente": "ADSLZone",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.adslzone.net/noticias/whatsapp/estafa-whatsapp-voto-dispositivo-vinculado/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Dos niños encontraron un Ferrari enterrado en el jardín de una casa y destapan una estafa que terminó saliendo mal",
+      "fuente": "ComputerHoy",
+      "fecha": "24-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/dos-ninos-encontraron-un-ferrari-enterrado-jardin-una-casa-destapan-una-estafa-que-termino-saliendo-mal_7028712_0.html",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Nuevos AirPods con cámaras: fecha de salida, características, funciones, precio y todo lo que creemos saber sobre ellos",
+      "fuente": "Xataka",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.xataka.com/nuevo/nuevos-airpods-camaras-fecha-salida-caracteristicas-funciones-precio-todo-que-creemos-saber-ellos",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Prime Video estrena el miércoles una nueva película que aspira a liderar el top 10",
+      "fuente": "ADSLZone",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/prime-video-sunrise-ultimo-amanecer-estreno/",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "Una empresa española probó la jornada laboral de 4 días y le salió muy mal: tuvo que despedir a uno de sus empleados porque se buscó un segundo trabajo",
+      "fuente": "ComputerHoy",
+      "fecha": "24-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/una-empresa-espanola-probo-jornada-laboral-4-dias-le-salio-muy-mal-tuvo-que-despedir-uno-sus-empleados-porque-se-busco-un-segundo-trabajo_7028705_0.html",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "En China, los robots humanoides ya montan a caballo. Lo curioso es que el caballo también es un robot",
+      "fuente": "Xataka",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/china-robots-humanoides-montan-a-caballo-curioso-que-caballo-tambien-robot",
+      "turno": "2026-08-25_M"
+    },
+    {
+      "titulo": "O2 aclara qué pasa con su nuevo router y el pago de 60 euros: «El WiFi 7 no es en propiedad»",
+      "fuente": "ADSLZone",
+      "fecha": "24-08-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-aclara-politica-devolucion-nuevo-router-60-euros/",
+      "turno": "2026-08-25_M"
+    },
+    {
       "titulo": "Apollo Global sufre una brecha de seguridad por ingeniería social que expone datos de empleados",
       "fuente": "The Register",
       "fecha": "24-08-2026 13:29",
