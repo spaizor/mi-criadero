@@ -1,4 +1,5 @@
-# Avisa cuando una rutina de noticias no ha publicado su turno.
+# Avisa cuando una rutina de noticias no ha publicado su turno, o cuando la
+# seccion de Ofertas se ha quedado sin su pasada de precios.
 #
 # Las rutinas no corren aqui sino en la nube de Anthropic, asi que GitHub no se
 # entera si fallan: no hay job que falle ni correo que salga. Lo unico que se ve
@@ -60,3 +61,17 @@ jobs:
       - name: Coherencia de las secciones
         if: always()
         run: python3 scripts/noticias.py comprobar
+
+      # La seccion de Ofertas no la actualiza una rutina sino precios.yml, y ahi
+      # el agujero es otro: ese workflow falla si ninguna tienda responde, pero
+      # solo las veces que llega a ejecutarse. El 27-08-2026 GitHub no lanzo su
+      # cron y la seccion se quedo con los precios del dia anterior sin que
+      # hubiera un job en rojo ni un correo. 'frescura' mira la marca de tiempo
+      # de data/ofertas.json y falla si es mas vieja de lo que cabe entre dos
+      # pasadas.
+      #
+      # Con 'always()' por lo mismo que el paso anterior: si fallan dos cosas
+      # interesa verlas en el mismo correo.
+      - name: Frescura de los precios
+        if: always()
+        run: python3 scripts/precios.py frescura

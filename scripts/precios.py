@@ -848,6 +848,76 @@ def cmd_probar(args):
     return 0
 
 
+# Horas que puede tener la ultima pasada antes de darla por perdida.
+#
+# Las dos pasadas salen a las 6:10 y las 14:10, y quien pregunta por esto es
+# vigilancia.yml a las 9:15 y las 21:15: en un dia normal lo mas viejo que
+# llega a verse son las 7 horas de la pasada del mediodia. Si una se salta
+# entera, lo que ve el vigilante son 19 horas (por la manana) o 15 (por la
+# tarde), asi que con el corte en 12 se cazan los dos casos y aun sobran tres
+# horas de margen para el retraso de los crons de GitHub, que el 26-08-2026
+# llego a ser de casi tres horas en este mismo repositorio.
+FRESCURA_MAXIMA = 12
+
+
+def cmd_frescura(args):
+    """Avisa si la ultima pasada de precios no ha llegado a ocurrir.
+
+    El workflow de precios ya falla cuando ninguna tienda responde, pero eso
+    solo cubre las veces en que llega a ejecutarse. El 27-08-2026 GitHub no
+    lanzo su cron, y un cron que no dispara no falla: no hay job en rojo, no
+    sale correo, y la seccion se queda con los precios de ayer sin que se
+    entere nadie. Es el mismo agujero que tapan 'estado' con las rutinas de
+    noticias y el 'timeout-minutes' con el cuelgue de Playwright: convertir un
+    fallo mudo en uno ruidoso.
+
+    Lo que NO cubre: que se salte el cron de este mismo vigilante, que es lo
+    que paso ese dia. Dos workflows del mismo repositorio se retrasan por el
+    mismo motivo, asi que esto caza la averia frecuente (precios falla, la
+    vigilancia corre) y no la simultanea. Taparla del todo pide vigilar desde
+    fuera de GitHub.
+    """
+    datos = leer_json(SALIDA)
+    cuando = datos.get("actualizado", "")
+    momento = None
+    try:
+        momento = datetime.strptime(cuando, FORMATO_FECHA_HORA)
+    except ValueError:
+        pass
+    if momento is None:
+        print("ERROR: data/ofertas.json no trae una fecha legible en "
+              f"'actualizado' (dice {cuando!r}). Sin ella no hay forma de "
+              "saber de cuando son los precios que esta publicando la web.")
+        return 1
+
+    horas = (datetime.now(ESPANA) - momento.replace(tzinfo=ESPANA)).total_seconds() / 3600
+    precios = [p for prod in datos.get("productos", []) for p in prod.get("precios", [])]
+    frescos = sum(1 for p in precios if p.get("estado") == "ok")
+    resumen = (f"{cuando}, hace {horas:.1f} h; {frescos} de {len(precios)} "
+               f"precios entraron en esa pasada")
+
+    if horas <= args.horas:
+        print(f"Precios al dia ({resumen}).")
+        return 0
+
+    print(f"ERROR: la seccion de Ofertas lleva {horas:.1f} horas sin "
+          f"actualizarse ({resumen}).")
+    # El limite es mayor que lo que separa dos pasadas seguidas, asi que
+    # haberlo pasado significa que una de las dos no ha llegado a publicar.
+    print(f"El limite son {args.horas:g} horas.")
+    print("Que mirar, en este orden:")
+    print("  1. https://github.com/spaizor/mi-criadero/actions/workflows/"
+          "precios.yml - si no hay run a la hora que tocaba, GitHub se salto "
+          "el cron y no es un fallo del script.")
+    print("  2. Si el run esta pero en rojo, el log dice si fue que ninguna "
+          "tienda respondio (bloqueo al runner) o un cuelgue.")
+    print("  3. La pasada perdida se recupera lanzando 'Precios' a mano desde "
+          "Actions, que para eso tiene workflow_dispatch. Al reves que un "
+          "turno de noticias, aqui no se pierde nada: la ficha de la tienda "
+          "sigue teniendo el precio de hoy.")
+    return 1
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     ordenes = parser.add_subparsers(dest="orden", required=True)
@@ -860,6 +930,13 @@ def main():
     p.add_argument("--rehacer", action="store_true",
                    help="reescribir tambien los meses que ya tengan fichero")
     p.set_defaults(func=cmd_sembrar)
+
+    p = ordenes.add_parser(
+        "frescura", help="avisa si la ultima pasada no ha llegado a ocurrir")
+    p.add_argument("--horas", type=float, default=FRESCURA_MAXIMA,
+                   metavar="N", help=f"limite en horas (por defecto "
+                                     f"{FRESCURA_MAXIMA})")
+    p.set_defaults(func=cmd_frescura)
 
     p = ordenes.add_parser("probar", help="comprueba una ficha suelta")
     p.add_argument("url")
