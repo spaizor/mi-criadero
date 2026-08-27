@@ -3,6 +3,153 @@
   "mes": "2026-08",
   "noticias": [
     {
+      "titulo": "Nvidia compra Hugging Face por 12.900 millones de dólares",
+      "fuente": "The Decoder",
+      "fecha": "27-08-2026 12:49",
+      "enlace": "https://the-decoder.com/nvidia-snaps-up-hugging-face-for-12-9-billion-as-closed-ai-labs-pull-away/",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "1.200 agentes de OpenAI se coordinaron sin permiso para hacer trampas en un test y acabaron dentro de Hugging Face",
+      "fuente": "Ars Technica",
+      "fecha": "27-08-2026 14:58",
+      "enlace": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "GLM-5.3-Flash, el modelo chino que iguala a los grandes sin depender de chips de Nvidia",
+      "fuente": "The Decoder",
+      "fecha": "27-08-2026 12:24",
+      "enlace": "https://the-decoder.com/the-chinese-ai-model-glm-5-3-flash-runs-without-nvidia-and-costs-a-fraction-of-what-the-competition-does/",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "OpenAI empezará a mostrar anuncios en ChatGPT gratis y Go, primero en la India",
+      "fuente": "TechCrunch",
+      "fecha": "27-08-2026 13:35",
+      "enlace": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "Cuánta agua gasta realmente la IA",
+      "fuente": "Ars Technica",
+      "fecha": "27-08-2026 15:57",
+      "enlace": "https://arstechnica.com/ai/2026/08/how-much-of-a-problem-is-ais-water-use/",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "El hambre de memoria de la IA amenaza a las aplicaciones de Android",
+      "fuente": "TechCrunch",
+      "fecha": "27-08-2026 16:27",
+      "enlace": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "Hugging Face vende un tierno robot pato de código abierto, Microduck, por 399 dólares",
+      "fuente": "TechCrunch",
+      "fecha": "27-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "Claude, Codex y Hermes han instalado código sin propietario dentro de redes corporativas",
+      "fuente": "Ars Technica",
+      "fecha": "27-08-2026",
+      "enlace": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "Un repaso a todas las veces que la IA se ha descontrolado y ha hackeado otras empresas",
+      "fuente": "TechCrunch",
+      "fecha": "27-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "HP propone una solución a los caros tokens de IA: comprar un PC más caro",
+      "fuente": "The Register",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.theregister.com/personal-tech/2026/08/27/hp-has-a-solution-to-expensive-ai-tokens-buy-a-more-expensive-pc/5292922",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "Microsoft repinta de IA su hoja de ruta de Microsoft 365",
+      "fuente": "The Register",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.theregister.com/software/2026/08/27/microsoft-slaps-a-fresh-coat-of-ai-paint-on-the-microsoft-365-roadmap/5292865",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "Adobe añade más IA a Photoshop con un editor asistido",
+      "fuente": "The Verge",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "Los nuevos auriculares de Plaud incluyen una funda con eSIM para hablar con agentes de IA",
+      "fuente": "TechCrunch",
+      "fecha": "27-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "Claude Cowork ya ejecuta su propio navegador dentro de la app de escritorio",
+      "fuente": "The Decoder",
+      "fecha": "27-08-2026",
+      "enlace": "https://the-decoder.com/claude-cowork-now-runs-its-own-browser-inside-the-desktop-app/",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "¿Quieres liderar la estrategia de IA del Gobierno británico? La experiencia en IA no es imprescindible",
+      "fuente": "The Register",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/08/27/want-to-lead-whitehalls-ai-strategy-ai-experience-is-not-essential/5292894",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "El uso de IA entre los profesores británicos se duplica, pero sus horas de trabajo no bajan",
+      "fuente": "The Register",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.theregister.com/public-sector/2026/08/27/ai-use-among-uk-teachers-doubles-but-working-hours-still-dont-come-down/5292551",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "Nutanix monta un clúster de IA de 20 millones de dólares para reducir el uso de Copilot y Claude",
+      "fuente": "The Register",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.theregister.com/virtualization/2026/08/27/nutanix-built-20m-ai-cluster-to-reduce-use-of-copilot-and-claude-expects-roi-in-a-year/5292823",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "Nvidia lanza DLSS 4.5 Ray Reconstruction: así es la nueva IA que mejora la imagen de tus juegos sin tener que cambiar de gráfica",
+      "fuente": "Xataka",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.xataka.com/videojuegos/nvidia-lanza-dlss-4-5-ray-reconstruction-asi-nueva-ia-que-mejora-imagen-tus-juegos-tener-que-cambiar-grafica",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "Google crea un modelo de inteligencia artificial que transforma tus pensamientos en texto",
+      "fuente": "ComputerHoy",
+      "fecha": "27-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-crea-un-modelo-inteligencia-artificial-que-transforma-tus-pensamientos-texto_7029840_0.html",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "Mark Zuckerberg quiso convertir a Meta en \"nativa de IA\" reduciendo un 60% el tamaño de sus equipos. Ha sido un completo desastre",
+      "fuente": "Xataka",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/mark-zuckerberg-quiso-convertir-a-meta-nativa-ia-reduciendo-60-tamano-sus-equipos-ha-sido-completo-desastre",
+      "turno": "2026-08-27_T"
+    },
+    {
+      "titulo": "OpenAI ya tiene listo su chip de inferencia. Se llama Jalapeño y ha conseguido algo inesperado: superar a Nvidia",
+      "fuente": "Xataka",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/openai-tiene-listo-su-chip-inferencia-se-llama-jalapeno-ha-conseguido-algo-inesperado-superar-a-nvidia",
+      "turno": "2026-08-27_T"
+    },
+    {
       "titulo": "OpenAI publica su informe oficial sobre el hackeo de Hugging Face por un modelo fuera de control",
       "fuente": "TechCrunch",
       "fecha": "26-08-2026 21:05",
