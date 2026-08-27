@@ -169,6 +169,47 @@ function pintarAvisos(datos) {
 }
 
 
+// El aviso de que la web puede no estar al dia. Lo escribe 'noticias.py
+// vigilar' en data/vigilancia.json desde una rutina de Claude, que corre fuera
+// de GitHub y por eso puede avisar cuando lo que ha fallado es el propio cron
+// de GitHub. Casi siempre esta vacio, como los de precio.
+async function pintarVigilancia() {
+  const caja = document.getElementById('avisos');
+  if (!caja) return;
+
+  let datos;
+  try {
+    const resp = await fetch('data/vigilancia.json?v=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    datos = await resp.json();
+  } catch (e) {
+    return;  // sin fichero no hay aviso, que es el caso normal
+  }
+
+  const avisos = datos.avisos || [];
+  if (!avisos.length) return;
+
+  // Un solo bloque con todo, y delante de los avisos de precio: este dice que
+  // lo de debajo puede no ser de hoy, asi que leerlo despues no sirve de nada.
+  caja.insertAdjacentHTML('afterbegin', `
+    <div class="aviso-precio aviso-vigilancia">
+      <span class="aviso-icono" aria-hidden="true">⚠</span>
+      <span>
+        <span class="aviso-texto"></span>
+        <span class="aviso-cuando"></span>
+      </span>
+    </div>`);
+
+  const nodo = caja.querySelector('.aviso-vigilancia');
+  // textContent y no HTML, igual que en el resto de la web: esto sale de un
+  // JSON que escribe un script.
+  nodo.querySelector('.aviso-texto').textContent =
+    avisos.map((a) => a.texto).join(' ');
+  nodo.querySelector('.aviso-cuando').textContent =
+    'Comprobado el ' + (datos.comprobado || '?');
+}
+
+
 async function cargarPortada() {
   const entradas = document.querySelectorAll('.entrada[data-json]');
 
@@ -202,4 +243,4 @@ async function cargarPortada() {
   }));
 }
 
-cargarPortada();
+cargarPortada().then(pintarVigilancia);

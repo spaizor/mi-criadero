@@ -16,8 +16,10 @@ Solo biblioteca estandar: las rutinas corren en un entorno que no controlamos.
 """
 
 import argparse
+import contextlib
 import functools
 import gzip
+import io
 import json
 import re
 import subprocess
@@ -51,6 +53,11 @@ FORMATO_FECHA_HORA = "%d-%m-%Y %H:%M"
 FORMATO_FECHA = "%d-%m-%Y"
 
 # Limites de reparto. Son los del prompt: si se cambian ahi, cambiarlos aqui.
+#
+# Las destacadas pasaron de 5 a 7 el 27-08-2026. Con el maximo de 2 por medio
+# eso pide 4 medios distintos en vez de 3, que las secciones anchas cubren de
+# sobra: tecnologia trae 84 candidatos por turno de 11 medios.
+DESTACADAS = 7
 MAX_DESTACADAS_POR_MEDIO = 2
 MAX_TITULARES_POR_MEDIO = 5
 MAX_TITULARES = 25
@@ -67,6 +74,11 @@ MIN_MEDIOS_TITULARES = {"M": 5, "T": 3}
 # valen para algo mientras signifiquen que ha pasado algo raro.
 CUPOS = {
     "ia": {
+        # 6 y no 7: 'ia' da 18 candidatos por turno y sus mananas se han
+        # quedado en 13-14 noticias en total. La septima destacada saldria de
+        # rascar el fondo justo en los turnos flojos, que es cuando peor idea
+        # es. Aqui el numero no lo manda el formato, lo manda lo que hay.
+        "destacadas": 6,
         "max_titulares": 15,
         "min_titulares": {"M": 8, "T": 5},
         "min_medios": {"M": 4, "T": 3},
@@ -1021,8 +1033,9 @@ def cmd_validar(args):
     validar_reparto(rev, args.seccion, destacadas, titulares, turno)
     validar_horas_inventadas(rev, destacadas)
 
-    if len(destacadas) < 5:
-        rev.aviso(f"Solo {len(destacadas)} destacadas de 5.")
+    esperadas = cupo(args.seccion, "destacadas", DESTACADAS)
+    if len(destacadas) < esperadas:
+        rev.aviso(f"Solo {len(destacadas)} destacadas de {esperadas}.")
     minimo = cupo(args.seccion, "min_titulares", MIN_TITULARES).get(turno, 15)
     tope = cupo(args.seccion, "max_titulares", MAX_TITULARES)
     if len(titulares) < minimo:
@@ -1513,6 +1526,112 @@ def cmd_estado(args):
     return 1
 
 
+# --------------------------------------------------------------------------
+# vigilar: las tres comprobaciones juntas, y el aviso a la portada
+# --------------------------------------------------------------------------
+
+# Lo que 'vigilar' deja escrito para que lo pinte la portada. Va en data/, que
+# es lo unico que publica 'publicar', y no lleva historico: es el estado de
+# ahora, no una serie.
+VIGILANCIA = RAIZ / "data" / "vigilancia.json"
+
+
+def _con_la_salida_recogida(func, args):
+    """Lanza un comando sin que imprima, y devuelve (ok, sus lineas)."""
+    salida = io.StringIO()
+    with contextlib.redirect_stdout(salida):
+        codigo = func(args)
+    return codigo == 0, salida.getvalue().splitlines()
+
+
+def _resumen(lineas, tope=300):
+    """Que pasa, en una frase: sin la tabla, el prefijo ni las explicaciones.
+
+    Esto acaba en la portada de la web, asi que se queda con las lineas que
+    dicen algo y quita el 'ERROR:' de delante: en el terminal separa lo grave
+    de lo sospechoso, pero en una banda de aviso con su simbolo al lado solo
+    grita.
+    """
+    utiles = []
+    for linea in lineas:
+        linea = linea.strip()
+        if linea.startswith(("ERROR:", "AVISO:")):
+            utiles.append(linea.split(":", 1)[1].strip())
+        elif linea.startswith("Falta"):
+            utiles.append(linea.rstrip(":"))
+        elif linea.startswith("- "):
+            # Los detalles de 'estado' vienen como lista; aqui van seguidos.
+            utiles.append(linea[2:].rstrip("."))
+    if not utiles:
+        return next((l for l in reversed(lineas) if l.strip()), "")[:tope]
+    texto = utiles[0] + (": " + ", ".join(utiles[1:]) if len(utiles) > 1 else "")
+    return (texto[0].upper() + texto[1:])[:tope]
+
+
+def cmd_vigilar(args):
+    """Las tres comprobaciones, y un aviso en la portada si alguna falla.
+
+    Existe porque el vigilante de GitHub no puede vigilarse a si mismo. El
+    27-08-2026 no dispararon ni el cron de precios ni el de vigilancia.yml, o
+    sea que la seccion de Ofertas se quedo un dia entera sin actualizar y lo
+    unico que habia para enterarse era un job que tampoco corrio. Dos
+    workflows del mismo repositorio se retrasan por el mismo motivo, asi que
+    el segundo vigilante tenia que estar en otra infraestructura: una rutina
+    de Claude, que corre en la nube de Anthropic.
+
+    Dos decisiones que lo hacen barato y silencioso:
+
+    - **Todo el trabajo esta aqui y no en el prompt de la rutina.** Es la regla
+      del proyecto: una instruccion en el prompt se paga en cada ejecucion y
+      ademas puede olvidarse. El prompt es una linea y el modelo no tiene que
+      decidir nada, asi que la ejecucion cuesta segundos.
+    - **Solo se escribe el fichero cuando cambia lo que dice.** En un dia
+      normal no hay avisos, el fichero se queda como estaba y no hay commit:
+      un commit diario que solo mueve una marca de tiempo es ruido en el
+      historial, igual que en la serie de precios.
+    """
+    from precios import revisar_frescura  # aqui, que precios.py importa de este
+
+    avisos = []
+    ok, lineas = _con_la_salida_recogida(
+        cmd_estado, argparse.Namespace(dias=args.dias, local=args.local))
+    if not ok:
+        avisos.append({"que": "turnos", "texto": _resumen(lineas)})
+
+    ok, lineas = _con_la_salida_recogida(cmd_comprobar, argparse.Namespace())
+    if not ok:
+        avisos.append({"que": "secciones", "texto": _resumen(lineas)})
+
+    ok, lineas = revisar_frescura()
+    if not ok:
+        avisos.append({"que": "precios", "texto": _resumen(lineas)})
+
+    previos = leer_json(VIGILANCIA).get("avisos", []) if VIGILANCIA.exists() else []
+    for aviso in avisos:
+        print(f"{aviso['que'].upper()}: {aviso['texto']}")
+    if not avisos:
+        print("Todo en orden: turnos publicados, secciones completas y precios "
+              "de hoy.")
+
+    if [a["texto"] for a in previos] == [a["texto"] for a in avisos]:
+        print("Sin cambios desde la ultima vigilancia: no se toca data/.")
+        return 1 if avisos else 0
+
+    if args.probar:
+        print("(--probar: no se escribe ni se publica nada.)")
+        return 1 if avisos else 0
+
+    escribir_json(VIGILANCIA, {
+        "comprobado": datetime.now(ESPANA).strftime(FORMATO_FECHA_HORA),
+        "avisos": avisos,
+    })
+    cmd_publicar(argparse.Namespace(
+        mensaje=(f"Vigilancia: {len(avisos)} aviso"
+                 f"{'s' if len(avisos) != 1 else ''}" if avisos
+                 else "Vigilancia: todo en orden otra vez")))
+    return 1 if avisos else 0
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     ordenes = parser.add_subparsers(dest="orden", required=True)
@@ -1561,6 +1680,16 @@ def main():
     p = ordenes.add_parser("publicar", help="commit y push de data/")
     p.add_argument("mensaje")
     p.set_defaults(func=cmd_publicar)
+
+    p = ordenes.add_parser(
+        "vigilar", help="estado + comprobar + frescura, y avisa en la portada")
+    p.add_argument("--dias", type=int, default=2,
+                   help="dias hacia atras que se revisan, contando hoy")
+    p.add_argument("--local", action="store_true",
+                   help="no traer origin/main, comparar con la copia local")
+    p.add_argument("--probar", action="store_true",
+                   help="ensenar lo que avisaria sin escribir ni publicar")
+    p.set_defaults(func=cmd_vigilar)
 
     p = ordenes.add_parser("estado", help="que turnos faltan por publicar")
     p.add_argument("--dias", type=int, default=2,

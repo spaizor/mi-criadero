@@ -860,7 +860,15 @@ def cmd_probar(args):
 FRESCURA_MAXIMA = 12
 
 
-def cmd_frescura(args):
+def revisar_frescura(limite=FRESCURA_MAXIMA):
+    """(ok, lineas) sin imprimir nada, para que 'noticias.py vigilar' lo use."""
+    args = argparse.Namespace(horas=limite)
+    lineas = []
+    codigo = cmd_frescura(args, lineas.append)
+    return codigo == 0, lineas
+
+
+def cmd_frescura(args, escribir=print):
     """Avisa si la ultima pasada de precios no ha llegado a ocurrir.
 
     El workflow de precios ya falla cuando ninguna tienda responde, pero eso
@@ -885,9 +893,9 @@ def cmd_frescura(args):
     except ValueError:
         pass
     if momento is None:
-        print("ERROR: data/ofertas.json no trae una fecha legible en "
-              f"'actualizado' (dice {cuando!r}). Sin ella no hay forma de "
-              "saber de cuando son los precios que esta publicando la web.")
+        escribir("ERROR: data/ofertas.json no trae una fecha legible en "
+                 f"'actualizado' (dice {cuando!r}). Sin ella no hay forma de "
+                 "saber de cuando son los precios que esta publicando la web.")
         return 1
 
     horas = (datetime.now(ESPANA) - momento.replace(tzinfo=ESPANA)).total_seconds() / 3600
@@ -897,24 +905,24 @@ def cmd_frescura(args):
                f"precios entraron en esa pasada")
 
     if horas <= args.horas:
-        print(f"Precios al dia ({resumen}).")
+        escribir(f"Precios al dia ({resumen}).")
         return 0
 
-    print(f"ERROR: la seccion de Ofertas lleva {horas:.1f} horas sin "
-          f"actualizarse ({resumen}).")
+    escribir(f"ERROR: la seccion de Ofertas lleva {horas:.1f} horas sin "
+             f"actualizarse ({resumen}).")
     # El limite es mayor que lo que separa dos pasadas seguidas, asi que
     # haberlo pasado significa que una de las dos no ha llegado a publicar.
-    print(f"El limite son {args.horas:g} horas.")
-    print("Que mirar, en este orden:")
-    print("  1. https://github.com/spaizor/mi-criadero/actions/workflows/"
-          "precios.yml - si no hay run a la hora que tocaba, GitHub se salto "
-          "el cron y no es un fallo del script.")
-    print("  2. Si el run esta pero en rojo, el log dice si fue que ninguna "
-          "tienda respondio (bloqueo al runner) o un cuelgue.")
-    print("  3. La pasada perdida se recupera lanzando 'Precios' a mano desde "
-          "Actions, que para eso tiene workflow_dispatch. Al reves que un "
-          "turno de noticias, aqui no se pierde nada: la ficha de la tienda "
-          "sigue teniendo el precio de hoy.")
+    escribir(f"El limite son {args.horas:g} horas.")
+    escribir("Que mirar, en este orden:")
+    escribir("  1. https://github.com/spaizor/mi-criadero/actions/workflows/"
+             "precios.yml - si no hay run a la hora que tocaba, GitHub se "
+             "salto el cron y no es un fallo del script.")
+    escribir("  2. Si el run esta pero en rojo, el log dice si fue que "
+             "ninguna tienda respondio (bloqueo al runner) o un cuelgue.")
+    escribir("  3. La pasada perdida se recupera lanzando 'Precios' a mano "
+             "desde Actions, que para eso tiene workflow_dispatch. Al reves "
+             "que un turno de noticias, aqui no se pierde nada: la ficha de "
+             "la tienda sigue teniendo el precio de hoy.")
     return 1
 
 

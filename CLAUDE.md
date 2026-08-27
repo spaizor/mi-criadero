@@ -101,6 +101,7 @@ python3 scripts/noticias.py indexar    <seccion>   rehace el indice del buscador
 python3 scripts/noticias.py comprobar              secciones dadas de alta enteras
 python3 scripts/noticias.py publicar   "<mensaje>" commit de data/ y push
 python3 scripts/noticias.py estado                 que turnos faltan por publicar
+python3 scripts/noticias.py vigilar                las tres comprobaciones, desde la rutina
 ```
 
 - `validar` distingue **ERROR** (algo objetivamente mal: sale con codigo 1) de
@@ -132,7 +133,7 @@ horas y fuentes inventadas— en la mitad del contenido. Asi que el reparto de
 trabajo es ahora este:
 
 1. `candidatos` da la materia prima.
-2. El modelo escribe `data/<seccion>.json` con **las 5 destacadas y los
+2. El modelo escribe `data/<seccion>.json` con **las 7 destacadas y los
    titulares de los medios de fuera**, que si hay que traducir.
 3. `titulares <seccion>` anade los de los medios `"idioma": "es"` leyendolos
    del feed, y reescribe el fichero.
@@ -436,7 +437,7 @@ Las lineas que empiezan por `#` son el parte de la descarga y hay que leerlas:
   (su feed responde, pero la ultima entrada es de febrero de 2023).
 
 La lista es el **minimo**, no el techo: si un dia da poco, se busca ademas por
-fuera. Y `candidatos` no cubre las 5 destacadas, que siguen exigiendo abrir y
+fuera. Y `candidatos` no cubre las destacadas, que siguen exigiendo abrir y
 leer el articulo.
 
 ### Un medio "que bloquea a los scripts" casi nunca bloquea
@@ -511,7 +512,8 @@ igual que en Amazon: ahi el limite tampoco era tecnico.
 
 ## Formato de los JSON de contenido
 
-Cada seccion tiene dos niveles: **5 destacadas** que la rutina abre y lee, y
+Cada seccion tiene dos niveles: **7 destacadas** que la rutina abre y lee (6
+en `ia`, ver mas abajo), y
 hasta **25 titulares** que salen del listado del medio sin abrir el articulo.
 Los titulares se pintan en un bloque plegable debajo de las destacadas.
 
@@ -567,7 +569,7 @@ Los dos motivos por los que la division en dos no se hizo estan en esa tabla:
   redes sociales, software, juicios, centros de datos. Sin una seccion que las
   recoja se pierden, y con ella la division no es tal, son dos secciones nuevas.
 - **Hardware no da de comer.** 7,2 candidatos por turno contra los 30 que pide
-  el formato (5 destacadas + 25 titulares). Saldria medio vacia dos veces al
+  el formato (7 destacadas + 25 titulares). Saldria medio vacia dos veces al
   dia, que es peor que no tenerla.
 
 IA si da, pero **no con los feeds de tecnologia** (9,5 por turno). Da con feeds
@@ -579,8 +581,9 @@ Hipertextual, cuya ruta con `/categoria/` delante da 410).
 
 Tres cosas que hay que saber para no romperla:
 
-- **Los cupos de esta seccion son mas bajos** (15 titulares de tope, 8 minimos
-  por la manana), y viven en `CUPOS` dentro de `noticias.py`. Una seccion
+- **Los cupos de esta seccion son mas bajos** (6 destacadas en vez de 7, 15
+  titulares de tope, 8 minimos por la manana), y viven en `CUPOS` dentro de
+  `noticias.py`. Una seccion
   estrecha no es una seccion mal hecha: pedirle los 25 de tecnologia solo
   conseguiria que `validar` avisara en todas las ejecuciones. Ahi esta tambien
   la unica regla que cambia de rango: **no traer ninguna destacada de un medio
@@ -1022,6 +1025,41 @@ entera pide vigilar desde fuera de GitHub.
 los feeds solo dan lo reciente, pero la ficha de la tienda sigue teniendo el
 precio de hoy. Por eso el error manda a lanzar `Precios` a mano desde Actions,
 para lo que ya estaba el `workflow_dispatch`.
+
+### `noticias.py vigilar`: el vigilante que no vive en GitHub
+
+El 27-08-2026 no dispararon **ni el cron de precios ni el de `vigilancia.yml`**.
+O sea que el agujero que se acababa de tapar seguia abierto por debajo: el
+vigilante que avisa de los fallos de GitHub **vive en GitHub**, y cuando lo que
+falla es el planificador, callan los dos a la vez. No es mala suerte: dos
+workflows del mismo repositorio se retrasan por el mismo motivo.
+
+`vigilar` es esa misma comprobacion desde otra infraestructura. Lo lanza una
+**rutina de Claude**, que corre en la nube de Anthropic: hace `estado`,
+`comprobar` y `frescura`, y si algo falla escribe `data/vigilancia.json` y lo
+publica. La portada lo pinta como una banda de aviso, que es donde se mira
+todos los dias sin tener que acordarse.
+
+Cuatro decisiones:
+
+- **Todo el trabajo esta en el script, no en el prompt.** Es la regla de este
+  proyecto llevada al extremo: el prompt de la rutina es una linea, el modelo
+  no decide nada y la ejecucion cuesta segundos. Una rutina que solo mira si
+  algo va mal no puede costar como una que escribe noticias.
+- **Solo se escribe el fichero cuando cambia lo que dice.** En un dia normal no
+  hay avisos y no hay commit; el dia que se arregla, se escribe una vez la
+  lista vacia y la banda desaparece sola. Un commit diario que solo mueve una
+  marca de tiempo es ruido, igual que en la serie de precios.
+- **Una vez al dia, por la manana** (9:30, despues del `LIMITE_TURNO` de la
+  manana). Es el minimo que caza un fallo el mismo dia; la segunda pasada la
+  sigue haciendo el workflow, que para eso es gratis.
+- **El aviso va delante de los de precio y con color de alerta**, no con el
+  verde de ofertas: no habla de un precio, dice que lo que hay debajo puede no
+  ser de hoy. Leerlo despues no serviria de nada.
+
+Lo que **no** arregla: si un dia falla la rutina en si, nadie avisa. Se podria
+seguir encadenando vigilantes para siempre; a partir de aqui lo razonable es
+que dos infraestructuras distintas no callen el mismo dia.
 
 ### `assets/secciones.json` y el comando `comprobar`
 

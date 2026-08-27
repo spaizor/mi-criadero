@@ -10,6 +10,7 @@
   --acento-ia: #a78bfa;
   --acento-nin: #e60012;
   --acento-ofe: #2fbf71;
+  --acento-alerta: #e0a33e;
 }
 
 * { box-sizing: border-box; }
@@ -143,6 +144,23 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 }
 
 .aviso-icono { font-size: 1.15rem; }
+
+/* El aviso de vigilancia. Lo escribe 'noticias.py vigilar' desde una rutina,
+   que corre fuera de GitHub: es el unico que puede avisar de que los propios
+   vigilantes de GitHub no han llegado a correr. Va con el color de alerta y
+   no con el verde de ofertas porque no habla de un precio, sino de que lo que
+   hay debajo puede no estar al dia. */
+.aviso-vigilancia {
+  background: color-mix(in srgb, var(--acento-alerta) 12%, var(--fondo-tarjeta));
+  border-color: var(--acento-alerta);
+}
+
+.aviso-vigilancia .aviso-cuando {
+  display: block;
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+  margin-top: 2px;
+}
 
 .entradas {
   display: flex;
@@ -778,5 +796,6 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
     --texto: #1a1d23;
     --texto-suave: #5f6673;
     --acento-tec: #1a73e8;
+    --acento-alerta: #b4741a;
   }
 }
