@@ -16,6 +16,7 @@ Solo biblioteca estandar: las rutinas corren en un entorno que no controlamos.
 """
 
 import argparse
+import functools
 import gzip
 import json
 import re
@@ -328,6 +329,50 @@ def de_otra_seccion(enlace, medio):
     return any(ruta.lower() in enlace for ruta in rutas)
 
 
+@functools.lru_cache(maxsize=None)
+def _patron_de_ruta(terminos):
+    return patron_de(list(terminos))
+
+
+def ruido_de_la_ruta(titulo, enlace, medio):
+    """Ruido dentro de una categoria que el medio no separa sola.
+
+    'excluir_rutas' tira una categoria entera y por eso no puede equivocarse.
+    Pero hay categorias que mezclan dos cosas, y ahi tirarla entera cuesta
+    noticias buenas: adslzone.net/noticias/streaming-tv/ trae los estrenos de
+    las plataformas (ruido) junto al negocio de esas mismas plataformas
+    (noticia). Por eso se probo excluirla el 22-08-2026 y se descarto.
+
+    Medido el 27-08-2026 sobre las 57 entradas que tenia la portada de esa
+    categoria, unos cinco dias: 54 eran estrenos y programacion y 3 eran
+    noticia de tecnologia ('YouTube Premium sube otra vez de precio en
+    Espana', 'Se acaba el chollo de compartir YouTube Premium', 'Los nuevos
+    Fire TV de Amazon volveran a permitir instalar aplicaciones externas').
+    Con la lista de terminos de la ruta caen 34 de los 37 ruidos de los que se
+    tenia el titular entero, y ninguna de las 3 buenas.
+
+    Esto SI mira el titular, o sea que puede equivocarse, y de ahi que vaya
+    atado a una ruta concreta en vez de al medio entero. La misma lista sobre
+    las otras rutas de ADSLZone se llevaba 16 de 104 publicadas, y entre ellas
+    'Movistar, Orange o DAZN: compara cuanto pagaras por ver todo el futbol' y
+    'Digi tendra la tele con menos futbol de toda Espana', que son noticias de
+    telecos de pleno derecho. Dentro de /streaming-tv/ 'futbol' es
+    programacion; en /operadores/ es el negocio. La lista no se puede sacar de
+    su ruta.
+    """
+    rutas = medio.get("excluir_en_ruta")
+    if not rutas:
+        return False
+    minuscula = enlace.lower()
+    for ruta, terminos in rutas.items():
+        if ruta.lower() not in minuscula:
+            continue
+        patron = _patron_de_ruta(tuple(terminos))
+        if patron and patron.search(sin_tildes(titulo)):
+            return True
+    return False
+
+
 def es_de_otra_seccion(titulo, ajeno):
     """Titular que le toca a la seccion hermana. Se aplica a todos los medios.
 
@@ -524,6 +569,9 @@ def cmd_candidatos(args):
             if de_otra_seccion(enlace, medio):
                 descartes["de otra seccion del propio medio"] += 1
                 continue
+            if ruido_de_la_ruta(titulo, enlace, medio):
+                descartes["estrenos y programacion de TV"] += 1
+                continue
             if fuera_de_tema(titulo, tema, medio):
                 descartes["de otra plataforma"] += 1
                 continue
@@ -681,6 +729,8 @@ def cmd_titulares(args):
                 descartes["guias, ofertas y analisis"] += 1
             elif de_otra_seccion(enlace, medio):
                 descartes["de otra seccion del propio medio"] += 1
+            elif ruido_de_la_ruta(titulo, enlace, medio):
+                descartes["estrenos y programacion de TV"] += 1
             elif fuera_de_tema(titulo, tema, medio):
                 descartes["de otra plataforma"] += 1
             elif es_de_otra_seccion(titulo, ajeno):

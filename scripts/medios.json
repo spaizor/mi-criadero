@@ -24,7 +24,8 @@
       "comprobado": "true solo si se ha abierto el feed y trae noticias recientes.",
       "filtrar_tema": "Opcional. true en los medios generalistas, que publican de todas las plataformas. Hace que se les aplique el 'tema' de la seccion.",
       "nota": "Opcional. Avisos: feed lento, hay que filtrar por tema, codificacion rara, etc.",
-      "excluir_rutas": "Opcional. Lista de trozos de URL cuya categoria no es de esta seccion: si el enlace los contiene, el titular se descarta. Se filtra por el enlace y no por el titular a proposito, asi que no puede haber falsos positivos: no se adivina de que va la noticia, se lee la seccion en la que el propio medio la ha colgado. Solo sirve en medios que ponen la categoria en la URL."
+      "excluir_rutas": "Opcional. Lista de trozos de URL cuya categoria no es de esta seccion: si el enlace los contiene, el titular se descarta. Se filtra por el enlace y no por el titular a proposito, asi que no puede haber falsos positivos: no se adivina de que va la noticia, se lee la seccion en la que el propio medio la ha colgado. Solo sirve en medios que ponen la categoria en la URL.",
+      "excluir_en_ruta": "Opcional. Ruta -> lista de terminos: dentro de esa categoria del medio se descarta el titular que mencione uno de ellos. Es el ultimo recurso, para la categoria que mezcla dos cosas y no se puede tirar entera con 'excluir_rutas'. Mira el titular, asi que puede equivocarse: por eso va atada a una ruta y no al medio entero."
     },
     "tema": {
       "que_es": "Opcional, por seccion. Su lista 'propio' son los terminos que hacen que un titular sea de esta seccion: la consola, la marca y sus sagas.",
@@ -41,7 +42,14 @@
       "como_comprobar_uno_nuevo": "Igual que 'tema': medirlo. Agrupar por el primer tramo de la URL lo ya publicado de ese medio y mirar que caeria. Si cae una sola noticia buena, la ruta sobra.",
       "cuando_no_sirve": "En medios que no categorizan en la URL. Los de Nintendo cuelgan todo de una ruta unica (GoNintendo /contents/, Nintendo Life /news/), asi que ahi el trabajo lo hace 'tema'."
     },
-    "verificado_el": "21-08-2026"
+    "excluir_en_ruta": {
+      "que_es": "Ruta del medio mas los terminos de ruido que hay dentro de ella. Se comparan como palabra suelta y sin tildes, igual que en 'tema'.",
+      "antes_que_esto": "Probar 'excluir_rutas'. Tirar la categoria entera no puede dar falsos positivos y esto si, asi que solo se usa donde la categoria mezcla dos cosas.",
+      "por_que": "adslzone.net/noticias/streaming-tv/ se quiso excluir entera el 22-08-2026 y no se pudo: junto a los estrenos cuelga el negocio de las plataformas, que si es noticia ('YouTube Premium sube otra vez de precio en Espana'). Medido el 27-08-2026 sobre las 57 entradas de la portada de esa categoria: 54 eran estrenos y programacion y 3 noticia de tecnologia. La lista caza 34 de los 37 ruidos de los que se tenia el titular entero y ninguna de las 3 buenas.",
+      "cuidado": "La lista NO se puede sacar de su ruta. Aplicada a las otras rutas de ADSLZone se llevaba 16 de 104 publicadas, entre ellas 'Movistar, Orange o DAZN: compara cuanto pagaras por ver todo el futbol' y 'Digi tendra la tele con menos futbol de toda Espana'. Dentro de /streaming-tv/ 'futbol' es programacion; en /operadores/ es el negocio.",
+      "como_comprobar_uno_nuevo": "Medir sobre el feed o la portada de la categoria, y no sobre lo publicado: lo publicado es lo que el modelo ya eligio, y ese sesgo fue justo lo que hizo parecer buena la exclusion entera la primera vez."
+    },
+    "verificado_el": "27-08-2026"
   },
   "secciones": {
     "tecnologia": {
@@ -82,8 +90,18 @@
           "feed": "https://www.adslzone.net/feed/",
           "idioma": "es",
           "comprobado": true,
-          "nota": "Publica muchas guias y tutoriales mezclados con las noticias. Su seccion /ofertas/ son articulos de compra: 8 colados hasta el 21-08-2026.",
-          "excluir_rutas": ["/ofertas/"]
+          "nota": "Publica muchas guias y tutoriales mezclados con las noticias. Su seccion /ofertas/ son articulos de compra: 8 colados hasta el 21-08-2026. Su /noticias/streaming-tv/ no se puede excluir entera porque mezcla los estrenos de las plataformas con el negocio de esas mismas plataformas: ahi filtra 'excluir_en_ruta'.",
+          "excluir_rutas": ["/ofertas/"],
+          "excluir_en_ruta": {
+            "/noticias/streaming-tv/": [
+              "estrena", "estrenan", "estrenara", "estrenaran", "estreno",
+              "estrenos", "pelicula", "peliculas", "serie", "series",
+              "temporada", "episodios", "capitulos", "catalogo", "trailer",
+              "taquilla", "cine", "cines", "top 10", "audiencias", "anime",
+              "tdt", "futbol", "partido", "partidos", "laliga", "champions",
+              "deportes", "canal", "canales", "iptv", "m3u"
+            ]
+          }
         },
         {
           "nombre": "ComputerHoy",

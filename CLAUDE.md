@@ -278,10 +278,8 @@ estrenos (ruido) y el negocio de las plataformas (noticia). Donde si se separan
 solas es en `/noticias/operadores/`, por donde han entrado las buenas de este
 tipo (Movistar Plus, la comparativa de precios del futbol).
 
-Asi que el ruido de cine y series de ADSLZone **sigue entrando** y esta
-pendiente: necesita un corte mas fino que la categoria, y a dia de hoy no lo
-hay. Antes de intentarlo otra vez conviene juntar mas dias y medir sobre el
-feed, no sobre lo publicado.
+Ese corte mas fino se hizo el **27-08-2026**, y es `excluir_en_ruta`, mas
+abajo. La ruta sigue sin excluirse entera, que era lo correcto.
 
 En la misma medicion se ampliaron seis formulas de `RUIDO`, tambien sacadas de
 lo que se colo de verdad y no de lo que suena a ruido: `", analisis:"` en medio
@@ -291,6 +289,49 @@ eso no estan: **"rebaja"** a secas tiraba "Digi rebaja el roaming en cuatro
 paises", que es noticia de telecos, y **"por menos de N"** tiraba "Xiaomi lanza
 una lavadora un 30% mas eficiente por menos de 450 euros", que es un
 lanzamiento. Las seis que quedaron no tocan ninguna de las 1.211.
+
+### `excluir_en_ruta`: cuando la categoria mezcla dos cosas
+
+`excluir_rutas` tira una categoria entera y por eso **no puede equivocarse**:
+no adivina de que va la noticia, lee donde la colgo el medio. El problema es la
+categoria que mezcla, y de esas hay una: `adslzone.net/noticias/streaming-tv/`
+cuelga los estrenos de las plataformas (ruido) junto al negocio de esas mismas
+plataformas (noticia). Por eso el 22-08-2026 no se pudo excluir, ver arriba.
+
+`excluir_en_ruta` es un campo del medio en `medios.json` que empareja una ruta
+con una lista de terminos: **dentro de esa ruta**, el titular que mencione uno
+se descarta. Es lo mismo que `tema` pero al reves y acotado, y se aplica en los
+dos comandos que leen feeds.
+
+**La medicion, hecha el 27-08-2026 sobre la portada de la categoria y no sobre
+lo publicado**, que era justamente el error de la primera vez: de sus 57
+entradas (unos cinco dias), **54 eran estrenos y programacion** y **3 eran
+noticia de tecnologia** ("YouTube Premium sube otra vez de precio en Espana",
+"Se acaba el chollo de compartir YouTube Premium", "Los nuevos Fire TV de
+Amazon volveran a permitir instalar aplicaciones externas"). La lista de 32
+terminos caza **34 de los 37 ruidos** de los que se tenia el titular entero y
+**ninguna de las 3 buenas**. Los 3 que escapan no dicen ninguna palabra del
+oficio ("Antoni Daimiel se despide de Movistar Plus").
+
+**Lo que hay que tener claro es que esta lista no se puede sacar de su ruta**, y
+esto tambien esta medido: aplicada a las otras rutas de ADSLZone se llevaba
+**16 de 104 publicadas**, entre ellas "Movistar, Orange o DAZN: compara cuanto
+pagaras por ver todo el futbol" y "Digi tendra la tele con menos futbol de toda
+Espana", que son noticias de telecos de pleno derecho. Dentro de
+`/streaming-tv/` "futbol" es programacion; en `/operadores/` es el negocio. El
+mismo termino cambia de significado con la categoria, que es exactamente por lo
+que el filtro va atado a una y no al medio.
+
+Por eso el orden al atacar un ruido nuevo es: **primero `excluir_rutas`**, que
+no puede fallar, y solo si la categoria mezcla, esto. Un filtro por titular
+siempre puede equivocarse; lo unico que lo hace aceptable aqui es que solo mira
+dentro de una categoria donde ya se sabe que significan las palabras.
+
+**Lo que sigue entrando**, y no es un descuido: el ruido de cine y series que
+ADSLZone cuelga en `/noticias/operadores/` ("Movistar Plus estrena el domingo
+una pelicula de accion"). Ahi la misma lista se lleva las noticias de telecos,
+asi que hoy no hay corte que valga. Tambien publica de supermercados (Lidl,
+Mercadona), que es otro asunto y esta sin medir.
 
 ### El comando `estado`
 
@@ -949,6 +990,38 @@ Lo que **no** arregla: un turno perdido no se recupera, porque los feeds solo da
 lo reciente. Lo que se gana es enterarse el mismo dia para mirar el log en
 https://claude.ai/code/routines antes del turno siguiente, en vez de descubrirlo
 dos dias despues.
+
+### `precios.py frescura`: el cron que no dispara
+
+Anadido el **27-08-2026**, y por un caso real. `precios.yml` ya falla cuando
+ninguna tienda responde, pero eso solo cubre **las veces que llega a
+ejecutarse**: ese dia GitHub no lanzo su cron de las 6:10 y la seccion se quedo
+con los precios de la tarde anterior sin que hubiera un job en rojo ni un
+correo. **Un cron que no dispara no falla**, que es el mismo tipo de agujero que
+ya taparon `estado` y el `timeout-minutes` de Playwright.
+
+`frescura` mira el `actualizado` de `data/ofertas.json` y sale con codigo 1 si
+tiene mas de **12 horas** (`FRESCURA_MAXIMA`, o `--horas`). Lo lanza
+`vigilancia.yml` detras de `comprobar`, con `if: always()`.
+
+El numero sale de las horas y no de una intuicion: las pasadas van a las 6:10 y
+las 14:10 y el vigilante mira a las 9:15 y las 21:15, asi que en un dia normal
+lo mas viejo que se llega a ver son **7 horas** (la de mediodia vista por la
+noche). Si una pasada se salta entera, lo que ve son **19 horas** por la manana
+o **15** por la tarde. Con el corte en 12 se cazan los dos casos y quedan tres
+horas de margen para el retraso de los crons de GitHub, que el 26-08-2026 fue
+de casi tres horas en este mismo repositorio.
+
+**Lo que no cubre, y no es un descuido:** que se salte el cron del propio
+vigilante, que es justo lo que paso ese dia. Dos workflows del mismo
+repositorio se retrasan por el mismo motivo, asi que esto caza la averia
+frecuente (precios falla, la vigilancia corre) y no la simultanea. Taparla
+entera pide vigilar desde fuera de GitHub.
+
+**Y a diferencia de un turno de noticias, la pasada perdida si se recupera**:
+los feeds solo dan lo reciente, pero la ficha de la tienda sigue teniendo el
+precio de hoy. Por eso el error manda a lanzar `Precios` a mano desde Actions,
+para lo que ya estaba el `workflow_dispatch`.
 
 ### `assets/secciones.json` y el comando `comprobar`
 
