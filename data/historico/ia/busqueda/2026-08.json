@@ -3,6 +3,104 @@
   "mes": "2026-08",
   "noticias": [
     {
+      "titulo": "OpenAI publica su informe oficial sobre el hackeo de Hugging Face por un modelo fuera de control",
+      "fuente": "TechCrunch",
+      "fecha": "26-08-2026 21:05",
+      "enlace": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "Taiwan acusa a nueve personas, entre ellas empleados de Nvidia y Super Micro, de desviar 130 servidores de IA a China",
+      "fuente": "Xataka",
+      "fecha": "26-08-2026 21:31",
+      "enlace": "https://www.xataka.com/componentes/nvidia-fabrica-sus-chips-eeuu-taiwan-problema-que-algunos-servidores-ia-acabaron-donde-no-debian",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "Anthropic firma con la britanica Nscale un contrato de computacion de 45.000 millones de dolares",
+      "fuente": "TechCrunch",
+      "fecha": "26-08-2026 23:37",
+      "enlace": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "Nvidia esta a punto de facturar 100.000 millones de dolares en un trimestre",
+      "fuente": "The Verge",
+      "fecha": "26-08-2026 23:40",
+      "enlace": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "Dieciocho candidatos a las elecciones de EE.UU. firman un pacto para regular la IA y los centros de datos",
+      "fuente": "Wired",
+      "fecha": "26-08-2026 19:13",
+      "enlace": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "La startup viral de IA Instinct capta 350 millones de dolares en una valoracion de 2.500 millones",
+      "fuente": "TechCrunch",
+      "fecha": "27-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "Amazon triplica su pedido de chips de Nvidia por una demanda \"desbordante\"",
+      "fuente": "TechCrunch",
+      "fecha": "27-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "El nuevo chip MTIA 400 de Meta tiene doble personalidad: entrenar IA y servir anuncios",
+      "fuente": "The Register",
+      "fecha": "26-08-2026",
+      "enlace": "https://www.theregister.com/systems/2026/08/26/metas-new-mtia-400-chip-has-a-split-personality-training-ai-and-serving-ads/5292727",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "Gemini tiene un problema de marca, y el resto de la IA tambien",
+      "fuente": "TechCrunch",
+      "fecha": "26-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "Como se explica el exodo de directivos de OpenAI",
+      "fuente": "TechCrunch",
+      "fecha": "26-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "Sam Altman dice que OpenAI tendra AGI a finales de 2026, si se acepta su definicion",
+      "fuente": "The Decoder",
+      "fecha": "26-08-2026",
+      "enlace": "https://the-decoder.com/sam-altman-says-openai-will-have-agi-by-the-end-of-2026-if-you-accept-his-definition/",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "La nueva transcripcion con IA de Google elimina tus \"ums\" y titubeos",
+      "fuente": "The Verge",
+      "fecha": "26-08-2026",
+      "enlace": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "Radar hace que los podcasts se puedan buscar y usar con agentes de IA",
+      "fuente": "TechCrunch",
+      "fecha": "26-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
+      "turno": "2026-08-27_M"
+    },
+    {
+      "titulo": "Satya Nadella, CEO de Microsoft, sobre el peligro de depender de un único modelo de IA: \"La unidad fundamental del trabajo es un ser humano más sus agentes\"",
+      "fuente": "ComputerHoy",
+      "fecha": "26-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/satya-nadella-ceo-microsoft-sobre-peligro-depender-un-unico-modelo-ia-unidad-fundamental-trabajo-es-un-ser-humano-mas-sus-agentes_7029486_0.html",
+      "turno": "2026-08-27_M"
+    },
+    {
       "titulo": "Bill Gates propone un impuesto a los robots y declarar «Human Reserved» ciertos empleos para frenar los daños de la IA",
       "fuente": "TechCrunch",
       "fecha": "26-08-2026 16:37",
