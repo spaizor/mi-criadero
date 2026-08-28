@@ -1589,8 +1589,22 @@ def cmd_vigilar(args):
       normal no hay avisos, el fichero se queda como estaba y no hay commit:
       un commit diario que solo mueve una marca de tiempo es ruido en el
       historial, igual que en la serie de precios.
+
+    Y una tercera que cambia lo que hace con los precios: **si falta la pasada
+    no se avisa, se lanza**. Los cron de GitHub se retrasan siempre y a veces
+    no disparan, pero 'workflow_dispatch' no pasa por ese planificador, asi que
+    desde aqui si se puede pedir la pasada perdida. Como se recupera entera (la
+    ficha de la tienda sigue teniendo el precio de hoy), avisar y esperar a que
+    alguien lo lea seria conformarse con menos de lo que se puede hacer.
+
+    Por eso, cuando el lanzamiento sale bien, **el aviso no llega a la portada**:
+    el problema se esta corrigiendo solo y una banda que dijera lo contrario
+    seguiria puesta todo el dia. Y no deja un agujero mudo, que es lo que habria
+    que temer: si el run que se acaba de lanzar falla, es un job en rojo y GitHub
+    manda el correo. Solo si NO se consigue lanzar (sin token, sin red, permiso
+    caducado) se pinta la banda, que es cuando de verdad hace falta una persona.
     """
-    from precios import revisar_frescura  # aqui, que precios.py importa de este
+    from precios import revisar_frescura, lanzar_pasada  # aqui, que precios.py importa de este
 
     avisos = []
     ok, lineas = _con_la_salida_recogida(
@@ -1603,13 +1617,23 @@ def cmd_vigilar(args):
         avisos.append({"que": "secciones", "texto": _resumen(lineas)})
 
     ok, lineas = revisar_frescura()
+    lanzamiento = None
     if not ok:
-        avisos.append({"que": "precios", "texto": _resumen(lineas)})
+        # A diferencia de un turno de noticias, esta se recupera: la ficha de la
+        # tienda sigue teniendo el precio de hoy. Asi que en vez de avisar y
+        # esperar a que alguien lo lea, se lanza.
+        lanzada, lanzamiento = (False, None) if args.probar else lanzar_pasada()
+        if lanzada:
+            print(f"PRECIOS: {_resumen(lineas)}")
+        else:
+            avisos.append({"que": "precios", "texto": _resumen(lineas)})
 
     previos = leer_json(VIGILANCIA).get("avisos", []) if VIGILANCIA.exists() else []
     for aviso in avisos:
         print(f"{aviso['que'].upper()}: {aviso['texto']}")
-    if not avisos:
+    if lanzamiento:
+        print(f"PRECIOS: {lanzamiento}")
+    if not avisos and not lanzamiento:
         print("Todo en orden: turnos publicados, secciones completas y precios "
               "de hoy.")
 

@@ -15,6 +15,7 @@ productos.json, que necesitan Playwright. Comparte utilidades con noticias.py.
 
 import argparse
 import json
+import os
 import re
 import sys
 import statistics
@@ -896,6 +897,72 @@ def pasada_exigible(ahora, margen=None):
     return max(vencidas)
 
 
+# El PAT con permiso de lanzar workflows, y donde se busca. No se guarda en el
+# repositorio (es publico) ni en data/: lo pone el entorno de quien lanza esto.
+VARIABLE_TOKEN = "GITHUB_TOKEN_PRECIOS"
+REPO = "spaizor/mi-criadero"
+
+
+def lanzar_pasada(escribir=print):
+    """Pide a GitHub que lance precios.yml ahora. (lanzada, motivo).
+
+    Aqui esta la unica pieza que se salta el planificador de cron de GitHub,
+    que es lo que se rompe de verdad: 'workflow_dispatch' no se encola con los
+    cron, es una llamada a la API que se atiende al momento. Por eso el consejo
+    de lanzarlo a mano desde Actions funciona justo los dias en que el cron no
+    dispara, y por eso automatizarlo tapa el agujero que dejan las repescas.
+
+    Lo que se dispara es el workflow, NO la consulta de las tiendas desde aqui.
+    Es a proposito: 'consultar' necesita Chromium para cuatro de las seis
+    tiendas, o sea instalar un navegador en cada ejecucion de una rutina que
+    solo tiene que mirar si algo va mal. El trabajo pesado se queda en el runner
+    de GitHub, que ya lo tiene montado y es gratis; desde fuera solo viaja el
+    pistoletazo.
+
+    Nunca lanza una excepcion: sin token o sin red se devuelve el motivo y
+    quien llama sigue avisando como antes. Un vigilante que se cae por no poder
+    arreglar el problema es peor que uno que solo avisa.
+    """
+    token = os.environ.get(VARIABLE_TOKEN, "").strip()
+    if not token:
+        return False, (f"no hay token en {VARIABLE_TOKEN}, asi que solo se "
+                       f"avisa; la pasada hay que lanzarla a mano desde Actions")
+
+    peticion = urllib.request.Request(
+        f"https://api.github.com/repos/{REPO}/actions/workflows/precios.yml/"
+        f"dispatches",
+        data=json.dumps({"ref": "main"}).encode("utf-8"),
+        headers={"Authorization": f"Bearer {token}",
+                 "Accept": "application/vnd.github+json",
+                 "X-GitHub-Api-Version": "2022-11-28",
+                 "User-Agent": AGENTE},
+        method="POST")
+    try:
+        with urllib.request.urlopen(peticion, timeout=30) as respuesta:
+            codigo = respuesta.status
+    except urllib.error.HTTPError as error:
+        detalle = ""
+        try:
+            detalle = json.loads(error.read().decode("utf-8")).get("message", "")
+        except Exception:
+            pass
+        pista = ""
+        if error.code in (401, 403):
+            pista = (f" Revisa que el token de {VARIABLE_TOKEN} no haya caducado"
+                     f" y tenga permiso de escritura en Actions.")
+        elif error.code == 404:
+            pista = (" Un 404 aqui suele ser falta de permiso, no que falte el"
+                     " workflow: la API lo esconde cuando el token no llega.")
+        return False, f"GitHub respondio {error.code} {detalle}.{pista}"
+    except Exception as error:
+        return False, f"no se pudo llamar a GitHub ({error})"
+
+    if codigo != 204:
+        return False, f"GitHub respondio {codigo} en vez de 204"
+    return True, (f"lanzada Precios en {REPO} saltandose el cron; el run sale en"
+                  f" https://github.com/{REPO}/actions/workflows/precios.yml")
+
+
 def revisar_frescura():
     """(ok, lineas) sin imprimir nada, para que 'noticias.py vigilar' lo use."""
     lineas = []
@@ -975,6 +1042,26 @@ def cmd_frescura(args, escribir=print):
     return 1
 
 
+def cmd_lanzar(args, escribir=print):
+    """Dispara la pasada a mano. Sirve sobre todo para probar el token."""
+    if not args.siempre:
+        hecha, _ = revisar_frescura_guardia()
+        if hecha:
+            escribir("La pasada de este tramo ya esta hecha. Con --siempre se "
+                     "lanza igualmente.")
+            return 0
+    lanzada, motivo = lanzar_pasada(escribir)
+    escribir(motivo)
+    return 0 if lanzada else 1
+
+
+def revisar_frescura_guardia():
+    """(hecha, lineas) con margen 0: la pregunta del guardia de precios.yml."""
+    lineas = []
+    codigo = cmd_frescura(argparse.Namespace(margen=0), lineas.append)
+    return codigo == 0, lineas
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     ordenes = parser.add_subparsers(dest="orden", required=True)
@@ -995,6 +1082,12 @@ def main():
                                      f"cron (por defecto {MARGEN_PASADA:g}); "
                                      f"con 0 sirve de guardia en precios.yml")
     p.set_defaults(func=cmd_frescura)
+
+    p = ordenes.add_parser(
+        "lanzar", help="pide a GitHub que ejecute precios.yml ahora")
+    p.add_argument("--siempre", action="store_true",
+                   help="lanzar aunque la pasada de este tramo ya este hecha")
+    p.set_defaults(func=cmd_lanzar)
 
     p = ordenes.add_parser("probar", help="comprueba una ficha suelta")
     p.add_argument("url")

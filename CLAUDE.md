@@ -1119,6 +1119,42 @@ Lo que **no** arregla: si un dia falla la rutina en si, nadie avisa. Se podria
 seguir encadenando vigilantes para siempre; a partir de aqui lo razonable es
 que dos infraestructuras distintas no callen el mismo dia.
 
+#### Y desde el 28-08-2026 no avisa de los precios: los lanza
+
+La pasada de precios perdida **se recupera entera**, al reves que un turno de
+noticias: los feeds solo dan lo reciente, pero la ficha de la tienda sigue
+teniendo el precio de hoy. Estando eso a un clic, avisar y esperar a que alguien
+lea el aviso era conformarse con menos de lo que se puede hacer.
+
+La pieza que lo permite es que **`workflow_dispatch` no pasa por el planificador
+de cron**, que es lo unico que se rompe: es una llamada a la API que se atiende
+al momento. Por eso el consejo de "lanzalo a mano desde Actions" funciona justo
+los dias en que el cron no dispara. `lanzar_pasada()` en `precios.py` hace esa
+llamada, y `vigilar` la usa cuando `frescura` falla.
+
+- **Lo que viaja es el pistoletazo, no el trabajo.** `consultar` necesita
+  Chromium para cuatro de las seis tiendas, o sea instalar un navegador en cada
+  ejecucion de una rutina cuyo unico cometido es mirar si algo va mal. El runner
+  de GitHub ya lo tiene montado y es gratis: lo que falla ahi es cuando empieza,
+  no lo que hace.
+- **Si el lanzamiento sale bien, el aviso no llega a la portada.** El problema se
+  esta corrigiendo solo y la banda seguiria puesta el resto del dia. Y no deja un
+  agujero mudo, que es lo que habria que temer: si el run recien lanzado falla,
+  es un job en rojo y GitHub manda el correo. La banda se pinta solo cuando **no**
+  se consigue lanzar (sin token, sin red, permiso caducado), que es cuando de
+  verdad hace falta una persona.
+- **Sin token no se rompe nada**: se devuelve el motivo y se avisa como antes. Un
+  vigilante que se cae por no poder arreglar el problema es peor que uno que solo
+  avisa.
+- **El token va en la variable de entorno `GITHUB_TOKEN_PRECIOS`**, nunca en el
+  repositorio (es publico) ni en `data/`. Necesita permiso de escritura en
+  Actions y nada mas. `python3 scripts/precios.py lanzar` sirve para probarlo a
+  mano; con `--siempre` dispara aunque la pasada del tramo ya este hecha.
+
+Lo que **no** cubre: si GitHub Actions esta caido del todo, el dispatch tampoco
+entra. Pero eso ya no es un fallo mudo, porque la llamada devuelve el error y
+entonces si se pinta la banda.
+
 ### `assets/secciones.json` y el comando `comprobar`
 
 Dar de alta una seccion toca **ocho sitios** (su HTML, el chip y la entrada de
