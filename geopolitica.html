@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geopolitica · Mi Criadero</title>
+  <meta name="description" content="Geopolitica desde medios de fuera del bloque occidental, dos veces al dia.">
+
+  <link rel="icon" href="assets/icono.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icono-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/icono-180.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mi Criadero">
+  <meta property="og:title" content="Geopolitica · Mi Criadero">
+  <meta property="og:description" content="Geopolitica desde medios de fuera del bloque occidental, dos veces al dia.">
+  <meta property="og:url" content="https://spaizor.github.io/mi-criadero/geopolitica.html">
+  <meta property="og:image" content="https://spaizor.github.io/mi-criadero/assets/og.png">
+
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body data-seccion="geo">
+  <header class="cabecera">
+    <a class="volver" href="index.html">← Inicio</a>
+    <h1>🌍 Geopolitica</h1>
+    <p class="lema" id="fecha">Cargando…</p>
+  </header>
+
+  <main class="contenedor">
+    <div id="noticias" class="lista-noticias"></div>
+  </main>
+
+  <footer class="pie">
+    <p>Actualizado automaticamente.</p>
+  </footer>
+
+  <script src="assets/noticias.js"></script>
+  <script>cargarNoticias('data/geopolitica.json', 'geopolitica');</script>
+</body>
+</html>

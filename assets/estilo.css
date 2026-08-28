@@ -9,6 +9,7 @@
   --acento-tec: #4f9cf9;
   --acento-ia: #a78bfa;
   --acento-nin: #e60012;
+  --acento-geo: #c026d3;
   --acento-ofe: #2fbf71;
   --acento-alerta: #e0a33e;
 }
@@ -27,6 +28,7 @@ body {
 body[data-seccion="tec"] { --acento: var(--acento-tec); }
 body[data-seccion="ia"]  { --acento: var(--acento-ia); }
 body[data-seccion="nin"] { --acento: var(--acento-nin); }
+body[data-seccion="geo"] { --acento: var(--acento-geo); }
 body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 
 /* Cabecera */
@@ -103,6 +105,7 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 .tec { --acento: var(--acento-tec); }
 .ia  { --acento: var(--acento-ia); }
 .nin { --acento: var(--acento-nin); }
+.geo { --acento: var(--acento-geo); }
 .ofe { --acento: var(--acento-ofe); }
 
 /* Cada entrada es la noticia numero 1 de su seccion y enlaza a ella. Es la

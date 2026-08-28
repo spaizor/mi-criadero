@@ -17,10 +17,12 @@
       "emoji": "El que la acompana en las pestanas y en la portada.",
       "acento": "El sufijo del color en estilo.css: --acento-<acento>, body[data-seccion=...] y la clase .<acento>.",
       "tipo": "'noticias' (destacadas + titulares) u 'ofertas' (precios). Decide que JS la pinta.",
-      "historico": "Si guarda un turno por ejecucion en data/historico/. Ofertas no: su minimo vive dentro de su propio JSON."
+      "historico": "Si guarda un turno por ejecucion en data/historico/. Ofertas no: su minimo vive dentro de su propio JSON.",
+      "turnos": "Los turnos que publica al dia: [\"M\", \"T\"] si la actualiza una rutina por la manana y otra por la tarde, o [\"M\"] si solo sale una vez. Lo lee 'estado' para saber que turnos exigir; sin esto daria por perdido cada noche el turno de tarde de una seccion que no lo tiene, y ese aviso diario acabaria tapando los de verdad. Solo hace falta en las secciones con historico."
     },
     "como_anadir_una_seccion": [
       "Anadir el bloque aqui.",
+      "Poner en ese bloque los 'turnos' que va a publicar, que son los que tendra su rutina.",
       "Copiar un HTML de seccion, cambiar el titulo, el data-seccion del <body> y la ruta del JSON.",
       "Anadir su chip y su entrada en index.html.",
       "Anadir --acento-<acento>, body[data-seccion] y la clase .<acento> en assets/estilo.css.",
@@ -36,6 +38,10 @@
       "emoji": "💻",
       "acento": "tec",
       "tipo": "noticias",
+      "turnos": [
+        "M",
+        "T"
+      ],
       "historico": true
     },
     {
@@ -44,6 +50,10 @@
       "emoji": "🤖",
       "acento": "ia",
       "tipo": "noticias",
+      "turnos": [
+        "M",
+        "T"
+      ],
       "historico": true
     },
     {
@@ -52,6 +62,21 @@
       "emoji": "🎮",
       "acento": "nin",
       "tipo": "noticias",
+      "turnos": [
+        "M",
+        "T"
+      ],
+      "historico": true
+    },
+    {
+      "id": "geopolitica",
+      "nombre": "Geopolitica",
+      "emoji": "🌍",
+      "acento": "geo",
+      "tipo": "noticias",
+      "turnos": [
+        "M"
+      ],
       "historico": true
     },
     {

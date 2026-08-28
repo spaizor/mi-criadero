@@ -25,7 +25,8 @@
       "filtrar_tema": "Opcional. true en los medios generalistas, que publican de todas las plataformas. Hace que se les aplique el 'tema' de la seccion.",
       "nota": "Opcional. Avisos: feed lento, hay que filtrar por tema, codificacion rara, etc.",
       "excluir_rutas": "Opcional. Lista de trozos de URL cuya categoria no es de esta seccion: si el enlace los contiene, el titular se descarta. Se filtra por el enlace y no por el titular a proposito, asi que no puede haber falsos positivos: no se adivina de que va la noticia, se lee la seccion en la que el propio medio la ha colgado. Solo sirve en medios que ponen la categoria en la URL.",
-      "excluir_en_ruta": "Opcional. Ruta -> lista de terminos: dentro de esa categoria del medio se descarta el titular que mencione uno de ellos. Es el ultimo recurso, para la categoria que mezcla dos cosas y no se puede tirar entera con 'excluir_rutas'. Mira el titular, asi que puede equivocarse: por eso va atada a una ruta y no al medio entero."
+      "excluir_en_ruta": "Opcional. Ruta -> lista de terminos: dentro de esa categoria del medio se descarta el titular que mencione uno de ellos. Es el ultimo recurso, para la categoria que mezcla dos cosas y no se puede tirar entera con 'excluir_rutas'. Mira el titular, asi que puede equivocarse: por eso va atada a una ruta y no al medio entero.",
+      "descartado": "Opcional. true en el medio que se ha sondeado y se deja fuera a proposito, con el motivo en 'nota'. Se queda en el fichero para no volver a probarlo, pero no sale como 'SIN FEED' en el parte de 'candidatos': eso es para el medio al que todavia hay que buscarle el RSS o abrir a mano, y un aviso que sale en las dos ejecuciones de todos los dias se deja de leer."
     },
     "tema": {
       "que_es": "Opcional, por seccion. Su lista 'propio' son los terminos que hacen que un titular sea de esta seccion: la consola, la marca y sus sagas.",
@@ -49,7 +50,7 @@
       "cuidado": "La lista NO se puede sacar de su ruta. Aplicada a las otras rutas de ADSLZone se llevaba 16 de 104 publicadas, entre ellas 'Movistar, Orange o DAZN: compara cuanto pagaras por ver todo el futbol' y 'Digi tendra la tele con menos futbol de toda Espana'. Dentro de /streaming-tv/ 'futbol' es programacion; en /operadores/ es el negocio.",
       "como_comprobar_uno_nuevo": "Medir sobre el feed o la portada de la categoria, y no sobre lo publicado: lo publicado es lo que el modelo ya eligio, y ese sesgo fue justo lo que hizo parecer buena la exclusion entera la primera vez."
     },
-    "verificado_el": "27-08-2026"
+    "verificado_el": "28-08-2026"
   },
   "secciones": {
     "tecnologia": {
@@ -82,7 +83,9 @@
           "idioma": "es",
           "comprobado": true,
           "nota": "Cuelga bastante cine y series de /cine-television/: 23 de sus 83 titulares publicados hasta el 21-08-2026, el 28%.",
-          "excluir_rutas": ["/cine-television/"]
+          "excluir_rutas": [
+            "/cine-television/"
+          ]
         },
         {
           "nombre": "ADSLZone",
@@ -91,15 +94,43 @@
           "idioma": "es",
           "comprobado": true,
           "nota": "Publica muchas guias y tutoriales mezclados con las noticias. Su seccion /ofertas/ son articulos de compra: 8 colados hasta el 21-08-2026. Su /noticias/streaming-tv/ no se puede excluir entera porque mezcla los estrenos de las plataformas con el negocio de esas mismas plataformas: ahi filtra 'excluir_en_ruta'.",
-          "excluir_rutas": ["/ofertas/"],
+          "excluir_rutas": [
+            "/ofertas/"
+          ],
           "excluir_en_ruta": {
             "/noticias/streaming-tv/": [
-              "estrena", "estrenan", "estrenara", "estrenaran", "estreno",
-              "estrenos", "pelicula", "peliculas", "serie", "series",
-              "temporada", "episodios", "capitulos", "catalogo", "trailer",
-              "taquilla", "cine", "cines", "top 10", "audiencias", "anime",
-              "tdt", "futbol", "partido", "partidos", "laliga", "champions",
-              "deportes", "canal", "canales", "iptv", "m3u"
+              "estrena",
+              "estrenan",
+              "estrenara",
+              "estrenaran",
+              "estreno",
+              "estrenos",
+              "pelicula",
+              "peliculas",
+              "serie",
+              "series",
+              "temporada",
+              "episodios",
+              "capitulos",
+              "catalogo",
+              "trailer",
+              "taquilla",
+              "cine",
+              "cines",
+              "top 10",
+              "audiencias",
+              "anime",
+              "tdt",
+              "futbol",
+              "partido",
+              "partidos",
+              "laliga",
+              "champions",
+              "deportes",
+              "canal",
+              "canales",
+              "iptv",
+              "m3u"
             ]
           }
         },
@@ -172,15 +203,48 @@
     "ia": {
       "tema": {
         "propio": [
-          "IA", "AI", "inteligencia artificial", "artificial intelligence",
-          "ChatGPT", "OpenAI", "GPT", "Claude", "Anthropic", "Gemini", "Copilot",
-          "Copiloto", "LLM", "LLMs", "modelo de lenguaje", "modelos de lenguaje",
-          "Grok", "Llama", "Mistral", "DeepSeek", "Midjourney",
-          "Stable Diffusion", "Sora", "Perplexity", "chatbot", "chatbots",
-          "machine learning", "deep learning", "aprendizaje automatico",
-          "red neuronal", "redes neuronales", "DeepMind", "Hugging Face",
-          "AGI", "Gemma", "Qwen", "Kimi", "xAI", "generativa", "generativo",
-          "deepfake", "deepfakes"
+          "IA",
+          "AI",
+          "inteligencia artificial",
+          "artificial intelligence",
+          "ChatGPT",
+          "OpenAI",
+          "GPT",
+          "Claude",
+          "Anthropic",
+          "Gemini",
+          "Copilot",
+          "Copiloto",
+          "LLM",
+          "LLMs",
+          "modelo de lenguaje",
+          "modelos de lenguaje",
+          "Grok",
+          "Llama",
+          "Mistral",
+          "DeepSeek",
+          "Midjourney",
+          "Stable Diffusion",
+          "Sora",
+          "Perplexity",
+          "chatbot",
+          "chatbots",
+          "machine learning",
+          "deep learning",
+          "aprendizaje automatico",
+          "red neuronal",
+          "redes neuronales",
+          "DeepMind",
+          "Hugging Face",
+          "AGI",
+          "Gemma",
+          "Qwen",
+          "Kimi",
+          "xAI",
+          "generativa",
+          "generativo",
+          "deepfake",
+          "deepfakes"
         ]
       },
       "medios": [
@@ -282,24 +346,86 @@
     "nintendo": {
       "tema": {
         "propio": [
-          "Nintendo", "Switch", "Switch 2", "eShop", "Joy-Con", "amiibo",
-          "Mario", "Luigi", "Yoshi", "Zelda", "Hyrule", "Link", "Pokemon",
-          "Metroid", "Samus", "Kirby", "Donkey Kong", "Splatoon", "Pikmin",
-          "Xenoblade", "Fire Emblem", "Animal Crossing", "Smash Bros",
-          "Kart", "Wii", "GameCube", "Game Boy", "3DS", "Miyamoto",
-          "F-Zero", "Star Fox", "Wario", "Bayonetta", "Advance Wars",
-          "Kid Icarus", "Punch-Out", "Famicom", "NES", "SNES",
-          "Super Nintendo", "Virtual Boy",
-          "Tears of the Kingdom", "Breath of the Wild", "Ganon", "Ganondorf",
-          "Bowser", "Olimar", "Pikachu", "Charizard", "Detective Pikachu",
-          "Captain Toad", "Golden Sun", "Earthbound", "Chibi-Robo", "Pushmo",
-          "Pullblox", "Rhythm Heaven", "Elite Beat Agents", "Ring Fit",
-          "Tomodachi Life", "Nintendogs", "Big Brain Academy", "Ice Climbers",
-          "Duck Hunt", "Excitebike", "Pilotwings", "Sin & Punishment",
-          "Xenosaga", "Triangle Strategy", "Astral Chain", "Ever Oasis",
-          "Game & Watch", "DSi", "Satoru Iwata", "Shuntaro Furukawa",
-          "Retro Studios", "Intelligent Systems", "HAL Laboratory",
-          "Game Freak", "Monolith Soft"
+          "Nintendo",
+          "Switch",
+          "Switch 2",
+          "eShop",
+          "Joy-Con",
+          "amiibo",
+          "Mario",
+          "Luigi",
+          "Yoshi",
+          "Zelda",
+          "Hyrule",
+          "Link",
+          "Pokemon",
+          "Metroid",
+          "Samus",
+          "Kirby",
+          "Donkey Kong",
+          "Splatoon",
+          "Pikmin",
+          "Xenoblade",
+          "Fire Emblem",
+          "Animal Crossing",
+          "Smash Bros",
+          "Kart",
+          "Wii",
+          "GameCube",
+          "Game Boy",
+          "3DS",
+          "Miyamoto",
+          "F-Zero",
+          "Star Fox",
+          "Wario",
+          "Bayonetta",
+          "Advance Wars",
+          "Kid Icarus",
+          "Punch-Out",
+          "Famicom",
+          "NES",
+          "SNES",
+          "Super Nintendo",
+          "Virtual Boy",
+          "Tears of the Kingdom",
+          "Breath of the Wild",
+          "Ganon",
+          "Ganondorf",
+          "Bowser",
+          "Olimar",
+          "Pikachu",
+          "Charizard",
+          "Detective Pikachu",
+          "Captain Toad",
+          "Golden Sun",
+          "Earthbound",
+          "Chibi-Robo",
+          "Pushmo",
+          "Pullblox",
+          "Rhythm Heaven",
+          "Elite Beat Agents",
+          "Ring Fit",
+          "Tomodachi Life",
+          "Nintendogs",
+          "Big Brain Academy",
+          "Ice Climbers",
+          "Duck Hunt",
+          "Excitebike",
+          "Pilotwings",
+          "Sin & Punishment",
+          "Xenosaga",
+          "Triangle Strategy",
+          "Astral Chain",
+          "Ever Oasis",
+          "Game & Watch",
+          "DSi",
+          "Satoru Iwata",
+          "Shuntaro Furukawa",
+          "Retro Studios",
+          "Intelligent Systems",
+          "HAL Laboratory",
+          "Game Freak",
+          "Monolith Soft"
         ]
       },
       "medios": [
@@ -446,6 +572,359 @@
           "comprobado": true,
           "filtrar_tema": true,
           "nota": "Generalista japones muy volcado en PC e indies: con el tema caen 29 de 30. Se queda por variedad, pero es el que menos aporta."
+        }
+      ]
+    },
+    "geopolitica": {
+      "medios": [
+        {
+          "nombre": "TASS",
+          "web": "https://tass.com/",
+          "feed": "https://tass.com/rss/v2.xml",
+          "idioma": "en",
+          "comprobado": true,
+          "excluir_rutas": [
+            "/sports/",
+            "/science/"
+          ],
+          "nota": "El que mas trae de la seccion: 100 entradas cada 48 h. Agencia estatal rusa."
+        },
+        {
+          "nombre": "RT",
+          "web": "https://www.rt.com/",
+          "feed": "https://www.rt.com/rss/news/",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "El dominio .com responde. Su edicion en espanol (actualidad.rt.com) no llega desde Espana por la sancion de la UE."
+        },
+        {
+          "nombre": "Sputnik Mundo",
+          "web": "https://noticiaslatam.lat/",
+          "feed": "https://noticiaslatam.lat/export/rss2/archive/index.xml",
+          "idioma": "es",
+          "comprobado": true,
+          "nota": "El que mas trae en espanol, 41 cada 48 h. Va por el espejo noticiaslatam.lat porque sputnikglobe.com no responde desde Espana."
+        },
+        {
+          "nombre": "Strategic Culture",
+          "web": "https://strategic-culture.su/",
+          "feed": "https://strategic-culture.su/feed/",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Analisis. Poco volumen: 10 cada 48 h."
+        },
+        {
+          "nombre": "CGTN",
+          "web": "https://www.cgtn.com/",
+          "feed": "https://www.cgtn.com/subscribe/rss/section/world.xml",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Feed de su seccion de mundo, no el general. Casi todo lo que trae es de la seccion."
+        },
+        {
+          "nombre": "SCMP",
+          "web": "https://www.scmp.com/",
+          "feed": "https://www.scmp.com/rss/91/feed",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "De Hong Kong y no estatal. Sus rutas de tecnologia y economia tambien traen geopolitica, asi que no se excluye ninguna."
+        },
+        {
+          "nombre": "Asia Times",
+          "web": "https://asiatimes.com/",
+          "feed": "https://asiatimes.com/feed/",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Analisis de Asia-Pacifico."
+        },
+        {
+          "nombre": "TRT World",
+          "web": "https://www.trtworld.com/",
+          "feed": "https://www.trtworld.com/feed/rss.xml",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "100 entradas cada 48 h y practicamente todas de la seccion. La ruta la declara su portada: /rss y /rss.xml dan 404."
+        },
+        {
+          "nombre": "Anadolu",
+          "web": "https://www.aa.com.tr/en/",
+          "feed": "https://www.aa.com.tr/en/rss/default?cat=world",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "Anadolu Espanol",
+          "web": "https://www.aa.com.tr/es/",
+          "feed": "https://www.aa.com.tr/es/rss/default?cat=guncel",
+          "idioma": "es",
+          "comprobado": true
+        },
+        {
+          "nombre": "Daily Sabah",
+          "web": "https://www.dailysabah.com/",
+          "feed": "https://www.dailysabah.com/rssFeed/19",
+          "idioma": "en",
+          "comprobado": true,
+          "excluir_rutas": [
+            "/sports/",
+            "/arts/"
+          ],
+          "nota": "Cuelga bastante deporte y cultura: 11 y 4 de sus 50 entradas del 28-08-2026."
+        },
+        {
+          "nombre": "Tehran Times",
+          "web": "https://www.tehrantimes.com/",
+          "feed": "https://www.tehrantimes.com/rss",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "Mehr News",
+          "web": "https://en.mehrnews.com/",
+          "feed": "https://en.mehrnews.com/rss",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "IRNA",
+          "web": "https://en.irna.ir/",
+          "feed": "https://en.irna.ir/rss",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "Al Jazeera",
+          "web": "https://www.aljazeera.com/",
+          "feed": "https://www.aljazeera.com/xml/rss/all.xml",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "Middle East Eye",
+          "web": "https://www.middleeasteye.net/",
+          "feed": "https://www.middleeasteye.net/rss",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "The Cradle",
+          "web": "https://thecradle.co/",
+          "feed": "https://thecradle.co/feed",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "The Hindu",
+          "web": "https://www.thehindu.com/",
+          "feed": "https://www.thehindu.com/news/international/feeder/default.rss",
+          "idioma": "en",
+          "comprobado": true,
+          "excluir_rutas": [
+            "/sport/",
+            "/videos/"
+          ],
+          "nota": "Feed de su seccion internacional."
+        },
+        {
+          "nombre": "Dawn",
+          "web": "https://www.dawn.com/",
+          "feed": "https://www.dawn.com/feeds/home",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "CNA",
+          "web": "https://www.channelnewsasia.com/",
+          "feed": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Channel News Asia, de Singapur."
+        },
+        {
+          "nombre": "Africanews",
+          "web": "https://www.africanews.com/",
+          "feed": "https://www.africanews.com/feed/rss",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "Cuelga todo de /2026/, asi que aqui no se puede excluir ninguna categoria por la URL."
+        },
+        {
+          "nombre": "teleSUR English",
+          "web": "https://www.telesurenglish.net/",
+          "feed": "https://www.telesurenglish.net/feed/",
+          "idioma": "en",
+          "comprobado": true,
+          "nota": "La ruta la declara su portada: /rss/Rss.xml da 404."
+        },
+        {
+          "nombre": "teleSUR",
+          "web": "https://www.telesurtv.net/",
+          "feed": "https://www.telesurtv.net/feed/",
+          "idioma": "es",
+          "comprobado": true
+        },
+        {
+          "nombre": "Resumen Latinoamericano",
+          "web": "https://www.resumenlatinoamericano.org/",
+          "feed": "https://www.resumenlatinoamericano.org/feed/",
+          "idioma": "es",
+          "comprobado": true
+        },
+        {
+          "nombre": "Prensa Latina",
+          "web": "https://www.prensa-latina.cu/",
+          "feed": "https://www.prensa-latina.cu/feed/",
+          "idioma": "es",
+          "comprobado": true,
+          "nota": "Agencia cubana. Su edicion inglesa, plenglish.com, lleva parada desde el 18-08-2026."
+        },
+        {
+          "nombre": "Common Dreams",
+          "web": "https://www.commondreams.org/",
+          "feed": "https://www.commondreams.org/feeds/news.rss",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "The Diplomat",
+          "web": "https://thediplomat.com/",
+          "feed": "https://thediplomat.com/feed/",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "Modern Diplomacy",
+          "web": "https://moderndiplomacy.eu/",
+          "feed": "https://moderndiplomacy.eu/feed/",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "Consortium News",
+          "web": "https://consortiumnews.com/",
+          "feed": "https://consortiumnews.com/feed/",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "The Intercept",
+          "web": "https://theintercept.com/",
+          "feed": "https://theintercept.com/feed/?rss",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "Antiwar.com",
+          "web": "https://original.antiwar.com/",
+          "feed": "https://original.antiwar.com/feed/",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "Responsible Statecraft",
+          "web": "https://responsiblestatecraft.org/",
+          "feed": "https://responsiblestatecraft.org/feed/",
+          "idioma": "en",
+          "comprobado": true
+        },
+        {
+          "nombre": "Yonhap",
+          "web": "https://en.yna.co.kr/",
+          "feed": "https://en.yna.co.kr/RSS/news.xml",
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "Fuera aunque traiga 101 cada 48 h: es la agencia nacional coreana y su feed es liga de beisbol, estrenos de cine e incendios. Ademas publica la misma noticia 4-5 veces con prefijos (LEAD), (2nd LD) y (URGENT), que el descarte por titulo no caza.",
+          "descartado": true
+        },
+        {
+          "nombre": "Korea Herald",
+          "web": "https://www.koreaherald.com/",
+          "feed": "https://www.koreaherald.com/rss/newsAll",
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "Fuera por lo mismo que Yonhap: mezcla ballet y becas universitarias con la peninsula. Sus feeds de seccion newsWorld y newsNorthKorea responden vacios.",
+          "descartado": true
+        },
+        {
+          "nombre": "The Straits Times",
+          "web": "https://www.straitstimes.com/",
+          "feed": "https://www.straitstimes.com/news/world/rss.xml",
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "Fuera: generalista nacional de Singapur. Lo internacional de ahi ya lo trae CNA sin lo local.",
+          "descartado": true
+        },
+        {
+          "nombre": "Nhan Dan",
+          "web": "https://en.nhandan.vn/",
+          "feed": "https://en.nhandan.vn/rss/home.rss",
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "Fuera: casi todo es Vietnam domestico, lingotes de oro y la bahia de Ha Long. Sus feeds /rss/world.rss y /rss/politics.rss dan 404.",
+          "descartado": true
+        },
+        {
+          "nombre": "Xinhua",
+          "web": "https://english.news.cn/",
+          "feed": "https://english.news.cn/rss/world.xml",
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "No es un bloqueo: su certificado lo firma la CA china CFCA, que no esta en el almacen de Python. Solo entraria desactivando la verificacion del certificado, y eso no se hace.",
+          "descartado": true
+        },
+        {
+          "nombre": "Press TV",
+          "web": "https://www.presstv.ir/",
+          "feed": "https://www.presstv.ir/rss.xml",
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "Cadena de certificado incompleta, y aun saltandosela devuelve 107 entradas SIN FECHA, asi que candidatos no podria saber de que turno son.",
+          "descartado": true
+        },
+        {
+          "nombre": "Global Times",
+          "web": "https://www.globaltimes.cn/",
+          "feed": "https://www.globaltimes.cn/rss/outbrain.xml",
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "El feed responde pero lleva parado desde el 23-08-2026.",
+          "descartado": true
+        },
+        {
+          "nombre": "China Daily",
+          "web": "http://www.chinadaily.com.cn/",
+          "feed": "http://www.chinadaily.com.cn/rss/world_rss.xml",
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "Trae 100 entradas y ninguna con fecha.",
+          "descartado": true
+        },
+        {
+          "nombre": "Al Mayadeen",
+          "web": "https://english.almayadeen.net/",
+          "feed": null,
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "403 a los scripts, en el feed y en la portada, tras tres intentos.",
+          "descartado": true
+        },
+        {
+          "nombre": "Hankyoreh",
+          "web": "https://english.hani.co.kr/",
+          "feed": null,
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "Su feed trae 30 entradas sin fecha y su portada no declara ninguna otra ruta.",
+          "descartado": true
+        },
+        {
+          "nombre": "The Wire",
+          "web": "https://thewire.in/",
+          "feed": null,
+          "idioma": "en",
+          "comprobado": false,
+          "nota": "/rss no devuelve XML y su portada no declara feed.",
+          "descartado": true
         }
       ]
     }

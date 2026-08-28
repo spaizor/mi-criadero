@@ -27,6 +27,7 @@ import sys
 import time
 import unicodedata
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 import zlib
@@ -88,6 +89,19 @@ CUPOS = {
         # ejecucion ni algo que pueda arreglar. Un ERROR que quien lo recibe no
         # puede corregir solo ensena a saltarse los errores.
         "destacada_espanola": "aviso",
+    },
+    "geopolitica": {
+        # Al reves que 'ia': aqui el numero lo permite lo que hay. Es la
+        # seccion mas ancha del proyecto con diferencia (236 candidatos por
+        # turno de 32 medios, medido el 28-08-2026, contra los 84 de
+        # tecnologia), asi que la octava destacada no sale de rascar el fondo.
+        "destacadas": 8,
+        # 8 medios distintos y no 5. El tope de 5 titulares por medio ya
+        # reparte, pero con 32 medios cubriendo las mismas cinco noticias del
+        # dia se puede cumplir con TASS, RT y tres mas y dejar la seccion
+        # contada por un solo bloque. Exigir 8 es gratis teniendo 32 vivos, y
+        # es lo unico que vigila que la seccion siga siendo variada.
+        "min_medios": {"M": 8, "T": 5},
     },
 }
 
@@ -289,7 +303,8 @@ def enlaces_de_la_hermana(seccion, medios):
             fallos.append(f"{medio['nombre']}: {error}")
             continue
         try:
-            enlaces.update(enlace for _, enlace, _ in entradas_del_feed(contenido))
+            enlaces.update(enlace for _, enlace, _
+                           in entradas_del_feed(contenido, medio.get("web")))
         except ET.ParseError as e:
             fallos.append(f"{medio['nombre']}: el feed no es XML valido ({e})")
     return enlaces, fallos
@@ -510,13 +525,23 @@ def fecha_de(elemento):
     return None
 
 
-def entradas_del_feed(contenido):
+def entradas_del_feed(contenido, base=None):
+    """Titulo, enlace y fecha de cada entrada del feed.
+
+    'base' es la portada del medio, y sirve para los feeds que publican el
+    enlace relativo: TRT World da /article/e12d692b1e86 en sus 100 entradas, y
+    sin resolverlo el enlace se publicaba roto en la web. Lo caza 'validar',
+    pero para entonces la noticia ya esta escrita; mejor no dejarlo entrar.
+    urljoin no toca los que ya son absolutos, asi que vale para todos.
+    """
     raiz = ET.fromstring(contenido)
     piezas = [e for e in raiz.iter() if sin_espacio(e.tag) in ("item", "entry")]
     salida = []
     for pieza in piezas:
         titulo = texto_hijo(pieza, "title")
         enlace = enlace_de(pieza)
+        if base and enlace:
+            enlace = urllib.parse.urljoin(base, enlace)
         if titulo and enlace:
             salida.append((titulo, enlace, fecha_de(pieza)))
     return salida
@@ -557,7 +582,7 @@ def cmd_candidatos(args):
             fallos.append(f"{medio['nombre']}: {error}")
             continue
         try:
-            entradas = entradas_del_feed(contenido)
+            entradas = entradas_del_feed(contenido, medio.get("web"))
         except ET.ParseError as e:
             fallos.append(f"{medio['nombre']}: el feed no es XML valido ({e})")
             continue
@@ -623,7 +648,11 @@ def cmd_candidatos(args):
               f"alguna repetida.")
     utiles = {m["nombre"] for m in medios}
     for medio in leer_medios(args.seccion, solo_utiles=False):
-        if medio["nombre"] not in utiles:
+        # 'descartado' es una decision ya tomada, no una tarea: sacarla en el
+        # parte de las dos ejecuciones diarias es un aviso que sale siempre y
+        # no significa nada, o sea uno que se deja de leer. SIN FEED queda para
+        # lo que si hay que resolver: buscarle el RSS o abrirlo a mano.
+        if medio["nombre"] not in utiles and not medio.get("descartado"):
             print(f"# SIN FEED {medio['nombre']} ({medio['web']}): "
                   f"{medio.get('nota') or 'no tiene RSS utilizable'}")
     if len(medios) - len(fallos) < 2:
@@ -723,7 +752,7 @@ def cmd_titulares(args):
             fallos.append(f"{medio['nombre']}: {error}")
             continue
         try:
-            entradas = entradas_del_feed(contenido)
+            entradas = entradas_del_feed(contenido, medio.get("web"))
         except ET.ParseError as e:
             fallos.append(f"{medio['nombre']}: el feed no es XML valido ({e})")
             continue
@@ -1254,6 +1283,17 @@ def cmd_comprobar(args):
             rev.error(f"{quien}: no tiene medios en scripts/medios.json, asi "
                       "que 'candidatos' no sabria de donde sacar noticias.")
 
+        turnos = seccion.get("turnos")
+        if turnos and (not isinstance(turnos, list)
+                       or any(t not in ("M", "T") for t in turnos) or not turnos):
+            rev.error(f"{quien}: 'turnos' tiene que ser una lista con \"M\", "
+                      "\"T\" o las dos, y es lo que 'estado' exige cada dia.")
+        elif seccion.get("historico") and not turnos:
+            rev.aviso(f"{quien}: no declara 'turnos', asi que 'estado' le pedira "
+                      "manana y tarde. Si su rutina solo sale una vez al dia, "
+                      'ponle "turnos": ["M"] o dara un turno por perdido cada '
+                      "noche.")
+
         if seccion.get("historico"):
             indice = carpeta_historico(ident) / "indice.json"
             if not indice.exists():
@@ -1415,6 +1455,23 @@ def leer_publicado(ruta, remoto):
         return None
 
 
+def turnos_de(seccion):
+    """Los turnos que publica al dia, de assets/secciones.json.
+
+    Por defecto los dos, que es lo que hacen casi todas. Geopolitica sale solo
+    por la manana: sin esto 'estado' daria su turno de tarde por perdido cada
+    noche, y con el un correo diario de 'vigilancia.yml' y una banda de aviso
+    fija en la portada, que es la forma segura de que se dejen de mirar.
+    """
+    for s in leer_secciones():
+        if s.get("id") == seccion:
+            turnos = s.get("turnos")
+            if turnos:
+                return tuple(turnos)
+            break
+    return ("M", "T")
+
+
 def secciones_con_historico(remoto):
     """Secciones que llevan historico, que son las que actualiza una rutina."""
     if remoto is None:
@@ -1483,10 +1540,11 @@ def cmd_estado(args):
         # arranco una tarde, y con la fecha a secas habia que elegir entre
         # reclamar su manana, que nunca existio, o no vigilar su primer turno.
         desde = indice.get("desde")
-        print(seccion)
+        turnos_seccion = turnos_de(seccion)
+        print(seccion + ("" if len(turnos_seccion) > 1 else "  (solo turno de manana)"))
         for dia in dias:
             celdas = []
-            for turno in ("M", "T"):
+            for turno in turnos_seccion:
                 entrada = turnos.get((dia, turno))
                 if desde and (f"{dia}_{turno}" if "_" in desde else dia) < desde:
                     celdas.append(f"{turno} —")
@@ -1501,7 +1559,7 @@ def cmd_estado(args):
                 else:
                     celdas.append(f"{turno} FALTA")
                     perdidos.append((seccion, dia, turno))
-            print(f"  {dia}  {celdas[0]:<26}{celdas[1]}")
+            print(f"  {dia}  " + "".join(f"{celda:<26}" for celda in celdas).rstrip())
         print()
 
     if vacios:
