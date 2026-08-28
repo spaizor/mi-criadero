@@ -1151,6 +1151,45 @@ llamada, y `vigilar` la usa cuando `frescura` falla.
   Actions y nada mas. `python3 scripts/precios.py lanzar` sirve para probarlo a
   mano; con `--siempre` dispara aunque la pasada del tramo ya este hecha.
 
+**Ojo: hoy ese camino no lo usa la rutina, y no es un olvido.** Se monto para
+que lo usara y al configurarlo se vio que **una rutina de Claude no admite
+variables de entorno ni secretos**: su `job_config` solo lleva el entorno, el
+prompt, el modelo, las fuentes y las herramientas. La unica forma de colarle el
+token seria escribirlo en el prompt, y eso **no se hace**: cada comando queda en
+el transcript de cada ejecucion, o sea que el token acabaria en texto plano en
+el log de todas las ejecuciones para siempre. El codigo se queda porque sirve
+para lanzarla a mano desde un PC con el token en el entorno, y por si algun dia
+las rutinas admiten secretos.
+
+Asi que quien da el pistoletazo es el `on: push` de `precios.yml`, abajo.
+
+#### El disparador de verdad: el push de la propia vigilancia
+
+`vigilar` ya escribe y publica `data/vigilancia.json` cuando falta la pasada, y
+ese push sale **desde la nube de Anthropic, ajena al planificador de cron de
+GitHub**, que es lo unico que se rompe. O sea que el pistoletazo ya estaba ahi
+sin darse cuenta: solo faltaba que `precios.yml` lo escuchara.
+
+- **Dispara solo con `data/vigilancia.json`.** Es el unico fichero que cambia
+  cuando algo va mal, asi que el disparo ocurre justo en el caso que interesa y
+  no en los seis push diarios de las rutinas de noticias.
+- **No puede realimentarse.** Este workflow publica `data/ofertas.json`, que no
+  esta en `paths`; y ademas GitHub no relanza workflows por un push hecho con el
+  `GITHUB_TOKEN` del runner.
+- **El guardia decide igual que con los cron**, asi que un push que llegue con
+  la pasada ya hecha acaba en segundos. Solo `workflow_dispatch` se salta el
+  guardia, porque si lo lanzas a mano es que quieres que consulte.
+- **Lo que cuesta**: por esta via la banda de aviso **si** aparece en la portada
+  y se queda hasta la vigilancia del dia siguiente, aunque los precios se hayan
+  arreglado dos minutos despues. Con el token no pasaria, porque entonces el
+  aviso no llega a escribirse. Es el precio de no guardar una credencial.
+
+**Lo que faltaba por comprobar el 28-08-2026**, y se ve a la primera cuando
+ocurra: si el push de una rutina dispara workflows depende de con que credencial
+empuje, y no habia ningun workflow `on: push` en el repositorio con el que
+haberlo visto antes. Si no dispara, en el historial de Actions no saldra el run
+de Precios detras del commit de vigilancia, y entonces la via es otra.
+
 Lo que **no** cubre: si GitHub Actions esta caido del todo, el dispatch tampoco
 entra. Pero eso ya no es un fallo mudo, porque la llamada devuelve el error y
 entonces si se pinta la banda.

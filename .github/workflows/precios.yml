@@ -45,6 +45,22 @@ on:
     - cron: "40 7 * * *"
     - cron: "40 13 * * *"
     - cron: "40 15 * * *"
+  # El disparador que no vive en GitHub. Cuando falta la pasada, 'vigilar'
+  # escribe data/vigilancia.json y lo publica desde la nube de Anthropic, que
+  # es ajena al planificador de cron de aqui: ese push sirve de pistoletazo.
+  #
+  # Dispara solo con ESE fichero, que es el unico que cambia cuando algo va mal.
+  # No puede realimentarse: este workflow publica data/ofertas.json, que no esta
+  # en la lista, y ademas GitHub no relanza workflows por un push hecho con el
+  # GITHUB_TOKEN del propio runner.
+  #
+  # El guardia de abajo decide igual que con los cron: si la pasada del tramo ya
+  # esta hecha, el job acaba en segundos.
+  push:
+    branches: [main]
+    paths:
+      - data/vigilancia.json
+
   workflow_dispatch:
     inputs:
       probar:
@@ -90,8 +106,9 @@ jobs:
         run: |
           if [ -n "${{ inputs.probar }}" ]; then
             echo "trabajar=no" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event_name }}" != "schedule" ]; then
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "trabajar=si" >> "$GITHUB_OUTPUT"
+            echo "Lanzado a mano: se consulta sin preguntar nada."
           elif python3 scripts/precios.py frescura --margen 0; then
             echo "trabajar=no" >> "$GITHUB_OUTPUT"
             echo "La pasada de este tramo ya esta hecha: no se consulta nada."
