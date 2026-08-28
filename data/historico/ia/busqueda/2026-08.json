@@ -3,6 +3,132 @@
   "mes": "2026-08",
   "noticias": [
     {
+      "titulo": "Una demanda acusa a xAI de haber entrenado a Grok con pornografia infantil real",
+      "fuente": "Ars Technica",
+      "fecha": "27-08-2026 22:52",
+      "enlace": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "Anthropic presenta un estandar para que sus agentes de IA controlen robots y equipos de laboratorio",
+      "fuente": "The Register",
+      "fecha": "28-08-2026 01:22",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/08/28/anthropic-proposes-plumbing-spec-to-link-ai-agents-to-lab-kit-and-robots/5293135",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "OpenAI, Anthropic, Google y un centenar de empresas mas piden actuar contra la IA descontrolada",
+      "fuente": "TechCrunch",
+      "fecha": "27-08-2026 19:43",
+      "enlace": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "OpenAI prueba un modo persistente para que su agente de codigo trabaje solo durante dias",
+      "fuente": "Hipertextual",
+      "fecha": "27-08-2026 21:35",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/openai-modo-persistente-codex-ia/",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "Google lanza Gemini Omni 1.1 Flash, mas barato para generar video con IA",
+      "fuente": "The Decoder",
+      "fecha": "27-08-2026 19:01",
+      "enlace": "https://the-decoder.com/googles-gemini-omni-1-1-flash-makes-ai-video-generation-cheaper-and-more-flexible/",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "El Modo IA de Google ya rastrea precios de vuelos y ayuda a reservar hoteles",
+      "fuente": "TechCrunch",
+      "fecha": "27-08-2026 18:00",
+      "enlace": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "Anthropic y OpenAI se suman al escenario de IA de TechCrunch Disrupt 2026",
+      "fuente": "TechCrunch",
+      "fecha": "28-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "Los agentes de IA estan hackeando sistemas: ¿podria eso empujar a EEUU y China a cooperar?",
+      "fuente": "Wired",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "Barret Zoph, el cofundador de Thinking Machines que iba a fichar por OpenAI, acaba en Google",
+      "fuente": "TechCrunch",
+      "fecha": "27-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "La app de notas con IA de Google ya deja interactuar con libros",
+      "fuente": "The Verge",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "Los datos de una web de resenas de «novias de IA» estuvieron expuestos tres semanas",
+      "fuente": "The Register",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.theregister.com/security/2026/08/27/ai-girlfriend-review-sites-secrets-were-exposed-to-the-world-for-three-weeks/5293064",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "La industria de la IA dice que el plan de Trump para gravar los chips es «la forma mas tonta imaginable»",
+      "fuente": "Ars Technica",
+      "fecha": "27-08-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "Los agentes de compra con IA todavia no estan listos para comprar en tu nombre, segun un estudio",
+      "fuente": "The Decoder",
+      "fecha": "27-08-2026",
+      "enlace": "https://the-decoder.com/ai-shopping-agents-arent-ready-to-buy-on-your-behalf-study-finds/",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "Jensen Huang dice que Nvidia ha logrado la AGI, otra vez, aunque no importe demasiado",
+      "fuente": "The Verge",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "Bill Gates exige que la IA pague impuestos para blindar empleos: \"Creo que deberíamos gravar los tokens de IA y a los robots\"",
+      "fuente": "Xataka",
+      "fecha": "27-08-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/bill-gates-exige-que-ia-pague-impuestos-para-blindar-empleos-creo-que-deberiamos-gravar-tokens-ia-a-robots",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "Ya disponible LibreOffice 26.8: la alternativa a Microsoft 365 se actualiza y vuelve a decir no a la IA",
+      "fuente": "ComputerHoy",
+      "fecha": "27-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/ya-disponible-libreoffice-26-8-alternativa-microsoft-365-se-actualiza-vuelve-decir-no-ia_7030049_0.html",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "Google lanza Gemini Omni 1.1 Flash, una nueva IA para generar vídeos profesionales que es una bestia",
+      "fuente": "Hipertextual",
+      "fecha": "27-08-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/google-gemini-omni-1-1-flash/",
+      "turno": "2026-08-28_M"
+    },
+    {
+      "titulo": "Programador ayuda a su jefe a integrar la IA en la empresa: dos semanas después, él y 160 de sus compañeros fueron despedidos",
+      "fuente": "ComputerHoy",
+      "fecha": "27-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/programador-ayuda-su-jefe-integrar-ia-empresa-dos-semanas-despues-160-sus-companeros-fueron-despedidos_7029955_0.html",
+      "turno": "2026-08-28_M"
+    },
+    {
       "titulo": "Nvidia compra Hugging Face por 12.900 millones de dólares",
       "fuente": "The Decoder",
       "fecha": "27-08-2026 12:49",
