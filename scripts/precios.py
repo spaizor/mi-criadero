@@ -21,7 +21,7 @@ import statistics
 import time
 import urllib.error
 import urllib.request
-from datetime import datetime
+from datetime import datetime, time as hora_del_dia, timedelta, timezone
 from pathlib import Path
 
 from noticias import (AGENTE, ESPANA, FORMATO_FECHA, FORMATO_FECHA_HORA,
@@ -848,42 +848,86 @@ def cmd_probar(args):
     return 0
 
 
-# Horas que puede tener la ultima pasada antes de darla por perdida.
+# Horas a las que sale cada pasada. Van en UTC porque es lo que ponen los cron
+# de precios.yml, no en las 6:10 y 14:10 espanolas que se leen en su comentario.
 #
-# Las dos pasadas salen a las 6:10 y las 14:10, y quien pregunta por esto es
-# vigilancia.yml a las 9:15 y las 21:15: en un dia normal lo mas viejo que
-# llega a verse son las 7 horas de la pasada del mediodia. Si una se salta
-# entera, lo que ve el vigilante son 19 horas (por la manana) o 15 (por la
-# tarde), asi que con el corte en 12 se cazan los dos casos y aun sobran tres
-# horas de margen para el retraso de los crons de GitHub, que el 26-08-2026
-# llego a ser de casi tres horas en este mismo repositorio.
-FRESCURA_MAXIMA = 12
+# La diferencia solo se nota medio ano, y ahi lo rompe: en invierno el cron cae
+# a las 5:10 espanolas, asi que exigir una pasada posterior a las 6:10 daria
+# AVISO todas las mananas con los precios recien traidos. Salio simulando enero,
+# despues de haber escrito aqui que llegar antes "nunca da falsa alarma" -- que
+# es justo al reves. Convirtiendo desde UTC las dos estaciones cuadran solas.
+HORAS_PASADA_UTC = [(4, 10), (12, 10)]
+
+# Lo que se le perdona a GitHub de retraso antes de dar la pasada por perdida.
+#
+# Medido sobre los 31 runs programados del 10 al 27-08-2026: el cron NUNCA ha
+# disparado a su hora. La mediana de retraso son 36 min por la manana y 56 por
+# la tarde, y el maximo en regimen normal fueron 62. Con 2 horas ni el peor dia
+# normal da aviso, y aun asi se caza el fallo el mismo dia en que ocurre.
+MARGEN_PASADA = 2
 
 
-def revisar_frescura(limite=FRESCURA_MAXIMA):
+def pasada_exigible(ahora, margen=None):
+    """Ultima pasada que ya deberia haber ocurrido, margen incluido.
+
+    Aqui esta el arreglo del 28-08-2026, y conviene entender que fallaba. Antes
+    esto media la ANTIGUEDAD de la ultima pasada y avisaba a partir de 12 horas.
+    Suena equivalente y no lo es: la antiguedad se mide contra la pasada
+    anterior, no contra la hora a la que tenia que haber salido. Ese dia GitHub
+    se salto el cron de las 6:10; pero la pasada anterior habia llegado con diez
+    horas de retraso, a las 00:12, asi que a las 9:15 el vigilante solo veia 9
+    horas y daba verde. Cuanto mas se retrasa GitHub, mas reciente parece la
+    pasada perdida: el mismo fallo que hay que cazar desactivaba al que lo caza.
+
+    Contra un horario fijo eso no puede pasar. A las 9:15 se exige una pasada
+    posterior a las 6:10 y da igual cuando llego la de ayer.
+    """
+    hoy_utc = ahora.astimezone(timezone.utc).date()
+    candidatas = []
+    for dias in (0, -1):
+        dia = hoy_utc + timedelta(days=dias)
+        for hora, minuto in HORAS_PASADA_UTC:
+            candidatas.append(
+                datetime.combine(dia, hora_del_dia(hora, minuto),
+                                 tzinfo=timezone.utc).astimezone(ahora.tzinfo))
+    if margen is None:
+        margen = MARGEN_PASADA
+    vencidas = [c for c in candidatas if ahora - c >= timedelta(hours=margen)]
+    return max(vencidas)
+
+
+def revisar_frescura():
     """(ok, lineas) sin imprimir nada, para que 'noticias.py vigilar' lo use."""
-    args = argparse.Namespace(horas=limite)
     lineas = []
-    codigo = cmd_frescura(args, lineas.append)
+    codigo = cmd_frescura(argparse.Namespace(margen=MARGEN_PASADA),
+                          lineas.append)
     return codigo == 0, lineas
 
 
 def cmd_frescura(args, escribir=print):
-    """Avisa si la ultima pasada de precios no ha llegado a ocurrir.
+    """Avisa si la pasada de precios que tocaba no ha llegado a ocurrir.
 
     El workflow de precios ya falla cuando ninguna tienda responde, pero eso
-    solo cubre las veces en que llega a ejecutarse. El 27-08-2026 GitHub no
-    lanzo su cron, y un cron que no dispara no falla: no hay job en rojo, no
-    sale correo, y la seccion se queda con los precios de ayer sin que se
-    entere nadie. Es el mismo agujero que tapan 'estado' con las rutinas de
+    solo cubre las veces en que llega a ejecutarse. El 27 y el 28-08-2026
+    GitHub no lanzo su cron, y un cron que no dispara no falla: no hay job en
+    rojo, no sale correo, y la seccion se queda con los precios de ayer sin que
+    se entere nadie. Es el mismo agujero que tapan 'estado' con las rutinas de
     noticias y el 'timeout-minutes' con el cuelgue de Playwright: convertir un
     fallo mudo en uno ruidoso.
 
+    Sirve para dos cosas con el mismo calculo, que es lo que hace que no puedan
+    desincronizarse:
+
+      - Con el margen por defecto, es el vigilante: avisa de la pasada perdida.
+      - Con '--margen 0' es el guardia de precios.yml, que asi solo consulta las
+        tiendas si la pasada de este tramo no esta hecha. De ahi que los cron
+        repetidos del workflow no publiquen tres veces al dia.
+
     Lo que NO cubre: que se salte el cron de este mismo vigilante, que es lo
-    que paso ese dia. Dos workflows del mismo repositorio se retrasan por el
-    mismo motivo, asi que esto caza la averia frecuente (precios falla, la
+    que paso los dos dias. Dos workflows del mismo repositorio se retrasan por
+    el mismo motivo, asi que esto caza la averia frecuente (precios falla, la
     vigilancia corre) y no la simultanea. Taparla del todo pide vigilar desde
-    fuera de GitHub.
+    fuera de GitHub, que es lo que hace 'noticias.py vigilar'.
     """
     datos = leer_json(SALIDA)
     cuando = datos.get("actualizado", "")
@@ -898,21 +942,26 @@ def cmd_frescura(args, escribir=print):
                  "saber de cuando son los precios que esta publicando la web.")
         return 1
 
-    horas = (datetime.now(ESPANA) - momento.replace(tzinfo=ESPANA)).total_seconds() / 3600
+    ahora = datetime.now(ESPANA)
+    momento = momento.replace(tzinfo=ESPANA)
+    exigible = pasada_exigible(ahora, args.margen)
+
+    horas = (ahora - momento).total_seconds() / 3600
     precios = [p for prod in datos.get("productos", []) for p in prod.get("precios", [])]
     frescos = sum(1 for p in precios if p.get("estado") == "ok")
     resumen = (f"{cuando}, hace {horas:.1f} h; {frescos} de {len(precios)} "
                f"precios entraron en esa pasada")
 
-    if horas <= args.horas:
+    if momento >= exigible:
         escribir(f"Precios al dia ({resumen}).")
+        escribir(f"La pasada exigible ahora mismo es la de las "
+                 f"{exigible:%H:%M} del {exigible:%d-%m-%Y}, y esta hecha.")
         return 0
 
-    escribir(f"ERROR: la seccion de Ofertas lleva {horas:.1f} horas sin "
-             f"actualizarse ({resumen}).")
-    # El limite es mayor que lo que separa dos pasadas seguidas, asi que
-    # haberlo pasado significa que una de las dos no ha llegado a publicar.
-    escribir(f"El limite son {args.horas:g} horas.")
+    escribir(f"ERROR: falta la pasada de precios de las {exigible:%H:%M} del "
+             f"{exigible:%d-%m-%Y}. Lo ultimo publicado es de {resumen}.")
+    escribir(f"Se le perdonan {args.margen:g} horas de retraso al cron, y ya "
+             f"han pasado {(ahora - exigible).total_seconds() / 3600:.1f}.")
     escribir("Que mirar, en este orden:")
     escribir("  1. https://github.com/spaizor/mi-criadero/actions/workflows/"
              "precios.yml - si no hay run a la hora que tocaba, GitHub se "
@@ -941,9 +990,10 @@ def main():
 
     p = ordenes.add_parser(
         "frescura", help="avisa si la ultima pasada no ha llegado a ocurrir")
-    p.add_argument("--horas", type=float, default=FRESCURA_MAXIMA,
-                   metavar="N", help=f"limite en horas (por defecto "
-                                     f"{FRESCURA_MAXIMA})")
+    p.add_argument("--margen", type=float, default=MARGEN_PASADA,
+                   metavar="N", help=f"horas de retraso que se le perdonan al "
+                                     f"cron (por defecto {MARGEN_PASADA:g}); "
+                                     f"con 0 sirve de guardia en precios.yml")
     p.set_defaults(func=cmd_frescura)
 
     p = ordenes.add_parser("probar", help="comprueba una ficha suelta")

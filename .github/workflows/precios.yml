@@ -29,6 +29,22 @@ on:
     # las horas en punto y los retrasa, asi que pedir las 04:00 no las acerca.
     - cron: "10 4 * * *"
     - cron: "10 12 * * *"
+    # Repescas. GitHub no dispara los cron a su hora NUNCA: medidos los 31 runs
+    # programados del 10 al 27-08-2026, la mediana de retraso son 36 min por la
+    # manana y 56 por la tarde. Eso da igual, porque un precio que entra a las
+    # 6:50 vale lo mismo. Lo que no da igual es que a veces no dispara: el 27 y
+    # el 28-08-2026 se saltaron pasadas enteras, y ahi no hay job en rojo ni
+    # correo, porque un cron que no dispara no falla.
+    #
+    # El retraso no es cola de runner (medido: 0,0 min en los 31 runs, siempre),
+    # asi que no se arregla con mas maquina. Se arregla pidiendolo mas veces:
+    # si la primera no sale, sale la siguiente. Y no publican tres veces al dia
+    # porque el paso de abajo comprueba antes si la pasada de este tramo ya esta
+    # hecha, y si lo esta el job acaba en segundos sin abrir Chromium.
+    - cron: "40 5 * * *"
+    - cron: "40 7 * * *"
+    - cron: "40 13 * * *"
+    - cron: "40 15 * * *"
   workflow_dispatch:
     inputs:
       probar:
@@ -64,7 +80,27 @@ jobs:
         with:
           python-version: "3.13"
 
+      # El guardia de las repescas. Es el mismo calculo que usa el vigilante
+      # ('frescura' sin --margen), y por eso no pueden desincronizarse: con
+      # --margen 0 la pregunta pasa de "hay que avisar de que falta" a "hay que
+      # hacerla". Lanzarlo a mano desde Actions siempre trabaja, que es para lo
+      # que esta el boton.
+      - name: Ver si la pasada de este tramo ya esta hecha
+        id: guardia
+        run: |
+          if [ -n "${{ inputs.probar }}" ]; then
+            echo "trabajar=no" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "trabajar=si" >> "$GITHUB_OUTPUT"
+          elif python3 scripts/precios.py frescura --margen 0; then
+            echo "trabajar=no" >> "$GITHUB_OUTPUT"
+            echo "La pasada de este tramo ya esta hecha: no se consulta nada."
+          else
+            echo "trabajar=si" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Instalar Playwright
+        if: steps.guardia.outputs.trabajar == 'si' || inputs.probar != ''
         run: |
           pip install playwright
           playwright install --with-deps chromium
@@ -77,12 +113,12 @@ jobs:
         run: python3 scripts/precios.py probar "${{ inputs.probar }}" --navegador
 
       - name: Consultar precios
-        if: inputs.probar == ''
+        if: steps.guardia.outputs.trabajar == 'si'
         run: python3 scripts/precios.py consultar
 
       - name: Contar precios frescos
         id: salud
-        if: inputs.probar == ''
+        if: steps.guardia.outputs.trabajar == 'si'
         run: |
           python3 - <<'EOF' >> "$GITHUB_OUTPUT"
           import json
@@ -98,7 +134,7 @@ jobs:
         # esten bloqueando al runner. Publicar entonces solo serviria para
         # dejar un commit diario que marca todo como viejo sin haber mirado
         # nada: mejor no tocar el JSON y que el fallo se vea.
-        if: inputs.probar == '' && steps.salud.outputs.ok != '0'
+        if: steps.guardia.outputs.trabajar == 'si' && steps.salud.outputs.ok != '0'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

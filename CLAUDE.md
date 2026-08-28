@@ -1004,16 +1004,44 @@ correo. **Un cron que no dispara no falla**, que es el mismo tipo de agujero que
 ya taparon `estado` y el `timeout-minutes` de Playwright.
 
 `frescura` mira el `actualizado` de `data/ofertas.json` y sale con codigo 1 si
-tiene mas de **12 horas** (`FRESCURA_MAXIMA`, o `--horas`). Lo lanza
-`vigilancia.yml` detras de `comprobar`, con `if: always()`.
+falta la pasada que ya tocaba. Lo lanza `vigilancia.yml` detras de `comprobar`,
+con `if: always()`, y tambien `noticias.py vigilar`.
 
-El numero sale de las horas y no de una intuicion: las pasadas van a las 6:10 y
-las 14:10 y el vigilante mira a las 9:15 y las 21:15, asi que en un dia normal
-lo mas viejo que se llega a ver son **7 horas** (la de mediodia vista por la
-noche). Si una pasada se salta entera, lo que ve son **19 horas** por la manana
-o **15** por la tarde. Con el corte en 12 se cazan los dos casos y quedan tres
-horas de margen para el retraso de los crons de GitHub, que el 26-08-2026 fue
-de casi tres horas en este mismo repositorio.
+#### Medir la antiguedad no valia: el 28-08-2026 el fallo tapaba al vigilante
+
+**La primera version comparaba la antiguedad de la ultima pasada contra un tope
+de 12 horas, y hay que entender por que no servia, porque suena equivalente.**
+La antiguedad se mide contra la pasada anterior, no contra la hora a la que
+tenia que haber salido esta. Ese dia GitHub se salto el cron de las 6:10, pero
+**la pasada anterior habia llegado con diez horas de retraso, a las 00:12**: a
+las 9:15 el vigilante veia 9 horas, por debajo del tope, y daba verde con la
+seccion sin actualizar.
+
+O sea que **cuanto mas se retrasa GitHub, mas reciente parece la pasada que se
+ha perdido**. El mismo fallo que hay que cazar desactivaba al que lo caza, y el
+razonamiento de las 12 horas ("si una se salta, se veran 19") daba por hecho que
+la anterior habia llegado a su hora, que es justo lo que aqui no pasa nunca.
+
+Ahora se compara contra un **horario fijo**: `pasada_exigible()` calcula la
+ultima hora de `HORAS_PASADA_UTC` que ya vencio, y se exige una pasada posterior
+a ella. A las 9:15 se pide una posterior a las 6:10 y da igual cuando llego la
+de ayer.
+
+- **Las horas van en UTC, que es lo que ponen los cron**, no en las 6:10 y 14:10
+  espanolas de su comentario. Solo se nota medio ano y ahi lo rompe: en invierno
+  el cron cae a las 5:10 espanolas, asi que exigir una pasada posterior a las
+  6:10 daria AVISO todas las mananas con los precios recien traidos. Salio
+  simulando enero, **despues de haber escrito en el codigo que llegar antes de
+  la hora exigida "nunca da falsa alarma"**, que es exactamente al reves.
+- **`MARGEN_PASADA` son 2 horas de retraso perdonadas**, y el numero esta
+  medido, no elegido: sobre los 31 runs programados del 10 al 27-08-2026, la
+  mediana de retraso son 36 min por la manana y 56 por la tarde, con 62 de
+  maximo en regimen normal. Con 2 horas ni el peor dia normal avisa, y el fallo
+  se sigue cazando el mismo dia.
+- **El mismo calculo hace de guardia en `precios.yml`**, con `--margen 0`: ahi
+  la pregunta pasa de "hay que avisar de que falta" a "hay que hacerla". Que sea
+  la misma funcion es lo que impide que las dos ideas de "pasada pendiente" se
+  separen con el tiempo.
 
 **Lo que no cubre, y no es un descuido:** que se salte el cron del propio
 vigilante, que es justo lo que paso ese dia. Dos workflows del mismo
@@ -1025,6 +1053,36 @@ entera pide vigilar desde fuera de GitHub.
 los feeds solo dan lo reciente, pero la ficha de la tienda sigue teniendo el
 precio de hoy. Por eso el error manda a lanzar `Precios` a mano desde Actions,
 para lo que ya estaba el `workflow_dispatch`.
+
+### Los cron de repesca: GitHub no dispara a su hora nunca
+
+Al medir el 28-08-2026 los 31 runs programados de `precios.yml` desde el 10-08
+salio algo que no se sabia: **ni uno solo ha disparado a su hora**. El retraso
+va de 33 a 62 minutos en regimen normal (mediana 36 por la manana, 56 por la
+tarde), y a partir del 26-08 por la tarde salta a 174, 178, 500, 602 y 661
+minutos, con dos pasadas saltadas enteras.
+
+**El retraso no es cola de runner**, y eso descarta la explicacion facil: en los
+31 runs, `run_started_at - created_at` es **0,0 minutos siempre**. Lo que llega
+tarde es la creacion del run, o sea el planificador de cron de GitHub. No se
+arregla con mas maquina ni con un runner propio, porque el problema ocurre antes
+de que haya runner.
+
+Los 40 minutos de mas dan igual: un precio que entra a las 6:50 vale lo mismo.
+Lo que no da igual es la pasada que no sale, asi que la salida es **pedirla mas
+veces**: cada tramo tiene su cron principal y **dos repescas** (a +1h30 y +3h30).
+Si la primera no dispara, dispara la siguiente.
+
+- **No publican tres veces al dia** porque el paso `guardia` del workflow lanza
+  `frescura --margen 0` antes de nada: si la pasada del tramo ya esta hecha, el
+  job acaba en segundos sin instalar Playwright ni abrir Chromium. En un dia
+  normal las dos repescas son eso, segundos de runner gratis.
+- **Van despues, no antes.** Adelantar el cron para compensar el retraso medio
+  seria adivinar; una repesca no pierde nada si la buena ya salio.
+- **Lo que no arreglan** es el dia en que GitHub deja de disparar cron durante
+  horas, como el 27-08: ahi caen las tres. Esa es la averia que tiene que cazar
+  `noticias.py vigilar`, que corre fuera de GitHub, y por eso los dos arreglos
+  van juntos.
 
 ### `noticias.py vigilar`: el vigilante que no vive en GitHub
 

@@ -66,9 +66,11 @@ jobs:
       # el agujero es otro: ese workflow falla si ninguna tienda responde, pero
       # solo las veces que llega a ejecutarse. El 27-08-2026 GitHub no lanzo su
       # cron y la seccion se quedo con los precios del dia anterior sin que
-      # hubiera un job en rojo ni un correo. 'frescura' mira la marca de tiempo
-      # de data/ofertas.json y falla si es mas vieja de lo que cabe entre dos
-      # pasadas.
+      # hubiera un job en rojo ni un correo. 'frescura' comprueba que la marca
+      # de tiempo de data/ofertas.json sea posterior a la hora a la que tenia
+      # que haber salido la ultima pasada. Contra la ANTIGUEDAD no valia: el
+      # 28-08-2026 la pasada anterior llego con diez horas de retraso, asi que
+      # la perdida parecia reciente y el vigilante daba verde.
       #
       # Con 'always()' por lo mismo que el paso anterior: si fallan dos cosas
       # interesa verlas en el mismo correo.
