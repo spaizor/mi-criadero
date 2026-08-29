@@ -3,6 +3,104 @@
   "mes": "2026-08",
   "noticias": [
     {
+      "titulo": "Un investigador de Anthropic muestra un primer vistazo a la IA que se mejora a si misma",
+      "fuente": "TechCrunch",
+      "fecha": "28-08-2026 21:30",
+      "enlace": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "Un investigador demuestra que basta pedirle a Claude Code que resuma una web para enganarlo",
+      "fuente": "The Register",
+      "fecha": "28-08-2026 22:50",
+      "enlace": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "El AI Co-Scientist de Google DeepMind ya planea experimentos, maneja equipos de laboratorio y escribe articulos cientificos",
+      "fuente": "The Decoder",
+      "fecha": "28-08-2026 20:46",
+      "enlace": "https://the-decoder.com/google-deepminds-ai-co-scientist-now-plans-experiments-runs-lab-equipment-and-writes-scientific-papers/",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "Meta ajusta sus gafas de IA para frenar algunas grabaciones sin consentimiento, pero el riesgo para la privacidad sigue ahi",
+      "fuente": "Ars Technica",
+      "fecha": "28-08-2026 17:42",
+      "enlace": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "La EPA de Trump quiere que los centros de datos dejen de avisar de su contaminacion del aire",
+      "fuente": "The Verge",
+      "fecha": "28-08-2026 18:28",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "De fabrica de aluminio a centro de datos: Kentucky sera el proximo gran nodo de computo de Anthropic",
+      "fuente": "Xataka",
+      "fecha": "28-08-2026 21:01",
+      "enlace": "https://www.xataka.com/ingenieria-y-megaconstrucciones/enorme-fabrica-aluminio-a-centro-datos-para-ia-kentucky-va-a-convertirse-proximo-gran-nodo-datos-para-anthropic",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "La neocloud Lambda consigue 1.000 millones de dolares en deuda para comprar mas chips",
+      "fuente": "TechCrunch",
+      "fecha": "28-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "Las empresas de IA de pesos abiertos, el objetivo de compra favorito de Silicon Valley",
+      "fuente": "TechCrunch",
+      "fecha": "28-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "a16z crea un fondo de 1.100 millones de dolares para acelerar la construccion fisica de la IA",
+      "fuente": "TechCrunch",
+      "fecha": "28-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "La IA prometía reducir la jornada laboral de los empleados. Por el momento ya ha conseguido tres horas libres a la semana",
+      "fuente": "Xataka",
+      "fecha": "28-08-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/ia-prometia-reducir-jornada-laboral-empleados-momento-ha-conseguido-tres-horas-libres-a-semana",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "Marc Andreessen, fundador de Netscape: \"Cualquier ralentización de la IA costará vidas; las muertes que podrían haberse evitado con una IA que no llegó a existir son una forma de asesinato\"",
+      "fuente": "ComputerHoy",
+      "fecha": "28-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/marc-andreessen-fundador-netscape-cualquier-ralentizacion-ia-costara-vidas-las-muertes-que-podrian-haberse-evitado-con-una-ia-que-no-llego-existir-son-una-forma-asesinato_7030310_0.html",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "Google cambia las reglas con Gemini Notebook (NotebookLM), que estrena nuevos límites",
+      "fuente": "Hipertextual",
+      "fecha": "28-08-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/google-cambia-las-reglas-con-gemini-notebook-notebooklm-que-estrena-nuevos-limites/",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "OpenAI, Anthropic y Google piden protegernos de los riesgos de la IA. Es como poner al lobo a cuidar del gallinero",
+      "fuente": "Xataka",
+      "fecha": "28-08-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/openai-anthropic-google-piden-protegernos-riesgos-ia-como-poner-al-lobo-a-cuidar-gallinero",
+      "turno": "2026-08-29_M"
+    },
+    {
+      "titulo": "OpenAI, Google y Microsoft advierten sobre una ola de ciberataques con IA",
+      "fuente": "Hipertextual",
+      "fecha": "28-08-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/carta-openai-empresas-ciberdefensa-ia/",
+      "turno": "2026-08-29_M"
+    },
+    {
       "titulo": "Un tribunal falla que el Pentagono actuo ilegalmente al incluir a Anthropic en su lista negra",
       "fuente": "TechCrunch",
       "fecha": "28-08-2026 14:46",
