@@ -768,6 +768,24 @@ se vio al revisar el historial dos dias despues. Con el tope, un cuelgue acaba
 en fallo, y un fallo si manda correo. La ejecucion normal tarda 3-4 minutos, o
 sea que 20 no aprieta nada.
 
+**Y el aviso de "ninguna tienda ha respondido" saltaba sin haber mirado nada.**
+Los dias 28 y 29-08-2026 el job acabo en rojo cuatro veces con
+`Ninguna tienda ha respondido:  consultas, 0 precios`, y el hueco donde va el
+numero era la pista: no es que las tiendas bloqueasen al runner, es que el
+guardia de las repescas habia dicho que la pasada del tramo ya estaba hecha y
+**no se abrio una sola ficha**. Al saltarse el paso de contar, su salida `ok`
+queda vacia, y **las expresiones de GitHub comparan laxo como JavaScript**, asi
+que `'' == '0'` es cierto y el paso de avisar se disparaba solo. Se arregla
+mirando ademas `steps.salud.outcome == 'success'`.
+
+Lo que hace grave a este fallo no es el correo de mas: es que el aviso dice
+justo lo contrario de lo que pasa, y **es el unico aviso que hay para el dia en
+que las tiendas cierren de verdad**. Un vigilante que grita cuando no ocurre
+nada se acaba ignorando, y entonces callara tambien el dia bueno. Lo mismo vale
+para el resto del fichero: **un `if` sobre la salida de un paso que puede
+saltarse tiene que mirar tambien si el paso corrio**, porque en GitHub vacio y
+cero valen igual.
+
 El precio **no se saca leyendo la pagina**, sino del bloque `schema.org/Product`
 que las tiendas incrustan para Google. Las dos formas conviven y hay que cubrir
 las dos: GAME lo publica en una etiqueta `<script type="application/ld+json">`

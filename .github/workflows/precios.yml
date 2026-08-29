@@ -157,8 +157,19 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           python3 scripts/noticias.py publicar "Actualizar precios ($(TZ=Europe/Madrid date '+%d-%m-%Y %H:%M'))"
 
+      # Se mira el resultado del paso de contar, no solo su numero: cuando el
+      # guardia decide que no hay que trabajar, ese paso se salta y 'ok' queda
+      # VACIO. Y en las expresiones de GitHub la comparacion es laxa como en
+      # JavaScript, asi que '' == '0' es CIERTO: los tres runs del 28-08-2026
+      # que acabaron en rojo con "Ninguna tienda ha respondido:  consultas"
+      # (con el hueco donde va el numero, que es la pista) no habian abierto
+      # una sola ficha. Un vigilante que grita cuando no pasa nada ensena a no
+      # leerlo, que es justo lo contrario de para lo que esta.
+      #
+      # Si lo que falla es 'consultar', este paso tambien se salta y no hace
+      # falta que avise: ese job ya esta en rojo por su cuenta.
       - name: Avisar si no ha entrado ningun precio
-        if: steps.salud.outputs.ok == '0'
+        if: steps.salud.outcome == 'success' && steps.salud.outputs.ok == '0'
         run: |
           echo "Ninguna tienda ha respondido: ${{ steps.salud.outputs.total }} consultas, 0 precios."
           echo "Si se repite, las tiendas estan bloqueando la IP del runner y esta via no sirve."
