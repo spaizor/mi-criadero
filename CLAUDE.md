@@ -1324,20 +1324,66 @@ sin darse cuenta: solo faltaba que `precios.yml` lo escuchara.
 - **El guardia decide igual que con los cron**, asi que un push que llegue con
   la pasada ya hecha acaba en segundos. Solo `workflow_dispatch` se salta el
   guardia, porque si lo lanzas a mano es que quieres que consulte.
-- **Lo que cuesta**: por esta via la banda de aviso **si** aparece en la portada
-  y se queda hasta la vigilancia del dia siguiente, aunque los precios se hayan
-  arreglado dos minutos despues. Con el token no pasaria, porque entonces el
-  aviso no llega a escribirse. Es el precio de no guardar una credencial.
-
-**Lo que faltaba por comprobar el 28-08-2026**, y se ve a la primera cuando
-ocurra: si el push de una rutina dispara workflows depende de con que credencial
-empuje, y no habia ningun workflow `on: push` en el repositorio con el que
-haberlo visto antes. Si no dispara, en el historial de Actions no saldra el run
-de Precios detras del commit de vigilancia, y entonces la via es otra.
+**Comprobado el 30-08-2026, y funciona.** Era lo que faltaba por ver del
+28-08: que el push de una rutina dispare workflows depende de con que credencial
+empuje, y no habia ningun `on: push` en el repositorio con el que haberlo visto
+antes. Ese dia GitHub no lanzo ni el cron de precios ni el de `vigilancia.yml`
+(cero runs con `event: schedule` en toda la madrugada), la rutina publico el
+aviso a las 09:38, y en el historial de Actions aparece detras `Precios` con
+`event: push`, que publico los precios a las 09:40. Dos minutos de principio a
+fin, sin tocar nada.
 
 Lo que **no** cubre: si GitHub Actions esta caido del todo, el dispatch tampoco
 entra. Pero eso ya no es un fallo mudo, porque la llamada devuelve el error y
 entonces si se pinta la banda.
+
+#### La banda que decia lo contrario que la linea de debajo
+
+Lo que costaba esta via era que **la banda de aviso salia igual**, y se quedaba
+hasta la vigilancia del dia siguiente aunque los precios se hubieran arreglado
+dos minutos despues. Con el token no habria pasado, porque entonces el aviso no
+llega a escribirse, y se dio por el precio de no guardar una credencial.
+
+El 30-08-2026, viendolo funcionar de verdad, se vio que no era un precio
+aceptable: la portada **se contradecia a si misma**. La banda decia *"Falta la
+pasada de precios de las 06:10"* justo encima de la entrada de Ofertas, que
+`portada.js` pinta con su hora y que ese rato decia *"hoy 09:40"*. De las dos
+cosas, la falsa era la que gritaba, y esa es la manera de que se deje de leer la
+banda para el dia en que diga algo.
+
+El fallo no era pintar de mas, era de logica, y estaba en el `if` de `vigilar`:
+lo escrito ahi es que **si el problema se esta corrigiendo solo, la banda no
+sale**, pero ese `if` solo conocia un lanzador, el del token. Desde el 28-08 hay
+un segundo que si funciona -este push- y el codigo no se habia enterado, asi que
+caia siempre por el `else` de "nadie lo va a arreglar".
+
+Por eso `vigilancia.json` lleva desde el 30-08-2026 **dos listas**:
+
+```json
+{ "comprobado": "30-08-2026 09:38", "avisos": [], "disparos": [
+    { "que": "precios", "texto": "Falta la pasada de precios de las 06:10..." } ] }
+```
+
+- **`avisos` es lo que se pinta**: lo que sigue roto y necesita una persona.
+- **`disparos` no se pinta**, y ahi esta la gracia: el fichero cambia igual, o
+  sea que hay commit y hay push, o sea que `precios.yml` arranca lo mismo. Le da
+  igual el contenido, su `paths` mira el nombre del fichero. El pistoletazo se
+  conserva entero y lo unico que se quita es la banda.
+- **Un disparo pasa a aviso cuando el disparo anterior no sirvio**, o sea si la
+  pasada sigue faltando en la vigilancia siguiente. Esa es la unica version del
+  mensaje que no puede quedarse mintiendo.
+- **Turnos y secciones no pasan nunca por `disparos`**: un turno perdido no se
+  recupera y una seccion a medias no se arregla sola. Ahi la banda es el unico
+  canal, y por eso no se quito entera, que era la otra opcion encima de la mesa.
+
+Lo que se pierde son **los dos minutos** entre que se escribe el disparo y acaba
+el run: ahi falta la pasada y no hay banda. Es asumible porque las dos formas de
+que eso acabe mal ya avisan: si el run falla es un job en rojo con su correo, y
+si no llega a correr, la vigilancia de manana lo ve y esa vez si pinta.
+
+El mensaje del commit tambien cambia (`"Vigilancia: falta la pasada de precios,
+la lanza este push"` en vez de `"1 aviso"`): decir "aviso" en el historial de un
+commit cuyo unico cometido es lanzar la pasada seria mentir en el mismo sitio.
 
 ### `assets/secciones.json` y el comando `comprobar`
 

@@ -173,6 +173,15 @@ function pintarAvisos(datos) {
 // vigilar' en data/vigilancia.json desde una rutina de Claude, que corre fuera
 // de GitHub y por eso puede avisar cuando lo que ha fallado es el propio cron
 // de GitHub. Casi siempre esta vacio, como los de precio.
+//
+// Se pinta 'avisos' y NO 'disparos', y eso no es un olvido: son las dos listas
+// que escribe 'vigilar'. Un disparo es un fallo que el push de ese mismo
+// fichero esta arreglando (falta la pasada de precios -> el push lanza
+// precios.yml), asi que para cuando alguien abra la portada ya no sera verdad.
+// El 30-08-2026 se vio pintado: la banda decia que faltaban precios justo
+// encima de una entrada de Ofertas que decia "hoy 09:40". Lo que sube aqui es
+// lo que sigue roto, no lo que se esta reparando; si el disparo no sirve, la
+// vigilancia siguiente lo mueve a 'avisos' y entonces si sale.
 async function pintarVigilancia() {
   const caja = document.getElementById('avisos');
   if (!caja) return;

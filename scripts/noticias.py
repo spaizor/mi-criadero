@@ -1659,12 +1659,46 @@ def cmd_vigilar(args):
     el problema se esta corrigiendo solo y una banda que dijera lo contrario
     seguiria puesta todo el dia. Y no deja un agujero mudo, que es lo que habria
     que temer: si el run que se acaba de lanzar falla, es un job en rojo y GitHub
-    manda el correo. Solo si NO se consigue lanzar (sin token, sin red, permiso
-    caducado) se pinta la banda, que es cuando de verdad hace falta una persona.
+    manda el correo. Solo si NO se consigue lanzar se pinta la banda, que es
+    cuando de verdad hace falta una persona.
+
+    ## 'disparos': el segundo lanzador tambien cuenta
+
+    Ese razonamiento solo conocia un lanzador, el del token, y hoy hay dos: el
+    push de este mismo fichero dispara precios.yml desde el 28-08-2026. Como una
+    rutina de Claude no admite secretos, el camino que corre de verdad es el
+    segundo, y por el se caia siempre al 'else': se pintaba la banda aunque el
+    arreglo ya estuviera en marcha.
+
+    Se vio el 30-08-2026. GitHub no disparo ni el cron de precios ni el de
+    vigilancia.yml; a las 09:38 esto publico el aviso, su push lanzo precios y a
+    las 09:40 estaban al dia. La banda se quedo puesta hasta el dia siguiente
+    **encima de una entrada de Ofertas que decia "hoy 09:40"**: la portada se
+    contradecia a si misma, y de las dos cosas la falsa era la que gritaba.
+
+    De ahi las dos listas. El motivo se escribe igual, pero en 'disparos', que
+    la portada no pinta: el fichero cambia, o sea que hay commit y hay push, o
+    sea que precios.yml arranca lo mismo (mira el nombre del fichero, no lo que
+    dice). Y pasa a 'avisos' -banda- solo cuando **el disparo anterior no
+    sirvio**, que es la unica version del mensaje que no puede quedarse mintiendo:
+    entonces si hace falta una persona.
+
+    Lo que se pierde, y es asumible: entre que se escribe el disparo y acaba el
+    run pasan un par de minutos en los que falta la pasada y no hay banda. Si ese
+    run falla es un job en rojo con su correo, y si no llega a correr, la
+    vigilancia de manana lo ve y esa vez si avisa.
+
+    Turnos y secciones no pasan nunca por 'disparos': un turno perdido no se
+    recupera (los feeds solo dan lo reciente) y una seccion a medias no se
+    arregla sola. Ahi la banda es el unico canal que hay.
     """
     from precios import revisar_frescura, lanzar_pasada  # aqui, que precios.py importa de este
 
-    avisos = []
+    # Dos listas, y la diferencia entre ellas es de quien es el problema:
+    # 'avisos' se pinta en la portada porque hace falta una persona, y
+    # 'disparos' no se pinta porque este mismo push lo esta arreglando.
+    avisos, disparos = [], []
+
     ok, lineas = _con_la_salida_recogida(
         cmd_estado, argparse.Namespace(dias=args.dias, local=args.local))
     if not ok:
@@ -1673,6 +1707,13 @@ def cmd_vigilar(args):
     ok, lineas = _con_la_salida_recogida(cmd_comprobar, argparse.Namespace())
     if not ok:
         avisos.append({"que": "secciones", "texto": _resumen(lineas)})
+
+    anterior = leer_json(VIGILANCIA) if VIGILANCIA.exists() else {}
+    previos = anterior.get("avisos", [])
+    previos_disparos = anterior.get("disparos", [])
+    # Si la vigilancia anterior ya disparo por los precios y la pasada sigue
+    # faltando, su push no sirvio: eso ya no se arregla solo.
+    insistiendo = any(d.get("que") == "precios" for d in previos_disparos)
 
     ok, lineas = revisar_frescura()
     lanzamiento = None
@@ -1683,19 +1724,28 @@ def cmd_vigilar(args):
         lanzada, lanzamiento = (False, None) if args.probar else lanzar_pasada()
         if lanzada:
             print(f"PRECIOS: {_resumen(lineas)}")
-        else:
+        elif insistiendo:
             avisos.append({"que": "precios", "texto": _resumen(lineas)})
+        else:
+            disparos.append({"que": "precios", "texto": _resumen(lineas)})
 
-    previos = leer_json(VIGILANCIA).get("avisos", []) if VIGILANCIA.exists() else []
     for aviso in avisos:
         print(f"{aviso['que'].upper()}: {aviso['texto']}")
+    for disparo in disparos:
+        print(f"{disparo['que'].upper()}: {disparo['texto']}")
+        print("  Se publica data/vigilancia.json para que su push lance "
+              "precios.yml. No se pinta banda: se esta arreglando.")
     if lanzamiento:
         print(f"PRECIOS: {lanzamiento}")
-    if not avisos and not lanzamiento:
+    if not avisos and not disparos and not lanzamiento:
         print("Todo en orden: turnos publicados, secciones completas y precios "
               "de hoy.")
 
-    if [a["texto"] for a in previos] == [a["texto"] for a in avisos]:
+    def textos(lista):
+        return [a["texto"] for a in lista]
+
+    if (textos(previos) == textos(avisos)
+            and textos(previos_disparos) == textos(disparos)):
         print("Sin cambios desde la ultima vigilancia: no se toca data/.")
         return 1 if avisos else 0
 
@@ -1706,11 +1756,18 @@ def cmd_vigilar(args):
     escribir_json(VIGILANCIA, {
         "comprobado": datetime.now(ESPANA).strftime(FORMATO_FECHA_HORA),
         "avisos": avisos,
+        "disparos": disparos,
     })
-    cmd_publicar(argparse.Namespace(
-        mensaje=(f"Vigilancia: {len(avisos)} aviso"
-                 f"{'s' if len(avisos) != 1 else ''}" if avisos
-                 else "Vigilancia: todo en orden otra vez")))
+    if avisos:
+        mensaje = (f"Vigilancia: {len(avisos)} aviso"
+                   f"{'s' if len(avisos) != 1 else ''}")
+    elif disparos:
+        # El mensaje dice lo que hace el commit, que es lanzar la pasada. Poner
+        # aqui "1 aviso" seria mentir en el historial igual que en la portada.
+        mensaje = "Vigilancia: falta la pasada de precios, la lanza este push"
+    else:
+        mensaje = "Vigilancia: todo en orden otra vez"
+    cmd_publicar(argparse.Namespace(mensaje=mensaje))
     return 1 if avisos else 0
 
 
