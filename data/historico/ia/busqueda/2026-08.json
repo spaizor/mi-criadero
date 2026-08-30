@@ -3,6 +3,90 @@
   "mes": "2026-08",
   "noticias": [
     {
+      "titulo": "Una campaña llamada ClaudeFix usaba chats compartidos de Claude para infectar Mac con el malware MacSync Stealer",
+      "fuente": "ComputerHoy",
+      "fecha": "30-08-2026 07:00",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/no-compartas-chats-claude-code-estaras-punto-mira-los-ciberdelincuentes_7022928_0.html",
+      "turno": "2026-08-30_T"
+    },
+    {
+      "titulo": "Anthropic subirá un 25% los límites de Claude Code en septiembre, pero supone un recorte del 17% frente a lo que hay hoy",
+      "fuente": "The Decoder",
+      "fecha": "30-08-2026 11:05",
+      "enlace": "https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice/",
+      "turno": "2026-08-30_T"
+    },
+    {
+      "titulo": "Meta prueba robots de Kinova, ABB y Watney para sustituir tareas físicas en sus centros de datos",
+      "fuente": "Ars Technica",
+      "fecha": "30-08-2026 13:03",
+      "enlace": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+      "turno": "2026-08-30_T"
+    },
+    {
+      "titulo": "El sentimiento positivo hacia la IA en el trabajo cae del 81% al 43% en siete años, según un análisis de reseñas de empleados",
+      "fuente": "The Decoder",
+      "fecha": "30-08-2026 15:12",
+      "enlace": "https://the-decoder.com/ai-sentiment-is-turning-sour-as-employee-reviews-reveal-growing-frustration-across-the-workforce/",
+      "turno": "2026-08-30_T"
+    },
+    {
+      "titulo": "Caterpillar aplica a su despliegue de IA lo que aprendió automatizando minas, con 100 millones de dólares para formar a 118.000 empleados",
+      "fuente": "TechCrunch",
+      "fecha": "30-08-2026 17:00",
+      "enlace": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+      "turno": "2026-08-30_T"
+    },
+    {
+      "titulo": "Meta AI llega a Apple CarPlay justo antes de la nueva Siri con IA de iOS 27",
+      "fuente": "ComputerHoy",
+      "fecha": "30-08-2026 14:40",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/apple-carplay-se-prepara-para-recibir-otro-chatbot-ia-antes-llegada-nuevo-siri_7030731_0.html",
+      "turno": "2026-08-30_T"
+    },
+    {
+      "titulo": "Los agentes de IA no tienen noción del tiempo, y ni siquiera lo saben",
+      "fuente": "The Decoder",
+      "fecha": "30-08-2026",
+      "enlace": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/",
+      "turno": "2026-08-30_T"
+    },
+    {
+      "titulo": "Las habilidades que dan mejores notas son justo las que la IA finge mejor",
+      "fuente": "The Decoder",
+      "fecha": "30-08-2026",
+      "enlace": "https://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best/",
+      "turno": "2026-08-30_T"
+    },
+    {
+      "titulo": "Estamos consumiendo más libros que nunca gracias a la IA: eso no significa necesariamente que los estemos leyendo",
+      "fuente": "Xataka",
+      "fecha": "30-08-2026",
+      "enlace": "https://www.xataka.com/literatura-comics-y-juegos/estamos-consumiendo-libros-que-nunca-gracias-a-ia-eso-no-significa-necesariamente-que-estemos-leyendo",
+      "turno": "2026-08-30_T"
+    },
+    {
+      "titulo": "Adam Conway, experto programador: \"Todos los desarrolladores que conozco utilizan IA, pero casi ninguno se fía del código\"",
+      "fuente": "ComputerHoy",
+      "fecha": "30-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/adam-conway-experto-programador-usan-ia-todos-los-dias-pero-ninguno-fia-codigo-generado_7008135_0.html",
+      "turno": "2026-08-30_T"
+    },
+    {
+      "titulo": "Donde antes había vacas y patatas, hoy hay centros de datos: esta ciudad china es la \"gasolina\" de la IA",
+      "fuente": "Xataka",
+      "fecha": "30-08-2026",
+      "enlace": "https://www.xataka.com/servicios/donde-antes-habia-vacas-patatas-hoy-hay-centros-datos-ciudad-china-que-gasolina-ia",
+      "turno": "2026-08-30_T"
+    },
+    {
+      "titulo": "Nos hemos pasado tres años preocupados por si la IA alucina. Ahora el problema es que haga cosas",
+      "fuente": "Xataka",
+      "fecha": "30-08-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/nos-hemos-pasado-tres-anos-preocupados-ia-alucina-ahora-problema-que-haga-cosas",
+      "turno": "2026-08-30_T"
+    },
+    {
       "titulo": "Sony Music y Warner Chappell demandan a Anthropic por «una campaña descarada» de robo de propiedad intelectual",
       "fuente": "TechCrunch",
       "fecha": "29-08-2026 20:41",
