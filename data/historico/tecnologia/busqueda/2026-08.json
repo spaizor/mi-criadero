@@ -3,6 +3,188 @@
   "mes": "2026-08",
   "noticias": [
     {
+      "titulo": "OpenAI presenta los primeros benchmarks de su chip Jalapeño y dice superar a los Blackwell de Nvidia",
+      "fuente": "Winbuzzer",
+      "fecha": "26-08-2026 18:15",
+      "enlace": "https://winbuzzer.com/2026/08/26/openai-jalapeno-faster-inference-gb200-gb300-company-tests-xcxwbn/",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "Una jueza federal anula el veto del Pentágono a Anthropic por represalias",
+      "fuente": "Al Jazeera",
+      "fecha": "28-08-2026 00:00",
+      "enlace": "https://www.aljazeera.com/news/2026/8/28/us-judge-blocks-pentagon-blacklisting-of-ai-firm-anthropic",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "Samsung presenta oficialmente el Galaxy S26 FE: procesador Exynos 2500 y 799 euros",
+      "fuente": "Xataka",
+      "fecha": "27-08-2026 14:11",
+      "enlace": "https://www.xataka.com/moviles/samsung-lanza-galaxy-s26-fe-como-barato-s26-mercado-que-cada-vez-hay-movil-chollo",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "La UE admite por primera vez ataques de espionaje dirigidos a los móviles de sus altos cargos",
+      "fuente": "Euronews",
+      "fecha": "26-08-2026 12:46",
+      "enlace": "https://www.euronews.com/my-europe/2026/08/26/state-actors-tried-to-hack-eu-officials-messaging-apps-cybersecurity-body-warns",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "ServiceNow corrige tres fallos críticos que permitían tomar el control de sus plataformas sin credenciales",
+      "fuente": "BleepingComputer",
+      "fecha": "28-08-2026 12:29",
+      "enlace": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "Meta prepara Hatch, un agente de IA que reserva mesas y compra por ti en Instagram y WhatsApp",
+      "fuente": "American Bazaar",
+      "fecha": "25-08-2026 00:00",
+      "enlace": "https://americanbazaaronline.com/2026/08/25/meta-to-develop-an-ai-agent-platform-hatch-for-task-completion-486985/",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "Amazon cierra Mechanical Turk, el mercado de microtrabajo que llamó «inteligencia artificial artificial»",
+      "fuente": "Yahoo Finance",
+      "fecha": "26-08-2026 13:09",
+      "enlace": "https://finance.yahoo.com/technology/ai/articles/amazon-shutting-down-mechanical-turk-110911035.html",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "El rediseño de Anbernic de la Switch Lite sale a la venta el 31 de agosto",
+      "fuente": "Engadget",
+      "fecha": "29-08-2026",
+      "enlace": "https://www.engadget.com/2246977/anbernic-reimagining-of-switch-lite-goes-on-sale-august-31/",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "Famosos de Hollywood se suben a las apps de microdramas",
+      "fuente": "TechCrunch",
+      "fecha": "29-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/29/hollywood-celebs-are-getting-into-microdrama-apps/",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "El gadget de escritura sin distracciones BYOK añade extensiones personalizadas",
+      "fuente": "The Verge",
+      "fecha": "29-08-2026",
+      "enlace": "https://www.theverge.com/gadgets/986427/distraction-free-writing-gadget-byok-scripts-extensions",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "En 1922, un ingeniero de EEUU construyó una casa con más de 100.000 periódicos. 100 años después, las paredes de papel aún se conservan",
+      "fuente": "Xataka",
+      "fecha": "29-08-2026",
+      "enlace": "https://www.xataka.com/magnet/1922-ingeniero-eeuu-construyo-casa-100-000-periodicos-100-anos-despues-paredes-papel-se-conservan",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "Esta función oculta de Windows comprime tu sistema y libera hasta 5 GB de espacio",
+      "fuente": "Hipertextual",
+      "fecha": "29-08-2026",
+      "enlace": "https://hipertextual.com/software/compact-os-windows-comando-comprime-espacio/",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "Movistar confirma por qué no puedes contratar 10 Gbps aunque su fibra ya llegue a tu domicilio",
+      "fuente": "ADSLZone",
+      "fecha": "29-08-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-confirma-limitas-contratar-tarifa-10-gbps/",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "¿Y si Windows 8 hubiera sido así? Este concepto hace que parezca un sistema completamente nuevo",
+      "fuente": "ComputerHoy",
+      "fecha": "29-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/si-windows-8-hubiera-sido-asi-este-concepto-hace-que-parezca-un-sistema-completamente-nuevo_7030661_0.html",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "El Algarrobico es el mayor monstruo de la ambición turística desmedida: 411 habitaciones y cero huéspedes",
+      "fuente": "Xataka",
+      "fecha": "29-08-2026",
+      "enlace": "https://www.xataka.com/magnet/algarrobico-mayor-monstruo-ambicion-turistica-desmedida-411-habitaciones-cero-huespedes",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "El termo eléctrico puede ser uno de los grandes culpables de tu factura: así debes programarlo",
+      "fuente": "ADSLZone",
+      "fecha": "29-08-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/termo-electrico-consumo-programacion/",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "WhatsApp prepara una alerta contra las estafas que podría avisarte antes de que caigas",
+      "fuente": "ComputerHoy",
+      "fecha": "29-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-prepara-una-alerta-contra-las-estafas-que-podria-avisarte-antes-que-caigas_7030658_0.html",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "La peor señal de los incendios en España no es que ardan los montes: es que el fuego se está comiendo los cultivos",
+      "fuente": "Xataka",
+      "fecha": "29-08-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/fuego-no-arde-solo-monte-quema-cultivos-que-antes-frenaban-llamas-espana-vaciada",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "No tires el dinero con la vuelta al cole: los expertos dan las 10 claves para no gastar ni un euro de más",
+      "fuente": "ADSLZone",
+      "fecha": "29-08-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/vuelta-cole-ocu-10-claves-ahorro/",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "Si tienes un iPhone X o un MacBook Pro de 2018, malas noticias: Apple los declara obsoletos y ya no podrás repararlos",
+      "fuente": "ComputerHoy",
+      "fecha": "29-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/si-tienes-un-iphone-x-un-macbook-pro-2018-malas-noticias-apple-los-declara-obsoletos-ya-no-podras-repararlos_7030657_0.html",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "La ciencia reconstruye el primer paisaje sonoro del Jurásico y encuentra la prueba más antigua de comunicación por ultrasonidos.",
+      "fuente": "Xataka",
+      "fecha": "29-08-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/ciencia-reconstruye-primer-paisaje-sonoro-jurasico-encuentra-prueba-antigua-comunicacion-ultrasonidos",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "Windows 11 por fin moderniza una función que llevaba 25 años sin cambiar desde Windows XP",
+      "fuente": "ComputerHoy",
+      "fecha": "29-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/windows-11-por-fin-moderniza-una-funcion-que-llevaba-25-anos-sin-cambiar-desde-windows-xp_7030652_0.html",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "Alabama lleva 40 años enterrando árboles de Navidad sobre sus playas. El resultado ha sido un éxito: nuevas dunas contra los huracanes",
+      "fuente": "Xataka",
+      "fecha": "29-08-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/alabama-lleva-40-anos-enterrando-arboles-navidad-sus-playas-resultado-ha-sido-exito-nuevas-dunas-huracanes",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "Meta pone fin al truco que permitía grabar con sus gafas inteligentes sin avisar: así te afecta",
+      "fuente": "ComputerHoy",
+      "fecha": "29-08-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/meta-pone-fin-truco-que-permitia-grabar-con-sus-gafas-inteligentes-sin-avisar-asi-te-afecta_7030604_0.html",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "a16z crea un fondo «Machine Age» de 1.100 millones de dólares para acelerar la infraestructura física de la IA",
+      "fuente": "TechCrunch",
+      "fecha": "28-08-2026",
+      "enlace": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
+      "turno": "2026-08-30_M"
+    },
+    {
+      "titulo": "Un ciberataque a los aeropuertos de Manchester expone los datos de 8,7 millones de personas",
+      "fuente": "Security Magazine",
+      "fecha": "28-08-2026",
+      "enlace": "https://www.securitymagazine.com/articles/102535-manchester-airports-breach-impacts-87m",
+      "turno": "2026-08-30_M"
+    },
+    {
       "titulo": "Nvidia dejará de sacar drivers Game Ready para Windows 10 a partir de noviembre",
       "fuente": "ComputerHoy",
       "fecha": "29-08-2026 14:48",
@@ -841,13 +1023,6 @@
       "fecha": "27-08-2026",
       "enlace": "https://www.xataka.com/magnet/reino-unido-debe-saber-algo-que-no-sabe-resto-europa-va-a-pedir-a-sus-ciudadanos-que-acumulen-comida-agua-casa",
       "turno": "2026-08-28_M"
-    },
-    {
-      "titulo": "Samsung presenta el Galaxy S26 FE, la variante barata de su gama insignia",
-      "fuente": "Xataka",
-      "fecha": "27-08-2026 14:11",
-      "enlace": "https://www.xataka.com/moviles/samsung-lanza-galaxy-s26-fe-como-barato-s26-mercado-que-cada-vez-hay-movil-chollo",
-      "turno": "2026-08-27_T"
     },
     {
       "titulo": "Meta detalla como limitará Instagram y Facebook para los menores en EEUU",
