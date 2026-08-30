@@ -1472,20 +1472,50 @@ Cinco cosas que hay que saber antes de tocar el dibujo:
   decidieron mirandolas a 16, 24, 32 y 48 px, que es donde se usa el icono:
   estrecha se lee como un mordisco en el contorno y no como un agujero; alta y
   pegada al borde superior deja una franja fina que convierte el conjunto en el
-  asa de un bolso. Va del color del fondo y no de un tono mas oscuro, para que
-  siga siendo un agujero en el icono de Apple y en el maskable, que van opacos.
+  asa de un bolso. Su color es cosa aparte y esta mas abajo, con lo del fondo
+  transparente.
 
 La leccion es la de siempre en este proyecto, aplicada al diseno: **el icono se
 juzga al tamano al que se usa, no a 512 px**. Las tres correcciones de arriba se
 veian todas en la tira de 16 a 48 px y ninguna en el grande.
 
+### Sin fondo, y encajado en el cuadro (30-08-2026)
+
+El icono nacio con una pastilla oscura redondeada detras, heredada del 2x2, y
+con eso se veia pequeno: entre el margen y el aire que dejaba un dibujo
+apaisado, la silueta ocupaba poco mas de la mitad del cuadro. Ahora **el
+favicon y los dos PNG del manifest van con fondo transparente**, que ademas es
+lo correcto en una pestana o un escritorio claros, donde la pastilla se ve como
+un parche pegado.
+
+Tres cosas que eso arrastra, y ninguna es opcional:
+
+- **La abertura ya no puede ser del color del fondo.** Lo era, y funcionaba
+  mientras hubiera pastilla; sin ella, esa elipse #0f1115 se convierte en una
+  mancha oscura flotando sobre lo que haya detras. Es su propio tono
+  (`BOCA`), un ciruela oscuro que se lee como agujero contra el blanco y contra
+  el negro, y que sigue valiendo en los dos iconos que si van opacos.
+- **El maskable y el de Apple siguen opacos, y no por descuido.** Android le
+  aplica su forma al maskable y una esquina transparente se veria recortada;
+  iOS directamente rellena de negro la transparencia. Son los dos unicos
+  ficheros con fondo, y por eso el dibujo tiene que quedar bien de las dos
+  maneras.
+- **El dibujo se encaja, no se mide en fracciones del lado.** `formas()` dibuja
+  en coordenadas propias y `encajar()` calcula su marco y lo centra y escala
+  hasta llenar el lienzo. Hacia falta porque **el ancho depende de cuantas
+  secciones haya** -cada huevo nuevo ensancha la fila-, o sea que ninguna medida
+  fija podia estar bien para todos los casos. Y el marco se mide con el suelo
+  puesto: las elipses cortadas no llegan adonde llegaria su radio, y sin eso el
+  dibujo sale pequeno y subido.
+
 Cuatro cosas que hay que saber para no romperlo:
 
-- **El "maskable" lleva mas margen que los demas** (26% contra 14%). Android
-  recorta ese icono a un circulo y solo garantiza el 80% central: con el margen
-  normal le cortaria los hombros al monticulo.
+- **El "maskable" lleva mucho mas margen que los demas** (20% contra 4%).
+  Android recorta ese icono a un circulo y solo garantiza el 80% central: con
+  el margen normal le cortaria los hombros al monticulo.
 - **El de Apple va cuadrado y opaco.** iOS redondea el icono el solo y no lleva
-  bien la transparencia: se la rellena de negro.
+  bien la transparencia: se la rellena de negro. Y lleva algo mas de margen que
+  los sueltos (10%) porque ese redondeo se come las esquinas.
 - **`og:image` y `og:url` van en absoluto.** Quien genera la previsualizacion de
   WhatsApp o Telegram no resuelve rutas relativas; con una relativa la imagen
   simplemente no sale. Por eso son las unicas URL del proyecto que llevan el

@@ -29,6 +29,12 @@ cortada por la linea del suelo: es lo unico que los dos formatos saben pintar
 identico sin aproximar nada, por distancia al borde en el PNG y con <ellipse>
 y un <clipPath> en el SVG. Una curva mas libre obligaria a rasterizar poligonos
 aqui y a escribir bezieres alli, que es justo la divergencia que se evita.
+
+formas() dibuja en sus propias coordenadas y encajar() lo lleva al lienzo, en
+vez de escribir las medidas como fracciones del lado. Asi el dibujo llena
+siempre el cuadro: al quitarle el fondo se noto que sobraba un cuarto del alto,
+y sobre todo el ancho depende de cuantas secciones haya, que es lo que ninguna
+medida fija podia saber.
 """
 
 import json
@@ -43,17 +49,27 @@ CSS = RAIZ / "assets" / "estilo.css"
 ASSETS = RAIZ / "assets"
 LISTA = ASSETS / "secciones.json"
 
-# Los dos tonos del monticulo. Estos si viven aqui y no en estilo.css, al reves
-# que los de los huevos: no los usa ninguna pagina, son solo del icono. Van en
+# Los tonos del monticulo. Estos si viven aqui y no en estilo.css, al reves que
+# los de los huevos: no los usa ninguna pagina, son solo del icono. Van en
 # ciruela desaturado para que ningun acento de seccion se pierda encima, y no
-# mas oscuros porque sobre el fondo (#0f1115) la silueta se emborrona a 32 px.
+# mas oscuros porque sobre un fondo oscuro la silueta se emborrona a 32 px.
 CUPULA = (0x55, 0x3a, 0x70)
 CUPULA_LUZ = (0x86, 0x5f, 0xad)
+# La abertura ya no puede ser del color del fondo, porque los iconos que mas se
+# ven ya no tienen fondo: sobre una pestana en tema claro esa elipse se veria
+# como una mancha oscura fuera de sitio. Es un ciruela casi negro, que se lee
+# como un agujero contra el blanco y contra el negro, y que ademas sigue
+# valiendo en los dos iconos que si van opacos.
+BOCA = (0x2a, 0x1b, 0x3a)
 
 # A partir de aqui los huevos son mas finos que un pixel en la pestana. No es
 # un limite tecnico, es que dejarian de leerse; el dia que llegue hay que
 # decidir el dibujo, igual que paso con el 2x2.
 MAXIMO_HUEVOS = 8
+
+# El aire alrededor del dibujo en los iconos sin fondo. Es pequeno a proposito:
+# sin la pastilla oscura detras, el margen no separa de nada, solo encoge.
+MARGEN = 0.04
 
 
 def acentos():
@@ -94,17 +110,14 @@ def elipse(cx, cy, rx, ry, tinta, suelo=None):
             "suelo": suelo}
 
 
-def formas(lado, colores, fondo, margen):
-    """El dibujo entero, en orden de pintado. La unica fuente: de aqui salen
-    los PNG y el SVG.
+def formas(colores):
+    """El dibujo entero, en orden de pintado y en coordenadas propias.
 
-    Las medidas van en fracciones de la zona util para que el mismo dibujo
-    valga a 32 y a 512 px, y para que el margen extra del icono maskable no
-    obligue a recolocar nada.
+    La unica fuente: de aqui salen los PNG y el SVG. Las medidas son sobre 100
+    y no sobre el lado del icono porque quien las lleva al lienzo es encajar().
     """
-    util = lado * (1 - 2 * margen)
-    cx = lado / 2
-    suelo = lado * margen + util * 0.75
+    suelo = 75.0
+    cx = 50.0
 
     piezas = []
 
@@ -112,41 +125,61 @@ def formas(lado, colores, fondo, margen):
     # sola elipse cortada por el suelo la silueta sale como un arco de circo
     # perfecto, que se lee antes como un arcoiris que como algo vivo.
     for costado in (-1, 1):
-        piezas.append(elipse(cx + costado * util * 0.26, suelo - util * 0.02,
-                             util * 0.24, util * 0.33, CUPULA, suelo))
+        piezas.append(elipse(cx + costado * 24.0, suelo - 2.0, 22.0, 37.0,
+                             CUPULA, suelo))
 
     piezas += [
         # El cuerpo, mas alto y estrecho que los hombros. Todas van cortadas
         # por la linea del suelo: es el corte lo que les da base plana.
-        elipse(cx, suelo - util * 0.11, util * 0.37, util * 0.52, CUPULA,
-               suelo),
+        elipse(cx, suelo - 11.0, 37.0, 52.0, CUPULA, suelo),
         # El domo interior, que es todo el volumen que hace falta: dos tonos
         # planos se leen a 32 px y un degradado no.
-        elipse(cx, suelo - util * 0.065, util * 0.26, util * 0.42, CUPULA_LUZ,
-               suelo),
-        # La abertura, ancha y en el tercio alto. Estrecha se lee a 32 px como
-        # un mordisco en el contorno y no como un agujero, que es la diferencia
-        # entre un monticulo y un criadero; probadas las dos, gana esta.
-        # Del color del fondo y no de un tono mas oscuro, para que siga siendo
-        # un agujero en el icono de Apple y en el maskable, que van opacos.
-        elipse(cx, suelo - util * 0.40, util * 0.175, util * 0.078, fondo),
+        elipse(cx, suelo - 6.5, 26.0, 46.0, CUPULA_LUZ, suelo),
+        # La abertura, ancha, achatada y con aro de cupula por encima. Las tres
+        # cosas se decidieron mirandola a 16, 24, 32 y 48 px: estrecha se lee
+        # como un mordisco en el contorno y no como un agujero, y pegada al
+        # borde de arriba deja una franja fina que convierte el conjunto en el
+        # asa de un bolso.
+        elipse(cx, suelo - 37.0, 14.5, 6.5, BOCA),
     ]
 
     # Un huevo por seccion, repartido en dos filas: los pares delante y los
     # impares asomando entre ellos. Repartir en vez de alinearlos deja los
     # huevos al doble de tamano, que a 32 px es la diferencia entre una mancha
     # de color y nada.
-    paso = util * 0.28
-    rx, ry = util * 0.092, util * 0.114
+    paso, rx, ry = 26.0, 8.8, 10.5
     filas = (
-        (colores[1::2], 0.82, suelo - util * 0.11),
-        (colores[0::2], 1.00, suelo - util * 0.02),
+        (colores[1::2], 0.82, suelo - 12.0),
+        (colores[0::2], 1.00, suelo - 3.5),
     )
     for tintas, escala, cy in filas:
         for i, tinta in enumerate(tintas):
             x = cx + (i - (len(tintas) - 1) / 2) * paso
             piezas.append(elipse(x, cy, rx * escala, ry * escala, tinta))
     return piezas
+
+
+def encajar(piezas, lado, margen):
+    """Escala y centra el dibujo para que llene el lienzo.
+
+    El alto se mide con el suelo puesto: las elipses cortadas no llegan hasta
+    donde llegaria su radio, y sin tenerlo en cuenta el dibujo saldria pequeno
+    y subido.
+    """
+    izq = min(p["cx"] - p["rx"] for p in piezas)
+    der = max(p["cx"] + p["rx"] for p in piezas)
+    alto = min(p["cy"] - p["ry"] for p in piezas)
+    bajo = max(min(p["cy"] + p["ry"], p["suelo"]) if p["suelo"] is not None
+               else p["cy"] + p["ry"] for p in piezas)
+
+    escala = lado * (1 - 2 * margen) / max(der - izq, bajo - alto)
+    dx = (lado - (der - izq) * escala) / 2 - izq * escala
+    dy = (lado - (bajo - alto) * escala) / 2 - alto * escala
+    return [elipse(p["cx"] * escala + dx, p["cy"] * escala + dy,
+                   p["rx"] * escala, p["ry"] * escala, p["tinta"],
+                   None if p["suelo"] is None
+                   else p["suelo"] * escala + dy)
+            for p in piezas]
 
 
 def cobertura(px, py, pieza):
@@ -168,25 +201,22 @@ def cobertura(px, py, pieza):
     return cubre
 
 
-def dentro(px, py, cx, cy, lado, radio):
-    """Lo mismo para el cuadrado redondeado del fondo."""
-    dx = max(abs(px - cx) - (lado / 2 - radio), 0)
-    dy = max(abs(py - cy) - (lado / 2 - radio), 0)
-    return min(max(0.5 - (math.hypot(dx, dy) - radio), 0), 1)
+def mezclar(debajo, encima, cubre):
+    return tuple(round(f + (e - f) * cubre) for f, e in zip(debajo, encima))
 
 
-def mezclar(fondo, encima, cubre):
-    return tuple(round(f + (e - f) * cubre) for f, e in zip(fondo, encima))
-
-
-def dibujar(lado, colores, fondo, margen, radio_fondo, con_fondo=True):
-    """Devuelve las filas del icono en RGBA."""
-    piezas = formas(lado, colores, fondo, margen)
+def dibujar(lado, colores, margen=MARGEN, fondo=None):
+    """Devuelve las filas del icono en RGBA. Sin fondo, el icono es la silueta
+    recortada y lo de detras es transparente."""
+    piezas = encajar(formas(colores), lado, margen)
     # El marco de cada pieza, para no calcular una distancia por pixel y pieza:
-    # a 512 px son dos millones y medio de cuentas que casi siempre dan cero.
+    # a 512 px son cinco millones de cuentas que casi siempre dan cero.
     marcos = [(p["cx"] - p["rx"] - 1, p["cx"] + p["rx"] + 1,
                p["cy"] - p["ry"] - 1, p["cy"] + p["ry"] + 1) for p in piezas]
-    centro = lado / 2
+    # Lo de debajo de la silueta cuando no hay fondo. El color da igual mientras
+    # el alfa sea cero, pero no puede ser negro: al mezclarse en el medio pixel
+    # del borde dejaria un halo sucio alrededor de todo el dibujo.
+    vacio = fondo or CUPULA
 
     filas = []
     for y in range(lado):
@@ -196,12 +226,7 @@ def dibujar(lado, colores, fondo, margen, radio_fondo, con_fondo=True):
                     if m[2] <= py <= m[3]]
         for x in range(lado):
             px = x + 0.5
-
-            if con_fondo:
-                alfa = dentro(px, py, centro, centro, lado, radio_fondo)
-            else:
-                alfa = 1.0
-            pixel = fondo
+            pixel, alfa = vacio, 1.0 if fondo else 0.0
 
             for pieza, marco in visibles:
                 if not marco[0] <= px <= marco[1]:
@@ -230,12 +255,12 @@ def escribir_png(ruta, ancho, alto, filas):
     print(f"  {ruta.relative_to(RAIZ)}  ({len(png) // 1024 or 1} KB)")
 
 
-def svg(colores, fondo):
+def svg(colores, margen=MARGEN):
     """El favicon, en vectorial: a 16 px un PNG se ve sucio y este no."""
-    lado, margen = 512, 0.14
-    piezas = formas(lado, colores, fondo, margen)
-    # Las dos piezas recortadas comparten la misma linea de suelo, asi que
-    # basta un clip para las dos.
+    lado = 512
+    piezas = encajar(formas(colores), lado, margen)
+    # Las tres piezas recortadas comparten la misma linea de suelo, asi que
+    # basta un clip para las tres.
     suelo = next(p["suelo"] for p in piezas if p["suelo"] is not None)
 
     salida = [
@@ -244,8 +269,6 @@ def svg(colores, fondo):
         '  <defs><clipPath id="suelo">'
         '<rect x="0" y="0" width="%d" height="%.1f"/></clipPath></defs>'
         % (lado, suelo),
-        '  <rect width="%d" height="%d" rx="114" fill="#%02x%02x%02x"/>'
-        % (lado, lado, *fondo),
     ]
     for p in piezas:
         recorte = ' clip-path="url(#suelo)"' if p["suelo"] is not None else ""
@@ -263,11 +286,11 @@ def compartir(ancho, alto, colores, fondo):
     Sin texto: dibujar letras a mano con rectangulos queda peor que no
     ponerlas, y el titulo y la descripcion ya salen al lado como texto.
     """
-    # Sin fondo redondeado propio: aqui el fondo ya lo pone el lienzo, y un
-    # cuadrado redondeado encima deja sus cuatro esquinas transparentes, que
-    # es lo que salia como manchas blancas al componerlo.
-    marca = 340
-    filas_marca = dibujar(marca, colores, fondo, 0.02, 0, con_fondo=False)
+    # Esta va opaca: una previsualizacion con transparencia se compone contra
+    # lo que decida cada aplicacion, y ahi el fondo de la web es la respuesta
+    # buena. Como el dibujo ya no lleva pastilla redondeada, se pega sin mas.
+    marca = 460
+    filas_marca = dibujar(marca, colores, 0.02, fondo)
     izquierda = (ancho - marca) // 2
     arriba = (alto - marca) // 2
 
@@ -295,24 +318,28 @@ def main():
     print("  --fondo    #%02x%02x%02x" % fondo)
     print()
 
-    (ASSETS / "icono.svg").write_text(svg(colores, fondo), encoding="utf-8")
+    # El favicon y los dos del manifest van sin fondo: el icono es la silueta,
+    # no una pastilla oscura, que en una pestana o un escritorio claros se ve
+    # como un parche pegado.
+    (ASSETS / "icono.svg").write_text(svg(colores), encoding="utf-8")
     print("  assets/icono.svg")
 
-    # Los dos del manifest y el de Apple: fondo redondeado, como se ve en la
-    # pantalla de inicio.
     for lado in (192, 512):
         escribir_png(ASSETS / f"icono-{lado}.png", lado, lado,
-                     dibujar(lado, colores, fondo, 0.14, lado * 0.22))
+                     dibujar(lado, colores))
 
-    # iOS redondea el icono el solo y no lleva bien la transparencia, asi que
-    # este va cuadrado y opaco.
+    # iOS redondea el icono el solo y no lleva bien la transparencia: se la
+    # rellena de negro. Asi que este va cuadrado y opaco, y con algo mas de
+    # margen porque el redondeo se come las esquinas.
     escribir_png(ASSETS / "icono-180.png", 180, 180,
-                 dibujar(180, colores, fondo, 0.17, 0, con_fondo=False))
+                 dibujar(180, colores, 0.10, fondo))
 
-    # Android recorta los "maskable" a un circulo y solo garantiza el 80%
-    # central: el dibujo va mas pequeno para que no le corte una esquina.
+    # El maskable tambien va opaco de borde a borde, y por lo mismo: Android le
+    # aplica su propia forma y una esquina transparente se veria recortada.
+    # Ademas solo garantiza el 80% central, asi que el dibujo va mas pequeno
+    # para que el recorte circular no le corte los hombros.
     escribir_png(ASSETS / "icono-maskable-512.png", 512, 512,
-                 dibujar(512, colores, fondo, 0.26, 0, con_fondo=False))
+                 dibujar(512, colores, 0.20, fondo))
 
     escribir_png(ASSETS / "og.png", 1200, 630,
                  compartir(1200, 630, colores, fondo))
