@@ -1,7 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs><clipPath id="suelo"><rect x="0" y="0" width="512" height="348.2"/></clipPath></defs>
   <rect width="512" height="512" rx="114" fill="#0f1115"/>
-  <rect x="71.7" y="71.7" width="167.7" height="167.7" rx="36.9" fill="#4f9cf9"/>
-  <rect x="272.6" y="71.7" width="167.7" height="167.7" rx="36.9" fill="#a78bfa"/>
-  <rect x="71.7" y="272.6" width="167.7" height="167.7" rx="36.9" fill="#e60012"/>
-  <rect x="272.6" y="272.6" width="167.7" height="167.7" rx="36.9" fill="#2fbf71"/>
+  <ellipse cx="160.2" cy="340.8" rx="88.5" ry="121.7" fill="#553a70" clip-path="url(#suelo)"/>
+  <ellipse cx="351.8" cy="340.8" rx="88.5" ry="121.7" fill="#553a70" clip-path="url(#suelo)"/>
+  <ellipse cx="256.0" cy="307.6" rx="136.4" ry="191.7" fill="#553a70" clip-path="url(#suelo)"/>
+  <ellipse cx="256.0" cy="324.2" rx="95.8" ry="154.8" fill="#865fad" clip-path="url(#suelo)"/>
+  <ellipse cx="256.0" cy="200.7" rx="64.5" ry="28.8" fill="#0f1115"/>
+  <ellipse cx="204.4" cy="307.6" rx="27.8" ry="34.5" fill="#a78bfa"/>
+  <ellipse cx="307.6" cy="307.6" rx="27.8" ry="34.5" fill="#c026d3"/>
+  <ellipse cx="152.8" cy="340.8" rx="33.9" ry="42.0" fill="#4f9cf9"/>
+  <ellipse cx="256.0" cy="340.8" rx="33.9" ry="42.0" fill="#e60012"/>
+  <ellipse cx="359.2" cy="340.8" rx="33.9" ry="42.0" fill="#2fbf71"/>
 </svg>

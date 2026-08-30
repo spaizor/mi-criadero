@@ -4,7 +4,7 @@
     "por_que_en_assets": "Para que no este en data/. 'noticias.py publicar' hace git add solo de data/, asi que un fichero de configuracion ahi dentro lo publicaria una rutina que lo tocase por error. Es la misma razon por la que scripts/medios.json tampoco esta en data/.",
     "quien_lo_lee": [
       "historico.html: de aqui salen las pestanas, con su nombre, su emoji y su color.",
-      "scripts/iconos.py: los cuatro colores del icono, en este orden.",
+      "scripts/iconos.py: el icono lleva un huevo por seccion, con su color y en este orden.",
       "scripts/noticias.py comprobar: cruza esta lista con el resto del repo y avisa de lo que falte."
     ],
     "quien_NO_lo_lee_y_por_que": [

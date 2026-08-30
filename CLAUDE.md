@@ -1395,7 +1395,8 @@ pero no tiene dias anteriores; sin el `desde`, `estado` reclama turnos de antes
 de que existiera. Los dos aparecen semanas despues.
 
 `secciones.json` es ahora la lista buena. **La leen** `historico.html` (las
-pestanas), `scripts/iconos.py` (los cuatro colores, en ese orden) y `comprobar`.
+pestanas), `scripts/iconos.py` (un huevo del icono por seccion, en ese orden) y
+`comprobar`.
 **No la leen, y no es un descuido:**
 
 - **`estilo.css`**, porque una hoja de estilos no puede leer un JSON. Los
@@ -1414,10 +1415,10 @@ ocho sitios que faltaban salieron como ocho errores, cada uno diciendo que hacer
 El workflow lo lanza detras de `estado` con `if: always()`, para que un alta a
 medias se vea en el mismo correo y no en el de doce horas despues.
 
-**Al anadir la quinta seccion hay que decidir que hace el icono**: son cuatro
-cuadros en rejilla, asi que `iconos.py` se planta a proposito si la lista no
-tiene cuatro. Quedarse con las cuatro primeras dejaria una seccion fuera sin
-decirlo.
+**El icono ya no pone techo al numero de secciones**, pero sigue teniendo uno:
+lleva un huevo por seccion y `iconos.py` se planta por encima de ocho, que es
+donde el huevo deja de llegar a un pixel en la pestana. Antes eran cuatro
+cuadros en rejilla y se planto con geopolitica, ver mas abajo.
 
 ## Icono, manifest y previsualizacion
 
@@ -1425,23 +1426,64 @@ La web se lee en el movil todos los dias, asi que desde el 21-08-2026 se
 instala como una app: `manifest.json` en la raiz, iconos en `assets/` y las
 metas en el `<head>` de las seis paginas.
 
-**El icono lo genera `scripts/iconos.py`, no un editor de imagenes.** Los cuatro
-colores salen de `assets/estilo.css` (`--acento-tec`, `--acento-ia`,
-`--acento-nin`, `--acento-ofe`), asi que el dia que cambie el acento de una
-seccion se regenera con `python3 scripts/iconos.py` en vez de repintarlo a
-mano. Escribe el PNG a mano con `zlib` y `struct`, que para figuras planas son
-treinta lineas, y asi el script sigue la regla del proyecto de no depender de
-nada que no sea la biblioteca estandar.
+**El icono lo genera `scripts/iconos.py`, no un editor de imagenes.** Los
+colores de las secciones salen de `assets/estilo.css` (`--acento-tec`,
+`--acento-ia`, `--acento-nin`, `--acento-geo`, `--acento-ofe`), asi que el dia
+que cambie el acento de una seccion se regenera con `python3
+scripts/iconos.py` en vez de repintarlo a mano. Escribe el PNG a mano con
+`zlib` y `struct`, que para figuras planas son treinta lineas, y asi el script
+sigue la regla del proyecto de no depender de nada que no sea la biblioteca
+estandar.
 
-El dibujo son los cuatro colores en rejilla, **sin letras a proposito**: a 32 px
-una inicial no se lee, y cuatro manchas de color si se reconocen entre veinte
-pestanas.
+El dibujo es **el criadero que da nombre a la web**: un monticulo con su
+abertura y, delante, un huevo por seccion con el color de esa seccion. Sin
+letras a proposito: a 32 px una inicial no se lee, y una silueta con manchas de
+color si se reconoce entre veinte pestanas.
+
+### El dibujo: de la rejilla al criadero (30-08-2026)
+
+Hasta ese dia eran los cuatro colores de seccion en un 2x2. Lo cambio la quinta
+seccion: `iconos.py` se planta a proposito si el dibujo no admite las secciones
+que hay, asi que **desde geopolitica el icono estaba congelado**, con los cuatro
+colores viejos y sin poderse regenerar. El criadero quita ese techo, porque los
+huevos se reparten en dos filas y salen de `secciones.json`.
+
+Cinco cosas que hay que saber antes de tocar el dibujo:
+
+- **Es un criadero generico, no el de ningun juego, y eso es deliberado.** La
+  idea vino de las estructuras organicas de la estrategia espacial, pero lo que
+  esta protegido es el diseno concreto de cada una: aqui la silueta es propia,
+  la paleta es la de la web y en el repositorio no se nombra ningun juego ni
+  ninguna marca. Un nido con huevos no lo invento nadie; una copia de uno
+  concreto si tiene dueno.
+- **Todas las piezas son elipses, incluida la cupula**, que es una elipse
+  cortada por la linea del suelo. No es una limitacion de gusto: es lo unico que
+  los PNG y el SVG saben pintar identico sin aproximar nada -por distancia al
+  borde aqui, con `<ellipse>` y un `<clipPath>` alli-. Una curva mas libre
+  obligaria a rasterizar poligonos en un lado y a escribir bezieres en el otro,
+  o sea dos descripciones del mismo dibujo, que acaban siendo dos dibujos.
+- Por lo mismo, **el dibujo se declara una sola vez**, en `formas()`, y de ahi
+  salen los seis ficheros. Antes cada formato tenia su codigo y no molestaba
+  porque eran cuatro cuadrados.
+- **Los hombros no son adorno.** Con una sola elipse cortada, la silueta sale
+  como un arco de circo perfecto y se lee antes como un arcoiris que como algo
+  vivo. Son dos elipses mas bajas a los lados, y con eso ya es un monticulo.
+- **La abertura va ancha, achatada y con aro por encima**, y las tres cosas se
+  decidieron mirandolas a 16, 24, 32 y 48 px, que es donde se usa el icono:
+  estrecha se lee como un mordisco en el contorno y no como un agujero; alta y
+  pegada al borde superior deja una franja fina que convierte el conjunto en el
+  asa de un bolso. Va del color del fondo y no de un tono mas oscuro, para que
+  siga siendo un agujero en el icono de Apple y en el maskable, que van opacos.
+
+La leccion es la de siempre en este proyecto, aplicada al diseno: **el icono se
+juzga al tamano al que se usa, no a 512 px**. Las tres correcciones de arriba se
+veian todas en la tira de 16 a 48 px y ninguna en el grande.
 
 Cuatro cosas que hay que saber para no romperlo:
 
 - **El "maskable" lleva mas margen que los demas** (26% contra 14%). Android
   recorta ese icono a un circulo y solo garantiza el 80% central: con el margen
-  normal le cortaria las esquinas a los cuadros de arriba.
+  normal le cortaria los hombros al monticulo.
 - **El de Apple va cuadrado y opaco.** iOS redondea el icono el solo y no lleva
   bien la transparencia: se la rellena de negro.
 - **`og:image` y `og:url` van en absoluto.** Quien genera la previsualizacion de
