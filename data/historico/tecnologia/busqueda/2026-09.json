@@ -1,207 +1,230 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "01-09-2026 04:08",
-  "destacadas": [
+  "mes": "2026-09",
+  "noticias": [
     {
       "titulo": "Tim Cook deja la CEO de Apple tras 15 años; John Ternus toma el relevo",
-      "resumen": "John Ternus, hasta ahora responsable de Ingeniería de Hardware, se convierte este 1 de septiembre en el nuevo CEO de Apple tras 25 años en la compañía, donde entró en 2001 y lideró el desarrollo de iPhone, iPad, Mac, AirPods y Apple Watch. Tim Cook no abandona la empresa: pasa a presidente ejecutivo del consejo tras 15 años al frente desde agosto de 2011. Ternus se enfrentará el 9 de septiembre a su primer gran evento como CEO, con la presentación de los nuevos iPhone.",
       "fuente": "ADSLZone",
+      "fecha": "01-09-2026 00:01",
       "enlace": "https://www.adslzone.net/noticias/marcas/john-ternus-ceo-apple/",
-      "fecha": "01-09-2026 00:01"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "La FTC demanda a Amazon por un supuesto recargo publicitario oculto desde 2019",
-      "resumen": "La Comisión Federal de Comercio de EEUU y 22 estados acusan a Amazon de haber modificado en secreto su sistema de subastas publicitarias desde 2019, añadiendo un «precio de reserva blando» y pujadores ficticios que convirtieron una subasta de segundo precio en una de primer precio. Según la demanda, Amazon cobró el importe íntegro de la puja ganadora en torno al 80% de las veces, afectando a más de un millón de marcas y vendedores y generando decenas de miles de millones de dólares extra, sobre unos ingresos publicitarios que superaron los 68.000 millones de dólares en 2025. Amazon calificó la demanda de «desorientada» y asegura que los anunciantes reciben información adecuada sobre el sistema de precios.",
       "fuente": "TechCrunch",
+      "fecha": "31-08-2026 22:20",
       "enlace": "https://techcrunch.com/2026/08/31/ftc-accuses-amazon-of-running-a-secret-ad-surcharge-scheme-in-new-lawsuit/",
-      "fecha": "31-08-2026 22:20"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "El grupo ShinyHunters reclama el robo de millones de historiales médicos a McKesson",
-      "resumen": "El grupo de hackers ShinyHunters afirma haber sustraído «millones de filas» de datos de pacientes de los entornos en la nube de Snowflake y Salesforce de McKesson, incluyendo nombres, direcciones, números de la seguridad social, diagnósticos, medicaciones y notas clínicas, además de domicilios de empleados de la compañía. Según Bleeping Computer, los atacantes piden un rescate de 55 millones de dólares tras engañar a empleados con phishing e ingeniería social para obtener acceso. McKesson confirmó la brecha el viernes y asegura que «continúa operando en todas sus líneas de negocio» sin actividad no autorizada activa en sus sistemas, aunque no ha precisado cuántas personas se han visto afectadas.",
       "fuente": "TechCrunch",
+      "fecha": "31-08-2026 20:10",
       "enlace": "https://techcrunch.com/2026/08/31/hackers-claim-millions-of-patient-records-stolen-during-data-breach-at-healthcare-giant-mckesson/",
-      "fecha": "31-08-2026 20:10"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "NVIDIA y MediaTek presentan el RTX Spark, un chip todo en uno que promete superar al MacBook Pro",
-      "resumen": "NVIDIA y MediaTek han desarrollado el RTX Spark, un procesador con una CPU ARM personalizada de 20 núcleos, 128 GB de memoria unificada y hasta 1 petaflop de capacidad de IA, capaz de ejecutar en local modelos de hasta 120.000 millones de parámetros con una ventana de contexto de un millón de tokens. NVIDIA invertirá 3.500 millones de dólares en MediaTek, y los primeros equipos con este chip, de hasta 14 mm de grosor y 1,3 kg, llegarán a finales de 2026 prometiendo ser «más delgados y potentes» que un MacBook Pro.",
       "fuente": "Hipertextual",
+      "fecha": "31-08-2026 21:30",
       "enlace": "https://hipertextual.com/hardware/nvidia-mediatek-rtx-spark-chip-ia-windows/",
-      "fecha": "31-08-2026 21:30"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Broadcom se compromete a asegurar librerías open source de Python, Java y Node.js",
-      "resumen": "Broadcom ha anunciado TrueSource, una iniciativa para curar y mantener «artefactos seguros» de las librerías de código abierto de las que dependen los productos de su división Tanzu, empezando por Spring y RabbitMQ, donde actuará como mantenedor directo, y colaborando con los mantenedores existentes en el resto de proyectos de los ecosistemas Java, Python y Node.js. Purnima Padmanabhan, vicepresidenta de la división Tanzu, explicó que la compañía «elige y construye cada librería de Spring, bases de datos y otros componentes Java» centrándose en ofrecer «artefactos limpios y seguros», e insistió en que los mantenedores de la comunidad siguen siendo «la fuente de la verdad».",
       "fuente": "The Register",
+      "fecha": "31-08-2026 18:32",
       "enlace": "https://www.theregister.com/virtualization/2026/08/31/broadcom-pledges-to-lock-down-open-source-python-java-libraries/5293454",
-      "fecha": "31-08-2026 18:32"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Una actualización opcional de Windows 11 rompe la configuración del ratón sin solución por ahora",
-      "resumen": "El parche opcional de vista previa KB5120998, publicado el 27 de agosto, está restableciendo de fábrica la apariencia y las animaciones personalizadas del cursor en varios ordenadores, sin que los usuarios puedan recuperar manualmente sus ajustes anteriores. Microsoft ha confirmado que «ha recibido informes» sobre el problema y dice estar investigándolo, pero todavía no ofrece ningún remedio oficial; el fallo no afecta a la actualización oficial de agosto, solo a esta vista previa opcional que también trae cambios en el menú Inicio, la barra de tareas y el buscador.",
       "fuente": "Hipertextual",
+      "fecha": "31-08-2026 23:55",
       "enlace": "https://hipertextual.com/software/windows-11-actualizacion-agosto-problema-cursor/",
-      "fecha": "31-08-2026 23:55"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Alibaba Cloud abre su primera región en Sudamérica con dos centros de datos en Brasil",
-      "resumen": "Alibaba Cloud ha lanzado su primera región en Sudamérica, formada por dos centros de datos en Brasil que ofrecerán computación, almacenamiento, redes, bases de datos y herramientas de IA agéntica para empresas, en colaboración con los proveedores locales Insi y 4Linux. El movimiento se suma a la expansión que la compañía ya hizo en México en 2025 y a la que lleva a cabo en Francia, Países Bajos, Japón, Corea del Sur, Malasia y Dubái, dentro de un compromiso de invertir al menos 380.000 millones de yuanes (unos 48.627 millones de euros) en infraestructura de nube e IA durante tres años.",
       "fuente": "Xataka",
+      "fecha": "31-08-2026 21:31",
       "enlace": "https://www.xataka.com/robotica-e-ia/alibaba-acelera-su-expansion-fuera-china-estrena-brasil-su-primera-region-cloud-sudamerica",
-      "fecha": "31-08-2026 21:31"
-    }
-  ],
-  "titulares": [
+      "turno": "2026-09-01_M"
+    },
     {
       "titulo": "Nvidia construye un imperio de licencias de propiedad intelectual apoyado en NVLink",
       "fuente": "The Register",
+      "fecha": "01-09-2026",
       "enlace": "https://www.theregister.com/systems/2026/08/31/nvidia-is-building-an-ip-licensing-empire-on-the-back-of-nvlink/5293530",
-      "fecha": "01-09-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "El Google TV Streamer sube de precio: cuesta 50 dólares más",
       "fuente": "The Verge",
+      "fecha": "01-09-2026",
       "enlace": "https://www.theverge.com/tech/987032/google-tv-streamer-price-increase",
-      "fecha": "01-09-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Cómo un grupo de modders logró instalar Windows NT en una Nintendo GameCube",
       "fuente": "Engadget",
+      "fecha": "31-08-2026",
       "enlace": "https://www.engadget.com/2246406/how-modders-installed-windows-nt-operating-system-nintendo-gamecube/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Orbify.eu propone mapas 3D deformados al estilo Inception para la navegación",
       "fuente": "The Register",
+      "fecha": "31-08-2026",
       "enlace": "https://www.theregister.com/software/2026/08/31/orbifyeu-pitches-warped-inception-style-3d-maps-for-navigation/5293496",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Phil Schiller, jefe de la App Store de Apple, se suma a la ola de salidas tras el relevo de Tim Cook como CEO",
       "fuente": "TechCrunch",
+      "fecha": "31-08-2026",
       "enlace": "https://techcrunch.com/2026/08/31/apples-top-app-store-exec-phil-schiller-follows-wave-of-exits-as-ceo-tim-cook-steps-down/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Microsoft prueba una solución para la última caída de horas de Outlook",
       "fuente": "TechCrunch",
+      "fecha": "31-08-2026",
       "enlace": "https://techcrunch.com/2026/08/31/microsoft-tests-fix-for-latest-hours-long-outlook-outage/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Trump pide a la FCC castigar a un periodista por calificar de «mixtos» sus resultados electorales",
       "fuente": "Ars Technica",
+      "fecha": "31-08-2026",
       "enlace": "https://arstechnica.com/tech-policy/2026/08/trump-tells-fcc-to-punish-journalist-for-calling-his-election-results-mixed/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Un ataque esconde malware en imágenes PNG e instala un túnel inverso a medida en los equipos de las víctimas",
       "fuente": "The Register",
+      "fecha": "31-08-2026",
       "enlace": "https://www.theregister.com/security/2026/08/31/attack-hides-malware-in-pngs-and-drops-custom-reverse-tunnel-on-victims-machines/5293480",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Sony añade canales de TV gratuitos a la PS5",
       "fuente": "Engadget",
+      "fecha": "31-08-2026",
       "enlace": "https://www.engadget.com/2247806/sony-is-adding-free-tv-channels-to-ps5/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Ryan Breslow busca hasta 27 millones de dólares para rescatar a Bolt con una ronda puente de pago por participar",
       "fuente": "TechCrunch",
+      "fecha": "31-08-2026",
       "enlace": "https://techcrunch.com/2026/08/31/ryan-breslow-is-raising-up-to-27m-in-pay-to-play-bridge-funding-to-save-bolt/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Los propietarios de coches quieren tecnología que puedan ignorar, según una encuesta de J.D. Power",
       "fuente": "The Verge",
+      "fecha": "31-08-2026",
       "enlace": "https://www.theverge.com/news/986721/car-tech-survey-jd-power-smart-ignition",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "VLC supera las 7.000 millones de descargas",
       "fuente": "TechCrunch",
+      "fecha": "31-08-2026",
       "enlace": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "“Echaré de menos este trabajo”: Tim Cook se despide como CEO de Apple con una emotiva carta a sus empleados",
       "fuente": "Xataka",
+      "fecha": "31-08-2026",
       "enlace": "https://www.xataka.com/empresas-y-economia/echare-este-trabajo-tim-cook-se-despide-como-ceo-apple-emotiva-carta-a-sus-empleados",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Sony revela por qué ya no impulsa «agresivamente» las ventas de la PS5",
       "fuente": "Hipertextual",
+      "fecha": "31-08-2026",
       "enlace": "https://hipertextual.com/videojuegos/sony-ventas-agresivas-ps5/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Digi lo confirma: podrás usar un router neutro con la nueva fibra de 2 Gbps “siempre que sea compatible con las tecnologías…”",
       "fuente": "ADSLZone",
+      "fecha": "31-08-2026",
       "enlace": "https://www.adslzone.net/noticias/operadores/digi-confirma-router-neutro-tarifa-2gbps/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Waze tiene una buena y una mala noticia: una nueva función llega mientras vuelve un viejo problema",
       "fuente": "ComputerHoy",
+      "fecha": "31-08-2026",
       "enlace": "https://computerhoy.20minutos.es/movilidad/waze-tiene-una-buena-una-mala-noticia-una-nueva-funcion-llega-mientras-vuelve-un-viejo-problema_7031084_0.html",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Los techos solares de los coches llevan años explotando sin motivo aparente. Y cada vez pasa más",
       "fuente": "Xataka",
+      "fecha": "31-08-2026",
       "enlace": "https://www.xataka.com/movilidad/techos-solares-coches-llevan-anos-explotando-motivo-aparente-cada-vez-pasa",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Phil Schiller deja su puesto como jefe de la App Store de Apple",
       "fuente": "Hipertextual",
+      "fecha": "31-08-2026",
       "enlace": "https://hipertextual.com/apple/phil-schiller-deja-su-puesto-como-jefe-de-la-app-store-de-apple/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Movistar Plus estrena el miércoles una nueva película de acción sobre un asesino retirado",
       "fuente": "ADSLZone",
+      "fecha": "31-08-2026",
       "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-este-amor-si-duele-estreno/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Científicos crean una batería que se carga en una fracción de segundo, pero hay un problema",
       "fuente": "ComputerHoy",
+      "fecha": "31-08-2026",
       "enlace": "https://computerhoy.20minutos.es/tecnologia/cientificos-crean-una-bateria-que-se-carga-una-fraccion-segundo-pero-hay-un-problema_7031083_0.html",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Bajar una imagen en 8K desde la Luna suele necesitar cinco minutos. China ahora tiene un enlace láser que lo hace en 12 segundos",
       "fuente": "Xataka",
+      "fecha": "31-08-2026",
       "enlace": "https://www.xataka.com/espacio/bajar-imagen-8k-luna-suele-necesitar-cinco-minutos-china-ahora-tiene-enlace-laser-que-hace-12-segundos",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Tim Cook dice adiós como CEO de Apple: «Este lugar es la prueba de que la cultura triunfa sobre todo»",
       "fuente": "Hipertextual",
+      "fecha": "31-08-2026",
       "enlace": "https://hipertextual.com/apple/tim-cook-dice-adios-ceo-apple-carta-empleados/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Madrid recupera el polémico tramo cortado en la A-5 y anuncia más obras que afectarán a miles de conductores a diario",
       "fuente": "ADSLZone",
+      "fecha": "31-08-2026",
       "enlace": "https://www.adslzone.net/noticias/internet/madrid-recupera-tramo-a5-cortes/",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "Para sorpresa de todos, el RAMageddon o crisis mundial de la memoria RAM podría hacer que tu PC o móvil antiguo funcione mucho mejor",
       "fuente": "ComputerHoy",
+      "fecha": "31-08-2026",
       "enlace": "https://computerhoy.20minutos.es/tecnologia/para-sorpresa-todos-ramageddon-crisis-mundial-memoria-ram-podria-hacer-que-tu-pc-movil-antiguo-funcione-mucho-mejor_7030935_0.html",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     },
     {
       "titulo": "El Mar Menor se ha encontrado con una polémica inesperada: 30.000 firmas para prohibir las motos de agua",
       "fuente": "Xataka",
+      "fecha": "31-08-2026",
       "enlace": "https://www.xataka.com/magnet/mar-menor-se-ha-encontrado-polemica-inesperada-30-000-firmas-para-prohibir-motos-agua",
-      "fecha": "31-08-2026"
+      "turno": "2026-09-01_M"
     }
   ]
 }
