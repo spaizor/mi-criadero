@@ -3,6 +3,230 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Hackean la Universidad de Barcelona: acceden a sus sistemas y estos son los datos en riesgo",
+      "fuente": "ADSLZone",
+      "fecha": "01-09-2026 12:43",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/hackeo-universidad-barcelona-31-agosto/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Un secuestro de tráfico BGP de 33 horas pone en jaque a Softaculous",
+      "fuente": "The Register",
+      "fecha": "01-09-2026 15:04",
+      "enlace": "https://www.theregister.com/security/2026/09/01/33-hour-bgp-hijack-of-softaculous-traffic-prompts-security-scramble/5293608",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Nvidia lanza DLSS 5 con un desafío enorme: convencer de que el renderizado neuronal merece la pena",
+      "fuente": "Xataka",
+      "fecha": "01-09-2026 15:00",
+      "enlace": "https://www.xataka.com/videojuegos/dlss-5-llega-desafio-enorme-convencernos-que-renderizado-neuronal-merece-pena",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "POCO F9 Ultra y F9 Pro ya son oficiales: batería de hasta 8.050 mAh, 200 MP y precios desde 649,99 euros",
+      "fuente": "ADSLZone",
+      "fecha": "01-09-2026 14:45",
+      "enlace": "https://www.adslzone.net/noticias/moviles/poco-ultra-pro-precio-caracteristicas/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Red Hat pone tope al gasto de sus desarrolladores en IA: máximo 300 dólares al mes",
+      "fuente": "The Register",
+      "fecha": "01-09-2026 13:45",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/01/insider-red-hat-is-capping-devs-bot-budgets/5292620",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Dyson lanza CameraJet, un cepillo de dientes de 500 dólares con cámara que escanea tu boca",
+      "fuente": "Engadget",
+      "fecha": "01-09-2026 11:30",
+      "enlace": "https://www.engadget.com/2248230/dyson-camerajet-is-a-500-three-in-one-toothbrush-that-scans-your-maw/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Atlas 1.0, el wearable que mide con un electroencefalograma cuánto estás realmente presente",
+      "fuente": "Engadget",
+      "fecha": "01-09-2026 16:00",
+      "enlace": "https://www.engadget.com/2248372/atlas-wearable-eeg/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "La india Unacademy se vende a su rival upGrad por 206 millones de dólares, un 94% menos que su valoración máxima",
+      "fuente": "TechCrunch",
+      "fecha": "01-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/01/indias-unacademy-sells-to-rival-upgrad-for-206m-about-94-less-than-its-peak-valuation/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Oklahoma prohíbe a una ciudad cobrar 17.125,44 dólares por una solicitud de registros sobre una detención en un centro de datos",
+      "fuente": "404 Media",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.404media.co/oklahoma-tells-city-it-cant-charge-17-125-44-for-a-records-request-related-to-data-center-arrest/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "El cuarteto de satélites Cluster de la ESA se prepara para su último «Tango»",
+      "fuente": "The Register",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.theregister.com/science/2026/09/01/esas-cluster-quartet-prepares-for-its-final-tango/5293619",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Florida bloquea las cámaras de Flock en sus autopistas estatales",
+      "fuente": "The Verge",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.theverge.com/tech/987353/florida-flock-cam-ban-state-highways",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Los primeros televisores OLED de Roku abaratan la competencia de gama media",
+      "fuente": "The Verge",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.theverge.com/tech/987148/roku-oled-tv-announcement",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Mozilla lanza el bloqueo de anuncios para Firefox en iOS",
+      "fuente": "The Verge",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.theverge.com/news/987247/mozilla-firefox-ad-blocker-ios-launch",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "El grupo The Gentlemen ataca: Nutex confirma el robo de datos sensibles",
+      "fuente": "The Register",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/09/01/the-gentlemen-come-calling-as-nutex-confirms-sensitive-data-theft/5293642",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "EEUU derriba drones con un láser de alta energía cerca de la frontera con México",
+      "fuente": "Wired",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.wired.com/story/high-energy-laser-us-shoots-down-drones-near-mexico-border/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Sin nuevos módulos de aterrizaje ni rovers, el programa de Marte de la NASA se juega todo a los helicópteros",
+      "fuente": "Ars Technica",
+      "fecha": "01-09-2026",
+      "enlace": "https://arstechnica.com/space/2026/09/without-new-landers-or-rovers-its-helicopters-or-bust-for-nasas-mars-program/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Un grupo privado quiere lanzar la misión «más barata posible» a Alpha Centauri",
+      "fuente": "Ars Technica",
+      "fecha": "01-09-2026",
+      "enlace": "https://arstechnica.com/space/2026/09/private-group-wants-to-launch-cheapest-possible-mission-to-alpha-centauri/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "AWS: DuckDB aportará el «tejido conectivo» de sus datos",
+      "fuente": "The Register",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.theregister.com/databases/2026/09/01/aws-duckdb-will-provide-connective-tissue-across-the-data-estate/5293304",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Magna aumenta su apuesta por el intercambio de baterías en India con 35 millones de dólares para Yuma",
+      "fuente": "TechCrunch",
+      "fecha": "01-09-2026",
+      "enlace": "https://techcrunch.com/2026/08/31/magna-increases-bet-on-battery-swapping-in-india-with-35m-for-yuma/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Durante siglos, esto sustituyó al aire acondicionado en las casas francesas. Y sigue funcionando",
+      "fuente": "Xataka",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/durante-siglos-esto-sustituyo-al-aire-acondicionado-casas-francesas-sigue-funcionando",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Los nuevos Poco F9 Ultra y F9 Pro son las bestias que imaginas, aunque ya no tan baratos",
+      "fuente": "Hipertextual",
+      "fecha": "01-09-2026",
+      "enlace": "https://hipertextual.com/mobile/nuevos-poco-f9-ultra-y-f9-pro/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Movistar Plus lanza dos nuevos canales de cine exclusivos el próximo lunes",
+      "fuente": "ADSLZone",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-dos-nuevos-canales-cine-exclusivos/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Poco quiere poner patas arriba la gama alta: hasta 185 FPS, 8.050 mAh y cámara de 200 MP",
+      "fuente": "ComputerHoy",
+      "fecha": "01-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/poco-quiere-poner-patas-arriba-gama-alta-hasta-185-fps-8-050-mah-camara-200-mp_7031570_0.html",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Estos son los mejores chollos que hemos encontrado en el 15 aniversario de Amazon hoy, 1 de septiembre",
+      "fuente": "Xataka",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.xataka.com/seleccion/estos-mejores-chollos-que-hemos-encontrado-15-aniversario-amazon-hoy-1-septiembre",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Samsung va a por el iPhone. La próxima cámara de los Galaxy va a ser una revolución: ya no habrá 3x y 5x",
+      "fuente": "Hipertextual",
+      "fecha": "01-09-2026",
+      "enlace": "https://hipertextual.com/mobile/samsung-va-a-por-el-iphone-la-proxima-camara-de-los-galaxy-va-a-ser-una-revolucion-ya-no-habra-3x-y-5x/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "IKEA me envía una vajilla y SEUR la entrega hecha pedazos: “Ahora, ¿quién paga los platos rotos?”",
+      "fuente": "ADSLZone",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/ikea-vajilla-rota-seur-reclamacion/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "No solo RAM y SSD: el mercado del PC sigue cayendo y hay dos nuevos componentes vitales que se suman a la lista",
+      "fuente": "ComputerHoy",
+      "fecha": "01-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/memoria-ram-discos-ssd-mercado-pc-cae-dos-nuevos-componentes-vitales-lista_6959358_0.html",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Stephen Hawking: \"Cada uno de nosotros vive solo un breve periodo de tiempo, y solo visitamos apenas una minúscula parte del universo\"",
+      "fuente": "Xataka",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.xataka.com/espacio/stephen-hawking-cada-uno-nosotros-vive-solo-breve-periodo-tiempo-solo-visitamos-apenas-minuscula-parte-universo",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "La actualización de One UI 9 llega hoy a este Samsung superventas: incluye Android 17 y una novedad muy importante",
+      "fuente": "Hipertextual",
+      "fecha": "01-09-2026",
+      "enlace": "https://hipertextual.com/mobile/la-actualizacion-de-one-ui-9-llega-hoy-a-este-samsung-superventas-incluye-android-17-y-una-novedad-muy-importante/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Securitas responde a una confusión que muchos siguen teniendo: “no somos Verisure”",
+      "fuente": "ADSLZone",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/securitas-verisure-diferencias/",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "El Samsung Galaxy Z Fold 8 tiene tanto éxito que la marca está usando los componentes de móviles futuros para fabricar más",
+      "fuente": "ComputerHoy",
+      "fecha": "01-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/samsung-galaxy-z-fold-8-tiene-tanto-exito-que-marca-esta-usando-los-componentes-moviles-futuros-para-fabricar-mas_7031334_0.html",
+      "turno": "2026-09-01_T"
+    },
+    {
+      "titulo": "Durante años, la dieta mediterránea ha librado una batalla a vida y muerte contra los ultraprocesados. Ahora la está perdiendo",
+      "fuente": "Xataka",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/durante-anos-dieta-mediterranea-ha-librado-batalla-a-vida-muerte-ultraprocesados-ahora-esta-perdiendo",
+      "turno": "2026-09-01_T"
+    },
+    {
       "titulo": "Tim Cook deja la CEO de Apple tras 15 años; John Ternus toma el relevo",
       "fuente": "ADSLZone",
       "fecha": "01-09-2026 00:01",
