@@ -3,6 +3,230 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Uber despide a 3.300 empleados, el 10% de su plantilla global",
+      "fuente": "TechCrunch",
+      "fecha": "02-09-2026 14:14",
+      "enlace": "https://techcrunch.com/2026/09/02/uber-is-laying-off-10-of-staff-or-3300-people/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "El robotaxi Cybercab de Tesla entra en servicio en Austin: la apuesta de Musk por prescindir del lidar",
+      "fuente": "The Verge",
+      "fecha": "02-09-2026 14:00",
+      "enlace": "https://www.theverge.com/transportation/987901/tesla-cybercab-launch-elon-musk-robotaxi-camera-lidar",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Microsoft activará por defecto una protección de Windows 11 que puede reducir el rendimiento en juegos",
+      "fuente": "The Verge",
+      "fecha": "02-09-2026 10:57",
+      "enlace": "https://www.theverge.com/news/988056/microsoft-windows-11-memory-integrity-rollout-october-2026",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "El rival ruso de Starlink acumula fallos: al menos 3 de sus primeros 32 satélites Rassvet se han perdido",
+      "fuente": "Ars Technica",
+      "fecha": "02-09-2026 13:15",
+      "enlace": "https://arstechnica.com/space/2026/09/rassvet-russias-rival-to-starlink-is-getting-off-to-a-slow-start/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Un implante cerebral experimental en Corea del Sur es controlado por primera vez desde Chicago, a 10.600 km",
+      "fuente": "ComputerHoy",
+      "fecha": "02-09-2026 13:22",
+      "enlace": "https://computerhoy.20minutos.es/ciencia/un-implante-cerebral-corea-acaba-ser-controlado-desde-eeuu-mas-10-000-kilometros_7031797_0.html",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Acer presenta en IFA el Predator Atlas 7, su portátil gaming portátil más pequeño",
+      "fuente": "Engadget",
+      "fecha": "02-09-2026 11:30",
+      "enlace": "https://www.engadget.com/2249298/acer-predator-atlas-7-gaming-handheld/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "iRobot presenta el Roomba Max 875 Combo, su robot aspirador más potente hasta la fecha",
+      "fuente": "Engadget",
+      "fecha": "02-09-2026 13:34",
+      "enlace": "https://www.engadget.com/2249331/irobot-roomba-max-875-plus-678-combo/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "La policía pide a Axon que sus cámaras no se parezcan a las de Flock para que la gente no las destruya",
+      "fuente": "404 Media",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.404media.co/cops-are-asking-axon-to-make-their-cameras-look-different-from-flock-so-people-dont-destroy-them/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Los proyectos derivados de la cancelada actualización de TrueNAS Core migran a FreeBSD 15",
+      "fuente": "The Register",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theregister.com/storage/2026/09/02/offshoots-of-cancelled-truenas-core-upgrade-to-freebsd-15/5293725",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Noruega estudia prohibir las gafas espía con cámara integrada",
+      "fuente": "TechCrunch",
+      "fecha": "02-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/02/norway-considers-ban-on-camera-enabled-wearable-pervert-glasses/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Adobe lleva sus herramientas a Slack",
+      "fuente": "TechCrunch",
+      "fecha": "02-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/02/adobe-is-making-its-tools-available-in-slack/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Una actualización de Microsoft deja inservibles Outlook y Teams en los PC con Arm",
+      "fuente": "The Register",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theregister.com/os-platforms/2026/09/02/microsoft-update-disarms-outlook-and-teams-on-arm-pcs/5293849",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "El metro de Londres cierra el hueco de cobertura 5G con la calle",
+      "fuente": "The Register",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theregister.com/networks/2026/09/02/london-tube-closes-the-5g-gap-with-streets-above/5293878",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "El nuevo portátil de Acer, rival del MacBook Air, pesa casi medio kilo menos que el de Apple",
+      "fuente": "The Verge",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theverge.com/gadgets/987802/acer-swift-blade-14-air-16-laptop-ifa-price-specs",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Acer presenta un concepto de portátil gaming portátil con teclado propio",
+      "fuente": "The Verge",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theverge.com/games/988029/acer-project-dualplay-mini-concept-gaming-handheld-keyboard-ifa",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Los nuevos monitores de Acer incluyen uno de 24 pulgadas a 1.000 Hz para esports",
+      "fuente": "Engadget",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.engadget.com/2248941/acers-new-monitors-include-a-24-inch-1-000hz-screen-for-esports-sickos/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "El ID digital del Reino Unido puede estar muerto, pero su problema de TI heredado sigue vivo",
+      "fuente": "The Register",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theregister.com/public-sector/2026/09/02/uk-digital-id-may-be-dead-but-its-legacy-it-problem-lives-on/5293677",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "El adelanto extendido de GTA VI logra 31 millones de visualizaciones en Netflix pese a la ventana de exclusividad de seis horas",
+      "fuente": "Engadget",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.engadget.com/2249261/gta-vi-extended-31-million-views-netflix-top-movie/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Llevar Arm a la empresa está a al menos tres años vista, según el jefe de software de Broadcom",
+      "fuente": "The Register",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theregister.com/virtualization/2026/09/02/arm-in-the-enterprise-is-at-least-three-years-away-says-broadcom-software-boss/5293804",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Llevamos décadas buscando lunas fuera del Sistema Solar: estos chilenos están convencidos de que han encontrado una",
+      "fuente": "Xataka",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.xataka.com/espacio/llevamos-decadas-buscando-lunas-fuera-sistema-solar-fin-tenemos-candidata-solida-fecha",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Samsung llega a la IFA 2026 con Connect, un espacio inmersivo para mostrar sus últimas innovaciones",
+      "fuente": "Hipertextual",
+      "fecha": "02-09-2026",
+      "enlace": "https://hipertextual.com/tecnologia/samsung-connect-espacio-inmersivo-ifa-2026/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Google por fin hace algo bien para los Chromecast más antiguos: soluciona uno de sus últimos grandes problemas",
+      "fuente": "ADSLZone",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/google-soluciona-problema-chromecast-antiguos/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "¿Qué pasa si conectas un pendrive USB al cargador del móvil y lo enchufas?",
+      "fuente": "ComputerHoy",
+      "fecha": "02-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/peligro-conectar-memoria-pendrive-usb-cargador-movil-pared-enchufas-luz_6650121_0.html",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Japón necesitaba un muro contra China y Corea del Norte. Su respuesta es un monstruo que flota, pesa 12.000 toneladas y tiene 128 celdas",
+      "fuente": "Xataka",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.xataka.com/magnet/japon-necesitaba-muro-china-corea-norte-su-respuesta-monstruo-que-flota-pesa-12-000-toneladas-tiene-128-celdas",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Samsung actualiza a One UI 9 y Android 17 este móvil de hace más de dos años: nadie esperaba esto tan pronto",
+      "fuente": "Hipertextual",
+      "fecha": "02-09-2026",
+      "enlace": "https://hipertextual.com/mobile/samsung-actualiza-a-one-ui-9-y-android-17-este-movil-de-hace-mas-de-dos-anos-nadie-esperaba-esto-tan-pronto/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "184 tiendas de ropa en riesgo: la marca que todos conocemos y podría desaparecer muy pronto",
+      "fuente": "ADSLZone",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/184-tiendas-ropa-inside-riesgo-desaparecer/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Los Huawei GT 7 estrenan un diseño más cómodo para los deportes outdoor y modo de nieve en interiores",
+      "fuente": "ComputerHoy",
+      "fecha": "02-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/los-huawei-7-estrenan-un-diseno-mas-comodo-para-los-deportes-outdoor-modo-nieve-interiores_7031085_0.html",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Llevamos medio siglo contando que un alemán introdujo los siluros en el Ebro, pero eso es solo parte del problema: la historia del pez que se está comiendo España",
+      "fuente": "Xataka",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/llevamos-medio-siglo-contando-que-aleman-introdujo-siluros-ebro-eso-solo-parte-problema-historia-pez-que-se-esta-comiendo-espana",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Nuevo Roomba Max 875 Combo: así es el robot aspirador y friegasuelos más potente y avanzado de iRobot",
+      "fuente": "Hipertextual",
+      "fecha": "02-09-2026",
+      "enlace": "https://hipertextual.com/tecnologia/nuevo-roomba-max-875-combo-caracteristicas-y-precio/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "¿Funciona de verdad el DNS que evita los bloqueos de LaLiga? Lo ponemos a prueba",
+      "fuente": "ADSLZone",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/descargas/dns-xdp-bloqueos-laliga/",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Identifican múltiples vulnerabilidades en el kernel de Red Hat Linux",
+      "fuente": "ComputerHoy",
+      "fecha": "02-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/identifican-multiples-vulnerabilidades-kernel-red-hat-linux_7031860_0.html",
+      "turno": "2026-09-02_T"
+    },
+    {
+      "titulo": "Cuando la corriente del Golfo se despegue de Hatteras empezará la cuenta atrás: 25 años hasta que Europa cambie de clima",
+      "fuente": "Xataka",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/cuando-corriente-golfo-se-despegue-hatteras-empezara-cuenta-atras-25-anos-que-europa-cambie-clima",
+      "turno": "2026-09-02_T"
+    },
+    {
       "titulo": "John Ternus, nuevo CEO de Apple, anuncia en su primer memo interno «un gran lanzamiento la semana que viene»",
       "fuente": "TechCrunch",
       "fecha": "01-09-2026 21:45",
