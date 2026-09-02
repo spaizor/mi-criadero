@@ -3,6 +3,153 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "OpenAI retrasa Astra, su primer modelo capaz de hackear sistemas informáticos sin ayuda humana",
+      "fuente": "TechCrunch",
+      "fecha": "01-09-2026 23:06",
+      "enlace": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Anthropic lanza Claude Fable 5.1 y Mythos 5.1 y promete hasta un 45% menos de coste en tareas agénticas",
+      "fuente": "Hipertextual",
+      "fecha": "01-09-2026 22:38",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/anthropic-claude-mythos-5-1-y-fable-5-1/",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Anthropic promete reforzar el control sobre sus modelos y pide a sus socios que endurezcan sus pruebas",
+      "fuente": "The Register",
+      "fecha": "01-09-2026 21:27",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/01/anthropic-pledges-to-try-harder-to-keep-models-under-control-asks-partners-to-chip-in/5293733",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Google lanza Pics, su alternativa a Canva basada en Nano Banana e integrada en Workspace",
+      "fuente": "TechCrunch",
+      "fecha": "01-09-2026 19:35",
+      "enlace": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "El nuevo jefe de Google DeepMind: «lo único que importa es liderar la frontera de la IA»",
+      "fuente": "The Decoder",
+      "fecha": "01-09-2026 18:49",
+      "enlace": "https://the-decoder.com/google-deepminds-new-chief-says-frontier-ai-leadership-is-the-only-thing-that-matters/",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Anthropic abre su detector de texto generado por Claude a reguladores, medios y verificadores de hechos",
+      "fuente": "The Decoder",
+      "fecha": "01-09-2026 22:40",
+      "enlace": "https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others/",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Google necesita a Hollywood más de lo que los estudios necesitan la IA",
+      "fuente": "The Verge",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "AfterQuery se convierte, según los informes, en el unicornio más rápido de la historia de Y Combinator, valorado en 3.200 millones de dólares",
+      "fuente": "TechCrunch",
+      "fecha": "02-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "OpenAI retrasa el lanzamiento de Astra, su modelo de IA más potente (y peligroso)",
+      "fuente": "Hipertextual",
+      "fecha": "02-09-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/openai-retrasa-astra-ciberseguridad/",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Otra vulnerabilidad CVE de Artifactory, bajo ataque de agentes de IA o de humanos",
+      "fuente": "The Register",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.theregister.com/security/2026/09/01/another-artifactory-cve-under-attack-by-ai-agents-or-humans/5293769",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Cómo una IA trazó un viaje interestelar hasta Alfa Centauri",
+      "fuente": "MIT Technology Review",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "El auge de las \"civilizaciones\" de IA y la caída de la responsabilidad corporativa",
+      "fuente": "The Verge",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Apple acusa a OpenAI de destruir pruebas",
+      "fuente": "The Verge",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Oracle apuesta por un salto de productividad \"a la velocidad de la luz\" gracias a la ingeniería asistida por IA",
+      "fuente": "The Register",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/01/oracle-pins-hopes-on-star-wars-productivity-jump-to-lightspeed-from-ai-assisted-engineering-1/5293596",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "John Deere lanza un chatbot de IA para agricultores",
+      "fuente": "The Verge",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "ChatGPT Health añade integración con Epic para que los médicos importen datos de pacientes",
+      "fuente": "TechCrunch",
+      "fecha": "01-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Empirik, incubada por Sequoia, se lanza con 21 millones de dólares para predecir apagones antes de que ocurran",
+      "fuente": "TechCrunch",
+      "fecha": "01-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "AIR capta 50 millones de dólares para ayudar a las empresas a auditar las habilidades y complementos que usan sus agentes de IA",
+      "fuente": "TechCrunch",
+      "fecha": "01-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Fambot presenta un \"jefe de gabinete con IA\" para familias",
+      "fuente": "TechCrunch",
+      "fecha": "01-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Huawei quiere llevar su IA mucho más allá de los móviles: ahora busca hacerse un hueco en el desarrollo de nuevos medicamentos",
+      "fuente": "Xataka",
+      "fecha": "01-09-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/huawei-quiere-llevar-su-ia-mucho-alla-moviles-ahora-busca-hacerse-hueco-desarrollo-nuevos-medicamentos",
+      "turno": "2026-09-02_M"
+    },
+    {
+      "titulo": "Un estudio confirma que escribir a mano activa en el cerebro redes neuronales mucho más complejas y extendidas que escribir con un teclado",
+      "fuente": "ComputerHoy",
+      "fecha": "01-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/un-estudio-confirma-que-escribir-mano-activa-cerebro-redes-neuronales-mucho-mas-complejas-extendidas-que-escribir-con-un-teclado_7031442_0.html",
+      "turno": "2026-09-02_M"
+    },
+    {
       "titulo": "Anthropic detuvo el entrenamiento de su nueva IA porque estaba aprendiendo demasiado bien a hacer trampas",
       "fuente": "Xataka",
       "fecha": "01-09-2026 14:15",
