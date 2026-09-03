@@ -3,6 +3,230 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Una jueza rechaza obligar a Google a vender su negocio de publicidad, aunque le exige cambiar cómo opera",
+      "fuente": "TechCrunch",
+      "fecha": "02-09-2026 23:38",
+      "enlace": "https://techcrunch.com/2026/09/02/google-spared-from-ad-business-breakup-but-judge-orders-changes-to-how-it-operates/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Un ataque a la empresa IDScan filtra más de 150 millones de carnés de conducir y pasaportes de EE. UU. y Canadá",
+      "fuente": "TechCrunch",
+      "fecha": "02-09-2026 21:35",
+      "enlace": "https://techcrunch.com/2026/09/02/it-sure-looks-like-hackers-breached-a-major-id-card-verification-service/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Uber lanza en Londres su servicio de robotaxis junto a la británica Wayve",
+      "fuente": "Engadget",
+      "fecha": "03-09-2026 01:00",
+      "enlace": "https://www.engadget.com/2248610/uber-launches-first-robotaxis-in-london-with-human-supervisors/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Zuckerberg promete «pronto» una versión de pesos abiertos de Muse, el modelo de IA de Meta",
+      "fuente": "The Register",
+      "fecha": "03-09-2026 00:31",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/02/zucks-muse-to-spark-joy-with-open-weights-release-soon/5294093",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Un fallo en el registro de Lenovo permitió acceder sin contraseña a 5.000 cuentas de Dropbox",
+      "fuente": "The Register",
+      "fecha": "02-09-2026 16:25",
+      "enlace": "https://www.theregister.com/security/2026/09/02/legacy-lenovo-login-opens-5000-dropbox-accounts-to-attackers/5293924",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Apple avisa: sus apps universales podrán dejar de funcionar en los Mac con chips Intel",
+      "fuente": "Hipertextual",
+      "fecha": "02-09-2026 22:01",
+      "enlace": "https://hipertextual.com/apple/apps-universales-abandonar-soporte-mac-con-chips-intel/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Miles de cuentas de Samsung se bloquean sin previo aviso y sin explicación oficial",
+      "fuente": "Hipertextual",
+      "fecha": "02-09-2026 19:25",
+      "enlace": "https://hipertextual.com/mobile/samsung-cuentas-desactivadas-error-seguridad/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "VMware vuelve a centrarse en la virtualización de servidores de gama baja y promete una actualización de vSphere Standard",
+      "fuente": "The Register",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theregister.com/virtualization/2026/09/02/vmware-swings-its-focus-back-to-low-end-server-virt-promises-vsphere-standard-upgrade/5294083",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Los desarrolladores de Microsoft están de enhorabuena: los tipos unión llegarán a C# en noviembre",
+      "fuente": "The Register",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theregister.com/devops/2026/09/02/microsoft-devs-rejoice-union-types-coming-to-c-in-november/5294056",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "MapQuest se convierte en la app número 1 de EE. UU. tras negarse a adoptar el cambio de nombre de Trump a «Lake America»",
+      "fuente": "TechCrunch",
+      "fecha": "02-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/02/mapquest-is-now-the-no-1-u-s-app-after-bucking-trumps-lake-america-renaming/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "La FCC prepara una tabla de puntuación de llamadas automáticas para calificar a las operadoras por su bloqueo de spam",
+      "fuente": "Ars Technica",
+      "fecha": "02-09-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/09/fcc-plans-robocall-scorecard-to-grade-phone-companies-on-spam-call-blocking/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Preocupada por los plazos de Artemis IV, la NASA cambia el diseño del traje espacial lunar",
+      "fuente": "Ars Technica",
+      "fecha": "02-09-2026",
+      "enlace": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "El consejo de Delivery Hero respalda la oferta de adquisición de Uber por 15.000 millones de dólares",
+      "fuente": "TechCrunch",
+      "fecha": "02-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/02/delivery-hero-board-backs-ubers-15b-takeover-bid/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "1Password se mete en una polémica de la derecha tras financiar un proyecto de Linux",
+      "fuente": "The Verge",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theverge.com/tech/988536/1password-dhh-linux-controversy",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "ICE planea pagar 5 millones de dólares para crear una base de datos nacional de votantes",
+      "fuente": "Wired",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.wired.com/story/ice-plans-to-pay-5-million-to-create-national-voting-database/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "X traslada los pagos a creadores en EE. UU. de Stripe a X Money",
+      "fuente": "TechCrunch",
+      "fecha": "02-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/02/x-shifts-us-creator-payouts-from-stripe-to-x-money/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "La plataforma de mods Nexus Mods pasa a ser propietaria de SteamDB",
+      "fuente": "Engadget",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.engadget.com/2249669/modding-platform-nexus-mods-now-owns-steamdb/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Un raro Apple I funcional sale a subasta",
+      "fuente": "Engadget",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.engadget.com/2249655/rare-working-apple-1-computer-heads-to-auction/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Los equipos SMA1000 de SonicWall vuelven a sufrir ataques activos",
+      "fuente": "The Register",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theregister.com/security/2026/09/02/sonicwalls-sma1000-boxes-under-active-attack-again/5293969",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Qué tiene el canto de los pájaros para relajarnos tanto: la ciencia acaba de descifrar la \"fórmula acústica\" exacta",
+      "fuente": "Xataka",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.xataka.com/investigacion/que-tiene-canto-pajaros-para-relajarnos-ciencia-acaba-descifrar-formula-acustica-exacta",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Lo nuevo de Excel promete cambiar cómo usas las hojas de cálculo en Office",
+      "fuente": "Hipertextual",
+      "fecha": "02-09-2026",
+      "enlace": "https://hipertextual.com/software/excel-canvas-copilot-ia-hojas-calculo/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "El nuevo límite de O2 puede darte un susto en la factura, pero hay una forma de evitar pagar de más: “Una vez superados esos GB…”",
+      "fuente": "ADSLZone",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/como-evitar-limite-o2-roaming/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "María Aperador, criminóloga, sobre el peligro de tus publicaciones en redes sociales: \"Revisa esto antes de publicar; sube una foto tuya y te diré dónde vives, sin ser hacker\"",
+      "fuente": "ComputerHoy",
+      "fecha": "02-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/redes-sociales/maria-aperador-criminologa-sobre-peligro-tus-publicaciones-redes-sociales-revisa-esto-antes-publicar-sube-una-foto-tuya-te-dire-donde-vives-sin-ser-hacker_7031861_0.html",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Aldi prepara la vuelta a la rutina y lanza este sábado tres básicos de cocina: batidora portátil, grill y freidora de aire doble",
+      "fuente": "Xataka",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.xataka.com/seleccion/aldi-prepara-vuelta-a-rutina-lanza-este-sabado-tres-basicos-cocina-batidora-portatil-grill-freidora-aire-doble",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Movistar Plus confirma que seguirá emitiendo esta competición deportiva durante la temporada 2026/2027",
+      "fuente": "ADSLZone",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-confirma-emision-otro-deporte-temporada-2026-2027/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Linux 7.3-rc1 destroza todos los registros: añade más de 560.000 líneas de código, aumentando el tamaño del kernel a 41.000.000",
+      "fuente": "ComputerHoy",
+      "fecha": "02-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/linux-7-3-rc1-destroza-todos-los-registros-anade-mas-560-000-lineas-codigo-aumentando-tamano-kernel-41-000-000_7031864_0.html",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Cada vez es más difícil encontrar pulpo en Galicia, pero a la gran industria pesquera en realidad le importa bien poco: pesca a miles de kilómetros",
+      "fuente": "Xataka",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/cada-vez-dificil-encontrar-pulpo-galicia-a-gran-industria-pesquera-realidad-le-importa-bien-poco-pesca-a-miles-kilometros",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Así es el último modo de Orange TV que se activa «si la plataforma se satura» que no todos los clientes conocen",
+      "fuente": "ADSLZone",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/modo-orange-tv-activa-plataforma-saturada/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Ni programar ni actualizar, Linus Torvalds acaba de proclamar cuál es el trabajo más importante y necesario ahora mismo en Linux",
+      "fuente": "ComputerHoy",
+      "fecha": "02-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/ni-programar-ni-actualizar-linus-torvalds-acaba-proclamar-cual-es-trabajo-mas-importante-necesario-ahora-mismo-linux_7031867_0.html",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Ni correr ni ir al gimnasio: la ciencia tiene claro que el deporte que más años de vida regala se juega con raqueta",
+      "fuente": "Xataka",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.xataka.com/medicina-y-salud/correr-ir-al-gimnasio-ciencia-tiene-claro-que-deporte-que-anos-vida-regala-se-juega-raqueta",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Movistar Plus estrena mañana un thriller dramático sobrecogedor que está basado en hechos reales",
+      "fuente": "ADSLZone",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-creednos-serie-estreno/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Google \"resucita\" a los Chromecast antiguos con esta nueva actualización",
+      "fuente": "ComputerHoy",
+      "fecha": "02-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/google-resucita-los-chromecast-antiguos-con-esta-nueva-actualizacion_7032044_0.html",
+      "turno": "2026-09-03_M"
+    },
+    {
       "titulo": "Uber despide a 3.300 empleados, el 10% de su plantilla global",
       "fuente": "TechCrunch",
       "fecha": "02-09-2026 14:14",
