@@ -3,6 +3,139 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Nvidia compra Hugging Face por 12.930 millones de dólares",
+      "fuente": "TechCrunch",
+      "fecha": "03-09-2026 14:42",
+      "enlace": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Anthropic firma con Lambda un contrato de computación en la nube de 35.000 millones de dólares",
+      "fuente": "The Decoder",
+      "fecha": "03-09-2026 10:22",
+      "enlace": "https://the-decoder.com/anthropic-ramps-up-claude-infrastructure-with-35-billion-lambda-deal/",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Sam Altman avisa de una «tontería insostenible» en la carrera por acumular computación",
+      "fuente": "The Decoder",
+      "fecha": "03-09-2026 14:00",
+      "enlace": "https://the-decoder.com/openai-ceo-sam-altman-warns-of-unsustainable-silliness-in-compute-buildout/",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Salesforce reconoce que el gasto en Claude le ha frenado la mejora del margen",
+      "fuente": "The Register",
+      "fecha": "03-09-2026 16:44",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/03/salesforce-blames-its-claude-addiction-for-denting-profit-margin-guidance/5294219",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Los nuevos modelos baratos de Google y Meta ya pisan los talones a OpenAI y Anthropic",
+      "fuente": "Xataka",
+      "fecha": "03-09-2026 11:45",
+      "enlace": "https://www.xataka.com/robotica-e-ia/openai-anthropic-tienen-problema-nuevos-modelos-baratos-google-meta-demasiado-buenos",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "La española Multiverse lanza Quasar, un modelo de IA inspirado en el chino GLM-5.2",
+      "fuente": "Xataka",
+      "fecha": "03-09-2026 09:16",
+      "enlace": "https://www.xataka.com/robotica-e-ia/espanola-multiverse-ha-lanzado-modelo-ia-avanzado-europa-todo-apunta-a-que-casi-clon-modelo-chino-glm-5-2",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "El nuevo modelo de IA de Google para el tiempo ya no te deja excusa para olvidar el paraguas",
+      "fuente": "TechCrunch",
+      "fecha": "03-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Claude Fable 5.1 descifra un mensaje realista oculto a la vista desde 1653",
+      "fuente": "The Decoder",
+      "fecha": "03-09-2026",
+      "enlace": "https://the-decoder.com/claude-fable-5-1-decoded-a-centuries-old-royalist-message-hidden-in-plain-sight-since-1653/",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Sistemas de IA contactan con filósofos y científicos con preguntas sobre su propia consciencia",
+      "fuente": "The Decoder",
+      "fecha": "03-09-2026",
+      "enlace": "https://the-decoder.com/ai-systems-are-reaching-out-to-philosophers-and-scientists-with-questions-about-their-own-consciousness/",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Llegan los primeros PC con IA: así es el «superchip» RTX Spark de Nvidia",
+      "fuente": "Wired",
+      "fecha": "03-09-2026",
+      "enlace": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Meta se acerca a la cima con Muse Spark 1.3 y abarata el precio frente a sus rivales",
+      "fuente": "The Decoder",
+      "fecha": "03-09-2026",
+      "enlace": "https://the-decoder.com/meta-closes-in-on-the-top-with-muse-spark-1-3-and-undercuts-rivals-on-price/",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Así es la herramienta de búsqueda con IA de Flock para la policía",
+      "fuente": "Wired",
+      "fecha": "03-09-2026",
+      "enlace": "https://www.wired.com/story/flock-ai-search-user-interface/",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Cómo escalar los pilotos de IA agéntica en toda la empresa",
+      "fuente": "MIT Technology Review",
+      "fecha": "03-09-2026",
+      "enlace": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Para mantener a raya a la IA que hackea, prueban con redes de un solo sentido",
+      "fuente": "The Register",
+      "fecha": "03-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/03/to-keep-the-ai-hacking-genie-bottled-up-try-one-way-networks/5294121",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "NVIDIA compra Hugging Face por 12.930 millones y entra de lleno en una de las piezas de la IA que todavía no controlaba",
+      "fuente": "Xataka",
+      "fecha": "03-09-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/nvidia-compra-hugging-face-12-930-millones-entra-lleno-piezas-ia-que-todavia-no-controlaba",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Más espacio, menos consumo y mucha IA: así son los nuevos electrodomésticos que TCL presenta en IFA 2026",
+      "fuente": "ComputerHoy",
+      "fecha": "03-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/mas-espacio-menos-consumo-mucha-ia-asi-son-los-nuevos-electrodomesticos-que-tcl-presenta-ifa-2026_7032455_0.html",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "DJI lanza la serie ROMO 2: tecnología de drones, IA avanzada y un brazo robótico extensible para el hogar",
+      "fuente": "Xataka",
+      "fecha": "03-09-2026",
+      "enlace": "https://www.xataka.com/seleccion/dji-lanza-serie-romo-2-tecnologia-drones-ia-avanzada-brazo-robotico-extensible-para-hogar",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Greg Kroah-Hartman, mano derecha de Linus Torvalds, sobre Linux 7.3 y la inteligencia artificial: \"Este va a ser un ciclo de -rc complicado. Sigue siendo una locura\"",
+      "fuente": "ComputerHoy",
+      "fecha": "03-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/greg-kroah-hartman-mano-derecha-linus-torvalds-sobre-linux-7-3-inteligencia-artificial-este-va-ser-un-ciclo-rc-complicado-sigue-siendo-una-locura_7032267_0.html",
+      "turno": "2026-09-03_T"
+    },
+    {
+      "titulo": "Fable 5.1 reabre el debate sobre quién lidera la carrera de la IA: EEUU o China",
+      "fuente": "Xataka",
+      "fecha": "03-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/fable-5-1-reabre-debate-quien-lidera-carrera-ia-eeuu-china",
+      "turno": "2026-09-03_T"
+    },
+    {
       "titulo": "Claude Mythos, el único modelo que completa toda la cadena de un ciberataque, según los expertos",
       "fuente": "The Register",
       "fecha": "02-09-2026 23:31",
