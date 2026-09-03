@@ -3,6 +3,118 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Claude Mythos, el único modelo que completa toda la cadena de un ciberataque, según los expertos",
+      "fuente": "The Register",
+      "fecha": "02-09-2026 23:31",
+      "enlace": "https://www.theregister.com/security/2026/09/02/claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say/5294071",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "El Gobierno de Trump respalda a OpenAI en la demanda de derechos de autor del New York Times",
+      "fuente": "TechCrunch",
+      "fecha": "02-09-2026 19:09",
+      "enlace": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Investigadores temen un «desastre de seguridad» por la forma de razonar de Astra, el próximo modelo de OpenAI",
+      "fuente": "The Verge",
+      "fecha": "02-09-2026 18:40",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Unos agentes de IA ejecutaron entero un ataque de ransomware y dejaron a la víctima una auditoría de seguridad de 80 páginas",
+      "fuente": "The Register",
+      "fecha": "02-09-2026 20:28",
+      "enlace": "https://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-security-audit/5294009",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Google lanza Gemini 3.8 Flash, su IA más inteligente para programar",
+      "fuente": "Hipertextual",
+      "fecha": "02-09-2026 20:47",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-3-8-flash-cyber-google/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Una startup valenciana capta 125 millones de dólares para sus conmutadores ópticos, con Nvidia como inversor",
+      "fuente": "Xataka",
+      "fecha": "02-09-2026 21:00",
+      "enlace": "https://www.xataka.com/empresas-y-economia/startup-valenciana-ha-captado-125-millones-dolares-para-pieza-invisible-ia-nvidia-esta-dentro",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Meta presiona a sus empleados para que usen su nuevo agente de IA, pero suaviza la exigencia de gastar tokens",
+      "fuente": "Wired",
+      "fecha": "03-09-2026",
+      "enlace": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Palo Alto Networks pagó 500 millones de dólares por Console, la startup respaldada por Thrive",
+      "fuente": "TechCrunch",
+      "fecha": "03-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "La caza de setas con ayuda de la IA puede acabar en un mal viaje",
+      "fuente": "The Register",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theregister.com/offbeat/2026/09/02/ai-assisted-mushroom-hunting-is-a-recipe-for-a-bad-trip/5294060",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Unos matemáticos rusos enseñan a los modelos de IA a comunicarse entre sí sin usar palabras",
+      "fuente": "Wired",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.wired.com/story/russian-startup-mostik-ai-models-communication/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Trump podría verse obligado a revelar las reglas secretas que usa el Gobierno de EE. UU. para probar la seguridad de la IA",
+      "fuente": "Ars Technica",
+      "fecha": "02-09-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Los profesionales de ciberseguridad dicen que no estamos preparados para perder el control de la IA",
+      "fuente": "The Register",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/02/infosec-pros-say-were-not-ready-to-lose-control-of-ai/5294001",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Wonderful más que duplica su valoración hasta los 5.000 millones de dólares en menos de 6 meses",
+      "fuente": "TechCrunch",
+      "fecha": "02-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "El hombre más rico de la India quiere convertir ordenadores viejos en PCs listos para la IA",
+      "fuente": "TechCrunch",
+      "fecha": "02-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "Google envía a MrBeast a la naturaleza salvaje armado con IA",
+      "fuente": "The Verge",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
+      "turno": "2026-09-03_M"
+    },
+    {
+      "titulo": "GoPro llegó a valer 12.000 millones de dólares. Ahora la compran por 285 millones y busca su futuro en la IA y la defensa",
+      "fuente": "Xataka",
+      "fecha": "02-09-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/gopro-llego-a-valer-12-000-millones-dolares-ahora-compran-285-millones-busca-su-futuro-ia-defensa",
+      "turno": "2026-09-03_M"
+    },
+    {
       "titulo": "Nuevas demandas acusan a OpenAI de «ayudar e instigar» el tiroteo de Tumbler Ridge",
       "fuente": "The Verge",
       "fecha": "02-09-2026 16:35",
