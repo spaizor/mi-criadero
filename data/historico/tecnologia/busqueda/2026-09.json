@@ -3,6 +3,230 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "La NHTSA abre una investigación sobre el Cybercab de Tesla por cómo lo certificó sin volante ni pedales",
+      "fuente": "TechCrunch",
+      "fecha": "04-09-2026 14:01",
+      "enlace": "https://techcrunch.com/2026/09/04/feds-launch-investigation-into-teslas-cybercab-deployment/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Un ingeniero de Google desconecta toda la fibra de una zona y tumba parte de Google Cloud",
+      "fuente": "The Register",
+      "fecha": "04-09-2026 06:48",
+      "enlace": "https://www.theregister.com/off-prem/2026/09/04/google-engineer-unplugged-every-fiber-they-could-see-and-surprise-took-down-a-chunk-of-the-g-cloud/5294418",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Ecosia lanza un navegador para Linux con el que Europa quiere depender menos de las grandes tecnológicas",
+      "fuente": "The Register",
+      "fecha": "04-09-2026 06:00",
+      "enlace": "https://www.theregister.com/software/2026/09/04/the-search-company-that-plants-trees-just-launched-a-linux-browser-to-help-europe-battle-big-tech/5294345",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "iRobot presenta el Roomba Duo, un robot que despliega a otro robot más pequeño para limpiar donde no llega",
+      "fuente": "The Verge",
+      "fecha": "04-09-2026 14:53",
+      "enlace": "https://www.theverge.com/tech/990045/irobot-roomba-duo-concept-robot-vacuum",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Japón se prepara para lanzar una sonda que traerá las primeras muestras de una luna marciana",
+      "fuente": "Wired",
+      "fecha": "04-09-2026 14:00",
+      "enlace": "https://www.wired.com/story/japan-launching-probe-to-collect-first-ever-samples-martian-moon/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Un sensor de grafeno mide la presión arterial desde la muñeca y podría acabar con el tensiómetro tradicional",
+      "fuente": "ADSLZone",
+      "fecha": "04-09-2026 12:13",
+      "enlace": "https://www.adslzone.net/noticias/ciencia/sensor-presion-grafeno-adios-tensiometro/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Xiaomi presenta la Smart Band 11, con pantalla de 1,72 pulgadas y hasta 21 días de batería",
+      "fuente": "Hipertextual",
+      "fecha": "04-09-2026 09:37",
+      "enlace": "https://hipertextual.com/tecnologia/xiaomi-lanza-su-nueva-smart-band-11-y-vuelve-a-dejar-en-ridiculo-a-todos-los-smartwatch/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "La app de Xbox llega a los televisores TCL a la vez que Microsoft estrena el pago por horas en su juego en la nube",
+      "fuente": "The Verge",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.theverge.com/news/990132/microsoft-xbox-tv-app-tcl-smart-tvs",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "El ejército de EEUU desactiva el rastreo publicitario en los dispositivos de sus tropas tras conocerse ataques dirigidos",
+      "fuente": "TechCrunch",
+      "fecha": "04-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/04/us-military-disabled-ad-tracking-on-troops-devices-following-reports-of-targeted-attacks/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Rocket Report: instalan los motores del Artemis III y un Long March 6C se desintegra en órbita baja",
+      "fuente": "Ars Technica",
+      "fecha": "04-09-2026",
+      "enlace": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "El instalador de JavaScript pnpm se reescribe en Rust porque ECMAScript no da la talla",
+      "fuente": "The Register",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.theregister.com/devops/2026/09/04/javascript-installer-pnpm-recast-in-rust-because-ecmascript-cant-keep-up/5294394",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Volkswagen confirma el recorte de 50.000 empleos dentro de su plan de supervivencia",
+      "fuente": "Engadget",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.engadget.com/2250927/volkswagen-confirms-future-plan-2030-50000-job-cuts/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "El servicio de correo postal en la nube Docmail lleva ya tres días atascado en la bandeja de salida",
+      "fuente": "The Register",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.theregister.com/off-prem/2026/09/04/cloud-snail-mail-service-docmail-enters-third-day-stuck-in-the-outbox/5294476",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Wayve y Uber se adelantan a Waymo con viajes autónomos de pago en Londres",
+      "fuente": "The Register",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/04/wayve-and-uber-steal-a-march-on-waymo-with-paid-self-driving-london-rides/5294451",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "ICE quiere saber quién ha comprado un modelo concreto de gorro verde de REI en los últimos dos años",
+      "fuente": "Wired",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.wired.com/story/ice-wants-to-know-who-bought-a-certain-green-beanie-from-rei-in-the-last-2-years/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Detectan otra figura geométrica perfecta en Saturno y nadie sabe muy bien por qué",
+      "fuente": "Wired",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.wired.com/story/another-perfect-geometric-shape-detected-on-saturn/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "El ejército británico quiere láseres para frenar enjambres de drones sin quedarse sin munición",
+      "fuente": "The Register",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.theregister.com/offbeat/2026/09/04/uk-military-wants-lasers-to-stop-drone-swarms-without-running-out-of-ammo/5294176",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Este móvil resistente lleva una cámara que se puede sacar y usar como action cam",
+      "fuente": "Engadget",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.engadget.com/2248386/rugged-smartphones-camera-is-a-removable-action-cam-ifa-2026/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Cisco se puso a buscar fallos en IOS XR, encontró tantos que los agrupó en una actualización",
+      "fuente": "The Register",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.theregister.com/security/2026/09/04/cisco-searched-for-ios-xr-bugs-and-found-so-many-it-rolled-them-into-an-update-release/5294410",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Los árboles no tienen una madre que les diga que se pongan rectos, pero no la necesitan, porque se dan cuenta ellos solos",
+      "fuente": "Xataka",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/arboles-no-tienen-madre-que-les-diga-que-se-pongan-rectos-no-necesitan-porque-se-dan-cuenta-ellos-solos",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Adiós al Kindle. Este móvil tiene un botón que lo convierte en un libro electrónico",
+      "fuente": "Hipertextual",
+      "fecha": "04-09-2026",
+      "enlace": "https://hipertextual.com/tecnologia/adios-al-kindle-este-movil-tiene-un-boton-que-lo-convierte-en-un-libro-electronico/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Movistar Plus estrena hoy la película de acción perfecta para el fin de semana",
+      "fuente": "ADSLZone",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-novocaine-estreno-pelicula/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Qué es el pase VIP de 5G de Movistar y Orange y cómo funciona cuando la red está saturada",
+      "fuente": "ComputerHoy",
+      "fecha": "04-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/que-es-pase-vip-5g-movistar-orange-como-funciona-cuando-red-esta-saturada_7032734_0.html",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Ya es oficial la nueva Cosori Iconic Dual, una nueva freidora de aire de gama alta con doble cesta y acabado en acero inoxidable",
+      "fuente": "Xataka",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.xataka.com/seleccion/oficial-nueva-cosori-iconic-dual-nueva-freidora-aire-gama-alta-doble-cesta-acabado-acero-inoxidable",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "AEMET lanza un aviso por lo que viene este fin de semana: temperaturas de hasta 42 grados y riesgo de tormentas",
+      "fuente": "ADSLZone",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/ciencia/aemet-aviso-altas-temperaturas-fin-semana/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "DIGI tiene un problema, los clientes de dos velocidades: podrías estar pagando más por menos y seguramente no lo sepas",
+      "fuente": "ComputerHoy",
+      "fecha": "04-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/digi-tiene-un-problema-los-clientes-dos-velocidades-podrias-estar-pagando-mas-por-menos-seguramente-no-sepas_7032737_0.html",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "En 1990, EEUU lanzó neumáticos viejos en sus canales de hormigón. Los peces se multiplicaron por 20 en los arrecifes artificiales",
+      "fuente": "Xataka",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/1990-eeuu-lanzo-neumaticos-viejos-sus-canales-hormigon-peces-se-multiplicaron-20-arrecifes-artificiales",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Si trabajas en un bar, hotel o restaurante, ojo con mirar móvil: el BOE cambia las reglas hasta 2030",
+      "fuente": "ADSLZone",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/boe-nuevas-reglas-hosteleria-movil-redes-sociales/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Xbox pone límites a Game Pass y enfada a los jugadores: solo tendrás 15 horas de juego en la nube",
+      "fuente": "ComputerHoy",
+      "fecha": "04-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/gaming/xbox-pone-limites-game-pass-enfada-los-jugadores-solo-tendras-15-horas-juego-nube_7032740_0.html",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Whoop o la Fitbit Air de Google tienen nueva rival: una nueva pulsera sin pantalla que no necesita suscripción",
+      "fuente": "Xataka",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.xataka.com/seleccion/whoop-fitbit-air-google-tienen-nueva-rival-nueva-pulsera-pantalla-que-no-necesita-suscripcion",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "Digi TV amplía su catálogo con AXN Now y Somos para sus abonados: supera los 5.000 contenidos bajo demanda",
+      "fuente": "ADSLZone",
+      "fecha": "04-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-tv-novedades-axn-now-somos/",
+      "turno": "2026-09-04_T"
+    },
+    {
+      "titulo": "La Séptima, el nuevo canal de la TDT, ya sabe dónde conseguir sus primeros espectadores: un canal que ya emite en la TDT y que no vive su mejor momento",
+      "fuente": "ComputerHoy",
+      "fecha": "04-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-nuevo-canal-tdt-ya-sabe-donde-conseguir-sus-primeros-espectadores-un-canal-que-ya-emite-tdt-que-no-vive-su-mejor-momento_7032732_0.html",
+      "turno": "2026-09-04_T"
+    },
+    {
       "titulo": "Apple, demandada por 2.700 millones de dólares por las reglas de App Tracking Transparency",
       "fuente": "Engadget",
       "fecha": "03-09-2026 20:10",
