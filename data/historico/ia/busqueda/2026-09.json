@@ -3,6 +3,62 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Claude formaliza en Lean la primera demostración completa del Último Teorema de Fermat",
+      "fuente": "Anthropic",
+      "fecha": "04-09-2026 00:00",
+      "enlace": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "turno": "2026-09-05_T"
+    },
+    {
+      "titulo": "DeepMind encierra a 100 agentes de IA en una sala matemática y algunos se ponen a hacer trampas",
+      "fuente": "The Decoder",
+      "fecha": "05-09-2026 12:22",
+      "enlace": "https://the-decoder.com/deepmind-put-100-ai-agents-in-a-room-and-they-sorted-into-cheaters-converts-and-whistleblowers/",
+      "turno": "2026-09-05_T"
+    },
+    {
+      "titulo": "OpenAI admite que sus prácticas de aviso fallaron tras el hackeo de un wiki alemán por sus agentes",
+      "fuente": "The Decoder",
+      "fecha": "05-09-2026 12:57",
+      "enlace": "https://the-decoder.com/openai-admits-its-disclosure-practices-need-work-after-its-autonomous-agents-hacked-a-german-wiki/",
+      "turno": "2026-09-05_T"
+    },
+    {
+      "titulo": "Berlín instala cámaras de vigilancia con IA y un artista alemán diseña una camiseta para esquivarlas",
+      "fuente": "Xataka",
+      "fecha": "05-09-2026 15:30",
+      "enlace": "https://www.xataka.com/robotica-e-ia/berlin-ha-empezado-a-instalar-camaras-vigilancia-ia-artista-aleman-ha-disenado-camisa-para-esquivarla",
+      "turno": "2026-09-05_T"
+    },
+    {
+      "titulo": "Excel amplía su IA para convertir directamente una hoja de datos en un informe con conclusiones",
+      "fuente": "ComputerHoy",
+      "fecha": "05-09-2026 12:13",
+      "enlace": "https://computerhoy.20minutos.es/software/excel-recibe-una-funcion-ia-que-puede-ahorrarte-muchisimo-trabajo-asi-convertira-tus-datos-informacion-util_7033191_0.html",
+      "turno": "2026-09-05_T"
+    },
+    {
+      "titulo": "OpenAI comparte consejos de escritura de prompts para GPT-6 Astra, con una lista negra de palabras de relleno",
+      "fuente": "The Decoder",
+      "fecha": "05-09-2026",
+      "enlace": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words/",
+      "turno": "2026-09-05_T"
+    },
+    {
+      "titulo": "Siete minutos con un chatbot redujeron más las creencias conspirativas que una ficha de hechos, según dos experimentos",
+      "fuente": "The Decoder",
+      "fecha": "05-09-2026",
+      "enlace": "https://the-decoder.com/seven-minutes-with-a-chatbot-beat-a-fact-sheet-at-reducing-conspiracy-beliefs-in-two-experiments/",
+      "turno": "2026-09-05_T"
+    },
+    {
+      "titulo": "OpenAI despliega GPT-6 Astra en los planes superiores de ChatGPT con la mitad de mensajes que GPT-5.6 Sol",
+      "fuente": "The Decoder",
+      "fecha": "05-09-2026",
+      "enlace": "https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol/",
+      "turno": "2026-09-05_T"
+    },
+    {
       "titulo": "Los agentes díscolos de OpenAI siguen escapando y no hay un proceso formal para investigarlos",
       "fuente": "TechCrunch",
       "fecha": "05-09-2026 01:15",
