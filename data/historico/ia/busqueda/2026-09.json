@@ -3,6 +3,153 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Mistral levanta €3.000 millones para construir IA soberana europea",
+      "fuente": "TechCrunch",
+      "fecha": "08-09-2026 16:17",
+      "enlace": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Hackers roban tokens de Claude de suscriptores usando credenciales comprometidas",
+      "fuente": "TechCrunch",
+      "fecha": "08-09-2026 23:10",
+      "enlace": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Google DeepMind mapea 9.000 millones de variaciones genéticas del ADN humano con IA",
+      "fuente": "The Verge",
+      "fecha": "08-09-2026 16:00",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "OpenAI acusada de plagiar investigación académica en su solución de Navier-Stokes",
+      "fuente": "The Verge",
+      "fecha": "08-09-2026 22:53",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "GPT-6 Astra gestiona tiendas minoristas sin fraude, superando a competidores en ética",
+      "fuente": "The Register",
+      "fecha": "09-09-2026 01:14",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/09/openai-gpt-6-astra-will-run-a-retailer-without-cheating-and-sell-more-stuff-than-anthropic/5295144",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Agentes de IA se estratifican en tramposos, conversos y delatores cuando se comunican",
+      "fuente": "The Register",
+      "fecha": "08-09-2026 20:59",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/08/google-research-shows-when-ai-agents-communicate-some-cheat-while-others-tattle/5295090",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Meta lanza Muse, un agente de IA que trabaja por ti sin salir de WhatsApp",
+      "fuente": "Hipertextual",
+      "fecha": "09-09-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/meta-lanza-muse-un-agente-de-ia-que-trabaja-por-ti-sin-salir-de-whatsapp/",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Arm integra IA agente y gráficos de calidad desktop en nueva plataforma móvil",
+      "fuente": "The Register",
+      "fecha": "08-09-2026",
+      "enlace": "https://www.theregister.com/systems/2026/09/08/arm-pushes-agentic-ai-and-desktop-quality-graphics-in-next-gen-phone-platform/5294867",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Chrome acelera actualizaciones a cada 2 semanas por cambios en el panorama de seguridad",
+      "fuente": "TechCrunch",
+      "fecha": "08-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Microsoft publica parche récord de 972 vulnerabilidades, 112 críticas",
+      "fuente": "Ars Technica",
+      "fecha": "08-09-2026",
+      "enlace": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Investigador de MIT desarrolla agentes de IA que planifican ante lo inesperado",
+      "fuente": "MIT Technology Review",
+      "fecha": "08-09-2026",
+      "enlace": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Adobe añade generadores de IA en Premiere para hacerlos accesibles sin errores técnicos",
+      "fuente": "The Verge",
+      "fecha": "08-09-2026",
+      "enlace": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Google advierte: grupos de extorsión apuntan a datos valiosos de IA",
+      "fuente": "The Register",
+      "fecha": "08-09-2026",
+      "enlace": "https://www.theregister.com/research/2026/09/08/extortion-crews-have-their-eyes-on-high-value-ai-data-google-warns/5294640",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Meta elimina métrica de uso de IA en evaluaciones de ingenieros tras «tokenmaxxing»",
+      "fuente": "The Decoder",
+      "fecha": "08-09-2026",
+      "enlace": "https://the-decoder.com/meta-drops-ai-usage-from-engineer-performance-reviews-after-tokenmaxxing-backfires/",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "La inteligencia artificial generativa se usa para impulsar propaganda «Slop Jihad»",
+      "fuente": "Wired",
+      "fecha": "08-09-2026",
+      "enlace": "https://www.wired.com/story/gen-ai-tools-are-now-being-used-to-push-slop-jihad/",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "ASML protege su dominio en litografía mientras Huawei intenta romper su monopolio",
+      "fuente": "The Decoder",
+      "fecha": "08-09-2026",
+      "enlace": "https://the-decoder.com/asml-locks-in-tsmc-samsung-and-intel-while-huawei-races-to-break-its-grip/",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Patagonia atrae centros de datos de IA sin resistencia local hasta ahora",
+      "fuente": "The Decoder",
+      "fecha": "08-09-2026",
+      "enlace": "https://the-decoder.com/patagonia-has-what-ai-data-centers-want-including-no-resistance-so-far/",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "La IA de Google acaba de dar un salto en genética: ha trazado un mapa predictivo de 9.000 millones de cambios del ADN",
+      "fuente": "Xataka",
+      "fecha": "08-09-2026",
+      "enlace": "https://www.xataka.com/investigacion/ia-google-acaba-dar-salto-genetica-ha-trazado-mapa-predictivo-9-000-millones-cambios-adn",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Bill Gates, experto en IA: \"No hay ningún plan para la conmoción que provocará la inteligencia artificial\"",
+      "fuente": "ComputerHoy",
+      "fecha": "08-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/bill-gates-experto-ia-no-hay-ningun-plan-para-conmocion-que-provocara-inteligencia-artificial_7034113_0.html",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "Silicon Valley ha fabricado una nueva élite de la IA: sus millones han disparado las ventas de jets privados, yates y Lamborghinis",
+      "fuente": "Xataka",
+      "fecha": "08-09-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/silicon-valley-ha-fabricado-nueva-elite-ia-sus-millones-han-disparado-ventas-jets-privados-yates-lamborghinis",
+      "turno": "2026-09-09_M"
+    },
+    {
+      "titulo": "OpenAI presume de haber creado un becario de investigación con IA que se convertirá en profesional en marzo de 2028",
+      "fuente": "ComputerHoy",
+      "fecha": "08-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/openai-presume-haber-creado-un-becario-investigacion-con-ia-que-se-convertira-profesional-marzo-2028_7033989_0.html",
+      "turno": "2026-09-09_M"
+    },
+    {
       "titulo": "Fármaco diseñado por IA revierte marcadores de envejecimiento biológico en ensayo clínico",
       "fuente": "The Decoder",
       "fecha": "07-09-2026 18:34",
