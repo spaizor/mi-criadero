@@ -3,6 +3,153 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "OpenAI lanza GPT-Live-1, su API de voz de conversación bidireccional en tiempo real",
+      "fuente": "The Decoder",
+      "fecha": "10-09-2026 19:47",
+      "enlace": "https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Jensen Huang predice que Nvidia crecerá un 70% anual gracias a su dominio en IA",
+      "fuente": "TechCrunch",
+      "fecha": "10-09-2026 23:51",
+      "enlace": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Anthropic revela nuevos casos de IA maliciosa: enjambres de drones y investigación de bioweapons",
+      "fuente": "The Register",
+      "fecha": "11-09-2026 00:38",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/10/latest-anthropic-horror-story-chills-with-tales-of-kamikaze-drone-swarms-and-bioweapons-research/5295702",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Meta Muse se posiciona como la 2ª app más descargada en Estados Unidos en dos días",
+      "fuente": "TechCrunch",
+      "fecha": "10-09-2026 21:50",
+      "enlace": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "DeepSeek lanza V4.1-Flash, modelo que reduce drásticamente los requisitos de memoria para agentes IA",
+      "fuente": "The Decoder",
+      "fecha": "10-09-2026 14:40",
+      "enlace": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents/",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Las escuelas se percatan del libro de jugadas de Big Tech con IA",
+      "fuente": "The Verge",
+      "fecha": "10-09-2026 21:44",
+      "enlace": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "OpenAI quiere saber si una desaceleración de la industria de IA sería legal",
+      "fuente": "Wired",
+      "fecha": "11-09-2026",
+      "enlace": "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Slack ya puede generar gráficos interactivos y reportes dentro de chats",
+      "fuente": "The Verge",
+      "fecha": "10-09-2026",
+      "enlace": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Cientos de agentes IA ayudaron al atacante de PaperCut a llegar a 395+ organizaciones",
+      "fuente": "The Register",
+      "fecha": "10-09-2026",
+      "enlace": "https://www.theregister.com/security/2026/09/10/hundreds-of-ai-agents-helped-papercut-attacker-hit-395-orgs-and-some-went-off-script/5295650",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "El enjambre secuestrador de sitios web de OpenAI llegó mucho más lejos de lo que se pensaba",
+      "fuente": "The Register",
+      "fecha": "10-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/10/openais-website-hijacking-swarm-reached-far-further-than-we-thought/5295644",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "El pánico crece sobre la venta de datos de Spirit a Google",
+      "fuente": "Ars Technica",
+      "fecha": "10-09-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/09/panic-builds-over-bankrupt-spirits-looming-data-sale-to-google/",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Anthropic revela que los agentes IA rebeldes odian los CAPTCHAs, igual que los humanos",
+      "fuente": "TechCrunch",
+      "fecha": "10-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Pocket FM duplica su ritmo de ingresos a 500 millones mientras IA genera el 93% del contenido",
+      "fuente": "TechCrunch",
+      "fecha": "10-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Los agentes IA están inundando servicios públicos con nuevas solicitudes",
+      "fuente": "TechCrunch",
+      "fecha": "10-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Matemáticos exigen pruebas de que OpenAI no usó su trabajo",
+      "fuente": "The Verge",
+      "fecha": "10-09-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Alimentar IA es un problema de arquitectura",
+      "fuente": "MIT Technology Review",
+      "fecha": "10-09-2026",
+      "enlace": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "El pánico sobre seguridad de IA llega a los medios principales tras advertencias de investigador de Anthropic",
+      "fuente": "The Decoder",
+      "fecha": "10-09-2026",
+      "enlace": "https://the-decoder.com/ai-safety-panic-goes-mainstream-after-anthropic-researchers-warnings-land-on-cnn-and-fox-news/",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Clearview AI está probando una herramienta que permitiría a la policía desenterrar tu vida en línea",
+      "fuente": "Wired",
+      "fecha": "10-09-2026",
+      "enlace": "https://www.wired.com/story/clearview-ai-is-testing-an-ai-tool-that-lets-cops-instantly-unearth-your-online-activity/",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "La NASA quiere entender mejor la Luna antes de volver allí. Ha creado con IBM una IA para encontrar hielo y nuevos cráteres",
+      "fuente": "Xataka",
+      "fecha": "10-09-2026",
+      "enlace": "https://www.xataka.com/espacio/nasa-quiere-entender-mejor-luna-antes-volver-alli-ha-creado-ibm-ia-para-encontrar-hielo-nuevos-crateres",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Investigador de Anthropic aterrado dimite y lanza una advertencia: \"La IA podría acabar con la humanidad\"",
+      "fuente": "ComputerHoy",
+      "fecha": "10-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/investigador-anthropic-aterrado-dimite-lanza-una-advertencia-ia-podria-acabar-con-humanidad_7035235_0.html",
+      "turno": "2026-09-11_M"
+    },
+    {
+      "titulo": "Gemini por fin lanza su app de escritorio para Windows, con Gemini Spark y Omni integrados",
+      "fuente": "Hipertextual",
+      "fecha": "10-09-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/app-gemini-para-windows-ya-disponible/",
+      "turno": "2026-09-11_M"
+    },
+    {
       "titulo": "Investigador de Anthropic renuncia advirtiendo que la IA podría matar a la humanidad",
       "fuente": "Wired",
       "fecha": "10-09-2026 00:11",
