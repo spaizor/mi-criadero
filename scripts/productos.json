@@ -392,6 +392,60 @@
           "solo_enlace": true
         }
       ]
+    },
+    {
+      "id": "pokemon-za-switch-2",
+      "nombre": "Leyendas Pokémon: Z-A",
+      "plataforma": "Nintendo Switch 2 Edition",
+      "objetivo": 25,
+      "tiendas": [
+        {
+          "tienda": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-pokemon-legends-z-a-nintendo-switch-2-edition-1601365.html",
+          "navegador": true
+        },
+        {
+          "tienda": "GAME",
+          "url": "https://www.game.es/leyendas-pokemon-z-a-nsw2-edition-nintendo-switch-2-246605"
+        },
+        {
+          "tienda": "PcComponentes",
+          "url": "https://www.pccomponentes.com/juegos-nintendo-switch-2-pokemon-legends-za-nintendo-switch-2-edition",
+          "navegador": true
+        },
+        {
+          "tienda": "Xtralife",
+          "url": "https://www.xtralife.com/producto/pokemon-leyendas-z-a-switch-2-switch-2-nintendo-switch-2-edition/104569",
+          "navegador": true
+        },
+        {
+          "tienda": "Carrefour",
+          "url": "https://www.carrefour.es/juego-pokemon-leyendas-z-a-para-nintendo-switch-2/0045496313111/p",
+          "navegador": true
+        },
+        {
+          "tienda": "Amazon",
+          "url": "https://www.amazon.es/dp/B0FBMLXK2D",
+          "solo_enlace": true
+        },
+        {
+          "tienda": "El Corte Ingles",
+          "url": "https://www.elcorteingles.es/videojuegos/A200044542-leyendas-pokemon-z-a-nintendo-switch-2-edtion/",
+          "solo_enlace": true
+        },
+        {
+          "tienda": "Fnac",
+          "url": "https://www.fnac.es/Pokemon-Legends-Z-A-Nintendo-Switch-2-Videojuego-Nintendo-Switch-2/a12024791",
+          "solo_enlace": true
+        },
+        {
+          "tienda": "Orange",
+          "url": "https://www.orange.es/dispositivos/videojuegos/nintendo/leyendas-pokemon-z-a-switch-2-edition/MKP000912906318.html",
+          "cuota": {
+            "meses": 24
+          }
+        }
+      ]
     }
   ]
 }
