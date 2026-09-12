@@ -335,6 +335,44 @@ una pelicula de accion"). Ahi la misma lista se lleva las noticias de telecos,
 asi que hoy no hay corte que valga. Tambien publica de supermercados (Lidl,
 Mercadona), que es otro asunto y esta sin medir.
 
+### La hora de `actualizado` la pone el script, no el modelo
+
+Desde el **12-09-2026**. El campo `actualizado` decide de que turno es el
+fichero (`partir_actualizado`: antes de las 12:00 es M, despues es T), o sea que
+el dato mas estructural del JSON dependia de que el modelo acertara una hora que
+no tiene por que saber.
+
+No la acerto. Al pasar las rutinas a Haiku, las horas se fueron: el turno de la
+manana de nintendo del 11 y el 12-09-2026 se ejecuto a las 4:40 y llego con
+`14:30` dentro, asi que se archivo como **turno de tarde** y `estado` dio por
+perdida la manana que si se habia publicado. Lo mismo en las otras secciones
+(`01:15` en una ejecucion de las 5:02, `09:00` en una de las 4:08). Lo que se ve
+es un falso "M FALTA" cada dia, que es justo el aviso que sale siempre y se deja
+de leer.
+
+`sellar_actualizado()` lo escribe del reloj, en hora espanola. Es la misma regla
+que ya separo los titulares espanoles del modelo: **un dato que el script puede
+leer no se le pide a quien puede inventarlo**.
+
+- **Se sella en `titulares` y en `archivar`, no en `validar`**: validar solo
+  mira. Que lo repita `archivar` es lo que cierra el agujero el dia que
+  `titulares` no llegue a correr, porque archivar lo lanzan todas las secciones
+  siempre y es el que decide el nombre del fichero del turno.
+- **En `titulares` va despues de la comprobacion de turno ya archivado**, no
+  antes: esa comprobacion mira el `actualizado` que trae el fichero para saber
+  si es el del turno pasado, y sellarlo primero le borraria la pista.
+- **Con `--probar` no se sella**, que ese modo promete no tocar el fichero.
+- `validar` avisa (no error) si el desfase pasa de 2 h: el fichero se publicara
+  bien igual, pero ese desfase dice que `titulares` no ha corrido o que lo que
+  hay en `data/` es de otro turno.
+- Efecto de paso: la comprobacion de "fecha posterior a la hora de ejecucion"
+  de las destacadas vuelve a servir. Con un `actualizado` puesto a las 23:59 no
+  cazaba nada.
+
+Lo que **sigue saliendo del modelo** es la hora del mensaje de `publicar`
+(`"Actualiza noticias de Nintendo (DD-MM-AAAA HH:MM)"`), que por eso puede no
+cuadrar con la del commit. No molesta a nada: ese texto no lo lee ningun script.
+
 ### El comando `estado`
 
 Contesta a la pregunta que antes habia que mirar a mano: **se ha publicado el
@@ -542,7 +580,9 @@ Los titulares se pintan en un bloque plegable debajo de las destacadas.
 }
 ```
 
-Todas las fechas en hora espanola. **Los titulares llevan fecha sin hora a
+Todas las fechas en hora espanola. **El campo `actualizado` lo reescribe el
+script** (`titulares` y `archivar`), asi que la hora que ponga ahi el modelo es
+provisional; ver mas arriba. **Los titulares llevan fecha sin hora a
 proposito**: como no se abre el articulo, no hay forma de saber la hora de
 publicacion, y pedirsela solo consigue que se la invente.
 

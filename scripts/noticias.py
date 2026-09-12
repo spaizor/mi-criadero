@@ -195,6 +195,34 @@ def zona_espanola():
 ESPANA = zona_espanola()
 
 
+def sellar_actualizado(seccion, datos, quien):
+    """Pone en 'actualizado' la hora real de esta ejecucion. Devuelve el valor.
+
+    El campo lo escribia el modelo, y con eso el dato mas estructural del
+    fichero (de que turno es) dependia de que acertara una hora que no tiene
+    por que saber. No la acerto: en septiembre de 2026 los turnos de la manana
+    de nintendo llegaron con '14:30' dentro, asi que 'partir_actualizado' los
+    archivo como turno de tarde y 'estado' dio por perdida la manana que si se
+    habia publicado. Un dato que el script puede leer del reloj no se le pide
+    al modelo, que es la misma regla por la que los titulares espanoles salen
+    del feed y no de una traduccion.
+
+    Se sella en 'titulares' y en 'archivar', no en 'validar': validar solo
+    mira. Que 'archivar' lo repita es lo que cierra el agujero el dia que
+    'titulares' no llegue a correr (una seccion sin medios espanoles, un feed
+    caido que lo tumbe), porque archivar lo lanzan todas las secciones siempre
+    y es justo el que decide el nombre del fichero del turno.
+    """
+    antes = str(datos.get("actualizado", ""))
+    ahora = datetime.now(ESPANA).strftime(FORMATO_FECHA_HORA)
+    datos["actualizado"] = ahora
+    escribir_json(ruta_actual(seccion), datos)
+    if antes != ahora:
+        print(f"# {quien}: 'actualizado' pasa a {ahora} (la hora de esta "
+              f"ejecucion; el fichero traia {antes or 'nada'}).")
+    return ahora
+
+
 def leer_medios(seccion, solo_utiles=True):
     """Medios de la seccion. Utiles = con feed y comprobado; el resto, a mano."""
     if not MEDIOS.exists():
@@ -713,6 +741,13 @@ def cmd_titulares(args):
               f"'actualizado' y sus destacadas) antes de rellenar titulares.")
         return 1
 
+    # Despues de la comprobacion de arriba y no antes: esa comprobacion mira el
+    # 'actualizado' que trae el fichero para saber si es el del turno pasado, y
+    # sellarlo primero borraria justo la pista que necesita.
+    # Con --probar no, que ese modo promete no tocar el fichero.
+    if not args.probar:
+        sellar_actualizado(args.seccion, datos, "titulares")
+
     espanoles = [m for m in leer_medios(args.seccion) if m.get("idioma") == "es"]
     if not espanoles:
         print(f"ERROR: no hay ningun medio espanol comprobado en "
@@ -1031,6 +1066,16 @@ def cmd_validar(args):
     if momento is None:
         rev.error(f"'actualizado' debe ser 'DD-MM-AAAA HH:MM' con la hora de "
                   f"ejecucion en hora espanola: {actualizado!r}")
+    elif abs((datetime.now(ESPANA).replace(tzinfo=None)
+              - momento).total_seconds()) > 2 * 3600:
+        # Aviso y no error: 'archivar' lo sella con la hora real, asi que el
+        # fichero que se publique ira bien de todas formas. Lo que si dice este
+        # desfase es que 'titulares' no ha corrido (ahi se sella tambien), o
+        # que lo que hay en data/ es de otro turno.
+        rev.aviso(f"'actualizado' dice {actualizado} y son las "
+                  f"{datetime.now(ESPANA).strftime(FORMATO_FECHA_HORA)}. Lo "
+                  f"pone el script, no tu: si no coincide es que no ha llegado "
+                  f"a correr 'titulares', o que este fichero es de otro turno.")
 
     destacadas = datos.get("destacadas")
     titulares = datos.get("titulares")
@@ -1094,6 +1139,7 @@ def cmd_validar(args):
 
 def cmd_archivar(args):
     datos = leer_json(ruta_actual(args.seccion))
+    sellar_actualizado(args.seccion, datos, "archivar")
     try:
         fecha, turno, _ = partir_actualizado(str(datos.get("actualizado", "")))
     except ValueError:
