@@ -3,6 +3,230 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Los parches de seguridad de Microsoft en Windows y Excel causan fallos graves en audio, acceso remoto y copia-pega",
+      "fuente": "The Register",
+      "fecha": "14-09-2026 15:00",
+      "enlace": "https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "El gobierno del Reino Unido elimina las contraseñas para 23 millones de usuarios mediante claves biométricas",
+      "fuente": "The Register",
+      "fecha": "14-09-2026 11:16",
+      "enlace": "https://www.theregister.com/security/2026/09/14/ukgov-begins-killing-off-passwords-for-23-million-users/5296088",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Revolut sufre un grave fallo de seguridad tras ingeniería social: ciberdelincuentes acceden a IBANs, selfies y pasaportes",
+      "fuente": "ADSLZone",
+      "fecha": "14-09-2026 10:39",
+      "enlace": "https://www.adslzone.net/noticias/fintech/revolut-fallo-seguridad-datos-filtrados/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "El camión eléctrico Tesla Semi llega a Europa tras años de retrasos con 550 km de autonomía",
+      "fuente": "Xataka",
+      "fecha": "14-09-2026 14:17",
+      "enlace": "https://www.xataka.com/movilidad/camion-electrico-tesla-tiene-version-europea-anos-retrasos-viene-mision-demostrar-tiene-sentido-que-eeuu",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "El chip A20 Pro del iPhone obtiene ancho de banda 50% mayor en memoria y rendimiento sostenido 40% superior",
+      "fuente": "Xataka",
+      "fecha": "14-09-2026 13:31",
+      "enlace": "https://www.xataka.com/componentes/apple-ha-hecho-cuatro-grandes-cambios-chip-nuevo-iphone-solo-ellas-consiste-ir-rapido",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Motorola Razr Fold: teléfono plegable con formato cuadrado, triple cámara 50MP y batería 6000 mAh",
+      "fuente": "ComputerHoy",
+      "fecha": "14-09-2026 12:20",
+      "enlace": "https://computerhoy.20minutos.es/moviles/motorola-prepara-su-propia-version-iphone-duo-samsung-galaxy-z-fold-8-asi-es-razr-fold-formato-cuadrado_7036288_0.html",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "GrapheneOS: el Android «de-Googleado» que ofrece control por aplicación de red, sensores y permisos",
+      "fuente": "ComputerHoy",
+      "fecha": "14-09-2026 13:35",
+      "enlace": "https://computerhoy.20minutos.es/software/grapheneos-soluciona-uno-los-mayores-problemas-android-esta-relacionado-con-privacidad_7036291_0.html",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "¿Qué es el modo MSI en Windows y acelera tu GPU?",
+      "fuente": "Engadget",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.engadget.com/2253025/what-is-msi-mode-windows-pc-speed-up-gpu/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Cómo preparar tu iPhone para la actualización iOS 27",
+      "fuente": "Engadget",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.engadget.com/2252944/prepare-iphone-ios-27-update/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "¿Qué hace realmente la actualización de aplicaciones en segundo plano en iPhone?",
+      "fuente": "Engadget",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.engadget.com/2252907/what-background-apps-refresh-iphone-does/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Los distribuidores de música acuerdan nuevas medidas contra fraude",
+      "fuente": "Engadget",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.engadget.com/2257223/music-distributors-agree-to-new-anti-fraud-measures/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "¿Vale realmente la pena pagar por AppleCare?",
+      "fuente": "Engadget",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.engadget.com/2250733/applecare-worth-extra-cost/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Huawei propone óptica empaquetada cerca para reducir costos de empaquetado",
+      "fuente": "The Register",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.theregister.com/networks/2026/09/14/huawei-pitches-near-packaged-optics-as-co-packaged-costs-bite/5296164",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "CPython alivia requisitos de Rust mientras continúa la asimilación",
+      "fuente": "The Register",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.theregister.com/devops/2026/09/14/cpython-eases-rust-requirements-as-assimilation-continues/5296010",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Las normas de derecho a reparación de Europa están rotas, no derrotadas",
+      "fuente": "The Register",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.theregister.com/columnists/2026/09/14/europes-right-to-repair-rules-are-broken-not-beaten/5295763",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Los juegos de GameCube que aún amamos, 25 años después",
+      "fuente": "Engadget",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.engadget.com/2256423/nintendo-gamecube-games-we-still-love-25-years-later/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "¿Qué sucede después de que un pueblo elimina las cámaras Flock?",
+      "fuente": "The Verge",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.theverge.com/policy/994414/cities-ditching-flock-cameras-controversy",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Los mejores auriculares con cancelación de ruido de 2026",
+      "fuente": "Wired",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.wired.com/story/best-noise-canceling-earbuds/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "El mejor purificador de aire de 2026: opciones para cada habitación",
+      "fuente": "Wired",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.wired.com/gallery/best-air-purifiers/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "En plena biosfera leonesa se esconde la planta de biodiésel de Toreno: 18 millones de gasto y ni un litro producido",
+      "fuente": "Xataka",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.xataka.com/magnet/plena-biosfera-leonesa-se-esconde-planta-biodiesel-toreno-18-millones-gasto-litro-producido",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "La nueva lavadora triple de Xiaomi es el sueño de cualquier hogar: soluciona el problema de lavar poca ropa",
+      "fuente": "Hipertextual",
+      "fecha": "14-09-2026",
+      "enlace": "https://hipertextual.com/tecnologia/la-nueva-lavadora-triple-de-xiaomi-es-el-sueno-de-cualquier-hogar-soluciona-el-problema-de-lavar-poca-ropa/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Excel pierde hoy su fórmula más extraña: ya no podrás escribirla en ninguna celda",
+      "fuente": "ADSLZone",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/excel-elimina-formula-copilot/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Si tu router WiFi tiene puerto USB, tienes un tesoro: todo lo que puedes hacer si conectas un disco duro",
+      "fuente": "ComputerHoy",
+      "fecha": "14-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/router-wifi-tesoro-puerto-conexion-usb-conectar-disco-duro-externo-ssd-funciones-desconocidas-1465766_6659540_0.html",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Hubo una época en la que parecía que el futuro era que todos comiéramos carne falsa. Ya no",
+      "fuente": "Xataka",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.xataka.com/investigacion/hubo-epoca-que-parecia-que-futuro-era-que-todos-comieramos-carne-falsa-no",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Apple tiene un nuevo producto en marcha y ni por asomo te imaginas lo que es",
+      "fuente": "Hipertextual",
+      "fecha": "14-09-2026",
+      "enlace": "https://hipertextual.com/tecnologia/apple-tiene-un-nuevo-producto-en-marcha-y-ni-por-asomo-te-imaginas-lo-que-es/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "¿Por qué Mercadona no deja comprar más de 100 litros de agua?",
+      "fuente": "ADSLZone",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/mercadona-deja-comprar-100-litros-agua/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Javier Ruiz, director de La Séptima, el nuevo canal de la TDT, deja claros sus objetivos: \"Vamos a importar primero y liderar después\"",
+      "fuente": "ComputerHoy",
+      "fecha": "14-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/javier-ruiz-director-septima-nuevo-canal-tdt-deja-claros-sus-objetivos-vamos-importar-primero-liderar-despues_7036293_0.html",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "\"Han saturado el mercado tirando el precio hacia abajo\": la sandía española se enfrenta a su gran batalla con Marruecos",
+      "fuente": "Xataka",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.xataka.com/magnet/han-saturado-mercado-tirando-precio-abajo-sandia-espanola-se-enfrenta-a-su-gran-batalla-marruecos",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "La Guardia Civil advierte: «Ver el fútbol gratis con una IPTV pirata puede costarte TODOS los ahorros de tu vida»",
+      "fuente": "Hipertextual",
+      "fecha": "14-09-2026",
+      "enlace": "https://hipertextual.com/tecnologia/la-guardia-civil-advierte-ver-el-futbol-gratis-con-una-iptv-pirata-puede-costarte-todos-los-ahorros-de-tu-vida/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "A juicio por conducir cuadruplicando el máximo de alcohol al volante y justificarlo de una forma inaudita: «Es por el vinagre»",
+      "fuente": "ADSLZone",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/juicio-conducir-cuadruplicando-alcohol-excusa-vinagre/",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Tras EFS y FreeVxFS, el sistema de archivos BFS se eliminará definitivamente en Linux 7.4",
+      "fuente": "ComputerHoy",
+      "fecha": "14-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/tras-efs-freevxfs-sistema-archivos-bfs-se-eliminara-definitivamente-linux-7-4_7036402_0.html",
+      "turno": "2026-09-14_T"
+    },
+    {
+      "titulo": "Los empleados han encontrado una ingeniosa solución para evitar que las reuniones les roben tiempo de trabajo: reuniones falsas",
+      "fuente": "Xataka",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/empleados-han-encontrado-ingeniosa-solucion-para-evitar-que-reuniones-les-roben-tiempo-trabajo-reuniones-falsas",
+      "turno": "2026-09-14_T"
+    },
+    {
       "titulo": "Tesla anuncia presentación del Roadster de segunda generación para el 10 de octubre",
       "fuente": "Engadget",
       "fecha": "13-09-2026 21:10",
