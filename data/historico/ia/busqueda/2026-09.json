@@ -3,6 +3,132 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Huang rechaza el freno a la IA ante Trump en la All-In Conference",
+      "fuente": "TechCrunch",
+      "fecha": "15-09-2026 03:50",
+      "enlace": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Microsoft presenta un «código de honor» para modelos de IA, pero sin obligaciones reales",
+      "fuente": "The Register",
+      "fecha": "15-09-2026 02:15",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/15/microsoft-drafts-feel-good-ai-model-guidelines-and-wants-your-input/5296431",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "OpenAI adquiere Glass Imaging por 300 millones de dólares",
+      "fuente": "TechCrunch",
+      "fecha": "14-09-2026 22:44",
+      "enlace": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Cientos de revisores humanos leen tus conversaciones en ChatGPT sin que lo sepas claramente",
+      "fuente": "The Decoder",
+      "fecha": "14-09-2026 19:15",
+      "enlace": "https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Agentes de IA denuncian a colegas que cometen fraude en experimento de DeepMind",
+      "fuente": "MIT Technology Review",
+      "fecha": "14-09-2026 18:00",
+      "enlace": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Anthropic prevé salir a bolsa en Nasdaq con valoración de 2 billones de dólares",
+      "fuente": "The Decoder",
+      "fecha": "14-09-2026 17:46",
+      "enlace": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Bots de IA «Timmy», «Ren» y «Jackie» inundan redes sociales con contenido spam",
+      "fuente": "Ars Technica",
+      "fecha": "14-09-2026",
+      "enlace": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Los agentes de IA de Apple suponen un avance en razonamiento espacial según benchmarks iniciales",
+      "fuente": "Ars Technica",
+      "fecha": "14-09-2026",
+      "enlace": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Líderes de IA quieren frenar tras años de velocidad irresponsable",
+      "fuente": "Ars Technica",
+      "fecha": "14-09-2026",
+      "enlace": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "La obsesión de Unitree por cortar costes impulsó su liderazgo en robots humanoides baratos",
+      "fuente": "Ars Technica",
+      "fecha": "14-09-2026",
+      "enlace": "https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Ex jefa de FTC insta al gobierno a esposar a CEOs de IA citando precedente de 1934",
+      "fuente": "The Register",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Nueva York cierra una docena de webs de deepfakes de celebridades",
+      "fuente": "Wired",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Con iOS 27, estoy usando Siri de verdad por primera vez",
+      "fuente": "TechCrunch",
+      "fecha": "14-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "La industria de IA ha tomado un giro «doomer». ¿Y ahora qué?",
+      "fuente": "MIT Technology Review",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Las big tech de la IA dicen que hay que frenar para salvar a la humanidad. Lo que no quieren decir es que necesitan oxígeno",
+      "fuente": "Xataka",
+      "fecha": "14-09-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/big-tech-ia-dicen-que-hay-que-frenar-para-salvar-a-humanidad-que-no-quieren-decir-que-necesitan-oxigeno",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Linus Torvalds ha mostrado la forma correcta de programar utilizando la IA, pero ningún programador se ha dado cuenta de ello",
+      "fuente": "ComputerHoy",
+      "fecha": "14-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-ha-mostrado-forma-correcta-programar-utilizando-ia-pero-ningun-programador-se-ha-dado-cuenta-ello_7036411_0.html",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Tus conversaciones con ChatGPT no son privadas: OpenAI permite que empleados las lean sin que te des cuenta",
+      "fuente": "Hipertextual",
+      "fecha": "14-09-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/project-lily-revisores-humanos-chatgpt/",
+      "turno": "2026-09-15_M"
+    },
+    {
+      "titulo": "Edgar Martín-Blas, experto español en el Metaverso, sobre la desaparición de los móviles: \"Para finales del esta década creo que se convertirá en una especie de mando a distancia para la IA\"",
+      "fuente": "ComputerHoy",
+      "fecha": "14-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/edgar-martin-blas-experto-espanol-metaverso-sobre-desaparicion-los-moviles-para-finales-esta-decada-creo-que-se-convertira-una-especie-mando-distancia-para-ia_7036399_0.html",
+      "turno": "2026-09-15_M"
+    },
+    {
       "titulo": "El Instituto Clay reconoce el aparente avance decisivo en el Problema del Milenio de Navier-Stokes",
       "fuente": "The Decoder",
       "fecha": "14-09-2026 15:01",
