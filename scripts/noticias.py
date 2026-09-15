@@ -1672,25 +1672,6 @@ def _resumen(lineas, tope=300):
     return (texto[0].upper() + texto[1:])[:tope]
 
 
-def vigilancia_reciente(anterior, horas=36):
-    """True si el 'comprobado' del fichero es de la vigilancia anterior.
-
-    Se compara con la hora y no con el numero de dias porque la rutina se
-    retrasa: 36 h dan de sobra para la de ayer (sale a las 9:30) y se quedan
-    muy por debajo de cualquier parada de verdad. Sin fecha legible se responde
-    que no, que es el lado seguro: como mucho se dispara una vez de mas, y un
-    disparo de mas se corrige solo en la vigilancia siguiente; una banda de mas
-    se queda puesta todo el dia diciendo lo contrario que la pagina.
-    """
-    momento = validar_fecha(str(anterior.get("comprobado", "")),
-                            FORMATO_FECHA_HORA)
-    if momento is None:
-        return False
-    pasadas = (datetime.now(ESPANA).replace(tzinfo=None)
-               - momento).total_seconds() / 3600
-    return 0 <= pasadas <= horas
-
-
 def cmd_vigilar(args):
     """Las tres comprobaciones, y un aviso en la portada si alguna falla.
 
@@ -1757,7 +1738,7 @@ def cmd_vigilar(args):
     recupera (los feeds solo dan lo reciente) y una seccion a medias no se
     arregla sola. Ahi la banda es el unico canal que hay.
     """
-    from precios import revisar_frescura, lanzar_pasada  # aqui, que precios.py importa de este
+    from precios import revisar_frescura, lanzar_pasada, SALIDA  # aqui, que precios.py importa de este
 
     # Dos listas, y la diferencia entre ellas es de quien es el problema:
     # 'avisos' se pinta en la portada porque hace falta una persona, y
@@ -1776,18 +1757,26 @@ def cmd_vigilar(args):
     anterior = leer_json(VIGILANCIA) if VIGILANCIA.exists() else {}
     previos = anterior.get("avisos", [])
     previos_disparos = anterior.get("disparos", [])
-    # Si la vigilancia anterior ya disparo por los precios y la pasada sigue
-    # faltando, su push no sirvio: eso ya no se arregla solo.
+    # Si la vigilancia anterior disparo por los precios y desde entonces no ha
+    # entrado ninguna pasada, su push no sirvio: eso ya no se arregla solo.
     #
-    # Pero eso solo se puede concluir si esa vigilancia fue la de ayer, y hay
-    # que comprobarlo: el fichero se queda como estaba el dia que la rutina deja
-    # de correr. El 13-09-2026 la banda dijo "falta la pasada de precios" encima
-    # de unos precios de las 09:39 que ese mismo push acababa de traer, porque
-    # el disparo que leyo era del 06-09, de antes de que la rutina estuviera una
-    # semana apagada. Un disparo viejo no dice que no sirviera: dice que nadie
-    # ha vuelto a mirar.
+    # La pregunta es esa, "ha servido", y no se puede contestar mirando solo el
+    # fichero de vigilancia. El 13-09 se exigio que el disparo fuera de las
+    # ultimas 36 h, lo que tapaba uno de hace una semana pero no el de ayer: el
+    # 14-09 se disparo, sirvio (precios a las 09:41), y el 15-09 el cron volvio
+    # a no saltar. La vigilancia leyo el disparo de ayer como "no sirvio" y
+    # pinto banda encima de los precios de las 09:42 que su propio push trajo.
+    # Mirando si hay precios posteriores al disparo, los dos casos salen bien.
+    # Sin fechas legibles no se insiste: un disparo de mas se corrige solo, una
+    # banda de mas se queda todo el dia diciendo lo contrario que la pagina.
+    disparado = validar_fecha(str(anterior.get("comprobado", "")),
+                              FORMATO_FECHA_HORA)
+    precios_desde = (validar_fecha(str(leer_json(SALIDA).get("actualizado", "")),
+                                   FORMATO_FECHA_HORA)
+                     if SALIDA.exists() else None)
     insistiendo = (any(d.get("que") == "precios" for d in previos_disparos)
-                   and vigilancia_reciente(anterior))
+                   and disparado is not None and precios_desde is not None
+                   and precios_desde <= disparado)
 
     ok, lineas = revisar_frescura()
     lanzamiento = None

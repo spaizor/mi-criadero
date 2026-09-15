@@ -1269,6 +1269,17 @@ Si la primera no dispara, dispara la siguiente.
   `noticias.py vigilar`, que corre fuera de GitHub, y por eso los dos arreglos
   van juntos.
 
+**Medido otra vez el 15-09-2026: el retraso ya no son 40 minutos, son unas
+cuatro horas y media, y todos los dias.** Desde el 29-08 no se ha saltado ni un
+cron (seis runs `schedule` cada dia), pero el de las 6:10 crea el run entre las
+10:35 y las 11:46 espanolas, y las repescas detras. Como la vigilancia pasa a
+las 9:38, **cada manana ve la pasada pendiente y la lanza su push**: en la
+practica, la pasada de manana la hace el `on: push`, y los cron llegan despues
+y el guardia los despacha en segundos. No es una averia ni hay que adelantar
+los cron para compensar. Lo que si hay que saber es que un disparo diario es lo
+normal, y que por eso "otro disparo hoy" no puede leerse como "el de ayer no
+sirvio", ver la banda que decia lo contrario, mas abajo.
+
 ### `noticias.py vigilar`: el vigilante que no vive en GitHub
 
 El 27-08-2026 no dispararon **ni el cron de precios ni el de `vigilancia.yml`**.
@@ -1409,9 +1420,14 @@ Por eso `vigilancia.json` lleva desde el 30-08-2026 **dos listas**:
   sea que hay commit y hay push, o sea que `precios.yml` arranca lo mismo. Le da
   igual el contenido, su `paths` mira el nombre del fichero. El pistoletazo se
   conserva entero y lo unico que se quita es la banda.
-- **Un disparo pasa a aviso cuando el disparo anterior no sirvio**, o sea si la
-  pasada sigue faltando en la vigilancia siguiente. Esa es la unica version del
-  mensaje que no puede quedarse mintiendo.
+- **Un disparo pasa a aviso cuando el disparo anterior no sirvio**, o sea si
+  desde esa vigilancia **no ha entrado ninguna pasada** de precios. Esa es la
+  unica version del mensaje que no puede quedarse mintiendo. Ojo: no basta con
+  que falte la pasada otra vez. El 15-09-2026 el cron fallo dos mananas
+  seguidas, los dos disparos funcionaron, y la segunda vigilancia leyo el
+  disparo de ayer como "no sirvio" y pinto banda encima de los precios que su
+  propio push acababa de traer. Por eso se compara el `actualizado` de
+  `ofertas.json` con el `comprobado` del disparo, y no la antiguedad del disparo.
 - **Turnos y secciones no pasan nunca por `disparos`**: un turno perdido no se
   recupera y una seccion a medias no se arregla sola. Ahi la banda es el unico
   canal, y por eso no se quito entera, que era la otra opcion encima de la mesa.
