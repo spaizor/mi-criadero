@@ -3,6 +3,153 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "España experimenta su primer ciberataque ejecutado por un agente de IA autónomo",
+      "fuente": "The Register",
+      "fecha": "16-09-2026 13:56",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/09/16/spain-gets-its-first-taste-of-ai-aided-cyber-attack/5296844",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Los robots están esperando su momento ChatGPT, según Nvidia",
+      "fuente": "TechCrunch",
+      "fecha": "16-09-2026 17:00",
+      "enlace": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Políticos opuestos en Washington se unen para frenar el desarrollo de IA",
+      "fuente": "The Decoder",
+      "fecha": "16-09-2026 16:59",
+      "enlace": "https://the-decoder.com/political-opposites-unite-in-washington-to-rein-in-ai/",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Construir la base de materiales para la IA",
+      "fuente": "MIT Technology Review",
+      "fecha": "16-09-2026 14:47",
+      "enlace": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "La apuesta de un billón de dólares en IA: riesgos sin rentabilidad clara",
+      "fuente": "MIT Technology Review",
+      "fecha": "16-09-2026 14:10",
+      "enlace": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Uno de cada cinco investigadores de IA esperaban escenarios de extinción en 2024",
+      "fuente": "The Decoder",
+      "fecha": "16-09-2026 12:20",
+      "enlace": "https://the-decoder.com/nearly-one-in-five-ai-researchers-already-expected-an-extinction-scenario-from-ai-back-in-2024/",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Las estafas románticas en aplicaciones de citas potenciadas por IA",
+      "fuente": "The Verge",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Amazon lanza Alexa+ en India con soporte en hindi",
+      "fuente": "TechCrunch",
+      "fecha": "16-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "El startup de IA del exjefe de Infosys recauda otros 53 millones",
+      "fuente": "TechCrunch",
+      "fecha": "16-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Threads añade nuevas funciones para podcasters",
+      "fuente": "TechCrunch",
+      "fecha": "16-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "SK Hynix negocia con Intel para construir chips de memoria en EE.UU.",
+      "fuente": "TechCrunch",
+      "fecha": "16-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Enjambres de IA: la única defensa ahora que la IA es accesible",
+      "fuente": "The Register",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/16/bring-on-the-ai-swarms-theyre-the-only-thing-that-can-defend-us-now-that-ai-is-free/5296727",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Para Zuckerberg, la seguridad de la IA no es un freno: es el argumento de venta contra Anthropic y OpenAI",
+      "fuente": "Xataka",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/para-zuckerberg-seguridad-ia-no-freno-argumento-venta-anthropic-openai",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Confirmado por la Agencia de Protección de Datos | Primer ciberataque en España ejecutado por un agente de IA 100% autónomo",
+      "fuente": "ComputerHoy",
+      "fecha": "16-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/confirmado-por-agencia-proteccion-datos-primer-ciberataque-espana-ejecutado-por-un-agente-ia-100-autonomo_7037300_0.html",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "El hackeo a Hugging Face por los agentes rebeldes de OpenAI empezó mucho antes de lo que se creía",
+      "fuente": "Hipertextual",
+      "fecha": "16-09-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/hackeo-hugging-face-agentes-openai-preparacion-meses-antes/",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "La nueva idea de uno de los creadores de ChatGPT es una IA que no sabe escribir. Esa es precisamente su ventaja",
+      "fuente": "Xataka",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/nueva-idea-uno-creadores-chatgpt-ia-que-no-sabe-escribir-esa-precisamente-su-ventaja",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Bill Gates, cofundador de Microsoft: \"Hay todo tipo de películas donde llegan unos extraterrestres y, mágicamente, EEUU y China se unen para resolver el problema. La IA es algo así como esta inteligencia alienígena\"",
+      "fuente": "ComputerHoy",
+      "fecha": "16-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/bill-gates-cofundador-microsoft-hay-todo-tipo-peliculas-donde-llegan-unos-extraterrestres-magicamente-eeuu-china-se-unen-para-resolver-problema-ia-es-algo-asi-como-esta-inteligencia-alienigena_7037296_0.html",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "“El mundo tiene razón al tener miedo de la IA”. La solución de Sam Altman es que confiemos en quienes la están construyendo",
+      "fuente": "Xataka",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/mundo-tiene-razon-al-tener-miedo-ia-solucion-sam-altman-que-confiemos-quienes-estan-construyendo",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Sam Altman y Dario Amodei quieren ralentizar la IA y Jensen Huang, CEO de Nvidia, responde: \"Se lo están inventando\"",
+      "fuente": "ComputerHoy",
+      "fecha": "16-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/sam-altman-dario-amodei-quieren-ralentizar-ia-jensen-huang-ceo-nvidia-responde-se-estan-inventando_7037297_0.html",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "Un agente de IA ha protagonizado un ciberataque en España. La AEPD nunca había visto uno",
+      "fuente": "Xataka",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/agente-ia-ha-protagonizado-ciberataque-espana-aepd-nunca-habia-visto-uno",
+      "turno": "2026-09-16_T"
+    },
+    {
+      "titulo": "\"No quiero que Anthropic domine la AGI\": un ingeniero de DeepSeek avisa en plena confrontación de EEUU y China",
+      "fuente": "Xataka",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/no-quiero-que-anthropic-domine-agi-ingeniero-deepseek-avisa-plena-confrontacion-eeuu-china",
+      "turno": "2026-09-16_T"
+    },
+    {
       "titulo": "Google lanza Gemini 3.8 Live para competir con GPT-Live-1 de OpenAI a una fracción del precio",
       "fuente": "The Decoder",
       "fecha": "15-09-2026 20:23",
