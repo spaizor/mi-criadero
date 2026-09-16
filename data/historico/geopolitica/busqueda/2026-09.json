@@ -3,6 +3,237 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Arabia Saudí cancela sus envíos de petróleo a Europa tras el ataque a su oleoducto",
+      "fuente": "RT",
+      "fecha": "16-09-2026 01:57",
+      "enlace": "https://www.rt.com/news/645782-saudi-arabia-cancels-oil-shipments-europe/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "La OTAN denuncia una acción «imprudente» de Rusia contra un helicóptero danés y advierte que «no intimidará» a los aliados",
+      "fuente": "Anadolu",
+      "fecha": "15-09-2026 20:55",
+      "enlace": "https://www.aa.com.tr/en/world/nato-says-russias-reckless-action-against-danish-helicopter-will-not-intimidate-allies-/4058280",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Rusia alega que Occidente no halló pruebas de su implicación en un intento de ataque al aeropuerto de Leipzig",
+      "fuente": "Anadolu Espanol",
+      "fecha": "15-09-2026 13:52",
+      "enlace": "https://www.aa.com.tr/es/mundo/rusia-alega-que-occidente-no-hall%C3%B3-pruebas-de-la-implicaci%C3%B3n-de-mosc%C3%BA-en-un-intento-de-ataque-al-aeropuerto-de-leipzig/4057890",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "La Cámara de Representantes de EE.UU. avanza la ley de sanciones a Rusia que impone aranceles del 100% a India y otros países",
+      "fuente": "The Hindu",
+      "fecha": "16-09-2026 02:36",
+      "enlace": "https://www.thehindu.com/news/international/russia-sanctions-bill-advances-in-us-house-india-tariffs-final-vote/article71470872.ece",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "El ministro de Defensa chino suaviza su tono hacia EE.UU. en el Foro de Xiangshan, antes de la cumbre entre Xi y Trump",
+      "fuente": "SCMP",
+      "fecha": "16-09-2026 04:45",
+      "enlace": "https://www.scmp.com/news/china/military/article/3367657/dong-jun-adopts-softer-stance-us-xiangshan-forum-xi-prepares-trump-summit?utm_source=rss_feed",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Von der Leyen planteará crear un Consejo de Seguridad Europeo en su discurso sobre el estado de la Unión",
+      "fuente": "TASS",
+      "fecha": "16-09-2026 02:16",
+      "enlace": "https://tass.com/world/2188123",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Zelenski denuncia que drones rusos atacaron el espacio aéreo de Moldavia dos veces mientras estaba en tránsito",
+      "fuente": "The Hindu",
+      "fecha": "15-09-2026 23:38",
+      "enlace": "https://www.thehindu.com/news/international/ukraines-zelenskyy-says-russian-drones-attacked-moldova-twice-while-he-was-in-transit/article71469993.ece",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Venezuela gestiona ante el Reino Unido la reanudación de relaciones diplomáticas",
+      "fuente": "Resumen Latinoamericano",
+      "fecha": "16-09-2026 03:21",
+      "enlace": "https://www.resumenlatinoamericano.org/2026/09/15/venezuela-gobierno-venezolano-gestiona-ante-reino-unido-la-reanudacion-de-relaciones-diplomaticas/",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "India y Rusia impulsan una mayor cooperación en defensa con más producción conjunta",
+      "fuente": "SCMP",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.scmp.com/week-asia/politics/article/3367604/india-and-russia-push-expand-defence-ties-more-joint-production?utm_source=rss_feed",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "EE.UU. y Alemania acuerdan avanzar en cooperación industrial de defensa, según el Pentágono",
+      "fuente": "TASS",
+      "fecha": "16-09-2026",
+      "enlace": "https://tass.com/world/2188133",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Los países de Oriente Medio, decepcionados con las garantías de seguridad de EE.UU., según un exdiplomático",
+      "fuente": "TASS",
+      "fecha": "16-09-2026",
+      "enlace": "https://tass.com/world/2188129",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Una acusación revela que el FBI frustró un complot ruso para matar a ciudadanos de EE.UU. y atacar a partidarios de Ucrania",
+      "fuente": "The Hindu",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.thehindu.com/news/international/indictment-says-fbi-shut-down-russian-plot-to-kill-us-individuals-target-ukraine-supporters/article71470877.ece",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "El vicepresidente chino interviene en el banquete de bienvenida del Foro de Xiangshan de Pekín",
+      "fuente": "CGTN",
+      "fecha": "16-09-2026",
+      "enlace": "https://news.cgtn.com/news/2026-09-16/Chinese-VP-addresses-welcome-banquet-of-Beijing-Xiangshan-Forum-1QtA8FdjKlq/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Reino Unido estudia activamente sumarse al banco de defensa de la OTAN, según un periódico",
+      "fuente": "TASS",
+      "fecha": "16-09-2026",
+      "enlace": "https://tass.com/world/2188125",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Arabia Saudí dice haber derribado un dron hutí cerca de La Meca y declara las ciudades santas «línea roja»",
+      "fuente": "TRT World",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.trtworld.com/article/a7045e646bb1",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "La Administración Trump aprueba el envío de bombas de 2.000 libras (unos 900 kilos) a Israel en un próximo acuerdo de armamento",
+      "fuente": "The Hindu",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.thehindu.com/news/international/trump-admin-approves-sending-2000-pound-bombs-to-israel-in-upcoming-weapons-deal/article71470869.ece",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Italia estudia poner fin a los controles fronterizos de Schengen con Eslovenia",
+      "fuente": "TRT World",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.trtworld.com/article/d15c5ba35d1d",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Un tribunal dictamina que Bélgica no tenía derecho a retener los activos de un banco ruso",
+      "fuente": "RT",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.rt.com/news/645783-belgian-russian-bank-assets-court/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Gobierno de Nicaragua conmemora 205 años de independencia con un llamado a defender la soberanía",
+      "fuente": "Sputnik Mundo",
+      "fecha": "16-09-2026",
+      "enlace": "https://noticiaslatam.lat/20260916/gobierno-de-nicaragua-conmemora-205-anos-de-independencia-con-un-llamado-a-defender-la-soberania-1175075588.html",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Cuba advierte que los planes de Washington para tomar el control «fracasarán»",
+      "fuente": "teleSUR",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.telesurtv.net/cuba-planes-washington-control-fracasaran/",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Palestina. Nuevas agresiones israelíes causan víctimas y heridos en Gaza",
+      "fuente": "Resumen Latinoamericano",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.resumenlatinoamericano.org/2026/09/15/palestina-nuevas-agresiones-israelies-causan-victimas-y-heridos-en-gaza/",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Bukele inauguró escuela y carretera",
+      "fuente": "Prensa Latina",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.prensa-latina.cu/2026/09/15/bukele-inauguro-escuela-y-carretera/",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "\"No puede ni debe pasar\": ¿En verdad los mexicanos avalan una intervención de EEUU?",
+      "fuente": "Sputnik Mundo",
+      "fecha": "16-09-2026",
+      "enlace": "https://noticiaslatam.lat/20260916/no-puede-ni-debe-pasar-en-verdad-los-mexicanos-avalan-una-intervencion-de-eeuu-1175071993.html",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Daniel Noboa decreta nuevo estado de excepción por 60 días en Ecuador",
+      "fuente": "teleSUR",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.telesurtv.net/noboa-nuevo-estado-excepcion-ecuador-60-dias/",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "La ONU advierte de que la escalada en Yemen amenaza la navegación en el mar Rojo y el comercio mundial",
+      "fuente": "Anadolu",
+      "fecha": "15-09-2026",
+      "enlace": "https://www.aa.com.tr/en/world/un-warns-yemen-escalation-threatens-red-sea-navigation-global-trade/4058354",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Alex Saab se declara culpable de lavado de dinero en Miami y acepta confiscar 195 millones de dólares",
+      "fuente": "teleSUR English",
+      "fecha": "15-09-2026",
+      "enlace": "https://www.telesurenglish.net/alex-saab-pleads-guilty-money-laundering/",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Rusia organiza una votación anticipada en el territorio ocupado de Ucrania antes de sus elecciones nacionales",
+      "fuente": "Africanews",
+      "fecha": "15-09-2026",
+      "enlace": "http://www.africanews.com/2026/09/15/russia-stages-early-voting-in-occupied-ukraine-ahead-of-national-election/",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "La UE estudia nuevas sanciones ante el aumento de la violencia de los colonos en Cisjordania, según su jefa de política exterior",
+      "fuente": "Anadolu",
+      "fecha": "15-09-2026",
+      "enlace": "https://www.aa.com.tr/en/world/eu-considers-new-sanctions-amid-rising-illegal-settler-violence-in-west-bank-foreign-policy-chief/4058267",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Kallas pide a Europa imponer un «coste mayor» a Rusia por los ataques híbridos",
+      "fuente": "Anadolu",
+      "fecha": "15-09-2026",
+      "enlace": "https://www.aa.com.tr/en/russia-ukraine-war/eus-kallas-urges-europe-to-impose-greater-cost-on-russia-over-hybrid-attacks/4058237",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "La ultraderechista AfD, la fuerza política más fuerte de Alemania según una nueva encuesta",
+      "fuente": "Daily Sabah",
+      "fecha": "15-09-2026",
+      "enlace": "https://www.dailysabah.com/world/europe/far-right-afd-germanys-strongest-political-force-new-poll",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Francia quiere recuperar a un espía a cambio de retirar sanciones a un magnate ruso, según medios",
+      "fuente": "RT",
+      "fecha": "15-09-2026",
+      "enlace": "https://www.rt.com/news/645759-france-usmanov-azerbaijan-sanctions/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "La ONU advierte que la fragmentación geopolítica podría reducir el PIB mundial en un 5,1%",
+      "fuente": "Anadolu Espanol",
+      "fecha": "15-09-2026",
+      "enlace": "https://www.aa.com.tr/es/mundo/la-onu-advierte-que-la-fragmentaci%C3%B3n-geopol%C3%ADtica-podr%C3%ADa-reducir-el-pib-mundial-en-un-5-1-/4057952",
+      "turno": "2026-09-16_M"
+    },
+    {
+      "titulo": "Pescadores bloquean un depósito de petróleo en protesta por el aumento de los precios del combustible en Francia",
+      "fuente": "Anadolu Espanol",
+      "fecha": "15-09-2026",
+      "enlace": "https://www.aa.com.tr/es/econom%C3%ADa/pescadores-bloquean-un-dep%C3%B3sito-de-petr%C3%B3leo-en-protesta-por-el-aumento-de-los-precios-del-combustible-en-francia/4057926",
+      "turno": "2026-09-16_M"
+    },
+    {
       "titulo": "Suecia: la izquierda gana las elecciones con un escaño de diferencia, extrema derecha pierde terreno",
       "fuente": "Al Jazeera",
       "fecha": "15-09-2026 02:06",
