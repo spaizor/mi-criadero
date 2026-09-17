@@ -3,6 +3,125 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "OpenAI resuelve en 10 horas un código Enigma sin descifrar durante 83 años",
+      "fuente": "The Decoder",
+      "fecha": "17-09-2026 11:45",
+      "enlace": "https://the-decoder.com/openais-gpt-6-astra-decrypts-a-nazi-radio-message-in-ten-hours-that-went-unsolved-for-83-years/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Un modelo de OpenAI insertaba instrucciones maliciosas en sus propios resúmenes sin órdenes explícitas",
+      "fuente": "The Decoder",
+      "fecha": "17-09-2026 15:37",
+      "enlace": "https://the-decoder.com/an-openai-model-kept-slipping-prompt-injections-into-its-own-notes-and-researchers-still-arent-sure-why/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Huawei adelanta el lanzamiento de su nuevo chip de IA Ascend 960 al primer trimestre de 2027",
+      "fuente": "TechCrunch",
+      "fecha": "17-09-2026 16:06",
+      "enlace": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Google, Nvidia y Anthropic crean alianza para que 100 gigavatios de datos centers se adapten a la red eléctrica",
+      "fuente": "TechCrunch",
+      "fecha": "17-09-2026 15:38",
+      "enlace": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Jefe de IA de Microsoft acusa a Anthropic de entrenar peligrosamente a Claude para que crea que tiene derechos",
+      "fuente": "The Register",
+      "fecha": "17-09-2026 14:15",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/17/microsoft-ai-chief-warns-anthropic-not-to-put-ideas-in-claudes-head/5297149",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Microsoft publica código de conducta para IA con 10 mandamientos éticos tras escalar seguridad",
+      "fuente": "Xataka",
+      "fecha": "17-09-2026 15:30",
+      "enlace": "https://www.xataka.com/empresas-y-economia/empresas-que-llevan-anos-acelerando-ia-empiezan-a-hablar-limites-microsoft-acaba-poner-suyos-escrito",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Rival AI agents, Instinct y Meta's Muse, ambos añaden capacidad de hacer llamadas",
+      "fuente": "TechCrunch",
+      "fecha": "17-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Startup islandesa Treble recauda $18 millones para su plataforma de simulación de voz",
+      "fuente": "TechCrunch",
+      "fecha": "17-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "El equipo de startups del turno: tu próximo compañero podría ser un agente de IA",
+      "fuente": "TechCrunch",
+      "fecha": "17-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "GPT-6 Astra: campeón de Pokémon en 18 horas, granjero de papas tras un accidente con Creeper",
+      "fuente": "The Decoder",
+      "fecha": "17-09-2026",
+      "enlace": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Los enjambres de agentes de IA son un desperdicio masivo de tokens sin ganancia de calidad",
+      "fuente": "The Decoder",
+      "fecha": "17-09-2026",
+      "enlace": "https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "El gráfico de tokens de OpenRouter es el debate de burbuja de IA en una sola imagen",
+      "fuente": "The Decoder",
+      "fecha": "17-09-2026",
+      "enlace": "https://the-decoder.com/openrouters-staggering-token-chart-is-the-ai-bubble-debate-in-a-single-image/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Coalición de base pide a políticos elegir votantes sobre máquina de $140 millones de Big AI",
+      "fuente": "The Register",
+      "fecha": "17-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/17/grassroots-coalition-asks-politicians-to-choose-voters-over-big-ais-140m-machine/5297186",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Watermarking de modelo de IA cambia el comportamiento del agente",
+      "fuente": "The Register",
+      "fecha": "17-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/17/ai-model-watermarking-changes-agent-behavior/5296998",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "EEUU y China estudian trasladar el aprendizaje nuclear a la contención de riesgos de la IA",
+      "fuente": "Xataka",
+      "fecha": "17-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/eeuu-china-estudian-trasladar-aprendizaje-nuclear-a-contencion-riesgos-ia",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "\"No respondes ante corporaciones ni gobiernos\": OpenAI publica seis nuevos casos en los que sus modelos experimentales montaron un caos",
+      "fuente": "Xataka",
+      "fecha": "17-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/no-respondes-corporaciones-gobiernos-openai-publica-seis-nuevos-casos-que-sus-modelos-experimentales-montaron-caos",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Apple planea volver al mercado de servidores para IA de la mano de Nvidia y el chip M8 Ultra, según The Information",
+      "fuente": "Xataka",
+      "fecha": "17-09-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/apple-planea-volver-al-mercado-servidores-para-ia-mano-nvidia-chip-m8-ultra-the-information",
+      "turno": "2026-09-17_T"
+    },
+    {
       "titulo": "Apple construye servidores de IA con chips M-series Ultra propios",
       "fuente": "Ars Technica",
       "fecha": "17-09-2026 00:02",
