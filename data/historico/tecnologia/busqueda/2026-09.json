@@ -3,6 +3,104 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Bug en iOS 27 congela iPhones al abrir rapidamente el Centro de Control",
+      "fuente": "Engadget",
+      "fecha": "17-09-2026 08:08",
+      "enlace": "https://www.engadget.com/2260916/ios-27-bug-temporarily-freeze-iphone/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Parche de Microsoft causa problemas de confianza en maquinas Windows unidas a dominio",
+      "fuente": "The Register",
+      "fecha": "17-09-2026 15:45",
+      "enlace": "https://www.theregister.com/os-platforms/2026/09/17/microsoft-patch-gives-domain-joined-windows-pcs-trust-issues/5297155",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Lucid Motors se asocia con Bolt para desplegar 25.000 vehiculos autonomos en Europa",
+      "fuente": "TechCrunch",
+      "fecha": "17-09-2026 15:26",
+      "enlace": "https://techcrunch.com/2026/09/17/lucid-motors-has-a-potential-robotaxi-partner-for-europe/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Fujitsu vendera chip personalizado Monaka con 144 nucleos y tecnologia 2nm a partir de noviembre",
+      "fuente": "The Register",
+      "fecha": "17-09-2026 08:20",
+      "enlace": "https://www.theregister.com/systems/2026/09/17/fujitsu-ready-to-sell-its-custom-monaka-arm-chip-maybe-to-rival-server-makers/5297025",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "La Union Europea propone prohibir el acceso a redes sociales para menores de 13 anos",
+      "fuente": "Engadget",
+      "fecha": "17-09-2026 15:16",
+      "enlace": "https://www.engadget.com/2261071/europes-eu-kids-act-would-ban-social-media-access-for-children-under-13/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Hackean Carrefour PASS y exponen DNIs, IBANs y datos personales de clientes",
+      "fuente": "ADSLZone",
+      "fecha": "17-09-2026 11:02",
+      "enlace": "https://www.adslzone.net/noticias/internet/hackeo-carrefour-pass-dni-iban-riesgo/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Xiaomi presenta serie Redmi Note 17 con baterias de hasta 9.210 mAh y carga ultra rapida",
+      "fuente": "Hipertextual",
+      "fecha": "17-09-2026 10:00",
+      "enlace": "https://hipertextual.com/mobile/redmi-note-17-series-xiaomi/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Swift 6.4 unifica construccion en Linux, macOS y Windows con motor de compilacion mejorado",
+      "fuente": "The Register",
+      "fecha": "17-09-2026",
+      "enlace": "https://www.theregister.com/devops/2026/09/17/swift-64-unifies-building-across-linux-macos-windows/5297006",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Bose presenta auriculares open ear Ultra de nueva generacion con mas graves y mayor autonomia",
+      "fuente": "The Verge",
+      "fecha": "17-09-2026",
+      "enlace": "https://www.theverge.com/tech/996341/bose-ultra-open-earbuds-second-gen-wireless-sport",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Roku ofrece acceso a aplicaciones experimentales con Roku Labs",
+      "fuente": "Engadget",
+      "fecha": "17-09-2026",
+      "enlace": "https://www.engadget.com/2260704/roku-is-giving-users-access-to-experimental-apps-with-roku-labs/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "Japon no ha hecho tanto ruido como la NASA con DART, pero su Hayabusa 2 lleva tiempo ensayando como defender la Tierra de un asteroide",
+      "fuente": "Xataka",
+      "fecha": "17-09-2026",
+      "enlace": "https://www.xataka.com/espacio/japon-no-ha-hecho-ruido-como-nasa-dart-su-hayabusa-2-lleva-tiempo-ensayando-como-defender-tierra-asteroide",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "'Call of Duty: Modern Warfare 4' lanza el brutal trailer de la campana, con Mads Mikkelsen como villano",
+      "fuente": "Hipertextual",
+      "fecha": "17-09-2026",
+      "enlace": "https://hipertextual.com/videojuegos/call-of-duty-modern-warfare-4-trailer-campana/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "El truco viral que mucha gente hace con su tarjeta de credito antes de salir de casa por si algun dia se la roban",
+      "fuente": "ADSLZone",
+      "fecha": "17-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/fintech/truco-borrar-cvv-tarjeta-credito-seguridad/",
+      "turno": "2026-09-17_T"
+    },
+    {
+      "titulo": "La NASA muestra la primera fotografia capturada por Roman, su nuevo telescopio con un campo de vision 100 veces mayor que el del Hubble",
+      "fuente": "ComputerHoy",
+      "fecha": "17-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciencia/nasa-muestra-primera-fotografia-capturada-por-roman-su-nuevo-telescopio-con-un-campo-vision-100-veces-mayor-que-hubble-tenemos-confirmacion-que-funciona-espacio_7037917_0.html",
+      "turno": "2026-09-17_T"
+    },
+    {
       "titulo": "Snap Specs: gafas de realidad aumentada independientes de $2.195 con display de 51 grados",
       "fuente": "TechCrunch",
       "fecha": "17-09-2026 02:58",
