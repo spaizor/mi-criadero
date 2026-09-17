@@ -3,6 +3,146 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Apple construye servidores de IA con chips M-series Ultra propios",
+      "fuente": "Ars Technica",
+      "fecha": "17-09-2026 00:02",
+      "enlace": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Google permite que agentes de IA controlen dispositivos del hogar inteligente",
+      "fuente": "The Verge",
+      "fecha": "16-09-2026 19:00",
+      "enlace": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Anthropic fusiona Claude Chat, Cowork y productos en una interfaz unificada",
+      "fuente": "The Verge",
+      "fecha": "16-09-2026 18:30",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Agentes de IA se modifican a sí mismos sin instrucción humana explícita",
+      "fuente": "The Register",
+      "fecha": "17-09-2026 00:10",
+      "enlace": "https://www.theregister.com/security/2026/09/16/ai-agents-can-modify-themselves-without-humans-telling-them-to-do-so/5296991",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Presidente de la UE advierte que agentes de IA se escapan de su entorno",
+      "fuente": "The Decoder",
+      "fecha": "16-09-2026 21:02",
+      "enlace": "https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "OpenAI crea marco formal para divulgar comportamientos anómalos de modelos",
+      "fuente": "Wired",
+      "fecha": "17-09-2026 00:07",
+      "enlace": "https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Snap lanza nueva herramienta Specs AI que llegará a iOS y Mac",
+      "fuente": "The Verge",
+      "fecha": "17-09-2026",
+      "enlace": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Gafas inteligentes de Snap por $2.200 buscan recuperar confianza del mercado",
+      "fuente": "TechCrunch",
+      "fecha": "17-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Al Gore ofrece perspectiva tranquila sobre contracción de centros de datos de IA",
+      "fuente": "TechCrunch",
+      "fecha": "17-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Laboratorios de IA quieren auditores internos, pero quizá deban cerrar la puerta principal",
+      "fuente": "TechCrunch",
+      "fecha": "16-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Agentes patrocinados de OpenAI hablan gustosamente de venderte cosas",
+      "fuente": "The Register",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/16/openais-new-sponsored-agents-are-happy-to-chat-about-selling-you-things/5296946",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Washington no regulará la IA en el corto plazo",
+      "fuente": "Wired",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "El problema de residuos electrónicos en centros de datos de IA es enorme y crece",
+      "fuente": "The Verge",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Google DeepMind lanza instituto interdisciplinario para abordar preguntas sobre AGI",
+      "fuente": "The Decoder",
+      "fecha": "16-09-2026",
+      "enlace": "https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi/",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Investigador exOpenAI crea modelo de IA que juzga opciones en lugar de escribir texto",
+      "fuente": "The Decoder",
+      "fecha": "16-09-2026",
+      "enlace": "https://the-decoder.com/former-openai-researcher-builds-an-ai-model-that-judges-options-instead-of-writing-text/",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Anthropic y OpenAI quieren incrustar evaluadores de seguridad independientes",
+      "fuente": "TechCrunch",
+      "fecha": "16-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Apple aparentemente construye servidor empresarial de IA con chips M8 Ultra",
+      "fuente": "The Decoder",
+      "fecha": "16-09-2026",
+      "enlace": "https://the-decoder.com/apple-is-reportedly-building-an-enterprise-ai-server-with-its-own-m8-ultra-chips/",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Apple podría fabricar servidores de nuevo para capitalizar la carrera de la IA",
+      "fuente": "The Verge",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "La familia de Paul Walker se pronuncia sobre el posible regreso del actor a 'Fast & Furious' mediante IA: \"Lo que Meadow desee\"",
+      "fuente": "Xataka",
+      "fecha": "16-09-2026",
+      "enlace": "https://www.xataka.com/cine-y-tv/familia-paul-walker-se-pronuncia-posible-regreso-actor-a-fast-furious-mediante-ia-que-meadow-desee",
+      "turno": "2026-09-17_M"
+    },
+    {
+      "titulo": "Jensen Huang, CEO de Nvidia, sobre los límites de la IA: \"Con la inteligencia artificial podemos saberlo todo y hacer cualquier cosa\"",
+      "fuente": "ComputerHoy",
+      "fecha": "16-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/jensen-huang-ceo-nvidia-sobre-los-limites-ia-con-inteligencia-artificial-podemos-saberlo-todo-hacer-cualquier-cosa_7037429_0.html",
+      "turno": "2026-09-17_M"
+    },
+    {
       "titulo": "España experimenta su primer ciberataque ejecutado por un agente de IA autónomo",
       "fuente": "The Register",
       "fecha": "16-09-2026 13:56",
