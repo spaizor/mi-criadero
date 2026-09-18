@@ -1447,6 +1447,13 @@ duplicarlo.
 nadie hoy, porque una rutina de Claude no admite secretos. Lo que la lanza de
 verdad es el push.
 
+**Y su import va dentro de un `try`, al reves que el de `precios`.** No es
+desconfianza del fichero: es que `vigilar` lo lanza una rutina de Claude y es
+**el unico vigilante que vive fuera de GitHub**. Si un fallo al cargar
+`steam.py` lo tumbara entero, se quedarian sin vigilar tambien los turnos, las
+secciones y los precios, o sea justo la averia para la que se monto. Cuando no
+carga, lo dice y sigue con lo demas. Probado rompiendo el fichero a proposito.
+
 ### Lo que falta, y esta decidido que falte
 
 - **Super Yooka-Laylee Kart es el unico sin objetivo**, y no es un olvido:

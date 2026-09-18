@@ -1740,7 +1740,21 @@ def cmd_vigilar(args):
     """
     # Aqui dentro, que los dos importan de este fichero.
     from precios import revisar_frescura, lanzar_pasada, SALIDA
-    from steam import revisar_frescura as revisar_steam, SALIDA as SALIDA_STEAM
+
+    # Steam se importa aparte y sin dejar caer el resto. Este comando corre en
+    # una rutina de Claude y es el unico vigilante que vive fuera de GitHub: si
+    # un fallo suyo lo tumbara entero, dejaria sin vigilancia tambien a los
+    # turnos, a las secciones y a los precios, que es justo la averia que se
+    # monto para cazar. Un vigilante que se cae por una de las cosas que mira
+    # es peor que uno que avisa de que no puede mirarla.
+    try:
+        from steam import (revisar_frescura as revisar_steam,
+                           SALIDA as SALIDA_STEAM)
+    except Exception as fallo:                      # noqa: BLE001
+        revisar_steam = SALIDA_STEAM = None
+        print(f"AVISO: no se ha podido cargar scripts/steam.py ({fallo}), asi "
+              "que esta vez no se comprueba la seccion de Steam. Lo demas se "
+              "vigila igual.")
 
     # Dos listas, y la diferencia entre ellas es de quien es el problema:
     # 'avisos' se pinta en la portada porque hace falta una persona, y
@@ -1812,7 +1826,8 @@ def cmd_vigilar(args):
         return lanzamiento
 
     lanzamiento = pendiente("precios", revisar_frescura, SALIDA, lanzar_pasada)
-    pendiente("steam", revisar_steam, SALIDA_STEAM)
+    if revisar_steam is not None:
+        pendiente("steam", revisar_steam, SALIDA_STEAM)
 
     for aviso in avisos:
         print(f"{aviso['que'].upper()}: {aviso['texto']}")
