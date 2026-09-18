@@ -35,13 +35,15 @@
       "id": "aeterna-noctis",
       "nombre": "Aeterna Noctis",
       "appid": 1517970,
-      "objetivo": 3.0
+      "objetivo": 3.0,
+      "enlace": "https://store.steampowered.com/app/1517970/"
     },
     {
       "id": "baten-kaitos-i-y-ii-hd-remaster",
       "nombre": "Baten Kaitos I & II HD Remaster",
       "appid": 2146170,
-      "objetivo": 8.0
+      "objetivo": 8.0,
+      "enlace": "https://store.steampowered.com/app/2146170/"
     },
     {
       "id": "blasphemous",
@@ -53,30 +55,42 @@
           "packageid": 1535444
         }
       ],
-      "objetivo": 3.0
+      "objetivo": 3.0,
+      "enlace": "https://store.steampowered.com/app/774361/"
     },
     {
       "id": "bloodstained-curse-of-the-moon",
       "nombre": "Bloodstained: Curse of the Moon",
       "appid": 838310,
-      "objetivo": 3.0
+      "objetivo": 3.0,
+      "enlace": "https://store.steampowered.com/app/838310/"
     },
     {
       "id": "cult-of-the-lamb",
       "nombre": "Cult of the Lamb",
       "appid": 1313140,
-      "objetivo": 5.0
+      "objetivo": 5.0,
+      "enlace": "https://store.steampowered.com/app/1313140/"
     },
     {
       "id": "cyberpunk-2077",
       "nombre": "Cyberpunk 2077",
-      "appid": 1091500
+      "appid": 1091500,
+      "ediciones": [
+        {
+          "nombre": "Ultimate Edition",
+          "bundleid": "32470",
+          "objetivo": 18
+        }
+      ],
+      "enlace": "https://store.steampowered.com/app/1091500/"
     },
     {
       "id": "devil-may-cry-hd-collection",
       "nombre": "Devil May Cry HD Collection",
       "appid": 631510,
-      "objetivo": 3.0
+      "objetivo": 3.0,
+      "enlace": "https://store.steampowered.com/app/631510/"
     },
     {
       "id": "digimon-story-time-stranger",
@@ -92,7 +106,8 @@
           "nombre": "Edición Definitiva",
           "packageid": 1325199
         }
-      ]
+      ],
+      "enlace": "https://store.steampowered.com/app/1984270/"
     },
     {
       "id": "dragon-ball-sparking-zero",
@@ -105,15 +120,18 @@
         },
         {
           "nombre": "Edición Legendaria",
-          "packageid": 1698437
+          "packageid": 1698437,
+          "objetivo": 22
         }
-      ]
+      ],
+      "enlace": "https://store.steampowered.com/app/1790600/"
     },
     {
       "id": "dragon-quest-xi-s-ecos-de-un-pasado-perdido-edic",
       "nombre": "DRAGON QUEST XI S: Ecos de un pasado perdido – Edición definitiva",
       "appid": 1295510,
-      "objetivo": 5.0
+      "objetivo": 5.0,
+      "enlace": "https://store.steampowered.com/app/1295510/"
     },
     {
       "id": "elden-ring",
@@ -129,19 +147,22 @@
           "nombre": "Shadow of the Erdtree Deluxe Edition",
           "packageid": 1010506
         }
-      ]
+      ],
+      "enlace": "https://store.steampowered.com/app/1245620/"
     },
     {
       "id": "escape-from-ever-after",
       "nombre": "Escape from Ever After",
       "appid": 1996390,
-      "objetivo": 5.0
+      "objetivo": 5.0,
+      "enlace": "https://store.steampowered.com/app/1996390/"
     },
     {
       "id": "final-fantasy-xii-the-zodiac-age",
       "nombre": "FINAL FANTASY XII THE ZODIAC AGE",
       "appid": 595520,
-      "objetivo": 4.0
+      "objetivo": 4.0,
+      "enlace": "https://store.steampowered.com/app/595520/"
     },
     {
       "id": "final-fantasy-xvi",
@@ -153,102 +174,150 @@
           "packageid": 1111230,
           "objetivo": 18.0
         }
-      ]
+      ],
+      "enlace": "https://store.steampowered.com/app/2515020/"
     },
     {
       "id": "final-fantasy-xiii",
       "nombre": "FINAL FANTASY® XIII",
       "appid": 292120,
-      "objetivo": 3.0
+      "objetivo": 3.0,
+      "enlace": "https://store.steampowered.com/app/292120/"
     },
     {
       "id": "god-of-war",
       "nombre": "God of War",
       "appid": 1593500,
-      "objetivo": 10.0
+      "objetivo": 10.0,
+      "enlace": "https://store.steampowered.com/app/1593500/"
+    },
+    {
+      "id": "guardianes-de-la-noche-kimetsu-no-yaiba-las-cron",
+      "nombre": "Guardianes de la Noche -Kimetsu no Yaiba- Las Crónicas de Hinokami 2",
+      "appid": 2928600,
+      "enlace": "https://store.steampowered.com/app/2928600/",
+      "objetivo": 12,
+      "ediciones": [
+        {
+          "nombre": "Deluxe Edition",
+          "packageid": 1220488
+        }
+      ]
+    },
+    {
+      "id": "guardianes-de-la-noche-kimetsu-no-yaiba-las-cron",
+      "nombre": "Guardianes de la Noche -Kimetsu no Yaiba- Las Crónicas de Hinokami",
+      "appid": 1490890,
+      "enlace": "https://store.steampowered.com/app/1490890/",
+      "ediciones": [
+        {
+          "nombre": "Digital Deluxe Edition",
+          "packageid": 635102
+        },
+        {
+          "nombre": "Ultimate Edition",
+          "packageid": 908614,
+          "objetivo": 7
+        }
+      ]
     },
     {
       "id": "horizon-forbidden-west-complete-edition",
       "nombre": "Horizon Forbidden West™ Complete Edition",
       "appid": 2420110,
-      "objetivo": 13.0
+      "objetivo": 13.0,
+      "enlace": "https://store.steampowered.com/app/2420110/"
     },
     {
-      "id": "horizon-zero-dawn-complete-edition",
-      "nombre": "Horizon Zero Dawn™ Complete Edition",
-      "appid": 1151640
+      "id": "horizon-zero-dawn-remasterizado",
+      "nombre": "Horizon Zero Dawn™ remasterizado",
+      "appid": 2561580,
+      "enlace": "https://store.steampowered.com/app/2561580/",
+      "objetivo": 11
     },
     {
       "id": "kena-bridge-of-spirits",
       "nombre": "Kena: Bridge of Spirits",
       "appid": 1954200,
-      "objetivo": 8.0
+      "objetivo": 8.0,
+      "enlace": "https://store.steampowered.com/app/1954200/"
     },
     {
       "id": "kill-the-plumber",
       "nombre": "Kill The Plumber",
       "appid": 420070,
-      "objetivo": 2.0
+      "objetivo": 2.0,
+      "enlace": "https://store.steampowered.com/app/420070/"
     },
     {
       "id": "little-king-s-story",
       "nombre": "Little King's Story",
       "appid": 390310,
-      "objetivo": 3.0
+      "objetivo": 3.0,
+      "enlace": "https://store.steampowered.com/app/390310/"
     },
     {
       "id": "marvel-s-spider-man-remastered",
       "nombre": "Marvel’s Spider-Man Remastered",
       "appid": 1817070,
-      "objetivo": 9.0
+      "objetivo": 9.0,
+      "enlace": "https://store.steampowered.com/app/1817070/"
     },
     {
       "id": "marvel-s-spider-man-miles-morales",
       "nombre": "Marvel’s Spider-Man: Miles Morales",
       "appid": 1817190,
-      "objetivo": 7.0
+      "objetivo": 7.0,
+      "enlace": "https://store.steampowered.com/app/1817190/"
     },
     {
       "id": "mewgenics",
       "nombre": "Mewgenics",
       "appid": 686060,
-      "objetivo": 12.0
+      "objetivo": 12.0,
+      "enlace": "https://store.steampowered.com/app/686060/"
     },
     {
       "id": "monster-boy-y-el-reino-maldito",
       "nombre": "Monster Boy y el Reino Maldito",
       "appid": 449610,
-      "objetivo": 3.0
+      "objetivo": 3.0,
+      "enlace": "https://store.steampowered.com/app/449610/"
     },
     {
       "id": "needy-girl-overdose",
       "nombre": "NEEDY GIRL OVERDOSE",
       "appid": 1451940,
-      "objetivo": 3.0
+      "objetivo": 3.0,
+      "enlace": "https://store.steampowered.com/app/1451940/"
     },
     {
       "id": "nier-replicant-ver-1-22474487139",
       "nombre": "NieR Replicant™ ver.1.22474487139...",
       "appid": 1113560,
-      "objetivo": 7.0
+      "objetivo": 7.0,
+      "enlace": "https://store.steampowered.com/app/1113560/"
     },
     {
       "id": "nikoderiko-the-magical-world-director-s-cut",
       "nombre": "Nikoderiko: The Magical World — Director’s Cut",
       "appid": 2374190,
-      "objetivo": 9.0
+      "objetivo": 9.0,
+      "enlace": "https://store.steampowered.com/app/2374190/"
     },
     {
       "id": "no-rest-for-the-wicked",
       "nombre": "No Rest for the Wicked",
       "appid": 1371980,
-      "objetivo": 5.0
+      "objetivo": 5.0,
+      "enlace": "https://store.steampowered.com/app/1371980/"
     },
     {
       "id": "paranormasight-the-seven-mysteries-of-honjo",
       "nombre": "PARANORMASIGHT: The Seven Mysteries of Honjo",
       "appid": 2106840,
-      "objetivo": 4.0
+      "objetivo": 4.0,
+      "enlace": "https://store.steampowered.com/app/2106840/"
     },
     {
       "id": "persona-3-reload",
@@ -264,7 +333,8 @@
           "packageid": 914637
         }
       ],
-      "objetivo": 10.0
+      "objetivo": 10.0,
+      "enlace": "https://store.steampowered.com/app/2161700/"
     },
     {
       "id": "persona-5-tactica",
@@ -276,37 +346,43 @@
           "packageid": 964322
         }
       ],
-      "objetivo": 5.0
+      "objetivo": 5.0,
+      "enlace": "https://store.steampowered.com/app/2254740/"
     },
     {
       "id": "pyre",
       "nombre": "Pyre",
       "appid": 462770,
-      "objetivo": 3.0
+      "objetivo": 3.0,
+      "enlace": "https://store.steampowered.com/app/462770/"
     },
     {
       "id": "ratchet-y-clank-una-dimension-aparte",
       "nombre": "Ratchet & Clank: Una dimensión aparte",
       "appid": 1895880,
-      "objetivo": 13.0
+      "objetivo": 13.0,
+      "enlace": "https://store.steampowered.com/app/1895880/"
     },
     {
       "id": "returnal",
       "nombre": "Returnal™",
       "appid": 1649240,
-      "objetivo": 13.0
+      "objetivo": 13.0,
+      "enlace": "https://store.steampowered.com/app/1649240/"
     },
     {
       "id": "rogue-legacy-2",
       "nombre": "Rogue Legacy 2",
       "appid": 1253920,
-      "objetivo": 7.0
+      "objetivo": 7.0,
+      "enlace": "https://store.steampowered.com/app/1253920/"
     },
     {
       "id": "sackboy-una-aventura-a-lo-grande",
       "nombre": "Sackboy™ Una aventura a lo grande",
       "appid": 1599660,
-      "objetivo": 12.0
+      "objetivo": 12.0,
+      "enlace": "https://store.steampowered.com/app/1599660/"
     },
     {
       "id": "sonic-racing-crossworlds",
@@ -318,13 +394,15 @@
           "packageid": 1270169
         }
       ],
-      "objetivo": 12.0
+      "objetivo": 12.0,
+      "enlace": "https://store.steampowered.com/app/2486820/"
     },
     {
       "id": "steamworld-heist-ii",
       "nombre": "SteamWorld Heist II",
       "appid": 2396240,
-      "objetivo": 5.0
+      "objetivo": 5.0,
+      "enlace": "https://store.steampowered.com/app/2396240/"
     },
     {
       "id": "stellar-blade",
@@ -336,12 +414,14 @@
           "packageid": 1313353
         }
       ],
-      "objetivo": 22.0
+      "objetivo": 22.0,
+      "enlace": "https://store.steampowered.com/app/3489700/"
     },
     {
       "id": "super-yooka-laylee-kart",
       "nombre": "Super Yooka-Laylee Kart",
-      "appid": 3348210
+      "appid": 3348210,
+      "enlace": "https://store.steampowered.com/app/3348210/"
     },
     {
       "id": "tales-of-arise",
@@ -357,7 +437,8 @@
           "nombre": "Beyond the Dawn Premium Edition",
           "packageid": 1506655
         }
-      ]
+      ],
+      "enlace": "https://store.steampowered.com/app/740130/"
     },
     {
       "id": "tales-of-graces-f-remastered",
@@ -369,7 +450,8 @@
           "packageid": 1165022
         }
       ],
-      "objetivo": 5.0
+      "objetivo": 5.0,
+      "enlace": "https://store.steampowered.com/app/2530980/"
     },
     {
       "id": "the-hundred-line-last-defense-academy",
@@ -380,41 +462,57 @@
           "nombre": "Digital Deluxe Edition",
           "packageid": 1235989
         }
-      ]
+      ],
+      "objetivo": 10,
+      "enlace": "https://store.steampowered.com/app/3014080/"
     },
     {
       "id": "the-last-of-us-parte-i",
       "nombre": "The Last of Us™ Parte I",
       "appid": 1888930,
-      "objetivo": 13.0
+      "objetivo": 13.0,
+      "enlace": "https://store.steampowered.com/app/1888930/"
     },
     {
       "id": "the-outbound-ghost",
       "nombre": "The Outbound Ghost",
       "appid": 1276810,
-      "objetivo": 5.0
+      "objetivo": 5.0,
+      "enlace": "https://store.steampowered.com/app/1276810/"
     },
     {
       "id": "there-is-no-game-wrong-dimension",
       "nombre": "There Is No Game: Wrong Dimension",
-      "appid": 1240210
+      "appid": 1240210,
+      "objetivo": 2,
+      "enlace": "https://store.steampowered.com/app/1240210/"
     },
     {
       "id": "trine-5-a-clockwork-conspiracy",
       "nombre": "Trine 5: A Clockwork Conspiracy",
       "appid": 1436700,
-      "objetivo": 5.0
+      "objetivo": 5.0,
+      "enlace": "https://store.steampowered.com/app/1436700/"
     },
     {
       "id": "uncharted-coleccion-legado-de-los-ladrones",
       "nombre": "UNCHARTED™: Colección Legado de los Ladrones",
       "appid": 1659420,
-      "objetivo": 10.0
+      "objetivo": 10.0,
+      "enlace": "https://store.steampowered.com/app/1659420/"
     },
     {
       "id": "world-of-final-fantasy",
       "nombre": "WORLD OF FINAL FANTASY®",
-      "appid": 552700
+      "appid": 552700,
+      "ediciones": [
+        {
+          "nombre": "COMPLETE EDITION",
+          "bundleid": "9112",
+          "objetivo": 3
+        }
+      ],
+      "enlace": "https://store.steampowered.com/app/552700/"
     }
   ]
 }

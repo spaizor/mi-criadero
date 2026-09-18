@@ -73,6 +73,16 @@ OK, VIEJO, NUEVO, PROXIMAMENTE, RETIRADO = (
 API = "https://store.steampowered.com/api"
 FICHA = "https://store.steampowered.com/app/{}/"
 FICHA_PACK = "https://store.steampowered.com/sub/{}/"
+FICHA_BUNDLE = "https://store.steampowered.com/bundle/{}/"
+
+# Los bundles son un TERCER tipo de producto y no salen por ningun sitio de los
+# anteriores: ni en la busqueda de la tienda ni en los 'package_groups' de la
+# ficha. Se descubren leyendo el HTML del juego y se resuelven aqui.
+#
+# Hay ediciones que solo existen asi, y son de verdad: "Cyberpunk 2077:
+# Ultimate Edition" y "WORLD OF FINAL FANTASY COMPLETE EDITION" se dieron por
+# inexistentes el 18-09-2026 justo por mirar solo la API, y existen las dos.
+API_BUNDLE = "https://store.steampowered.com/actions/ajaxresolvebundles"
 
 # El pais fija la moneda, y esto NO es cosmetico. Sin 'cc', Steam responde en
 # la moneda de la IP que pregunta, y el runner de GitHub puede estar en
@@ -156,15 +166,26 @@ def euros(centimos):
 # --------------------------------------------------------------------------
 
 def plano(texto):
-    """Minusculas y sin tildes SIN cambiar la longitud del texto.
+    """Minusculas, sin tildes y con los espacios igualados, SIN cambiar la
+    longitud del texto.
 
     Lo de la longitud importa porque con esto se corta por indice, y la
     normalizacion de compatibilidad descompone el simbolo de marca registrada
     en dos letras: 'Edicion Completa de Stellar Blade(tm)' salia recortada como
     'Edicion Complet'. Para comparar valdria cualquier version; para cortar, no.
+    Por eso los espacios raros se cambian uno a uno y no con una expresion.
+
+    Y hay que igualarlos porque Steam mezcla los dos: el nombre de Guardianes
+    de la Noche lleva un espacio duro donde su propia opcion de compra lleva
+    uno normal, asi que la edicion salia sin acortar, con el nombre del juego
+    repetido entero delante. Es la misma clase de trampa que el simbolo de
+    marca: un caracter que no se ve y que no casa.
     """
     fuera = []
     for letra in texto:
+        if unicodedata.category(letra) == "Zs":
+            fuera.append(" ")
+            continue
         suelta = "".join(c for c in unicodedata.normalize("NFD", letra)
                          if not unicodedata.combining(c))
         fuera.append(suelta if len(suelta) == 1 else letra)
@@ -275,6 +296,99 @@ def ficha_completa(appid):
     entrada = (pedir(f"{API}/appdetails?appids={appid}&cc={PAIS}&l={IDIOMA}")
                or {}).get(str(appid)) or {}
     return (entrada.get("data") or {}) if entrada.get("success") else None
+
+
+def centimos_de(texto):
+    """'82,78€' -> 8278. Devuelve None si no hay un numero reconocible."""
+    hallado = re.search(r"(\d[\d.\s]*),(\d{2})", texto or "")
+    if not hallado:
+        return None
+    return int(re.sub(r"\D", "", hallado.group(1)) + hallado.group(2))
+
+
+def precio_de_bundle(bundleid):
+    """El precio de un bundle.
+
+    Aqui NO se puede usar 'final_price', y esto hay que tenerlo presente porque
+    tiene la forma del campo bueno: viene **a cero** en los dos bundles
+    comprobados, con el precio de verdad solo en 'formatted_final_price'. Se lee
+    de ahi y se comprueba contra la cuenta que sale de los otros campos, que en
+    los dos cuadra al centimo:
+
+        initial_price 8998 x (1 - bundle_base_discount 8%) = 8278 = 82,78 EUR
+
+    'initial_price' es la suma de las partes sueltas, que es justamente lo que
+    Steam tacha al lado del precio del pack, asi que sirve de 'base'.
+    """
+    datos = pedir(f"{API_BUNDLE}?bundleids={bundleid}&cc={PAIS}&l={IDIOMA}")
+    if not datos:
+        return None
+    bulto = datos[0]
+
+    base = bulto.get("initial_price") or 0
+    fijo = bulto.get("bundle_base_discount") or 0
+    promo = bulto.get("discount_percent") or 0
+    calculado = round(base * (1 - fijo / 100) * (1 - promo / 100))
+    leido = centimos_de(bulto.get("formatted_final_price"))
+
+    final = leido if leido is not None else calculado
+    if leido is not None and calculado and abs(leido - calculado) > 1:
+        print(f"AVISO: el bundle {bundleid} dice {leido/100:.2f} EUR pero de sus "
+              f"descuentos salen {calculado/100:.2f}. Se publica el que ensena "
+              "la tienda; si se repite, mirar si ha cambiado de formato.")
+    if not final:
+        return None
+
+    return {
+        "precio": euros(final),
+        "base": euros(base) if base and base > final else euros(final),
+        # El descuento efectivo, que es lo que el comprador se ahorra frente a
+        # comprar las partes por separado. Sale de los dos descuentos juntos y
+        # no solo del promocional, que casi siempre es 0.
+        "descuento": round((1 - final / base) * 100) if base and base > final else 0,
+        "moneda": MONEDA,
+        "nombre": bulto.get("name"),
+    }
+
+
+def bundles_de(appid):
+    """Los bundles que la ficha de un juego enlaza, con su nombre y su precio.
+
+    Hay que leer el HTML porque no estan en la API: 'appdetails' no los
+    menciona y 'storesearch' solo devuelve apps. Es el mismo caso que la ruta
+    del feed de 3DJuegos, que este proyecto ya aprendio a leer en vez de
+    adivinar.
+
+    Solo lo usa 'probar', para homologar uno antes de meterlo al catalogo.
+    'descubrir' NO los mete solo, y esta medido por que: de los 44 bundles que
+    enlazan los 50 juegos del catalogo, la mayoria no son ediciones del juego
+    sino packs de dos juegos distintos ("Mina the Hollower + Mewgenics"),
+    colecciones de genero ("Metroidvania Souls-Like Bundle") o de saga entera
+    ("Trine: Ultimate Collection", que son cinco juegos). Un filtro por terminos
+    ahi si coleria de todo, que es lo que este proyecto evita siempre.
+    """
+    peticion = urllib.request.Request(
+        FICHA.format(appid) + f"?cc={PAIS}&l={IDIOMA}", headers={
+            "User-Agent": AGENTE,
+            "Accept-Language": "es-ES,es;q=0.9",
+            # Sin esto, los juegos con control de edad devuelven la pagina de
+            # verificacion en vez de la ficha, y ahi no hay ningun bundle.
+            "Cookie": ("birthtime=315532801; lastagecheckage=1-January-1980; "
+                       "wants_mature_content=1")})
+    crudo = descargar(peticion)
+    if crudo[:2] == b"\x1f\x8b":
+        crudo = gzip.decompress(crudo)
+    ids = sorted(set(re.findall(r"/bundle/(\d+)/",
+                                crudo.decode("utf-8", "replace"))))
+    fuera = []
+    for bundleid in ids:
+        try:
+            precio = precio_de_bundle(bundleid)
+        except (urllib.error.HTTPError, urllib.error.URLError, OSError):
+            precio = None
+        fuera.append((bundleid, precio))
+        time.sleep(PAUSA)
+    return fuera
 
 
 def por_que_sin_precio(ficha):
@@ -537,19 +651,27 @@ def cmd_consultar(args):
         ediciones.append(registro)
 
         for edicion in entrada.get("ediciones", []):
+            # Una edicion es un paquete de compra de la ficha o un bundle
+            # aparte. Se distinguen por el campo que traiga, no por el nombre.
             packageid = edicion.get("packageid")
+            bundleid = edicion.get("bundleid")
             try:
-                precio = precio_de_edicion(packageid)
+                precio = (precio_de_bundle(bundleid) if bundleid
+                          else precio_de_edicion(packageid))
             except ValueError as error:
                 print(f"ERROR: {error}")
                 return 1
             except (urllib.error.HTTPError, urllib.error.URLError, OSError):
                 precio = None
-            ediciones.append(registrar(
+            registro = registrar(
                 edicion.get("nombre", "Edicion especial"), precio,
                 antes.get(edicion.get("nombre")), ahora,
-                FICHA_PACK.format(packageid), packageid,
-                objetivo=edicion.get("objetivo")))
+                FICHA_BUNDLE.format(bundleid) if bundleid
+                else FICHA_PACK.format(packageid),
+                packageid, objetivo=edicion.get("objetivo"))
+            if bundleid:
+                registro["bundleid"] = bundleid
+            ediciones.append(registro)
             if precio is not None:
                 con_precio += 1
             time.sleep(PAUSA)
@@ -696,9 +818,26 @@ def cmd_probar(args):
         print(f"    {edicion['packageid']}  {importe:>14}  {edicion['nombre']}")
         time.sleep(PAUSA)
 
+    # Los bundles se ensenan pero NO se meten en el bloque de abajo: la mayoria
+    # son packs de varios juegos y no ediciones de este. Se copian a mano los
+    # que lo sean, con "bundleid" en vez de "packageid".
+    try:
+        sueltos = bundles_de(appid)
+    except (urllib.error.HTTPError, urllib.error.URLError, OSError) as error:
+        sueltos = []
+        print(f"\nbundles    no se han podido leer ({error})")
+    if sueltos:
+        print(f"\nbundles    {len(sueltos)}  (a mano: la mayoria son packs de "
+              "varios juegos, no ediciones de este)")
+        for bundleid, precio in sueltos:
+            importe = f"{precio['precio']:.2f} {precio['moneda']}" if precio else "?"
+            nombre = precio.get("nombre") if precio else "?"
+            print(f"    {bundleid}  {importe:>14}  {nombre}")
+
     print("\nPara el catalogo:")
     bloque = {"id": identificador(ficha.get("name", "")),
-              "nombre": ficha.get("name"), "appid": appid}
+              "nombre": ficha.get("name"), "appid": appid,
+              "enlace": FICHA.format(appid)}
     if ediciones:
         bloque["ediciones"] = ediciones
     print(json.dumps(bloque, ensure_ascii=False, indent=2))

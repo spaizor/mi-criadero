@@ -177,7 +177,10 @@ function pintarJuego(juego, series) {
     <details class="producto">
       <summary class="producto-cab">
         <span class="producto-titulo">
-          <span class="nombre">${escaparOferta(juego.nombre)}</span>
+          <span class="nombre">${juego.enlace
+            ? `<a href="${escaparOferta(juego.enlace)}" target="_blank" rel="noopener">${
+                escaparOferta(juego.nombre)}</a>`
+            : escaparOferta(juego.nombre)}</span>
           ${cuantas}
           ${meta}
         </span>
@@ -249,6 +252,14 @@ async function cargarSteam(ruta) {
     contenedor.innerHTML = ordenados.length
       ? ordenados.map((j) => pintarJuego(j, series)).join('')
       : '<div class="aviso">Todavia no hay juegos en seguimiento.</div>';
+
+    // El titulo enlaza a Steam y vive dentro del <summary>, asi que sin esto un
+    // clic en el nombre abriria la ficha Y plegaria el bloque a la vez. Se
+    // delega en el contenedor y no se pone en cada enlace: hay 52 juegos y el
+    // HTML se reescribe entero en cada carga.
+    contenedor.addEventListener('click', (e) => {
+      if (e.target.closest('.producto-cab a')) e.stopPropagation();
+    });
   } catch (e) {
     fecha.textContent = '';
     contenedor.innerHTML =

@@ -1261,6 +1261,44 @@ falso negativo de la medicion. Las demas "Edicion X" entraban por otra palabra
 ("deluxe", "completa"), asi que el fallo estaba tapado por suerte de la
 muestra.
 
+#### Los bundles son un tercer tipo de producto, y hay ediciones que solo existen asi
+
+**Esto se dio por inexistente el 18-09-2026 y era falso**, asi que conviene
+tenerlo claro: mirar `package_groups` y `storesearch` **no agota el catalogo de
+Steam**. Hay un tercer sitio, los *bundles*, que no sale en ninguno de los dos.
+
+Se vio porque el usuario contesto que "Cyberpunk 2077: Ultimate Edition" y
+"WORLD OF FINAL FANTASY COMPLETE EDITION" si existian, y tenia razon: son los
+bundles **32470** y **9112**. La ficha de Cyberpunk solo vende el juego a
+59,99, y la busqueda de la tienda no devuelve ninguno de los dos. El unico
+sitio donde estan es el **HTML de la ficha**, en un enlace `/bundle/<id>/`.
+
+Es otra vez la leccion del feed de 3DJuegos: **se lee, no se adivina**, y aqui
+ademas ensena algo nuevo, que es que una API oficial y completa puede seguir
+dejandose cosas fuera.
+
+Se resuelven con `actions/ajaxresolvebundles`, y ahi hay una trampa:
+
+- **`final_price` viene a CERO** en los dos bundles comprobados, con el precio
+  de verdad solo en `formatted_final_price` ("82,78€"). Tiene la forma del
+  campo bueno y no lo es. Se lee del formateado y se comprueba contra la
+  cuenta, que cuadra al centimo: `initial_price` 8998 x (1 - 8%) = 8278.
+- **`initial_price` es la suma de las partes sueltas**, que es justo lo que
+  Steam tacha al lado del precio del pack, asi que sirve de `base`.
+- El descuento que se publica es el **efectivo**, que sale de juntar
+  `bundle_base_discount` (el fijo por comprar el pack) y `discount_percent`
+  (el promocional, casi siempre 0).
+
+**`descubrir` NO los mete solo, y esta medido.** De los 44 bundles que enlazan
+los 50 juegos del catalogo, la mayoria **no son ediciones del juego**: son
+packs de dos juegos distintos ("Mina the Hollower + Mewgenics"), colecciones de
+genero ("Metroidvania Souls-Like Bundle") o sagas enteras ("Trine: Ultimate
+Collection", que son cinco juegos; "Blasphemous Franchise Collection"). La
+lista de terminos de arriba coleria varias de esas, porque dicen "Ultimate" y
+"Collection" siendo otra cosa. Asi que **los bundles se anaden a mano** y
+`probar <appid>` los ensena con su precio para poder copiarlos, con
+`"bundleid"` en el sitio del `"packageid"`.
+
 #### El corte por indice pide otra funcion que la comparacion
 
 `acortar()` quita el nombre del juego del de la edicion, y ahi **la
@@ -1273,6 +1311,13 @@ comparar sirve cualquier version; para cortar, no.
 En ingles el juego va delante ("ELDEN RING Shadow of the Erdtree Edition") y
 en espanol detras ("Edicion Completa de Stellar Blade"), asi que hay que mirar
 por los dos lados o la mitad de los nombres salen duplicados.
+
+**Y hay que igualar los espacios**, que fue el segundo caracter invisible que
+rompio lo mismo: el nombre de "Guardianes de la Noche" lleva un **espacio duro**
+(U+00A0) donde su propia opcion de compra lleva uno normal, asi que la edicion
+salia sin acortar, con el nombre del juego repetido entero delante. `plano()`
+cambia cualquier separador de espacio por el normal, uno a uno y no con una
+expresion, para no romper la promesa de conservar la longitud.
 
 ### "Sin precio" son dos cosas distintas
 
@@ -1320,10 +1365,16 @@ Tres decisiones mas de la vista:
 
 ### Los precios objetivo
 
-Los paso el usuario el **18-09-2026**, el mismo dia. Son **43**: 39 en el juego
-(se aplican a su edicion estandar) y **4 en una edicion concreta** (ELDEN RING
-Shadow of the Erdtree, la Deluxe de Digimon, la Complete de FINAL FANTASY XVI y
-la Beyond the Dawn de Tales of ARISE).
+Los paso el usuario el **18-09-2026**, el mismo dia. Son **51** sobre 52
+juegos: 43 en el juego (se aplican a su edicion estandar) y **8 en una edicion
+concreta** (Shadow of the Erdtree, la Deluxe de Digimon, la Complete de FINAL
+FANTASY XVI, la Beyond the Dawn de Tales of ARISE, la Legendaria de DRAGON
+BALL, la Ultimate de Guardianes de la Noche y los dos bundles de Cyberpunk y
+WORLD OF FINAL FANTASY).
+
+Tres juegos entraron con ellos, **aunque no estuvieran en la lista de
+deseados**: Horizon Zero Dawn remasterizado (que sustituye a la *Complete
+Edition*, retirada de la venta) y los dos Guardianes de la Noche.
 
 **Por eso el `objetivo` va por edicion y no por juego**, al reves que en
 Ofertas: una Deluxe a 22 EUR y un juego base a 22 EUR son metas distintas, y
@@ -1343,6 +1394,19 @@ distintas junto a un solo numero.
 
 Los objetivos **se publican** en `data/steam.json` y el repositorio es publico,
 igual que los de Ofertas.
+
+### El titulo enlaza a Steam, y el catalogo lleva la URL escrita
+
+El catalogo guarda `enlace` en cada juego aunque salga del `appid`: sirve para
+abrir la ficha con un clic mientras se edita el fichero, que es donde se
+trabaja al anadir un juego. **No es una segunda fuente de verdad** porque no lo
+lee nadie: el script arma la URL del `appid` igual que antes, y `descubrir` lo
+reescribe. Si los dos no cuadran, manda el `appid`.
+
+En la web el nombre del juego es el hipervinculo. Vive dentro del `<summary>`,
+asi que sin pararle la propagacion al clic abriria la ficha **y** plegaria el
+bloque a la vez. Se delega en el contenedor y no se pone en cada enlace: son 52
+juegos y el HTML se reescribe entero en cada carga.
 
 ### Los avisos de la portada, y por que ahora si
 
@@ -1385,22 +1449,8 @@ verdad es el push.
 
 ### Lo que falta, y esta decidido que falte
 
-- **Cinco objetivos del usuario sin aplicar**, porque lo que nombran no existe
-  en Steam o no esta en el catalogo. Estan sin decidir a la espera de que el
-  usuario diga que hacer con cada uno:
-  - **Cyberpunk 2077: Ultimate Edition** (18) y **World of Final Fantasy Goty**
-    (3): en Steam esas ediciones **no se venden**. Sus fichas tienen una sola
-    opcion de compra, el juego a secas. Lo de WORLD OF FINAL FANTASY que si
-    existe es el *MAXIMA Upgrade*, que es un DLC.
-  - **DRAGON BALL: Sparking! ZERO Deluxe Edition** (22): no hay ninguna
-    "Deluxe". Sus ediciones son *Super Limit-Breaking NEO* (79,99) y
-    *Legendaria* (119,99), o sea que 22 EUR parece el objetivo del juego base,
-    que hoy esta a 29,99.
-  - **Horizon Zero Dawn Remastered** (11) y **Guardianes de la Noche - Las
-    Cronicas de Hinokami** (7): existen (appid 2561580 y 1490890) pero **no
-    estaban en la lista de deseados**, asi que no entraron al catalogo. En la
-    lista si esta la *Complete Edition* de Horizon Zero Dawn, que es otro juego
-    y ademas esta retirado de la venta.
+- **Super Yooka-Laylee Kart es el unico sin objetivo**, y no es un olvido:
+  todavia no esta a la venta, asi que no tiene precio contra el que ponerlo.
 - **ITAD (IsThereAnyDeal)**, para GOG, Fanatical, Humble y compania, y sobre
   todo para **el minimo historico de verdad**: con solo Steam ese minimo
   arranca vacio y tarda meses en valer. Su API es oficial y documentada
