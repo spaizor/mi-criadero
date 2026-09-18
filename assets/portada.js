@@ -181,15 +181,50 @@ function avisosDeOfertas(datos) {
   return avisos;
 }
 
-function pintarAvisos(datos) {
+// Los avisos de Steam: un juego, o una edicion suya, que llega al precio al
+// que interesa comprarlo. Solo eso. Las rebajas normales se quedan dentro de
+// la seccion con su etiqueta, porque el dia que se monto esto habia 18 juegos
+// rebajados de 50 y un aviso por rebaja llenaria la portada a diario.
+//
+// Que merezca la pena subirlo aqui esta medido igual que en Ofertas: de los 43
+// objetivos, el dia que se pusieron no habia ni uno cumplido, y al mas cercano
+// le faltaba 1,51 EUR. Este aviso no va a salir casi nunca, que es la condicion
+// para que se lea el dia que salga.
+function avisosDeSteam(datos) {
+  const avisos = [];
+
+  for (const juego of datos.juegos || []) {
+    for (const edicion of juego.ediciones || []) {
+      if (edicion.estado !== 'ok' || edicion.precio == null) continue;
+      if (edicion.objetivo == null || edicion.precio > edicion.objetivo) continue;
+
+      // El nombre de la edicion solo se dice cuando no es la estandar: "Elden
+      // Ring Estandar" suena a que hay algo que elegir donde no lo hay.
+      const cual = edicion.nombre === 'Estandar'
+        ? juego.nombre : `${juego.nombre} (${edicion.nombre})`;
+      avisos.push({
+        clase: 'cumplido',
+        icono: '🎯',
+        destino: 'steam.html',
+        texto: `${cual} esta a ${euros(edicion.precio, edicion.moneda)} en Steam: ` +
+               'ha llegado a tu precio.',
+      });
+    }
+  }
+
+  return avisos;
+}
+
+// Recibe ya la lista y no el JSON de una seccion: Ofertas y Steam avisan las
+// dos, y como la portada las carga en paralelo, cada una pintando por su cuenta
+// borraria a la otra con su innerHTML.
+function pintarAvisos(avisos) {
   const caja = document.getElementById('avisos');
   if (!caja) return;
-
-  const avisos = avisosDeOfertas(datos);
   if (!avisos.length) return;   // vacio se queda sin ocupar sitio
 
   caja.innerHTML = avisos.map((aviso) => `
-    <a class="aviso-precio ${aviso.clase}" href="ofertas.html">
+    <a class="aviso-precio ${aviso.clase}" href="${aviso.destino || 'ofertas.html'}">
       <span class="aviso-icono" aria-hidden="true">${aviso.icono}</span>
       <span class="aviso-texto"></span>
     </a>`).join('');
@@ -254,6 +289,9 @@ async function pintarVigilancia() {
 
 async function cargarPortada() {
   const entradas = document.querySelectorAll('.entrada[data-json]');
+  // Se juntan y se pintan al final, por lo que dice pintarAvisos: dos secciones
+  // avisan y se cargan a la vez.
+  const avisos = [];
 
   await Promise.all(Array.from(entradas, async (entrada) => {
     let datos;
@@ -265,12 +303,12 @@ async function cargarPortada() {
       return;  // la entrada se queda con lo que trae escrito
     }
 
-    // Los avisos de precio son solo de Ofertas, y Steam no los lleva a
-    // proposito: hoy tiene 18 juegos rebajados de 50, asi que un aviso por
-    // rebaja llenaria la portada todos los dias y se dejaria de leer. Cuando
-    // haya precios objetivo, ahi si habra algo que merezca subir aqui.
+    // Las dos secciones de precio avisan, y las dos solo por lo mismo: algo
+    // que ha llegado al precio al que interesa comprarlo. Las rebajas normales
+    // se quedan dentro de su seccion.
     const tipo = entrada.dataset.tipo;
-    if (tipo === 'ofertas') pintarAvisos(datos);
+    if (tipo === 'ofertas') avisos.push(...avisosDeOfertas(datos));
+    if (tipo === 'steam') avisos.push(...avisosDeSteam(datos));
 
     const resumen = tipo === 'ofertas' ? deOfertas(datos)
       : tipo === 'steam' ? deSteam(datos)
@@ -289,6 +327,8 @@ async function cargarPortada() {
       marca.hidden = false;
     }
   }));
+
+  pintarAvisos(avisos);
 }
 
 cargarPortada().then(pintarVigilancia);

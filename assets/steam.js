@@ -27,6 +27,25 @@
 
 const DIAS_GRAFICO_STEAM = 30;
 
+// El precio al que interesa comprar. Se pinta SIEMPRE lo que falta y no solo
+// al cruzarse, por lo mismo que en Ofertas: de los 43 objetivos del usuario
+// ninguno estaba cumplido el dia que los puso, asi que una marca que apareciera
+// solo al cumplirse no se veria en meses. La distancia dice algo cada dia.
+//
+// Va por edicion y no por juego porque cuatro de ellos son de la Deluxe o la
+// Complete: una Deluxe a 22 EUR y un juego base a 22 EUR son metas distintas.
+function pintarObjetivoSteam(objetivo, precio, moneda) {
+  if (objetivo == null) return '';
+  if (precio == null) {
+    return `<span class="objetivo">Tu precio: ${formatearPrecio(objetivo, moneda)}</span>`;
+  }
+  if (precio <= objetivo) {
+    return '<span class="objetivo cumplido">A tu precio</span>';
+  }
+  return `<span class="objetivo">Tu precio: ${formatearPrecio(objetivo, moneda)} · te faltan ${
+    formatearPrecio(precio - objetivo, moneda)}</span>`;
+}
+
 function etiquetaEstado(edicion) {
   if (edicion.estado === 'viejo') {
     return '<span class="etiqueta viejo">No respondio: ultimo precio conocido</span>';
@@ -82,6 +101,9 @@ function pintarEdicionSteam(edicion, esEstandar) {
     importe = `<span class="importes">${antes}<span class="importe">${
       formatearPrecio(edicion.precio, edicion.moneda)}</span></span>`;
   }
+
+  const meta = pintarObjetivoSteam(edicion.objetivo, edicion.precio, edicion.moneda);
+  if (meta) etiquetas.unshift(meta);
 
   const rebaja = edicion.descuento
     ? `<span class="rebaja">-${edicion.descuento}%</span>`
@@ -139,6 +161,14 @@ function pintarJuego(juego, series) {
         otras === 1 ? 'edicion especial' : 'ediciones especiales'}</span>`
     : '';
 
+  // En la cabecera va solo el objetivo de la estandar, que es el precio que se
+  // ve plegado. Los de las ediciones se leen al abrir, junto al precio con el
+  // que hay que compararlos: subirlos aqui pondria dos metas distintas al lado
+  // de un solo numero.
+  const meta = estandar
+    ? pintarObjetivoSteam(estandar.objetivo, estandar.precio, estandar.moneda)
+    : '';
+
   const grafico = pintarGrafico(
     ultimosDias(serieDelJuego(series, juego), DIAS_GRAFICO_STEAM),
     null, estandar ? estandar.moneda : 'EUR');
@@ -149,6 +179,7 @@ function pintarJuego(juego, series) {
         <span class="producto-titulo">
           <span class="nombre">${escaparOferta(juego.nombre)}</span>
           ${cuantas}
+          ${meta}
         </span>
         ${cabecera}
       </summary>

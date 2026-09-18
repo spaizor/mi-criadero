@@ -1318,12 +1318,48 @@ Tres decisiones mas de la vista:
   precio tachado y el de hoy van envueltos en un solo elemento. Sueltos serian
   un cuarto hijo y se irian a la linea de abajo; se vio en la primera captura.
 
-### La portada no lleva avisos de Steam, y no es un olvido
+### Los precios objetivo
 
-Los avisos de precio son solo de Ofertas. El dia que se monto esto habia **18
-juegos rebajados de 50**, asi que un aviso por rebaja llenaria la portada todos
-los dias y se dejaria de leer, que es la regla de siempre aqui. Cuando haya
-precios objetivo, ahi si habra algo que merezca subir.
+Los paso el usuario el **18-09-2026**, el mismo dia. Son **43**: 39 en el juego
+(se aplican a su edicion estandar) y **4 en una edicion concreta** (ELDEN RING
+Shadow of the Erdtree, la Deluxe de Digimon, la Complete de FINAL FANTASY XVI y
+la Beyond the Dawn de Tales of ARISE).
+
+**Por eso el `objetivo` va por edicion y no por juego**, al reves que en
+Ofertas: una Deluxe a 22 EUR y un juego base a 22 EUR son metas distintas, y
+esos cuatro juegos no tienen objetivo para su version normal. En el catalogo se
+puede escribir en los dos sitios; el del juego lo hereda su estandar.
+
+La web pinta **siempre lo que falta** (`te faltan 6,99 EUR`) y no solo al
+cruzarse, por lo mismo que en Ofertas y con la misma medicion detras: el dia
+que se pusieron **no habia ni un objetivo cumplido**, y al mas cercano (NEEDY
+GIRL OVERDOSE) le faltaba 1,51 EUR. Una marca que apareciera solo al cumplirse
+no se veria en meses.
+
+En la cabecera del bloque va **solo el objetivo de la estandar**, que es el
+precio que se ve plegado. Los de las ediciones se leen al abrir, al lado del
+precio con el que hay que compararlos: subirlos arriba pondria dos metas
+distintas junto a un solo numero.
+
+Los objetivos **se publican** en `data/steam.json` y el repositorio es publico,
+igual que los de Ofertas.
+
+### Los avisos de la portada, y por que ahora si
+
+Cuando se monto la seccion no los llevaba: sin objetivos, lo unico que se podia
+avisar era una rebaja, y ese dia habia **18 juegos rebajados de 50**. Un aviso
+por rebaja llena la portada a diario y se deja de leer.
+
+Con los objetivos puestos ya hay algo que merece subir, y sale **solo eso**: un
+juego, o una edicion suya, que llega a su precio. Las rebajas normales siguen
+dentro de la seccion con su etiqueta. Que no vaya a salir casi nunca es la
+condicion para que se lea el dia que salga, y esta medido: cero cumplidos de 43.
+
+**`pintarAvisos` recibe la lista y ya no el JSON de una seccion.** Antes hacia
+`innerHTML =` con los avisos de Ofertas, y como la portada carga las entradas en
+paralelo, la segunda seccion en llegar habria borrado los avisos de la primera.
+Ahora cada una empuja los suyos y se pintan juntos al final; cada aviso lleva su
+`destino` porque enlazan a paginas distintas.
 
 La entrada de la portada resume **la mejor rebaja de las ediciones estandar**,
 no de todas: una Deluxe al -70% sigue costando mas que la normal, y coronarla
@@ -1349,8 +1385,22 @@ verdad es el push.
 
 ### Lo que falta, y esta decidido que falte
 
-- **Los precios objetivo.** El usuario los pasara aparte. Cuando lleguen, la
-  web ya sabe pintarlos: es el mismo `objetivo` de Ofertas.
+- **Cinco objetivos del usuario sin aplicar**, porque lo que nombran no existe
+  en Steam o no esta en el catalogo. Estan sin decidir a la espera de que el
+  usuario diga que hacer con cada uno:
+  - **Cyberpunk 2077: Ultimate Edition** (18) y **World of Final Fantasy Goty**
+    (3): en Steam esas ediciones **no se venden**. Sus fichas tienen una sola
+    opcion de compra, el juego a secas. Lo de WORLD OF FINAL FANTASY que si
+    existe es el *MAXIMA Upgrade*, que es un DLC.
+  - **DRAGON BALL: Sparking! ZERO Deluxe Edition** (22): no hay ninguna
+    "Deluxe". Sus ediciones son *Super Limit-Breaking NEO* (79,99) y
+    *Legendaria* (119,99), o sea que 22 EUR parece el objetivo del juego base,
+    que hoy esta a 29,99.
+  - **Horizon Zero Dawn Remastered** (11) y **Guardianes de la Noche - Las
+    Cronicas de Hinokami** (7): existen (appid 2561580 y 1490890) pero **no
+    estaban en la lista de deseados**, asi que no entraron al catalogo. En la
+    lista si esta la *Complete Edition* de Horizon Zero Dawn, que es otro juego
+    y ademas esta retirado de la venta.
 - **ITAD (IsThereAnyDeal)**, para GOG, Fanatical, Humble y compania, y sobre
   todo para **el minimo historico de verdad**: con solo Steam ese minimo
   arranca vacio y tarda meses en valer. Su API es oficial y documentada

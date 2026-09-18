@@ -27,18 +27,21 @@
     ],
     "sin_precio_no_es_un_fallo": "Un juego puede no tener precio por dos motivos distintos, y la API los distingue con release_date.coming_soon: 'proximamente' (todavia no esta a la venta, como Super Yooka-Laylee Kart) y 'retirado' (ya salio pero Steam ya no lo vende, como Horizon Zero Dawn Complete Edition). Publicarlos como un simple 'sin precio' perderia la diferencia.",
     "sin_precio_objetivo": "A diferencia de scripts/productos.json, aqui no hay campo 'objetivo' todavia. Se anadira cuando el usuario pase su lista.",
-    "verificado_el": "18-09-2026"
+    "verificado_el": "18-09-2026",
+    "precio_objetivo": "'objetivo' es el precio al que interesa comprar. Es opcional y puede ir en el juego (se aplica a su edicion estandar) o dentro de una edicion concreta, que es lo que hacia falta aqui: cuatro de los objetivos del usuario son de la Deluxe o la Complete y no del juego a secas. La web pinta SIEMPRE cuanto falta, no solo al cruzarse, por lo mismo que en Ofertas. Cuidado: los objetivos se publican en data/steam.json y el repositorio es publico."
   },
   "juegos": [
     {
       "id": "aeterna-noctis",
       "nombre": "Aeterna Noctis",
-      "appid": 1517970
+      "appid": 1517970,
+      "objetivo": 3.0
     },
     {
       "id": "baten-kaitos-i-y-ii-hd-remaster",
       "nombre": "Baten Kaitos I & II HD Remaster",
-      "appid": 2146170
+      "appid": 2146170,
+      "objetivo": 8.0
     },
     {
       "id": "blasphemous",
@@ -49,17 +52,20 @@
           "nombre": "Deluxe Edition",
           "packageid": 1535444
         }
-      ]
+      ],
+      "objetivo": 3.0
     },
     {
       "id": "bloodstained-curse-of-the-moon",
       "nombre": "Bloodstained: Curse of the Moon",
-      "appid": 838310
+      "appid": 838310,
+      "objetivo": 3.0
     },
     {
       "id": "cult-of-the-lamb",
       "nombre": "Cult of the Lamb",
-      "appid": 1313140
+      "appid": 1313140,
+      "objetivo": 5.0
     },
     {
       "id": "cyberpunk-2077",
@@ -69,7 +75,8 @@
     {
       "id": "devil-may-cry-hd-collection",
       "nombre": "Devil May Cry HD Collection",
-      "appid": 631510
+      "appid": 631510,
+      "objetivo": 3.0
     },
     {
       "id": "digimon-story-time-stranger",
@@ -78,7 +85,8 @@
       "ediciones": [
         {
           "nombre": "Edición Deluxe",
-          "packageid": 1325198
+          "packageid": 1325198,
+          "objetivo": 20.0
         },
         {
           "nombre": "Edición Definitiva",
@@ -104,7 +112,8 @@
     {
       "id": "dragon-quest-xi-s-ecos-de-un-pasado-perdido-edic",
       "nombre": "DRAGON QUEST XI S: Ecos de un pasado perdido – Edición definitiva",
-      "appid": 1295510
+      "appid": 1295510,
+      "objetivo": 5.0
     },
     {
       "id": "elden-ring",
@@ -113,7 +122,8 @@
       "ediciones": [
         {
           "nombre": "Shadow of the Erdtree Edition",
-          "packageid": 1010505
+          "packageid": 1010505,
+          "objetivo": 22.0
         },
         {
           "nombre": "Shadow of the Erdtree Deluxe Edition",
@@ -124,12 +134,14 @@
     {
       "id": "escape-from-ever-after",
       "nombre": "Escape from Ever After",
-      "appid": 1996390
+      "appid": 1996390,
+      "objetivo": 5.0
     },
     {
       "id": "final-fantasy-xii-the-zodiac-age",
       "nombre": "FINAL FANTASY XII THE ZODIAC AGE",
-      "appid": 595520
+      "appid": 595520,
+      "objetivo": 4.0
     },
     {
       "id": "final-fantasy-xvi",
@@ -138,24 +150,28 @@
       "ediciones": [
         {
           "nombre": "COMPLETE EDITION",
-          "packageid": 1111230
+          "packageid": 1111230,
+          "objetivo": 18.0
         }
       ]
     },
     {
       "id": "final-fantasy-xiii",
       "nombre": "FINAL FANTASY® XIII",
-      "appid": 292120
+      "appid": 292120,
+      "objetivo": 3.0
     },
     {
       "id": "god-of-war",
       "nombre": "God of War",
-      "appid": 1593500
+      "appid": 1593500,
+      "objetivo": 10.0
     },
     {
       "id": "horizon-forbidden-west-complete-edition",
       "nombre": "Horizon Forbidden West™ Complete Edition",
-      "appid": 2420110
+      "appid": 2420110,
+      "objetivo": 13.0
     },
     {
       "id": "horizon-zero-dawn-complete-edition",
@@ -165,62 +181,74 @@
     {
       "id": "kena-bridge-of-spirits",
       "nombre": "Kena: Bridge of Spirits",
-      "appid": 1954200
+      "appid": 1954200,
+      "objetivo": 8.0
     },
     {
       "id": "kill-the-plumber",
       "nombre": "Kill The Plumber",
-      "appid": 420070
+      "appid": 420070,
+      "objetivo": 2.0
     },
     {
       "id": "little-king-s-story",
       "nombre": "Little King's Story",
-      "appid": 390310
+      "appid": 390310,
+      "objetivo": 3.0
     },
     {
       "id": "marvel-s-spider-man-remastered",
       "nombre": "Marvel’s Spider-Man Remastered",
-      "appid": 1817070
+      "appid": 1817070,
+      "objetivo": 9.0
     },
     {
       "id": "marvel-s-spider-man-miles-morales",
       "nombre": "Marvel’s Spider-Man: Miles Morales",
-      "appid": 1817190
+      "appid": 1817190,
+      "objetivo": 7.0
     },
     {
       "id": "mewgenics",
       "nombre": "Mewgenics",
-      "appid": 686060
+      "appid": 686060,
+      "objetivo": 12.0
     },
     {
       "id": "monster-boy-y-el-reino-maldito",
       "nombre": "Monster Boy y el Reino Maldito",
-      "appid": 449610
+      "appid": 449610,
+      "objetivo": 3.0
     },
     {
       "id": "needy-girl-overdose",
       "nombre": "NEEDY GIRL OVERDOSE",
-      "appid": 1451940
+      "appid": 1451940,
+      "objetivo": 3.0
     },
     {
       "id": "nier-replicant-ver-1-22474487139",
       "nombre": "NieR Replicant™ ver.1.22474487139...",
-      "appid": 1113560
+      "appid": 1113560,
+      "objetivo": 7.0
     },
     {
       "id": "nikoderiko-the-magical-world-director-s-cut",
       "nombre": "Nikoderiko: The Magical World — Director’s Cut",
-      "appid": 2374190
+      "appid": 2374190,
+      "objetivo": 9.0
     },
     {
       "id": "no-rest-for-the-wicked",
       "nombre": "No Rest for the Wicked",
-      "appid": 1371980
+      "appid": 1371980,
+      "objetivo": 5.0
     },
     {
       "id": "paranormasight-the-seven-mysteries-of-honjo",
       "nombre": "PARANORMASIGHT: The Seven Mysteries of Honjo",
-      "appid": 2106840
+      "appid": 2106840,
+      "objetivo": 4.0
     },
     {
       "id": "persona-3-reload",
@@ -235,7 +263,8 @@
           "nombre": "Digital Premium Edition",
           "packageid": 914637
         }
-      ]
+      ],
+      "objetivo": 10.0
     },
     {
       "id": "persona-5-tactica",
@@ -246,32 +275,38 @@
           "nombre": "Digital Deluxe Edition",
           "packageid": 964322
         }
-      ]
+      ],
+      "objetivo": 5.0
     },
     {
       "id": "pyre",
       "nombre": "Pyre",
-      "appid": 462770
+      "appid": 462770,
+      "objetivo": 3.0
     },
     {
       "id": "ratchet-y-clank-una-dimension-aparte",
       "nombre": "Ratchet & Clank: Una dimensión aparte",
-      "appid": 1895880
+      "appid": 1895880,
+      "objetivo": 13.0
     },
     {
       "id": "returnal",
       "nombre": "Returnal™",
-      "appid": 1649240
+      "appid": 1649240,
+      "objetivo": 13.0
     },
     {
       "id": "rogue-legacy-2",
       "nombre": "Rogue Legacy 2",
-      "appid": 1253920
+      "appid": 1253920,
+      "objetivo": 7.0
     },
     {
       "id": "sackboy-una-aventura-a-lo-grande",
       "nombre": "Sackboy™ Una aventura a lo grande",
-      "appid": 1599660
+      "appid": 1599660,
+      "objetivo": 12.0
     },
     {
       "id": "sonic-racing-crossworlds",
@@ -282,12 +317,14 @@
           "nombre": "Edición digital Deluxe",
           "packageid": 1270169
         }
-      ]
+      ],
+      "objetivo": 12.0
     },
     {
       "id": "steamworld-heist-ii",
       "nombre": "SteamWorld Heist II",
-      "appid": 2396240
+      "appid": 2396240,
+      "objetivo": 5.0
     },
     {
       "id": "stellar-blade",
@@ -298,7 +335,8 @@
           "nombre": "Edición Completa",
           "packageid": 1313353
         }
-      ]
+      ],
+      "objetivo": 22.0
     },
     {
       "id": "super-yooka-laylee-kart",
@@ -312,7 +350,8 @@
       "ediciones": [
         {
           "nombre": "Beyond the Dawn Edition",
-          "packageid": 954140
+          "packageid": 954140,
+          "objetivo": 13.0
         },
         {
           "nombre": "Beyond the Dawn Premium Edition",
@@ -329,7 +368,8 @@
           "nombre": "Deluxe Edition",
           "packageid": 1165022
         }
-      ]
+      ],
+      "objetivo": 5.0
     },
     {
       "id": "the-hundred-line-last-defense-academy",
@@ -345,12 +385,14 @@
     {
       "id": "the-last-of-us-parte-i",
       "nombre": "The Last of Us™ Parte I",
-      "appid": 1888930
+      "appid": 1888930,
+      "objetivo": 13.0
     },
     {
       "id": "the-outbound-ghost",
       "nombre": "The Outbound Ghost",
-      "appid": 1276810
+      "appid": 1276810,
+      "objetivo": 5.0
     },
     {
       "id": "there-is-no-game-wrong-dimension",
@@ -360,12 +402,14 @@
     {
       "id": "trine-5-a-clockwork-conspiracy",
       "nombre": "Trine 5: A Clockwork Conspiracy",
-      "appid": 1436700
+      "appid": 1436700,
+      "objetivo": 5.0
     },
     {
       "id": "uncharted-coleccion-legado-de-los-ladrones",
       "nombre": "UNCHARTED™: Colección Legado de los Ladrones",
-      "appid": 1659420
+      "appid": 1659420,
+      "objetivo": 10.0
     },
     {
       "id": "world-of-final-fantasy",

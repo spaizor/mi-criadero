@@ -432,7 +432,8 @@ def previos():
     return fuera
 
 
-def registrar(nombre, precio, anterior, ahora, enlace, packageid=None):
+def registrar(nombre, precio, anterior, ahora, enlace, packageid=None,
+              objetivo=None):
     """Un registro de precio listo para publicar, con su minimo y su bajada."""
     anterior = anterior or {}
     registro = {
@@ -441,6 +442,11 @@ def registrar(nombre, precio, anterior, ahora, enlace, packageid=None):
         "enlace": enlace,
         "moneda": MONEDA,
     }
+    # El objetivo va en cada edicion y no en el juego porque cuatro de los del
+    # usuario son de la Deluxe o la Complete, no del juego a secas: una Deluxe
+    # a 22 EUR y un juego base a 22 EUR son metas distintas.
+    if objetivo is not None:
+        registro["objetivo"] = objetivo
 
     if precio is None:
         # No ha entrado ahora: se conserva el anterior diciendolo, o se marca
@@ -506,7 +512,9 @@ def cmd_consultar(args):
         ediciones = []
 
         # La edicion estandar: el juego a secas. Va siempre la primera porque
-        # es la que se ve con el bloque plegado.
+        # es la que se ve con el bloque plegado, y hereda el 'objetivo' que el
+        # catalogo ponga en el juego.
+        meta = entrada.get("objetivo")
         if appid in precios:
             precio = precios[appid]
             if precio is None:
@@ -514,18 +522,18 @@ def cmd_consultar(args):
                 # por que, y solo la pagan los pocos que estan en ese caso.
                 ficha = ficha_completa(appid)
                 registro = registrar("Estandar", None, antes.get("Estandar"),
-                                     ahora, FICHA.format(appid))
+                                     ahora, FICHA.format(appid), objetivo=meta)
                 registro["estado"] = por_que_sin_precio(ficha)
                 registro["precio"] = registro["base"] = None
                 time.sleep(PAUSA)
             else:
                 registro = registrar("Estandar", precio, antes.get("Estandar"),
-                                     ahora, FICHA.format(appid))
+                                     ahora, FICHA.format(appid), objetivo=meta)
                 con_precio += 1
         else:
             sin_ficha.append(entrada.get("nombre") or appid)
             registro = registrar("Estandar", None, antes.get("Estandar"),
-                                 ahora, FICHA.format(appid))
+                                 ahora, FICHA.format(appid), objetivo=meta)
         ediciones.append(registro)
 
         for edicion in entrada.get("ediciones", []):
@@ -540,7 +548,8 @@ def cmd_consultar(args):
             ediciones.append(registrar(
                 edicion.get("nombre", "Edicion especial"), precio,
                 antes.get(edicion.get("nombre")), ahora,
-                FICHA_PACK.format(packageid), packageid))
+                FICHA_PACK.format(packageid), packageid,
+                objetivo=edicion.get("objetivo")))
             if precio is not None:
                 con_precio += 1
             time.sleep(PAUSA)
