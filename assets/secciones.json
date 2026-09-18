@@ -16,7 +16,7 @@
       "nombre": "Como se escribe, sin emoji.",
       "emoji": "El que la acompana en las pestanas y en la portada.",
       "acento": "El sufijo del color en estilo.css: --acento-<acento>, body[data-seccion=...] y la clase .<acento>.",
-      "tipo": "'noticias' (destacadas + titulares) u 'ofertas' (precios). Decide que JS la pinta.",
+      "tipo": "'noticias' (destacadas + titulares), 'ofertas' (un producto en varias tiendas, que compiten) o 'steam' (un juego con sus ediciones, que NO compiten). Decide que JS la pinta y, en la portada, que resumen se saca de su JSON.",
       "historico": "Si guarda un turno por ejecucion en data/historico/. Ofertas no: su minimo vive dentro de su propio JSON.",
       "turnos": "Los turnos que publica al dia: [\"M\", \"T\"] si la actualiza una rutina por la manana y otra por la tarde, o [\"M\"] si solo sale una vez. Lo lee 'estado' para saber que turnos exigir; sin esto daria por perdido cada noche el turno de tarde de una seccion que no lo tiene, y ese aviso diario acabaria tapando los de verdad. Solo hace falta en las secciones con historico."
     },
@@ -85,6 +85,14 @@
       "emoji": "🏷",
       "acento": "ofe",
       "tipo": "ofertas",
+      "historico": false
+    },
+    {
+      "id": "steam",
+      "nombre": "Steam",
+      "emoji": "🕹",
+      "acento": "ste",
+      "tipo": "steam",
       "historico": false
     }
   ]

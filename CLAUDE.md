@@ -32,10 +32,12 @@ ia.html               seccion (carga data/ia.json)
 nintendo.html         seccion (carga data/nintendo.json)
 geopolitica.html      seccion (carga data/geopolitica.json)
 ofertas.html          seccion (carga data/ofertas.json)
+steam.html            seccion (carga data/steam.json)
 historico.html        dias anteriores (carga data/historico/)
 assets/estilo.css     estilo compartido, claro/oscuro, responsive
 assets/noticias.js    hace fetch del JSON y pinta las tarjetas
 assets/ofertas.js     lo mismo para la seccion de precios
+assets/steam.js       lo mismo para Steam; se apoya en ofertas.js
 data/*.json           <-- lo unico que tocan las rutinas
 data/historico/       <-- y su copia por turno, ver mas abajo
 ```
@@ -1142,6 +1144,220 @@ son la misma idea que las de arriba llevada al diseno:
 
 Empatar es normal (tres tiendas a 50,99), asi que puede haber varias filas
 marcadas como mas baratas a la vez. Es correcto, no un fallo del reparto.
+
+## La seccion de Steam
+
+Abierta el **18-09-2026**. Hermana de Ofertas y con la misma regla: no busca
+rebajas, sigue una lista cerrada que vive en `scripts/juegos-steam.json`. Lo
+que cambia es de donde sale el precio, y ese cambio lo simplifica todo.
+
+```
+python3 scripts/steam.py consultar         escribe data/steam.json
+python3 scripts/steam.py probar <appid>    una ficha suelta, sin publicar
+python3 scripts/steam.py descubrir         rellena nombre, id y ediciones
+python3 scripts/steam.py frescura          ha salido la pasada de hoy?
+```
+
+La actualiza `.github/workflows/steam.yml`, no una rutina de Claude: aqui no
+se elige nada, igual que en Ofertas.
+
+### gg.deals no era el camino, y el motivo no es el de siempre
+
+Era la fuente de partida. Esta **cerrada de verdad**, y hay que saber
+distinguirlo del 403 de MediaMarkt, que este fichero ya explica:
+
+| Peticion | Resultado |
+|---|---|
+| Ficha con User-Agent de Chrome | 403 |
+| Ficha con curl pelado | 403 |
+| **Portada** | **403** |
+
+El cuerpo del 403 es `<title>Just a moment...</title>` con CSP de
+`challenges.cloudflare.com`: es un desafio de Cloudflare. **403 en la portada
+ya no es el modo de pedir**, que es justo el corte que separa a MediaMarkt (se
+cura con navegador) de Nintendo Wire y El Corte Ingles (no se curan). Y
+saltarse un challenge no es cambiar el User-Agent: es evadir una deteccion, o
+sea el lado equivocado del limite que este proyecto ya se puso con Amazon.
+
+Su `robots.txt` lista ademas `ClaudeBot` en un bloque "AI training". Por el
+criterio de este fichero eso seria bloqueo por nombre y no vetaria nada, pero
+da igual: el muro tecnico es anterior.
+
+### La API de Steam, medida
+
+Sin clave, sin registro y sin navegador:
+
+| | |
+|---|---|
+| Latencia | **0,20 s** |
+| **30 appids en una peticion** | 0,35 s, 3.954 bytes, los 30 devueltos |
+| 10 peticiones seguidas | 200 en todas, sin estrangulamiento |
+| `robots.txt` | `Disallow` de `/share/`, `/email/`, `/widget/` y rutas de cuenta. **`/api/` no esta**, y no hay prohibicion general de automatizar |
+| La pasada entera (50 juegos + 17 ediciones) | **13 s** |
+
+Devuelve `initial`, `final` y `discount_percent` en centimos, o sea que **el
+precio de referencia y el descuento vienen de serie**, que es el dato que
+Ofertas no tiene y que aqui es media seccion.
+
+Por eso `steam.py` **no necesita Playwright** y cumple el "solo biblioteca
+estandar" que si rompe `precios.py`. Su workflow no instala nada.
+
+**El lote va atado a `filters=price_overview`.** Con ese filtro la API admite
+varios appids; con `basic` admite uno y con varios devuelve `null`. No es una
+limitacion que se pueda quitar subiendo el numero.
+
+**Y Steam comprime sin que se lo pidan**, ignorando un `Accept-Encoding:
+identity`: su respuesta a `basic` con lista llega en gzip sin anunciarlo. Es
+el caso de Vandal otra vez, asi que `pedir()` mira el numero magico `1f 8b`
+igual que `noticias.py`. Ojo con esto al tocar `precios.py`: **su `descargar()`
+NO descomprime**, y hoy no molesta solo porque sus tiendas no comprimen.
+
+#### `cc=es` no es cosmetico
+
+Sin `cc`, Steam responde en la moneda de la IP que pregunta, y el runner de
+GitHub puede estar en cualquier region. Los numeros serian perfectamente
+validos y perfectamente falsos, que es el fallo mudo de siempre. Por eso
+`de_precio()` **comprueba que vuelve en EUR** y aborta si no: es la unica forma
+de cazarlo.
+
+### El catalogo se congela, y por eso no hay SteamID en el repositorio
+
+Salio de la lista de deseados del usuario, leida **una sola vez** con
+`IWishlistService/GetWishlist` (publico, sin clave). Podria leerse en cada
+pasada, y **no se hace a proposito**: eso obligaria a escribir su SteamID en
+un repositorio publico. Congelada, lo unico que se publica es que juegos
+sigue, que es lo mismo que ya publica Ofertas.
+
+Para refrescarla hay que volver a dar el perfil a mano. El endpoint de la
+**biblioteca** (`GetOwnedGames`) si pide clave; la lista de deseados no.
+
+### Las ediciones especiales salen de la ficha, no de una busqueda
+
+Fue la duda al montarla: encontrarlas automaticamente o escribirlas a mano.
+Automaticamente, y sin buscar nada: **estan en `package_groups` de la propia
+ficha del juego**, o sea en sus opciones de compra. `storesearch` era el camino
+equivocado, porque devuelve los DLC mezclados y todos con `type: app`.
+
+De ahi cuelgan tres cosas que no son ediciones, y las tres se descartan:
+
+- **El juego base**, a veces repetido con el nombre en ingles (Sackboy,
+  DRAGON QUEST XI S). La regla que lo caza no es comparar nombres: **si un
+  juego tiene una sola opcion de compra, esa opcion ES el base**, se llame como
+  se llame.
+- **`Commercial License`**: la licencia para negocios (UNCHARTED y los dos
+  Spider-Man). Gana al termino de edicion, porque "Legacy of Thieves
+  Collection - Commercial License" lleva las dos cosas.
+- **`DLC Pack`** y `All In One DLC Pack` (Persona 3 Reload, Persona 5
+  Tactica), que es justo lo que no se queria.
+
+Y **se exige un termino de edicion en vez de descartar lo que suene mal**, que
+es lo mismo que decidio el bloque `tema` de `medios.json` y por el mismo
+motivo. Medido sobre las 74 opciones de compra de los 50 juegos: **17
+ediciones, ni un falso positivo ni un falso negativo.**
+
+**Se compara sin tildes en los dos lados**, y esto no es teorico: sin eso se
+perdia la "Edicion Super Limit-Breaking NEO" de DRAGON BALL, que era el unico
+falso negativo de la medicion. Las demas "Edicion X" entraban por otra palabra
+("deluxe", "completa"), asi que el fallo estaba tapado por suerte de la
+muestra.
+
+#### El corte por indice pide otra funcion que la comparacion
+
+`acortar()` quita el nombre del juego del de la edicion, y ahi **la
+normalizacion de compatibilidad no vale**: descompone el simbolo de marca
+registrada en dos letras, asi que cortar por la longitud del texto normalizado
+desplaza el corte. "Edicion Completa de Stellar Blade(tm)" salia como "Edicion
+Complet". Por eso `plano()` conserva la longitud y solo quita tildes. Para
+comparar sirve cualquier version; para cortar, no.
+
+En ingles el juego va delante ("ELDEN RING Shadow of the Erdtree Edition") y
+en espanol detras ("Edicion Completa de Stellar Blade"), asi que hay que mirar
+por los dos lados o la mitad de los nombres salen duplicados.
+
+### "Sin precio" son dos cosas distintas
+
+Y la ficha las distingue sola con `release_date.coming_soon`, asi que no hay
+nada que adivinar:
+
+- **`proximamente`**: anunciado pero sin fecha ni precio (Super Yooka-Laylee
+  Kart).
+- **`retirado`**: ya salio y Steam ya no lo vende. A Horizon Zero Dawn Complete
+  Edition le paso al salir la Remastered: conserva sus `packages` pero no tiene
+  precio.
+
+Publicarlos como un "sin precio" comun perderia la diferencia, que es la misma
+idea que el `disponible: null` de GAME: no declarar el stock no es estar
+agotado. Y **ninguno de los dos es un fallo de la consulta**, asi que su
+etiqueta no puede leerse como una averia.
+
+### Las ediciones no compiten, y eso cambia la vista
+
+Es la diferencia de fondo con Ofertas y la unica parte de `ofertas.js` que no
+se reutiliza. Alli las filas son tiendas y **compiten**: la pregunta es donde
+esta mas barato, y por eso hay un "Mas barato" y un "+9,00 EUR" contra el.
+Aqui las filas son ediciones del mismo juego y **no compiten**: la Deluxe no es
+la estandar mas cara, es otro producto con mas cosas dentro. Coronar la
+estandar como la mas barata seria dar por hecha una comparacion que no
+significa nada.
+
+Lo demas si se reutiliza: `steam.html` carga `assets/ofertas.js` antes que
+`assets/steam.js` y de ahi salen el formateo de precios y todo el dibujo del
+grafico. **No se copian** porque dos copias de la misma funcion acaban siendo
+dos funciones distintas, que es lo mismo que evita que `tema_ajeno` de
+tecnologia apunte a la lista de IA en vez de repetirla. Cargar `ofertas.js` no
+ejecuta nada por si solo: su `cargarOfertas()` la llama el HTML de Ofertas.
+
+Tres decisiones mas de la vista:
+
+- **Los rebajados van primero.** Con 50 juegos, lo que se viene a ver es que ha
+  bajado hoy, y en orden alfabetico eso obliga a recorrer la lista entera.
+- **El grafico dibuja solo la edicion estandar.** Mezclarlas daria una linea
+  que salta de un producto a otro cada vez que sale una edicion nueva, y la
+  pregunta es cuanto ha costado EL juego.
+- **La fila es un grid de tres columnas heredado de Ofertas**, asi que el
+  precio tachado y el de hoy van envueltos en un solo elemento. Sueltos serian
+  un cuarto hijo y se irian a la linea de abajo; se vio en la primera captura.
+
+### La portada no lleva avisos de Steam, y no es un olvido
+
+Los avisos de precio son solo de Ofertas. El dia que se monto esto habia **18
+juegos rebajados de 50**, asi que un aviso por rebaja llenaria la portada todos
+los dias y se dejaria de leer, que es la regla de siempre aqui. Cuando haya
+precios objetivo, ahi si habra algo que merezca subir.
+
+La entrada de la portada resume **la mejor rebaja de las ediciones estandar**,
+no de todas: una Deluxe al -70% sigue costando mas que la normal, y coronarla
+seria vender como chollo el producto caro.
+
+### Vigilancia: el mismo camino que precios
+
+`steam.py frescura` es el mismo mecanismo que el de `precios.py`, horario fijo
+en UTC incluido y por los mismos motivos (medir la antiguedad no vale, y las
+horas en local rompen medio ano). Lo lanzan `vigilancia.yml` y
+`noticias.py vigilar`.
+
+En `vigilar` las dos van por el mismo camino porque **las dos se recuperan
+enteras**: la ficha de la tienda y la API de Steam siguen teniendo el precio de
+hoy, al reves que un turno de noticias. Y las dos las dispara el push de
+`data/vigilancia.json`, que ya esta en el `paths` de `steam.yml`. Por eso el
+bloque de precios de `vigilar` se generalizo en `pendiente()` en vez de
+duplicarlo.
+
+**Steam no lleva el lanzador con token y no es un olvido**: ese camino no lo usa
+nadie hoy, porque una rutina de Claude no admite secretos. Lo que la lanza de
+verdad es el push.
+
+### Lo que falta, y esta decidido que falte
+
+- **Los precios objetivo.** El usuario los pasara aparte. Cuando lleguen, la
+  web ya sabe pintarlos: es el mismo `objetivo` de Ofertas.
+- **ITAD (IsThereAnyDeal)**, para GOG, Fanatical, Humble y compania, y sobre
+  todo para **el minimo historico de verdad**: con solo Steam ese minimo
+  arranca vacio y tarda meses en valer. Su API es oficial y documentada
+  (`/games/prices/v3`, `/games/historylow/v1`), su `robots.txt` esta vacio y la
+  puerta es una clave gratuita, no un muro. Y a diferencia de las rutinas,
+  **aqui el secreto si cabe**: esto corre en GitHub Actions, que tiene
+  `secrets`.
 
 ## Vigilancia: los fallos que no avisaban
 

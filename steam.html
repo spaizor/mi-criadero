@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Steam · Mi Criadero</title>
+  <meta name="description" content="El precio de hoy en Steam de los juegos que sigo, con sus ediciones especiales y lo que han llegado a costar.">
+
+  <link rel="icon" href="assets/icono.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icono-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/icono-180.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mi Criadero">
+  <meta property="og:title" content="Steam · Mi Criadero">
+  <meta property="og:description" content="El precio de hoy en Steam de los juegos que sigo, con sus ediciones especiales y lo que han llegado a costar.">
+  <meta property="og:url" content="https://spaizor.github.io/mi-criadero/steam.html">
+  <meta property="og:image" content="https://spaizor.github.io/mi-criadero/assets/og.png">
+
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body data-seccion="ste">
+  <header class="cabecera">
+    <a class="volver" href="index.html">← Inicio</a>
+    <h1>🕹 Steam</h1>
+    <p class="lema" id="fecha">Cargando…</p>
+  </header>
+
+  <main class="contenedor">
+    <div id="steam" class="lista-noticias"></div>
+    <p class="nota-precios">
+      El precio es el que daba la tienda en el momento de la consulta. Puede
+      haber cambiado: comprueba siempre en Steam antes de comprar. Las
+      ediciones especiales no son mas baratas ni mas caras que la estandar,
+      son otro producto: traen mas cosas dentro.
+    </p>
+  </main>
+
+  <footer class="pie">
+    <p>Actualizado automaticamente.</p>
+  </footer>
+
+  <!-- ofertas.js va antes a proposito: de ahi salen el formateo de precios y
+       todo el dibujo del grafico, que son identicos en las dos secciones.
+       Cargarlo no ejecuta nada por si solo, porque su cargarOfertas() la
+       llama el HTML de Ofertas y aqui no se llama. -->
+  <script src="assets/ofertas.js"></script>
+  <script src="assets/steam.js"></script>
+  <script>cargarSteam('data/steam.json');</script>
+</body>
+</html>

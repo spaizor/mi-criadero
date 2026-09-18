@@ -1738,7 +1738,9 @@ def cmd_vigilar(args):
     recupera (los feeds solo dan lo reciente) y una seccion a medias no se
     arregla sola. Ahi la banda es el unico canal que hay.
     """
-    from precios import revisar_frescura, lanzar_pasada, SALIDA  # aqui, que precios.py importa de este
+    # Aqui dentro, que los dos importan de este fichero.
+    from precios import revisar_frescura, lanzar_pasada, SALIDA
+    from steam import revisar_frescura as revisar_steam, SALIDA as SALIDA_STEAM
 
     # Dos listas, y la diferencia entre ellas es de quien es el problema:
     # 'avisos' se pinta en la portada porque hace falta una persona, y
@@ -1771,33 +1773,55 @@ def cmd_vigilar(args):
     # banda de mas se queda todo el dia diciendo lo contrario que la pagina.
     disparado = validar_fecha(str(anterior.get("comprobado", "")),
                               FORMATO_FECHA_HORA)
-    precios_desde = (validar_fecha(str(leer_json(SALIDA).get("actualizado", "")),
-                                   FORMATO_FECHA_HORA)
-                     if SALIDA.exists() else None)
-    insistiendo = (any(d.get("que") == "precios" for d in previos_disparos)
-                   and disparado is not None and precios_desde is not None
-                   and precios_desde <= disparado)
 
-    ok, lineas = revisar_frescura()
-    lanzamiento = None
-    if not ok:
-        # A diferencia de un turno de noticias, esta se recupera: la ficha de la
-        # tienda sigue teniendo el precio de hoy. Asi que en vez de avisar y
-        # esperar a que alguien lo lea, se lanza.
-        lanzada, lanzamiento = (False, None) if args.probar else lanzar_pasada()
+    def pendiente(que, revisar, salida, lanzador=None):
+        """Una seccion de precios que deberia haberse actualizado y no lo esta.
+
+        Las dos van por el mismo camino porque las dos se recuperan enteras: la
+        ficha de la tienda y la API de Steam siguen teniendo el precio de hoy,
+        al reves que un turno de noticias, donde los feeds solo dan lo reciente.
+        Y las dos las dispara el push de este mismo fichero, que es lo que hace
+        que el aviso no tenga que llegar a la portada.
+
+        Steam no lleva 'lanzador' con token y no es un olvido: ese camino no lo
+        usa nadie hoy, porque una rutina de Claude no admite secretos. Lo que la
+        lanza de verdad es el push, que ya esta en el 'paths' de steam.yml.
+        """
+        desde = (validar_fecha(str(leer_json(salida).get("actualizado", "")),
+                               FORMATO_FECHA_HORA)
+                 if salida.exists() else None)
+        insistiendo = (any(d.get("que") == que for d in previos_disparos)
+                       and disparado is not None and desde is not None
+                       and desde <= disparado)
+
+        ok, lineas = revisar()
+        if ok:
+            return None
+
+        # A diferencia de un turno de noticias, esta se recupera. Asi que en vez
+        # de avisar y esperar a que alguien lo lea, se lanza.
+        lanzada, lanzamiento = (False, None)
+        if lanzador is not None and not args.probar:
+            lanzada, lanzamiento = lanzador()
         if lanzada:
-            print(f"PRECIOS: {_resumen(lineas)}")
+            print(f"{que.upper()}: {_resumen(lineas)}")
         elif insistiendo:
-            avisos.append({"que": "precios", "texto": _resumen(lineas)})
+            avisos.append({"que": que, "texto": _resumen(lineas)})
         else:
-            disparos.append({"que": "precios", "texto": _resumen(lineas)})
+            disparos.append({"que": que, "texto": _resumen(lineas)})
+        return lanzamiento
+
+    lanzamiento = pendiente("precios", revisar_frescura, SALIDA, lanzar_pasada)
+    pendiente("steam", revisar_steam, SALIDA_STEAM)
 
     for aviso in avisos:
         print(f"{aviso['que'].upper()}: {aviso['texto']}")
     for disparo in disparos:
         print(f"{disparo['que'].upper()}: {disparo['texto']}")
-        print("  Se publica data/vigilancia.json para que su push lance "
-              "precios.yml. No se pinta banda: se esta arreglando.")
+        # El workflow se nombra a partir de la seccion porque los dos que
+        # escuchan este push se llaman como ella: precios.yml y steam.yml.
+        print(f"  Se publica data/vigilancia.json para que su push lance "
+              f"{disparo['que']}.yml. No se pinta banda: se esta arreglando.")
     if lanzamiento:
         print(f"PRECIOS: {lanzamiento}")
     if not avisos and not disparos and not lanzamiento:
@@ -1827,7 +1851,10 @@ def cmd_vigilar(args):
     elif disparos:
         # El mensaje dice lo que hace el commit, que es lanzar la pasada. Poner
         # aqui "1 aviso" seria mentir en el historial igual que en la portada.
-        mensaje = "Vigilancia: falta la pasada de precios, la lanza este push"
+        # Se nombra cual falta porque ya son dos secciones de precios y el
+        # historial tiene que decir a cual fue este push.
+        cuales = " y ".join(d["que"] for d in disparos)
+        mensaje = f"Vigilancia: falta la pasada de {cuales}, la lanza este push"
     else:
         mensaje = "Vigilancia: todo en orden otra vez"
     cmd_publicar(argparse.Namespace(mensaje=mensaje))

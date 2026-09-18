@@ -11,6 +11,10 @@
   --acento-nin: #e60012;
   --acento-geo: #c026d3;
   --acento-ofe: #2fbf71;
+  /* Cian porque es el hueco que quedaba: el azul lo tiene tecnologia, el
+     verde ofertas y el ambar los avisos. A 16 px en el icono, un acento que
+     se parezca a otro convierte dos huevos en el mismo. */
+  --acento-ste: #22d3ee;
   --acento-alerta: #e0a33e;
 }
 
@@ -30,6 +34,7 @@ body[data-seccion="ia"]  { --acento: var(--acento-ia); }
 body[data-seccion="nin"] { --acento: var(--acento-nin); }
 body[data-seccion="geo"] { --acento: var(--acento-geo); }
 body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
+body[data-seccion="ste"] { --acento: var(--acento-ste); }
 
 /* Cabecera */
 .cabecera {
@@ -107,6 +112,7 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 .nin { --acento: var(--acento-nin); }
 .geo { --acento: var(--acento-geo); }
 .ofe { --acento: var(--acento-ofe); }
+.ste { --acento: var(--acento-ste); }
 
 /* Cada entrada es la noticia numero 1 de su seccion y enlaza a ella. Es la
    misma caja que .noticia dentro de las secciones, franja de color incluida:
@@ -718,6 +724,55 @@ body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 
 .etiqueta.agotado, .etiqueta.viejo, .etiqueta.enlace,
 .etiqueta.estimado { border-style: dashed; }
+
+/* Un juego que no esta a la venta no es un fallo de la consulta, asi que su
+   etiqueta no puede leerse como una averia: va en gris y con el borde
+   discontinuo de las demas "esto no es un precio de hoy". */
+.etiqueta.proximamente, .etiqueta.retirado { border-style: dashed; }
+
+/* -- La rebaja ----------------------------------------------------------
+   En Ofertas la pregunta es donde esta mas barato; aqui solo hay una tienda,
+   asi que lo que queda por saber es si esta rebajado y cuanto. Por eso el
+   porcentaje se pinta como una pastilla llena y no como una etiqueta mas: es
+   el dato al que se entra. */
+.rebaja {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--acento);
+  color: #0f1115;
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* El precio de antes y el de ahora ocupan UNA sola celda del grid de la fila,
+   que tiene tres columnas heredadas de Ofertas. Sueltos serian un cuarto hijo
+   y se irian a la linea de abajo. */
+.importes {
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* El precio de antes. Tachado y en gris para que no compita con el de hoy:
+   son dos numeros juntos y solo uno es lo que cuesta. */
+.antes {
+  color: var(--texto-suave);
+  text-decoration: line-through;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  margin-right: 6px;
+}
+
+.producto-cab .cab-rebaja { margin-left: 8px; }
+
+/* Las ediciones especiales no compiten con la estandar: son productos
+   distintos, no la misma cosa mas barata en otro sitio. Por eso van
+   sangradas y con el nombre en gris, para que se lean como variantes de la
+   fila de arriba y no como alternativas a ella. */
+.precio.edicion .tienda {
+  padding-left: 14px;
+  color: var(--texto-suave);
+}
 
 /* Las tiendas de las que no se saca precio: siguen a un clic, pero agrupadas
    y en pequeno dejan de ocupar lo mismo que un precio de verdad. */

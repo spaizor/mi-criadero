@@ -77,3 +77,12 @@ jobs:
       - name: Frescura de los precios
         if: always()
         run: python3 scripts/precios.py frescura
+
+      # Lo mismo para la seccion de Steam, que tiene su propio workflow y por
+      # tanto su propio cron que puede no disparar. Va aparte y no dentro del
+      # paso anterior para que el correo diga cual de las dos falta: si las dos
+      # comprobaciones compartieran paso, la primera en fallar taparia a la
+      # otra y habria que abrir el log para saber de cual se habla.
+      - name: Frescura de los precios de Steam
+        if: always()
+        run: python3 scripts/steam.py frescura

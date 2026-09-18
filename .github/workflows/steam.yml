@@ -1,0 +1,154 @@
+# Actualiza data/steam.json sin pasar por Claude.
+#
+# Es hermano de precios.yml y hace lo mismo, pero le sale mucho mas barato:
+# la seccion de Steam no abre fichas de tiendas sino que llama a la API de la
+# propia tienda, que devuelve el precio ya estructurado. Eso quita Playwright
+# de en medio, y con el se van los tres problemas que arrastra precios.yml:
+# instalar un navegador en cada ejecucion, los 20 minutos de timeout por si se
+# cuelga, y las tiendas que dan 403 a lo que parece un script.
+#
+# La pasada entera son unos 15 segundos para 50 juegos y sus 17 ediciones.
+#
+# Y por eso mismo la cadencia NO tiene el techo que tiene la de precios. Alli
+# el limite es parecer una visita normal, porque se abre la ficha de una
+# tienda; aqui se llama a una API publica y documentada que Steam mantiene
+# justamente para que la llamen. Aun asi se queda en dos veces al dia: los
+# precios de Steam se mueven por tandas de rebajas, no por minutos, y pedir
+# mas veces no traeria un dato distinto.
+
+name: Steam
+
+on:
+  schedule:
+    # En horario de verano espanol (UTC+2): 07:20 y 15:20; en invierno, una
+    # hora menos. Van despues de las de precios.yml (06:10 y 14:10) para no
+    # pelearse por el push con el otro workflow, que tarda bastante mas.
+    #
+    # El minuto 20 y no el 0 es a proposito, igual que alli: GitHub encola
+    # muchisimos cron en las horas en punto y los retrasa aun mas.
+    - cron: "20 5 * * *"
+    - cron: "20 13 * * *"
+    # Repescas. GitHub no dispara los cron a su hora nunca -medido en este
+    # mismo repositorio- y a veces no los dispara en absoluto, y ahi no hay
+    # job en rojo ni correo, porque un cron que no dispara no falla. Si la
+    # primera no sale, sale la siguiente. No publican tres veces al dia porque
+    # el guardia de abajo mira antes si la pasada del tramo ya esta hecha.
+    - cron: "50 6 * * *"
+    - cron: "50 8 * * *"
+    - cron: "50 14 * * *"
+    - cron: "50 16 * * *"
+
+  # El disparador que no vive en GitHub, el mismo que usa precios.yml: cuando
+  # falta una pasada, 'noticias.py vigilar' escribe data/vigilancia.json y lo
+  # publica desde la nube de Anthropic, que es ajena al planificador de cron de
+  # aqui. Ese push sirve de pistoletazo.
+  #
+  # No puede realimentarse: este workflow publica data/steam.json y
+  # data/steam-precios/, que no estan en la lista, y ademas GitHub no relanza
+  # workflows por un push hecho con el GITHUB_TOKEN del propio runner.
+  push:
+    branches: [main]
+    paths:
+      - data/vigilancia.json
+
+  workflow_dispatch:
+    inputs:
+      probar:
+        description: "appid de un juego a probar (no publica nada)"
+        required: false
+        default: ""
+
+# Sin esto el GITHUB_TOKEN es de solo lectura y el push falla al final.
+permissions:
+  contents: write
+
+concurrency:
+  group: steam
+  cancel-in-progress: false
+
+jobs:
+  consultar:
+    runs-on: ubuntu-latest
+
+    # Aqui no hay navegador que instalar, asi que el cuelgue que se llevo seis
+    # horas en precios.yml no puede repetirse igual. El tope se pone de todas
+    # formas: un job colgado no manda aviso, y lo caro no es el minuto de
+    # runner sino enterarse dos dias despues.
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      # El guardia de las repescas. Es el mismo calculo que usa el vigilante
+      # ('frescura' sin --margen), y por eso no pueden desincronizarse: con
+      # --margen 0 la pregunta pasa de "hay que avisar de que falta" a "hay que
+      # hacerla". Lanzarlo a mano desde Actions siempre trabaja, que es para lo
+      # que esta el boton.
+      - name: Ver si la pasada de este tramo ya esta hecha
+        id: guardia
+        run: |
+          if [ -n "${{ inputs.probar }}" ]; then
+            echo "trabajar=no" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "trabajar=si" >> "$GITHUB_OUTPUT"
+            echo "Lanzado a mano: se consulta sin preguntar nada."
+          elif python3 scripts/steam.py frescura --margen 0; then
+            echo "trabajar=no" >> "$GITHUB_OUTPUT"
+            echo "La pasada de este tramo ya esta hecha: no se consulta nada."
+          else
+            echo "trabajar=si" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Homologar un juego desde el PC no basta: lo que responde a una IP
+      # domestica puede no responder aqui. El limite conocido de esta API es
+      # por IP y el runner comparte la suya con mucha gente.
+      - name: Probar una ficha suelta
+        if: inputs.probar != ''
+        run: python3 scripts/steam.py probar "${{ inputs.probar }}"
+
+      - name: Consultar precios
+        if: steps.guardia.outputs.trabajar == 'si'
+        run: python3 scripts/steam.py consultar
+
+      - name: Contar precios frescos
+        id: salud
+        if: steps.guardia.outputs.trabajar == 'si'
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json
+          d = json.load(open("data/steam.json", encoding="utf-8"))
+          precios = [e for j in d["juegos"] for e in j["ediciones"]]
+          ok = [e for e in precios if e.get("estado") == "ok"]
+          print(f"ok={len(ok)}")
+          print(f"total={len(precios)}")
+          EOF
+
+      - name: Publicar
+        # Si no ha entrado ni un precio, lo mas probable es que la API haya
+        # dejado de responder como se espera. Publicar entonces solo dejaria un
+        # commit diario marcando todo el catalogo como viejo sin haber mirado
+        # nada: mejor no tocar el JSON y que el fallo se vea.
+        if: steps.guardia.outputs.trabajar == 'si' && steps.salud.outputs.ok != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 scripts/noticias.py publicar "Actualizar precios de Steam ($(TZ=Europe/Madrid date '+%d-%m-%Y %H:%M'))"
+
+      # Se mira el resultado del paso de contar, no solo su numero: cuando el
+      # guardia decide que no hay que trabajar, ese paso se salta y 'ok' queda
+      # VACIO. Y en las expresiones de GitHub la comparacion es laxa como en
+      # JavaScript, asi que '' == '0' es CIERTO y este aviso se dispararia solo,
+      # que es exactamente lo que le paso a precios.yml el 28-08-2026: cuatro
+      # correos diciendo que ninguna tienda respondia sin haber abierto una
+      # sola ficha. Un vigilante que grita cuando no pasa nada ensena a no
+      # leerlo, y entonces callara tambien el dia bueno.
+      - name: Avisar si no ha entrado ningun precio
+        if: steps.salud.outcome == 'success' && steps.salud.outputs.ok == '0'
+        run: |
+          echo "Ningun precio ha entrado: ${{ steps.salud.outputs.total }} consultas, 0 precios."
+          echo "Si se repite, la API de Steam ha cambiado o esta rechazando al runner."
+          exit 1

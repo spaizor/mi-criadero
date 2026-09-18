@@ -1,0 +1,376 @@
+{
+  "_instrucciones": {
+    "que_es": "Catalogo cerrado de juegos de Steam cuyo precio se sigue en la seccion de Steam. Lo lee scripts/steam.py, que consulta la API de la tienda y escribe data/steam.json.",
+    "regla_principal": "Esto no busca ofertas ni rebajas: consulta EXACTAMENTE estos juegos y ninguno mas, igual que scripts/productos.json en la seccion de Ofertas. Si un juego no esta aqui, no sale en la web.",
+    "de_donde_salio": "De la lista de deseados de Steam del usuario, leida una sola vez el 18-09-2026 con IWishlistService/GetWishlist. El SteamID NO esta aqui ni en ningun otro sitio del repositorio, que es publico: la lista se copio y se congelo. Para refrescarla hay que volver a dar el perfil a mano.",
+    "por_que_no_se_lee_la_lista_en_vivo": "Leer la lista de deseados en cada pasada obligaria a escribir el SteamID en este fichero, y el repositorio es publico. Congelada, lo unico que se publica es que juegos se siguen, que es lo mismo que ya publica la seccion de Ofertas.",
+    "campos": {
+      "id": "Identificador corto. No se muestra: sirve para conservar el minimo historico entre ejecuciones aunque el juego cambie de nombre en la tienda.",
+      "nombre": "El nombre tal cual lo publica Steam en espanol. Lo devuelve la propia API, no se escribe a ojo.",
+      "appid": "El numero de la ficha, el que sale en la URL: store.steampowered.com/app/<appid>/. Es publico y no tiene nada del usuario dentro.",
+      "ediciones": "Opcional. Las ediciones especiales (Deluxe, Complete, GOTY...) del mismo juego, con su 'packageid'. NO son DLC: ver mas abajo."
+    },
+    "como_anadir_un_juego": [
+      "Abrir la ficha en Steam y copiar el numero de la URL (store.steampowered.com/app/1245620/...).",
+      "Comprobarlo con: python3 scripts/steam.py probar 1245620",
+      "Eso dice el nombre, el precio y que ediciones tiene, para pegarlo aqui.",
+      "O, mas comodo: anadir solo {\"appid\": N} y lanzar 'python3 scripts/steam.py descubrir', que rellena el nombre, el id y las ediciones."
+    ],
+    "las_ediciones_no_son_DLC": [
+      "Las ediciones salen de 'package_groups' de la propia ficha del juego, o sea de sus opciones de compra. Un DLC no esta ahi: es otra app con 'type': 'dlc'.",
+      "Aun asi Steam cuelga de ahi tres cosas que no son ediciones y que 'descubrir' descarta, medidas sobre los 50 juegos del catalogo el 18-09-2026:",
+      "  - El propio juego base, a veces repetido con el nombre en ingles (Sackboy, DRAGON QUEST XI S). Si un juego tiene una sola opcion de compra, esa opcion ES el juego base, se llame como se llame.",
+      "  - 'Commercial License': la licencia para negocios, no una edicion (UNCHARTED, los dos Spider-Man).",
+      "  - 'DLC Pack' y 'All In One DLC Pack': packs de DLC sueltos, justo lo que no se quiere (Persona 3 Reload, Persona 5 Tactica).",
+      "El filtro exige ademas un termino de edicion y COMPARA SIN TILDES EN LOS DOS LADOS, igual que el bloque 'tema' de medios.json. Sin eso se perdia la 'Edicion Super Limit-Breaking NEO' de DRAGON BALL, que era el unico falso negativo de la medicion.",
+      "Medido sobre 74 opciones de compra de los 50 juegos: 17 ediciones aceptadas, ni un falso positivo ni un falso negativo. Al anadir un juego conviene mirar lo que propone 'descubrir' antes de darlo por bueno."
+    ],
+    "sin_precio_no_es_un_fallo": "Un juego puede no tener precio por dos motivos distintos, y la API los distingue con release_date.coming_soon: 'proximamente' (todavia no esta a la venta, como Super Yooka-Laylee Kart) y 'retirado' (ya salio pero Steam ya no lo vende, como Horizon Zero Dawn Complete Edition). Publicarlos como un simple 'sin precio' perderia la diferencia.",
+    "sin_precio_objetivo": "A diferencia de scripts/productos.json, aqui no hay campo 'objetivo' todavia. Se anadira cuando el usuario pase su lista.",
+    "verificado_el": "18-09-2026"
+  },
+  "juegos": [
+    {
+      "id": "aeterna-noctis",
+      "nombre": "Aeterna Noctis",
+      "appid": 1517970
+    },
+    {
+      "id": "baten-kaitos-i-y-ii-hd-remaster",
+      "nombre": "Baten Kaitos I & II HD Remaster",
+      "appid": 2146170
+    },
+    {
+      "id": "blasphemous",
+      "nombre": "Blasphemous",
+      "appid": 774361,
+      "ediciones": [
+        {
+          "nombre": "Deluxe Edition",
+          "packageid": 1535444
+        }
+      ]
+    },
+    {
+      "id": "bloodstained-curse-of-the-moon",
+      "nombre": "Bloodstained: Curse of the Moon",
+      "appid": 838310
+    },
+    {
+      "id": "cult-of-the-lamb",
+      "nombre": "Cult of the Lamb",
+      "appid": 1313140
+    },
+    {
+      "id": "cyberpunk-2077",
+      "nombre": "Cyberpunk 2077",
+      "appid": 1091500
+    },
+    {
+      "id": "devil-may-cry-hd-collection",
+      "nombre": "Devil May Cry HD Collection",
+      "appid": 631510
+    },
+    {
+      "id": "digimon-story-time-stranger",
+      "nombre": "Digimon Story Time Stranger",
+      "appid": 1984270,
+      "ediciones": [
+        {
+          "nombre": "Edición Deluxe",
+          "packageid": 1325198
+        },
+        {
+          "nombre": "Edición Definitiva",
+          "packageid": 1325199
+        }
+      ]
+    },
+    {
+      "id": "dragon-ball-sparking-zero",
+      "nombre": "DRAGON BALL: Sparking! ZERO",
+      "appid": 1790600,
+      "ediciones": [
+        {
+          "nombre": "Edición Super Limit-Breaking NEO",
+          "packageid": 1698436
+        },
+        {
+          "nombre": "Edición Legendaria",
+          "packageid": 1698437
+        }
+      ]
+    },
+    {
+      "id": "dragon-quest-xi-s-ecos-de-un-pasado-perdido-edic",
+      "nombre": "DRAGON QUEST XI S: Ecos de un pasado perdido – Edición definitiva",
+      "appid": 1295510
+    },
+    {
+      "id": "elden-ring",
+      "nombre": "ELDEN RING",
+      "appid": 1245620,
+      "ediciones": [
+        {
+          "nombre": "Shadow of the Erdtree Edition",
+          "packageid": 1010505
+        },
+        {
+          "nombre": "Shadow of the Erdtree Deluxe Edition",
+          "packageid": 1010506
+        }
+      ]
+    },
+    {
+      "id": "escape-from-ever-after",
+      "nombre": "Escape from Ever After",
+      "appid": 1996390
+    },
+    {
+      "id": "final-fantasy-xii-the-zodiac-age",
+      "nombre": "FINAL FANTASY XII THE ZODIAC AGE",
+      "appid": 595520
+    },
+    {
+      "id": "final-fantasy-xvi",
+      "nombre": "FINAL FANTASY XVI",
+      "appid": 2515020,
+      "ediciones": [
+        {
+          "nombre": "COMPLETE EDITION",
+          "packageid": 1111230
+        }
+      ]
+    },
+    {
+      "id": "final-fantasy-xiii",
+      "nombre": "FINAL FANTASY® XIII",
+      "appid": 292120
+    },
+    {
+      "id": "god-of-war",
+      "nombre": "God of War",
+      "appid": 1593500
+    },
+    {
+      "id": "horizon-forbidden-west-complete-edition",
+      "nombre": "Horizon Forbidden West™ Complete Edition",
+      "appid": 2420110
+    },
+    {
+      "id": "horizon-zero-dawn-complete-edition",
+      "nombre": "Horizon Zero Dawn™ Complete Edition",
+      "appid": 1151640
+    },
+    {
+      "id": "kena-bridge-of-spirits",
+      "nombre": "Kena: Bridge of Spirits",
+      "appid": 1954200
+    },
+    {
+      "id": "kill-the-plumber",
+      "nombre": "Kill The Plumber",
+      "appid": 420070
+    },
+    {
+      "id": "little-king-s-story",
+      "nombre": "Little King's Story",
+      "appid": 390310
+    },
+    {
+      "id": "marvel-s-spider-man-remastered",
+      "nombre": "Marvel’s Spider-Man Remastered",
+      "appid": 1817070
+    },
+    {
+      "id": "marvel-s-spider-man-miles-morales",
+      "nombre": "Marvel’s Spider-Man: Miles Morales",
+      "appid": 1817190
+    },
+    {
+      "id": "mewgenics",
+      "nombre": "Mewgenics",
+      "appid": 686060
+    },
+    {
+      "id": "monster-boy-y-el-reino-maldito",
+      "nombre": "Monster Boy y el Reino Maldito",
+      "appid": 449610
+    },
+    {
+      "id": "needy-girl-overdose",
+      "nombre": "NEEDY GIRL OVERDOSE",
+      "appid": 1451940
+    },
+    {
+      "id": "nier-replicant-ver-1-22474487139",
+      "nombre": "NieR Replicant™ ver.1.22474487139...",
+      "appid": 1113560
+    },
+    {
+      "id": "nikoderiko-the-magical-world-director-s-cut",
+      "nombre": "Nikoderiko: The Magical World — Director’s Cut",
+      "appid": 2374190
+    },
+    {
+      "id": "no-rest-for-the-wicked",
+      "nombre": "No Rest for the Wicked",
+      "appid": 1371980
+    },
+    {
+      "id": "paranormasight-the-seven-mysteries-of-honjo",
+      "nombre": "PARANORMASIGHT: The Seven Mysteries of Honjo",
+      "appid": 2106840
+    },
+    {
+      "id": "persona-3-reload",
+      "nombre": "Persona 3 Reload",
+      "appid": 2161700,
+      "ediciones": [
+        {
+          "nombre": "Digital Deluxe Edition",
+          "packageid": 914636
+        },
+        {
+          "nombre": "Digital Premium Edition",
+          "packageid": 914637
+        }
+      ]
+    },
+    {
+      "id": "persona-5-tactica",
+      "nombre": "Persona 5 Tactica",
+      "appid": 2254740,
+      "ediciones": [
+        {
+          "nombre": "Digital Deluxe Edition",
+          "packageid": 964322
+        }
+      ]
+    },
+    {
+      "id": "pyre",
+      "nombre": "Pyre",
+      "appid": 462770
+    },
+    {
+      "id": "ratchet-y-clank-una-dimension-aparte",
+      "nombre": "Ratchet & Clank: Una dimensión aparte",
+      "appid": 1895880
+    },
+    {
+      "id": "returnal",
+      "nombre": "Returnal™",
+      "appid": 1649240
+    },
+    {
+      "id": "rogue-legacy-2",
+      "nombre": "Rogue Legacy 2",
+      "appid": 1253920
+    },
+    {
+      "id": "sackboy-una-aventura-a-lo-grande",
+      "nombre": "Sackboy™ Una aventura a lo grande",
+      "appid": 1599660
+    },
+    {
+      "id": "sonic-racing-crossworlds",
+      "nombre": "Sonic Racing: CrossWorlds",
+      "appid": 2486820,
+      "ediciones": [
+        {
+          "nombre": "Edición digital Deluxe",
+          "packageid": 1270169
+        }
+      ]
+    },
+    {
+      "id": "steamworld-heist-ii",
+      "nombre": "SteamWorld Heist II",
+      "appid": 2396240
+    },
+    {
+      "id": "stellar-blade",
+      "nombre": "Stellar Blade™",
+      "appid": 3489700,
+      "ediciones": [
+        {
+          "nombre": "Edición Completa",
+          "packageid": 1313353
+        }
+      ]
+    },
+    {
+      "id": "super-yooka-laylee-kart",
+      "nombre": "Super Yooka-Laylee Kart",
+      "appid": 3348210
+    },
+    {
+      "id": "tales-of-arise",
+      "nombre": "Tales of ARISE",
+      "appid": 740130,
+      "ediciones": [
+        {
+          "nombre": "Beyond the Dawn Edition",
+          "packageid": 954140
+        },
+        {
+          "nombre": "Beyond the Dawn Premium Edition",
+          "packageid": 1506655
+        }
+      ]
+    },
+    {
+      "id": "tales-of-graces-f-remastered",
+      "nombre": "Tales of Graces f Remastered",
+      "appid": 2530980,
+      "ediciones": [
+        {
+          "nombre": "Deluxe Edition",
+          "packageid": 1165022
+        }
+      ]
+    },
+    {
+      "id": "the-hundred-line-last-defense-academy",
+      "nombre": "The Hundred Line -Last Defense Academy-",
+      "appid": 3014080,
+      "ediciones": [
+        {
+          "nombre": "Digital Deluxe Edition",
+          "packageid": 1235989
+        }
+      ]
+    },
+    {
+      "id": "the-last-of-us-parte-i",
+      "nombre": "The Last of Us™ Parte I",
+      "appid": 1888930
+    },
+    {
+      "id": "the-outbound-ghost",
+      "nombre": "The Outbound Ghost",
+      "appid": 1276810
+    },
+    {
+      "id": "there-is-no-game-wrong-dimension",
+      "nombre": "There Is No Game: Wrong Dimension",
+      "appid": 1240210
+    },
+    {
+      "id": "trine-5-a-clockwork-conspiracy",
+      "nombre": "Trine 5: A Clockwork Conspiracy",
+      "appid": 1436700
+    },
+    {
+      "id": "uncharted-coleccion-legado-de-los-ladrones",
+      "nombre": "UNCHARTED™: Colección Legado de los Ladrones",
+      "appid": 1659420
+    },
+    {
+      "id": "world-of-final-fantasy",
+      "nombre": "WORLD OF FINAL FANTASY®",
+      "appid": 552700
+    }
+  ]
+}

@@ -105,6 +105,39 @@ function deOfertas(datos) {
   };
 }
 
+// Steam no pregunta donde esta mas barato -solo hay una tienda- sino que ha
+// bajado hoy, asi que el resumen es la mejor rebaja y cuantas hay. Se mira
+// solo la edicion estandar de cada juego, que es la primera: una Deluxe al
+// -70% sigue costando mas que la normal, y coronarla en portada seria vender
+// como chollo el producto caro.
+function deSteam(datos) {
+  const juegos = Array.isArray(datos.juegos) ? datos.juegos : [];
+
+  let mejor = null;
+  let rebajados = 0;
+  for (const juego of juegos) {
+    const estandar = (juego.ediciones || [])[0];
+    if (!estandar || estandar.estado !== 'ok' || !estandar.descuento) continue;
+    rebajados++;
+    if (!mejor || estandar.descuento > mejor.descuento) {
+      mejor = { descuento: estandar.descuento, precio: estandar.precio,
+                moneda: estandar.moneda, nombre: juego.nombre };
+    }
+  }
+
+  return {
+    titulo: mejor
+      ? `Lo mas rebajado: ${mejor.nombre}, ${euros(mejor.precio, mejor.moneda)} (-${mejor.descuento}%)`
+      : 'Hoy no hay ningun juego rebajado.',
+    cuando: '· ' + cuando(datos.actualizado) +
+      ' · ' + (rebajados ? contar(rebajados, 'rebajado', 'rebajados')
+                         : contar(juegos.length, 'juego', 'juegos')),
+    // Sin rebajas la entrada no se apaga: que hoy no baje nada es una
+    // respuesta valida a la pregunta que se viene a hacer, no un hueco.
+    hayAlgo: juegos.length > 0,
+  };
+}
+
 // -- Avisos de precio -----------------------------------------------------
 //
 // Dos cosas merecen sacar al usuario de la portada, y ninguna pasa a menudo:
@@ -232,10 +265,16 @@ async function cargarPortada() {
       return;  // la entrada se queda con lo que trae escrito
     }
 
-    const esOfertas = entrada.dataset.tipo === 'ofertas';
-    if (esOfertas) pintarAvisos(datos);
+    // Los avisos de precio son solo de Ofertas, y Steam no los lleva a
+    // proposito: hoy tiene 18 juegos rebajados de 50, asi que un aviso por
+    // rebaja llenaria la portada todos los dias y se dejaria de leer. Cuando
+    // haya precios objetivo, ahi si habra algo que merezca subir aqui.
+    const tipo = entrada.dataset.tipo;
+    if (tipo === 'ofertas') pintarAvisos(datos);
 
-    const resumen = esOfertas ? deOfertas(datos) : deNoticias(datos);
+    const resumen = tipo === 'ofertas' ? deOfertas(datos)
+      : tipo === 'steam' ? deSteam(datos)
+      : deNoticias(datos);
 
     const titulo = entrada.querySelector('.entrada-titulo');
     if (titulo) titulo.textContent = resumen.titulo;
