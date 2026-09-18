@@ -446,6 +446,38 @@
           }
         }
       ]
+    },
+    {
+      "id": "metroid-ravenous-switch-2",
+      "nombre": "Metroid Ravenous",
+      "plataforma": "Nintendo Switch 2",
+      "objetivo": 60,
+      "tiendas": [
+        {
+          "tienda": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-metroid-ravenous-1674609.html",
+          "navegador": true
+        },
+        {
+          "tienda": "GAME",
+          "url": "https://www.game.es/metroid-ravenous-nintendo-switch-2-267775"
+        },
+        {
+          "tienda": "Xtralife",
+          "url": "https://www.xtralife.com/producto/metroid-ravenous-switch-2-nintendo-switch-2-edition/113201",
+          "navegador": true
+        },
+        {
+          "tienda": "Carrefour",
+          "url": "https://www.carrefour.es/metroid-ravenous-para-switch-2/VC4A-34697912/p",
+          "navegador": true
+        },
+        {
+          "tienda": "Fnac",
+          "url": "https://www.fnac.es/Metroid-Ravenous-Nintendo-Switch-2-Videojuego-Nintendo-Switch-2/a13483372",
+          "solo_enlace": true
+        }
+      ]
     }
   ]
 }
