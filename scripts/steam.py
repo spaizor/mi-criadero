@@ -117,16 +117,23 @@ MINIMO_PARA_PUBLICAR = 1
 # Descarga
 # --------------------------------------------------------------------------
 
-def descargar(url):
+def descargar(url, cabeceras=None):
     """Bytes de una respuesta de la API, reintentando los cortes de red.
 
     Solo se reintentan los fallos de red. Un codigo HTTP es una respuesta, no
     un corte: repetirlo tres veces alarga la pasada para llegar al mismo sitio.
+
+    Lo que se recibe es SIEMPRE una URL, nunca una peticion ya montada: quien
+    necesite cabeceras propias -la ficha en HTML de 'bundles_de'- las pasa en
+    'cabeceras' y se anaden a las de aqui. Montarlas fuera parece igual de
+    valido y no lo es: 'Request(Request(...))' no falla al construirse, sino
+    mas adentro y con un "unknown url type" que no dice de donde viene.
     """
     peticion = urllib.request.Request(url, headers={
         "User-Agent": AGENTE,
         "Accept": "application/json",
         "Accept-Language": "es-ES,es;q=0.9",
+        **(cabeceras or {}),
     })
     for intento in range(INTENTOS):
         try:
@@ -367,15 +374,13 @@ def bundles_de(appid):
     ("Trine: Ultimate Collection", que son cinco juegos). Un filtro por terminos
     ahi si coleria de todo, que es lo que este proyecto evita siempre.
     """
-    peticion = urllib.request.Request(
-        FICHA.format(appid) + f"?cc={PAIS}&l={IDIOMA}", headers={
-            "User-Agent": AGENTE,
-            "Accept-Language": "es-ES,es;q=0.9",
-            # Sin esto, los juegos con control de edad devuelven la pagina de
-            # verificacion en vez de la ficha, y ahi no hay ningun bundle.
-            "Cookie": ("birthtime=315532801; lastagecheckage=1-January-1980; "
-                       "wants_mature_content=1")})
-    crudo = descargar(peticion)
+    crudo = descargar(FICHA.format(appid) + f"?cc={PAIS}&l={IDIOMA}", {
+        # Aqui lo que se pide es la ficha, que es HTML y no JSON como el resto.
+        "Accept": "text/html",
+        # Sin esto, los juegos con control de edad devuelven la pagina de
+        # verificacion en vez de la ficha, y ahi no hay ningun bundle.
+        "Cookie": ("birthtime=315532801; lastagecheckage=1-January-1980; "
+                   "wants_mature_content=1")})
     if crudo[:2] == b"\x1f\x8b":
         crudo = gzip.decompress(crudo)
     ids = sorted(set(re.findall(r"/bundle/(\d+)/",
