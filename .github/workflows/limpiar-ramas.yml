@@ -1,0 +1,113 @@
+# Borra las ramas que dejan atras las rutinas de noticias.
+#
+# Cada ejecucion de una rutina trabaja en su propia rama claude/<nombre> y
+# publica con 'git push origin HEAD:main'. La rama no se borra sola, asi que se
+# acumulan unas seis al dia: el 19-09-2026 habia 69, todas fusionadas y ninguna
+# con un solo commit propio.
+#
+# Esto no lo lanza una rutina de Claude y ese es el motivo de que exista el
+# fichero: aqui no se elige nada, o sea que es el mismo reparto que ya usan
+# Precios y Steam. Borrar una rama es quitar un puntero, y el runner de un repo
+# publico es gratis; pagar un modelo por esto seria tirar el dinero.
+#
+# Ojo con la via que parece obvia y no sirve: la opcion "Automatically delete
+# head branches" de GitHub solo actua sobre ramas de pull requests fusionados,
+# y aqui las rutinas empujan directamente a main sin abrir ninguno.
+
+name: Limpiar ramas
+
+on:
+  schedule:
+    # Los lunes. El minuto 25 y no el 0 por lo mismo que en precios.yml: GitHub
+    # encola los cron de las horas en punto y los retrasa. Aqui el retraso da
+    # exactamente igual, porque una rama de sobra no molesta a nadie.
+    - cron: "25 3 * * 1"
+
+  workflow_dispatch:
+    inputs:
+      dias:
+        description: "No tocar las ramas mas recientes que estos dias"
+        required: false
+        default: "2"
+      probar:
+        description: "Solo listar lo que borraria (true/false)"
+        required: false
+        default: "false"
+
+# Sin esto el GITHUB_TOKEN es de solo lectura y el borrado falla.
+permissions:
+  contents: write
+
+concurrency:
+  group: limpiar-ramas
+  cancel-in-progress: false
+
+jobs:
+  limpiar:
+    runs-on: ubuntu-latest
+    # Son operaciones de puntero sobre un repo pequeno: si esto tarda cinco
+    # minutos es que algo se ha colgado, y un job colgado no avisa.
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Hacen falta TODAS las ramas y su historia: sin esto el checkout
+          # trae solo main y no hay con que comprobar si una rama esta
+          # fusionada, que es la unica garantia de que no se pierde nada.
+          fetch-depth: 0
+
+      - name: Borrar las ramas claude/* fusionadas
+        env:
+          DIAS: ${{ github.event.inputs.dias || '2' }}
+          PROBAR: ${{ github.event.inputs.probar || 'false' }}
+        run: |
+          set -euo pipefail
+          git fetch --prune --quiet origin '+refs/heads/*:refs/remotes/origin/*'
+
+          limite=$(( $(date +%s) - DIAS * 86400 ))
+          borrar=()
+          vivas=0
+
+          for rama in $(git for-each-ref --format='%(refname:short)' 'refs/remotes/origin/claude/**'); do
+            nombre="${rama#origin/}"
+
+            # La unica garantia de que no se pierde trabajo: si la rama esta
+            # contenida en main, no tiene ni un commit que no este publicado.
+            # Una rama con algo propio se queda, y que se acumule es preferible
+            # a borrar lo unico que quedaba de ella.
+            if ! git merge-base --is-ancestor "$rama" origin/main; then
+              echo "SE QUEDA (tiene commits propios): $nombre"
+              vivas=$(( vivas + 1 ))
+              continue
+            fi
+
+            # Y el margen de dias, que es lo que impide llevarse por delante la
+            # rama de una rutina que este corriendo ahora mismo.
+            if [ "$(git log -1 --format=%ct "$rama")" -gt "$limite" ]; then
+              echo "SE QUEDA (reciente): $nombre"
+              vivas=$(( vivas + 1 ))
+              continue
+            fi
+
+            borrar+=("$nombre")
+          done
+
+          echo "Fusionadas y con mas de $DIAS dias: ${#borrar[@]}. Se quedan: $vivas."
+
+          if [ "${#borrar[@]}" -eq 0 ]; then
+            echo "No hay nada que borrar."
+            exit 0
+          fi
+
+          printf '  %s\n' "${borrar[@]}"
+
+          if [ "$PROBAR" = "true" ]; then
+            echo "Modo prueba: no se ha borrado nada."
+            exit 0
+          fi
+
+          # Por lotes: una linea de orden con doscientas ramas dentro es la
+          # forma de que el dia que sean muchas falle entera.
+          printf '%s\n' "${borrar[@]}" | xargs -n 50 git push --quiet origin --delete
+          echo "Borradas ${#borrar[@]} ramas."

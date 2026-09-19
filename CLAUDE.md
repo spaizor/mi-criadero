@@ -802,6 +802,29 @@ publica y falla el job a proposito: seria un commit diario marcando todo como
 viejo sin haber mirado nada, y ademas taparia el aviso de que las tiendas han
 empezado a bloquear al runner.
 
+### Anadir un producto son dos pasos, y el segundo se olvida
+
+El catalogo que lee la pasada es el de **`origin/main`**, no el del disco: quien
+abre las fichas es el runner. Asi que tras tocar `scripts/productos.json` hay
+que **empujar el commit** y despues **lanzar `Precios` a mano** (`gh workflow run
+precios.yml --ref main`, o el boton de Actions).
+
+El segundo paso hace falta porque el `on: push` de `precios.yml` **solo escucha
+`data/vigilancia.json`**, que es lo que le da su papel de pistoletazo de la
+vigilancia: subir el catalogo no dispara nada. Y `workflow_dispatch` es ademas
+lo unico que se salta el guardia de frescura, o sea lo unico que consulta aunque
+la pasada del tramo ya este hecha. Sin ese lanzamiento, el producto nuevo no
+aparece hasta el cron siguiente.
+
+**Lo que despista cuando se olvida el primer paso** (paso el 18-09-2026 con
+Metroid Ravenous, y costo tres intentos): la web no falla ni avisa de nada, y
+lanzar el workflow **tampoco**, porque corre tan feliz sobre el catalogo viejo y
+acaba en verde. Lo unico que se ve es que `data/ofertas.json` tiene un producto
+menos que `scripts/productos.json`, y eso se lee como un fallo del script cuando
+en realidad son dos ficheros que no tienen por que coincidir: uno es la entrada
+y el otro la salida de la ultima pasada. Antes de buscar el fallo en el codigo,
+**mirar `git status -sb` y de que commit sale el run**.
+
 **El job lleva `timeout-minutes` porque un fallo mudo ya paso.** El 19-08-2026
 el paso de instalar Playwright se quedo colgado y el job estuvo **seis horas**
 ahi hasta que GitHub lo mato por su limite; la pasada de la manana se perdio.
@@ -1906,6 +1929,36 @@ Cuatro cosas que hay que saber para no romperlo:
   externos salen en una pestana del sistema que si tiene con que volver.
 
 Nada de esto lo tocan las rutinas: `publicar` hace `git add` solo de `data/`.
+
+## Las ramas que dejan las rutinas
+
+Cada ejecucion de una rutina trabaja en su propia rama `claude/<nombre>` y
+publica con `git push origin HEAD:main`. La rama no se borra sola: el
+19-09-2026 habia **69**, unas seis al dia desde el 07-09.
+
+Se pueden borrar todas sin pensarlo, y la comprobacion que lo demuestra es
+`git branch -r --no-merged origin/main`, que ese dia dio **0**: ninguna tenia un
+solo commit que no estuviera ya en `main`. Una rama de rutina es el camino por
+el que paso el turno, no el sitio donde vive.
+
+Lo hace `.github/workflows/limpiar-ramas.yml`, los lunes. Como en Precios y en
+Steam, **no lo lanza una rutina de Claude**: aqui no se elige nada, y borrar una
+rama es quitar un puntero. Dos cautelas, que son lo unico que hace falta
+entender del fichero:
+
+- **Solo borra lo fusionado en `main`** (`git merge-base --is-ancestor`). La que
+  tenga algo propio se queda y lo dice. Que se acumule una rama de sobra no le
+  molesta a nadie; borrar lo unico que quedaba de un trabajo, si.
+- **Y solo lo de hace mas de dos dias**, para no llevarse por delante la rama de
+  una rutina que este corriendo en ese momento.
+
+`workflow_dispatch` admite `dias` y `probar`, que lista lo que borraria sin
+tocar nada. Probado el 19-09-2026 sobre las 69: 58 a borrar y 11 que se quedaban
+por recientes.
+
+**La opcion de GitHub que parece servir y no sirve** es *Automatically delete
+head branches*: solo actua sobre ramas de pull requests fusionados, y aqui las
+rutinas empujan directo a `main` sin abrir ninguno.
 
 ## Publicacion
 
