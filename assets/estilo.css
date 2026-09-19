@@ -609,6 +609,22 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
   white-space: nowrap;
 }
 
+/* En pantalla estrecha el precio se baja a su propia linea, y no es un retoque
+   de gusto: desde que la cabecera dice tambien DONDE esta mas barato ("en
+   GreenManGaming"), esa nota mas el precio mas la pastilla del descuento se
+   comen el ancho, y el titulo -que puede encogerse hasta cero- se quedaba en
+   una palabra por linea. Se vio en el movil, que es donde se lee esto todos
+   los dias.
+   El margen automatico va en la nota si la hay y si no en el precio, para que
+   el grupo quede pegado a la derecha en los dos casos. */
+@media (max-width: 560px) {
+  .producto-cab { flex-wrap: wrap; }
+  .producto-titulo { flex: 1 0 100%; }
+  .producto-cab > .cab-nota,
+  .producto-cab > .cab-precio { margin-left: auto; }
+  .producto-cab > .cab-nota + .cab-precio { margin-left: 0; }
+}
+
 /* Flecha propia: el marcador nativo no se puede colocar al otro lado. */
 .producto-cab::after {
   content: '';
@@ -772,6 +788,22 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
 .precio.edicion .tienda {
   padding-left: 14px;
   color: var(--texto-suave);
+}
+
+/* El corte entre las ediciones del juego y las tiendas donde comprarlo. Son
+   dos listas con la misma pinta y dos preguntas distintas -que version compro
+   y donde la compro-, y una de ellas compite y la otra no. Sin una linea que
+   las separe se leerian como una sola lista en la que unas filas llevan
+   "Mas barato" y otras no, que parece un fallo. */
+.otras-tiendas {
+  padding: 9px 20px;
+  border-top: 1px solid var(--borde);
+  background: color-mix(in srgb, var(--texto-suave) 7%, transparent);
+  color: var(--texto-suave);
+  font-size: 0.76rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 /* Las tiendas de las que no se saca precio: siguen a un clic, pero agrupadas

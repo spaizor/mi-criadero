@@ -128,50 +128,209 @@ function serieDelJuego(series, juego) {
   return estandar ? serieDelMinimo({ Estandar: estandar }) : [];
 }
 
+// -- Las otras tiendas ----------------------------------------------------
+//
+// Aqui las filas SI compiten, justo al reves que las ediciones de arriba: son
+// el mismo juego en sitios distintos y la pregunta es donde sale mas barato.
+// Por eso estas llevan el "Mas barato" y el "+X,XX" que aquellas no llevan.
+//
+// No se reutiliza pintarPrecio() de ofertas.js aunque lo pareciera de lejos:
+// sus filas no tienen plataforma, ni cupon, ni tarifa tachada, y meter esos
+// tres casos alli obligaria a que Ofertas supiera de Steam. Lo que si se
+// reutiliza, que es lo que hace que las dos secciones se vean iguales, son las
+// clases del CSS y el formateo de precios.
+
+const MARCAS_ITAD = {
+  H: 'Minimo historico',
+  N: 'NUEVO minimo historico',
+  S: 'Minimo en esta tienda',
+};
+
+// "2026-09-27T19:00:00+02:00" -> "27-09"
+function finDeOferta(iso) {
+  const t = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || '');
+  return t ? `${t[3]}-${t[2]}` : '';
+}
+
+function pintarTiendaSteam(oferta, barato) {
+  const nombre = oferta.enlace
+    ? `<a href="${escaparOferta(oferta.enlace)}" target="_blank" rel="noopener">${
+        escaparOferta(oferta.tienda)}</a>`
+    : escaparOferta(oferta.tienda);
+
+  const etiquetas = [];
+  if (oferta.descuento) {
+    etiquetas.push(`<span class="etiqueta baja">-${oferta.descuento}%</span>`);
+  }
+  // La plataforma solo se dice cuando NO es Steam. De las 252 ofertas que hay
+  // hoy, 239 son claves de Steam: una etiqueta que sale en casi todas las filas
+  // no informa y tapa a las que si dicen algo. Cuando no viene declarada es la
+  // nativa de esa tienda, y para eso ya esta el nombre de la tienda.
+  if (oferta.plataforma && oferta.plataforma !== 'Steam') {
+    etiquetas.push(`<span class="etiqueta">Para ${
+      escaparOferta(oferta.plataforma)}</span>`);
+  }
+  // El precio de al lado YA lleva el cupon descontado, asi que esto no avisa de
+  // una condicion escondida: dice el codigo que hay que escribir en la cesta
+  // para pagar eso. Sin decirlo, el precio parece sencillamente mal.
+  if (oferta.cupon) {
+    etiquetas.push(`<span class="etiqueta estimado">Con el codigo ${
+      escaparOferta(oferta.cupon)}</span>`);
+  }
+  // Del minimo solo se dice cuando el precio de hoy YA lo es, que es lo que
+  // significan las marcas de ITAD. Lo contrario -"aqui se vio a 5,25"- se
+  // probo y se quito: salia en 191 de las 252 filas, y con las marcas encima
+  // eran las 252, o sea TODAS. No es que fuera falso, es que ITAD guarda anos
+  // de historial y la mediana de esas rebajas pasadas es del 58%: cualquier
+  // tienda ha tenido cualquier juego mucho mas barato alguna vez.
+  //
+  // Es la misma leccion que ya esta escrita en ofertas.js, donde el minimo
+  // salia en 18 de 24 filas: lo que aparece en todas partes no informa, y
+  // encima tapa a la fila que si tenia algo que contar. Aqui las que lo tienen
+  // son estas, el 24%.
+  //
+  // Lo que se pierde -cuanto ha llegado a costar el juego- es una pregunta del
+  // JUEGO y no de cada tienda, asi que su sitio es el bloque entero y no la
+  // fila. Para eso esta 'minimo_itad', que ya se publica en el JSON.
+  if (MARCAS_ITAD[oferta.marca]) {
+    etiquetas.push(`<span class="etiqueta minimo">${
+      MARCAS_ITAD[oferta.marca]}</span>`);
+  }
+  const fin = finDeOferta(oferta.caduca);
+  if (fin) {
+    etiquetas.push(`<span class="etiqueta">Termina el ${fin}</span>`);
+  }
+
+  // El empate es normal -media lista a 59,99- asi que puede haber varias filas
+  // marcadas a la vez. Es correcto: dice que da igual cual elijas.
+  const esBarato = barato != null && oferta.precio <= barato + 0.001;
+  const diferencia = esBarato
+    ? '<span class="marca-barato">Mas barato</span>'
+    : (barato != null
+        ? `<span class="diferencia">+${
+            formatearPrecio(oferta.precio - barato)}</span>`
+        : '');
+
+  const antes = (oferta.base != null && oferta.base > oferta.precio)
+    ? `<span class="antes">${formatearPrecio(oferta.base)}</span>` : '';
+
+  return `
+    <li class="precio${esBarato ? ' destacado' : ''}">
+      <span class="tienda">${nombre}</span>
+      ${diferencia}
+      <span class="importes">${antes}<span class="importe">${
+        formatearPrecio(oferta.precio)}</span></span>
+      ${etiquetas.length ? `<span class="detalles">${etiquetas.join('')}</span>` : ''}
+    </li>`;
+}
+
+// El precio mas bajo de HOY entre Steam y las demas tiendas.
+//
+// Es el cambio de fondo de la seccion: la cabecera ya no contesta "cuanto
+// cuesta en Steam" sino "cuanto cuesta y donde", que es a lo que se entra. Por
+// eso devuelve tambien el sitio: un numero mas bajo sin decir de donde sale
+// obligaria a abrir el bloque para saber si se puede comprar ahi.
+//
+// Solo compite lo de hoy, igual que en Ofertas: un precio de Steam marcado como
+// 'viejo' no puede coronarse contra uno recien traido, porque esa comparacion
+// no la ha hecho nadie.
+function mejorDeHoy(juego) {
+  const estandar = (juego.ediciones || [])[0];
+  const candidatos = [];
+  if (estandar && estandar.precio != null && estandar.estado === 'ok') {
+    candidatos.push({ precio: estandar.precio, donde: 'Steam',
+                      descuento: estandar.descuento || 0,
+                      moneda: estandar.moneda });
+  }
+  for (const oferta of juego.tiendas || []) {
+    if (oferta.precio == null) continue;
+    candidatos.push({ precio: oferta.precio, donde: oferta.tienda,
+                      descuento: oferta.descuento || 0, moneda: 'EUR' });
+  }
+  if (!candidatos.length) return null;
+  return candidatos.reduce((a, b) => (b.precio < a.precio ? b : a));
+}
+
+// El mayor descuento del juego en CUALQUIER sitio, que es por lo que se ordena
+// la lista. Desde que hay otras tiendas, mirar solo el de Steam mandaba al
+// fondo un juego al -70% en Fanatical y a 0% en Steam, que es justo el que se
+// viene a ver.
+function descuentoMayor(juego) {
+  const estandar = (juego.ediciones || [])[0] || {};
+  let mejor = estandar.estado === 'ok' ? (estandar.descuento || 0) : 0;
+  for (const oferta of juego.tiendas || []) {
+    if ((oferta.descuento || 0) > mejor) mejor = oferta.descuento || 0;
+  }
+  return mejor;
+}
+
 function pintarJuego(juego, series) {
   const ediciones = Array.isArray(juego.ediciones) ? juego.ediciones : [];
+  const tiendas = Array.isArray(juego.tiendas) ? juego.tiendas : [];
   const estandar = ediciones[0];
   const filas = ediciones.length
     ? ediciones.map((e, i) => pintarEdicionSteam(e, i === 0)).join('')
     : '<li class="precio"><span class="importe sin-dato">Sin precios todavia</span></li>';
 
-  // Plegado se ve el precio de la estandar, que es a lo que se entra. Con
+  // Plegado se ve el precio mas bajo de hoy, que es a lo que se entra. Con
   // 50 juegos, desplegar las ediciones de todos obligaria a hacer scroll para
   // comparar dos juegos entre si, que es lo primero que se mira.
+  const mejor = mejorDeHoy(juego);
   let cabecera;
-  if (!estandar || estandar.precio == null) {
+  if (mejor) {
+    const donde = mejor.donde !== 'Steam'
+      ? `<span class="cab-nota">en ${escaparOferta(mejor.donde)}</span>` : '';
+    const rebaja = mejor.descuento
+      ? `<span class="rebaja cab-rebaja">-${mejor.descuento}%</span>` : '';
+    cabecera = `${donde}<span class="cab-precio">${
+      formatearPrecio(mejor.precio, mejor.moneda)}</span>${rebaja}`;
+  } else if (estandar && estandar.precio != null) {
+    // Nada fresco en ningun sitio: se cae al ultimo precio conocido de Steam y
+    // se dice, que es la regla de siempre para el sitio mas visible de la fila.
+    const rebaja = estandar.descuento
+      ? `<span class="rebaja cab-rebaja">-${estandar.descuento}%</span>` : '';
+    cabecera = `<span class="cab-nota">no es de hoy</span><span class="cab-precio">${
+      formatearPrecio(estandar.precio, estandar.moneda)}</span>${rebaja}`;
+  } else {
     const porque = estandar && estandar.estado === 'proximamente' ? 'Proximamente'
       : estandar && estandar.estado === 'retirado' ? 'Ya no se vende'
       : 'Sin precio';
     cabecera = `<span class="cab-precio sin-dato">${porque}</span>`;
-  } else {
-    const viejo = estandar.estado !== 'ok'
-      ? '<span class="cab-nota">no es de hoy</span>' : '';
-    const rebaja = estandar.descuento
-      ? `<span class="rebaja cab-rebaja">-${estandar.descuento}%</span>` : '';
-    cabecera = `${viejo}<span class="cab-precio">${
-      formatearPrecio(estandar.precio, estandar.moneda)}</span>${rebaja}`;
   }
 
-  // Cuantas ediciones hay, dicho en el titulo: plegado no se ven, y sin esto
-  // no habria forma de saber que ahi dentro hay algo mas que un precio.
+  // Que hay ahi dentro, dicho en el titulo: plegado no se ve nada, y sin esto
+  // no habria forma de saber que hay mas que un precio.
   const otras = ediciones.length - 1;
-  const cuantas = otras > 0
-    ? `<span class="plataforma">${otras} ${
-        otras === 1 ? 'edicion especial' : 'ediciones especiales'}</span>`
-    : '';
+  const trozos = [];
+  if (otras > 0) {
+    trozos.push(`${otras} ${otras === 1 ? 'edicion especial' : 'ediciones especiales'}`);
+  }
+  if (tiendas.length) {
+    trozos.push(`${tiendas.length} ${tiendas.length === 1 ? 'tienda' : 'tiendas'}`);
+  }
+  const cuantas = trozos.length
+    ? `<span class="plataforma">${trozos.join(' · ')}</span>` : '';
 
   // En la cabecera va solo el objetivo de la estandar, que es el precio que se
-  // ve plegado. Los de las ediciones se leen al abrir, junto al precio con el
-  // que hay que compararlos: subirlos aqui pondria dos metas distintas al lado
-  // de un solo numero.
+  // ve plegado, y se compara contra el mas bajo de hoy y no contra el de Steam:
+  // si el juego ha llegado a tu precio en Fanatical, ha llegado. Los objetivos
+  // de las ediciones se leen al abrir, al lado del precio con el que hay que
+  // compararlos.
   const meta = estandar
-    ? pintarObjetivoSteam(estandar.objetivo, estandar.precio, estandar.moneda)
+    ? pintarObjetivoSteam(estandar.objetivo,
+                          mejor ? mejor.precio : estandar.precio,
+                          estandar.moneda)
     : '';
 
   const grafico = pintarGrafico(
     ultimosDias(serieDelJuego(series, juego), DIAS_GRAFICO_STEAM),
     null, estandar ? estandar.moneda : 'EUR');
+
+  const bloqueTiendas = tiendas.length ? `
+      <div class="otras-tiendas">En otras tiendas</div>
+      <ul class="lista-precios">${tiendas.map(
+        (o) => pintarTiendaSteam(o, mejor ? mejor.precio : null)).join('')}</ul>`
+    : '';
 
   return `
     <details class="producto">
@@ -188,6 +347,7 @@ function pintarJuego(juego, series) {
       </summary>
       ${grafico}
       <ul class="lista-precios">${filas}</ul>
+      ${bloqueTiendas}
     </details>`;
 }
 
@@ -244,10 +404,8 @@ async function cargarSteam(ruta) {
     // Los rebajados primero: con 50 juegos, lo que se viene a ver es que ha
     // bajado hoy, y en orden alfabetico eso obliga a recorrer la lista entera.
     // Dentro de cada grupo se mantiene el orden del JSON, que es estable.
-    const ordenados = juegos.slice().sort((a, b) => {
-      const suyo = (j) => (j.ediciones || [])[0] || {};
-      return (suyo(b).descuento || 0) - (suyo(a).descuento || 0);
-    });
+    const ordenados = juegos.slice().sort(
+      (a, b) => descuentoMayor(b) - descuentoMayor(a));
 
     contenedor.innerHTML = ordenados.length
       ? ordenados.map((j) => pintarJuego(j, series)).join('')
