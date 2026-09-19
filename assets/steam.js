@@ -118,14 +118,32 @@ function pintarEdicionSteam(edicion, esEstandar) {
     </li>`;
 }
 
-// La serie que se dibuja es la de la edicion estandar, no la del conjunto.
-// Mezclarlas daria una linea que salta de un producto a otro cada vez que sale
-// una edicion nueva, y la pregunta a la que se viene es cuanto ha costado EL
-// juego.
+// La llave con la que la serie guarda el precio mas bajo de las otras tiendas.
+// La escribe scripts/steam.py; si se cambia aqui, hay que cambiarla alli.
+const SERIE_TIENDAS = '__tiendas';
+
+// La linea que se dibuja es "lo mas barato que ha costado este juego": la
+// edicion estandar en Steam y el minimo de las demas tiendas, juntas.
+//
+// Las ediciones especiales NO entran. Mezclarlas daria una linea que salta de
+// un producto a otro cada vez que sale una edicion nueva, y la pregunta a la
+// que se viene es cuanto ha costado EL juego, no su Deluxe.
+//
+// Juntar las dos no cuesta nada porque serieDelMinimo() ya hace exactamente
+// esto en Ofertas con las tiendas: mantiene cada serie vigente hasta que
+// cambia y calcula el minimo, metiendo todos los puntos del mismo instante
+// antes de mirar. Esa ultima parte es la que evita el escalon que nunca
+// existio, y aqui hace falta igual.
+//
+// La parte de tiendas arranca el dia que se monto ITAD, asi que en los juegos
+// con historial anterior la linea baja ahi. No es un cambio de precio
+// inventado: antes ese dato no se tenia.
 function serieDelJuego(series, juego) {
   const suyas = (series || {})[juego.id] || {};
-  const estandar = suyas['Estandar'];
-  return estandar ? serieDelMinimo({ Estandar: estandar }) : [];
+  const partes = {};
+  if (suyas['Estandar']) partes.Estandar = suyas['Estandar'];
+  if (suyas[SERIE_TIENDAS]) partes.tiendas = suyas[SERIE_TIENDAS];
+  return Object.keys(partes).length ? serieDelMinimo(partes) : [];
 }
 
 // -- Las otras tiendas ----------------------------------------------------
@@ -326,8 +344,18 @@ function pintarJuego(juego, series) {
     ultimosDias(serieDelJuego(series, juego), DIAS_GRAFICO_STEAM),
     null, estandar ? estandar.moneda : 'EUR');
 
+  // El minimo historico va aqui, una vez y no por fila, porque "cuanto ha
+  // llegado a costar" es una pregunta del juego. Se dice "en cualquier tienda"
+  // porque el dato es de ITAD y cubre tambien las que aqui no se publican -las
+  // que no cotizan en euros, GOG-: es una referencia para saber si el precio de
+  // hoy es bueno, no una promesa de poder comprarlo ahi abajo.
+  const suelo = juego.minimo_itad && juego.minimo_itad.siempre != null
+    ? `<span class="otras-minimo">Lo mas barato que se ha visto en cualquier
+       tienda: ${formatearPrecio(juego.minimo_itad.siempre)}</span>`
+    : '';
+
   const bloqueTiendas = tiendas.length ? `
-      <div class="otras-tiendas">En otras tiendas</div>
+      <div class="otras-tiendas"><span>En otras tiendas</span>${suelo}</div>
       <ul class="lista-precios">${tiendas.map(
         (o) => pintarTiendaSteam(o, mejor ? mejor.precio : null)).join('')}</ul>`
     : '';

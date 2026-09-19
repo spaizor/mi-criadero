@@ -531,6 +531,21 @@ def ediciones_de(ficha):
 # La serie de precios
 # --------------------------------------------------------------------------
 
+# La llave con la que la serie guarda el precio mas bajo de las OTRAS tiendas,
+# al lado de las ediciones. Empieza por dos guiones bajos para que no pueda
+# chocar con el nombre de una edicion, que sale del texto de la opcion de
+# compra de Steam ("Deluxe Edition").
+#
+# Va en la serie y no aparte porque assets/ofertas.js ya sabe dibujar "el
+# minimo de varias series a la vez" -es lo que hace en Ofertas con las
+# tiendas-, asi que el grafico del juego sale de juntar esta con la de la
+# edicion estandar y no hay que tocar el dibujo.
+#
+# OJO: este mismo nombre esta escrito en assets/steam.js. Si se cambia aqui,
+# hay que cambiarlo alli.
+CLAVE_TIENDAS = "__tiendas"
+
+
 def ruta_serie(mes):
     return SERIES / f"{mes}.json"
 
@@ -559,6 +574,17 @@ def anotar_serie(serie, cuando, juegos):
                 continue
             puntos.append({"cuando": cuando, "precio": edicion["precio"]})
             nuevos += 1
+
+        # Y el mas bajo de las demas tiendas, como una serie mas. Se guarda solo
+        # ese y no una serie por tienda: son hasta 17 por juego, la mayoria al
+        # mismo precio de tarifa, y el grafico dibuja el minimo de todas formas.
+        fuera = [o["precio"] for o in juego.get("tiendas", [])
+                 if o.get("precio") is not None]
+        if fuera:
+            puntos = por_edicion.setdefault(CLAVE_TIENDAS, [])
+            if not puntos or puntos[-1]["precio"] != min(fuera):
+                puntos.append({"cuando": cuando, "precio": min(fuera)})
+                nuevos += 1
     return nuevos
 
 

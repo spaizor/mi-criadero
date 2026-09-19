@@ -1477,17 +1477,163 @@ desconfianza del fichero: es que `vigilar` lo lanza una rutina de Claude y es
 secciones y los precios, o sea justo la averia para la que se monto. Cuando no
 carga, lo dice y sigue con lo demas. Probado rompiendo el fichero a proposito.
 
+### Las demas tiendas, via ITAD
+
+Anadido el **19-09-2026**, y cambia la pregunta de la seccion: de "cuanto cuesta
+en Steam" a **"donde lo compro"**. Merece la pena porque esta medido: **30 de
+los 50 juegos con precio estan mas baratos fuera de Steam**, y no por centimos
+(Persona 5 Tactica 59,99 -> 16,19; Blasphemous 24,99 -> 5,44).
+
+Lo trae `scripts/itad.py`, solo biblioteca estandar. **Una peticion por pasada**
+para los 52 juegos (el endpoint admite 200), asi que la pasada pasa de 13 a 16
+segundos y no instala nada; el limite de ITAD son 1.000 peticiones cada 5
+minutos. El `appid -> id de ITAD` se resuelve una vez con `descubrir` y se
+congela en el catalogo, igual que la lista de deseados.
+
+**La clave va en el secret `ITAD_API_KEY` y viaja en la cabecera
+`ITAD-API-Key`, no en la URL.** ITAD admite las dos formas y la de la URL es la
+peligrosa: el log de Actions de un repositorio publico lo ve cualquiera, y basta
+una traza que imprima la direccion para dejar la clave escrita ahi para siempre.
+
+#### Por que ITAD y no abrir las tiendas
+
+Es la leccion de `precios.py` aplicada **antes** de cometer el error. Abrir la
+ficha de cada tienda son 52 juegos por N tiendas con Chromium de por medio, o
+sea justo el coste que esta seccion no paga.
+
+Y las tiendas de keys grises estan **cerradas de verdad**: G2A, Kinguin, Gamivo
+y CDKeys responden 403 con un reto de Cloudflare **en la portada**, que es el
+corte que ya fijo gg.deals. Da igual: **ITAD no sigue ninguna de las seis**. De
+sus 34 tiendas para Espana, todas son autorizadas o revendedores legitimos, asi
+que la pregunta del mercado gris se contesta sola. La unica alcanzable a mano
+seria Instant Gaming, y pedirla exigiria Playwright para una sola tienda.
+
+#### Los tres filtros, todos medidos
+
+**1. Fuera las que no cotizan en euros.** No se ven en la moneda, porque ITAD
+convierte y entrega todo como EUR: se ven en el numero.
+
+- Por el **ratio contra Steam**: WinGameStore y GamesPlanet US dan 0,871
+  constante (el dolar) en 25 y 23 juegos con desviacion 0,015, y GamesPlanet UK
+  0,976 (la libra). Las demas dan exactamente 1,000.
+- Por los **centimos de la tarifa**, que caza a las que convierten con margen
+  variable y el ratio no ve: una tienda en euros pone precios de escaparate y
+  acaba en .99, .95 o .49 casi siempre. Muve da un 62% de tarifas redondas,
+  Zapagames un 0% (25,03 / 30,04) y Fortuna Digital un 0% (26,13, que son
+  exactamente 29,99 USD x 0,871).
+
+Cuesta un 9% del ahorro y a cambio **no hay un solo precio "estimado"** en la
+seccion. Solo ELDEN RING pierde su mejor precio, por diez centimos.
+GamesPlanet esta fuera entera ademas por decision del usuario: no tiene tienda
+espanola. **Esta lista se repasa con la cuenta de los centimos cuando ITAD de de
+alta una tienda nueva**, y se queda escrita a mano en vez de automatizar la
+regla: una lista no puede equivocarse, y un filtro por centimos tiraria en
+silencio una oferta buena el dia que una tienda ponga un precio raro de verdad.
+
+**2. Fuera GOG, DRM-Free y Microsoft Store**, que son copias que no se van a
+usar: su precio no es mas barato, es otra cosa. Cuesta un 12% (de 34 juegos mas
+baratos fuera se pasa a 29) y ningun juego se queda sin ofertas.
+
+**La regla que sostiene ese filtro es que lo que NO declara plataforma se
+conserva.** De las 51 ofertas sin `drm`, **50 son de la propia Steam**, que no
+declara lo obvio: descartar lo no declarado la tiraria entera. Y es tambien lo
+unico que deja entrar a Ubisoft, porque **"Uplay" y "Ubisoft Connect" no existen
+como valor en la API**: buscarlos por nombre no habria encontrado ni una.
+
+**3. Fuera la propia Steam**, aunque ITAD la traiga: su precio ya esta en
+`ediciones` y mas fresco. Dos numeros para lo mismo en el mismo fichero no se
+pueden arbitrar el dia que discrepen.
+
+#### El deduplicado es por tienda MAS plataforma
+
+Parece que basta con quedarse con el mas barato de cada tienda, y no: Fanatical
+vende el Devil May Cry de **Steam a 8,69** y el de **GOG a 25,49**, y DLGamer el
+Persona 5 Tactica de Steam a 18,00 y el de Microsoft Store a 59,99. **Son
+productos distintos, no dos precios del mismo**, y juntarlos haria parecer que
+hay una comparacion donde no la hay. Repetidos de verdad los hay -SteamWorld
+Heist II sale dos veces en Fanatical al mismo precio- y esos si se funden.
+
+#### Los cupones se publican con su codigo
+
+Son 36 ofertas. **El precio que da ITAD ya los lleva aplicados**, comprobado:
+`regular x (1 - cut)` da el precio al centimo. Asi que el cupon no se resta, se
+**dice**: son codigos que reparte la propia tienda (`FANATICAL15`,
+`HOLA15ITAD`), y sin decirlo el precio parece sencillamente mal.
+
+#### Si ITAD falla, la pasada publica igual
+
+Sin clave, sin red o con `itad.py` roto, `consultar` publica los precios de
+Steam y lo dice en el parte. Es la regla de `enlaces_de_la_hermana()`: quedarse
+sin seccion por un fallo de algo accesorio es peor que publicar sin el
+accesorio. Probado rompiendo las tres cosas a proposito.
+
+#### La vista: dos ejes que no se mezclan
+
+Las **ediciones** no compiten (son productos distintos) y las **tiendas** si
+(es el mismo juego en sitios distintos), asi que van en dos listas separadas por
+una linea, y solo las de abajo llevan "Mas barato" y "+X,XX". Sin esa linea se
+leen como una sola lista donde unas filas compiten y otras no, que parece un
+fallo.
+
+La cabecera dice el **precio mas bajo de hoy y donde** ("en GreenManGaming 5,44
+EUR"), y el objetivo se compara contra ese: si ha llegado a tu precio en
+Fanatical, ha llegado. La lista se ordena por **el mayor descuento en cualquier
+sitio**: mirando solo el de Steam, un juego al -70% en Fanatical y a 0% en Steam
+se iba al fondo, que es justo el que se viene a ver.
+
+Tres cosas que se decidieron viendolo pintado y no antes:
+
+- **"Aqui se vio a X" se quito.** Salia en 191 de las 252 filas, y con las
+  marcas de ITAD encima eran **las 252, o sea todas**. No es que fuera falso:
+  ITAD guarda anos de historial y la mediana de esas rebajas pasadas es del
+  **58%**, asi que cualquier tienda ha tenido cualquier juego mucho mas barato
+  alguna vez. Es lo mismo que ya decidio `ofertas.js`, donde salia en 18 de 24.
+  Queda solo la **marca de ITAD** (`H` minimo historico, `N` nuevo minimo, `S`
+  minimo de esa tienda), que sale en el 24% y dice que el precio de HOY lo es.
+- **Cuanto ha llegado a costar el juego se dice una vez**, en la cabecera del
+  bloque y no por fila, porque es una pregunta del juego. Sale de `minimo_itad`
+  y se dice **"en cualquier tienda"** a proposito: cubre tambien las que aqui no
+  se publican, asi que es una referencia para saber si el precio de hoy es
+  bueno, no una promesa de poder comprarlo abajo.
+- **La plataforma solo se dice cuando no es Steam.** 239 de las 252 ofertas son
+  claves de Steam; etiquetarlas todas no informa.
+
+**En el movil la cabecera se rompia**, y es el tipo de cosa que solo se ve
+mirandola: desde que dice tambien donde esta mas barato, esa nota mas el precio
+mas la pastilla del descuento se comen el ancho, y el titulo -que puede
+encogerse hasta cero- se quedaba en una palabra por linea. Por debajo de 560px
+el precio baja a su propia linea.
+
+#### El grafico y lo que le falta
+
+La linea pasa a ser **el minimo entre la estandar de Steam y las demas
+tiendas**. No hubo que tocar el dibujo: `serieDelMinimo()` de `ofertas.js` ya
+hace exactamente eso con las tiendas de Ofertas, asi que la serie guarda el
+minimo de las otras tiendas como una serie mas, con la llave `__tiendas` (dos
+guiones bajos para que no choque con el nombre de una edicion). Se guarda solo
+el minimo y no una serie por tienda: son hasta 17 por juego y el grafico dibuja
+el minimo de todas formas.
+
+**Lo que hay que saber: la parte de tiendas arranca el 19-09-2026**, asi que en
+los juegos con historial anterior la linea baja ahi de golpe. No es un precio
+inventado -antes ese dato no se tenia- y el pie del grafico dice el rango y no
+una caida, pero el escalon esta y se ira solo en 30 dias.
+
+**Sembrarlo con `/games/history/v2` se penso y no se hizo**, y conviene saber
+por que antes de intentarlo: ese log trae `shop` y `deal` pero **no trae
+`drm`**, asi que no se le puede aplicar el filtro de plataforma. Sembrar meteria
+en la linea precios de GOG y DRM-Free que esta seccion no publica, o sea
+cambiaria un escalon que se explica por una linea que no se corresponde con lo
+que hay debajo.
+
 ### Lo que falta, y esta decidido que falte
 
 - **Super Yooka-Laylee Kart es el unico sin objetivo**, y no es un olvido:
   todavia no esta a la venta, asi que no tiene precio contra el que ponerlo.
-- **ITAD (IsThereAnyDeal)**, para GOG, Fanatical, Humble y compania, y sobre
-  todo para **el minimo historico de verdad**: con solo Steam ese minimo
-  arranca vacio y tarda meses en valer. Su API es oficial y documentada
-  (`/games/prices/v3`, `/games/historylow/v1`), su `robots.txt` esta vacio y la
-  puerta es una clave gratuita, no un muro. Y a diferencia de las rutinas,
-  **aqui el secreto si cabe**: esto corre en GitHub Actions, que tiene
-  `secrets`.
+- **Siete juegos no tienen ninguna otra tienda** (Mewgenics, NEEDY GIRL
+  OVERDOSE, No Rest for the Wicked, Pyre, The Hundred Line, The Outbound Ghost
+  y el propio Super Yooka-Laylee Kart). No es un fallo: o no se venden en mas
+  sitios, o solo en los que se filtran.
 
 ## Vigilancia: los fallos que no avisaban
 

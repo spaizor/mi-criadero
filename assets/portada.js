@@ -105,29 +105,62 @@ function deOfertas(datos) {
   };
 }
 
-// Steam no pregunta donde esta mas barato -solo hay una tienda- sino que ha
-// bajado hoy, asi que el resumen es la mejor rebaja y cuantas hay. Se mira
-// solo la edicion estandar de cada juego, que es la primera: una Deluxe al
-// -70% sigue costando mas que la normal, y coronarla en portada seria vender
-// como chollo el producto caro.
+// Todos los sitios donde se puede comprar hoy un juego de la seccion: Steam
+// -su edicion estandar- y las demas tiendas que trae ITAD.
+//
+// Es el mismo criterio que usa assets/steam.js dentro de la seccion, y esta
+// escrito aparte a proposito: la portada no carga ofertas.js ni steam.js,
+// que son seiscientas lineas para dos cuentas, y es la pagina que mas se abre.
+// Si el criterio cambia alli, hay que mirarlo aqui.
+//
+// Solo entra lo de hoy, igual que en Ofertas: un precio marcado como viejo no
+// se corona contra uno recien traido, porque esa comparacion no la ha hecho
+// nadie.
+function sitiosDeSteam(juego) {
+  const sitios = [];
+  const estandar = (juego.ediciones || [])[0];
+  if (estandar && estandar.estado === 'ok' && estandar.precio != null) {
+    sitios.push({ donde: 'Steam', precio: estandar.precio,
+                  descuento: estandar.descuento || 0,
+                  moneda: estandar.moneda });
+  }
+  for (const oferta of juego.tiendas || []) {
+    if (oferta.precio == null) continue;
+    sitios.push({ donde: oferta.tienda, precio: oferta.precio,
+                  descuento: oferta.descuento || 0, moneda: 'EUR' });
+  }
+  return sitios;
+}
+
+// Lo que se viene a ver de esta seccion es que ha bajado hoy, asi que el
+// resumen es la mejor rebaja y cuantas hay. Se mira la edicion estandar y las
+// demas tiendas, pero NO las ediciones especiales: una Deluxe al -70% sigue
+// costando mas que la normal, y coronarla en portada seria vender como chollo
+// el producto caro.
+//
+// Desde que hay otras tiendas, mirar solo el descuento de Steam se dejaba
+// fuera lo mas interesante: un juego al -70% en Fanatical con Steam a 0% no
+// aparecia por ningun lado.
 function deSteam(datos) {
   const juegos = Array.isArray(datos.juegos) ? datos.juegos : [];
 
   let mejor = null;
   let rebajados = 0;
   for (const juego of juegos) {
-    const estandar = (juego.ediciones || [])[0];
-    if (!estandar || estandar.estado !== 'ok' || !estandar.descuento) continue;
+    const sitios = sitiosDeSteam(juego);
+    if (!sitios.length) continue;
+    const top = sitios.reduce((a, b) => (b.descuento > a.descuento ? b : a));
+    if (!top.descuento) continue;
     rebajados++;
-    if (!mejor || estandar.descuento > mejor.descuento) {
-      mejor = { descuento: estandar.descuento, precio: estandar.precio,
-                moneda: estandar.moneda, nombre: juego.nombre };
+    if (!mejor || top.descuento > mejor.descuento) {
+      mejor = { ...top, nombre: juego.nombre };
     }
   }
 
   return {
     titulo: mejor
-      ? `Lo mas rebajado: ${mejor.nombre}, ${euros(mejor.precio, mejor.moneda)} (-${mejor.descuento}%)`
+      ? `Lo mas rebajado: ${mejor.nombre}, ${euros(mejor.precio, mejor.moneda)} (-${mejor.descuento}%)${
+          mejor.donde !== 'Steam' ? ' en ' + mejor.donde : ''}`
       : 'Hoy no hay ningun juego rebajado.',
     cuando: '· ' + cuando(datos.actualizado) +
       ' · ' + (rebajados ? contar(rebajados, 'rebajado', 'rebajados')
@@ -194,22 +227,41 @@ function avisosDeSteam(datos) {
   const avisos = [];
 
   for (const juego of datos.juegos || []) {
-    for (const edicion of juego.ediciones || []) {
-      if (edicion.estado !== 'ok' || edicion.precio == null) continue;
-      if (edicion.objetivo == null || edicion.precio > edicion.objetivo) continue;
+    (juego.ediciones || []).forEach((edicion, i) => {
+      if (edicion.objetivo == null) return;
+
+      // La estandar se compara contra el precio mas bajo de hoy en CUALQUIER
+      // sitio: las demas tiendas venden ese mismo juego, asi que si ha llegado
+      // a tu precio en Fanatical, ha llegado.
+      //
+      // Las ediciones especiales siguen mirando solo a Steam, y no es un
+      // descuido: ITAD da el precio del JUEGO, no el de su Deluxe, asi que
+      // Steam es el unico sitio donde se sabe que lo que vale eso es
+      // exactamente esa edicion.
+      let sitio;
+      if (i === 0) {
+        const sitios = sitiosDeSteam(juego);
+        if (!sitios.length) return;
+        sitio = sitios.reduce((a, b) => (b.precio < a.precio ? b : a));
+      } else {
+        if (edicion.estado !== 'ok' || edicion.precio == null) return;
+        sitio = { donde: 'Steam', precio: edicion.precio,
+                  moneda: edicion.moneda };
+      }
+      if (sitio.precio > edicion.objetivo) return;
 
       // El nombre de la edicion solo se dice cuando no es la estandar: "Elden
       // Ring Estandar" suena a que hay algo que elegir donde no lo hay.
-      const cual = edicion.nombre === 'Estandar'
+      const cual = i === 0
         ? juego.nombre : `${juego.nombre} (${edicion.nombre})`;
       avisos.push({
         clase: 'cumplido',
         icono: '🎯',
         destino: 'steam.html',
-        texto: `${cual} esta a ${euros(edicion.precio, edicion.moneda)} en Steam: ` +
-               'ha llegado a tu precio.',
+        texto: `${cual} esta a ${euros(sitio.precio, sitio.moneda)} en ${
+          sitio.donde}: ha llegado a tu precio.`,
       });
-    }
+    });
   }
 
   return avisos;

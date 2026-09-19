@@ -796,6 +796,11 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
    las separe se leerian como una sola lista en la que unas filas llevan
    "Mas barato" y otras no, que parece un fallo. */
 .otras-tiendas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2px 14px;
   padding: 9px 20px;
   border-top: 1px solid var(--borde);
   background: color-mix(in srgb, var(--texto-suave) 7%, transparent);
@@ -804,6 +809,15 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+/* Cuanto ha llegado a costar el juego, dicho una vez y no en cada fila. Va sin
+   mayusculas ni negrita para que se lea como el dato que es y no como otro
+   titulo: el de al lado separa dos listas, este cuenta algo. */
+.otras-minimo {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 /* Las tiendas de las que no se saca precio: siguen a un clic, pero agrupadas
