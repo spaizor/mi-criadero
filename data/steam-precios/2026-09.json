@@ -544,12 +544,6 @@
           "precio": 59.99
         }
       ],
-      "Deluxe Edition": [
-        {
-          "cuando": "18-09-2026 16:40",
-          "precio": 69.99
-        }
-      ],
       "Digital Deluxe Edition": [
         {
           "cuando": "18-09-2026 16:40",
@@ -568,6 +562,24 @@
         {
           "cuando": "18-09-2026 16:40",
           "precio": 49.99
+        }
+      ]
+    },
+    "guardianes-de-la-noche-hinokami-2": {
+      "Estandar": [
+        {
+          "cuando": "19-09-2026 17:34",
+          "precio": 59.99
+        }
+      ],
+      "Deluxe Edition": [
+        {
+          "cuando": "18-09-2026 16:40",
+          "precio": 69.99
+        },
+        {
+          "cuando": "19-09-2026 17:34",
+          "precio": 69.99
         }
       ]
     }

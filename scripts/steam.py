@@ -29,7 +29,9 @@ Lo que NO hace, y no es un descuido:
     refrescarlo se hace a mano.
   - No hay precio objetivo todavia. Se anadira cuando el usuario pase su
     lista, y entonces sale casi gratis: la web ya sabe pintarlo en Ofertas.
-  - No consulta otras tiendas. Eso sera ITAD, mas adelante.
+  - Los precios de las demas tiendas no salen de aqui sino de
+    scripts/itad.py, y son opcionales: si ITAD falla, la pasada publica
+    igual con los precios de Steam y lo dice en el parte.
 """
 
 import argparse
@@ -227,6 +229,34 @@ def leer_catalogo():
             f"ERROR: estos juegos de {CATALOGO.name} no tienen 'appid': "
             f"{', '.join(sin_appid)}. El appid es el numero de la URL de la "
             "ficha, y sin el no se puede preguntar nada.")
+
+    # Dos juegos con el mismo 'id' es un fallo que no se ve, y por eso se
+    # comprueba: el id es la llave con la que se guarda el minimo historico, la
+    # serie del grafico y las demas tiendas, asi que dos juegos que lo
+    # compartan se pisan los datos entre ellos sin que nada falle.
+    #
+    # Paso de verdad: identificador() corta a 48 caracteres, y los dos
+    # "Guardianes de la Noche -Kimetsu no Yaiba- Las Cronicas de Hinokami"
+    # (el 1 y el 2) daban el mismo. Se vio el 19-09-2026 al montar ITAD, y ya
+    # llevaba un dia mezclando el minimo de uno con el del otro.
+    repetidos = {}
+    for juego in juegos:
+        ident = juego.get("id")
+        if ident:
+            repetidos.setdefault(ident, []).append(str(juego.get("appid")))
+    chocan = {k: v for k, v in repetidos.items() if len(v) > 1}
+    if chocan:
+        detalle = "; ".join(f"{k} <- appids {', '.join(v)}"
+                            for k, v in chocan.items())
+        raise SystemExit(
+            f"ERROR: en {CATALOGO.name} hay juegos distintos con el mismo "
+            f"'id': {detalle}. El id es la llave del minimo historico, de la "
+            "serie del grafico y de las demas tiendas, asi que compartirlo "
+            "hace que un juego herede los datos del otro sin que se note. "
+            "Suele pasar porque los dos nombres coinciden en los primeros 48 "
+            "caracteres. Ponle a mano un 'id' distinto a uno de ellos en el "
+            "catalogo: 'descubrir' solo lo rellena cuando falta, asi que no "
+            "te lo va a deshacer.")
     return datos, juegos
 
 
@@ -608,6 +638,47 @@ def registrar(nombre, precio, anterior, ahora, enlace, packageid=None,
     return registro
 
 
+# --------------------------------------------------------------------------
+# Las otras tiendas
+# --------------------------------------------------------------------------
+
+def otras_tiendas(catalogo):
+    """({id del juego: bloque de ITAD}, aviso) con las demas tiendas.
+
+    Nunca aborta la pasada, y eso es lo importante de esta funcion: los precios
+    de Steam son lo que sostiene la seccion y ITAD es lo que la mejora, asi que
+    un fallo suyo devuelve un aviso y la pasada sigue. Es la misma regla que
+    'enlaces_de_la_hermana()' en noticias.py, donde quedarse sin un medio entero
+    por un fallo de red se decidio que era peor que el problema que evitaba.
+
+    Por eso tambien el import va aqui dentro y no arriba: 'noticias.py vigilar'
+    importa este fichero, y un itad.py roto no puede llevarse por delante al
+    vigilante.
+    """
+    try:
+        import itad
+    except Exception as fallo:                      # noqa: BLE001
+        return {}, f"no se ha podido cargar scripts/itad.py ({fallo})"
+
+    ids = {j.get("id") or identificador(j.get("nombre", "")): j.get("itad")
+           for j in catalogo}
+    conocidos = sorted({v for v in ids.values() if v})
+    if not conocidos:
+        return {}, ("ningun juego del catalogo tiene 'itad'. Lanza "
+                    "'python3 scripts/steam.py descubrir' para resolverlos")
+
+    try:
+        por_itad = itad.tiendas_de(conocidos)
+    except itad.SinClave as fallo:
+        return {}, str(fallo)
+    except (urllib.error.HTTPError, urllib.error.URLError, OSError,
+            ValueError) as fallo:
+        return {}, f"ITAD no ha respondido ({fallo})"
+
+    return ({ident: por_itad[uuid] for ident, uuid in ids.items()
+             if uuid in por_itad}, None)
+
+
 def cmd_consultar(args):
     _, catalogo = leer_catalogo()
     ahora = datetime.now(ESPANA)
@@ -702,6 +773,24 @@ def cmd_consultar(args):
               "para no marcar todo el catalogo como viejo sin haber mirado.")
         return 1
 
+    # Las demas tiendas, que son un extra: si esto falla, lo de arriba se
+    # publica igual. Va despues del corte de MINIMO_PARA_PUBLICAR para no
+    # gastar una llamada a ITAD en una pasada que no se va a publicar.
+    otras, aviso = otras_tiendas(catalogo)
+    if aviso:
+        print(f"AVISO: {aviso}. Se publica con los precios de Steam y sin las "
+              "demas tiendas.")
+    con_tiendas = 0
+    for juego in juegos:
+        bloque = otras.get(juego["id"])
+        if not bloque:
+            continue
+        if bloque["tiendas"]:
+            juego["tiendas"] = bloque["tiendas"]
+            con_tiendas += 1
+        if bloque["minimo_itad"]:
+            juego["minimo_itad"] = bloque["minimo_itad"]
+
     escribir_json(SALIDA, {
         "seccion": "steam",
         "actualizado": ahora.strftime(FORMATO_FECHA_HORA),
@@ -717,7 +806,9 @@ def cmd_consultar(args):
 
     rebajados = sum(1 for j in juegos for e in j["ediciones"]
                     if e.get("estado") == OK and e.get("descuento"))
+    fuera = sum(len(j.get("tiendas", [])) for j in juegos)
     print(f"{len(juegos)} juegos, {con_precio} precios, {rebajados} rebajados. "
+          f"{fuera} ofertas de otras tiendas en {con_tiendas} juegos. "
           f"{nuevos} cambios anotados en la serie de {mes}.")
     return 0
 
@@ -770,6 +861,29 @@ def cmd_descubrir(args):
         if tiene:
             entrada["ediciones"] = tiene
         time.sleep(PAUSA)
+
+    # El id de ITAD, que es lo que permite preguntar por las demas tiendas. Va
+    # en una pasada aparte y con su propio try: si falta la clave o ITAD no
+    # responde, lo de arriba ya esta revisado y no tiene por que caerse con
+    # ello. Se resuelve una vez y se congela en el catalogo, igual que la lista
+    # de deseados: son 52 preguntas que devuelven siempre lo mismo.
+    faltan = [e for e in catalogo if not e.get("itad")]
+    if faltan:
+        try:
+            import itad
+            for entrada in faltan:
+                uuid = itad.resolver(entrada["appid"])
+                if uuid:
+                    entrada["itad"] = uuid
+                    cambios.append(f"{entrada['appid']}: itad -> {uuid}")
+                else:
+                    print(f"AVISO: ITAD no conoce el appid {entrada['appid']} "
+                          f"({entrada.get('nombre', '?')}). Ese juego saldra "
+                          "sin las demas tiendas; lo demas le funciona igual.")
+                time.sleep(itad.PAUSA)
+        except Exception as fallo:                  # noqa: BLE001
+            print(f"AVISO: no se han podido resolver los ids de ITAD "
+                  f"({fallo}). Lo demas del catalogo si se ha revisado.")
 
     if not cambios:
         print("El catalogo ya estaba al dia: nada que anadir.")
@@ -839,7 +953,35 @@ def cmd_probar(args):
             nombre = precio.get("nombre") if precio else "?"
             print(f"    {bundleid}  {importe:>14}  {nombre}")
 
-    print("\nPara el catalogo:")
+    # Las demas tiendas, para homologar un juego entero antes de meterlo. Si
+    # no hay clave se dice y ya: 'probar' sirve igual para lo de Steam.
+    MARCAS = {"H": "minimo historico", "N": "NUEVO minimo historico",
+              "S": "minimo de esta tienda"}
+    print()
+    try:
+        import itad
+        uuid = itad.resolver(appid)
+        if not uuid:
+            print("tiendas    ITAD no conoce este appid")
+        else:
+            suyo = itad.tiendas_de([uuid])[uuid]
+            print(f"tiendas    {len(suyo['tiendas'])}  (ya filtradas: en euros "
+                  "y de plataforma que se compra)")
+            for oferta in suyo["tiendas"]:
+                notas = [x for x in (oferta["plataforma"],
+                                     f"codigo {oferta['cupon']}"
+                                     if oferta["cupon"] else None,
+                                     MARCAS.get(oferta["marca"])) if x]
+                print(f"    {oferta['precio']:>8.2f} EUR  "
+                      f"{oferta['tienda']:<18} {', '.join(notas)}")
+            if suyo["minimo_itad"]:
+                print(f"    minimo de ITAD (todas sus tiendas, tambien las que "
+                      f"aqui no se publican): {suyo['minimo_itad']}")
+    except Exception as fallo:                      # noqa: BLE001
+        print(f"tiendas    no se han podido leer ({fallo})")
+
+    print()
+    print("Para el catalogo:")
     bloque = {"id": identificador(ficha.get("name", "")),
               "nombre": ficha.get("name"), "appid": appid,
               "enlace": FICHA.format(appid)}

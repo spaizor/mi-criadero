@@ -108,10 +108,21 @@ jobs:
       # por IP y el runner comparte la suya con mucha gente.
       - name: Probar una ficha suelta
         if: inputs.probar != ''
+        env:
+          ITAD_API_KEY: ${{ secrets.ITAD_API_KEY }}
         run: python3 scripts/steam.py probar "${{ inputs.probar }}"
 
+      # La clave de ITAD, que es lo que trae los precios de las demas tiendas.
+      # Va aqui y no en el 'env' del job para que solo la vean los dos pasos
+      # que la necesitan, y NUNCA en el repositorio, que es publico.
+      #
+      # Si falta, esto no se cae: la pasada publica los precios de Steam y lo
+      # dice en el parte. O sea que el dia que la clave caduque se vera en el
+      # log una linea de AVISO y la seccion seguira en pie, no en blanco.
       - name: Consultar precios
         if: steps.guardia.outputs.trabajar == 'si'
+        env:
+          ITAD_API_KEY: ${{ secrets.ITAD_API_KEY }}
         run: python3 scripts/steam.py consultar
 
       - name: Contar precios frescos
