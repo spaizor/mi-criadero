@@ -3,6 +3,125 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Qwen 3.8 Omni Flash rivaliza con Gemini Flash de Google a una fracción del precio",
+      "fuente": "The Decoder",
+      "fecha": "19-09-2026 16:30",
+      "enlace": "https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks/",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "Gemini de Google hackeó accidentalmente tres empresas reales durante pruebas de seguridad",
+      "fuente": "The Decoder",
+      "fecha": "19-09-2026 11:31",
+      "enlace": "https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing/",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "Vals busca convertirse en el estándar de evaluación de modelos de IA",
+      "fuente": "TechCrunch",
+      "fecha": "19-09-2026 15:00",
+      "enlace": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "El debate sobre seguridad de IA se vuelve cada vez más especulativo",
+      "fuente": "TechCrunch",
+      "fecha": "19-09-2026 17:00",
+      "enlace": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "El boom de IA generará entre 395 y 617 millones de toneladas de residuos electrónicos hacia 2050",
+      "fuente": "The Register",
+      "fecha": "19-09-2026 15:30",
+      "enlace": "https://www.theregister.com/off-prem/2026/09/19/ai-boom-could-leave-an-e-waste-trail-that-wraps-6-times-around-earth/5297451",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "¿Necesita IA una exención antimonopolio para que no mate a todos?",
+      "fuente": "The Verge",
+      "fecha": "19-09-2026 16:00",
+      "enlace": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "Unity lanza plugins oficiales para Claude Code y OpenAI Codex para que agentes eviten tutoriales desactualizados",
+      "fuente": "The Decoder",
+      "fecha": "19-09-2026",
+      "enlace": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "La conferencia de IA ICLR se ahoga en resúmenes con aproximadamente 50.000 envíos antes del plazo",
+      "fuente": "The Decoder",
+      "fecha": "19-09-2026",
+      "enlace": "https://the-decoder.com/ai-conference-iclr-is-drowning-in-abstracts-with-roughly-50000-submissions-before-the-deadline/",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "Google Deepmind's Dream-RSI ayuda a agentes de IA a mejorar «soñando» sobre intentos pasados",
+      "fuente": "The Decoder",
+      "fecha": "19-09-2026",
+      "enlace": "https://the-decoder.com/google-deepminds-dream-rsi-helps-ai-agents-improve-by-dreaming-about-past-attempts/",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "Olvida la desaceleración de IA: la explosión de vulnerabilidades ya está ocurriendo",
+      "fuente": "Wired",
+      "fecha": "19-09-2026",
+      "enlace": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "Los matemáticos odian la IA. No pueden dejarla",
+      "fuente": "Wired",
+      "fecha": "19-09-2026",
+      "enlace": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "Las conversaciones de seguridad de la IA no han terminado",
+      "fuente": "The Verge",
+      "fecha": "19-09-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "La IA no genera videos sueltos: en China acaba de producir una serie entera",
+      "fuente": "Xataka",
+      "fecha": "19-09-2026",
+      "enlace": "https://www.xataka.com/cine-y-tv/ia-no-solo-genera-videos-sueltos-china-acaba-producir-serie-entera",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "La IA está creando millonarios a un ritmo frenético en Silicon Valley. El problema es que muchos no saben qué hacer con su dinero",
+      "fuente": "Xataka",
+      "fecha": "19-09-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/ia-esta-creando-millonarios-a-ritmo-frenetico-silicon-valley-problema-que-muchos-no-saben-que-hacer-su-dinero",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "La IA está sacando a la luz todas las vergüenzas de Linux y los desarrolladores están absolutamente desbordados",
+      "fuente": "ComputerHoy",
+      "fecha": "19-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/ia-esta-sacando-luz-todas-las-vergueenzas-linux-los-desarrolladores-estan-absolutamente-desbordados-se-ha-vuelto-practicamente-inmanejable_7032365_0.html",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "Este malware para Android utiliza inteligencia artificial para controlar móviles infectados",
+      "fuente": "ComputerHoy",
+      "fecha": "19-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/este-malware-para-android-utiliza-inteligencia-artificial-para-controlar-moviles-infectados_7038818_0.html",
+      "turno": "2026-09-19_T"
+    },
+    {
+      "titulo": "ChatGPT ya se puede usar en Word y estrena nuevas funciones que cambian la forma de trabajar con la IA",
+      "fuente": "ComputerHoy",
+      "fecha": "19-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/chatgpt-ya-se-puede-usar-word-estrena-nuevas-funciones-que-cambian-forma-trabajar-con-ia_7038791_0.html",
+      "turno": "2026-09-19_T"
+    },
+    {
       "titulo": "Alucinación de IA casi desencadena operación militar de EE.UU. contra China",
       "fuente": "TechCrunch",
       "fecha": "19-09-2026 01:12",
