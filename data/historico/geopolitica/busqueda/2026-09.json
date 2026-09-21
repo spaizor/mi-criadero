@@ -3,6 +3,237 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Irán advierte a EE.UU. de ataques «dolorosos» contra sus bases si repite la agresión",
+      "fuente": "teleSUR",
+      "fecha": "21-09-2026 05:07",
+      "enlace": "https://www.telesurtv.net/iran-a-eeuu-ataque-mas-amplia-si-hay-agresion/",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "La Administración Trump prepara sanciones generalizadas contra la Corte Penal Internacional",
+      "fuente": "Al Jazeera",
+      "fecha": "21-09-2026 03:19",
+      "enlace": "https://www.aljazeera.com/news/2026/9/21/trump-administration-readies-sweeping-sanctions-against-icc-reports-say?traffic_source=rss",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Los hutíes declaran un «bloqueo por bloqueo» contra Arabia Saudí y aseguran que no atacarán a EE.UU.",
+      "fuente": "Middle East Eye",
+      "fecha": "20-09-2026 23:35",
+      "enlace": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-declare-blockade-blockade-saudi-assure-us-ships-are-safe",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Rusia Unida encabeza las elecciones a la Duma con el 57,5% de los votos escrutados",
+      "fuente": "TASS",
+      "fecha": "21-09-2026 03:39",
+      "enlace": "https://tass.com/politics/2190373",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "El canciller alemán Merz, bajo presión tras dos derrotas electorales regionales",
+      "fuente": "CNA",
+      "fecha": "21-09-2026 04:57",
+      "enlace": "https://www.channelnewsasia.com/world/german-chancellor-friedrich-merz-state-election-losses-6398601",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "China y EE.UU. reanudan las consultas comerciales antes de la cumbre entre Xi y Trump",
+      "fuente": "CGTN",
+      "fecha": "20-09-2026 14:01",
+      "enlace": "https://news.cgtn.com/news/2026-09-20/Explainer-Where-do-China-US-economic-and-trade-ties-stand--1QAW6R8DWda/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Europa afronta «la peor crisis energética de su historia», según el enviado de Putin",
+      "fuente": "RT",
+      "fecha": "20-09-2026 14:58",
+      "enlace": "https://www.rt.com/news/646004-eu-worst-energy-crisis-dmitriev/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Macron y Carney acuerdan estrechar la cooperación transatlántica en una cumbre histórica",
+      "fuente": "TRT World",
+      "fecha": "21-09-2026 02:23",
+      "enlace": "https://www.trtworld.com/article/ff0ffeca54cd",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Trump se muestra abierto a un encuentro con el iraní Pezeshkian al margen de la ONU",
+      "fuente": "teleSUR English",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.telesurenglish.net/trump-signals-openness-to-un-sidelines-meeting-with-irans-pezeshkian/",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Países árabes condenan la incursión «provocadora» de Ben Gvir en la explanada de Al-Aqsa",
+      "fuente": "TRT World",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.trtworld.com/article/1154b2923121",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Un nuevo partido se perfila como favorito en las elecciones israelíes mientras cae el apoyo a Netanyahu",
+      "fuente": "The Hindu",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.thehindu.com/news/international/new-party-emerges-as-a-frontrunner-as-israel-goes-to-polls-amid-netanyahus-waning-appeal/article71488057.ece",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "El ministro paquistaní Naqvi viaja a Irán para conversaciones tras conocerse las condiciones sobre el estrecho de Ormuz",
+      "fuente": "Dawn",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.dawn.com/news/2031448/naqvi-due-in-iran-for-talks-as-hormuz-terms-conveyed",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Egipto califica de «ilegítima» la Gran Presa del Renacimiento etíope y se reserva el derecho a actuar",
+      "fuente": "TRT World",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.trtworld.com/article/9f724b2bc1f9",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Una tribu filipina promete resistir al proyecto «Pax Silica» liderado por EE.UU.: «escúchennos»",
+      "fuente": "SCMP",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.scmp.com/news/asia/southeast-asia/article/3368189/philippine-tribe-vows-stand-ground-against-us-led-pax-silica-listen-us?utm_source=rss_feed",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Corea del Sur se ofrece a cubrir el déficit de combustible de aviación de Europa",
+      "fuente": "SCMP",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.scmp.com/news/asia/east-asia/article/3368183/south-korea-steps-plug-europes-jet-fuel-deficit?utm_source=rss_feed",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Un general alemán, elegido para el máximo puesto militar de la OTAN",
+      "fuente": "RT",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.rt.com/news/646008-german-general-nato-post/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Catar afirma que hay esfuerzos de mediación en marcha para reactivar las conversaciones entre EE.UU. e Irán",
+      "fuente": "TRT World",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.trtworld.com/article/86bc954405ec",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Francia convocará al embajador de Irán tras el cierre de un centro cultural francés en Teherán",
+      "fuente": "Al Jazeera",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.aljazeera.com/news/2026/9/20/france-to-summon-iran-envoy-after-language-centre-closure-in-tehran?traffic_source=rss",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Investigan en México la presunta filtración de millones de registros de usuarios de una aerolínea",
+      "fuente": "Sputnik Mundo",
+      "fecha": "21-09-2026",
+      "enlace": "https://noticiaslatam.lat/20260920/investigan-en-mexico-la-presunta-filtracion-de-millones-de-registros-de-usuarios-de-una-aerolinea-1175133344.html",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Primer ministro Fico afirma que Eslovaquia no participará en guerra contra Rusia",
+      "fuente": "teleSUR",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.telesurtv.net/primer-ministro-eslovaquia-no-guerra-rusia/",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Changchun, China, preserva memoria histórica e identidad cultural",
+      "fuente": "Prensa Latina",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.prensa-latina.cu/2026/09/20/changchun-china-preserva-memoria-historica-e-identidad-cultural/",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Cae aprobación del presidente chileno Kast a su nivel más bajo desde que asumió el cargo",
+      "fuente": "Sputnik Mundo",
+      "fecha": "21-09-2026",
+      "enlace": "https://noticiaslatam.lat/20260920/cae-aprobacion-del-presidente-chileno-kast-a-su-nivel-mas-bajo-desde-que-asumio-el-cargo-1175133212.html",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Sheinbaum ratifica principios de justicia, libertad y soberanía: «Injerencia extranjera genera violencia»",
+      "fuente": "teleSUR",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.telesurtv.net/sheinbaum-injerencia-genera-violencia/",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Anuncian despliegue de Gabinete de Gobierno en estado mexicano",
+      "fuente": "Prensa Latina",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.prensa-latina.cu/2026/09/20/anuncian-despliegue-de-gabinete-de-gobierno-en-estado-mexicano/",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Estiman que Gobierno de EEUU emita hasta un billón de dólares en endeudamiento a corto plazo",
+      "fuente": "Sputnik Mundo",
+      "fecha": "21-09-2026",
+      "enlace": "https://noticiaslatam.lat/20260920/estiman-que-gobierno-de-eeuu-emita-hasta-un-billon-de-dolares-en-endeudamiento-a-corto-plazo-1175133100.html",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Bolivia: federaciones del Trópico anuncian protestas contra «dieselazo» de Rodrigo Paz",
+      "fuente": "teleSUR",
+      "fecha": "21-09-2026",
+      "enlace": "https://www.telesurtv.net/bolivia-federacion-tropico-protesta-dieselazo/",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "La República Turca del Norte de Chipre pide a la comunidad internacional que reafirme su igualdad soberana",
+      "fuente": "Anadolu",
+      "fecha": "20-09-2026",
+      "enlace": "https://www.aa.com.tr/en/world/turkish-republic-of-northern-cyprus-urges-global-communitiy-to-reaffirm-sovereign-equality-equal-international-status/4062736",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Un enviado de EE.UU. subraya la rivalidad en IA con China y advierte contra limitar la innovación propia",
+      "fuente": "Anadolu",
+      "fecha": "20-09-2026",
+      "enlace": "https://www.aa.com.tr/en/americas/us-envoy-highlights-ai-rivalry-with-china-warns-against-domestic-innovation-caps/4062699",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Comienza el ejercicio naval «Sea Wolf» en medio de las tensiones entre Grecia y Turquía",
+      "fuente": "Daily Sabah",
+      "fecha": "20-09-2026",
+      "enlace": "https://www.dailysabah.com/politics/sea-wolf-maritime-drill-begins-amid-tensions-between-greece-turkiye/news",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "El jefe de la Comisión de la Unión Africana llega a Nueva York para impulsar las prioridades africanas en la ONU",
+      "fuente": "CGTN",
+      "fecha": "20-09-2026",
+      "enlace": "https://newsaf.cgtn.com/news/2026-09-20/AUC-chief-arrives-in-New-York-to-advance-Africa-s-priorities-at-UNGA-1QANDZoRoQg/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Israel borra los antecedentes penales de un soldado que disparó contra un palestino herido",
+      "fuente": "RT",
+      "fecha": "20-09-2026",
+      "enlace": "https://www.rt.com/news/646003-idf-soldier-criminal-record/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Libia pide a la Corte Penal Internacional apoyo para investigar ataques contra instalaciones civiles",
+      "fuente": "CGTN",
+      "fecha": "20-09-2026",
+      "enlace": "https://newsaf.cgtn.com/news/2026-09-20/Libya-asks-ICC-to-support-probe-into-attacks-on-civilian-facilities-1QAMKovdlle/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+      "turno": "2026-09-21_M"
+    },
+    {
+      "titulo": "Uganda suspende la cooperación militar con Turquía en medio de tensiones políticas",
+      "fuente": "Africanews",
+      "fecha": "20-09-2026",
+      "enlace": "http://www.africanews.com/2026/09/20/uganda-suspends-military-cooperation-with-turkey-amid-political-tensions/",
+      "turno": "2026-09-21_M"
+    },
+    {
       "titulo": "El Kremlin advierte de que la nueva ley de sanciones de EE.UU. perjudica los esfuerzos de paz en Ucrania",
       "fuente": "RT",
       "fecha": "20-09-2026 02:16",
