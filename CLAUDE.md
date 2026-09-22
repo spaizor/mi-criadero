@@ -871,7 +871,7 @@ otra con Chromium. Medido el 10-08-2026 desde el runner:
 |---|---|---|---|
 | GAME | 59,99 EUR | 59,99 EUR | si, sin navegador |
 | MediaMarkt | 403 | **50,99 EUR** | si, con `navegador` |
-| PcComponentes | 403 | **50,99 EUR** (403 en 1 de 3) | si, con `navegador` |
+| PcComponentes | 403 | **50,99 EUR** (403 en 1 de 3) | ya no, ver abajo |
 | Xtralife | pagina sin precio | **52,95 EUR** | si, con `navegador` |
 | Carrefour | 403 | **50,99 EUR** | si, con `navegador` |
 | El Corte Ingles, Fnac | 403 | 403 | no |
@@ -881,6 +881,48 @@ minuto, distinto resultado: eso descarta la IP como explicacion. La leccion
 util es que un 403 mide *como* pides, no si te dejan; antes de descartar una
 tienda hay que repetir con `--navegador`. De las cinco descartadas con la
 teoria vieja, Carrefour cayo a la primera.
+
+#### Y sin embargo PcComponentes si era la IP, dos anos despues
+
+**Esto no deshace lo de arriba, lo acota**, y hay que leer las dos cosas juntas
+para no volver a equivocarse en ninguna de las dos direcciones. El 10-08-2026 la
+IP no era la explicacion, y se demostro. El **10-09-2026** PcComponentes empezo a
+dar 403 en sus 8 fichas y dejo de darlo **nunca mas**: 12 dias y unas 24 pasadas
+sin una sola excepcion, o sea ya no el 403 intermitente que documenta
+`Navegador.html()`.
+
+Medido el 22-09-2026 separando las dos variables que quedaban, y sale redondo:
+
+| | Portada | Ficha en frio | Calentando la portada |
+|---|---|---|---|
+| **Runner**, urllib | 403 | 403 | — |
+| **Runner**, Chromium de Playwright | 403 | 403 · 403 · 403 | 403 |
+| **Runner**, Chrome de verdad | 403 | 403 · 403 · 403 | 403 |
+| **PC de casa**, Chromium de Playwright | 200 | **200 · 200 · 200, con precio** | 403 |
+
+Mismo dia, mismo codigo, misma receta. Tres cosas que deja esto:
+
+- **El corte sigue siendo la portada**, el mismo que fijo gg.deals: el 403 llega
+  con `<title>Just a moment...</title>` y `challenges.cloudflare.com`, o sea un
+  challenge, y ahi ya no es el modo de pedir. Saltarlo seria evadir una
+  deteccion, que es la linea que este proyecto se puso con Amazon.
+- **Cambiar de canal no solo no arregla: rompe lo que funciona.** En la misma
+  medicion, el control de Carrefour dio **200 con el Chromium de Playwright y
+  403 con Chrome de verdad**. Si algun dia se piensa en `channel="chrome"`,
+  esto dice que no.
+- **La receta en frio sigue siendo la buena.** Calentarle la portada le da 403
+  tambien desde casa, igual que el 13-08-2026, asi que `Navegador._contexto()`
+  esta bien como esta.
+
+Asi que desde el 22-09-2026 esta con `solo_enlace`, como El Corte Ingles. **Y sin
+su ultimo precio**: de los 8 congelados el 09-09, tres ya eran falsos trece dias
+despues (Octopath 26,99 cuando eran 33,99), y un precio que no se va a refrescar
+nunca envejece hacia la mentira por mucho que lleve la fecha al lado.
+
+Lo que esto ensena para la proxima tienda que caiga es a **distinguir el fallo
+que se repite del que persiste**. Un 403 suelto, o 12 de 14, mide como pides. Un
+403 que no falla ni una vez en semanas y que alcanza a la portada es otra cosa, y
+la forma de saber cual es la de siempre aqui: pedir lo mismo desde dos sitios.
 
 **El Corte Ingles y Fnac si estan cerradas de verdad**: 403 en local y en el
 runner con Chromium, y eso ya es tras los tres reintentos. Ahi hay deteccion
@@ -1117,6 +1159,16 @@ la que se viene es cuanto ha costado el juego. Dos detalles que costaron:
   Mario RPG arrancaba en 56,12 y caia a 39,99 en el mismo minuto, solo porque en
   el primer evento aun no se conocian las demas tiendas. Lo caza una simulacion
   de la serie, no la vista.
+- **Una tienda que se deja de consultar no puede seguir marcando el minimo.**
+  La serie no caduca (cada tienda mantiene su ultimo precio hasta el punto
+  siguiente) y `ultimosDias()` mete ese valor dentro de la ventana por antiguo
+  que sea, asi que PcComponentes habria dibujado su 50,99 de agosto para
+  siempre. `serieDelMinimo()` acepta desde el 22-09-2026 un segundo argumento
+  con las tiendas vigentes, que son las que no estan en `enlace`. **Las `viejo`
+  si cuentan**: esas se siguen mirando y no respondieron hoy, que es justo
+  cuando el ultimo precio conocido es la mejor referencia. Y **no se borra nada
+  de la serie**, porque aquellos precios fueron ciertos: lo que deja de valer es
+  darlos por vigentes. Steam la llama sin ese argumento y no cambia.
 - **El objetivo solo se dibuja en el grafico si cae dentro de lo que ha valido.**
   Con un objetivo un 40% por debajo, meterlo en la escala aplastaria la linea
   contra el techo y no se veria ningun movimiento.

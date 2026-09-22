@@ -127,9 +127,36 @@ function aFecha(cuando) {
   return new Date(`${t[3]}-${t[2]}-${t[1]}T${t[4] || '00'}:${t[5] || '00'}:00`);
 }
 
-function serieDelMinimo(porTienda) {
+// Las tiendas que se siguen consultando, o sea todas menos las de 'enlace',
+// que son las que no se consultan solas (Amazon por norma suya, El Corte
+// Ingles y Fnac porque no responden, PcComponentes desde el 22-09-2026).
+function tiendasVigentes(producto) {
+  return new Set((producto.precios || [])
+    .filter((p) => p.estado !== 'enlace')
+    .map((p) => p.tienda));
+}
+
+// 'vigentes' es opcional: si se pasa, solo cuentan esas tiendas. Hace falta
+// porque la serie NO caduca: cada tienda mantiene su ultimo precio hasta que
+// cambia, y ultimosDias() lo mete dentro de la ventana por antiguo que sea.
+// Asi que una tienda que se deja de consultar seguiria marcando el minimo con
+// un precio congelado para siempre, y eso no se corrige solo nunca.
+//
+// Paso el 22-09-2026 con PcComponentes: desde el runner devuelve 403 con
+// challenge de Cloudflare hasta en la portada, asi que se bajo a 'solo_enlace'
+// y sus puntos se quedaron parados en agosto. Se filtra por lo que dice el
+// JSON de hoy y no se borra nada de la serie, porque aquellos precios fueron
+// ciertos: lo que deja de valer es darlos por vigentes.
+//
+// Ojo, las tiendas en estado 'viejo' SI cuentan: esas se siguen consultando y
+// es que no respondieron esta vez, que es justo cuando el ultimo precio
+// conocido es la mejor referencia que hay. Solo se caen las que ya nadie mira.
+//
+// Steam la llama sin este argumento y se comporta igual que antes.
+function serieDelMinimo(porTienda, vigentes) {
   const eventos = [];
   for (const [tienda, puntos] of Object.entries(porTienda || {})) {
+    if (vigentes && !vigentes.has(tienda)) continue;
     for (const punto of puntos) {
       const momento = aFecha(punto.cuando);
       if (momento) eventos.push({ t: +momento, tienda, precio: punto.precio });
@@ -271,7 +298,8 @@ function pintarProducto(producto, series) {
   const deHoy = validos.length ? Math.min(...validos.map((p) => p.precio)) : null;
   const objetivo = pintarObjetivo(producto.objetivo, deHoy, moneda);
   const grafico = pintarGrafico(
-    ultimosDias(serieDelMinimo((series || {})[producto.id]), DIAS_GRAFICO),
+    ultimosDias(serieDelMinimo((series || {})[producto.id], tiendasVigentes(producto)),
+                DIAS_GRAFICO),
     producto.objetivo, moneda);
   const importe = cabecera
     ? `${cabecera.esDeHoy ? '' : '<span class="cab-nota">no es de hoy</span>'}

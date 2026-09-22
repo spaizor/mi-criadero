@@ -13,7 +13,7 @@
     "tiendas_comprobadas_el_10-08-2026": {
       "GAME": "Si, con urllib y desde el runner. Publica un bloque Product con AggregateOffer. No necesita navegador.",
       "MediaMarkt": "Si, con 'navegador': true. Da 403 a urllib y precio a Chromium desde la misma IP: filtra el parecer un script, no la direccion. Tres pasadas, mismo precio.",
-      "PcComponentes": "Si, con 'navegador': true. Escribe el @type en minuscula, por eso hubo que dejar de exigir 'Product' exacto. Dio 403 en una de tres pasadas, asi que se reintenta.",
+      "PcComponentes": "YA NO, desde el 10-09-2026: 'solo_enlace': true. Sirvio hasta entonces con 'navegador': true, y sigue sirviendo desde un PC de casa, pero desde el runner devuelve 403 con challenge de Cloudflare ('Just a moment...') hasta en la PORTADA, que es el corte a partir del cual no es el modo de pedir. Medido el 22-09-2026 con las dos variables separadas: urllib, Chromium y Chrome de verdad, ficha y portada, en frio y calentada, las seis 403; ese mismo dia, desde local y con este mismo codigo, las 8 fichas dieron 200 y precio. O sea que lo que filtra es la IP del runner, y saltarse el challenge seria evadir una deteccion. Escribe el @type en minuscula, por eso hubo que dejar de exigir 'Product' exacto.",
       "Xtralife": "Si, con 'navegador': true. Monta el bloque Product con JavaScript, asi que a urllib le llega la pagina sin precio. Ojo: el dominio es .com, el .es es otro sitio.",
       "Carrefour": "Si, con 'navegador': true. Estaba descartada por la teoria vieja; con Chromium da precio en local y en el runner.",
       "El Corte Ingles": "No se puede consultar: 403 en local y en el runner INCLUSO con navegador, y eso ya es tras los tres reintentos. Ahi hay deteccion mas alla del User-Agent. Aun asi esta en el catalogo con 'solo_enlace': true, para tener el enlace a mano aunque nunca traiga precio.",
@@ -28,7 +28,7 @@
       "nombre": "Nombre del juego tal cual se quiere ver en la web.",
       "plataforma": "Consola o formato, para distinguir ediciones.",
       "tiendas": "Lista de fichas. 'tienda' es el nombre que se muestra; 'url' la ficha exacta.",
-      "navegador": "Opcional. Abre la ficha con Chromium en vez de con urllib. Lo necesitan las tiendas que rechazan a los scripts (MediaMarkt, PcComponentes) y las que montan el precio con JavaScript (Xtralife). Cuesta unos segundos por ficha, asi que no se pone a las que no lo piden.",
+      "navegador": "Opcional. Abre la ficha con Chromium en vez de con urllib. Lo necesitan las tiendas que rechazan a los scripts (MediaMarkt, Carrefour) y las que montan el precio con JavaScript (Xtralife). Que sea el Chromium de Playwright y no Chrome de verdad no da igual: medido el 22-09-2026 en el runner, Carrefour da 200 con Chromium y 403 con Chrome, asi que cambiar de canal rompe lo que funciona. Cuesta unos segundos por ficha, asi que no se pone a las que no lo piden.",
       "cuota": "Opcional, con la forma { \"meses\": 24 }. Para tiendas cuyo bloque Product publica la cuota mensual de una financiacion, sin IVA, en vez del precio del producto (Orange). El script reconstruye el contado multiplicando por el IVA y por los meses, y marca el precio como estimado para que la web lo avise. El plazo NO viene en la ficha: se pone aqui.",
       "solo_enlace": "Opcional. La tienda no se consulta pero se queda en la web con su enlace y, si alguna vez se le saco, su ultimo precio conocido fechado. Para tiendas que no responden ni con navegador y que aun asi interesa tener a un clic. Puede no haber tenido precio nunca: la web pinta 'Ver en la tienda' y ya."
     },
@@ -54,7 +54,7 @@
         {
           "tienda": "PcComponentes",
           "url": "https://www.pccomponentes.com/star-fox-nintendo-switch-2",
-          "navegador": true
+          "solo_enlace": true
         },
         {
           "tienda": "Xtralife",
@@ -108,7 +108,7 @@
         {
           "tienda": "PcComponentes",
           "url": "https://www.pccomponentes.com/the-adventures-of-elliot-the-millennium-tales-switch-2",
-          "navegador": true
+          "solo_enlace": true
         },
         {
           "tienda": "Xtralife",
@@ -162,7 +162,7 @@
         {
           "tienda": "PcComponentes",
           "url": "https://www.pccomponentes.com/yoshi-and-the-mysterious-book-switch-2",
-          "navegador": true
+          "solo_enlace": true
         },
         {
           "tienda": "Xtralife",
@@ -216,7 +216,7 @@
         {
           "tienda": "PcComponentes",
           "url": "https://www.pccomponentes.com/mario-luigi-conexion-fraternal-nintendo-switch",
-          "navegador": true
+          "solo_enlace": true
         },
         {
           "tienda": "Xtralife",
@@ -270,7 +270,7 @@
         {
           "tienda": "PcComponentes",
           "url": "https://www.pccomponentes.com/super-mario-rpg-nintendo-switch",
-          "navegador": true
+          "solo_enlace": true
         },
         {
           "tienda": "Xtralife",
@@ -317,7 +317,7 @@
         {
           "tienda": "PcComponentes",
           "url": "https://www.pccomponentes.com/octopath-traveler-ii-nintendo-switch",
-          "navegador": true
+          "solo_enlace": true
         },
         {
           "tienda": "Xtralife",
@@ -364,7 +364,7 @@
         {
           "tienda": "PcComponentes",
           "url": "https://www.pccomponentes.com/luigis-mansion-3-nintendo-switch",
-          "navegador": true
+          "solo_enlace": true
         },
         {
           "tienda": "Xtralife",
@@ -411,7 +411,7 @@
         {
           "tienda": "PcComponentes",
           "url": "https://www.pccomponentes.com/juegos-nintendo-switch-2-pokemon-legends-za-nintendo-switch-2-edition",
-          "navegador": true
+          "solo_enlace": true
         },
         {
           "tienda": "Xtralife",
