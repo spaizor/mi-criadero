@@ -851,6 +851,54 @@ para el resto del fichero: **un `if` sobre la salida de un paso que puede
 saltarse tiene que mirar tambien si el paso corrio**, porque en GitHub vacio y
 cero valen igual.
 
+### `precios.py tiendas`: la tienda que se cierra ella sola
+
+El aviso de arriba solo salta cuando no responde **ninguna** tienda, asi que la
+que se cierra ella sola no pone nada en rojo: sus precios se quedan marcados
+como `viejo`, la web los pinta con su fecha al lado y no se entera nadie.
+PcComponentes estuvo asi **doce dias**, del 10 al 22-09-2026, y lo que lo
+descubrio fue que alguien se puso a mirar, que es justo lo que un vigilante
+existe para no tener que hacer. Es el tercer fallo mudo de esta seccion,
+despues del cron que no dispara y del cuelgue de Playwright, y va por el mismo
+sitio: el job falla y GitHub manda el correo.
+
+**El umbral esta medido, no elegido**, sobre las 107 pasadas publicadas entre el
+08-08 y el 22-09-2026:
+
+| Tienda | Racha mas larga sin un solo precio |
+|---|---|
+| Orange | nunca fallo una pasada |
+| Carrefour, GAME, Xtralife | 1 pasada (0,0 dias) |
+| MediaMarkt | 2 pasadas (0,2 dias) |
+| **PcComponentes al cerrarse** | **29 pasadas (11,9 dias)** |
+
+Entre el bache normal y la averia hay **dos ordenes de magnitud**, o sea que
+cualquier corte intermedio vale y el numero no es delicado. Se eligen **7 dias**
+(`DIAS_SIN_PRECIO`) porque con eso no salta ni una falsa alarma en el historico
+entero ni aunque una tienda pase un fin de semana caida, y aun asi PcComponentes
+habria avisado el 17-09, cinco dias antes de que se viera a mano.
+
+Cuatro cosas del comando:
+
+- **Va por ficha, aunque el mensaje se agrupe por tienda.** Asi caza tambien la
+  ficha suelta que se queda atras porque la tienda retiro el producto o le
+  cambio la URL, que es el mismo agujero en pequeno.
+- **No mira los `nuevo`**, o sea las fichas que no han dado precio jamas: no
+  traen fecha desde la que contar, y se ven solas en el parte del dia en que se
+  anaden, que es cuando se esta mirando. Por eso PcComponentes salia como 7
+  fichas y no 8: la de Leyendas Pokemon Z-A nunca llego a dar precio.
+- **El texto del error dice que mirar y en que orden**, que es donde viven las
+  explicaciones largas en este proyecto: del 403 que mide *como* pides, a
+  repetir la ficha desde un PC de casa, a bajarla a `solo_enlace`. Solo se
+  pagan el dia que algo falla.
+- **El aviso vuelve a salir cada dia hasta que se arregle o se baje la tienda, y
+  eso es a proposito.** Aqui no vale el truco de la ventana de `estado`, porque
+  esto no caduca: mientras no se haga ninguna de las dos cosas sigue siendo
+  verdad, y la accion que lo calla es justamente la decision que hay que tomar.
+- En el workflow los dos avisos llevan **`!cancelled()`**: son averias distintas
+  y ninguno puede quedarse sin salir porque el otro haya puesto el job en rojo
+  antes. Y los dos siguen exigiendo que `salud` corriera, por lo del 28-08-2026.
+
 El precio **no se saca leyendo la pagina**, sino del bloque `schema.org/Product`
 que las tiendas incrustan para Google. Las dos formas conviven y hay que cubrir
 las dos: GAME lo publica en una etiqueta `<script type="application/ld+json">`

@@ -168,8 +168,27 @@ jobs:
       #
       # Si lo que falla es 'consultar', este paso tambien se salta y no hace
       # falta que avise: ese job ya esta en rojo por su cuenta.
+      # El tercer fallo mudo, y el que quedaba. El paso de abajo solo salta
+      # cuando no responde NINGUNA tienda, asi que una que se cierre ella sola
+      # no pone nada en rojo: sus precios se quedan como viejos, la web los
+      # pinta con su fecha y ya esta. PcComponentes estuvo asi del 10 al
+      # 22-09-2026, doce dias, y lo que lo descubrio fue que alguien miro.
+      #
+      # Corre aunque el paso anterior haya fallado, porque las dos averias
+      # pueden darse a la vez y la segunda no puede tapar a la primera. Lo que
+      # si se exige es que la pasada haya llegado a consultar: si el guardia
+      # decidio que no tocaba, 'salud' se salta y aqui no hay nada nuevo que
+      # mirar. Es la misma cautela que el paso de abajo aprendio el 28-08-2026,
+      # cuando '' == '0' le hizo gritar sin haber abierto una sola ficha.
+      - name: Avisar de las tiendas que llevan dias sin precio
+        if: ${{ !cancelled() && steps.salud.outcome == 'success' }}
+        run: python3 scripts/precios.py tiendas
+
       - name: Avisar si no ha entrado ningun precio
-        if: steps.salud.outcome == 'success' && steps.salud.outputs.ok == '0'
+        # El !cancelled() es por lo mismo que arriba: los dos avisos son de
+        # averias distintas y ninguno puede quedarse sin salir porque el otro
+        # haya saltado antes y puesto el job en rojo.
+        if: ${{ !cancelled() && steps.salud.outcome == 'success' && steps.salud.outputs.ok == '0' }}
         run: |
           echo "Ninguna tienda ha respondido: ${{ steps.salud.outputs.total }} consultas, 0 precios."
           echo "Si se repite, las tiendas estan bloqueando la IP del runner y esta via no sirve."

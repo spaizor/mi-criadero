@@ -49,6 +49,19 @@ OK, VIEJO, NUEVO = "ok", "viejo", "nuevo"
 # mirar el precio el mismo, en vez de perder la tienda de vista.
 ENLACE = "enlace"
 
+# Dias que puede llevar una ficha sin dar precio antes de que se avise. El
+# numero esta medido, no elegido: sobre las 107 pasadas publicadas entre el
+# 08-08 y el 22-09-2026, la racha mas larga de una tienda sana son 2 pasadas
+# seguidas (MediaMarkt, 0,2 dias), y Carrefour, GAME y Xtralife no pasan de 1.
+# PcComponentes, cuando se cerro de verdad, encadeno 29 pasadas: 11,9 dias.
+#
+# O sea que entre el bache normal y la averia hay dos ordenes de magnitud, y
+# cualquier umbral entre medias vale. Se eligen 7 dias porque con eso no salta
+# ni una falsa alarma en todo el historico ni aunque una tienda pase un fin de
+# semana entero caida, y aun asi PcComponentes habria avisado el 17-09, cinco
+# dias antes de que se viera a mano.
+DIAS_SIN_PRECIO = 7
+
 # Reintentos de descarga ante un corte de red, y espera (en segundos) antes de
 # cada uno. La espera crece con el intento para no insistir sobre una tienda
 # que este teniendo un mal momento.
@@ -1042,6 +1055,83 @@ def cmd_frescura(args, escribir=print):
     return 1
 
 
+def revisar_tiendas():
+    """(ok, lineas) sin imprimir nada, por si algun dia lo usa otro vigilante."""
+    lineas = []
+    codigo = cmd_tiendas(argparse.Namespace(dias=DIAS_SIN_PRECIO), lineas.append)
+    return codigo == 0, lineas
+
+
+def cmd_tiendas(args, escribir=print):
+    """Avisa de la ficha que lleva dias sin dar precio.
+
+    Es el tercer fallo mudo de esta seccion, y el que quedaba. El workflow solo
+    falla cuando no responde NINGUNA tienda, asi que una que se cierre ella sola
+    no pone ningun job en rojo: sus precios se quedan marcados como viejos, la
+    web los pinta con su fecha al lado y no se entera nadie. PcComponentes
+    estuvo asi doce dias, del 10 al 22-09-2026, y lo que lo descubrio fue que
+    alguien se puso a mirar, que es justo lo que un vigilante existe para no
+    tener que hacer.
+
+    Va por FICHA y no por tienda entera, aunque el mensaje se agrupe por tienda:
+    asi caza tambien la ficha suelta que se queda atras porque el producto se
+    retiro o la tienda le cambio la URL, que es el mismo agujero en pequeno.
+
+    Lo que NO mira son los 'nuevo', o sea las fichas que no han dado precio
+    jamas: no traen fecha desde la que contar, y ademas se ven solas en el parte
+    del dia en que se anaden, que es cuando se esta mirando.
+    """
+    datos = leer_json(SALIDA)
+    ahora = datetime.now(ESPANA)
+    caidas = {}
+    for producto in datos.get("productos", []):
+        for precio in producto.get("precios", []):
+            if precio.get("estado") != VIEJO:
+                continue
+            try:
+                visto = datetime.strptime(
+                    precio.get("consultado", ""),
+                    FORMATO_FECHA_HORA).replace(tzinfo=ESPANA)
+            except ValueError:
+                continue
+            dias = (ahora - visto).total_seconds() / 86400
+            if dias >= args.dias:
+                caidas.setdefault(precio["tienda"], []).append(
+                    (producto["nombre"], dias, precio.get("consultado")))
+
+    if not caidas:
+        escribir(f"Ninguna ficha lleva {args.dias:g} dias o mas sin precio.")
+        return 0
+
+    for tienda, fichas in sorted(caidas.items()):
+        peor = max(f[1] for f in fichas)
+        escribir(f"ERROR: {tienda} lleva {peor:.0f} dias sin dar precio "
+                 f"({len(fichas)} fichas).")
+        for nombre, dias, visto in sorted(fichas, key=lambda f: -f[1]):
+            escribir(f"    {nombre}: ultimo precio el {visto} ({dias:.0f} dias).")
+    escribir("")
+    escribir("Que mirar, en este orden:")
+    escribir("  1. El log de la ultima pasada, que dice con que fallo cada "
+             "ficha. Un 403 mide COMO se pide, no si te dejan: antes de dar "
+             "la tienda por cerrada hay que repetir con otra receta.")
+    escribir("  2. La misma ficha desde un PC de casa, con "
+             "'precios.py probar <url> --navegador'. Si desde casa entra y "
+             "aqui no, lo que filtran es la IP del runner y por esta via no "
+             "hay arreglo: eso le paso a PcComponentes el 22-09-2026.")
+    escribir("  3. Si da 404 o lleva a otro sitio, es que la tienda retiro el "
+             "producto: toca cambiarle la URL en scripts/productos.json, no "
+             "descartar la tienda entera.")
+    escribir("  4. Cuando no haya arreglo, bajarla a '\"solo_enlace\": true' en "
+             "el catalogo y limpiar sus registros en data/ofertas.json, que es "
+             "de donde los lee previos(). Un precio que ya no se va a refrescar "
+             "envejece hacia la mentira por mucho que lleve la fecha al lado.")
+    escribir("")
+    escribir("Este aviso vuelve a salir cada dia hasta que se haga una de las "
+             "dos cosas, arreglarla o bajarla, y eso es a proposito: mientras "
+             "no se haga ninguna, sigue siendo verdad.")
+    return 1
+
+
 def cmd_lanzar(args, escribir=print):
     """Dispara la pasada a mano. Sirve sobre todo para probar el token."""
     if not args.siempre:
@@ -1082,6 +1172,13 @@ def main():
                                      f"cron (por defecto {MARGEN_PASADA:g}); "
                                      f"con 0 sirve de guardia en precios.yml")
     p.set_defaults(func=cmd_frescura)
+
+    p = ordenes.add_parser(
+        "tiendas", help="avisa de la ficha que lleva dias sin dar precio")
+    p.add_argument("--dias", type=float, default=DIAS_SIN_PRECIO, metavar="N",
+                   help=f"dias sin precio a partir de los cuales se avisa "
+                        f"(por defecto {DIAS_SIN_PRECIO:g})")
+    p.set_defaults(func=cmd_tiendas)
 
     p = ordenes.add_parser(
         "lanzar", help="pide a GitHub que ejecute precios.yml ahora")
