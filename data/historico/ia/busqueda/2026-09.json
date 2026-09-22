@@ -3,6 +3,139 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Una capa de software derivada de neuronas reales promete vídeo de IA 5 veces más rápido y 80% más barato",
+      "fuente": "The Decoder",
+      "fecha": "22-09-2026 15:58",
+      "enlace": "https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "Anthropic construye un laboratorio de biología donde Claude guía robots en experimentos de fármacos",
+      "fuente": "The Decoder",
+      "fecha": "22-09-2026 11:27",
+      "enlace": "https://the-decoder.com/anthropic-is-setting-up-a-biology-lab-where-claude-guides-robots-through-drug-experiments/",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "AstroForge equipa su próxima nave espacial con IA autónoma para resolver problemas sin contacto con la Tierra",
+      "fuente": "TechCrunch",
+      "fecha": "22-09-2026 17:00",
+      "enlace": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "Las organizaciones despliegan cientos de agentes de IA sin aprobación ni control de gobernanza",
+      "fuente": "The Register",
+      "fecha": "22-09-2026 17:00",
+      "enlace": "https://www.theregister.com/security/2026/09/22/sponsored/5297693",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "Cinco sesiones de seguridad de IA que todo fundador debería incluir en su agenda de TechCrunch Disrupt 2026",
+      "fuente": "TechCrunch",
+      "fecha": "22-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "Una herramienta de seguimiento descubrió malware guiado por un sistema de mando de IA autónomo sin intervención humana",
+      "fuente": "Wired",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system/",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "Un chatbot de nueva generación quiere desbloquear los secretos de antiguos registros griegos deteriorados",
+      "fuente": "Wired",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.wired.com/story/apollo-ai-model-ancient-greek-secrets-papyrus/",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "Cómo usar IA manteniendo tu privacidad intacta",
+      "fuente": "Wired",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.wired.com/story/how-to-use-ai-with-your-privacy-intact/",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "Gigafactoría, ayudas y más controles: así es el Plan IA360 para la inteligencia artificial en España",
+      "fuente": "ComputerHoy",
+      "fecha": "22-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/gigafactoria-ayudas-mas-controles-asi-es-plan-ia360-para-inteligencia-artificial-espana_7039635_0.html",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "Civo planifica 40 centros de datos en los bordes para potenciar la IA soberana de Reino Unido",
+      "fuente": "The Register",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.theregister.com/off-prem/2026/09/22/civo-plots-40-edge-datacenters-to-power-britains-sovereign-ai/5298141",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "La descarga: por qué los últimos avances y temores de IA pueden ser más hype que realidad",
+      "fuente": "MIT Technology Review",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "El fundador de GOV.UK advierte que la fiebre del oro de IA podría dejar a Reino Unido atrapado",
+      "fuente": "The Register",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.theregister.com/public-sector/2026/09/22/govuk-founder-warns-ai-gold-rush-could-leave-britain-locked-in/5297828",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "No te dejes engañar por este verano de hype de IA",
+      "fuente": "MIT Technology Review",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "Los IPO de empresas de IA con apuestas concentradas volverán a poner a prueba el apetito de Wall Street: Nscale",
+      "fuente": "TechCrunch",
+      "fecha": "22-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "Las construcciones de centros de datos de IA encuentran oposición de todos los sectores",
+      "fuente": "TechCrunch",
+      "fecha": "22-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "Construí clones de IA de mis compañeros de trabajo. Las cosas se pusieron raras",
+      "fuente": "Wired",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.wired.com/story/ai-coworker-bots-loved-improv-and-interstellar-soundtrack/",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "Mientras la industria editorial se escandaliza por la IA, miles de usuarios la piden a diario en juegos de rol, fan fiction y erótica",
+      "fuente": "Xataka",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.xataka.com/literatura-comics-y-juegos/industria-editorial-se-escandaliza-ia-miles-usuarios-piden-a-diario-juegos-rol-fan-fiction-erotica",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "El experto en ciberseguridad Ignasi Nogués Guri: “La clonación de voz con IA se ha convertido en un nuevo riesgo para las empresas”",
+      "fuente": "ComputerHoy",
+      "fecha": "22-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/experto-ciberseguridad-ignasi-nogues-guri-clonacion-voz-con-ia-se-ha-convertido-un-nuevo-riesgo-para-las-empresas_7038906_0.html",
+      "turno": "2026-09-22_T"
+    },
+    {
+      "titulo": "España tiene un plan casi perfecto para convertirse en una potencia de IA. También tenía uno en 2020",
+      "fuente": "Xataka",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/espana-tiene-plan-casi-perfecto-para-convertirse-potencia-ia-tambien-tenia-uno-2020",
+      "turno": "2026-09-22_T"
+    },
+    {
       "titulo": "OpenAI forma un grupo asesor de matemáticas después de que su IA resuelve más de 100 problemas abiertos",
       "fuente": "TechCrunch",
       "fecha": "21-09-2026 22:15",
