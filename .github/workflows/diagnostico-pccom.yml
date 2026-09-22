@@ -1,0 +1,108 @@
+# TEMPORAL: por que PcComponentes da 403 aqui y 200 desde un PC de casa.
+#
+# Desde el 10-09-2026 sus 8 fichas salen 403 en todas las pasadas, y el
+# 22-09-2026 se comprobo en local que con la receta de precios.py (Chromium,
+# sesion nueva, sin calentar la portada) responden 200 y con precio. O sea que
+# el codigo esta bien y lo que cambia es de donde se pide.
+#
+# Quedan dos explicaciones y este workflow las separa:
+#   - Cloudflare puntua la IP/ASN del runner  -> Chrome tampoco entrara.
+#   - Puntua el Chromium que trae Playwright  -> Chrome si entrara.
+#
+# Se borra en cuanto conteste. No toca data/ ni publica nada.
+name: Diagnostico PcComponentes
+
+on:
+  workflow_dispatch:
+
+jobs:
+  medir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Instalar Playwright con Chromium y Chrome
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+          playwright install --with-deps chrome
+
+      - name: Medir
+        run: |
+          python3 - <<'EOF'
+          import urllib.request, urllib.error
+          from playwright.sync_api import sync_playwright
+
+          AGENTE = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36")
+          PORTADA = "https://www.pccomponentes.com/"
+          FICHA = "https://www.pccomponentes.com/star-fox-nintendo-switch-2"
+          CARREFOUR = "https://www.carrefour.es/"
+          SENALES = ("Just a moment", "challenges.cloudflare.com", "cf-chl", "captcha")
+
+          def marcas(html):
+              return [m for m in SENALES if m.lower() in html.lower()]
+
+          def por_urllib(url):
+              pet = urllib.request.Request(url, headers={"User-Agent": AGENTE})
+              try:
+                  with urllib.request.urlopen(pet, timeout=30) as r:
+                      return "HTTP %s" % r.status
+              except urllib.error.HTTPError as e:
+                  cuerpo = e.read(3000).decode("utf-8", "ignore")
+                  return "HTTP %s %s" % (e.code, marcas(cuerpo))
+              except Exception as e:
+                  return "%s: %s" % (type(e).__name__, e)
+
+          def por_navegador(nav, url, calentar=None):
+              ctx = nav.new_context(user_agent=AGENTE, locale="es-ES",
+                                    viewport={"width": 1366, "height": 768})
+              try:
+                  if calentar:
+                      try:
+                          p = ctx.new_page()
+                          p.goto(calentar, wait_until="domcontentloaded", timeout=45000)
+                          p.wait_for_timeout(2000)
+                          p.close()
+                      except Exception as e:
+                          print("      (calentar fallo: %s)" % type(e).__name__)
+                  pagina = ctx.new_page()
+                  r = pagina.goto(url, wait_until="domcontentloaded", timeout=45000)
+                  estado = r.status if r else 0
+                  try:
+                      html = pagina.content()
+                  except Exception:
+                      html = ""
+                  tiene_precio = '"price"' in html
+                  return "HTTP %s | %s bytes | precio=%s | marcas=%s" % (
+                      estado, len(html), tiene_precio, marcas(html))
+              except Exception as e:
+                  return "%s: %s" % (type(e).__name__, e)
+              finally:
+                  ctx.close()
+
+          print("== urllib pelado (referencia) ==")
+          print("  portada PcComponentes: %s" % por_urllib(PORTADA))
+          print("  ficha  PcComponentes : %s" % por_urllib(FICHA))
+
+          with sync_playwright() as pw:
+              for canal in (None, "chrome"):
+                  print("")
+                  print("== %s ==" % (canal or "chromium (el de Playwright)"))
+                  try:
+                      nav = (pw.chromium.launch(channel=canal) if canal
+                             else pw.chromium.launch())
+                  except Exception as e:
+                      print("  no arranca: %s: %s" % (type(e).__name__, e))
+                      continue
+                  print("  portada PcComponentes     : %s" % por_navegador(nav, PORTADA))
+                  for i in range(3):
+                      print("  ficha en frio, intento %s : %s" % (i + 1, por_navegador(nav, FICHA)))
+                  print("  ficha calentando portada  : %s" % por_navegador(nav, FICHA, calentar=PORTADA))
+                  print("  control Carrefour portada : %s" % por_navegador(nav, CARREFOUR))
+                  nav.close()
+          EOF
