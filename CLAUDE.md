@@ -1875,12 +1875,47 @@ La pausa no es cosmetica: son 43 peticiones a una sola tienda dos veces al dia,
 y es la diferencia entre una visita y una rafaga. Es el mismo razonamiento que
 `PAUSA_MISMA_TIENDA` en `precios.py` y que el techo de dos pasadas diarias.
 
-**Y falta la comprobacion que este fichero ya sabe que hay que hacer:** todo lo
-de arriba esta medido desde un PC de casa. Que responda aqui no dice que
-responda en el runner -es la leccion de PcComponentes, 200 en local y 403 en
-GitHub durante doce dias-, e Instant Gaming va tras Cloudflare. **Hay que mirar
-el primer run de `Steam` en Actions.** Si da 403 en las 43, es eso, y la salida
-es la de siempre: pedir lo mismo desde dos sitios antes de tocar nada.
+#### Desde el runner la ficha viene en DOLARES, y no es un bloqueo
+
+Se miro el primer run esperando un 403 como el de PcComponentes, y **no hubo
+ninguno**: la tienda responde al runner igual de bien que a un PC de casa. Lo
+que pasa es otra cosa y es mas silenciosa: **la moneda la elige la IP**, y el
+runner de GitHub esta en Estados Unidos, asi que las 43 fichas llegaron en USD.
+Pedir `/es/` pone la pagina en espanol, no en euros.
+
+No se publico ni un precio falso porque la comprobacion de moneda los tiro a
+los 43, que es exactamente para lo que estaba: es la misma red que el `cc=es`
+de `steam.py` y el `country=ES` de `itad.py`. La pasada salio igual con las 252
+ofertas de ITAD, que es el fallo blando funcionando.
+
+**La salida no es un parametro, porque el de la tienda (`?currency=`) esta en
+su robots.txt.** Es que la propia ficha publica los dos numeros:
+
+```html
+<meta itemprop="price" content="3.19" data-price-eur="3.19" />
+```
+
+`content` es lo que se ensena y cambia con la IP; **`data-price-eur` va siempre
+en euros**. Se ve mejor en los listados de esa misma pagina, donde los dos van
+en pareja (`data-price` al lado de `data-price-eur`), y lo confirma la tabla de
+cambio que la ficha lleva dentro: la tienda guarda el precio en euros y
+convierte al pintar.
+
+Conviene tener claro por que esto NO contradice el filtro de ITAD que echa a
+las tiendas que no cotizan en euros: alli el problema era que el euro lo
+calculaba ITAD a partir de un precio en dolares, o sea una conversion ajena al
+escaparate. Aqui el euro es el numero original y el dolar el convertido.
+
+**Lo que se pierde fuera de Espana es el precio tachado**, que no tiene gemelo
+en euros: es texto pintado en la moneda de la pagina. Se publica sin el y la
+web ya sabe no dibujarlo. Reconstruirlo del descuento seria un numero calculado
+por nosotros, o sea la etiqueta de "estimado" de Ofertas, y no compensa por un
+tachado. **El descuento si vale siempre**, que un porcentaje no tiene moneda.
+
+La leccion, que es la de siempre pero en una variante nueva: aqui **lo que
+cambiaba entre los dos sitios no era si te dejan entrar, sino que te sirven**.
+El sondeo de "403 en local contra 403 en el runner" no habria visto nada, y lo
+unico que lo caza es comprobar el dato que llega, no el codigo de respuesta.
 
 ### Lo que falta, y esta decidido que falte
 

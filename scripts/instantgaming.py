@@ -269,18 +269,40 @@ def leer(pagina, identificador):
             f"la clave es de la region '{region}', que no se activa desde "
             "Espana. Busca en la tienda la version sin region o la de Europe")
 
+    # LA MONEDA LA ELIGE LA IP, NO LA URL, y esto se vio en el primer run del
+    # runner: pedir /es/ pone la ficha en espanol pero el precio salia en USD
+    # porque GitHub corre en Estados Unidos, y los 43 juegos se cayeron de
+    # golpe. Es el mismo fallo que ya evitan el 'cc=es' de steam.py y el
+    # 'country=ES' de itad.py, con el agravante de que aqui no hay parametro
+    # que valga: el de la tienda ('?currency=') esta en su robots.txt.
+    #
+    # La salida la da la propia ficha, que publica los dos numeros:
+    #
+    #     <meta itemprop="price" content="3.19" data-price-eur="3.19" />
+    #
+    # 'content' es lo que se ensena y cambia con la IP; 'data-price-eur' es
+    # SIEMPRE euros. Se ve mejor en los listados de la misma pagina, donde van
+    # en pareja ('data-price' junto a 'data-price-eur'), y lo confirma la tabla
+    # de cambio que la ficha lleva dentro: la tienda guarda el precio en euros
+    # y convierte al pintar. O sea que esto no es una conversion nuestra -que
+    # es lo que hace a una tienda de ITAD no publicable- sino el precio de
+    # tarifa leido donde lo escribe la tienda.
     moneda = _texto(r'itemprop="priceCurrency"[^>]*content="([^"]*)"', pagina)
-    if moneda != MONEDA:
-        raise FichaRara(
-            f"la ficha da el precio en {moneda} y no en {MONEDA}. Se pide la "
-            "version /es/ justamente para que venga en euros, asi que o ha "
-            "cambiado la tienda o la peticion ha salido a otro idioma")
+    en_euros = moneda == MONEDA
 
-    precio = numero(_texto(r'itemprop="price"[^>]*content="([^"]*)"', pagina))
+    precio = numero(
+        _texto(r'itemprop="price"[^>]*data-price-eur="([^"]*)"', pagina))
+    if precio is None and en_euros:
+        precio = numero(
+            _texto(r'itemprop="price"[^>]*content="([^"]*)"', pagina))
     if precio is None:
         raise FichaRara(
-            "la ficha no trae precio. Suele ser un juego anunciado y todavia "
-            "no a la venta, o uno que la tienda ha dejado de vender")
+            "la ficha no trae precio en euros. Si tampoco trae "
+            f"'data-price-eur' y la pagina viene en {moneda}, es que la tienda "
+            "ha cambiado como publica el precio: hay que mirar la ficha antes "
+            "de tocar nada, porque el numero que se ve NO es el de euros. Si "
+            "viene en euros, suele ser un juego anunciado y todavia no a la "
+            "venta, o uno que la tienda ha dejado de vender")
 
     disponible = _texto(r'itemprop="availability"[^>]*content="([^"]*)"', pagina)
 
@@ -301,16 +323,24 @@ def leer(pagina, identificador):
             "la tienda no tiene existencias y por eso publica el precio como "
             "0,00 EUR. No es una oferta: es el hueco donde va el precio, y "
             "publicarlo lo coronaria como el mas barato del juego")
-    base = numero(_texto(r'<div class="retail">(.*?)</div>', pagina))
+    # El tachado NO tiene gemelo en euros: es texto pintado en la moneda de la
+    # pagina. Asi que fuera de Espana se publica sin el, y no pasa nada,
+    # porque la web ya solo dibuja el 'antes' cuando existe y es mayor que el
+    # precio. Reconstruirlo del descuento seria un numero calculado por
+    # nosotros, o sea lo que en Ofertas obliga a la etiqueta de 'estimado',
+    # y no merece la pena por un precio tachado.
+    #
+    # El descuento si vale siempre: un porcentaje no tiene moneda.
+    base = (numero(_texto(r'<div class="retail">(.*?)</div>', pagina))
+            if en_euros else None)
     rebaja = _texto(r'<div class="discounted">\s*-?(\d{1,2})%', pagina)
 
     return {
         "tienda": TIENDA,
         "precio": precio,
-        # El tachado solo esta cuando hay rebaja. Sin el se publica el propio
-        # precio como base, que es lo que ya hace itad.py con las tiendas que
-        # no declaran tarifa: dejarlo a None haria que la web no pintara nada.
-        "base": base if base is not None else precio,
+        # Puede ser None, igual que el 'regular' de itad.py cuando la tienda no
+        # declara tarifa. La web lo trata bien: no pinta el tachado y ya.
+        "base": base,
         "descuento": int(rebaja) if rebaja else 0,
         "plataforma": plataforma,
         "cupon": None,

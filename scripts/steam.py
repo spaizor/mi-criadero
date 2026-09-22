@@ -1184,9 +1184,11 @@ def cmd_probar_ig(args):
         return 1
 
     print(f"{oferta['nombre_en_tienda']}  [{oferta['plataforma']}]")
+    antes = (f", antes {oferta['base']:.2f}"
+             if oferta.get("base") is not None else "")
     print(f"  {oferta['precio']:.2f} EUR"
-          + (f"  (antes {oferta['base']:.2f}, -{oferta['descuento']}%)"
-             if oferta["descuento"] else ""))
+          + (f"  (-{oferta['descuento']}%{antes})" if oferta["descuento"]
+             else ""))
     print(f"  {oferta['enlace']}")
     print("\nSe publicaria tal cual. Comprueba que el nombre es el juego que "
           "buscas: el id manda, el slug de la URL no.")
