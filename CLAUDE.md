@@ -1323,6 +1323,7 @@ que cambia es de donde sale el precio, y ese cambio lo simplifica todo.
 ```
 python3 scripts/steam.py consultar         escribe data/steam.json
 python3 scripts/steam.py probar <appid>    una ficha suelta, sin publicar
+python3 scripts/steam.py probar-ig <id>    una ficha de Instant Gaming
 python3 scripts/steam.py descubrir         rellena nombre, id y ediciones
 python3 scripts/steam.py frescura          ha salido la pasada de hoy?
 ```
@@ -1774,14 +1775,127 @@ en la linea precios de GOG y DRM-Free que esta seccion no publica, o sea
 cambiaria un escalon que se explica por una linea que no se corresponde con lo
 que hay debajo.
 
+### Instant Gaming: la unica del mercado gris que deja entrar
+
+Anadida el **22-09-2026**, y lo primero que se hizo fue medir las seis que se
+pedian (G2A, Kinguin, Gamivo, CDKeys, Eneba e Instant Gaming). **Cinco no
+entran, y por tres motivos distintos que conviene no mezclar:**
+
+| | Portada | Por que se queda fuera |
+|---|---|---|
+| Kinguin, G2A, Gamivo, CDKeys | **403 de Cloudflare** | Es el corte de gg.deals: 403 en la portada ya no es el modo de pedir, es una deteccion |
+| **Eneba** | 200 | Su ficha **no miente por accidente, lo avisa**: pone "No es el precio final" |
+| **Instant Gaming** | 200 | Entra |
+
+ITAD no era el camino: `GET /service/shops/v1?country=ES` devuelve **34 tiendas
+y ninguna es del mercado gris**, asi que no es cuestion de quitarle un filtro.
+Allkeyshop, que si las cubre, **permite `/api/latest` en su robots.txt y corta
+la conexion** en esa misma ruta; y CheapShark son las mismas 34 de ITAD en
+dolares.
+
+**Kinguin y G2A no estan cerradas del todo, y eso hay que leerlo bien**:
+`gateway.kinguin.net/esa/api/v1/products` y `api.g2a.com/v1/products` contestan
+un **401 JSON limpio**, o sea que la puerta existe y lo que falta es la llave.
+Son APIs de revendedor o de afiliado, asi que entrar por ahi es darse de alta
+como tal, con la comision de por medio. Es una decision del usuario y no una
+cuestion tecnica, y por eso se dejo escrito en vez de intentarlo.
+
+**Eneba es el caso que mas ensena, porque su "no" no es tecnico.** Su ficha
+abre, pero el precio solo aparece con navegador y ademas sale con un *"No es el
+precio final"* al lado: es un mercado de revendedores que suma comisiones al
+pagar, y la misma edicion se vende con clave EMEA o Global, que son productos
+distintos. Publicar ese numero seria lo unico que esta seccion no puede hacer.
+
+#### Como se lee, y por que no necesita navegador
+
+La ficha trae el mismo bloque `schema.org` que lee `precios.py`, pero servido
+ya hecho, asi que `instantgaming.py` sigue siendo solo biblioteca estandar:
+
+```html
+<meta itemprop="priceCurrency" content="EUR" />
+<meta itemprop="price" content="3.19" data-price-eur="3.19" />
+<div class="retail">25&nbsp;€</div>  <div class="discounted">-87%</div>
+```
+
+El nombre y la plataforma salen del **BreadcrumbList** (`PC` -> `Steam` -> el
+juego) y no del titulo, porque hay juegos con guiones en el nombre y recortarlo
+seria adivinar donde acaba.
+
+#### El id va escrito en el catalogo porque su buscador esta cerrado
+
+`Disallow: /es/busquedas/` en su robots.txt, y **no publican sitemap**
+(`/sitemap.xml` da 404), asi que no hay forma permitida de preguntarle cual es
+la ficha de un juego. Los 43 ids se resolvieron a mano el 22-09-2026 con un
+buscador externo -sus fichas si estan indexadas- y se congelaron, igual que el
+`itad` y que la lista de deseados.
+
+Del id sale la URL sola porque **el slug no cuenta**: `/es/12335-x/` devuelve
+200 y la misma ficha que la URL larga. Aun asi lo que se publica es el enlace
+canonico que trae la propia pagina.
+
+#### Los tres filtros, y el cuarto que aparecio al medir
+
+Los tres primeros eran previsibles y saltaron todos en casos reales:
+
+- **Plataforma**, igual que en `itad.py`: al buscar Cyberpunk 2077 lo unico que
+  vende Instant Gaming es la version de **GOG**, asi que ese juego se queda sin
+  esta tienda. Kena entra como clave de **Epic**, que tambien se compra.
+- **Region**, y es el que mas trabajo dio: vende el mismo juego con clave de
+  *Latin America* o *United States*, que no se activa desde Espana. Se lee del
+  sufijo del titulo (`"... - PC (Steam) - Latin America"`) y es **lista blanca**,
+  por lo mismo que el bloque `tema` de `medios.json`. Se compara **trozo a
+  trozo partiendo por `&`**, porque *"Europe & USA & Canada"* es buena y
+  *"USA & Canada"* no; comparar la cadena entera tiraba Tales of Graces f.
+  Tales of ARISE se quedo fuera por esto: alli solo hay clave de Latin America.
+- **Dispositivo**, que vende tambien Switch y PS5 con el mismo nombre.
+
+**El cuarto no se vio venir y es el importante: sin existencias publica el
+precio igual.** Cult of the Lamb salia a 8,49 EUR con
+`availability: OutOfStock`, y la pagina, en vez del boton de comprar, dice
+*"Recibir un e-mail cuando se reponga el stock"*. O sea el precio de algo que
+no se puede comprar, que en esta web habria coronado la fila como lo mas
+barato del juego. Mewgenics es la version extrema: `OutOfStock` y **precio
+`0.00`**, que se habria leido como gratis. Es la cuota de Orange otra vez, un
+numero con la forma del campo bueno que no es el precio.
+
+**Y no avisa en el parte**, a diferencia de los otros tres descartes: quedarse
+sin existencias es el dia a dia de una tienda de claves, y sacarlo en cada
+pasada hasta que repongan es el aviso que sale siempre y se deja de leer. Por
+eso `SinExistencias` es una excepcion aparte. El dia que se midio eran **10 de
+43**, que es mucho y conviene saberlo: en esta tienda la fila aparece y
+desaparece sola, al reves que en las de ITAD.
+
+#### Lo que cuesta, y el unico numero que hay que vigilar
+
+No tiene API, asi que es **una peticion por juego**: 43 fichas de media MB con
+`PAUSA` de 1,5 s entre ellas, o sea que la pasada pasa de 16 segundos a unos 5
+minutos. Por eso `steam.yml` sube su `timeout-minutes` de 10 a 20.
+
+La pausa no es cosmetica: son 43 peticiones a una sola tienda dos veces al dia,
+y es la diferencia entre una visita y una rafaga. Es el mismo razonamiento que
+`PAUSA_MISMA_TIENDA` en `precios.py` y que el techo de dos pasadas diarias.
+
+**Y falta la comprobacion que este fichero ya sabe que hay que hacer:** todo lo
+de arriba esta medido desde un PC de casa. Que responda aqui no dice que
+responda en el runner -es la leccion de PcComponentes, 200 en local y 403 en
+GitHub durante doce dias-, e Instant Gaming va tras Cloudflare. **Hay que mirar
+el primer run de `Steam` en Actions.** Si da 403 en las 43, es eso, y la salida
+es la de siempre: pedir lo mismo desde dos sitios antes de tocar nada.
+
 ### Lo que falta, y esta decidido que falte
 
+- **Nueve juegos no tienen ficha en Instant Gaming**, y no es un olvido:
+  Bloodstained Curse of the Moon, Cyberpunk 2077 (solo lo vende de GOG), Kill
+  The Plumber, Little King's Story, Nikoderiko, Pyre, Super Yooka-Laylee Kart,
+  Tales of ARISE (solo con clave de Latin America) y There Is No Game.
 - **Super Yooka-Laylee Kart es el unico sin objetivo**, y no es un olvido:
   todavia no esta a la venta, asi que no tiene precio contra el que ponerlo.
-- **Siete juegos no tienen ninguna otra tienda** (Mewgenics, NEEDY GIRL
-  OVERDOSE, No Rest for the Wicked, Pyre, The Hundred Line, The Outbound Ghost
-  y el propio Super Yooka-Laylee Kart). No es un fallo: o no se venden en mas
-  sitios, o solo en los que se filtran.
+- **Siete juegos no tenian ninguna otra tienda** cuando se monto ITAD
+  (Mewgenics, NEEDY GIRL OVERDOSE, No Rest for the Wicked, Pyre, The Hundred
+  Line, The Outbound Ghost y el propio Super Yooka-Laylee Kart). No era un
+  fallo: o no se venden en mas sitios, o solo en los que se filtran. Cinco de
+  los siete los cubre desde el 22-09-2026 Instant Gaming; siguen sin nada
+  **Pyre y Super Yooka-Laylee Kart**.
 
 ## Vigilancia: los fallos que no avisaban
 

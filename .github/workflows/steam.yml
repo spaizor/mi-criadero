@@ -74,7 +74,14 @@ jobs:
     # horas en precios.yml no puede repetirse igual. El tope se pone de todas
     # formas: un job colgado no manda aviso, y lo caro no es el minuto de
     # runner sino enterarse dos dias despues.
-    timeout-minutes: 10
+    #
+    # Subio de 10 a 20 el 22-09-2026 al entrar Instant Gaming: Steam e ITAD son
+    # 3 peticiones en total, pero esa tienda no tiene API y son 43 fichas de
+    # media MB con su pausa entre medias, o sea unos 5 minutos de los 16
+    # segundos que duraba la pasada. Con el tope en 10 el margen quedaba en
+    # nada, y un tope que salta en un dia lento convierte una tienda lenta en
+    # una pasada perdida, que es mucho peor que el problema que evita.
+    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v5

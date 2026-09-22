@@ -8,7 +8,9 @@
       "id": "Identificador corto. No se muestra: sirve para conservar el minimo historico entre ejecuciones aunque el juego cambie de nombre en la tienda.",
       "nombre": "El nombre tal cual lo publica Steam en espanol. Lo devuelve la propia API, no se escribe a ojo.",
       "appid": "El numero de la ficha, el que sale en la URL: store.steampowered.com/app/<appid>/. Es publico y no tiene nada del usuario dentro.",
-      "ediciones": "Opcional. Las ediciones especiales (Deluxe, Complete, GOTY...) del mismo juego, con su 'packageid'. NO son DLC: ver mas abajo."
+      "ediciones": "Opcional. Las ediciones especiales (Deluxe, Complete, GOTY...) del mismo juego, con su 'packageid'. NO son DLC: ver mas abajo.",
+      "itad": "El id del juego en IsThereAnyDeal, de donde salen las demas tiendas. Lo resuelve 'descubrir' una vez y se congela aqui.",
+      "instantgaming": "Opcional. El numero de la ficha en Instant Gaming, el que va delante del guion en la URL (instant-gaming.com/es/12335-comprar-.../ -> 12335). El slug NO cuenta: la tienda solo mira el numero. Sin este campo el juego simplemente no sale con esa tienda, que es el estado normal de los 9 que no la tienen."
     },
     "como_anadir_un_juego": [
       "Abrir la ficha en Steam y copiar el numero de la URL (store.steampowered.com/app/1245620/...).",
@@ -28,7 +30,14 @@
     "sin_precio_no_es_un_fallo": "Un juego puede no tener precio por dos motivos distintos, y la API los distingue con release_date.coming_soon: 'proximamente' (todavia no esta a la venta, como Super Yooka-Laylee Kart) y 'retirado' (ya salio pero Steam ya no lo vende, como Horizon Zero Dawn Complete Edition). Publicarlos como un simple 'sin precio' perderia la diferencia.",
     "sin_precio_objetivo": "A diferencia de scripts/productos.json, aqui no hay campo 'objetivo' todavia. Se anadira cuando el usuario pase su lista.",
     "verificado_el": "18-09-2026",
-    "precio_objetivo": "'objetivo' es el precio al que interesa comprar. Es opcional y puede ir en el juego (se aplica a su edicion estandar) o dentro de una edicion concreta, que es lo que hacia falta aqui: cuatro de los objetivos del usuario son de la Deluxe o la Complete y no del juego a secas. La web pinta SIEMPRE cuanto falta, no solo al cruzarse, por lo mismo que en Ofertas. Cuidado: los objetivos se publican en data/steam.json y el repositorio es publico."
+    "precio_objetivo": "'objetivo' es el precio al que interesa comprar. Es opcional y puede ir en el juego (se aplica a su edicion estandar) o dentro de una edicion concreta, que es lo que hacia falta aqui: cuatro de los objetivos del usuario son de la Deluxe o la Complete y no del juego a secas. La web pinta SIEMPRE cuanto falta, no solo al cruzarse, por lo mismo que en Ofertas. Cuidado: los objetivos se publican en data/steam.json y el repositorio es publico.",
+    "instant_gaming_se_busca_a_mano": [
+      "Es la unica tienda del mercado gris que se puede leer sin evadir nada; el por que esta entero en scripts/instantgaming.py. Las demas (Kinguin, G2A, Gamivo, CDKeys) dan 403 de Cloudflare hasta en la portada, y Eneba publica un precio que ella misma marca como 'No es el precio final'.",
+      "El id se resuelve A MANO porque su buscador esta en 'Disallow: /es/busquedas/' y no publican sitemap (/sitemap.xml da 404), asi que no hay forma permitida de preguntarselo. Se busca la ficha en un buscador externo, que si las tiene indexadas, y se copia el numero.",
+      "Al copiarlo hay que coger la version SIN region o la de Europe: la tienda vende el mismo juego con clave de Latin America o United States, que no se activa desde Espana. Aun asi no hace falta acertar, porque el script lo comprueba en la ficha y lo descarta diciendolo.",
+      "Comprobarlo antes de darlo por bueno: python3 scripts/steam.py probar-ig <id>, que dice el nombre, la plataforma, la region y el precio.",
+      "Los 43 de este catalogo se resolvieron asi el 22-09-2026. Los 9 que no lo llevan es porque la tienda no vende ese juego en Steam: Bloodstained Curse of the Moon, Cyberpunk 2077 (solo lo tiene de GOG), Kill The Plumber, Little King's Story, Nikoderiko, Pyre, Super Yooka-Laylee Kart, Tales of ARISE (solo con clave de Latin America) y There Is No Game."
+    ]
   },
   "juegos": [
     {
@@ -37,7 +46,8 @@
       "appid": 1517970,
       "objetivo": 3.0,
       "enlace": "https://store.steampowered.com/app/1517970/",
-      "itad": "018d937f-4b14-7168-899f-fc3e28b7c68c"
+      "itad": "018d937f-4b14-7168-899f-fc3e28b7c68c",
+      "instantgaming": 8550
     },
     {
       "id": "baten-kaitos-i-y-ii-hd-remaster",
@@ -45,7 +55,8 @@
       "appid": 2146170,
       "objetivo": 8.0,
       "enlace": "https://store.steampowered.com/app/2146170/",
-      "itad": "018d937f-75da-70e0-a10a-3483a1e7f901"
+      "itad": "018d937f-75da-70e0-a10a-3483a1e7f901",
+      "instantgaming": 17058
     },
     {
       "id": "blasphemous",
@@ -59,7 +70,8 @@
       ],
       "objetivo": 3.0,
       "enlace": "https://store.steampowered.com/app/774361/",
-      "itad": "018d937f-046c-70c2-89ad-3db21e19f40f"
+      "itad": "018d937f-046c-70c2-89ad-3db21e19f40f",
+      "instantgaming": 4703
     },
     {
       "id": "bloodstained-curse-of-the-moon",
@@ -75,7 +87,8 @@
       "appid": 1313140,
       "objetivo": 5.0,
       "enlace": "https://store.steampowered.com/app/1313140/",
-      "itad": "018d937f-5ccf-7344-a579-d8feb6ba83cf"
+      "itad": "018d937f-5ccf-7344-a579-d8feb6ba83cf",
+      "instantgaming": 9423
     },
     {
       "id": "cyberpunk-2077",
@@ -97,7 +110,8 @@
       "appid": 631510,
       "objetivo": 3.0,
       "enlace": "https://store.steampowered.com/app/631510/",
-      "itad": "018d937f-11e9-737d-b387-56c67ec8a1c6"
+      "itad": "018d937f-11e9-737d-b387-56c67ec8a1c6",
+      "instantgaming": 2457
     },
     {
       "id": "digimon-story-time-stranger",
@@ -115,7 +129,8 @@
         }
       ],
       "enlace": "https://store.steampowered.com/app/1984270/",
-      "itad": "0194fc64-7076-700d-9dbe-838ad5902e75"
+      "itad": "0194fc64-7076-700d-9dbe-838ad5902e75",
+      "instantgaming": 18750
     },
     {
       "id": "dragon-ball-sparking-zero",
@@ -133,7 +148,8 @@
         }
       ],
       "enlace": "https://store.steampowered.com/app/1790600/",
-      "itad": "018d937f-79bd-73aa-8546-5b4cc9413ee9"
+      "itad": "018d937f-79bd-73aa-8546-5b4cc9413ee9",
+      "instantgaming": 15531
     },
     {
       "id": "dragon-quest-xi-s-ecos-de-un-pasado-perdido-edic",
@@ -141,7 +157,8 @@
       "appid": 1295510,
       "objetivo": 5.0,
       "enlace": "https://store.steampowered.com/app/1295510/",
-      "itad": "018d937f-1e5e-7047-be31-e7cedc85cdf4"
+      "itad": "018d937f-1e5e-7047-be31-e7cedc85cdf4",
+      "instantgaming": 7643
     },
     {
       "id": "elden-ring",
@@ -159,7 +176,8 @@
         }
       ],
       "enlace": "https://store.steampowered.com/app/1245620/",
-      "itad": "018d937f-590c-728b-ac35-38bcff85f086"
+      "itad": "018d937f-590c-728b-ac35-38bcff85f086",
+      "instantgaming": 4824
     },
     {
       "id": "escape-from-ever-after",
@@ -167,7 +185,8 @@
       "appid": 1996390,
       "objetivo": 5.0,
       "enlace": "https://store.steampowered.com/app/1996390/",
-      "itad": "018d97b2-7bdf-7346-9612-dfa0857d23de"
+      "itad": "018d97b2-7bdf-7346-9612-dfa0857d23de",
+      "instantgaming": 21597
     },
     {
       "id": "final-fantasy-xii-the-zodiac-age",
@@ -175,7 +194,8 @@
       "appid": 595520,
       "objetivo": 4.0,
       "enlace": "https://store.steampowered.com/app/595520/",
-      "itad": "018d937f-0c79-7287-a46c-67c271e0c562"
+      "itad": "018d937f-0c79-7287-a46c-67c271e0c562",
+      "instantgaming": 2395
     },
     {
       "id": "final-fantasy-xvi",
@@ -189,7 +209,8 @@
         }
       ],
       "enlace": "https://store.steampowered.com/app/2515020/",
-      "itad": "018d937f-6be0-706c-8cd9-b37e064b146f"
+      "itad": "018d937f-6be0-706c-8cd9-b37e064b146f",
+      "instantgaming": 16148
     },
     {
       "id": "final-fantasy-xiii",
@@ -197,7 +218,8 @@
       "appid": 292120,
       "objetivo": 3.0,
       "enlace": "https://store.steampowered.com/app/292120/",
-      "itad": "018d937f-0120-723c-be2b-6037706890d2"
+      "itad": "018d937f-0120-723c-be2b-6037706890d2",
+      "instantgaming": 563
     },
     {
       "id": "god-of-war",
@@ -205,7 +227,8 @@
       "appid": 1593500,
       "objetivo": 10.0,
       "enlace": "https://store.steampowered.com/app/1593500/",
-      "itad": "018d937f-4964-7357-a557-f04dac608915"
+      "itad": "018d937f-4964-7357-a557-f04dac608915",
+      "instantgaming": 7325
     },
     {
       "id": "guardianes-de-la-noche-hinokami-2",
@@ -219,7 +242,8 @@
           "packageid": 1220488
         }
       ],
-      "itad": "01955d01-697b-73f3-a01f-9b24f1003dd7"
+      "itad": "01955d01-697b-73f3-a01f-9b24f1003dd7",
+      "instantgaming": 16543
     },
     {
       "id": "guardianes-de-la-noche-kimetsu-no-yaiba-las-cron",
@@ -237,7 +261,8 @@
           "objetivo": 7
         }
       ],
-      "itad": "018d937f-5271-72c6-b44b-2058a8c4f09e"
+      "itad": "018d937f-5271-72c6-b44b-2058a8c4f09e",
+      "instantgaming": 13180
     },
     {
       "id": "horizon-forbidden-west-complete-edition",
@@ -245,7 +270,8 @@
       "appid": 2420110,
       "objetivo": 13.0,
       "enlace": "https://store.steampowered.com/app/2420110/",
-      "itad": "018d937f-75c0-7271-aa0e-acffaba43e75"
+      "itad": "018d937f-75c0-7271-aa0e-acffaba43e75",
+      "instantgaming": 15086
     },
     {
       "id": "horizon-zero-dawn-remasterizado",
@@ -253,7 +279,8 @@
       "appid": 2561580,
       "enlace": "https://store.steampowered.com/app/2561580/",
       "objetivo": 11,
-      "itad": "019252e5-9375-72d9-803a-e683d86875a6"
+      "itad": "019252e5-9375-72d9-803a-e683d86875a6",
+      "instantgaming": 17853
     },
     {
       "id": "kena-bridge-of-spirits",
@@ -261,7 +288,8 @@
       "appid": 1954200,
       "objetivo": 8.0,
       "enlace": "https://store.steampowered.com/app/1954200/",
-      "itad": "018d937f-47cc-7291-8feb-1d56b1fb8c74"
+      "itad": "018d937f-47cc-7291-8feb-1d56b1fb8c74",
+      "instantgaming": 7108
     },
     {
       "id": "kill-the-plumber",
@@ -285,7 +313,8 @@
       "appid": 1817070,
       "objetivo": 9.0,
       "enlace": "https://store.steampowered.com/app/1817070/",
-      "itad": "018d937f-6136-71e4-a7d4-088a2e8f58ad"
+      "itad": "018d937f-6136-71e4-a7d4-088a2e8f58ad",
+      "instantgaming": 11907
     },
     {
       "id": "marvel-s-spider-man-miles-morales",
@@ -293,7 +322,8 @@
       "appid": 1817190,
       "objetivo": 7.0,
       "enlace": "https://store.steampowered.com/app/1817190/",
-      "itad": "018d937f-4b30-71db-a955-18758fe9e7c5"
+      "itad": "018d937f-4b30-71db-a955-18758fe9e7c5",
+      "instantgaming": 12953
     },
     {
       "id": "mewgenics",
@@ -301,7 +331,8 @@
       "appid": 686060,
       "objetivo": 12.0,
       "enlace": "https://store.steampowered.com/app/686060/",
-      "itad": "018d937f-6f07-73db-aeff-8ecc18a02b40"
+      "itad": "018d937f-6f07-73db-aeff-8ecc18a02b40",
+      "instantgaming": 21410
     },
     {
       "id": "monster-boy-y-el-reino-maldito",
@@ -309,7 +340,8 @@
       "appid": 449610,
       "objetivo": 3.0,
       "enlace": "https://store.steampowered.com/app/449610/",
-      "itad": "018d937e-f846-718f-8375-b66ebf4fca9d"
+      "itad": "018d937e-f846-718f-8375-b66ebf4fca9d",
+      "instantgaming": 3319
     },
     {
       "id": "needy-girl-overdose",
@@ -317,7 +349,8 @@
       "appid": 1451940,
       "objetivo": 3.0,
       "enlace": "https://store.steampowered.com/app/1451940/",
-      "itad": "018d937f-5daf-71e0-a4a3-1102da1dd046"
+      "itad": "018d937f-5daf-71e0-a4a3-1102da1dd046",
+      "instantgaming": 23029
     },
     {
       "id": "nier-replicant-ver-1-22474487139",
@@ -325,7 +358,8 @@
       "appid": 1113560,
       "objetivo": 7.0,
       "enlace": "https://store.steampowered.com/app/1113560/",
-      "itad": "018d937f-47c7-730f-9ef2-8025ade99100"
+      "itad": "018d937f-47c7-730f-9ef2-8025ade99100",
+      "instantgaming": 6716
     },
     {
       "id": "nikoderiko-the-magical-world-director-s-cut",
@@ -341,7 +375,8 @@
       "appid": 1371980,
       "objetivo": 5.0,
       "enlace": "https://store.steampowered.com/app/1371980/",
-      "itad": "018d937f-03e7-720b-a743-e680c159f0c0"
+      "itad": "018d937f-03e7-720b-a743-e680c159f0c0",
+      "instantgaming": 15527
     },
     {
       "id": "paranormasight-the-seven-mysteries-of-honjo",
@@ -349,7 +384,8 @@
       "appid": 2106840,
       "objetivo": 4.0,
       "enlace": "https://store.steampowered.com/app/2106840/",
-      "itad": "018d937f-6a33-73e3-85da-ffca48245a99"
+      "itad": "018d937f-6a33-73e3-85da-ffca48245a99",
+      "instantgaming": 13585
     },
     {
       "id": "persona-3-reload",
@@ -367,7 +403,8 @@
       ],
       "objetivo": 10.0,
       "enlace": "https://store.steampowered.com/app/2161700/",
-      "itad": "018d937f-7466-727c-8331-8f9c8c2af33b"
+      "itad": "018d937f-7466-727c-8331-8f9c8c2af33b",
+      "instantgaming": 14279
     },
     {
       "id": "persona-5-tactica",
@@ -381,7 +418,8 @@
       ],
       "objetivo": 5.0,
       "enlace": "https://store.steampowered.com/app/2254740/",
-      "itad": "018d937f-7160-702d-8162-954c0fcf1b5a"
+      "itad": "018d937f-7160-702d-8162-954c0fcf1b5a",
+      "instantgaming": 14329
     },
     {
       "id": "pyre",
@@ -397,7 +435,8 @@
       "appid": 1895880,
       "objetivo": 13.0,
       "enlace": "https://store.steampowered.com/app/1895880/",
-      "itad": "018d937f-6be4-7201-9629-1fd2381d5b32"
+      "itad": "018d937f-6be4-7201-9629-1fd2381d5b32",
+      "instantgaming": 9665
     },
     {
       "id": "returnal",
@@ -405,7 +444,8 @@
       "appid": 1649240,
       "objetivo": 13.0,
       "enlace": "https://store.steampowered.com/app/1649240/",
-      "itad": "018d937f-60af-7251-970a-94026c4d8fc7"
+      "itad": "018d937f-60af-7251-970a-94026c4d8fc7",
+      "instantgaming": 9666
     },
     {
       "id": "rogue-legacy-2",
@@ -413,7 +453,8 @@
       "appid": 1253920,
       "objetivo": 7.0,
       "enlace": "https://store.steampowered.com/app/1253920/",
-      "itad": "018d937f-4053-7164-852c-d5b7e644904e"
+      "itad": "018d937f-4053-7164-852c-d5b7e644904e",
+      "instantgaming": 7312
     },
     {
       "id": "sackboy-una-aventura-a-lo-grande",
@@ -421,7 +462,8 @@
       "appid": 1599660,
       "objetivo": 12.0,
       "enlace": "https://store.steampowered.com/app/1599660/",
-      "itad": "018d937f-5dbc-72fe-a81e-1d6173483628"
+      "itad": "018d937f-5dbc-72fe-a81e-1d6173483628",
+      "instantgaming": 9667
     },
     {
       "id": "sonic-racing-crossworlds",
@@ -435,7 +477,8 @@
       ],
       "objetivo": 12.0,
       "enlace": "https://store.steampowered.com/app/2486820/",
-      "itad": "0194fc66-d60d-71a8-8f5c-66db5556853b"
+      "itad": "0194fc66-d60d-71a8-8f5c-66db5556853b",
+      "instantgaming": 18299
     },
     {
       "id": "steamworld-heist-ii",
@@ -443,7 +486,8 @@
       "appid": 2396240,
       "objetivo": 5.0,
       "enlace": "https://store.steampowered.com/app/2396240/",
-      "itad": "018eec77-5dbc-7291-bbf2-3a90bb266df2"
+      "itad": "018eec77-5dbc-7291-bbf2-3a90bb266df2",
+      "instantgaming": 16645
     },
     {
       "id": "stellar-blade",
@@ -457,7 +501,8 @@
       ],
       "objetivo": 22.0,
       "enlace": "https://store.steampowered.com/app/3489700/",
-      "itad": "0191e1ab-f56a-73c3-a150-9bda3983c160"
+      "itad": "0191e1ab-f56a-73c3-a150-9bda3983c160",
+      "instantgaming": 16874
     },
     {
       "id": "super-yooka-laylee-kart",
@@ -496,7 +541,8 @@
       ],
       "objetivo": 5.0,
       "enlace": "https://store.steampowered.com/app/2530980/",
-      "itad": "019220f4-3c09-73cb-9491-030869215df5"
+      "itad": "019220f4-3c09-73cb-9491-030869215df5",
+      "instantgaming": 17496
     },
     {
       "id": "the-hundred-line-last-defense-academy",
@@ -510,7 +556,8 @@
       ],
       "objetivo": 10,
       "enlace": "https://store.steampowered.com/app/3014080/",
-      "itad": "01902bcf-463d-71f4-9676-1ba67ccb7ca8"
+      "itad": "01902bcf-463d-71f4-9676-1ba67ccb7ca8",
+      "instantgaming": 19211
     },
     {
       "id": "the-last-of-us-parte-i",
@@ -518,7 +565,8 @@
       "appid": 1888930,
       "objetivo": 13.0,
       "enlace": "https://store.steampowered.com/app/1888930/",
-      "itad": "018d937f-679e-7276-b6f1-e59da609dd4b"
+      "itad": "018d937f-679e-7276-b6f1-e59da609dd4b",
+      "instantgaming": 13298
     },
     {
       "id": "the-outbound-ghost",
@@ -526,7 +574,8 @@
       "appid": 1276810,
       "objetivo": 5.0,
       "enlace": "https://store.steampowered.com/app/1276810/",
-      "itad": "018d937f-4031-716e-8d52-132a74405bcc"
+      "itad": "018d937f-4031-716e-8d52-132a74405bcc",
+      "instantgaming": 12938
     },
     {
       "id": "there-is-no-game-wrong-dimension",
@@ -542,7 +591,8 @@
       "appid": 1436700,
       "objetivo": 5.0,
       "enlace": "https://store.steampowered.com/app/1436700/",
-      "itad": "018d937f-6cbc-7363-8d45-28a335195883"
+      "itad": "018d937f-6cbc-7363-8d45-28a335195883",
+      "instantgaming": 13621
     },
     {
       "id": "uncharted-coleccion-legado-de-los-ladrones",
@@ -550,7 +600,8 @@
       "appid": 1659420,
       "objetivo": 10.0,
       "enlace": "https://store.steampowered.com/app/1659420/",
-      "itad": "018d937f-5db0-7313-92ff-cb1b3cda02cf"
+      "itad": "018d937f-5db0-7313-92ff-cb1b3cda02cf",
+      "instantgaming": 8907
     },
     {
       "id": "world-of-final-fantasy",
@@ -564,7 +615,8 @@
         }
       ],
       "enlace": "https://store.steampowered.com/app/552700/",
-      "itad": "018d937e-ff95-71b8-b5a4-48f3c3e1ec2f"
+      "itad": "018d937e-ff95-71b8-b5a4-48f3c3e1ec2f",
+      "instantgaming": 3204
     }
   ]
 }

@@ -727,6 +727,33 @@ def otras_tiendas(catalogo):
              if uuid in por_itad}, None)
 
 
+def tienda_gris(catalogo, escribir=print):
+    """({id del juego: oferta}, [avisos]) de Instant Gaming.
+
+    Va aparte de otras_tiendas() y no dentro porque no se parece en nada: ITAD
+    son las 34 tiendas que sigue el, en UNA peticion y con el minimo historico
+    de regalo; esto es una sola tienda, abriendo su ficha juego por juego. La
+    unica del mercado gris que se puede leer sin evadir nada, medido el
+    22-09-2026; el por que esta entero en scripts/instantgaming.py.
+
+    Falla blando igual que ITAD, y el import va dentro por lo mismo: 'noticias.py
+    vigilar' importa este fichero, y una tienda de las diez no puede llevarse
+    por delante ni la pasada ni al vigilante.
+    """
+    try:
+        import instantgaming
+    except Exception as fallo:                      # noqa: BLE001
+        return {}, [f"no se ha podido cargar scripts/instantgaming.py ({fallo})"]
+
+    if not any(j.get("instantgaming") for j in catalogo):
+        # No es un aviso: un catalogo sin ids de esta tienda es el estado
+        # normal de quien todavia no la ha rellenado, y un aviso que sale
+        # siempre se deja de leer.
+        return {}, []
+
+    return instantgaming.ofertas_de(catalogo, escribir=None)
+
+
 def cmd_consultar(args):
     _, catalogo = leer_catalogo()
     ahora = datetime.now(ESPANA)
@@ -828,16 +855,27 @@ def cmd_consultar(args):
     if aviso:
         print(f"AVISO: {aviso}. Se publica con los precios de Steam y sin las "
               "demas tiendas.")
-    con_tiendas = 0
     for juego in juegos:
         bloque = otras.get(juego["id"])
         if not bloque:
             continue
         if bloque["tiendas"]:
             juego["tiendas"] = bloque["tiendas"]
-            con_tiendas += 1
         if bloque["minimo_itad"]:
             juego["minimo_itad"] = bloque["minimo_itad"]
+
+    # Y la tienda que ITAD no sigue. Se mete en la MISMA lista y se reordena,
+    # porque para la web una fila es una fila: si saliera aparte habria que
+    # ensenarle a arbitrar entre dos listas, y entonces "Mas barato" pasaria a
+    # significar "el mas barato de una de las dos", que no es una comparacion.
+    grises, avisos_grises = tienda_gris(catalogo)
+    for aviso in avisos_grises:
+        print(f"AVISO: Instant Gaming, {aviso}")
+    for juego in juegos:
+        oferta = grises.get(juego["id"])
+        if oferta:
+            juego.setdefault("tiendas", []).append(oferta)
+            juego["tiendas"].sort(key=lambda o: o["precio"])
 
     # Ojo con el orden: esto se escribe ANTES que la serie del mes, asi que en
     # la primera pasada de un mes nuevo el fichero de ese mes aun no esta. No
@@ -858,6 +896,9 @@ def cmd_consultar(args):
 
     rebajados = sum(1 for j in juegos for e in j["ediciones"]
                     if e.get("estado") == OK and e.get("descuento"))
+    # Se recuenta aqui y no se arrastra el contador de ITAD: un juego que solo
+    # tenga la oferta de Instant Gaming tambien tiene tiendas.
+    con_tiendas = sum(1 for j in juegos if j.get("tiendas"))
     fuera = sum(len(j.get("tiendas", [])) for j in juegos)
     print(f"{len(juegos)} juegos, {con_precio} precios, {rebajados} rebajados. "
           f"{fuera} ofertas de otras tiendas en {con_tiendas} juegos. "
@@ -1119,6 +1160,39 @@ def cmd_frescura(args, escribir=print):
     return 1
 
 
+def cmd_probar_ig(args):
+    """Una ficha de Instant Gaming, para comprobar un id antes de pegarlo.
+
+    Es el equivalente de 'probar' para la tienda que no tiene API. Hace falta
+    porque su id se resuelve a mano -su buscador esta en el robots.txt-, y lo
+    que mas se falla al copiarlo es la region: la ficha de Latin America se
+    llama igual que la buena.
+    """
+    try:
+        import instantgaming
+    except Exception as fallo:                      # noqa: BLE001
+        print(f"ERROR: no se ha podido cargar scripts/instantgaming.py ({fallo})")
+        return 1
+
+    try:
+        oferta = instantgaming.ficha(args.id)
+    except instantgaming.FichaRara as fallo:
+        print(f"ERROR: esa ficha no se publicaria. {fallo}.")
+        return 1
+    except (urllib.error.HTTPError, urllib.error.URLError, OSError) as fallo:
+        print(f"ERROR: la ficha {args.id} no responde ({fallo}).")
+        return 1
+
+    print(f"{oferta['nombre_en_tienda']}  [{oferta['plataforma']}]")
+    print(f"  {oferta['precio']:.2f} EUR"
+          + (f"  (antes {oferta['base']:.2f}, -{oferta['descuento']}%)"
+             if oferta["descuento"] else ""))
+    print(f"  {oferta['enlace']}")
+    print("\nSe publicaria tal cual. Comprueba que el nombre es el juego que "
+          "buscas: el id manda, el slug de la URL no.")
+    return 0
+
+
 def revisar_frescura():
     """(ok, lineas) sin imprimir nada, para que 'noticias.py vigilar' lo use."""
     lineas = []
@@ -1145,6 +1219,10 @@ def main():
     probar = ordenes.add_parser("probar", help="una ficha suelta, sin publicar")
     probar.add_argument("appid")
 
+    probar_ig = ordenes.add_parser(
+        "probar-ig", help="una ficha de Instant Gaming, para comprobar su id")
+    probar_ig.add_argument("id")
+
     frescura = ordenes.add_parser("frescura", help="ha salido la pasada de hoy?")
     frescura.add_argument("--margen", type=float, default=None,
                           help="horas de retraso perdonadas (0 = ya toca)")
@@ -1154,6 +1232,7 @@ def main():
         "consultar": cmd_consultar,
         "descubrir": cmd_descubrir,
         "probar": cmd_probar,
+        "probar-ig": cmd_probar_ig,
         "frescura": cmd_frescura,
     }[args.orden](args)
 
