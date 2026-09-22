@@ -1768,6 +1768,26 @@ los juegos con historial anterior la linea baja ahi de golpe. No es un precio
 inventado -antes ese dato no se tenia- y el pie del grafico dice el rango y no
 una caida, pero el escalon esta y se ira solo en 30 dias.
 
+**Y hay un SEGUNDO escalon el 22-09-2026, al entrar Instant Gaming**, por la
+misma razon y con mas fuerza, porque esa tienda suele ser la mas barata: es la
+mas barata de su juego en 26 de las 33 ofertas que trajo el primer dia.
+
+```
+aeterna-noctis   19-09: 23,89 EUR  ->  22-09: 2,39 EUR
+blasphemous      21-09:  5,31 EUR  ->  22-09: 3,19 EUR
+```
+
+Los 2,39 EUR de Aeterna Noctis no son una bajada de ese dia: es que hasta ese
+dia ese precio no estaba en nuestros datos. Conviene tenerlo escrito porque el
+escalon se lee solo como un desplome, y dentro de unos meses nadie se va a
+acordar de que ahi entro una tienda.
+
+La regla, que ya vale para el siguiente que se anada: **cada vez que entra una
+fuente de precios nueva, la linea del minimo da un escalon el dia que entra**,
+y no se siembra hacia atras. Con ITAD se penso y se descarto por lo de aqui
+abajo; con Instant Gaming no hay ni de donde, porque su ficha solo dice el
+precio de hoy.
+
 **Sembrarlo con `/games/history/v2` se penso y no se hizo**, y conviene saber
 por que antes de intentarlo: ese log trae `shop` y `deal` pero **no trae
 `drm`**, asi que no se le puede aplicar el filtro de plataforma. Sembrar meteria
