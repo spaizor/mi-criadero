@@ -879,6 +879,114 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
   text-align: center;
 }
 
+/* El numero de version del pie y su panel.
+   Todo con las variables de tema, asi que no hace falta redefinir nada mas
+   abajo: en claro y en oscuro sale solo. */
+.version {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 2px 8px;
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  background: var(--fondo-tarjeta);
+  color: var(--texto-suave);
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.version:hover {
+  color: var(--texto);
+  border-color: var(--texto-suave);
+}
+
+.version-panel {
+  max-width: 560px;
+  width: calc(100% - 32px);
+  max-height: 80vh;
+  padding: 0 22px 22px;
+  border: 1px solid var(--borde);
+  border-radius: 14px;
+  background: var(--fondo-tarjeta);
+  color: var(--texto);
+}
+
+.version-panel::backdrop {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* La cabecera se queda arriba al desplazar la lista, que con cuatro versiones
+   ya no cabe entera: si no, para cerrar hay que volver al principio. */
+.version-cabecera {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 0 12px;
+  border-bottom: 1px solid var(--borde);
+  background: var(--fondo-tarjeta);
+}
+
+.version-cerrar {
+  border: 0;
+  background: none;
+  color: var(--texto-suave);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 6px;
+}
+
+.version-cerrar:hover { color: var(--texto); }
+
+.version-bloque { margin-top: 20px; }
+
+.version-bloque h3 {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 8px;
+  font-size: 0.98rem;
+}
+
+/* El numero es lo que se busca al abrir el panel, asi que va en pastilla y no
+   como parte del titulo. La actual ademas en color, porque la primera pregunta
+   es cual es la que estas viendo. */
+.version-num {
+  padding: 2px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--borde);
+  color: var(--texto-suave);
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.version-bloque.actual .version-num {
+  background: color-mix(in srgb, var(--acento-ofe) 20%, var(--fondo-tarjeta));
+  border-color: transparent;
+  color: var(--texto);
+}
+
+.version-fecha {
+  margin-left: auto;
+  color: var(--texto-suave);
+  font-size: 0.78rem;
+  font-weight: normal;
+}
+
+.version-bloque ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--texto-suave);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.version-bloque li { margin-bottom: 4px; }
+
 /* Tema claro */
 /* En pantalla estrecha la fila de precio va justa: tres columnas, un nombre de
    tienda y una etiqueta que no puede partirse. Se recupera el sitio de donde no

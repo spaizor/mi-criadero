@@ -1,0 +1,58 @@
+{
+  "_instrucciones": {
+    "que_es": "El historial de versiones que pinta el enlace del pie. Lo lee assets/version.js y no lo lee nadie mas.",
+    "por_que_aqui": "En assets/ y no en data/ a proposito: 'publicar' hace git add solo de data/, asi que ninguna rutina automatica puede tocar esto por error.",
+    "como_subir_de_version": [
+      "Anadir la entrada NUEVA LA PRIMERA de 'historial': se pinta en ese orden y la de arriba es la actual.",
+      "El numero sube una decima por SECCION nueva de la web. Lo que entra entre dos secciones se lista dentro de la version abierta, que es la de arriba.",
+      "La fecha es la del dia en que se abrio esa version, no la del ultimo cambio que trae.",
+      "'cambios' se escribe para quien usa la web, no para quien la programa: lo que se ve al abrirla. Un arreglo interno que no cambia nada en pantalla no va aqui.",
+      "Sin tildes, como el resto de la interfaz."
+    ]
+  },
+  "historial": [
+    {
+      "version": "1.3",
+      "fecha": "18-09-2026",
+      "titulo": "Steam",
+      "cambios": [
+        "Nueva seccion de Steam: 52 juegos seguidos con su precio, su rebaja y su precio objetivo.",
+        "Y en que otra tienda esta mas barato cada uno, con el cupon si lo lleva.",
+        "La portada ya no corona lo mas barato sino lo que esta mas cerca de tu precio objetivo.",
+        "PcComponentes deja de dar precio en Ofertas: se queda con su enlace, como Amazon."
+      ]
+    },
+    {
+      "version": "1.2",
+      "fecha": "28-08-2026",
+      "titulo": "Geopolitica",
+      "cambios": [
+        "Nueva seccion de Geopolitica: prensa de fuera del bloque occidental, una vez al dia.",
+        "Banda de aviso en la portada cuando algo no se ha actualizado a su hora.",
+        "Icono nuevo, el criadero, con un huevo del color de cada seccion."
+      ]
+    },
+    {
+      "version": "1.1",
+      "fecha": "21-08-2026",
+      "titulo": "IA",
+      "cambios": [
+        "Nueva seccion de IA, sacada de la de Tecnologia, que deja de publicarla.",
+        "La portada resume lo de hoy de cada seccion en vez de describirlas.",
+        "Buscador en los dias anteriores.",
+        "La web se puede instalar como app en el movil.",
+        "Ofertas gana el precio objetivo, el grafico de 30 dias y los avisos."
+      ]
+    },
+    {
+      "version": "1.0",
+      "fecha": "08-08-2026",
+      "titulo": "El arranque",
+      "cambios": [
+        "Secciones de Tecnologia y Nintendo, dos veces al dia.",
+        "Seccion de Ofertas con el precio de varios juegos en varias tiendas.",
+        "Los dias anteriores se guardan y se pueden consultar."
+      ]
+    }
+  ]
+}
