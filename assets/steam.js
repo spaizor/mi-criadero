@@ -380,16 +380,19 @@ function pintarJuego(juego, series) {
 }
 
 // Los dos ultimos meses de serie: 30 dias pueden cruzar el cambio de mes.
-function mesesDeSteam() {
+// 'desde' es el primer mes que existe, y lo dice el JSON de la seccion: sin el
+// se pedia tambien el mes anterior al nacimiento de la seccion, que aqui son
+// todos los anteriores a 2026-09. Ver el comentario largo en ofertas.js.
+function mesesDeSteam(desde) {
   const hoy = new Date();
   return [1, 0].map((atras) => {
     const d = new Date(hoy.getFullYear(), hoy.getMonth() - atras, 1);
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
-  });
+  }).filter((mes) => !desde || mes >= desde);
 }
 
-async function cargarSeriesSteam() {
-  const partes = await Promise.all(mesesDeSteam().map(async (mes) => {
+async function cargarSeriesSteam(desde) {
+  const partes = await Promise.all(mesesDeSteam(desde).map(async (mes) => {
     try {
       const resp = await fetch(`data/steam-precios/${mes}.json?v=` + Date.now());
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
@@ -427,7 +430,7 @@ async function cargarSteam(ruta) {
       : '';
 
     const juegos = Array.isArray(datos.juegos) ? datos.juegos : [];
-    const series = await cargarSeriesSteam();
+    const series = await cargarSeriesSteam(datos.serie_desde);
 
     // Los rebajados primero: con 50 juegos, lo que se viene a ver es que ha
     // bajado hoy, y en orden alfabetico eso obliga a recorrer la lista entera.

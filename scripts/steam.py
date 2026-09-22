@@ -546,6 +546,28 @@ def ediciones_de(ficha):
 CLAVE_TIENDAS = "__tiendas"
 
 
+def primer_mes_serie(ahora):
+    """El mes mas antiguo del que hay serie guardada.
+
+    Va al JSON de la seccion para que la web no pida ficheros que no existen.
+    El grafico necesita el mes en curso y el anterior -30 dias cruzan el cambio
+    de mes-, y los pedia siempre los dos: en una seccion recien abierta eso es
+    un 404 en la consola de cada visita. Le paso a Ofertas en agosto de 2026 y
+    a Steam desde que nacio, el 18-09-2026.
+
+    No se puede tapar desde el JavaScript, que es lo que se penso primero: el
+    navegador pinta el error de red antes de que el fetch conteste, asi que la
+    unica forma de no verlo es no pedir el fichero. Los meses que hay que pedir
+    se leen, no se adivinan, que es lo que ya hace el buscador del historico
+    con su indice.
+
+    Es el PRIMER mes y no la lista entera a proposito: asi el campo no crece
+    con los anos, y a la web le basta para descartar lo que no existe.
+    """
+    meses = sorted(ruta.stem for ruta in SERIES.glob("*.json"))
+    return meses[0] if meses else ahora.strftime("%Y-%m")
+
+
 def ruta_serie(mes):
     return SERIES / f"{mes}.json"
 
@@ -817,9 +839,13 @@ def cmd_consultar(args):
         if bloque["minimo_itad"]:
             juego["minimo_itad"] = bloque["minimo_itad"]
 
+    # Ojo con el orden: esto se escribe ANTES que la serie del mes, asi que en
+    # la primera pasada de un mes nuevo el fichero de ese mes aun no esta. No
+    # importa, porque lo que se guarda aqui es el PRIMER mes, no el ultimo.
     escribir_json(SALIDA, {
         "seccion": "steam",
         "actualizado": ahora.strftime(FORMATO_FECHA_HORA),
+        "serie_desde": primer_mes_serie(ahora),
         "juegos": juegos,
     })
 

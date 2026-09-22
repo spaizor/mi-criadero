@@ -2224,6 +2224,41 @@ Cuatro cosas que hay que saber para no romperlo:
 
 Nada de esto lo tocan las rutinas: `publicar` hace `git add` solo de `data/`.
 
+## `serie_desde`: no pedir el mes que no existe
+
+El grafico de precios necesita **el mes en curso y el anterior**, porque 30 dias
+cruzan el cambio de mes, y los dos JS los pedian siempre los dos. En una seccion
+recien abierta el de antes no existe, asi que cada visita dejaba un **404 en la
+consola**: a Ofertas le paso en agosto de 2026 y a Steam desde que nacio, el
+18-09, pidiendo `data/steam-precios/2026-08.json` en cada carga.
+
+No rompia nada -el `catch` ya devuelve una serie vacia y los precios de hoy se
+pintan igual-, pero un error que sale siempre en la consola es lo mismo que un
+aviso que sale siempre: cuando aparezca uno de verdad, estara entre el ruido.
+
+**No se puede tapar desde el JavaScript**, que es lo que se penso primero: el
+navegador pinta el error de red antes de que el `fetch` conteste, asi que la
+unica forma de no verlo es **no pedir el fichero**. Por eso `consultar` escribe
+en el JSON de la seccion el campo `"serie_desde"` con el primer mes del que hay
+serie, y la web descarta lo anterior. Es lo mismo que ya hacia el buscador del
+historico, donde **los meses que hay que pedir salen del indice** en vez de
+adivinarse.
+
+- **Es el PRIMER mes y no la lista entera**, para que el campo no crezca con los
+  anos: a la web le basta con eso para descartar lo que no existe.
+- **Se saca listando el directorio de series**, no de una constante con la fecha
+  de apertura: asi vale igual para las dos secciones y no hay nada que recordar
+  actualizar.
+- **Si el JSON no lo trae, se piden los dos meses como antes.** Hace falta de
+  verdad: el fichero publicado no lo lleva hasta la siguiente pasada, y sin ese
+  respaldo la web se quedaria un rato sin graficos.
+- En `steam.py` el JSON de salida se escribe **antes** que la serie del mes, o
+  sea que en la primera pasada de un mes nuevo ese mes todavia no tiene fichero.
+  Da igual, porque lo que se guarda es el primero y no el ultimo.
+
+Probado con los dos: Steam pasa a pedir un solo mes y sigue pintando sus 51
+graficos, y Ofertas sigue pidiendo los dos, que es lo correcto porque los tiene.
+
 ## El numero de version del pie
 
 Puesto el **22-09-2026**. El pie de las ocho paginas lleva un `v1.3` que abre un

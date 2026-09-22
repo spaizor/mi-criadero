@@ -1,6 +1,6 @@
 # Mi Criadero
 
-Web de noticias que se actualiza sola. Cinco secciones, dos vistazos al día,
+Web de noticias que se actualiza sola. Seis secciones, dos vistazos al día,
 y ni una tecla que tocar.
 
 **https://spaizor.github.io/mi-criadero/**
@@ -11,9 +11,14 @@ y ni una tecla que tocar.
 | 🤖 **IA** | Modelos, empresas y dinero de la inteligencia artificial |
 | 🎮 **Nintendo** | Switch, juegos y todo lo de la casa |
 | 🌍 **Geopolítica** | Prensa de fuera del bloque occidental: rusa, china, turca, iraní, asiática y latinoamericana |
-| 🏷 **Ofertas** | El precio de 7 juegos en hasta 9 tiendas, con su mínimo histórico y su precio objetivo |
+| 🏷 **Ofertas** | El precio de 9 juegos de Switch en 9 tiendas, con su mínimo histórico y su precio objetivo |
+| 🕹 **Steam** | 52 juegos de PC: su precio en Steam, su rebaja y en qué otra tienda están más baratos |
 
-Cada sección guarda además los **días anteriores** con buscador, en `historico.html`.
+Las cuatro primeras guardan además los **días anteriores** con buscador, en
+`historico.html`. Ofertas y Steam no: ahí lo que se guarda es la serie de
+precios, que es lo que dibuja el gráfico de cada juego.
+
+El número de versión del pie abre el historial de lo que ha ido entrando.
 
 ---
 
@@ -31,27 +36,33 @@ No pasa nada, y por eso no se corrige.
  5:00  🤖 IA
  5:30  🌍 Geopolítica        <- esta solo sale por la mañana
  6:10  🏷 Precios
+ 7:20  🕹 Steam
  7:40  🏷 Precios (repesca, solo si la de las 6:10 no salió)
+ 8:50  🕹 Steam (repesca)
  9:15  🔍 Vigilancia
  9:30  🔍 Vigilancia (la de fuera de GitHub)
  9:40  🏷 Precios (última repesca)
+10:50  🕹 Steam (última repesca)
 ```
 
 ### Por la tarde
 
 ```
 14:10  🏷 Precios
+15:20  🕹 Steam
 15:40  🏷 Precios (repesca)
 16:00  💻 Tecnología
 16:30  🎮 Nintendo
+16:50  🕹 Steam (repesca)
 17:00  🤖 IA
 17:40  🏷 Precios (última repesca)
+18:50  🕹 Steam (última repesca)
 21:15  🔍 Vigilancia
 ```
 
 Así que **a primera hora está todo hecho**: las cuatro secciones de noticias
-antes de las 6, los precios a las 6:10 y el parte de si algo ha fallado a las
-9:30.
+antes de las 6, los precios a las 6:10, Steam a las 7:20 y el parte de si algo
+ha fallado a las 9:30.
 
 ### Por qué van escalonadas y no todas a las 4:00
 
@@ -65,7 +76,7 @@ una y otra sobra para que no se pisen.
 
 Son dos mecanismos distintos, y conviene no mezclarlos:
 
-| | Noticias | Precios |
+| | Noticias | Precios y Steam |
 |---|---|---|
 | **Quién lo lanza** | Una rutina de Claude, en la nube de Anthropic | GitHub Actions, dentro del propio repositorio |
 | **Quién elige** | El modelo: lee, resume y decide qué sale | Nadie. Se lee el precio y se publica |
@@ -89,14 +100,29 @@ sin noticias, pero no puede romper la página.
 ### Los precios
 
 Se abre la ficha de cada tienda y se lee el precio del bloque de datos que las
-tiendas publican para Google, no del texto de la página. Cuatro de las nueve
+tiendas publican para Google, no del texto de la página. Tres de las nueve
 tiendas hay que abrirlas con un navegador de verdad, porque a un script le
 contestan que no.
 
-Tres tiendas (**Amazon, El Corte Inglés y Fnac**) salen solo con su enlace, sin
-precio. Las dos últimas porque no responden; Amazon porque su normativa no
-permite sacarle el precio con un script, aunque técnicamente se pueda. Enlazar
-a la ficha sí es correcto, y eso es lo que se hace.
+Cuatro (**Amazon, El Corte Inglés, Fnac y PcComponentes**) salen solo con su
+enlace, sin precio. El Corte Inglés y Fnac porque no responden; PcComponentes
+porque desde septiembre de 2026 rechaza al servidor de GitHub, aunque desde un
+ordenador de casa siga contestando; y Amazon porque su normativa no permite
+sacarle el precio con un script, aunque técnicamente se pueda. Enlazar a la
+ficha sí es correcto, y eso es lo que se hace.
+
+### Steam
+
+Aquí no hace falta abrir ninguna página: Steam tiene una **API pública** que
+devuelve el precio, el de referencia y el descuento de treinta juegos en una
+sola petición. Las ediciones especiales y los packs salen de la propia ficha
+del juego, y los precios de las **demás tiendas** los trae
+[IsThereAnyDeal](https://isthereanydeal.com/) en otra petición más.
+
+Se quedan fuera las tiendas que no cobran en euros —el precio saldría
+convertido, o sea estimado— y las copias que no son de Steam, que no son más
+baratas sino otra cosa. La pasada entera tarda unos 16 segundos y no necesita
+navegador.
 
 ---
 
@@ -144,7 +170,12 @@ Así que hay tres vigilantes, y están a propósito en sitios distintos:
 |---|---|---|
 | 9:15 y 21:15 | GitHub Actions | Deja el aviso en el registro de ejecuciones |
 | 9:30 | Una rutina de Claude | Pinta una **banda roja en la portada** |
-| Siempre | El propio trabajo | Si una tienda no responde, la ejecución queda en rojo |
+| Siempre | El propio trabajo | Si no contesta ninguna tienda, la ejecución queda en rojo |
+| Siempre | El propio trabajo | Y si una sola lleva **7 días** sin dar precio, también |
+
+Ese último es de los que más tardaron en aparecer: mientras las demás tiendas
+contesten, una que se cierra no deja ninguna señal. PcComponentes estuvo así
+doce días y lo que lo descubrió fue ponerse a mirar.
 
 El de las 9:30 vive **fuera de GitHub** por un motivo concreto: el día que lo
 que falla es GitHub, el vigilante que vive en GitHub calla también. Ya pasó.
@@ -178,9 +209,13 @@ python3 scripts/noticias.py comprobar     ¿está bien dada de alta cada secció
 python3 scripts/noticias.py vigilar       las tres comprobaciones de golpe
 python3 scripts/precios.py consultar      traer los precios ahora
 python3 scripts/precios.py frescura       ¿falta la pasada de precios que tocaba?
+python3 scripts/precios.py tiendas        ¿alguna tienda lleva días sin dar precio?
+python3 scripts/steam.py consultar        lo mismo para Steam
+python3 scripts/steam.py probar <appid>   un juego suelto, sin publicar nada
 ```
 
-Los precios necesitan Playwright para las tiendas que piden navegador:
+Los precios de Ofertas necesitan Playwright para las tiendas que piden
+navegador. Steam no necesita nada:
 
 ```
 pip install playwright && playwright install chromium
@@ -197,10 +232,16 @@ historico.html        días anteriores, con buscador
 assets/               el estilo, el JavaScript y los iconos
 data/                 lo único que reescriben las rutinas
 data/historico/       una copia de cada turno, desde el 07-08-2026
+data/precios/         la serie de precios de Ofertas, un fichero por mes
+data/steam-precios/   lo mismo para Steam
+assets/version.json   el historial de versiones que sale en el pie
 scripts/noticias.py   todo el trabajo mecánico de las noticias
-scripts/precios.py    lo mismo para los precios
+scripts/precios.py    lo mismo para los precios de Ofertas
+scripts/steam.py      lo mismo para Steam
+scripts/itad.py       los precios de las demás tiendas, para Steam
 scripts/medios.json   qué medios lee cada sección
-scripts/productos.json  qué juegos se siguen y en qué tiendas
+scripts/productos.json    qué juegos se siguen y en qué tiendas
+scripts/juegos-steam.json qué juegos se siguen en Steam
 ```
 
 El detalle de por qué cada cosa está hecha como está, y las decisiones que no

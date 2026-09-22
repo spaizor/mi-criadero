@@ -331,16 +331,26 @@ function pintarProducto(producto, series) {
 // Los dos ultimos meses de serie: 30 dias pueden cruzar el cambio de mes.
 // Son unos pocos KB, asi que se piden con la pagina y no al desplegar cada
 // producto, que obligaria a repintar.
-function mesesDelGrafico() {
+//
+// 'desde' es el primer mes del que hay serie, que lo dice el JSON de la
+// seccion. Sin el se pedian los dos meses siempre, y en una seccion recien
+// abierta el de antes no existe: un 404 en la consola de cada visita. No se
+// puede tapar desde aqui, porque el navegador pinta el error de red antes de
+// que conteste el fetch, asi que la unica salida es no pedirlo. Comparar
+// "2026-08" < "2026-09" como texto vale porque el mes va con cero delante.
+//
+// Si el JSON no lo trae -uno viejo, o antes de la primera pasada que lo
+// escriba- se piden los dos, que es lo que se hacia antes.
+function mesesDelGrafico(desde) {
   const hoy = new Date();
   return [1, 0].map((atras) => {
     const d = new Date(hoy.getFullYear(), hoy.getMonth() - atras, 1);
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
-  });
+  }).filter((mes) => !desde || mes >= desde);
 }
 
-async function cargarSeries() {
-  const partes = await Promise.all(mesesDelGrafico().map(async (mes) => {
+async function cargarSeries(desde) {
+  const partes = await Promise.all(mesesDelGrafico(desde).map(async (mes) => {
     try {
       const resp = await fetch(`data/precios/${mes}.json?v=` + Date.now());
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
@@ -378,7 +388,7 @@ async function cargarOfertas(ruta) {
       : '';
 
     const productos = Array.isArray(datos.productos) ? datos.productos : [];
-    const series = await cargarSeries();
+    const series = await cargarSeries(datos.serie_desde);
     contenedor.innerHTML = productos.length
       ? productos.map((p) => pintarProducto(p, series)).join('')
       : '<div class="aviso">Todavia no hay productos en seguimiento.</div>';
