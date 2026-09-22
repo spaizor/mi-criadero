@@ -1,6 +1,6 @@
 {
   "seccion": "steam",
-  "actualizado": "22-09-2026 15:57",
+  "actualizado": "22-09-2026 16:03",
   "serie_desde": "2026-09",
   "juegos": [
     {
@@ -19,12 +19,26 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 2.39,
+          "base": null,
+          "descuento": 91,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/8550-comprar-aeterna-noctis-pc-steam/",
+          "nombre_en_tienda": "Aeterna Noctis",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 23.89,
@@ -96,12 +110,26 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 11.69,
+          "base": null,
+          "descuento": 77,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/17058-comprar-baten-kaitos-i-ii-hd-remaster-pc-juego-steam/",
+          "nombre_en_tienda": "Baten Kaitos I & II HD Remaster",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 12.99,
@@ -221,7 +249,7 @@
           "base": 24.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 24.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -234,12 +262,26 @@
           "base": 34.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 34.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 3.19,
+          "base": null,
+          "descuento": 85,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/4703-comprar-blasphemous-pc-juego-steam/",
+          "nombre_en_tienda": "Blasphemous",
+          "disponible": true
+        },
         {
           "tienda": "GamersGate",
           "precio": 5.31,
@@ -407,7 +449,7 @@
           "base": 9.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 4.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -448,7 +490,7 @@
           "base": 22.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 22.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -500,7 +542,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -514,7 +556,7 @@
           "base": 89.98,
           "descuento": 8,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 82.78,
           "minimo_fecha": "18-09-2026",
           "bundleid": "32470"
@@ -556,12 +598,26 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 4.79,
+          "base": null,
+          "descuento": 82,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/2457-comprar-devil-may-cry-hd-collection-pc-steam/",
+          "nombre_en_tienda": "Devil May Cry HD Collection",
+          "disponible": true
+        },
         {
           "tienda": "GamersGate",
           "precio": 8.42,
@@ -692,7 +748,7 @@
           "base": 99.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 39.89,
           "minimo_fecha": "18-09-2026"
         },
@@ -706,7 +762,7 @@
           "base": 99.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -719,12 +775,26 @@
           "base": 119.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 77.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 35.19,
+          "base": null,
+          "descuento": 42,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/18750-comprar-digimon-story-time-stranger-pc-steam/",
+          "nombre_en_tienda": "Digimon Story Time Stranger",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 58.79,
@@ -843,7 +913,7 @@
           "base": 49.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -856,7 +926,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 79.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -870,7 +940,7 @@
           "base": 119.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 119.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -949,6 +1019,20 @@
           "enlace": "https://itad.link/01a08bec-ee47-72c1-aeed-e833530670af/?app=opyd8c"
         },
         {
+          "tienda": "Instant Gaming",
+          "precio": 38.79,
+          "base": null,
+          "descuento": 11,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/15531-comprar-dragon-ball-sparking-zero-pc-steam/",
+          "nombre_en_tienda": "Dragon Ball: Sparking! ZERO",
+          "disponible": true
+        },
+        {
           "tienda": "PlayerLand",
           "precio": 47.49,
           "base": 49.99,
@@ -995,12 +1079,26 @@
           "base": 39.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 19.99,
           "minimo_fecha": "19-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 18.89,
+          "base": null,
+          "descuento": 46,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/7643-comprar-dragon-quest-xi-s-ecos-de-un-pasado-perdido-edicion-definitiva-definitive-edition-pc-juego-steam-europe/",
+          "nombre_en_tienda": "Dragon Quest XI S: Ecos de un pasado perdido – Edición definitiva",
+          "disponible": true
+        },
         {
           "tienda": "Humble Store",
           "precio": 19.99,
@@ -1047,7 +1145,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -1061,7 +1159,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 79.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -1074,12 +1172,26 @@
           "base": 99.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 99.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 45.99,
+          "base": null,
+          "descuento": 12,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/4824-comprar-elden-ring-pc-steam/",
+          "nombre_en_tienda": "Elden Ring",
+          "disponible": true
+        },
         {
           "tienda": "GamersGate",
           "precio": 50.99,
@@ -1211,12 +1323,26 @@
           "base": 24.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 24.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 8.99,
+          "base": null,
+          "descuento": 59,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/21597-comprar-escape-from-ever-after-pc-steam/",
+          "nombre_en_tienda": "Escape from Ever After",
+          "disponible": true
+        },
         {
           "tienda": "Playsum",
           "precio": 13.49,
@@ -1348,12 +1474,26 @@
           "base": 49.99,
           "descuento": 70,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 14.99,
           "minimo_fecha": "19-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 14.69,
+          "base": null,
+          "descuento": 66,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/2395-comprar-final-fantasy-xii-the-zodiac-age-pc-juego-steam/",
+          "nombre_en_tienda": "Final Fantasy XII: The Zodiac Age",
+          "disponible": true
+        },
         {
           "tienda": "Humble Store",
           "precio": 14.99,
@@ -1400,7 +1540,7 @@
           "base": 49.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 19.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -1414,7 +1554,7 @@
           "base": 69.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 27.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1443,6 +1583,20 @@
           "minimo_tienda": 17.49,
           "caduca": "2026-10-01T19:00:00+02:00",
           "enlace": "https://itad.link/01916b92-2bc6-7076-a68f-ef3d93f845b0/?app=opyd8c"
+        },
+        {
+          "tienda": "Instant Gaming",
+          "precio": 19.99,
+          "base": null,
+          "descuento": 60,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/16148-comprar-final-fantasy-xvi-pc-juego-steam/",
+          "nombre_en_tienda": "Final Fantasy XVI",
+          "disponible": true
         },
         {
           "tienda": "GreenManGaming",
@@ -1479,12 +1633,26 @@
           "base": 12.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 5.19,
           "minimo_fecha": "19-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 4.99,
+          "base": null,
+          "descuento": 64,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/563-comprar-final-fantasy-xiii-pc-steam/",
+          "nombre_en_tienda": "Final Fantasy XIII",
+          "disponible": true
+        },
         {
           "tienda": "Humble Store",
           "precio": 5.19,
@@ -1532,12 +1700,26 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 49.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 16.19,
+          "base": null,
+          "descuento": 63,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/7325-comprar-god-of-war-pc-juego-steam-europe/",
+          "nombre_en_tienda": "God of War",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 42.49,
@@ -1669,7 +1851,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -1682,7 +1864,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 69.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1711,6 +1893,20 @@
           "minimo_tienda": 27,
           "caduca": null,
           "enlace": "https://itad.link/01955d7d-2f99-70db-9c04-354d38719e82/?app=opyd8c"
+        },
+        {
+          "tienda": "Instant Gaming",
+          "precio": 27.99,
+          "base": null,
+          "descuento": 46,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/16543-comprar-demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles-2-pc-steam/",
+          "nombre_en_tienda": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+          "disponible": true
         },
         {
           "tienda": "PlanetPlay",
@@ -1782,7 +1978,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -1795,7 +1991,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 69.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -1809,7 +2005,7 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 89.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -1898,12 +2094,26 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 22.99,
+          "base": null,
+          "descuento": 56,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/15086-comprar-horizon-forbidden-west-complete-edition-complete-edition-pc-juego-steam-europe/",
+          "nombre_en_tienda": "Horizon Forbidden West Complete Edition",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 50.99,
@@ -2035,12 +2245,26 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 49.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 22.89,
+          "base": null,
+          "descuento": 47,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/17853-comprar-horizon-zero-dawn-remastered-pc-juego-steam-europe/",
+          "nombre_en_tienda": "Horizon Zero Dawn Remastered",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 42.49,
@@ -2172,7 +2396,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 39.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2213,7 +2437,7 @@
           "base": 4.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 4.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2254,7 +2478,7 @@
           "base": 14.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2295,7 +2519,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2432,7 +2656,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 49.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2569,7 +2793,7 @@
           "base": 28.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 21.74,
           "minimo_fecha": "18-09-2026"
         }
@@ -2596,12 +2820,26 @@
           "base": 28.99,
           "descuento": 67,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 9.56,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 13.69,
+          "base": null,
+          "descuento": 53,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/3319-comprar-monster-boy-and-the-cursed-kingdom-pc-juego-steam/",
+          "nombre_en_tienda": "Monster Boy and the Cursed Kingdom",
+          "disponible": true
+        },
         {
           "tienda": "Epic Game Store",
           "precio": 26.99,
@@ -2637,7 +2875,7 @@
           "base": 13.29,
           "descuento": 66,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 4.51,
           "minimo_fecha": "18-09-2026"
         }
@@ -2646,7 +2884,23 @@
         "siempre": 4.51,
         "ano": 4.51,
         "trimestre": 4.51
-      }
+      },
+      "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 9.99,
+          "base": null,
+          "descuento": 28,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/23029-comprar-needy-girl-overdose-pc-mac-steam/",
+          "nombre_en_tienda": "NEEDY GIRL OVERDOSE",
+          "disponible": true
+        }
+      ]
     },
     {
       "id": "nier-replicant-ver-1-22474487139",
@@ -2664,12 +2918,26 @@
           "base": 59.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 23.99,
           "minimo_fecha": "19-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 20.99,
+          "base": null,
+          "descuento": 60,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/6716-comprar-nier-replicant-ver-1-22474487139-pc-juego-steam/",
+          "nombre_en_tienda": "NieR Replicant ver.1.22474487139",
+          "disponible": true
+        },
         {
           "tienda": "Humble Store",
           "precio": 23.99,
@@ -2717,7 +2985,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2770,7 +3038,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 39.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2797,7 +3065,7 @@
           "base": 19.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 9.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -2826,6 +3094,20 @@
           "minimo_tienda": 10,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-aa82-72a0-8a45-3ba8cff72c34/?app=opyd8c"
+        },
+        {
+          "tienda": "Instant Gaming",
+          "precio": 10.39,
+          "base": null,
+          "descuento": 40,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/13585-comprar-paranormasight-the-seven-mysteries-of-honjo-pc-juego-steam/",
+          "nombre_en_tienda": "Paranormasight: The Seven Mysteries of Honjo",
+          "disponible": true
         }
       ],
       "minimo_itad": {
@@ -2850,7 +3132,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -2863,7 +3145,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 69.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -2876,12 +3158,26 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 89.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 15.89,
+          "base": null,
+          "descuento": 70,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/14279-comprar-persona-3-reload-pc-steam/",
+          "nombre_en_tienda": "Persona 3 Reload",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 18.59,
@@ -2977,7 +3273,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -2990,7 +3286,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 79.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3067,6 +3363,20 @@
           "minimo_tienda": 18,
           "caduca": "2026-10-01T17:00:00+02:00",
           "enlace": "https://itad.link/01a08bec-f2c6-73be-b04e-963425c83517/?app=opyd8c"
+        },
+        {
+          "tienda": "Instant Gaming",
+          "precio": 18.99,
+          "base": null,
+          "descuento": 64,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/14329-comprar-persona-5-tactica-pc-juego-steam-europe/",
+          "nombre_en_tienda": "Persona 5 Tactica",
+          "disponible": true
         }
       ],
       "minimo_itad": {
@@ -3091,7 +3401,7 @@
           "base": 19.5,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 19.5,
           "minimo_fecha": "18-09-2026"
         }
@@ -3118,12 +3428,26 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 19.39,
+          "base": null,
+          "descuento": 68,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/9665-comprar-ratchet-clank-rift-apart-pc-juego-steam-europe/",
+          "nombre_en_tienda": "Ratchet & Clank Rift Apart",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 50.99,
@@ -3255,12 +3579,26 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 14.99,
+          "base": null,
+          "descuento": 71,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/9666-comprar-returnal-pc-juego-steam/",
+          "nombre_en_tienda": "Returnal",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 50.99,
@@ -3392,12 +3730,26 @@
           "base": 24.5,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 24.5,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 8.99,
+          "base": null,
+          "descuento": 59,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/7312-comprar-rogue-legacy-2-pc-mac-juego-steam/",
+          "nombre_en_tienda": "Rogue Legacy 2",
+          "disponible": true
+        },
         {
           "tienda": "Epic Game Store",
           "precio": 19.99,
@@ -3445,12 +3797,26 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 15.79,
+          "base": null,
+          "descuento": 74,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/9667-comprar-sackboy-una-aventura-a-lo-grande-pc-juego-steam/",
+          "nombre_en_tienda": "Sackboy Una aventura a lo grande",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 50.99,
@@ -3582,7 +3948,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 69.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -3595,7 +3961,7 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 89.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3674,6 +4040,20 @@
           "enlace": "https://itad.link/01a08bec-e50b-703f-a1f0-c9e57168eb18/?app=opyd8c"
         },
         {
+          "tienda": "Instant Gaming",
+          "precio": 31.29,
+          "base": null,
+          "descuento": 49,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/18299-comprar-sonic-racing-crossworlds-pc-steam/",
+          "nombre_en_tienda": "Sonic Racing: CrossWorlds",
+          "disponible": true
+        },
+        {
           "tienda": "Epic Game Store",
           "precio": 69.99,
           "base": 69.99,
@@ -3708,7 +4088,7 @@
           "base": 29.99,
           "descuento": 75,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 7.49,
           "minimo_fecha": "18-09-2026"
         }
@@ -3725,6 +4105,20 @@
           "minimo_tienda": 7.5,
           "caduca": null,
           "enlace": "https://itad.link/019132af-2365-7176-8ee0-d0f1eb0ce1b7/?app=opyd8c"
+        },
+        {
+          "tienda": "Instant Gaming",
+          "precio": 7.99,
+          "base": null,
+          "descuento": 69,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/16645-comprar-steamworld-heist-ii-pc-juego-steam/",
+          "nombre_en_tienda": "SteamWorld Heist II",
+          "disponible": true
         },
         {
           "tienda": "Fanatical",
@@ -3797,7 +4191,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 69.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -3810,12 +4204,26 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 89.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 35.29,
+          "base": null,
+          "descuento": 33,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/16874-comprar-stellar-blade-pc-steam/",
+          "nombre_en_tienda": "Stellar Blade",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 59.49,
@@ -3941,7 +4349,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 19.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -3955,7 +4363,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 19.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -3968,7 +4376,7 @@
           "base": 69.99,
           "descuento": 25,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 52.49,
           "minimo_fecha": "18-09-2026"
         }
@@ -4093,7 +4501,7 @@
           "base": 39.99,
           "descuento": 75,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 9.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -4106,12 +4514,26 @@
           "base": 59.99,
           "descuento": 75,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 8.19,
+          "base": null,
+          "descuento": 77,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/17496-comprar-tales-of-graces-f-remastered-pc-juego-steam-europe-us-canada/",
+          "nombre_en_tienda": "Tales of Graces f Remastered",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 8.79,
@@ -4231,7 +4653,7 @@
           "base": 71.99,
           "descuento": 30,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 50.39,
           "minimo_fecha": "18-09-2026"
         },
@@ -4244,7 +4666,7 @@
           "base": 71.99,
           "descuento": 30,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 50.39,
           "minimo_fecha": "18-09-2026"
         }
@@ -4271,7 +4693,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -4408,7 +4830,7 @@
           "base": 16.79,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 10.07,
           "minimo_fecha": "18-09-2026"
         }
@@ -4435,7 +4857,7 @@
           "base": 12.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 12.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -4488,12 +4910,26 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 8.69,
+          "base": null,
+          "descuento": 67,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/13621-comprar-trine-5-a-clockwork-conspiracy-pc-juego-steam/",
+          "nombre_en_tienda": "Trine 5: A Clockwork Conspiracy",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 25.49,
@@ -4613,12 +5049,26 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 49.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 13.21,
+          "base": null,
+          "descuento": 70,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/8907-comprar-uncharted-coleccion-legado-de-los-ladrones-pc-steam/",
+          "nombre_en_tienda": "Uncharted: Colección Legado de los Ladrones",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 42.49,
@@ -4749,7 +5199,7 @@
           "base": 24.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 9.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -4763,13 +5213,27 @@
           "base": 40.98,
           "descuento": 61,
           "estado": "ok",
-          "consultado": "22-09-2026 15:57",
+          "consultado": "22-09-2026 16:03",
           "minimo": 15.89,
           "minimo_fecha": "19-09-2026",
           "bundleid": "9112"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 9.69,
+          "base": null,
+          "descuento": 56,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/3204-comprar-world-of-final-fantasy-pc-juego-steam/",
+          "nombre_en_tienda": "World Of Final Fantasy",
+          "disponible": true
+        },
         {
           "tienda": "Humble Store",
           "precio": 9.99,
