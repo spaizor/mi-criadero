@@ -79,29 +79,35 @@ function deNoticias(datos) {
   };
 }
 
+// Lo que se viene a preguntar aqui no es que es lo mas barato sino QUE ESTA A
+// PUNTO DE CAER. Coronar el precio mas bajo daba siempre el juego mas barato
+// del catalogo, que no dice nada: el 22-09-2026 salia Octopath a 28,95 EUR
+// llevando catorce dias igual y con su objetivo a un 45% de distancia.
+//
+// Los ya cumplidos no entran: esos suben a la banda de avisos, arriba y en
+// verde, asi que aqui solo se gastaria la entrada en repetirlos.
 function deOfertas(datos) {
   const productos = Array.isArray(datos.productos) ? datos.productos : [];
+  const metas = metasDeOfertas(datos);
+  const cerca = masCerca(metas);
 
-  // Solo los precios de hoy, por lo mismo que solo ellos compiten por "Mas
-  // barato" dentro de la seccion: coronar en portada uno de hace dias seria
-  // dar por hecha una comparacion que no se ha hecho.
-  let barato = null;
-  for (const producto of productos) {
-    for (const precio of producto.precios || []) {
-      if (precio.estado !== 'ok' || precio.precio == null) continue;
-      if (!barato || precio.precio < barato.precio) {
-        barato = { precio: precio.precio, moneda: precio.moneda, nombre: producto.nombre };
-      }
-    }
+  // Los tres finales se distinguen porque quieren decir cosas distintas: no es
+  // lo mismo que las tiendas no hayan respondido -que es una averia- que tener
+  // todos los objetivos cumplidos, que es la mejor noticia posible.
+  let titulo;
+  if (cerca) {
+    titulo = textoMeta(cerca);
+  } else if (metas.length) {
+    titulo = 'Todos tus precios objetivo estan cumplidos.';
+  } else {
+    titulo = 'Hoy no ha respondido ninguna tienda.';
   }
 
   return {
-    titulo: barato
-      ? `Lo mas barato de hoy: ${barato.nombre}, ${euros(barato.precio, barato.moneda)}`
-      : 'Hoy no ha respondido ninguna tienda.',
+    titulo,
     cuando: '· ' + cuando(datos.actualizado) +
       ' · ' + contar(productos.length, 'juego', 'juegos'),
-    hayAlgo: barato != null,
+    hayAlgo: cerca != null,
   };
 }
 
@@ -132,43 +138,134 @@ function sitiosDeSteam(juego) {
   return sitios;
 }
 
-// Lo que se viene a ver de esta seccion es que ha bajado hoy, asi que el
-// resumen es la mejor rebaja y cuantas hay. Se mira la edicion estandar y las
-// demas tiendas, pero NO las ediciones especiales: una Deluxe al -70% sigue
-// costando mas que la normal, y coronarla en portada seria vender como chollo
-// el producto caro.
+// El resumen es el que esta mas cerca de su precio, igual que en Ofertas y por
+// el mismo motivo: coronar la mayor rebaja daba siempre el juego mas barato de
+// los 52 (el 22-09-2026, Blasphemous a 5,31 EUR al -79%), y un -79% no dice si
+// eso esta cerca o lejos de lo que pagarias por el.
 //
-// Desde que hay otras tiendas, mirar solo el descuento de Steam se dejaba
-// fuera lo mas interesante: un juego al -70% en Fanatical con Steam a 0% no
-// aparecia por ningun lado.
+// La cuenta de la derecha sigue siendo la de rebajados, que ahi si informa: es
+// cuanto se ha movido la seccion hoy.
 function deSteam(datos) {
   const juegos = Array.isArray(datos.juegos) ? datos.juegos : [];
+  const cerca = masCerca(metasDeSteam(datos));
 
-  let mejor = null;
   let rebajados = 0;
   for (const juego of juegos) {
     const sitios = sitiosDeSteam(juego);
-    if (!sitios.length) continue;
-    const top = sitios.reduce((a, b) => (b.descuento > a.descuento ? b : a));
-    if (!top.descuento) continue;
-    rebajados++;
-    if (!mejor || top.descuento > mejor.descuento) {
-      mejor = { ...top, nombre: juego.nombre };
-    }
+    if (sitios.length && sitios.some((s) => s.descuento)) rebajados++;
   }
 
   return {
-    titulo: mejor
-      ? `Lo mas rebajado: ${mejor.nombre}, ${euros(mejor.precio, mejor.moneda)} (-${mejor.descuento}%)${
-          mejor.donde !== 'Steam' ? ' en ' + mejor.donde : ''}`
-      : 'Hoy no hay ningun juego rebajado.',
+    titulo: cerca ? textoMeta(cerca)
+                  : 'Ningun juego pendiente de llegar a tu precio.',
     cuando: '· ' + cuando(datos.actualizado) +
       ' · ' + (rebajados ? contar(rebajados, 'rebajado', 'rebajados')
                          : contar(juegos.length, 'juego', 'juegos')),
-    // Sin rebajas la entrada no se apaga: que hoy no baje nada es una
-    // respuesta valida a la pregunta que se viene a hacer, no un hueco.
-    hayAlgo: juegos.length > 0,
+    hayAlgo: cerca != null,
   };
+}
+
+// -- Precios objetivo -----------------------------------------------------
+//
+// Una "meta" es un objetivo del usuario junto al precio con el que hay que
+// compararlo. Se saca una sola vez y la usan las DOS cosas que hablan de
+// objetivos en la portada: el aviso del que ya ha llegado y el resumen del que
+// esta mas cerca. Calcularlo por separado en cada una es como acabarian
+// diciendo cosas distintas del mismo juego el dia que se toque una y no la
+// otra, que es lo mismo que ya evita que tecnologia apunte a la lista de IA en
+// vez de repetirla.
+function meta(cual, sitio, objetivo) {
+  const falta = sitio.precio - objetivo;
+  return {
+    cual, objetivo,
+    precio: sitio.precio,
+    moneda: sitio.moneda,
+    donde: sitio.donde,
+    falta,
+    // Lo que falta EN PROPORCION a lo que se pide, no en euros. En euros
+    // ganaria siempre el juego barato: a uno de 5 EUR con objetivo 3 le faltan
+    // 2, y a uno de 60 con objetivo 50 le faltan 10, aunque el segundo este
+    // mucho mas cerca de cumplirse. Medido el 22-09-2026 sobre los datos del
+    // dia: por euros la entrada de Steam corona NEEDY GIRL OVERDOSE (1,51) y
+    // por proporcion SteamWorld Heist II, que esta al 50% de su meta.
+    //
+    // Un objetivo de 0 no se puede dividir; no lo hay, pero si lo hubiera se
+    // compara por euros y no se cae la portada entera.
+    cerca: objetivo > 0 ? falta / objetivo : falta,
+  };
+}
+
+// La meta pendiente que menos le falta. Las cumplidas se quedan fuera porque
+// esas ya suben solas como aviso, arriba y en verde: repetirlas aqui gastaria
+// la entrada en decir dos veces lo mismo.
+function masCerca(metas) {
+  const pendientes = metas.filter((m) => m.falta > 0);
+  if (!pendientes.length) return null;
+  return pendientes.reduce((a, b) => (b.cerca < a.cerca ? b : a));
+}
+
+// Como se lee una meta en la entrada de la seccion. El "te faltan" es el mismo
+// que pinta cada seccion al lado de su precio, para que el numero de la portada
+// y el de dentro sean reconociblemente el mismo.
+function textoMeta(m) {
+  const donde = m.donde && m.donde !== 'Steam' ? ` en ${m.donde}` : '';
+  return `Mas cerca de tu precio: ${m.cual}, ${euros(m.precio, m.moneda)}${donde}` +
+         ` (te faltan ${euros(m.falta, m.moneda)})`;
+}
+
+function metasDeOfertas(datos) {
+  const metas = [];
+  for (const producto of datos.productos || []) {
+    if (producto.objetivo == null) continue;
+    const deHoy = (producto.precios || []).filter(
+      (p) => p.estado === 'ok' && p.precio != null);
+    if (!deHoy.length) continue;
+    const barato = deHoy.reduce((a, b) => (b.precio < a.precio ? b : a));
+    metas.push(meta(producto.nombre,
+                    { precio: barato.precio, moneda: barato.moneda,
+                      donde: barato.tienda },
+                    producto.objetivo));
+  }
+  return metas;
+}
+
+// Aqui entran TODAS las ediciones con objetivo, bundles incluidos: un objetivo
+// puesto sobre la Ultimate de Cyberpunk es una meta tan legitima como la del
+// juego suelto. Es lo contrario de lo que hace el resumen de rebajas, que mira
+// solo la estandar, y no es una incoherencia: una Deluxe al -70% sigue costando
+// mas que la normal y coronarla seria vender como chollo el producto caro, pero
+// una Deluxe a 12 EUR de SU precio esta a 12 EUR de su precio.
+function metasDeSteam(datos) {
+  const metas = [];
+  for (const juego of datos.juegos || []) {
+    (juego.ediciones || []).forEach((edicion, i) => {
+      if (edicion.objetivo == null) return;
+
+      // La estandar se compara contra el precio mas bajo de hoy en CUALQUIER
+      // sitio: las demas tiendas venden ese mismo juego, asi que si ha llegado
+      // a tu precio en Fanatical, ha llegado.
+      //
+      // Las ediciones especiales siguen mirando solo a Steam, y no es un
+      // descuido: ITAD da el precio del JUEGO, no el de su Deluxe, asi que
+      // Steam es el unico sitio donde se sabe que lo que vale eso es
+      // exactamente esa edicion.
+      let sitio;
+      if (i === 0) {
+        const sitios = sitiosDeSteam(juego);
+        if (!sitios.length) return;
+        sitio = sitios.reduce((a, b) => (b.precio < a.precio ? b : a));
+      } else {
+        if (edicion.estado !== 'ok' || edicion.precio == null) return;
+        sitio = { donde: 'Steam', precio: edicion.precio, moneda: edicion.moneda };
+      }
+
+      // El nombre de la edicion solo se dice cuando no es la estandar: "Elden
+      // Ring Estandar" suena a que hay algo que elegir donde no lo hay.
+      const cual = i === 0 ? juego.nombre : `${juego.nombre} (${edicion.nombre})`;
+      metas.push(meta(cual, sitio, edicion.objetivo));
+    });
+  }
+  return metas;
 }
 
 // -- Avisos de precio -----------------------------------------------------
@@ -183,21 +280,20 @@ const TIENDA_VIGILADA = 'Orange';
 function avisosDeOfertas(datos) {
   const avisos = [];
 
+  for (const m of metasDeOfertas(datos)) {
+    if (m.falta > 0) continue;
+    avisos.push({
+      clase: 'cumplido',
+      icono: '🎯',
+      texto: `${m.cual} esta a ${euros(m.precio, m.moneda)} en ${m.donde}: ` +
+             'ha llegado a tu precio.',
+    });
+  }
+
   for (const producto of datos.productos || []) {
     const deHoy = (producto.precios || []).filter(
       (p) => p.estado === 'ok' && p.precio != null);
     if (!deHoy.length) continue;
-
-    const barato = deHoy.reduce((a, b) => (b.precio < a.precio ? b : a));
-
-    if (producto.objetivo != null && barato.precio <= producto.objetivo) {
-      avisos.push({
-        clase: 'cumplido',
-        icono: '🎯',
-        texto: `${producto.nombre} esta a ${euros(barato.precio, barato.moneda)} en ` +
-               `${barato.tienda}: ha llegado a tu precio.`,
-      });
-    }
 
     const vigilada = deHoy.find((p) => p.tienda === TIENDA_VIGILADA && p.bajada);
     if (vigilada && vigilada.bajada.desde > vigilada.precio) {
@@ -224,47 +320,15 @@ function avisosDeOfertas(datos) {
 // le faltaba 1,51 EUR. Este aviso no va a salir casi nunca, que es la condicion
 // para que se lea el dia que salga.
 function avisosDeSteam(datos) {
-  const avisos = [];
-
-  for (const juego of datos.juegos || []) {
-    (juego.ediciones || []).forEach((edicion, i) => {
-      if (edicion.objetivo == null) return;
-
-      // La estandar se compara contra el precio mas bajo de hoy en CUALQUIER
-      // sitio: las demas tiendas venden ese mismo juego, asi que si ha llegado
-      // a tu precio en Fanatical, ha llegado.
-      //
-      // Las ediciones especiales siguen mirando solo a Steam, y no es un
-      // descuido: ITAD da el precio del JUEGO, no el de su Deluxe, asi que
-      // Steam es el unico sitio donde se sabe que lo que vale eso es
-      // exactamente esa edicion.
-      let sitio;
-      if (i === 0) {
-        const sitios = sitiosDeSteam(juego);
-        if (!sitios.length) return;
-        sitio = sitios.reduce((a, b) => (b.precio < a.precio ? b : a));
-      } else {
-        if (edicion.estado !== 'ok' || edicion.precio == null) return;
-        sitio = { donde: 'Steam', precio: edicion.precio,
-                  moneda: edicion.moneda };
-      }
-      if (sitio.precio > edicion.objetivo) return;
-
-      // El nombre de la edicion solo se dice cuando no es la estandar: "Elden
-      // Ring Estandar" suena a que hay algo que elegir donde no lo hay.
-      const cual = i === 0
-        ? juego.nombre : `${juego.nombre} (${edicion.nombre})`;
-      avisos.push({
-        clase: 'cumplido',
-        icono: '🎯',
-        destino: 'steam.html',
-        texto: `${cual} esta a ${euros(sitio.precio, sitio.moneda)} en ${
-          sitio.donde}: ha llegado a tu precio.`,
-      });
-    });
-  }
-
-  return avisos;
+  return metasDeSteam(datos)
+    .filter((m) => m.falta <= 0)
+    .map((m) => ({
+      clase: 'cumplido',
+      icono: '🎯',
+      destino: 'steam.html',
+      texto: `${m.cual} esta a ${euros(m.precio, m.moneda)} en ${m.donde}: ` +
+             'ha llegado a tu precio.',
+    }));
 }
 
 // Recibe ya la lista y no el JSON de una seccion: Ofertas y Steam avisan las

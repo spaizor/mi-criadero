@@ -1233,6 +1233,52 @@ financiacion de 24 a 36 meses, el precio reconstruido caeria un tercio sin que
 el PVP se mueva, y eso llegaria a la portada como una bajada. Ante una bajada
 suya sospechosamente redonda, lo primero que hay que mirar es el plazo.
 
+### La entrada de la portada: lo que esta a punto de caer
+
+Cambiado el **22-09-2026**, y vale igual para Ofertas y para Steam porque el
+fallo era el mismo. La entrada coronaba el precio mas bajo (Ofertas) y la mayor
+rebaja (Steam), y las dos acababan diciendo siempre lo mismo: el juego mas
+barato del catalogo. Ese dia salian **Octopath a 28,95 EUR**, que llevaba
+catorce dias igual y con su objetivo a un 45% de distancia, y **Blasphemous a
+5,31 EUR al -79%**, que es un descuento espectacular sobre un juego que nunca
+vas a mirar. Un -79% no dice si eso esta cerca o lejos de lo que pagarias.
+
+Ahora la entrada contesta a otra pregunta, que es la que se viene a hacer:
+**cual esta mas cerca de su precio objetivo**. Cuatro decisiones:
+
+- **La distancia se mide en proporcion, no en euros.** En euros gana siempre lo
+  barato: a un juego de 5 EUR con objetivo 3 le faltan 2, y a uno de 60 con
+  objetivo 50 le faltan 10, aunque el segundo este mucho mas cerca. Se ve en los
+  datos del dia: por euros Steam corona NEEDY GIRL OVERDOSE (le faltaban 1,51) y
+  por proporcion SteamWorld Heist II, al 50% de su meta.
+- **Los ya cumplidos no entran**, porque esos suben solos a la banda de avisos,
+  arriba y en verde. Repetirlos abajo gastaria la entrada en decir dos veces lo
+  mismo, que es lo que ya pasaba con Metroid Ravenous.
+- **Los que no tienen objetivo quedan fuera**, que es lo que hace que esto
+  funcione: sin una meta no hay distancia que medir. En Ofertas la tienen los 9;
+  en Steam, 43 de 52 en su estandar.
+- **En Steam cuentan tambien las ediciones y los bundles con objetivo propio**,
+  al reves que el resumen de rebajas, y no es una incoherencia: una Deluxe al
+  -70% sigue costando mas que la estandar y coronarla seria vender como chollo
+  el producto caro, pero **una Deluxe a 4 EUR de SU precio esta a 4 EUR de su
+  precio**. Probado forzando la Ultimate de Cyberpunk: sale como
+  `Cyberpunk 2077 (Ultimate Edition)`.
+
+**El aviso y el resumen salen de la misma funcion** (`metasDeSteam` y
+`metasDeOfertas`, que devuelven cada objetivo junto al precio con el que hay que
+compararlo). Calcularlo dos veces es como acabarian diciendo cosas distintas del
+mismo juego el dia que se toque una y no la otra. De ahi cuelga tambien la regla
+de contra que precio se compara cada objetivo, que no es obvia: **la estandar
+contra el mas bajo en cualquier sitio** (si ha llegado a tu precio en Fanatical,
+ha llegado) y **las ediciones especiales solo contra Steam**, porque ITAD da el
+precio del JUEGO y no el de su Deluxe.
+
+Los tres finales de la entrada dicen cosas distintas a proposito: *"Hoy no ha
+respondido ninguna tienda"* es una averia, *"Todos tus precios objetivo estan
+cumplidos"* es la mejor noticia posible, y el normal es la meta mas cercana. Los
+dos primeros dejan la entrada apagada, y no pasa casi nunca; los tres estan
+probados a mano sobre el JSON.
+
 ### Como lo pinta `assets/ofertas.js`
 
 El JSON no cambia; lo que sigue son decisiones de la web, y las dos primeras
@@ -1548,9 +1594,11 @@ paralelo, la segunda seccion en llegar habria borrado los avisos de la primera.
 Ahora cada una empuja los suyos y se pintan juntos al final; cada aviso lleva su
 `destino` porque enlazan a paginas distintas.
 
-La entrada de la portada resume **la mejor rebaja de las ediciones estandar**,
-no de todas: una Deluxe al -70% sigue costando mas que la normal, y coronarla
-seria vender como chollo el producto caro.
+La entrada de la portada **ya no resume la mejor rebaja**: desde el 22-09-2026
+dice cual esta mas cerca de su precio objetivo, por lo que se explica en la
+seccion de Ofertas. Lo que sigue en pie es que la cuenta de rebajados de la
+derecha mira **solo las ediciones estandar**: una Deluxe al -70% sigue costando
+mas que la normal, y coronarla seria vender como chollo el producto caro.
 
 ### Vigilancia: el mismo camino que precios
 
