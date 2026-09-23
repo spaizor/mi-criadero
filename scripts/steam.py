@@ -728,7 +728,7 @@ def otras_tiendas(catalogo):
 
 
 def tienda_gris(catalogo, escribir=print):
-    """({id del juego: oferta}, [avisos]) de Instant Gaming.
+    """({id del juego: oferta}, [avisos], [agotados]) de Instant Gaming.
 
     Va aparte de otras_tiendas() y no dentro porque no se parece en nada: ITAD
     son las 34 tiendas que sigue el, en UNA peticion y con el minimo historico
@@ -743,13 +743,13 @@ def tienda_gris(catalogo, escribir=print):
     try:
         import instantgaming
     except Exception as fallo:                      # noqa: BLE001
-        return {}, [f"no se ha podido cargar scripts/instantgaming.py ({fallo})"]
+        return {}, [f"no se ha podido cargar scripts/instantgaming.py ({fallo})"], []
 
     if not any(j.get("instantgaming") for j in catalogo):
         # No es un aviso: un catalogo sin ids de esta tienda es el estado
         # normal de quien todavia no la ha rellenado, y un aviso que sale
         # siempre se deja de leer.
-        return {}, []
+        return {}, [], []
 
     return instantgaming.ofertas_de(catalogo, escribir=None)
 
@@ -868,9 +868,19 @@ def cmd_consultar(args):
     # porque para la web una fila es una fila: si saliera aparte habria que
     # ensenarle a arbitrar entre dos listas, y entonces "Mas barato" pasaria a
     # significar "el mas barato de una de las dos", que no es una comparacion.
-    grises, avisos_grises = tienda_gris(catalogo)
+    grises, avisos_grises, agotados = tienda_gris(catalogo)
     for aviso in avisos_grises:
         print(f"AVISO: Instant Gaming, {aviso}")
+    # Su desglose va en una linea propia porque en el total de abajo se funde
+    # con las de ITAD, y ahi no se ve si esta tienda ha dado 33 fichas o 0.
+    # Las pedidas se cuentan del catalogo y no de los avisos: si el modulo no
+    # carga hay un solo aviso y ninguna ficha abierta, y la resta lo dice bien.
+    pedidas = sum(1 for j in catalogo if j.get("instantgaming"))
+    if pedidas:
+        fallidas = pedidas - len(grises) - len(agotados)
+        print(f"Instant Gaming: {len(grises)} ofertas de {pedidas} fichas, "
+              f"{len(agotados)} sin existencias, {fallidas} fuera por los "
+              "AVISO de arriba.")
     for juego in juegos:
         oferta = grises.get(juego["id"])
         if oferta:

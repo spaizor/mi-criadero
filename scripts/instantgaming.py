@@ -364,7 +364,11 @@ def ficha(identificador):
 # --------------------------------------------------------------------------
 
 def ofertas_de(catalogo, pausa=PAUSA, escribir=None):
-    """({id del juego: oferta}, [avisos]) para los juegos con 'instantgaming'.
+    """({id del juego: oferta}, [avisos], [agotados]) para los juegos con id.
+
+    Los agotados van aparte de los avisos: no son un fallo y no se avisan uno
+    a uno (ver SinExistencias), pero el parte si dice cuantos hay, para que
+    el log cuente las fichas pedidas enteras y no solo las que entraron.
 
     Una peticion por juego, que es el precio de que esta tienda no tenga API.
     Por eso solo se piden los juegos que traen id en el catalogo, y no los 52.
@@ -373,7 +377,7 @@ def ofertas_de(catalogo, pausa=PAUSA, escribir=None):
     regla que otras_tiendas() con ITAD, y aqui con mas motivo todavia, porque
     lo que se juega es una tienda de las diez y no la seccion entera.
     """
-    salida, avisos = {}, []
+    salida, avisos, agotados = {}, [], []
     pendientes = [(j.get("id"), j.get("instantgaming"), j.get("nombre", ""))
                   for j in catalogo]
     pendientes = [p for p in pendientes if p[1]]
@@ -383,6 +387,7 @@ def ofertas_de(catalogo, pausa=PAUSA, escribir=None):
         try:
             oferta = ficha(suyo)
         except SinExistencias:
+            agotados.append(nombre)
             continue
         except FichaRara as fallo:
             avisos.append(f"{nombre}: {fallo}")
@@ -396,4 +401,4 @@ def ofertas_de(catalogo, pausa=PAUSA, escribir=None):
         salida[ident] = oferta
         if escribir:
             escribir(f"  {nombre}: {oferta['precio']:.2f} EUR")
-    return salida, avisos
+    return salida, avisos, agotados
