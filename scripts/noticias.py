@@ -331,7 +331,7 @@ def enlaces_de_la_hermana(seccion, medios):
             fallos.append(f"{medio['nombre']}: {error}")
             continue
         try:
-            enlaces.update(enlace for _, enlace, _
+            enlaces.update(enlace for _, enlace, _, _
                            in entradas_del_feed(contenido, medio.get("web")))
         except ET.ParseError as e:
             fallos.append(f"{medio['nombre']}: el feed no es XML valido ({e})")
@@ -382,6 +382,29 @@ def de_otra_seccion(enlace, medio):
         return False
     enlace = enlace.lower()
     return any(ruta.lower() in enlace for ruta in rutas)
+
+
+def de_categoria_excluida(categorias, medio):
+    """Titular que el propio medio ha marcado en su feed con una categoria ajena.
+
+    Es 'de_otra_seccion' para los medios que no categorizan en la URL: la
+    categoria no se lee en el enlace sino en el <category> del feed, pero sigue
+    siendo la clasificacion del redactor y no una adivinanza sobre el titular.
+    Nacio en geopolitica, donde los medios en espanol no pasan por el modelo y
+    ninguno pone la categoria en la URL. Medido el 23-09-2026 sobre los 237
+    titulares suyos publicados desde el 28-08: 36 eran ruido, y los 8 que
+    llevaban 'Deporte' (teleSUR) o 'Deportes' (Prensa Latina) eran los 8 ruido.
+    En la portada de la categoria de teleSUR, 30 de 30 eran deporte.
+
+    Se compara el nombre entero y sin tildes, no un trozo: WordPress mete en
+    <category> las etiquetas junto a las categorias, y un trozo como 'deporte'
+    cazaria cualquier etiqueta que lo contenga.
+    """
+    excluir = medio.get("excluir_categorias")
+    if not excluir or not categorias:
+        return False
+    propias = {sin_tildes(c).strip().lower() for c in categorias}
+    return any(sin_tildes(c).strip().lower() in propias for c in excluir)
 
 
 @functools.lru_cache(maxsize=None)
@@ -553,8 +576,20 @@ def fecha_de(elemento):
     return None
 
 
+def categorias_de(elemento):
+    """Los <category> de RSS (texto) y de Atom (atributo term)."""
+    salida = []
+    for hijo in elemento:
+        if sin_espacio(hijo.tag) != "category":
+            continue
+        valor = hijo.text or hijo.attrib.get("term") or ""
+        if valor.strip():
+            salida.append(unescape(valor).strip())
+    return salida
+
+
 def entradas_del_feed(contenido, base=None):
-    """Titulo, enlace y fecha de cada entrada del feed.
+    """Titulo, enlace, fecha y categorias de cada entrada del feed.
 
     'base' es la portada del medio, y sirve para los feeds que publican el
     enlace relativo: TRT World da /article/e12d692b1e86 en sus 100 entradas, y
@@ -571,7 +606,7 @@ def entradas_del_feed(contenido, base=None):
         if base and enlace:
             enlace = urllib.parse.urljoin(base, enlace)
         if titulo and enlace:
-            salida.append((titulo, enlace, fecha_de(pieza)))
+            salida.append((titulo, enlace, fecha_de(pieza), categorias_de(pieza)))
     return salida
 
 
@@ -616,7 +651,7 @@ def cmd_candidatos(args):
             continue
 
         del_medio, repetidos = [], set()
-        for titulo, enlace, fecha in entradas:
+        for titulo, enlace, fecha, categorias in entradas:
             if fecha is None or fecha < corte:
                 descartes["viejas o sin fecha"] += 1
                 continue
@@ -633,6 +668,9 @@ def cmd_candidatos(args):
                 continue
             if de_otra_seccion(enlace, medio):
                 descartes["de otra seccion del propio medio"] += 1
+                continue
+            if de_categoria_excluida(categorias, medio):
+                descartes["de una categoria del medio que no es de la seccion"] += 1
                 continue
             if ruido_de_la_ruta(titulo, enlace, medio):
                 descartes["estrenos y programacion de TV"] += 1
@@ -793,7 +831,7 @@ def cmd_titulares(args):
             continue
 
         nuevos, repetidos = [], set()
-        for titulo, enlace, fecha in entradas:
+        for titulo, enlace, fecha, categorias in entradas:
             # Hay feeds que traen la misma noticia dos veces (HobbyConsolas lo
             # hace), asi que ademas del enlace se mira el titulo del medio.
             clave = sin_tildes(titulo).strip().lower()
@@ -805,6 +843,8 @@ def cmd_titulares(args):
                 descartes["guias, ofertas y analisis"] += 1
             elif de_otra_seccion(enlace, medio):
                 descartes["de otra seccion del propio medio"] += 1
+            elif de_categoria_excluida(categorias, medio):
+                descartes["de una categoria del medio que no es de la seccion"] += 1
             elif ruido_de_la_ruta(titulo, enlace, medio):
                 descartes["estrenos y programacion de TV"] += 1
             elif fuera_de_tema(titulo, tema, medio):

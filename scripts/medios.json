@@ -26,6 +26,7 @@
       "nota": "Opcional. Avisos: feed lento, hay que filtrar por tema, codificacion rara, etc.",
       "excluir_rutas": "Opcional. Lista de trozos de URL cuya categoria no es de esta seccion: si el enlace los contiene, el titular se descarta. Se filtra por el enlace y no por el titular a proposito, asi que no puede haber falsos positivos: no se adivina de que va la noticia, se lee la seccion en la que el propio medio la ha colgado. Solo sirve en medios que ponen la categoria en la URL.",
       "excluir_en_ruta": "Opcional. Ruta -> lista de terminos: dentro de esa categoria del medio se descarta el titular que mencione uno de ellos. Es el ultimo recurso, para la categoria que mezcla dos cosas y no se puede tirar entera con 'excluir_rutas'. Mira el titular, asi que puede equivocarse: por eso va atada a una ruta y no al medio entero.",
+      "excluir_categorias": "Opcional. Lista de categorias del <category> del feed que no son de esta seccion: la entrada que lleve una se descarta. Para los medios que no categorizan en la URL, donde 'excluir_rutas' no sirve.",
       "descartado": "Opcional. true en el medio que se ha sondeado y se deja fuera a proposito, con el motivo en 'nota'. Se queda en el fichero para no volver a probarlo, pero no sale como 'SIN FEED' en el parte de 'candidatos': eso es para el medio al que todavia hay que buscarle el RSS o abrir a mano, y un aviso que sale en las dos ejecuciones de todos los dias se deja de leer."
     },
     "tema": {
@@ -49,6 +50,12 @@
       "por_que": "adslzone.net/noticias/streaming-tv/ se quiso excluir entera el 22-08-2026 y no se pudo: junto a los estrenos cuelga el negocio de las plataformas, que si es noticia ('YouTube Premium sube otra vez de precio en Espana'). Medido el 27-08-2026 sobre las 57 entradas de la portada de esa categoria: 54 eran estrenos y programacion y 3 noticia de tecnologia. La lista caza 34 de los 37 ruidos de los que se tenia el titular entero y ninguna de las 3 buenas.",
       "cuidado": "La lista NO se puede sacar de su ruta. Aplicada a las otras rutas de ADSLZone se llevaba 16 de 104 publicadas, entre ellas 'Movistar, Orange o DAZN: compara cuanto pagaras por ver todo el futbol' y 'Digi tendra la tele con menos futbol de toda Espana'. Dentro de /streaming-tv/ 'futbol' es programacion; en /operadores/ es el negocio.",
       "como_comprobar_uno_nuevo": "Medir sobre el feed o la portada de la categoria, y no sobre lo publicado: lo publicado es lo que el modelo ya eligio, y ese sesgo fue justo lo que hizo parecer buena la exclusion entera la primera vez."
+    },
+    "excluir_categorias": {
+      "que_es": "Opcional, por medio. Lista de nombres de categoria del <category> del feed: si la entrada lleva una, se descarta. Es 'excluir_rutas' para los medios que no categorizan en la URL, y tampoco adivina: lee la clasificacion del propio redactor.",
+      "por_que": "Medido el 23-09-2026 sobre los 237 titulares publicados por los medios en espanol de geopolitica, que no pasan por el modelo: 36 eran ruido, y los 8 con 'Deporte' (teleSUR) o 'Deportes' (Prensa Latina) eran los 8 ruido. En la portada de la categoria de teleSUR, 30 de 30 eran deporte.",
+      "nombre_entero": "Se compara el nombre entero y sin tildes, no un trozo. WordPress mete las etiquetas en <category> junto a las categorias, asi que un trozo cazaria etiquetas sueltas.",
+      "como_comprobar_uno_nuevo": "Como 'excluir_rutas', pero sobre la portada de la categoria y no sobre lo publicado. 'Cultura' parecia ruido puro en lo publicado y en su portada salieron noticias de Palestina en teleSUR y de migracion en Prensa Latina."
     },
     "verificado_el": "28-08-2026"
   },
@@ -657,7 +664,8 @@
           "web": "https://www.aa.com.tr/es/",
           "feed": "https://www.aa.com.tr/es/rss/default?cat=guncel",
           "idioma": "es",
-          "comprobado": true
+          "comprobado": true,
+          "nota": "Categoriza en la URL (/es/mundo/, /es/turkiye/, /es/deportes/...), pero /es/turkiye/ NO se puede excluir: medido el 23-09-2026, de lo publicado parecia ruido (el naufragio de Girne, un congreso en Antalya) y en el feed eran casi todo diplomacia de Erdogan en la ONU."
         },
         {
           "nombre": "Daily Sabah",
@@ -761,7 +769,11 @@
           "web": "https://www.telesurtv.net/",
           "feed": "https://www.telesurtv.net/feed/",
           "idioma": "es",
-          "comprobado": true
+          "comprobado": true,
+          "excluir_categorias": [
+            "Deporte"
+          ],
+          "nota": "Su categoria 'Cultura' NO se puede excluir: mezcla el cine y la musica con Palestina ('Ministro de Cultura israeli pide despojar de ciudadania a directores de Naza', el boicot a Israel en Venecia). Su ruido restante va en 'America Latina y El Caribe' junto a lo bueno."
         },
         {
           "nombre": "Resumen Latinoamericano",
@@ -776,7 +788,10 @@
           "feed": "https://www.prensa-latina.cu/feed/",
           "idioma": "es",
           "comprobado": true,
-          "nota": "Agencia cubana. Su edicion inglesa, plenglish.com, lleva parada desde el 18-08-2026."
+          "excluir_categorias": [
+            "Deportes"
+          ],
+          "nota": "Agencia cubana. Su edicion inglesa, plenglish.com, lleva parada desde el 18-08-2026. Su 'Cultura' no se excluye: cuelga ahi tambien politica ('Italia mantiene debate sobre limite de alumnos extranjeros por aulas')."
         },
         {
           "nombre": "Common Dreams",

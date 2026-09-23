@@ -771,22 +771,50 @@ la noticia ya esta escrita y hay que rehacerla. Desde el 28-08-2026
 hace, pero el arreglo va en el sitio comun porque el siguiente feed que lo haga
 entraria igual de callado.
 
-### Lo que queda pendiente: el ruido de los medios en espanol
+### El ruido de los medios en espanol: `excluir_categorias`
 
 Los `idioma: es` **no pasan por el modelo**, se publican tal cual sale del feed. Son
-5 (Sputnik Mundo, teleSUR, Resumen Latinoamericano, Prensa Latina, Anadolu Espanol),
-dan 29 candidatos por turno y cubren de sobra la destacada espanola que exige
-`validar`. Pero en la primera pasada colaron *"Carlos Alcaraz debutara ante Roman
-Safiullin en el US Open"* y *"Pelicula dominicana La Bachata de Bionico llegara a
-cines de Mexico"*: aproximadamente uno de cada cuatro.
+5 (Sputnik Mundo, teleSUR, Resumen Latinoamericano, Prensa Latina, Anadolu Espanol)
+y cubren de sobra la destacada espanola que exige `validar`. En la primera pasada
+colaron *"Carlos Alcaraz debutara ante Roman Safiullin en el US Open"* y una pelicula
+dominicana, y se dejo sin filtro a proposito hasta tener historico.
 
-**Y aqui no hay filtro que no pueda fallar**: ninguno de los cinco categoriza en la
-URL (Sputnik y teleSUR meten el titular entero, Anadolu cuelga todo de `/es/`, y los
-otros dos van en la raiz), asi que `excluir_rutas` no sirve. Lo unico que hay es el
-`<category>` del propio feed, que **si declaran teleSUR, Resumen Latinoamericano y
-Prensa Latina**, y no declaran Sputnik ni Anadolu. Seria un mecanismo nuevo, y este
-proyecto no mete un filtro con la muestra de un dia: se decide con el historico de
-los primeros dias, igual que se hizo con `excluir_rutas`.
+**Medido el 23-09-2026 sobre los 237 titulares suyos publicados desde el 28-08**,
+clasificados a mano uno a uno: **36 eran ruido (15%)**, no uno de cada cuatro. Y el
+ruido no se reparte igual: Prensa Latina colo 14 de 38 y teleSUR 12 de 64, y
+los otros tres casi nada (Sputnik 5 de 59, Anadolu 3 de 37, Resumen
+Latinoamericano 2 de 39).
+
+La herramienta es el `<category>` del feed, que es la clasificacion del redactor y
+no una adivinanza, o sea lo mismo que `excluir_rutas` pero leido en otro sitio. De
+ahi `excluir_categorias`, un campo del medio en `medios.json` que se aplica en
+`candidatos` y en `titulares`. Hoy lleva **una sola categoria por medio**:
+
+- **teleSUR `Deporte`** y **Prensa Latina `Deportes`**: los 8 publicados con esas
+  categorias eran los 8 ruido (la liga de beisbol, los Juegos Suramericanos, el
+  remo de Brisbane), y en la portada de la categoria de teleSUR, 30 de 30 eran
+  deporte.
+- **`Cultura` no, en ninguno de los dos**, aunque en lo publicado pareciera ruido
+  puro. Es la leccion de `/streaming-tv/` otra vez: en la portada de la categoria
+  teleSUR mete *"Ministro de Cultura israeli pide despojar de ciudadania a los
+  directores de Naza"* y el boicot a Israel en Venecia, y Prensa Latina el debate
+  italiano sobre alumnos extranjeros por aula.
+- Se compara **el nombre entero**, no un trozo, porque WordPress mete en
+  `<category>` las etiquetas junto a las categorias.
+
+**Anadolu si categoriza en la URL** (`/es/mundo/`, `/es/turkiye/`, `/es/deportes/`),
+al reves de lo que se creyo al montar la seccion. Pero **`/es/turkiye/` no se puede
+excluir**, y es el mismo error evitado por tercera vez: en lo publicado parecia
+ruido (el naufragio de Girne, un congreso forense en Antalya) y en el feed del dia
+eran 12 de 30 entradas, casi todas diplomacia de Erdogan en la Asamblea de la ONU.
+
+**Lo que sigue entrando, y no hay corte que lo quite**: 28 de los 36. Son sucesos y
+clima locales (un huracan, un incendio en Quito, un simulacro en Mexico),
+efemerides y felicitaciones oficiales cubanas y venezolanas, y propaganda de
+provincias chinas. Van en la misma categoria que lo bueno (*America Latina y El
+Caribe*, *Nota Informativa*), y Sputnik y Anadolu no declaran categoria. Solo lo
+quitaria el modelo, que es justo lo que se aparto de estos titulares para que no
+inventara horas ni fuentes. Con un 12% de ruido, compensa.
 
 
 ## La seccion de Ofertas
