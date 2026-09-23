@@ -3,6 +3,153 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Snorkel AI triplica su valoración a $3.5 mil millones con demanda masiva de datos de entrenamiento",
+      "fuente": "TechCrunch",
+      "fecha": "22-09-2026 23:56",
+      "enlace": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "Anthropic lanza Claude Opus 5.5: mismo rendimiento que Fable 5.1 pero 40% más barato",
+      "fuente": "The Decoder",
+      "fecha": "22-09-2026 19:11",
+      "enlace": "https://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "La IA fronterista sigue acelerada a pesar de los llamados para desacelerar",
+      "fuente": "The Register",
+      "fecha": "23-09-2026 02:02",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/23/frontier-ai-keeps-racing-despite-calls-to-slow-down/5298448",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "OpenAI busca consultar con matemáticos de élite sobre cómo no volver a fracasar",
+      "fuente": "The Verge",
+      "fecha": "23-09-2026 02:17",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "Rabbit regresa con nuevo agente de IA que no necesita hardware R1 para funcionar",
+      "fuente": "The Verge",
+      "fecha": "22-09-2026 22:52",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "Meta admite que Muse fue fuertemente inspirado por OpenClaw, no desarrollado desde cero",
+      "fuente": "TechCrunch",
+      "fecha": "22-09-2026 21:09",
+      "enlace": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "El malware Windows CLOSEDQUORUM usa modelos de IA para seleccionar acciones autónomamente",
+      "fuente": "The Register",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.theregister.com/security/2026/09/22/windows-closedquorum-malware-uses-ai-models-to-autonomously-select-post-compromise-actions/5298435",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "Nuevos modelos de Anthropic y OpenAI prometen lo mismo: un poco más por mucho menos dinero",
+      "fuente": "Ars Technica",
+      "fecha": "22-09-2026",
+      "enlace": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "Empresa de seguridad descubre que nombrar agentes de IA con caracteres de Seinfeld ayuda a unirse al equipo",
+      "fuente": "The Register",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/22/security-firm-finds-naming-ai-agents-after-seinfeld-characters-helps-bots-join-the-team/5298424",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "Qualcomm lanza dos nuevos chips para smartphones con énfasis en IA",
+      "fuente": "TechCrunch",
+      "fecha": "22-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "GPT-6 Sol y Luna reducen precios a la mitad pero apenas mueven la aguja en rendimiento",
+      "fuente": "The Decoder",
+      "fecha": "22-09-2026",
+      "enlace": "https://the-decoder.com/openais-gpt-6-sol-and-luna-cut-prices-in-half-but-barely-move-the-needle-on-performance/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "Demanda judicial exige que OpenAI pague escuela nueva tras ataque en que se usó ChatGPT",
+      "fuente": "Ars Technica",
+      "fecha": "22-09-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "OpenAI pide estándares internacionales sobre IA que puede mejorarse a sí misma",
+      "fuente": "The Decoder",
+      "fecha": "22-09-2026",
+      "enlace": "https://the-decoder.com/openai-calls-for-international-standards-on-ai-that-could-improve-itself/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "La carrera de la IA está entrando en otra fase: tras Opus 5.5, OpenAI juega una baza clave con GPT-6 Sol y Luna",
+      "fuente": "Xataka",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/carrera-ia-esta-entrando-otra-fase-opus-5-5-openai-juega-baza-clave-gpt-6-sol-luna",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "OpenAI lanza GPT-6 Sol y Luna, con varias de las mejoras de Astra pero más eficientes y baratos",
+      "fuente": "Hipertextual",
+      "fecha": "22-09-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gpt-6-sol-y-luna-gran-rendimiento-a-precios-mas-asequibles/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "Z.ai pide perdón por descargar código y abre el código fuente de ZCode",
+      "fuente": "The Register",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/22/z-ai-open-sources-zcode/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "Toyota ordena a trabajadores entrenar robots humanoides pero dice que no serán reemplazados",
+      "fuente": "Ars Technica",
+      "fecha": "22-09-2026",
+      "enlace": "https://arstechnica.com/ai/2026/09/toyota-orders-workers-to-train-humanoid-robots/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "Andreessen Horowitz lanza una 'academia' sin tareas y con mentores para enseñar IA",
+      "fuente": "The Verge",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/2026/09/22/a16z-launches-academy/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "Trump dice que EEUU renombra oficialmente la IA como 'superinteligencia'",
+      "fuente": "The Verge",
+      "fecha": "23-09-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/2026/09/23/trump-super-intelligence/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "OpenAI asegura que su IA ha resuelto más de 100 problemas matemáticos complejos",
+      "fuente": "Xataka",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.xataka.com/inteligencia-artificial/openai-ai-ha-resuelto-100-problemas-matematicos/",
+      "turno": "2026-09-23_M"
+    },
+    {
+      "titulo": "Grupo de privacidad critica a la UE por cambiar normas de datos para favorecer a la IA",
+      "fuente": "The Register",
+      "fecha": "22-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/22/privacy-eu-ai-data-rules/",
+      "turno": "2026-09-23_M"
+    },
+    {
       "titulo": "Una capa de software derivada de neuronas reales promete vídeo de IA 5 veces más rápido y 80% más barato",
       "fuente": "The Decoder",
       "fecha": "22-09-2026 15:58",
