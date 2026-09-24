@@ -245,4 +245,5 @@ scripts/juegos-steam.json qué juegos se siguen en Steam
 ```
 
 El detalle de por qué cada cosa está hecha como está, y las decisiones que no
-hay que deshacer sin leerlas antes, viven en `CLAUDE.md`.
+hay que deshacer sin leerlas antes, viven en `docs/`. Las reglas en corto
+están en `CLAUDE.md`.
