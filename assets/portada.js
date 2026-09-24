@@ -55,9 +55,12 @@ function contar(cuantos, singular, plural) {
   return `${cuantos} ${cuantos === 1 ? singular : plural}`;
 }
 
+// Con espacio que no se parte: en el movil el titular de Ofertas partia la
+// linea entre la cifra y el simbolo, y "39,95" quedaba al final de una linea y
+// el "€" al principio de la siguiente.
 function euros(valor, moneda) {
   return Number(valor).toFixed(2).replace('.', ',') +
-    ' ' + (moneda === 'EUR' || !moneda ? '€' : moneda);
+    '\u00a0' + (moneda === 'EUR' || !moneda ? '€' : moneda);
 }
 
 function deNoticias(datos) {
@@ -283,8 +286,8 @@ function avisosDeOfertas(datos) {
   for (const m of metasDeOfertas(datos)) {
     if (m.falta > 0) continue;
     avisos.push({
-      clase: 'cumplido',
-      icono: '🎯',
+      clase: 'cumplido ofe',
+      icono: '€',
       texto: `${m.cual} esta a ${euros(m.precio, m.moneda)} en ${m.donde}: ` +
              'ha llegado a tu precio.',
     });
@@ -298,8 +301,8 @@ function avisosDeOfertas(datos) {
     const vigilada = deHoy.find((p) => p.tienda === TIENDA_VIGILADA && p.bajada);
     if (vigilada && vigilada.bajada.desde > vigilada.precio) {
       avisos.push({
-        clase: 'bajada',
-        icono: '⬇',
+        clase: 'bajada ofe',
+        icono: '↓',
         texto: `${producto.nombre} ha bajado en ${TIENDA_VIGILADA} a ` +
                `${euros(vigilada.precio, vigilada.moneda)}, desde ` +
                `${euros(vigilada.bajada.desde, vigilada.moneda)}.`,
@@ -323,8 +326,8 @@ function avisosDeSteam(datos) {
   return metasDeSteam(datos)
     .filter((m) => m.falta <= 0)
     .map((m) => ({
-      clase: 'cumplido',
-      icono: '🎯',
+      clase: 'cumplido ste',
+      icono: '€',
       destino: 'steam.html',
       texto: `${m.cual} esta a ${euros(m.precio, m.moneda)} en ${m.donde}: ` +
              'ha llegado a tu precio.',
@@ -386,7 +389,7 @@ async function pintarVigilancia() {
   // lo de debajo puede no ser de hoy, asi que leerlo despues no sirve de nada.
   caja.insertAdjacentHTML('afterbegin', `
     <div class="aviso-precio aviso-vigilancia">
-      <span class="aviso-icono" aria-hidden="true">⚠</span>
+      <span class="aviso-icono" aria-hidden="true">!</span>
       <span>
         <span class="aviso-texto"></span>
         <span class="aviso-cuando"></span>
@@ -402,6 +405,51 @@ async function pintarVigilancia() {
     'Comprobado el ' + (datos.comprobado || '?');
 }
 
+
+// -- La cabecera: el dia y el nido -------------------------------------------
+
+// El dia de quien mira, no el de la ultima actualizacion: lo que se pregunta
+// al abrir la portada es que hay de nuevo HOY, y la hora de cada seccion ya va
+// en su entrada.
+function pintarHoy() {
+  const dia = document.getElementById('hoy-dia');
+  const fecha = document.getElementById('hoy-fecha');
+  if (!dia || !fecha) return;
+  const hoy = new Date();
+  const semana = hoy.toLocaleDateString('es-ES', { weekday: 'long' });
+  dia.textContent = semana.charAt(0).toUpperCase() + semana.slice(1);
+  fecha.textContent = hoy.toLocaleDateString('es-ES', { day: 'numeric', month: 'long' });
+}
+
+// Un huevo por entrada, en su orden y con su color, lleno si la entrada ha
+// apuntado novedad. Sale de las entradas y no de una lista propia, asi que una
+// seccion nueva aparece aqui sola en cuanto tiene su entrada.
+function pintarNido(entradas) {
+  const nido = document.getElementById('nido');
+  if (!nido || !entradas.length) return;
+
+  let llenos = 0;
+  const huevos = Array.from(entradas, (entrada) => {
+    const lleno = entrada.dataset.novedad === '1';
+    if (lleno) llenos++;
+    const acento = Array.from(entrada.classList)
+      .filter((c) => c !== 'entrada' && c !== 'vacia').join(' ');
+    // El nombre es el primer texto de la linea de la seccion: "Tecnologia".
+    const linea = entrada.querySelector('.entrada-seccion');
+    const nombre = (linea && linea.firstChild ? linea.firstChild.textContent : '').trim()
+      || entrada.dataset.id;
+    const estado = lleno ? 'hay novedades' : 'nada nuevo';
+    return `<a class="${acento}${lleno ? ' lleno' : ''}" href="${entrada.getAttribute('href')}"
+              title="${nombre}: ${estado}" aria-label="${nombre}: ${estado}">
+              <span class="huevo" aria-hidden="true"></span></a>`;
+  });
+
+  nido.innerHTML = `
+    <div class="nido-huevos">${huevos.join('')}</div>
+    <p>${llenos ? `${llenos} de ${entradas.length} con novedades`
+                : 'Nada nuevo desde tu ultima visita'}</p>`;
+  nido.hidden = false;
+}
 
 async function cargarPortada() {
   const entradas = document.querySelectorAll('.entrada[data-json]');
@@ -423,8 +471,12 @@ async function cargarPortada() {
     // que ha llegado al precio al que interesa comprarlo. Las rebajas normales
     // se quedan dentro de su seccion.
     const tipo = entrada.dataset.tipo;
-    if (tipo === 'ofertas') avisos.push(...avisosDeOfertas(datos));
-    if (tipo === 'steam') avisos.push(...avisosDeSteam(datos));
+    const suyos = tipo === 'ofertas' ? avisosDeOfertas(datos)
+      : tipo === 'steam' ? avisosDeSteam(datos) : [];
+    avisos.push(...suyos);
+    // Para el nido. En las de precio la novedad es un aviso: la marca "nuevo"
+    // no la llevan, por lo que dice arriba.
+    if (suyos.length) entrada.dataset.novedad = '1';
 
     const resumen = tipo === 'ofertas' ? deOfertas(datos)
       : tipo === 'steam' ? deSteam(datos)
@@ -441,10 +493,13 @@ async function cargarPortada() {
     const marca = entrada.querySelector('.nuevo');
     if (marca && resumen.hayAlgo && datos.actualizado !== visto(entrada.dataset.id)) {
       marca.hidden = false;
+      entrada.dataset.novedad = '1';
     }
   }));
 
   pintarAvisos(avisos);
+  pintarNido(entradas);
 }
 
+pintarHoy();
 cargarPortada().then(pintarVigilancia);

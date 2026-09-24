@@ -1330,6 +1330,7 @@ def cmd_comprobar(args):
 
     rev = Revision()
     portada = (RAIZ / "index.html").read_text(encoding="utf-8")
+    barra = (RAIZ / "assets" / "barra.js").read_text(encoding="utf-8")
     css = (RAIZ / "assets" / "estilo.css").read_text(encoding="utf-8")
     medios = leer_json(MEDIOS).get("secciones", {})
 
@@ -1348,14 +1349,14 @@ def cmd_comprobar(args):
                       "la pagina. Hasta que la rutina escriba el primero, vale "
                       'uno con los dos arrays vacios.')
 
-        # Dos veces en la portada: el chip de arriba y la entrada de abajo.
-        enlaces = portada.count(f'href="{ident}.html"')
-        if not enlaces:
-            rev.error(f"{quien}: index.html no la enlaza. Sin chip ni entrada, "
-                      "a la seccion no se llega desde la portada.")
-        elif enlaces < 2:
-            rev.aviso(f"{quien}: index.html la enlaza {enlaces} vez. Deberian "
-                      "ser dos, el chip de arriba y la entrada de abajo.")
+        if f'href="{ident}.html"' not in portada:
+            rev.error(f"{quien}: index.html no la enlaza. Sin su entrada, la "
+                      "portada no ensena su ultimo turno.")
+
+        # La pastilla de la barra de arriba, que sale en todas las paginas.
+        if f"id: '{ident}'" not in barra:
+            rev.error(f"{quien}: falta en la lista de assets/barra.js, asi que "
+                      "no sale en la barra de arriba de ninguna pagina.")
 
         for trozo, donde in ((f"--acento-{acento}:", "la variable de color"),
                              (f'body[data-seccion="{acento}"]', "el acento de la pagina"),
@@ -1648,11 +1649,17 @@ def cmd_estado(args):
             print(f"  {dia}  " + "".join(f"{celda:<26}" for celda in celdas).rstrip())
         print()
 
+    # Las listas de abajo acaban en la portada, via 'vigilar', asi que el dia va
+    # en DD-MM-AAAA como el resto de fechas de la web, y no en el AAAA-MM-DD de
+    # los ficheros, que es el que se usa para buscarlo en el indice.
+    def legible(dia):
+        return datetime.strptime(dia, "%Y-%m-%d").strftime(FORMATO_FECHA)
+
     if vacios:
         print("AVISO: turnos publicados sin ninguna destacada. Ese dia la web "
               "decia 'todavia no hay noticias':")
         for seccion, dia, turno in vacios:
-            print(f"- {seccion}, turno {turno} del {dia}.")
+            print(f"- {seccion}, turno {turno} del {legible(dia)}.")
         print()
 
     if not perdidos:
@@ -1663,7 +1670,7 @@ def cmd_estado(args):
           f"{len(perdidos)} turno{'s' if len(perdidos) > 1 else ''}:")
     for seccion, dia, turno in perdidos:
         cuando = "la manana" if turno == "M" else "la tarde"
-        print(f"- {seccion}, turno {turno} ({cuando}) del {dia}.")
+        print(f"- {seccion}, turno {turno} ({cuando}) del {legible(dia)}.")
     print("\nEl log de cada ejecucion esta en https://claude.ai/code/routines. "
           "Un turno perdido no se recupera: los feeds solo dan lo reciente, "
           "asi que lo util es ver por que fallo antes del turno siguiente.")

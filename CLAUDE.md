@@ -31,7 +31,7 @@ La estructura y el diseno se crearon una sola vez. Las tareas programadas
 automatica rompa el diseno.
 
 ```
-index.html            portada con los botones de seccion
+index.html            portada: el dia, el nido y lo ultimo de cada seccion
 tecnologia.html       seccion (carga data/tecnologia.json)
 ia.html               seccion (carga data/ia.json)
 nintendo.html         seccion (carga data/nintendo.json)
@@ -40,6 +40,8 @@ ofertas.html          seccion (carga data/ofertas.json)
 steam.html            seccion (carga data/steam.json)
 historico.html        dias anteriores (carga data/historico/)
 assets/estilo.css     estilo compartido, claro/oscuro, responsive
+assets/barra.js       las pastillas de seccion de la barra de arriba
+assets/fuentes/       las dos letras de la web, servidas desde aqui
 assets/noticias.js    hace fetch del JSON y pinta las tarjetas
 assets/ofertas.js     lo mismo para la seccion de precios
 assets/steam.js       lo mismo para Steam; se apoya en ofertas.js
@@ -54,9 +56,10 @@ docs/                 el porque de cada decision
 ### Dar de alta una seccion
 
 Toca **ocho sitios** y olvidar uno no rompe nada visible: su HTML (titulo,
-`data-seccion` del `<body>` y ruta del JSON), el chip y la entrada de
-`index.html`, sus reglas de `estilo.css` (`--acento-<acento>`), su entrada en
-`assets/secciones.json` (con los `turnos` que publica), su bloque en
+`data-seccion` del `<body>` y ruta del JSON), la entrada de `index.html`, su
+pastilla en `assets/barra.js`, sus reglas de `estilo.css`
+(`--acento-<acento>`), su entrada en `assets/secciones.json` (con los
+`turnos` que publica), su bloque en
 `scripts/medios.json` y su `data/historico/<seccion>/indice.json`.
 **`python3 scripts/noticias.py comprobar` dice cual falta.**
 
@@ -236,7 +239,7 @@ Detalle en `docs/web.md`.
 | `docs/seccion-steam.md` | API de Steam, ediciones, bundles, ITAD, Instant Gaming |
 | `docs/vigilancia.md` | `vigilancia.yml`, `frescura`, repescas, `vigilar`, `comprobar` |
 | `docs/icono.md` | icono, manifest y previsualizacion |
-| `docs/web.md` | `serie_desde` y el numero de version del pie |
+| `docs/web.md` | el estilo (barra, letras, colores), `serie_desde` y la version del pie |
 | `docs/ramas.md` | las ramas `claude/*` que dejan las rutinas y su limpieza |
 
 Al documentar una decision nueva: va en su pagina de `docs/`, y aqui solo si

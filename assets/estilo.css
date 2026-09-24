@@ -1,21 +1,57 @@
+/* Las dos letras van servidas desde assets/fuentes/ y no desde Google Fonts:
+   asi la web no depende de nadie de fuera, y la app instalada las tiene aunque
+   ese servidor no conteste. Son variables (un fichero cubre todos los pesos) y
+   solo del subconjunto latino, que ya trae las tildes, la n y los signos de
+   apertura. Licencia OFL, junto a cada fichero. */
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("fuentes/bricolage-grotesque.woff2") format("woff2");
+  font-weight: 200 800;
+  font-stretch: 75% 100%;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("fuentes/figtree.woff2") format("woff2");
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+/* La paleta sale del icono: el fondo tira al ciruela del nido en vez del gris
+   azulado de antes, y los acentos son los huevos, algo menos saturados que
+   los primeros para que seis colores juntos no se peleen.
+   El primer valor de cada --acento-* es el que lee scripts/iconos.py para los
+   huevos del icono: si cambia aqui, regenerarlo. */
 :root {
   color-scheme: dark;
-  --fondo: #0f1115;
-  --fondo-tarjeta: #191d25;
-  --borde: #272d38;
-  --texto: #e8eaed;
-  --texto-suave: #9aa3b2;
-  --acento: #4f9cf9;
-  --acento-tec: #4f9cf9;
-  --acento-ia: #a78bfa;
-  --acento-nin: #e60012;
-  --acento-geo: #c026d3;
-  --acento-ofe: #2fbf71;
+  --fondo: #15111c;
+  --fondo-tarjeta: #1f1929;
+  --fondo-hundido: #2c2339;
+  --borde: #30273f;
+  --texto: #efeaf6;
+  --texto-suave: #a79fba;
+  --marca: #b79ce0;
+  --acento: #62a4f5;
+  --acento-tec: #62a4f5;
+  --acento-ia: #a88cf8;
+  --acento-nin: #f0606b;
+  --acento-geo: #d766d2;
+  --acento-ofe: #45c486;
   /* Cian porque es el hueco que quedaba: el azul lo tiene tecnologia, el
      verde ofertas y el ambar los avisos. A 16 px en el icono, un acento que
      se parezca a otro convierte dos huevos en el mismo. */
-  --acento-ste: #22d3ee;
-  --acento-alerta: #e0a33e;
+  --acento-ste: #45cfe3;
+  --acento-alerta: #e2a748;
+
+  --letra-titulos: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --letra-texto: "Figtree", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* El huevo que sustituye a los emojis. Va como mascara y no como imagen para
+     que lo pinte el background con el --acento de donde este: un mismo
+     dibujo sirve para las seis secciones y para los dos temas. */
+  --forma-huevo: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 26'%3E%3Cpath d='M10 1C5 1 1 9 1 16.5 1 21.5 5 25 10 25s9-3.5 9-8.5C19 9 15 1 10 1Z'/%3E%3C/svg%3E");
+  --forma-huevo-hueco: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 26'%3E%3Cpath d='M10 1C5 1 1 9 1 16.5 1 21.5 5 25 10 25s9-3.5 9-8.5C19 9 15 1 10 1Z' fill='none' stroke='black' stroke-width='1.8'/%3E%3C/svg%3E");
 }
 
 * { box-sizing: border-box; }
@@ -24,9 +60,21 @@ body {
   margin: 0;
   background: var(--fondo);
   color: var(--texto);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--letra-texto);
   line-height: 1.55;
   -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3 { font-family: var(--letra-titulos); }
+
+.huevo {
+  display: inline-block;
+  flex: none;
+  width: 11px;
+  height: 14px;
+  background: var(--acento);
+  -webkit-mask: var(--forma-huevo) center / contain no-repeat;
+  mask: var(--forma-huevo) center / contain no-repeat;
 }
 
 body[data-seccion="tec"] { --acento: var(--acento-tec); }
@@ -36,18 +84,101 @@ body[data-seccion="geo"] { --acento: var(--acento-geo); }
 body[data-seccion="ofe"] { --acento: var(--acento-ofe); }
 body[data-seccion="ste"] { --acento: var(--acento-ste); }
 
+/* Barra de arriba, la misma en todas las paginas. Sustituye al "Inicio" de
+   las secciones y a los chips de la portada: desde cualquier pagina se salta a
+   cualquier otra sin pasar por la portada.
+   El logo con su enlace va escrito en cada HTML; las pastillas las anade
+   assets/barra.js. Asi, si ese JS no carga, se pierde el atajo pero no el
+   camino de vuelta a la portada. */
+.barra {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 18px 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.barra-marca {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  gap: 10px;
+  color: var(--texto);
+  font-family: var(--letra-titulos);
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+.barra-marca img { width: 34px; height: 34px; }
+
+/* En el movil las seis no caben: se desplaza de lado. El margen negativo lleva
+   el desplazamiento hasta el borde de la pantalla, para que la pastilla
+   cortada se vea cortada por el borde y se entienda que hay mas. */
+.barra-nav {
+  display: flex;
+  gap: 6px;
+  margin: 0 -20px;
+  padding: 0 20px 2px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.barra-nav::-webkit-scrollbar { display: none; }
+
+.barra-nav a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 14px 7px 11px;
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  color: var(--texto);
+  font-size: 0.9rem;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: border-color .15s;
+}
+
+.barra-nav a:hover { border-color: var(--acento); }
+
+.barra-nav a[aria-current="page"] {
+  background: color-mix(in srgb, var(--acento) 18%, var(--fondo-tarjeta));
+  border-color: color-mix(in srgb, var(--acento) 55%, var(--borde));
+  font-weight: 600;
+}
+
 /* Cabecera */
 .cabecera {
   max-width: 780px;
   margin: 0 auto;
-  padding: 32px 20px 20px;
+  padding: 24px 20px 20px;
   border-bottom: 1px solid var(--borde);
 }
 
 .cabecera h1 {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
   margin: 0;
   font-size: 1.9rem;
-  letter-spacing: -0.02em;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+/* El huevo de la seccion delante del titulo, donde antes iba su emoji. En la
+   portada no, que no es ninguna seccion y ya lleva el logo encima. */
+body[data-seccion] .cabecera h1::before {
+  content: "";
+  flex: none;
+  width: 0.62em;
+  height: 0.8em;
+  background: var(--acento);
+  -webkit-mask: var(--forma-huevo) center / contain no-repeat;
+  mask: var(--forma-huevo) center / contain no-repeat;
 }
 
 .lema {
@@ -56,16 +187,6 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
   font-size: 0.92rem;
 }
 
-.volver {
-  display: inline-block;
-  margin-bottom: 14px;
-  color: var(--texto-suave);
-  text-decoration: none;
-  font-size: 0.9rem;
-}
-
-.volver:hover { color: var(--acento); }
-
 /* Contenedor */
 .contenedor {
   max-width: 780px;
@@ -73,40 +194,9 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
   padding: 24px 20px 48px;
 }
 
-/* Portada */
-/* Los chips son navegacion y nada mas. La hora y la marca de "nuevo" viven
-   abajo, en la entrada de cada seccion, que es donde esta el contenido de ese
-   turno: repetirlas aqui arriba solo seria decir dos veces lo mismo. */
-.chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 18px;
-}
-
-.chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 7px 14px;
-  background: var(--fondo-tarjeta);
-  border: 1px solid var(--borde);
-  border-radius: 999px;
-  color: var(--texto-suave);
-  text-decoration: none;
-  font-size: 0.88rem;
-  transition: border-color .15s, color .15s;
-}
-
-.chip .icono { font-size: 1.05rem; }
-
-.chip:hover {
-  border-color: var(--acento);
-  color: var(--acento);
-}
-
 /* El acento propio de cada seccion, el mismo que usa el body con data-seccion
-   dentro de cada pagina. Lo llevan el chip y la entrada. */
+   dentro de cada pagina. Lo llevan las pastillas de la barra, las pestanas
+   del historico y las entradas de la portada. */
 .tec { --acento: var(--acento-tec); }
 .ia  { --acento: var(--acento-ia); }
 .nin { --acento: var(--acento-nin); }
@@ -114,20 +204,91 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
 .ofe { --acento: var(--acento-ofe); }
 .ste { --acento: var(--acento-ste); }
 
-/* Cada entrada es la noticia numero 1 de su seccion y enlaza a ella. Es la
-   misma caja que .noticia dentro de las secciones, franja de color incluida:
-   la portada se lee como se lee todo lo demas.
-   En lista y no en rejilla a proposito: en rejilla las cajas de una fila se
-   igualan a la mas alta, y la seccion con menos texto se queda con un hueco
-   vacio debajo. En vertical cada una mide lo que mide, asi que el titular
-   tampoco hay que recortarlo. */
-/* Los avisos de precio. Van encima de todo porque cuando salen son lo unico
-   que importa, y casi nunca salen: un juego llegando a su precio o bajando en
-   Orange. El verde es el acento de Ofertas, que es a donde llevan. */
+/* -- Portada ------------------------------------------------------------ */
+
+/* La cabecera de la portada: el dia, en grande, y el nido. El dia lo escribe
+   assets/portada.js con la fecha de quien mira; sin JS se queda el nombre de la
+   web, que es lo que ponia antes. */
+.hoy {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 26px 20px 4px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px 24px;
+}
+
+.hoy-dia {
+  margin: 0 0 6px;
+  color: var(--texto-suave);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.hoy h1 {
+  margin: 0;
+  font-size: clamp(2.3rem, 9vw, 3.4rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+}
+
+/* El nido: un huevo por seccion, lleno si tiene algo que no se ha visto. En
+   las de noticias es la misma marca "nuevo" de su entrada; en Ofertas y Steam,
+   que no la llevan porque su JSON se reescribe siempre, es un aviso de precio.
+   Sale de las entradas de abajo, asi que no es otra lista que mantener. */
+.nido {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.nido[hidden] { display: none; }
+
+.nido-huevos { display: flex; align-items: flex-end; gap: 4px; }
+
+/* El enlace es mas grande que el huevo para que en el movil se pueda pulsar. */
+.nido-huevos a { display: block; padding: 3px; }
+
+.nido-huevos .huevo {
+  width: 22px;
+  height: 28px;
+  transition: transform .15s;
+}
+
+.nido-huevos a:hover .huevo { transform: translateY(-3px); }
+
+/* El hueco es el mismo huevo con un agujero: la mascara pinta solo el borde. */
+.nido-huevos a:not(.lleno) .huevo {
+  -webkit-mask: var(--forma-huevo-hueco) center / contain no-repeat;
+  mask: var(--forma-huevo-hueco) center / contain no-repeat;
+}
+
+.nido p {
+  margin: 0;
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 560px) {
+  .nido { align-items: flex-start; }
+}
+
+/* Los avisos, todos en una caja y una linea cada uno. Van encima de las
+   entradas porque cuando salen son lo unico que importa, y casi nunca salen:
+   un juego llegando a su precio, una bajada en Orange o que la vigilancia vea
+   un turno sin publicar. Cada linea lleva el color de a donde lleva. */
 .avisos {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  margin-bottom: 14px;
+  background: var(--fondo-tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .avisos:empty { display: none; }
@@ -136,83 +297,111 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 18px;
-  padding: 13px 18px;
-  background: color-mix(in srgb, var(--acento-ofe) 12%, var(--fondo-tarjeta));
-  border: 1px solid var(--acento-ofe);
-  border-radius: 10px;
+  padding: 12px 18px;
   color: var(--texto);
   text-decoration: none;
   font-size: 0.95rem;
 }
 
-.aviso-precio + .aviso-precio { margin-top: -8px; }
+.aviso-precio + .aviso-precio { border-top: 1px solid var(--borde); }
 
-.aviso-precio:hover {
-  background: color-mix(in srgb, var(--acento-ofe) 20%, var(--fondo-tarjeta));
+a.aviso-precio:hover {
+  background: color-mix(in srgb, var(--acento) 8%, transparent);
 }
 
-.aviso-icono { font-size: 1.15rem; }
+.aviso-icono {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--acento) 18%, var(--fondo-tarjeta));
+  color: var(--acento);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
 
 /* El aviso de vigilancia. Lo escribe 'noticias.py vigilar' desde una rutina,
    que corre fuera de GitHub: es el unico que puede avisar de que los propios
-   vigilantes de GitHub no han llegado a correr. Va con el color de alerta y
-   no con el verde de ofertas porque no habla de un precio, sino de que lo que
-   hay debajo puede no estar al dia. */
+   vigilantes de GitHub no han llegado a correr. Va en ambar y con la linea
+   tenida porque no habla de un precio, sino de que lo que hay debajo puede no
+   estar al dia. */
 .aviso-vigilancia {
-  background: color-mix(in srgb, var(--acento-alerta) 12%, var(--fondo-tarjeta));
-  border-color: var(--acento-alerta);
+  --acento: var(--acento-alerta);
+  background: color-mix(in srgb, var(--acento-alerta) 7%, var(--fondo-tarjeta));
 }
 
 .aviso-vigilancia .aviso-cuando {
   display: block;
   color: var(--texto-suave);
-  font-size: 0.85rem;
-  margin-top: 2px;
+  font-size: 0.82rem;
+  margin-top: 1px;
 }
 
+/* Cada entrada es la noticia numero 1 de su seccion y enlaza a ella.
+   En lista y no en rejilla a proposito: en rejilla las cajas de una fila se
+   igualan a la mas alta, y la seccion con menos texto se queda con un hueco
+   vacio debajo. En vertical cada una mide lo que mide, asi que el titular
+   tampoco hay que recortarlo.
+   El color de la seccion va en un degradado desde la esquina y ya no en una
+   raya a la izquierda: la raya en cada caja, siete veces seguidas, era lo que
+   hacia que la web pareciera un panel de control. */
 .entradas {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
 }
 
 .entrada {
   display: block;
-  padding: 15px 20px;
-  background: var(--fondo-tarjeta);
+  padding: 16px 20px 18px;
+  background: linear-gradient(120deg,
+    color-mix(in srgb, var(--acento) 14%, var(--fondo-tarjeta)) 0%,
+    var(--fondo-tarjeta) 55%);
   border: 1px solid var(--borde);
-  border-left: 3px solid var(--acento);
-  border-radius: 10px;
+  border-radius: 20px;
   color: var(--texto);
   text-decoration: none;
   transition: border-color .15s, transform .15s;
 }
 
 .entrada:hover {
-  border-color: var(--acento);
+  border-color: color-mix(in srgb, var(--acento) 60%, var(--borde));
   transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .entrada, .nido-huevos .huevo { transition: none; }
+  .entrada:hover, .nido-huevos a:hover .huevo { transform: none; }
 }
 
 .entrada-seccion {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 6px;
-  color: var(--acento);
-  font-size: 0.74rem;
+  gap: 4px 8px;
+  color: var(--texto);
+  font-size: 0.88rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
 }
 
-/* Dentro de la misma linea, pero en gris y sin mayusculas: el nombre de la
+/* El huevo delante del nombre, como en la barra de arriba. */
+.entrada-seccion::before {
+  content: "";
+  flex: none;
+  width: 13px;
+  height: 17px;
+  background: var(--acento);
+  -webkit-mask: var(--forma-huevo) center / contain no-repeat;
+  mask: var(--forma-huevo) center / contain no-repeat;
+}
+
+/* Dentro de la misma linea, pero en gris y sin negrita: el nombre de la
    seccion identifica, la hora acompana. */
 .entrada-cuando {
   color: var(--texto-suave);
   font-weight: 400;
-  letter-spacing: 0;
-  text-transform: none;
 }
 
 /* Vacia mientras no carga el JSON, y un hueco de gap por un span vacio deja la
@@ -221,10 +410,13 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
 
 .entrada-titulo {
   display: block;
-  margin-top: 5px;
-  font-size: 1.02rem;
-  font-weight: 600;
-  line-height: 1.4;
+  margin-top: 8px;
+  font-family: var(--letra-titulos);
+  font-size: 1.22rem;
+  font-weight: 650;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
 }
 
 .entrada:hover .entrada-titulo { color: var(--acento); }
@@ -243,14 +435,12 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
    lo que se viene a leer. */
 .nuevo {
   display: inline-block;
-  padding: 2px 8px;
+  padding: 2px 9px;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--acento) 16%, transparent);
+  background: color-mix(in srgb, var(--acento) 20%, transparent);
   color: var(--acento);
-  font-size: 0.64rem;
+  font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
 }
 
 .nuevo[hidden] { display: none; }
@@ -287,6 +477,9 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
 }
 
 .pestana {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
   padding: 7px 14px;
   background: var(--fondo-tarjeta);
   border: 1px solid var(--borde);
@@ -518,12 +711,23 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
 }
 
 .producto-cab .nombre {
+  font-family: var(--letra-titulos);
   font-size: 1.08rem;
   font-weight: 700;
   line-height: 1.35;
 }
 
 .producto-cab:hover .nombre { color: var(--acento); }
+
+/* En Steam el nombre enlaza a la ficha de la tienda. Sin esto salia con el
+   azul y el subrayado del navegador, o en morado si ya se habia visitado: se
+   leia como un enlace suelto y no como el titulo del juego. */
+.producto-cab .nombre a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.producto-cab .nombre a:hover { text-decoration: underline; }
 
 .producto .plataforma {
   color: var(--texto-suave);
@@ -755,7 +959,7 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
   padding: 2px 8px;
   border-radius: 999px;
   background: var(--acento);
-  color: #0f1115;
+  color: var(--fondo);
   font-size: 0.78rem;
   font-weight: 700;
   white-space: nowrap;
@@ -999,15 +1203,25 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
   .sin-precio { padding-left: 13px; padding-right: 13px; }
 }
 
+/* En claro los acentos van mas oscuros: los del tema oscuro, sobre blanco, no
+   llegan al contraste que pide un texto pequeno. */
 @media (prefers-color-scheme: light) {
   :root {
     color-scheme: light;
-    --fondo: #f6f7f9;
+    --fondo: #f5f2f9;
     --fondo-tarjeta: #ffffff;
-    --borde: #e1e4e9;
-    --texto: #1a1d23;
-    --texto-suave: #5f6673;
-    --acento-tec: #1a73e8;
-    --acento-alerta: #b4741a;
+    --fondo-hundido: #ece5f5;
+    --borde: #e4ddee;
+    --texto: #231a30;
+    --texto-suave: #6c6380;
+    --marca: #553a70;
+    --acento: #2f74d6;
+    --acento-tec: #2f74d6;
+    --acento-ia: #7757d9;
+    --acento-nin: #cf2638;
+    --acento-geo: #a8279a;
+    --acento-ofe: #16875a;
+    --acento-ste: #08829a;
+    --acento-alerta: #a86a12;
   }
 }

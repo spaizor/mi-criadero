@@ -300,9 +300,9 @@ commit cuyo unico cometido es lanzar la pasada seria mentir en el mismo sitio.
 
 ## `assets/secciones.json` y el comando `comprobar`
 
-Dar de alta una seccion toca **ocho sitios** (su HTML, el chip y la entrada de
-`index.html`, tres reglas de `estilo.css`, `medios.json` y el `indice.json` con
-su `desde`), y el problema no es que sean muchos: es que **olvidarse de uno no
+Dar de alta una seccion toca **ocho sitios** (su HTML, la entrada de
+`index.html`, su pastilla en `assets/barra.js`, tres reglas de `estilo.css`,
+`medios.json` y el `indice.json` con su `desde`), y el problema no es que sean muchos: es que **olvidarse de uno no
 rompe nada de forma visible**. Sin su bloque en el historico la seccion funciona
 pero no tiene dias anteriores; sin el `desde`, `estado` reclama turnos de antes
 de que existiera. Los dos aparecen semanas despues.
@@ -314,9 +314,9 @@ pestanas), `scripts/iconos.py` (un huevo del icono por seccion, en ese orden) y
 
 - **`estilo.css`**, porque una hoja de estilos no puede leer un JSON. Los
   `--acento-<acento>` siguen a mano, y `comprobar` vigila que no falte ninguno.
-- **`index.html`**, porque sus chips y entradas escritos son lo que hace que la
+- **`index.html`**, porque sus entradas escritas son lo que hace que la
   portada se quede como estaba cuando un fetch falla, en vez de en blanco.
-  Generarlos ahorraria repetirlos y cambiaria robustez por menos duplicacion, y
+  Generarlas ahorraria repetirlas y cambiaria robustez por menos duplicacion, y
   en la pagina que mas se abre ese cambio no compensa. En `historico.html` si se
   depende del fetch porque sin red esa pagina no tiene nada que ensenar de todas
   formas.

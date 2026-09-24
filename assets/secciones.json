@@ -3,18 +3,18 @@
     "que_es": "Las secciones de la web, en el orden en que se pintan. Es la lista buena: si una seccion no esta aqui, para historico.html y para scripts/iconos.py no existe.",
     "por_que_en_assets": "Para que no este en data/. 'noticias.py publicar' hace git add solo de data/, asi que un fichero de configuracion ahi dentro lo publicaria una rutina que lo tocase por error. Es la misma razon por la que scripts/medios.json tampoco esta en data/.",
     "quien_lo_lee": [
-      "historico.html: de aqui salen las pestanas, con su nombre, su emoji y su color.",
+      "historico.html: de aqui salen las pestanas, con su nombre y su color.",
       "scripts/iconos.py: el icono lleva un huevo por seccion, con su color y en este orden.",
       "scripts/noticias.py comprobar: cruza esta lista con el resto del repo y avisa de lo que falte."
     ],
     "quien_NO_lo_lee_y_por_que": [
       "assets/estilo.css: una hoja de estilos no puede leer un JSON. Los --acento-<acento> siguen escritos ahi a mano, y 'comprobar' vigila que no falte ninguno.",
-      "index.html: sus chips y sus entradas siguen escritos en el HTML a proposito. Generarlos desde aqui ahorraria repetirlos, pero dejaria la portada en blanco el dia que este fichero no cargue; hoy, si un fetch falla, cada entrada se queda con su descripcion escrita. En la pagina que mas se abre, esa robustez vale mas que la repeticion."
+      "index.html: sus entradas siguen escritas en el HTML a proposito. Generarlas desde aqui ahorraria repetirlas, pero dejaria la portada en blanco el dia que este fichero no cargue; hoy, si un fetch falla, cada entrada se queda con su descripcion escrita. En la pagina que mas se abre, esa robustez vale mas que la repeticion.",
+      "assets/barra.js: las pastillas de la barra de arriba llevan su propia lista. Leer esta con un fetch haria que la barra apareciera despues que el resto de la pagina y la empujara hacia abajo; 'comprobar' vigila que no falte ninguna."
     ],
     "campos": {
       "id": "El de los ficheros: <id>.html, data/<id>.json, data/historico/<id>/.",
-      "nombre": "Como se escribe, sin emoji.",
-      "emoji": "El que la acompana en las pestanas y en la portada.",
+      "nombre": "Como se escribe. Delante lleva un huevo de su color, no un emoji.",
       "acento": "El sufijo del color en estilo.css: --acento-<acento>, body[data-seccion=...] y la clase .<acento>.",
       "tipo": "'noticias' (destacadas + titulares), 'ofertas' (un producto en varias tiendas, que compiten) o 'steam' (un juego con sus ediciones, que NO compiten). Decide que JS la pinta y, en la portada, que resumen se saca de su JSON.",
       "historico": "Si guarda un turno por ejecucion en data/historico/. Ofertas no: su minimo vive dentro de su propio JSON.",
@@ -24,7 +24,7 @@
       "Anadir el bloque aqui.",
       "Poner en ese bloque los 'turnos' que va a publicar, que son los que tendra su rutina.",
       "Copiar un HTML de seccion, cambiar el titulo, el data-seccion del <body> y la ruta del JSON.",
-      "Anadir su chip y su entrada en index.html.",
+      "Anadir su entrada en index.html y su pastilla en la lista de assets/barra.js.",
       "Anadir --acento-<acento>, body[data-seccion] y la clase .<acento> en assets/estilo.css.",
       "Anadir su bloque de medios en scripts/medios.json.",
       "Crear data/historico/<id>/indice.json con su 'desde' (dia, o dia y turno: '2026-08-21_T').",
@@ -35,7 +35,6 @@
     {
       "id": "tecnologia",
       "nombre": "Tecnologia",
-      "emoji": "💻",
       "acento": "tec",
       "tipo": "noticias",
       "turnos": [
@@ -47,7 +46,6 @@
     {
       "id": "ia",
       "nombre": "IA",
-      "emoji": "🤖",
       "acento": "ia",
       "tipo": "noticias",
       "turnos": [
@@ -59,7 +57,6 @@
     {
       "id": "nintendo",
       "nombre": "Nintendo",
-      "emoji": "🎮",
       "acento": "nin",
       "tipo": "noticias",
       "turnos": [
@@ -71,7 +68,6 @@
     {
       "id": "geopolitica",
       "nombre": "Geopolitica",
-      "emoji": "🌍",
       "acento": "geo",
       "tipo": "noticias",
       "turnos": [
@@ -82,7 +78,6 @@
     {
       "id": "ofertas",
       "nombre": "Ofertas",
-      "emoji": "🏷",
       "acento": "ofe",
       "tipo": "ofertas",
       "historico": false
@@ -90,7 +85,6 @@
     {
       "id": "steam",
       "nombre": "Steam",
-      "emoji": "🕹",
       "acento": "ste",
       "tipo": "steam",
       "historico": false

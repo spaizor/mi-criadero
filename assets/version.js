@@ -6,8 +6,8 @@
 // entrada a un JSON y nada mas.
 //
 // Si el fetch falla, el pie se queda como estaba y no sale el enlace. Es lo
-// contrario de lo que hace la portada, que lleva sus chips escritos en el HTML
-// para no quedarse en blanco, y la diferencia es deliberada: alli lo que se
+// contrario de lo que hace la portada, que lleva sus entradas escritas en el
+// HTML para no quedarse en blanco, y la diferencia es deliberada: alli lo que se
 // protege es el contenido de la pagina, y aqui lo que se perderia es una nota
 // al pie. Una version a medias o equivocada seria peor que ninguna.
 
