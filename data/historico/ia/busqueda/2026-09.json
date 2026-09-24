@@ -3,6 +3,153 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Un agente de IA de OpenAI hackeó el sistema sanitario australiano sin ser detectado durante meses",
+      "fuente": "Wired",
+      "fecha": "24-09-2026 12:46",
+      "enlace": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Meta expande Muse con avatares de vídeo, direcciones de correo independientes y control de Mac",
+      "fuente": "The Decoder",
+      "fecha": "24-09-2026 15:10",
+      "enlace": "https://the-decoder.com/meta-gives-its-muse-ai-agent-video-avatars-email-addresses-and-mac-control/",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Google envía un satélite con IA al espacio para demostrar inferencia de baja latencia en órbita",
+      "fuente": "The Verge",
+      "fecha": "24-09-2026 16:15",
+      "enlace": "https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Bernie Sanders y Greg Casar proponen ley para prohibir permanentemente la superinteligencia artificial",
+      "fuente": "The Decoder",
+      "fecha": "24-09-2026 16:42",
+      "enlace": "https://the-decoder.com/u-s-bill-proposes-permanent-ban-on-artificial-superintelligence-and-creation-of-new-federal-ai-agency/",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Lovable alcanza $600 millones de ingresos anualizados con su plataforma de programación por «vibes»",
+      "fuente": "TechCrunch",
+      "fecha": "24-09-2026 16:43",
+      "enlace": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "¿Por qué es casi imposible mantener los agentes de IA autónomos alejados de internet?",
+      "fuente": "The Verge",
+      "fecha": "24-09-2026 16:30",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/999881/why-cant-we-airgap-rogue-ai-agents",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Shield AI, Waabi y General Motors debaten sobre construir IA cuando el fallo no es una opción en TechCrunch Disrupt 2026",
+      "fuente": "TechCrunch",
+      "fecha": "24-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026/",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Pregunta a HPE y NVIDIA sobre la cuestión de datos de IA que no se puede hacer en público",
+      "fuente": "The Register",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.theregister.com/paas-and-iaas/2026/09/24/sponsored/5298888",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "La comunidad de KDE se enciende ante las propuestas de integración de IA",
+      "fuente": "The Register",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.theregister.com/software/2026/09/24/talk-of-ai-in-kde-sets-the-community-ablaze/5298854",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Ando quiere competir con Slack con una aplicación de mensajería que integra humanos y agentes de IA",
+      "fuente": "TechCrunch",
+      "fecha": "24-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Meta pone su asistente de IA en un llavero",
+      "fuente": "Ars Technica",
+      "fecha": "24-09-2026",
+      "enlace": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Los agentes de OpenAI atacaron sitios del Gobierno y universidades meses antes de Hugging Face",
+      "fuente": "The Decoder",
+      "fecha": "24-09-2026",
+      "enlace": "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face/",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "DeepMind nació para perseguir la AGI, pero su nuevo jefe solo quiere sacar Gemini 4 adelante",
+      "fuente": "The Decoder",
+      "fecha": "24-09-2026",
+      "enlace": "https://the-decoder.com/deepmind-was-built-to-chase-agi-but-its-new-chief-just-wants-gemini-4-out-the-door/",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Los encantos de IA de Meta ahora pueden interactuar entre sí",
+      "fuente": "The Verge",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.theverge.com/tech/999944/meta-muse-charm-ai-interact-5g-modem",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Google asegura a organizaciones de infraestructura crítica que sus escáneres de IA no serán maliciosos",
+      "fuente": "The Register",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.theregister.com/security/2026/09/24/google-to-critical-infra-orgs-our-ai-scanners-wont-be-evil-promise/5298685",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Australia investiga si el hack de OpenAI a un sitio del Gobierno en salud violó la ley",
+      "fuente": "TechCrunch",
+      "fecha": "24-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "La descarga: el intento de eliminar el muro virtual y la IA domina la Semana del Clima",
+      "fuente": "MIT Technology Review",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Gemini 4 está casi listo, dice el nuevo jefe de Google DeepMind",
+      "fuente": "The Verge",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Claude ya está descubriendo nuevos sistemas celulares. El problema es que el cuello de botella de la ciencia no está ahí",
+      "fuente": "Xataka",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.xataka.com/investigacion/claude-esta-descubriendo-nuevos-sistemas-celulares-problema-que-cuello-botella-ciencia-no-esta-ahi",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Jensen Huang, CEO de Nvidia, lanza una advertencia brutal a las empresas de IA: \"Hay que cerrar los laboratorios\"",
+      "fuente": "ComputerHoy",
+      "fecha": "24-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/jensen-huang-ceo-nvidia-lanza-una-advertencia-brutal-las-empresas-ia-hay-que-cerrar-los-laboratorios_7040673_0.html",
+      "turno": "2026-09-24_T"
+    },
+    {
+      "titulo": "Una IA de OpenAI hackeó al Gobierno de Australia y tuvo acceso a datos de su sanidad pública",
+      "fuente": "Xataka",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/ia-openai-hackeo-al-gobierno-australia-tuvo-acceso-a-datos-su-sanidad-publica",
+      "turno": "2026-09-24_T"
+    },
+    {
       "titulo": "Meta Connect 2026: Muse llega a gafas inteligentes, dispositivo portátil y capacidad de videochat",
       "fuente": "TechCrunch",
       "fecha": "24-09-2026 03:13",
