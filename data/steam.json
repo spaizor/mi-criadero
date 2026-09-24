@@ -1,6 +1,6 @@
 {
   "seccion": "steam",
-  "actualizado": "23-09-2026 15:52",
+  "actualizado": "24-09-2026 09:48",
   "serie_desde": "2026-09",
   "juegos": [
     {
@@ -19,7 +19,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -110,7 +110,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -179,18 +179,6 @@
           "enlace": "https://itad.link/0190daf7-7036-7296-ae63-2e8c6568df6c/?app=opyd8c"
         },
         {
-          "tienda": "GameBillet",
-          "precio": 46.99,
-          "base": 49.99,
-          "descuento": 6,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 15,
-          "caduca": null,
-          "enlace": "https://itad.link/01907a74-78f2-70b2-a714-47709048c0ef/?app=opyd8c"
-        },
-        {
           "tienda": "PlanetPlay",
           "precio": 49.99,
           "base": 49.99,
@@ -225,6 +213,18 @@
           "minimo_tienda": 15,
           "caduca": null,
           "enlace": "https://itad.link/01a08bec-edf3-73b1-b3a1-a40513eaf1e2/?app=opyd8c"
+        },
+        {
+          "tienda": "GameBillet",
+          "precio": 49.99,
+          "base": 49.99,
+          "descuento": 0,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": 15,
+          "caduca": null,
+          "enlace": "https://itad.link/01907a74-78f2-70b2-a714-47709048c0ef/?app=opyd8c"
         }
       ],
       "minimo_itad": {
@@ -249,7 +249,7 @@
           "base": 24.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 24.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -262,7 +262,7 @@
           "base": 34.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 34.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -445,11 +445,11 @@
           "enlace": "https://store.steampowered.com/app/838310/",
           "moneda": "EUR",
           "objetivo": 3.0,
-          "precio": 4.99,
+          "precio": 9.99,
           "base": 9.99,
-          "descuento": 50,
+          "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 4.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -490,7 +490,7 @@
           "base": 22.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 22.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -542,7 +542,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -556,7 +556,7 @@
           "base": 89.98,
           "descuento": 8,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 82.78,
           "minimo_fecha": "18-09-2026",
           "bundleid": "32470"
@@ -598,7 +598,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -606,7 +606,7 @@
       "tiendas": [
         {
           "tienda": "Instant Gaming",
-          "precio": 4.79,
+          "precio": 4.69,
           "base": null,
           "descuento": 82,
           "plataforma": "Steam",
@@ -691,18 +691,6 @@
           "enlace": "https://itad.link/018d9386-4d11-73e6-8455-76af5e6ff530/?app=opyd8c"
         },
         {
-          "tienda": "GameBillet",
-          "precio": 28.19,
-          "base": 29.99,
-          "descuento": 6,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 4.5,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9386-4d11-73e6-8455-76af6a60088c/?app=opyd8c"
-        },
-        {
           "tienda": "PlanetPlay",
           "precio": 29.99,
           "base": 29.99,
@@ -725,6 +713,18 @@
           "minimo_tienda": 4.5,
           "caduca": null,
           "enlace": "https://itad.link/01a08bec-e735-73b8-84c9-574147ac82e5/?app=opyd8c"
+        },
+        {
+          "tienda": "GameBillet",
+          "precio": 29.99,
+          "base": 29.99,
+          "descuento": 0,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": 4.5,
+          "caduca": null,
+          "enlace": "https://itad.link/018d9386-4d11-73e6-8455-76af6a60088c/?app=opyd8c"
         }
       ],
       "minimo_itad": {
@@ -748,7 +748,7 @@
           "base": 99.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 39.89,
           "minimo_fecha": "18-09-2026"
         },
@@ -762,7 +762,7 @@
           "base": 99.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -775,7 +775,7 @@
           "base": 119.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 77.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -913,7 +913,7 @@
           "base": 49.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -926,7 +926,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 79.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -940,7 +940,7 @@
           "base": 119.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 119.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -1022,7 +1022,7 @@
           "tienda": "Instant Gaming",
           "precio": 38.79,
           "base": null,
-          "descuento": 11,
+          "descuento": 12,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -1079,7 +1079,7 @@
           "base": 39.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 19.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1145,7 +1145,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -1159,7 +1159,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 79.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -1172,7 +1172,7 @@
           "base": 99.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 99.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -1182,7 +1182,7 @@
           "tienda": "Instant Gaming",
           "precio": 45.99,
           "base": null,
-          "descuento": 12,
+          "descuento": 13,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -1218,9 +1218,9 @@
         },
         {
           "tienda": "PlayerLand",
-          "precio": 56.99,
+          "precio": 56.49,
           "base": 59.99,
-          "descuento": 5,
+          "descuento": 6,
           "plataforma": "Steam",
           "cupon": null,
           "marca": "S",
@@ -1323,7 +1323,7 @@
           "base": 24.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 24.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -1474,7 +1474,7 @@
           "base": 49.99,
           "descuento": 70,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 14.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1484,7 +1484,7 @@
           "tienda": "Instant Gaming",
           "precio": 14.69,
           "base": null,
-          "descuento": 66,
+          "descuento": 67,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -1540,7 +1540,7 @@
           "base": 49.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 19.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -1554,7 +1554,7 @@
           "base": 69.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 27.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1633,7 +1633,7 @@
           "base": 12.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 5.19,
           "minimo_fecha": "19-09-2026"
         }
@@ -1700,7 +1700,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 49.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -1708,7 +1708,7 @@
       "tiendas": [
         {
           "tienda": "Instant Gaming",
-          "precio": 16.19,
+          "precio": 16.29,
           "base": null,
           "descuento": 63,
           "plataforma": "Steam",
@@ -1851,7 +1851,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -1864,7 +1864,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 69.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1978,7 +1978,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -1991,7 +1991,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 69.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -2005,7 +2005,7 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 89.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2094,7 +2094,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2245,7 +2245,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 49.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2396,7 +2396,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 39.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2437,7 +2437,7 @@
           "base": 4.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 4.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2478,7 +2478,7 @@
           "base": 14.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2519,12 +2519,26 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 19.49,
+          "base": null,
+          "descuento": 68,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/11907-comprar-marvel-s-spider-man-remastered-pc-juego-steam/",
+          "nombre_en_tienda": "Marvel's Spider-Man Remastered",
+          "disponible": true
+        },
         {
           "tienda": "GamersGate",
           "precio": 50.99,
@@ -2656,12 +2670,26 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 49.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 15.59,
+          "base": null,
+          "descuento": 69,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/12953-comprar-marvel-s-spider-man-miles-morales-pc-juego-steam/",
+          "nombre_en_tienda": "Marvel’s Spider-Man: Miles Morales",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 42.49,
@@ -2793,7 +2821,7 @@
           "base": 28.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 21.74,
           "minimo_fecha": "18-09-2026"
         }
@@ -2820,7 +2848,7 @@
           "base": 28.99,
           "descuento": 67,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 9.56,
           "minimo_fecha": "18-09-2026"
         }
@@ -2871,11 +2899,11 @@
           "enlace": "https://store.steampowered.com/app/1451940/",
           "moneda": "EUR",
           "objetivo": 3.0,
-          "precio": 4.51,
+          "precio": 13.29,
           "base": 13.29,
-          "descuento": 66,
+          "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 4.51,
           "minimo_fecha": "18-09-2026"
         }
@@ -2890,7 +2918,7 @@
           "tienda": "Instant Gaming",
           "precio": 9.99,
           "base": null,
-          "descuento": 28,
+          "descuento": 29,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -2918,7 +2946,7 @@
           "base": 59.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 23.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -2985,7 +3013,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3038,7 +3066,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 39.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3065,7 +3093,7 @@
           "base": 19.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 9.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -3099,7 +3127,7 @@
           "tienda": "Instant Gaming",
           "precio": 10.39,
           "base": null,
-          "descuento": 40,
+          "descuento": 41,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -3132,7 +3160,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -3145,7 +3173,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 69.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -3158,7 +3186,7 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 89.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3273,7 +3301,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -3286,7 +3314,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 79.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3401,7 +3429,7 @@
           "base": 19.5,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 19.5,
           "minimo_fecha": "18-09-2026"
         }
@@ -3428,7 +3456,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3579,7 +3607,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3589,7 +3617,7 @@
           "tienda": "Instant Gaming",
           "precio": 14.99,
           "base": null,
-          "descuento": 71,
+          "descuento": 72,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -3730,7 +3758,7 @@
           "base": 24.5,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 24.5,
           "minimo_fecha": "18-09-2026"
         }
@@ -3797,7 +3825,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3948,7 +3976,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 69.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -3961,7 +3989,7 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 89.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -4088,7 +4116,7 @@
           "base": 29.99,
           "descuento": 75,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 7.49,
           "minimo_fecha": "18-09-2026"
         }
@@ -4110,7 +4138,7 @@
           "tienda": "Instant Gaming",
           "precio": 7.99,
           "base": null,
-          "descuento": 69,
+          "descuento": 70,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -4191,7 +4219,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 69.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -4204,7 +4232,7 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 89.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -4349,7 +4377,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 19.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -4363,7 +4391,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 19.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -4376,7 +4404,7 @@
           "base": 69.99,
           "descuento": 25,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 52.49,
           "minimo_fecha": "18-09-2026"
         }
@@ -4408,12 +4436,12 @@
         },
         {
           "tienda": "PlayerLand",
-          "precio": 23.49,
+          "precio": 22.99,
           "base": 59.99,
-          "descuento": 61,
+          "descuento": 62,
           "plataforma": "Steam",
           "cupon": null,
-          "marca": null,
+          "marca": "S",
           "minimo_tienda": 22.99,
           "caduca": null,
           "enlace": "https://itad.link/019c0b72-8157-700f-9336-3478bd99650e/?app=opyd8c"
@@ -4468,9 +4496,9 @@
         },
         {
           "tienda": "GameBillet",
-          "precio": 56.39,
+          "precio": 59.99,
           "base": 59.99,
-          "descuento": 6,
+          "descuento": 0,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -4501,7 +4529,7 @@
           "base": 39.99,
           "descuento": 75,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 9.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -4514,7 +4542,7 @@
           "base": 59.99,
           "descuento": 75,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -4583,18 +4611,6 @@
           "enlace": "https://itad.link/0194717f-00a2-709f-9500-7f418af04ad8/?app=opyd8c"
         },
         {
-          "tienda": "GameBillet",
-          "precio": 37.59,
-          "base": 39.99,
-          "descuento": 6,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 10,
-          "caduca": null,
-          "enlace": "https://itad.link/01933245-a9a3-70bc-8b59-30a672143b34/?app=opyd8c"
-        },
-        {
           "tienda": "PlanetPlay",
           "precio": 39.99,
           "base": 39.99,
@@ -4629,6 +4645,18 @@
           "minimo_tienda": 10,
           "caduca": null,
           "enlace": "https://itad.link/01a08bec-ec40-71cf-920f-4c033c659cf5/?app=opyd8c"
+        },
+        {
+          "tienda": "GameBillet",
+          "precio": 39.99,
+          "base": 39.99,
+          "descuento": 0,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": 10,
+          "caduca": null,
+          "enlace": "https://itad.link/01933245-a9a3-70bc-8b59-30a672143b34/?app=opyd8c"
         }
       ],
       "minimo_itad": {
@@ -4653,7 +4681,7 @@
           "base": 71.99,
           "descuento": 30,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 50.39,
           "minimo_fecha": "18-09-2026"
         },
@@ -4666,7 +4694,7 @@
           "base": 71.99,
           "descuento": 30,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 50.39,
           "minimo_fecha": "18-09-2026"
         }
@@ -4693,12 +4721,26 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 24.89,
+          "base": null,
+          "descuento": 53,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/13298-comprar-the-last-of-us-part-i-pc-juego-steam-europe/",
+          "nombre_en_tienda": "The Last of Us Part I",
+          "disponible": true
+        },
         {
           "tienda": "Fanatical",
           "precio": 50.99,
@@ -4722,18 +4764,6 @@
           "minimo_tienda": 30,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-89c4-71dd-b17f-8af971c0390c/?app=opyd8c"
-        },
-        {
-          "tienda": "GameBillet",
-          "precio": 56.39,
-          "base": 59.99,
-          "descuento": 6,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 28.4,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9386-89c4-71dd-b17f-8af97532c59c/?app=opyd8c"
         },
         {
           "tienda": "Gamesload",
@@ -4806,6 +4836,18 @@
           "minimo_tienda": 29.99,
           "caduca": null,
           "enlace": "https://itad.link/018d959c-ea86-71cd-b201-0b5ff1c5e0fa/?app=opyd8c"
+        },
+        {
+          "tienda": "GameBillet",
+          "precio": 59.99,
+          "base": 59.99,
+          "descuento": 0,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": 28.4,
+          "caduca": null,
+          "enlace": "https://itad.link/018d9386-89c4-71dd-b17f-8af97532c59c/?app=opyd8c"
         }
       ],
       "minimo_itad": {
@@ -4830,7 +4872,7 @@
           "base": 16.79,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 10.07,
           "minimo_fecha": "18-09-2026"
         }
@@ -4857,7 +4899,7 @@
           "base": 12.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 12.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -4910,7 +4952,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -4918,7 +4960,7 @@
       "tiendas": [
         {
           "tienda": "Instant Gaming",
-          "precio": 8.49,
+          "precio": 8.39,
           "base": null,
           "descuento": 68,
           "plataforma": "Steam",
@@ -4929,6 +4971,18 @@
           "enlace": "https://www.instant-gaming.com/es/13621-comprar-trine-5-a-clockwork-conspiracy-pc-juego-steam/",
           "nombre_en_tienda": "Trine 5: A Clockwork Conspiracy",
           "disponible": true
+        },
+        {
+          "tienda": "Humble Store",
+          "precio": 11.99,
+          "base": 29.99,
+          "descuento": 60,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": "S",
+          "minimo_tienda": 11.99,
+          "caduca": "2026-10-14T19:00:00+02:00",
+          "enlace": "https://itad.link/018d9386-e8a3-7224-92ad-75f2fb745679/?app=opyd8c"
         },
         {
           "tienda": "Fanatical",
@@ -4977,18 +5031,6 @@
           "minimo_tienda": 11.7,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-e8a3-7224-92ad-75f2fac989ab/?app=opyd8c"
-        },
-        {
-          "tienda": "Humble Store",
-          "precio": 29.99,
-          "base": 29.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 11.99,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9386-e8a3-7224-92ad-75f2fb745679/?app=opyd8c"
         },
         {
           "tienda": "DLGamer",
@@ -5049,7 +5091,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 49.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -5199,7 +5241,7 @@
           "base": 24.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 9.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -5213,7 +5255,7 @@
           "base": 40.98,
           "descuento": 61,
           "estado": "ok",
-          "consultado": "23-09-2026 15:52",
+          "consultado": "24-09-2026 09:48",
           "minimo": 15.89,
           "minimo_fecha": "19-09-2026",
           "bundleid": "9112"
