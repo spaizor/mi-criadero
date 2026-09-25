@@ -3,6 +3,132 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Anthropic firma un acuerdo de 11.600 millones con Akamai tras invertir 500.000 millones en infraestructura",
+      "fuente": "The Decoder",
+      "fecha": "25-09-2026 12:43",
+      "enlace": "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "El agente Muse de Meta proporciona a cada usuario un ordenador completo en la nube con Linux",
+      "fuente": "The Decoder",
+      "fecha": "25-09-2026 14:22",
+      "enlace": "https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "Microsoft cree que su nueva « súper app » Copilot será tan influyente como Office",
+      "fuente": "The Verge",
+      "fecha": "25-09-2026 14:00",
+      "enlace": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "Administración Trump usa IA para denegar cuidados médicos a ancianos con resultados desastrosos",
+      "fuente": "Ars Technica",
+      "fecha": "25-09-2026 13:00",
+      "enlace": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment/",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "El Pentágono solicita 30 millones para construir un detector de mentiras con inteligencia artificial",
+      "fuente": "MIT Technology Review",
+      "fecha": "25-09-2026 11:16",
+      "enlace": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "¿Pueden las funciones de IA de Apple Home superar a Amazon y Google? Prueba de comparativa",
+      "fuente": "The Verge",
+      "fecha": "25-09-2026",
+      "enlace": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "La inteligencia no es barata: la IA dispara costos para la NSA, hospitales y aseguradoras",
+      "fuente": "The Decoder",
+      "fecha": "25-09-2026",
+      "enlace": "https://the-decoder.com/intelligence-doesnt-come-cheap-as-ai-drives-up-costs-for-the-nsa-hospitals-and-insurers/",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "« Llamar por mí »: Google permite que Gemini haga llamadas a empresas en tu nombre",
+      "fuente": "The Decoder",
+      "fecha": "25-09-2026",
+      "enlace": "https://the-decoder.com/googles-call-for-me-lets-gemini-phone-businesses-for-you/",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "Fork de Asahi embraces LLMs y lleva Linux al Mac mini M4",
+      "fuente": "The Register",
+      "fecha": "25-09-2026",
+      "enlace": "https://www.theregister.com/os-platforms/2026/09/25/asahi-fork-embraces-llms-and-lands-linux-on-the-m4-mac-mini/5298931",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "La descarga: el detector de mentiras impulsado por IA del Pentágono y límites de órganos jóvenes",
+      "fuente": "MIT Technology Review",
+      "fecha": "25-09-2026",
+      "enlace": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "El creador de Ruby on Rails DHH dice que ya no escribirá código manualmente",
+      "fuente": "The Decoder",
+      "fecha": "25-09-2026",
+      "enlace": "https://the-decoder.com/ruby-on-rails-creator-dhh-says-hes-done-writing-code-by-hand/",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "Huawei Cloud lanza productos de IA empresarial y construye una nube de agentes abierta",
+      "fuente": "The Register",
+      "fecha": "25-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/25/partner-content-huawei-cloud-rolls-out-enterprise-ai-products-across-the-board-building-an-open-agentic-cloud/5298765",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "Lightspeed apunta a 250 millones para nuevo fondo indio centrado en IA en etapa temprana",
+      "fuente": "TechCrunch",
+      "fecha": "25-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "\"No sé mi dirección y no me importa\". Jensen Huang habla sobre la pérdida de destreza intelectual debido a la IA (y por qué es bueno)",
+      "fuente": "Xataka",
+      "fecha": "25-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/no-se-mi-direccion-no-me-importa-jensen-huang-habla-perdida-destreza-intelectual-debido-a-ia-que-bueno",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "La IA ya está programando Linux y ahora los desarrolladores del kernel quieren enseñarle sus propias reglas",
+      "fuente": "ComputerHoy",
+      "fecha": "25-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/ia-ya-esta-programando-linux-ahora-los-desarrolladores-kernel-quieren-ensenarle-sus-propias-reglas_7041198_0.html",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "La IA iba a destrozar a Fiverr, pero ha encontrado la forma de ganar más dinero que nunca: dejar de ser Fiverr",
+      "fuente": "Xataka",
+      "fecha": "25-09-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/ia-iba-a-destrozar-a-fiverr-ha-encontrado-forma-ganar-dinero-que-nunca-dejar-ser-fiverr",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "Australia afirma que OpenAI ocultó que su inteligencia artificial consiguió hackear el portal de salud del gobierno",
+      "fuente": "ComputerHoy",
+      "fecha": "25-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/australia-afirma-que-openai-oculto-que-su-inteligencia-artificial-consiguio-hackear-portal-salud-gobierno_7041208_0.html",
+      "turno": "2026-09-25_T"
+    },
+    {
+      "titulo": "Donald Trump lanza una polémica advertencia sobre la IA: \"Solo necesita un presidente fuerte\"",
+      "fuente": "ComputerHoy",
+      "fecha": "25-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/donald-trump-lanza-una-polemica-advertencia-sobre-ia-solo-necesita-un-presidente-fuerte_7041201_0.html",
+      "turno": "2026-09-25_T"
+    },
+    {
       "titulo": "Sakana AI ficha a Jürgen Schmidhuber como asesor científico jefe",
       "fuente": "The Decoder",
       "fecha": "24-09-2026 20:06",
