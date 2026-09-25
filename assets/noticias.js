@@ -13,17 +13,23 @@ function escapar(texto) {
   return d.innerHTML;
 }
 
+// La primera sale mas grande: es la noticia del turno. El numero va fuera del
+// titulo, en su propia columna, y oculto a los lectores de pantalla, que ya
+// recorren las noticias en orden.
 function pintarDestacada(n, indice) {
   const enlace = n.enlace
-    ? ` · <a href="${escapar(n.enlace)}" target="_blank" rel="noopener">Leer mas</a>`
+    ? `<a class="leer" href="${escapar(n.enlace)}" target="_blank" rel="noopener">Leer →</a>`
     : '';
-  const fecha = n.fecha ? ` · ${escapar(n.fecha)}` : '';
+  const fecha = n.fecha ? `<span>${escapar(n.fecha)}</span>` : '';
   const fuente = n.fuente ? escapar(n.fuente) : 'Sin fuente';
   return `
-    <article class="noticia">
-      <h2><span class="num">${indice + 1}</span>${escapar(n.titulo)}</h2>
-      <p>${escapar(n.resumen)}</p>
-      <div class="meta">${fuente}${fecha}${enlace}</div>
+    <article class="noticia${indice === 0 ? ' primera' : ''}">
+      <span class="num" aria-hidden="true">${indice + 1}</span>
+      <div>
+        <h2>${escapar(n.titulo)}</h2>
+        <p>${escapar(n.resumen)}</p>
+        <div class="meta"><span class="fuente">${fuente}</span>${fecha}${enlace}</div>
+      </div>
     </article>`;
 }
 

@@ -333,11 +333,12 @@ function pintarJuego(juego, series) {
   // ve plegado, y se compara contra el mas bajo de hoy y no contra el de Steam:
   // si el juego ha llegado a tu precio en Fanatical, ha llegado. Los objetivos
   // de las ediciones se leen al abrir, al lado del precio con el que hay que
-  // compararlos.
+  // compararlos. Es la de ofertas.js y no la de las filas porque lleva la
+  // barra de cuanto falta, que solo tiene sentido plegado.
   const meta = estandar
-    ? pintarObjetivoSteam(estandar.objetivo,
-                          mejor ? mejor.precio : estandar.precio,
-                          estandar.moneda)
+    ? pintarObjetivo(estandar.objetivo,
+                     mejor ? mejor.precio : estandar.precio,
+                     estandar.moneda)
     : '';
 
   const grafico = pintarGrafico(

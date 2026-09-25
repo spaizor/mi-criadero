@@ -24,9 +24,12 @@ function escaparOferta(texto) {
   return d.innerHTML;
 }
 
+// Entre la cifra y el simbolo va un espacio que no se parte, como en la
+// portada: en el movil un "2,42" al final de la linea dejaba el € solo en la
+// siguiente.
 function formatearPrecio(valor, moneda) {
   const numero = Number(valor).toFixed(2).replace('.', ',');
-  return numero + ' ' + (moneda === 'EUR' || !moneda ? '€' : escaparOferta(moneda));
+  return numero + ' ' + (moneda === 'EUR' || !moneda ? '€' : escaparOferta(moneda));
 }
 
 function pintarPrecio(p, barato) {
@@ -248,6 +251,10 @@ function pintarGrafico(linea, objetivo, moneda) {
 // objetivos se ha rozado en los primeros quince dias de datos, asi que una
 // marca que solo apareciera al cumplirse no se veria en meses; la distancia,
 // en cambio, dice algo cada dia.
+//
+// Es la de la cabecera plegada, y por eso lleva la barra: el objetivo sobre el
+// precio de hoy, que se llena al llegar. Steam la usa tambien para su
+// cabecera; sus filas de dentro llevan solo el texto (pintarObjetivoSteam).
 function pintarObjetivo(objetivo, hoy, moneda) {
   if (objetivo == null) return '';
   if (hoy == null) {
@@ -257,8 +264,10 @@ function pintarObjetivo(objetivo, hoy, moneda) {
     return '<span class="objetivo cumplido">A tu precio</span>';
   }
   const falta = hoy - objetivo;
-  return `<span class="objetivo">Tu precio: ${formatearPrecio(objetivo, moneda)} · te faltan ${
-    formatearPrecio(falta, moneda)}</span>`;
+  const llenado = Math.max(0, Math.min(100, Math.round(objetivo / hoy * 100)));
+  return `<span class="objetivo"><span>Tu precio: ${formatearPrecio(objetivo, moneda)} · te faltan <b>${
+    formatearPrecio(falta, moneda)}</b></span><span class="objetivo-barra" aria-hidden="true"><i style="width:${
+    llenado}%"></i></span></span>`;
 }
 
 

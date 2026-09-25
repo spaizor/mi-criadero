@@ -90,6 +90,15 @@
       for (const boton of elPestanas.children) {
         boton.classList.toggle('activa', boton.dataset.id === seccion.id);
       }
+      // En el movil las pestanas se desplazan de lado: que la abierta quede a
+      // la vista si se entra con ?seccion=. A mano y no con scrollIntoView,
+      // por lo mismo que en assets/barra.js: moveria tambien la pagina.
+      const abierta = elPestanas.querySelector('.activa');
+      if (abierta) {
+        const sobra = abierta.getBoundingClientRect().right -
+                      elPestanas.getBoundingClientRect().right;
+        if (sobra > 0) elPestanas.scrollLeft += sobra + 20;
+      }
 
       const base = `data/historico/${seccion.id}/`;
       let indice;

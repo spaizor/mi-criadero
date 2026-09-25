@@ -12,6 +12,19 @@
   },
   "historial": [
     {
+      "version": "1.4",
+      "fecha": "25-09-2026",
+      "titulo": "Estilo Criadero",
+      "cambios": [
+        "Estilo nuevo, sacado del icono: los colores del nido, letras propias y un huevo de color por seccion en lugar de los emojis.",
+        "Barra de secciones arriba en todas las paginas: se salta de una a otra sin pasar por la portada.",
+        "La portada abre con el dia en grande y un nido de huevos: lleno si la seccion tiene algo sin ver.",
+        "Cada seccion abre con una banda de su color, y la primera noticia sale mas grande.",
+        "En Ofertas y Steam, una barra dice cuanto falta para tu precio sin tener que leer cifras.",
+        "En el movil, las pestanas del historico ya no descolocan la pagina."
+      ]
+    },
+    {
       "version": "1.3",
       "fecha": "18-09-2026",
       "titulo": "Steam",

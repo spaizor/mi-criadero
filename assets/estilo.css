@@ -31,6 +31,9 @@
   --borde: #30273f;
   --texto: #efeaf6;
   --texto-suave: #a79fba;
+  /* Entre los dos: para los parrafos que se leen enteros (los resumenes) y el
+     texto sobre la banda de color, donde el suave se queda sin contraste. */
+  --texto-medio: #cdc4db;
   --marca: #b79ce0;
   --acento: #62a4f5;
   --acento-tec: #62a4f5;
@@ -151,47 +154,65 @@ body[data-seccion="ste"] { --acento: var(--acento-ste); }
   font-weight: 600;
 }
 
-/* Cabecera */
+/* Cabecera de las secciones y del historico: una banda del color de la
+   seccion, redondeada, con el huevo grande al lado del titulo. Es lo que dice
+   en que seccion se esta antes de leer nada, y sustituye a la raya de color
+   que llevaba cada tarjeta.
+   Es la misma caja que antes y no un elemento nuevo en el HTML: el ancho se
+   saca del 100% menos los margenes, para que en el movil quede separada del
+   borde como las tarjetas de debajo. En el historico el color sigue a la
+   pestana abierta, que cambia el data-seccion del <body>. */
 .cabecera {
-  max-width: 780px;
-  margin: 0 auto;
-  padding: 24px 20px 20px;
-  border-bottom: 1px solid var(--borde);
-}
-
-.cabecera h1 {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
-  gap: 0.4em;
-  margin: 0;
-  font-size: 1.9rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
+  column-gap: 18px;
+  width: calc(100% - 40px);
+  max-width: 740px;
+  margin: 18px auto 0;
+  padding: 24px;
+  border-radius: 26px;
+  background: linear-gradient(125deg,
+    color-mix(in srgb, var(--acento) 30%, var(--fondo-tarjeta)),
+    color-mix(in srgb, var(--acento) 6%, var(--fondo-tarjeta)));
 }
 
-/* El huevo de la seccion delante del titulo, donde antes iba su emoji. En la
-   portada no, que no es ninguna seccion y ya lleva el logo encima. */
-body[data-seccion] .cabecera h1::before {
+/* El huevo va en la caja y no en el titulo para que ocupe las dos lineas, la
+   del nombre y la de la hora. */
+body[data-seccion] .cabecera::before {
   content: "";
-  flex: none;
-  width: 0.62em;
-  height: 0.8em;
+  grid-row: 1 / span 2;
+  width: 44px;
+  height: 56px;
   background: var(--acento);
   -webkit-mask: var(--forma-huevo) center / contain no-repeat;
   mask: var(--forma-huevo) center / contain no-repeat;
 }
 
+.cabecera h1 {
+  margin: 0;
+  font-size: clamp(1.9rem, 8vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.035em;
+}
+
 .lema {
   margin: 6px 0 0;
-  color: var(--texto-suave);
-  font-size: 0.92rem;
+  color: var(--texto-medio);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 430px) {
+  .cabecera { padding: 20px 18px; column-gap: 14px; }
+  body[data-seccion] .cabecera::before { width: 34px; height: 44px; }
 }
 
 /* Contenedor */
 .contenedor {
   max-width: 780px;
   margin: 0 auto;
-  padding: 24px 20px 48px;
+  padding: 14px 20px 48px;
 }
 
 /* El acento propio de cada seccion, el mismo que usa el body con data-seccion
@@ -476,6 +497,20 @@ a.aviso-precio:hover {
   gap: 8px;
 }
 
+/* En el movil las cuatro no caben: se desplazan de lado hasta el borde de la
+   pantalla, como las pastillas de la barra de arriba. Sin esto empujaban la
+   pagina entera hacia un lado. */
+@media (max-width: 560px) {
+  .pestanas {
+    width: calc(100% + 40px);
+    margin: 0 -20px;
+    padding: 0 20px 2px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .pestanas::-webkit-scrollbar { display: none; }
+}
+
 .pestana {
   display: inline-flex;
   align-items: center;
@@ -487,15 +522,23 @@ a.aviso-precio:hover {
   color: var(--texto-suave);
   font-family: inherit;
   font-size: 0.88rem;
+  white-space: nowrap;
   cursor: pointer;
   transition: border-color .15s, color .15s;
 }
 
-.pestana:hover { color: var(--texto); }
-
-.pestana.activa {
+.pestana:hover {
   border-color: var(--acento);
-  color: var(--acento);
+  color: var(--texto);
+}
+
+/* Igual que la pastilla de la pagina actual en la barra de arriba: tenida y
+   en negrita, para que las dos se lean como la misma cosa. */
+.pestana.activa {
+  background: color-mix(in srgb, var(--acento) 18%, var(--fondo-tarjeta));
+  border-color: color-mix(in srgb, var(--acento) 55%, var(--borde));
+  color: var(--texto);
+  font-weight: 600;
 }
 
 .selector {
@@ -504,7 +547,7 @@ a.aviso-precio:hover {
   padding: 7px 12px;
   background: var(--fondo-tarjeta);
   border: 1px solid var(--borde);
-  border-radius: 8px;
+  border-radius: 14px;
   color: var(--texto);
   font-family: inherit;
   font-size: 0.88rem;
@@ -519,10 +562,10 @@ a.aviso-precio:hover {
 .buscador {
   width: 100%;
   margin-bottom: 18px;
-  padding: 9px 14px;
+  padding: 10px 16px;
   background: var(--fondo-tarjeta);
   border: 1px solid var(--borde);
-  border-radius: 8px;
+  border-radius: 14px;
   color: var(--texto);
   font-family: inherit;
   font-size: 0.92rem;
@@ -538,7 +581,7 @@ a.aviso-precio:hover {
 .resultados {
   background: var(--fondo-tarjeta);
   border: 1px solid var(--borde);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .resultados-cuenta {
@@ -573,60 +616,130 @@ a.aviso-precio:hover {
   gap: 14px;
 }
 
+/* Cada destacada es una caja con el numero a la izquierda, dentro de un huevo
+   tenido. Sin la raya de color: con la banda de arriba ya se sabe en que
+   seccion se esta, y siete rayas seguidas eran lo que hacia que la pagina
+   pareciera un panel de control. */
 .noticia {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 14px;
   padding: 18px 20px;
   background: var(--fondo-tarjeta);
   border: 1px solid var(--borde);
-  border-left: 3px solid var(--acento);
-  border-radius: 10px;
+  border-radius: 20px;
+}
+
+/* La primera es la noticia del turno y va mas grande, con el borde tenido.
+   Solo la primera: si se destacan dos, ninguna lo esta. */
+.noticia.primera {
+  padding: 22px 22px 20px;
+  border-color: color-mix(in srgb, var(--acento) 45%, var(--borde));
 }
 
 .noticia h2 {
-  margin: 0 0 6px;
-  font-size: 1.08rem;
-  line-height: 1.35;
+  margin: 2px 0 8px;
+  font-size: 1.2rem;
+  font-weight: 650;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
 }
 
+.noticia.primera h2 { font-size: 1.5rem; }
+
+/* El huevo va detras del numero como mascara de un pseudoelemento: si la
+   mascara fuera del propio .num, se llevaria la cifra con ella. */
 .noticia .num {
-  display: inline-block;
-  min-width: 1.5em;
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 38px;
+  padding-top: 7px;
   color: var(--acento);
-  font-weight: 700;
+  font-family: var(--letra-titulos);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.noticia .num::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: color-mix(in srgb, var(--acento) 18%, var(--fondo-tarjeta));
+  -webkit-mask: var(--forma-huevo) center / contain no-repeat;
+  mask: var(--forma-huevo) center / contain no-repeat;
 }
 
 .noticia p {
   margin: 0;
-  color: var(--texto-suave);
-  font-size: 0.95rem;
+  color: var(--texto-medio);
+  line-height: 1.6;
 }
 
 .noticia .meta {
-  margin-top: 10px;
-  font-size: 0.82rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin-top: 12px;
+  font-size: 0.84rem;
   color: var(--texto-suave);
 }
 
-.noticia .meta a {
+/* El medio en pastilla: es lo que se mira para decidir si abrir el enlace. */
+.noticia .fuente {
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--fondo-hundido);
+  color: var(--texto-medio);
+  font-weight: 600;
+}
+
+/* A la derecha, donde acaba la lectura del resumen. */
+.noticia .leer {
+  margin-left: auto;
   color: var(--acento);
+  font-weight: 700;
   text-decoration: none;
 }
 
-.noticia .meta a:hover { text-decoration: underline; }
+.noticia .leer:hover { text-decoration: underline; }
 
-/* Titulares del dia (bloque plegable bajo las destacadas) */
+@media (max-width: 430px) {
+  .noticia { padding: 16px; column-gap: 12px; }
+  .noticia.primera { padding: 18px 16px; }
+  .noticia.primera h2 { font-size: 1.32rem; }
+}
+
+/* Titulares del dia: la misma caja redondeada que las destacadas, y el
+   desplegable como un boton, que es lo que es. Sigue siendo un <details>
+   nativo por el teclado y la busqueda dentro de la pagina. */
 .mas-titulares {
+  padding: 14px 20px;
   background: var(--fondo-tarjeta);
   border: 1px solid var(--borde);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .mas-titulares > summary {
-  padding: 14px 20px;
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 16px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--acento) 12%, var(--fondo-tarjeta));
   color: var(--acento);
-  font-size: 0.92rem;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 700;
   cursor: pointer;
   list-style: none;
+}
+
+.mas-titulares > summary:hover {
+  background: color-mix(in srgb, var(--acento) 20%, var(--fondo-tarjeta));
 }
 
 .mas-titulares > summary::-webkit-details-marker { display: none; }
@@ -639,6 +752,13 @@ a.aviso-precio:hover {
 }
 
 .mas-titulares[open] > summary::before { transform: rotate(90deg); }
+
+/* Abierto, la lista va debajo del boton y sin margen propio: la caja ya lo
+   pone. */
+.mas-titulares .lista-titulares {
+  margin-top: 12px;
+  padding: 0;
+}
 
 .lista-titulares {
   margin: 0;
@@ -680,9 +800,12 @@ a.aviso-precio:hover {
 .producto {
   background: var(--fondo-tarjeta);
   border: 1px solid var(--borde);
-  border-radius: 12px;
+  border-radius: 20px;
   overflow: hidden;
+  transition: border-color .15s;
 }
+
+.producto:hover { border-color: color-mix(in srgb, var(--acento) 45%, var(--borde)); }
 
 /* La cabecera es el <summary> del producto: plegada ensena solo el nombre y el
    precio mas bajo, que es a lo que se entra. Se usa <details> nativo y no un
@@ -691,15 +814,14 @@ a.aviso-precio:hover {
   display: flex;
   align-items: center;
   gap: 6px 12px;
-  padding: 14px 20px;
-  border-left: 3px solid var(--acento);
+  padding: 16px 20px;
   cursor: pointer;
   list-style: none;
 }
 
 .producto-cab::-webkit-details-marker { display: none; }
 
-/* La raya solo separa cuando hay algo debajo que separar. */
+/* La linea solo separa cuando hay algo debajo que separar. */
 .producto[open] .producto-cab { border-bottom: 1px solid var(--borde); }
 
 .producto-titulo {
@@ -741,6 +863,33 @@ a.aviso-precio:hover {
 .producto .objetivo {
   color: var(--texto-suave);
   font-size: 0.78rem;
+}
+
+/* En la cabecera, lo que falta va en el color de la seccion y con una barra
+   debajo: el precio objetivo sobre el de hoy, llena al llegar. Con 43 objetivos
+   en Steam, la barra deja comparar de un vistazo cual esta cerca sin leer
+   cifras. Solo en la cabecera plegada: en las filas de dentro ya estan los
+   dos numeros al lado. */
+.producto-cab .objetivo b {
+  color: var(--acento);
+  font-weight: 700;
+}
+
+.objetivo-barra {
+  display: block;
+  width: min(100%, 240px);
+  height: 6px;
+  margin-top: 5px;
+  border-radius: 999px;
+  background: var(--fondo-hundido);
+  overflow: hidden;
+}
+
+.objetivo-barra i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--acento);
 }
 
 /* Y cumplirlo es lo contrario: raro, y el dia que pase tiene que verse sin
@@ -913,15 +1062,18 @@ a.aviso-precio:hover {
   font-variant-numeric: tabular-nums;
 }
 
+/* Tenida y no llena: en Steam sale en casi todos los juegos (hay empates, y
+   cada juego tiene su "Mas barato"), y la fila ya lleva el fondo de color.
+   Llena solo queda "A tu precio", que es la que sale poco. */
 .marca-barato {
   font-size: 0.7rem;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   padding: 3px 9px;
   border-radius: 999px;
-  background: var(--acento);
-  color: var(--fondo);
+  background: color-mix(in srgb, var(--acento) 18%, var(--fondo-tarjeta));
+  color: var(--acento);
   white-space: nowrap;
 }
 
@@ -951,17 +1103,20 @@ a.aviso-precio:hover {
 .etiqueta.proximamente, .etiqueta.retirado { border-style: dashed; }
 
 /* -- La rebaja ----------------------------------------------------------
-   En Ofertas la pregunta es donde esta mas barato; aqui solo hay una tienda,
-   asi que lo que queda por saber es si esta rebajado y cuanto. Por eso el
-   porcentaje se pinta como una pastilla llena y no como una etiqueta mas: es
-   el dato al que se entra. */
+   En Ofertas la pregunta es donde esta mas barato; en Steam, si esta rebajado
+   y cuanto. Por eso el porcentaje va en pastilla de color y no como una
+   etiqueta gris mas: es el dato al que se entra.
+   Tenida y no llena desde el estilo Criadero: el 25-09-2026 llevaban rebaja 41
+   de los 52 juegos, y 41 pastillas llenas seguidas eran una pared de color en
+   la que ya no destacaba ninguna. Llena solo queda "A tu precio", que es rara
+   y tiene que verse sin leer. */
 .rebaja {
   padding: 2px 8px;
   border-radius: 999px;
-  background: var(--acento);
-  color: var(--fondo);
+  background: color-mix(in srgb, var(--acento) 18%, var(--fondo-tarjeta));
+  color: var(--acento);
   font-size: 0.78rem;
-  font-weight: 700;
+  font-weight: 800;
   white-space: nowrap;
 }
 
@@ -1064,10 +1219,12 @@ a.aviso-precio:hover {
   text-align: center;
 }
 
+/* "Todavia no hay noticias", "no se ha podido cargar", "ninguna noticia con
+   ...". El borde discontinuo dice que ahi iria una tarjeta y no la hay. */
 .aviso {
-  padding: 20px;
-  border: 1px dashed var(--borde);
-  border-radius: 10px;
+  padding: 22px 20px;
+  border: 1.5px dashed var(--borde);
+  border-radius: 20px;
   color: var(--texto-suave);
   text-align: center;
 }
@@ -1110,7 +1267,7 @@ a.aviso-precio:hover {
   max-height: 80vh;
   padding: 0 22px 22px;
   border: 1px solid var(--borde);
-  border-radius: 14px;
+  border-radius: 20px;
   background: var(--fondo-tarjeta);
   color: var(--texto);
 }
@@ -1131,6 +1288,13 @@ a.aviso-precio:hover {
   padding: 18px 0 12px;
   border-bottom: 1px solid var(--borde);
   background: var(--fondo-tarjeta);
+}
+
+.version-cabecera strong {
+  font-family: var(--letra-titulos);
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 .version-cerrar {
@@ -1158,7 +1322,9 @@ a.aviso-precio:hover {
 
 /* El numero es lo que se busca al abrir el panel, asi que va en pastilla y no
    como parte del titulo. La actual ademas en color, porque la primera pregunta
-   es cual es la que estas viendo. */
+   es cual es la que estas viendo. Con el morado de la marca y no con el verde
+   de Ofertas, que era el que se uso antes de que hubiera marca: la version es
+   de toda la web, no de una seccion. */
 .version-num {
   padding: 2px 9px;
   border-radius: 999px;
@@ -1169,7 +1335,7 @@ a.aviso-precio:hover {
 }
 
 .version-bloque.actual .version-num {
-  background: color-mix(in srgb, var(--acento-ofe) 20%, var(--fondo-tarjeta));
+  background: color-mix(in srgb, var(--marca) 22%, var(--fondo-tarjeta));
   border-color: transparent;
   color: var(--texto);
 }
@@ -1191,7 +1357,6 @@ a.aviso-precio:hover {
 
 .version-bloque li { margin-bottom: 4px; }
 
-/* Tema claro */
 /* En pantalla estrecha la fila de precio va justa: tres columnas, un nombre de
    tienda y una etiqueta que no puede partirse. Se recupera el sitio de donde no
    cuesta nada, los margenes laterales y el tamano de la etiqueta, antes que
@@ -1214,6 +1379,7 @@ a.aviso-precio:hover {
     --borde: #e4ddee;
     --texto: #231a30;
     --texto-suave: #6c6380;
+    --texto-medio: #463d55;
     --marca: #553a70;
     --acento: #2f74d6;
     --acento-tec: #2f74d6;
