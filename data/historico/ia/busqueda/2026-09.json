@@ -3,6 +3,146 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Sakana AI ficha a Jürgen Schmidhuber como asesor científico jefe",
+      "fuente": "The Decoder",
+      "fecha": "24-09-2026 20:06",
+      "enlace": "https://the-decoder.com/sakana-ai-hires-jurgen-schmidhuber-inventor-of-deep-learning-world-models-and-your-next-chatgpt-update/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Los costos de IA caen 13 veces por año, más rápido que cualquier tecnología anterior",
+      "fuente": "The Decoder",
+      "fecha": "24-09-2026 18:00",
+      "enlace": "https://the-decoder.com/ai-performance-costs-are-falling-faster-than-those-of-any-previous-technology/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Docker lanza Sandboxes en la nube para confinar agentes de IA dentro de límites",
+      "fuente": "The Register",
+      "fecha": "24-09-2026 21:51",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/24/dockers-new-sandboxes-aim-to-contain-ai-agents-for-real/5298964",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Black Forest Labs lanza FLUX 3 Action, modelo de IA abierto para robótica",
+      "fuente": "Black Forest Labs",
+      "fecha": "24-09-2026 19:01",
+      "enlace": "https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "PrismML trae modelos de 1 bit a gafas inteligentes Qualcomm",
+      "fuente": "TechCrunch",
+      "fecha": "24-09-2026 21:00",
+      "enlace": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Gemini 3.8 en vivo con avatar en directo le da cara a la IA de Google",
+      "fuente": "The Verge",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Jensen Huang habla sobre IA y cambio climático como un supervillano",
+      "fuente": "The Verge",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Meta permitirá construir juegos con IA directamente en tu teléfono",
+      "fuente": "The Verge",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Creo que finalmente encontré un agente de IA que merece el riesgo",
+      "fuente": "Wired",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "El proyecto Suncatcher de Google busca colocar centros de datos de IA en órbita",
+      "fuente": "The Decoder",
+      "fecha": "24-09-2026",
+      "enlace": "https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "El primer centro de datos orbital Suncatcher de Google se lanza el 1 de octubre",
+      "fuente": "Ars Technica",
+      "fecha": "24-09-2026",
+      "enlace": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Nueva Jersey multa a proveedor de datos con $1.1M tras fotos de drones exponer 62 generadores",
+      "fuente": "Ars Technica",
+      "fecha": "24-09-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/09/new-jersey-fines-data-center-1-1m-after-satellite-pics-expose-62-gas-generators/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "El nuevo juguete de IA de Meta es... ¿un Tamagotchi?",
+      "fuente": "The Register",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.theregister.com/personal-tech/2026/09/24/metas-new-ai-fidget-is-a-tamagotchi/5298936",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "La explosión de IA podría eliminar 230 millones de teléfonos baratos del mercado cada año",
+      "fuente": "The Register",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.theregister.com/personal-tech/2026/09/24/ai-boom-could-wipe-230-million-budget-phones-a-year-from-the-market/5298906",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "CEO de ElevenLabs sobre márgenes, timing del IPO y decir a clientes que hablan con un bot",
+      "fuente": "TechCrunch",
+      "fecha": "24-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Google prueba permitir que Gemini haga llamadas a empresas por ti",
+      "fuente": "TechCrunch",
+      "fecha": "24-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Meta's Muse Charm parece un Tamagotchi pero aprovecha una tendencia más nueva",
+      "fuente": "TechCrunch",
+      "fecha": "24-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "De forma sorprendente, España es bastante más pro-IA que los países de su entorno",
+      "fuente": "Xataka",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/forma-sorprendente-espana-bastante-pro-ia-que-paises-su-entorno",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Google revela nuevas pistas sobre cuándo llega Gemini 4: qué dijo el jefe de DeepMind",
+      "fuente": "Hipertextual",
+      "fecha": "24-09-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/google-nuevas-pistas-cuando-llega-gemini-4/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Gemini estrena una función que hace llamadas por ti desde el móvil",
+      "fuente": "Hipertextual",
+      "fecha": "24-09-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-llamar-por-mi-pixel-11-llamadas-ia/",
+      "turno": "2026-09-25_M"
+    },
+    {
       "titulo": "Un agente de IA de OpenAI hackeó el sistema sanitario australiano sin ser detectado durante meses",
       "fuente": "Wired",
       "fecha": "24-09-2026 12:46",
