@@ -3,6 +3,167 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Google enviará TPUs al espacio para demostrar viabilidad de centros de datos en órbita",
+      "fuente": "The Register",
+      "fecha": "25-09-2026 00:12",
+      "enlace": "https://www.theregister.com/systems/2026/09/24/googles-tpus-to-catch-some-rays-in-orbit-next-week/5298990",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Waymo alcanza 4.000 robotaxis en operación con 500.000 viajes semanales pagados",
+      "fuente": "TechCrunch",
+      "fecha": "25-09-2026 01:24",
+      "enlace": "https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Samsung prepara Galaxy Buds On, primeros auriculares tipo clip con conducción ósea",
+      "fuente": "Hipertextual",
+      "fecha": "24-09-2026 17:07",
+      "enlace": "https://hipertextual.com/tecnologia/filtrado-el-diseno-de-los-galaxy-buds-on-los-primeros-auriculares-tipo-clip-de-samsung/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Vulnerabilidades críticas en Salesforce Agentforce permitían robo sin clicks de datos de CRM",
+      "fuente": "The Register",
+      "fecha": "24-09-2026 21:01",
+      "enlace": "https://www.theregister.com/security/2026/09/24/salesforce-agentforce-vulns-allowed-0-click-crm-data-theft-anonymous-phishing/5298958",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Feather lanza robot humanoide modular para desarrolladores a $30.000 con ingenieros de Tesla",
+      "fuente": "TechCrunch",
+      "fecha": "24-09-2026 20:52",
+      "enlace": "https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Google Pixel 11 obtiene Call For Me: Gemini hace llamadas telefónicas completas en tu nombre",
+      "fuente": "Engadget",
+      "fecha": "24-09-2026 18:00",
+      "enlace": "https://www.engadget.com/2267120/pixel-11-call-for-me-feature-begins-preliminary-rollout/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Digi incumple normativa de CNMC y expone clientes a estafas SMS sin filtrar mensajes fraudulentos",
+      "fuente": "ADSLZone",
+      "fecha": "24-09-2026 22:02",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-no-cumple-normativa-cnmc-registro/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "La URSS perforó un pozo de 12.262 metros en 1970: lo que detuvo las perforadoras no fue ni la roca ni el dinero",
+      "fuente": "Xataka",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.xataka.com/ingenieria-y-megaconstrucciones/urss-perforo-pozo-12-262-metros-1970-que-detuvo-perforadoras-no-fue-roca-dinero",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Bob Chapek dispara contra Bob Iger y lo acusa de una «campaña implacable» para forzar su salida de Disney",
+      "fuente": "Hipertextual",
+      "fecha": "24-09-2026",
+      "enlace": "https://hipertextual.com/economia-empresas/bob-chapek-dispara-bob-iger-despido-ceo-disney/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Carrefour encuentra la forma de superar a Lidl y Mercadona con tres aperturas: «Se estima que el proceso esté finalizado a finales de octubre»",
+      "fuente": "ADSLZone",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/carrefour-tres-aperturas-caceres-provecaex/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Enhorabuena, si tienes un Smart TV de LG, su \"fecha de caducidad\" podría aumentar significativamente por culpa de la crisis de la memoria RAM",
+      "fuente": "ComputerHoy",
+      "fecha": "24-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/enhorabuena-si-tienes-un-smart-tv-lg-su-fecha-caducidad-podria-aumentar-significativamente-por-culpa-crisis-memoria-ram_7040813_0.html",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "El Guadalquivir no es un río, es una puerta: por qué las especies invasoras de medio mundo entran en Andalucía por Sevilla",
+      "fuente": "Xataka",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/guadalquivir-no-rio-puerta-que-especies-invasoras-medio-mundo-entran-andalucia-sevilla",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Primera Federación juega desde mañana la jornada 5 y estos son los 10 partidos que puedes ver en Movistar Plus y Orange TV",
+      "fuente": "ADSLZone",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/primera-federacion-10-partidos-jornada-5-movistar-plus-orange-tv/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Un rinoceronte enfurecido ataca a un grupo de turistas en un safari y pone a prueba la resistencia de su Toyota",
+      "fuente": "ComputerHoy",
+      "fecha": "24-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/redes-sociales/un-rinoceronte-enfurecido-ataca-un-grupo-turistas-un-safari-pone-prueba-resistencia-su-toyota_7040814_0.html",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "No solo merecen la pena los móviles o portátiles reacondicionados. Estas freidoras de aire Ninja con casi 10 litros son una ganga",
+      "fuente": "Xataka",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.xataka.com/seleccion/no-solo-merecen-pena-moviles-portatiles-reacondicionados-estas-freidoras-aire-ninja-casi-10-litros-ganga",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Joseba Barrenengoa, dueño de 19 gasolineras, sobre la subida de la gasolina y el diésel: «La escalada de precios irá hasta donde las petroleras quieran llegar»",
+      "fuente": "ADSLZone",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/joseba-barrenengoa-polemica-precio-gasolina-diesel/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Paolo Crepet, psiquiatra, sobre el uso de los móviles en adolescentes: \"Esperaría un poco más de valentía, porque si entendemos que algo es dañino, no lo hacemos\"",
+      "fuente": "ComputerHoy",
+      "fecha": "24-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/paolo-crepet-psiquiatra-sobre-uso-los-moviles-adolescentes-esperaria-un-poco-mas-valentia-porque-si-entendemos-que-algo-es-danino-no-hacemos_7040805_0.html",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Hemos escuchado por primera vez un planeta fuera del Sistema Solar. No eran extraterrestres, sino algo más extraño",
+      "fuente": "Xataka",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.xataka.com/espacio/hemos-escuchado-primera-vez-planeta-fuera-sistema-solar-no-eran-extraterrestres-sino-algo-extrano",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "El polémico error del nuevo iPhone 18 Pro que Apple ha confirmado que corregirá: cuidado si se te reinicia el móvil",
+      "fuente": "ADSLZone",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/error-nuevo-iphone-18-proapple-corrige/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "\"Hay una nueva vía express para hacerte profesor de autoescuela en 6 meses; hay mucha demanda, nunca te faltará trabajo\": HoyVoy, experto de una autoescuela",
+      "fuente": "ComputerHoy",
+      "fecha": "24-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/hay-una-nueva-via-express-para-hacerte-profesor-autoescuela-6-meses-hay-mucha-demanda-nunca-te-faltara-trabajo-hoyvoy-experto-una-autoescuela_7040815_0.html",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Los planetas nacen girando en el mismo sentido que su estrella. GJ 3090 b se ha saltado esa norma sin motivo aparente",
+      "fuente": "Xataka",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.xataka.com/espacio/planetas-nacen-girando-sentido-que-su-estrella-gj-3090-b-se-ha-saltado-esa-norma-motivo-aparente",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Golpe bajo a los clientes de ING y BBVA con iPhone: Bizum Pay los deja fuera",
+      "fuente": "ADSLZone",
+      "fecha": "24-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/fintech/bizum-pay-ing-bbva-solo-android-iphone/",
+      "turno": "2026-09-25_M"
+    },
+    {
+      "titulo": "Toni Reboredo, experto en apps: \"Me enviaron un contacto, podía llamarle pero no enviarle un mensaje de WhatsApp; hay un fallo, el móvil tiene más de una agenda, si activas esto los contactos se guardarán en todas\"",
+      "fuente": "ComputerHoy",
+      "fecha": "24-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/toni-reboredo-experto-apps-me-enviaron-un-contacto-podia-llamarle-pero-no-enviarle-un-mensaje-whatsapp-hay-un-fallo-movil-tiene-mas-una-agenda-si-activas-esto-los-contactos-se-guardaran-todas_7040809_0.html",
+      "turno": "2026-09-25_M"
+    },
+    {
       "titulo": "Vehículos autónomos de Waymo causan 82% menos accidentes con heridos que conductores humanos",
       "fuente": "The Verge",
       "fecha": "24-09-2026 15:53",
