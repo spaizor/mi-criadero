@@ -3,6 +3,146 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "OpenAI pausa el entrenamiento de sus modelos más potentes tras nuevos incidentes con agentes rogue",
+      "fuente": "Wired",
+      "fecha": "28-09-2026 13:32",
+      "enlace": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Nvidia lanza plataforma abierta de seguridad para contener agentes de IA en milisegundos",
+      "fuente": "The Verge",
+      "fecha": "28-09-2026 15:36",
+      "enlace": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Instinct, el agente de IA viral, recauda $1.000 millones en Series C a valuación de $10.000 millones",
+      "fuente": "TechCrunch",
+      "fecha": "28-09-2026 15:38",
+      "enlace": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Meta lanza Meta Enterprise Platform para monetizar Muse con herramientas de IA para empresas",
+      "fuente": "The Decoder",
+      "fecha": "28-09-2026 16:48",
+      "enlace": "https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Investigador de seguridad advierte: la carrera de armamentos en IA evita que la industria ralentice",
+      "fuente": "The Decoder",
+      "fecha": "28-09-2026 14:11",
+      "enlace": "https://the-decoder.com/every-ai-lab-thinks-its-the-responsible-one-and-safety-researcher-ryan-greenblatt-says-thats-what-keeps-the-arms-race-going/",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "¿Quién es responsable cuando agentes de IA se descontrolan?",
+      "fuente": "MIT Technology Review",
+      "fecha": "28-09-2026 10:06",
+      "enlace": "https://www.technologyreview.com/2026/09/28/whos-liable-when-ai-agents-go-rogue/",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Nvidia quiere mantener agentes de IA bajo control con un vigilante integrado en sus chips",
+      "fuente": "The Decoder",
+      "fecha": "28-09-2026",
+      "enlace": "https://the-decoder.com/nvidia-wants-to-keep-ai-agents-on-a-short-leash-with-a-watchdog-built-into-its-chips/",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Las ambiciones de IA de Europa descansan sobre la cadena de suministro de otro",
+      "fuente": "The Register",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.theregister.com/systems/2026/09/28/europes-ai-ambitions-rest-on-somebody-elses-supply-chain/5299486",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Modulate recauda $25 millones para sus modelos de voz y suite de análisis",
+      "fuente": "TechCrunch",
+      "fecha": "28-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Jev se está posicionando rápidamente para desafiar al LLM por la supremacía de la IA empresarial",
+      "fuente": "The Register",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/28/jev-is-rapidly-rising-to-challenge-the-llm-for-enterprise-ai-supremacy/5299260",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "OpenAI tomó el camino más largo para los datos de la ONU",
+      "fuente": "The Register",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/28/openai-agents-went-the-long-way-round-for-un-data/5299452",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Resolver los mayores problemas de las matemáticas era una forma de arte. Luego llegó la IA",
+      "fuente": "Wired",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.wired.com/story/solving-maths-greatest-problems-was-an-art-form-until-ai/",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Microsoft se queda callada después de que grupos de iglesias pidan el 1% de los costes de centros de datos",
+      "fuente": "Ars Technica",
+      "fecha": "28-09-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/09/microsoft-goes-quiet-after-church-groups-ask-for-1-of-data-center-costs/",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Un tribunal chino acaba de convertir los costes de IA en factor legal en casos de infracción de derechos de autor",
+      "fuente": "The Decoder",
+      "fecha": "28-09-2026",
+      "enlace": "https://the-decoder.com/a-wuhan-court-just-made-ai-production-costs-a-legal-factor-in-copyright-infringement-cases/",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "La próxima evolución de la IA es aprender de tus habilidades gamer desastrosas",
+      "fuente": "Wired",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.wired.com/story/the-next-evolution-of-ai-is-learning-from-your-dodgy-gaming-skills/",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "La descarga: responsabilidad de agentes rogue e índice de hype de IA",
+      "fuente": "MIT Technology Review",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Tenemos un nuevo \"benchmark\" para la IA: preguntarle si has montado correctamente tus muebles de Ikea o no",
+      "fuente": "Xataka",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/tenemos-nuevo-benchmark-para-ia-preguntarle-has-montado-correctamente-tus-muebles-ikea-no",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "LG lanza sus nuevos altavoces Xboom Power: hasta 440 W, karaoke con IA y luces que siguen el ritmo",
+      "fuente": "ComputerHoy",
+      "fecha": "28-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/lg-lanza-sus-nuevos-altavoces-xboom-power-hasta-440-w-karaoke-con-ia-luces-que-siguen-ritmo_7042283_0.html",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Telefónica prueba en Alemania cuánto puede adelgazar una empresa cuando mete IA en todas partes. España juega en el mismo tablero",
+      "fuente": "Xataka",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/telefonica-prueba-alemania-cuanto-puede-adelgazar-empresa-cuando-mete-ia-todas-partes-espana-juega-tablero",
+      "turno": "2026-09-28_T"
+    },
+    {
+      "titulo": "Si tu Android TV está llena de software innecesario, mejor no uses la IA para borrarlo: \"No es la mejor idea\"",
+      "fuente": "ComputerHoy",
+      "fecha": "28-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/si-tu-android-tv-esta-llena-software-innecesario-mejor-no-uses-ia-para-borrarlo-no-es-mejor-idea_7041993_0.html",
+      "turno": "2026-09-28_T"
+    },
+    {
       "titulo": "Agentes de OpenAI intentaron hacer 'fuerza bruta' en un sitio web de la ONU",
       "fuente": "The Verge",
       "fecha": "27-09-2026 19:21",
