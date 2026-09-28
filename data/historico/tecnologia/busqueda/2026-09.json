@@ -3,6 +3,195 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "OpenAI detiene el entrenamiento de modelos por problemas de seguridad",
+      "fuente": "Gizmodo",
+      "fecha": "28-09-2026 00:00",
+      "enlace": "https://gizmodo.com/openai-to-halt-training-of-some-models-2000817912",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "BYD anuncia batería de estado sólido casi lista para producción en 2027",
+      "fuente": "Engadget",
+      "fecha": "27-09-2026 20:30",
+      "enlace": "https://www.engadget.com/2265495/byd-new-solid-state-battery-ev-almost-ready-2027/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Amazon evalúa expansión de entregas con drones en Australia y Asia",
+      "fuente": "The Register",
+      "fecha": "28-09-2026 03:12",
+      "enlace": "https://www.theregister.com/personal-tech/2026/09/28/amazon-evaluating-drone-deliveries-in-australia-asia/5299343",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Empresas de vehículos autónomos consolidan estrategias de expansión comercial",
+      "fuente": "TechCrunch",
+      "fecha": "27-09-2026 18:02",
+      "enlace": "https://techcrunch.com/2026/09/27/techcrunch-mobility-av-companies-pick-their-lanes/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Instituto de Tokio desarrolla plataforma BBCube para empaquetar chips de IA",
+      "fuente": "TechXplore",
+      "fecha": "27-09-2026 00:00",
+      "enlace": "https://techxplore.com/news/2026-08-chip-wafer-platform-generation-ai.html",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Opera activa VPN automática al detectar conexiones WiFi públicas",
+      "fuente": "Hipertextual",
+      "fecha": "27-09-2026 18:00",
+      "enlace": "https://hipertextual.com/privacidad/opera-vpn-automatica-wifi-publico/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Sennheiser Momentum 5 logra 57 horas de autonomía con batería reemplazable",
+      "fuente": "TechCrunch",
+      "fecha": "27-09-2026 17:00",
+      "enlace": "https://techcrunch.com/2026/09/27/sennheiser-momentum-5-review-great-sound-incredible-battery-life-and-few-compromises/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Level 1, 2 y 3 de cargadores EV: ¿cuál es mejor usar?",
+      "fuente": "Engadget",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.engadget.com/2267893/level-1-2-vs-3-ev-charger-which-is-better/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "¿Valen la pena las impresoras 3D en 2026?",
+      "fuente": "Engadget",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.engadget.com/2267835/3d-printer-is-it-still-worth-buying/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "¿Qué protegen realmente las fundas para teléfonos plegables?",
+      "fuente": "Engadget",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.engadget.com/2267906/what-foldable-phone-cases-protect/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "¿Cuándo realmente merece la pena un sistema de sonido envolvente frente a una barra de sonido?",
+      "fuente": "Engadget",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.engadget.com/2267833/surround-sound-system-worth-it-vs-soundbar/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Cómo mejorar la navegación de CarPlay si usas Google Maps en lugar de Apple Maps",
+      "fuente": "Engadget",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.engadget.com/2267714/how-to-improve-carplay-navigation-use-google-maps-not-apple-maps/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Cómo convertir tu viejo MacBook en un servidor NAS para el hogar",
+      "fuente": "Engadget",
+      "fecha": "28-09-2026",
+      "enlace": "https://www.engadget.com/2266517/how-to-turn-your-old-macbook-into-home-nas-server/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Out of the Park Baseball: disfrutar del béisbol incluso cuando falla tu equipo",
+      "fuente": "The Verge",
+      "fecha": "27-09-2026",
+      "enlace": "https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "¿Eres un \"masticador\" o un \"aplastador\"? La física de tu boca explica por qué odias ciertos alimentos",
+      "fuente": "Xataka",
+      "fecha": "27-09-2026",
+      "enlace": "https://www.xataka.com/medicina-y-salud/eres-masticador-aplastador-fisica-tu-boca-explica-que-odias-ciertos-alimentos",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Este robot aspira, pasa la mopa y deja tu casa limpia como un profesional, incluso la alfombra: el Lefant M5 Pro baja de 1.000€ a 300 €",
+      "fuente": "Hipertextual",
+      "fecha": "27-09-2026",
+      "enlace": "https://hipertextual.com/ofertas-descuentos/nuevo-lefant-m5-pro/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Un error del deco 4K de Movistar deja la guía sin información, pero tiene fácil solución: «Es posible que el reinicio…»",
+      "fuente": "ADSLZone",
+      "fecha": "27-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/error-deco-movistar-guia-sin-informacion-solucion/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Ni Barcelona ni Londres o Venecia, así se vería la Tierra si todo el hielo se derritiera: un vídeo que te dejara sin palabras",
+      "fuente": "ComputerHoy",
+      "fecha": "27-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/ni-barcelona-ni-londres-venecia-asi-se-veria-tierra-si-todo-hielo-se-derritiera-un-video-que-te-dejara-sin-palabras_7036413_0.html",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Hace cinco años liberaron 25 \"superdepredadores\" noruegos en Asturias. La pregunta es si hacía falta",
+      "fuente": "Xataka",
+      "fecha": "27-09-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/hace-cinco-anos-liberaron-25-superdepredadores-noruegos-asturias-pregunta-falta",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Lidl comprará tiendas del grupo de Alcampo para competir contra Aldi y Carrefour: una operación internacional que pondría a Mercadona en alerta",
+      "fuente": "ADSLZone",
+      "fecha": "27-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/lidl-comprara-tiendas-auchan-alcampo-internacional/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Joseba Barrenengoa, ingeniero y propietario de gasolineras: \"No se juega con la vida de las personas; este botón de tu coche podría dejar de funcionar por un motivo que muy pocos conocen\"",
+      "fuente": "ComputerHoy",
+      "fecha": "27-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/joseba-barrenengoa-ingeniero-propietario-gasolineras-no-se-juega-con-vida-las-personas-este-boton-tu-coche-podria-dejar-funcionar-por-un-motivo-que-muy-pocos-conocen_7037938_0.html",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "¿Qué harán los pasajeros cuando nadie les vigile en un coche autónomo? Unos investigadores buscaron respuestas en PornHub",
+      "fuente": "Xataka",
+      "fecha": "27-09-2026",
+      "enlace": "https://www.xataka.com/movilidad/que-haran-pasajeros-cuando-nadie-les-vigile-coche-autonomo-unos-investigadores-buscaron-respuestas-pornhub",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Altavoces multiroom: así funciona la tecnología que te permite escuchar música por toda la casa",
+      "fuente": "ADSLZone",
+      "fecha": "27-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/altavoces-multiroom-como-funcionan/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Si ves dos señales de WiFi en tu móvil, enhorabuena: tienes activado el \"baby WiFi\" y eso es algo bueno",
+      "fuente": "ComputerHoy",
+      "fecha": "27-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/dos-senales-wifi-movil-smartphone-android-significado-1487414_6660935_0.html",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Hay un cráter que lleva décadas expulsando fuego y metano. Ahora sabemos que nació mucho después de lo que se creía",
+      "fuente": "Xataka",
+      "fecha": "27-09-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/hay-crater-que-lleva-decadas-expulsando-fuego-metano-ahora-sabemos-que-nacio-mucho-despues-que-se-creia",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "La Movistar japonesa se ofrece a revivir gratis teléfonos viejos para recuperar sus fotos: “Tu antiguo móvil es una cápsula del tiempo única”",
+      "fuente": "ADSLZone",
+      "fecha": "27-09-2026",
+      "enlace": "https://www.adslzone.net/noticias/moviles/kddi-japon-revive-moviles-antiguos-recuperar-fotos/",
+      "turno": "2026-09-28_M"
+    },
+    {
+      "titulo": "Antonio Cañavate, ingeniero telemático: \"Elegir la mejor operadora de Internet y móvil no consiste únicamente en buscar la tarifa más barata\"",
+      "fuente": "ComputerHoy",
+      "fecha": "27-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/antonio-canavate-ingeniero-telematico-elegir-mejor-operadora-internet-movil-no-consiste-unicamente-buscar-tarifa-mas-barata_7035581_0.html",
+      "turno": "2026-09-28_M"
+    },
+    {
       "titulo": "Robots humanoides con inteligencia emocional: el Yansyn-X2 puede llorar bajo demanda",
       "fuente": "Engadget",
       "fecha": "27-09-2026 15:15",
