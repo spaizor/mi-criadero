@@ -1,6 +1,6 @@
 {
   "seccion": "steam",
-  "actualizado": "29-09-2026 09:38",
+  "actualizado": "29-09-2026 15:23",
   "serie_desde": "2026-09",
   "juegos": [
     {
@@ -19,7 +19,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -110,7 +110,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -249,7 +249,7 @@
           "base": 24.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 24.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -262,7 +262,7 @@
           "base": 34.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 34.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -331,6 +331,18 @@
           "enlace": "https://itad.link/018d9386-320e-73a4-a46a-507d6b579765/?app=opyd8c"
         },
         {
+          "tienda": "Fanatical",
+          "precio": 20.74,
+          "base": 24.99,
+          "descuento": 17,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": 5.24,
+          "caduca": "2026-10-06T18:00:00+02:00",
+          "enlace": "https://itad.link/018d9386-320d-713c-bedd-73acfee121e4/?app=opyd8c"
+        },
+        {
           "tienda": "GamersGate",
           "precio": 21.24,
           "base": 24.99,
@@ -341,18 +353,6 @@
           "minimo_tienda": 5.62,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-320d-713c-bedd-73ad161350f0/?app=opyd8c"
-        },
-        {
-          "tienda": "Fanatical",
-          "precio": 21.24,
-          "base": 24.99,
-          "descuento": 15,
-          "plataforma": "Steam",
-          "cupon": "FANATICAL15",
-          "marca": null,
-          "minimo_tienda": 5.24,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9386-320d-713c-bedd-73acfee121e4/?app=opyd8c"
         },
         {
           "tienda": "Playsum",
@@ -449,7 +449,7 @@
           "base": 9.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 4.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -490,7 +490,7 @@
           "base": 22.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 22.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -542,7 +542,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -556,7 +556,7 @@
           "base": 89.98,
           "descuento": 8,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 82.78,
           "minimo_fecha": "18-09-2026",
           "bundleid": "32470"
@@ -598,7 +598,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -606,9 +606,9 @@
       "tiendas": [
         {
           "tienda": "Instant Gaming",
-          "precio": 3.99,
+          "precio": 4.79,
           "base": null,
-          "descuento": 85,
+          "descuento": 82,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -748,7 +748,7 @@
           "base": 99.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 39.89,
           "minimo_fecha": "18-09-2026"
         },
@@ -762,7 +762,7 @@
           "base": 99.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -775,7 +775,7 @@
           "base": 119.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 77.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -804,7 +804,7 @@
           "cupon": null,
           "marca": null,
           "minimo_tienda": 34.99,
-          "caduca": "2026-09-29T09:21:03+02:00",
+          "caduca": "2026-10-06T18:00:00+02:00",
           "enlace": "https://itad.link/01978de4-4489-70f7-916b-228d5aa33928/?app=opyd8c"
         },
         {
@@ -913,7 +913,7 @@
           "base": 49.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -926,7 +926,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 79.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -940,7 +940,7 @@
           "base": 119.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 119.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -993,7 +993,7 @@
           "cupon": "FANATICAL15",
           "marca": null,
           "minimo_tienda": 26.99,
-          "caduca": null,
+          "caduca": "2026-10-01T19:01:00+02:00",
           "enlace": "https://itad.link/019001a4-fb36-7299-805a-19000f151aa2/?app=opyd8c"
         },
         {
@@ -1079,7 +1079,7 @@
           "base": 39.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 19.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1145,7 +1145,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -1159,7 +1159,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 79.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -1172,7 +1172,7 @@
           "base": 99.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 99.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -1323,7 +1323,7 @@
           "base": 24.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 24.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -1344,6 +1344,18 @@
           "disponible": true
         },
         {
+          "tienda": "Fanatical",
+          "precio": 21.13,
+          "base": 24.99,
+          "descuento": 15,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": 14.36,
+          "caduca": "2026-10-06T18:00:00+02:00",
+          "enlace": "https://itad.link/019eda01-afe3-73f9-9958-0798d8548e3a/?app=opyd8c"
+        },
+        {
           "tienda": "GamersGate",
           "precio": 21.24,
           "base": 24.99,
@@ -1354,18 +1366,6 @@
           "minimo_tienda": 17.49,
           "caduca": null,
           "enlace": "https://itad.link/019fae2e-1df3-72b9-adfc-a1cdab1f7294/?app=opyd8c"
-        },
-        {
-          "tienda": "Fanatical",
-          "precio": 21.24,
-          "base": 24.99,
-          "descuento": 15,
-          "plataforma": "Steam",
-          "cupon": "FANATICAL15",
-          "marca": null,
-          "minimo_tienda": 14.36,
-          "caduca": "2026-09-29T09:21:04+02:00",
-          "enlace": "https://itad.link/019eda01-afe3-73f9-9958-0798d8548e3a/?app=opyd8c"
         },
         {
           "tienda": "Playsum",
@@ -1474,7 +1474,7 @@
           "base": 49.99,
           "descuento": 70,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 14.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1482,7 +1482,7 @@
       "tiendas": [
         {
           "tienda": "Instant Gaming",
-          "precio": 14.69,
+          "precio": 14.59,
           "base": null,
           "descuento": 67,
           "plataforma": "Steam",
@@ -1540,7 +1540,7 @@
           "base": 49.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 19.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -1554,7 +1554,7 @@
           "base": 69.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 27.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1633,7 +1633,7 @@
           "base": 12.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 5.19,
           "minimo_fecha": "19-09-2026"
         }
@@ -1700,7 +1700,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 49.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -1729,7 +1729,7 @@
           "cupon": "FANATICAL15",
           "marca": null,
           "minimo_tienda": 17.49,
-          "caduca": null,
+          "caduca": "2026-10-01T19:00:00+02:00",
           "enlace": "https://itad.link/018d9386-6c96-73a3-8151-d9e681a571d7/?app=opyd8c"
         },
         {
@@ -1851,7 +1851,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 59.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -1864,7 +1864,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 69.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1978,7 +1978,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -1991,7 +1991,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 69.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -2005,7 +2005,7 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 89.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2094,7 +2094,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2123,7 +2123,7 @@
           "cupon": "FANATICAL15",
           "marca": null,
           "minimo_tienda": 26.99,
-          "caduca": null,
+          "caduca": "2026-10-01T19:00:00+02:00",
           "enlace": "https://itad.link/018e61d5-1655-701d-a746-8a51cc3b44c4/?app=opyd8c"
         },
         {
@@ -2245,7 +2245,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 49.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2274,7 +2274,7 @@
           "cupon": "FANATICAL15",
           "marca": null,
           "minimo_tienda": 26.49,
-          "caduca": null,
+          "caduca": "2026-10-01T19:01:00+02:00",
           "enlace": "https://itad.link/0192c443-8ef1-71b2-ac75-a1a06ae8d9d5/?app=opyd8c"
         },
         {
@@ -2396,7 +2396,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 39.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2437,7 +2437,7 @@
           "base": 4.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 4.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2478,7 +2478,7 @@
           "base": 14.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2519,7 +2519,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2527,9 +2527,9 @@
       "tiendas": [
         {
           "tienda": "Instant Gaming",
-          "precio": 20.39,
+          "precio": 19.79,
           "base": null,
-          "descuento": 66,
+          "descuento": 67,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -2596,7 +2596,7 @@
           "cupon": null,
           "marca": null,
           "minimo_tienda": 20.99,
-          "caduca": null,
+          "caduca": "2026-10-01T19:01:00+02:00",
           "enlace": "https://itad.link/018d9386-9338-71ed-919d-2325141aac33/?app=opyd8c"
         },
         {
@@ -2670,7 +2670,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 49.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2699,7 +2699,7 @@
           "cupon": "FANATICAL15",
           "marca": null,
           "minimo_tienda": 17.49,
-          "caduca": null,
+          "caduca": "2026-10-01T19:01:00+02:00",
           "enlace": "https://itad.link/018d9386-9338-71ed-919d-2324f98b675a/?app=opyd8c"
         },
         {
@@ -2821,7 +2821,7 @@
           "base": 28.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 21.74,
           "minimo_fecha": "18-09-2026"
         }
@@ -2848,7 +2848,7 @@
           "base": 28.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 9.56,
           "minimo_fecha": "18-09-2026"
         }
@@ -2903,7 +2903,7 @@
           "base": 13.29,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 4.51,
           "minimo_fecha": "18-09-2026"
         }
@@ -2946,7 +2946,7 @@
           "base": 59.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 23.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -3013,7 +3013,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3066,7 +3066,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 39.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3093,7 +3093,7 @@
           "base": 19.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 9.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -3160,7 +3160,7 @@
           "base": 59.99,
           "descuento": 70,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 17.99,
           "minimo_fecha": "25-09-2026"
         },
@@ -3173,7 +3173,7 @@
           "base": 69.99,
           "descuento": 70,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 20.99,
           "minimo_fecha": "25-09-2026"
         },
@@ -3186,7 +3186,7 @@
           "base": 89.99,
           "descuento": 70,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 26.99,
           "minimo_fecha": "25-09-2026"
         }
@@ -3301,7 +3301,7 @@
           "base": 59.99,
           "descuento": 70,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 17.99,
           "minimo_fecha": "25-09-2026"
         },
@@ -3314,7 +3314,7 @@
           "base": 79.99,
           "descuento": 75,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 19.99,
           "minimo_fecha": "25-09-2026"
         }
@@ -3429,7 +3429,7 @@
           "base": 19.5,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 19.5,
           "minimo_fecha": "18-09-2026"
         }
@@ -3456,7 +3456,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3485,7 +3485,7 @@
           "cupon": "FANATICAL15",
           "marca": null,
           "minimo_tienda": 20.99,
-          "caduca": null,
+          "caduca": "2026-10-01T19:00:00+02:00",
           "enlace": "https://itad.link/018d9386-b5e9-70cd-8576-c9e1f5d8d523/?app=opyd8c"
         },
         {
@@ -3607,7 +3607,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3636,7 +3636,7 @@
           "cupon": "FANATICAL15",
           "marca": null,
           "minimo_tienda": 17.99,
-          "caduca": null,
+          "caduca": "2026-10-01T19:00:00+02:00",
           "enlace": "https://itad.link/018d9386-b8f6-71f0-9974-87af4055edb9/?app=opyd8c"
         },
         {
@@ -3758,7 +3758,7 @@
           "base": 24.5,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 24.5,
           "minimo_fecha": "18-09-2026"
         }
@@ -3825,7 +3825,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3833,9 +3833,9 @@
       "tiendas": [
         {
           "tienda": "Instant Gaming",
-          "precio": 15.69,
+          "precio": 17.19,
           "base": null,
-          "descuento": 74,
+          "descuento": 71,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -3854,7 +3854,7 @@
           "cupon": "FANATICAL15",
           "marca": null,
           "minimo_tienda": 17.39,
-          "caduca": null,
+          "caduca": "2026-10-01T19:00:00+02:00",
           "enlace": "https://itad.link/018d9386-bf9b-70b1-92cf-d32ddbd1658b/?app=opyd8c"
         },
         {
@@ -3976,7 +3976,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 69.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -3989,7 +3989,7 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 89.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -4116,7 +4116,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 7.49,
           "minimo_fecha": "18-09-2026"
         }
@@ -4219,7 +4219,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 69.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -4232,7 +4232,7 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 89.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -4261,7 +4261,7 @@
           "cupon": "FANATICAL15",
           "marca": null,
           "minimo_tienda": 42.34,
-          "caduca": null,
+          "caduca": "2026-10-01T19:00:00+02:00",
           "enlace": "https://itad.link/01971760-1377-713c-9761-1b7a5ac8fdca/?app=opyd8c"
         },
         {
@@ -4377,7 +4377,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 19.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -4391,7 +4391,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 19.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -4404,7 +4404,7 @@
           "base": 69.99,
           "descuento": 25,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 52.49,
           "minimo_fecha": "18-09-2026"
         }
@@ -4529,7 +4529,7 @@
           "base": 39.99,
           "descuento": 75,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 9.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -4542,7 +4542,7 @@
           "base": 59.99,
           "descuento": 75,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -4681,7 +4681,7 @@
           "base": 71.99,
           "descuento": 30,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 50.39,
           "minimo_fecha": "18-09-2026"
         },
@@ -4694,7 +4694,7 @@
           "base": 71.99,
           "descuento": 30,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 50.39,
           "minimo_fecha": "18-09-2026"
         }
@@ -4721,7 +4721,7 @@
           "base": 59.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 29.99,
           "minimo_fecha": "25-09-2026"
         }
@@ -4730,8 +4730,8 @@
         {
           "tienda": "Instant Gaming",
           "precio": 24.09,
-          "base": 60.0,
-          "descuento": 60,
+          "base": null,
+          "descuento": 54,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -4872,7 +4872,7 @@
           "base": 16.79,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 10.07,
           "minimo_fecha": "18-09-2026"
         }
@@ -4899,7 +4899,7 @@
           "base": 12.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 12.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -4952,7 +4952,7 @@
           "base": 29.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 11.99,
           "minimo_fecha": "25-09-2026"
         }
@@ -4960,9 +4960,9 @@
       "tiendas": [
         {
           "tienda": "Instant Gaming",
-          "precio": 8.59,
+          "precio": 8.39,
           "base": null,
-          "descuento": 67,
+          "descuento": 68,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -5091,7 +5091,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 49.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -5120,7 +5120,7 @@
           "cupon": "FANATICAL15",
           "marca": null,
           "minimo_tienda": 14.49,
-          "caduca": null,
+          "caduca": "2026-10-01T19:00:00+02:00",
           "enlace": "https://itad.link/018d9386-ec0a-705a-9d23-73f71cf8c466/?app=opyd8c"
         },
         {
@@ -5241,7 +5241,7 @@
           "base": 24.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 9.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -5255,7 +5255,7 @@
           "base": 40.98,
           "descuento": 61,
           "estado": "ok",
-          "consultado": "29-09-2026 09:38",
+          "consultado": "29-09-2026 15:23",
           "minimo": 15.89,
           "minimo_fecha": "19-09-2026",
           "bundleid": "9112"
