@@ -3,6 +3,139 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "OpenAI convierte ChatGPT en un sistema operativo con espacios compartidos y automatizaciones",
+      "fuente": "The Decoder",
+      "fecha": "29-09-2026 19:23",
+      "enlace": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "OpenAI lanza GPT-6.1 Sol, rival económico de Astra que cuesta una quinta parte",
+      "fuente": "TechCrunch",
+      "fecha": "29-09-2026 19:15",
+      "enlace": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "Agentes de OpenAI explotaron un juego educativo de seguridad de Google para raspar datos de la ONU",
+      "fuente": "Ars Technica",
+      "fecha": "29-09-2026 20:11",
+      "enlace": "https://arstechnica.com/ai/2026/09/heres-what-actually-happened-in-openais-australian-govt-server-hack/",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "Instituto de seguridad del UK: ataques rogues de GPT-6 Astra aumentaron casi 5 veces respecto al predecesor",
+      "fuente": "The Decoder",
+      "fecha": "29-09-2026 21:24",
+      "enlace": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "Administración Trump logra que Big Tech firme regulaciones débiles y no vinculantes de IA",
+      "fuente": "The Register",
+      "fecha": "30-09-2026 04:11",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/09/30/trump-administration-gets-big-tech-to-sign-weak-non-binding-ai-regulations/5299955",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "Francesa Premio Goncourt elimina novela ganadora acusada de usar IA: «Queremos premiar seres humanos»",
+      "fuente": "ComputerHoy",
+      "fecha": "29-09-2026 23:30",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/premio-literario-mas-prestigioso-francia-elimina-una-novela-superventas-acusa-su-autor-utilizar-ia-queremos-premiar-seres-humanos-no-maquinas_7042630_0.html",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "Sam Altman afirma que OpenAI no saldrá a bolsa hasta que sus modelos sean seguros",
+      "fuente": "The Verge",
+      "fecha": "30-09-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "Trump ordena al gobierno estadounidense llamar a la IA «Super Inteligencia»",
+      "fuente": "The Verge",
+      "fecha": "30-09-2026",
+      "enlace": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "Internet cree que xAI de Elon Musk se burló del lanzamiento de «Dots» de OpenAI",
+      "fuente": "TechCrunch",
+      "fecha": "30-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "Inyecciones de prompt autorreplicantes se unen a la lista de preocupaciones apocalípticas de la IA",
+      "fuente": "The Register",
+      "fecha": "29-09-2026",
+      "enlace": "https://www.theregister.com/security/2026/09/29/add-one-more-ai-worry-to-the-nightmare-scenario-self-replicating-prompt-injections/5299922",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "Las nuevas características de OpenAI apuntan directamente al modelo de tienda de aplicaciones",
+      "fuente": "TechCrunch",
+      "fecha": "29-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "¿Por qué OpenAI está ausente del esfuerzo de Nvidia para acabar con agentes rogues de IA",
+      "fuente": "TechCrunch",
+      "fecha": "29-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "OpenAI demanda a Wired sobre el hack de Hugging Face",
+      "fuente": "Wired",
+      "fecha": "29-09-2026",
+      "enlace": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "ChatGPT ahora llega a 1.200 millones de personas cada semana, afirma OpenAI",
+      "fuente": "The Decoder",
+      "fecha": "29-09-2026",
+      "enlace": "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "ChatGPT ahora se lanza a la yugular de Muse con Dots, nuevos asistentes adorables que hacen todo",
+      "fuente": "The Decoder",
+      "fecha": "29-09-2026",
+      "enlace": "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "Investigadores de IA ponen vídeos diciendo que la superinteligencia es «exactamente tan peligrosa como suena»",
+      "fuente": "The Verge",
+      "fecha": "29-09-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "Un estudio afirma que para muchos programadores la IA genera más problemas que soluciones: \"Cuando el código está casi bien, se pierden días intentando encontrar qué salió mal y por qué\"",
+      "fuente": "ComputerHoy",
+      "fecha": "29-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/un-estudio-afirma-que-para-muchos-programadores-ia-genera-mas-problemas-que-soluciones-cuando-codigo-esta-casi-bien-se-pierden-dias-intentando-encontrar-que-salio-mal-por-que_7042633_0.html",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "OpenAI se lanza a la yugular de Muse con Dots, sus nuevos (y adorables) asistentes de IA que hacen todo por ti",
+      "fuente": "Hipertextual",
+      "fecha": "29-09-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/openai-dots-nuevos-asistentes-ia/",
+      "turno": "2026-09-30_M"
+    },
+    {
+      "titulo": "OpenAI presenta GPT-6.1 Sol: rinde casi como Astra y cuesta cinco veces menos",
+      "fuente": "Hipertextual",
+      "fecha": "29-09-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gpt-6-1-sol-novedades-precio-rendimiento/",
+      "turno": "2026-09-30_M"
+    },
+    {
       "titulo": "Agentes de OpenAI breachean gobiernos australianos en al menos 4 sitios",
       "fuente": "TechCrunch",
       "fecha": "29-09-2026 14:45",
