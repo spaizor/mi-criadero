@@ -3,6 +3,153 @@
   "mes": "2026-09",
   "noticias": [
     {
+      "titulo": "Google paga a editoriales por sus contenidos en búsquedas con IA, con 100 editoras en fase piloto",
+      "fuente": "The Verge",
+      "fecha": "30-09-2026 16:51",
+      "enlace": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "China cierra filas: DeepSeek distribuye software de código abierto para los chips Ascend de Huawei",
+      "fuente": "The Decoder",
+      "fecha": "30-09-2026 16:37",
+      "enlace": "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "OpenAI retrasa su salida a bolsa por problemas de seguridad en IA",
+      "fuente": "Ars Technica",
+      "fecha": "30-09-2026 16:06",
+      "enlace": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "Estados Unidos planea más centros de datos de IA de lo que su cadena de suministro de chips puede soportar",
+      "fuente": "The Register",
+      "fecha": "30-09-2026 12:45",
+      "enlace": "https://www.theregister.com/on-prem/2026/09/30/america-is-planning-more-ai-datacenters-than-its-chip-supply-can-fill/5299845",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "GPT-6 Astra descifra un mensaje de radio alemán que llevaba más de 100 años sin resolver",
+      "fuente": "Xataka",
+      "fecha": "30-09-2026 16:00",
+      "enlace": "https://www.xataka.com/robotica-e-ia/llevamos-1918-tratando-descifrar-mensaje-codigo-primera-guerra-mundial-gpt-6-astra-ha-conseguido",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "Agentes de IA chinos de Alibaba, DeepSeek y Moonshot mienten y manipulan para ganar contratos simulados",
+      "fuente": "Xataka",
+      "fecha": "30-09-2026 14:00",
+      "enlace": "https://www.xataka.com/robotica-e-ia/algo-preocupante-esta-sucediendo-china-sus-modelos-ia-tambien-se-estan-desalineando-consecuencias-cada-vez-graves",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "Instagram añade un asistente de IA que te sugiere cómo publicar",
+      "fuente": "The Verge",
+      "fecha": "30-09-2026",
+      "enlace": "https://www.theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "Así es cómo los líderes tecnológicos se autoregularán en seguridad de IA según el acuerdo de Trump",
+      "fuente": "The Verge",
+      "fecha": "30-09-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "Andrew Feldman de Cerebras Systems sobre si la IA puede seguir escalando en TechCrunch Disrupt 2026",
+      "fuente": "TechCrunch",
+      "fecha": "30-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026/",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "Restate consigue 20 millones de dólares mientras crece la necesidad de infraestructura duradera para agentes de IA",
+      "fuente": "TechCrunch",
+      "fecha": "30-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "Airbnb añade búsqueda con IA y más funciones sociales",
+      "fuente": "TechCrunch",
+      "fecha": "30-09-2026",
+      "enlace": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "La descarga: el director de investigación de OpenAI explica su respuesta al hack",
+      "fuente": "MIT Technology Review",
+      "fecha": "30-09-2026",
+      "enlace": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "\"No nos vamos a disparar en el pie\" por el hack, dice el director de investigación de OpenAI",
+      "fuente": "MIT Technology Review",
+      "fecha": "30-09-2026",
+      "enlace": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "Anthropic dice que el GLM-5.3 de código abierto de Zhipu casi iguala a Claude Mythos Preview en construcción de exploits",
+      "fuente": "The Decoder",
+      "fecha": "30-09-2026",
+      "enlace": "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "Google paga casi nada a casi ninguna editorial por contenidos usados en respuestas de IA",
+      "fuente": "The Decoder",
+      "fecha": "30-09-2026",
+      "enlace": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "Trump y los CEO de Big Tech firman código de conducta de IA que es solo «vinculante moralmente»",
+      "fuente": "The Decoder",
+      "fecha": "30-09-2026",
+      "enlace": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "EEUU lleva años intentando modernizar su control aéreo. Ahora probará una solución distinta: poner a trabajar a una IA",
+      "fuente": "Xataka",
+      "fecha": "30-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/eeuu-lleva-anos-intentando-modernizar-su-control-aereo-ahora-probara-solucion-distinta-poner-a-trabajar-a-ia",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "Las Samsung Galaxy Tab S12 llegan para destacar en multitarea, con funciones de Galaxy AI y un salto cualitativo en sonido",
+      "fuente": "ComputerHoy",
+      "fecha": "30-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/las-samsung-galaxy-tab-s12-llegan-para-destacar-multitarea-con-funciones-galaxy-ai-un-salto-cualitativo-sonido_7042880_0.html",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "Ya son oficiales las Galaxy Tab S12+ y S12 Ultra, dos nuevas tablets tope de gama con la IA como protagonista. Y con el S Pen incluido",
+      "fuente": "Xataka",
+      "fecha": "30-09-2026",
+      "enlace": "https://www.xataka.com/seleccion/oficiales-galaxy-tab-s12-s12-ultra-dos-nuevas-tablets-tope-gama-ia-como-protagonista-s-pen-incluido",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "OpenAI anuncia Dots, sus propios agentes de IA para que trabajan 24 horas por ti y que buscan competir con OpenClaw",
+      "fuente": "ComputerHoy",
+      "fecha": "30-09-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/openai-anuncia-dots-sus-propios-agentes-ia-para-que-trabajan-24-horas-por-ti-que-buscan-competir-con-openclaw_7043075_0.html",
+      "turno": "2026-09-30_T"
+    },
+    {
+      "titulo": "\"Mi Dot es básicamente una extensión de mí\": OpenAI quiere que dejemos de hablar con la IA y empecemos a delegarle nuestra vida",
+      "fuente": "Xataka",
+      "fecha": "30-09-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/mi-dot-basicamente-extension-mi-openai-quiere-que-dejemos-hablar-ia-empecemos-a-delegarle-nuestra-vida",
+      "turno": "2026-09-30_T"
+    },
+    {
       "titulo": "OpenAI convierte ChatGPT en un sistema operativo con espacios compartidos y automatizaciones",
       "fuente": "The Decoder",
       "fecha": "29-09-2026 19:23",
