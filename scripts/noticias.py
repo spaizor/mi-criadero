@@ -62,6 +62,9 @@ DESTACADAS = 7
 MAX_DESTACADAS_POR_MEDIO = 2
 MAX_TITULARES_POR_MEDIO = 5
 MAX_TITULARES = 25
+# Una destacada mas vieja que esto se avisa. Medido el 01-10-2026 sobre las
+# 1.989 destacadas del historico: salta en 14, repartidas en 6 turnos de 328.
+HORAS_DESTACADA_VIEJA = 48
 
 # Minimos por turno. El turno de tarde solo puede coger lo publicado desde la
 # manana, asi que exigirle lo mismo solo consigue que se rellene con paja.
@@ -981,6 +984,18 @@ def validar_fecha(valor, formato):
         return None
 
 
+def es_vieja(fecha, momento):
+    """Si una destacada se publico mas de HORAS_DESTACADA_VIEJA antes del turno.
+
+    Las 00:00 son "el articulo no dice la hora", no medianoche: se cuenta desde
+    el final de ese dia, o una noticia de anteayer por la tarde saldria como
+    vieja solo por no traer hora.
+    """
+    if fecha.hour == 0 and fecha.minute == 0:
+        fecha += timedelta(days=1)
+    return momento - fecha > timedelta(hours=HORAS_DESTACADA_VIEJA)
+
+
 def validar_noticia(rev, noticia, indice, es_destacada, momento):
     etiqueta = f"{'destacada' if es_destacada else 'titular'} {indice + 1}"
     campos = ["titulo", "fuente", "enlace", "fecha"]
@@ -1018,6 +1033,14 @@ def validar_noticia(rev, noticia, indice, es_destacada, momento):
                 f"Has cogido la fecha de lo que se cuenta dentro (un lanzamiento, "
                 f"un evento) en vez de la fecha en que se publico el articulo."
             )
+        elif momento and es_vieja(fecha, momento):
+            # Aviso y no error: una noticia de hace tres dias puede merecer el
+            # sitio. 'candidatos' ya descarta lo viejo, asi que esto solo salta
+            # con lo que se ha buscado por fuera, que no pasa por ese filtro.
+            rev.aviso(f"{etiqueta}: el articulo es del {valor}, mas de "
+                      f"{HORAS_DESTACADA_VIEJA} horas antes de este turno. Si "
+                      f"no es un tema que siga vivo, cambiala por una de las "
+                      f"que te dio 'candidatos'.")
     else:
         if validar_fecha(valor, FORMATO_FECHA) is None:
             if validar_fecha(valor, FORMATO_FECHA_HORA):
@@ -1028,6 +1051,68 @@ def validar_noticia(rev, noticia, indice, es_destacada, momento):
                 rev.error(f"{etiqueta}: la fecha debe ser 'DD-MM-AAAA': {valor!r}")
         elif momento and validar_fecha(valor, FORMATO_FECHA).date() > momento.date():
             rev.error(f"{etiqueta}: fecha posterior al dia de ejecucion ({valor}).")
+
+
+def dominio_de(url):
+    """El dominio registrable, a ojo: 'vandal.elespanol.com' -> 'elespanol.com'.
+
+    Sin lista de sufijos publicos, que no esta en la biblioteca estandar: vale
+    con saber que en 'aa.com.tr' o 'bbc.co.uk' el dominio son tres trozos.
+    """
+    try:
+        trozos = (urllib.parse.urlparse(url).hostname or "").lower().split(".")
+    except ValueError:
+        return ""
+    generico = len(trozos) >= 3 and len(trozos[-1]) == 2 and trozos[-2] in (
+        "co", "com", "org", "net", "gob", "gov", "edu", "ac")
+    return ".".join(trozos[-3:] if generico else trozos[-2:])
+
+
+def validar_enlaces(rev, seccion, destacadas, titulares):
+    """Enlaces que no llevan a un articulo, o que no son del medio que dicen.
+
+    'validar_noticia' solo mira que el enlace empiece por http, y con eso se
+    publicaron tres destacadas cuyo enlace era la portada del medio: la rutina
+    no habia podido abrir el articulo y puso lo que tenia. Las dos pruebas de
+    aqui no abren nada, asi que no dependen de que el medio responda.
+    """
+    dominios = {}
+    for medio in leer_medios(seccion, solo_utiles=False):
+        propios = {dominio_de(medio.get(campo) or "") for campo in ("web", "feed")}
+        dominios[medio["nombre"].strip().lower()] = propios - {""}
+
+    for es_destacada, noticias in ((True, destacadas), (False, titulares)):
+        for i, noticia in enumerate(noticias):
+            etiqueta = f"{'destacada' if es_destacada else 'titular'} {i + 1}"
+            enlace = str(noticia.get("enlace", ""))
+            if not enlace.startswith(("http://", "https://")):
+                continue  # ya lo ha dicho validar_noticia
+
+            try:
+                partes = urllib.parse.urlparse(enlace)
+            except ValueError:
+                rev.error(f"{etiqueta}: el enlace no es una URL valida: {enlace}")
+                continue
+            if not partes.path.strip("/") and not partes.query:
+                rev.error(f"{etiqueta}: el enlace es la portada del medio, no "
+                          f"un articulo: {enlace}. Pon la URL del articulo que "
+                          f"has leido; si no has podido abrirlo, esa noticia no "
+                          f"puede ser destacada: cambiala por otra.")
+                continue
+
+            # Solo se puede comprobar con los medios de medios.json. Lo que se
+            # ha buscado por fuera no tiene con que compararse.
+            fuente = str(noticia.get("fuente", ""))
+            propios = dominios.get(fuente.strip().lower())
+            if propios and dominio_de(enlace) not in propios:
+                # En los titulares es aviso: su enlace sale del feed, no del
+                # modelo, y si un medio cambia de dominio un error obligaria a
+                # quitar titulares buenos hasta que alguien corrija medios.json.
+                (rev.error if es_destacada else rev.aviso)(
+                    f"{etiqueta}: el enlace es de {dominio_de(enlace)} y "
+                    f"{fuente} publica en {' o '.join(sorted(propios))}. O la "
+                    f"fuente no es esa (copia el nombre tal cual viene en "
+                    f"'candidatos') o el enlace no es el del articulo: {enlace}")
 
 
 def validar_reparto(rev, seccion, destacadas, titulares, turno):
@@ -1144,6 +1229,7 @@ def cmd_validar(args):
             rev.error(f"Ya se publico el {publicados[enlace]}: {enlace}")
 
     turno = propio[1] or "M"
+    validar_enlaces(rev, args.seccion, destacadas, titulares)
     validar_reparto(rev, args.seccion, destacadas, titulares, turno)
     validar_horas_inventadas(rev, destacadas)
 

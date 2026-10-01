@@ -27,6 +27,33 @@ python3 scripts/noticias.py vigilar                las tres comprobaciones, desd
 - `validar` compara con los turnos anteriores del historico **excluyendo el
   turno propio**; si no, una ejecucion ya archivada se marca entera como
   repetida.
+- `validar` comprueba los enlaces **sin abrirlos** (`validar_enlaces`). Antes
+  solo miraba que empezaran por `http`, y asi se publicaron tres destacadas
+  cuyo enlace era la portada del medio (`nintendowire.com`, `vandal.net`,
+  `telesureng.net`): la rutina no habia podido abrir el articulo y puso lo que
+  tenia. Son dos pruebas:
+  - **ERROR si el enlace no tiene ruta**, solo el dominio. Vale para
+    destacadas y titulares.
+  - **Que el dominio sea el del medio**, segun `web` y `feed` de
+    `medios.json`. ERROR en las destacadas y AVISO en los titulares: el enlace
+    de un titular sale del feed y no del modelo, y si un medio cambia de
+    dominio un error obligaria a quitar titulares buenos hasta que alguien
+    corrija `medios.json`. Con las fuentes que no estan en `medios.json` (lo
+    buscado por fuera) no hay con que comparar y no se mira.
+
+  Medido el 01-10-2026 sobre las 7.662 noticias del historico: la primera caza
+  las tres conocidas y nada mas; la segunda, una destacada y tres titulares
+  del 10-09 firmados como `teleSUR` con enlace de `telesurenglish.net`, que es
+  otro medio de la lista (`teleSUR English`). Ningun falso positivo. No se
+  hace con una peticion al enlace porque los medios que dan 403 a los scripts
+  (Nintendo Wire) saldrian siempre como rotos.
+- `validar` **avisa de las destacadas de mas de 48 horas**. `candidatos` ya
+  descarta lo viejo, pero lo que el modelo busca por fuera no pasa por ahi: el
+  07-09 entro una de MacRumors con doce dias. Es aviso y no error porque un
+  tema que sigue vivo puede merecer el sitio. Una fecha a las 00:00 significa
+  "el articulo no dice la hora", asi que se cuenta desde el final de ese dia.
+  En el historico salta en 14 destacadas de 1.989, repartidas en 6 turnos de
+  328, casi todos de fin de semana; ninguno despues del 14-09.
 - `archivar` es idempotente: repetir el mismo turno reescribe su fichero y
   actualiza su entrada, no anade una nueva. Nunca borra nada.
 - `publicar` hace `git add` solo de `data/`. Asi el HTML y el CSS no pueden
