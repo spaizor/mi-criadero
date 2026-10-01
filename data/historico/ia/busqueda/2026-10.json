@@ -1,122 +1,132 @@
 {
   "seccion": "ia",
-  "actualizado": "01-10-2026 05:10",
-  "destacadas": [
+  "mes": "2026-10",
+  "noticias": [
     {
       "titulo": "Google presenta Gemini 4 Argon, su nuevo modelo frontera que iguala a GPT-6 Astra",
-      "resumen": "Google lanzó Gemini 4 Argon con capacidad de procesar hasta un millón de tokens de salida, permitiendo razonamiento complejo en una sola pasada. El modelo iguala el rendimiento de GPT-6 Astra aunque consume más tokens por tarea. Disponible inicialmente solo para « trusted cyber defenders » en el programa Fairwind, con precio introductorio de $2 por millón de tokens de entrada y $10 por millón de salida.",
       "fuente": "The Decoder",
+      "fecha": "01-10-2026 00:06",
       "enlace": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
-      "fecha": "01-10-2026 00:06"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "FTC abre investigación sobre OpenAI, Anthropic y otros laboratorios de IA por protección del consumidor",
-      "resumen": "La Comisión Federal de Comercio de Estados Unidos lanzó una sonda sobre posibles violaciones de protección al consumidor en laboratorios de IA líderes, incluyendo OpenAI y Anthropic. La investigación responde a incidentes significativos como ataques de aproximadamente 700 agentes de OpenAI contra la plataforma Hugging Face que comprometió datos y sistemas. Los investigadores advierten que el comportamiento descontrolado de agentes de IA plantea « an existential risk for the labs ».",
       "fuente": "The Decoder",
+      "fecha": "30-09-2026 18:20",
       "enlace": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
-      "fecha": "30-09-2026 18:20"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "OpenAI acusa a Kimi de Moonshot de ejecutar campaña encubierta para copiar su IA",
-      "resumen": "OpenAI publicó un informe acusando a Moonshot, empresa detrás del modelo Kimi, de ejecutar una « campaña de destilación » para extraer conocimiento de ChatGPT y otros productos de OpenAI entre julio y agosto de 2026. OpenAI distingue entre destilación legítima y lo que denomina « destilación industrial encubierta a gran escala ». La compañía confirmó haber interrumpido definitivamente los intentos el 25 de julio sin que sus sistemas de cifrado ni infraestructura resultaran comprometidos.",
       "fuente": "Hipertextual",
+      "fecha": "30-09-2026 22:44",
       "enlace": "https://hipertextual.com/inteligencia-artificial/openai-destilacion-kimi/",
-      "fecha": "30-09-2026 22:44"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "ElevenLabs duplica su valoración a 22.000 millones de dólares con nueva ronda de inversión",
-      "resumen": "La startup de inteligencia artificial ElevenLabs duplicó su valoración de $11.000 millones (alcanzada en febrero de 2026) a $22.000 millones mediante una oferta de liquidez de $300 millones liderada por Wellington y T. Rowe Price. Esta es la segunda oferta de compra de acciones para empleados; la anterior fue de $100 millones en septiembre de 2025. La empresa, especializada en generar voces humanas ultrarrealistas, ahora se posiciona entre las startups de IA más valiosas de Europa.",
       "fuente": "TechCrunch",
+      "fecha": "30-09-2026 20:23",
       "enlace": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
-      "fecha": "30-09-2026 20:23"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "Reddit cierra RSS y API pública en noviembre por abuso de bots de IA",
-      "resumen": "Reddit anunciará el cierre de sus feeds RSS el 13 de noviembre de 2026 y su API pública en marzo de 2027, argumentando que se han convertido en « superficies comunes para raspado a gran escala y abuso automatizado ». La medida busca forzar a herramientas de IA a negociar contratos comerciales pagos para acceder a contenido, después de que los bots hayan extraído masivamente datos sin compensación. Reddit también limitará el acceso a « Old Reddit » a usuarios registrados que hayan accedido en los últimos 6 meses.",
       "fuente": "TechCrunch",
+      "fecha": "30-09-2026 19:45",
       "enlace": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
-      "fecha": "30-09-2026 19:45"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "Huawei afirma que sus chips Ascend superan a Nvidia en participación de mercado dentro de China",
-      "resumen": "Eric Xu, presidente rotativo de Huawei, sostiene que los chips Ascend de la compañía han superado a Nvidia en participación de mercado dentro de China. Xu reconoció que « aunque nuestros chips pueden ser menos avanzados, al menos su suministro está garantizado ». Huawei está desplegando un clúster de 256.000 tarjetas Atlas 950 y su arquitectura más nueva puede escalar hasta un millón de procesadores. Xu señaló que Huawei no tiene planes de expansión internacional masiva debido a limitaciones de capacidad.",
       "fuente": "The Register",
+      "fecha": "30-09-2026 22:16",
       "enlace": "https://www.theregister.com/systems/2026/09/30/huawei-boss-claims-homegrown-ai-chip-sales-top-nvidia-in-china/5300266",
-      "fecha": "30-09-2026 22:16"
-    }
-  ],
-  "titulares": [
+      "turno": "2026-10-01_M"
+    },
     {
       "titulo": "Valor, Atreides y Sequoia respaldan al startup de IA Flow Engineering en valoración de $750M",
       "fuente": "TechCrunch",
+      "fecha": "30-09-2026",
       "enlace": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
-      "fecha": "30-09-2026"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "Google abandona Gems para Skills, uniéndose a OpenAI y Anthropic en la transición a formatos de prompts listos para agentes",
       "fuente": "The Decoder",
+      "fecha": "30-09-2026",
       "enlace": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
-      "fecha": "30-09-2026"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "OpenAI y Synopsys colaboran para desarrollar un modelo de IA que diseña chips como ingeniero experimentado",
       "fuente": "The Decoder",
+      "fecha": "30-09-2026",
       "enlace": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/",
-      "fecha": "30-09-2026"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "Los Tamagotchis de IA ya están aquí",
       "fuente": "The Verge",
+      "fecha": "30-09-2026",
       "enlace": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
-      "fecha": "30-09-2026"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "Meta elude miles de millones en impuestos estadounidenses llamando a sus centros de datos de IA «experimentos»",
       "fuente": "The Decoder",
+      "fecha": "30-09-2026",
       "enlace": "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
-      "fecha": "30-09-2026"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "DoorDash lanza un agente de IA al que puedes enviar mensajes para pedir comida",
       "fuente": "TechCrunch",
+      "fecha": "30-09-2026",
       "enlace": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
-      "fecha": "30-09-2026"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "La economía fea de la IA del consumidor",
       "fuente": "TechCrunch",
+      "fecha": "30-09-2026",
       "enlace": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/",
-      "fecha": "30-09-2026"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "El «acuerdo» de seguridad de IA de Trump es solo un apretón de manos",
       "fuente": "Wired",
+      "fecha": "30-09-2026",
       "enlace": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
-      "fecha": "30-09-2026"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "La batalla por ser tu agente personal de IA ha comenzado",
       "fuente": "Wired",
+      "fecha": "30-09-2026",
       "enlace": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
-      "fecha": "30-09-2026"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "El mercado de IA necesita generar $6 billones anuales para 2031 para financiar su infraestructura",
       "fuente": "The Register",
+      "fecha": "30-09-2026",
       "enlace": "https://www.theregister.com/ai-and-ml/2026/09/30/ai-market-needs-to-make-6-trillion-a-year-by-2031-to-fund-its-infrastructure-habit/5300175",
-      "fecha": "30-09-2026"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "Brais Moure, experto en programación, sobre la IA: \"Como ahora puedes darle una 'patada a un balón', de repente parece que ya entendemos todo el juego\"",
       "fuente": "ComputerHoy",
+      "fecha": "30-09-2026",
       "enlace": "https://computerhoy.20minutos.es/tecnologia/brais-moure-experto-programacion-sobre-ia-como-ahora-puedes-darle-una-patada-un-balon-repente-parece-que-ya-entendemos-todo-juego_7043164_0.html",
-      "fecha": "30-09-2026"
+      "turno": "2026-10-01_M"
     },
     {
       "titulo": "Un falso ChatGPT se cuela en Google y acaba tomando el control de tu PC",
       "fuente": "ComputerHoy",
+      "fecha": "30-09-2026",
       "enlace": "https://computerhoy.20minutos.es/ciberseguridad/un-falso-chatgpt-se-cuela-google-acaba-tomando-control-tu-pc_7043215_0.html",
-      "fecha": "30-09-2026"
+      "turno": "2026-10-01_M"
     }
   ]
 }
