@@ -3,6 +3,230 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Jensen Huang y otros CEO confrontan a Dario Amodei por sus mensajes extremos sobre seguridad en IA",
+      "fuente": "Xataka",
+      "fecha": "01-10-2026 18:31",
+      "enlace": "https://www.xataka.com/empresas-y-economia/jensen-huang-otros-grandes-ceo-tecnologicos-han-confrontado-a-dario-amodei-sus-mensajes-extremos-materia-seguridad",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Se va Ryan Roslansky, el jefe de Office y Teams de Microsoft, tras casi 18 años en la compañía",
+      "fuente": "The Verge",
+      "fecha": "01-10-2026 18:02",
+      "enlace": "https://www.theverge.com/news/1003515/microsoft-ryan-roslansky-office-teams-linkedin-leaving",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Kevin Mandia levanta 255,5 millones de dólares para Armadin, su startup de seguridad con enjambres de agentes de IA",
+      "fuente": "TechCrunch",
+      "fecha": "01-10-2026 23:55",
+      "enlace": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Mozilla rediseña Firefox con la versión 157 para atraer al usuario que no sabe qué es Gecko",
+      "fuente": "Xataka",
+      "fecha": "01-10-2026 20:31",
+      "enlace": "https://www.xataka.com/aplicaciones/no-basta-ser-navegador-valores-mozilla-redisena-firefox-para-conquistar-al-usuario-que-no-sabe-que-gecko",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Apple desarrollaría una cámara de seguridad para el hogar que no graba vídeo",
+      "fuente": "The Verge",
+      "fecha": "02-10-2026 00:51",
+      "enlace": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Cloudflare lanza Clef, modelos de pesos abiertos para competir con Jev",
+      "fuente": "The Register",
+      "fecha": "01-10-2026 23:39",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/01/cloudflare-tries-to-outplay-jev-with-open-weight-clef-models/5300649",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "WhatsApp Business Platform empieza a cobrar a las empresas por cada mensaje de respuesta",
+      "fuente": "ComputerHoy",
+      "fecha": "01-10-2026 23:06",
+      "enlace": "https://computerhoy.20minutos.es/moviles/esta-version-whatsapp-deja-ser-gratis-espana-tendran-que-pagar-por-contestar-los-mensajes_7043600_0.html",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Los operadores de robotaxis se enfrentarán a multas por bloquear a los servicios de emergencia",
+      "fuente": "TechCrunch",
+      "fecha": "02-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Un condado de Florida encuentra 11 cámaras Flock sin permiso y de dueños sin identificar",
+      "fuente": "Engadget",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.engadget.com/2275315/florida-county-finds-11-unpermitted-flock-cameras-with-unidentified-owners/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Lyft pagará 272,5 millones de dólares para cerrar la demanda sobre la clasificación de sus conductores",
+      "fuente": "TechCrunch",
+      "fecha": "01-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/01/lyft-is-paying-272-5m-to-settle-lawsuit-over-how-it-classified-drivers/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "La policía podría tener nuevas formas de acceder a los datos de iPhones bloqueados",
+      "fuente": "Engadget",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.engadget.com/2275167/police-may-have-new-ways-to-access-data-on-locked-iphones/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Un profesor de Stanford defiende un nuevo protocolo para sustituir a TCP",
+      "fuente": "The Register",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.theregister.com/networks/2026/10/01/stanford-prof-is-beating-the-drum-for-a-new-protocol-to-replace-tcp/5300629",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Android Central «continuará» pese a despedir a toda su plantilla",
+      "fuente": "The Verge",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.theverge.com/tech/1003735/android-central-layoffs",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Steam Deck 2: ¿es AMD Gainsborough el chip que Valve esperaba?",
+      "fuente": "The Verge",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.theverge.com/games/1003593/steam-deck-2-is-amd-gainsborough-the-chip-valves-been-waiting-for",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "AWS ofrece una correa local y de código abierto para los arneses de agentes de IA",
+      "fuente": "The Register",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/01/aws-offers-local-open-source-leash-for-agent-harnesses/5300578",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Microsoft detecta a hackers explotando un fallo de Zimbra antes de que se divulgara",
+      "fuente": "The Register",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.theregister.com/security/2026/10/01/microsoft-catches-hackers-exploiting-zimbra-bug-before-disclosure/5300543",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "El gobernador de California veta la ley que prohibía grabar en secreto con gafas inteligentes",
+      "fuente": "TechCrunch",
+      "fecha": "01-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/01/california-governor-vetoes-bill-banning-use-of-pervert-glasses-to-secretly-record-people/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Samsung lanza en Corea del Sur sus primeros auriculares de clip",
+      "fuente": "Engadget",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.engadget.com/2275187/samsung-launches-its-first-clip-on-earbuds-in-south-korea/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Nueva York activa su norma de cancelación con un clic contra las suscripciones trampa",
+      "fuente": "The Verge",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.theverge.com/policy/1003426/nyc-click-to-cancel-subscriptions-rule",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Benoit Pouffary, ingeniero de la ESA: “Almería podría ser el mejor lugar del mundo para simular lo que el rover afrontará en Marte”",
+      "fuente": "Xataka",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.xataka.com/espacio/benoit-pouffary-ingeniero-esa-almeria-podria-ser-mejor-lugar-mundo-para-simular-que-rover-estara-enfrentando-cuando-llegue-a-marte",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "El equipo de ‘Gears of War: E-Day’ teme nuevos despidos tras su lanzamiento",
+      "fuente": "Hipertextual",
+      "fecha": "01-10-2026",
+      "enlace": "https://hipertextual.com/videojuegos/el-equipo-de-gears-of-war-e-day-teme-nuevos-despidos/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "O2 estrena un configurador de tarifas para que puedas encontrar el combinado de fibra, móvil y TV que más te guste",
+      "fuente": "ADSLZone",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-nuevo-configurador-tarifas-web/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Amazon anuncia tres nuevos Kindle más finos y ligeros: Paperwhite, Colorsoft y 6 pulgadas",
+      "fuente": "ComputerHoy",
+      "fecha": "01-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/amazon-anuncia-tres-nuevos-kindle-mas-finos-ligeros-paperwhite-colorsoft-6-pulgadas_7043946_0.html",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Hoy llega uno de los estrenos más importantes de Netflix. Son siete episodios y detrás hay un clásico enorme",
+      "fuente": "Xataka",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.xataka.com/cine-y-tv/hoy-llega-uno-estrenos-importantes-netflix-siete-episodios-detras-hay-clasico-enorme",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Pésimas noticias si querías un Galaxy S26: Samsung sube sus precios desde hoy",
+      "fuente": "Hipertextual",
+      "fecha": "01-10-2026",
+      "enlace": "https://hipertextual.com/mobile/subida-de-precio-samsung-galaxy-s26-octubre-2026/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Microsoft prepara el adiós al Snapdragon 850, uno de sus primeros chips ARM para Windows",
+      "fuente": "ADSLZone",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/windows/microsoft-fin-compatibilidad-chip-snapdragon-850/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Android Auto 17.9 ya está aquí con todas estas novedades y así puedes descargarlo aunque no seas beta tester",
+      "fuente": "ComputerHoy",
+      "fecha": "01-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-17-9-ya-esta-aqui-con-todas-estas-novedades-asi-puedes-descargarlo-aunque-no-seas-beta-tester_7043762_0.html",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Un pueblo de Navarra lleva siglos intentando robar dos santos a un pueblo de La Rioja. El pasado domingo lo han vuelto a intentar",
+      "fuente": "Xataka",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.xataka.com/magnet/pueblo-navarra-lleva-siglos-intentando-robar-dos-santos-a-pueblo-rioja-pasado-domingo-han-vuelto-a-intentar",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Fermata se actualiza en Android Auto: YouTube seguirá sonando en segundo plano",
+      "fuente": "ADSLZone",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/android-auto-actualizacion-fermata-1-7-51/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "El chollo del año: paga 1.000 euros por una RTX 5070 Ti y le mandan cuatro por error",
+      "fuente": "ComputerHoy",
+      "fecha": "01-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/chollo-ano-paga-1-000-euros-por-una-rtx-5070-ti-le-mandan-cuatro-por-error_7043764_0.html",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "La gran paradoja de China: pese a instalar más energía renovable que nadie en el mundo, sigue dependiendo del carbón",
+      "fuente": "Xataka",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.xataka.com/energia/gran-paradoja-china-pese-a-instalar-energia-renovable-que-nadie-mundo-sigue-dependiendo-carbon",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Movistar Plus emite hoy y mañana el mejor baloncesto de la Euroliga en su TV en streaming",
+      "fuente": "ADSLZone",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-jornada-3-euroliga/",
+      "turno": "2026-10-02_M"
+    },
+    {
       "titulo": "Vivo lanza el X Fold 6 en España con cámara ZEISS y batería de 6.000 mAh",
       "fuente": "Hipertextual",
       "fecha": "01-10-2026 10:00",
