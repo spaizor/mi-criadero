@@ -6,8 +6,9 @@ Abierta el **28-08-2026**. Medios de fuera del bloque occidental: rusos, chinos,
 turcos, iranies, asiaticos y latinoamericanos, mas la prensa occidental no
 alineada. Es la seccion **mas ancha del proyecto**: 32 medios vivos y **236
 candidatos por turno**, contra los 84 de tecnologia y los 18 de `ia`. Por eso
-lleva **8 destacadas**, una mas que nintendo: aqui el numero lo permite lo que
-hay, al reves que en `ia`, donde se bajo a 6 porque no daba.
+lleva **10 destacadas**, dos mas que nintendo (fueron 8 hasta el 02-10-2026):
+aqui el numero lo permite lo que hay, al reves que en `ia`, que lleva una menos
+que las demas porque no da.
 
 ## Sale una vez al dia, y por eso `secciones.json` declara los turnos
 
@@ -39,10 +40,11 @@ midio sobre los 944 titulares de 48 h antes de escribir nada, y no sale:
 | + Ucrania + Rusia | 44,5 | **33,8** |
 | Solo Espana | 2,8 | — |
 
-Con 8 destacadas y 25 titulares hacen falta **33**. O sea que el filtro estricto
-deja la seccion **a la mitad**, mas estrecha que `ia`, que ya va justa; y metiendo
-Rusia y Ucrania da el cupo exacto y sin margen, ademas de convertirla en la guerra
-de Ucrania narrada por TASS y RT, que es otra seccion distinta de la que se queria.
+Con 8 destacadas y 25 titulares hacian falta **33** (35 desde que las destacadas
+son 10). O sea que el filtro estricto deja la seccion **a la mitad**, mas estrecha
+que `ia`, que ya va justa; y metiendo Rusia y Ucrania daba el cupo exacto y sin
+margen (hoy ni llega), ademas de convertirla en la guerra de Ucrania narrada por
+TASS y RT, que es otra seccion distinta de la que se queria.
 
 **Hay que contar historias y no titulares**, y esto es lo propio de esta seccion:
 32 medios cubren las mismas noticias del dia. La muerte del rey Harald V de Noruega
@@ -57,9 +59,10 @@ draw"* y no se puede quitar del filtro de Europa; `Berlin` caza *"2 dead in scho
 attack near Berlin"*. Sucesos, futbol y cultura.
 
 **Asi que no se filtra, se prioriza:** los 25 titulares son geopolitica mundial sin
-filtro, y las **8 destacadas las elige el modelo entre lo que toca a Europa y a
+filtro, y las **10 destacadas las elige el modelo entre lo que toca a Europa y a
 Espana**, que es criterio editorial y no se deja escribir como lista. Hay 16,8
-historias europeas distintas por turno, o sea margen 2 a 1 para llenar 8.
+historias europeas distintas por turno, o sea margen de 1,7 a 1 para llenar 10
+(era 2 a 1 con las 8 de antes).
 
 ## Los medios: se eligen, no se filtran
 

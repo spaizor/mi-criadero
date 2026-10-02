@@ -31,9 +31,12 @@ Hipertextual, cuya ruta con `/categoria/` delante da 410).
 
 Tres cosas que hay que saber para no romperla:
 
-- **Los cupos de esta seccion son mas bajos** (6 destacadas en vez de 7, 15
+- **Los cupos de esta seccion son mas bajos** (7 destacadas en vez de 8, 15
   titulares de tope, 8 minimos por la manana), y viven en `CUPOS` dentro de
-  `noticias.py`. Una seccion
+  `noticias.py`. Las destacadas fueron 6 hasta el 02-10-2026, cuando subieron
+  una en todas las secciones; aqui eso tiene un coste que en las otras no: del
+  01-09 al 02-10 solo 37 de 57 turnos llegaron a 6, asi que el aviso "Solo N
+  destacadas de 7" va a salir a menudo. Si acaba saliendo siempre, volver a 6. Una seccion
   estrecha no es una seccion mal hecha: pedirle los 25 de tecnologia solo
   conseguiria que `validar` avisara en todas las ejecuciones. Ahi esta tambien
   la unica regla que cambia de rango: **no traer ninguna destacada de un medio

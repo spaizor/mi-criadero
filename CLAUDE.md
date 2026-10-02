@@ -103,8 +103,8 @@ al reves que las fechas de dentro del JSON, que van en DD-MM-AAAA.
 
 ## Formato de los JSON de contenido
 
-Cada seccion tiene dos niveles: **7 destacadas** que la rutina abre y lee (6
-en `ia`, 8 en `geopolitica`), y hasta **25 titulares** que salen del listado
+Cada seccion tiene dos niveles: **8 destacadas** que la rutina abre y lee (7
+en `ia`, 10 en `geopolitica`), y hasta **25 titulares** que salen del listado
 del medio sin abrir el articulo. Los titulares se pintan en un bloque plegable
 debajo de las destacadas.
 
@@ -134,7 +134,8 @@ debajo de las destacadas.
 
 Todas las fechas en hora espanola. **El campo `actualizado` lo reescribe el
 script** (`titulares` y `archivar`), asi que la hora que ponga ahi el modelo es
-provisional. **Los titulares llevan fecha sin hora a proposito**: como no se
+provisional. Lo mismo la `fecha` de las destacadas: `titulares` le pone la del
+feed a las que tienen su enlace en el. **Los titulares llevan fecha sin hora a proposito**: como no se
 abre el articulo, no hay forma de saber la hora de publicacion, y pedirsela
 solo consigue que se la invente.
 

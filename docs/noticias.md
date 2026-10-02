@@ -75,10 +75,10 @@ horas y fuentes inventadas— en la mitad del contenido. Asi que el reparto de
 trabajo es ahora este:
 
 1. `candidatos` da la materia prima.
-2. El modelo escribe `data/<seccion>.json` con **las 7 destacadas y los
+2. El modelo escribe `data/<seccion>.json` con **las destacadas y los
    titulares de los medios de fuera**, que si hay que traducir.
 3. `titulares <seccion>` anade los de los medios `"idioma": "es"` leyendolos
-   del feed, y reescribe el fichero.
+   del feed, les pone a las destacadas la hora del feed y reescribe el fichero.
 4. `validar` -> `archivar` -> `publicar`, igual que antes.
 
 Va despues de escribir el fichero y no antes porque necesita saber que ha
@@ -104,6 +104,24 @@ Lo que hay que saber para no romperlo:
   anadiendo las noticias de hoy al turno de ayer y publicandolo como nuevo.
 - `--probar` ensena lo que anadiria sin tocar el fichero, y `--maximo` cambia
   el tope de 25 contando los que ya hay.
+- **Pone la fecha y hora de las destacadas**, desde el 02-10-2026
+  (`poner_horas_del_feed`). Es lo unico que toca de ellas. La hora la buscaba
+  el modelo en el articulo, y ese dia nintendo salio con 6 de sus 7 destacadas
+  a las 00:00: la pagina decia "hace 8 horas" y el prompt mandaba poner 00:00
+  si no habia hora. El dato ya estaba en el feed (`publicado` en la salida de
+  `candidatos`). Medido sobre las 39 destacadas de los ultimos turnos que
+  seguian en el feed: **34 coincidian al minuto, y en las 5 que no la buena era
+  la del feed** (las 3 de las 00:00, y una de Nintendo Life y otra de The
+  Register con la hora britanica de la pagina sin convertir). Por eso pisa
+  siempre y no solo las 00:00.
+  - Solo toca las que tienen **el enlace tal cual en el feed de su medio**. Lo
+    traido de fuera con WebSearch, o un titular viejo que asciende, se queda
+    con la fecha del modelo, y para esas sigue valiendo la regla del 00:00.
+  - Se hace en `titulares` y no despues porque los feeds son cortos: horas mas
+    tarde, 44 de las 83 destacadas medidas ya no estaban (Nintenderos trae 9
+    entradas, The Verge 10).
+  - Una fecha del feed posterior a la hora de ejecucion no se aplica: `validar`
+    la daria por error y nadie podria corregirla.
 
 ## La hora de `actualizado` la pone el script, no el modelo
 

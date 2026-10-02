@@ -86,8 +86,8 @@ Son dos mecanismos distintos, y conviene no mezclarlos:
 
 1. Un script descarga los RSS de los medios de la sección y quita lo repetido,
    las guías, las ofertas y lo que no viene a cuento.
-2. El modelo abre y lee las mejores, y escribe las **destacadas** (7, u 8 en
-   geopolítica y 6 en IA) con su resumen.
+2. El modelo abre y lee las mejores, y escribe las **destacadas** (8, o 10 en
+   geopolítica y 7 en IA) con su resumen.
 3. Los **titulares** de medios españoles los pone el script leyéndolos del feed,
    sin pasar por el modelo: en un medio español no hay nada que traducir, y
    hacerlo pasar por el modelo solo añadía el riesgo de que se invente la hora.

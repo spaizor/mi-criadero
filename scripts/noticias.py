@@ -55,10 +55,11 @@ FORMATO_FECHA = "%d-%m-%Y"
 
 # Limites de reparto. Son los del prompt: si se cambian ahi, cambiarlos aqui.
 #
-# Las destacadas pasaron de 5 a 7 el 27-08-2026. Con el maximo de 2 por medio
-# eso pide 4 medios distintos en vez de 3, que las secciones anchas cubren de
-# sobra: tecnologia trae 84 candidatos por turno de 11 medios.
-DESTACADAS = 7
+# Las destacadas pasaron de 5 a 7 el 27-08-2026 y de 7 a 8 el 02-10-2026. Con
+# el maximo de 2 por medio las 8 siguen pidiendo 4 medios distintos, que las
+# secciones anchas cubren de sobra: tecnologia trae 84 candidatos por turno de
+# 11 medios, y sus destacadas ya salian de 5,1 medios de media.
+DESTACADAS = 8
 MAX_DESTACADAS_POR_MEDIO = 2
 MAX_TITULARES_POR_MEDIO = 5
 MAX_TITULARES = 25
@@ -78,11 +79,14 @@ MIN_MEDIOS_TITULARES = {"M": 5, "T": 3}
 # valen para algo mientras signifiquen que ha pasado algo raro.
 CUPOS = {
     "ia": {
-        # 6 y no 7: 'ia' da 18 candidatos por turno y sus mananas se han
-        # quedado en 13-14 noticias en total. La septima destacada saldria de
-        # rascar el fondo justo en los turnos flojos, que es cuando peor idea
-        # es. Aqui el numero no lo manda el formato, lo manda lo que hay.
-        "destacadas": 6,
+        # 7 y no las 8 de las demas: 'ia' da 18 candidatos por turno y sus
+        # mananas se han quedado en 13-14 noticias en total. Fueron 6 hasta el
+        # 02-10-2026, cuando subieron todas las secciones. Ojo con lo que eso
+        # le hace al aviso de 'validar': del 01-09 al 02-10 solo 37 de 57
+        # turnos llegaron a 6, asi que "Solo N destacadas de 7" va a salir a
+        # menudo, sobre todo en fin de semana. Si acaba saliendo siempre, lo
+        # que sobra es el numero y no el aviso.
+        "destacadas": 7,
         "max_titulares": 15,
         "min_titulares": {"M": 8, "T": 5},
         "min_medios": {"M": 4, "T": 3},
@@ -97,8 +101,10 @@ CUPOS = {
         # Al reves que 'ia': aqui el numero lo permite lo que hay. Es la
         # seccion mas ancha del proyecto con diferencia (236 candidatos por
         # turno de 32 medios, medido el 28-08-2026, contra los 84 de
-        # tecnologia), asi que la octava destacada no sale de rascar el fondo.
-        "destacadas": 8,
+        # tecnologia), asi que las destacadas de mas no salen de rascar el
+        # fondo. Fueron 8 hasta el 02-10-2026. Las 10 piden 5 medios distintos
+        # y las 8 ya salian de 7,2 de media.
+        "destacadas": 10,
         # 8 medios distintos y no 5. El tope de 5 titulares por medio ya
         # reparte, pero con 32 medios cubriendo las mismas cinco noticias del
         # dia se puede cumplir con TASS, RT y tres mas y dejar la seccion
@@ -736,7 +742,71 @@ def cmd_candidatos(args):
 # pase por el modelo. En un medio espanol no hay nada que traducir: el titulo
 # del feed ya es publicable, y copiarlo es justo donde se inventaban las horas
 # y las fuentes. El modelo se queda con las destacadas y los medios de fuera.
+# De las destacadas solo se le toca la fecha, que tambien sale del feed.
 # --------------------------------------------------------------------------
+
+def leer_feed(medio, feeds):
+    """Las entradas del feed de un medio, o None y el motivo.
+
+    'feeds' guarda lo ya bajado en esta ejecucion: un medio espanol con una
+    destacada se lee para ponerle la hora y otra vez para sus titulares.
+    """
+    if medio["feed"] not in feeds:
+        contenido, error = descargar(medio["feed"])
+        if contenido is None:
+            feeds[medio["feed"]] = (None, str(error))
+        else:
+            try:
+                feeds[medio["feed"]] = (
+                    entradas_del_feed(contenido, medio.get("web")), None)
+            except ET.ParseError as e:
+                feeds[medio["feed"]] = (None, f"el feed no es XML valido ({e})")
+    return feeds[medio["feed"]]
+
+
+def poner_horas_del_feed(seccion, destacadas, feeds):
+    """Pone a cada destacada la fecha y hora de publicacion que da su feed.
+
+    La hora la buscaba el modelo en el articulo, y es un dato que el script
+    puede leer. El 02-10-2026 nintendo salio con 6 de sus 7 destacadas a las
+    00:00: el articulo decia "hace 8 horas" y el prompt mandaba poner 00:00 si
+    no habia hora. Medido ese dia sobre las 39 destacadas de los ultimos turnos
+    que seguian en el feed: 34 coincidian al minuto, y en las 5 que no la buena
+    era la del feed (las 3 de las 00:00 y dos de medios britanicos con la hora
+    de la pagina sin convertir, una hora menos).
+
+    Solo toca las que tienen el enlace en el feed de su medio. Lo que el modelo
+    ha traido de fuera, o un titular viejo que asciende, se queda como venia.
+    """
+    medios = {m["nombre"].strip().lower(): m for m in leer_medios(seccion)}
+    ahora = datetime.now(ESPANA)
+    cambios = []
+    for i, noticia in enumerate(destacadas):
+        if not isinstance(noticia, dict):
+            continue
+        fuente = str(noticia.get("fuente", ""))
+        medio = medios.get(fuente.strip().lower())
+        if medio is None:
+            continue
+        entradas, error = leer_feed(medio, feeds)
+        if entradas is None:
+            cambios.append(f"destacada {i + 1}: no se ha podido leer el feed de "
+                           f"{fuente} ({error}), se queda con la fecha que traia.")
+            continue
+        for _, enlace, fecha, _ in entradas:
+            # Una fecha del feed posterior a ahora es un reloj mal puesto en el
+            # medio, y 'validar' la daria por error sin que nadie pueda
+            # corregirla: se deja la del modelo.
+            if enlace == noticia.get("enlace") and fecha and fecha <= ahora:
+                del_feed = fecha.strftime(FORMATO_FECHA_HORA)
+                if noticia.get("fecha") != del_feed:
+                    cambios.append(f"destacada {i + 1} ({fuente}): la fecha "
+                                   f"pasa de {noticia.get('fecha') or 'nada'} a "
+                                   f"{del_feed}, la del feed.")
+                    noticia["fecha"] = del_feed
+                break
+    return cambios
+
 
 def limpiar_titulo(titulo):
     """El titulo del feed tal cual, pero sin restos del XML."""
@@ -789,6 +859,17 @@ def cmd_titulares(args):
     if not args.probar:
         sellar_actualizado(args.seccion, datos, "titulares")
 
+    # Antes de todo lo demas, que tiene varias salidas sin escribir (no hay
+    # medios espanoles, no cabe ninguno, no hay nada nuevo) y las horas hay que
+    # ponerlas igual.
+    feeds = {}
+    if isinstance(datos.get("destacadas"), list):
+        horas = poner_horas_del_feed(args.seccion, datos["destacadas"], feeds)
+        for linea in horas:
+            print(f"# {linea}")
+        if horas and not args.probar:
+            escribir_json(ruta, datos)
+
     espanoles = [m for m in leer_medios(args.seccion) if m.get("idioma") == "es"]
     if not espanoles:
         print(f"ERROR: no hay ningun medio espanol comprobado en "
@@ -823,14 +904,9 @@ def cmd_titulares(args):
 
     por_medio, fallos, descartes = {}, [], Counter()
     for medio in espanoles:
-        contenido, error = descargar(medio["feed"])
-        if contenido is None:
+        entradas, error = leer_feed(medio, feeds)
+        if entradas is None:
             fallos.append(f"{medio['nombre']}: {error}")
-            continue
-        try:
-            entradas = entradas_del_feed(contenido, medio.get("web"))
-        except ET.ParseError as e:
-            fallos.append(f"{medio['nombre']}: el feed no es XML valido ({e})")
             continue
 
         nuevos, repetidos = [], set()
