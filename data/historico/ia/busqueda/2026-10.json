@@ -3,6 +3,139 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "California cita a OpenAI por los agentes de IA que se escaparon de sus entornos de prueba",
+      "fuente": "The Register",
+      "fecha": "02-10-2026 16:34",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "El coste de la IA cae seis veces más rápido que el de la computación clásica, según Epoch AI",
+      "fuente": "Xataka",
+      "fecha": "02-10-2026 15:45",
+      "enlace": "https://www.xataka.com/robotica-e-ia/ley-moore-se-queda-corta-coste-ia-cae-seis-veces-deprisa-que-computacion-clasica",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "La IA supera a contables colegiados en velocidad y precisión, pero no puede cerrar los libros sin supervisión",
+      "fuente": "The Decoder",
+      "fecha": "02-10-2026 13:15",
+      "enlace": "https://the-decoder.com/ai-beats-licensed-accountants-on-speed-and-accuracy-but-still-cant-close-the-books-without-supervision/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "El retraso eléctrico amenaza el centro de datos de IA de Oracle en Wisconsin",
+      "fuente": "The Register",
+      "fecha": "02-10-2026 15:50",
+      "enlace": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Black Forest Labs lanza Flux 3 Image, con edición en varios pasos que respeta el resto de la imagen",
+      "fuente": "The Decoder",
+      "fecha": "02-10-2026 09:44",
+      "enlace": "https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Un fallo en la app de ChatGPT para Mac pudo permitir a hackers robar datos sensibles",
+      "fuente": "Wired",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Suno, el generador de música con IA, ahora también genera voz hablada",
+      "fuente": "The Verge",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Microsoft AI lanza nuevos modelos de transcripción y texto a voz para agentes de voz",
+      "fuente": "The Decoder",
+      "fecha": "02-10-2026",
+      "enlace": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Las empresas usan más IA y pagan menos por ella, según el índice Ramp AI",
+      "fuente": "The Decoder",
+      "fecha": "02-10-2026",
+      "enlace": "https://the-decoder.com/businesses-are-using-more-ai-and-paying-less-for-it-ramp-ai-index-shows/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Amazon publica un inquietante blog que advierte a las comunidades de no bloquear centros de datos",
+      "fuente": "The Verge",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Las alucinaciones de la IA empeoran a los clientes exigentes en atención al cliente",
+      "fuente": "The Verge",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "El Nvidia Shield TV, con siete años, sube 100 dólares por culpa de la IA",
+      "fuente": "Ars Technica",
+      "fecha": "02-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "PS5 estrena escalado por IA: Sony lanza QSSR, su solución para que el modelo base aguante el tipo unos años más",
+      "fuente": "Xataka",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.xataka.com/consolas-de-sobremesa/ps5-estrena-escalado-ia-sony-lanza-qssr-su-solucion-modelo-base-aguante-tipo-unos-anos",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Linus Torvalds vuelve a defender el uso de la IA en Linux y lanza un aviso a sus detractores: \"Si alguien no está de acuerdo, es libre de bifurcarlo\"",
+      "fuente": "ComputerHoy",
+      "fecha": "02-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-vuelve-defender-uso-ia-linux-lanza-un-aviso-sus-detractores-si-alguien-no-esta-acuerdo-es-libre-bifurcarlo_7044118_0.html",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Hostinger tiene una IA para crear proyectos o páginas web utilizando solo lenguaje natural. Y no llega a 3 euros al mes",
+      "fuente": "Xataka",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.xataka.com/seleccion/hostinger-tiene-ia-para-crear-proyectos-paginas-web-utilizando-solo-lenguaje-natural-no-llega-a-3-euros-al-mes",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Brais Moure, programador, sobre el método Socrático en la IA: \"El maestro tiene que guiar al alumno para llegar al conocimiento por sí mismo, cuestionando sus propias ideas\"",
+      "fuente": "ComputerHoy",
+      "fecha": "02-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/brais-moure-programador-sobre-metodo-socratico-ia-maestro-tiene-que-guiar-alumno-para-llegar-conocimiento-por-si-mismo-cuestionando-sus-propias-ideas_7044009_0.html",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Google ya tiene un chip de IA en órbita: lo ha lanzado SpaceX para comprobar si los centros de datos espaciales son viables",
+      "fuente": "Xataka",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.xataka.com/espacio/google-tiene-chip-ia-orbita-ha-lanzado-spacex-para-comprobar-centros-datos-espaciales-viables",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "GPT-6 Astra descifra un mensaje secreto de la Segunda Guerra Mundial",
+      "fuente": "ComputerHoy",
+      "fecha": "02-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/gpt-6-astra-descifra-un-mensaje-secreto-segunda-guerra-mundial_7042405_0.html",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "La IA está rompiendo todas las barreras de la ciberseguridad. Ha conseguido hackear a los hackers",
+      "fuente": "Xataka",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/ia-esta-rompiendo-todas-barreras-ciberseguridad-ha-conseguido-hackear-a-hackers",
+      "turno": "2026-10-02_T"
+    },
+    {
       "titulo": "OpenAI expulsa a tres investigadores de seguridad por filtrar informacion confidencial",
       "fuente": "TechCrunch",
       "fecha": "01-10-2026 20:14",
