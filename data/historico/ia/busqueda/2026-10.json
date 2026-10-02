@@ -3,6 +3,125 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "OpenAI expulsa a tres investigadores de seguridad por filtrar informacion confidencial",
+      "fuente": "TechCrunch",
+      "fecha": "01-10-2026 20:14",
+      "enlace": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Microsoft transformara Copilot en un sistema operativo integrado con Office",
+      "fuente": "Hipertextual",
+      "fecha": "01-10-2026 19:54",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/microsoft-copilot-sistema-operativo-trabajo/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "DeepSeek presenta TileLang, una alternativa a CUDA para los chips de Huawei",
+      "fuente": "Xataka",
+      "fecha": "01-10-2026 17:45",
+      "enlace": "https://www.xataka.com/robotica-e-ia/deepseek-acaba-presentar-publico-alternativa-a-cuda-que-esta-construyendo-mano-huawei",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Agentes de IA hackean investigadores de seguridad del Instituto Holandes de Divulgacion de Vulnerabilidades",
+      "fuente": "The Register",
+      "fecha": "01-10-2026 23:26",
+      "enlace": "https://www.theregister.com/security/2026/10/01/ai-agents-hacked-the-hackers-stealing-email-addresses-from-security-research-org/5300652",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "El avatar de IA de Tavus engana a casi la mitad de usuarios haciendose pasar por persona real",
+      "fuente": "The Decoder",
+      "fecha": "01-10-2026 20:03",
+      "enlace": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Musk's Grok animo a Trump a capturar al presidente de Venezuela",
+      "fuente": "TechCrunch",
+      "fecha": "01-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Ideogram presenta nuevo modelo que edita partes de imagenes sin romper el resto",
+      "fuente": "The Decoder",
+      "fecha": "01-10-2026",
+      "enlace": "https://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Amazon lanza su propio clon de Jev mientras modelos de decision inundan la web",
+      "fuente": "TechCrunch",
+      "fecha": "01-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Shopify lanza Canvas, una forma de crear tiendas online conversando con IA",
+      "fuente": "TechCrunch",
+      "fecha": "01-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Brian Chesky: los agentes de IA necesitan su propio sistema operativo",
+      "fuente": "TechCrunch",
+      "fecha": "01-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Espias chinos suplantaron a ejecutivo de Anthropic y exfuncionario de la Casa Blanca en ataque de phishing con IA",
+      "fuente": "The Register",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.theregister.com/security/2026/10/01/suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-house-official-in-ai-phishing/5300595",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Juez desestima demandas antimonopolio contra la busqueda de IA de Google",
+      "fuente": "Ars Technica",
+      "fecha": "01-10-2026",
+      "enlace": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Google estima que Starship debe lanzarse 1.800 veces para centros de datos en el espacio",
+      "fuente": "TechCrunch",
+      "fecha": "01-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "La gran crisis del empleo por culpa de la IA se hace esperar: los empleos españoles más expuestos crecen por encima de la media",
+      "fuente": "Xataka",
+      "fecha": "01-10-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/gran-crisis-empleo-culpa-ia-se-hace-esperar-empleos-espanoles-expuestos-crecen-encima-media",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Gana más de 200.000 euros en menos de 3 horas con una app inútil creada con IA sin escribir una sola línea de código",
+      "fuente": "ComputerHoy",
+      "fecha": "01-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/gana-mas-200-000-euros-menos-3-horas-con-una-app-inutil-creada-con-ia-sin-escribir-una-sola-linea-codigo_7043609_0.html",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "Programador crea una \"cámara de tortura para la IA\" y consigue cazar un modelo de inteligencia artificial: \"Su testimonio de dolor es absolutamente horrendo\"",
+      "fuente": "ComputerHoy",
+      "fecha": "01-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/programador-crea-una-camara-tortura-para-ia-consigue-cazar-un-modelo-inteligencia-artificial-su-testimonio-dolor-es-absolutamente-horrendo_7043610_0.html",
+      "turno": "2026-10-02_M"
+    },
+    {
+      "titulo": "La IA encuentra un error en el kernel de Linux que otorgar acceso de superusuario que había pasado desapercibido para los revisores humanos",
+      "fuente": "ComputerHoy",
+      "fecha": "01-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/ia-encuentra-un-error-kernel-linux-que-otorgar-acceso-superusuario-que-habia-pasado-desapercibido-para-los-revisores-humanos_7043601_0.html",
+      "turno": "2026-10-02_M"
+    },
+    {
       "titulo": "Glow Security descubre más de 13.000 imágenes internas que agentes de IA subieron públicamente a GitHub",
       "fuente": "The Decoder",
       "fecha": "01-10-2026 15:19",
