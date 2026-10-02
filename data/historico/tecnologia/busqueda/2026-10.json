@@ -3,6 +3,237 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Epic, el gigante de los historiales médicos, frena el desarrollo de producto para corregir fallos de seguridad",
+      "fuente": "TechCrunch",
+      "fecha": "02-10-2026 15:23",
+      "enlace": "https://techcrunch.com/2026/10/02/medical-records-giant-epic-pauses-product-development-to-fix-security-bugs-that-risk-patients-data/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Fortinet alerta de un zero-day de FortiMail explotado activamente",
+      "fuente": "The Register",
+      "fecha": "02-10-2026 12:53",
+      "enlace": "https://www.theregister.com/security/2026/10/02/fortinet-sounds-the-alarm-over-actively-exploited-fortimail-zero-day/5300803",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Hackean la cuenta oficial de Microsoft en X para lanzar una estafa con criptomonedas de Clippy",
+      "fuente": "ADSLZone",
+      "fecha": "02-10-2026 14:13",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/microsoft-cuenta-hackeada-criptomoneda-clippy/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "El problema de contrabando de chips de Nvidia empeora",
+      "fuente": "Engadget",
+      "fecha": "02-10-2026 16:02",
+      "enlace": "https://www.engadget.com/2275633/nvidias-smuggling-problem-is-getting-worse/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Nvidia lanza un DGX Spark de 4.999 dólares con la mitad de RAM y almacenamiento por la crisis de memoria",
+      "fuente": "The Register",
+      "fecha": "02-10-2026 15:00",
+      "enlace": "https://www.theregister.com/systems/2026/10/02/nvidia-debuts-4999-dgx-spark-with-half-the-ram-and-storage-amid-memory-crunch/5300622",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "TSMC quiere repartir su apuesta estadounidense entre Arizona y Texas, y Europa se queda mirando",
+      "fuente": "Xataka",
+      "fecha": "02-10-2026 14:31",
+      "enlace": "https://www.xataka.com/empresas-y-economia/tsmc-quiere-repartir-su-apuesta-estadounidense-arizona-texas-europa-se-queda-mirando",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "La nueva protección USB de Android 17 frena el robo de datos, pero puede quitarte la carga rápida",
+      "fuente": "ADSLZone",
+      "fecha": "02-10-2026 12:10",
+      "enlace": "https://www.adslzone.net/noticias/moviles/android-17-proteccion-usb-carga-rapida-movil-bloqueado/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "California legaliza los paneles solares de balcón",
+      "fuente": "Engadget",
+      "fecha": "02-10-2026 11:39",
+      "enlace": "https://www.engadget.com/2275466/california-legalizes-balcony-plug-in-solar/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Home Assistant: «Las grandes tecnológicas arruinaron la nube, así que nos vamos»",
+      "fuente": "The Verge",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.theverge.com/tech/1003936/home-assistant-says-big-tech-ruined-the-cloud-so-were-out",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Excel Canvas se ofrece a convertir tu libro de cálculo en el próximo informe del jefe",
+      "fuente": "The Register",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.theregister.com/software/2026/10/02/excel-canvas-offers-to-turn-your-workbook-into-the-bosss-next-report/5300812",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Amazon dice que dejará de usar acuerdos de confidencialidad en sus centros de datos",
+      "fuente": "Wired",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.wired.com/story/amazon-says-it-is-going-to-stop-using-ndas-for-data-centers/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Tesla mantiene el impulso de ventas de coches eléctricos pese a los problemas en EE. UU.",
+      "fuente": "TechCrunch",
+      "fecha": "02-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/02/tesla-sustains-its-ev-sales-momentum-despite-us-troubles/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Rivian llama a revisión el R2 por baterías mal apretadas",
+      "fuente": "TechCrunch",
+      "fecha": "02-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/02/rivian-issues-r2-recall-for-poorly-tightened-battery-packs/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Tesla activa una función de salida de emergencia tras el tiroteo en un Supercharger",
+      "fuente": "Engadget",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.engadget.com/2275509/tesla-supercharger-emergency-drive-away-feature/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Detienen a tres personas y sospechan de un adolescente como líder del grupo de ransomware KillSec",
+      "fuente": "The Register",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/10/02/teen-suspected-of-running-killsec-ransomware-group-as-cops-seize-servers-arrest-three/5300784",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "TCL tiene razón al cuestionar cómo usa Samsung el término «Mini LED»",
+      "fuente": "Ars Technica",
+      "fecha": "02-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/tcl-is-right-to-question-samsungs-use-of-the-term-mini-led/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Nuevo México pide a Meta 40.000 millones de dólares en sanciones por Cambridge Analytica",
+      "fuente": "Engadget",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.engadget.com/2275451/new-mexico-meta-40-billion-penalties-cambridge-analytica-lawsuit/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "La Policía Metropolitana de Londres suspende un software de extracción de móviles por vínculos con Rusia",
+      "fuente": "The Register",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.theregister.com/software/2026/10/02/met-police-suspends-use-of-phone-hacking-software-over-russian-links/5300549",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "La Raspberry Pi 4 de 2 GB, antes de 35 dólares, cuesta ya 67,50",
+      "fuente": "The Register",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.theregister.com/personal-tech/2026/10/02/once-a-35-computer-the-2-gb-raspberry-pi-4-now-costs-6750/5300774",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Pi, el agente de programación, da un giro de 180 grados y añade soporte para MCP",
+      "fuente": "The Register",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/02/pi-coding-agent-pulls-a-180-and-adds-mcp-support/5300678",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "\"No tiene sentido un taller para 16 trenes. Somos los pequeños\": Ouigo reaviva la batalla con Renfe y rechaza nuevas inversiones",
+      "fuente": "Xataka",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.xataka.com/movilidad/no-tiene-sentido-taller-para-16-trenes-somos-pequenos-ouigo-reaviva-batalla-renfe-rechaza-nuevas-inversiones",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "El CEO de Telefónica, Emilio Gayo, presume de fibra y 5G: «No existen unas redes como estas a nivel europeo»",
+      "fuente": "ADSLZone",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/emilio-gayo-fibra-5g-espana-foro-toja/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "\"Es demasiado tarde\": la contundente advertencia del CEO de Ford sobre Europa y los coches eléctricos chinos",
+      "fuente": "ComputerHoy",
+      "fecha": "02-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/es-demasiado-tarde-contundente-advertencia-ceo-ford-sobre-europa-los-coches-electricos-chinos_7044020_0.html",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "España tiene hasta el 15 de noviembre para decidir si pulsa el \"botón nuclear\" del aceite y retener hasta el 20% de la cosecha",
+      "fuente": "Xataka",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/espana-tiene-15-noviembre-para-decidir-pulsa-boton-nuclear-aceite-retener-20-cosecha",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Rivales llega a Filmin: el drama de tenis y tensión sexual con Zendaya que ya puedes ver",
+      "fuente": "ADSLZone",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/rivales-pelicula-zendaya-filmin/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Tornyol, el minidron de 40 gramos con sonar que caza mosquitos por ti de forma autónoma sin necesidad de insecticidas",
+      "fuente": "ComputerHoy",
+      "fecha": "02-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/tornyol-minidron-40-gramos-con-sonar-que-caza-mosquitos-por-ti-forma-autonoma-sin-necesidad-insecticidas_7043602_0.html",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Han encontrado en una cueva de Asturias un hombre que murió hace 8.000 años. Está tan bien conservado que ya saben qué comía",
+      "fuente": "Xataka",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.xataka.com/magnet/han-encontrado-cueva-asturias-hombre-que-murio-hace-8-000-anos-esta-bien-conservado-que-saben-que-comia",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Si tienes una tele o un monitor LG, conviene conocer estas cuatro polémicas sobre tus datos y la publicidad",
+      "fuente": "ADSLZone",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/lg-polemicas-privacidad-televisores-monitores/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Windows 11 26H2 no cumple: beneficia a los equipos con mucha RAM y no tiene ningún impacto en los PC con 8 GB de memoria",
+      "fuente": "ComputerHoy",
+      "fecha": "02-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/windows-11-26h2-no-cumple-beneficia-los-equipos-con-mucha-ram-no-tiene-ningun-impacto-los-pc-con-8-gb-memoria_7044023_0.html",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Más presión energética: Bruselas insta a Europa a reducir el consumo de electricidad ante unas reservas inusualmente bajas para el invierno",
+      "fuente": "Xataka",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.xataka.com/energia/presion-energetica-bruselas-insta-a-europa-a-reducir-consumo-electricidad-unas-reservas-inusualmente-bajas-para-invierno",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Afirman haber hackeado el Hospital de Sant Pau de Barcelona: qué se sabe y qué riesgos hay para los pacientes",
+      "fuente": "ADSLZone",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/hackeo-hospital-sant-pau-barcelona-ransomware-the/",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "¿Por qué DIGI estuvo caído más de dos horas si la avería fue detectada en la red de Movistar?",
+      "fuente": "ComputerHoy",
+      "fecha": "02-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/por-que-digi-estuvo-caido-mas-dos-horas-si-averia-fue-detectada-red-movistar_7044025_0.html",
+      "turno": "2026-10-02_T"
+    },
+    {
+      "titulo": "Ya es oficial: estos son los nuevos auriculares Logitech que podrás reparar con recambios vendidos en España",
+      "fuente": "Xataka",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.xataka.com/seleccion/oficial-estos-nuevos-auriculares-logitech-que-podras-reparar-recambios-vendidos-espana",
+      "turno": "2026-10-02_T"
+    },
+    {
       "titulo": "Jensen Huang y otros CEO confrontan a Dario Amodei por sus mensajes extremos sobre seguridad en IA",
       "fuente": "Xataka",
       "fecha": "01-10-2026 18:31",
