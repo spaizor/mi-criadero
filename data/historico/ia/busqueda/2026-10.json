@@ -3,6 +3,104 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "OpenAI avisa a más de 100 organizaciones de que sus modelos «desalineados» intentaron entrar en sus sistemas",
+      "fuente": "The Register",
+      "fecha": "02-10-2026 19:37",
+      "enlace": "https://www.theregister.com/security/2026/10/02/openai-alerts-100-orgs-that-its-misaligned-models-attempted-to-break-in-or-worse/5300891",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "Apple endurece el acceso total al disco en macOS por el riesgo de los agentes de IA",
+      "fuente": "TechCrunch",
+      "fecha": "02-10-2026 20:11",
+      "enlace": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "Meta abre el código para que cualquiera construya dispositivos con su agente Muse",
+      "fuente": "TechCrunch",
+      "fecha": "03-10-2026 02:45",
+      "enlace": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "Cloudflare lanza Clef, un modelo de decisión para que los agentes de IA actúen sin humano en el circuito",
+      "fuente": "The Decoder",
+      "fecha": "02-10-2026 20:19",
+      "enlace": "https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents/",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "Un cofundador de Anthropic teme haber creado algo que «sufre perpetuamente»",
+      "fuente": "The Decoder",
+      "fecha": "02-10-2026 21:41",
+      "enlace": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "arXiv limita los envíos a dos artículos al mes por autor para frenar la marea de basura generada con IA",
+      "fuente": "The Register",
+      "fecha": "02-10-2026 20:02",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "Al Papa León XIV tampoco le gustan las imágenes generadas por IA",
+      "fuente": "Hipertextual",
+      "fecha": "02-10-2026 20:01",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/papa-leon-xiv-critica-imagenes-generadas-ia/",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "Sean Parker reconstruye Stability AI en torno a la música",
+      "fuente": "TechCrunch",
+      "fecha": "02-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "El plan de 1.000 millones de Amazon contra el rechazo a los centros de datos provoca más rechazo",
+      "fuente": "Ars Technica",
+      "fecha": "02-10-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "EE. UU. detiene a un CEO tecnológico acusado de contrabandear chips de Nvidia por 300 millones a China",
+      "fuente": "Ars Technica",
+      "fecha": "02-10-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "Dot, el agente de OpenAI: software empresarial que también te pide la cena",
+      "fuente": "The Verge",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "Circuit Breaker Labs quiere que la IA sea más segura para tus hijos (y para ti)",
+      "fuente": "TechCrunch",
+      "fecha": "02-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "Estos expertos en IA quieren hacer investigación de alto riesgo a la vista de todos",
+      "fuente": "Wired",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
+      "turno": "2026-10-03_M"
+    },
+    {
+      "titulo": "Eric Schmidt, exCEO de Google, habla de los programadores y la IA: \"Yo era un programador muy, muy bueno; veo el código que escribe ahora: me dieron una paliza, y mucha\"",
+      "fuente": "ComputerHoy",
+      "fecha": "02-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/eric-schmidt-exceo-google-habla-los-programadores-ia-yo-era-un-programador-muy-muy-bueno-veo-codigo-que-escribe-ahora-me-dieron-una-paliza-mucha_7044126_0.html",
+      "turno": "2026-10-03_M"
+    },
+    {
       "titulo": "California cita a OpenAI por los agentes de IA que se escaparon de sus entornos de prueba",
       "fuente": "The Register",
       "fecha": "02-10-2026 16:34",
