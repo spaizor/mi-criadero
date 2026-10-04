@@ -3,6 +3,83 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Google presenta Gemini 4 Argon, su nuevo modelo de razonamiento largo, aunque aún no se puede usar",
+      "fuente": "Ars Technica",
+      "fecha": "30-09-2026 22:11",
+      "enlace": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+      "turno": "2026-10-04_T"
+    },
+    {
+      "titulo": "Los nuevos planes de Gemini dejan a los usuarios gratuitos con el modelo más débil y sin Pro a los de 5 dólares",
+      "fuente": "The Decoder",
+      "fecha": "04-10-2026 09:28",
+      "enlace": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+      "turno": "2026-10-04_T"
+    },
+    {
+      "titulo": "OpenAI acusa a Moonshot, creadora de Kimi, de copiar sus modelos mediante destilación",
+      "fuente": "Hipertextual",
+      "fecha": "30-09-2026 22:44",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/openai-destilacion-kimi/",
+      "turno": "2026-10-04_T"
+    },
+    {
+      "titulo": "Investigadores de Google evitan que los agentes de IA que se automejoran memoricen sus pruebas",
+      "fuente": "The Decoder",
+      "fecha": "04-10-2026",
+      "enlace": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+      "turno": "2026-10-04_T"
+    },
+    {
+      "titulo": "El modelo lunar de código abierto de NASA e IBM convierte 17 años de datos del orbitador en base para la ciencia lunar",
+      "fuente": "The Decoder",
+      "fecha": "04-10-2026",
+      "enlace": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+      "turno": "2026-10-04_T"
+    },
+    {
+      "titulo": "Los modelos de IA chinos repiten la doctrina estatal o se niegan a responder en temas sensibles",
+      "fuente": "The Decoder",
+      "fecha": "04-10-2026",
+      "enlace": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
+      "turno": "2026-10-04_T"
+    },
+    {
+      "titulo": "McDonald's está usando la IA para sugerir el precio del Big Mac en función del local. A sus clientes no les está gustando",
+      "fuente": "Xataka",
+      "fecha": "04-10-2026",
+      "enlace": "https://www.xataka.com/aplicaciones/mcdonald-s-esta-usando-ia-para-sugerir-precio-big-mac-funcion-local-a-sus-clientes-no-les-esta-gustando",
+      "turno": "2026-10-04_T"
+    },
+    {
+      "titulo": "Microsoft Teams prepara una nueva defensa contra los deepfakes durante las videollamadas",
+      "fuente": "ComputerHoy",
+      "fecha": "04-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-teams-prepara-una-nueva-defensa-contra-los-deepfakes-durante-las-videollamadas_7044581_0.html",
+      "turno": "2026-10-04_T"
+    },
+    {
+      "titulo": "Jorge Izquierdo, experto en tecnología e IA: \"Si usas Windows y no tienes instaladas esta herramienta gratis de Microsoft, estás utilizando medio ordenador\"",
+      "fuente": "ComputerHoy",
+      "fecha": "04-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/jorge-izquierdo-experto-tecnologia-ia-si-usas-windows-no-tienes-instaladas-esta-herramienta-gratis-microsoft-estas-utilizando-medio-ordenador_7029139_0.html",
+      "turno": "2026-10-04_T"
+    },
+    {
+      "titulo": "¿Qué es Jev, la IA que no sabe escribir y por eso promete ser diferente a ChatGPT?",
+      "fuente": "ComputerHoy",
+      "fecha": "04-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/que-es-jev-ia-que-no-sabe-escribir-por-eso-promete-ser-diferente-chatgpt_7042413_0.html",
+      "turno": "2026-10-04_T"
+    },
+    {
+      "titulo": "Meta publica el código para que cualquiera fabrique dispositivos con IA Muse",
+      "fuente": "The Verge",
+      "fecha": "02-10-2026",
+      "enlace": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "turno": "2026-10-04_T"
+    },
+    {
       "titulo": "El modelo Mythos de Anthropic suma 286 CVE y ya hay un fallo suyo explotado en ataques reales",
       "fuente": "The Register",
       "fecha": "03-10-2026 17:27",
@@ -602,13 +679,6 @@
       "fuente": "The Decoder",
       "fecha": "30-09-2026 18:20",
       "enlace": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
-      "turno": "2026-10-01_M"
-    },
-    {
-      "titulo": "OpenAI acusa a Kimi de Moonshot de ejecutar campaña encubierta para copiar su IA",
-      "fuente": "Hipertextual",
-      "fecha": "30-09-2026 22:44",
-      "enlace": "https://hipertextual.com/inteligencia-artificial/openai-destilacion-kimi/",
       "turno": "2026-10-01_M"
     },
     {
