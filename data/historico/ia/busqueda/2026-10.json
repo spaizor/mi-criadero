@@ -3,6 +3,153 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "OpenAI marcará con una señal invisible los textos de ChatGPT en la UE, pero los usuarios de API podrán desactivarla en todo el mundo",
+      "fuente": "The Decoder",
+      "fecha": "05-10-2026 19:32",
+      "enlace": "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "Meta y Microsoft reducen su uso de Claude mientras Anthropic pasa de socio a competidor",
+      "fuente": "The Decoder",
+      "fecha": "05-10-2026 20:59",
+      "enlace": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "Reflection presenta Beam, un modelo abierto para rivalizar con los chinos con menos cómputo",
+      "fuente": "TechCrunch",
+      "fecha": "05-10-2026 21:33",
+      "enlace": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "El protocolo MCP entre agentes de IA, un riesgo estructural: fallos en agentes de Google y otros",
+      "fuente": "Ars Technica",
+      "fecha": "06-10-2026 00:26",
+      "enlace": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "Sony pide retirar más de 260.000 canciones creadas con IA que suplantaban a sus artistas",
+      "fuente": "Xataka",
+      "fecha": "05-10-2026 21:32",
+      "enlace": "https://www.xataka.com/robotica-e-ia/sony-pierde-paciencia-canciones-creadas-ia-pide-retirar-260-000-pistas",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "Wikimedia atribuye a agentes «rebeldes» de OpenAI ediciones, intentos de ataque y millones de peticiones",
+      "fuente": "The Verge",
+      "fecha": "05-10-2026 21:05",
+      "enlace": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "El culebrón de la IA que se apodera de las matemáticas: OpenAI, entre logros y anuncios torpes",
+      "fuente": "The Verge",
+      "fecha": "05-10-2026 21:28",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "Gemini «Llamar por mí» podría avisar a tu madre de que llegas tarde",
+      "fuente": "The Verge",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "Este truco borra Apple Intelligence de tu Mac y te devuelve 12 GB al instante",
+      "fuente": "Hipertextual",
+      "fecha": "06-10-2026",
+      "enlace": "https://hipertextual.com/apple/removemacai-elimina-apple-intelligence-libera-12gb-mac/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "Esta startup receta tratamientos para el acné generados por IA",
+      "fuente": "The Verge",
+      "fecha": "05-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "Instinct lleva su agente de IA a los chats de grupo, incluso para amigos sin cuenta",
+      "fuente": "TechCrunch",
+      "fecha": "05-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "TikTok lanza un asistente de compras con IA y pago en un clic",
+      "fuente": "TechCrunch",
+      "fecha": "05-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "Reka AI presenta Rho-1, un modelo único para texto, imagen, vídeo y control de robots",
+      "fuente": "The Decoder",
+      "fecha": "05-10-2026",
+      "enlace": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "El entrevistador de IA de HackerRank anticipa cómo podrían ser las entrevistas de trabajo",
+      "fuente": "TechCrunch",
+      "fecha": "05-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "La mayoría de estadounidenses quiere frenar o detener el desarrollo de la IA, según una encuesta",
+      "fuente": "The Decoder",
+      "fecha": "05-10-2026",
+      "enlace": "https://the-decoder.com/most-americans-want-ai-development-to-slow-down-or-stop-entirely-new-poll-finds/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "Volantis, respaldada por Altman, plantea integrar fotónica en aceleradores de IA para saltar el muro de la memoria",
+      "fuente": "The Register",
+      "fecha": "05-10-2026",
+      "enlace": "https://www.theregister.com/systems/2026/10/05/altman-backed-volantis-reveals-plan-to-vault-the-memory-wall-by-baking-photonics-into-ai-accelerators/5300959",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "Anthropic se convierte discretamente en el mayor donante corporativo de EE. UU. antes de su salida a bolsa",
+      "fuente": "The Decoder",
+      "fecha": "05-10-2026",
+      "enlace": "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "OpenAI llevará los anuncios un paso más allá en ChatGPT: empezará a probarlos mientras generamos imágenes",
+      "fuente": "Xataka",
+      "fecha": "05-10-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/openai-llevara-anuncios-paso-alla-chatgpt-empezara-a-probarlos-generamos-imagenes",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "ChatGPT mostrará anuncios cada que generes una imagen",
+      "fuente": "Hipertextual",
+      "fecha": "05-10-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/chatgpt-anuncios-imagenes-generadas-openai/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "ChatGPT empezará a marcar sus textos con una señal invisible en España y otros países",
+      "fuente": "Hipertextual",
+      "fecha": "05-10-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/openai-marca-agua-textos-chatgpt-europa/",
+      "turno": "2026-10-06_M"
+    },
+    {
+      "titulo": "Google ya no te pagará por hallar vulnerabilidades en su código abierto, y todo por la IA",
+      "fuente": "Hipertextual",
+      "fecha": "05-10-2026",
+      "enlace": "https://hipertextual.com/seguridad/google-suspende-sus-recompensas-por-hallar-bugs-en-su-codigo-abierto/",
+      "turno": "2026-10-06_M"
+    },
+    {
       "titulo": "Anthropic advierte de que su salida a bolsa podría marcar el fin del mundo tal como lo conocemos",
       "fuente": "The Register",
       "fecha": "05-10-2026 14:27",
