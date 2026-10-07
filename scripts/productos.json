@@ -347,6 +347,28 @@
       ]
     },
     {
+      "id": "octopath-traveler-2-switch-2",
+      "nombre": "Octopath Traveler II",
+      "plataforma": "Nintendo Switch 2",
+      "objetivo": 25,
+      "tiendas": [
+        {
+          "tienda": "MediaMarkt",
+          "url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-octopath-traveler-ii-game-key-card-1670672.html",
+          "navegador": true
+        },
+        {
+          "tienda": "GAME",
+          "url": "https://www.game.es/octopath-traveler-ii-nintendo-switch-2-264934"
+        },
+        {
+          "tienda": "Xtralife",
+          "url": "https://www.xtralife.com/producto/octopath-traveler-ii-switch-2-edicion-estandar/112384",
+          "navegador": true
+        }
+      ]
+    },
+    {
       "id": "luigis-mansion-3-switch",
       "nombre": "Luigi's Mansion 3",
       "plataforma": "Nintendo Switch",
