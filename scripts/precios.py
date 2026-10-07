@@ -901,6 +901,13 @@ HORAS_PASADA_UTC = [(4, 10), (12, 10)]
 # disparado a su hora. La mediana de retraso son 36 min por la manana y 56 por
 # la tarde, y el maximo en regimen normal fueron 62. Con 2 horas ni el peor dia
 # normal da aviso, y aun asi se caza el fallo el mismo dia en que ocurre.
+#
+# Esto es lo que usa 'noticias.py vigilar', y NO hay que subirlo: con 2 horas,
+# a las 9:38 ve pendiente la pasada de las 6:10 y la lanza con su push, que es
+# quien hace la pasada de la manana desde septiembre. Con mas margen a esa hora
+# exigiria la de la tarde anterior y dejaria de lanzarla. Al que le sobraba
+# aviso era a vigilancia.yml, que manda correo, y el margen mas ancho va alli
+# con '--margen' (ver docs/vigilancia.md).
 MARGEN_PASADA = 2
 
 

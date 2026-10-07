@@ -79,7 +79,8 @@ de ayer.
   medido, no elegido: sobre los 31 runs programados del 10 al 27-08-2026, la
   mediana de retraso son 36 min por la manana y 56 por la tarde, con 62 de
   maximo en regimen normal. Con 2 horas ni el peor dia normal avisa, y el fallo
-  se sigue cazando el mismo dia.
+  se sigue cazando el mismo dia. **En `vigilancia.yml` ya no son 2 sino 5**,
+  con `--margen 5`: ver "Medido el 07-10-2026" mas abajo.
 - **El mismo calculo hace de guardia en `precios.yml`**, con `--margen 0`: ahi
   la pregunta pasa de "hay que avisar de que falta" a "hay que hacerla". Que sea
   la misma funcion es lo que impide que las dos ideas de "pasada pendiente" se
@@ -136,6 +137,46 @@ y el guardia los despacha en segundos. No es una averia ni hay que adelantar
 los cron para compensar. Lo que si hay que saber es que un disparo diario es lo
 normal, y que por eso "otro disparo hoy" no puede leerse como "el de ayer no
 sirvio", ver la banda que decia lo contrario, mas abajo.
+
+**Medido el 07-10-2026: el margen de 2 horas daba correos de pasadas que
+llegaban solas.** Ese dia `vigilancia.yml` salio en rojo porque la pasada de
+las 14:10 llego 2 h 34 min tarde, y la vigilancia, que tenia que correr a las
+9:15, la lanzo GitHub a las 16:27 y cayo justo en ese hueco. Diecinueve
+minutos despues los precios estaban publicados. Cruzando la hora de cada run
+programado de la vigilancia desde el 29-08 (80) con la hora a la que llego
+cada pasada:
+
+| Margen | Correos de precios | Cuales |
+|---|---|---|
+| 2 h | 4 | 31-08, 28-09, 01-10, 07-10 |
+| 3 h | 1 | 28-09 (la pasada llego a las 3 h 48 min) |
+| 4, 5 o 6 h | 0 | |
+
+Los cuatro coinciden con los runs que de verdad salieron en rojo, y en los
+cuatro la pasada llego sin que nadie hiciera nada. Los demas rojos del periodo
+(6 al 12-09, 23 y 24-09) son de turnos de noticias y el margen no los toca.
+
+Las pasadas que llegan, por su lado: la de la tarde, hasta 3 h 48 min; la de la
+manana, a las 3 h 30 min casi siempre (la lanza `vigilar`) y hasta 5 h 08 min
+la semana del 07-09, en que no la lanzo. Y la propia vigilancia corre con 4,6 h
+de retraso de mediana (8,7 de maximo).
+
+Por eso **`vigilancia.yml` usa `--margen 5`**: cero correos sobre lo medido,
+cubre todas las llegadas menos la del 07-09 (por ocho minutos, y ese dia la
+vigilancia corrio despues) y es el mismo margen que `steam.py` le da al mismo
+retraso de GitHub. Lo que cuesta es casi nada: con la vigilancia saliendo
+horas tarde, una pasada perdida de verdad se ve en la misma ejecucion que con 2.
+
+**`MARGEN_PASADA` sigue en 2, y no es un descuido.** Es el que usa `vigilar`,
+y ahi el margen no decide un correo sino si se lanza la pasada: a las 9:38, con
+2 horas exige la de las 6:10 y la lanza; con 5 exigiria la de la tarde anterior,
+que esta hecha, y la pasada de la manana se quedaria esperando a unos cron que
+llegan a mediodia.
+
+Lo que esto no quita es el correo de un run de `Precios` que GitHub cancela
+sin darle maquina, como el del 05-10-2026 (cancelado a los 15 minutos, sin
+runner y sin log). Es un fallo de GitHub, no del script, y una repesca: la
+pasada de ese tramo ya estaba hecha.
 
 ## `noticias.py vigilar`: el vigilante que no vive en GitHub
 

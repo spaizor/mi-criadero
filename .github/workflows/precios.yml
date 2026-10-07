@@ -97,7 +97,7 @@ jobs:
           python-version: "3.13"
 
       # El guardia de las repescas. Es el mismo calculo que usa el vigilante
-      # ('frescura' sin --margen), y por eso no pueden desincronizarse: con
+      # ('frescura' con su margen), y por eso no pueden desincronizarse: con
       # --margen 0 la pregunta pasa de "hay que avisar de que falta" a "hay que
       # hacerla". Lanzarlo a mano desde Actions siempre trabaja, que es para lo
       # que esta el boton.
