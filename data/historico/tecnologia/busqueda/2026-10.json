@@ -3,6 +3,237 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Apple y LG preparan juntas timbre, cerradura y termostato para el hogar inteligente",
+      "fuente": "The Verge",
+      "fecha": "06-10-2026 23:39",
+      "enlace": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Hackers secuestran tres dominios nacionales para conseguir certificados TLS falsos de Google y otras grandes marcas",
+      "fuente": "Ars Technica",
+      "fecha": "06-10-2026 21:21",
+      "enlace": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Xbox consigue los derechos exclusivos de streaming de GTA 6",
+      "fuente": "The Verge",
+      "fecha": "07-10-2026 00:12",
+      "enlace": "https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "HBO Max, Paramount+ y Discovery+ se unificarán en un único servicio",
+      "fuente": "Ars Technica",
+      "fecha": "06-10-2026 22:32",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/hbo-max-paramount-and-discovery-will-unify-into-a-single-service/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Google se alía con Constellation para potenciar reactores nucleares",
+      "fuente": "The Register",
+      "fecha": "07-10-2026 01:08",
+      "enlace": "https://www.theregister.com/systems/2026/10/07/google-teams-with-nuclear-power-giant-to-give-reactors-a-tune-up/5301498",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Una actualización de Windows 11 deja injugables títulos como Fallout: New Vegas",
+      "fuente": "ComputerHoy",
+      "fecha": "06-10-2026 21:49",
+      "enlace": "https://computerhoy.20minutos.es/software/ultima-actualizacion-windows-11-contiene-un-error-muy-grave-que-impide-jugar-todavia-no-han-encontrado-solucion_7045559_0.html",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Filtrados los datos de clientes de Trump Mobile, y algunos nunca recibieron su móvil dorado",
+      "fuente": "The Register",
+      "fecha": "06-10-2026 19:32",
+      "enlace": "https://www.theregister.com/security/2026/10/06/trump-mobile-customers-data-dumped-and-some-never-even-received-their-gold-device/5301433",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Xbox prepara «algo más grande que una consola»: Project Helix será una familia de dispositivos",
+      "fuente": "Hipertextual",
+      "fecha": "06-10-2026 22:12",
+      "enlace": "https://hipertextual.com/videojuegos/xbox-project-helix-familia-consolas-proxima-generacion/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Jaguar presenta por fin su mayor apuesta: el Type 01",
+      "fuente": "Wired",
+      "fecha": "07-10-2026",
+      "enlace": "https://www.wired.com/story/jaguar-finally-reveals-its-biggest-gamble-the-type-01/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "MapQuest ya se puede usar con Android Auto",
+      "fuente": "Engadget",
+      "fecha": "07-10-2026",
+      "enlace": "https://www.engadget.com/2277445/use-mapquest-with-android-auto/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Apple y LG están por lanzar una oleada de dispositivos para el hogar inteligente",
+      "fuente": "Hipertextual",
+      "fecha": "07-10-2026",
+      "enlace": "https://hipertextual.com/apple/apple-lg-timbres-cerraduras-camaras-inteligentes/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Sony ya trabaja en una nueva portátil, pero no te emociones todavía",
+      "fuente": "Hipertextual",
+      "fecha": "07-10-2026",
+      "enlace": "https://hipertextual.com/videojuegos/playstation-portal-oled-filtracion-nuevos-modelos-sony/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Se filtran dos productos misteriosos de PlayStation: uno podría ser una PlayStation Portal OLED",
+      "fuente": "The Verge",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.theverge.com/games/1006092/playstation-portal-oled-wi-fi-alliance-certifications",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "El Tesla Model 3 y el Model Y pueden servir de batería de respaldo para tu casa",
+      "fuente": "The Verge",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.theverge.com/transportation/1006193/tesla-model-3-model-y-powershare-home-backup",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Los drones hunden barcos cerca de países de la OTAN en ataques «inaceptables», dice la UE",
+      "fuente": "Ars Technica",
+      "fecha": "06-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Amazon inutiliza la capacidad de Alexa para controlar la entrada AUX de los altavoces Echo",
+      "fuente": "Ars Technica",
+      "fecha": "06-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/amazon-bricks-alexas-ability-to-control-echo-speakers-aux-input/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Las funciones «Better Together» de los Googlebook no funcionan con Samsung en el lanzamiento",
+      "fuente": "Ars Technica",
+      "fecha": "06-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/googlebook-better-together-phone-features-dont-work-with-samsung-at-launch/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Furientis recibe 25 millones de Benchmark para producir en masa interceptores de misiles baratos",
+      "fuente": "TechCrunch",
+      "fecha": "06-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/06/furientis-lands-25m-from-benchmark-to-mass-produce-low-cost-missile-interceptors/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Doom en la Vectrex convierte el clásico en arte vectorial al estilo Tron",
+      "fuente": "Engadget",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.engadget.com/2279239/doom-on-the-vectrex-turns-the-classic-shooter-into-tron-like-vector-art/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Microsoft amplía la lista negra de Outlook con dos tipos de archivo más",
+      "fuente": "The Register",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.theregister.com/software/2026/10/06/microsoft-extends-the-outlook-naughty-step-with-two-more-file-types/5301350",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Bluesky quiere darte tu propio dominio en la web abierta",
+      "fuente": "TechCrunch",
+      "fecha": "06-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/06/bluesky-wants-to-give-you-your-own-domain-on-the-open-web/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Los Emmy pasarán de la televisión en abierto a Prime Video en 2027",
+      "fuente": "TechCrunch",
+      "fecha": "06-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/06/emmys-will-move-from-broadcast-tv-to-prime-video-in-2027/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Northrop Grumman quiere un compañero para los F-35 y F-22 que no lleve piloto: Talon Blue ya ha realizado su primer vuelo",
+      "fuente": "Xataka",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.xataka.com/magnet/northrop-grumman-quiere-companero-para-f-35-f-22-que-no-lleve-piloto-talon-blue-ha-realizado-su-primer-vuelo",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Movistar Plus estrena en noviembre un thriller de ciencia ficción que llegó a los cines en 2026",
+      "fuente": "ADSLZone",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/zona-3-pelicula-movistar-plus-noviembre/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Marta Barrio, experta en ciberseguridad y hacking: \"Esta librería de Python acaba de infectar a miles de programadores en todo el mundo\"",
+      "fuente": "ComputerHoy",
+      "fecha": "06-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/marta-barrio-experta-ciberseguridad-hacking-esta-libreria-python-acaba-infectar-miles-programadores-todo-mundo_7045457_0.html",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Volkswagen también tiene una correa húmeda parecida a la del PureTech de Stellantis, pero con una gran diferencia",
+      "fuente": "Xataka",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.xataka.com/movilidad/volkswagen-tambien-tiene-correa-humeda-parecida-a-puretech-stellantis-gran-diferencia",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Pagas poco por la fibra de 500 Mbps en Digi y lo mejor es que tienes más velocidad sin darte cuenta",
+      "fuente": "ADSLZone",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/pagas-fibra-de-500-mbps-digi-velocidad-real/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Ciberdelincuentes utilizan a Clippy, la mascota más odiada de la historia, para llevar a cabo una estafa",
+      "fuente": "ComputerHoy",
+      "fecha": "06-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/ciberdelincuentes-utilizan-clippy-mascota-mas-odiada-historia-para-llevar-cabo-una-estafa_7045561_0.html",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "El mercado del petróleo necesitará hasta dos años para recuperar sus reservas aunque Ormuz reabra hoy mismo",
+      "fuente": "Xataka",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.xataka.com/energia/mercado-petroleo-necesitara-dos-anos-para-recuperar-sus-reservas-ormuz-reabra-hoy",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Exjefe de PlayStation Studios, contra la muerte de los juegos en disco: “Si no eres dueño del juego, ¿qué estás comprando?”",
+      "fuente": "Hipertextual",
+      "fecha": "06-10-2026",
+      "enlace": "https://hipertextual.com/videojuegos/shawn-layden-playstation-studios-desacuerdo-fin-juegos-en-disco/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Ikea ya tiene sustituto en Cáceres: la nueva tienda que ocupará su lugar y espera atraer nuevos clientes",
+      "fuente": "ADSLZone",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/ikea-sustituto-centro-comercial-ruta-plata-caceres/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Tres pueblos de Aragón candidatos a recibir cifras millonarias simplemente para que los vecinos opinen bien de Amazon",
+      "fuente": "ComputerHoy",
+      "fecha": "06-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/tres-pueblos-aragon-candidatos-recibir-cifras-millonarias-simplemente-para-que-los-vecinos-opinen-bien-amazon_7045464_0.html",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Oliver Blume, CEO de Volkswagen: \"Es el momento de fijar el rumbo correcto sobre el CO₂ y el comercio con China\"",
+      "fuente": "Xataka",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.xataka.com/movilidad/oliver-blume-ceo-volkswagen-momento-fijar-rumbo-correcto-co2-comercio-china",
+      "turno": "2026-10-07_M"
+    },
+    {
       "titulo": "Atlassian avisa de un fallo crítico de acceso a archivos en sus productos Data Center",
       "fuente": "The Register",
       "fecha": "06-10-2026 06:20",
