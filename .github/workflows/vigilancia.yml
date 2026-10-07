@@ -74,9 +74,18 @@ jobs:
       #
       # Con 'always()' por lo mismo que el paso anterior: si fallan dos cosas
       # interesa verlas en el mismo correo.
+      #
+      # Con '--margen 5' y no las 2 horas de MARGEN_PASADA, que siguen siendo
+      # las de 'noticias.py vigilar'. Medido el 07-10-2026 sobre los 80 runs de
+      # este workflow desde el 29-08: con 2 horas salieron 4 correos (31-08,
+      # 28-09, 01-10 y 07-10), los cuatro por una pasada que llego sola entre
+      # 2,3 y 3,8 horas tarde. Con 4 ya no sale ninguno, y 5 es lo que perdona
+      # steam.py por el mismo retraso de GitHub. Lo que se pierde es poco: este
+      # workflow corre ya con 4,6 horas de retraso de mediana, asi que una
+      # pasada perdida de verdad se ve en la misma ejecucion que antes.
       - name: Frescura de los precios
         if: always()
-        run: python3 scripts/precios.py frescura
+        run: python3 scripts/precios.py frescura --margen 5
 
       # Lo mismo para la seccion de Steam, que tiene su propio workflow y por
       # tanto su propio cron que puede no disparar. Va aparte y no dentro del
