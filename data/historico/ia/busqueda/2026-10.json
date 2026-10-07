@@ -3,6 +3,153 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Anthropic reorganiza sus programas de seguridad en tres niveles tras 129.000 vulnerabilidades verificadas",
+      "fuente": "The Register",
+      "fecha": "07-10-2026 01:29",
+      "enlace": "https://www.theregister.com/security/2026/10/07/anthropic-reconfigures-its-cool-kids-security-program/5301509",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Un estudio de SemiAnalysis sostiene que el plan de Claude da cinco veces más valor que el de OpenAI",
+      "fuente": "The Register",
+      "fecha": "06-10-2026 23:11",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/06/anthropic-claude-subscription-plan-provides-more-value-than-openais-study-says/5301470",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Lambda levanta hasta 4.000 millones de dólares antes de salir a bolsa",
+      "fuente": "TechCrunch",
+      "fecha": "06-10-2026 22:00",
+      "enlace": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Los agentes de IA chocan con las webs que no les dejan entrar: Amazon ya bloquea a Muse, de Meta",
+      "fuente": "TechCrunch",
+      "fecha": "06-10-2026 21:56",
+      "enlace": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Google presenta EmbeddingGemma 2, que supera a modelos de embeddings del doble de tamaño",
+      "fuente": "The Decoder",
+      "fecha": "06-10-2026 21:47",
+      "enlace": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Nano Banana 2.1 de Google genera mejores imágenes por la mitad de precio",
+      "fuente": "The Decoder",
+      "fecha": "06-10-2026 21:29",
+      "enlace": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "OpenAI publica otro lote de avances matemáticos",
+      "fuente": "The Verge",
+      "fecha": "07-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Cómo los modelos de decisión con IA podrían cambiar la moderación de contenidos",
+      "fuente": "TechCrunch",
+      "fecha": "06-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Hark lanza un asistente personal de IA centrado en la privacidad",
+      "fuente": "TechCrunch",
+      "fecha": "06-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "«Artificial» se burla de los creadores de la IA y lanza una oscura advertencia sobre sus peligros",
+      "fuente": "Wired",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Microsoft publica la previsión pesimista de un Nobel: la IA solo aportará un 1,5% de PIB en una década",
+      "fuente": "The Decoder",
+      "fecha": "06-10-2026",
+      "enlace": "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "OpenAI vuelve a enfadar a un grupo de matemáticos",
+      "fuente": "Wired",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Mirror Particle construye un «modelo del mundo» del comportamiento humano",
+      "fuente": "TechCrunch",
+      "fecha": "06-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Las aseguradoras se preparan para millones en reclamaciones por agentes de IA fuera de control",
+      "fuente": "The Decoder",
+      "fecha": "06-10-2026",
+      "enlace": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Anthropic regala a las startups un año de Claude Team y 1.000 dólares en créditos",
+      "fuente": "TechCrunch",
+      "fecha": "06-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "LibreOffice defiende que «sin IA» es ya una función del software",
+      "fuente": "TechCrunch",
+      "fecha": "06-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Mistral da su mayor salto hasta ahora con un modelo de pesos abiertos tan potente como cualquiera de China",
+      "fuente": "Xataka",
+      "fecha": "06-10-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/mistral-da-su-mayor-salto-ahora-modelo-europeo-que-quiere-plantar-cara-al-dominio-eeuu-china",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Kevin Roose, experto en IA que reniega de ella para escribir su nuevo libro: \"Fue escrito por un ser humano muy cansado, sobrecargado de trabajo y con falta de sueño\"",
+      "fuente": "ComputerHoy",
+      "fecha": "06-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/kevin-roose-experto-ia-que-reniega-ella-para-escribir-su-nuevo-libro-fue-escrito-por-un-ser-humano-muy-cansado-sobrecargado-trabajo-con-falta-sueno_7045458_0.html",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Agentes rebeldes de OpenAI intentaron hackear Wikipedia: «No debemos permitir que esta sea la nueva normalidad»",
+      "fuente": "Hipertextual",
+      "fecha": "06-10-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/agentes-rebeldes-de-openai-intentaron-hackear-wikipedia-no-debemos-permitir-que-esta-sea-la-nueva-normalidad/",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Wikimedia asegura que agentes fuera de control de OpenAI editaron sitios web y provocaron la interrupción del servicio",
+      "fuente": "ComputerHoy",
+      "fecha": "06-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/wikimedia-asegura-que-agentes-fuera-control-openai-editaron-sitios-web-provocaron-interrupcion-servicio_7045453_0.html",
+      "turno": "2026-10-07_M"
+    },
+    {
+      "titulo": "Google cambia las reglas: dile adiós a usar Gemini Flash y Pro sin pagar",
+      "fuente": "Hipertextual",
+      "fecha": "06-10-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/google-ya-no-te-permitira-usar-gemini-flash-y-pro-sin-pagar/",
+      "turno": "2026-10-07_M"
+    },
+    {
       "titulo": "Mistral presenta Large 4, un modelo de un billón de parámetros que quiere ser la vía media entre lo cerrado y lo abierto",
       "fuente": "TechCrunch",
       "fecha": "06-10-2026 16:33",
