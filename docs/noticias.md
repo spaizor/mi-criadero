@@ -227,6 +227,12 @@ da SIGUE en IA y TERMINA en Nintendo, que es lo que tenia que pasar.
 | Noticias IA | `0 3,4,15,16 * * *` |
 | Noticias Geopolitica | `30 3,4 * * *` |
 
+El prompt y el cron viven en https://claude.ai/code/routines, no en el repo, y
+**una sesion de Claude en la nube no puede editarlos**: esas rutinas se crearon
+por la API y no las creo un agente, asi que `update_trigger` se niega (probado
+el 08-10-2026). Se cambian a mano en la web o con `/schedule update` desde el
+CLI, que es ademas lo unico que admite un cron a medida.
+
 Cuatro decisiones:
 
 - **En la misma rutina, no en una aparte.** Una rutina de repesca que lanzara a
