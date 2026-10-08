@@ -155,6 +155,7 @@ python3 scripts/noticias.py indexar    <seccion>   rehace el indice del buscador
 python3 scripts/noticias.py comprobar              secciones dadas de alta enteras
 python3 scripts/noticias.py publicar   "<mensaje>" commit de data/ y push
 python3 scripts/noticias.py estado                 que turnos faltan por publicar
+python3 scripts/noticias.py hecho      <seccion>   si el turno de ahora ya salio (paso 0)
 python3 scripts/noticias.py vigilar                las tres comprobaciones, desde la rutina
 
 python3 scripts/precios.py  consultar | probar | frescura | tiendas | sembrar | lanzar
@@ -187,6 +188,10 @@ rutina de vigilancia solo lanza `noticias.py vigilar`.
 
 - `publicar` hace `git add` solo de `data/`, exige copia archivada y empuja con
   `git push origin HEAD:main` (no `origin main`: HEAD puede estar desacoplado).
+- Cada rutina de noticias se dispara **dos veces por turno**, la segunda una
+  hora despues, y su prompt empieza por `hecho <seccion>` (PASO 0): la segunda
+  es la repesca y acaba ahi si el turno ya salio. Una rutina nueva necesita
+  las dos cosas.
 - Los titulares de medios `"idioma": "es"` se publican **tal cual el feed**; no
   pasan por el modelo.
 - Los limites de reparto (`MIN_TITULARES`, `CUPOS`, tope por medio) de

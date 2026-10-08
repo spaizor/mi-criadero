@@ -11,6 +11,7 @@ del prompt se paga en cada ejecucion, y ademas puede olvidarse. Un script no.
     python3 scripts/noticias.py archivar   <seccion>
     python3 scripts/noticias.py publicar   "mensaje de commit"
     python3 scripts/noticias.py estado     [--dias N] [--local]
+    python3 scripts/noticias.py hecho      <seccion>
 
 Solo biblioteca estandar: las rutinas corren en un entorno que no controlamos.
 """
@@ -1840,6 +1841,51 @@ def cmd_estado(args):
 
 
 # --------------------------------------------------------------------------
+# hecho: el paso 0 de las rutinas, para que la repesca no rehaga un turno
+# --------------------------------------------------------------------------
+
+def cmd_hecho(args):
+    """Dice si el turno de ahora ya esta publicado: TERMINA o SIGUE.
+
+    Cada rutina de noticias se dispara dos veces por turno, la segunda una hora
+    despues, y las dos empiezan por aqui. Si la primera publico, la segunda se
+    entera y acaba; si no llego a publicar, la segunda hace el turno.
+
+    Ante la duda, SIGUE: un turno hecho dos veces no rompe nada ('archivar'
+    sustituye la entrada repetida del indice), y uno sin hacer es justo el fallo
+    que la repesca existe para tapar. Por lo mismo, el veredicto va en el texto
+    y el codigo de salida es 0 siempre: quien lo lee es el modelo, y un codigo 1
+    lo toma por un comando roto.
+    """
+    ahora = datetime.now(ESPANA)
+    dia = ahora.strftime("%Y-%m-%d")
+    # El mismo corte que 'partir_actualizado', que es el que decide de que
+    # turno es lo que se archiva.
+    turno = "M" if ahora.hour < 12 else "T"
+    cual = (f"el turno {turno} ({'la manana' if turno == 'M' else 'la tarde'}) "
+            f"del {ahora.strftime(FORMATO_FECHA)} de {args.seccion}")
+
+    if turno not in turnos_de(args.seccion):
+        print(f"TERMINA: {args.seccion} no publica turno {turno}, segun "
+              f"assets/secciones.json. No hay nada que hacer.")
+        return 0
+
+    remoto = traer_remoto()
+    indice = leer_publicado(
+        f"data/historico/{args.seccion}/indice.json", remoto) or {}
+    for entrada in indice.get("entradas", []):
+        if entrada.get("fecha") == dia and entrada.get("turno") == turno:
+            print(f"TERMINA: {cual} ya esta publicado "
+                  f"({entrada.get('actualizado', '?')}). Esta ejecucion es la "
+                  f"repesca y no hace falta: no toques nada.")
+            return 0
+
+    donde = "origin/main" if remoto else "la copia local"
+    print(f"SIGUE: {cual} no esta en {donde}. Haz el turno entero.")
+    return 0
+
+
+# --------------------------------------------------------------------------
 # vigilar: las tres comprobaciones juntas, y el aviso a la portada
 # --------------------------------------------------------------------------
 
@@ -2150,6 +2196,11 @@ def main():
     p.add_argument("--local", action="store_true",
                    help="no traer origin/main: mirar la copia de trabajo")
     p.set_defaults(func=cmd_estado)
+
+    p = ordenes.add_parser(
+        "hecho", help="si el turno de ahora ya esta publicado (paso 0)")
+    p.add_argument("seccion")
+    p.set_defaults(func=cmd_hecho)
 
     args = parser.parse_args()
     return args.func(args)
