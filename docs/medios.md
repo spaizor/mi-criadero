@@ -14,6 +14,14 @@ fecha vienen del feed, no del criterio del modelo, que es justo donde antes se
 inventaban las horas. El campo se llama `titulo_original` para que se note si
 alguien lo copia sin traducir.
 
+Cada candidato lleva ademas el **`idioma` de su medio** (desde el 08-10-2026).
+Con eso los prompts dicen "los titulares de los candidatos `es` los pone el
+script" sin nombrar medios. Antes los nombraban, y el de nintendo siguio casi
+dos meses diciendo que Vandal y 3DJuegos no tenian feed (se recuperaron el
+13-08) y mandando abrir Vandal a mano. El 08-10 el modelo cerro el turno
+avisando de que "no miro Vandal ni 3DJuegos", cuando el script los habia leido:
+un aviso falso, de los que ensenan a no leer los avisos.
+
 Las lineas que empiezan por `#` son el parte de la descarga y hay que leerlas:
 
 - `FEED CAIDO <medio>`: no ha respondido esta vez. Reintentar suele bastar.

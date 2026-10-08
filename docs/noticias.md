@@ -67,6 +67,23 @@ python3 scripts/noticias.py vigilar                las tres comprobaciones, desd
   rama local vieja; si ademas coincide con la remota, git responde "up to date"
   y da por publicado un commit que no ha subido. Despues del push compara el
   commit local con `origin/main` para no fiarse del codigo de salida.
+- `anteriores` y `candidatos` **ponen la copia al dia con `origin/main`** antes
+  de leer el historico (`poner_al_dia`). Lo repetido se decide con el historico
+  de la copia local, y el 08-10-2026 la rutina de IA arranco 29 commits por
+  detras: su "turno anterior" era del 05-10, le salieron 74 candidatos en vez de
+  unos 20 y se le colo un titular publicado el 06-10. `validar` lee la misma
+  copia y no lo vio; salto en el rebase de `publicar`, y el modelo acabo
+  editando `indice.json` a mano para resolver el conflicto. El mismo rastro hay
+  en tecnologia el 23 y 24-09: 7 enlaces repetidos entre turnos seguidos, que
+  con la copia al dia habrian caido en la ventana de `anteriores`.
+  - Solo avanza con **fast-forward y la copia sin cambios**, que es como empieza
+    cualquier rutina, y lo dice en una linea. Si hay cambios o commits propios,
+    avisa y no toca nada: ese rebase lo decide quien trabaja en la copia.
+  - **No va en `validar` ni en `titulares`**: a esas alturas otras rutinas ya han
+    publicado en main lo suyo, y el aviso saldria casi siempre por commits que
+    no son de esta seccion.
+  - Sin red no dice nada: no hay con que comparar, y `candidatos` ya avisa de
+    los feeds caidos.
 
 ## El comando `titulares`: los medios espanoles no pasan por el modelo
 
@@ -202,8 +219,12 @@ normales esa misma tarde y el mismo prompt funcionando la manana de antes y la
 de despues. Medido sobre el historico: **desde el 12-09-2026, 1 turno perdido
 de 182** entre las cuatro secciones, y tecnologia no ha perdido ninguno nunca
 (los seis de IA y Nintendo del 6 al 11-09 son de la semana en que se estaban
-cambiando las rutinas). O sea que no es el prompt: alguna vez una ejecucion no
-arranca o se corta, y cual de las dos solo lo dice el log de la rutina.
+cambiando las rutinas). O sea que no es el prompt.
+
+El log de esa ejecucion lo explica: el modelo hizo el turno entero (validado y
+archivado) y **GitHub devolvio un error 500 a todos los push** durante mas de
+tres minutos, a `main` y a su rama, hasta que la sesion se rindio con el commit
+solo en local. No se corto ni dejo de arrancar: se quedo sin poder publicar.
 
 Lo que lo tapa sea cual sea la causa es lo mismo que en precios ("Los cron de
 repesca" en `docs/vigilancia.md`): si la primera no dispara, dispara la

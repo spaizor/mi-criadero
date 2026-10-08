@@ -642,6 +642,11 @@ def cmd_candidatos(args):
               f"scripts/medios.json. Repasa ese fichero.")
         return 1
 
+    # Antes de leer el historico: de el salen la ventana y lo ya publicado.
+    al_dia = poner_al_dia()
+    if al_dia:
+        print(f"# {al_dia}")
+
     corte, desde = ventana_del_turno(args.seccion, args.horas)
     ya_publicado = publicados_antes(args.seccion)
     tema = leer_tema(args.seccion)
@@ -694,9 +699,13 @@ def cmd_candidatos(args):
             if enlace in de_la_hermana:
                 descartes["colgadas por el medio en su feed de la hermana"] += 1
                 continue
+            # 'idioma' para que el prompt no tenga que nombrar los medios: los
+            # nombraba, y la lista de nintendo siguio diciendo que Vandal y
+            # 3DJuegos no tenian feed casi dos meses despues de recuperarlos.
             del_medio.append({
                 "titulo_original": titulo,
                 "fuente": medio["nombre"],
+                "idioma": medio.get("idioma"),
                 "enlace": enlace,
                 "fecha": fecha.strftime(FORMATO_FECHA),
                 "publicado": fecha.strftime(FORMATO_FECHA_HORA),
@@ -711,7 +720,8 @@ def cmd_candidatos(args):
     print("# 'titulo_original' viene del feed TAL CUAL: hay que reescribirlo en "
           "espanol antes de publicarlo.")
     print("# La fecha sale del propio feed, no se toca.")
-    print(f"# Los titulares de los medios espanoles los pone solo 'titulares "
+    print(f"# Los candidatos con \"idioma\": \"es\" son de medios espanoles: "
+          f"valen para destacadas, pero sus titulares los pone solo 'titulares "
           f"{args.seccion}'. De esta lista salen las destacadas y los titulares "
           f"de los medios de fuera, que si hay que traducir.")
     for motivo, veces in descartes.most_common():
@@ -1014,6 +1024,9 @@ def cmd_titulares(args):
 # --------------------------------------------------------------------------
 
 def cmd_anteriores(args):
+    al_dia = poner_al_dia()
+    if al_dia:
+        print(f"{al_dia}\n")
     entradas = leer_indice(args.seccion).get("entradas", [])[: args.turnos]
     if not entradas:
         print("No hay ejecuciones anteriores: no hay nada que evitar.")
@@ -1685,6 +1698,47 @@ def traer_remoto():
     if git("fetch", "origin", "main", comprobar=False).returncode != 0:
         return None
     return "FETCH_HEAD"
+
+
+def poner_al_dia():
+    """Avanza la copia de trabajo hasta origin/main si se puede sin riesgo.
+
+    'anteriores', 'candidatos', 'titulares' y 'validar' saben que esta repetido
+    leyendo el historico de la copia local. Si esa copia no tiene los ultimos
+    turnos, dan por nuevo lo ya publicado, y como 'validar' lee lo mismo nadie
+    lo ve hasta que 'publicar' choca en el rebase. Paso el 08-10-2026: la
+    rutina de IA arranco 29 commits por detras de main, su "turno anterior" era
+    de dos dias antes y se le colo un titular ya publicado el 06-10.
+
+    Solo avanza con un fast-forward y la copia sin cambios, que es como empieza
+    cualquier rutina. Si no se puede (commits propios, cambios sin guardar), lo
+    dice y no toca nada: ese rebase lo decide quien trabaja en la copia. Va en
+    'anteriores' y 'candidatos', al principio del turno, y no en 'validar': a
+    esas alturas otras rutinas ya han publicado lo suyo en main, y avisaria
+    casi siempre de commits que no tienen nada que ver con esta seccion.
+
+    Devuelve lo que hay que contar, o None si la copia ya estaba al dia (o no
+    hay red, y entonces no hay con que compararla).
+    """
+    remoto = traer_remoto()
+    if remoto is None:
+        return None
+    detras = git("rev-list", "--count", f"HEAD..{remoto}", comprobar=False)
+    if detras.returncode != 0 or detras.stdout.strip() in ("", "0"):
+        return None
+    n = detras.stdout.strip()
+    limpia = not git("status", "--porcelain", "--untracked-files=no",
+                     comprobar=False).stdout.strip()
+    sin_propios = git("merge-base", "--is-ancestor", "HEAD", remoto,
+                      comprobar=False).returncode == 0
+    if limpia and sin_propios and git("merge", "--ff-only", "-q", remoto,
+                                      comprobar=False).returncode == 0:
+        return (f"Copia puesta al dia: iba {n} commits por detras de "
+                f"origin/main. Ya no hace falta hacer nada.")
+    return (f"AVISO: esta copia va {n} commits por detras de origin/main y no "
+            f"se puede poner al dia sola, porque tiene cambios o commits "
+            f"propios. Con ella se pueden repetir noticias ya publicadas: haz 'git "
+            f"pull --rebase origin main' y vuelve a lanzar este comando.")
 
 
 def leer_publicado(ruta, remoto):
