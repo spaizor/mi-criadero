@@ -16,6 +16,7 @@ python3 scripts/noticias.py indexar    <seccion>   rehace el indice del buscador
 python3 scripts/noticias.py comprobar              secciones dadas de alta enteras
 python3 scripts/noticias.py publicar   "<mensaje>" commit de data/ y push
 python3 scripts/noticias.py estado                 que turnos faltan por publicar
+python3 scripts/noticias.py hecho      <seccion>   si el turno de ahora ya salio (paso 0)
 python3 scripts/noticias.py vigilar                las tres comprobaciones, desde la rutina
 ```
 
@@ -190,7 +191,72 @@ Cuatro decisiones que lo hacen fiable:
 
 Como el turno perdido no se recupera (los feeds solo dan lo reciente), lo que
 aporta el comando no es arreglarlo sino enterarse a tiempo de mirar el log en
-https://claude.ai/code/routines antes del turno siguiente.
+https://claude.ai/code/routines antes del turno siguiente. Lo que evita que se
+pierda es la repesca de abajo.
+
+## La repesca: cada rutina se dispara dos veces por turno
+
+Desde el **08-10-2026**, por el turno de tarde de IA del 07-10, que no llego a
+publicarse: ni commit ni rama `claude/`, con tecnologia y Nintendo saliendo
+normales esa misma tarde y el mismo prompt funcionando la manana de antes y la
+de despues. Medido sobre el historico: **desde el 12-09-2026, 1 turno perdido
+de 182** entre las cuatro secciones, y tecnologia no ha perdido ninguno nunca
+(los seis de IA y Nintendo del 6 al 11-09 son de la semana en que se estaban
+cambiando las rutinas). O sea que no es el prompt: alguna vez una ejecucion no
+arranca o se corta, y cual de las dos solo lo dice el log de la rutina.
+
+Lo que lo tapa sea cual sea la causa es lo mismo que en precios ("Los cron de
+repesca" en `docs/vigilancia.md`): si la primera no dispara, dispara la
+siguiente. Cada rutina de noticias lleva en su cron una segunda hora por turno,
+una hora despues de la suya, y su prompt empieza por un **PASO 0**:
+
+```
+python3 scripts/noticias.py hecho <seccion>
+```
+
+Mira en `origin/main` si el turno de ahora (`M` antes de las 12:00 y `T`
+despues, el mismo corte que `partir_actualizado`) ya esta en el indice del
+historico. Si esta, contesta **TERMINA** y la rutina acaba ahi; si no,
+**SIGUE** y hace el turno entero. Con la hora del fallo, el 07-10 a las 18:10,
+da SIGUE en IA y TERMINA en Nintendo, que es lo que tenia que pasar.
+
+| Rutina | cron (UTC) |
+|---|---|
+| Noticias tecnologia | `0 2,3,14,15 * * *` |
+| Noticias Nintendo | `30 2,3,14,15 * * *` |
+| Noticias IA | `0 3,4,15,16 * * *` |
+| Noticias Geopolitica | `30 3,4 * * *` |
+
+El prompt y el cron viven en https://claude.ai/code/routines, no en el repo, y
+**una sesion de Claude en la nube no puede editarlos**: esas rutinas se crearon
+por la API y no las creo un agente, asi que `update_trigger` se niega (probado
+el 08-10-2026). Se cambian a mano en la web o con `/schedule update` desde el
+CLI, que es ademas lo unico que admite un cron a medida.
+
+Cuatro decisiones:
+
+- **En la misma rutina, no en una aparte.** Una rutina de repesca que lanzara a
+  las demas seria otra pieza que puede fallar, y tendria que conocer sus
+  identificadores. Asi cada rutina se cubre sola. Lo que cuesta: siete
+  ejecuciones cortas mas al dia en la lista de sesiones, que acaban en el
+  PASO 0.
+- **Una hora despues.** Las ejecuciones tardan de 2 a 7 minutos, asi que no se
+  pisan; queda margen de sobra antes de `LIMITE_TURNO` (9:00 y 21:00) y los
+  feeds siguen teniendo lo de esa hora. Una hora es ademas el intervalo minimo
+  que admite el cron de una rutina.
+- **Ante la duda, SIGUE.** Si el comando falla o no existe, la rutina hace el
+  turno; si no hay red, `hecho` lee la copia local, que es un clon recien
+  hecho. Hacer un turno dos veces no rompe nada (`archivar` sustituye la
+  entrada repetida del indice y reescribe el fichero del turno); quedarse sin
+  hacer es justo lo que esto viene a tapar.
+- **El veredicto va en el texto y el codigo de salida es 0 siempre.** Lo lee el
+  modelo, que toma un codigo 1 por un comando roto. Al reves que `estado`, que
+  lo lee un workflow.
+
+Lo que **no** tapa es que fallen las dos. Por ejemplo, si se agota el uso de la
+suscripcion durante horas: las rutinas gastan del mismo que las sesiones a mano,
+y sin margen se rechazan. O si caduca la conexion con GitHub. Para eso sigue
+`estado`.
 
 Los limites de reparto (maximo por medio, minimo de medios) estan en las
 constantes de arriba del script y **repiten los del prompt**: si se cambian en
