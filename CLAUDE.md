@@ -194,6 +194,9 @@ rutina de vigilancia solo lanza `noticias.py vigilar`.
   las dos cosas.
 - Los titulares de medios `"idioma": "es"` se publican **tal cual el feed**; no
   pasan por el modelo.
+- Los prompts **no nombran los medios** de la seccion: la lista es
+  `medios.json`, y `candidatos` marca cada candidato con su `idioma`. Nombrados,
+  se quedan viejos sin que nada avise.
 - Los limites de reparto (`MIN_TITULARES`, `CUPOS`, tope por medio) de
   `noticias.py` **repiten los del prompt** de las rutinas: cambiar los dos.
 - `tema` **exige el tema propio**, no descarta plataformas ajenas; no se aplica
