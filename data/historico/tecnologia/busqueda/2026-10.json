@@ -3,6 +3,223 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "EE. UU. veta a Microsoft, Adobe y otras seis tecnológicas del programa de residencia permanente para trabajadores cualificados",
+      "fuente": "TechCrunch",
+      "fecha": "08-10-2026 17:42",
+      "enlace": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Los envíos mundiales de PC caen un 20 % interanual en el tercer trimestre, según IDC",
+      "fuente": "Engadget",
+      "fecha": "08-10-2026 23:50",
+      "enlace": "https://www.engadget.com/2281788/idc-worldwide-pc-shipments-in-q3-fell-20-percent-from-last-year/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "EE. UU. interrumpe herramientas de hacking chinas mientras siete gobiernos alertan del espionaje de la RPC",
+      "fuente": "The Register",
+      "fecha": "08-10-2026 23:59",
+      "enlace": "https://www.theregister.com/security/2026/10/08/us-disrupts-chinese-hacking-tools-as-7-govts-warn-of-prc-spies-stealing-sensitive-data-worldwide/5302107",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Un ataque ucraniano con drones deja fuera de servicio un centro de datos de Yandex en Rusia",
+      "fuente": "The Register",
+      "fecha": "09-10-2026 02:08",
+      "enlace": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Amazon Leo ya ha fabricado 1.000 satélites y lanzará su servicio antes de fin de año",
+      "fuente": "ADSLZone",
+      "fecha": "08-10-2026 21:33",
+      "enlace": "https://www.adslzone.net/noticias/internet/amazon-leo-empezara-final-ano/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "American Airlines llevará Wi-Fi de Starlink a toda su flota principal en 2027",
+      "fuente": "Engadget",
+      "fecha": "08-10-2026 18:57",
+      "enlace": "https://www.engadget.com/2281334/american-airlines-is-bringing-starlink-wi-fi-to-its-entire-mainline-fleet-in-2027/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Garmin reconoce el fallo que deja la pantalla del Fénix 8 al máximo brillo y prepara una solución",
+      "fuente": "ADSLZone",
+      "fecha": "08-10-2026 19:57",
+      "enlace": "https://www.adslzone.net/noticias/internet/garmin-reconoce-fallo-afecta-pantalla/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "SpaceX anuncia su plan para convertirse en un «gran operador móvil»",
+      "fuente": "The Verge",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.theverge.com/science/1008467/spacex-announces-plan-to-become-a-major-mobile-carrier",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "AMD llevará FSR 4 a las consolas portátiles antes de que acabe 2026",
+      "fuente": "The Verge",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.theverge.com/games/1008353/amd-will-bring-fsr-4-to-handhelds-by-the-end-of-2026",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Let's Encrypt reduce la vigencia de sus certificados a 64 días desde febrero de 2027",
+      "fuente": "Ars Technica",
+      "fecha": "08-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Nvidia destina 1.000 millones de dólares a la computación científica estadounidense",
+      "fuente": "The Register",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.theregister.com/hpc/2026/10/08/nvidia-found-1b-under-the-couch-to-help-secure-american-scientific-computing-dominance/5302110",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "TSMC recurre a GlobalFoundries para producir interposers de silicio en EE. UU. en un acuerdo de 2.000 millones",
+      "fuente": "The Register",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Google elimina la función Safety Signal del Pixel Watch",
+      "fuente": "Engadget",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.engadget.com/2281591/google-is-doing-away-with-safety-signal-on-pixel-watch/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Razer presenta el ratón Basilisk V4 Pro, con rueda inclinable y hasta 275 horas de batería",
+      "fuente": "Engadget",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.engadget.com/2281382/razers-basilisk-v4-pro-gaming-mouse-features-a-new-tilt-wheel-and-up-to-275-hours-of-battery-life/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Un fallo grave de Nvidia podría bloquear la monitorización de GPU en servidores expuestos",
+      "fuente": "The Register",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.theregister.com/security/2026/10/08/high-severity-nvidia-bug-could-crash-gpu-monitoring-on-exposed-servers/5302077",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Ring, Amazon y los anuncios de octubre de 2026: todo lo presentado hasta ahora",
+      "fuente": "Engadget",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.engadget.com/2281378/everything-amazon-announced-october-2026-alexa-tablet-kindle-fire-tv-ring-lock/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Las nuevas tablets Alexa de Amazon abandonan la marca Fire y son más Android que nunca",
+      "fuente": "Ars Technica",
+      "fecha": "08-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Los robots no siempre saben que una pared de cristal existe y eso es un problema",
+      "fuente": "Xataka",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/robots-no-siempre-saben-que-pared-cristal-existe-eso-problema",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "‘Forza Horizon 6’ tiene fecha de lanzamiento en PS5 y sí, tendrás que esperar hasta 2027",
+      "fuente": "Hipertextual",
+      "fecha": "08-10-2026",
+      "enlace": "https://hipertextual.com/videojuegos/forza-horizon-6-ps5-fecha-lanzamiento-confirmada/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Ni la fibra más rápida garantiza la conexión más estable: las verdaderas diferencias entre Movistar, Orange, Digi y Vodafone",
+      "fuente": "ADSLZone",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/diferencias-fibra-movistar-orange-digi-vodafone-cnmc/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Apple anuncia un evento para el 13 de octubre: 'Welcome home' llegará con 3 nuevos dispositivos para tu hogar",
+      "fuente": "ComputerHoy",
+      "fecha": "08-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/apple-anuncia-un-evento-para-13-octubre-welcome-home-llegara-con-3-nuevos-dispositivos-para-tu-hogar_7046835_0.html",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Esta gigantesca nube de Marte aparece cada mañana, mide más de 1.000 km y desaparece siempre antes de la tarde",
+      "fuente": "Xataka",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.xataka.com/espacio/esta-nube-marte-aparece-cada-manana-mide-1-000-km-desaparece-antes-tarde-ahora-sabemos-que",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Apple anuncia su evento ‘Welcome home’: ¿Nuevos dispositivos para el hogar inteligente a la vista?",
+      "fuente": "Hipertextual",
+      "fecha": "08-10-2026",
+      "enlace": "https://hipertextual.com/apple/apple-evento-welcome-home-octubre-2026/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Movistar Plus hace oficiales más partidos de Champions, Primera Federación y otras ligas para su TV en streaming",
+      "fuente": "ADSLZone",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-mas-partidos-futbol-confirmados/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Google sufre una caída en España: los usuarios reportan problemas con su buscador",
+      "fuente": "ComputerHoy",
+      "fecha": "08-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-sufre-una-caida-espana-los-usuarios-reportan-problemas-con-su-buscador_7046832_0.html",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "El estreno más importante de la semana en Netflix: un thriller de seis episodios con Josh Harnett y la atmósfera de Stephen King",
+      "fuente": "Xataka",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.xataka.com/streaming/estreno-importante-semana-netflix-thriller-seis-episodios-josh-harnett-atmosfera-stephen-king",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Solo en Lidl y por tiempo muy limitado, el electrodoméstico definitivo: freidora de aire de gran capacidad con vaporera integrada por menos de 90 euros",
+      "fuente": "ComputerHoy",
+      "fecha": "08-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/solo-lidl-por-tiempo-muy-limitado-electrodomestico-definitivo-freidora-aire-gran-capacidad-con-vaporera-integrada-por-menos-90-euros_7046538_0.html",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Los expertos en ejercicio físico opinan igual: \"Si el objetivo es perder peso, debemos trabajar fuerza y resistencia de una forma secuenciada\"",
+      "fuente": "Xataka",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.xataka.com/medicina-y-salud/para-adelgazar-despues-50-cardio-fuerza-experto-senala-que-deberiamos-priorizar",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Google Chrome ya es compatible con archivos JPEG XL sin afectar al rendimiento del navegador gracias a Rust",
+      "fuente": "ComputerHoy",
+      "fecha": "08-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/google-chrome-ya-es-compatible-con-archivos-jpeg-xl-sin-afectar-rendimiento-navegador-gracias-rust_7046528_0.html",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Hoy en Lidl la solución a los problemas del WiFi en tu casa por menos de 30 euros",
+      "fuente": "Xataka",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.xataka.com/seleccion/hoy-lidl-solucion-a-problemas-wifi-tu-casa-30-euros",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Cuidado con comprar móviles Android baratos: algunos llegan infectados de fábrica con un malware imposible de borrar",
+      "fuente": "ComputerHoy",
+      "fecha": "08-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/cuidado-con-comprar-moviles-android-baratos-algunos-llegan-infectados-fabrica-con-un-malware-imposible-borrar_7046624_0.html",
+      "turno": "2026-10-09_M"
+    },
+    {
       "titulo": "Amazon lanza tres tablets Alexa de 8, 11 y 12 pulgadas con Alexa+ y Google Play",
       "fuente": "Engadget",
       "fecha": "08-10-2026 15:00",
