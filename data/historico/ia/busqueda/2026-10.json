@@ -3,6 +3,139 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Los ingresos de OpenAI quedan unos 20.000 millones por debajo de lo proyectado",
+      "fuente": "TechCrunch",
+      "fecha": "08-10-2026 20:19",
+      "enlace": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Anthropic ofrece análisis de seguridad gratuitos con sus modelos más potentes a proyectos de código abierto",
+      "fuente": "The Verge",
+      "fecha": "08-10-2026 23:53",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "USA Today demanda a OpenAI y reclama más de 250 millones de dólares por usar sus artículos",
+      "fuente": "The Verge",
+      "fecha": "08-10-2026 19:58",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Anthropic cambia su política de uso: prohíbe la interferencia electoral y el abuso extremo hacia Claude",
+      "fuente": "TechCrunch",
+      "fecha": "08-10-2026 20:16",
+      "enlace": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Claude ya genera vídeos explicativos animados y paneles de datos en vivo a partir de un texto",
+      "fuente": "The Decoder",
+      "fecha": "08-10-2026 21:17",
+      "enlace": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "El gusano Shai-Hulud salta a la infraestructura de IA con el compromiso de Tensorlake",
+      "fuente": "The Register",
+      "fecha": "08-10-2026 18:54",
+      "enlace": "https://www.theregister.com/security/2026/10/08/shai-hulud-worm-makes-jump-to-ai-infrastructure-with-tensorlake-compromise/5302054",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "China despide a sus programadores: hasta el 90 % del código en algunas grandes tecnológicas lo escribe la IA",
+      "fuente": "ComputerHoy",
+      "fecha": "08-10-2026 23:19",
+      "enlace": "https://computerhoy.20minutos.es/software/china-se-despide-sus-programadores-90-codigo-generado-pais-esta-escrito-por-inteligencia-artificial_7046542_0.html",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Mesa redonda: una conversación con el creador de virus diseñados con IA",
+      "fuente": "MIT Technology Review",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Investigadores de seguridad despedidos de OpenAI niegan las acusaciones de mala conducta y alertan de un efecto disuasorio",
+      "fuente": "TechCrunch",
+      "fecha": "08-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Arena, el popular ranking de IA, casi duplica su valoración hasta 3.100 millones en 10 meses",
+      "fuente": "TechCrunch",
+      "fecha": "08-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Goodfire dice que sus monitores «de dentro hacia fuera» detectan agentes de IA descontrolados a una fracción del coste",
+      "fuente": "TechCrunch",
+      "fecha": "08-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "SpaceXAI respalda a Omarchy, la polémica distro Linux, con 1,5 millones de dólares en computación",
+      "fuente": "The Verge",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Diseñó el nuevo logo de IA de Meta y después llegó el odio",
+      "fuente": "Wired",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.wired.com/story/she-designed-metas-new-ai-logo-then-came-the-hate/",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Gremlin ya usa IA para romper sistemas distribuidos más rápido",
+      "fuente": "The Register",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.theregister.com/on-prem/2026/10/08/gremlin-now-uses-ai-to-break-distributed-systems-faster/5302051",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Corea del Sur detecta indicios de IA en ataques a sus principales bancos y el presidente exige respuestas",
+      "fuente": "Xataka",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.xataka.com/seguridad/corea-sur-detecta-indicios-ia-ataques-a-sus-principales-bancos-presidente-exige-respuestas",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Ben Affleck confiesa que es programador de Python y defensor de la IA: \"Puedo llamar a Google y OpenAI y decir: \"¿Puedo ir a ver en qué estás trabajando?\"",
+      "fuente": "ComputerHoy",
+      "fecha": "08-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/ben-affleck-confiesa-que-es-programador-python-defensor-ia-puedo-llamar-google-openai-decir-puedo-ir-ver-que-estas-trabajando_7046545_0.html",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Ya son oficiales los nuevos altavoces de JBL, dos opciones diferentes con sonido potente e IA donde la luz tiene mucho protagonismo",
+      "fuente": "Xataka",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.xataka.com/seleccion/oficiales-nuevos-altavoces-jbl-dos-opciones-diferentes-sonido-potente-e-ia-donde-luz-tiene-mucho-protagonismo",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Amazon Alexa Tablets: así es la nueva apuesta de Amazon para competir en productividad, entretenimiento e IA con Alexa+",
+      "fuente": "ComputerHoy",
+      "fecha": "08-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/amazon-alexa-tablets-asi-es-nueva-apuesta-amazon-para-competir-productividad-entretenimiento-ia-con-alexa_7046731_0.html",
+      "turno": "2026-10-09_M"
+    },
+    {
+      "titulo": "Adobe había conseguido que Photoshop fuera un muro de pago inexpugnable, hasta que alguien envió un ejército de LLMs",
+      "fuente": "Xataka",
+      "fecha": "08-10-2026",
+      "enlace": "https://www.xataka.com/aplicaciones/adobe-habia-conseguido-que-photoshop-fuera-muro-pago-inexpugnable-que-alguien-ha-enviado-ejercito-llms",
+      "turno": "2026-10-09_M"
+    },
+    {
       "titulo": "Manus, la startup china de agentes de IA, levanta más de 500 millones de dólares tras romper con Meta",
       "fuente": "TechCrunch",
       "fecha": "08-10-2026 15:20",
