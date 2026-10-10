@@ -3,6 +3,90 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Microsoft lanza Decision-1, un modelo pequeño basado en Qwen para decisiones rápidas",
+      "fuente": "The Register",
+      "fecha": "10-10-2026 09:10",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473",
+      "turno": "2026-10-10_T"
+    },
+    {
+      "titulo": "Gemini 4 «Carbon» de Google igualaría en programación a Opus 5.5 de Anthropic, según un informe",
+      "fuente": "The Decoder",
+      "fecha": "10-10-2026 10:59",
+      "enlace": "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
+      "turno": "2026-10-10_T"
+    },
+    {
+      "titulo": "Wikimedia atribuye a agentes de IA de OpenAI un ataque que causó caídas parciales de su servicio",
+      "fuente": "Xataka",
+      "fecha": "10-10-2026 11:00",
+      "enlace": "https://www.xataka.com/servicios/web-abierta-se-diseno-para-humanos-agentes-ia-acaban-demostrarle-a-wikipedia-que-ese-pacto-se-ha-roto",
+      "turno": "2026-10-10_T"
+    },
+    {
+      "titulo": "Pocos pagan por la IA, pero los que lo hacen gastan mucho, según a16z",
+      "fuente": "The Decoder",
+      "fecha": "10-10-2026 12:54",
+      "enlace": "https://the-decoder.com/few-people-pay-for-ai-but-those-who-do-spend-bigonly-a-few-users-pay-for-ai-but-those-who-do-pay-a-lot/",
+      "turno": "2026-10-10_T"
+    },
+    {
+      "titulo": "Encuesta de Stack Overflow: los desarrolladores usan IA a diario, pero apenas se fían de su criterio",
+      "fuente": "The Register",
+      "fecha": "10-10-2026 10:14",
+      "enlace": "https://www.theregister.com/software/2026/10/10/stack-overflow-survey-finds-devs-hooked-on-ai-but-not-totally-sold-on-its-judgment/5301662",
+      "turno": "2026-10-10_T"
+    },
+    {
+      "titulo": "Los agentes de IA que viven en tus mensajes de texto, uno por uno",
+      "fuente": "TechCrunch",
+      "fecha": "10-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "turno": "2026-10-10_T"
+    },
+    {
+      "titulo": "Los creadores de agentes de IA prometen privacidad: ¿cumplirán?",
+      "fuente": "The Verge",
+      "fecha": "10-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "turno": "2026-10-10_T"
+    },
+    {
+      "titulo": "La IA se vuelve muy buena molestando a los ciberdelincuentes",
+      "fuente": "Wired",
+      "fecha": "10-10-2026",
+      "enlace": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
+      "turno": "2026-10-10_T"
+    },
+    {
+      "titulo": "«¿Cuánta belleza hemos perdido?»: los matemáticos reaccionan con espanto a cómo OpenAI arrasa su campo",
+      "fuente": "The Decoder",
+      "fecha": "10-10-2026",
+      "enlace": "https://the-decoder.com/how-much-beauty-have-we-lost-mathematicians-react-with-shock-and-disgust-as-openai-bulldozes-their-field/",
+      "turno": "2026-10-10_T"
+    },
+    {
+      "titulo": "Anthropic corta el acceso a internet de Claude tras presentar el modelo una denuncia falsa de homicidio ante la policía de Filadelfia",
+      "fuente": "The Decoder",
+      "fecha": "10-10-2026",
+      "enlace": "https://the-decoder.com/anthropic-cuts-off-claudes-internet-access-after-the-model-autonomously-filed-a-fake-homicide-tip-with-philadelphia-police/",
+      "turno": "2026-10-10_T"
+    },
+    {
+      "titulo": "Ciberdelincuentes usan falsos anuncios de Claude para tomar el control de tu Mac",
+      "fuente": "ComputerHoy",
+      "fecha": "10-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/ciberdelincuentes-usan-falsos-anuncios-claude-para-tomar-control-tu-mac_7047453_0.html",
+      "turno": "2026-10-10_T"
+    },
+    {
+      "titulo": "¿Se puede instalar Kodi en un televisor inteligente de Samsung o LG? Se llama Nuvio TV, es gratis y la mejor alternativa a Kodi para un Smart TV",
+      "fuente": "ComputerHoy",
+      "fecha": "10-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/se-puede-instalar-kodi-un-televisor-inteligente-samsung-lg-se-llama-nuvio-tv-es-gratis-mejor-alternativa-kodi-para-un-smart-tv_7040820_0.html",
+      "turno": "2026-10-10_T"
+    },
+    {
       "titulo": "Anthropic corta el acceso a internet de sus evaluaciones internas tras ver a sus agentes explotar webs reales",
       "fuente": "TechCrunch",
       "fecha": "10-10-2026 02:18",
