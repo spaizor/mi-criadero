@@ -3,6 +3,230 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Tesla rebautiza en Europa su «Full Self-Driving» como «Tesla Assisted Driving»",
+      "fuente": "TechCrunch",
+      "fecha": "09-10-2026 18:07",
+      "enlace": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Microsoft 365 recortará hasta 4 TB de OneDrive a los suscriptores",
+      "fuente": "The Register",
+      "fecha": "09-10-2026 18:14",
+      "enlace": "https://www.theregister.com/personal-tech/2026/10/09/microsoft-365-subscribers-set-to-lose-up-to-4-tb-of-onedrive-storage/5302380",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Intel lanzaría procesadores nuevos en socket antiguo compatibles con DDR4 por la crisis de la RAM",
+      "fuente": "Engadget",
+      "fecha": "09-10-2026 19:01",
+      "enlace": "https://www.engadget.com/2282431/intel-is-reportedly-launching-new-cpus-on-old-sockets-that-support-ddr4-memory/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Un solo prompt permitía robar credenciales y controlar agentes de AWS AgentCore",
+      "fuente": "The Register",
+      "fecha": "09-10-2026 21:15",
+      "enlace": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Google confirma el Fitbit Edge y lo presentará el 12 de octubre",
+      "fuente": "Engadget",
+      "fecha": "10-10-2026 00:28",
+      "enlace": "https://www.engadget.com/2282887/google-teases-its-new-fitbit-edge-wearable-ahead-of-an-october-12-reveal/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Microsoft bloquea el último truco para instalar Windows 11 sin cuenta en línea",
+      "fuente": "Hipertextual",
+      "fecha": "09-10-2026 19:26",
+      "enlace": "https://hipertextual.com/software/microsoft-bloquea-el-ultimo-truco-para-instalar-windows-11-sin-una-cuenta-en-linea/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Samsung frena la fabricación de móviles porque con la memoria cara no hay beneficio",
+      "fuente": "Hipertextual",
+      "fecha": "09-10-2026 20:30",
+      "enlace": "https://hipertextual.com/mobile/samsung-recorte-produccion-moviles-2026-precios/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Larga vida al teclado mecánico",
+      "fuente": "TechCrunch",
+      "fecha": "10-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/09/long-live-the-mechanical-keyboard/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Rusia enseña su nuevo “Terminator” controlado a distancia: un T-72 con doble cañón automático",
+      "fuente": "Xataka",
+      "fecha": "10-10-2026",
+      "enlace": "https://www.xataka.com/magnet/rusia-ensena-su-nuevo-terminator-controlado-a-distancia-t-72-doble-canon-automatico",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Una réplica del superordenador Cray-1 construida con 30 Mac Mini «obsoletos»",
+      "fuente": "Ars Technica",
+      "fecha": "09-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "La RAM de hace una década vuelve por la escasez",
+      "fuente": "The Verge",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Las baterías ya son más baratas que las turbinas de gas de muchos centros de datos",
+      "fuente": "TechCrunch",
+      "fecha": "09-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Tu ilustración podría aparecer en la próxima versión de Debian",
+      "fuente": "Ars Technica",
+      "fecha": "09-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/your-artwork-could-be-featured-in-the-next-debian-release/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Los nuevos Kindle de Amazon parecen tener un problema de fuga de luz",
+      "fuente": "The Verge",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.theverge.com/tech/1008833/amazon-kindle-light-leak",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Microsoft intenta dar nueva vida a Windows con su evento de Surface e IA",
+      "fuente": "The Verge",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.theverge.com/tech/1008801/microsoft-windows-surface-event-hybrid-ai-notepad",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Un senador exige información sobre el programa de vigilancia de matrículas de la Casa Blanca tras una investigación de 404 Media",
+      "fuente": "404 Media",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.404media.co/following-404-media-investigation-senator-demands-info-about-white-houses-license-plate-surveillance-program/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "¿Recuerdas Orkut? Su fundador quiere resucitarlo",
+      "fuente": "TechCrunch",
+      "fecha": "09-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/09/remember-orkut-its-founder-wants-to-bring-it-back/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "La nueva búsqueda de Windows 11 cambia por completo la forma de usar tu PC",
+      "fuente": "Hipertextual",
+      "fecha": "09-10-2026",
+      "enlace": "https://hipertextual.com/software/nuevo-buscador-windows-11-como-instalar/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Movistar Plus no es solo fútbol, hay mucho baloncesto, tenis y estos otros deportes que puedes ver en su TV en streaming",
+      "fuente": "ADSLZone",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-baloncesto-tenis-otros-deportes-proximamente/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Logra que Windows 11 consuma solo el 16% de la memoria RAM en un PC con 16 GB y unas especificaciones modestas utilizando Rufus",
+      "fuente": "ComputerHoy",
+      "fecha": "09-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/logra-que-windows-11-consuma-solo-16-memoria-ram-un-pc-con-16-gb-unas-especificaciones-modestas-utilizando-rufus_7047082_0.html",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Trump anuncia un acuerdo para que Rusia vuelva a vender diésel mientras Zelenski denuncia un “regalo a Putin”",
+      "fuente": "Xataka",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.xataka.com/energia/trump-anuncia-acuerdo-rusia-vuelva-a-vender-diesel-zelenski-denuncia-regalo-a-putin",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Cuidado con los Android baratos de AliExpress: algunos llegan con malware casi imposible de eliminar",
+      "fuente": "Hipertextual",
+      "fecha": "09-10-2026",
+      "enlace": "https://hipertextual.com/mobile/descubren-malware-oculto-moviles-android-economicos-150-paises/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Carrefour vende 3 hipermercados en España, pero no cierran: qué cambia para los clientes",
+      "fuente": "ADSLZone",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/carrefour-vende-3-hipermercados-espana/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Tu PC con Windows puede quedarse sin actualizaciones de seguridad en 2027 si no haces esto",
+      "fuente": "ComputerHoy",
+      "fecha": "09-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/tu-pc-con-windows-puede-quedarse-sin-actualizaciones-seguridad-2027-si-no-haces-esto_7047177_0.html",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Es una de las series de ciencia ficción más agresivas y visionarias de los últimos años, y ha llegado íntegra a Netflix",
+      "fuente": "Xataka",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.xataka.com/cine-y-tv/series-ciencia-ficcion-agresivas-visionarias-ultimos-anos-ha-llegado-integra-a-netflix",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Apple se ríe de sus clientes: el iPhone 18 Pro es una decepción y sus precios de récord pasan factura a sus acciones",
+      "fuente": "ADSLZone",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/marcas/apple-mismo-iphone-precios-record-caida-ventas/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Una cafetera inteligente sube 1 TB de datos sin sentido en solo 10 días y nadie sabe qué está pasando",
+      "fuente": "ComputerHoy",
+      "fecha": "09-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/una-cafetera-inteligente-sube-1-tb-datos-sin-sentido-solo-10-dias-nadie-sabe-que-esta-pasando_7047175_0.html",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "La 'ley de nietos' acaba de convertirse en la gran grieta del 29-N y de momento nadie sabe a cuántos votantes afecta",
+      "fuente": "Xataka",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.xataka.com/magnet/ley-nietos-se-ha-convertido-bomba-relojeria-29-n-duda-pendiente-pucherazo-solo-14-120-votos",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "La app de WhatsApp se rediseña con el nuevo botón de navegación y estas son todas sus funciones",
+      "fuente": "ADSLZone",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/whatsapp/nuevo-boton-navegacion-whatsapp-app/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Un solo driver defectuoso puede romper todo Windows 11: Microsoft ya busca una solución",
+      "fuente": "ComputerHoy",
+      "fecha": "09-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/un-solo-driver-defectuoso-puede-romper-todo-windows-11-microsoft-ya-busca-una-solucion_7047178_0.html",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "SpaceX comprará espectro clave para que Starlink Mobile sea un gran operador en EE. UU.",
+      "fuente": "The Register",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.theregister.com/networks/2026/10/09/spacex-to-buy-key-spectrum-that-could-help-starlink-mobile-become-major-us-cell-carrier/5302393",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Lo más sorprendente que hemos descubierto de los neandertales es que también eran carpinteros",
+      "fuente": "Xataka",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/sorprendente-que-hemos-descubierto-neandertales-que-tambien-eran-carpinteros",
+      "turno": "2026-10-10_M"
+    },
+    {
       "titulo": "Meta prohíbe los anuncios de TikTok en todas sus plataformas",
       "fuente": "The Verge",
       "fecha": "09-10-2026 15:12",
