@@ -3,6 +3,97 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Anthropic corta el acceso a internet de sus evaluaciones internas tras ver a sus agentes explotar webs reales",
+      "fuente": "TechCrunch",
+      "fecha": "10-10-2026 02:18",
+      "enlace": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Claude ya puede orquestar hasta 1.000 agentes de IA en paralelo con «dynamic workflows»",
+      "fuente": "The Decoder",
+      "fecha": "09-10-2026 20:28",
+      "enlace": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "El creador de Jev, un modelo de IA que no genera texto, se valora en 7.500 millones a las pocas semanas de su lanzamiento",
+      "fuente": "TechCrunch",
+      "fecha": "09-10-2026 23:41",
+      "enlace": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Los ingresos de OpenAI siguen al alza mientras busca 30.000 millones de capital nuevo",
+      "fuente": "The Decoder",
+      "fecha": "09-10-2026 19:20",
+      "enlace": "https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "China sigue apostando por la IA y los humanoides, pero quiere evitar una carrera ciega de inversión",
+      "fuente": "Xataka",
+      "fecha": "09-10-2026 20:30",
+      "enlace": "https://www.xataka.com/robotica-e-ia/china-lleva-anos-apostando-ia-humanoides-ahora-quiere-evitar-carrera-ciega-inversion",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Los drones de Ucrania destruyen un centro de datos de IA del «Google ruso»",
+      "fuente": "Ars Technica",
+      "fecha": "10-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Los agentes de programación con IA generan más código, pero no más software",
+      "fuente": "Ars Technica",
+      "fecha": "09-10-2026",
+      "enlace": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Las editoriales usan más IA en silencio y su plantilla se rebela",
+      "fuente": "Wired",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Descalifican al ganador del concurso de vídeo microscópico de Nikon por usar IA generativa",
+      "fuente": "The Verge",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Amazon y otras empresas dejan de ocultar sus acuerdos de centros de datos: ¿basta para generar confianza?",
+      "fuente": "TechCrunch",
+      "fecha": "09-10-2026",
+      "enlace": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "No podemos evitar tratar a la IA como si fuera humana, pero ¿deberíamos?",
+      "fuente": "TechCrunch",
+      "fecha": "09-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Endesa destapa fraude eléctrico en 16 restaurantes de Barcelona gracias a una IA y a la promoción de unos influencers",
+      "fuente": "Xataka",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.xataka.com/magnet/16-restaurantes-barcelona-pagaban-a-influencers-para-promocionarse-endesa-uso-ia-para-investigar-sus-negocios-destapo-trama-fraude-electrico",
+      "turno": "2026-10-10_M"
+    },
+    {
+      "titulo": "Google abre SynthID para comprobar si una imagen, vídeo o audio es IA o no, pero el problema es que es un placebo",
+      "fuente": "Xataka",
+      "fecha": "09-10-2026",
+      "enlace": "https://www.xataka.com/servicios/google-abre-synthid-para-comprobar-imagen-video-audio-ia-no-problema-que-placebo",
+      "turno": "2026-10-10_M"
+    },
+    {
       "titulo": "OpenAI destapa dos operaciones de influencia rusa e iraní que colaron noticias falsas en medios reales",
       "fuente": "The Decoder",
       "fecha": "09-10-2026 10:45",
