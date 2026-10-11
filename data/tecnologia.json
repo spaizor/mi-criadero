@@ -1,146 +1,97 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "10-10-2026 16:16",
+  "actualizado": "11-10-2026 04:16",
   "destacadas": [
     {
-      "titulo": "Dos caracteres abren la puerta al typosquatting en los navegadores Chromium",
-      "resumen": "Ian Muscat y Leanne Briffa, de Have I Been Squatted, han demostrado que el cirílico ө y el latino ƙ eluden las protecciones de Chromium contra dominios engañosos, y registraron 20 dominios que parecen legítimos. Ninguno de los dos caracteres figura en la lista de letras sospechosas de Chrome 154, lanzado el 22 de septiembre. De unos 167 millones de dominios .com, cerca de 733.000 son IDN y unos 162.000 parecen equivalentes ASCII; Gmail mostró los 20 en Unicode y Outlook Web, en Punycode.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/10/two-characters-open-up-a-world-of-typosquatting-opportunities-in-chromium-browsers/5302383",
-      "fecha": "10-10-2026 12:15"
+      "titulo": "Un implante espía en carteras Ledger manipuladas apunta a un ataque a la cadena de suministro de 86 millones de dólares",
+      "resumen": "Han ido sumándose denuncias de usuarios de Ledger a los que han vaciado sus cuentas, y todo apunta a hardware manipulado vendido por CryptoBillis. Ledger confirma que uno de los dispositivos afectados contenía «un implante de hardware no autorizado» y ha pedido a CryptoBillis que pare todas las ventas mientras investiga. Fotos y vídeos publicados en X y Threads muestran una pequeña placa de circuito colocada bajo la pantalla.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
+      "fecha": "10-10-2026 18:36"
     },
     {
-      "titulo": "Elon Musk redobla sus ataques a Ambani por el retraso de Starlink en India",
-      "resumen": "Musk llamó con sorna «primer ministro» de India a Mukesh Ambani, presidente de Reliance, al que acusa de frenar Starlink. La empresa firmó acuerdos de distribución con Reliance Jio y Bharti Airtel en 2025, pero aún no puede operar comercialmente; el Gobierno dice que los tres operadores satelitales están en una fase regulatoria similar. Tesla solo registró 699 vehículos en sus primeros 12 meses de entregas en el país.",
+      "titulo": "Cloudflare adquiere Deno para mejorar su modelo de programación de Workers",
+      "resumen": "Cloudflare anunció el 10 de octubre la compra de Deno, la startup detrás del entorno de ejecución del mismo nombre, sin revelar las condiciones económicas. Deno, cofundada por Bert Belder y Ryan Dahl (creador de Node.js), había captado 26 millones de dólares, con una Serie A liderada por Sequoia. Dahl asegura que su equipo se une a Cloudflare para convertir el modelo de Workers en una forma habitual de construir servidores.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
-      "fecha": "10-10-2026 05:10"
+      "enlace": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+      "fecha": "10-10-2026 18:25"
     },
     {
-      "titulo": "Sony sortea la PS5 Pro en Japón por la escasez de unidades",
-      "resumen": "Sony abrió el 28 de septiembre un sistema de solicitud con sorteo en Japón, que se celebra porque las peticiones superaron el stock al cerrar el plazo el 7 de octubre. Había que residir en Japón y acumular al menos 60 horas de juego entre septiembre de 2024 y septiembre de 2026. Los ganadores podrán comprarla desde el 26 de octubre y habrá una segunda ronda en noviembre.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/hay-tanta-escasez-ps5-pro-que-sony-ha-decidido-hacer-loteria-para-poder-comprarla-japon",
-      "fecha": "10-10-2026 12:00"
+      "titulo": "Microsoft convierte la búsqueda de Windows 11 en un asistente capaz de controlar todo el equipo",
+      "resumen": "Tras su evento de software y hardware, Microsoft rediseña el buscador de Windows 11 con un panel único basado en WinUI 3, sin el gran panel de vista previa y con resultados en una lista compacta. La novedad principal son las acciones integradas: el buscador puede ejecutar peticiones del sistema directamente, a la manera de un agente de IA. El cambio ya se despliega entre los usuarios del programa Windows Insider.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-transforma-busqueda-windows-11-un-asistente-capaz-controlar-todo-equipo_7047522_0.html",
+      "fecha": "10-10-2026 21:25"
     },
     {
-      "titulo": "Sony vende a Meta 43 patentes de realidad virtual y pone en duda el futuro de PlayStation VR",
-      "resumen": "Entre junio y septiembre de 2026 Sony traspasó a Meta 43 patentes de VR, AR y realidad mixta, dentro de un acuerdo de diciembre que abarca 419 patentes. El PS VR2 salió en 2023 a 599,99 euros, pausó su fabricación en marzo de 2024 y bajó a 449,99 en febrero de 2025. Se especula con que no habrá sucesor, aunque Sony no ha anunciado nada.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/sony-tira-la-toalla-con-playstation-vr-dudas-sobre-su-futuro/",
-      "fecha": "10-10-2026 13:00"
+      "titulo": "Google Drive y Docs ya permiten ver y editar archivos Markdown de forma nativa",
+      "resumen": "Drive y Docs aceptan ya archivos .md y .markdown sin convertirlos al formato de Google Docs, una conversión que antes alteraba la maquetación y eliminaba los comentarios. Se pueden abrir, editar, comentar y colaborar sobre el documento original, y un distintivo «.md» junto al nombre indica que conserva su sintaxis. Google sigue así a Microsoft, que integró Markdown en OneDrive a principios de año.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/google-drive-docs-ya-permiten-ver-editar-archivos-markdown-forma-nativa_7047463_0.html",
+      "fecha": "10-10-2026 18:40"
     },
     {
-      "titulo": "Google prepara un nuevo Google TV Streamer con micrófonos y sensor de presencia",
-      "resumen": "Según 9to5Google, Google trabaja en un nuevo modelo, sin fecha de lanzamiento, para competir con los Fire TV Stick de Amazon. Tendría un diseño más estrecho, micrófonos integrados, sensor de presencia y más almacenamiento que los 32 GB actuales. El mando añadiría dos botones de acceso directo aún sin función confirmada.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/streaming-tv/nuevo-google-tv-streamer-fire-tv-stick-chromecast/",
-      "fecha": "10-10-2026 13:02"
-    },
-    {
-      "titulo": "Samsung despliega One UI 9: estos son los Galaxy que ya lo tienen y los que se quedan fuera",
-      "resumen": "One UI 9, sobre Android 17, ya llega a la serie Galaxy S26 y S25, a los plegables Z Fold8, Z Flip8, Z Fold7 y Z Flip7 y a las Tab S12 Ultra y S12+. Según previsiones no confirmadas, los S24 y Z Fold6 lo recibirían en semanas y los S23 en noviembre. Los S22, S21 FE, Z Fold4 y Z Flip4 se quedan sin él por agotar sus cuatro años de soporte.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/basics/actualizacion-a-one-ui-9-para-samsung-galaxy-cuales-estan-actualizados-todos-que-van-a-actualizar",
-      "fecha": "10-10-2026 08:00"
-    },
-    {
-      "titulo": "Google Japón crea un teclado de cinta transportadora para Gboard",
-      "resumen": "Google Japón presentó una broma sin venta al público: un teclado Gboard de cinta transportadora, con planos disponibles en GitHub. La tradición de estos prototipos arrancó el 1 de abril de 2010 y desde 2016 se publican el 1 de octubre. Entre los anteriores hay un teclado Morse de una tecla (2012), uno de teléfono de disco (2025) y uno de cinta de Möbius (2024).",
+      "titulo": "Un fallo de Android Auto afecta a las llamadas en móviles plegables",
+      "resumen": "Usuarios de plegables, sobre todo Motorola Razr Ultra 60 y 70 con Android 16, informan de que las llamadas salientes por Android Auto fallan con el móvil cerrado, con un aviso de «abrir para continuar». Varios sitúan el inicio del problema al empezar a usar Gemini, y ya se vio algo parecido en un Galaxy Z Flip 7. Google y Motorola lo investigan y de momento la única solución es llamar con el teléfono abierto.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2282903/google-japan-gboard-conveyor-belt-keyboard-dying-to-try/",
-      "fecha": "10-10-2026 15:15"
+      "enlace": "https://www.engadget.com/2280033/android-auto-bug-affecting-foldable-phones-calling/",
+      "fecha": "10-10-2026 20:45"
+    },
+    {
+      "titulo": "Petra Power quiere modernizar la energía de centros de datos y vehículos de defensa",
+      "resumen": "La startup, fundada en 2017 y dirigida por Aaron Goodman, vende pilas de combustible de óxido sólido que generan electricidad a partir de gas natural sin quemarlo. Con 15 empleados, ha logrado cerca de 9 millones de dólares en contratos del Departamento de Defensa y busca clientes de centros de datos, con un primer despliegue previsto para 2028 y producción a gran escala en 2029.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
+      "fecha": "10-10-2026 19:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Si la pregunta es si África tuvo un \"rascacielos\" hace 2.800 años, la respuesta de las matemáticas es que, técnicamente, sí",
+      "titulo": "En 1971, Québec inundó 11.500 km² de bosque para crear un megaembalse y, sin saberlo, envenenó a un pueblo entero",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/pregunta-africa-tuvo-rascacielos-hace-2-800-anos-respuesta-matematicas-que-tecnicamente",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/1971-quebec-inundo-11-500-km2-bosque-para-crear-megaembalse-saberlo-enveneno-a-pueblo-entero",
       "fecha": "10-10-2026"
     },
     {
-      "titulo": "Así funciona ViVeTool, la herramienta gratuita que permite activar funciones ocultas de Windows",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/guias/vivetool-activar-funciones-ocultas-windows/",
-      "fecha": "10-10-2026"
-    },
-    {
-      "titulo": "Si tu móvil tiene estas aplicaciones instaladas, revisa cuánto espacio están ocupando",
+      "titulo": "Digi puede cortarte la TV sin que puedas reclamar por saltarte esta limitación: “implicará la baja inmediata del servicio”",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/moviles/si-tu-movil-tiene-estas-aplicaciones-instaladas-revisa-cuanto-espacio-estan-ocupando/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-cortar-television-saltar-condiciones/",
       "fecha": "10-10-2026"
     },
     {
-      "titulo": "Chrome revolucionará la búsqueda de pestañas al reunir las de todos tus dispositivos en un mismo lugar",
+      "titulo": "Microsoft salvará tus correos: la nueva función de Outlook evitará tus erratas más vergonzosas",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/chrome-revolucionara-busqueda-pestanas-reunir-las-todos-tus-dispositivos-un-mismo-lugar_7047447_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-salvara-tus-correos-nueva-funcion-outlook-evitara-tus-erratas-mas-vergonzosas_7047512_0.html",
       "fecha": "10-10-2026"
     },
     {
-      "titulo": "Unos científicos dicen que llevábamos años calculando mal el polvo del hielo marciano. Y eso cambia lo que sabemos sobre su habitabilidad",
+      "titulo": "Tiene dos toneladas de vaqueros y 4.000 cintas VHS en las paredes: parece un adosado más, pero esta casa está hecha de residuos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/todo-apunta-a-que-hielo-marte-esta-mucho-limpio-que-creiamos-eso-tiene-implicaciones-busqueda-vida",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/tiene-dos-toneladas-vaqueros-4-000-cintas-vhs-paredes-parece-adosado-esta-casa-esta-hecha-residuos",
       "fecha": "10-10-2026"
     },
     {
-      "titulo": "Mañana llega a Movistar Plus una película de fantasía del director de Gattaca y El show de Truman",
+      "titulo": "Mercadona acepta el reto de Lidl para competir con dos nuevos supermercados: tienen obrador central y sección de pescadería",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/object-pelicula-fantasia-movistar-plus-andrew-niccol/",
+      "enlace": "https://www.adslzone.net/noticias/internet/mercadona-tienda-tenerife-carmona-obrador-pescaderia/",
       "fecha": "10-10-2026"
     },
     {
-      "titulo": "Viktor Frankl, psiquiatra y neurólogo, sobre las segundas oportunidades: \"Vive como si vivieras una segunda vez, y como si te hubieras equivocado la primera vez\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/viktor-frankl-psiquiatra-neurologo-sobre-las-segundas-oportunidades-vive-como-si-vivieras-una-segunda-vez-como-si-te-hubieras-equivocado-primera-vez_7037936_0.html",
-      "fecha": "10-10-2026"
-    },
-    {
-      "titulo": "Sin luz, sin radio y bajo la amenaza de los drones, los petroleros están cruzando el estrecho de Ormuz prácticamente a ciegas",
+      "titulo": "Por qué faltan diez días en el calendario de tu móvil si viajas hasta octubre de 1582",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/energia/luz-radio-amenaza-drones-petroleros-estan-cruzando-estrecho-ormuz-practicamente-a-ciegas",
+      "enlace": "https://www.xataka.com/aplicaciones/que-faltan-diez-dias-calendario-tu-movil-viajas-octubre-1582",
       "fecha": "10-10-2026"
     },
     {
-      "titulo": "Por qué el streaming falla en Digi aunque tengas internet y cómo puedes solucionarlo",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/streaming-no-carga-digi-fallo-vpn/",
-      "fecha": "10-10-2026"
-    },
-    {
-      "titulo": "El Traductor de Google prepara una función que corrige lo que dices antes de traducirlo",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/traductor-google-prepara-una-funcion-que-corrige-que-dices-antes-traducirlo_7047437_0.html",
-      "fecha": "10-10-2026"
-    },
-    {
-      "titulo": "Lo mejor que le puede pasar a un arándano es que se lo coma un lobo",
+      "titulo": "En 1945, EEUU gastó una fortuna intentando crear un \"superperro\": 500 cachorros y 13 años después descubrieron el problema",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/mejor-que-le-puede-pasar-a-arandano-que-se-coma-lobo",
+      "enlace": "https://www.xataka.com/magnet/1945-eeuu-gasto-fortuna-intentando-crear-superperro-500-cachorros-13-anos-despues-descubrieron-problema",
       "fecha": "10-10-2026"
     },
     {
-      "titulo": "Movistar te da 20 días para guardar tus fotos y vídeos en la nube si te vas, pero tienes una última oportunidad hasta el día 60",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-cloud-condiciones-almacenamiento/",
-      "fecha": "10-10-2026"
-    },
-    {
-      "titulo": "¿Qué significa el símbolo de prohibido en la barra de notificaciones en un móvil Samsung?",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/que-significa-simbolo-prohibido-barra-notificaciones-un-movil-samsung_7042626_0.html",
-      "fecha": "10-10-2026"
-    },
-    {
-      "titulo": "Intentó robar un radar subido a un patinete y ahora se enfrenta a una pena de dos a cuatro años de cárcel",
+      "titulo": "Dormir 80 minutos menos durante seis semanas nos hace engordar, según un nuevo estudio",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/intento-robar-radar-subido-a-patinete-ahora-se-enfrenta-a-pena-dos-a-cuatro-anos-carcel",
-      "fecha": "10-10-2026"
-    },
-    {
-      "titulo": "El nuevo Google TV Streamer ya está en desarrollo: incorporará micrófonos y sensor de presencia para revolucionar tu salón",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/nuevo-google-tv-streamer-ya-esta-desarrollo-incorporara-microfonos-sensor-presencia-para-revolucionar-tu-salon_7047420_0.html",
+      "enlace": "https://www.xataka.com/medicina-y-salud/dormir-80-minutos-durante-seis-semanas-nos-hace-engordar-nuevo-estudio",
       "fecha": "10-10-2026"
     }
   ]
