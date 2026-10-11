@@ -1,98 +1,145 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "11-10-2026 04:16",
+  "actualizado": "11-10-2026 16:17",
   "destacadas": [
     {
-      "titulo": "Un implante espía en carteras Ledger manipuladas apunta a un ataque a la cadena de suministro de 86 millones de dólares",
-      "resumen": "Han ido sumándose denuncias de usuarios de Ledger a los que han vaciado sus cuentas, y todo apunta a hardware manipulado vendido por CryptoBillis. Ledger confirma que uno de los dispositivos afectados contenía «un implante de hardware no autorizado» y ha pedido a CryptoBillis que pare todas las ventas mientras investiga. Fotos y vídeos publicados en X y Threads muestran una pequeña placa de circuito colocada bajo la pantalla.",
+      "titulo": "Paramount cierra la compra de Warner Bros. Discovery tras superar a Netflix",
+      "resumen": "La fusión se completó el 6 de octubre de 2026 y la nueva compañía pasa a llamarse Skydance, con unos ingresos anuales cercanos a los 70.000 millones de dólares. Paramount ganó la puja en febrero con 111.000 millones por todos los activos, frente a los 82.700 millones de la oferta de Netflix, y asumirá unos 33.000 millones de deuda de WBD. Un juez dio luz verde en septiembre tras la demanda de 12 fiscales generales estatales.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/11/warner-bros-netflix-paramount-acquisition-timeline-wbd/",
+      "fecha": "11-10-2026 16:15"
+    },
+    {
+      "titulo": "Google firma 20 años de energía nuclear con Constellation para sus centros de datos",
+      "resumen": "El contrato añade 890 MW de nueva capacidad a la red de PJM Interconnection, con una inversión superior a 4.300 millones de dólares en reactores de Illinois, Pensilvania y Nueva Jersey. La potencia equivale a un reactor nuevo de gran tamaño. Google ofrecerá además a Constellation sus servicios de Google Cloud y Gemini Enterprise.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/google-se-asegura-20-anos-energia-nuclear-para-alimentar-sus-centros-datos",
+      "fecha": "11-10-2026 14:30"
+    },
+    {
+      "titulo": "Apple presenta el martes su evento «Welcome Home», centrado en el hogar inteligente",
+      "resumen": "El evento será el 13 de octubre en Tribeca, Nueva York, a las 9:00 ET. Se espera un nuevo dispositivo de hogar con pantalla y Siri con IA, actualizaciones del Apple TV 4K y el HomePod mini, y accesorios como una cerradura y un termostato desarrollados con LG y Schneider. Apple no ha confirmado qué anunciará.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
-      "fecha": "10-10-2026 18:36"
+      "enlace": "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home",
+      "fecha": "11-10-2026 15:00"
     },
     {
-      "titulo": "Cloudflare adquiere Deno para mejorar su modelo de programación de Workers",
-      "resumen": "Cloudflare anunció el 10 de octubre la compra de Deno, la startup detrás del entorno de ejecución del mismo nombre, sin revelar las condiciones económicas. Deno, cofundada por Bert Belder y Ryan Dahl (creador de Node.js), había captado 26 millones de dólares, con una Serie A liderada por Sequoia. Dahl asegura que su equipo se une a Cloudflare para convertir el modelo de Workers en una forma habitual de construir servidores.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
-      "fecha": "10-10-2026 18:25"
+      "titulo": "Investigadores logran controlar dónde crecen los cristales de semiconductores 2D para chips futuros",
+      "resumen": "El equipo del KAIST y la startup TDS Innovation publicó en Nature el 7 de octubre un método con disulfuro de molibdeno (MoS₂) que usa oxígeno de una barrera de óxido para que los cristales solo se formen en el centro de cada zona. Sobre un sustrato de dos centímetros obtuvieron cristales individuales en 397 de 400 sitios (99,3 %). La empresa apunta a uso comercial hacia 2030, aunque aún no es producción real de chips.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/science/2026/10/11/researchers-work-out-how-to-control-2d-semiconductor-growth-for-future-chips/5301666",
+      "fecha": "11-10-2026 10:30"
     },
     {
-      "titulo": "Microsoft convierte la búsqueda de Windows 11 en un asistente capaz de controlar todo el equipo",
-      "resumen": "Tras su evento de software y hardware, Microsoft rediseña el buscador de Windows 11 con un panel único basado en WinUI 3, sin el gran panel de vista previa y con resultados en una lista compacta. La novedad principal son las acciones integradas: el buscador puede ejecutar peticiones del sistema directamente, a la manera de un agente de IA. El cambio ya se despliega entre los usuarios del programa Windows Insider.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/microsoft-transforma-busqueda-windows-11-un-asistente-capaz-controlar-todo-equipo_7047522_0.html",
-      "fecha": "10-10-2026 21:25"
-    },
-    {
-      "titulo": "Google Drive y Docs ya permiten ver y editar archivos Markdown de forma nativa",
-      "resumen": "Drive y Docs aceptan ya archivos .md y .markdown sin convertirlos al formato de Google Docs, una conversión que antes alteraba la maquetación y eliminaba los comentarios. Se pueden abrir, editar, comentar y colaborar sobre el documento original, y un distintivo «.md» junto al nombre indica que conserva su sintaxis. Google sigue así a Microsoft, que integró Markdown en OneDrive a principios de año.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/google-drive-docs-ya-permiten-ver-editar-archivos-markdown-forma-nativa_7047463_0.html",
-      "fecha": "10-10-2026 18:40"
-    },
-    {
-      "titulo": "Un fallo de Android Auto afecta a las llamadas en móviles plegables",
-      "resumen": "Usuarios de plegables, sobre todo Motorola Razr Ultra 60 y 70 con Android 16, informan de que las llamadas salientes por Android Auto fallan con el móvil cerrado, con un aviso de «abrir para continuar». Varios sitúan el inicio del problema al empezar a usar Gemini, y ya se vio algo parecido en un Galaxy Z Flip 7. Google y Motorola lo investigan y de momento la única solución es llamar con el teléfono abierto.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2280033/android-auto-bug-affecting-foldable-phones-calling/",
-      "fecha": "10-10-2026 20:45"
-    },
-    {
-      "titulo": "Petra Power quiere modernizar la energía de centros de datos y vehículos de defensa",
-      "resumen": "La startup, fundada en 2017 y dirigida por Aaron Goodman, vende pilas de combustible de óxido sólido que generan electricidad a partir de gas natural sin quemarlo. Con 15 empleados, ha logrado cerca de 9 millones de dólares en contratos del Departamento de Defensa y busca clientes de centros de datos, con un primer despliegue previsto para 2028 y producción a gran escala en 2029.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
-      "fecha": "10-10-2026 19:00"
+      "titulo": "Honda propone carreteras que carguen de forma inalámbrica los vehículos eléctricos en marcha",
+      "resumen": "Honda, junto con Taisei Corporation y Taisei Rotec, ha desarrollado una carga inalámbrica dinámica para vehículos logísticos eléctricos; en una pista privada el firme aguantó tráfico de unas 20 toneladas. Prevé probar hasta 150 kW en 300 metros de autopista japonesa desde el año fiscal 2027. Suecia y Francia ya tienen tramos similares, de 1,65 km y hasta 300 kW.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/recarga-gran-freno-transporte-electrico-asi-que-honda-propone-carretera-que-sea-cargador-inalambrico",
+      "fecha": "11-10-2026 12:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "En 1971, Québec inundó 11.500 km² de bosque para crear un megaembalse y, sin saberlo, envenenó a un pueblo entero",
+      "titulo": "Las carreras de las elecciones de mitad de mandato que decidirán el futuro político de los centros de datos",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/midterm-races-decide-data-centers-political-fate/",
+      "fecha": "11-10-2026"
+    },
+    {
+      "titulo": "Cuál es el dispositivo Samsung más antiguo que sigue recibiendo actualizaciones de software en 2026",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2280584/oldest-samsung-device-still-gets-software-updates-2026/",
+      "fecha": "11-10-2026"
+    },
+    {
+      "titulo": "Tiene 16 episodios y lleva ocho años en Netflix: en cuatro semanas dejará de estar disponible",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/1971-quebec-inundo-11-500-km2-bosque-para-crear-megaembalse-saberlo-enveneno-a-pueblo-entero",
-      "fecha": "10-10-2026"
+      "enlace": "https://www.xataka.com/cine-y-tv/tiene-16-episodios-lleva-ocho-anos-netflix-cuatro-semanas-dejara-estar-disponible",
+      "fecha": "11-10-2026"
     },
     {
-      "titulo": "Digi puede cortarte la TV sin que puedas reclamar por saltarte esta limitación: “implicará la baja inmediata del servicio”",
+      "titulo": "¿Pasas demasiado tiempo en Instagram y TikTok? Este ajuste de Android es la solución",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/como-poner-temporizadores-a-las-apps-de-android/",
+      "fecha": "11-10-2026"
+    },
+    {
+      "titulo": "Movistar Plus estrena mañana la película protagonizada por Keanu Reeves exclusiva de Apple TV",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/digi-cortar-television-saltar-condiciones/",
-      "fecha": "10-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/operadores/outcome-pelicula-keanu-reeves-movistar-plus-apple-tv/",
+      "fecha": "11-10-2026"
     },
     {
-      "titulo": "Microsoft salvará tus correos: la nueva función de Outlook evitará tus erratas más vergonzosas",
+      "titulo": "Se acabó no saber dónde comer: Google Maps estrena una iniciativa para encontrar justo lo que te apetece",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/microsoft-salvara-tus-correos-nueva-funcion-outlook-evitara-tus-erratas-mas-vergonzosas_7047512_0.html",
-      "fecha": "10-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/movilidad/se-acabo-no-saber-donde-comer-google-maps-estrena-una-iniciativa-para-encontrar-justo-que-te-apetece_7047633_0.html",
+      "fecha": "11-10-2026"
     },
     {
-      "titulo": "Tiene dos toneladas de vaqueros y 4.000 cintas VHS en las paredes: parece un adosado más, pero esta casa está hecha de residuos",
+      "titulo": "He viajado en el primer y único maglev comercial de alta velocidad del mundo: del centro de Shanghai al aeropuerto en 7 minutos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/tiene-dos-toneladas-vaqueros-4-000-cintas-vhs-paredes-parece-adosado-esta-casa-esta-hecha-residuos",
-      "fecha": "10-10-2026"
+      "enlace": "https://www.xataka.com/movilidad/he-viajado-primer-unico-maglev-comercial-alta-velocidad-mundo-centro-shanghai-al-aeropuerto-7-minutos",
+      "fecha": "11-10-2026"
     },
     {
-      "titulo": "Mercadona acepta el reto de Lidl para competir con dos nuevos supermercados: tienen obrador central y sección de pescadería",
+      "titulo": "Windows 11 tiene un truco poco conocido para evitar que otros usen tu PC",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/software/windows-11-bloqueo-automatico-pc/",
+      "fecha": "11-10-2026"
+    },
+    {
+      "titulo": "No gastes todos tus datos móviles: el ajuste que debes revisar en tu dispositivo",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/mercadona-tienda-tenerife-carmona-obrador-pescaderia/",
-      "fecha": "10-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/moviles/ajustes-movil-no-gastar-datos-moviles/",
+      "fecha": "11-10-2026"
     },
     {
-      "titulo": "Por qué faltan diez días en el calendario de tu móvil si viajas hasta octubre de 1582",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/aplicaciones/que-faltan-diez-dias-calendario-tu-movil-viajas-octubre-1582",
-      "fecha": "10-10-2026"
+      "titulo": "El nuevo widget de Windows 11 te permitirá consultar la batería de todos tus dispositivos a simple vista",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/nuevo-widget-windows-11-te-permitira-consultar-bateria-todos-tus-dispositivos-simple-vista_7047625_0.html",
+      "fecha": "11-10-2026"
     },
     {
-      "titulo": "En 1945, EEUU gastó una fortuna intentando crear un \"superperro\": 500 cachorros y 13 años después descubrieron el problema",
+      "titulo": "La planta solar que va a destronar a Alemania como la más grande de Europa está en el país menos esperado",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/1945-eeuu-gasto-fortuna-intentando-crear-superperro-500-cachorros-13-anos-despues-descubrieron-problema",
-      "fecha": "10-10-2026"
+      "enlace": "https://www.xataka.com/energia/planta-solar-que-va-a-destronar-a-alemania-como-grande-europa-esta-pais-esperado",
+      "fecha": "11-10-2026"
     },
     {
-      "titulo": "Dormir 80 minutos menos durante seis semanas nos hace engordar, según un nuevo estudio",
+      "titulo": "Cuánto dinero se te escapa cada mes en suscripciones: cómo localizarlas desde el móvil y el banco",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/como-identificar-dinero-suscripciones/",
+      "fecha": "11-10-2026"
+    },
+    {
+      "titulo": "Qué significa la luz roja parpadeante en tu Smart TV cuando está apagada: el aviso del fabricante",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/que-significa-luz-roja-parpadeante-tu-smart-tv-cuando-esta-apagada-aviso-fabricante_7043615_0.html",
+      "fecha": "11-10-2026"
+    },
+    {
+      "titulo": "En la Granada del siglo XIX había un hombre que se hacía llamar \"rey de los gitanos\". Los turistas pagaban por hacerse fotos con él",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/dormir-80-minutos-durante-seis-semanas-nos-hace-engordar-nuevo-estudio",
-      "fecha": "10-10-2026"
+      "enlace": "https://www.xataka.com/magnet/granada-siglo-xix-habia-hombre-que-se-llamar-rey-gitanos-turistas-pagaban-hacerse-fotos",
+      "fecha": "11-10-2026"
+    },
+    {
+      "titulo": "Firefox prepara una función para leer la web por ti y ahorrarte tiempo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/firefox-prepara-una-funcion-para-leer-web-por-ti-ahorrarte-tiempo_7047609_0.html",
+      "fecha": "11-10-2026"
+    },
+    {
+      "titulo": "La nostalgia está haciendo que los influencers conviertan en moda de lujo algo que creíamos olvidado: los auriculares con cable",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/audio/nostalgia-2010-esta-haciendo-que-influencers-saquen-cajon-algo-que-creiamos-olvidado-auriculares-cable",
+      "fecha": "11-10-2026"
+    },
+    {
+      "titulo": "Yuping Huang, CEO de Quantum Computing, sobre la computación cuántica: \"Ya está aquí, no se trata de una versión mucho más rápida de tu PC, sino de una forma de computación completamente diferente\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/yuping-huang-ceo-quantum-computing-sobre-computacion-cuantica-ya-esta-aqui-no-se-trata-una-version-mucho-mas-rapida-tu-pc-sino-una-forma-computacion-completamente-diferente_7045977_0.html",
+      "fecha": "11-10-2026"
     }
   ]
 }
