@@ -1,28 +1,85 @@
 {
   "seccion": "ia",
-  "actualizado": "12-10-2026 05:07",
+  "actualizado": "12-10-2026 17:10",
   "destacadas": [
     {
-      "titulo": "Los equipos de agentes de IA gastan muchos más tokens a cambio de mejoras casi imperceptibles, según un estudio",
-      "resumen": "Vals AI comparó GPT-6 Sol y Claude Opus 5.5 trabajando solos y en equipo, con razonamiento medio y máximo, y los equipos costaron entre 1,8 y 5,1 veces más. De cuatro comparaciones, solo una dio una mejora estadísticamente significativa: GPT-6 Sol con razonamiento medio, que sumó 7,3 puntos. Los datos de Anthropic apuntan en la misma línea: pasar de 10 a 100 agentes apenas sube las puntuaciones, y Noam Brown, de OpenAI, resume que los sistemas multiagente aportan velocidad y no calidad.",
+      "titulo": "La Casa Blanca rectifica y devuelve al Instituto de Seguridad de IA británico el acceso a los modelos de frontera",
+      "resumen": "La administración Trump había bloqueado en septiembre el acceso del AISI británico a nuevos modelos de Anthropic, Google DeepMind y OpenAI, y Anthropic llegó a limitar el acceso a Claude Mythos 5.1. Según The Daily Telegraph, el bloqueo se levantó tras la presión diplomática del ministro de IA Kanishka Narayan, que anunciará nuevas medidas de seguridad, como requisitos más estrictos de notificación de incidentes en infraestructuras críticas.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
-      "fecha": "11-10-2026 17:39"
+      "enlace": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+      "fecha": "12-10-2026 15:14"
     },
     {
-      "titulo": "Meloni registra su voz como marca en la UE: cuatro segundos de audio contra los deepfakes",
-      "resumen": "La primera ministra italiana ha solicitado ante la EUIPO el registro de su voz diciendo «Io sono Giorgia Meloni» dos veces, en un clip de cuatro segundos. Si se aprueba, quedaría protegida en los 27 Estados miembros, aunque la marca solo crearía obstáculos legales y no frenaría los deepfakes por sí sola. Italia vota el año que viene y ya han circulado clonaciones de voz en anuncios políticos; antes que ella registraron su voz McConaughey, Taylor Swift y la cantante Giusy Ferreri.",
+      "titulo": "AlphaProof Nexus, de Google DeepMind, resuelve problemas matemáticos abiertos y supera la revisión por pares",
+      "resumen": "El sistema, construido sobre Gemini 3.1 Pro, resolvió nueve de los 353 problemas abiertos de Erdős, dos de ellos sin solución desde hace 56 años, y demostró 44 conjeturas de la base de datos OEIS. Escribe las pruebas en el lenguaje formal Lean, que verifica cada intento, y el estudio se publicó en la revista Science el 12 de octubre de 2026.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+      "fecha": "12-10-2026 11:35"
+    },
+    {
+      "titulo": "La gran paradoja de la IA: creará más empleo del que destruye, pero casi nadie está preparado",
+      "resumen": "McKinsey calcula que la IA podría reducir hasta 2035 una demanda laboral equivalente a 36 millones de empleos en EE. UU.: 25 millones se compensarían cambiando tareas dentro del puesto y 11 millones (6,5% de la población activa) tendrían que cambiar de profesión. En España, un primer estudio estima entre 1,7 y 2,3 millones de empleos desplazados hasta 2035, frente a 1,61 millones de nuevas ocupaciones.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/io-sono-giorgia-meloni-cuatro-segundos-audio-nueva-arma-primera-ministra-italiana-deepfakes",
-      "fecha": "11-10-2026 17:30"
+      "enlace": "https://www.xataka.com/empresas-y-economia/gran-paradoja-ia-que-creara-empleo-que-destruye-problema-que-casi-nadie-esta-preparado",
+      "fecha": "12-10-2026 13:30"
+    },
+    {
+      "titulo": "La IA podría dejar obsoletas a las bandas de hackers humanas, mientras ShinyHunters suma un tercer arrestado",
+      "resumen": "El FBI anunció un tercer arresto vinculado a ShinyHunters tras la brecha de finales de septiembre en sus sistemas; según el NYT, es un canadiense detenido en Pennsylvania, tras los capturados en Países Bajos y Jordania. Además, un investigador de Vulnchek advierte de que una vulnerabilidad del servidor HFS de Rejetto, descubierta por el modelo Mythos de Anthropic, ya se explota, con víctimas sobre todo en EE. UU. y Japón.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/12/imagine-theres-no-shiny-hunters-ai-could-make-human-hacking-crews-obsolete/5302430",
+      "fecha": "12-10-2026 12:27"
+    },
+    {
+      "titulo": "Una exejecutiva de Plaud capta 26 millones para una app de IA que escucha en segundo plano",
+      "resumen": "Ambi, cofundada por Peter Mo, recaudó 26 millones de dólares en varias rondas lideradas por Luminous Ventures, con participación del fabricante Huaqin. Sus apps para iPhone, Mac y Apple Watch toman notas de reuniones y pueden escuchar de forma continua (desactivado por defecto), y planea lanzar un dispositivo propio con pantalla, altavoz, cámara y micrófonos.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "fecha": "12-10-2026 14:47"
     }
   ],
   "titulares": [
     {
-      "titulo": "Philipp Schmid, ingeniero de Google Deepmind: \"Los agentes de IA son solo archivos, y tu arnés de Python es el riesgo\"",
+      "titulo": "El nuevo chip de IA de Microsoft, Maia 300, reduce su dependencia de las GPU de Nvidia",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+      "fecha": "12-10-2026"
+    },
+    {
+      "titulo": "Karpathy, de Anthropic: «el mundo exterior ha visto la vista previa» de lo que la IA puede hacer de verdad",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
+      "fecha": "12-10-2026"
+    },
+    {
+      "titulo": "Amazon tiene más de un millón de robots trabajando: ¿qué pasará con sus empleados humanos?",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+      "fecha": "12-10-2026"
+    },
+    {
+      "titulo": "Ben Affleck tiene una nueva película en la que ha utilizado IA para \"muchas cosas\", pero no te va a decir cuáles",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/cine-y-tv/ben-affleck-tiene-nueva-pelicula-que-ha-utilizado-ia-para-muchas-cosas-no-te-va-a-decir-cuales",
+      "fecha": "12-10-2026"
+    },
+    {
+      "titulo": "Manuel Murcia, experto en IA: \"Con este truco vas a poder limpiar miles de correos comerciales y ordenar tu Gmail por completo en cuestión de segundos\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/philipp-schmid-ingeniero-google-deepmind-los-agentes-ia-son-solo-archivos-tu-arnes-python-es-riesgo_7036992_0.html",
-      "fecha": "11-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/manuel-murcia-experto-ia-con-este-truco-vas-poder-limpiar-miles-correos-comerciales-ordenar-tu-gmail-por-completo-cuestion-segundos_7042126_0.html",
+      "fecha": "12-10-2026"
+    },
+    {
+      "titulo": "El actor de doblaje de Batman y el drama de los derechos de autor: \"Mucho cuidado con lo que le damos gratis a la IA. Volvamos a hacer las cosas bien\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/actor-doblaje-batman-drama-los-derechos-autor-mucho-cuidado-con-que-le-damos-gratis-ia-volvamos-hacer-las-cosas-bien_7038152_0.html",
+      "fecha": "12-10-2026"
+    },
+    {
+      "titulo": "Al Andrade, experto en IA: \"Somos la última generación de programadores; esta habilidad se perderá... Programadores, matemáticos y criptógrafos serán una leyenda\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/andrade-experto-ia-somos-ultima-generacion-programadores-esta-habilidad-se-perdera-programadores-matematicos-criptografos-seran-una-leyenda_7044133_0.html",
+      "fecha": "12-10-2026"
     }
   ]
 }

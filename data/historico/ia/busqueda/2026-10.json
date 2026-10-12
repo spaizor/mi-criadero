@@ -3,6 +3,90 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "La Casa Blanca rectifica y devuelve al Instituto de Seguridad de IA británico el acceso a los modelos de frontera",
+      "fuente": "The Decoder",
+      "fecha": "12-10-2026 15:14",
+      "enlace": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+      "turno": "2026-10-12_T"
+    },
+    {
+      "titulo": "AlphaProof Nexus, de Google DeepMind, resuelve problemas matemáticos abiertos y supera la revisión por pares",
+      "fuente": "The Decoder",
+      "fecha": "12-10-2026 11:35",
+      "enlace": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+      "turno": "2026-10-12_T"
+    },
+    {
+      "titulo": "La gran paradoja de la IA: creará más empleo del que destruye, pero casi nadie está preparado",
+      "fuente": "Xataka",
+      "fecha": "12-10-2026 13:30",
+      "enlace": "https://www.xataka.com/empresas-y-economia/gran-paradoja-ia-que-creara-empleo-que-destruye-problema-que-casi-nadie-esta-preparado",
+      "turno": "2026-10-12_T"
+    },
+    {
+      "titulo": "La IA podría dejar obsoletas a las bandas de hackers humanas, mientras ShinyHunters suma un tercer arrestado",
+      "fuente": "The Register",
+      "fecha": "12-10-2026 12:27",
+      "enlace": "https://www.theregister.com/security/2026/10/12/imagine-theres-no-shiny-hunters-ai-could-make-human-hacking-crews-obsolete/5302430",
+      "turno": "2026-10-12_T"
+    },
+    {
+      "titulo": "Una exejecutiva de Plaud capta 26 millones para una app de IA que escucha en segundo plano",
+      "fuente": "TechCrunch",
+      "fecha": "12-10-2026 14:47",
+      "enlace": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "turno": "2026-10-12_T"
+    },
+    {
+      "titulo": "El nuevo chip de IA de Microsoft, Maia 300, reduce su dependencia de las GPU de Nvidia",
+      "fuente": "The Verge",
+      "fecha": "12-10-2026",
+      "enlace": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+      "turno": "2026-10-12_T"
+    },
+    {
+      "titulo": "Karpathy, de Anthropic: «el mundo exterior ha visto la vista previa» de lo que la IA puede hacer de verdad",
+      "fuente": "The Decoder",
+      "fecha": "12-10-2026",
+      "enlace": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
+      "turno": "2026-10-12_T"
+    },
+    {
+      "titulo": "Amazon tiene más de un millón de robots trabajando: ¿qué pasará con sus empleados humanos?",
+      "fuente": "Ars Technica",
+      "fecha": "12-10-2026",
+      "enlace": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+      "turno": "2026-10-12_T"
+    },
+    {
+      "titulo": "Ben Affleck tiene una nueva película en la que ha utilizado IA para \"muchas cosas\", pero no te va a decir cuáles",
+      "fuente": "Xataka",
+      "fecha": "12-10-2026",
+      "enlace": "https://www.xataka.com/cine-y-tv/ben-affleck-tiene-nueva-pelicula-que-ha-utilizado-ia-para-muchas-cosas-no-te-va-a-decir-cuales",
+      "turno": "2026-10-12_T"
+    },
+    {
+      "titulo": "Manuel Murcia, experto en IA: \"Con este truco vas a poder limpiar miles de correos comerciales y ordenar tu Gmail por completo en cuestión de segundos\"",
+      "fuente": "ComputerHoy",
+      "fecha": "12-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/manuel-murcia-experto-ia-con-este-truco-vas-poder-limpiar-miles-correos-comerciales-ordenar-tu-gmail-por-completo-cuestion-segundos_7042126_0.html",
+      "turno": "2026-10-12_T"
+    },
+    {
+      "titulo": "El actor de doblaje de Batman y el drama de los derechos de autor: \"Mucho cuidado con lo que le damos gratis a la IA. Volvamos a hacer las cosas bien\"",
+      "fuente": "ComputerHoy",
+      "fecha": "12-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/actor-doblaje-batman-drama-los-derechos-autor-mucho-cuidado-con-que-le-damos-gratis-ia-volvamos-hacer-las-cosas-bien_7038152_0.html",
+      "turno": "2026-10-12_T"
+    },
+    {
+      "titulo": "Al Andrade, experto en IA: \"Somos la última generación de programadores; esta habilidad se perderá... Programadores, matemáticos y criptógrafos serán una leyenda\"",
+      "fuente": "ComputerHoy",
+      "fecha": "12-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/andrade-experto-ia-somos-ultima-generacion-programadores-esta-habilidad-se-perdera-programadores-matematicos-criptografos-seran-una-leyenda_7044133_0.html",
+      "turno": "2026-10-12_T"
+    },
+    {
       "titulo": "Los equipos de agentes de IA gastan muchos más tokens a cambio de mejoras casi imperceptibles, según un estudio",
       "fuente": "The Decoder",
       "fecha": "11-10-2026 17:39",
