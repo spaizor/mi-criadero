@@ -1,144 +1,127 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "11-10-2026 16:17",
+  "actualizado": "12-10-2026 04:16",
   "destacadas": [
     {
-      "titulo": "Paramount cierra la compra de Warner Bros. Discovery tras superar a Netflix",
-      "resumen": "La fusión se completó el 6 de octubre de 2026 y la nueva compañía pasa a llamarse Skydance, con unos ingresos anuales cercanos a los 70.000 millones de dólares. Paramount ganó la puja en febrero con 111.000 millones por todos los activos, frente a los 82.700 millones de la oferta de Netflix, y asumirá unos 33.000 millones de deuda de WBD. Un juez dio luz verde en septiembre tras la demanda de 12 fiscales generales estatales.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/11/warner-bros-netflix-paramount-acquisition-timeline-wbd/",
-      "fecha": "11-10-2026 16:15"
-    },
-    {
-      "titulo": "Google firma 20 años de energía nuclear con Constellation para sus centros de datos",
-      "resumen": "El contrato añade 890 MW de nueva capacidad a la red de PJM Interconnection, con una inversión superior a 4.300 millones de dólares en reactores de Illinois, Pensilvania y Nueva Jersey. La potencia equivale a un reactor nuevo de gran tamaño. Google ofrecerá además a Constellation sus servicios de Google Cloud y Gemini Enterprise.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/energia/google-se-asegura-20-anos-energia-nuclear-para-alimentar-sus-centros-datos",
-      "fecha": "11-10-2026 14:30"
-    },
-    {
-      "titulo": "Apple presenta el martes su evento «Welcome Home», centrado en el hogar inteligente",
-      "resumen": "El evento será el 13 de octubre en Tribeca, Nueva York, a las 9:00 ET. Se espera un nuevo dispositivo de hogar con pantalla y Siri con IA, actualizaciones del Apple TV 4K y el HomePod mini, y accesorios como una cerradura y un termostato desarrollados con LG y Schneider. Apple no ha confirmado qué anunciará.",
+      "titulo": "Flock se niega a retirar sus cámaras de una universidad de Illinois y vuelve a descubrirlas cuando las tapan",
+      "resumen": "Elgin Community College instaló seis cámaras de Flock en abril de 2025, pero en septiembre le preocupó que los datos se compartieran con la Patrulla Fronteriza y que se abusara del acceso. Flock rechazó la petición de retirarlas en octubre y no respondió a la oferta de pagar los cinco meses restantes de contrato; el centro las tapó con bolsas de basura y empleados de Flock quitaban las bolsas en cada revisión. Las cámaras se retiraron en abril de este año, al expirar el contrato.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home",
-      "fecha": "11-10-2026 15:00"
+      "enlace": "https://www.theverge.com/tech/1009411/elgin-community-college-flock-safety-cameras",
+      "fecha": "11-10-2026 22:06"
     },
     {
-      "titulo": "Investigadores logran controlar dónde crecen los cristales de semiconductores 2D para chips futuros",
-      "resumen": "El equipo del KAIST y la startup TDS Innovation publicó en Nature el 7 de octubre un método con disulfuro de molibdeno (MoS₂) que usa oxígeno de una barrera de óxido para que los cristales solo se formen en el centro de cada zona. Sobre un sustrato de dos centímetros obtuvieron cristales individuales en 397 de 400 sitios (99,3 %). La empresa apunta a uso comercial hacia 2030, aunque aún no es producción real de chips.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/science/2026/10/11/researchers-work-out-how-to-control-2d-semiconductor-growth-for-future-chips/5301666",
-      "fecha": "11-10-2026 10:30"
+      "titulo": "Un estudio detecta que 19 de 21 coches nuevos envían datos a empresas externas",
+      "resumen": "Investigadores de la Northeastern University analizaron 21 vehículos recientes y 30 apps de fabricantes entre octubre de 2024 y agosto de 2025. Siete apps transmitieron identificadores como el VIN, correos y ubicación precisa a empresas de publicidad y análisis; las cuatro de GM enviaron el VIN a 10 empresas cada una, entre ellas Microsoft y Adobe. De 17 fabricantes contactados, solo Honda pidió a Amplitude que borrara los datos de ubicación.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2281212/new-car-sharing-data-third-party-companies-study-northeastern-university/",
+      "fecha": "12-10-2026 00:45"
     },
     {
-      "titulo": "Honda propone carreteras que carguen de forma inalámbrica los vehículos eléctricos en marcha",
-      "resumen": "Honda, junto con Taisei Corporation y Taisei Rotec, ha desarrollado una carga inalámbrica dinámica para vehículos logísticos eléctricos; en una pista privada el firme aguantó tráfico de unas 20 toneladas. Prevé probar hasta 150 kW en 300 metros de autopista japonesa desde el año fiscal 2027. Suecia y Francia ya tienen tramos similares, de 1,65 km y hasta 300 kW.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/recarga-gran-freno-transporte-electrico-asi-que-honda-propone-carretera-que-sea-cargador-inalambrico",
-      "fecha": "11-10-2026 12:00"
+      "titulo": "El desmontaje de iFixit del Steam Frame: reparable, pero con el ventilador enterrado",
+      "resumen": "iFixit ha desmontado el visor Steam Frame de Valve y concluye que es bastante reparable, aunque el ventilador de refrigeración queda enterrado en el interior. La tienda de piezas no tendrá baterías ni pantallas de repuesto en el lanzamiento. Su precio inicial es de 1.059 dólares, bastante más que el Meta Quest 3.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2281207/steam-frame-teardown-reveals-one-problem-repairs/",
+      "fecha": "11-10-2026 20:30"
+    },
+    {
+      "titulo": "El nuevo Apple TV podría llevar micrófono integrado y un mando con altavoz",
+      "resumen": "Según los últimos rumores, el micrófono permitiría usar Siri sin hablar al mando ni a un HomePod y haría del Apple TV un concentrador doméstico básico. El altavoz del mando serviría para localizarlo con una alerta sonora. Llevaría un chip A19 para Siri con IA y se esperaría que salga el 30 de octubre junto al HomePod Mini renovado.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1009397/apple-tv-refresh-built-in-mic-remote-speaker",
+      "fecha": "11-10-2026 19:31"
+    },
+    {
+      "titulo": "Aurora y Kodiak logran una exención de cinco años para usar balizas en camiones autónomos",
+      "resumen": "La FMCSA ha concedido a Aurora Innovation y Kodiak AI una exención de cinco años para sustituir los triángulos reflectantes, que deben colocarse en 10 minutos, por balizas de alta visibilidad en la cabina, pues un camión sin conductor no puede desplegarlos. Aurora había demandado a los reguladores y el caso llegó al Tribunal de Apelaciones del Distrito de Columbia. En la misma newsletter, Waymo obtuvo un préstamo de 5.000 millones de dólares y Uber acordó comprar ezCater por 2.300 millones.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/11/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/",
+      "fecha": "11-10-2026 18:02"
+    },
+    {
+      "titulo": "Las subastas online resurgen en Japón con lotes de consolas y videojuegos a precios mínimos",
+      "resumen": "Yahoo Auctions lidera el sector frente a Mercari, impulsado por empresas que vacían las casas de coleccionistas fallecidos y venden sus colecciones en lotes. Entre los ejemplos hay un lote de Super Nintendo con títulos raros vendidos muy por debajo de su valor. El artículo recuerda que en España el auge de las subastas empezó en 1999 con Aucland.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/subastas-japon-colecciones-fallecidos-videojuegos-consolas/",
+      "fecha": "11-10-2026 20:03"
     }
   ],
   "titulares": [
     {
-      "titulo": "Las carreras de las elecciones de mitad de mandato que decidirán el futuro político de los centros de datos",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/midterm-races-decide-data-centers-political-fate/",
-      "fecha": "11-10-2026"
-    },
-    {
-      "titulo": "Cuál es el dispositivo Samsung más antiguo que sigue recibiendo actualizaciones de software en 2026",
+      "titulo": "Anbernic prepara la RG DDS, una consola de doble pantalla con proporción ideal para juegos de 3DS",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2280584/oldest-samsung-device-still-gets-software-updates-2026/",
+      "enlace": "https://www.engadget.com/2283296/anbernics-next-dual-screen-handheld-has-the-perfect-aspect-ratio-for-3ds-games/",
       "fecha": "11-10-2026"
     },
     {
-      "titulo": "Tiene 16 episodios y lleva ocho años en Netflix: en cuatro semanas dejará de estar disponible",
+      "titulo": "La NASA vuelca más de 800 GB de datos de Artemis II en internet",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data",
+      "fecha": "11-10-2026"
+    },
+    {
+      "titulo": "El hub doméstico de Apple se llamaría HomeView, según los rumores",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview/",
+      "fecha": "11-10-2026"
+    },
+    {
+      "titulo": "En 1971 soltaron 11 ovejas salvajes en el Parque Nacional del Teide para la caza mayor. Hoy son una pesadilla ecológica",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/cine-y-tv/tiene-16-episodios-lleva-ocho-anos-netflix-cuatro-semanas-dejara-estar-disponible",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/1971-liberaron-11-ovejas-salvajes-parque-nacional-teide-para-caza-mayor-hoy-pesadilla-ecologica",
       "fecha": "11-10-2026"
     },
     {
-      "titulo": "¿Pasas demasiado tiempo en Instagram y TikTok? Este ajuste de Android es la solución",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/como-poner-temporizadores-a-las-apps-de-android/",
-      "fecha": "11-10-2026"
-    },
-    {
-      "titulo": "Movistar Plus estrena mañana la película protagonizada por Keanu Reeves exclusiva de Apple TV",
+      "titulo": "O2 explica por qué no has recibido ninguna compensación, incluso si has tenido alguna incidencia con tu línea",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/outcome-pelicula-keanu-reeves-movistar-plus-apple-tv/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-explica-razones-recibir-compensacion-incidencia/",
       "fecha": "11-10-2026"
     },
     {
-      "titulo": "Se acabó no saber dónde comer: Google Maps estrena una iniciativa para encontrar justo lo que te apetece",
+      "titulo": "Platón, filósofo: \"Existen tres tipos de hombres: amantes de la sabiduría, amantes del honor y amantes de la ganancia\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/movilidad/se-acabo-no-saber-donde-comer-google-maps-estrena-una-iniciativa-para-encontrar-justo-que-te-apetece_7047633_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/platon-filosofo-existen-tres-tipos-hombres-amantes-sabiduria-amantes-honor-amantes-ganancia_7026504_0.html",
       "fecha": "11-10-2026"
     },
     {
-      "titulo": "He viajado en el primer y único maglev comercial de alta velocidad del mundo: del centro de Shanghai al aeropuerto en 7 minutos",
+      "titulo": "Por 8 euros, Lidl vende hoy una lámpara con sensor de movimiento que soluciona un problema cotidiano en casa",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/he-viajado-primer-unico-maglev-comercial-alta-velocidad-mundo-centro-shanghai-al-aeropuerto-7-minutos",
+      "enlace": "https://www.xataka.com/seleccion/8-euros-lidl-vende-hoy-lampara-sensor-movimiento-que-soluciona-problema-cotidiano-casa",
       "fecha": "11-10-2026"
     },
     {
-      "titulo": "Windows 11 tiene un truco poco conocido para evitar que otros usen tu PC",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/software/windows-11-bloqueo-automatico-pc/",
-      "fecha": "11-10-2026"
-    },
-    {
-      "titulo": "No gastes todos tus datos móviles: el ajuste que debes revisar en tu dispositivo",
+      "titulo": "¿Te llaman del prefijo +31? Es de Países Bajos y estas llamadas están circulando en España",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/moviles/ajustes-movil-no-gastar-datos-moviles/",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/prefijo-31-llamadas-espana/",
       "fecha": "11-10-2026"
     },
     {
-      "titulo": "El nuevo widget de Windows 11 te permitirá consultar la batería de todos tus dispositivos a simple vista",
+      "titulo": "Si tu PC con Windows 11 está lleno de basura, haz esto: solo necesitas 10 minutos",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/nuevo-widget-windows-11-te-permitira-consultar-bateria-todos-tus-dispositivos-simple-vista_7047625_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/si-tu-pc-con-windows-11-esta-lleno-basura-haz-esto-solo-necesitas-10-minutos_7043157_0.html",
       "fecha": "11-10-2026"
     },
     {
-      "titulo": "La planta solar que va a destronar a Alemania como la más grande de Europa está en el país menos esperado",
+      "titulo": "Tu VO2 max puede decir más de tu salud que los pasos que das cada día. Tu reloj ya la calcula",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/energia/planta-solar-que-va-a-destronar-a-alemania-como-grande-europa-esta-pais-esperado",
+      "enlace": "https://www.xataka.com/medicina-y-salud/numero-que-tu-reloj-mide-predice-cuanto-viviras-mejor-que-peso-vo2-max",
       "fecha": "11-10-2026"
     },
     {
-      "titulo": "Cuánto dinero se te escapa cada mes en suscripciones: cómo localizarlas desde el móvil y el banco",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/como-identificar-dinero-suscripciones/",
-      "fecha": "11-10-2026"
-    },
-    {
-      "titulo": "Qué significa la luz roja parpadeante en tu Smart TV cuando está apagada: el aviso del fabricante",
+      "titulo": "Android Auto por cable o WiFi: ¿qué es mejor para alargar la vida y la batería de tu móvil?",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/que-significa-luz-roja-parpadeante-tu-smart-tv-cuando-esta-apagada-aviso-fabricante_7043615_0.html",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-por-cable-wifi-que-es-mejor-para-alargar-vida-bateria-tu-movil_7034108_0.html",
       "fecha": "11-10-2026"
     },
     {
-      "titulo": "En la Granada del siglo XIX había un hombre que se hacía llamar \"rey de los gitanos\". Los turistas pagaban por hacerse fotos con él",
+      "titulo": "La profesión más antigua del mundo tiene 40.000 años y está en un yacimiento de Barcelona",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/granada-siglo-xix-habia-hombre-que-se-llamar-rey-gitanos-turistas-pagaban-hacerse-fotos",
+      "enlace": "https://www.xataka.com/magnet/profesion-antigua-mundo-tiene-40-000-anos-esta-yacimiento-barcelona",
       "fecha": "11-10-2026"
     },
     {
-      "titulo": "Firefox prepara una función para leer la web por ti y ahorrarte tiempo",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/firefox-prepara-una-funcion-para-leer-web-por-ti-ahorrarte-tiempo_7047609_0.html",
-      "fecha": "11-10-2026"
-    },
-    {
-      "titulo": "La nostalgia está haciendo que los influencers conviertan en moda de lujo algo que creíamos olvidado: los auriculares con cable",
+      "titulo": "El cuello de botella en la investigación científica actual son los monos: China necesita más y no tiene forma de acceder a ellos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/audio/nostalgia-2010-esta-haciendo-que-influencers-saquen-cajon-algo-que-creiamos-olvidado-auriculares-cable",
-      "fecha": "11-10-2026"
-    },
-    {
-      "titulo": "Yuping Huang, CEO de Quantum Computing, sobre la computación cuántica: \"Ya está aquí, no se trata de una versión mucho más rápida de tu PC, sino de una forma de computación completamente diferente\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/yuping-huang-ceo-quantum-computing-sobre-computacion-cuantica-ya-esta-aqui-no-se-trata-una-version-mucho-mas-rapida-tu-pc-sino-una-forma-computacion-completamente-diferente_7045977_0.html",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/cuello-botella-investigacion-cientifica-actual-monos-china-necesita-no-tiene-forma-acceder-a-ellos",
       "fecha": "11-10-2026"
     }
   ]
