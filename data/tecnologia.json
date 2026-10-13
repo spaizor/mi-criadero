@@ -1,213 +1,170 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "12-10-2026 16:18",
+  "actualizado": "13-10-2026 04:17",
   "destacadas": [
     {
-      "titulo": "Google presenta el Fitbit Edge: pulsera con pantalla, GPS y batería reemplazable",
-      "resumen": "El Fitbit Edge cuesta 179,99 dólares en preventa y llega a las tiendas el 27 de octubre; la edición de Stephen Curry parte de 219,99. Su batería de 65 mAh da un día con cinco minutos de carga y una semana con carga completa, es reemplazable y tiene certificación IP68. Incluye ECG, GPS con un 40 % más de precisión y un Health Coach con Gemini que requiere suscripción Premium.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2283307/googles-sleek-new-fitbit-edge-is-packed-with-health-features-and-a-replaceable-battery/",
-      "fecha": "12-10-2026 15:00"
-    },
-    {
-      "titulo": "Ataques de drones ucranianos a centros de datos de Yandex tumban su nube y sus pagos",
-      "resumen": "Entre el 7 y el 9 de octubre los drones golpearon tres de los cinco centros de datos de Yandex: Sasovo quedó apagado, Kaluga parcialmente, y Vladímir, que sostiene Yandex Pay, fue atacado el 11. Según Netblocks la conectividad de Yandex Cloud cayó al 30 % de lo normal y Yandex Pay seguía caído un día después. Zelenski presentó los ataques como respuesta a los bombardeos rusos contra centros de datos en Kiev.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/12/ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-and-payments-offline/5302577",
-      "fecha": "12-10-2026 15:45"
-    },
-    {
-      "titulo": "Estados Unidos solo construye ya centros de datos: pasan de 24.000 a más de 75.000 millones al año",
-      "resumen": "Según el Census Bureau, el gasto en construir centros de datos en EEUU pasó de unos 24.000 millones de dólares en diciembre de 2023 a más de 75.000 millones anuales en julio de 2026. En abril superaron por primera vez a las oficinas (50.700 frente a 43.800 millones). Aun así, el gasto total en construcción cayó un 3,8 % en julio.",
+      "titulo": "Un ciberataque a los controladores de refrigeración deja a cientos de supermercados franceses con los frigoríficos a 50 °C",
+      "resumen": "En la noche del 11 al 12 de octubre, atacantes manipularon a distancia los controladores de refrigeración de cadenas como Intermarché, E.Leclerc, Coopérative U y Carrefour, y los equipos llegaron a 50 °C durante seis horas. Según la actualización posterior, afectó al menos a 300 tiendas de Intermarché y Netto, más de 100 de Coopérative U y 80 de Carrefour; Danfoss confirmó que los modelos AK-SM800 y AK-SC355 estaban entre los afectados. Por separado, Ahold Delhaize sufrió un incidente en Países Bajos y Bélgica sin relación demostrada.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/unico-que-esta-construyendo-estados-unidos-ahora-centros-datos",
-      "fecha": "12-10-2026 14:00"
+      "enlace": "https://www.xataka.com/seguridad/ciberataque-pone-patas-arriba-frigorificos-supermercados-franceses-otro-incidente-afecta-a-cadenas-europeas",
+      "fecha": "12-10-2026 19:56"
     },
     {
-      "titulo": "Una herramienta que usa la policía geolocaliza fotos de interiores en millones de alquileres de Airbnb",
-      "resumen": "Graylark Technologies añadió a Raven (antes GeoSpy) una función que geolocaliza fotos del interior de viviendas en millones de alquileres de corta duración. La policía de Los Ángeles y el sheriff de Miami-Dade ya compraron acceso. En una demostración, la foto de una lavadora-secadora llevó a un anuncio concreto de Airbnb en Charlotte, Carolina del Norte.",
-      "fuente": "404 Media",
-      "enlace": "https://www.404media.co/cops-can-creep-on-airbnb/",
-      "fecha": "12-10-2026 15:54"
-    },
-    {
-      "titulo": "WhatsApp podría permitir programar mensajes",
-      "resumen": "Una beta de Android (2.26.8.11), detectada por WaBetaInfo, muestra la función, que se activa manteniendo pulsado el botón de enviar. Los mensajes pueden programarse entre 10 minutos y dos semanas antes, funcionan en grupos, se envían aunque el móvil esté sin conexión y mantienen el cifrado de extremo a extremo. Se espera que llegue a más cuentas en las próximas semanas.",
+      "titulo": "Noruega multa con 9,6 millones de dólares a una filial de Microsoft por el uso de datos de usuarios de Grindr",
+      "resumen": "La autoridad noruega de protección de datos impuso 92 millones de coronas a Xandr, la filial publicitaria de Microsoft, por usar datos sensibles de usuarios de Grindr con fines publicitarios sin consentimiento explícito. Las infracciones ocurrieron entre julio de 2018 y abril de 2020 y es la multa más alta de esa autoridad. Xandr tiene tres semanas para apelar.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2283518/whatsapp-users-may-soon-be-able-to-schedule-messages/",
-      "fecha": "12-10-2026 12:44"
+      "enlace": "https://www.engadget.com/2284434/norway-fined-a-microsoft-subsidiary-96-million-for-allegedly-misusing-grindr-user-data/",
+      "fecha": "12-10-2026 20:34"
     },
     {
-      "titulo": "El Omoda 4 llegará en 2027 con versión híbrida de 224 CV y eléctrica de 218 CV",
-      "resumen": "El Omoda 4 llegará en el primer semestre de 2027, tras el Omoda 5, con un precio sin confirmar que se especula inferior a 28.000 euros. La versión híbrida SHS combina un 1.5 turbo de 143 CV con dos motores eléctricos hasta 224 CV; la eléctrica ofrece 218 CV y batería LFP de 67 kWh que carga del 30 al 80 % en unos 22 minutos. Mide 4.424 mm de largo y su maletero supera los 400 litros.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/omoda-4-caracteristicas-precio-ficha-tecnica",
-      "fecha": "12-10-2026 15:30"
-    },
-    {
-      "titulo": "Ultrahuman desarrollará un modelo de edad biológica con la sanidad pública de Abu Dabi",
-      "resumen": "La startup de anillos inteligentes firmó un memorando de dos años con el Centro de Salud Pública de Abu Dabi para validar un modelo que combina biomarcadores clínicos y datos de wearables. Se espera que llegue a toda la población de los Emiratos por plataformas gubernamentales, sin calendario definido. Ultrahuman ha vendido unos 800.000 anillos y los Emiratos suponen el 4-5 % de sus ingresos.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/",
-      "fecha": "12-10-2026 16:09"
-    },
-    {
-      "titulo": "Raspberry Pi Desktop vuelve tras cuatro años con base Debian 13",
-      "resumen": "La nueva edición para PC y Mac Intel se basa en Debian 13 «Trixie», salta Debian 12 y usa el mismo escritorio Wayland de Pi OS 6 con Raspberry Pi Connect. La versión anterior era de 2022 y se basaba en Debian 11. Es solo x86-64, no admite Apple Silicon y quien tenga la versión antigua de 32 bits deberá hacer una instalación limpia.",
+      "titulo": "Microsoft cierra el atajo más sencillo para saltarse la cuenta de Microsoft en Windows 11",
+      "resumen": "Microsoft ha cerrado un atajo que permitía a los usuarios de Windows 11 Home y Pro saltarse la cuenta de Microsoft durante la configuración al pulsar «Learn More». El investigador Bob Pony documentó el fallo y señala que se corrigió en silencio desde el servidor. Quedan otros métodos, pero fuera del alcance del usuario medio.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/10/12/raspberry-pi-desktop-catches-up-with-debian-13-after-4-year-wait/5301693",
-      "fecha": "12-10-2026 10:15"
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/12/windows-11s-easiest-account-bypass-gets-the-microsoft-boot/5302643",
+      "fecha": "12-10-2026 16:56"
+    },
+    {
+      "titulo": "WhatsApp prueba en su beta de Android los mensajes programados, de diez minutos a dos semanas",
+      "resumen": "Según WABetaInfo, algunos usuarios de la beta de Android (versión 2.26.40.7) ya pueden programar mensajes con entre diez minutos y dos semanas de antelación. Se envían aunque el móvil esté desconectado, admiten texto, enlaces, fotos y vídeos y son compatibles con el cifrado de extremo a extremo. No hay fecha de lanzamiento general; Telegram e Instagram ya los ofrecen.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/aplicaciones/whatsapp-quiere-que-podamos-programar-mensajes-funcion-parece-sencilla-cambia-regla-basica-app",
+      "fecha": "12-10-2026 18:30"
+    },
+    {
+      "titulo": "Zavvi cierra su tienda online tras entrar en insolvencia y deja sin reembolso a sus clientes",
+      "resumen": "La tienda de DVD, videojuegos y música Zavvi cesó su actividad el 12 de octubre tras acogerse a un proceso de insolvencia. No atenderá pedidos pendientes, reservas ni devoluciones y pide a quienes ya pagaron que contacten con su banco o proveedor de pagos. Su correo solo envía respuestas automáticas y el catálogo web está bloqueado.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/zavvi-cierra-tienda-online-reembolsos/",
+      "fecha": "12-10-2026 18:01"
+    },
+    {
+      "titulo": "Citroën recupera el 2 CV como concepto eléctrico y anticipa un modelo de serie desde 15.000 euros",
+      "resumen": "Citroën presentó el concepto eléctrico 2 CV en el Salón del Automóvil de París, tras anunciarlo en marzo. La marca anticipa una versión de producción con precio inicial de 15.000 euros y lanzamiento en un plazo de dos años. El original se presentó en 1948.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2284004/citroen-has-brought-back-the-iconic-2-cv-as-an-electric-concept-car/",
+      "fecha": "12-10-2026 18:10"
+    },
+    {
+      "titulo": "Microsoft atribuye a un cambio de configuración la caída del Exchange Admin Center",
+      "resumen": "El 12 de octubre, a las 09:37 UTC, Microsoft reconoció que los administradores veían un «Internal Server Error» al acceder al Exchange Admin Center. La compañía lo atribuyó a un cambio reciente de configuración y revertirlo restableció el servicio antes del fin de la jornada laboral. Publicará un informe preliminar en dos días hábiles y el final la próxima semana.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/saas/2026/10/12/microsoft-blames-a-configuration-change-for-exchange-admin-center-tumble/5302698",
+      "fecha": "12-10-2026 19:55"
     }
   ],
   "titulares": [
     {
-      "titulo": "No Man's Sky llega al iPhone y al iPad",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date",
-      "fecha": "12-10-2026"
-    },
-    {
-      "titulo": "Wired: simularon oscurecer el Sol y salió aún peor de lo que se piensa",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
-      "fecha": "12-10-2026"
-    },
-    {
-      "titulo": "El OnePlus 16, el móvil más interesante de la marca en años",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1009570/oneplus-16-specs-features-china",
-      "fecha": "12-10-2026"
-    },
-    {
-      "titulo": "Google se alía con la app Flo para desarrollar hardware de bienestar",
+      "titulo": "Beats se alía con Pokémon para un altavoz Pill con temática de Pikachu",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2283324/google-teams-up-with-menstrual-health-tracker-flo-to-develop-new-wellness-hardware-and-sync-apps/",
+      "enlace": "https://www.engadget.com/2284137/beats-is-collaborating-with-pokmon-for-a-pikachu-themed-pill-speaker/",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "Google lleva Health Guardian a los Fitbit Air y Edge",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2283270/google-brings-health-guardian-to-the-fitbit-air-and-edge-and-expands-automatic-activity-tracking/",
+      "titulo": "El P.T., clásico de culto del terror perdido, recibe por fin un port para PC",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gaming/2026/10/long-lost-horror-gaming-cult-classic-p-t-gets-a-much-needed-pc-port/",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "Los primeros altavoces inalámbricos de CMF parecen cartones de leche",
+      "titulo": "Elon Musk ha donado más de 276 millones de dólares a campañas republicanas de las legislativas",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1008191/nothing-cmf-speaker-m-s-series-bluetooth-design-customize",
+      "enlace": "https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "UCLA cierra su disputa con Oracle: 3,1 millones en créditos y 1,31 millones de rebaja",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/saas/2026/10/12/ucla-settles-oracle-erp-dispute-with-31m-in-credits-and-131m-wiped-off-the-bill/5302520",
-      "fecha": "12-10-2026"
-    },
-    {
-      "titulo": "Los taxistas de Londres piden a Sadiq Khan frenar los robotaxis",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/personal-tech/2026/10/12/london-cabbies-want-sadiq-khan-to-slam-the-brakes-on-robotaxis/5302595",
-      "fecha": "12-10-2026"
-    },
-    {
-      "titulo": "El Magnetic Connect de Microsoft frente al MagSafe de Apple para portátiles",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2281340/how-microsoft-magnetic-connect-different-from-apple-macbook-magsafe/",
-      "fecha": "12-10-2026"
-    },
-    {
-      "titulo": "Un paquete de internet transportado por palomas sale a subasta en Christie's",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/10/12/pigeon-powered-internet-packet-goes-under-the-hammer-at-christies/5302526",
-      "fecha": "12-10-2026"
-    },
-    {
-      "titulo": "Dentro de la minifábrica donde GM construye su futuro eléctrico",
+      "titulo": "El apagón de Yandex probablemente no frenó a los bots rusos",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1008023/gm-bcdc-ev-battery-factory-china-tesla",
+      "enlace": "https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "Autorizan usar falsas antenas de telefonía para localizar a un productor de Don Lemon",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/",
+      "titulo": "Fitbit Edge, el punto medio de Google entre el Fitbit Air y el Pixel Watch",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/12/fitbit-edge-is-googles-middle-ground-between-fitbit-air-and-pixel-watch/",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "Tras ver lo bien que funciona Ambilight, me lancé a comprar un kit de monitor para jugar. Resulta que es trabajando como más uso le doy",
+      "titulo": "La primera funda de Mechanism para la Switch 2 es tan buena como esperaba",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1008161/mechanism-basecase-switch-2-case-hands-on",
+      "fecha": "12-10-2026"
+    },
+    {
+      "titulo": "Los neumáticos se tiran enteros cuando solo una parte está gastada. Unos investigadores españoles quieren cambiarlo con un diseño modular",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/ver-bien-que-funciona-ambilight-me-lance-a-comprar-kit-monitor-para-jugar-resulta-que-trabajando-como-uso-le-doy",
+      "enlace": "https://www.xataka.com/movilidad/neumaticos-se-tiran-enteros-cuando-solo-parte-esta-gastada-unos-investigadores-espanoles-quieren-cambiarlo-diseno-modular",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "Auracast: el Bluetooth que permite escuchar una misma televisión con varios auriculares a la vez",
+      "titulo": "Google reinventa Fitbit con una pulsera más ligera, inteligente y con 7 días de batería",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/tecnologia/google-fitbit-edge-pulsera-inteligente-xiaomi/",
+      "fecha": "12-10-2026"
+    },
+    {
+      "titulo": "HDMI conectado pero pantalla negra: qué es el handshake y por qué falla con TV, consola y decodificador",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/streaming-tv/que-es-como-funciona-auracast/",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/hdmi-conectado-pantalla-negra-motivos/",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "Google Fitbit Edge: una pulsera con pantalla, GPS y una batería que puedes cambiar",
+      "titulo": "Llega a WhatsApp la función más esperada: programar mensajes desde la app",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/google-fitbit-edge-una-pulsera-con-pantalla-gps-una-bateria-que-puedes-cambiar_7047729_0.html",
+      "enlace": "https://computerhoy.20minutos.es/moviles/llega-whatsapp-funcion-mas-esperada-programar-mensajes-desde-app_7047778_0.html",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "La factura invisible del alzhéimer: las familias españolas soportan cada vez más el coste real de la enfermedad",
+      "titulo": "El Omoda 5 ya es uno de los híbridos más vendidos de nuestro país así que han tomado una decisión radical: mejorarlo",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/espana-enfrenta-factura-invisible-alzheimer-familias-soportan-buena-parte-coste-real-enfermedad",
+      "enlace": "https://www.xataka.com/movilidad/omoda-5-2027-caracteristicas-precio-ficha-tecnica",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "Movistar Plus estrena el thriller español sobre un asesinato cometido hace 80 años",
+      "titulo": "Estos dos juegos se pueden probar gratis y son un plan ideal para tus horas libres",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/bala-movistar-plus-estreno-octubre/",
+      "enlace": "https://www.adslzone.net/noticias/videojuegos/dynasty-warriors-stellar-blade-demos-gratis/",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "Tiny11 se actualiza: cómo instalar Windows 11 26H2 en PC no compatibles",
+      "titulo": "Microsoft admite que no puede contentar a los más de 1.000 millones de usuarios de Windows: \"Cada uno tiene preferencias diferentes\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/tiny11-se-actualiza-como-instalar-windows-11-26h2-pc-no-compatibles_7047781_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-admite-que-no-puede-contentar-los-mas-1-000-millones-usuarios-windows-cada-uno-tiene-preferencias-diferentes_7047822_0.html",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "Francia ya ha tenido 800 horas de electricidad gratis (y hasta de precio negativo) por estos motivos",
+      "titulo": "Creíamos que el plomo llegó a la península Ibérica con los fenicios, pero una aldea de Lleida ya lo fundía casi mil años antes",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/energia/francia-ha-tenido-800-horas-electricidad-gratis-precio-negativo-estos-motivos",
+      "enlace": "https://www.xataka.com/magnet/creiamos-que-plomo-llego-a-peninsula-iberica-fenicios-aldea-lleida-fundia-casi-mil-anos-antes",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "Esta opción del router puede hacer que Chromecast, impresoras y dispositivos domóticos dejen de verse entre sí",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/opcion-router-dispositivos-conectados/",
-      "fecha": "12-10-2026"
-    },
-    {
-      "titulo": "Esto es lo que pasa cuando intentas quitar las pegatinas de un portátil gaming con un secador de 2.000 W",
+      "titulo": "Windows 11 sigue mejorando su modo oscuro y ahora le toca a una herramienta histórica",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/esto-es-que-pasa-cuando-intentas-quitar-las-pegatinas-un-portatil-gaming-con-un-secador-2-000-w_7043763_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/windows-11-sigue-mejorando-su-modo-oscuro-ahora-le-toca-una-herramienta-historica_7047824_0.html",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "Llega a Aldi, el 14 de octubre, el exprimidor recargable para preparar zumos naturales",
+      "titulo": "Hay un misterioso joven de 16 años que recuerda con precisión el 99% de toda su vida",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/llega-a-aldi-14-octubre-exprimidor-recargable-para-preparar-zumos-naturales",
+      "enlace": "https://www.xataka.com/investigacion/hay-joven-16-anos-que-recuerda-casi-cualquier-momento-su-vida-ciencia-tiene-mayor-idea-que",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "El Día de la Hispanidad en la televisión y streaming: a qué hora es y cómo ver el desfile del 12 de octubre",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/streaming-tv/dia-hispanidad-desfile-octubre-horario-television-streaming/",
-      "fecha": "12-10-2026"
-    },
-    {
-      "titulo": "\"No puede haber mayor o menor dominio que el dominio de uno mismo\": Leonardo da Vinci, sobre el autocontrol",
+      "titulo": "Tras clonar Adobe, este desarrollador crea alternativas gratuitas y de código abierto a Microsoft Office",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/no-puede-haber-mayor-menor-dominio-que-dominio-uno-mismo-leonardo-da-vinci-sobre-autocontrol_7040319_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/tras-clonar-adobe-este-desarrollador-crea-alternativas-gratuitas-codigo-abierto-microsoft-office_7047780_0.html",
       "fecha": "12-10-2026"
     },
     {
-      "titulo": "Marruecos está convirtiendo a Casablanca en un distrito financiero que le haga la competenic a Madrid y Barcelona",
+      "titulo": "Carrefour liquida esta tele RGB de 65 pulgadas con Google TV y sonido Onkyo",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/marruecos-esta-convirtiendo-a-casablanca-distrito-financiero-que-compita-madrid-barcelona",
+      "enlace": "https://www.xataka.com/seleccion/carrefour-liquida-esta-tele-rgb-65-pulgadas-google-tv-sonido-onkyo",
+      "fecha": "12-10-2026"
+    },
+    {
+      "titulo": "Tu próximo móvil Android podría copiar una característica de los PC gaming para ganar potencia",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/tu-proximo-movil-android-podria-copiar-una-caracteristica-los-pc-gaming-para-ganar-potencia_7047823_0.html",
       "fecha": "12-10-2026"
     }
   ]
