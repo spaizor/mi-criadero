@@ -1,171 +1,214 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "13-10-2026 04:17",
+  "actualizado": "13-10-2026 16:17",
   "destacadas": [
     {
-      "titulo": "Un ciberataque a los controladores de refrigeración deja a cientos de supermercados franceses con los frigoríficos a 50 °C",
-      "resumen": "En la noche del 11 al 12 de octubre, atacantes manipularon a distancia los controladores de refrigeración de cadenas como Intermarché, E.Leclerc, Coopérative U y Carrefour, y los equipos llegaron a 50 °C durante seis horas. Según la actualización posterior, afectó al menos a 300 tiendas de Intermarché y Netto, más de 100 de Coopérative U y 80 de Carrefour; Danfoss confirmó que los modelos AK-SM800 y AK-SC355 estaban entre los afectados. Por separado, Ahold Delhaize sufrió un incidente en Países Bajos y Bélgica sin relación demostrada.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/ciberataque-pone-patas-arriba-frigorificos-supermercados-franceses-otro-incidente-afecta-a-cadenas-europeas",
-      "fecha": "12-10-2026 19:56"
-    },
-    {
-      "titulo": "Noruega multa con 9,6 millones de dólares a una filial de Microsoft por el uso de datos de usuarios de Grindr",
-      "resumen": "La autoridad noruega de protección de datos impuso 92 millones de coronas a Xandr, la filial publicitaria de Microsoft, por usar datos sensibles de usuarios de Grindr con fines publicitarios sin consentimiento explícito. Las infracciones ocurrieron entre julio de 2018 y abril de 2020 y es la multa más alta de esa autoridad. Xandr tiene tres semanas para apelar.",
+      "titulo": "Apple presenta HomeView, un hub de 299 $, el HomePod mini 2 y una gama de cámaras, timbres y cerraduras",
+      "resumen": "HomeView es una pantalla táctil de 7 pulgadas con chip A18 y cámara de 12 MP, a 299 $ en versión de sobremesa o de pared, con envío el 13 de noviembre. El HomePod mini 2 (chip S10, 149 $) estará disponible el 30 de octubre y el nuevo Apple TV 4K con chip A19 sube a 299 $. La Home Collection suma una cámara interior de 200 $, una exterior de 300 $, un timbre de 250 $ y una cerradura de 350 $, con llegada entre diciembre y principios de 2027.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2284434/norway-fined-a-microsoft-subsidiary-96-million-for-allegedly-misusing-grindr-user-data/",
-      "fecha": "12-10-2026 20:34"
+      "enlace": "https://www.engadget.com/2285079/everything-apple-announced-home-view-homepod-mini-2-event/",
+      "fecha": "13-10-2026 15:05"
     },
     {
-      "titulo": "Microsoft cierra el atajo más sencillo para saltarse la cuenta de Microsoft en Windows 11",
-      "resumen": "Microsoft ha cerrado un atajo que permitía a los usuarios de Windows 11 Home y Pro saltarse la cuenta de Microsoft durante la configuración al pulsar «Learn More». El investigador Bob Pony documentó el fallo y señala que se corrigió en silencio desde el servidor. Quedan otros métodos, pero fuera del alcance del usuario medio.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/10/12/windows-11s-easiest-account-bypass-gets-the-microsoft-boot/5302643",
-      "fecha": "12-10-2026 16:56"
-    },
-    {
-      "titulo": "WhatsApp prueba en su beta de Android los mensajes programados, de diez minutos a dos semanas",
-      "resumen": "Según WABetaInfo, algunos usuarios de la beta de Android (versión 2.26.40.7) ya pueden programar mensajes con entre diez minutos y dos semanas de antelación. Se envían aunque el móvil esté desconectado, admiten texto, enlaces, fotos y vídeos y son compatibles con el cifrado de extremo a extremo. No hay fecha de lanzamiento general; Telegram e Instagram ya los ofrecen.",
+      "titulo": "Netflix se hace con los derechos del Mundial 2030 en España y emitirá los 104 partidos",
+      "resumen": "Netflix tendrá la exclusiva del torneo en España y Andorra, con los 104 partidos en directo, previas y resúmenes diarios. Cederá un paquete a una cadena en abierto que incluirá todos los partidos de España, las semifinales y la final, y asegura un partido gratuito por jornada. Se desconoce qué cadena será y si subirá precios.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/aplicaciones/whatsapp-quiere-que-podamos-programar-mensajes-funcion-parece-sencilla-cambia-regla-basica-app",
-      "fecha": "12-10-2026 18:30"
+      "enlace": "https://www.xataka.com/streaming/netflix-se-hace-derechos-mundial-2030-espana-emitira-104-partidos-para-sus-suscriptores",
+      "fecha": "13-10-2026 14:07"
     },
     {
-      "titulo": "Zavvi cierra su tienda online tras entrar en insolvencia y deja sin reembolso a sus clientes",
-      "resumen": "La tienda de DVD, videojuegos y música Zavvi cesó su actividad el 12 de octubre tras acogerse a un proceso de insolvencia. No atenderá pedidos pendientes, reservas ni devoluciones y pide a quienes ya pagaron que contacten con su banco o proveedor de pagos. Su correo solo envía respuestas automáticas y el catálogo web está bloqueado.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/zavvi-cierra-tienda-online-reembolsos/",
-      "fecha": "12-10-2026 18:01"
+      "titulo": "Nvidia dejaría de fabricar la RTX 5090 y destinaría su chip GB202 a centros de datos, según una filtración",
+      "resumen": "Dos filtradores aseguran que Nvidia ha parado la RTX 5090, también las versiones para China, y que el chip GB202 irá a productos profesionales y de IA, mucho más rentables. La compañía no lo ha confirmado. La tarjeta salió en enero de 2025 a 2.369 euros y ya se ve por debajo de 6.000 euros en terceros, con la escasez de RAM como factor clave.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/componentes/nvidia-deja-fabricar-rtx-5090-tarjeta-potente-para-jugadores-filtracion-su-chip-ira-destinado-a-ia",
+      "fecha": "13-10-2026 12:45"
     },
     {
-      "titulo": "Citroën recupera el 2 CV como concepto eléctrico y anticipa un modelo de serie desde 15.000 euros",
-      "resumen": "Citroën presentó el concepto eléctrico 2 CV en el Salón del Automóvil de París, tras anunciarlo en marzo. La marca anticipa una versión de producción con precio inicial de 15.000 euros y lanzamiento en un plazo de dos años. El original se presentó en 1948.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2284004/citroen-has-brought-back-the-iconic-2-cv-as-an-electric-concept-car/",
-      "fecha": "12-10-2026 18:10"
-    },
-    {
-      "titulo": "Microsoft atribuye a un cambio de configuración la caída del Exchange Admin Center",
-      "resumen": "El 12 de octubre, a las 09:37 UTC, Microsoft reconoció que los administradores veían un «Internal Server Error» al acceder al Exchange Admin Center. La compañía lo atribuyó a un cambio reciente de configuración y revertirlo restableció el servicio antes del fin de la jornada laboral. Publicará un informe preliminar en dos días hábiles y el final la próxima semana.",
+      "titulo": "La contraseña «123456» abrió la brecha del registro de población de Dinamarca, con 8,8 millones de afectados",
+      "resumen": "Quien se atribuye el ataque dice haber entrado por la cuenta de una empresa informática, Pays ApS, protegida con «123456»; Politiken cuenta que al menos tres cuentas, una de administrador, la usaban. Entre el 10 y el 20 de septiembre se hicieron unas 14 millones de consultas automáticas, y la intrusión no se detectó hasta el 2 de octubre. El Gobierno confirmó la brecha el 5 de octubre.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/saas/2026/10/12/microsoft-blames-a-configuration-change-for-exchange-admin-center-tumble/5302698",
-      "fecha": "12-10-2026 19:55"
+      "enlace": "https://www.theregister.com/security/2026/10/13/123456-password-linked-to-denmark-data-breach-affecting-88m-people/5302726",
+      "fecha": "13-10-2026 13:14"
+    },
+    {
+      "titulo": "Getty Images se declarará en quiebra para volverse privada tras fracasar la fusión con Shutterstock",
+      "resumen": "Getty ha asegurado 533 millones de dólares de la familia Getty y la firma de Charles Koch para reducir deuda y pasar a manos privadas mediante un Chapter 11 prepactado en las próximas semanas. La deuda superaba los 1.300 millones al 30 de junio. En julio abandonó la fusión de 3.700 millones con Shutterstock por las restricciones del regulador británico.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/business/1009893/getty-images-bankruptcy-private-plans-agreement",
+      "fecha": "13-10-2026 15:11"
+    },
+    {
+      "titulo": "El auge de centros de datos en Europa disparará la factura eléctrica si los gobiernos no intervienen, avisa Moody's",
+      "resumen": "Según Moody's, los centros de datos usaban en 2025 en torno al 2,5 % de la electricidad en los grandes mercados europeos; en 2035 podrían llegar al 17 % en Países Bajos y al 30 % en Irlanda, que ya está en el 23 %. La UE quiere triplicar su capacidad en cinco a siete años. La agencia prevé más intervención pública, desde garantías financieras para las conexiones hasta topes de precio.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/on-prem/2026/10/13/european-datacenter-boom-threatens-higher-energy-bills-unless-governments-intervene/5302583",
+      "fecha": "13-10-2026 12:30"
+    },
+    {
+      "titulo": "Hackers crean Overdrive, una falsa PS Store para PS5 con jailbreak que ofrece juegos de pago gratis",
+      "resumen": "Overdrive imita la interfaz de la tienda oficial con fichas, valoraciones y tamaños de descarga, pero sin precios: títulos como Battlefield 6, Forza Horizon 5 o Black Myth: Wukong salen a 0 euros. Insider Gaming no pudo verificar su funcionamiento real. El artículo advierte del riesgo de malware en este tipo de software pirata.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/hackers-crean-una-ps-store-para-playstation-5-practicamente-identica-original-pero-con-una-gran-diferencia-todo-contenido-es-gratis_7048065_0.html",
+      "fecha": "13-10-2026 15:44"
+    },
+    {
+      "titulo": "Google incluirá una terminal Linux en Googlebook OS, con Debian, apt, git y ssh",
+      "resumen": "Googlebook OS, sucesor de Chrome OS, traerá preinstalada una terminal que ejecuta una máquina virtual Linux aislada, sin necesidad de crear una partición como en Chrome OS. Permitirá usar Debian y herramientas como apt, git y ssh, además de Python y Node.js. Está en fase preliminar y Google irá añadiendo funciones; los primeros Googlebook llegan este otoño.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/google-anuncia-una-nueva-terminal-linux-para-googlebook-os-compatible-con-python-node-js-git-ssh_7047943_0.html",
+      "fecha": "13-10-2026 12:15"
     }
   ],
   "titulares": [
     {
-      "titulo": "Beats se alía con Pokémon para un altavoz Pill con temática de Pikachu",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2284137/beats-is-collaborating-with-pokmon-for-a-pikachu-themed-pill-speaker/",
-      "fecha": "12-10-2026"
-    },
-    {
-      "titulo": "El P.T., clásico de culto del terror perdido, recibe por fin un port para PC",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gaming/2026/10/long-lost-horror-gaming-cult-classic-p-t-gets-a-much-needed-pc-port/",
-      "fecha": "12-10-2026"
-    },
-    {
-      "titulo": "Elon Musk ha donado más de 276 millones de dólares a campañas republicanas de las legislativas",
+      "titulo": "Discovery Plus se encarece",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations",
-      "fecha": "12-10-2026"
+      "enlace": "https://www.theverge.com/streaming/1009994/discovery-plus-price-increase",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "El apagón de Yandex probablemente no frenó a los bots rusos",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk",
-      "fecha": "12-10-2026"
-    },
-    {
-      "titulo": "Fitbit Edge, el punto medio de Google entre el Fitbit Air y el Pixel Watch",
+      "titulo": "India retrasa la comisión en pagos digitales ante la presión de los comercios",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/12/fitbit-edge-is-googles-middle-ground-between-fitbit-air-and-pixel-watch/",
-      "fecha": "12-10-2026"
+      "enlace": "https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "La primera funda de Mechanism para la Switch 2 es tan buena como esperaba",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1008161/mechanism-basecase-switch-2-case-hands-on",
-      "fecha": "12-10-2026"
+      "titulo": "Giraffe Bio apunta sus biomoléculas a medida a la inminente escasez de cobre",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/13/giraffe-bio-aims-its-bespoke-biomolecules-at-the-looming-copper-shortage/",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "Los neumáticos se tiran enteros cuando solo una parte está gastada. Unos investigadores españoles quieren cambiarlo con un diseño modular",
+      "titulo": "El rover Perseverance de la NASA bate el récord de distancia recorrida en otro mundo",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2285013/nasa-perseverance-rover-breaks-record-for-off-world-driving-distance/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Científicos hallan indicios de un planeta de segunda generación nacido de una estrella moribunda",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2285001/scientists-find-evidence-second-generation-planet-dying-star/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "La propietaria de las marcas Hobbs y Whistles se suma a la lista de víctimas de ciberataques de otoño",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/10/13/owner-of-fashion-brands-hobbs-and-whistles-joins-autumn-pwned-collection/5302752",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Qué cuesta realmente Flock a las ciudades de EE. UU.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/how-much-does-flock-actually-cost-cities/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "La Oficina del Gabinete británica asume 7,8 millones de libras de pérdida por cerrar su sistema de contratación",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/public-sector/2026/10/13/uk-cabinet-office-takes-78m-hit-to-kill-off-recruitment-system/5302635",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Usuarios acusan a Intel de «optimizar» el IPv6 hasta dejarlo en nada",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/10/13/intel-optimizes-ipv6-networking-into-nothingness-say-users/5302622",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "VMware lanza tantos parches que cree que los usuarios necesitan nuevas herramientas para gestionarlos",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/virtualization/2026/10/13/vmware-is-pushing-so-many-patches-it-thinks-users-need-new-tools-to-manage-the-flood-1/5302172",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "La NASA cree que las cuevas de la Luna sirven como \"búnkeres\" para astronautas y tiene una misión en marcha",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/neumaticos-se-tiran-enteros-cuando-solo-parte-esta-gastada-unos-investigadores-espanoles-quieren-cambiarlo-diseno-modular",
-      "fecha": "12-10-2026"
+      "enlace": "https://www.xataka.com/espacio/cuevas-luna-podrian-ser-bunker-futuros-astronautas-nasa-tiene-mision-para-comprobarlo",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "Google reinventa Fitbit con una pulsera más ligera, inteligente y con 7 días de batería",
+      "titulo": "Apple presenta HomeView, su nueva apuesta para adueñarse del hogar inteligente",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/tecnologia/google-fitbit-edge-pulsera-inteligente-xiaomi/",
-      "fecha": "12-10-2026"
+      "enlace": "https://hipertextual.com/apple/apple-homeview-anuncio-oficial/",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "HDMI conectado pero pantalla negra: qué es el handshake y por qué falla con TV, consola y decodificador",
+      "titulo": "O2 recupera su dispositivo por 0 euros más popular: vuelve la Smart TV gratis",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/tecnologia/hdmi-conectado-pantalla-negra-motivos/",
-      "fecha": "12-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-recupera-dispositivo-0-euros-mas-popular/",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "Llega a WhatsApp la función más esperada: programar mensajes desde la app",
+      "titulo": "Tu router WiFi está a punto de cambiar las reglas del juego: las contraseñas fáciles tienen los días contados",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/llega-whatsapp-funcion-mas-esperada-programar-mensajes-desde-app_7047778_0.html",
-      "fecha": "12-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/tu-router-wifi-esta-punto-cambiar-las-reglas-juego-las-contrasenas-faciles-tienen-los-dias-contados_7047956_0.html",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "El Omoda 5 ya es uno de los híbridos más vendidos de nuestro país así que han tomado una decisión radical: mejorarlo",
+      "titulo": "Aldi lanza el miércoles 21 de octubre (por 9,99 euros) este reloj despertador radiocontrolado con termómetro ideal para el dormitorio",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/omoda-5-2027-caracteristicas-precio-ficha-tecnica",
-      "fecha": "12-10-2026"
+      "enlace": "https://www.xataka.com/seleccion/aldi-lanza-miercoles-21-octubre-9-99-euros-este-reloj-despertador-radiocontrolado-termometro-ideal-para-dormitorio",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "Estos dos juegos se pueden probar gratis y son un plan ideal para tus horas libres",
+      "titulo": "Uniqlo desafía a Zara en Madrid: así será su nueva megatienda de 1.700 metros cuadrados en la calle Princesa",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/videojuegos/dynasty-warriors-stellar-blade-demos-gratis/",
-      "fecha": "12-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/internet/nueva-tienda-uniqlo-rival-zara/",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "Microsoft admite que no puede contentar a los más de 1.000 millones de usuarios de Windows: \"Cada uno tiene preferencias diferentes\"",
+      "titulo": "Así puedes consultar online si estás inscrito en el censo electoral para las elecciones generales del 29N y dónde deberás ir a votar",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/microsoft-admite-que-no-puede-contentar-los-mas-1-000-millones-usuarios-windows-cada-uno-tiene-preferencias-diferentes_7047822_0.html",
-      "fecha": "12-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/tendencias/asi-puedes-consultar-online-si-estas-inscrito-censo-electoral-para-las-elecciones-generales-29n-donde-deberas-ir-votar_7047957_0.html",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "Creíamos que el plomo llegó a la península Ibérica con los fenicios, pero una aldea de Lleida ya lo fundía casi mil años antes",
+      "titulo": "2026 se ha convertido por derecho propio en el año que perdimos la confianza en los trenes españoles",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/creiamos-que-plomo-llego-a-peninsula-iberica-fenicios-aldea-lleida-fundia-casi-mil-anos-antes",
-      "fecha": "12-10-2026"
+      "enlace": "https://www.xataka.com/movilidad/peor-incendio-ave-madrid-barcelona-no-incendio-perder-confianza-alta-velocidad-ferroviaria",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "Windows 11 sigue mejorando su modo oscuro y ahora le toca a una herramienta histórica",
+      "titulo": "Movistar Plus y Skydance firman una nueva alianza: llegada a O2, series que se estrenarán a la vez con HBO Max y más novedades",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-skydance-hbo-max-acuerdo/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Uno de los canales más vistos de la TDT confirma el salto al 4K el 5 de noviembre: \"Resintoniza tu televisión para vernos y escucharnos como nunca\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/windows-11-sigue-mejorando-su-modo-oscuro-ahora-le-toca-una-herramienta-historica_7047824_0.html",
-      "fecha": "12-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/uno-los-canales-mas-vistos-tdt-confirma-salto-4k-5-noviembre-resintoniza-tu-television-para-vernos-escucharnos-como-nunca_7047953_0.html",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "Hay un misterioso joven de 16 años que recuerda con precisión el 99% de toda su vida",
+      "titulo": "De 85 a 38 euros: la mochila de cabina de American Tourister ideal para viajar en avión sin pagar de más",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/investigacion/hay-joven-16-anos-que-recuerda-casi-cualquier-momento-su-vida-ciencia-tiene-mayor-idea-que",
-      "fecha": "12-10-2026"
+      "enlace": "https://www.xataka.com/seleccion/85-a-38-euros-mochila-cabina-american-tourister-ideal-para-viajar-avion-pagar",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "Tras clonar Adobe, este desarrollador crea alternativas gratuitas y de código abierto a Microsoft Office",
+      "titulo": "Podrás enviar sonidos por WhatsApp: los nuevos stickers de audio que llegan a la app para cambiarlo todo",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/whatsapp/stickers-sonido-whatsapp-beta/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Apple Welcome Home: horario en España, novedades y qué esperamos ver en la presentación de dispositivos para el hogar de Apple del 13 de octubre",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/tras-clonar-adobe-este-desarrollador-crea-alternativas-gratuitas-codigo-abierto-microsoft-office_7047780_0.html",
-      "fecha": "12-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/apple-welcome-home-horario-espana-novedades-que-esperamos-ver-presentacion-dispositivos-para-hogar-apple-13-octubre_7047931_0.html",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "Carrefour liquida esta tele RGB de 65 pulgadas con Google TV y sonido Onkyo",
+      "titulo": "Mientras 70.000 personas cruzaban la frontera de Ceuta, Marruecos abrió un segundo frente con cañones: sus buques de guerra entraron en España",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/carrefour-liquida-esta-tele-rgb-65-pulgadas-google-tv-sonido-onkyo",
-      "fecha": "12-10-2026"
+      "enlace": "https://www.xataka.com/magnet/70-000-personas-cruzaban-frontera-ceuta-marruecos-abrio-segundo-frente-canones-sus-buques-guerra-entraron-espana",
+      "fecha": "13-10-2026"
     },
     {
-      "titulo": "Tu próximo móvil Android podría copiar una característica de los PC gaming para ganar potencia",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/tu-proximo-movil-android-podria-copiar-una-caracteristica-los-pc-gaming-para-ganar-potencia_7047823_0.html",
-      "fecha": "12-10-2026"
+      "titulo": "Apple Welcome Home: características del nuevo HomeView, Apple TV 4K y HomePod mini 2",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/productos/apple-welcome-home-directo-productos/",
+      "fecha": "13-10-2026"
     }
   ]
 }
