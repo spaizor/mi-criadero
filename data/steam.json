@@ -1,6 +1,6 @@
 {
   "seccion": "steam",
-  "actualizado": "13-10-2026 09:38",
+  "actualizado": "13-10-2026 16:37",
   "serie_desde": "2026-09",
   "juegos": [
     {
@@ -19,7 +19,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 2.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -122,7 +122,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -249,7 +249,7 @@
           "base": 34.99,
           "descuento": 75,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 2.49,
           "minimo_fecha": "02-10-2026"
         },
@@ -262,7 +262,7 @@
           "base": 34.99,
           "descuento": 75,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 3.49,
           "minimo_fecha": "02-10-2026"
         }
@@ -461,7 +461,7 @@
           "base": 9.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 4.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -502,12 +502,9 @@
           "base": 22.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 11.49,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 22.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -571,7 +568,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 17.99,
           "minimo_fecha": "02-10-2026"
         },
@@ -585,7 +582,7 @@
           "base": 89.98,
           "descuento": 8,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 33.1,
           "minimo_fecha": "02-10-2026",
           "bundleid": "32470"
@@ -627,12 +624,26 @@
           "base": 29.99,
           "descuento": 67,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 9.89,
           "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 8.59,
+          "base": null,
+          "descuento": 68,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/2457-comprar-devil-may-cry-hd-collection-pc-steam/",
+          "nombre_en_tienda": "Devil May Cry HD Collection",
+          "disponible": true
+        },
         {
           "tienda": "Humble Store",
           "precio": 9.89,
@@ -763,7 +774,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 39.89,
           "minimo_fecha": "18-09-2026"
         },
@@ -777,7 +788,7 @@
           "base": 99.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -790,7 +801,7 @@
           "base": 119.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 77.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -819,7 +830,7 @@
           "cupon": null,
           "marca": null,
           "minimo_tienda": 34.99,
-          "caduca": null,
+          "caduca": "2026-10-20T18:00:00+02:00",
           "enlace": "https://itad.link/01978de4-4489-70f7-916b-228d5aa33928/?app=opyd8c"
         },
         {
@@ -916,7 +927,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -929,7 +940,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 59.99,
           "minimo_fecha": "02-10-2026"
         },
@@ -943,7 +954,7 @@
           "base": 119.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 89.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -1082,7 +1093,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 19.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1148,7 +1159,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -1162,7 +1173,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 79.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -1175,12 +1186,26 @@
           "base": 99.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 99.99,
           "minimo_fecha": "18-09-2026"
         }
       ],
       "tiendas": [
+        {
+          "tienda": "Instant Gaming",
+          "precio": 45.99,
+          "base": null,
+          "descuento": 14,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/4824-comprar-elden-ring-pc-steam/",
+          "nombre_en_tienda": "Elden Ring",
+          "disponible": true
+        },
         {
           "tienda": "GamersGate",
           "precio": 50.99,
@@ -1219,13 +1244,13 @@
         },
         {
           "tienda": "PlayerLand",
-          "precio": 56.49,
+          "precio": 55.49,
           "base": 59.99,
-          "descuento": 6,
+          "descuento": 8,
           "plataforma": "Steam",
           "cupon": null,
           "marca": "S",
-          "minimo_tienda": 55.99,
+          "minimo_tienda": 55.49,
           "caduca": null,
           "enlace": "https://itad.link/019c0b72-8233-7182-876e-a5d36d1403c8/?app=opyd8c"
         },
@@ -1312,12 +1337,9 @@
           "base": 24.99,
           "descuento": 35,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 16.24,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 24.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -1452,7 +1474,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 14.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1518,7 +1540,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 19.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -1532,7 +1554,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 27.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1611,7 +1633,7 @@
           "base": 12.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 5.19,
           "minimo_fecha": "19-09-2026"
         }
@@ -1619,9 +1641,9 @@
       "tiendas": [
         {
           "tienda": "Instant Gaming",
-          "precio": 5.69,
+          "precio": 4.99,
           "base": null,
-          "descuento": 60,
+          "descuento": 65,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -1678,7 +1700,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 19.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -1829,12 +1851,9 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 23.99,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 59.99
-          }
+          "minimo_fecha": "02-10-2026"
         },
         {
           "nombre": "Deluxe Edition",
@@ -1845,12 +1864,9 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 27.99,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 69.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -1867,6 +1883,18 @@
           "enlace": "https://www.instant-gaming.com/es/16543-comprar-demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles-2-pc-steam/",
           "nombre_en_tienda": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
           "disponible": true
+        },
+        {
+          "tienda": "Fanatical",
+          "precio": 35.19,
+          "base": 39.99,
+          "descuento": 12,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": 26.99,
+          "caduca": "2026-10-16T18:00:00+02:00",
+          "enlace": "https://itad.link/01987b08-9f2e-72f3-8b29-b44fc7d65e84/?app=opyd8c"
         },
         {
           "tienda": "PlanetPlay",
@@ -1905,16 +1933,16 @@
           "enlace": "https://itad.link/01a08bec-e6bf-716f-ad32-c215425612d1/?app=opyd8c"
         },
         {
-          "tienda": "Fanatical",
-          "precio": 52.79,
-          "base": 59.99,
-          "descuento": 12,
+          "tienda": "GreenManGaming",
+          "precio": 39.99,
+          "base": 39.99,
+          "descuento": 0,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
-          "minimo_tienda": 26.99,
-          "caduca": "2026-10-16T18:00:00+02:00",
-          "enlace": "https://itad.link/01987b08-9f2e-72f3-8b29-b44fc7d65e84/?app=opyd8c"
+          "minimo_tienda": 21.6,
+          "caduca": null,
+          "enlace": "https://itad.link/01955d7d-2f99-70db-9c04-354d38719e82/?app=opyd8c"
         },
         {
           "tienda": "GameBillet",
@@ -1927,18 +1955,6 @@
           "minimo_tienda": 24,
           "caduca": null,
           "enlace": "https://itad.link/01955e6f-a58c-73c0-8a6e-32c6b95cf591/?app=opyd8c"
-        },
-        {
-          "tienda": "GreenManGaming",
-          "precio": 59.99,
-          "base": 59.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 21.6,
-          "caduca": null,
-          "enlace": "https://itad.link/01955d7d-2f99-70db-9c04-354d38719e82/?app=opyd8c"
         }
       ],
       "minimo_itad": {
@@ -1962,12 +1978,9 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 29.99,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 59.99
-          }
+          "minimo_fecha": "02-10-2026"
         },
         {
           "nombre": "Digital Deluxe Edition",
@@ -1978,12 +1991,9 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 34.99,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 69.99
-          }
+          "minimo_fecha": "02-10-2026"
         },
         {
           "nombre": "Ultimate Edition",
@@ -1995,12 +2005,9 @@
           "base": 64.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 44.99,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 89.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -2017,6 +2024,18 @@
           "enlace": "https://itad.link/0198e50e-01a9-71cc-8149-a0a5215602c9/?app=opyd8c"
         },
         {
+          "tienda": "Fanatical",
+          "precio": 35.99,
+          "base": 39.99,
+          "descuento": 10,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": 13.49,
+          "caduca": "2026-10-16T18:00:00+02:00",
+          "enlace": "https://itad.link/018d9386-4b52-72ca-8211-6e6e9193d0e5/?app=opyd8c"
+        },
+        {
           "tienda": "DLGamer",
           "precio": 39.99,
           "base": 39.99,
@@ -2029,16 +2048,16 @@
           "enlace": "https://itad.link/01a08bec-fae7-7072-b78c-309ce85098f0/?app=opyd8c"
         },
         {
-          "tienda": "Fanatical",
-          "precio": 53.99,
-          "base": 59.99,
-          "descuento": 10,
+          "tienda": "GreenManGaming",
+          "precio": 39.99,
+          "base": 39.99,
+          "descuento": 0,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
-          "minimo_tienda": 13.49,
-          "caduca": "2026-10-16T18:00:00+02:00",
-          "enlace": "https://itad.link/018d9386-4b52-72ca-8211-6e6e9193d0e5/?app=opyd8c"
+          "minimo_tienda": 13.5,
+          "caduca": null,
+          "enlace": "https://itad.link/018fedc7-9e2f-709a-9c11-bf4234627eea/?app=opyd8c"
         },
         {
           "tienda": "GameBillet",
@@ -2051,18 +2070,6 @@
           "minimo_tienda": 15,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-4b52-72ca-8211-6e6e8ff6ff69/?app=opyd8c"
-        },
-        {
-          "tienda": "GreenManGaming",
-          "precio": 59.99,
-          "base": 59.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 13.5,
-          "caduca": null,
-          "enlace": "https://itad.link/018fedc7-9e2f-709a-9c11-bf4234627eea/?app=opyd8c"
         }
       ],
       "minimo_itad": {
@@ -2087,7 +2094,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 29.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -2226,7 +2233,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 29.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -2377,7 +2384,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 19.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -2418,7 +2425,7 @@
           "base": 4.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 4.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2459,7 +2466,7 @@
           "base": 14.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 4.49,
           "minimo_fecha": "02-10-2026"
         }
@@ -2500,7 +2507,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 23.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -2651,7 +2658,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 19.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -2802,7 +2809,7 @@
           "base": 28.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 21.74,
           "minimo_fecha": "18-09-2026"
         }
@@ -2829,7 +2836,7 @@
           "base": 28.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 9.56,
           "minimo_fecha": "18-09-2026"
         }
@@ -2884,7 +2891,7 @@
           "base": 13.29,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 4.51,
           "minimo_fecha": "18-09-2026"
         }
@@ -2927,7 +2934,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 23.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -2994,7 +3001,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 14.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -3047,7 +3054,7 @@
           "base": 39.99,
           "descuento": 30,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 27.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -3074,7 +3081,7 @@
           "base": 19.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 9.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -3141,7 +3148,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 17.99,
           "minimo_fecha": "25-09-2026"
         },
@@ -3154,7 +3161,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 20.99,
           "minimo_fecha": "25-09-2026"
         },
@@ -3167,7 +3174,7 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 26.99,
           "minimo_fecha": "25-09-2026"
         }
@@ -3282,7 +3289,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 17.99,
           "minimo_fecha": "25-09-2026"
         },
@@ -3295,7 +3302,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 19.99,
           "minimo_fecha": "25-09-2026"
         }
@@ -3410,7 +3417,7 @@
           "base": 19.5,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 3.9,
           "minimo_fecha": "02-10-2026"
         }
@@ -3437,7 +3444,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 23.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -3588,7 +3595,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 19.79,
           "minimo_fecha": "02-10-2026"
         }
@@ -3739,7 +3746,7 @@
           "base": 24.5,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 9.8,
           "minimo_fecha": "02-10-2026"
         }
@@ -3806,7 +3813,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 19.79,
           "minimo_fecha": "02-10-2026"
         }
@@ -3957,7 +3964,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 27.99,
           "minimo_fecha": "02-10-2026"
         },
@@ -3970,7 +3977,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 35.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -4097,7 +4104,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 7.49,
           "minimo_fecha": "18-09-2026"
         }
@@ -4143,13 +4150,13 @@
         },
         {
           "tienda": "Gamesporium",
-          "precio": 26.84,
-          "base": 26.84,
+          "precio": 26.79,
+          "base": 26.79,
           "descuento": 0,
           "plataforma": "Steam",
           "cupon": null,
           "marca": "S",
-          "minimo_tienda": 26.8,
+          "minimo_tienda": 26.79,
           "caduca": null,
           "enlace": "https://itad.link/01a12125-2098-71c3-ab85-5be274f90a5e/?app=opyd8c"
         },
@@ -4212,7 +4219,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 46.89,
           "minimo_fecha": "02-10-2026"
         },
@@ -4225,7 +4232,7 @@
           "base": 89.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 60.29,
           "minimo_fecha": "02-10-2026"
         }
@@ -4370,7 +4377,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 19.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -4384,7 +4391,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 19.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -4397,7 +4404,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 48.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -4510,7 +4517,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 9.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -4523,7 +4530,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -4650,7 +4657,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 50.39,
           "minimo_fecha": "18-09-2026"
         },
@@ -4663,7 +4670,7 @@
           "base": 71.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 50.39,
           "minimo_fecha": "18-09-2026"
         }
@@ -4690,7 +4697,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 29.99,
           "minimo_fecha": "25-09-2026"
         }
@@ -4841,7 +4848,7 @@
           "base": 16.79,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 10.07,
           "minimo_fecha": "18-09-2026"
         }
@@ -4868,7 +4875,7 @@
           "base": 12.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 9.09,
           "minimo_fecha": "02-10-2026"
         }
@@ -4921,7 +4928,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 11.99,
           "minimo_fecha": "25-09-2026"
         }
@@ -5072,7 +5079,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 16.49,
           "minimo_fecha": "02-10-2026"
         }
@@ -5222,7 +5229,7 @@
           "base": 24.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 9.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -5236,7 +5243,7 @@
           "base": 40.98,
           "descuento": 3,
           "estado": "ok",
-          "consultado": "13-10-2026 09:38",
+          "consultado": "13-10-2026 16:37",
           "minimo": 15.89,
           "minimo_fecha": "19-09-2026",
           "bundleid": "9112"
