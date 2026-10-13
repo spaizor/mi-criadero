@@ -3,6 +3,146 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Character.AI se declara en quiebra y vende parte de sus activos a Disney por 20 millones",
+      "fuente": "TechCrunch",
+      "fecha": "13-10-2026 14:23",
+      "enlace": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "Anthropic avisa de que modelos pequeños podrían replicarse por dispositivos domésticos",
+      "fuente": "The Decoder",
+      "fecha": "13-10-2026 12:33",
+      "enlace": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "El FMI avisa de que una burbuja de la IA podría estallar y arrastrar a la economía global",
+      "fuente": "The Register",
+      "fecha": "13-10-2026 14:44",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/13/ai-bubble-could-burst-and-take-global-economy-with-it-imf-warns/5302781",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "Anthropic dice haber reducido hasta un 99 % el robo de tokens de razonamiento de Claude",
+      "fuente": "The Decoder",
+      "fecha": "13-10-2026 13:06",
+      "enlace": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "OpenAI negocia resucitar Sora como herramienta para Hollywood siete meses después de cerrarla",
+      "fuente": "Xataka",
+      "fecha": "13-10-2026 12:30",
+      "enlace": "https://www.xataka.com/cine-y-tv/hace-siete-meses-openai-mato-su-ia-generacion-video-ahora-planean-resucitar-sora-como-herramienta-para-hollywood",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "Los laboratorios de IA compran datos de startups muertas para entrenar sus modelos",
+      "fuente": "MIT Technology Review",
+      "fecha": "13-10-2026 11:00",
+      "enlace": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "Ecosia dejará de usar Mistral y apuesta por modelos chinos abiertos como Qwen, GLM y Kimi",
+      "fuente": "Xataka",
+      "fecha": "13-10-2026 16:30",
+      "enlace": "https://www.xataka.com/servicios/motor-busqueda-aleman-ha-rechazado-a-mistral-apostando-modelos-ia-chinos-open-source-su-lugar",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "Los matemáticos occidentales temen que la IA los vuelva más torpes mientras China monta una alianza entera",
+      "fuente": "The Decoder",
+      "fecha": "13-10-2026",
+      "enlace": "https://the-decoder.com/western-mathematicians-fear-ai-makes-them-dumber-while-china-builds-an-entire-alliance-for-it/",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "NetBSD podría haber encontrado su papel: el sistema operativo libre sin IA",
+      "fuente": "The Register",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/13/netbsd-may-have-found-a-new-role-the-ai-free-foss-os/5302818",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "SpaceXSI agrupa X Premium, Grok y Cursor en una sola suscripción",
+      "fuente": "TechCrunch",
+      "fecha": "13-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "Amex presenta un marco para evitar que los agentes de IA hagan compras no autorizadas",
+      "fuente": "TechCrunch",
+      "fecha": "13-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "Los wikipedistas creían que la IA pasaría de moda. Se equivocaron",
+      "fuente": "Wired",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.wired.com/story/book-excerpt-the-last-best-place-on-the-internet-wikipedia-artificial-intelligence/",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "La mayor red de super PAC a favor de la IA ha volcado millones en sociedades pantalla de Nevada",
+      "fuente": "Wired",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "La IA de asilo del Home Office suspende una de cada cinco comprobaciones de precisión",
+      "fuente": "The Register",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.theregister.com/public-sector/2026/10/13/home-office-asylum-ai-flunks-one-in-five-accuracy-checks/5302649",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "El CNI busca 17 perfiles técnicos para anticiparse a las amenazas de la IA y la cuántica: lo que piden dice mucho de cómo se prepara",
+      "fuente": "Xataka",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.xataka.com/seguridad/cni-busca-17-perfiles-tecnicos-para-anticiparse-a-amenazas-ia-cuantica-que-piden-dice-mucho-como-se-prepara",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "Linus Torvalds, creador de Linux, sucumbe a usar la IA de Claude Code para mejorar el rendimiento del kernel: \"Todo fue bajo mi dirección\"",
+      "fuente": "ComputerHoy",
+      "fecha": "13-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/linus-torvalds-creador-linux-sucumbe-usar-ia-claude-code-para-mejorar-rendimiento-kernel-todo-fue-bajo-mi-direccion_7047952_0.html",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "El riesgo de la IA no va a parecerse a Terminator. Se parecerá a lo que acaba de pasar en 500 supermercados franceses",
+      "fuente": "Xataka",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.xataka.com/seguridad/riesgo-ia-no-va-a-parecerse-a-terminator-se-parecera-a-que-acaba-pasar-500-supermercados-franceses",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "Microsoft lanza un órdago a Nvidia y lanza Maia 300, su propio chip personalizado para su IA: \"Más inteligencia por cada vatio, cada dólar y cada byte de memoria\"",
+      "fuente": "ComputerHoy",
+      "fecha": "13-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-lanza-un-ordago-nvidia-lanza-maia-300-su-propio-chip-personalizado-para-su-ia-mas-inteligencia-por-cada-vatio-cada-dolar-cada-byte-memoria_7047959_0.html",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "Anthropic alerta de una IA capaz de propagarse por los electrodomésticos",
+      "fuente": "Xataka",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/anthropic-alerta-ia-capaz-propagarse-electrodomesticos",
+      "turno": "2026-10-13_T"
+    },
+    {
+      "titulo": "Linus Torvalds recurre a la IA para revisar Linux y descubre tres fallos de hace más de 10 años: \"El código era demasiado complejo para mí, así que hice lo que predico: usar herramientas de LLM\"",
+      "fuente": "ComputerHoy",
+      "fecha": "13-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-recurre-ia-para-revisar-linux-descubre-tres-fallos-hace-mas-10-anos-codigo-era-demasiado-complejo-para-mi-asi-que-hice-que-predico-usar-herramientas-llm_7047947_0.html",
+      "turno": "2026-10-13_T"
+    },
+    {
       "titulo": "Meta lanza Muse Wonder, su primer modelo de frontera, con puntuaciones comparables a Fable 5.1 y GPT-6 Astra",
       "fuente": "TechCrunch",
       "fecha": "12-10-2026 19:56",

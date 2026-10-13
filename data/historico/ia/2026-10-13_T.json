@@ -1,0 +1,135 @@
+{
+  "seccion": "ia",
+  "actualizado": "13-10-2026 17:09",
+  "destacadas": [
+    {
+      "titulo": "Character.AI se declara en quiebra y vende parte de sus activos a Disney por 20 millones",
+      "resumen": "La plataforma de chatbots, fundada a finales de 2021 por Noam Shazeer y Daniel De Freitas, se acogió al Capítulo 11 con activos y deudas de entre 50 y 100 millones de dólares. Disney comprará parte de sus activos por 20 millones y una licencia perpetua no exclusiva de su tecnología, con cierre previsto a finales de noviembre o principios de diciembre. El consejero delegado, Colin Adams, avisa de que sin una oferta viable «la plataforma se cerrará».",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "fecha": "13-10-2026 14:23"
+    },
+    {
+      "titulo": "Anthropic avisa de que modelos pequeños podrían replicarse por dispositivos domésticos",
+      "resumen": "Los investigadores William Zhou y Daniel Freeman ejecutaron Gemma4-26B-A4B en 15 cajas Android TV de unos 55 dólares y 4 GB de RAM. GLM-5.2 fue el único modelo que completó toda la cadena de replicación, infectando los ocho nodos de prueba en cuatro de cinco intentos, aunque preparar un dispositivo nuevo podía llevar entre 28 y 150 horas. Dario Amodei advierte de que un enjambre así podría causar «cientos de miles de millones de dólares» en daños en 6 a 12 meses.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
+      "fecha": "13-10-2026 12:33"
+    },
+    {
+      "titulo": "El FMI avisa de que una burbuja de la IA podría estallar y arrastrar a la economía global",
+      "resumen": "El Informe de Estabilidad Financiera Global del FMI advierte de que un frenazo en el gasto en IA podría sacudir los mercados si los beneficios prometidos no llegan, y señala la financiación circular entre empresas de IA como riesgo. Añade que más del 70 % de las vulnerabilidades registradas en 2026 se explotaron antes o el mismo día de su divulgación. Aun así, el organismo cree que el sistema bancario aguantaría una caída severa.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/13/ai-bubble-could-burst-and-take-global-economy-with-it-imf-warns/5302781",
+      "fecha": "13-10-2026 14:44"
+    },
+    {
+      "titulo": "Anthropic dice haber reducido hasta un 99 % el robo de tokens de razonamiento de Claude",
+      "resumen": "Las nuevas defensas recortan entre un 90 y un 99 % la extracción de razonamiento de Claude por destilación, que se hace con redes de cientos de miles de cuentas falsas. Anthropic señala a Zhipu, que habría tomado capacidades de ciberseguridad para su GLM-5.3, y a Moonshot. Restringe el acceso a los pasos internos de razonamiento, usa un clasificador y ha bloqueado decenas de miles de cuentas, aunque admite que también caen usuarios legítimos.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+      "fecha": "13-10-2026 13:06"
+    },
+    {
+      "titulo": "OpenAI negocia resucitar Sora como herramienta para Hollywood siete meses después de cerrarla",
+      "resumen": "OpenAI cerró Sora en marzo de 2026 para liberar potencia de cálculo, lo que costó un acuerdo de unos 1.000 millones con Disney. Según The Information, negocia ahora con una startup cofundada por Bill Peebles, antiguo responsable de investigación de Sora, y Jeffrey Katzenberg para relanzarla como herramienta de cine. El acuerdo aún no está cerrado.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/cine-y-tv/hace-siete-meses-openai-mato-su-ia-generacion-video-ahora-planean-resucitar-sora-como-herramienta-para-hollywood",
+      "fecha": "13-10-2026 12:30"
+    },
+    {
+      "titulo": "Los laboratorios de IA compran datos de startups muertas para entrenar sus modelos",
+      "resumen": "Plataformas como Asset Hub de SimpleClosure, que añadió la venta de datos en abril de 2026, han gestionado más de 150 operaciones y prevén superar los 10 millones de dólares en pagos a startups. En agosto, Google se impuso a Mercor al comprar por 10 millones los datos de Spirit Airlines en su quiebra, con 100 millones de correos y 500 millones de mensajes de Teams. Un fundador cripto cobró unos 25.000 dólares por su código.",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+      "fecha": "13-10-2026 11:00"
+    },
+    {
+      "titulo": "Ecosia dejará de usar Mistral y apuesta por modelos chinos abiertos como Qwen, GLM y Kimi",
+      "resumen": "El buscador alemán, que adoptó Mistral a mediados de 2026 tras dejar ChatGPT, dice a Politico que Mistral va un año por detrás y que Ecosia es un cliente demasiado grande para ella. Su consejero delegado, Christian Kroll, estudia servir los modelos abiertos a través de Melious, proveedor alemán con más de 60 modelos. Mistral lanzó Large 4 el mismo día y ofreció acceso anticipado a Ecosia.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/servicios/motor-busqueda-aleman-ha-rechazado-a-mistral-apostando-modelos-ia-chinos-open-source-su-lugar",
+      "fecha": "13-10-2026 16:30"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Los matemáticos occidentales temen que la IA los vuelva más torpes mientras China monta una alianza entera",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/western-mathematicians-fear-ai-makes-them-dumber-while-china-builds-an-entire-alliance-for-it/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "NetBSD podría haber encontrado su papel: el sistema operativo libre sin IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/13/netbsd-may-have-found-a-new-role-the-ai-free-foss-os/5302818",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "SpaceXSI agrupa X Premium, Grok y Cursor en una sola suscripción",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Amex presenta un marco para evitar que los agentes de IA hagan compras no autorizadas",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Los wikipedistas creían que la IA pasaría de moda. Se equivocaron",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/book-excerpt-the-last-best-place-on-the-internet-wikipedia-artificial-intelligence/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "La mayor red de super PAC a favor de la IA ha volcado millones en sociedades pantalla de Nevada",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "La IA de asilo del Home Office suspende una de cada cinco comprobaciones de precisión",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/public-sector/2026/10/13/home-office-asylum-ai-flunks-one-in-five-accuracy-checks/5302649",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "El CNI busca 17 perfiles técnicos para anticiparse a las amenazas de la IA y la cuántica: lo que piden dice mucho de cómo se prepara",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/cni-busca-17-perfiles-tecnicos-para-anticiparse-a-amenazas-ia-cuantica-que-piden-dice-mucho-como-se-prepara",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Linus Torvalds, creador de Linux, sucumbe a usar la IA de Claude Code para mejorar el rendimiento del kernel: \"Todo fue bajo mi dirección\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/linus-torvalds-creador-linux-sucumbe-usar-ia-claude-code-para-mejorar-rendimiento-kernel-todo-fue-bajo-mi-direccion_7047952_0.html",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "El riesgo de la IA no va a parecerse a Terminator. Se parecerá a lo que acaba de pasar en 500 supermercados franceses",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/riesgo-ia-no-va-a-parecerse-a-terminator-se-parecera-a-que-acaba-pasar-500-supermercados-franceses",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Microsoft lanza un órdago a Nvidia y lanza Maia 300, su propio chip personalizado para su IA: \"Más inteligencia por cada vatio, cada dólar y cada byte de memoria\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-lanza-un-ordago-nvidia-lanza-maia-300-su-propio-chip-personalizado-para-su-ia-mas-inteligencia-por-cada-vatio-cada-dolar-cada-byte-memoria_7047959_0.html",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Anthropic alerta de una IA capaz de propagarse por los electrodomésticos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/anthropic-alerta-ia-capaz-propagarse-electrodomesticos",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Linus Torvalds recurre a la IA para revisar Linux y descubre tres fallos de hace más de 10 años: \"El código era demasiado complejo para mí, así que hice lo que predico: usar herramientas de LLM\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-recurre-ia-para-revisar-linux-descubre-tres-fallos-hace-mas-10-anos-codigo-era-demasiado-complejo-para-mi-asi-que-hice-que-predico-usar-herramientas-llm_7047947_0.html",
+      "fecha": "13-10-2026"
+    }
+  ]
+}
