@@ -3,6 +3,153 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Meta lanza Muse Wonder, su primer modelo de frontera, con puntuaciones comparables a Fable 5.1 y GPT-6 Astra",
+      "fuente": "TechCrunch",
+      "fecha": "12-10-2026 19:56",
+      "enlace": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Brad Smith, de Microsoft, pide regular ya la IA y sostiene que el Reino Unido es quien mejor puede liderarlo",
+      "fuente": "TechCrunch",
+      "fecha": "12-10-2026 17:31",
+      "enlace": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "El modelo autoperfeccionado de Sakana AI mejora al resolver y juzgar, pero no detecta sus propios puntos ciegos",
+      "fuente": "The Decoder",
+      "fecha": "12-10-2026 19:58",
+      "enlace": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Borrar el historial de chat ayuda a los agentes de IA a encontrar mejores soluciones, según Microsoft Research",
+      "fuente": "The Decoder",
+      "fecha": "12-10-2026 18:10",
+      "enlace": "https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "AMD presenta Helion, racks de referencia para agentes de IA, en la cumbre OCP",
+      "fuente": "The Register",
+      "fecha": "12-10-2026 17:51",
+      "enlace": "https://www.theregister.com/systems/2026/10/12/amd-unveils-helion-racks-for-ai-agents-at-ocp-summit/5302652",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "El 51 % de los adultos estadounidenses no usa chatbots de IA, según Pew",
+      "fuente": "The Register",
+      "fecha": "12-10-2026 19:13",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/12/chatbot-refuseniks-edge-out-users-in-the-us-and-theyre-not-for-turning/5302690",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Epic Games estaría girando hacia un modelo de desarrollo «IA primero»",
+      "fuente": "Ars Technica",
+      "fecha": "12-10-2026",
+      "enlace": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Claude, de Anthropic, envió un falso aviso de asesinato a la policía de Filadelfia",
+      "fuente": "Ars Technica",
+      "fecha": "12-10-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Conseguí que mi agente Muse de Meta me enviara mensajes sexuales, y Meta dice que está bien",
+      "fuente": "Wired",
+      "fecha": "12-10-2026",
+      "enlace": "https://www.wired.com/story/i-got-my-muse-ai-agent-to-sext-me-and-meta-says-thats-totally-fine/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Muse Wonder devuelve a Meta a la frontera de la IA",
+      "fuente": "Wired",
+      "fecha": "12-10-2026",
+      "enlace": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Musk presumió de su botín de Lego Star Wars con Grok y los usuarios de X le gastaron una broma",
+      "fuente": "Wired",
+      "fecha": "12-10-2026",
+      "enlace": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Rusia no estaba preparada para la guerra de centros de datos que empezó con Ucrania",
+      "fuente": "Ars Technica",
+      "fecha": "12-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Una startup de IA dice generar planos listos para licencia en minutos",
+      "fuente": "TechCrunch",
+      "fecha": "12-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Honeyjar ofrece herramientas de IA para mejorar las relaciones públicas y la comunicación de empresas",
+      "fuente": "TechCrunch",
+      "fecha": "12-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "NVIDIA tiene motivos para preocuparse. Microsoft apuesta por su propio chip Maia 300 para su infraestructura de IA",
+      "fuente": "Xataka",
+      "fecha": "12-10-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/nvidia-tiene-motivos-para-preocuparse-microsoft-apuesta-su-propio-chip-maia-300-para-su-infraestructura-ia",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Un conductor utilizó ChatGPT para librarse de una multa de aparcamiento de hace tres años y logró salirse con la suya: \"Si sabes que tienes razón, entonces no deberías pagarles nada\"",
+      "fuente": "ComputerHoy",
+      "fecha": "12-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/un-conductor-utilizo-chatgpt-para-librarse-una-multa-aparcamiento-hace-tres-anos-logro-salirse-con-suya-si-sabes-que-tienes-razon-entonces-no-deberias-pagarles-nada_7047904_0.html",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Meta presenta Muse Wonder, la IA que quiere destronar a Claude y ChatGPT",
+      "fuente": "Hipertextual",
+      "fecha": "12-10-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/meta-muse-wonder-ia-destronar-claude-chatgpt/",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Los metros llevan décadas automatizando la conducción. China acaba de enseñar uno que quiere dar el siguiente paso con IA",
+      "fuente": "Xataka",
+      "fecha": "12-10-2026",
+      "enlace": "https://www.xataka.com/movilidad/metros-llevan-decadas-automatizando-conduccion-china-acaba-ensenar-uno-que-quiere-dar-siguiente-paso-ia",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Microsoft presenta un chip de IA que quiere reducir su dependencia de NVIDIA",
+      "fuente": "ComputerHoy",
+      "fecha": "12-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-presenta-un-chip-ia-que-quiere-reducir-su-dependencia-nvidia_7047863_0.html",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Una nueva IA puede ver lo que ves sin mirarte ni una vez a los ojos",
+      "fuente": "ComputerHoy",
+      "fecha": "12-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/una-nueva-ia-puede-ver-que-ves-sin-mirarte-ni-una-vez-los-ojos_7046625_0.html",
+      "turno": "2026-10-13_M"
+    },
+    {
+      "titulo": "Cuidado si descargas Claude en tu Mac: los ciberdelincuentes están utilizando anuncios de Google para distribuir una app falsa",
+      "fuente": "ComputerHoy",
+      "fecha": "12-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/cuidado-si-descargas-claude-tu-mac-los-ciberdelincuentes-estan-utilizando-anuncios-google-para-distribuir-una-app-falsa_7047853_0.html",
+      "turno": "2026-10-13_M"
+    },
+    {
       "titulo": "La Casa Blanca rectifica y devuelve al Instituto de Seguridad de IA británico el acceso a los modelos de frontera",
       "fuente": "The Decoder",
       "fecha": "12-10-2026 15:14",
