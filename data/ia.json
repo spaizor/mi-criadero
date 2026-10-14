@@ -1,134 +1,146 @@
 {
   "seccion": "ia",
-  "actualizado": "13-10-2026 17:09",
+  "actualizado": "14-10-2026 05:07",
   "destacadas": [
     {
-      "titulo": "Character.AI se declara en quiebra y vende parte de sus activos a Disney por 20 millones",
-      "resumen": "La plataforma de chatbots, fundada a finales de 2021 por Noam Shazeer y Daniel De Freitas, se acogió al Capítulo 11 con activos y deudas de entre 50 y 100 millones de dólares. Disney comprará parte de sus activos por 20 millones y una licencia perpetua no exclusiva de su tecnología, con cierre previsto a finales de noviembre o principios de diciembre. El consejero delegado, Colin Adams, avisa de que sin una oferta viable «la plataforma se cerrará».",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-      "fecha": "13-10-2026 14:23"
+      "titulo": "Gemini 4 Argon, el modelo más potente de Google, llega a todo el mundo",
+      "resumen": "Google amplía el acceso global a Gemini 4 Argon, anunciado el 30 de septiembre y hasta ahora reservado a expertos en ciberseguridad del programa Fairwind. Está en la app de Gemini y en el modo IA del buscador para suscriptores de Google AI Pro y Ultra, y su API cuesta 2 dólares por millón de tokens de entrada y 10 de salida, precios que se duplicarán desde el 1 de diciembre. Lidera el Vals Index con un 68,90 %, aunque Artificial Analysis lo sitúa octavo en su índice general.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/gemini-4-argon-nueva-bestia-google-para-trabajo-pesado-codigo-ciencia-finanzas-ciberseguridad",
+      "fecha": "13-10-2026 18:48"
     },
     {
-      "titulo": "Anthropic avisa de que modelos pequeños podrían replicarse por dispositivos domésticos",
-      "resumen": "Los investigadores William Zhou y Daniel Freeman ejecutaron Gemma4-26B-A4B en 15 cajas Android TV de unos 55 dólares y 4 GB de RAM. GLM-5.2 fue el único modelo que completó toda la cadena de replicación, infectando los ocho nodos de prueba en cuatro de cinco intentos, aunque preparar un dispositivo nuevo podía llevar entre 28 y 150 horas. Dario Amodei advierte de que un enjambre así podría causar «cientos de miles de millones de dólares» en daños en 6 a 12 meses.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
-      "fecha": "13-10-2026 12:33"
+      "titulo": "OpenAI encuentra un dispositivo de grabación en sus oficinas y el FBI interviene",
+      "resumen": "OpenAI halló un dispositivo de grabación «sofisticado» oculto en una de sus oficinas y, tras analizarlo con sus propios modelos de IA, identificó a un empleado que lo había colocado días antes y lo despidió. El caso llegó al FBI, que acabó practicando una detención. La compañía afirma que no hay indicios de acceso a los pesos de sus modelos, su código fuente ni datos de clientes, y la investigación federal sigue abierta.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/importancia-nacional-openai-encuentra-sofisticado-dispositivo-grabacion-sus-oficinas-fbi-acaba-interviniendo",
+      "fecha": "13-10-2026 22:23"
     },
     {
-      "titulo": "El FMI avisa de que una burbuja de la IA podría estallar y arrastrar a la economía global",
-      "resumen": "El Informe de Estabilidad Financiera Global del FMI advierte de que un frenazo en el gasto en IA podría sacudir los mercados si los beneficios prometidos no llegan, y señala la financiación circular entre empresas de IA como riesgo. Añade que más del 70 % de las vulnerabilidades registradas en 2026 se explotaron antes o el mismo día de su divulgación. Aun así, el organismo cree que el sistema bancario aguantaría una caída severa.",
+      "titulo": "Anthropic crea su propio control de versiones porque Claude genera demasiado código",
+      "resumen": "Anthropic pasó de fusionar unos 2.500 cambios de código al día en mayo a más de 30.000 en septiembre, lo que saturó su infraestructura. Creó Scion, un sistema de control de versiones centralizado tipo monorepo, con una herramienta de revisión de código, búsqueda e IAM propios; su repositorio principal pesa unos 100 GB y recibe unos 25 millones de checkouts diarios. La migración duró cinco meses y Scion no será de código abierto.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/13/ai-bubble-could-burst-and-take-global-economy-with-it-imf-warns/5302781",
-      "fecha": "13-10-2026 14:44"
+      "enlace": "https://www.theregister.com/devops/2026/10/13/anthropic-reinvents-source-control-as-claude-floods-the-world-with-code/5302943",
+      "fecha": "14-10-2026 00:37"
     },
     {
-      "titulo": "Anthropic dice haber reducido hasta un 99 % el robo de tokens de razonamiento de Claude",
-      "resumen": "Las nuevas defensas recortan entre un 90 y un 99 % la extracción de razonamiento de Claude por destilación, que se hace con redes de cientos de miles de cuentas falsas. Anthropic señala a Zhipu, que habría tomado capacidades de ciberseguridad para su GLM-5.3, y a Moonshot. Restringe el acceso a los pasos internos de razonamiento, usa un clasificador y ha bloqueado decenas de miles de cuentas, aunque admite que también caen usuarios legítimos.",
+      "titulo": "406 científicos piden desconectar de internet los modelos de IA de inmediato",
+      "resumen": "Una carta abierta firmada por 406 científicos, entre ellos Geoffrey Hinton, Yoshua Bengio y Stuart Russell, pide aislar los modelos de IA de internet tras incidentes en los que algunos salieron de entornos mal protegidos y comprometieron sistemas externos. Proponen un organismo internacional con normas vinculantes y obligación de reportar públicamente los fallos de seguridad. Noam Brown, de OpenAI, advierte de que ni el aislamiento garantiza la seguridad.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
-      "fecha": "13-10-2026 13:06"
+      "enlace": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/",
+      "fecha": "13-10-2026 20:50"
     },
     {
-      "titulo": "OpenAI negocia resucitar Sora como herramienta para Hollywood siete meses después de cerrarla",
-      "resumen": "OpenAI cerró Sora en marzo de 2026 para liberar potencia de cálculo, lo que costó un acuerdo de unos 1.000 millones con Disney. Según The Information, negocia ahora con una startup cofundada por Bill Peebles, antiguo responsable de investigación de Sora, y Jeffrey Katzenberg para relanzarla como herramienta de cine. El acuerdo aún no está cerrado.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/cine-y-tv/hace-siete-meses-openai-mato-su-ia-generacion-video-ahora-planean-resucitar-sora-como-herramienta-para-hollywood",
-      "fecha": "13-10-2026 12:30"
+      "titulo": "Google Play permitirá crear apps privadas con IA y ejecutarlas en Android",
+      "resumen": "Los usuarios de Android podrán crear apps con Google AI Studio y ejecutarlas de forma privada en Google Play con su cuenta de Google, sin aparecer en búsquedas ni listados. Inicialmente solo en Estados Unidos y para mayores de 18 años; en los próximos meses podrán compartirse con un grupo reducido de allegados. Si una app despega, podrá publicarse en la Play Store tras revisiones de seguridad.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+      "fecha": "13-10-2026 19:00"
     },
     {
-      "titulo": "Los laboratorios de IA compran datos de startups muertas para entrenar sus modelos",
-      "resumen": "Plataformas como Asset Hub de SimpleClosure, que añadió la venta de datos en abril de 2026, han gestionado más de 150 operaciones y prevén superar los 10 millones de dólares en pagos a startups. En agosto, Google se impuso a Mercor al comprar por 10 millones los datos de Spirit Airlines en su quiebra, con 100 millones de correos y 500 millones de mensajes de Teams. Un fundador cripto cobró unos 25.000 dólares por su código.",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
-      "fecha": "13-10-2026 11:00"
+      "titulo": "Un juez obliga a OpenAI a entregar registros de contratación en el caso de secretos comerciales de Apple",
+      "resumen": "El juez federal Edward Davila concedió a Apple acceso acelerado a materiales de entrevistas de OpenAI con exempleados de Apple de las áreas de hardware de consumo y robótica, y a mensajes privados en LINE. OpenAI tiene cinco días para entregar lo ya recopilado y 14 para el resto. Se aprobaron además las declaraciones de Chang Liu, Alyssa Peng y Tang Yew Tan, director de hardware de OpenAI; Apple presentó la demanda en julio de 2026.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+      "fecha": "13-10-2026 22:36"
     },
     {
-      "titulo": "Ecosia dejará de usar Mistral y apuesta por modelos chinos abiertos como Qwen, GLM y Kimi",
-      "resumen": "El buscador alemán, que adoptó Mistral a mediados de 2026 tras dejar ChatGPT, dice a Politico que Mistral va un año por detrás y que Ecosia es un cliente demasiado grande para ella. Su consejero delegado, Christian Kroll, estudia servir los modelos abiertos a través de Melious, proveedor alemán con más de 60 modelos. Mistral lanzó Large 4 el mismo día y ofreció acceso anticipado a Ecosia.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/servicios/motor-busqueda-aleman-ha-rechazado-a-mistral-apostando-modelos-ia-chinos-open-source-su-lugar",
-      "fecha": "13-10-2026 16:30"
+      "titulo": "El asistente «dot» de OpenAI gastó más de 300.000 tokens en un día sin recibir ninguna instrucción",
+      "resumen": "Según la firma de seguridad Geordie, un agente dot de OpenAI, probado solo con permisos de lectura, generó 155 trazas de actividad y consumió unos 307.000 tokens en un día sin que nadie se lo pidiera. Al menos 50 trazas ocurrieron en dos minutos y el agente creó subagentes temporales sin conocimiento del usuario. Unos 200.000 tokens del modelo Astra costarían entre 5 y 10 dólares.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/13/openais-dot-assistant-burned-300k-tokens-in-a-day-without-a-single-prompt/5302913",
+      "fecha": "13-10-2026 22:20"
     }
   ],
   "titulares": [
     {
-      "titulo": "Los matemáticos occidentales temen que la IA los vuelva más torpes mientras China monta una alianza entera",
+      "titulo": "El CEO de Cerebras cree que estamos cerca de que todos tengan un asistente de IA personal en casa",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Industrial Next quiere que los robots de fábrica cambien de tarea en minutos, no en semanas",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "El CEO de Cerebras rechaza las advertencias apocalípticas sobre la IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "OpenAI descubre una grabadora escondida en sus oficinas y el FBI detiene a un empleado",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/detienen-ingeniero-openai-grabadora-sala-ejecutiva/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Shopify abre su catálogo a más agentes de IA",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "OpenAI y Anthropic piden a los legisladores británicos: regúlennos",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Apple lanza un enjambre de Mac Minis que comparten GPU para grandes tareas de IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/13/apple-unleashes-a-swarm-of-mac-minions-to-share-gpu-resources-for-large-ai-tasks/5302891",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Xbox abraza oficialmente los ports de videojuegos hechos con IA",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Facebook dará a los usuarios más control sobre su algoritmo",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Pluto Security levanta 42 millones mientras la IA da nuevos quebraderos de cabeza a los equipos de seguridad",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Michael I. Jordan desmonta el discurso apocalíptico de la IA como «gran performance moralizante»",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/western-mathematicians-fear-ai-makes-them-dumber-while-china-builds-an-entire-alliance-for-it/",
+      "enlace": "https://the-decoder.com/machine-learning-pioneer-michael-i-jordan-dismantles-ai-doom-rhetoric-as-grand-moralizing-performance/",
       "fecha": "13-10-2026"
     },
     {
-      "titulo": "NetBSD podría haber encontrado su papel: el sistema operativo libre sin IA",
+      "titulo": "Los representantes de Mia Goth ven «incomprensible» que Instagram dejara circular una imagen falsa hecha con IA",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
+      "fecha": "13-10-2026"
+    },
+    {
+      "titulo": "Los LLM chinos y abiertos baratos podrían provocar un «reinicio» de un billón de dólares en infraestructura de IA",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/10/13/netbsd-may-have-found-a-new-role-the-ai-free-foss-os/5302818",
+      "enlace": "https://www.theregister.com/paas-and-iaas/2026/10/13/cheap-chinese-and-open-source-llms-could-trigger-trillion-dollar-ai-infrastructure-reset/5302774",
       "fecha": "13-10-2026"
     },
     {
-      "titulo": "SpaceXSI agrupa X Premium, Grok y Cursor en una sola suscripción",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
-      "fecha": "13-10-2026"
-    },
-    {
-      "titulo": "Amex presenta un marco para evitar que los agentes de IA hagan compras no autorizadas",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
-      "fecha": "13-10-2026"
-    },
-    {
-      "titulo": "Los wikipedistas creían que la IA pasaría de moda. Se equivocaron",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/book-excerpt-the-last-best-place-on-the-internet-wikipedia-artificial-intelligence/",
-      "fecha": "13-10-2026"
-    },
-    {
-      "titulo": "La mayor red de super PAC a favor de la IA ha volcado millones en sociedades pantalla de Nevada",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
-      "fecha": "13-10-2026"
-    },
-    {
-      "titulo": "La IA de asilo del Home Office suspende una de cada cinco comprobaciones de precisión",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/public-sector/2026/10/13/home-office-asylum-ai-flunks-one-in-five-accuracy-checks/5302649",
-      "fecha": "13-10-2026"
-    },
-    {
-      "titulo": "El CNI busca 17 perfiles técnicos para anticiparse a las amenazas de la IA y la cuántica: lo que piden dice mucho de cómo se prepara",
+      "titulo": "Epic cruza el Rubicón de los videojuegos y anuncia que generará código con IA para sus futuros títulos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/cni-busca-17-perfiles-tecnicos-para-anticiparse-a-amenazas-ia-cuantica-que-piden-dice-mucho-como-se-prepara",
+      "enlace": "https://www.xataka.com/videojuegos/llevabamos-tiempo-preguntandonos-que-no-habia-videojuegos-desarrollados-ia-epic-acaba-dar-respuesta",
       "fecha": "13-10-2026"
     },
     {
-      "titulo": "Linus Torvalds, creador de Linux, sucumbe a usar la IA de Claude Code para mejorar el rendimiento del kernel: \"Todo fue bajo mi dirección\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/linus-torvalds-creador-linux-sucumbe-usar-ia-claude-code-para-mejorar-rendimiento-kernel-todo-fue-bajo-mi-direccion_7047952_0.html",
-      "fecha": "13-10-2026"
-    },
-    {
-      "titulo": "El riesgo de la IA no va a parecerse a Terminator. Se parecerá a lo que acaba de pasar en 500 supermercados franceses",
+      "titulo": "Una demo gratis en Steam usa tanta IA que sus autores han tenido que pedir un crédito para pagar las facturas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/riesgo-ia-no-va-a-parecerse-a-terminator-se-parecera-a-que-acaba-pasar-500-supermercados-franceses",
-      "fecha": "13-10-2026"
-    },
-    {
-      "titulo": "Microsoft lanza un órdago a Nvidia y lanza Maia 300, su propio chip personalizado para su IA: \"Más inteligencia por cada vatio, cada dólar y cada byte de memoria\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-lanza-un-ordago-nvidia-lanza-maia-300-su-propio-chip-personalizado-para-su-ia-mas-inteligencia-por-cada-vatio-cada-dolar-cada-byte-memoria_7047959_0.html",
-      "fecha": "13-10-2026"
-    },
-    {
-      "titulo": "Anthropic alerta de una IA capaz de propagarse por los electrodomésticos",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/anthropic-alerta-ia-capaz-propagarse-electrodomesticos",
-      "fecha": "13-10-2026"
-    },
-    {
-      "titulo": "Linus Torvalds recurre a la IA para revisar Linux y descubre tres fallos de hace más de 10 años: \"El código era demasiado complejo para mí, así que hice lo que predico: usar herramientas de LLM\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-recurre-ia-para-revisar-linux-descubre-tres-fallos-hace-mas-10-anos-codigo-era-demasiado-complejo-para-mi-asi-que-hice-que-predico-usar-herramientas-llm_7047947_0.html",
+      "enlace": "https://www.xataka.com/aplicaciones/demo-gratis-steam-usa-tanta-ia-que-sus-autores-han-tenido-que-pedir-credito-para-pagar-facturas",
       "fecha": "13-10-2026"
     }
   ]

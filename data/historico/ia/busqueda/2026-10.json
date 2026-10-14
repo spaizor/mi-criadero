@@ -3,6 +3,160 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Gemini 4 Argon, el modelo más potente de Google, llega a todo el mundo",
+      "fuente": "Xataka",
+      "fecha": "13-10-2026 18:48",
+      "enlace": "https://www.xataka.com/robotica-e-ia/gemini-4-argon-nueva-bestia-google-para-trabajo-pesado-codigo-ciencia-finanzas-ciberseguridad",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "OpenAI encuentra un dispositivo de grabación en sus oficinas y el FBI interviene",
+      "fuente": "Xataka",
+      "fecha": "13-10-2026 22:23",
+      "enlace": "https://www.xataka.com/robotica-e-ia/importancia-nacional-openai-encuentra-sofisticado-dispositivo-grabacion-sus-oficinas-fbi-acaba-interviniendo",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Anthropic crea su propio control de versiones porque Claude genera demasiado código",
+      "fuente": "The Register",
+      "fecha": "14-10-2026 00:37",
+      "enlace": "https://www.theregister.com/devops/2026/10/13/anthropic-reinvents-source-control-as-claude-floods-the-world-with-code/5302943",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "406 científicos piden desconectar de internet los modelos de IA de inmediato",
+      "fuente": "The Decoder",
+      "fecha": "13-10-2026 20:50",
+      "enlace": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Google Play permitirá crear apps privadas con IA y ejecutarlas en Android",
+      "fuente": "TechCrunch",
+      "fecha": "13-10-2026 19:00",
+      "enlace": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Un juez obliga a OpenAI a entregar registros de contratación en el caso de secretos comerciales de Apple",
+      "fuente": "TechCrunch",
+      "fecha": "13-10-2026 22:36",
+      "enlace": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "El asistente «dot» de OpenAI gastó más de 300.000 tokens en un día sin recibir ninguna instrucción",
+      "fuente": "The Register",
+      "fecha": "13-10-2026 22:20",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/13/openais-dot-assistant-burned-300k-tokens-in-a-day-without-a-single-prompt/5302913",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "El CEO de Cerebras cree que estamos cerca de que todos tengan un asistente de IA personal en casa",
+      "fuente": "TechCrunch",
+      "fecha": "14-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Industrial Next quiere que los robots de fábrica cambien de tarea en minutos, no en semanas",
+      "fuente": "TechCrunch",
+      "fecha": "14-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "El CEO de Cerebras rechaza las advertencias apocalípticas sobre la IA",
+      "fuente": "TechCrunch",
+      "fecha": "14-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "OpenAI descubre una grabadora escondida en sus oficinas y el FBI detiene a un empleado",
+      "fuente": "Hipertextual",
+      "fecha": "14-10-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/detienen-ingeniero-openai-grabadora-sala-ejecutiva/",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Shopify abre su catálogo a más agentes de IA",
+      "fuente": "The Verge",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "OpenAI y Anthropic piden a los legisladores británicos: regúlennos",
+      "fuente": "Wired",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Apple lanza un enjambre de Mac Minis que comparten GPU para grandes tareas de IA",
+      "fuente": "The Register",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/13/apple-unleashes-a-swarm-of-mac-minions-to-share-gpu-resources-for-large-ai-tasks/5302891",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Xbox abraza oficialmente los ports de videojuegos hechos con IA",
+      "fuente": "The Verge",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Facebook dará a los usuarios más control sobre su algoritmo",
+      "fuente": "TechCrunch",
+      "fecha": "13-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Pluto Security levanta 42 millones mientras la IA da nuevos quebraderos de cabeza a los equipos de seguridad",
+      "fuente": "TechCrunch",
+      "fecha": "13-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Michael I. Jordan desmonta el discurso apocalíptico de la IA como «gran performance moralizante»",
+      "fuente": "The Decoder",
+      "fecha": "13-10-2026",
+      "enlace": "https://the-decoder.com/machine-learning-pioneer-michael-i-jordan-dismantles-ai-doom-rhetoric-as-grand-moralizing-performance/",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Los representantes de Mia Goth ven «incomprensible» que Instagram dejara circular una imagen falsa hecha con IA",
+      "fuente": "The Verge",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Los LLM chinos y abiertos baratos podrían provocar un «reinicio» de un billón de dólares en infraestructura de IA",
+      "fuente": "The Register",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.theregister.com/paas-and-iaas/2026/10/13/cheap-chinese-and-open-source-llms-could-trigger-trillion-dollar-ai-infrastructure-reset/5302774",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Epic cruza el Rubicón de los videojuegos y anuncia que generará código con IA para sus futuros títulos",
+      "fuente": "Xataka",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.xataka.com/videojuegos/llevabamos-tiempo-preguntandonos-que-no-habia-videojuegos-desarrollados-ia-epic-acaba-dar-respuesta",
+      "turno": "2026-10-14_M"
+    },
+    {
+      "titulo": "Una demo gratis en Steam usa tanta IA que sus autores han tenido que pedir un crédito para pagar las facturas",
+      "fuente": "Xataka",
+      "fecha": "13-10-2026",
+      "enlace": "https://www.xataka.com/aplicaciones/demo-gratis-steam-usa-tanta-ia-que-sus-autores-han-tenido-que-pedir-credito-para-pagar-facturas",
+      "turno": "2026-10-14_M"
+    },
+    {
       "titulo": "Character.AI se declara en quiebra y vende parte de sus activos a Disney por 20 millones",
       "fuente": "TechCrunch",
       "fecha": "13-10-2026 14:23",
