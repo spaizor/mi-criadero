@@ -1,0 +1,214 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "15-10-2026 16:17",
+  "destacadas": [
+    {
+      "titulo": "Citizen Lab destapa spyware «zero-click» que se cuela en los dispositivos a través de anuncios online",
+      "resumen": "Citizen Lab, de la Universidad de Toronto, señala a la empresa israelí Discover-Tech, cuya plataforma Controlium habría permitido a Candiru y Bindecy atacar dispositivos mediante anuncios maliciosos. Al menos 45 ordenadores con Windows de Al Jazeera fueron infectados con spyware de Candiru en 2024 y 2025. Los registros de pujas muestran anuncios en decenas de miles de apps y webs entre marzo y junio de 2026.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/15/citizen-lab-says-governments-are-abusing-online-ads-to-hack-people-with-zero-click-spyware/",
+      "fecha": "15-10-2026 12:00"
+    },
+    {
+      "titulo": "Nvidia presenta RTX Spark, su plataforma para PC con chip N1X y hasta 128 GB de memoria unificada",
+      "resumen": "Nvidia mostró RTX Spark el 8 de octubre en San Francisco, con equipos de ASUS, Dell, HP, Lenovo, MSI y Microsoft. El chip N1X combina una CPU de hasta 20 núcleos Grace, desarrollada con MediaTek, y una GPU RTX Blackwell de 6.144 núcleos, con hasta 128 GB de memoria unificada y 300 GB/s de ancho de banda. La compañía asegura que un modelo local puntúa 40 en el índice de Artificial Analysis, a un punto de Claude Opus 4.7 Max en la nube.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ordenadores/nvidia-quiere-que-rtx-spark-marque-antes-despues-pc-despues-verlo-accion-no-parece-locura",
+      "fecha": "15-10-2026 15:00"
+    },
+    {
+      "titulo": "Rockstar publica el tráiler de lanzamiento de GTA 6, que llegará el 19 de noviembre",
+      "resumen": "El vídeo, de minuto y medio, usa el tema «Flower in a Hurricane» de Justice, Tame Impala, SZA y King Gizzard & The Lizard Wizard. El juego saldrá el 19 de noviembre en PS5 y Xbox y sigue a la pareja formada por Jason y Lucía en Vice City y el estado de Leonida. Rockstar confirma regiones como los Cayos de Leonida, Grassrivers, Port Gellhorn, Ambrosia y Mount Kalaga, pero no ha dado el tamaño del mapa.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/videojuegos/gta-6-trailer-lanzamiento-oficial/",
+      "fecha": "15-10-2026 15:20"
+    },
+    {
+      "titulo": "Microsoft corrige el fallo de Windows 11 que dejaba pantallas negras tras iniciar sesión",
+      "resumen": "La solución llega en las actualizaciones acumulativas del 13 de octubre de 2026. El problema empezó tras algunas actualizaciones de agosto, se vinculaba a Azure Virtual Desktop con FSLogix y afectaba sobre todo a equipos de empresa. Como apaño temporal, se puede abrir el Administrador de tareas con Ctrl + Mayús + Esc y ejecutar «explorer.exe».",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/windows/microsoft-corrige-error-windows-11-pantalla-negra/",
+      "fecha": "15-10-2026 15:03"
+    },
+    {
+      "titulo": "China presenta un prototipo propio de fuente de luz UVE para fabricar chips de vanguardia",
+      "resumen": "La startup shanghainesa Langdao Silex mostró en la Feria de la Industria Internacional de China un prototipo de sistema de luz ultravioleta extrema, con un 90 % de componentes nacionales. Según la empresa, la producción en serie está a entre tres y cinco años, mientras las sanciones de EEUU y Países Bajos impiden a ASML vender sus máquinas UVE a China. Huawei, además, tendría desde hace más de un año un prototipo operativo en un laboratorio de Shenzhen.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/china-tiene-prototipo-propio-fuente-luz-uve-para-fabricar-chips-vanguardia",
+      "fecha": "15-10-2026 14:15"
+    },
+    {
+      "titulo": "Los atacantes de la Legal Aid Agency se llevaron registros que se remontan a 1978",
+      "resumen": "El Ministerio de Justicia británico admite que la intrusión de abril de 2025 supuso el robo de unos 250.000 registros anteriores a 2007, el más antiguo de 1978. También accedieron a datos de HMPPS de 2010 a 2017, con nombres, fechas de nacimiento y números de caso; más del 99 % son personas supervisadas en 2016 y 2017. La agencia detectó la intrusión el 23 de abril y no supo su alcance hasta el 16 de mayo.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/15/legal-aid-agency-hackers-made-off-with-records-dating-back-to-1978/5303243",
+      "fecha": "15-10-2026 13:23"
+    },
+    {
+      "titulo": "X elimina más de 13.000 cuentas ligadas a presuntas operaciones de injerencia antes de las elecciones de EE. UU.",
+      "resumen": "La plataforma suprimió las cuentas de tres supuestas operaciones de influencia extranjera dirigidas al debate político estadounidense, que atribuye a Irán, Rusia y China, aunque sin aportar pruebas públicas. El anuncio llega antes de las elecciones de medio mandato del 3 de noviembre de 2026.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/15/x-purges-13000-accounts-linked-to-suspected-meddling-ahead-of-us-midterms/5303234",
+      "fecha": "15-10-2026 14:45"
+    },
+    {
+      "titulo": "Un Apple I firmado por Wozniak se vende por un récord de 1,15 millones de dólares",
+      "resumen": "El Apple I «Hatfield» se subastó en Bonhams por 1.148.200 dólares a un comprador anónimo, por encima de la estimación máxima de 800.000 y de la venta de 2013 (671.400). Fabricado en 1976 y vendido originalmente por 666,60 dólares, es uno de los 74 ejemplares verificados y trae una carta de Steve Jobs que ofrece actualizarlo a un Apple II.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2287345/apple-i-hatfield-sells-for-1-15-million-at-auction/",
+      "fecha": "15-10-2026 12:34"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Prepara tu carrito: las reservas del iPhone Duo abren mañana",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/news/1011902/apple-iphone-duo-get-ready-preorder",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "TSMC envía exploradores para comprobar si los centros de datos de EE. UU. pueden responder",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/10/15/tsmc-sends-scouts-to-check-whether-americas-datacenters-can-deliver/5303260",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Las nuevas gafas AR Xreal One Pro+ ofrecen más brillo y comodidad",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2286631/xreals-new-flagship-one-pro-ar-glasses-offer-better-brightness-and-increased-comfort/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Los centros de datos son ya objetivos de guerra",
+      "fuente": "404 Media",
+      "enlace": "https://www.404media.co/data-centers-are-war-targets-now/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Rocket Lab retrasa a 2027 el primer lanzamiento del Neutron",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/science/2026/10/15/rocket-lab-pushes-back-first-neutron-launch-to-2027/5303224",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "La nueva cartera hardware de Ledger es un teléfono Android sin la parte de teléfono",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1011133/ledger-atom-hardware-wallet-crypto-security-android",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "United permitirá comprobar si tu vuelo tiene wifi de Starlink",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2287350/united-offers-starlink-wi-fi-flight-tracker/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "El presidente de México firma un decreto para que las plataformas protejan a los menores del contenido adulto",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2287376/mexico-president-signs-decree-tech-restrict-adult-content-minors/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Pilotos de la Fuerza Aérea de EE. UU. usaron memorias USB con malware para planificar misiones en Afganistán",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/15/us-air-force-pilots-used-malware-laden-usb-drives-to-plan-afghanistan-missions/5303156",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "YouTube se prepara, según rumores, para ofrecer audiolibros",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2287331/youtube-audiobook-offering-rumor/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Más de 600 millones de dólares en operaciones de Polymarket se hicieron tras acabar las elecciones",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/over-dollar600-million-traded-on-polymarket-election-contracts-after-races-ended/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "La Policía Metropolitana, en problemas con el regulador de datos por su uso sin control de una plataforma contra el hurto",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/15/metropolitan-polices-unchecked-use-of-shoplifting-platform-lands-force-in-trouble-with-data-watchdog/5303061",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Aldi traerá el altavoz Bluetooth supercompacto por 7,99 euros. Incluye micrófono, un imán y una pinza de sujeción",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/aldi-traera-altavoz-bluetooth-supercompacto-7-99-euros-incluye-microfono-iman-pinza-sujecion",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "‘GTA 6’ lanza un nuevo tráiler de alto voltaje: acción y romance en Vice City",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/nuevo-trailer-gta-6-octubre-2026/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "¿Guardas tus fotos en O2 Cloud? Esta condición de los 10 TB gratuitos puede hacer que las pierdas",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-cloud-10-tb-gratis-baja-inactividad/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "He probado la consola portátil que querrás para llevar siempre tus juegos de PC contigo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/he-probado-rog-xbox-ally-x20-consola-portatil-que-querras-para-llevar-siempre-tus-juegos-pc-contigo_7048274_0.html",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Renfe ya tiene un plan para retirar el tren incendiado en Ricla y no podrá terminarlo hasta la semana que viene",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/renfe-tiene-plan-para-retirar-tren-incendiado-ricla-no-podra-terminarlo-semana-que-viene",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Tu viejo Google Home o Nest puede mejorar sin que tengas que comprar otro altavoz con una nueva actualización",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/google-home-nest-nueva-actualizacion/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "La Séptima, el nuevo canal de la TDT, prepara algo inédito en televisión: \"El objetivo es alcanzar a toda la ciudadanía\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-nuevo-canal-tdt-prepara-algo-inedito-television-objetivo-es-alcanzar-toda-ciudadania_7048971_0.html",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Un pesquero gallego se pasó diez días encallado en Escocia. El mar acabó partiéndolo en tres",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/pesquero-gallego-se-paso-diez-dias-encallado-escocia-mar-acabo-partiendolo-tres",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Terranova reta a Zara y Primark con su primera apertura en Barcelona este viernes",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/nueva-tienda-ropa-italiana-terranova-barcelona-aperturas/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Reparar el iPhone Duo en Apple podría salirte casi tan caro como comprar un iPhone \"normal\" totalmente nuevo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/reparar-iphone-duo-apple-podria-salirte-casi-tan-caro-como-comprar-un-iphone-normal-totalmente-nuevo_7048984_0.html",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Por fin tenemos el tráiler de lanzamiento de 'GTA VI' y es tan espectacular como cabría esperar",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/fin-tenemos-trailer-lanzamiento-gta-vi-espectacular-como-cabria-esperar",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Movistar Plus estrena hoy un thriller basado en hechos reales que llegó a los cines en 2026",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-estrena-prime-crime-true-story/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Linux ya es compatible con las herramientas de seguridad de Microsoft Defender",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/linux-ya-es-compatible-con-las-herramientas-seguridad-microsoft-defender_7048981_0.html",
+      "fecha": "15-10-2026"
+    }
+  ]
+}
