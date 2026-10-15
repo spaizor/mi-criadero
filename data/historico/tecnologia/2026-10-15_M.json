@@ -1,0 +1,214 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "15-10-2026 04:17",
+  "destacadas": [
+    {
+      "titulo": "Netflix despide a cerca de 1.000 empleados, el 6 % de su plantilla, en su mayor recorte desde 2022",
+      "resumen": "Ted Sarandos y Greg Peters comunicaron por correo el despido de unas 1.000 personas, concentradas en producto, tecnología, recursos humanos y asuntos legales, para ser más disciplinados al asignar recursos. Aseguran que el negocio es sólido y mantienen sus previsiones: en el segundo trimestre ingresó 12.560 millones de dólares (+13,4 %) y ganó 3.401 millones. Los resultados del tercer trimestre se publican el 20 de octubre.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/netflix-anuncia-despido-casi-1-000-empleados-alrededor-6-su-plantilla",
+      "fecha": "14-10-2026 17:10"
+    },
+    {
+      "titulo": "Cisco sufre un 0-day crítico en Secure Email Gateway explotado para ejecutar comandos como root",
+      "resumen": "El fallo CVE-2026-76519 (CVSS 9.8) en AsyncOS permite a un atacante sin autenticar ejecutar comandos como root enviando un correo malicioso. Afecta a equipos físicos y virtuales con File Reputation (AMP) activo y Content Scanner Tools anterior a la 25.3.0.5525; CISA ya lo ha incluido en su catálogo de vulnerabilidades explotadas. No hay mitigaciones: solo sirve actualizar, con la 16.5.0-780 recomendada para versiones previas a la 16.5.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/14/cisco-make-me-root-email-bug-exploited-as-a-0-day-by-unknown-crims/5303168",
+      "fecha": "14-10-2026 23:40"
+    },
+    {
+      "titulo": "Ucrania acusa a SpaceX de limitar de nuevo Starlink y dejar en tierra misiones de drones",
+      "resumen": "El asesor presidencial Serhiy Beskrestnov denuncia que SpaceX fijó sin aviso un límite de 160 km/h en la versión militar de Starlink; el 7.º Cuerpo de Reacción Rápida confirmó que algunas unidades cancelaron operaciones. Según Ucrania, con drones a 110-120 km/h se producen cortes de 10 a 20 segundos, aunque fuentes militares dicen que afecta solo a terminales Starshield. En 2023 Gwynne Shotwell ya admitió que SpaceX había limitado ciertos usos ofensivos.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/ucrania-acusa-a-spacex-volver-a-restringir-su-uso-starlink-provocando-que-misiones-drones-no-puedan-actuar-frente",
+      "fecha": "14-10-2026 23:37"
+    },
+    {
+      "titulo": "Investigadores de Xbow encadenan tres 0-day de Chrome con IA en seis días y cobran 250.000 dólares",
+      "resumen": "Cuatro investigadores de Xbow usaron el modelo GPT-5.6 Sol de OpenAI para encadenar tres vulnerabilidades de Chrome en un exploit que escapa del sandbox en Windows y que podría afectar a unos mil millones de usuarios. Les llevó seis días durante Black Hat y DEF CON y unos 40.000 dólares en tokens; Google corrigió los tres fallos y pagó su máxima recompensa. Hay que usar Chrome 152.0.7977.82 o posterior y reiniciar el navegador.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/14/security-researchers-spent-6-days-doing-their-chromework-built-1b-user-exploit/5303134",
+      "fecha": "14-10-2026 21:12"
+    },
+    {
+      "titulo": "Xbox estudia hacer exclusivos de consola todos sus juegos salvo Call of Duty",
+      "resumen": "Una encuesta interna de Xbox Research, citada por Windows Central, plantea que los futuros juegos de Xbox Game Studios sean exclusivos de consola, con Call of Duty como excepción. Entre los títulos citados están Fallout, The Elder Scrolls, DOOM, Diablo, Minecraft y PHYSINT, lo próximo de Hideo Kojima. Microsoft no ha confirmado cambios y asegura que nada cambia en PC; el lanzamiento de Gears of War: E-Day en PS5 se canceló a última hora.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/xbox-juegos-exclusivos-microsoft-encuesta/",
+      "fecha": "15-10-2026 02:08"
+    },
+    {
+      "titulo": "El CEO de Flock defiende su vigilancia pese al rechazo: «No deberíamos frenar el progreso»",
+      "resumen": "Garrett Langley defendió en TechCrunch Disrupt 2026 las cámaras de matrículas de Flock pese a la oleada de rechazo que ha supuesto contratos cancelados y despidos. Sostiene que hay que ceder algo de privacidad para tener menos delito y admite que la empresa está «lejos de ser perfecta»; sus cámaras no tienen reconocimiento facial, pero sí pueden detectar y seguir a personas. No dio una respuesta concreta sobre cómo evitar abusos.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/14/flock-ceo-defends-surveillance-technology-amid-national-backlash-we-shouldnt-pause-progress/",
+      "fecha": "15-10-2026 02:49"
+    },
+    {
+      "titulo": "Epic estrena un lanzador «vibe coded» y lo lleva por primera vez a Linux",
+      "resumen": "Epic ha rediseñado el lanzador de la Epic Games Store, que describe como programado con «vibe coding», y afirma que es más rápido y receptivo, con arranques más veloces que Steam. Puede acceder a juegos instalados desde Steam y estará disponible en Linux, una primera vez para la compañía. Engadget señala que corrige problemas del anterior pero no aporta funciones que no existan ya en Steam o GOG.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2286721/epic-thinks-youll-love-its-new-vibe-coded-game-launcher/",
+      "fecha": "14-10-2026 18:46"
+    },
+    {
+      "titulo": "Ubisoft planea cerrar RedLynx y recortar plantilla en Singapur y Alemania",
+      "resumen": "Ubisoft propone cerrar su estudio finlandés RedLynx, con hasta 52 puestos afectados, y eliminar 70 puestos en Ubisoft Singapur, alrededor de una quinta parte de sus 350 empleados. Según GameFile, también reducirá en unos 100 su plantilla alemana de más de 600 personas, con bajas voluntarias en lugar de despidos. Forma parte de un plan de ahorro con al menos seis juegos cancelados y varios cierres este año, como Ubisoft Halifax.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2286986/ubisoft-plans-to-close-another-studio-and-lay-off-up-to-122-workers/",
+      "fecha": "14-10-2026 21:31"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Jio, de Ambani, busca recaudar 3.200 millones de dólares en la que podría ser la mayor salida a bolsa de la India",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/14/ambanis-jio-seeks-to-raise-3-2b-in-what-could-be-indias-biggest-ipo/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "El hackeo de neveras que costó millones y provocó incendios nació de una seguridad deficiente",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Escuelas de todo EE. UU. protestan contra un plan de la FCC que podría desconectar a niños de Internet",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/schools-libraries-plead-with-fcc-to-scrap-idea-of-killing-2b-broadband-program/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Microsoft y Japón desmantelan una red cibercriminal responsable de más de mil millones de mensajes de estafa",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1011487/microsoft-scam-messages-marketplace-takedown",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Un hombre de Georgia demanda a Flock y a la oficina del sheriff por una supuesta represalia con lectores de matrículas",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/georgia-man-sues-flock-sheriffs-office-over-alleged-alpr-fueled-retaliation/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Ambrosia Energy construirá en Texas una fábrica de 10 GWh de baterías para centros de datos aislados de la red",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/14/ambrosia-energy-will-build-a-10-gwh-factory-in-texas-to-make-batteries-for-off-grid-data-centers/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Sony desafía a DJI con su nuevo kit de micrófonos inalámbricos ECM-W5",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2286975/sony-is-taking-on-dji-with-its-new-ecm-w5-wireless-microphone-kit/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Hiyd es un rastreador de salud que se acopla al reloj que ya llevas",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/14/hiyd-is-a-health-tracker-that-attaches-to-the-watch-you-already-wear/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Xbox tiene un nuevo mando diminuto",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2286791/xbox-has-a-teeny-new-gamepad/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Ivanti parchea un 0-day de Connect Secure tras confirmarse ataques en curso",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/14/ivanti-patches-connect-secure-zero-day-after-researchers-confirm-in-the-wild-attacks/5303095/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Los segundos intercalares, a juicio mientras los «señores del tiempo» se preparan para votar",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/14/leap-seconds-face-judgment-day-as-time-lords-prepare-to-vote/5303082/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Enciende esa emulación del iPhone 1 y celebra como si fuera 2007",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/14/fire-up-that-iphone-1-emulation-and-party-like-its-2007/5303067/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "En 1945 la bomba nuclear se hizo realidad: acto seguido imaginamos los proyectos atómicos más locos posibles",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/1945-bomba-nuclear-se-hizo-realidad-acto-seguido-imaginamos-proyectos-atomicos-locos-posible",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Netflix despide al 6 % de sus empleados: el mayor recorte de su historia",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/economia-empresas/netflix-despide-6-por-ciento-empleados-mayor-recorte-su-historia/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "O2 aclara qué pasa con tu fibra al cambiar de casa: ¿te cuesta dinero la instalación?",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-aclara-pasa-fibra-cambiar-casa/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Compra un PC gaming de segunda mano por 600 euros y se lo bloquean a distancia: era robado",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/compra-un-pc-gaming-segunda-mano-por-600-euros-se-bloquean-distancia-era-robado_7048746_0.html",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Alguien ha robado 100 millones de dólares en criptomonedas utilizando puertas traseras plantadas de antemano en monederos físicos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/alguien-ha-robado-100-millones-dolares-criptomonedas-utilizando-puertas-traseras-plantadas-antemano-monederos-fisicos",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "WhatsApp rompe su regla más antigua y cambia las llamadas para siempre",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/whatsapp-permite-unirse-llamadas-sin-cuenta/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "El deco 4K para ver Digi TV ya cuesta 1,50 € al mes, ¿qué ganas si pagas para tenerlo en casa?",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/deco-4k-ver-digi-tv-ventajas/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Se acabó el chollo: las amenazas de Sony obligan a los hackers a cerrar la tienda Overdrive de juegos gratis para PlayStation 5",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/se-acabo-chollo-las-amenazas-sony-obligan-los-hackers-cerrar-tienda-overdrive-juegos-gratis-para-playstation-5_7048576_0.html",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "El puerto de Las Palmas se transformará con una ambiciosa obra: una descomunal cantidad de roca escondida bajo el mar",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ingenieria-y-megaconstrucciones/puerto-palmas-se-transformara-ambiciosa-obra-descomunal-cantidad-roca-escondida-mar",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Mucho ojo con romper tu iPhone Duo: repararlo te saldrá más caro que comprar un iPhone nuevo",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/reparar-el-iphone-duo-cuesta-mas-que-comprar-un-iphone-nuevo/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Eroski mueve ficha frente a Mercadona y Lidl, pero su nuevo plan no tiene que ver con los precios",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/eroski-mueve-ficha-plan-diversidad/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Jack Wallen, experto en Linux y software libre: \"Llevo 22 años usando Ubuntu, y esta versión podría ser la mejor hasta la fecha\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/jack-wallen-experto-linux-software-libre-llevo-22-anos-usando-ubuntu-esta-version-podria-ser-mejor-hasta-fecha_7048585_0.html",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Fernando García, guardia civil de tráfico: \"cobramos 100 euros más que otros agentes. La gente no quiere jugarse la vida por ese dinero\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/fernando-garcia-guardia-civil-trafico-cobramos-100-euros-que-otros-agentes-gente-no-quiere-jugarse-vida-ese-dinero",
+      "fecha": "14-10-2026"
+    }
+  ]
+}
