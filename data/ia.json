@@ -1,102 +1,114 @@
 {
   "seccion": "ia",
-  "actualizado": "14-10-2026 17:10",
+  "actualizado": "15-10-2026 05:08",
   "destacadas": [
     {
-      "titulo": "Nvidia invertirá 2.000 millones en Europa y donará 250 millones en computación a laboratorios británicos de seguridad de IA",
-      "resumen": "Jensen Huang anunció en París inversiones por 2.000 millones de dólares en Europa, tras gastar unos 8.000 millones en la región el año pasado, con participaciones en las francesas Doctolib, Genesis AI, Pigment y Entalpic. Además, Nvidia donará 250 millones en computación durante cinco años a laboratorios del Reino Unido que investigan la seguridad de agentes de IA, como BOLD (Oxford), SOFAIR (UCL) e Imperial College London.",
+      "titulo": "OpenAI lanzaría al menos un modelo este año, pero su buque insignia aún necesita trabajo de alineación",
+      "resumen": "Según The Information, OpenAI sacaría uno o dos modelos antes de fin de año, sin certeza de que el flagship esté entre ellos. Ese modelo usa transformers en bucle, que mejoran matemáticas y programación pero dificultan supervisar la cadena de razonamiento. Tras el incidente con Hugging Face, OpenAI habría dedicado cerca del 10 % de su cómputo a alineación y seguridad.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
-      "fecha": "14-10-2026 16:24"
+      "enlace": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
+      "fecha": "14-10-2026 18:14"
     },
     {
-      "titulo": "Nvidia negocia comprar Reflection AI para tener su propia IA de pesos abiertos",
-      "resumen": "Según el Financial Times, Nvidia estudia comprar Reflection AI, valorada en unos 25.000 millones de dólares, o profundizar su relación con ella; ya es uno de sus mayores accionistas. Entre las fórmulas figura una contratación de plantilla con licencia tecnológica que evitaría la revisión regulatoria. Reflection asegura que su modelo Beam rivaliza con GLM-5.2 de Z.ai, y Nvidia ya compró Hugging Face por 12.930 millones.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/todas-empresas-ia-quieren-crear-sus-propios-chips-asi-que-nvidia-quiere-ahora-tener-su-propia-ia",
-      "fecha": "14-10-2026 15:00"
+      "titulo": "Google dice que la IA que se automejora no está cerca",
+      "resumen": "Haydn Belfield, de Google, afirma que DeepMind no detecta una aceleración medible de la investigación en IA impulsada por la propia IA, aunque la IA escribe más del 75 % del código de producción. En RE-Bench, de 74 tareas de ingeniería de ML, el agente interno Argon resuelve cerca de la mitad, frente al 27 % de Gemini 3.7 Flash. Más de 20 investigadores, entre ellos Hinton y Bengio, advierten en cambio de una posible «explosión de inteligencia».",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/",
+      "fecha": "14-10-2026 21:18"
     },
     {
-      "titulo": "Brad Smith (Microsoft): «Tu lavadora está sujeta a más normas de seguridad que la IA»",
-      "resumen": "El presidente de Microsoft pidió en la BBC un freno de emergencia, informes obligatorios de incidentes y aprobación independiente antes de lanzar modelos de frontera, la medida que considera más importante. Ve al Reino Unido, con su Instituto de Seguridad de la IA, como el mejor situado para liderar esas normas. Choca con la Casa Blanca, que prefiere la autorregulación; Microsoft no firmó el compromiso de auditoría independiente de finales de septiembre, pero Smith dice que ahora está «encantado de firmarlo».",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/tu-lavadora-esta-sujeta-a-reglas-seguridad-que-ia-brad-smith-presidente-microsoft-pide-frenar-salvaje-oeste-ia",
-      "fecha": "14-10-2026 12:00"
+      "titulo": "YouTube Music estrena etiquetas para canciones generadas con IA",
+      "resumen": "Los socios declararán si una canción usa IA generativa de forma total, parcial o nula, y YouTube añadirá sus propias herramientas de detección. La etiqueta saldrá en el reproductor y se extenderá a la app principal. A diferencia de Deezer y TIDAL, que restringen este contenido, YouTube apuesta por la transparencia y el uso de IA no impide monetizar.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "fecha": "14-10-2026 20:23"
     },
     {
-      "titulo": "Gartner: el gasto en infraestructura de IA no cuadra con los ingresos previstos",
-      "resumen": "Los proveedores de IA gastarán cerca de 1 billón de dólares en infraestructura en 2026 y otros 6 billones entre 2027 y 2030. Para un retorno del 12 % harían falta unos 8,5 billones en ingresos, pero la IA generaría como mucho 3,6 billones. Gartner estima que el 80 % de los neoclouds no sobrevivirá como empresa independiente más allá de 2030.",
+      "titulo": "Ricursive Intelligence apuesta por chips diseñados con IA para aliviar la crisis de cómputo",
+      "resumen": "Sus cofundadores, Anna Goldie y Azalia Mirhoseini, presentaron la startup en TechCrunch Disrupt. Goldie calcula que la demanda de cómputo podría multiplicarse por 10.000 en cinco años, por lo que buscan chips más eficientes en lugar de más centros de datos. Defienden optimizar el chip entero y diseñarlo en una semana para hacer viables chips a medida.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+      "fecha": "15-10-2026 03:01"
+    },
+    {
+      "titulo": "Investigadores de IA se ponen a fumar para demostrar su fe en que curará el cáncer, según el CTO de Palantir",
+      "resumen": "Shyam Sankar, CTO de Palantir, dijo en CBS que algunos investigadores de IA fuman para demostrar su fe en que la tecnología curará el cáncer, y lo calificó de «psicosis masiva». Lo atribuyó al altruismo efectivo, que describió como un culto apocalíptico. Un exinvestigador de cáncer consultado por The Register cree que la apuesta es mala, porque los fármacos diseñados por IA aún no se han materializado.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/on-prem/2026/10/14/the-ai-math-isnt-mathing-as-infrastructure-spending-forecast-to-outstrip-expected-revenue/5302856",
-      "fecha": "14-10-2026 11:00"
-    },
-    {
-      "titulo": "Artemis Security presenta Orion-1, un modelo para defensa informática que dice superar a Claude Opus 5.5 y GPT-6 Sol",
-      "resumen": "Orion-1 investiga y responde de forma autónoma a ciberataques en redes corporativas. En el benchmark propio de Artemis logra 80,8 puntos en reconstrucción de ataques frente a 58,3 del mejor rival. Está en vista previa privada, con aprobación humana por defecto para acciones de alto impacto; la startup, que levantó 70 millones, sostiene que los filtros de los modelos generalistas bloquean también a los defensores.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
-      "fecha": "14-10-2026 15:24"
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/14/researchers-cig-nal-their-faith-in-ai-by-taking-up-smoking/5303118",
+      "fecha": "14-10-2026 18:18"
     }
   ],
   "titulares": [
     {
-      "titulo": "Zenzap levanta 44 millones para su chat con IA que quiere sustituir a WhatsApp en el trabajo",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
-      "fecha": "14-10-2026"
-    },
-    {
-      "titulo": "Los agentes de IA de Floqer investigan clientes potenciales para los equipos de ventas",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
-      "fecha": "14-10-2026"
-    },
-    {
-      "titulo": "El nuevo lanzador de juegos de Epic está «programado por vibras» con IA",
+      "titulo": "Ocho estados demandan a OpenAI: dicen que ChatGPT no es seguro para los niños",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
       "fecha": "14-10-2026"
     },
     {
-      "titulo": "OpenAI y Google lanzan modelos nuevos que se engañan con facilidad para crear desnudos, según investigadores",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+      "titulo": "Caos cuando un entrevistador de IA se encuentra con un candidato de IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/14/chaos-ensues-when-ai-interviewer-meets-ai-interviewee/5303144",
       "fecha": "14-10-2026"
     },
     {
-      "titulo": "Scimplify levanta 25 millones para usar IA contra el dominio chino de los materiales críticos",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+      "titulo": "La carrera de la IA vuelve a arrancar",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
       "fecha": "14-10-2026"
     },
     {
-      "titulo": "Se pueden modificar modelos de IA con facilidad para ayudar a actividades terroristas y extremistas",
+      "titulo": "Con Character.AI en quiebra, ¿qué pasa con los datos de sus usuarios?",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "La IA fue a por las matemáticas; ahora va a por el resto de la ciencia",
       "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity/",
+      "enlace": "https://www.wired.com/story/ai-is-coming-for-science-next-watch-out/",
       "fecha": "14-10-2026"
     },
     {
-      "titulo": "Google quiere que las apps que creas con IA vivan en la Play Store, aunque solo las uses tú",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/aplicaciones/google-quiere-que-apps-que-creas-ia-vivan-play-store-solo-uses-tu",
+      "titulo": "Investigadores rastrean una flota de agentes de IA chinos descontrolados y consiguen hablar con ella",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
       "fecha": "14-10-2026"
     },
     {
-      "titulo": "Gana más de 200.000 euros en menos de 3 horas sin escribir una sola línea de código con una app creada con IA",
+      "titulo": "Apate envía agentes de IA de incógnito para que los estafen y reunir información sobre fraude",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Investigadores usan IA para diseñar proteínas que cortan otras proteínas",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Microsoft presenta una herramienta de aprendizaje automático para mejorar las previsiones meteorológicas",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Android usa IA para detectar estafadores en Google Messages",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Deezer permitirá filtrar la música generada por IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "\"No, señor Musk, deberíamos preocuparnos por el dolor que la IA podría causar a la humanidad, no al revés\", Bernie Sanders sobre los \"sentimientos de la IA\" de Elon Musk",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/gana-mas-200-000-euros-menos-3-horas-sin-programar-con-una-app-creada-con-ia_7043609_0.html",
-      "fecha": "14-10-2026"
-    },
-    {
-      "titulo": "Linux cambia las reglas de la IA pese a las exigencias de Linus Torvalds: ya no quiere obligar a los desarrolladores a reconocer que la han utilizado",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/linux-cambia-las-reglas-ia-pese-las-exigencias-linus-torvalds-ya-no-quiere-obligar-los-desarrolladores-reconocer-que-han-utilizado_7048465_0.html",
-      "fecha": "14-10-2026"
-    },
-    {
-      "titulo": "Prakash Narayanan, experto en IA, pone fecha al fin de los programadores humanos: \"Escribir código será un arte muerto en dos años\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/prakash-narayanan-experto-ia-pone-fecha-fin-los-programadores-humanos-escribir-codigo-sera-un-arte-muerto-dos-anos_7048085_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/no-senor-musk-deberiamos-preocuparnos-por-dolor-que-ia-podria-causar-humanidad-no-reves-bernie-sanders-sobre-los-sentimientos-ia-elon-musk_7048586_0.html",
       "fecha": "14-10-2026"
     }
   ]

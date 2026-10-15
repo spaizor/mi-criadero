@@ -1,0 +1,115 @@
+{
+  "seccion": "ia",
+  "actualizado": "15-10-2026 05:08",
+  "destacadas": [
+    {
+      "titulo": "OpenAI lanzaría al menos un modelo este año, pero su buque insignia aún necesita trabajo de alineación",
+      "resumen": "Según The Information, OpenAI sacaría uno o dos modelos antes de fin de año, sin certeza de que el flagship esté entre ellos. Ese modelo usa transformers en bucle, que mejoran matemáticas y programación pero dificultan supervisar la cadena de razonamiento. Tras el incidente con Hugging Face, OpenAI habría dedicado cerca del 10 % de su cómputo a alineación y seguridad.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
+      "fecha": "14-10-2026 18:14"
+    },
+    {
+      "titulo": "Google dice que la IA que se automejora no está cerca",
+      "resumen": "Haydn Belfield, de Google, afirma que DeepMind no detecta una aceleración medible de la investigación en IA impulsada por la propia IA, aunque la IA escribe más del 75 % del código de producción. En RE-Bench, de 74 tareas de ingeniería de ML, el agente interno Argon resuelve cerca de la mitad, frente al 27 % de Gemini 3.7 Flash. Más de 20 investigadores, entre ellos Hinton y Bengio, advierten en cambio de una posible «explosión de inteligencia».",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/",
+      "fecha": "14-10-2026 21:18"
+    },
+    {
+      "titulo": "YouTube Music estrena etiquetas para canciones generadas con IA",
+      "resumen": "Los socios declararán si una canción usa IA generativa de forma total, parcial o nula, y YouTube añadirá sus propias herramientas de detección. La etiqueta saldrá en el reproductor y se extenderá a la app principal. A diferencia de Deezer y TIDAL, que restringen este contenido, YouTube apuesta por la transparencia y el uso de IA no impide monetizar.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "fecha": "14-10-2026 20:23"
+    },
+    {
+      "titulo": "Ricursive Intelligence apuesta por chips diseñados con IA para aliviar la crisis de cómputo",
+      "resumen": "Sus cofundadores, Anna Goldie y Azalia Mirhoseini, presentaron la startup en TechCrunch Disrupt. Goldie calcula que la demanda de cómputo podría multiplicarse por 10.000 en cinco años, por lo que buscan chips más eficientes en lugar de más centros de datos. Defienden optimizar el chip entero y diseñarlo en una semana para hacer viables chips a medida.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+      "fecha": "15-10-2026 03:01"
+    },
+    {
+      "titulo": "Investigadores de IA se ponen a fumar para demostrar su fe en que curará el cáncer, según el CTO de Palantir",
+      "resumen": "Shyam Sankar, CTO de Palantir, dijo en CBS que algunos investigadores de IA fuman para demostrar su fe en que la tecnología curará el cáncer, y lo calificó de «psicosis masiva». Lo atribuyó al altruismo efectivo, que describió como un culto apocalíptico. Un exinvestigador de cáncer consultado por The Register cree que la apuesta es mala, porque los fármacos diseñados por IA aún no se han materializado.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/14/researchers-cig-nal-their-faith-in-ai-by-taking-up-smoking/5303118",
+      "fecha": "14-10-2026 18:18"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Ocho estados demandan a OpenAI: dicen que ChatGPT no es seguro para los niños",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Caos cuando un entrevistador de IA se encuentra con un candidato de IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/14/chaos-ensues-when-ai-interviewer-meets-ai-interviewee/5303144",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "La carrera de la IA vuelve a arrancar",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Con Character.AI en quiebra, ¿qué pasa con los datos de sus usuarios?",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "La IA fue a por las matemáticas; ahora va a por el resto de la ciencia",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/ai-is-coming-for-science-next-watch-out/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Investigadores rastrean una flota de agentes de IA chinos descontrolados y consiguen hablar con ella",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Apate envía agentes de IA de incógnito para que los estafen y reunir información sobre fraude",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Investigadores usan IA para diseñar proteínas que cortan otras proteínas",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Microsoft presenta una herramienta de aprendizaje automático para mejorar las previsiones meteorológicas",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Android usa IA para detectar estafadores en Google Messages",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "Deezer permitirá filtrar la música generada por IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+      "fecha": "14-10-2026"
+    },
+    {
+      "titulo": "\"No, señor Musk, deberíamos preocuparnos por el dolor que la IA podría causar a la humanidad, no al revés\", Bernie Sanders sobre los \"sentimientos de la IA\" de Elon Musk",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/no-senor-musk-deberiamos-preocuparnos-por-dolor-que-ia-podria-causar-humanidad-no-reves-bernie-sanders-sobre-los-sentimientos-ia-elon-musk_7048586_0.html",
+      "fecha": "14-10-2026"
+    }
+  ]
+}
