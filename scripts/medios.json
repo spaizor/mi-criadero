@@ -27,6 +27,7 @@
       "excluir_rutas": "Opcional. Lista de trozos de URL cuya categoria no es de esta seccion: si el enlace los contiene, el titular se descarta. Se filtra por el enlace y no por el titular a proposito, asi que no puede haber falsos positivos: no se adivina de que va la noticia, se lee la seccion en la que el propio medio la ha colgado. Solo sirve en medios que ponen la categoria en la URL.",
       "excluir_en_ruta": "Opcional. Ruta -> lista de terminos: dentro de esa categoria del medio se descarta el titular que mencione uno de ellos. Es el ultimo recurso, para la categoria que mezcla dos cosas y no se puede tirar entera con 'excluir_rutas'. Mira el titular, asi que puede equivocarse: por eso va atada a una ruta y no al medio entero.",
       "excluir_categorias": "Opcional. Lista de categorias del <category> del feed que no son de esta seccion: la entrada que lleve una se descarta. Para los medios que no categorizan en la URL, donde 'excluir_rutas' no sirve.",
+      "paginas": "Opcional. Cuantas paginas del feed se leen ('?paged=N', el de WordPress). Para los feeds que solo traen las ultimas 10 entradas: medido el 15-10-2026, en Nintendo Everything eran 2,9 horas y en Prensa Latina 0,7, de una ventana de 12 o 24. Solo se pide la siguiente si la anterior no llega al turno anterior. Antes de ponerlo, comprobar que la pagina 2 trae entradas distintas: en Xataka, ADSLZone, The Verge, TASS, SCMP, Anadolu, Daily Sabah, Al Jazeera, Middle East Eye y CNA devuelve lo mismo o un 404. Y solo sirve donde la primera pagina no llega al tope de 12 candidatos por medio: teleSUR y Resumen Latinoamericano paginan, pero ya traen 25-30 entradas en la ventana, y la segunda no les anadia nada.",
       "descartado": "Opcional. true en el medio que se ha sondeado y se deja fuera a proposito, con el motivo en 'nota'. Se queda en el fichero para no volver a probarlo, pero no sale como 'SIN FEED' en el parte de 'candidatos': eso es para el medio al que todavia hay que buscarle el RSS o abrir a mano, y un aviso que sale en las dos ejecuciones de todos los dias se deja de leer."
     },
     "tema": {
@@ -465,6 +466,7 @@
           "nombre": "Nintenderos",
           "web": "https://www.nintenderos.com/",
           "feed": "https://www.nintenderos.com/feed",
+          "paginas": 2,
           "idioma": "es",
           "comprobado": true,
           "nota": ""
@@ -541,6 +543,7 @@
           "nombre": "Nintendo Everything",
           "web": "https://nintendoeverything.com/",
           "feed": "https://nintendoeverything.com/feed/",
+          "paginas": 2,
           "idioma": "en",
           "comprobado": true,
           "nota": "Servidor lento: a veces hace falta reintentar."
@@ -641,6 +644,7 @@
           "nombre": "Strategic Culture",
           "web": "https://strategic-culture.su/",
           "feed": "https://strategic-culture.su/feed/",
+          "paginas": 2,
           "idioma": "en",
           "comprobado": true,
           "nota": "Analisis. Poco volumen: 10 cada 48 h."
@@ -811,6 +815,7 @@
           "nombre": "Prensa Latina",
           "web": "https://www.prensa-latina.cu/",
           "feed": "https://www.prensa-latina.cu/feed/",
+          "paginas": 2,
           "idioma": "es",
           "comprobado": true,
           "excluir_categorias": [
@@ -836,6 +841,7 @@
           "nombre": "Modern Diplomacy",
           "web": "https://moderndiplomacy.eu/",
           "feed": "https://moderndiplomacy.eu/feed/",
+          "paginas": 2,
           "idioma": "en",
           "comprobado": true
         },

@@ -28,10 +28,46 @@ Las lineas que empiezan por `#` son el parte de la descarga y hay que leerlas:
 - `SIN FEED <medio>`: no tiene RSS utilizable y hay que abrirlo a mano. Ahora
   mismo son Nintendo Wire (403 a los scripts hasta en la portada) y Meristation
   (su feed responde, pero la ultima entrada es de febrero de 2023).
+- `PAGINA N CAIDA <medio>` y `SIN PAGINA N <medio>`: de los medios con
+  `paginas`, mas abajo. El primero no pide nada (se sigue con lo leido); el
+  segundo dice que hay que quitarle `paginas` en `medios.json`.
 
 La lista es el **minimo**, no el techo: si un dia da poco, se busca ademas por
 fuera. Y `candidatos` no cubre las destacadas, que siguen exigiendo abrir y
 leer el articulo.
+
+## Feeds que solo cubren unas horas: `paginas`
+
+Hay feeds que solo traen las ultimas 10 entradas, y en un medio que publica
+mucho eso son dos o tres horas de una ventana de 12 (24 en geopolitica). Lo de
+antes no llegaba nunca a `candidatos`. Medido el 15-10-2026 a las 18:00:
+
+| Medio | Una pagina | Dos paginas |
+|---|---|---|
+| Nintendo Everything | 10 entradas, 3,1 h | 20, 17,2 h |
+| Nintenderos | 9, 3,2 h | 18, 10,2 h |
+| Modern Diplomacy | 10, 5,4 h | 20, 10,8 h |
+| Strategic Culture | 10, 18,5 h | 20, 30,1 h |
+| Prensa Latina | 10, 0,1 h | 20, 0,9 h |
+
+Desde ese dia esos cinco llevan `"paginas": 2` y se lee tambien
+`?paged=2`, el de WordPress. La segunda solo se pide si la primera no llega al
+turno anterior: de madrugada se publica poco y suele bastar con una.
+
+**Lo que gana de verdad es poco, y no es un descuido.** `candidatos` se queda
+con las 12 mas recientes de cada medio (`--por-medio`) y `titulares` con 5 por
+medio espanol, asi que un medio que daba 10 pasa a dar 12. Lo que si cambia
+entero es la hora de las destacadas: `titulares` se la pone leyendola del feed,
+y la que ya no estaba en la primera pagina se quedaba a las 00:00. Del 02 al
+15-10 fueron dos de las cuatro de Nintendo, las dos de Nintendo Everything.
+
+Donde **no** se pone:
+
+- Donde la pagina 2 devuelve lo mismo o un 404: Xataka, ADSLZone, The Verge,
+  TASS, SCMP, Anadolu, Daily Sabah, Al Jazeera, Middle East Eye y CNA.
+- Donde la primera ya pasa del tope: teleSUR y Resumen Latinoamericano paginan,
+  pero traen 25-30 entradas dentro de la ventana y la segunda no les anadia
+  nada.
 
 ## Un medio "que bloquea a los scripts" casi nunca bloquea
 

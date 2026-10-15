@@ -622,6 +622,67 @@ def entradas_del_feed(contenido, base=None):
     return salida
 
 
+def url_de_pagina(feed, pagina):
+    """La pagina N de un feed de WordPress: '?paged=N', o '&paged=N'."""
+    return f"{feed}{'&' if '?' in feed else '?'}paged={pagina}"
+
+
+def entradas_del_medio(medio, corte=None):
+    """Las entradas de un medio, leyendo las paginas del feed que diga 'paginas'.
+
+    Devuelve (entradas, error, aviso). Sin entradas es que la primera pagina
+    no ha respondido, y eso es un FEED CAIDO. El aviso es de las siguientes:
+    si fallan, se sigue con lo que haya, que es lo que habia antes de esto.
+
+    Hay feeds que solo traen las ultimas 10 entradas, y en un medio que publica
+    mucho eso son dos o tres horas de una ventana de 12. Medido el 15-10-2026
+    a las 18:00: Nintendo Everything cubria 2,9 horas, Nintenderos 2,3 y Prensa
+    Latina 0,7. Lo de antes no llegaba a 'candidatos', y a las destacadas que
+    ya no estaban en el feed 'titulares' no les podia poner la hora: dos de
+    las cuatro que salieron a las 00:00 en Nintendo del 02 al 15-10 eran de
+    Nintendo Everything.
+
+    Con 'corte' (el turno anterior), no se pide una pagina mas si la ultima ya
+    llega a el: de madrugada se publica poco y la primera suele bastar.
+    """
+    contenido, error = descargar(medio["feed"])
+    if contenido is None:
+        return None, str(error), None
+    try:
+        entradas = entradas_del_feed(contenido, medio.get("web"))
+    except ET.ParseError as e:
+        return None, f"el feed no es XML valido ({e})", None
+
+    vistos = {enlace for _, enlace, _, _ in entradas}
+    for pagina in range(2, int(medio.get("paginas", 1)) + 1):
+        fechas = [fecha for _, _, fecha, _ in entradas if fecha]
+        if corte and fechas and min(fechas) < corte:
+            break
+        contenido, error = descargar(url_de_pagina(medio["feed"], pagina),
+                                     intentos=2)
+        try:
+            nuevas = (None if contenido is None else
+                      [e for e in entradas_del_feed(contenido, medio.get("web"))
+                       if e[1] not in vistos])
+        except ET.ParseError:
+            nuevas = None
+        if nuevas is None:
+            return entradas, None, (
+                f"PAGINA {pagina} CAIDA {medio['nombre']}: solo se ha podido "
+                f"leer hasta la pagina {pagina - 1} del feed. No hace falta "
+                f"reintentar: lo que trae esta bien, solo cubre menos horas.")
+        if not nuevas:
+            # Ha dejado de paginar (o nunca lo hizo): devuelve la primera otra
+            # vez. Hay que quitarle 'paginas' en medios.json.
+            return entradas, None, (
+                f"SIN PAGINA {pagina} {medio['nombre']}: el feed devuelve lo "
+                f"mismo que en la pagina anterior. Hay que quitarle 'paginas' "
+                f"en scripts/medios.json; no afecta a este turno.")
+        entradas += nuevas
+        vistos.update(enlace for _, enlace, _, _ in nuevas)
+    return entradas, None, None
+
+
 def ventana_del_turno(seccion, horas=0):
     """Desde cuando se cogen noticias, y como explicarselo a quien mire."""
     ahora = datetime.now(ESPANA)
@@ -656,16 +717,14 @@ def cmd_candidatos(args):
     de_la_hermana, fallos_hermana = enlaces_de_la_hermana(args.seccion, medios)
 
     candidatos, fallos, descartes, vistos = [], [], Counter(), set()
+    avisos_paginas = []
     for medio in medios:
-        contenido, error = descargar(medio["feed"])
-        if contenido is None:
+        entradas, error, aviso = entradas_del_medio(medio, corte)
+        if entradas is None:
             fallos.append(f"{medio['nombre']}: {error}")
             continue
-        try:
-            entradas = entradas_del_feed(contenido, medio.get("web"))
-        except ET.ParseError as e:
-            fallos.append(f"{medio['nombre']}: el feed no es XML valido ({e})")
-            continue
+        if aviso:
+            avisos_paginas.append(aviso)
 
         del_medio, repetidos = [], set()
         for titulo, enlace, fecha, categorias in entradas:
@@ -730,6 +789,8 @@ def cmd_candidatos(args):
         print(f"# Descartadas {veces} por {motivo}.")
     for fallo in fallos:
         print(f"# FEED CAIDO {fallo}")
+    for aviso in avisos_paginas:
+        print(f"# {aviso}")
     for fallo in fallos_hermana:
         print(f"# FEED HERMANO CAIDO {fallo}: no se ha podido comprobar si sus "
               f"noticias le tocan a la otra seccion, asi que puede colarse "
@@ -765,15 +826,8 @@ def leer_feed(medio, feeds):
     destacada se lee para ponerle la hora y otra vez para sus titulares.
     """
     if medio["feed"] not in feeds:
-        contenido, error = descargar(medio["feed"])
-        if contenido is None:
-            feeds[medio["feed"]] = (None, str(error))
-        else:
-            try:
-                feeds[medio["feed"]] = (
-                    entradas_del_feed(contenido, medio.get("web")), None)
-            except ET.ParseError as e:
-                feeds[medio["feed"]] = (None, f"el feed no es XML valido ({e})")
+        entradas, error, _ = entradas_del_medio(medio)
+        feeds[medio["feed"]] = (entradas, error)
     return feeds[medio["feed"]]
 
 
