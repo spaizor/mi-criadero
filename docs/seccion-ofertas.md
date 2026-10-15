@@ -110,6 +110,16 @@ Cuatro cosas del comando:
   y ninguno puede quedarse sin salir porque el otro haya puesto el job en rojo
   antes. Y los dos siguen exigiendo que `salud` corriera, por lo del 28-08-2026.
 
+**Primera ficha suelta que caza: Carrefour, Leyendas Pokemon Z-A.** Desde el
+07-10-2026 dio 403 en todas las pasadas, mientras las otras nueve fichas de
+Carrefour seguian entrando; el aviso salto el 14-10. Esa ficha era la unica
+del catalogo con URL por EAN (`/0045496313111/p`) y no por `VC4A-`, y la
+`VC4A-30750711` que tiene Carrefour para el mismo juego tambien dio 403 al
+probarla en el runner el 15-10. Sin arreglo por esta via, se bajo a
+`solo_enlace` ese mismo dia y se limpio su registro. Ojo con lo que parece:
+**el correo era del job de Precios, pero el `publicar` habia ido bien** (con su
+reintento por rebase); lo rojo era este paso.
+
 El precio **no se saca leyendo la pagina**, sino del bloque `schema.org/Product`
 que las tiendas incrustan para Google. Las dos formas conviven y hay que cubrir
 las dos: GAME lo publica en una etiqueta `<script type="application/ld+json">`

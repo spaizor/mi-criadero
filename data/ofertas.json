@@ -764,15 +764,9 @@
         },
         {
           "tienda": "Carrefour",
-          "precio": 86.65,
-          "moneda": "EUR",
-          "disponible": true,
-          "vendedor": null,
           "enlace": "https://www.carrefour.es/juego-pokemon-leyendas-z-a-para-nintendo-switch-2/0045496313111/p",
-          "consultado": "07-10-2026 09:38",
-          "minimo": 83.09,
-          "minimo_fecha": "26-09-2026",
-          "estado": "viejo"
+          "estado": "enlace",
+          "precio": null
         },
         {
           "tienda": "Amazon",

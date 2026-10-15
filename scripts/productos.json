@@ -15,7 +15,7 @@
       "MediaMarkt": "Si, con 'navegador': true. Da 403 a urllib y precio a Chromium desde la misma IP: filtra el parecer un script, no la direccion. Tres pasadas, mismo precio.",
       "PcComponentes": "YA NO, desde el 10-09-2026: 'solo_enlace': true. Sirvio hasta entonces con 'navegador': true, y sigue sirviendo desde un PC de casa, pero desde el runner devuelve 403 con challenge de Cloudflare ('Just a moment...') hasta en la PORTADA, que es el corte a partir del cual no es el modo de pedir. Medido el 22-09-2026 con las dos variables separadas: urllib, Chromium y Chrome de verdad, ficha y portada, en frio y calentada, las seis 403; ese mismo dia, desde local y con este mismo codigo, las 8 fichas dieron 200 y precio. O sea que lo que filtra es la IP del runner, y saltarse el challenge seria evadir una deteccion. Escribe el @type en minuscula, por eso hubo que dejar de exigir 'Product' exacto.",
       "Xtralife": "Si, con 'navegador': true. Monta el bloque Product con JavaScript, asi que a urllib le llega la pagina sin precio. Ojo: el dominio es .com, el .es es otro sitio.",
-      "Carrefour": "Si, con 'navegador': true. Estaba descartada por la teoria vieja; con Chromium da precio en local y en el runner.",
+      "Carrefour": "Si, con 'navegador': true. Estaba descartada por la teoria vieja; con Chromium da precio en local y en el runner. Menos Leyendas Pokemon Z-A, que desde el 07-10-2026 da 403 en todas las pasadas mientras las otras fichas de Carrefour entran; la otra ficha que tiene el juego (VC4A-30750711) tambien dio 403 en el runner el 15-10-2026. Esa va con 'solo_enlace': true.",
       "El Corte Ingles": "No se puede consultar: 403 en local y en el runner INCLUSO con navegador, y eso ya es tras los tres reintentos. Ahi hay deteccion mas alla del User-Agent. Aun asi esta en el catalogo con 'solo_enlace': true, para tener el enlace a mano aunque nunca traiga precio.",
       "Fnac": "No se puede consultar: mismo 403 que El Corte Ingles en los dos sitios y con navegador. Tambien esta con 'solo_enlace': true, solo por el enlace.",
       "Orange": "Si, con urllib, pero publica la cuota mensual SIN IVA de una financiacion a 24 meses, no el precio. Va con 'cuota': {'meses': 24} y su precio sale marcado como estimado. Comprobado con Star Fox: declara 2.07, que es 59,99 / 1,21 / 24, y pinta 2,50/mes en pantalla. Es marketplace y pide ser cliente.",
@@ -468,7 +468,7 @@
         {
           "tienda": "Carrefour",
           "url": "https://www.carrefour.es/juego-pokemon-leyendas-z-a-para-nintendo-switch-2/0045496313111/p",
-          "navegador": true
+          "solo_enlace": true
         },
         {
           "tienda": "Amazon",
