@@ -149,6 +149,7 @@ antiguo (un unico array `noticias`) como respaldo.
 python3 scripts/noticias.py candidatos <seccion>   titulares nuevos, sacados de los RSS
 python3 scripts/noticias.py titulares  <seccion>   rellena los titulares espanoles
 python3 scripts/noticias.py anteriores <seccion>   lo ya publicado, para no repetirlo
+python3 scripts/noticias.py leer       <enlace>    el texto del articulo, si WebFetch no puede
 python3 scripts/noticias.py validar    <seccion>   revisa el JSON recien escrito
 python3 scripts/noticias.py archivar   <seccion>   copia del turno + indice
 python3 scripts/noticias.py indexar    <seccion>   rehace el indice del buscador
@@ -194,6 +195,9 @@ rutina de vigilancia solo lanza `noticias.py vigilar`.
   las dos cosas.
 - Los titulares de medios `"idioma": "es"` se publican **tal cual el feed**; no
   pasan por el modelo.
+- WebFetch no abre The Verge, Ars Technica, Wired ni ComputerHoy: para eso esta
+  `leer`, que el PASO 4 de los prompts pide antes de cambiar la noticia. Esos
+  medios **no se quitan** de `medios.json`: su feed funciona.
 - Los prompts **no nombran los medios** de la seccion: la lista es
   `medios.json`, y `candidatos` marca cada candidato con su `idioma`. Nombrados,
   se quedan viejos sin que nada avise.

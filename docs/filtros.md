@@ -167,8 +167,53 @@ no puede fallar, y solo si la categoria mezcla, esto. Un filtro por titular
 siempre puede equivocarse; lo unico que lo hace aceptable aqui es que solo mira
 dentro de una categoria donde ya se sabe que significan las palabras.
 
-**Lo que sigue entrando**, y no es un descuido: el ruido de cine y series que
-ADSLZone cuelga en `/noticias/operadores/` ("Movistar Plus estrena el domingo
-una pelicula de accion"). Ahi la misma lista se lleva las noticias de telecos,
-asi que hoy no hay corte que valga. Tambien publica de supermercados (Lidl,
-Mercadona), que es otro asunto y esta sin medir.
+### Dos rutas mas de ADSLZone: `/operadores/` e `/internet/` (15-10-2026)
+
+Hasta el 15-10 seguian entrando dos ruidos de ADSLZone que se dejaron para
+medirlos con mas historico. Se midio sobre lo publicado desde el 07-08 y,
+como manda la leccion de arriba, sobre el feed y la portada de cada categoria.
+Cada ruta lleva **su propia lista**: la de `/streaming-tv/` sigue sin poder
+salir de alli.
+
+**`/noticias/operadores/`**, los estrenos de Movistar Plus ("Movistar Plus
+estrena hoy un thriller basado en hechos reales"). La lista es corta a
+proposito: `pelicula, peliculas, thriller, serie, episodios`. Caza 19 de las
+174 publicadas de esa ruta, todas de cine y series, y 9 de las 51 de la materia
+prima, sin tocar ni una de telecos. Las dos dudosas son "Movistar Plus da un
+giro sorpresa anunciando una nueva estrategia de estrenos" y "Orange TV
+lanzara un nuevo canal lleno de peliculas". Lo que **no** vale aqui y si en
+`/streaming-tv/`:
+
+- `estrena`: tiraria "O2 estrena un configurador de tarifas" y "Movistar
+  estrena su fibra de 2 Gb".
+- `series`, en plural: tiraria "Movistar Plus anade series completas y
+  partidos de LaLiga a su plan gratuito", que fue destacada, y "Movistar Plus y
+  Skydance firman una nueva alianza". En singular, `serie`, solo salen estrenos.
+
+**`/noticias/internet/`**, que era el ruido grande y no el de cine: **47 de sus
+131 publicadas** eran supermercados y tiendas de ropa ("Lidl celebra hoy una
+gran apertura", "Uniqlo desafia a Zara en Madrid"), casi un titular por turno.
+En el feed de ese dia eran 8 de 15. La lista son las marcas mas los nombres
+genericos: `lidl, mercadona, aldi, eroski, alcampo, supermercado(s),
+hipermercado(s), zara, primark, inditex, uniqlo, kiabi, ikea, massimo dutti`.
+Caza las 47 y 16 de las 50 de la materia prima, y ninguna de tecnologia. Dos que
+faltan a proposito:
+
+- `carrefour`: "Hackean Carrefour PASS y exponen DNIs, IBANs y datos
+  personales" fue destacada, y la tarjeta de Carrefour es medio banco.
+- `dia`: los terminos se comparan sin tildes, asi que es tambien "dia".
+
+**Lo que sigue entrando**, y no es un descuido: la programacion deportiva de
+`/operadores/` ("Movistar Plus confirma los partidos de Primera Federacion que
+veras en su TV en streaming"). Ahi "futbol" y "partidos" son tambien el negocio
+de las telecos, igual que el 27-08. Y en `/internet/` queda lo que no es ni
+tecnologia ni tienda (pensiones, el paro, el BOE), sin medir.
+
+### Los tres terminos de `RUIDO` que no funcionaban
+
+"sorteo", "sorteamos" y "regalamos" se pusieron el 21-08-2026 rodeados de
+`\b`, pero en el fichero lo que habia era el caracter de retroceso, no la
+barra y la b. Con eso no cazaban nada. Se corrigio el 15-10-2026: en todo el
+historico habrian tirado dos titulares, los dos ruido ("Sorteo
+#PackSizenNextN: Regalamos un Pack Sizen" y "Movistar Plus te deja ver gratis
+el sorteo de la UEFA Champions League").

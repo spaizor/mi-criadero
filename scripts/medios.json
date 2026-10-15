@@ -100,7 +100,7 @@
           "feed": "https://www.adslzone.net/feed/",
           "idioma": "es",
           "comprobado": true,
-          "nota": "Publica muchas guias y tutoriales mezclados con las noticias. Su seccion /ofertas/ son articulos de compra: 8 colados hasta el 21-08-2026. Su /noticias/streaming-tv/ no se puede excluir entera porque mezcla los estrenos de las plataformas con el negocio de esas mismas plataformas: ahi filtra 'excluir_en_ruta'.",
+          "nota": "Publica muchas guias y tutoriales mezclados con las noticias. Su seccion /ofertas/ son articulos de compra: 8 colados hasta el 21-08-2026. Su /noticias/streaming-tv/ no se puede excluir entera porque mezcla los estrenos de las plataformas con el negocio de esas mismas plataformas: ahi filtra 'excluir_en_ruta'. Desde el 15-10-2026 tambien en /noticias/operadores/ (los estrenos de Movistar Plus) y /noticias/internet/ (supermercados y tiendas de ropa, 47 de sus 131 publicadas). Medido y explicado en docs/filtros.md.",
           "excluir_rutas": [
             "/ofertas/"
           ],
@@ -138,6 +138,31 @@
               "canales",
               "iptv",
               "m3u"
+            ],
+            "/noticias/operadores/": [
+              "pelicula",
+              "peliculas",
+              "thriller",
+              "serie",
+              "episodios"
+            ],
+            "/noticias/internet/": [
+              "lidl",
+              "mercadona",
+              "aldi",
+              "eroski",
+              "alcampo",
+              "supermercado",
+              "supermercados",
+              "hipermercado",
+              "hipermercados",
+              "zara",
+              "primark",
+              "inditex",
+              "uniqlo",
+              "kiabi",
+              "ikea",
+              "massimo dutti"
             ]
           }
         },

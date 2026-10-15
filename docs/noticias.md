@@ -10,6 +10,7 @@ biblioteca estandar, porque el entorno de las rutinas no lo controlamos.
 python3 scripts/noticias.py candidatos <seccion>   titulares nuevos, sacados de los RSS
 python3 scripts/noticias.py titulares  <seccion>   rellena los titulares espanoles
 python3 scripts/noticias.py anteriores <seccion>   lo ya publicado, para no repetirlo
+python3 scripts/noticias.py leer       <enlace>    el texto del articulo, si WebFetch no puede
 python3 scripts/noticias.py validar    <seccion>   revisa el JSON recien escrito
 python3 scripts/noticias.py archivar   <seccion>   copia del turno + indice
 python3 scripts/noticias.py indexar    <seccion>   rehace el indice del buscador
@@ -284,6 +285,66 @@ constantes de arriba del script y **repiten los del prompt**: si se cambian en
 un sitio, hay que cambiarlos en el otro. Los minimos son **por turno**: el de
 tarde solo cubre desde la ejecucion de la manana, asi que exigirle lo mismo que
 al de manana solo consigue que se rellene con guias y ofertas.
+
+## El comando `leer`: cuando WebFetch no abre el articulo
+
+```
+python3 scripts/noticias.py leer <enlace> [--maximo N]
+```
+
+Saca el texto de un articulo, con su titular y su hora de publicacion en hora
+espanola. Existe desde el 15-10-2026 porque WebFetch se niega con cuatro
+dominios: `theverge.com`, `arstechnica.com`, `wired.com` y
+`computerhoy.20minutos.es` ("Claude Code is unable to fetch from ..."). **No
+son las webs**: con `urllib` y un User-Agent de navegador las cuatro dan el
+articulo entero. Es una lista de la herramienta, no nuestra, y puede cambiar
+cualquier dia sin avisar.
+
+Lo que costaba, medido en los logs del 02-10 al 15-10-2026:
+
+- **Tecnologia:** de los 13 turnos que se quedaron cortos, 8 fueron por esto,
+  siempre en 7 destacadas de 8. Otros 3 eran falta de material (domingo y lunes
+  por la manana), 1 mixto y 1 una copia vieja del repo (arreglado el 08-10).
+- **IA:** los tres turnos cortos de entre semana que se miraron, por esto (5, 5
+  y 6 de 7). Pesa mas que en tecnologia porque la seccion es estrecha.
+- **Nintendo y geopolitica** no usan esos medios.
+- Con WebFetch fallando, el modelo solo probo `curl` en 3 de 13 turnos. El
+  09-10 el `curl` le devolvio el menu de la pagina, y el 11-10 resumio una
+  noticia a partir de una busqueda web, no del articulo.
+
+Quitar esos medios de `medios.json` no es la salida: el feed les funciona y son
+de las mejores fuentes de la seccion (unas 3 de cada 20 destacadas).
+
+**Como encuentra el texto.** Tres cosas, en este orden:
+
+1. El `articleBody` del JSON-LD, que es lo que el propio medio declara como
+   texto del articulo, sin menus ni anuncios. Si es corto (Anadolu mete ahi la
+   entradilla, 96 caracteres) y los parrafos de la pagina dan mas del doble,
+   mandan los parrafos.
+2. Si no hay, el **bloque de la pagina con mas parrafos largos**, y no todos los
+   `<p>`, que es lo que fallo con `curl`. Cada parrafo de 40 caracteres o mas
+   puntua para el elemento que lo contiene y la mitad para el de encima. Luego
+   se juntan los bloques hermanos con parrafos a la misma profundidad: Ars
+   Technica parte el articulo en dos y Wired en cinco. Comentarios, enlaces
+   relacionados y avisos ("Posts from this author will be added to your daily
+   email digest") quedan fuera, porque estan a otra profundidad o son lineas
+   cortas.
+3. Wired deja fuera del `articleBody` la entradilla, que es donde van los datos
+   de la noticia. Si los parrafos de la pagina empiezan antes que el JSON-LD,
+   lo de delante se le pone al principio.
+
+Probado el 15-10-2026 con un articulo reciente de cada medio de las cuatro
+secciones y con 24 de los cuatro dominios bloqueados. Salen 49 de 52 medios y
+los 24 de los cuatro. Los tres que fallan (Sputnik, RT y The Cradle) lo dicen,
+en vez de devolver basura. En esos tres WebFetch sigue siendo la via.
+
+**El veredicto va en el texto y el codigo de salida es 0 siempre**, como en
+`hecho`: si no encuentra el articulo dice "NO SE PUEDE LEER" y que esa noticia no
+puede ser destacada. Con un codigo 1 el modelo da el comando por roto y busca
+otra forma de abrir la pagina, que es justo lo que no tiene que hacer.
+
+Los prompts lo piden en el PASO 4: si WebFetch no abre un articulo, `leer`; si
+`leer` tampoco, se cambia la noticia por otra.
 
 ## El buscador del historico
 

@@ -7,6 +7,7 @@ del prompt se paga en cada ejecucion, y ademas puede olvidarse. Un script no.
     python3 scripts/noticias.py candidatos <seccion> [--horas N] [--por-medio N]
     python3 scripts/noticias.py titulares  <seccion> [--maximo N] [--probar]
     python3 scripts/noticias.py anteriores <seccion> [--turnos N]
+    python3 scripts/noticias.py leer       <url> [--maximo N]
     python3 scripts/noticias.py validar    <seccion>
     python3 scripts/noticias.py archivar   <seccion>
     python3 scripts/noticias.py publicar   "mensaje de commit"
@@ -36,6 +37,7 @@ from collections import Counter
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from html import unescape
+from html.parser import HTMLParser
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -154,7 +156,7 @@ RUIDO = re.compile(
     r"|(desploma|hunde|tumba|derrumba)[^.]{0,20}precio"
     r"|ah[óo]rrate|cons[íi]guelo|hazte con [ée]l|por s[óo]?lo \d"
     # En primera persona es el medio quien regala: publirreportaje, no noticia.
-    r"|sorteo|sorteamos|regalamos|patrocinad",
+    r"|\bsorteo\b|\bsorteamos\b|\bregalamos\b|patrocinad",
     re.IGNORECASE,
 )
 
@@ -688,7 +690,7 @@ def cmd_candidatos(args):
                 descartes["de una categoria del medio que no es de la seccion"] += 1
                 continue
             if ruido_de_la_ruta(titulo, enlace, medio):
-                descartes["estrenos y programacion de TV"] += 1
+                descartes["ruido de una categoria del medio (cine, series, supermercados)"] += 1
                 continue
             if fuera_de_tema(titulo, tema, medio):
                 descartes["de otra plataforma"] += 1
@@ -936,7 +938,7 @@ def cmd_titulares(args):
             elif de_categoria_excluida(categorias, medio):
                 descartes["de una categoria del medio que no es de la seccion"] += 1
             elif ruido_de_la_ruta(titulo, enlace, medio):
-                descartes["estrenos y programacion de TV"] += 1
+                descartes["ruido de una categoria del medio (cine, series, supermercados)"] += 1
             elif fuera_de_tema(titulo, tema, medio):
                 descartes["de otra plataforma"] += 1
             elif es_de_otra_seccion(titulo, ajeno):
@@ -1048,6 +1050,308 @@ def cmd_anteriores(args):
           f"noticia contada por otro medio con otro titular:\n")
     for enlace, titulo in titulos.items():
         print(f"- {titulo}\n  {enlace}")
+    return 0
+
+
+# --------------------------------------------------------------------------
+# leer: el texto de un articulo, cuando WebFetch no puede abrirlo
+# --------------------------------------------------------------------------
+#
+# WebFetch se niega con theverge.com, arstechnica.com, wired.com y
+# computerhoy.20minutos.es ("Claude Code is unable to fetch from ..."). No son
+# las webs: con urllib y un User-Agent de navegador las cuatro dan el articulo
+# entero. Es una lista de la herramienta, no nuestra, y puede cambiar cualquier
+# dia. Medido del 02-10 al 15-10-2026 en los logs: de los 13 turnos de
+# tecnologia que se quedaron cortos, 8 fueron por esto (siempre 7 de 8), y en IA
+# los tres cortos de entre semana que se miraron. Con WebFetch fallando el
+# modelo solo probo curl en 3 de 13 turnos, y el 09-10 el curl le devolvio el
+# menu de la pagina. Leer un articulo es un dato que el script puede sacar.
+
+# Lo que se ensena. Para resumir en tres frases sobra, y un articulo largo de
+# Xataka (14.000 caracteres) no tiene por que entrar entero en el turno.
+MAXIMO_LEER = 8000
+# Con menos texto que esto no se ha encontrado el articulo, sino un trozo de la
+# pagina: Sputnik da 279 caracteres de "suscribete a nuestros canales".
+MINIMO_LEER = 400
+# Un parrafo mas corto no cuenta para decidir donde esta el articulo: "See All
+# Tech", "Comparte este articulo"...
+MINIMO_PARRAFO = 40
+# Al subir al bloque de arriba, lo que entra tiene que parecer articulo.
+MEDIA_PARA_SUBIR = 150
+# Un articleBody de este tamano es el articulo, no la entradilla.
+JSONLD_LARGO = 1500
+
+ETIQUETAS_VACIAS = {"area", "base", "br", "col", "embed", "hr", "img", "input",
+                    "link", "meta", "param", "source", "track", "wbr"}
+ETIQUETAS_SIN_TEXTO = {"script", "style", "noscript", "svg", "template",
+                       "button", "form"}
+
+
+class Pagina(HTMLParser):
+    """Los <p> de la pagina, cada uno con los elementos que lo contienen.
+
+    Tolera el HTML de verdad: <p> sin cerrar, cierres de etiquetas que no
+    estaban abiertas. Cada elemento lleva un numero por orden de aparicion, y
+    eso basta para saber que parrafos comparten bloque.
+    """
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.pila = []
+        self.contador = 0
+        self.abierto = None
+        self.parrafos = []
+        self.callado = 0
+        self.metas = {}
+        self.titulo = []
+        self.en_titulo = False
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "meta":
+            datos = dict(attrs)
+            clave = datos.get("property") or datos.get("name")
+            if clave and datos.get("content"):
+                self.metas.setdefault(clave.lower(), datos["content"])
+        if tag in ETIQUETAS_VACIAS:
+            return
+        if tag == "p" and self.abierto is not None:
+            self.handle_endtag("p")
+        self.contador += 1
+        self.pila.append((tag, self.contador))
+        if tag in ETIQUETAS_SIN_TEXTO:
+            self.callado += 1
+        if tag == "p":
+            self.abierto = (tuple(n for _, n in self.pila[:-1]), [])
+        self.en_titulo = tag == "title"
+
+    def handle_endtag(self, tag):
+        self.en_titulo = False
+        if tag in ETIQUETAS_VACIAS or all(t != tag for t, _ in self.pila):
+            return
+        while self.pila:
+            t, _ = self.pila.pop()
+            if t in ETIQUETAS_SIN_TEXTO:
+                self.callado -= 1
+            if t == "p" and self.abierto is not None:
+                texto = " ".join("".join(self.abierto[1]).split())
+                if texto:
+                    self.parrafos.append((self.abierto[0], texto))
+                self.abierto = None
+            if t == tag:
+                break
+
+    def handle_data(self, data):
+        if self.en_titulo:
+            self.titulo.append(data)
+        if self.abierto is not None and not self.callado:
+            self.abierto[1].append(data)
+
+
+def cuerpo_por_bloques(pagina):
+    """El bloque de la pagina con mas texto en parrafos largos.
+
+    Coger todos los <p> de la pagina no vale: es lo que hizo la rutina con curl
+    el 09-10-2026, y le salio el menu. Cada parrafo largo puntua para el
+    elemento que lo contiene y la mitad para el de encima (asi The Verge, que
+    mete cada parrafo en su propio div, sigue sumando en un mismo bloque).
+
+    Del mejor se sube para juntar sus bloques hermanos: Ars Technica parte el
+    articulo en dos y Wired en cinco, y quedarse en uno perdia el principio o
+    casi todo. Un bloque solo entra si:
+
+    - sus parrafos estan a la misma profundidad que los del articulo, que es
+      lo que tienen los trozos hechos con la misma plantilla;
+    - son parrafos de articulo y no lineas cortas ("Posts from this author
+      will be added to your daily email digest");
+    - y esta pegado a lo que ya se tiene, sin otros parrafos largos en medio.
+      Los comentarios de Nintendo Life cumplen lo otro, pero entre ellos y el
+      articulo estan los enlaces a noticias relacionadas, y eso corta.
+    """
+    largos = [(n, antes, texto) for n, (antes, texto) in enumerate(pagina.parrafos)
+              if antes and len(texto) >= MINIMO_PARRAFO]
+    if not largos:
+        return ""
+    # La descripcion de la pagina suele ser el principio del articulo. Con
+    # noticias de un solo parrafo, como las de My Nintendo News, los
+    # comentarios suman mas texto, y sin esto ganaban ellos.
+    descripcion = " ".join(unescape(pagina.metas.get("og:description")
+                                    or pagina.metas.get("description") or "").split())
+    puntos = Counter()
+    for _, antes, texto in largos:
+        peso = len(texto)
+        if len(descripcion) >= MINIMO_PARRAFO and descripcion[:60] in texto:
+            peso *= 5
+        puntos[antes[-1]] += peso
+        if len(antes) > 1:
+            puntos[antes[-2]] += peso / 2
+    mejor = puntos.most_common(1)[0][0]
+
+    dentro = {n for n, antes, _ in largos if mejor in antes}
+    profundidades = {len(antes) for n, antes, _ in largos if n in dentro}
+
+    def pegado(grupo):
+        desde, hasta = min(dentro), max(dentro)
+        primero, ultimo = min(grupo), max(grupo)
+        if ultimo < desde:
+            hueco = (ultimo, desde)
+        elif primero > hasta:
+            hueco = (hasta, primero)
+        else:
+            return True
+        return not any(hueco[0] < n < hueco[1] and n not in dentro
+                       for n, _, _ in largos)
+
+    antes = next(a for n, a, _ in largos if n == min(dentro))
+    for padre in reversed(antes[:antes.index(mejor)]):
+        grupos = {}
+        for n, a, texto in largos:
+            if padre in a and n not in dentro and len(a) in profundidades:
+                grupos.setdefault(a[-1], []).append((n, len(texto)))
+        if not grupos:
+            continue
+        crecio = otra_vuelta = False
+        while grupos and (otra_vuelta or not crecio):
+            otra_vuelta = False
+            for clave, grupo in list(grupos.items()):
+                posiciones = [n for n, _ in grupo]
+                media = sum(largo for _, largo in grupo) / len(grupo)
+                if media >= MEDIA_PARA_SUBIR and pegado(posiciones):
+                    dentro.update(posiciones)
+                    del grupos[clave]
+                    crecio = otra_vuelta = True
+            if not crecio:
+                break
+        if not crecio:
+            break
+
+    # Se ensena todo lo que hay en los bloques elegidos, tambien las lineas
+    # cortas de dentro ("Key Features"), pero nada de fuera de ellos. Menos el
+    # pie de copyright, que en Wired va pegado al final del articulo.
+    bloques = {antes[-1] for n, antes, _ in largos if n in dentro}
+    return "\n\n".join(texto for a, texto in pagina.parrafos
+                       if a and a[-1] in bloques and not texto.startswith("©"))
+
+
+def objetos_jsonld(html):
+    """Los objetos de los <script type="application/ld+json">, aplanados."""
+    for bloque in re.findall(
+            r"<script[^>]+application/ld\+json[^>]*>(.*?)</script>",
+            html, re.S | re.I):
+        try:
+            pila = [json.loads(bloque.strip())]
+        except ValueError:
+            continue
+        while pila:
+            objeto = pila.pop()
+            if isinstance(objeto, list):
+                pila.extend(objeto)
+            elif isinstance(objeto, dict):
+                yield objeto
+                pila.extend(v for v in objeto.values()
+                            if isinstance(v, (list, dict)))
+
+
+def a_hora_espanola(valor):
+    try:
+        fecha = datetime.fromisoformat(str(valor).strip().replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if fecha.tzinfo is None:
+        return None
+    return fecha.astimezone(ESPANA).strftime(FORMATO_FECHA_HORA)
+
+
+def descargar_pagina(url, intentos=2):
+    cabeceras = {
+        "User-Agent": AGENTE,
+        "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+        "Accept-Encoding": "gzip",
+    }
+    for intento in range(1, intentos + 1):
+        try:
+            peticion = urllib.request.Request(url, headers=cabeceras)
+            with urllib.request.urlopen(peticion, timeout=25) as respuesta:
+                datos = descomprimir(respuesta.read(), respuesta.headers)
+                juego = respuesta.headers.get_content_charset()
+            if not juego:
+                meta = re.search(rb"<meta[^>]+charset=[\"']?([\w-]+)", datos[:4096], re.I)
+                juego = meta.group(1).decode() if meta else "utf-8"
+            try:
+                return datos.decode(juego, errors="replace"), None
+            except LookupError:
+                return datos.decode("utf-8", errors="replace"), None
+        except Exception as e:  # red, timeout, 403, 404...
+            if intento == intentos:
+                return None, str(e)
+            time.sleep(2)
+    return None, "sin intentos"
+
+
+def no_se_puede_leer(motivo):
+    # Codigo 0 tambien aqui, como en 'hecho': lo lee el modelo, que toma un
+    # codigo 1 por un comando roto y se pone a buscar otra forma de abrir la
+    # pagina. Lo que tiene que hacer va en el texto.
+    print(f"NO SE PUEDE LEER: {motivo}\nEsta noticia no puede ser destacada: "
+          f"cambiala por otra. No la resumas a partir del titular ni de una "
+          f"busqueda.")
+    return 0
+
+
+def cmd_leer(args):
+    html, error = descargar_pagina(args.url)
+    if html is None:
+        return no_se_puede_leer(f"no se ha podido descargar {args.url} ({error}).")
+
+    pagina = Pagina()
+    try:
+        pagina.feed(html)
+        pagina.close()
+    except Exception:  # un HTML roto a mitad deja lo leido hasta ahi
+        pass
+
+    # El articleBody es lo que el medio declara como texto del articulo, sin
+    # menus ni anuncios: va primero. Pero hay medios que meten ahi solo la
+    # entradilla (Anadolu, 96 caracteres), asi que si es corto y el bloque de
+    # parrafos es mas del doble, manda el bloque. Si es largo manda siempre:
+    # en The Diplomat y Common Dreams el bloque salia mas largo porque traia
+    # el articulo repetido y los avisos de suscripcion.
+    objetos = list(objetos_jsonld(html))
+    jsonld = max((o["articleBody"] for o in objetos
+                  if isinstance(o.get("articleBody"), str)), key=len, default="")
+    jsonld = " ".join(unescape(re.sub(r"<[^>]+>", " ", jsonld)).split())
+    bloques = cuerpo_por_bloques(pagina)
+    if len(jsonld) >= MINIMO_LEER and (len(jsonld) >= JSONLD_LARGO
+                                       or len(jsonld) * 2 >= len(bloques)):
+        texto, de_donde = jsonld, "el articleBody del JSON-LD de la pagina"
+        # Wired deja fuera del articleBody la entradilla, que es donde van los
+        # datos de la noticia. Si los parrafos de la pagina empiezan antes, lo
+        # que va delante se le pone al principio.
+        hueco = bloques.find(jsonld[:80])
+        if 0 < hueco <= JSONLD_LARGO:
+            texto = bloques[:hueco] + jsonld
+    else:
+        texto, de_donde = bloques, "el bloque de parrafos principal de la pagina"
+
+    if len(texto) < MINIMO_LEER:
+        return no_se_puede_leer(f"en {args.url} no se encuentra el texto del "
+                                f"articulo (solo {len(texto)} caracteres).")
+
+    con_titular = [o for o in objetos if o.get("headline")]
+    titulo = (str(con_titular[0]["headline"]) if con_titular
+              else pagina.metas.get("og:title") or "".join(pagina.titulo))
+    publicado = next((a_hora_espanola(o["datePublished"]) for o in objetos
+                      if o.get("datePublished")), None)
+    publicado = publicado or a_hora_espanola(
+        pagina.metas.get("article:published_time", ""))
+
+    print(f"Titulo: {' '.join(unescape(titulo).split())}")
+    print(f"Publicado: {publicado + ' (hora espanola)' if publicado else 'la pagina no lo dice'}")
+    print(f"Texto sacado de {de_donde}: {len(texto)} caracteres"
+          + (f", se ensenan los primeros {args.maximo}." if len(texto) > args.maximo
+             else "."))
+    print()
+    print(texto[: args.maximo])
     return 0
 
 
@@ -2212,6 +2516,13 @@ def main():
     p.add_argument("seccion")
     p.add_argument("--turnos", type=int, default=TURNOS_ANTERIORES)
     p.set_defaults(func=cmd_anteriores)
+
+    p = ordenes.add_parser(
+        "leer", help="el texto de un articulo, cuando WebFetch no puede abrirlo")
+    p.add_argument("url")
+    p.add_argument("--maximo", type=int, default=MAXIMO_LEER,
+                   help="caracteres de texto que se ensenan")
+    p.set_defaults(func=cmd_leer)
 
     p = ordenes.add_parser("validar", help="revisa el JSON recien escrito")
     p.add_argument("seccion")
