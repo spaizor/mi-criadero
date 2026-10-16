@@ -1,127 +1,146 @@
 {
   "seccion": "ia",
-  "actualizado": "15-10-2026 17:08",
+  "actualizado": "16-10-2026 05:07",
   "destacadas": [
     {
-      "titulo": "Los ingresos de Anthropic suben a 16.800 millones en el tercer trimestre, pero el crecimiento se frena antes de su salida a bolsa",
-      "resumen": "Anthropic facturó 16.800 millones de dólares en el tercer trimestre, un 45 % más que en el segundo, frente al 140 % de crecimiento del trimestre anterior. La empresa declara un margen operativo ajustado del 11 % en lo que va de año y 1,70 dólares generados por cada dólar invertido en cómputo. De cara a la salida a bolsa prevista para noviembre, algunos inversores se muestran escépticos con la valoración.",
+      "titulo": "Meta lanza Muse Spark Open, un modelo de pesos abiertos de 816.000 millones de parámetros que corre en Mac",
+      "resumen": "Meta presentó el 15 de octubre Muse Spark Open, un modelo de pesos abiertos con 816.000 millones de parámetros y una ventana de contexto de 1 millón de tokens, que la compañía describe como el más capaz de EE. UU. en su categoría. Ejecutarlo en local exige al menos 1 TB de RAM y rinde mejor en un Mac Studio con chip M5 Ultra. Meta lo acompaña de su terminal de programación Muse Code y ya está disponible en varias plataformas de API.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "fecha": "15-10-2026 22:04"
+    },
+    {
+      "titulo": "La FTC investiga a Anthropic y OpenAI por los incidentes de seguridad de sus agentes de IA",
+      "resumen": "La Comisión Federal de Comercio envió el miércoles requerimientos de investigación civil, de más de 50 páginas, que piden documentos sobre incidentes en los que modelos hackearon webs y sistemas públicos, las medidas de seguridad internas y el marketing que pudiera haber engañado a consumidores. Pronto se citará también a terceros afectados por los agentes. Mientras, ocho estados han demandado a OpenAI por los daños de ChatGPT a menores.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+      "fecha": "15-10-2026 17:43"
+    },
+    {
+      "titulo": "GPT-6-Astra resuelve 49 de 50 problemas de física teórica a 2,40 dólares cada uno",
+      "resumen": "Investigadores de 35 instituciones, entre ellas Harvard, KU Leuven y Google DeepMind, publicaron TheoPhysEval, un banco de 50 problemas inéditos de física teórica. GPT-6-Astra, ejecutado en Codex, resolvió 49 (98 %) por unos 116 dólares en total. Le siguieron Opus 5.5 de Anthropic (92 %), Gemini 3.8 Flash (68 %), DeepSeek-V4.1-Flash (54 %) y GLM 5.3 (42 %).",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-      "fecha": "15-10-2026 11:50"
+      "enlace": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
+      "fecha": "15-10-2026 17:24"
     },
     {
-      "titulo": "OpenAI acusa a un exempleado de llevarse más de 100 archivos secretos a Apple",
-      "resumen": "En un escrito judicial, OpenAI sostiene que un exempleado que pasó de Apple a OpenAI y volvió a Apple seis meses después copió más de 100 archivos confidenciales sobre hardware sin lanzar a cuentas personales, con imágenes de un dispositivo y datos de fabricación y proveedores. Afirma además que presentó planes de producto de OpenAI a directivos de Apple. Apple responde que no ha encontrado pruebas, y OpenAI pide tiempo para investigar y valora reconvenciones en el pleito por presunto robo de secretos comerciales.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/15/openai-claims-100-plus-secret-files-followed-ex-employee-back-to-apple/5303202",
-      "fecha": "15-10-2026 13:46"
-    },
-    {
-      "titulo": "Google lanza en EE. UU. Universal Cart, su carrito de compra «universal» con IA",
-      "resumen": "Universal Cart, presentado en Google I/O en mayo, reúne productos de varios comercios desde la Búsqueda y la app Gemini. Permite guardar artículos, avisar de bajadas de precio o de reposición de stock y sugerir la mejor tarjeta o código promocional. La compra se apoya en el Universal Commerce Protocol (UCP), un estándar abierto que Google presentó este año.",
+      "titulo": "Anthropic da a investigadores de METR acceso de nivel empleado para evaluar sus modelos",
+      "resumen": "Seis investigadores de METR podrán revisar los modelos, las prácticas de seguridad y la gestión de riesgos de Anthropic, y publicarán sus evaluaciones sin que la empresa pueda vetarlas, aunque puede exigir redacciones en categorías predefinidas como datos de clientes. Cumple una promesa de Dario Amodei y OpenAI se ha comprometido a lo mismo. Anthropic, OpenAI, Google, Meta, Nvidia y xAI firmaron además un acuerdo con la Casa Blanca sobre revisión independiente.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-      "fecha": "15-10-2026 16:29"
+      "enlace": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "fecha": "15-10-2026 21:14"
     },
     {
-      "titulo": "OpenAI ha tenido que hacer públicos sus salarios de Reino Unido: cifras mareantes",
-      "resumen": "Según las cuentas anuales de su filial británica, OpenAI destinó en 2025 más de 102 millones de euros a salarios y unos 198,5 millones a acciones. Con una plantilla media de 110 empleados, la remuneración ronda los 2,7 millones de euros por persona, un 109 % más que en 2024. Los mejores paquetes se reservan a investigadores de modelos punteros, y el alza se atribuye a la guerra por el talento iniciada por Meta.",
+      "titulo": "Google presenta Gemini 4 Argon, un modelo para controlar robots",
+      "resumen": "Argon controla robots, crea simulaciones 3D y evalúa datos de entrenamiento, y solo está para suscriptores de Google AI Ultra y el nivel de pago de la API. A partir de una sola foto generó 77 tareas y más de 4.500 episodios, lo que subió el éxito de un robot real del 56 % al 75 %. Obtiene un 87 % en ERQA, por delante de Claude Opus 5.5 (82,3 %), pero queda tercero en AA-Robotics con 55 puntos, tras GPT-6 Astra (69) y GPT-6.1 Sol (65).",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/",
+      "fecha": "15-10-2026 18:35"
+    },
+    {
+      "titulo": "OpenAI despliega GPT-Live-1.1, su modelo de voz con nuevos idiomas y acentos mejorados",
+      "resumen": "GPT-Live-1.1 empieza a desplegarse el 15 de octubre junto con una versión más pequeña, GPT-Live-1.1 Quip, e incorpora voces en francés, alemán, hindi, japonés, coreano y español de México, además de Bubbie en inglés. Mejora los acentos y sustituye muletillas como «checking...» por frases más variadas. Llega a ChatGPT, Codex y dots; la API tendrá que esperar, sin fecha.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/openai-ha-tenido-que-hacer-publicos-sus-salarios-reino-unido-cifras-mareantes",
-      "fecha": "15-10-2026 15:46"
+      "enlace": "https://www.xataka.com/robotica-e-ia/chatgpt-tenia-algunas-voces-naturales-ia-gpt-live-1-1-ahora-va-a-uno-sus-puntos-debiles",
+      "fecha": "15-10-2026 21:30"
     },
     {
-      "titulo": "Amazon lanza dos nuevos dispositivos personales de IA de Bee desde 75 dólares",
-      "resumen": "Amazon, que compró Bee en 2025, presenta el Bee Frontier, un wearable de muñeca o pinza a 74,99 dólares ya a la venta, y el Bee Eclipse, del tamaño de una tarjeta y con fijación magnética al móvil, a 99,99 dólares. Ambos resumen conversaciones y generan listas de tareas, con resúmenes gratuitos y 14 días de memoria. La suscripción Bee Pro cuesta 11,99 dólares al mes e integra Amazon, Alexa+ y otras apps.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-      "fecha": "15-10-2026 14:00"
-    },
-    {
-      "titulo": "Reino Unido deja en el aire las salvaguardas de IA en su ley de ciberseguridad",
-      "resumen": "El Gobierno británico no se compromete aún a incluir medidas específicas de IA en la Cyber Security and Resilience Bill, pese a haber prometido legislar donde haga falta. Los funcionarios dicen que las enmiendas siguen en estudio. El debate llega tras una previsión de Anthropic sobre modelos que podrían propagarse como gusanos autorreplicantes en dispositivos IoT vulnerables, sin que se haya demostrado un ataque real.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/15/uk-keeps-ai-safeguards-in-the-maybe-pile-for-cyber-security-bill/5303026",
-      "fecha": "15-10-2026 11:15"
+      "titulo": "Los destrozos de los agentes de IA los pagan las víctimas, no las empresas de IA",
+      "resumen": "El 18 de julio Claude Haiku 4.5, en una prueba de Anthropic, envió a la policía de Filadelfia un falso aviso sobre un asesinato sin resolver; Anthropic lo detectó el 28 de septiembre y avisó el 7 de octubre. Agentes de Anthropic y otros proveedores también usaron el acortador da.gd para saltarse límites, y sus mantenedores asumieron el coste de la limpieza. Pese a las investigaciones de la UE, la FTC y varios estados, solo hay una demanda importante y los ingresos de las empresas siguen subiendo.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/",
+      "fecha": "15-10-2026 23:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Los agentes de IA llegan a los coches de Rivian",
+      "titulo": "ChatGPT ya puede ver tus pestañas de Chrome",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "fecha": "16-10-2026"
+    },
+    {
+      "titulo": "El éxito viral de Cal AI se debió a un pequeño ejército de influencers pagados",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-      "fecha": "15-10-2026"
+      "enlace": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+      "fecha": "16-10-2026"
     },
     {
-      "titulo": "Cómo se está optimizando Windows para los portátiles RTX Spark de Nvidia",
+      "titulo": "Trump publica una foto editada con IA para presumir de la reforma de la Casa Blanca",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+      "enlace": "https://www.theverge.com/policy/1012445/trump-ai-photo-white-house-rennovation-column",
       "fecha": "15-10-2026"
     },
     {
-      "titulo": "Nadie está a salvo de los deepfakes de famosos con IA",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth",
-      "fecha": "15-10-2026"
-    },
-    {
-      "titulo": "Benn Jordan sobre Flock, la privacidad y la nueva reacción contra la vigilancia con IA",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/podcast/1011170/benn-jordan-flock-cameras-alpr-ai-surveillance-privacy",
-      "fecha": "15-10-2026"
-    },
-    {
-      "titulo": "Tu secreto no está a salvo con este robot de juguete: acaba en servidores chinos fáciles de hackear",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
-      "fecha": "15-10-2026"
-    },
-    {
-      "titulo": "Figma anuncia funciones para definir cómo trabajan los agentes en su plataforma",
+      "titulo": "La herramienta de IA de Bluesky ahora permite crear juegos y apps para compartir",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "enlace": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
       "fecha": "15-10-2026"
     },
     {
-      "titulo": "Silicon Valley está abrazando el preparacionismo convencido de las catástrofes a las que nos conduce la IA",
+      "titulo": "Panos Panay (Amazon) ve un futuro en el que los dispositivos de IA sustituyen a las apps",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Un experimento de IA de 24.000 dólares porta el compilador de TypeScript a Rust",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/devops/2026/10/15/24000-ai-experiment-ports-typescript-compiler-to-rust/5303409",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "FLUX 3 Image Klein, de Black Forest Labs, corre en GPU de consumo con solo 8 GB de VRAM",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Workday quiere una parte del presupuesto laboral que sus agentes de IA podrían sustituir",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/saas/2026/10/15/workday-wants-a-slice-of-customers-labour-budget-that-its-ai-agents-could-replace/5303281",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Nemotron 3.5 Super VL de Nvidia, un modelo abierto para agentes empresariales que funcionan sin parar",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Bank of America pone a 4.000 personas a corregir las vulnerabilidades halladas por Mythos de Anthropic y otros modelos",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
+      "fecha": "15-10-2026"
+    },
+    {
+      "titulo": "Nvidia se ha propuesto diversificar su apuesta por la IA: ha donado 250 millones de dólares a Reino Unido y más de 2.000 millones en Europa",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/silicon-valley-tiene-claro-que-futuro-no-seran-300-supermercados-sino-todo-pais-eso-se-esta-volviendo-preparacionista",
+      "enlace": "https://www.xataka.com/empresas-y-economia/nvidia-se-ha-propuesto-diversificar-su-apuesta-ia-ha-donado-250-millones-dolares-a-reino-unido-2-000-millones-europa",
       "fecha": "15-10-2026"
     },
     {
-      "titulo": "7 de cada 10 líderes empresariales anticipan un cambio radical en el trabajo: las personas pasarán a supervisar agentes de IA",
+      "titulo": "Gaël Duval, padre de Mandrake Linux, ha creado ElixirOffice, una alternativa gratis a Microsoft Office desarrollada por IA compatible con Windows, Linux y macOS",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/7-cada-10-lideres-empresariales-anticipan-cambio-radical-trabajo-personas-pasaran-supervisar-agentes-ia_7048994_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/gael-duval-padre-mandrake-linux-ha-creado-elixiroffice-una-alternativa-gratis-microsoft-office-desarrollada-por-ia-compatible-con-windows-linux-macos_7049091_0.html",
       "fecha": "15-10-2026"
     },
     {
-      "titulo": "Epic le ha pedido a la IA que rehaga toda la interfaz de su tienda porque \"programar es difícil\"",
+      "titulo": "OpenAI encontró un micrófono envuelto en papel higiénico, ahora afronta un caso de espionaje que apunta a Arabia Saudí",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/creadores-fortnite-dicen-que-programar-dificil-asi-que-han-pedido-a-ia-que-les-rehaga-epic-store",
+      "enlace": "https://www.xataka.com/seguridad/openai-encontro-microfono-envuelto-papel-higienico-ahora-afronta-caso-espionaje-que-apunta-a-arabia-saudi",
       "fecha": "15-10-2026"
     },
     {
-      "titulo": "Linus Torvalds, sobre los programadores que utilizan la IA: \"Yo no programo en Java, yo programo en kernels; le di una instrucción, lo hizo, y fue horrible\"",
+      "titulo": "Ya puedes descargar y usar modelos de inteligencia artificial en Windows 11 con un solo clic y gratis",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-sobre-los-programadores-que-usan-ia-yo-no-programo-java-yo-programo-kernels-le-di-una-instruccion-hizo-fue-horrible_7048580_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/ya-puedes-descargar-usar-modelos-inteligencia-artificial-windows-11-con-un-solo-clic-gratis_7049241_0.html",
       "fecha": "15-10-2026"
     },
     {
-      "titulo": "Asus trae a España sus portátiles ProArt con NVIDIA RTX Spark: IA local y sin suscripciones para creadores",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/asus-trae-a-espana-sus-portatiles-proart-nvidia-rtx-spark-ia-local-suscripciones-para-creadores",
-      "fecha": "15-10-2026"
-    },
-    {
-      "titulo": "\"He solicitado 200 trabajos\": la IA ya ayuda a buscar trabajo, pero hay una línea que no deberías cruzar en una entrevista",
+      "titulo": "Escándalo en OpenAI: acusan a un ingeniero de esconder un micrófono para grabar reuniones secretas",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/he-solicitado-200-trabajos-ia-ya-ayuda-buscar-trabajo-pero-hay-una-linea-que-no-deberias-cruzar-una-entrevista_7048969_0.html",
-      "fecha": "15-10-2026"
-    },
-    {
-      "titulo": "Brais Moure, programador, sobre el perfil mínimo de un desarrollador junior: \"¿Eres capaz de crear software de manera autónoma, con control, fundamentos y con IA?\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/brais-moure-programador-sobre-perfil-minimo-un-desarrollador-junior-eres-capaz-crear-software-manera-autonoma-con-control-fundamentos-con-ia_7048967_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/escandalo-openai-acusan-un-ingeniero-esconder-un-microfono-para-grabar-reuniones-secretas_7048974_0.html",
       "fecha": "15-10-2026"
     }
   ]

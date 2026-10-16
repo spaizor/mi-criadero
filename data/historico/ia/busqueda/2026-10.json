@@ -3,6 +3,160 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Meta lanza Muse Spark Open, un modelo de pesos abiertos de 816.000 millones de parámetros que corre en Mac",
+      "fuente": "TechCrunch",
+      "fecha": "15-10-2026 22:04",
+      "enlace": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "La FTC investiga a Anthropic y OpenAI por los incidentes de seguridad de sus agentes de IA",
+      "fuente": "Ars Technica",
+      "fecha": "15-10-2026 17:43",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "GPT-6-Astra resuelve 49 de 50 problemas de física teórica a 2,40 dólares cada uno",
+      "fuente": "The Decoder",
+      "fecha": "15-10-2026 17:24",
+      "enlace": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Anthropic da a investigadores de METR acceso de nivel empleado para evaluar sus modelos",
+      "fuente": "TechCrunch",
+      "fecha": "15-10-2026 21:14",
+      "enlace": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Google presenta Gemini 4 Argon, un modelo para controlar robots",
+      "fuente": "The Decoder",
+      "fecha": "15-10-2026 18:35",
+      "enlace": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "OpenAI despliega GPT-Live-1.1, su modelo de voz con nuevos idiomas y acentos mejorados",
+      "fuente": "Xataka",
+      "fecha": "15-10-2026 21:30",
+      "enlace": "https://www.xataka.com/robotica-e-ia/chatgpt-tenia-algunas-voces-naturales-ia-gpt-live-1-1-ahora-va-a-uno-sus-puntos-debiles",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Los destrozos de los agentes de IA los pagan las víctimas, no las empresas de IA",
+      "fuente": "Wired",
+      "fecha": "15-10-2026 23:00",
+      "enlace": "https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "ChatGPT ya puede ver tus pestañas de Chrome",
+      "fuente": "The Verge",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "El éxito viral de Cal AI se debió a un pequeño ejército de influencers pagados",
+      "fuente": "TechCrunch",
+      "fecha": "16-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Trump publica una foto editada con IA para presumir de la reforma de la Casa Blanca",
+      "fuente": "The Verge",
+      "fecha": "15-10-2026",
+      "enlace": "https://www.theverge.com/policy/1012445/trump-ai-photo-white-house-rennovation-column",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "La herramienta de IA de Bluesky ahora permite crear juegos y apps para compartir",
+      "fuente": "TechCrunch",
+      "fecha": "15-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Panos Panay (Amazon) ve un futuro en el que los dispositivos de IA sustituyen a las apps",
+      "fuente": "TechCrunch",
+      "fecha": "15-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Un experimento de IA de 24.000 dólares porta el compilador de TypeScript a Rust",
+      "fuente": "The Register",
+      "fecha": "15-10-2026",
+      "enlace": "https://www.theregister.com/devops/2026/10/15/24000-ai-experiment-ports-typescript-compiler-to-rust/5303409",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "FLUX 3 Image Klein, de Black Forest Labs, corre en GPU de consumo con solo 8 GB de VRAM",
+      "fuente": "The Decoder",
+      "fecha": "15-10-2026",
+      "enlace": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Workday quiere una parte del presupuesto laboral que sus agentes de IA podrían sustituir",
+      "fuente": "The Register",
+      "fecha": "15-10-2026",
+      "enlace": "https://www.theregister.com/saas/2026/10/15/workday-wants-a-slice-of-customers-labour-budget-that-its-ai-agents-could-replace/5303281",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Nemotron 3.5 Super VL de Nvidia, un modelo abierto para agentes empresariales que funcionan sin parar",
+      "fuente": "The Decoder",
+      "fecha": "15-10-2026",
+      "enlace": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Bank of America pone a 4.000 personas a corregir las vulnerabilidades halladas por Mythos de Anthropic y otros modelos",
+      "fuente": "The Decoder",
+      "fecha": "15-10-2026",
+      "enlace": "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Nvidia se ha propuesto diversificar su apuesta por la IA: ha donado 250 millones de dólares a Reino Unido y más de 2.000 millones en Europa",
+      "fuente": "Xataka",
+      "fecha": "15-10-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/nvidia-se-ha-propuesto-diversificar-su-apuesta-ia-ha-donado-250-millones-dolares-a-reino-unido-2-000-millones-europa",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Gaël Duval, padre de Mandrake Linux, ha creado ElixirOffice, una alternativa gratis a Microsoft Office desarrollada por IA compatible con Windows, Linux y macOS",
+      "fuente": "ComputerHoy",
+      "fecha": "15-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/gael-duval-padre-mandrake-linux-ha-creado-elixiroffice-una-alternativa-gratis-microsoft-office-desarrollada-por-ia-compatible-con-windows-linux-macos_7049091_0.html",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "OpenAI encontró un micrófono envuelto en papel higiénico, ahora afronta un caso de espionaje que apunta a Arabia Saudí",
+      "fuente": "Xataka",
+      "fecha": "15-10-2026",
+      "enlace": "https://www.xataka.com/seguridad/openai-encontro-microfono-envuelto-papel-higienico-ahora-afronta-caso-espionaje-que-apunta-a-arabia-saudi",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Ya puedes descargar y usar modelos de inteligencia artificial en Windows 11 con un solo clic y gratis",
+      "fuente": "ComputerHoy",
+      "fecha": "15-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/ya-puedes-descargar-usar-modelos-inteligencia-artificial-windows-11-con-un-solo-clic-gratis_7049241_0.html",
+      "turno": "2026-10-16_M"
+    },
+    {
+      "titulo": "Escándalo en OpenAI: acusan a un ingeniero de esconder un micrófono para grabar reuniones secretas",
+      "fuente": "ComputerHoy",
+      "fecha": "15-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/escandalo-openai-acusan-un-ingeniero-esconder-un-microfono-para-grabar-reuniones-secretas_7048974_0.html",
+      "turno": "2026-10-16_M"
+    },
+    {
       "titulo": "Los ingresos de Anthropic suben a 16.800 millones en el tercer trimestre, pero el crecimiento se frena antes de su salida a bolsa",
       "fuente": "The Decoder",
       "fecha": "15-10-2026 11:50",
