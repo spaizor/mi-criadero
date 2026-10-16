@@ -3,6 +3,118 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Gemini 4 Argon, de Google, se acerca a la frontera de la IA más que ningún modelo de la compañía en meses",
+      "fuente": "The Decoder",
+      "fecha": "16-10-2026 17:03",
+      "enlace": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "Detectan una flota de agentes de IA autónomos, creados por primera vez desde China, extrayendo datos de Amap",
+      "fuente": "Xataka",
+      "fecha": "16-10-2026 16:00",
+      "enlace": "https://www.xataka.com/robotica-e-ia/han-pillado-a-flota-agentes-ia-rebeldes-campando-internet-primera-vez-han-sido-creados-activados-china",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "Las nuevas condiciones de Meta podrían permitirle entrenar IA con sitios de noticias gratis",
+      "fuente": "The Verge",
+      "fecha": "16-10-2026 16:02",
+      "enlace": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "PostgreSQL 19 se retrasa porque las revisiones con IA encuentran más fallos de los que los humanos pueden corregir",
+      "fuente": "The Register",
+      "fecha": "16-10-2026 12:00",
+      "enlace": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "¿Está cerca un avance en interpretabilidad de la IA? Un ensayo divide a los investigadores",
+      "fuente": "The Decoder",
+      "fecha": "16-10-2026 15:48",
+      "enlace": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "Brave cifra de extremo a extremo los chats de su asistente de IA con un entorno de ejecución confiable",
+      "fuente": "The Register",
+      "fecha": "16-10-2026 14:15",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "Un ingeniero de Red Hat usa Claude Code para resolver un problema histórico de Linux con un escáner de negativos",
+      "fuente": "ComputerHoy",
+      "fecha": "16-10-2026 14:10",
+      "enlace": "https://computerhoy.20minutos.es/software/christian-schaller-ingeniero-software-red-hat-usa-ia-claude-code-para-resolver-un-problema-historico-linux-me-quede-atascado-no-avance-nada-durante-muchisimo-tiempo_7049469_0.html",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "El CEO de Replit dice que el futuro del trabajo es la «empresa autoconducida»",
+      "fuente": "TechCrunch",
+      "fecha": "16-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "Mark Wahlberg sobre usar la IA en el cine «de la manera correcta» y aceptar un clon de IA que continúe su legado",
+      "fuente": "TechCrunch",
+      "fecha": "16-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "El nuevo Rosalind Academic Plan de OpenAI da a laboratorios hasta 30 plazas gratis durante un año",
+      "fuente": "The Decoder",
+      "fecha": "16-10-2026",
+      "enlace": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "Quizá los chatbots no deberían poder decir «yo» o «me»",
+      "fuente": "Wired",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "Chicas atractivas generadas con IA copian a cómicos para impulsar su contenido subido de tono",
+      "fuente": "Wired",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "Epic despidió a más de mil empleados y ahora exige usar IA para desarrollar su ambicioso juego con Disney",
+      "fuente": "Xataka",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.xataka.com/videojuegos/epic-despidio-a-mil-empleados-ahora-exige-usar-ia-para-desarrollar-su-ambicioso-juego-disney",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "La IA revoluciona la programación con el auge del 'vibe coding'",
+      "fuente": "ComputerHoy",
+      "fecha": "16-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/ia-revoluciona-programacion-auge-vibe-coding_7049606_0.html",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "La IA la lía a lo grande: borra una temporada entera de un programa de TV y tienen que rehacerlo por completo",
+      "fuente": "ComputerHoy",
+      "fecha": "16-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/ia-lia-grande-borra-una-temporada-entera-un-programa-tv-tienen-que-rehacerlo-por-completo_7049481_0.html",
+      "turno": "2026-10-16_T"
+    },
+    {
+      "titulo": "Es entrevistado por dos IA para un trabajo, se despide mientras las dos inteligencias artificiales se quedan hablando solas incapaces de cerrar la llamada",
+      "fuente": "ComputerHoy",
+      "fecha": "16-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/es-entrevistado-por-dos-ia-para-un-trabajo-se-despide-mientras-las-dos-inteligencias-artificiales-se-quedan-hablando-solas-incapaces-cerrar-llamada_7049085_0.html",
+      "turno": "2026-10-16_T"
+    },
+    {
       "titulo": "Meta lanza Muse Spark Open, un modelo de pesos abiertos de 816.000 millones de parámetros que corre en Mac",
       "fuente": "TechCrunch",
       "fecha": "15-10-2026 22:04",
