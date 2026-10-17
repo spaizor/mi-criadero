@@ -3,6 +3,230 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Meta se arroga el derecho de rastrear el contenido de sus clientes empresariales para entrenar modelos de IA",
+      "fuente": "The Register",
+      "fecha": "16-10-2026 22:00",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/16/meta-grants-itself-right-to-scrape-content-from-business-customers-for-model-training/5303658",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Microsoft corrige 1.453 vulnerabilidades en el mayor Patch Tuesday de su historia",
+      "fuente": "ComputerHoy",
+      "fecha": "16-10-2026 23:23",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/microsoft-nunca-habia-tenido-que-corregir-tantos-fallos-seguridad-windows-mas-1-400-un-mes_7049755_0.html",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Un error hizo que las Ray-Ban Meta grabaran conversaciones sin que el usuario lo supiera",
+      "fuente": "Ars Technica",
+      "fecha": "16-10-2026 21:11",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Apple lanza su propia línea de dispositivos para el hogar inteligente con LG y Schneider Electric",
+      "fuente": "The Verge",
+      "fecha": "16-10-2026 20:30",
+      "enlace": "https://www.theverge.com/tech/1013025/apple-home-collection-products-lg-schneider-smart-home",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Una app falsa de WhatsApp supera las 500.000 descargas en Google Play",
+      "fuente": "ComputerHoy",
+      "fecha": "16-10-2026 23:10",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/una-aplicacion-falsa-whatsapp-se-cuela-google-play-supera-las-500-000-descargas_7049753_0.html",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "El creador de Node.js abandona Deno para trabajar en Cloudflare Workers de código abierto",
+      "fuente": "The Register",
+      "fecha": "16-10-2026 22:20",
+      "enlace": "https://www.theregister.com/devops/2026/10/16/nodejs-creator-ditches-deno-to-work-on-open-source-cloudflare-workers/5303662",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Waymo llega a Canadá: empezará a mapear Toronto con conductores humanos",
+      "fuente": "TechCrunch",
+      "fecha": "16-10-2026 18:06",
+      "enlace": "https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Analogue vuelve a los 16 bits con las Super Nt+ y Mega Sg+",
+      "fuente": "Engadget",
+      "fecha": "16-10-2026 19:03",
+      "enlace": "https://www.engadget.com/2288966/analogue-returns-to-the-16-bit-era-with-the-mega-sg-and-super-nt/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Los modelos de pesos abiertos se ganan corazones, mentes y carteras",
+      "fuente": "The Register",
+      "fecha": "17-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/17/open-weight-models-win-hearts-minds-and-wallets/5303704",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Un conductor de Tesla dice que dormía y usaba FSD cuando chocó contra patrullas de tráfico",
+      "fuente": "The Verge",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.theverge.com/transportation/1013280/tesla-chp-fsd-crash",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Policías de Chicago ayudaron a HSI a espiar a activistas antiICE de Minnesota",
+      "fuente": "Wired",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.wired.com/story/chicago-area-cops-helped-hsi-spy-on-minnesota-anti-ice-activists/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Ubuntu Stonking Stingray se estrena con un kernel previo a la versión final",
+      "fuente": "The Register",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/16/ubuntu-stonking-stingray-swims-into-spotlight-with-pre-release-kernel/5303580",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Así son los datos que Telegram entrega al Gobierno de EE. UU.",
+      "fuente": "404 Media",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.404media.co/heres-what-telegram-giving-data-to-the-u-s-government-looks-like/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "El FBI advierte de estafas que piden dinero y datos personales antes de las elecciones de mitad de mandato",
+      "fuente": "The Register",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/10/16/uncle-scam-wants-you-to-cough-up-your-cash-and-personal-data-fbi-warns-ahead-of-midterms/5303512",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Polymarket registró 600 millones de dólares en apuestas electorales después de terminadas las elecciones",
+      "fuente": "Ars Technica",
+      "fecha": "16-10-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Ya es oficial: así es la segunda generación de los auriculares reparables, ahora con soporte de LDAC y batería intercambiable",
+      "fuente": "Xataka",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.xataka.com/seleccion/oficial-asi-segunda-generacion-auriculares-reparables-ahora-soporte-ldac-bateria-intercambiable",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Windows 11 mejora una función que llevaba años pidiendo la comunidad",
+      "fuente": "Hipertextual",
+      "fecha": "16-10-2026",
+      "enlace": "https://hipertextual.com/software/windows-11-actualizacion-explorador-archivos/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "O2 tiene una función para que Internet vaya más rápido que otros operadores, incluso con la misma cobertura",
+      "fuente": "ADSLZone",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-mejora-velocidad-carga-web-congestion/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Linus Torvalds consigue que la batería de tu portátil dure mucho más con Linux 7.4",
+      "fuente": "ComputerHoy",
+      "fecha": "16-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-consigue-que-bateria-tu-portatil-dure-mucho-mas-con-linux-7-4_7049596_0.html",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Este drama que arrasa en Prime Video aborda un tema que el género lleva seis años esquivando: la pandemia",
+      "fuente": "Xataka",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.xataka.com/streaming/este-drama-que-arrasa-prime-video-aborda-tema-que-genero-lleva-seis-anos-esquivando-pandemia",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Los Samsung Galaxy S27 ante una encrucijada: podrían verse obligados a cambiar de chip de imprevisto",
+      "fuente": "Hipertextual",
+      "fecha": "16-10-2026",
+      "enlace": "https://hipertextual.com/mobile/samsung-galaxy-s27-sin-snapdragon-sobrecalentamientos/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Caída de WhatsApp: la app de mensajería ya funciona bien",
+      "fuente": "ADSLZone",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/whatsapp/caida-whatsapp-app-mensajeria-no-funciona-bien/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Python pone fin a la gran pesadilla de los programadores que utilizan Windows: \"Funciona en Linux, en macOS, pero no en Windows, no lo entiendo\"",
+      "fuente": "ComputerHoy",
+      "fecha": "16-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/python-pone-fin-gran-pesadilla-los-programadores-que-utilizan-windows-funciona-linux-macos-pero-no-windows-no-entiendo_7049612_0.html",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "La nueva película de Netflix ha conseguido lo que Hollywood no logró en 55 años de historia: usar 'Stairway to Heaven'",
+      "fuente": "Xataka",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.xataka.com/cine-y-tv/nueva-pelicula-netflix-ha-conseguido-que-hollywood-no-logro-55-anos-historia-usar-stairway-to-heaven",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Cuidado: esta app falsa se hace pasar por WhatsApp y podría robar tu información sin que te des cuenta",
+      "fuente": "Hipertextual",
+      "fecha": "16-10-2026",
+      "enlace": "https://hipertextual.com/mobile/falsa-app-whatsapp-android-robar-informacion/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "El nuevo Starlink V5 tiene una mejora que justifica el cambio, aunque no vayas a navegar más rápido",
+      "fuente": "ADSLZone",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/diferencia-principal-starlink-v5/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Lidl lanza la botella definitiva que no solo mantiene la temperatura del agua, sino que es capaz de enfriar agua a 100 grados a temperatura de consumo en 2–3 minutos",
+      "fuente": "ComputerHoy",
+      "fecha": "16-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/lidl-lanza-botella-definitiva-que-no-solo-mantiene-temperatura-agua-sino-que-es-capaz-enfriar-agua-100-grados-temperatura-consumo-2-3-minutos_7049611_0.html",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "El Sony Bravia 9 II es uno de los mejores televisores de 2026: lo puedes acompañar de un sistema completo de sonido y ahorrar 850 euros",
+      "fuente": "Xataka",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.xataka.com/seleccion/sony-bravia-9-ii-uno-mejores-televisores-2026-puedes-acompanar-sistema-completo-sonido-ahorrar-850-euros",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Buena suerte para comprar un iPhone Duo: las primeras unidades se agotan y las entregas ya llegan hasta 2027",
+      "fuente": "Hipertextual",
+      "fecha": "16-10-2026",
+      "enlace": "https://hipertextual.com/apple/reservas-iphone-duo-tiempos-entrega-2027/",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Confirmado por La Sexta: esta es la mejor hora para sintonizar la TDT el día 5 de noviembre y no dejarte por el camino ningún canal",
+      "fuente": "ComputerHoy",
+      "fecha": "16-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/confirmado-por-sexta-esta-es-mejor-hora-para-sintonizar-tdt-dia-5-noviembre-no-dejarte-por-camino-ningun-canal_7049608_0.html",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "La Ley de Propiedad Horizontal lo permite y los expertos lo confirman: \"Puedes instalar una barandilla en tu plaza para que no rayen tu coche\"",
+      "fuente": "Xataka",
+      "fecha": "16-10-2026",
+      "enlace": "https://www.xataka.com/movilidad/ley-propiedad-horizontal-permite-expertos-confirman-puedes-instalar-barandilla-tu-plaza-no-rayen-tu-coche",
+      "turno": "2026-10-17_M"
+    },
+    {
+      "titulo": "Cataluña confirma que el día 5 de noviembre será un día muy movido para su TDT: \"Mantendremos los estándares tecnológicos más avanzados\"",
+      "fuente": "ComputerHoy",
+      "fecha": "16-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/cataluna-confirma-que-dia-5-noviembre-sera-un-dia-muy-movido-para-su-tdt-mantendremos-los-estandares-tecnologicos-mas-avanzados_7049609_0.html",
+      "turno": "2026-10-17_M"
+    },
+    {
       "titulo": "Los pedidos del iPhone Duo ya se retrasan hasta 2027",
       "fuente": "The Verge",
       "fecha": "16-10-2026 15:10",

@@ -1,189 +1,207 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "16-10-2026 16:19",
+  "actualizado": "17-10-2026 04:17",
   "destacadas": [
     {
-      "titulo": "Los pedidos del iPhone Duo ya se retrasan hasta 2027",
-      "resumen": "Menos de una hora después de abrir las reservas, a las 8:00 ET del viernes, Apple ya daba fechas de entrega de finales de enero para todas las configuraciones del iPhone Duo, su primer plegable. Arranca en 1.999 dólares con 256 GB y llegará a las tiendas el 23 de octubre, por lo que quizá haya unidades sueltas en tienda física. El retraso puede deberse a una demanda alta, a poca producción o a ambas.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1012805/apple-iphone-duo-preorder-delay",
-      "fecha": "16-10-2026 15:10"
-    },
-    {
-      "titulo": "Un ciberataque a un sistema gestionado por BAE paraliza los juzgados de quiebras de EE. UU.",
-      "resumen": "El Bankruptcy Noticing Center, que BAE Systems opera para la judicatura federal, está fuera de servicio por un «incidente de ciberseguridad» que empezó el 9 de octubre, según un tribunal de Texas. Se ha detenido la producción y distribución de avisos de quiebra en todo el país y un tribunal ha ampliado 30 días ciertas suspensiones. BAE dice que el incidente está aislado en el BNC.",
+      "titulo": "Meta se arroga el derecho de rastrear el contenido de sus clientes empresariales para entrenar modelos de IA",
+      "resumen": "Los nuevos términos comerciales de Meta, que entran en vigor el 30 de octubre de 2026, permiten usar rastreadores automatizados para recopilar contenido de las webs de sus clientes de empresa y entrenar modelos de IA. Al menos un millón de empresas usan sus agentes de IA en WhatsApp y Messenger, y casi todos los medios tienen una cuenta comercial en Meta. La News/Media Alliance califica la medida de abusiva y probablemente ilegal, y un experto señala que los términos no garantizan el respeto a robots.txt.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/16/attack-on-bae-managed-system-disrupts-us-bankruptcy-courts/5303487",
-      "fecha": "16-10-2026 15:29"
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/16/meta-grants-itself-right-to-scrape-content-from-business-customers-for-model-training/5303658",
+      "fecha": "16-10-2026 22:00"
     },
     {
-      "titulo": "La Justicia europea obliga a los bancos a devolver de inmediato el dinero robado en ciberestafas",
-      "resumen": "El Tribunal de Justicia de la UE falla, a raíz de un phishing en Polonia que costó unos 700 euros, que ni la negligencia grave del cliente permite al banco negarse a la devolución inmediata. Si el cliente avisa sin demora, el banco debe reembolsar como muy tarde al cierre del siguiente día hábil. La única excepción es la sospecha fundada de fraude del cliente, notificada por escrito a la autoridad nacional.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/justicia-europea-impone-nueva-obligacion-a-bancos-devolver-dinero-ciberestafas-inmediatamente",
-      "fecha": "16-10-2026 15:16"
-    },
-    {
-      "titulo": "El primer arma «vibe-coded»: Cody Wilson presenta la WASP, una pistola 3D diseñada con IA",
-      "resumen": "Cody Wilson, de Defense Distributed, asegura haber hecho la primera arma generada por IA: la WASP, una pistola impresa en 3D del calibre .22 que es poco más que un cañón unido a una caja de plástico con muelle. En la prueba en Austin falló el primer disparo y acertó los dos siguientes. Wilson matiza que lo suyo es «una IA que puede generar armas».",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1011950/vibe-coded-3d-printed-gun-ai-generated-cody-wilson",
-      "fecha": "16-10-2026 14:30"
-    },
-    {
-      "titulo": "IBM prepara Kookaburra, el procesador cuántico que allana el camino hacia Starling",
-      "resumen": "IBM celebrará su conferencia de computación cuántica el 11, 12 y 13 de noviembre y es muy probable que presente Kookaburra, recogido en su hoja de ruta. El chip integrará una unidad de procesamiento lógico y una memoria cuántica con corrección de errores, base de Starling, el ordenador cuántico tolerante a fallos que IBM quiere tener listo en 2029.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/investigacion/ibm-prepara-kookaburra-procesador-cuantico-que-busca-allanar-camino-ordenador-cuantico-definitivo",
-      "fecha": "16-10-2026 14:46"
-    },
-    {
-      "titulo": "Microsoft lleva Defender a los escritorios Linux",
-      "resumen": "Microsoft lanza en vista previa pública Defender for Linux Workstations, extensión de Defender for Endpoint con antivirus, gestión de inventario y ajustes de seguridad y aislamiento de dispositivos. Exige Defender for Endpoint Plan 2 o Microsoft 365 E5/E7 y es compatible con RHEL, CentOS, Ubuntu LTS, SUSE y Oracle Linux, entre otras.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/10/16/microsoft-bringing-defender-to-linux-desktops-repeat-microsoft-bringing-defender-to-linux-desktops/5303477",
-      "fecha": "16-10-2026 12:43"
-    },
-    {
-      "titulo": "Android estrena funciones con Gemini para frenar estafas en mensajes, enlaces y llamadas",
-      "resumen": "Google usará Gemini para analizar conversaciones con números desconocidos mediante Private AI Compute, con la protección desactivada por defecto, y Gemini Nano en el móvil para evaluar enlaces sospechosos antes de abrirlos. Sus herramientas actuales en Mensajes y Teléfono ya detectan más de cinco millones de llamadas y mensajes sospechosos al mes.",
+      "titulo": "Microsoft corrige 1.453 vulnerabilidades en el mayor Patch Tuesday de su historia",
+      "resumen": "El Patch Tuesday de octubre de 2026 soluciona 1.453 fallos, de los que 1.105 son de Windows, 164 de Office, 37 de SharePoint Server y 22 de SQL Server. Incluye tres zero-day, uno de ellos (CVE-2026-96951, una elusión de funciones de seguridad de Windows) ya explotado activamente; los otros afectan a .NET Framework y a MessagePack-CSharp. El aumento coincide con el uso de modelos de IA para buscar vulnerabilidades.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/android-quiere-evitar-que-caigas-una-estafa-estas-nuevas-funciones-para-tu-movil-vigilan-mensajes-enlaces-llamadas_7049477_0.html",
-      "fecha": "16-10-2026 12:54"
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/microsoft-nunca-habia-tenido-que-corregir-tantos-fallos-seguridad-windows-mas-1-400-un-mes_7049755_0.html",
+      "fecha": "16-10-2026 23:23"
     },
     {
-      "titulo": "MapQuest añade una capa que muestra dónde hay cámaras Flock en tu barrio",
-      "resumen": "La app activa una capa opcional con cámaras de vigilancia exteriores y lectores de matrículas: Flock, Motorola Solutions (Vigilant), Genetec, Axis, Axon, Leonardo (ELSAG), Rekor, Verkada y otras. Se suma a las capas de tráfico e incidentes, tras las novedades recientes de MapQuest como Android Auto y transporte público.",
+      "titulo": "Un error hizo que las Ray-Ban Meta grabaran conversaciones sin que el usuario lo supiera",
+      "resumen": "Varios usuarios denunciaron esta semana que sus gafas Ray-Ban Meta grababan audio sin decir «Hey, Meta», con la opción de responder sin la frase desactivada; las grabaciones y transcripciones quedaban en el historial de la app Meta AI. Meta asegura que el problema está resuelto, pero no ha explicado la causa ni cuántos dispositivos se vieron afectados. Un usuario de Reddit lo notó tras una actualización de firmware.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent/",
+      "fecha": "16-10-2026 21:11"
+    },
+    {
+      "titulo": "Apple lanza su propia línea de dispositivos para el hogar inteligente con LG y Schneider Electric",
+      "resumen": "La Apple Home Collection reúne cámaras, termostatos, sensores, una cerradura inteligente y un timbre con vídeo, desarrollados con LG Electronics y Schneider Electric, junto a HomeView, su primera pantalla inteligente. Los productos parten de 200 dólares. Apple atribuye el momento a la madurez de Matter y a un Siri más conversacional, y ve en HomeView la puerta de entrada al ecosistema.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1013025/apple-home-collection-products-lg-schneider-smart-home",
+      "fecha": "16-10-2026 20:30"
+    },
+    {
+      "titulo": "Una app falsa de WhatsApp supera las 500.000 descargas en Google Play",
+      "resumen": "El clon, publicado por «Agment Assets sallu», llegó a aparecer en resultados patrocinados y copiaba capturas y descripciones oficiales. Parece haber aprovechado el programa Early Access de Google Play, que oculta las reseñas públicas. Google la ha retirado tras la repercusión, días después de otro falso Chrome con más de 100.000 descargas.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/una-aplicacion-falsa-whatsapp-se-cuela-google-play-supera-las-500-000-descargas_7049753_0.html",
+      "fecha": "16-10-2026 23:10"
+    },
+    {
+      "titulo": "El creador de Node.js abandona Deno para trabajar en Cloudflare Workers de código abierto",
+      "resumen": "Cloudflare compró Deno la semana pasada y Ryan Dahl y otros 12 colaboradores se incorporan a su plataforma Workers; Deno seguirá un año más con parches de seguridad antes de cerrarse. Tenía 400.000 usuarios mensuales en agosto y 21 millones de dólares de Sequoia. Dahl lanzó celld, una implementación abierta de los Durable Objects que se fusionará con workerd.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/devops/2026/10/16/nodejs-creator-ditches-deno-to-work-on-open-source-cloudflare-workers/5303662",
+      "fecha": "16-10-2026 22:20"
+    },
+    {
+      "titulo": "Waymo llega a Canadá: empezará a mapear Toronto con conductores humanos",
+      "resumen": "Waymo ha obtenido la aprobación del programa piloto de vehículos automatizados de Ontario y empieza en Toronto el 16 de octubre de 2026. Primero hará mapas de alta definición con conductores, luego pruebas con operador de seguridad y por último abrirá el servicio al público. Hoy opera robotaxis en 15 ciudades de EE. UU. y prueba en Londres y Tokio.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/",
+      "fecha": "16-10-2026 18:06"
+    },
+    {
+      "titulo": "Analogue vuelve a los 16 bits con las Super Nt+ y Mega Sg+",
+      "resumen": "Las versiones actualizadas de sus consolas FPGA de SNES y Genesis cuestan 220 dólares cada una, con preventa desde el 19 de octubre y envíos en diciembre. Añaden mandos inalámbricos por Bluetooth y 2,4 GHz, USB-C, USB-A, ranura SD y cambio de cartucho en caliente. Juegan más de 2.200 títulos sin bloqueo regional y emiten hasta 1080p.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
-      "fecha": "16-10-2026 16:12"
+      "enlace": "https://www.engadget.com/2288966/analogue-returns-to-the-16-bit-era-with-the-mega-sg-and-super-nt/",
+      "fecha": "16-10-2026 19:03"
     }
   ],
   "titulares": [
     {
-      "titulo": "El regulador británico exige condiciones más duras ante el dominio de Microsoft en el software empresarial",
+      "titulo": "Los modelos de pesos abiertos se ganan corazones, mentes y carteras",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/software/2026/10/16/british-watchdog-seeks-tougher-terms-around-microsofts-dominance-of-business-software/5303520",
-      "fecha": "16-10-2026"
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/17/open-weight-models-win-hearts-minds-and-wallets/5303704",
+      "fecha": "17-10-2026"
     },
     {
-      "titulo": "El Sony Xperia 10 VI no recibirá la actualización a Android 17 que se le había prometido",
+      "titulo": "Un conductor de Tesla dice que dormía y usaba FSD cuando chocó contra patrullas de tráfico",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1012789/sony-xperia-10-vi-smartphone-android-17-update-security",
+      "enlace": "https://www.theverge.com/transportation/1013280/tesla-chp-fsd-crash",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "Los tiempos cambian: adiós al segundo intercalar",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1012689/leap-second-discontinue-timekeeping-change",
+      "titulo": "Policías de Chicago ayudaron a HSI a espiar a activistas antiICE de Minnesota",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/chicago-area-cops-helped-hsi-spy-on-minnesota-anti-ice-activists/",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "Blue Origin apuesta todo al cohete New Glenn",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/10/blue-origin-is-going-all-in-on-the-new-glenn-rocket/",
-      "fecha": "16-10-2026"
-    },
-    {
-      "titulo": "La soberanía del código abierto se pone con la tarea aburrida de hacerlo funcionar",
+      "titulo": "Ubuntu Stonking Stingray se estrena con un kernel previo a la versión final",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/software/2026/10/16/open-source-sovereignty-gets-down-to-the-boring-business-of-making-it-work/5303206",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/16/ubuntu-stonking-stingray-swims-into-spotlight-with-pre-release-kernel/5303580",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "Ordenadores hechos con tejido cerebral humano identifican letras en braille en un avance",
+      "titulo": "Así son los datos que Telegram entrega al Gobierno de EE. UU.",
       "fuente": "404 Media",
-      "enlace": "https://www.404media.co/computers-made-of-human-brain-tissue-identify-braille-letters-in-breakthrough/",
+      "enlace": "https://www.404media.co/heres-what-telegram-giving-data-to-the-u-s-government-looks-like/",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "Rusia fabricó la campana más grande y descomunal de la historia para impresionar al mundo, y consiguió algo todavía más difícil: que jamás sonara",
+      "titulo": "El FBI advierte de estafas que piden dinero y datos personales antes de las elecciones de mitad de mandato",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/10/16/uncle-scam-wants-you-to-cough-up-your-cash-and-personal-data-fbi-warns-ahead-of-midterms/5303512",
+      "fecha": "16-10-2026"
+    },
+    {
+      "titulo": "Polymarket registró 600 millones de dólares en apuestas electorales después de terminadas las elecciones",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over/",
+      "fecha": "16-10-2026"
+    },
+    {
+      "titulo": "Ya es oficial: así es la segunda generación de los auriculares reparables, ahora con soporte de LDAC y batería intercambiable",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/rusia-fabrico-campana-grande-descomunal-historia-para-impresionar-al-mundo-consiguio-algo-todavia-dificil-que-jamas-sonara",
+      "enlace": "https://www.xataka.com/seleccion/oficial-asi-segunda-generacion-auriculares-reparables-ahora-soporte-ldac-bateria-intercambiable",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "El precio de la gasolina en noviembre será más bajo de lo esperado: así puedes ahorrar 3,50 euros al repostar",
+      "titulo": "Windows 11 mejora una función que llevaba años pidiendo la comunidad",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/software/windows-11-actualizacion-explorador-archivos/",
+      "fecha": "16-10-2026"
+    },
+    {
+      "titulo": "O2 tiene una función para que Internet vaya más rápido que otros operadores, incluso con la misma cobertura",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/precio-gasolina-se-mantiene-bonificacion-motivo/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-mejora-velocidad-carga-web-congestion/",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "Samsung The Frame lleva el arte más allá de la pantalla con una colección de moda",
+      "titulo": "Linus Torvalds consigue que la batería de tu portátil dure mucho más con Linux 7.4",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/samsung-the-frame-lleva-arte-mas-alla-pantalla-con-una-coleccion-moda_7049695_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-consigue-que-bateria-tu-portatil-dure-mucho-mas-con-linux-7-4_7049596_0.html",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "Jorge Lorenzo, expiloto e inversor inmobiliario: \"Lo más inteligente es comprar 10 pisos, siempre habrá quien pague 800 euros y puedas vivir sin trabajar\"",
+      "titulo": "Este drama que arrasa en Prime Video aborda un tema que el género lleva seis años esquivando: la pandemia",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/jorge-lorenzo-expiloto-e-inversor-inmobiliario-inteligente-comprar-10-pisos-siempre-habra-quien-pague-800-euros-puedas-vivir-trabajar",
+      "enlace": "https://www.xataka.com/streaming/este-drama-que-arrasa-prime-video-aborda-tema-que-genero-lleva-seis-anos-esquivando-pandemia",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "El domingo 25 de octubre tendrá 25 horas tras el cambio de hora: esto es lo que pasará con tu tarifa de luz",
+      "titulo": "Los Samsung Galaxy S27 ante una encrucijada: podrían verse obligados a cambiar de chip de imprevisto",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/samsung-galaxy-s27-sin-snapdragon-sobrecalentamientos/",
+      "fecha": "16-10-2026"
+    },
+    {
+      "titulo": "Caída de WhatsApp: la app de mensajería ya funciona bien",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/ciencia/cambio-hora-octubre-2026-tarifa-luz/",
+      "enlace": "https://www.adslzone.net/noticias/whatsapp/caida-whatsapp-app-mensajeria-no-funciona-bien/",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "Elgato Wave Go, el micrófono inalámbrico 2 en 1 que quiere llevar el sonido de estudio a tus vídeos con el móvil",
+      "titulo": "Python pone fin a la gran pesadilla de los programadores que utilizan Windows: \"Funciona en Linux, en macOS, pero no en Windows, no lo entiendo\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/elgato-wave-go-microfono-inalambrico-2-1-que-quiere-llevar-sonido-estudio-tus-videos-con-movil_7049675_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/python-pone-fin-gran-pesadilla-los-programadores-que-utilizan-windows-funciona-linux-macos-pero-no-windows-no-entiendo_7049612_0.html",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "Ya puedes reservar el nuevo iPhone Duo: el primer teléfono plegable de Apple llega a estas tiendas",
+      "titulo": "La nueva película de Netflix ha conseguido lo que Hollywood no logró en 55 años de historia: usar 'Stairway to Heaven'",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/puedes-reservar-nuevo-iphone-duo-primer-telefono-plegable-apple-llega-a-estas-tiendas",
+      "enlace": "https://www.xataka.com/cine-y-tv/nueva-pelicula-netflix-ha-conseguido-que-hollywood-no-logro-55-anos-historia-usar-stairway-to-heaven",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "España construyó estos dos barcos militares hace más de 30 años: ahora regresan a Cádiz para una segunda vida",
+      "titulo": "Cuidado: esta app falsa se hace pasar por WhatsApp y podría robar tu información sin que te des cuenta",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/falsa-app-whatsapp-android-robar-informacion/",
+      "fecha": "16-10-2026"
+    },
+    {
+      "titulo": "El nuevo Starlink V5 tiene una mejora que justifica el cambio, aunque no vayas a navegar más rápido",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/ciencia/espana-navantia-barcos-angola-cadiz/",
+      "enlace": "https://www.adslzone.net/noticias/internet/diferencia-principal-starlink-v5/",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "La última beta de iOS 27.2 trae un cambio que está desatando las críticas dentro de la compañía",
+      "titulo": "Lidl lanza la botella definitiva que no solo mantiene la temperatura del agua, sino que es capaz de enfriar agua a 100 grados a temperatura de consumo en 2–3 minutos",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/ultima-beta-ios-27-2-trae-un-cambio-que-esta-desatando-las-criticas-dentro-compania_7049479_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/lidl-lanza-botella-definitiva-que-no-solo-mantiene-temperatura-agua-sino-que-es-capaz-enfriar-agua-100-grados-temperatura-consumo-2-3-minutos_7049611_0.html",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "Europa vuelve a poner a prueba una de sus grandes apuestas para la fusión nuclear",
+      "titulo": "El Sony Bravia 9 II es uno de los mejores televisores de 2026: lo puedes acompañar de un sistema completo de sonido y ahorrar 850 euros",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/energia/europa-vuelve-a-poner-a-prueba-sus-grandes-apuestas-para-fusion-nuclear",
+      "enlace": "https://www.xataka.com/seleccion/sony-bravia-9-ii-uno-mejores-televisores-2026-puedes-acompanar-sistema-completo-sonido-ahorrar-850-euros",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "¿No te funciona el WiFi o la VPN tras actualizar Windows 11? Microsoft explica qué ha cambiado",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/windows/windows-wifi-vpn-fallo-actualizacion-ntlmv1/",
+      "titulo": "Buena suerte para comprar un iPhone Duo: las primeras unidades se agotan y las entregas ya llegan hasta 2027",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/reservas-iphone-duo-tiempos-entrega-2027/",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "Así queda la programación de La Séptima, el nuevo canal de la TDT: claves de una parrilla marcada por las elecciones del 29N",
+      "titulo": "Confirmado por La Sexta: esta es la mejor hora para sintonizar la TDT el día 5 de noviembre y no dejarte por el camino ningún canal",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/asi-queda-programacion-septima-nuevo-canal-tdt-claves-una-parrilla-marcada-por-las-elecciones-29n_7049478_0.html",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/confirmado-por-sexta-esta-es-mejor-hora-para-sintonizar-tdt-dia-5-noviembre-no-dejarte-por-camino-ningun-canal_7049608_0.html",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "La NASA ofrece 150.000 dólares a quien evite que los astronautas se conviertan en “condensadores de alto voltaje” en la Luna",
+      "titulo": "La Ley de Propiedad Horizontal lo permite y los expertos lo confirman: \"Puedes instalar una barandilla en tu plaza para que no rayen tu coche\"",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/nasa-ha-lanzado-concurso-para-evitar-que-astronautas-incendien-sus-naves-luna",
+      "enlace": "https://www.xataka.com/movilidad/ley-propiedad-horizontal-permite-expertos-confirman-puedes-instalar-barandilla-tu-plaza-no-rayen-tu-coche",
       "fecha": "16-10-2026"
     },
     {
-      "titulo": "Estos son los números 400 de Movistar, Orange, Vodafone y DIGI que te harán llamadas comerciales desde mañana sábado",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/numeros-400-movistar-orange-vodafone-digi-llamadas/",
-      "fecha": "16-10-2026"
-    },
-    {
-      "titulo": "Samsung prepara una revolución: podría duplicar sus móviles plegables hasta llegar a 6 modelos",
+      "titulo": "Cataluña confirma que el día 5 de noviembre será un día muy movido para su TDT: \"Mantendremos los estándares tecnológicos más avanzados\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/samsung-prepara-una-revolucion-podria-duplicar-sus-moviles-plegables-hasta-llegar-6-modelos_7049483_0.html",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/cataluna-confirma-que-dia-5-noviembre-sera-un-dia-muy-movido-para-su-tdt-mantendremos-los-estandares-tecnologicos-mas-avanzados_7049609_0.html",
       "fecha": "16-10-2026"
     }
   ]
