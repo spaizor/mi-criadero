@@ -1,136 +1,172 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "18-10-2026 04:11",
+  "actualizado": "18-10-2026 16:11",
   "destacadas": [
     {
-      "titulo": "Dinamarca sufre una brecha en su registro civil por una cuenta protegida con la contraseña «123456»",
-      "resumen": "Un atacante accedió al registro civil danés (CPR), con unos 8,8 millones de personas afectadas, usando una cuenta de la empresa Pays ApS cuya clave era «123456». Entró el 10 de septiembre y hasta el 20 lanzó unos 14 millones de búsquedas automáticas; se detectó el 2 de octubre al ver un ministerio una factura anormalmente alta. Se expusieron nombres, direcciones y números CPR.",
+      "titulo": "Una vulnerabilidad de Broadcom afecta a routers de Movistar, Jazztel, MásMóvil y O2",
+      "resumen": "El investigador Quentin Kaiser presentó en Hexacon 2026 un fallo en el software WiFi de Broadcom (un monitor WPS que sigue activo aunque se desactive el WPS) que afecta a millones de routers, 1,5 millones solo en Bélgica. Entre los modelos afectados en España está el ZTE F680 v4 desplegado por MásMóvil, y Broadcom conocería el fallo desde 2018. Hará falta un nuevo firmware de fabricante y operadoras.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/descubierta-vulnerabilidad-routers-modelos-afectados/",
+      "fecha": "18-10-2026 13:39"
+    },
+    {
+      "titulo": "Rockstar emplea a 4.700 personas para 'GTA VI' y Take-Two prevé 40 millones de copias",
+      "resumen": "Rockstar pasó de 2.441 empleados en 2018 a 4.711 en agosto, repartidos en 12 oficinas, y montó en Los Ángeles un estudio solo para escribir y animar NPC. Take-Two espera que Rockstar pase del 16% al 36% de sus reservas y proyecta 40 millones de copias en el ejercicio que cierra el 31 de marzo; Bank of America calcula 3.440 millones de dólares de ingresos. El juego sale el 19 de noviembre tras dos aplazamientos.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/dinamarca-no-puede-fiarse-su-numero-identidad-motivo-contrasena-usada-peor-que-hay-123456",
-      "fecha": "17-10-2026 17:30"
+      "enlace": "https://www.xataka.com/videojuegos/rockstar-tiene-trabajando-a-4-700-personas-para-lanzar-gta-vi-vender-40-millones-copias",
+      "fecha": "18-10-2026 16:01"
     },
     {
-      "titulo": "WhatsApp permite videollamadas gratis sin cuenta ni instalar la aplicación",
-      "resumen": "La nueva función de llamadas de invitado deja unirse desde el navegador a cualquier persona con un enlace, sin cuenta de WhatsApp. Las llamadas siguen cifradas de extremo a extremo, admiten hasta 32 participantes y los invitados esperan en una sala hasta que el organizador los admite. Permiten compartir pantalla, reaccionar con emojis y levantar la mano.",
+      "titulo": "Windows 11 bloqueará los USB formateados con ReFS a partir de enero de 2027",
+      "resumen": "Microsoft ha confirmado que la actualización de octubre de 2026 empieza a mostrar avisos en el Visor de eventos y que la de seguridad de enero de 2027 impedirá montar por defecto unidades USB con ReFS. Los datos no se borran, y quien las necesite podrá reactivarlas con directivas de grupo o el registro. Microsoft dice que ReFS nunca fue una configuración oficialmente compatible en medios extraíbles.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-ya-permite-hacer-videollamadas-gratis-sin-tener-cuenta-ni-instalar-aplicacion_7050065_0.html",
-      "fecha": "17-10-2026 21:25"
+      "enlace": "https://computerhoy.20minutos.es/software/windows-11-bloqueara-algunos-usb-partir-2027-asi-te-afectara-cambio-microsoft_7050118_0.html",
+      "fecha": "18-10-2026 11:44"
     },
     {
-      "titulo": "TikTok bloquea de forma permanente la cuenta publicitaria del documental «Musk»",
-      "resumen": "TikTok suspendió la cuenta de anuncios del documental de cuatro horas de Alex Gibney sobre Elon Musk, alegando contenido político, según The Hollywood Reporter. Meta y YouTube rechazaron antes los anuncios del tráiler y luego los aceptaron, y X se negó a publicarlos. La película se estrenó la semana pasada en cuatro salas y llegará a HBO el próximo año.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/",
-      "fecha": "17-10-2026 22:55"
+      "titulo": "Logran conectar un Apple Watch a Android sin iPhone por primera vez",
+      "resumen": "Apple Watch Companion, un proyecto de código abierto, reconstruye mediante ingeniería inversa el protocolo Bluetooth y el servicio IDS de Apple para emparejar y activar el reloj con Android, Linux o Windows. Permite ver la batería, cambiar esferas y ajustar notificaciones, pero exige un Android con root y Magisk. Se probó con un OnePlus 13 y un Apple Watch Ultra 2 con watchOS 26.2.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/apple-watch-conectarse-android-sin-iphone/",
+      "fecha": "18-10-2026 11:00"
     },
     {
-      "titulo": "Microsoft confirma un fallo de Windows 11 que provocaba tirones del ratón en juegos",
-      "resumen": "Tras meses de quejas de jugadores, Microsoft reconoce que una actualización de Windows 11 causaba problemas de respuesta del ratón en algunos juegos. La corrección llega en la actualización KB5127648 del Patch Tuesday de octubre de 2026, para Windows 11 24H2, 25H2 y 26H2. Los usuarios citaban juegos como Final Fantasy XIV o The Division 2.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/tu-raton-no-le-pasa-nada-microsoft-confirma-un-fallo-windows-11-que-provoca-tirones-los-juegos_7050057_0.html",
-      "fecha": "17-10-2026 20:50"
+      "titulo": "'Fortnite' llegará a Linux de la mano de un nuevo Easy Anti-Cheat",
+      "resumen": "Epic Games anunció una versión oficial para Linux al presentar su nuevo launcher. Para ello desarrollará Easy Anti-Cheat Linux v2, que se estrenará en Fortnite y usará kernel y módulos firmados y arranque seguro con atestación. Todavía no hay fecha de lanzamiento; el juego no estaba en Linux por la debilidad de las medidas antitrampas.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/fortnite-linux-nuevo-sistema-antitrampas/",
+      "fecha": "18-10-2026 10:00"
     },
     {
-      "titulo": "El primer SUV de Mercedes-AMG desde cero es eléctrico y tiene 1.150 CV",
-      "resumen": "El AMG GT SUV de 2028 llegará a EE. UU. el próximo verano en versiones GT 53, GT 55 y GT 63; la tope da 1.153 CV con tres motores de flujo axial. Su arquitectura de 800 voltios admite hasta 710 kW de carga en la batería de 128 kWh y pasa del 10 al 80 % en 12 minutos. La autonomía estimada ronda las 435 millas.",
+      "titulo": "Las ciudades de EE. UU. empiezan a poner freno a los robotaxis",
+      "resumen": "Sin normas federales, municipios y estados aprueban sus propias reglas: Minneapolis estudia exigir monitores humanos dentro de los vehículos autónomos, San Diego busca vetar a Waymo en el aeropuerto y los bomberos de Austin piden protocolos para el Tesla Cybercab, sin volante ni pedales. El resultado es un mosaico regulatorio que la industria quería evitar, y el rechazo ya no sigue líneas políticas claras.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance",
-      "fecha": "17-10-2026 19:00"
+      "enlace": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+      "fecha": "18-10-2026 14:00"
     },
     {
-      "titulo": "Estas tablets Samsung Galaxy están en su último año de soporte de software",
-      "resumen": "Las Galaxy Tab S9 recibirán One UI 9 (Android 17) como última gran actualización, con parches de seguridad hasta 2028 aproximadamente. Las Tab S8 ya tuvieron la suya con One UI 8 y reciben parches hasta febrero de 2027. Desde la Tab S10, Samsung promete siete años de actualizaciones.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2284679/samsung-galaxy-tablets-last-year-software-support/",
-      "fecha": "18-10-2026 01:30"
+      "titulo": "La industria de los centros de datos busca ganarse a los niños en las escuelas",
+      "resumen": "Ante la oposición a sus campus, grupos como 7x24 Exchange promueven cuentos infantiles, un «Día Internacional del Centro de Datos» y kits de actividades. En mayo, AFCOM Potomac repartió kits para hacer banderas a 3.100 alumnos de primero en 37 escuelas del condado de Loudoun (Virginia). Expertos lo comparan con la propaganda escolar de la comida rápida, el tabaco o el petróleo.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
+      "fecha": "18-10-2026 12:30"
     },
     {
-      "titulo": "Musk llega a un acuerdo para cerrar las demandas por su sorteo de un millón de dólares a votantes",
-      "resumen": "Musk ha pactado cerrar las dos demandas de residentes de Arizona presentadas en Austin (Texas), aunque no se han hecho públicos los términos. Los demandantes afirman que los premios de 2024 no eran aleatorios y que la petición servía para obtener datos de usuarios. Un representante de America PAC admitió ante un juez que los ganadores no se elegían por azar.",
+      "titulo": "Trump asegura que Google «le besa el culo» y que le atendió por el cambio de nombre del Golfo de México",
+      "resumen": "En un mitin en Kentucky, Trump dijo que en su primer mandato Google no le habría cogido el teléfono y que ahora «le besan el culo», en alusión al cambio de nombre en Google Maps. Google sostiene que solo refleja fuentes oficiales como el GNIS. Durante su segundo mandato, las tecnológicas, Google y Sundar Pichai incluidos, han buscado congraciarse con él con regalos y donaciones.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway",
-      "fecha": "17-10-2026 18:39"
-    },
-    {
-      "titulo": "Se filtra el supuesto gameplay de un Assassin's Creed cancelado ambientado en la antigua China",
-      "resumen": "MP1st publicó un vídeo de «Assassin's Creed Destiny», juego supuestamente cancelado que desarrollaban Ubisoft y Tencent, ambientado en el año 206 a. C. durante el Imperio Qin. Muestra escalada de castillos, asesinatos sigilosos y un paraguas letal como arma. Es distinto de Assassin's Creed Jade, el título móvil anunciado en 2022.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2289636/leaked-gameplay-purports-to-show-a-canceled-assassins-creed-game-set-in-ancient-china/",
-      "fecha": "17-10-2026 21:22"
+      "enlace": "https://www.theverge.com/policy/1013485/trump-google-kiss-my-ass",
+      "fecha": "18-10-2026 15:25"
     }
   ],
   "titulares": [
     {
-      "titulo": "El Tesla Roadster está lejos de ser el primer coche en usar ventiladores para generar carga aerodinámica",
+      "titulo": "Tu televisor inteligente tiene un gran problema: rastrea lo que ves",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2289646/tesla-roadster-not-first-car-use-fans-for-downforce/",
-      "fecha": "17-10-2026"
+      "enlace": "https://www.engadget.com/2285490/one-problem-smart-tv-tracking-what-you-watch/",
+      "fecha": "18-10-2026"
     },
     {
-      "titulo": "El Chernóbil asturiano: el pueblo abandonado ubicado junto a una antigua central térmica que tiene cine, escuela, club social y hasta consultorio médico",
+      "titulo": "Las creadoras de OnlyFans, enfadadas porque Meta deja que Muse hable en tono subido",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+      "fecha": "18-10-2026"
+    },
+    {
+      "titulo": "¿Qué le pasó a mi OOHPod? El símbolo del sistema de Windows aparece por sorpresa",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/18/oh-no-what-happened-to-my-oohpod-windows-command-prompt-puts-in-a-surprise-appearance/5303109/",
+      "fecha": "18-10-2026"
+    },
+    {
+      "titulo": "Hace 75.000 años una lanza atravesó el pecho de un neandertal. Sus restos indican que ya entonces cuidaban a sus heridos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/chernobil-asturiano-pueblo-abandonado-ubicado-a-antigua-central-termica-que-tiene-cine-escuela-club-social-consultorio-medico",
-      "fecha": "17-10-2026"
+      "enlace": "https://www.xataka.com/magnet/hace-75-000-anos-lanza-atraveso-pecho-neandertal-sus-restos-indican-que-entonces-cuidaban-a-sus-heridos",
+      "fecha": "18-10-2026"
     },
     {
-      "titulo": "‘Super Mario Galaxy’ por fin tiene una versión para Android, pero no te emociones todavía",
+      "titulo": "Qué es Windows RE y por qué puede salvarte cuando Windows no funciona correctamente",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/super-mario-galaxy-port-no-oficial-android/",
-      "fecha": "17-10-2026"
+      "enlace": "https://hipertextual.com/guias/windows-no-funciona-ayuda-solucion-windows-re/",
+      "fecha": "18-10-2026"
     },
     {
-      "titulo": "Digi puede regalarte varios meses de fibra gratis si incumple esta condición: así funciona el límite de 60 días",
+      "titulo": "DNS privado en Android: el ajuste oculto que cambia cómo se conecta tu móvil a Internet",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/digi-regalarte-varios-meses-fibra-incumple-tiempo-instalacion/",
-      "fecha": "17-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/internet/dns-privado-android-funciones/",
+      "fecha": "18-10-2026"
     },
     {
-      "titulo": "Firefox quiere impedir que cualquiera vea tus pestañas privadas cuando te alejas del ordenador",
+      "titulo": "\"Decidido hasta nueva orden\". La Séptima no ha empezado a emitir en la TDT y ya ha hecho el primer gran cambio en su programación",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/firefox-quiere-impedir-que-cualquiera-vea-tus-pestanas-privadas-cuando-te-alejas-ordenador_7050047_0.html",
-      "fecha": "17-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/decidido-hasta-nueva-orden-septima-no-ha-empezado-emitir-tdt-ya-ha-hecho-primer-gran-cambio-su-programacion_7049090_0.html",
+      "fecha": "18-10-2026"
     },
     {
-      "titulo": "Las células zombis están detrás del envejecimiento: así es como los científicos pretenden eliminarlas",
+      "titulo": "Para que la energía solar no le quite el suelo a la agricultura, Suecia está probando paneles rosas sobre el brócoli",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/celulas-zombis-estan-detras-envejecimiento-asi-como-cientificos-pretenden-eliminarlas",
-      "fecha": "17-10-2026"
+      "enlace": "https://www.xataka.com/energia/energia-solar-no-le-quite-suelo-a-agricultura-suecia-esta-probando-paneles-rosas-brocoli",
+      "fecha": "18-10-2026"
     },
     {
-      "titulo": "MTU: qué significa ese 1500 o 1492 de tu router y cuándo tocarlo arregla Internet",
+      "titulo": "El sistema de calefacción que menos gasta con el frío, según la OCU: 185 euros al año en un piso de 90 metros cuadrados",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/mtu-significado-router-1500-1492/",
-      "fecha": "17-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/productos/diferentes-sistemas-calefaccion-comparativa/",
+      "fecha": "18-10-2026"
     },
     {
-      "titulo": "WhatsApp prepara los stickers con sonido: podrás enviar pegatinas que también se escuchan",
+      "titulo": "WhatsApp copia una función del iPhone que te ahorrará tiempo cada vez que quedes con alguien",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-prepara-los-stickers-con-sonido-podras-enviar-pegatinas-que-tambien-se-escuchan_7050040_0.html",
-      "fecha": "17-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-copia-una-funcion-iphone-que-te-ahorrara-tiempo-cada-vez-que-quedes-con-alguien_7050142_0.html",
+      "fecha": "18-10-2026"
     },
     {
-      "titulo": "Mientras se construía la Gran Pirámide hace 4.700 años, un barco se hundía en el Mediterráneo: es el naufragio más antiguo jamás conocido",
+      "titulo": "Por primera vez en más de 100 años, acabamos de descubrir una nueva especie de gato",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/se-construia-gran-piramide-hace-4-700-anos-barco-se-hundia-mediterraneo-naufragio-antiguo-jamas-conocido",
-      "fecha": "17-10-2026"
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/primera-vez-100-anos-acabamos-descubrir-nueva-especie-gato",
+      "fecha": "18-10-2026"
     },
     {
-      "titulo": "Android Auto 18.0 ya está disponible para todos: anticipa el mayor rediseño desde Coolwalk",
+      "titulo": "iSIM: después de la SIM y la eSIM, la tarjeta puede desaparecer incluso como chip independiente",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/moviles/isim-como-funciona-ventajas/",
+      "fecha": "18-10-2026"
+    },
+    {
+      "titulo": "La psicología dice que las personas que llevan la pantalla del móvil rota y no la arreglan comparten este rasgo",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-18-0-ya-esta-disponible-para-todos-anticipa-mayor-rediseno-desde-coolwalk_7050003_0.html",
-      "fecha": "17-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/psicologia-dice-que-las-personas-que-llevan-pantalla-movil-rota-no-arreglan-comparten-este-rasgo_7047088_0.html",
+      "fecha": "18-10-2026"
     },
     {
-      "titulo": "La regla de \"100 más tu edad\" y la muerte de un presidente: cómo la medicina se equivocó durante décadas con la tensión arterial",
+      "titulo": "China ha encontrado en la Luna una cápsula del tiempo de hierro, ahora solo queda aprender a abrirla",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/regla-100-tu-edad-muerte-presidente-como-medicina-se-equivoco-durante-decadas-tension-arterial",
-      "fecha": "17-10-2026"
+      "enlace": "https://www.xataka.com/espacio/china-ha-encontrado-luna-capsula-tiempo-hierro-ahora-solo-queda-aprender-a-abrirla",
+      "fecha": "18-10-2026"
     },
     {
-      "titulo": "Creíamos que la NASA inventó Tang para los astronautas, pero resultó ser uno de los malentendidos más rentables de la historia espacial",
+      "titulo": "Tu cable Ethernet es Gigabit pero Windows solo marca 100 Mbps: las causas más habituales",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/windows/cable-ethernet-gigabit-windows-100-mbps-causas/",
+      "fecha": "18-10-2026"
+    },
+    {
+      "titulo": "Firefox prueba una nueva ventana flotante que te permitirá tener cualquier web siempre a la vista",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/firefox-prueba-una-nueva-ventana-flotante-que-te-permitira-tener-cualquier-web-siempre-vista_7050127_0.html",
+      "fecha": "18-10-2026"
+    },
+    {
+      "titulo": "DroidDeck convierte tu móvil Android en una Steam Deck para jugar a juegos de PC en local y sin streaming: así funciona",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/creiamos-que-nasa-invento-tang-para-astronautas-resulto-ser-uno-malentendidos-rentables-historia-espacial",
-      "fecha": "17-10-2026"
+      "enlace": "https://www.xataka.com/videojuegos/droiddeck-convierte-tu-movil-android-steam-deck-para-jugar-a-juegos-pc-local-streaming-asi-funciona",
+      "fecha": "18-10-2026"
+    },
+    {
+      "titulo": "Googlebook OS: qué es, cómo funciona, ordenadores compatibles y todo lo que debes saber del nuevo sistema operativo de Google que jubilará a ChromeOS",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/googlebook-os-que-es-como-funciona-ordenadores-compatibles-todo-que-debes-saber-nuevo-sistema-operativo-google-que-jubilara-chrome-os_7043613_0.html",
+      "fecha": "18-10-2026"
     }
   ]
 }
