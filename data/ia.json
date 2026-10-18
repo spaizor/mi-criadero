@@ -1,81 +1,28 @@
 {
   "seccion": "ia",
-  "actualizado": "17-10-2026 17:10",
+  "actualizado": "18-10-2026 05:10",
   "destacadas": [
     {
-      "titulo": "Claude resuelve en menos de 30 minutos un misterio criptográfico de la NSA de hace 25 años",
-      "resumen": "Anthropic afirma que Claude descubrió el origen de las semillas que la NSA aportó para las curvas NIST del estándar ECDSA, fijado en 2000 sin explicación. Procedían del generador «lrand48», inicializado con una marca de tiempo Unix entre mayo de 1997 y abril de 1998; Claude lo dedujo porque ese generador solo produce 31 bits y los bits superiores de algunas semillas eran sistemáticamente cero. Anthropic donará la recompensa de 36.864 dólares al Internet Security Research Group.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
-      "fecha": "17-10-2026 16:42"
+      "titulo": "Meta elimina la cláusula que preocupaba por el rastreo de webs y el entrenamiento de IA",
+      "resumen": "Meta actualizó sus términos comerciales con un texto que le permitía usar contenido de los dominios, páginas y URL de una cuenta empresarial para desarrollar y entrenar sus productos. Nieman Lab citó a expertos legales que la calificaron de «disposición notable» capaz de abrir el scraping de cualquier editor con cuenta de Meta. La empresa asegura que los términos solo afectaban a sus productos de publicidad y negocio, no a sus rastreadores, y según The Verge ya retiró la cláusula.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "fecha": "17-10-2026 23:31"
     },
     {
-      "titulo": "Las webs cierran sus puertas a los agentes de IA",
-      "resumen": "Usuarios de agentes como Muse (Meta), Grok (xAI), Dots (OpenAI) e Instinct reportan bloqueos en grandes webs. Yelp solo admite agentes que paguen su programa de licencias de datos, Delta impide que reserven billetes y JPMorgan Chase y Charles Schwab los bloquean por seguridad. Amazon ya demandó a Perplexity el año pasado y ahora afirma que el acceso de Muse viola sus normas.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "fecha": "17-10-2026 15:00"
+      "titulo": "Anthropic admite que su plantilla es menos junior y dedica más tiempo a reuniones",
+      "resumen": "Un informe de Anthropic muestra que los empleados junior en áreas técnicas pasaron del 21% al 14% desde principios de 2025, y que las contrataciones técnicas junior cayeron del 27% al 9%. El tiempo en reuniones subió un 20% en un año, y la empresa lo atribuye a que la coordinación cara a cara sigue siendo clave cuando Claude genera tanto texto que la atención humana es el cuello de botella. En una encuesta de abril, el 27% dijo ser más productivo con Claude y el 20% que su trabajo pasó de ejecutar tareas a gestionar Claudes.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "fecha": "17-10-2026 22:21"
     },
     {
-      "titulo": "Deepseek V4.1 Flash supera a rivales mayores en tareas de agentes y vuelve a recortar el coste por tarea",
-      "resumen": "Deepseek lanzó DeepSeek-V4.1-Flash-1017, con pesos abiertos en Hugging Face y ModelScope. Según sus propios benchmarks, logra un 77,0 % en DeepSWE con menos de 0,20 $ por tarea, frente al 74,2 % y unos 0,50 $ de la versión anterior, y supera a modelos como Claude Opus 5 o GPT 5.6-Sol en varias pruebas. Además abre sus APIs de Search y Fetch a 0,75 $ por 1.000 llamadas, gratis hasta el 31 de octubre.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
-      "fecha": "17-10-2026 12:33"
-    },
-    {
-      "titulo": "ChatGPT ya puede controlar las pestañas de Google Chrome",
-      "resumen": "La extensión oficial de ChatGPT para Chrome no solo lee las pestañas abiertas, sino que ahora puede rellenar formularios, descargar archivos, organizar grupos de pestañas y comparar información de varias webs a la vez. Incorpora una barra lateral integrada, similar a Gemini en Chrome, y ya está disponible en la Chrome Web Store.",
+      "titulo": "Google Play ya permite instalar tus propias apps creadas con IA sin publicarlas ni pagar cuenta de desarrollador",
+      "resumen": "Las aplicaciones generadas con Google AI Studio podrán instalarse directamente en Android con una cuenta normal de Google, sin conectar el móvil a un ordenador ni publicarlas. Son privadas, no aparecen en Google Play y solo las usa su creador, aunque deben cumplir las políticas de la tienda. De momento está disponible en EE. UU., y Google prevé permitir compartirlas con pequeños grupos de amigos y familia en los próximos meses.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/chatgpt-ya-puede-controlar-las-pestanas-google-chrome-asi-cambia-forma-navegar-con-ia_7049927_0.html",
-      "fecha": "17-10-2026 12:40"
-    },
-    {
-      "titulo": "ChatGPT sigue siendo el rey, pero ya no es tan intocable: así ha cambiado el mapa de la IA en un año",
-      "resumen": "Según Similarweb, en septiembre ChatGPT sumó unos 5.900 millones de visitas y una cuota del 56,4 %, frente al 71,8 % de hace once meses. Gemini (25,0 %) y Claude (9,6 %, unos 1.000 millones de visitas) completan el podio, y Claude pasó del quinto al tercer puesto. Siguen DeepSeek (3,4 %), Grok (2,3 %), Copilot (1,5 %) y Perplexity (0,9 %); son estimaciones de visitas web, no de usuarios.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/chatgpt-sigue-siendo-rey-no-intocable-asi-ha-cambiado-mapa-ia-ano",
-      "fecha": "17-10-2026 10:00"
-    },
-    {
-      "titulo": "Zhang Yiming, dueño de TikTok, ha duplicado su fortuna: su secreto, la IA",
-      "resumen": "El fundador de ByteDance es, según Bloomberg, la persona más rica de Asia con más de 105.000 millones de dólares (Forbes calcula 84.000 millones). Su fortuna ha crecido un 61,8 % desde enero de 2026. ByteDance prevé invertir este año más de 200.000 millones de yuanes (unos 30.000 millones de dólares) en infraestructura de IA, al menos un 25 % más que el año anterior.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/zhang-yiming-dueno-tiktok-ha-duplicado-su-fortuna-su-secreto-ia-claro",
-      "fecha": "17-10-2026 11:00"
-    },
-    {
-      "titulo": "Por qué la IA aún no está lista para abordar nuestros enrevesados genomas",
-      "resumen": "Los modelos genómicos de base como Evo 2, Genos o AlphaGenome de Google DeepMind se entrenan con grandes volúmenes de datos para predecir cómo afectan las variaciones del ADN a los rasgos y al riesgo de enfermedad. El artículo, de Quanta Magazine, recuerda que solo un 2 % del genoma humano son genes y que la regulación génica es tan compleja que una caja negra de correlaciones quizá no baste para entenderla.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
-      "fecha": "17-10-2026 11:00"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-play-ya-permite-instalar-tus-propias-aplicaciones-creadas-con-ia-sin-publicarlas-ni-pagar-una-cuenta-desarrollador_7050049_0.html",
+      "fecha": "17-10-2026 20:15"
     }
   ],
-  "titulares": [
-    {
-      "titulo": "Matemáticos dicen que OpenAI no entiende su propia demostración de Navier-Stokes",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
-      "fecha": "17-10-2026"
-    },
-    {
-      "titulo": "Los modelos de IA ocultan errores en sus informes de trabajo, pero una frase en el prompt puede ayudar",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
-      "fecha": "17-10-2026"
-    },
-    {
-      "titulo": "Amazon quiere que creas que la IA llevable puede recordarlo todo por ti: la pulsera Bee",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/personal-tech/2026/10/17/amazon-wants-you-to-bee-lieve-wearable-ai-can-recall-it-all-for-you/5303569",
-      "fecha": "17-10-2026"
-    },
-    {
-      "titulo": "Pau García-Milà, experto en tecnología: \"Decir que la IA va a acabar con el mundo y que Black Mirror se queda corto es cierto, pero no debería preocuparte\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/pau-garcia-mila-experto-tecnologia-decir-que-ia-va-acabar-con-mundo-que-black-mirror-se-queda-corto-es-cierto-pero-no-deberia-preocuparte_7046546_0.html",
-      "fecha": "17-10-2026"
-    }
-  ]
+  "titulares": []
 }
