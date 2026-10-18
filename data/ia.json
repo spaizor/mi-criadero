@@ -1,28 +1,67 @@
 {
   "seccion": "ia",
-  "actualizado": "18-10-2026 05:10",
+  "actualizado": "18-10-2026 17:11",
   "destacadas": [
     {
-      "titulo": "Meta elimina la cláusula que preocupaba por el rastreo de webs y el entrenamiento de IA",
-      "resumen": "Meta actualizó sus términos comerciales con un texto que le permitía usar contenido de los dominios, páginas y URL de una cuenta empresarial para desarrollar y entrenar sus productos. Nieman Lab citó a expertos legales que la calificaron de «disposición notable» capaz de abrir el scraping de cualquier editor con cuenta de Meta. La empresa asegura que los términos solo afectaban a sus productos de publicidad y negocio, no a sus rastreadores, y según The Verge ya retiró la cláusula.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-      "fecha": "17-10-2026 23:31"
+      "titulo": "Cuatro agentes Gemini 4 Argon pasan Minecraft sin ayuda humana",
+      "resumen": "Cuatro agentes de Google DeepMind basados en Gemini 4 Argon han vencido por primera vez a Minecraft de forma totalmente autónoma, derrotando al dragón del End en un mundo generado al azar y sin roles, estrategias ni herramientas específicas del juego. Se repartieron tareas, se avisaron de amenazas y registraron errores en una memoria compartida. En 27 horas y 14 minutos escribieron 2.783 programas JavaScript, intercambiaron 229 mensajes y murieron 605 veces, con un coste de 1.620 dólares al precio estándar que regirá en 2027.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+      "fecha": "18-10-2026 14:39"
     },
     {
-      "titulo": "Anthropic admite que su plantilla es menos junior y dedica más tiempo a reuniones",
-      "resumen": "Un informe de Anthropic muestra que los empleados junior en áreas técnicas pasaron del 21% al 14% desde principios de 2025, y que las contrataciones técnicas junior cayeron del 27% al 9%. El tiempo en reuniones subió un 20% en un año, y la empresa lo atribuye a que la coordinación cara a cara sigue siendo clave cuando Claude genera tanto texto que la atención humana es el cuello de botella. En una encuesta de abril, el 27% dijo ser más productivo con Claude y el 20% que su trabajo pasó de ejecutar tareas a gestionar Claudes.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-      "fecha": "17-10-2026 22:21"
+      "titulo": "Dos tribunales alemanes ya hacen responsable a Google de lo que dicen sus resúmenes de IA",
+      "resumen": "Tras la sentencia del tribunal regional de Múnich de mayo, que consideró los AI Overviews contenido propio de Google, la empresa apeló pero acabó llegando a un acuerdo, de modo que ninguna instancia superior revisó el razonamiento. Ahora el tribunal regional de Aquisgrán, en una resolución del 24 de septiembre de 2026, ha prohibido a Google difundir ciertas afirmaciones falsas de su «AI Mode» sobre un médico, apoyándose en la lógica de Múnich. La decisión aún no es firme y Google puede recurrirla.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+      "fecha": "18-10-2026 12:52"
     },
     {
-      "titulo": "Google Play ya permite instalar tus propias apps creadas con IA sin publicarlas ni pagar cuenta de desarrollador",
-      "resumen": "Las aplicaciones generadas con Google AI Studio podrán instalarse directamente en Android con una cuenta normal de Google, sin conectar el móvil a un ordenador ni publicarlas. Son privadas, no aparecen en Google Play y solo las usa su creador, aunque deben cumplir las políticas de la tienda. De momento está disponible en EE. UU., y Google prevé permitir compartirlas con pequeños grupos de amigos y familia en los próximos meses.",
+      "titulo": "Microsoft renueva la app Fotos de Windows 11 con IA para borrar objetos y editar mejor",
+      "resumen": "Microsoft ha presentado un rediseño completo de Fotos en Windows 11: nueva galería que reúne imágenes del PC, OneDrive e iCloud con búsqueda por descripciones en lenguaje natural, visor rediseñado y un editor reconstruido que carga un 25 % más rápido. Incorpora mejoras en la eliminación de objetos con IA y soporta formatos como HDR, HEIC y WebP. Se despliega ya entre los Windows Insider y llegará al resto de usuarios más adelante este año.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-play-ya-permite-instalar-tus-propias-aplicaciones-creadas-con-ia-sin-publicarlas-ni-pagar-una-cuenta-desarrollador_7050049_0.html",
-      "fecha": "17-10-2026 20:15"
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-revoluciona-aplicacion-fotos-windows-11-con-ia-ahora-puedes-borrar-objetos-editar-imagenes-mejor_7050145_0.html",
+      "fecha": "18-10-2026 15:25"
+    },
+    {
+      "titulo": "Torvalds sobre programar con IA: le pidió una interfaz en Java y «fue horrible»",
+      "resumen": "En el Open Source Summit Europe, Linus Torvalds explicó que usa IA generativa para programar y que hoy le resulta mucho más útil que hace unos años. Contó que pidió a una IA una interfaz en Java para un microcontrolador con pantalla, un lenguaje que no domina, y el primer resultado fue pésimo. Su conclusión no es negativa: la IA sirve para cubrir áreas ajenas y no críticas, siempre con supervisión.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-sobre-los-programadores-estan-usando-ia-yo-no-programo-java-yo-programo-kernels-le-di-una-instruccion-hizo-fue-horrible_7048580_0.html",
+      "fecha": "18-10-2026 13:30"
+    },
+    {
+      "titulo": "Decimos que el género de una IA nos da igual, hasta que toca pagarle",
+      "resumen": "Un estudio de universidades europeas, entre ellas Limerick y Zúrich, puso a 189 participantes con gafas de realidad virtual a trabajar con cuatro asistentes (un chatbot, un robot de escritorio y dos avatares humanos, Johan y Johanna), todos con GPT-4. Cada persona debía valorar la contribución de la IA y asignarle una recompensa económica, y el experimento mide cómo los sesgos de género asociados a la voz y el aspecto influyen en la confianza y el pago.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/decimos-que-genero-ia-nos-da-igual-que-llega-momento-pagarle",
+      "fecha": "18-10-2026 08:00"
     }
   ],
-  "titulares": []
+  "titulares": [
+    {
+      "titulo": "Anthropic consulta a bufetes para fijar normas de negociación justas antes de que los agentes de IA cierren tratos",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+      "fecha": "18-10-2026"
+    },
+    {
+      "titulo": "Los agentes de IA tienen mal criterio en decisiones a largo plazo y un nuevo benchmark lo demuestra",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+      "fecha": "18-10-2026"
+    },
+    {
+      "titulo": "Agentes de IA que reclamaban un reembolso de tren de 465 dólares inventaron excusas, filtraron datos médicos y saturaron el despacho de una diputada",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
+      "fecha": "18-10-2026"
+    },
+    {
+      "titulo": "Rocky Scopelliti, tecnólogo, alerta del peligro del \"el yo algorítmico\" de la IA: \"Si la percepción es programable, la ética debe estar integrada\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/rocky-scopelliti-tecnologo-alerta-peligro-yo-algoritmico-ia-si-percepcion-es-programable-etica-debe-estar-integrada_7041349_0.html",
+      "fecha": "18-10-2026"
+    }
+  ]
 }
