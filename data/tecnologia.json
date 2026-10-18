@@ -1,165 +1,135 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "17-10-2026 16:12",
+  "actualizado": "18-10-2026 04:11",
   "destacadas": [
     {
-      "titulo": "Windows 11 será hasta un 20% más rápido y gestionará mejor la RAM en equipos de 8 GB",
-      "resumen": "Microsoft promete hasta un 20% más de agilidad en Inicio, Explorador, Búsqueda y Recortes, según pruebas internas. En equipos con 8 GB de RAM, Windows podrá mantener hasta 2 GB más de datos en memoria y los Widgets dejarán de cargarse en segundo plano, liberando más de 200 MB. Vuelve además la opción de colocar la barra de tareas arriba o a los lados.",
+      "titulo": "Dinamarca sufre una brecha en su registro civil por una cuenta protegida con la contraseña «123456»",
+      "resumen": "Un atacante accedió al registro civil danés (CPR), con unos 8,8 millones de personas afectadas, usando una cuenta de la empresa Pays ApS cuya clave era «123456». Entró el 10 de septiembre y hasta el 20 lanzó unos 14 millones de búsquedas automáticas; se detectó el 2 de octubre al ver un ministerio una factura anormalmente alta. Se expusieron nombres, direcciones y números CPR.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/dinamarca-no-puede-fiarse-su-numero-identidad-motivo-contrasena-usada-peor-que-hay-123456",
+      "fecha": "17-10-2026 17:30"
+    },
+    {
+      "titulo": "WhatsApp permite videollamadas gratis sin cuenta ni instalar la aplicación",
+      "resumen": "La nueva función de llamadas de invitado deja unirse desde el navegador a cualquier persona con un enlace, sin cuenta de WhatsApp. Las llamadas siguen cifradas de extremo a extremo, admiten hasta 32 participantes y los invitados esperan en una sala hasta que el organizador los admite. Permiten compartir pantalla, reaccionar con emojis y levantar la mano.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/windows-11-sera-hasta-un-20-mas-rapido-tras-su-ultima-actualizacion_7049922_0.html",
-      "fecha": "17-10-2026 11:25"
+      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-ya-permite-hacer-videollamadas-gratis-sin-tener-cuenta-ni-instalar-aplicacion_7050065_0.html",
+      "fecha": "17-10-2026 21:25"
     },
     {
-      "titulo": "Los ciberdelincuentes ya atacan los sistemas físicos de los edificios, no solo los datos",
-      "resumen": "Un atacante hackeó miles de sistemas de refrigeración remotos en cientos de supermercados franceses, y en agosto un ransomware afectó los sistemas de gestión del edificio de un hospital canadiense. Según Armis, el 73% de las organizaciones tiene sistemas de automatización de edificios usados en ataques de ransomware y el 91% emplea protocolos inseguros. Dragos calcula que menos del 10% de las redes OT del mundo tiene monitorización suficiente.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677",
-      "fecha": "17-10-2026 13:30"
+      "titulo": "TikTok bloquea de forma permanente la cuenta publicitaria del documental «Musk»",
+      "resumen": "TikTok suspendió la cuenta de anuncios del documental de cuatro horas de Alex Gibney sobre Elon Musk, alegando contenido político, según The Hollywood Reporter. Meta y YouTube rechazaron antes los anuncios del tráiler y luego los aceptaron, y X se negó a publicarlos. La película se estrenó la semana pasada en cuatro salas y llegará a HBO el próximo año.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/",
+      "fecha": "17-10-2026 22:55"
     },
     {
-      "titulo": "El cifrado, cada vez más presionado: Canadá estudia la ley C-22 y Signal amenaza con irse",
-      "resumen": "El proyecto de ley C-22 de Canadá podría obligar a las tecnológicas, también a las de fuera, a incluir «capacidades técnicas» de acceso para las fuerzas de seguridad. Signal dice que abandonaría el mercado canadiense, Psiphon VPN que se iría si se aprueba, y DuckDuckGo y NordVPN estudian retirar sus servicios. Reino Unido y Australia ya tienen leyes que pueden forzar a romper el cifrado.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/",
-      "fecha": "17-10-2026 14:00"
+      "titulo": "Microsoft confirma un fallo de Windows 11 que provocaba tirones del ratón en juegos",
+      "resumen": "Tras meses de quejas de jugadores, Microsoft reconoce que una actualización de Windows 11 causaba problemas de respuesta del ratón en algunos juegos. La corrección llega en la actualización KB5127648 del Patch Tuesday de octubre de 2026, para Windows 11 24H2, 25H2 y 26H2. Los usuarios citaban juegos como Final Fantasy XIV o The Division 2.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/tu-raton-no-le-pasa-nada-microsoft-confirma-un-fallo-windows-11-que-provoca-tirones-los-juegos_7050057_0.html",
+      "fecha": "17-10-2026 20:50"
     },
     {
-      "titulo": "SpaceX quiere ser el cuarto gran operador móvil de EE. UU. tras comprar más espectro",
-      "resumen": "SpaceX acordó comprar 800 MHz de espectro de banda baja por 8.000 millones de dólares, tras gastar casi 20.000 millones en espectro de EchoStar el año pasado. La FCC además aprobó el despliegue de 15.000 satélites Starlink de nueva generación. El analista Walter Piecyk cree que los operadores actuales han respondido mal a la amenaza.",
+      "titulo": "El primer SUV de Mercedes-AMG desde cero es eléctrico y tiene 1.150 CV",
+      "resumen": "El AMG GT SUV de 2028 llegará a EE. UU. el próximo verano en versiones GT 53, GT 55 y GT 63; la tope da 1.153 CV con tres motores de flujo axial. Su arquitectura de 800 voltios admite hasta 710 kW de carga en la batería de 128 kWh y pasa del 10 al 80 % en 12 minutos. La autonomía estimada ronda las 435 millas.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
-      "fecha": "17-10-2026 16:00"
+      "enlace": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance",
+      "fecha": "17-10-2026 19:00"
     },
     {
-      "titulo": "Verizon cobrará 10 dólares al mes por iPhone Handoff en iOS 27",
-      "resumen": "Verizon anunció el 16 de octubre que la función llegará «próximamente» a su red con un recargo de 10 dólares mensuales, el doble de los 5 que cobra T-Mobile en EE. UU. Permite usar el mismo número eSIM en dos iPhone con iOS 27 y el mismo Apple ID, aunque solo uno puede estar activo a la vez. Deutsche Telekom también la ofrece en Alemania.",
+      "titulo": "Estas tablets Samsung Galaxy están en su último año de soporte de software",
+      "resumen": "Las Galaxy Tab S9 recibirán One UI 9 (Android 17) como última gran actualización, con parches de seguridad hasta 2028 aproximadamente. Las Tab S8 ya tuvieron la suya con One UI 8 y reciben parches hasta febrero de 2027. Desde la Tab S10, Samsung promete siete años de actualizaciones.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2289578/verizon-10-a-month-iphone-handoff/",
-      "fecha": "17-10-2026 15:45"
+      "enlace": "https://www.engadget.com/2284679/samsung-galaxy-tablets-last-year-software-support/",
+      "fecha": "18-10-2026 01:30"
     },
     {
-      "titulo": "Hoy entra en vigor el prefijo 400 para llamadas comerciales, pero no acabará del todo con el spam",
-      "resumen": "Desde el 17 de octubre las empresas solo pueden hacer llamadas comerciales desde números de nueve dígitos que empiecen por 400, según una resolución del Ministerio para la Transformación Digital. Movistar usará el 400 00 1004 y Digi cuatro números 400 120, y las empresas tienen hasta el 28 de diciembre para adaptarse a la Ley 10/2025. El spam seguirá porque la suplantación del número sigue siendo posible y la ley excluye a las pymes.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/telefono-movil/hoy-entra-vigor-prefijo-400-como-reconocer-bloquear-llamadas-comerciales-que-no-acabara-todo-spam",
-      "fecha": "17-10-2026 09:32"
+      "titulo": "Musk llega a un acuerdo para cerrar las demandas por su sorteo de un millón de dólares a votantes",
+      "resumen": "Musk ha pactado cerrar las dos demandas de residentes de Arizona presentadas en Austin (Texas), aunque no se han hecho públicos los términos. Los demandantes afirman que los premios de 2024 no eran aleatorios y que la petición servía para obtener datos de usuarios. Un representante de America PAC admitió ante un juez que los ganadores no se elegían por azar.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway",
+      "fecha": "17-10-2026 18:39"
     },
     {
-      "titulo": "HTC lanza unas gafas inteligentes más respetuosas con la privacidad que las de Meta",
-      "resumen": "Las Vive Eagle cuestan 499 dólares en EE. UU. y su asistente Vive AI funciona con ChatGPT o Gemini sin necesidad de login. Si se tapa el LED junto a las cámaras no graban, el vídeo se cifra y se guarda en las gafas, y la batería dura 4,5 horas con música continua. La suscripción AI Plus es gratis dos años y después cuesta 2,50 dólares al mes.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/htc-wants-its-vive-eagle-smart-glasses-to-be-the-anti-meta/",
-      "fecha": "17-10-2026 12:30"
-    },
-    {
-      "titulo": "Una joven de 17 años construyó un detector de terremotos de 100 dólares que avisa a Los Ángeles",
-      "resumen": "Vivien He, estudiante de un instituto de California, montó en 2020 un sismógrafo del tamaño de un cubo de Rubik por menos de 100 dólares. Entre septiembre de 2020 y abril de 2021 detectó todos los terremotos de magnitud superior a 3,0 cerca de Los Ángeles. Emite una alarma o un SMS al superar un umbral y almacena hasta cuatro años de registros.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/componentes/joven-17-anos-construyo-detector-terremotos-100-dolares-que-avisa-a-angeles-segundos-antes-temblor",
-      "fecha": "17-10-2026 14:00"
+      "titulo": "Se filtra el supuesto gameplay de un Assassin's Creed cancelado ambientado en la antigua China",
+      "resumen": "MP1st publicó un vídeo de «Assassin's Creed Destiny», juego supuestamente cancelado que desarrollaban Ubisoft y Tencent, ambientado en el año 206 a. C. durante el Imperio Qin. Muestra escalada de castillos, asesinatos sigilosos y un paraguas letal como arma. Es distinto de Assassin's Creed Jade, el título móvil anunciado en 2022.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2289636/leaked-gameplay-purports-to-show-a-canceled-assassins-creed-game-set-in-ancient-china/",
+      "fecha": "17-10-2026 21:22"
     }
   ],
   "titulares": [
     {
-      "titulo": "La UK Space Agency pide al público que ponga nombre a su misión de retirada de basura espacial",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/science/2026/10/17/get-in-the-bin-uk-space-agency-wants-public-to-name-its-debris-removal-mission/5303555",
+      "titulo": "El Tesla Roadster está lejos de ser el primer coche en usar ventiladores para generar carga aerodinámica",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2289646/tesla-roadster-not-first-car-use-fans-for-downforce/",
       "fecha": "17-10-2026"
     },
     {
-      "titulo": "HomeView de Apple, la última amenaza para quienes escriben recetas online",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting",
-      "fecha": "17-10-2026"
-    },
-    {
-      "titulo": "Por qué Neverwinter Nights de BioWare sigue teniendo miles de jugadores activos",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players/",
-      "fecha": "17-10-2026"
-    },
-    {
-      "titulo": "Windows 7 lleva años jubilado, pero diez juegos han demostrado que aún puede dar guerra a Windows 11",
+      "titulo": "El Chernóbil asturiano: el pueblo abandonado ubicado junto a una antigua central térmica que tiene cine, escuela, club social y hasta consultorio médico",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/aplicaciones/windows-7-lleva-anos-jubilado-diez-juegos-han-demostrado-que-puede-dar-guerra-a-windows-11",
+      "enlace": "https://www.xataka.com/magnet/chernobil-asturiano-pueblo-abandonado-ubicado-a-antigua-central-termica-que-tiene-cine-escuela-club-social-consultorio-medico",
       "fecha": "17-10-2026"
     },
     {
-      "titulo": "El error más famoso de Windows existe por una elección inesperada que casi nadie conoce",
+      "titulo": "‘Super Mario Galaxy’ por fin tiene una versión para Android, pero no te emociones todavía",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/software/color-pantalla-azul-de-la-muerte-origen/",
+      "enlace": "https://hipertextual.com/videojuegos/super-mario-galaxy-port-no-oficial-android/",
       "fecha": "17-10-2026"
     },
     {
-      "titulo": "Rufus permite instalar Windows 11 en algunos PC no compatibles, pero estos son los riesgos",
+      "titulo": "Digi puede regalarte varios meses de fibra gratis si incumple esta condición: así funciona el límite de 60 días",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/windows/rufus-instalar-windows-pc-compatible-riesgos/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-regalarte-varios-meses-fibra-incumple-tiempo-instalacion/",
       "fecha": "17-10-2026"
     },
     {
-      "titulo": "Un exjefe de Windows carga contra Microsoft por una función de Windows 11: \"Todavía no es utilizable\"",
+      "titulo": "Firefox quiere impedir que cualquiera vea tus pestañas privadas cuando te alejas del ordenador",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/un-exjefe-windows-carga-contra-microsoft-por-una-funcion-windows-11-todavia-no-es-utilizable_7050000_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/firefox-quiere-impedir-que-cualquiera-vea-tus-pestanas-privadas-cuando-te-alejas-ordenador_7050047_0.html",
       "fecha": "17-10-2026"
     },
     {
-      "titulo": "Un puñado de rocas de Sudáfrica tiene en sus manos resolver el gran misterio del oxígeno en la Tierra",
+      "titulo": "Las células zombis están detrás del envejecimiento: así es como los científicos pretenden eliminarlas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/punado-rocas-sudafrica-tiene-sus-manos-resolver-gran-misterio-oxigeno-tierra",
+      "enlace": "https://www.xataka.com/medicina-y-salud/celulas-zombis-estan-detras-envejecimiento-asi-como-cientificos-pretenden-eliminarlas",
       "fecha": "17-10-2026"
     },
     {
-      "titulo": "Los 11 atajos de la tecla Windows que todo el mundo debería usar",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/guias/atajos-combinaciones-tecla-windows/",
-      "fecha": "17-10-2026"
-    },
-    {
-      "titulo": "El WiFi funciona, pero el móvil se queda conectado al router equivocado: por qué pasa aunque tengas Mesh",
+      "titulo": "MTU: qué significa ese 1500 o 1492 de tu router y cuándo tocarlo arregla Internet",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/movil-conexion-equivocada-wifi-mesh/",
+      "enlace": "https://www.adslzone.net/noticias/redes/mtu-significado-router-1500-1492/",
       "fecha": "17-10-2026"
     },
     {
-      "titulo": "La psicología dice que borrar un mensaje de WhatsApp antes de que lo lean demuestra esta emoción oculta",
+      "titulo": "WhatsApp prepara los stickers con sonido: podrás enviar pegatinas que también se escuchan",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/psicologia-dice-que-borrar-un-mensaje-whatsapp-antes-que-lean-demuestra-esta-emocion-oculta_7047087_0.html",
+      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-prepara-los-stickers-con-sonido-podras-enviar-pegatinas-que-tambien-se-escuchan_7050040_0.html",
       "fecha": "17-10-2026"
     },
     {
-      "titulo": "Almería tiene todo el sol del mundo para llenar España de energía solar. El problema es que la red no está a su altura",
+      "titulo": "Mientras se construía la Gran Pirámide hace 4.700 años, un barco se hundía en el Mediterráneo: es el naufragio más antiguo jamás conocido",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/energia/almeria-tiene-todo-sol-mundo-para-llenar-espana-energia-solar-problema-que-red-no-esta-a-su-altura",
+      "enlace": "https://www.xataka.com/magnet/se-construia-gran-piramide-hace-4-700-anos-barco-se-hundia-mediterraneo-naufragio-antiguo-jamas-conocido",
       "fecha": "17-10-2026"
     },
     {
-      "titulo": "Android Auto recupera por fin un icono que desapareció hace meses: ya vuelve a mostrar la cobertura móvil",
+      "titulo": "Android Auto 18.0 ya está disponible para todos: anticipa el mayor rediseño desde Coolwalk",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-recupera-por-fin-un-icono-que-desaparecio-hace-meses-ya-vuelve-mostrar-cobertura-movil_7049934_0.html",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-18-0-ya-esta-disponible-para-todos-anticipa-mayor-rediseno-desde-coolwalk_7050003_0.html",
       "fecha": "17-10-2026"
     },
     {
-      "titulo": "En 1960 la URSS esquilmó el Mar de Aral para regar cultivos de algodón. Hoy está renaciendo como un bosque contra la erosión",
+      "titulo": "La regla de \"100 más tu edad\" y la muerte de un presidente: cómo la medicina se equivocó durante décadas con la tensión arterial",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/1960-urss-esquilmo-mar-aral-para-regar-cultivos-algodon-hoy-esta-renaciendo-como-bosque-erosion",
+      "enlace": "https://www.xataka.com/medicina-y-salud/regla-100-tu-edad-muerte-presidente-como-medicina-se-equivoco-durante-decadas-tension-arterial",
       "fecha": "17-10-2026"
     },
     {
-      "titulo": "Antonio Cañavate, ingeniero telemático, desvela cómo funciona la cobertura de DIGI: \"¿Tiene DIGI cobertura propia o es de Movistar? Esto es lo que nadie te cuenta\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/antonio-canavate-ingeniero-telematico-desvela-como-funciona-cobertura-digi-tiene-digi-cobertura-propia-es-movistar-esto-es-que-nadie-te-cuenta_7042638_0.html",
-      "fecha": "17-10-2026"
-    },
-    {
-      "titulo": "Pere Navarro, director de la DGT: \"Las sanciones no son tanto por el exceso de velocidad, son por tonto\"",
+      "titulo": "Creíamos que la NASA inventó Tang para los astronautas, pero resultó ser uno de los malentendidos más rentables de la historia espacial",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/pere-navarro-director-dgt-sanciones-no-exceso-velocidad-tonto",
-      "fecha": "17-10-2026"
-    },
-    {
-      "titulo": "\"Rápido, ¡esconded los Porsche ya!\": la sorprendente decisión de Steve Jobs ante una inesperada visita a su oficina",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/rapido-esconded-los-porsche-ya-sorprendente-decision-steve-jobs-ante-una-inesperada-visita-su-oficina_7042628_0.html",
+      "enlace": "https://www.xataka.com/espacio/creiamos-que-nasa-invento-tang-para-astronautas-resulto-ser-uno-malentendidos-rentables-historia-espacial",
       "fecha": "17-10-2026"
     }
   ]
