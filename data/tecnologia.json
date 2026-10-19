@@ -1,171 +1,153 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "18-10-2026 16:11",
+  "actualizado": "19-10-2026 04:11",
   "destacadas": [
     {
-      "titulo": "Una vulnerabilidad de Broadcom afecta a routers de Movistar, Jazztel, MásMóvil y O2",
-      "resumen": "El investigador Quentin Kaiser presentó en Hexacon 2026 un fallo en el software WiFi de Broadcom (un monitor WPS que sigue activo aunque se desactive el WPS) que afecta a millones de routers, 1,5 millones solo en Bélgica. Entre los modelos afectados en España está el ZTE F680 v4 desplegado por MásMóvil, y Broadcom conocería el fallo desde 2018. Hará falta un nuevo firmware de fabricante y operadoras.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/descubierta-vulnerabilidad-routers-modelos-afectados/",
-      "fecha": "18-10-2026 13:39"
+      "titulo": "Una Xbox Series X ya puede ejecutar juegos de PlayStation 5, pero con truco",
+      "resumen": "El desarrollador Devran Cosmo Uenal ha portado a Xbox el emulador de código abierto KytyPS5, bajo el nombre PS5X, y ha arrancado Quake II, GEX Trilogy, Hellboy: Web of Wyrd y Marvel Cosmic Invasion. Solo funciona en el Modo Desarrollador de la consola, que limita los juegos a 5 GB de memoria, así que deja fuera la mayoría de títulos actuales, y todavía no hay descarga pública.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2286776/xbox-series-x-users-can-play-playstation-5-games-ps5x-emulator-issues/",
+      "fecha": "19-10-2026 01:00"
     },
     {
-      "titulo": "Rockstar emplea a 4.700 personas para 'GTA VI' y Take-Two prevé 40 millones de copias",
-      "resumen": "Rockstar pasó de 2.441 empleados en 2018 a 4.711 en agosto, repartidos en 12 oficinas, y montó en Los Ángeles un estudio solo para escribir y animar NPC. Take-Two espera que Rockstar pase del 16% al 36% de sus reservas y proyecta 40 millones de copias en el ejercicio que cierra el 31 de marzo; Bank of America calcula 3.440 millones de dólares de ingresos. El juego sale el 19 de noviembre tras dos aplazamientos.",
+      "titulo": "Los «Señores del Tiempo» eliminan los segundos intercalares antes de que sean el nuevo efecto 2000",
+      "resumen": "La Conferencia General de Pesas y Medidas votó en su 28.ª reunión poner fin a los segundos intercalares. El motivo principal es el riesgo de un segundo negativo, nunca aplicado, que podría causar fallos en infraestructuras críticas y dispositivos IoT, con un coste de adaptación comparable al del efecto 2000.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/10/19/time-lords-kill-leap-seconds-before-they-become-the-new-y2k-bug/5303711",
+      "fecha": "19-10-2026 01:01"
+    },
+    {
+      "titulo": "Microsoft lleva Defender a los escritorios Linux en vista previa pública",
+      "resumen": "Defender para Linux de escritorio incluye análisis en tiempo real, EDR y el módulo MDVM para detectar vulnerabilidades y configuraciones inseguras. Es compatible con Ubuntu, Debian, Fedora, CentOS, RHEL, SLES y Oracle Linux, y tras la vista previa exigirá una suscripción Microsoft 365 E5 o E7.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/software/microsoft-defender-linux-escritorios-seguridad/",
+      "fecha": "18-10-2026 20:00"
+    },
+    {
+      "titulo": "Una policía de Savannah cedió su acceso a Flock a su marido, agente de ICE",
+      "resumen": "Amber Harpe fue despedida en agosto tras comprobarse que compartió sus credenciales de Flock con su marido, Tyler Harpe. Él hizo 983 búsquedas sobre 97 matrículas, mayoritariamente de conductores hispanos. La policía de Savannah asegura que no comparte datos de Flock con ICE; otros cinco empleados fueron despedidos y cuatro, detenidos.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband",
+      "fecha": "19-10-2026 00:20"
+    },
+    {
+      "titulo": "El metro de San Francisco sigue usando disquetes y no los sustituirá hasta 2034",
+      "resumen": "El Automatic Train Control System, en marcha desde 1998, obliga a cargar el software cada mañana a mano con disquetes de 3,5 pulgadas. El contrato con Hitachi Rail de unos 212 millones de dólares prevé un control inalámbrico: pruebas en 2027, sustitución del sistema subterráneo desde 2028 y red completa en 2034.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/rockstar-tiene-trabajando-a-4-700-personas-para-lanzar-gta-vi-vender-40-millones-copias",
-      "fecha": "18-10-2026 16:01"
+      "enlace": "https://www.xataka.com/movilidad/disquete-murio-hace-decadas-sigue-vivo-metro-san-francisco-modernizarlo-llevara-2034",
+      "fecha": "18-10-2026 19:01"
     },
     {
-      "titulo": "Windows 11 bloqueará los USB formateados con ReFS a partir de enero de 2027",
-      "resumen": "Microsoft ha confirmado que la actualización de octubre de 2026 empieza a mostrar avisos en el Visor de eventos y que la de seguridad de enero de 2027 impedirá montar por defecto unidades USB con ReFS. Los datos no se borran, y quien las necesite podrá reactivarlas con directivas de grupo o el registro. Microsoft dice que ReFS nunca fue una configuración oficialmente compatible en medios extraíbles.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/windows-11-bloqueara-algunos-usb-partir-2027-asi-te-afectara-cambio-microsoft_7050118_0.html",
-      "fecha": "18-10-2026 11:44"
-    },
-    {
-      "titulo": "Logran conectar un Apple Watch a Android sin iPhone por primera vez",
-      "resumen": "Apple Watch Companion, un proyecto de código abierto, reconstruye mediante ingeniería inversa el protocolo Bluetooth y el servicio IDS de Apple para emparejar y activar el reloj con Android, Linux o Windows. Permite ver la batería, cambiar esferas y ajustar notificaciones, pero exige un Android con root y Magisk. Se probó con un OnePlus 13 y un Apple Watch Ultra 2 con watchOS 26.2.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/apple/apple-watch-conectarse-android-sin-iphone/",
-      "fecha": "18-10-2026 11:00"
-    },
-    {
-      "titulo": "'Fortnite' llegará a Linux de la mano de un nuevo Easy Anti-Cheat",
-      "resumen": "Epic Games anunció una versión oficial para Linux al presentar su nuevo launcher. Para ello desarrollará Easy Anti-Cheat Linux v2, que se estrenará en Fortnite y usará kernel y módulos firmados y arranque seguro con atestación. Todavía no hay fecha de lanzamiento; el juego no estaba en Linux por la debilidad de las medidas antitrampas.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/fortnite-linux-nuevo-sistema-antitrampas/",
-      "fecha": "18-10-2026 10:00"
-    },
-    {
-      "titulo": "Las ciudades de EE. UU. empiezan a poner freno a los robotaxis",
-      "resumen": "Sin normas federales, municipios y estados aprueban sus propias reglas: Minneapolis estudia exigir monitores humanos dentro de los vehículos autónomos, San Diego busca vetar a Waymo en el aeropuerto y los bomberos de Austin piden protocolos para el Tesla Cybercab, sin volante ni pedales. El resultado es un mosaico regulatorio que la industria quería evitar, y el rechazo ya no sigue líneas políticas claras.",
+      "titulo": "Un proyecto de ley en el Congreso de EE. UU. quiere que comprar un videojuego signifique ser su dueño",
+      "resumen": "El representante Ritchie Torres presentó la Power To The Players Act, que encarga a la FTC regular que el pago otorgue propiedad y no una licencia, y exige un modo sin conexión antes de cerrar servidores. Cita NBA 2K25, que dejará de venderse este mes y cuyos servidores cerrarán el 31 de diciembre.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
-      "fecha": "18-10-2026 14:00"
+      "enlace": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act",
+      "fecha": "18-10-2026 18:27"
     },
     {
-      "titulo": "La industria de los centros de datos busca ganarse a los niños en las escuelas",
-      "resumen": "Ante la oposición a sus campus, grupos como 7x24 Exchange promueven cuentos infantiles, un «Día Internacional del Centro de Datos» y kits de actividades. En mayo, AFCOM Potomac repartió kits para hacer banderas a 3.100 alumnos de primero en 37 escuelas del condado de Loudoun (Virginia). Expertos lo comparan con la propaganda escolar de la comida rápida, el tabaco o el petróleo.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
-      "fecha": "18-10-2026 12:30"
+      "titulo": "El Slate recibe actualizaciones por internet sin tener conexión móvil ni infotainment",
+      "resumen": "La pickup eléctrica de Slate, de menos de 25.000 dólares, descarga las actualizaciones en el móvil mediante su app. Al conectarlo por USB el archivo se transfiere en un minuto y el camión termina la instalación solo en unos 45 minutos. Tiene unas 205 millas de autonomía estimada y la empresa afirma que no venderá datos de la app.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2283988/slate-truck-no-infotainment-over-the-air-sofware-updates/",
+      "fecha": "18-10-2026 20:30"
     },
     {
-      "titulo": "Trump asegura que Google «le besa el culo» y que le atendió por el cambio de nombre del Golfo de México",
-      "resumen": "En un mitin en Kentucky, Trump dijo que en su primer mandato Google no le habría cogido el teléfono y que ahora «le besan el culo», en alusión al cambio de nombre en Google Maps. Google sostiene que solo refleja fuentes oficiales como el GNIS. Durante su segundo mandato, las tecnológicas, Google y Sundar Pichai incluidos, han buscado congraciarse con él con regalos y donaciones.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1013485/trump-google-kiss-my-ass",
-      "fecha": "18-10-2026 15:25"
+      "titulo": "Siemens enseña el Inspiro London, el tren que renovará la línea Piccadilly del metro de Londres",
+      "resumen": "Transport for London ha encargado 94 trenes de nueve coches y unos 113 metros para sustituir los 86 en servicio desde 1975. Será el primero con aire acondicionado en los túneles profundos de la red, con equipos bajo el suelo, además de interior de paso continuo, puertas más anchas y pantallas con información en tiempo real.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/lineas-metro-antiguo-mundo-esta-a-punto-cambiar-siemens-ha-ensenado-trenes-nueva-generacion",
+      "fecha": "18-10-2026 21:01"
     }
   ],
   "titulares": [
     {
-      "titulo": "Tu televisor inteligente tiene un gran problema: rastrea lo que ves",
+      "titulo": "Dos planes de Starlink de 55 dólares que se parecen poco entre sí",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2285490/one-problem-smart-tv-tracking-what-you-watch/",
+      "enlace": "https://www.engadget.com/2286681/starlink-residential-vs-roam-55-dollar-plan-how-different/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Inscryption llegará por fin a móviles cinco años después de su estreno",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2289805/after-five-years-inscryption-is-finally-coming-to-mobile/",
       "fecha": "18-10-2026"
     },
     {
-      "titulo": "Las creadoras de OnlyFans, enfadadas porque Meta deja que Muse hable en tono subido",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+      "titulo": "Benchmark, sobre invertir en un mercado frenético: sin agenda, sin prisa y sin salir de San Francisco",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market/",
       "fecha": "18-10-2026"
     },
     {
-      "titulo": "¿Qué le pasó a mi OOHPod? El símbolo del sistema de Windows aparece por sorpresa",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/10/18/oh-no-what-happened-to-my-oohpod-windows-command-prompt-puts-in-a-surprise-appearance/5303109/",
+      "titulo": "TechCrunch Mobility: el próximo acto de Rivian",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
       "fecha": "18-10-2026"
     },
     {
-      "titulo": "Hace 75.000 años una lanza atravesó el pecho de un neandertal. Sus restos indican que ya entonces cuidaban a sus heridos",
+      "titulo": "De la Royole FlexPai al iPhone Duo: cómo han evolucionado los móviles plegables",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2286505/how-modern-foldable-phone-evolved-from-royole-flexpai-to-iphone-duo/",
+      "fecha": "18-10-2026"
+    },
+    {
+      "titulo": "Querían frenar la humedad en la Catedral Vieja de Salamanca y han acabado encontrando tumbas, un caldero romano y un posible templo anterior",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/hace-75-000-anos-lanza-atraveso-pecho-neandertal-sus-restos-indican-que-entonces-cuidaban-a-sus-heridos",
+      "enlace": "https://www.xataka.com/magnet/querian-frenar-humedad-catedral-vieja-salamanca-han-acabado-encontrando-tumbas-caldero-romano-posible-templo-anterior",
       "fecha": "18-10-2026"
     },
     {
-      "titulo": "Qué es Windows RE y por qué puede salvarte cuando Windows no funciona correctamente",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/guias/windows-no-funciona-ayuda-solucion-windows-re/",
-      "fecha": "18-10-2026"
-    },
-    {
-      "titulo": "DNS privado en Android: el ajuste oculto que cambia cómo se conecta tu móvil a Internet",
+      "titulo": "Qué significa 4K-QAM en un router WiFi 7 y por qué casi nunca alcanzarás la velocidad que anuncia la caja",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/dns-privado-android-funciones/",
+      "enlace": "https://www.adslzone.net/noticias/internet/que-significa-4k-qam-wifi-7/",
       "fecha": "18-10-2026"
     },
     {
-      "titulo": "\"Decidido hasta nueva orden\". La Séptima no ha empezado a emitir en la TDT y ya ha hecho el primer gran cambio en su programación",
+      "titulo": "Monica J. White, experta en tecnología: \"Si tu WiFi llega mal a algunas habitaciones, este es mi truco para ampliar la señal sin sacrificar velocidad\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/decidido-hasta-nueva-orden-septima-no-ha-empezado-emitir-tdt-ya-ha-hecho-primer-gran-cambio-su-programacion_7049090_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/monica-j-white-experta-tecnologia-si-tu-wifi-llega-mal-algunas-habitaciones-este-es-mi-truco-para-ampliar-senal-sin-sacrificar-velocidad_7042111_0.html",
       "fecha": "18-10-2026"
     },
     {
-      "titulo": "Para que la energía solar no le quite el suelo a la agricultura, Suecia está probando paneles rosas sobre el brócoli",
+      "titulo": "Llevamos años escuchando que adelgazar rápido provoca efecto rebote. Los expertos llevan tiempo cuestionando esta idea",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/energia/energia-solar-no-le-quite-suelo-a-agricultura-suecia-esta-probando-paneles-rosas-brocoli",
+      "enlace": "https://www.xataka.com/medicina-y-salud/llevamos-anos-escuchando-que-adelgazar-rapido-provoca-efecto-rebote-expertos-llevan-tiempo-cuestionando-esta-idea",
       "fecha": "18-10-2026"
     },
     {
-      "titulo": "El sistema de calefacción que menos gasta con el frío, según la OCU: 185 euros al año en un piso de 90 metros cuadrados",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/productos/diferentes-sistemas-calefaccion-comparativa/",
-      "fecha": "18-10-2026"
-    },
-    {
-      "titulo": "WhatsApp copia una función del iPhone que te ahorrará tiempo cada vez que quedes con alguien",
+      "titulo": "Windows recuerda todas las memorias USB y discos duros que has desconectado de tu PC y así puedes hacer que se olvide para siempre",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-copia-una-funcion-iphone-que-te-ahorrara-tiempo-cada-vez-que-quedes-con-alguien_7050142_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/windows-recuerda-todas-las-memorias-usb-discos-duros-que-has-desconectado-tu-pc-asi-puedes-hacer-que-se-olvide-para-siempre_7043611_0.html",
       "fecha": "18-10-2026"
     },
     {
-      "titulo": "Por primera vez en más de 100 años, acabamos de descubrir una nueva especie de gato",
+      "titulo": "Esta pequeña ave es el shima enaga: el \"hada de la nieve\" japonesa que esconde una vida social fascinante",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/primera-vez-100-anos-acabamos-descubrir-nueva-especie-gato",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/este-diminuto-pajaro-japones-cara-bola-nieve-tiene-vidas-sociales-fascinantes-aves",
       "fecha": "18-10-2026"
     },
     {
-      "titulo": "iSIM: después de la SIM y la eSIM, la tarjeta puede desaparecer incluso como chip independiente",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/moviles/isim-como-funciona-ventajas/",
-      "fecha": "18-10-2026"
-    },
-    {
-      "titulo": "La psicología dice que las personas que llevan la pantalla del móvil rota y no la arreglan comparten este rasgo",
+      "titulo": "Andrew S. Tanenbaum, creador de Minix, y su increíble profecía en 1992 sobre el sistema operativo de Linus Torvalds: \"Linux está obsoleto y pronto desaparecerá\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/psicologia-dice-que-las-personas-que-llevan-pantalla-movil-rota-no-arreglan-comparten-este-rasgo_7047088_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/andrew-s-tanenbaum-creador-minix-su-increible-profecia-1992-sobre-sistema-operativo-linus-torvalds-linux-esta-obsoleto-pronto-desaparecera_7036415_0.html",
       "fecha": "18-10-2026"
     },
     {
-      "titulo": "China ha encontrado en la Luna una cápsula del tiempo de hierro, ahora solo queda aprender a abrirla",
+      "titulo": "Al hacer una foto aérea sobre un campo de cereal en un pueblo de la Rioja en 2009, destapó una villa romana de hace 2100 años",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/china-ha-encontrado-luna-capsula-tiempo-hierro-ahora-solo-queda-aprender-a-abrirla",
+      "enlace": "https://www.xataka.com/magnet/hoy-tiene-376-habitantes-fue-gigante-imperio-romano-villa-senorial-aparece-pueblo-rioja",
       "fecha": "18-10-2026"
     },
     {
-      "titulo": "Tu cable Ethernet es Gigabit pero Windows solo marca 100 Mbps: las causas más habituales",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/windows/cable-ethernet-gigabit-windows-100-mbps-causas/",
-      "fecha": "18-10-2026"
-    },
-    {
-      "titulo": "Firefox prueba una nueva ventana flotante que te permitirá tener cualquier web siempre a la vista",
+      "titulo": "Esta es la razón por la que nunca deberías limpiar la pantalla del móvil con la camiseta o papel de cocina",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/firefox-prueba-una-nueva-ventana-flotante-que-te-permitira-tener-cualquier-web-siempre-vista_7050127_0.html",
+      "enlace": "https://computerhoy.20minutos.es/moviles/esta-es-razon-por-que-nunca-deberias-limpiar-pantalla-movil-con-camiseta-papel-cocina_7045465_0.html",
       "fecha": "18-10-2026"
     },
     {
-      "titulo": "DroidDeck convierte tu móvil Android en una Steam Deck para jugar a juegos de PC en local y sin streaming: así funciona",
+      "titulo": "A finales de los 90, un fan borracho de Van Halen llamó al soporte técnico de Microsoft y exigió hablar con Bill Gates",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/droiddeck-convierte-tu-movil-android-steam-deck-para-jugar-a-juegos-pc-local-streaming-asi-funciona",
-      "fecha": "18-10-2026"
-    },
-    {
-      "titulo": "Googlebook OS: qué es, cómo funciona, ordenadores compatibles y todo lo que debes saber del nuevo sistema operativo de Google que jubilará a ChromeOS",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/googlebook-os-que-es-como-funciona-ordenadores-compatibles-todo-que-debes-saber-nuevo-sistema-operativo-google-que-jubilara-chrome-os_7043613_0.html",
+      "enlace": "https://www.xataka.com/empresas-y-economia/a-finales-90-fan-borracho-van-halen-llamo-al-soporte-tecnico-microsoft-exigio-hablar-bill-gates",
       "fecha": "18-10-2026"
     }
   ]
