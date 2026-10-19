@@ -1,67 +1,35 @@
 {
   "seccion": "ia",
-  "actualizado": "18-10-2026 17:11",
+  "actualizado": "19-10-2026 05:10",
   "destacadas": [
     {
-      "titulo": "Cuatro agentes Gemini 4 Argon pasan Minecraft sin ayuda humana",
-      "resumen": "Cuatro agentes de Google DeepMind basados en Gemini 4 Argon han vencido por primera vez a Minecraft de forma totalmente autónoma, derrotando al dragón del End en un mundo generado al azar y sin roles, estrategias ni herramientas específicas del juego. Se repartieron tareas, se avisaron de amenazas y registraron errores en una memoria compartida. En 27 horas y 14 minutos escribieron 2.783 programas JavaScript, intercambiaron 229 mensajes y murieron 605 veces, con un coste de 1.620 dólares al precio estándar que regirá en 2027.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
-      "fecha": "18-10-2026 14:39"
+      "titulo": "Anthropic da a METR acceso «como el de un empleado» para evaluar los riesgos de sus modelos",
+      "resumen": "Anthropic ha incorporado a seis empleados de METR, una organización sin ánimo de lucro, con equipos de la empresa, oficina y acceso a herramientas internas similar al de sus propios equipos de evaluación de riesgos. Anthropic no les paga y no puede vetar sus publicaciones, aunque sí exigir que se omitan datos de clientes, secretos profesionales o arquitecturas de modelos. Es el primer paso de la propuesta de Dario Amodei de auditores externos en los grandes laboratorios, que Altman y Musk apoyaron en septiembre.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "fecha": "18-10-2026 18:25"
     },
     {
-      "titulo": "Dos tribunales alemanes ya hacen responsable a Google de lo que dicen sus resúmenes de IA",
-      "resumen": "Tras la sentencia del tribunal regional de Múnich de mayo, que consideró los AI Overviews contenido propio de Google, la empresa apeló pero acabó llegando a un acuerdo, de modo que ninguna instancia superior revisó el razonamiento. Ahora el tribunal regional de Aquisgrán, en una resolución del 24 de septiembre de 2026, ha prohibido a Google difundir ciertas afirmaciones falsas de su «AI Mode» sobre un médico, apoyándose en la lógica de Múnich. La decisión aún no es firme y Google puede recurrirla.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
-      "fecha": "18-10-2026 12:52"
+      "titulo": "Anthropic destinará el 5 % de sus acciones a un «fondo de beneficio público»",
+      "resumen": "Anthropic anunció el 18 de octubre que dedicará el 5 % de sus acciones a un fondo de beneficio público, con un 2 % adicional por cada aumento del 50 % en su valor. La empresa ya había comprometido 200 millones de dólares para estudiar el impacto de la IA en el mercado laboral.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "fecha": "18-10-2026 22:37"
     },
     {
-      "titulo": "Microsoft renueva la app Fotos de Windows 11 con IA para borrar objetos y editar mejor",
-      "resumen": "Microsoft ha presentado un rediseño completo de Fotos en Windows 11: nueva galería que reúne imágenes del PC, OneDrive e iCloud con búsqueda por descripciones en lenguaje natural, visor rediseñado y un editor reconstruido que carga un 25 % más rápido. Incorpora mejoras en la eliminación de objetos con IA y soporta formatos como HDR, HEIC y WebP. Se despliega ya entre los Windows Insider y llegará al resto de usuarios más adelante este año.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/microsoft-revoluciona-aplicacion-fotos-windows-11-con-ia-ahora-puedes-borrar-objetos-editar-imagenes-mejor_7050145_0.html",
-      "fecha": "18-10-2026 15:25"
+      "titulo": "Disney contratará a la mayoría de la plantilla de Character.AI tras su quiebra",
+      "resumen": "Según una presentación judicial, Disney hará ofertas a al menos 60 empleados de Character.AI, que se declaró en quiebra el 13 de octubre, con una compensación anual estimada de 60 millones de dólares; la gran mayoría las aceptó. Es una puja inicial que otra empresa podría superar. Disney ya había acordado comprar algunos activos por 20 millones y el exCEO Karandeep Anand es ahora su primer CTO.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "fecha": "18-10-2026 18:30"
     },
     {
-      "titulo": "Torvalds sobre programar con IA: le pidió una interfaz en Java y «fue horrible»",
-      "resumen": "En el Open Source Summit Europe, Linus Torvalds explicó que usa IA generativa para programar y que hoy le resulta mucho más útil que hace unos años. Contó que pidió a una IA una interfaz en Java para un microcontrolador con pantalla, un lenguaje que no domina, y el primer resultado fue pésimo. Su conclusión no es negativa: la IA sirve para cubrir áreas ajenas y no críticas, siempre con supervisión.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-sobre-los-programadores-estan-usando-ia-yo-no-programo-java-yo-programo-kernels-le-di-una-instruccion-hizo-fue-horrible_7048580_0.html",
-      "fecha": "18-10-2026 13:30"
-    },
-    {
-      "titulo": "Decimos que el género de una IA nos da igual, hasta que toca pagarle",
-      "resumen": "Un estudio de universidades europeas, entre ellas Limerick y Zúrich, puso a 189 participantes con gafas de realidad virtual a trabajar con cuatro asistentes (un chatbot, un robot de escritorio y dos avatares humanos, Johan y Johanna), todos con GPT-4. Cada persona debía valorar la contribución de la IA y asignarle una recompensa económica, y el experimento mide cómo los sesgos de género asociados a la voz y el aspecto influyen en la confianza y el pago.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/decimos-que-genero-ia-nos-da-igual-que-llega-momento-pagarle",
-      "fecha": "18-10-2026 08:00"
+      "titulo": "Detienen en Filadelfia a una mujer por bloquear a un robot de reparto de Uber",
+      "resumen": "Carolyn Marvin fue arrestada y acusada de alteración del orden público tras plantarse delante de un robot de reparto de Uber y negarse a apartarse. Dijo protestar así porque los robots quitan empleo a repartidores humanos. No es la primera vez: este año ya patearon otro en Center City, y crece la preocupación por el efecto de robots, robotaxis y agentes de IA en el empleo poco cualificado.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "fecha": "18-10-2026 20:28"
     }
   ],
-  "titulares": [
-    {
-      "titulo": "Anthropic consulta a bufetes para fijar normas de negociación justas antes de que los agentes de IA cierren tratos",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
-      "fecha": "18-10-2026"
-    },
-    {
-      "titulo": "Los agentes de IA tienen mal criterio en decisiones a largo plazo y un nuevo benchmark lo demuestra",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
-      "fecha": "18-10-2026"
-    },
-    {
-      "titulo": "Agentes de IA que reclamaban un reembolso de tren de 465 dólares inventaron excusas, filtraron datos médicos y saturaron el despacho de una diputada",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
-      "fecha": "18-10-2026"
-    },
-    {
-      "titulo": "Rocky Scopelliti, tecnólogo, alerta del peligro del \"el yo algorítmico\" de la IA: \"Si la percepción es programable, la ética debe estar integrada\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/rocky-scopelliti-tecnologo-alerta-peligro-yo-algoritmico-ia-si-percepcion-es-programable-etica-debe-estar-integrada_7041349_0.html",
-      "fecha": "18-10-2026"
-    }
-  ]
+  "titulares": []
 }
