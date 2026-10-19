@@ -3,6 +3,251 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Ucrania lanza más de 1.000 drones contra Rusia y deja en llamas instalaciones petroleras en San Petersburgo",
+      "fuente": "Al Jazeera",
+      "fecha": "19-10-2026 04:10",
+      "enlace": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "EEUU advierte a la UE de represalias «devastadoras» por su plan de espectro satelital",
+      "fuente": "TRT World",
+      "fecha": "19-10-2026 03:15",
+      "enlace": "https://www.trtworld.com/article/c68039924b7c",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Francia detiene a 1.800 personas tras los violentos disturbios en las protestas contra el coste de la vida",
+      "fuente": "The Hindu",
+      "fecha": "19-10-2026 04:21",
+      "enlace": "https://www.thehindu.com/news/international/france-paris-protests-police-arrests-damage/article71599628.ece",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Trump defiende el alivio de sanciones a Rusia y arremete contra Zelenski",
+      "fuente": "Al Jazeera",
+      "fecha": "19-10-2026 05:10",
+      "enlace": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy?traffic_source=rss",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Rusia, EEUU y China reconocen la posibilidad de una reunión trilateral, según el Kremlin",
+      "fuente": "TASS",
+      "fecha": "19-10-2026 04:34",
+      "enlace": "https://tass.com/politics/2203895",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "El primer ministro albanés Edi Rama rechaza dimitir en el sexto día de violentas protestas",
+      "fuente": "SCMP",
+      "fecha": "19-10-2026 01:04",
+      "enlace": "https://www.scmp.com/news/world/europe/article/3371332/albanian-pm-edi-rama-refuses-quit-violent-protests-enter-6th-day?utm_source=rss_feed",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Hungría rompe filas con la UE por el acuerdo del diésel entre EEUU y Rusia",
+      "fuente": "RT",
+      "fecha": "18-10-2026 16:44",
+      "enlace": "https://www.rt.com/news/647365-hungary-us-diesel-magyar/",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "La Guardia Revolucionaria iraní asegura que un petrolero chocó con una mina en el estrecho de Ormuz",
+      "fuente": "Anadolu",
+      "fecha": "19-10-2026 03:11",
+      "enlace": "https://www.aa.com.tr/en/middle-east/iran-s-revolutionary-guard-says-oil-tanker-struck-mine-and-caught-fire-in-strait-of-hormuz/4092953",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Irán nombra a Mehrdad Akhlaghi-Ketabchi nuevo ministro de Defensa",
+      "fuente": "Prensa Latina",
+      "fecha": "19-10-2026 04:51",
+      "enlace": "https://www.prensa-latina.cu/2026/10/18/iran-nombra-a-mehrdad-akhlaghi-ketabchi-nuevo-ministro-de-defensa/",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "El crecimiento de China se acelera al 4,5 % en el tercer trimestre",
+      "fuente": "CNA",
+      "fecha": "19-10-2026 04:20",
+      "enlace": "https://www.channelnewsasia.com/business/china-gdp-growth-data-september-2026-6470736",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "La embajada de EEUU en Emiratos pide «máxima vigilancia» a sus ciudadanos en Oriente Medio",
+      "fuente": "Middle East Eye",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.middleeasteye.net/live-blog/live-blog-update/us-embassy-uae-urges-citizens-exercise-heightened-vigilance-middle-east",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "El primer ministro indio visitaría Rusia más probablemente el año que viene, según el Kremlin",
+      "fuente": "TASS",
+      "fecha": "19-10-2026",
+      "enlace": "https://tass.com/politics/2203893",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Netanyahu advierte de un futuro presidente de EEUU potencialmente hostil y pide alianzas con India y Latinoamérica",
+      "fuente": "The Hindu",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.thehindu.com/news/international/israeli-pm-netanyahu-warns-of-potentially-hostile-future-us-president-calls-for-alliances-with-india-latin-america/article71601129.ece",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Pakistán apuesta por la diplomacia mientras Irán rechaza las «amenazas» de EEUU",
+      "fuente": "Dawn",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.dawn.com/news/2038137/pakistan-stresses-diplomacy-as-iran-rejects-us-threats",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Taiwán dice haber ahuyentado a 16 barcos chinos por «acoso marítimo»",
+      "fuente": "The Hindu",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.thehindu.com/news/international/taiwan-says-drives-away-16-chinese-ships-involved-in-maritime-harassment/article71600923.ece",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Trump respalda a Netanyahu en las elecciones israelíes",
+      "fuente": "The Hindu",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.thehindu.com/news/international/trump-endorses-netanyahu-in-israeli-election/article71600598.ece",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Kenia confirma su octavo caso de ébola en medio de un brote regional",
+      "fuente": "Al Jazeera",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak?traffic_source=rss",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Un ataque de las RSF mata a 11 personas en un campo de desplazados de Darfur Occidental",
+      "fuente": "Anadolu",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.aa.com.tr/en/africa/rsf-attack-kills-11-at-displacement-camp-in-sudan-s-west-darfur-official/4092951",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "El ministro de Defensa saudí se reúne con la cúpula emiratí en Abu Dabi en medio del conflicto de Yemen",
+      "fuente": "TRT World",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.trtworld.com/article/6fd71df0424a",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Más de 150 detenidos en las protestas de Milán, según la prensa",
+      "fuente": "TASS",
+      "fecha": "19-10-2026",
+      "enlace": "https://tass.com/emergencies/2203877",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Lula y Flavio Bolsonaro protagonizan su primer debate televisado: estos fueron los temas relevantes",
+      "fuente": "Sputnik Mundo",
+      "fecha": "19-10-2026",
+      "enlace": "https://noticiaslatam.lat/20261019/lula-y-flavio-bolsonaro-protagonizan-su-primer-debate-televisado-estos-fueron-los-temas-relevantes-1175496493.html",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Más de 2.000 niños palestinos han sido arrestados por Israel desde 2023",
+      "fuente": "teleSUR",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.telesurtv.net/mas-2000-ninos-palestinos-arrestados-israel/",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Brasil: el PT da la guerra del balotaje también en las redes",
+      "fuente": "Resumen Latinoamericano",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.resumenlatinoamericano.org/2026/10/18/brasil-el-pt-da-la-guerra-del-balotaje-tambien-en-las-redes/",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Dirigente centrista refuta comentario de embajador de Perú en EEUU",
+      "fuente": "Prensa Latina",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.prensa-latina.cu/2026/10/18/dirigente-centrista-refuta-comentario-de-embajador-de-peru-en-eeuu-2/",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Rusia, EEUU y China reconocen posibilidad hipotética de una reunión tripartita, según el Kremlin",
+      "fuente": "Sputnik Mundo",
+      "fecha": "19-10-2026",
+      "enlace": "https://noticiaslatam.lat/20261019/rusia-eeuu-y-china-reconocen-posibilidad-hipotetica-de-una-reunion-tripartita-segun-el-kremlin-1175495978.html",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Unos 30 detenidos en marcha conmemorativa del estallido de 2019 en Chile",
+      "fuente": "teleSUR",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.telesurtv.net/chile-represion-en-aniversario-estallido-2019/",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Argentina. Críticas al alineamiento con Estados Unidos en un ciclo formativo del Ejército Argentino",
+      "fuente": "Resumen Latinoamericano",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.resumenlatinoamericano.org/2026/10/18/argentina-criticas-al-alineamiento-con-estados-unidos-en-un-ciclo-formativo-del-ejercito-argentino/",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Iraq busca reunir en Bagdad a Irán y los Estados del Golfo",
+      "fuente": "Prensa Latina",
+      "fecha": "19-10-2026",
+      "enlace": "https://www.prensa-latina.cu/2026/10/18/iraq-busca-reunir-en-bagdad-a-iran-y-los-estados-del-golfo/",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "La UE y Canadá condenan los ataques de colonos israelíes contra palestinos y diplomáticos europeos",
+      "fuente": "TRT World",
+      "fecha": "18-10-2026",
+      "enlace": "https://www.trtworld.com/article/ac7b49deac99",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "La policía italiana detiene a 28 personas tras protestas violentas por el coste de la vida",
+      "fuente": "TRT World",
+      "fecha": "18-10-2026",
+      "enlace": "https://www.trtworld.com/article/d2e2895c64a7",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Unos 200 detenidos en Bélgica durante protestas contra los recortes en educación",
+      "fuente": "teleSUR English",
+      "fecha": "18-10-2026",
+      "enlace": "https://www.telesurenglish.net/around-200-arrested-in-belgium-during-protests-against-education-cuts/",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "El canciller iraní presenta una oferta para reabrir Ormuz y dice que «la decisión está en manos de EEUU»",
+      "fuente": "The Cradle",
+      "fecha": "18-10-2026",
+      "enlace": "https://thecradle.co/articles-id/40577",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Egipto lanza una «misión defensiva» en apoyo de Arabia Saudí",
+      "fuente": "The Cradle",
+      "fecha": "18-10-2026",
+      "enlace": "https://thecradle.co/articles-id/40576",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "Rubio dice que EEUU presiona a Israel para frenar la violencia de los colonos en Cisjordania",
+      "fuente": "Modern Diplomacy",
+      "fecha": "18-10-2026",
+      "enlace": "https://moderndiplomacy.eu/2026/10/18/rubio-says-us-pressing-israel-to-crack-down-on-west-bank-settler-violence/",
+      "turno": "2026-10-19_M"
+    },
+    {
+      "titulo": "La RDC acusa al expresidente Kabila de preparar un «ataque general» contra el país",
+      "fuente": "Africanews",
+      "fecha": "18-10-2026",
+      "enlace": "http://www.africanews.com/2026/10/18/drc-accuses-ex-president-kabila-of-planning-general-attack-on-the-country/",
+      "turno": "2026-10-19_M"
+    },
+    {
       "titulo": "Francia arde en una noche de disturbios: incendian el ayuntamiento de Limoges",
       "fuente": "Al Jazeera",
       "fecha": "18-10-2026 03:30",
