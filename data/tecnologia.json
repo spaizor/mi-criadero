@@ -1,213 +1,213 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "19-10-2026 16:20",
+  "actualizado": "20-10-2026 04:11",
   "destacadas": [
     {
-      "titulo": "Microsoft admite que las actualizaciones de octubre de Windows Server desestabilizan Exchange Server",
-      "resumen": "Microsoft ha reconocido que las actualizaciones de octubre de 2026 de Windows Server pueden desestabilizar Exchange Server en Windows Server 2016, 2019, 2022 y 2025, con fallos en OWA y colas de correo larguísimas. La causa es un límite por defecto de 512 consultas simultáneas del Endpoint Mapper, y el único remedio por ahora es un cambio en el registro para subirlo. Microsoft pide no desinstalar las actualizaciones y sigue investigando, mientras los administradores se quejan de haber perdido el fin de semana.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/software/2026/10/19/admin-i-spent-all-weekend-on-my-servers-after-microsoft-breaks-exchange-server-with-october-updates/5303724",
-      "fecha": "19-10-2026 15:00"
-    },
-    {
-      "titulo": "Japón lanza MMX, la misión que quiere traer muestras de Fobos a la Tierra",
-      "resumen": "JAXA lanza hoy la misión MMX hacia Marte desde Tanegashima con un cohete H3, a las 21:41 hora peninsular española. El viaje durará 10 meses; después pasará tres años en Fobos, donde desplegará el rover IDEFIX (CNES y DLR) y hará dos intentos de recoger muestras. La cápsula con material de Fobos debería aterrizar en Australia en 2031.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/japon-se-juega-hoy-mision-a-marte-que-nadie-ha-logrado-completar-antes",
-      "fecha": "19-10-2026 15:45"
-    },
-    {
-      "titulo": "Un grupo criminal chino hackeó Staples y emitió gift cards por más de 5 millones de dólares",
-      "resumen": "Según una orden de registro desclasificada, unos hackers accedieron al sistema interno de atención al cliente de Staples, hicieron volcados de memoria para secuestrar sesiones de empleados y emitieron más de 15.000 tarjetas regalo por más de 5 millones de dólares. Las gastaron en tiendas como Target y enviaron la mercancía a China. Staples no ha respondido a las peticiones de comentario.",
-      "fuente": "404 Media",
-      "enlace": "https://www.404media.co/how-a-massive-chinese-crime-ring-hacked-staples-to-steal-millions/",
-      "fecha": "19-10-2026 15:23"
-    },
-    {
-      "titulo": "Musk promete regalar una acción de SpaceX a «cada niño de EE. UU.» en 2027",
-      "resumen": "Elon Musk asegura que en 2027 dará una acción de SpaceX a cada niño del país, un regalo de más de 10.000 millones de dólares con la acción a 146 dólares. No ha explicado cómo lo hará, aunque habla de entregarlas «directamente al público». El anuncio llega horas después de que Anthropic prometiera destinar el 5 % de sus acciones a un fondo de beneficio público.",
+      "titulo": "Amazon financiará 12 reactores nucleares modulares en una antigua central de carbón de Indiana",
+      "resumen": "Amazon pagará una central nuclear de 960 MW con 12 reactores Xe-100 de X-energy junto a Terre Haute, en los terrenos de una antigua central de carbón, y será el primer cliente de la planta, que operará la eléctrica AEP. Es su segundo acuerdo con X-energy y triplica el de 2024, y ambas planean desplegar 5 GW de nueva capacidad nuclear en EE. UU. para 2039. X-energy salió a bolsa en abril a 23 dólares por acción y ha caído cerca de dos tercios desde entonces; su primera planta, en Seadrift (Texas), aún no ha empezado a construirse.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
-      "fecha": "19-10-2026 14:42"
+      "enlace": "https://techcrunch.com/2026/10/19/amazon-to-fund-12-small-nuclear-reactors-at-former-indiana-coal-plant/",
+      "fecha": "19-10-2026 18:55"
     },
     {
-      "titulo": "Apple prohíbe las apps «nudify» que se camuflan para pasar la revisión",
-      "resumen": "Apple ha endurecido sus normas para desarrolladores: prohíbe las apps con funciones ocultas que se presentan como apps normales y activan la «desnudificación» tras ser aprobadas. Retirará las que añadan funciones no presentes en la versión revisada. El año pasado la revisión bloqueó más de 150.000 apps y se eliminaron 193.000 cuentas de desarrollador por fraude.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review/",
-      "fecha": "19-10-2026 14:56"
+      "titulo": "Apple presentará el 28 de octubre en Los Ángeles su evento «Pro and Tell»",
+      "resumen": "Apple ha confirmado su tercer evento de producto de la temporada para el 28 de octubre de 2026 en Los Ángeles. Según Mark Gurman, de Bloomberg, se centrará en Mac e iPad, con MacBook Pro de 14 y 16 pulgadas con pantalla táctil OLED y chips M5 Pro y M5 Max. También se espera un iPad mini con pantalla OLED y renovaciones del iMac y del MacBook Pro de 14 pulgadas con el chip M6.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2290401/apple-pro-and-tell-event-october-28-announcement/",
+      "fecha": "19-10-2026 18:09"
     },
     {
-      "titulo": "Telefónica, Orange, Vodafone y Deutsche Telekom estudian pujar juntas por el espectro móvil por satélite",
-      "resumen": "Las cuatro operadoras han firmado una carta de intenciones para estudiar una candidatura común al espectro de servicios móviles por satélite en Europa. El espectro no sería restrictivo: cualquier operador móvil podría usarlo en las mismas condiciones. Ellas se quedarían con la parte terrestre y un socio satelital aún por elegir pondría la infraestructura espacial.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/operadores-europeos-espectro-satelite-d2d/",
-      "fecha": "19-10-2026 11:32"
-    },
-    {
-      "titulo": "Windows 11 permitirá personalizar el menú contextual y reinstalarse sin USB",
-      "resumen": "La actualización KB5127936, en Release Preview para Windows 11 25H2 y 26H2 desde el 16 de octubre, añade la opción «Customize menu» para elegir qué comandos y extensiones salen al hacer clic derecho. También incorpora una nueva forma de recuperar el sistema cuando no arranca sin necesidad de una memoria USB.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/windows/windows-personalizar-menu-contextual-cloud-rebuild/",
-      "fecha": "19-10-2026 10:38"
-    },
-    {
-      "titulo": "ConnectWise suspende Cloud Backup tras detectar accesos no autorizados",
-      "resumen": "ConnectWise detectó el 15 de octubre accesos no autorizados a identidades de aplicación de Cloud Backup (antes SkyKick) y suspendió también SaaS Security y Cloud Management. Huntress afirma que un secreto de API de Microsoft 365 de Cloud Backup está comprometido y se usa para entrar en entornos de clientes. El 18 de octubre los servicios seguían caídos.",
+      "titulo": "Ahold Delhaize confirma que un ciberataque obligó a desconectar sistemas en EE. UU. y Europa",
+      "resumen": "La dueña de Food Lion, Giant Food y Stop & Shop desconectó preventivamente sistemas de TI, webs y apps tras un ciberataque que afecta a la mayoría de sus marcas; lo había anunciado por primera vez el 12 de octubre. Su CEO, Frans Muller, asegura que las tiendas siguen abiertas y que no hay pruebas de robo de datos sensibles. Albert Heijn ya ha recuperado su web y su app, y prevé reanudar las entregas a domicilio el viernes, tras la intrusión de noviembre de 2024 que expuso datos de más de 2,2 millones de personas.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/19/connectwise-turns-off-its-saas-y-backup-security-and-management-services-to-probe-security-snafu/5303758",
-      "fecha": "19-10-2026 06:31"
+      "enlace": "https://www.theregister.com/security/2026/10/19/grocery-giant-ahold-delhaize-confirms-cyberattack-forced-us-and-european-systems-offline/5303970",
+      "fecha": "19-10-2026 22:26"
+    },
+    {
+      "titulo": "Vulnerabilidades ya corregidas de Plex se explotan para instalar malware",
+      "resumen": "Atacantes encadenan fallos de Plex Media Server, corregidos a comienzos del mes pasado, para ejecutar código remoto e instalar un minero de criptomonedas y software de proxy residencial. La cadena, bautizada «Plex2Shell», la publicó un investigador que dijo haber usado IA de forma intensiva; otro montó un honeypot y vio ataques exitosos en menos de un día. Hay que actualizar a la versión 1.43.3 y evitar exponer el puerto 32400 a Internet.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
+      "fecha": "19-10-2026 21:39"
+    },
+    {
+      "titulo": "Meta retoca sus nuevos términos tras las críticas por el scraping",
+      "resumen": "Meta eliminó la palabra «train» y limitó el rastreo a sus productos publicitarios y empresariales en los términos comerciales que entran en vigor el 30 de octubre. Su portavoz, Andy Stone, asegura que los cambios «no iban de rastrear sitios de noticias», pero expertos citados por Nieman Lab dicen que siguen ampliando mucho sus permisos. Danielle Coffey, de News/Media Alliance, los calificó de «escandalosos y probablemente ilegales».",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2291188/meta-tweaks-its-new-terms-of-service-after-backlash-against-scraping/",
+      "fecha": "20-10-2026 00:47"
+    },
+    {
+      "titulo": "Spotify exige verificar por QR a los miembros del plan familiar",
+      "resumen": "Spotify prueba con un grupo limitado de usuarios una verificación por código QR para confirmar que los miembros del plan Premium Familiar viven en el mismo domicilio que el administrador. El código se muestra en la app del administrador y cambia cada pocos segundos, lo que dificulta reenviarlo. Quien reciba el aviso tendrá 7 días para validarse o no podrá unirse a otro plan familiar o Duo durante 12 meses.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/spotify-verificacion-qr-cuentas-compartidas-plan-familiar/",
+      "fecha": "19-10-2026 22:02"
+    },
+    {
+      "titulo": "Una brecha en el DMV de Florida expone datos de carnés y vehículos de residentes actuales y antiguos",
+      "resumen": "El departamento de tráfico de Florida (FLHSMV) confirma que un atacante accedió a sus registros el 4 de septiembre con credenciales comprometidas, y que los datos afectados incluyen imágenes de documentos y datos de carnés y vehículos. Ofrece un año de monitorización de crédito, aunque puede no tener contacto de muchos exresidentes. El grupo ShinyHunters reivindicó el ataque y fijó un plazo del 11 de septiembre para negociar, pero el departamento no lo ha confirmado.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+      "fecha": "19-10-2026 18:38"
+    },
+    {
+      "titulo": "La acción de SpaceX que Musk regalará a los niños irá a las «Trump Accounts»",
+      "resumen": "Trump anunció que las acciones de SpaceX que Musk prometió dar a «cada niño de EE. UU.» el año que viene se entregarán mediante las «Trump Accounts». Según CNBC, 72 millones de acciones valdrían unos 10.500 millones de dólares al precio del viernes. Musk dijo que «será la primera de muchas», y los Dell, los Dalio, Brad Gerstner y Gwynne Shotwell también han prometido aportaciones.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1014115/elon-musk-spacex-trump-account",
+      "fecha": "20-10-2026 00:30"
     }
   ],
   "titulares": [
     {
-      "titulo": "Los músicos hackean sus equipos con «vibe coding» y firmware a medida",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/gadgets/1013493/vibe-coding-ai-music-gear-hacking-custom-firmware",
+      "titulo": "Flipkart, de Walmart, prepara discretamente un rival de reparto de comida en India",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/walmarts-flipkart-is-quietly-building-a-food-delivery-challenger-in-india/",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "El Galaxy A56 recibe One UI 9: todo lo nuevo que llega con la actualización de Android 17",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/galaxy-a56-one-ui-9-android-17-global/",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "Texas dijo que frenaría los permisos de centros de datos, pero el estado sigue adelante",
+      "fuente": "404 Media",
+      "enlace": "https://www.404media.co/it-aint-right-texas-said-it-would-halt-data-center-permits-the-state-is-pushing-ahead-anyway/",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Wyze lleva la pantalla de su nueva báscula inteligente al asa para leerla a la altura de los ojos",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1013081/wyze-smart-scale-ultra-bodyscan-plus-handle-display",
-      "fecha": "19-10-2026"
-    },
-    {
-      "titulo": "Cómo funciona el programa de Xbox para pasar discos a digital",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/xbox-disc-to-digital/",
-      "fecha": "19-10-2026"
-    },
-    {
-      "titulo": "Un avión estratosférico de Sceye voló de EE. UU. a Japón para probar una antena de telefonía en el cielo",
+      "titulo": "Una nave rusa maniobra a «extrema proximidad» de un satélite que usa Ucrania",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan/",
+      "enlace": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Un fallo Wi-Fi de Broadcom cumple 16 años y aún permite a extraños secuestrar tu router",
+      "titulo": "Maxwell mejora en tiempo de ejecución el código poco optimizado",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/networks/2026/10/19/broadcom-wi-fi-bug-turns-sweet-16-still-lets-strangers-hijack-your-router/5303771",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/19/maxwell-gives-sub-optimal-code-a-runtime-glow-up/5303961",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "El recurso de Microsoft sobre licencias de segunda mano es rechazado",
+      "titulo": "Una startup aprovecha un volcán submarino como fuente de energía en una prueba de concepto",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "ReactOS alcanza un hito importante: ya permite instalar en particiones NTFS",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Puede que ya sepamos qué dice la misteriosa placa de Super Mario 64",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2290685/we-might-finally-know-whats-written-on-that-mysterious-plaque-in-super-mario-64/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "El CEO de Rivian dice que la autonomía permitirá diseños de vehículo «radicalmente distintos»",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/rivians-ceo-says-autonomy-will-enable-dramatically-different-vehicle-designs/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Uber esquiva una demanda de taxistas de 340 millones de libras porque se les pasó el plazo legal",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/legal/2026/10/19/microsofts-second-hand-licensing-appeal-gets-the-brush-off/5303718",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/19/uber-dodges-340m-cabbie-lawsuit-after-drivers-miss-legal-deadline/5303872",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "La Maeving RM2, moto eléctrica de mucho estilo con algunas concesiones",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1013049/maeving-rm2-electric-motorcycle-review-specs",
+      "titulo": "Un cohete chino reentró sobre Minnesota y dejó restos en el maizal de un granjero",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Un museo muestra el funcionamiento interno de un Dell destrozado",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/10/19/museum-exhibit-reveals-the-intricate-workings-of-a-knackered-dell/5303250",
-      "fecha": "19-10-2026"
-    },
-    {
-      "titulo": "ICANN promete trabajar más rápido y ser más transparente",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/networks/2026/10/19/icann-vows-to-work-faster-improve-transparency/5303751",
-      "fecha": "19-10-2026"
-    },
-    {
-      "titulo": "Aldi traerá a sus tiendas la semana que viene una radio de emergencia con linterna SOS y batería para recargar el móvil",
+      "titulo": "El mercado de la ciberseguridad sufrió un desplome del 26% en EEUU. Una especialidad fue a contracorriente: creció un 268%",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/aldi-traera-a-sus-tiendas-semana-que-viene-radio-emergencia-linterna-sos-bateria-para-recargar-movil",
+      "enlace": "https://www.xataka.com/empresas-y-economia/mercado-ciberseguridad-sufrio-desplome-26-eeuu-especialidad-fue-a-contracorriente-crecio-268",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Estaba cansado de tener varios cargadores por casa; ahora unifico todo en una única base de carga y me ha cambiado la vida",
+      "titulo": "Dos servicios de Movistar GRATIS que no conoce mucha gente",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/clientes-movistar-servicios-0-euros/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Ray Fernando, exingeniero de Apple: \"CUDA es la única cosa que hace que me fije en un portátil Windows, sobre el papel es un sí\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/ray-fernando-exingeniero-apple-cuda-es-unica-cosa-que-hace-que-me-fije-un-portatil-windows-sobre-papel-es-un-si_7050472_0.html",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Alemania tardó 45 años en atreverse a rodar una película bélica como ésta y ahora puedes verla en Prime Video",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/cine-y-tv/alemania-tardo-45-anos-atreverse-a-rodar-pelicula-belica-como-esta-puedes-verla-prime-video",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Apple anuncia otro evento y todo apunta a un cambio histórico en el MacBook Pro",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/brands/base-carga-ugreen/",
+      "enlace": "https://hipertextual.com/apple/apple-evento-pro-and-tell-macbook-pro-pantalla-tactil-octubre-2026/",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Meteored avisa de tormentas fuertes hoy en estas cuatro comunidades: se esperan 30 litros en una hora",
+      "titulo": "La Séptima confirma más colaboradores y lo que podrás ver desde su debut el 5 de noviembre: «El directo es la nueva televisión»",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/ciencia/meteored-alerta-tormentas-espana/",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/septima-colaboradores-debut-noviembre/",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "El experto en tecnología Elías Rodríguez recomienda activar esta protección en tu móvil Android contra el espionaje",
+      "titulo": "Compra un procesador AMD Ryzen y descubre una estafa tan elaborada que cuesta creerla",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/experto-tecnologia-elias-rodriguez-recomienda-activar-esta-proteccion-tu-movil-android-contra-espionaje_7049824_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/compra-un-procesador-amd-ryzen-descubre-una-estafa-tan-elaborada-que-cuesta-creerla_7050575_0.html",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Las consolas de ahora se encarecen por la RAM, pero Sonic iba como un tiro hace 35 años en una Mega Drive con 64 KB",
+      "titulo": "La luz subió en septiembre y dos tercios del aumento tienen una explicación: los servicios de ajuste de Red Eléctrica",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/consolas-ahora-se-encarecen-ram-sonic-iba-como-tiro-hace-35-anos-mega-drive-64-kb",
+      "enlace": "https://www.xataka.com/energia/luz-subio-septiembre-dos-tercios-aumento-tienen-explicacion-servicios-ajuste-red-electrica",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "7 plazas, 775 CV, 100% eléctrico y que carga casi igual de rápido que un gasolina: así es el BYD Atto 8",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/movilidad/byd-atto-8/",
-      "fecha": "19-10-2026"
-    },
-    {
-      "titulo": "Ya puedes comprar un iPhone reacondicionado en O2: son certificados por Apple y tienen dos años de garantía",
+      "titulo": "Netflix firma la alianza más inesperada con Ibai Llanos: emitirán La velada del año en exclusiva y en directo",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/iphone-reacondicionado-o2-certificado-apple-garantia/",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/netflix-ibai-velada-ano-exclusiva-directo-acuerdo/",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Shaked Biner, experto en ciberseguridad, alerta: \"Esta extensión de Chrome podía dejar tus conversaciones de WhatsApp al descubierto\"",
+      "titulo": "Apple anuncia un evento para el 28 de octubre: los MacBook Pro con pantalla táctil están cada vez más cerca",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/shaked-biner-experto-ciberseguridad-alerta-esta-extension-chrome-podia-dejar-tus-conversaciones-whatsapp-descubierto_7049629_0.html",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/apple-anuncia-un-evento-para-28-octubre-los-macbook-pro-con-pantalla-tactil-estan-cada-vez-mas-cerca_7050754_0.html",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "La Unión Europa cambia las normas en 2027: los países tendrán que ajustarse a un nuevo límite máximo para los pagos en efectivo",
+      "titulo": "Apple anuncia una presentación para el 28 de octubre y todas las miradas apuntan a los nuevos MacBook Pro con pantalla táctil",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/legislacion-y-derechos/union-europa-cambia-normas-2027-paises-tendran-que-ajustarse-a-nuevo-limite-maximo-para-pagos-efectivo",
+      "enlace": "https://www.xataka.com/eventos/apple-anuncia-presentacion-para-28-octubre-todas-miradas-apuntan-a-nuevos-macbook-pro",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Pagas 20 euros por los 2.000 megas de DIGI, pero su contrato fija un mínimo de 1.600 megas: ¿puedes reclamar?",
+      "titulo": "¿Tienes un reloj Casio? Así le cambias la hora este domingo 25 de octubre, tenga tres o cuatro botones",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/digi-fibra-2000-megas-velocidad-minima-reclamar/",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/cambiar-hora-reloj-casio-horario-invierno/",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "La superconductividad acaba de revelar un secreto que llevaba años oculto: \"Son el vestigio que queda una vez que la fase en sí ha desaparecido\"",
+      "titulo": "Un usuario harto de Windows 11 crea una app gratuita para evitar que tu pantalla OLED se queme",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciencia/superconductividad-acaba-revelar-un-secreto-que-llevaba-anos-oculto-son-vestigio-que-queda-una-vez-que-fase-si-ha-desaparecido_7050294_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/un-usuario-harto-windows-11-crea-una-app-gratuita-para-evitar-que-tu-pantalla-oled-se-queme_7050576_0.html",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "A precio de outlet en Carrefour esta enorme tele Samsung MiniLED de 75 pulgadas con Tizen y perfecta para salones iluminados",
+      "titulo": "Telefónica, Deutsche Telekom, Orange y Vodafone quieren unirse para crear una alternativa a Starlink en Europa",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/a-precio-outlet-carrefour-esta-enorme-tele-samsung-miniled-75-pulgadas-tizen-perfecta-para-salones-iluminados",
-      "fecha": "19-10-2026"
-    },
-    {
-      "titulo": "La app de Android Auto para ver YouTube y Plex en el coche se actualiza con un nuevo diseño y más funciones",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/xtream-player-android-auto-actualizacion/",
-      "fecha": "19-10-2026"
-    },
-    {
-      "titulo": "Así funciona el bloqueo obligatorio de llamadas SPAM por ley que se acaba de activar en España en DIGI, Movistar, Vodafone y resto de operadoras",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/asi-funciona-bloqueo-obligatorio-llamadas-spam-por-ley-que-se-acaba-activar-espana-digi-movistar-vodafone-resto-operadoras_7050280_0.html",
-      "fecha": "19-10-2026"
-    },
-    {
-      "titulo": "Se vende una isla con castillo a una hora de Madrid: 11 dormitorios y los mismos baños, usa paneles solares y a veces se puede llegar en coche",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/se-vende-isla-castillo-a-hora-madrid-tiene-siete-habitaciones-vive-paneles-solares-cuando-baja-embalse-se-llega-coche",
-      "fecha": "19-10-2026"
-    },
-    {
-      "titulo": "Trade Republic quiere evitar que te equivoques al hacer una transferencia con esta nueva función",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/fintech/trade-republic-escanear-facturas-transferencias/",
+      "enlace": "https://www.xataka.com/empresas-y-economia/telefonica-deutsche-telekom-orange-vodafone-quieren-unirse-para-crear-alternativa-a-starlink-europa",
       "fecha": "19-10-2026"
     }
   ]
