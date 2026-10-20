@@ -3,6 +3,125 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Muse, el agente de IA de Meta, expone secretos personales y empresariales al compartir conversaciones",
+      "fuente": "Ars Technica",
+      "fecha": "20-10-2026 14:33",
+      "enlace": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "El Army Cyber Command prepara ECHOTRIBBLE, agentes de IA que se propagan solos como ciberarmas",
+      "fuente": "The Decoder",
+      "fecha": "20-10-2026 14:32",
+      "enlace": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "Eka vale 1.450 millones de dólares gracias a un modelo de IA física que entusiasma a los expertos",
+      "fuente": "TechCrunch",
+      "fecha": "20-10-2026 15:00",
+      "enlace": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "Spotify ha retirado de sus recomendaciones 50 millones de canciones basura generadas con IA",
+      "fuente": "The Verge",
+      "fecha": "20-10-2026 16:18",
+      "enlace": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "Un ingeniero de Meta mejora con Claude Code la propuesta de Linus Torvalds para el kernel de Linux",
+      "fuente": "ComputerHoy",
+      "fecha": "20-10-2026 10:53",
+      "enlace": "https://computerhoy.20minutos.es/software/kiryl-shutsemau-ingeniero-meta-consigue-mejorar-codigo-ia-creado-por-linus-torvalds-para-kernel-linux_7050824_0.html",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "Clairic, de Cloudflare, extrae datos de documentos más rápido y barato que los LLM",
+      "fuente": "The Decoder",
+      "fecha": "20-10-2026 14:04",
+      "enlace": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms/",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "El regulador financiero británico quiere que las empresas notifiquen fallos de IA y casi incidentes",
+      "fuente": "The Register",
+      "fecha": "20-10-2026 11:57",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/20/uk-finance-watchdog-wants-firms-to-report-ai-failures-and-close-calls/5304078",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "El cofundador de Figma, Dylan Field, cree que MCP no es un protocolo perfecto",
+      "fuente": "TechCrunch",
+      "fecha": "20-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "HPE llevará IA a la Luna con el Spaceborne Computer 4 a bordo del rover FLIP de Astrolab",
+      "fuente": "The Register",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.theregister.com/science/2026/10/20/hpe-spaceborne-computer-4-to-launch-ai-straight-to-the-moon-aboard-astrolabs-flip-rover/5303983",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "Lightroom para móvil ya puede abrir los ojos cerrados en las fotos con un toque",
+      "fuente": "The Verge",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "Otter.ai capta 320 millones de dólares del fondo de crecimiento de General Catalyst para su herramienta de reuniones",
+      "fuente": "TechCrunch",
+      "fecha": "20-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "Yelp ya puede llamar por ti para consultar los tiempos de espera de un restaurante",
+      "fuente": "TechCrunch",
+      "fecha": "20-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "Google DeepMind presume de haber batido a Minecraft con agentes controlados por Gemini 4 Argon en apenas 27 horas",
+      "fuente": "Xataka",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.xataka.com/videojuegos/google-deepmind-presume-haber-batido-a-minecraft-agentes-controlados-gemini-4-argon-apenas-27-horas",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "TV Detox, la app gratis elimina la obsolescencia programada de tu Smart TV: \"Claude hace el trabajo, tú solo tienes que pulsar OK en el mando a distancia\"",
+      "fuente": "ComputerHoy",
+      "fecha": "20-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/tv-detox-app-gratis-elimina-obsolescencia-programada-tu-smart-tv-claude-hace-trabajo-tu-solo-tienes-que-pulsar-ok-mando-distancia_7050469_0.html",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "Elon Musk y Anthropic discrepan sobre cómo repartir la riqueza generada por la IA",
+      "fuente": "Xataka",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/elon-musk-anthropic-discrepan-como-repartir-riqueza-generada-ia",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "Entre expandir sus modelos de IA por todo el mundo o protegerlos, China tiene muy clara su decisión",
+      "fuente": "Xataka",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/china-quiere-proteger-sus-modelos-ia-eso-frene-su-expansion-internacional",
+      "turno": "2026-10-20_T"
+    },
+    {
+      "titulo": "La última sensación viral de la IA es eliminar anuncios y bloatware de las Smart TV: he \"tontificado\" mi Chromecast y es maravilloso",
+      "fuente": "Xataka",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.xataka.com/televisores/ultima-sensacion-viral-ia-eliminar-anuncios-bloatware-smart-tv-he-tontificado-mi-chromecast-maravilloso",
+      "turno": "2026-10-20_T"
+    },
+    {
       "titulo": "EE. UU. prohíbe DeepSeek en todas las agencias civiles federales",
       "fuente": "The Register",
       "fecha": "20-10-2026 02:11",

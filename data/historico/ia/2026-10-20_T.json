@@ -1,0 +1,117 @@
+{
+  "seccion": "ia",
+  "actualizado": "20-10-2026 17:11",
+  "destacadas": [
+    {
+      "titulo": "Muse, el agente de IA de Meta, expone secretos personales y empresariales al compartir conversaciones",
+      "resumen": "Investigadores de Claroc enumeraron 6.800 enlaces de conversaciones compartidas de Muse, porque todos usan el mismo dominio y llevan el título de la conversación en la URL, lo que los deja registrados en bases de DNS pasivo. Tras abrir unos cientos hallaron información claramente privada. Meta ha suspendido la función de compartir mientras revisa el informe.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "fecha": "20-10-2026 14:33"
+    },
+    {
+      "titulo": "El Army Cyber Command prepara ECHOTRIBBLE, agentes de IA que se propagan solos como ciberarmas",
+      "resumen": "Según documentos que The Intercept obtuvo el 19 de octubre, ARCYBER desarrolla una plataforma para convertir agentes de IA en armas autónomas que se propagan como un gusano, incluso en sistemas sin conexión, y se autodestruyen al terminar. Una presentación del 24 de junio mostró versiones para iPad, Apple y Windows 11. Varios expertos advierten de daños colaterales difíciles de controlar.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/",
+      "fecha": "20-10-2026 14:32"
+    },
+    {
+      "titulo": "Eka vale 1.450 millones de dólares gracias a un modelo de IA física que entusiasma a los expertos",
+      "resumen": "Eka Robotics, cofundada por Pulkit Agrawal (MIT) y Tuomas Haarnoja (ex Google DeepMind), cerró una Serie A de 150 millones liderada por a16z y F-Prime. Su robot manipula unos 1.500 objetos por hora, frente a unos 600 de una persona, con más del 95 % de fiabilidad, y su pinza cuesta menos de 1.000 dólares. Hace pilotos confidenciales con clientes industriales.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+      "fecha": "20-10-2026 15:00"
+    },
+    {
+      "titulo": "Spotify ha retirado de sus recomendaciones 50 millones de canciones basura generadas con IA",
+      "resumen": "Spotify afirma que en el último año sacó de las recomendaciones más de 50 millones de temas considerados «slop» o spam de IA y ha ajustado el sistema para destacar música de artistas humanos. Ha creado una insignia «AI Persona» para identidades de IA, que no recomienda, pero no exige etiquetar todas las pistas de IA. Además, con Universal Music Group y Believe lanzará una herramienta de remezclas con IA.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+      "fecha": "20-10-2026 16:18"
+    },
+    {
+      "titulo": "Un ingeniero de Meta mejora con Claude Code la propuesta de Linus Torvalds para el kernel de Linux",
+      "resumen": "Kiryl Shutsemau publicó 18 parches que reelaboran el RFC de Torvalds sobre la caché de páginas, con los que filemap_read() y shmem copian sin tomar referencia sobre el folio. Con ello las lecturas pasan de 17,2 a unos 220 millones por segundo, unas 13 veces más. Solo los folios con lecturas repetidas se liberan tras un período de gracia de RCU, así que la memoria retenida sigue siendo pequeña.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/kiryl-shutsemau-ingeniero-meta-consigue-mejorar-codigo-ia-creado-por-linus-torvalds-para-kernel-linux_7050824_0.html",
+      "fecha": "20-10-2026 10:53"
+    },
+    {
+      "titulo": "Clairic, de Cloudflare, extrae datos de documentos más rápido y barato que los LLM",
+      "resumen": "Cloudflare presentó Clairic en vista previa en Workers AI, con pesos abiertos próximamente: se indican los campos deseados (número de pedido, total de factura) y devuelve valores con puntuación de confianza, o null si faltan. En una cadena con Clef y GLM-5.3 tarda 19,3 segundos frente a 61,7 s de GLM-5.3 solo, con casi la mitad de coste. Aún no maneja bien cálculos largos.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms/",
+      "fecha": "20-10-2026 14:04"
+    },
+    {
+      "titulo": "El regulador financiero británico quiere que las empresas notifiquen fallos de IA y casi incidentes",
+      "resumen": "Jessica Rusu, de la FCA, defendió que las normas de reporte de incidentes se extiendan a la IA en el sector financiero, que aportó 223.600 millones de libras en 2025, el 8 % de la producción nacional. Steven Adler propone copiar a la aviación, con notificación obligatoria de casi accidentes. El Gobierno aún no ha incluido medidas de IA en su proyecto de ley de ciberseguridad.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/20/uk-finance-watchdog-wants-firms-to-report-ai-failures-and-close-calls/5304078",
+      "fecha": "20-10-2026 11:57"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "El cofundador de Figma, Dylan Field, cree que MCP no es un protocolo perfecto",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "HPE llevará IA a la Luna con el Spaceborne Computer 4 a bordo del rover FLIP de Astrolab",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/science/2026/10/20/hpe-spaceborne-computer-4-to-launch-ai-straight-to-the-moon-aboard-astrolabs-flip-rover/5303983",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "Lightroom para móvil ya puede abrir los ojos cerrados en las fotos con un toque",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "Otter.ai capta 320 millones de dólares del fondo de crecimiento de General Catalyst para su herramienta de reuniones",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "Yelp ya puede llamar por ti para consultar los tiempos de espera de un restaurante",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "Google DeepMind presume de haber batido a Minecraft con agentes controlados por Gemini 4 Argon en apenas 27 horas",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/google-deepmind-presume-haber-batido-a-minecraft-agentes-controlados-gemini-4-argon-apenas-27-horas",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "TV Detox, la app gratis elimina la obsolescencia programada de tu Smart TV: \"Claude hace el trabajo, tú solo tienes que pulsar OK en el mando a distancia\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/tv-detox-app-gratis-elimina-obsolescencia-programada-tu-smart-tv-claude-hace-trabajo-tu-solo-tienes-que-pulsar-ok-mando-distancia_7050469_0.html",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "Elon Musk y Anthropic discrepan sobre cómo repartir la riqueza generada por la IA",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/elon-musk-anthropic-discrepan-como-repartir-riqueza-generada-ia",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "Entre expandir sus modelos de IA por todo el mundo o protegerlos, China tiene muy clara su decisión",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/china-quiere-proteger-sus-modelos-ia-eso-frene-su-expansion-internacional",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "La última sensación viral de la IA es eliminar anuncios y bloatware de las Smart TV: he \"tontificado\" mi Chromecast y es maravilloso",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/televisores/ultima-sensacion-viral-ia-eliminar-anuncios-bloatware-smart-tv-he-tontificado-mi-chromecast-maravilloso",
+      "fecha": "20-10-2026"
+    }
+  ]
+}
