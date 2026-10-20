@@ -1,98 +1,146 @@
 {
   "seccion": "ia",
-  "actualizado": "19-10-2026 17:15",
+  "actualizado": "20-10-2026 05:09",
   "destacadas": [
     {
-      "titulo": "Anthropic propone que el Gobierno solo pueda frenar un modelo si amenaza a más de 50 personas o causa más de 1.000 millones en daños",
-      "resumen": "Según Politico, Anthropic ha presentado en el Congreso un borrador de ley de seguridad para modelos avanzados. Comercio solo podría pedir a un juez federal que detenga un lanzamiento ante un riesgo «previsible e inminente» de armas biológicas, evasión de controles o ciberataques. Evaluadores independientes tendrían 72 horas para notificar el riesgo, y Anthropic aún no respalda formalmente ningún proyecto concreto.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/50-muertos-1-000-millones-dolares-danos-liston-que-anthropic-quiere-fijar-gobierno-pueda-frenar-modelo-ia",
-      "fecha": "19-10-2026 14:47"
-    },
-    {
-      "titulo": "Un hacker entra en John Deere y SharkNinja con un ejército de agentes de IA",
-      "resumen": "La firma de seguridad Norforge descubrió que un atacante vulneró más de 100 webs con agentes de IA que actuaban casi solos mediante Cairn, una plataforma de código abierto. Según Reuters, entre las víctimas están John Deere, SharkNinja y Cummins, y cada intrusión llevaba unas 23 horas. Norforge halló más de 20 instancias de Cairn expuestas y «probablemente maliciosas».",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-      "fecha": "19-10-2026 15:58"
-    },
-    {
-      "titulo": "Disney compró Character.AI sin quedarse con sus demandas",
-      "resumen": "Los documentos judiciales muestran que la quiebra de Character.AI, declarada el 12 de octubre, era parte del pacto con Disney, que ya contrató a la mayoría de la plantilla, incluido el CEO, tras pagar 5,5 millones de dólares. Disney aspira a una licencia perpetua sobre el código y otras tecnologías de la empresa, que se subastará, y pagaría otros 12,5 millones al cierre. Character.AI conservaría la responsabilidad de sus litigios por seguridad de los chatbots.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
-      "fecha": "19-10-2026 16:45"
-    },
-    {
-      "titulo": "Microsoft abandona su supercomputador de IA en Reino Unido porque la red eléctrica no da abasto",
-      "resumen": "Microsoft canceló su acuerdo con Nscale para un centro de datos en Loughton (Essex), previsto para 2027 con 23.040 GPU Nvidia GB300 y 50 MW, según The Telegraph. La red podría no ofrecer suficiente electricidad hasta mediados de los años 2030. La demanda de nuevas conexiones pasó de 41 a 125 GW en menos de un año, y al menos 80 GW son centros de datos.",
+      "titulo": "EE. UU. prohíbe DeepSeek en todas las agencias civiles federales",
+      "resumen": "El Departamento de Seguridad Nacional ordenó el 19 de octubre que las agencias civiles federales dejen de usar productos de DeepSeek y de empresas afiliadas, y retiren los ya desplegados, incluidos servicios de terceros «desarrollados con» sus modelos. Expertos como Katie Moussouris critican que la expresión es ambigua y que afecta incluso a versiones alojadas en EE. UU. o accesibles vía pasarelas como OpenRouter y Vercel AI Gateway.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/on-prem/2026/10/19/microsoft-abandons-uk-ai-supercomputer-as-grid-struggles-to-keep-up/5303824",
-      "fecha": "19-10-2026 14:15"
+      "enlace": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
+      "fecha": "20-10-2026 02:11"
     },
     {
-      "titulo": "Stripe dice que las compras de agentes de IA ya suman, pero no da cifras",
-      "resumen": "En septiembre, las transacciones de agentes en Link, el servicio de pagos de Stripe, se multiplicaron por 38 y el volumen de pagos por 20, sin revelar valores absolutos. Los agentes pasaron de unos 70 a cerca de 200 y la mayoría gasta alrededor de 100 dólares por compra. El comercio minorista supone el 36 % de las transacciones y los viajes el 28 % del volumen.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/",
-      "fecha": "19-10-2026 14:51"
+      "titulo": "Nscale y Anthropic negocian otro acuerdo de computación de 45.000 millones de dólares",
+      "resumen": "Según Bloomberg, ambas empresas están cerca de anunciar un nuevo pacto de 45.000 millones, apenas un mes después de otro de igual cuantía. Anthropic encadena grandes acuerdos de cómputo pese a los temores de los inversores sobre el gasto, mientras Nscale, que busca salir a bolsa, afronta resistencia por su valoración propuesta de 30.000 millones.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "fecha": "20-10-2026 01:39"
     },
     {
-      "titulo": "Investigadores dejan a Claude en una isla desierta virtual y empieza a «jugar»",
-      "resumen": "Copias de Claude Opus 4.7 pasaron 30 horas aisladas en una isla virtual inspirada en Roblox, e inventaron juegos propios y dibujaron figuras con bloques, como la constelación de Casiopeia. Un agente anuló su récord de 50 capturas seguidas por considerarlo demasiado fácil y volvió a empezar con reglas más estrictas. El estudio del MIT no está revisado por pares y una investigadora de Berkeley duda de que sea juego real.",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-      "fecha": "19-10-2026 11:08"
+      "titulo": "Microsoft compara a los agentes de IA con amenazas internas: «los modelos de frontera no son de fiar»",
+      "resumen": "Microsoft presentó Guardian Agents, parte de Project Perception, y amplió Defender para detectar hasta 60 tipos de agentes, entre ellos Claude Code y Codex, limitando sus permisos y exigiendo aprobación humana en decisiones de riesgo. Hayete Gallot afirma que el problema no es la malicia sino la imprevisibilidad, y Microsoft se une a la Open Agent Safety Platform de Nvidia.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "fecha": "20-10-2026 00:04"
     },
     {
-      "titulo": "Susan Li, CFO de Meta: «Si Muse no funciona, las cosas van a ir realmente mal»",
-      "resumen": "Meta presentó el 12 de octubre Muse Wonder y Muse Wonder Full, desarrollados por el equipo de Alexandr Wang, fichado por 14.300 millones de dólares. En el índice de Artificial Analysis, Muse logra 56 puntos frente a los 58 de Claude Opus 5.5. Los ingresos del segundo trimestre subieron un 28 %, pero el flujo de caja libre cayó un 91 %, y los resultados del tercero llegan el 21 de octubre.",
+      "titulo": "China quiere que su IA conquiste el mundo, pero no que toda su tecnología salga del país: controles para 40 tecnologías clave",
+      "resumen": "Los ministerios de Comercio y de Ciencia y Tecnología propusieron el 16 de octubre añadir 40 tecnologías al catálogo de exportación restringida: 23 de IA, 5 de biomedicina y 12 fotovoltaicas; 14 quedarían prohibidas y 26 requerirían licencia. Entre ellas, agentes autónomos y modelos de al menos dos billones de parámetros; el acceso por web, API o nube no cuenta como exportación. La consulta pública termina el 15 de noviembre.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/susan-li-cfo-meta-futuro-compania-ia-muse-no-funciona-cosas-van-a-ir-realmente-mal",
-      "fecha": "19-10-2026 14:31"
+      "enlace": "https://www.xataka.com/robotica-e-ia/china-quiere-que-su-ia-conquiste-mundo-no-que-toda-su-tecnologia-salga-pais-controles-para-40-tecnologias-clave",
+      "fecha": "19-10-2026 22:31"
+    },
+    {
+      "titulo": "El supuesto espía de OpenAI tenía una carpeta llamada «Saudi Gov Docs», según el FBI",
+      "resumen": "Un juez mantuvo en prisión a Abdulrahman Alfozan, exingeniero de OpenAI acusado de colocar micrófonos en salas de reuniones, entre ellas una usada con funcionarios del Gobierno. La fiscalía aporta mensajes de WhatsApp con un miembro de la familia real saudí, billetes de ida a Riad pagados por el Gobierno saudí y el uso de un agente de OpenAI para investigar qué salas espiar; solo se le imputa por ahora una pena máxima de cinco años.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "fecha": "19-10-2026 22:21"
+    },
+    {
+      "titulo": "MiniMax M3.1 Flash muestra que la guerra de precios de la IA china no tiene suelo",
+      "resumen": "El nuevo modelo de razonamiento saca 42 puntos en el índice de Artificial Analysis (13 más que M3), supera a Gemini 3.8 Flash y cuesta unos 0,22 dólares por tarea frente a 0,26 de DeepSeek. Su API cuesta 0,15 dólares por millón de tokens de entrada y 0,60 de salida; sus pesos abiertos saldrán el 23 de octubre, aunque su tasa de alucinación es del 93 %.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
+      "fecha": "19-10-2026 20:22"
+    },
+    {
+      "titulo": "La deuda de CoreWeave se convierte en problema de toda la industria de la IA",
+      "resumen": "Los bonos de CoreWeave entraron en territorio de deuda en dificultades y sus acciones caen más de un 20 % en una semana, con Oracle cediendo casi un 10 %. Debe más de 35.000 millones y perdió más de 1.000 millones en el primer semestre, aunque sus obligaciones de rendimiento pendientes suman 103.700 millones, con Microsoft, OpenAI y probablemente Nvidia como grandes clientes.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+      "fecha": "19-10-2026 23:28"
     }
   ],
   "titulares": [
     {
-      "titulo": "JB Pritzker cree que la IA podría ayudarnos a vivir 100 años o amenazarnos como las armas nucleares",
+      "titulo": "Mamdani dice que el Gobierno federal ha abdicado en la IA y pide a los neoyorquinos que presionen",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "El regreso de los combustibles fósiles ya está aquí, empujado por los centros de datos",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+      "enlace": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Los demócratas creen que endurecer la regulación de la IA puede darles ventaja electoral",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
+      "titulo": "Amazon lanza su mayor ataque contra Nvidia con la herramienta para desarrolladores TorchNeuron",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Llega la criba de los «neoclouds» y Nvidia es quien más tiene que perder",
+      "titulo": "Hackers atacan la herramienta de programación con IA OpenCode y disparan los cargos en las cuentas de IA de los usuarios",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Tenstorrent alcanza una valoración de 6.200 millones para escalar sus chips de IA de pesos abiertos",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Los parches de seguridad necesitan parches ahora que los atacantes tienen IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/patches/2026/10/19/security-patches-need-patches-now-that-attackers-have-ai/5303927",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Mejorar internet para los agentes de IA puede empeorarlo para todos los demás",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "«Lo estábamos mirando mal»: la afirmación explosiva que ha puesto patas arriba el mundo de la IA",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Kling AI lanza la versión 4.0 con audio estéreo, sincronización labial multilingüe y una variante Flash más ligera",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/",
+      "enlace": "https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant/",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Anthropic planea un fondo para trabajadores amenazados por la IA y Musk responde con acciones de SpaceX para niños",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children/",
+      "titulo": "Las páginas de ayuda de WhatsApp filtraron instrucciones ocultas de un chatbot de Meta",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Amazon se ha convertido en el mejor ejemplo del impacto de la IA en el empleo: ni se crea ni se destruye, se desplaza",
+      "titulo": "Nvidia lanza nuevos modelos abiertos para ejecutar agentes en la empresa y en PC",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Un perro-robot guiado por IA ya está patrullando los viñedos de Extremadura",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/amazon-se-ha-convertido-mejor-ejemplo-impacto-ia-empleo-se-crea-se-destruye-se-desplaza",
+      "enlace": "https://www.xataka.com/robotica-e-ia/perro-robot-ia-patrulla-cultivos-extremadura-su-mision-ponerle-patas-a-agricultura-precision",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Microsoft lanza cambios en Copilot para el 1 de diciembre de 2026: se podrá detener la IA si algo sale mal",
+      "titulo": "Adiós a las demos de videojuegos, los programadores comienzan a retirarlas por miedo a la IA: \"Tardaron 5 horas en lanzar una copia\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-lanza-cambios-copilot-1-diciembre-2026-podra-detener-ia-si-algo-mal_7049579_0.html",
+      "enlace": "https://computerhoy.20minutos.es/gaming/adios-las-demos-videojuegos-los-programadores-comienzan-retirarlas-por-miedo-ia-tardaron-5-horas-lanzar-una-copia_7050471_0.html",
       "fecha": "19-10-2026"
     },
     {
-      "titulo": "Dell inaugura la era de la IA agéntica con el nuevo XPS 16 Creator Edition y los superchips NVIDIA RTX Spark",
+      "titulo": "Gemini 4 logra lo imposible y termina ‘Minecraft’ sin ayuda humana",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-4-argon-vence-minecraft-sin-ayuda-humana/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "La nueva frontera de la IA es intentar predecir a los humanos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/dell-inaugura-era-ia-agentica-nuevo-xps-16-creator-edition-superchips-nvidia-rtx-spark",
+      "enlace": "https://www.xataka.com/robotica-e-ia/nueva-frontera-ia-intentar-predecir-a-humanos",
       "fecha": "19-10-2026"
     }
   ]

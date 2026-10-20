@@ -1,0 +1,147 @@
+{
+  "seccion": "ia",
+  "actualizado": "20-10-2026 05:09",
+  "destacadas": [
+    {
+      "titulo": "EE. UU. prohíbe DeepSeek en todas las agencias civiles federales",
+      "resumen": "El Departamento de Seguridad Nacional ordenó el 19 de octubre que las agencias civiles federales dejen de usar productos de DeepSeek y de empresas afiliadas, y retiren los ya desplegados, incluidos servicios de terceros «desarrollados con» sus modelos. Expertos como Katie Moussouris critican que la expresión es ambigua y que afecta incluso a versiones alojadas en EE. UU. o accesibles vía pasarelas como OpenRouter y Vercel AI Gateway.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
+      "fecha": "20-10-2026 02:11"
+    },
+    {
+      "titulo": "Nscale y Anthropic negocian otro acuerdo de computación de 45.000 millones de dólares",
+      "resumen": "Según Bloomberg, ambas empresas están cerca de anunciar un nuevo pacto de 45.000 millones, apenas un mes después de otro de igual cuantía. Anthropic encadena grandes acuerdos de cómputo pese a los temores de los inversores sobre el gasto, mientras Nscale, que busca salir a bolsa, afronta resistencia por su valoración propuesta de 30.000 millones.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "fecha": "20-10-2026 01:39"
+    },
+    {
+      "titulo": "Microsoft compara a los agentes de IA con amenazas internas: «los modelos de frontera no son de fiar»",
+      "resumen": "Microsoft presentó Guardian Agents, parte de Project Perception, y amplió Defender para detectar hasta 60 tipos de agentes, entre ellos Claude Code y Codex, limitando sus permisos y exigiendo aprobación humana en decisiones de riesgo. Hayete Gallot afirma que el problema no es la malicia sino la imprevisibilidad, y Microsoft se une a la Open Agent Safety Platform de Nvidia.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "fecha": "20-10-2026 00:04"
+    },
+    {
+      "titulo": "China quiere que su IA conquiste el mundo, pero no que toda su tecnología salga del país: controles para 40 tecnologías clave",
+      "resumen": "Los ministerios de Comercio y de Ciencia y Tecnología propusieron el 16 de octubre añadir 40 tecnologías al catálogo de exportación restringida: 23 de IA, 5 de biomedicina y 12 fotovoltaicas; 14 quedarían prohibidas y 26 requerirían licencia. Entre ellas, agentes autónomos y modelos de al menos dos billones de parámetros; el acceso por web, API o nube no cuenta como exportación. La consulta pública termina el 15 de noviembre.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/china-quiere-que-su-ia-conquiste-mundo-no-que-toda-su-tecnologia-salga-pais-controles-para-40-tecnologias-clave",
+      "fecha": "19-10-2026 22:31"
+    },
+    {
+      "titulo": "El supuesto espía de OpenAI tenía una carpeta llamada «Saudi Gov Docs», según el FBI",
+      "resumen": "Un juez mantuvo en prisión a Abdulrahman Alfozan, exingeniero de OpenAI acusado de colocar micrófonos en salas de reuniones, entre ellas una usada con funcionarios del Gobierno. La fiscalía aporta mensajes de WhatsApp con un miembro de la familia real saudí, billetes de ida a Riad pagados por el Gobierno saudí y el uso de un agente de OpenAI para investigar qué salas espiar; solo se le imputa por ahora una pena máxima de cinco años.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "fecha": "19-10-2026 22:21"
+    },
+    {
+      "titulo": "MiniMax M3.1 Flash muestra que la guerra de precios de la IA china no tiene suelo",
+      "resumen": "El nuevo modelo de razonamiento saca 42 puntos en el índice de Artificial Analysis (13 más que M3), supera a Gemini 3.8 Flash y cuesta unos 0,22 dólares por tarea frente a 0,26 de DeepSeek. Su API cuesta 0,15 dólares por millón de tokens de entrada y 0,60 de salida; sus pesos abiertos saldrán el 23 de octubre, aunque su tasa de alucinación es del 93 %.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
+      "fecha": "19-10-2026 20:22"
+    },
+    {
+      "titulo": "La deuda de CoreWeave se convierte en problema de toda la industria de la IA",
+      "resumen": "Los bonos de CoreWeave entraron en territorio de deuda en dificultades y sus acciones caen más de un 20 % en una semana, con Oracle cediendo casi un 10 %. Debe más de 35.000 millones y perdió más de 1.000 millones en el primer semestre, aunque sus obligaciones de rendimiento pendientes suman 103.700 millones, con Microsoft, OpenAI y probablemente Nvidia como grandes clientes.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+      "fecha": "19-10-2026 23:28"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Mamdani dice que el Gobierno federal ha abdicado en la IA y pide a los neoyorquinos que presionen",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "fecha": "20-10-2026"
+    },
+    {
+      "titulo": "El regreso de los combustibles fósiles ya está aquí, empujado por los centros de datos",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Amazon lanza su mayor ataque contra Nvidia con la herramienta para desarrolladores TorchNeuron",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Hackers atacan la herramienta de programación con IA OpenCode y disparan los cargos en las cuentas de IA de los usuarios",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Tenstorrent alcanza una valoración de 6.200 millones para escalar sus chips de IA de pesos abiertos",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Los parches de seguridad necesitan parches ahora que los atacantes tienen IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/patches/2026/10/19/security-patches-need-patches-now-that-attackers-have-ai/5303927",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Mejorar internet para los agentes de IA puede empeorarlo para todos los demás",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "«Lo estábamos mirando mal»: la afirmación explosiva que ha puesto patas arriba el mundo de la IA",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Kling AI lanza la versión 4.0 con audio estéreo, sincronización labial multilingüe y una variante Flash más ligera",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Las páginas de ayuda de WhatsApp filtraron instrucciones ocultas de un chatbot de Meta",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Nvidia lanza nuevos modelos abiertos para ejecutar agentes en la empresa y en PC",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Un perro-robot guiado por IA ya está patrullando los viñedos de Extremadura",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/perro-robot-ia-patrulla-cultivos-extremadura-su-mision-ponerle-patas-a-agricultura-precision",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Adiós a las demos de videojuegos, los programadores comienzan a retirarlas por miedo a la IA: \"Tardaron 5 horas en lanzar una copia\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/adios-las-demos-videojuegos-los-programadores-comienzan-retirarlas-por-miedo-ia-tardaron-5-horas-lanzar-una-copia_7050471_0.html",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "Gemini 4 logra lo imposible y termina ‘Minecraft’ sin ayuda humana",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-4-argon-vence-minecraft-sin-ayuda-humana/",
+      "fecha": "19-10-2026"
+    },
+    {
+      "titulo": "La nueva frontera de la IA es intentar predecir a los humanos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/nueva-frontera-ia-intentar-predecir-a-humanos",
+      "fecha": "19-10-2026"
+    }
+  ]
+}
