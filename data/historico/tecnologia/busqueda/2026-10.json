@@ -3,6 +3,237 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Tesla y SpaceX forman comités especiales para estudiar una posible fusión",
+      "fuente": "The Verge",
+      "fecha": "20-10-2026 23:30",
+      "enlace": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Alerta mundial por ocho certificados TLS comprometidos de la autoridad india eMudhra",
+      "fuente": "Ars Technica",
+      "fecha": "20-10-2026 21:47",
+      "enlace": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "La próxima Xbox no será una sola consola: portátil en 2027 y Project Helix en 2028",
+      "fuente": "Hipertextual",
+      "fecha": "20-10-2026 23:58",
+      "enlace": "https://hipertextual.com/videojuegos/xbox-portatil-2027-consola-2028-project-helix/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Palo Alto: su cortafuegos PAN-OS sufre ataques de varios grupos de ransomware desde junio",
+      "fuente": "The Register",
+      "fecha": "20-10-2026 19:33",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Hackers habrían vulnerado el firmware 14.10 de PS5 antes del lanzamiento de GTA 6",
+      "fuente": "Engadget",
+      "fecha": "20-10-2026 23:30",
+      "enlace": "https://www.engadget.com/2292388/playstation-5-hackers-crack-gta-6-firmware/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Quantinuum logra corrección de errores cuánticos muy por encima del punto de equilibrio",
+      "fuente": "Ars Technica",
+      "fecha": "20-10-2026 20:08",
+      "enlace": "https://arstechnica.com/science/2026/10/quantum-error-correction-goes-well-beyond-breakeven/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Waymo prueba en Madrid su servicio de coches autónomos, que llegaría en 2027",
+      "fuente": "ComputerHoy",
+      "fecha": "20-10-2026 22:19",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/waymo-pone-rumbo-madrid-asi-prepara-su-desembarco-espana-con-coches-totalmente-autonomos_7051226_0.html",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Meta suspende compartir chats de Muse tras dejar al descubierto datos privados",
+      "fuente": "Engadget",
+      "fecha": "20-10-2026 22:00",
+      "enlace": "https://www.engadget.com/2292281/meta-suspends-muse-chats-sharing-feature-after-it-left-private-details-exposed/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Una startup de tecnología del motor afirma haber rastreado un intento de hackeo hasta la IP de un rival",
+      "fuente": "The Register",
+      "fecha": "21-10-2026",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/10/20/auto-tech-startup-claims-it-traced-hack-attempt-back-to-rivals-ip-address/5304281",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Decenas de miles de GPU Nvidia esperan ociosas en el supercúmulo Prometheus de Meta por si falla otra",
+      "fuente": "The Register",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.theregister.com/systems/2026/10/20/tens-of-thousands-of-nvidia-gpus-sit-idle-in-metas-prometheus-supercluster-just-waiting-for-a-failure/5304269",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Snap paga a Robert Downey Jr. para que haga de Iron Man con sus gafas Specs",
+      "fuente": "The Verge",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "JustWatch, la guía contra la fragmentación del streaming, lanza su propio servicio",
+      "fuente": "Ars Technica",
+      "fecha": "20-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "TikTok empieza a censurar las búsquedas de péptidos populares",
+      "fuente": "The Verge",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.theverge.com/science/1014825/peptide-tiktok-search-ban",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "OpenBSD 8.0 llega con su récord de seguridad intacto y soporte para gráficos Intel Arc",
+      "fuente": "Ars Technica",
+      "fecha": "20-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "TP-Link promete ensamblar routers en EE. UU. para contentar al Gobierno de Trump",
+      "fuente": "Ars Technica",
+      "fecha": "20-10-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/tp-link-tries-to-appease-trump-admin-with-pledge-to-assemble-routers-in-us/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "¿Cuánto durará tu Steam Deck original?",
+      "fuente": "Engadget",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.engadget.com/2289277/how-long-steam-deck-last-lifespan-support/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Los mantenedores de curl, desbordados, publican fallos menores para sobrevivir a la «avalancha» de vulnerabilidades",
+      "fuente": "The Register",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.theregister.com/security/2026/10/20/swamped-curl-maintainers-take-low-level-flaws-public-to-survive-vulnerability-avalanche/5304198",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "El DHS dijo que registró a un hombre que borró su móvil con GrapheneOS por material de abuso infantil. Mintió",
+      "fuente": "404 Media",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.404media.co/dhs-said-they-searched-man-who-wiped-grapheneos-phone-for-child-abuse-material-they-lied/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "openEuler lleva las ambiciones chinas de Linux empresarial al escritorio",
+      "fuente": "The Register",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/20/openeuler-brings-chinas-enterprise-linux-ambitions-to-the-desktop/5304145",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Las empresas gastan casi un tercio de su presupuesto de software en actualizaciones que no pidieron",
+      "fuente": "The Register",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.theregister.com/software/2026/10/20/enterprises-blow-nearly-a-third-of-software-budgets-on-upgrades-they-never-asked-for/5304181",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "A un conductor de BYD en China le pusieron un cepo y su solución fue conducir con la rueda en el aire",
+      "fuente": "Xataka",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.xataka.com/movilidad/a-conductor-byd-china-le-han-puesto-cepo-solucion-conducir-rueda-aire",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "YouTube quiere ponértelo más difícil para dar ‘No me gusta’ a un vídeo",
+      "fuente": "Hipertextual",
+      "fecha": "20-10-2026",
+      "enlace": "https://hipertextual.com/internet/youtube-prueba-con-ocultar-el-boton-no-me-gusta/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Movistar Plus prepara el estreno de cuatro canales en HD, pero uno es completamente nuevo",
+      "fuente": "ADSLZone",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-nuevos-canales-hd-1026/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "La Séptima confirma que podrás verla gratis en YouTube desde el 5 de noviembre sin antena de TDT ni televisión de pago",
+      "fuente": "ComputerHoy",
+      "fecha": "20-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-confirma-que-podras-verla-gratis-youtube-desde-5-noviembre-sin-antena-tdt-ni-television-pago_7051104_0.html",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Vuelve a Netflix el anime que lavó la cara y el prestigio de uno de los videojuegos más odiados de los últimos años",
+      "fuente": "Xataka",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.xataka.com/cine-y-tv/cyberpunk-edgerunners-t2",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "El Galaxy S27 traería pésimas noticias: Samsung recortaría la RAM de su próximo tope de gama",
+      "fuente": "Hipertextual",
+      "fecha": "20-10-2026",
+      "enlace": "https://hipertextual.com/mobile/el-galaxy-s27-podria-llegar-con-solo-8-gb-de-memoria-ram/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Orange aclara por qué el identificador de llamadas te cuesta dinero en el fijo y es gratis en el móvil",
+      "fuente": "ADSLZone",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/orange-aclara-identificador-llamadas-fijo-movil/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Desaparecen dos palés de NVIDIA RTX 5090 valorados en 400.000 euros y nadie sabe dónde están",
+      "fuente": "ComputerHoy",
+      "fecha": "20-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/desaparecen-dos-pales-nvidia-rtx-5090-valorados-400-000-euros-nadie-sabe-donde-estan_7051106_0.html",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Los \"palillos chinos\" de SpaceX tendrán copia china: Deep Blue Aerospace los quiere para su cohete Nebula-2",
+      "fuente": "Xataka",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.xataka.com/espacio/china-no-se-conforma-reutilizar-cohetes-quiere-hacerlo-truco-que-spacex",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Motorola desafía a Xiaomi: su próximo móvil tendrá una batería gigante y precio rompedor",
+      "fuente": "Hipertextual",
+      "fecha": "20-10-2026",
+      "enlace": "https://hipertextual.com/mobile/motorola-moto-g47-power-bateria-7000mah/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "El Gobierno estrena la web de las elecciones y mete la pata en lo más básico: «Cómo votar» te explica a hacerlo desde el extranjero",
+      "fuente": "ADSLZone",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/elecciones-2026-cortes-generales-web-extranjero-voto/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "\"Me muero por ser un icono campanil\": La Séptima ya tiene voluntaria para competir con Cristina Pedroche en las campanadas de fin de año en la TDT",
+      "fuente": "ComputerHoy",
+      "fecha": "20-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/me-muero-por-ser-un-icono-campanil-septima-ya-tiene-voluntaria-para-competir-con-cristina-pedroche-las-campanadas-fin-ano-tdt_7050995_0.html",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Que sea de código abierto es una de las claves de Internxt: una nube europea que almacena tus archivos de forma segura",
+      "fuente": "Xataka",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.xataka.com/seleccion/que-sea-codigo-abierto-claves-internxt-nube-europea-que-almacena-tus-archivos-forma-segura",
+      "turno": "2026-10-21_M"
+    },
+    {
       "titulo": "Una caída de Google Cloud en Londres arrastra a bancos y servicios británicos por un «evento de energía»",
       "fuente": "The Register",
       "fecha": "20-10-2026 14:49",
