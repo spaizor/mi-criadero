@@ -3,6 +3,146 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Anthropic propone una ley que permitiría bloquear un modelo de IA si pudiera causar más de 50 muertes",
+      "fuente": "TechCrunch",
+      "fecha": "21-10-2026 01:01",
+      "enlace": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "ChatGPT mejora mucho con COBOL y otros lenguajes antiguos: GPT-6 Astra pasa del 26,8 % al 87,4 % de éxito",
+      "fuente": "Hipertextual",
+      "fecha": "20-10-2026 21:39",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/chatgpt-programa-cobol-moderniza-aplicaciones-antiguas/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Un juez obliga a Meta a nombrar a los directivos que autorizaron el torrenting de libros para entrenar su IA",
+      "fuente": "Ars Technica",
+      "fecha": "20-10-2026 19:40",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Mistral lanza Voxtral 3, un paquete completo para agentes de voz en tiempo real",
+      "fuente": "The Decoder",
+      "fecha": "20-10-2026 19:17",
+      "enlace": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Gemini con «Personal Intelligence» llega a los coches: usará Gmail, Calendar, Maps y Fotos",
+      "fuente": "The Verge",
+      "fecha": "21-10-2026 00:11",
+      "enlace": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "OpenAI compra Orchestra Bio para reforzar su negocio de biotecnología",
+      "fuente": "TechCrunch",
+      "fecha": "20-10-2026 22:35",
+      "enlace": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "DeepSeek libera con licencia Apache 2.0 el motor de inferencia de su modelo más rápido y barato",
+      "fuente": "The Decoder",
+      "fecha": "20-10-2026 20:56",
+      "enlace": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Un juez desestima la demanda por abusos sexuales de la hermana de Sam Altman",
+      "fuente": "The Verge",
+      "fecha": "21-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "El CEO de Hugging Face avisa de que el documental de Netflix sobre el hackeo a OpenAI no es exacto",
+      "fuente": "TechCrunch",
+      "fecha": "21-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Las alianzas en la nube de Anthropic se están complicando",
+      "fuente": "TechCrunch",
+      "fecha": "20-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "El negocio de IA de SpaceX supera las expectativas",
+      "fuente": "TechCrunch",
+      "fecha": "20-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Meta quita la palabra «entrenar» de sus condiciones comerciales tras la reacción contra su IA",
+      "fuente": "Ars Technica",
+      "fecha": "20-10-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "ElevenLabs lanza dos nuevos modelos de voz a voz para conversaciones de IA en tiempo real",
+      "fuente": "The Decoder",
+      "fecha": "20-10-2026",
+      "enlace": "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Google se une a Amazon para atacar el dominio de Nvidia entre los desarrolladores de apps de IA",
+      "fuente": "TechCrunch",
+      "fecha": "20-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "ChatGPT ya permite bloquear tus chats",
+      "fuente": "TechCrunch",
+      "fecha": "20-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Sam Altman planteó tres desenlaces para la seguridad de la IA, uno en el que una sola empresa «derrite» las GPU de las demás",
+      "fuente": "The Decoder",
+      "fecha": "20-10-2026",
+      "enlace": "https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "OneDrive pierde varios accesos directos a Copilot en una limpieza del Explorador de archivos",
+      "fuente": "The Register",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/20/onedrive-loses-bunch-of-copilot-shortcuts-in-file-explorer-clear-out/5304149",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "Menos de 100 caracteres, 1.200 webs atacadas y más de 100 comprometidas: así está cambiando la IA la ciberseguridad",
+      "fuente": "Xataka",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.xataka.com/seguridad/100-caracteres-1-200-webs-atacadas-100-comprometidas-asi-esta-cambiando-ia-ciberseguridad",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "\"Nos obligan a usar Claude para todo\": empleados de Anthropic resignados asumen que para 2030 la IA será capaz de hacer el 75% de su trabajo",
+      "fuente": "ComputerHoy",
+      "fecha": "20-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/nos-obligan-usar-claude-para-todo-empleados-anthropic-resignados-asumen-que-para-2030-ia-sera-capaz-hacer-75-su-trabajo_7050997_0.html",
+      "turno": "2026-10-21_M"
+    },
+    {
+      "titulo": "EEUU ordena eliminar DeepSeek de los sistemas de sus agencias civiles federales. El veto va todavía más allá",
+      "fuente": "Xataka",
+      "fecha": "20-10-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/eeuu-ordena-eliminar-deepseek-sistemas-sus-agencias-civiles-federales-veto-va-todavia-alla",
+      "turno": "2026-10-21_M"
+    },
+    {
       "titulo": "Muse, el agente de IA de Meta, expone secretos personales y empresariales al compartir conversaciones",
       "fuente": "Ars Technica",
       "fecha": "20-10-2026 14:33",
