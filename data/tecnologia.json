@@ -1,214 +1,214 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "21-10-2026 04:12",
+  "actualizado": "21-10-2026 16:13",
   "destacadas": [
     {
-      "titulo": "Tesla y SpaceX forman comités especiales para estudiar una posible fusión",
-      "resumen": "Musk confirmó en la presentación de resultados del tercer trimestre de SpaceX que ambas compañías han creado comités especiales de consejeros independientes, a petición de accionistas, y que él no participa por ser parte en conflicto. Una fusión necesitaría el voto favorable del 50 % de todas las acciones de Tesla y crearía un gigante valorado en más de 3,6 billones de dólares; Barclays apunta que podría anunciarse antes de la junta del 3 de diciembre.",
+      "titulo": "Dos vulnerabilidades críticas de PHP amenazan con tumbar webs: el parche llega hoy",
+      "resumen": "Los desarrolladores de PHP han avisado de dos fallos de ejecución remota de código con una gravedad de 9,2 sobre 10 que afectan a todas las versiones desde PHP 5. Se estiman más de 1,3 millones de servidores expuestos y Wordfence advierte de que todos los sitios WordPress son vulnerables y de que el parche no se instala por actualización automática. El CERT de la UE y el NCSC británico recomiendan aislar o apagar las aplicaciones que no puedan parchearse de inmediato.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees",
-      "fecha": "20-10-2026 23:30"
+      "enlace": "https://www.theverge.com/tech/1015257/php-vulnerability-patch-website-security-wordpress",
+      "fecha": "21-10-2026 13:49"
     },
     {
-      "titulo": "Alerta mundial por ocho certificados TLS comprometidos de la autoridad india eMudhra",
-      "resumen": "Ocho certificados intermedios de eMudhra tenían claves privadas con solo entre 3 y 8 bits de entropía, lo que permitiría emitir credenciales de confianza para cualquier sitio. Los navegadores y algunos lenguajes ya los han bloqueado y no hay abusos registrados, pero el experto Filippo Valsorda prevé una limpieza «más grande que Heartbleed» por la cola de dispositivos IoT, contenedores y distribuciones Linux.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
-      "fecha": "20-10-2026 21:47"
-    },
-    {
-      "titulo": "La próxima Xbox no será una sola consola: portátil en 2027 y Project Helix en 2028",
-      "resumen": "La CEO de Xbox, Asha Sharma, dijo a Fortune que Microsoft lanzará una portátil de nueva generación en la campaña navideña de 2027, y que la consola de sobremesa Project Helix llegaría a finales de 2028 si la escasez de memoria lo permite. Fortune estima que Helix costaría entre 1.200 y 1.800 dólares, y Xbox quiere centrarse en franquicias como Halo, Gears of War y Fallout.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/xbox-portatil-2027-consola-2028-project-helix/",
-      "fecha": "20-10-2026 23:58"
-    },
-    {
-      "titulo": "Palo Alto: su cortafuegos PAN-OS sufre ataques de varios grupos de ransomware desde junio",
-      "resumen": "El fallo CVE-2026-0257, de omisión de autenticación en GlobalProtect, se parcheó el 13 de mayo, pero Rapid7 vio explotación desde al menos el 17 de mayo y Unit 42 investiga ataques desde junio. Qilin e Inc. lo usan para entrar por VPN, moverse por RDP y SMB, llegar a vCenter y ESXi y desplegar ransomware en sectores como sanidad, finanzas y gobierno.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
-      "fecha": "20-10-2026 19:33"
-    },
-    {
-      "titulo": "Hackers habrían vulnerado el firmware 14.10 de PS5 antes del lanzamiento de GTA 6",
-      "resumen": "El desarrollador Gezine publicó un vídeo en el que accede a los menús de depuración del firmware 14.10.00, que exigen acceso a nivel de kernel, y no ha divulgado el método. Un exploit de kernel no basta para piratear juegos: haría falta también uno de hipervisor, que no ha aparecido, y Sony no ha reconocido el hackeo.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2292388/playstation-5-hackers-crack-gta-6-firmware/",
-      "fecha": "20-10-2026 23:30"
-    },
-    {
-      "titulo": "Quantinuum logra corrección de errores cuánticos muy por encima del punto de equilibrio",
-      "resumen": "Quantinuum anunció que su hardware actual escala bien más allá del breakeven: cada aumento en el tamaño del qubit lógico mejora algunas métricas de rendimiento en un factor superior a 10. Eso reduce de forma drástica los qubits físicos necesarios para llegar a las tasas de error que exigen los algoritmos complejos.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/science/2026/10/quantum-error-correction-goes-well-beyond-breakeven/",
-      "fecha": "20-10-2026 20:08"
-    },
-    {
-      "titulo": "Waymo prueba en Madrid su servicio de coches autónomos, que llegaría en 2027",
-      "resumen": "Waymo empezará en Madrid con Jaguar I-PACE conducidos manualmente para recopilar datos, seguidos de una fase de validación con especialistas antes de abrir el servicio a los primeros usuarios en 2027. La empresa de Alphabet asegura que acumula más de 20 millones de viajes y trabaja con las autoridades nacionales, autonómicas y locales.",
+      "titulo": "Filtrado lo que presentará Apple el 28 de octubre: MacBook Pro táctil, iMac e iPad mini",
+      "resumen": "Según las filtraciones, Apple celebrará el 28 de octubre en Cupertino un evento bajo el lema «Pro and Tell», visible en España a partir de las 17:00. Se espera el primer MacBook Pro con pantalla táctil, en 14 y 16 pulgadas con chips M5 Pro y M5 Max y macOS 27, además de iMac más potentes y un iPad mini. MacRumors apunta, en cambio, a un único MacBook Pro de 14 pulgadas con chip M6 y sin pantalla táctil.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/waymo-pone-rumbo-madrid-asi-prepara-su-desembarco-espana-con-coches-totalmente-autonomos_7051226_0.html",
-      "fecha": "20-10-2026 22:19"
+      "enlace": "https://computerhoy.20minutos.es/moviles/filtrados-todos-los-productos-que-presentara-apple-proximo-28-octubre-ipad-macbook-mas_7051352_0.html",
+      "fecha": "21-10-2026 12:25"
     },
     {
-      "titulo": "Meta suspende compartir chats de Muse tras dejar al descubierto datos privados",
-      "resumen": "Los investigadores de Claroc enumeraron 6.800 enlaces de chats compartidos de Muse, la plataforma de IA agéntica de Meta lanzada en septiembre, porque las URL usaban el título de la conversación como subdominio. Había solicitudes de préstamo, avisos bancarios y documentos internos; Meta pausó la función mientras revisa el informe.",
+      "titulo": "Windows bloqueará los pendrives y discos externos formateados en ReFS desde enero de 2027",
+      "resumen": "Microsoft, en su boletín KB5130741, anuncia que dejará de montar unidades USB y discos secundarios en formato ReFS, una configuración que nunca fue oficialmente compatible. La fase de auditoría arrancó el 13 de octubre con la actualización de seguridad y el bloqueo estricto llegará en enero de 2027, salvo que un administrador desactive la directiva.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/windows-bloqueara-ciertas-unidades-almacenamiento-externo-pendrives-usb-partir-enero-2027_7051358_0.html",
+      "fecha": "21-10-2026 12:17"
+    },
+    {
+      "titulo": "SpaceX intentará por primera vez capturar la etapa superior de Starship con los brazos de la torre",
+      "resumen": "Elon Musk anunció en la llamada de resultados de SpaceX que en el vuelo de prueba 15, posiblemente el próximo mes, se intentará capturar tanto el propulsor Super Heavy como la etapa superior «Ship» con los brazos «chopstick». En el vuelo 14 ambas etapas cayeron al océano y la Ship acortó su viaje por el fallo de un motor, cuando debía pasar unas 10 horas en órbita.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2292281/meta-suspends-muse-chats-sharing-feature-after-it-left-private-details-exposed/",
-      "fecha": "20-10-2026 22:00"
+      "enlace": "https://www.engadget.com/2292685/heres-how-spacex-plans-to-catch-starships-upper-stage-for-the-first-time/",
+      "fecha": "21-10-2026 14:19"
+    },
+    {
+      "titulo": "Spotify estrena su primera app nativa para coches, en modelos de Audi",
+      "resumen": "Spotify lanza una app propia sobre Android Automotive que no necesita móvil, Bluetooth ni cable, y dibuja su propia interfaz en lugar de usar las plantillas de Google. Llega a los Audi A6 e-tron, Q6 e-tron, A5, Q5 y A6, tras algo más de un año de desarrollo. El 34 % de los usuarios activos de Spotify y el 77 % de los suscriptores Premium escuchan música en el coche.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/entertainment/1014261/spotify-native-car-app-audi-android-automotive-carplay",
+      "fecha": "21-10-2026 14:00"
+    },
+    {
+      "titulo": "Spotify empieza a exigir escanear un código QR en persona a los miembros del plan familiar",
+      "resumen": "Algunos miembros del plan Premium Familiar, de 20,99 euros al mes y hasta seis cuentas, deben confirmar que conviven con el titular escaneando un QR con ambos móviles en el mismo lugar. Tienen 7 días desde la notificación; si no lo completan pasan a la versión gratuita y no pueden unirse a otro plan durante 12 meses. Spotify afirma que no rastrea la ubicación.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/spotify-verificacion-qr-plan-familiar/",
+      "fecha": "21-10-2026 07:57"
+    },
+    {
+      "titulo": "Subaru dejará de vender coches de gasolina en Europa a finales de 2027",
+      "resumen": "Subaru confirmó a Auto Motor und sport que retirará los modelos de gasolina en Europa a más tardar en 2027, empezando por el Outback a finales de 2026. Desde 2028 ofrecerá en la UE solo tres eléctricos desarrollados con Toyota: Solterra, E-Outback y Uncharted. Lo achaca a los límites de CO2 de la UE (93,6 g/km) y a las exigencias de asistentes a la conducción desde el 7 de julio de 2026.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2292610/subaru-is-dropping-gas-cars-for-evs-in-europe-by-the-end-of-2027/",
+      "fecha": "21-10-2026 11:14"
+    },
+    {
+      "titulo": "Europa quiere centros de datos, pero sus objetivos climáticos se interponen",
+      "resumen": "Alemania planea duplicar su parque de centros de datos y cuadruplicar su capacidad de cómputo para IA en 2030, pero en junio recortó la obligación de reutilizar el calor residual que fijaba su Ley de Eficiencia Energética de 2023. Con la enmienda, los operadores solo tendrán que estudiar esa posibilidad. Exfuncionarios como Patrick Graichen acusan al Gobierno de sacrificar objetivos climáticos, en un dilema que comparten otros países europeos.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/europe-data-centers-climate-change/",
+      "fecha": "21-10-2026 10:30"
     }
   ],
   "titulares": [
     {
-      "titulo": "Una startup de tecnología del motor afirma haber rastreado un intento de hackeo hasta la IP de un rival",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/cyber-crime/2026/10/20/auto-tech-startup-claims-it-traced-hack-attempt-back-to-rivals-ip-address/5304281",
+      "titulo": "Blink lleva el 4K a su gama de cámaras de seguridad económicas",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1015238/amazon-blink-4k-trail-security-camera-launch",
       "fecha": "21-10-2026"
     },
     {
-      "titulo": "Decenas de miles de GPU Nvidia esperan ociosas en el supercúmulo Prometheus de Meta por si falla otra",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/systems/2026/10/20/tens-of-thousands-of-nvidia-gpus-sit-idle-in-metas-prometheus-supercluster-just-waiting-for-a-failure/5304269",
-      "fecha": "20-10-2026"
-    },
-    {
-      "titulo": "Snap paga a Robert Downey Jr. para que haga de Iron Man con sus gafas Specs",
+      "titulo": "El último controlador de Nvidia añade una nueva forma de acelerar los juegos de PC",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr",
-      "fecha": "20-10-2026"
+      "enlace": "https://www.theverge.com/news/1015299/nvidia-driver-microsoft-advanced-shader-delivery-support",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "JustWatch, la guía contra la fragmentación del streaming, lanza su propio servicio",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/",
-      "fecha": "20-10-2026"
-    },
-    {
-      "titulo": "TikTok empieza a censurar las búsquedas de péptidos populares",
+      "titulo": "Serato DJ ya funciona en el iPhone",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/science/1014825/peptide-tiktok-search-ban",
-      "fecha": "20-10-2026"
+      "enlace": "https://www.theverge.com/tech/1015319/serato-dj-for-ios",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "OpenBSD 8.0 llega con su récord de seguridad intacto y soporte para gráficos Intel Arc",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
-      "fecha": "20-10-2026"
+      "titulo": "Un cofundador de Foursquare dice que los accionistas no vieron retorno en la venta de la empresa",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/foursquare-co-founder-says-equity-holders-saw-no-returns-from-the-companys-acquisition/",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "TP-Link promete ensamblar routers en EE. UU. para contentar al Gobierno de Trump",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/10/tp-link-tries-to-appease-trump-admin-with-pledge-to-assemble-routers-in-us/",
-      "fecha": "20-10-2026"
+      "titulo": "La tecnología de las bombas de calor tiene 170 años y Pascal cree que toca actualizarla",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/heat-pump-tech-is-170-years-old-pascal-thinks-its-time-for-an-update/",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "¿Cuánto durará tu Steam Deck original?",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2289277/how-long-steam-deck-last-lifespan-support/",
-      "fecha": "20-10-2026"
-    },
-    {
-      "titulo": "Los mantenedores de curl, desbordados, publican fallos menores para sobrevivir a la «avalancha» de vulnerabilidades",
+      "titulo": "OneDrive da a los Mac un millón de cosas que sincronizar",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/20/swamped-curl-maintainers-take-low-level-flaws-public-to-survive-vulnerability-avalanche/5304198",
-      "fecha": "20-10-2026"
+      "enlace": "https://www.theregister.com/saas/2026/10/21/onedrive-gives-macs-a-million-things-to-keep-in-sync/5304442",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "El DHS dijo que registró a un hombre que borró su móvil con GrapheneOS por material de abuso infantil. Mintió",
-      "fuente": "404 Media",
-      "enlace": "https://www.404media.co/dhs-said-they-searched-man-who-wiped-grapheneos-phone-for-child-abuse-material-they-lied/",
-      "fecha": "20-10-2026"
-    },
-    {
-      "titulo": "openEuler lleva las ambiciones chinas de Linux empresarial al escritorio",
+      "titulo": "La UE quiere que Booking.com resuelva su problema de estafas",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/10/20/openeuler-brings-chinas-enterprise-linux-ambitions-to-the-desktop/5304145",
-      "fecha": "20-10-2026"
+      "enlace": "https://www.theregister.com/security/2026/10/21/eu-wants-bookingcom-to-check-out-of-its-scam-problem/5304413",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "Las empresas gastan casi un tercio de su presupuesto de software en actualizaciones que no pidieron",
+      "titulo": "Un fallo de Java deja sin paneles de salidas al metro de Tyne and Wear",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/software/2026/10/20/enterprises-blow-nearly-a-third-of-software-budgets-on-upgrades-they-never-asked-for/5304181",
-      "fecha": "20-10-2026"
+      "enlace": "https://www.theregister.com/offbeat/2026/10/21/java-crashes-the-departure-board-at-tyne-and-wear-metro/5304106",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "A un conductor de BYD en China le pusieron un cepo y su solución fue conducir con la rueda en el aire",
+      "titulo": "Los ISP nerviosos sustituyen a Chrome como extraños consumidores de recursos DNS",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/10/21/nervous-isps-replace-chrome-as-strange-consumers-of-dns-resources/5304344",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Sanidad dará prioridad a pacientes con cáncer más jóvenes para usar las máquinas donadas por Amancio Ortega",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/a-conductor-byd-china-le-han-puesto-cepo-solucion-conducir-rueda-aire",
-      "fecha": "20-10-2026"
+      "enlace": "https://www.xataka.com/medicina-y-salud/sanidad-dara-prioridad-a-pacientes-cancer-jovenes-para-usar-maquinas-donadas-amancio-ortega",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "YouTube quiere ponértelo más difícil para dar ‘No me gusta’ a un vídeo",
+      "titulo": "Freelander 8, así es el SUV premium del grupo Chery con cerebro de Qualcomm que llegará próximamente a las carreteras",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/internet/youtube-prueba-con-ocultar-el-boton-no-me-gusta/",
-      "fecha": "20-10-2026"
+      "enlace": "https://hipertextual.com/movilidad/freelander-8-asi-es-el-suv-premium-del-grupo-chery-con-cerebro-de-qualcomm-que-llegara-proximamente-a-las-carreteras/",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "Movistar Plus prepara el estreno de cuatro canales en HD, pero uno es completamente nuevo",
+      "titulo": "Garmin tiene una nueva app gratis que te ayuda a reducir lesiones mientras entrenas",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-nuevos-canales-hd-1026/",
-      "fecha": "20-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/internet/garmin-app-gratis-estiramientos/",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "La Séptima confirma que podrás verla gratis en YouTube desde el 5 de noviembre sin antena de TDT ni televisión de pago",
+      "titulo": "China consigue un enlace satelital polar independiente, reduciendo su dependencia de Starlink de Elon Musk y la tecnología extranjera",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-confirma-que-podras-verla-gratis-youtube-desde-5-noviembre-sin-antena-tdt-ni-television-pago_7051104_0.html",
-      "fecha": "20-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/china-consigue-un-enlace-satelital-polar-independiente-reduciendo-su-dependencia-starlink-elon-musk-tecnologia-extranjera_7050990_0.html",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "Vuelve a Netflix el anime que lavó la cara y el prestigio de uno de los videojuegos más odiados de los últimos años",
+      "titulo": "Mediaset está experimentando con una especie de 'Barbenheimer' nocturno los miércoles, juntando 'Horizonte' y 'El Chiringuito'",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/cine-y-tv/cyberpunk-edgerunners-t2",
-      "fecha": "20-10-2026"
+      "enlace": "https://www.xataka.com/cine-y-tv/mediaset-esta-experimentando-especie-barbenheimer-nocturno-miercoles-juntando-horizonte-chiringuito",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "El Galaxy S27 traería pésimas noticias: Samsung recortaría la RAM de su próximo tope de gama",
+      "titulo": "OMODA X: así el coche que quiere redefinir el mercado de los SUVs",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/el-galaxy-s27-podria-llegar-con-solo-8-gb-de-memoria-ram/",
-      "fecha": "20-10-2026"
+      "enlace": "https://hipertextual.com/tecnologia/omoda-x-asi-el-coche-que-quiere-redefinir-el-mercado-de-los-suvs/",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "Orange aclara por qué el identificador de llamadas te cuesta dinero en el fijo y es gratis en el móvil",
+      "titulo": "Dentro de una hora, el 40 % de Internet podría dejar de funcionar: millones de webs en alerta por un fallo de seguridad",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/orange-aclara-identificador-llamadas-fijo-movil/",
-      "fecha": "20-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/seguridad/fallo-seguridad-internet-millones-web-riesgo/",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "Desaparecen dos palés de NVIDIA RTX 5090 valorados en 400.000 euros y nadie sabe dónde están",
+      "titulo": "\"Caos absoluto, caos interno\", tensión en La Séptima, el nuevo canal de la TDT, a pocos días de su estreno en la TDT",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/desaparecen-dos-pales-nvidia-rtx-5090-valorados-400-000-euros-nadie-sabe-donde-estan_7051106_0.html",
-      "fecha": "20-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/caos-absoluto-caos-interno-tension-septima-nuevo-canal-tdt-pocos-dias-su-estreno-tdt_7051353_0.html",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "Los \"palillos chinos\" de SpaceX tendrán copia china: Deep Blue Aerospace los quiere para su cohete Nebula-2",
+      "titulo": "MediaMarkt está liquidando en su outlet este iMac de última generación nuevo a estrenar",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/china-no-se-conforma-reutilizar-cohetes-quiere-hacerlo-truco-que-spacex",
-      "fecha": "20-10-2026"
+      "enlace": "https://www.xataka.com/seleccion/mediamarkt-esta-liquidando-su-outlet-este-imac-ultima-generacion-nuevo-a-estrenar",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "Motorola desafía a Xiaomi: su próximo móvil tendrá una batería gigante y precio rompedor",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/motorola-moto-g47-power-bateria-7000mah/",
-      "fecha": "20-10-2026"
-    },
-    {
-      "titulo": "El Gobierno estrena la web de las elecciones y mete la pata en lo más básico: «Cómo votar» te explica a hacerlo desde el extranjero",
+      "titulo": "Oasiz Madrid anuncia la apertura de Mango Teen y una megatienda de Terranova de 1.000 metros",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/elecciones-2026-cortes-generales-web-extranjero-voto/",
-      "fecha": "20-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/internet/oasiz-madrid-mango-teen-tienda-reforma-terranova/",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "\"Me muero por ser un icono campanil\": La Séptima ya tiene voluntaria para competir con Cristina Pedroche en las campanadas de fin de año en la TDT",
+      "titulo": "Navjot Virk, vicepresidente de experiencias de Windows, confirma que \"Windows 11 puede mantener hasta 2 GB más de datos activos en la memoria\" en ordenadores con 8 GB de memoria RAM",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/me-muero-por-ser-un-icono-campanil-septima-ya-tiene-voluntaria-para-competir-con-cristina-pedroche-las-campanadas-fin-ano-tdt_7050995_0.html",
-      "fecha": "20-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/navjot-virk-vicepresidente-experiencias-windows-confirma-que-windows-11-puede-mantener-hasta-2-gb-mas-datos-activos-memoria-ordenadores-con-8-gb-memoria-ram_7050987_0.html",
+      "fecha": "21-10-2026"
     },
     {
-      "titulo": "Que sea de código abierto es una de las claves de Internxt: una nube europea que almacena tus archivos de forma segura",
+      "titulo": "A mitad de precio el Huawei Watch GT5 Pro, un smartwatch todoterreno con una pantalla soberbia y cargado en funciones de salud",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/que-sea-codigo-abierto-claves-internxt-nube-europea-que-almacena-tus-archivos-forma-segura",
-      "fecha": "20-10-2026"
+      "enlace": "https://www.xataka.com/seleccion/a-mitad-precio-huawei-watch-gt5-pro-smartwatch-todoterreno-pantalla-soberbia-cargado-funciones-salud",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Las Smart TV de Samsung perderán una de sus funciones más populares el 30 de octubre",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/samsung-smart-tv-cierra-daily-plus-octubre/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Europa se planta ante Elon Musk: Telefónica, Orange y Vodafone quieren crear su propio Starlink",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/europa-se-planta-ante-elon-musk-telefonica-orange-vodafone-quieren-crear-su-propio-starlink_7051349_0.html",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Sócrates, filósofo, sobre los amigos: \"Lo importante no es cuánto valen tus amigos, sino lo que tú vales para ellos\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/socrates-filosofo-amigos-amistad-no-algo-que-se-tiene-algo-que-se-merece",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "O2 explica qué hará si tu router está afectado por la vulnerabilidad: “Contactaremos contigo inmediatamente”",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-aclara-router-vulnerabilidad/",
+      "fecha": "21-10-2026"
     }
   ]
 }
