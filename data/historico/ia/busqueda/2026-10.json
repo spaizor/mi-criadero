@@ -3,6 +3,160 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "OpenAI admite que un agente de IA mintió sobre haber desactivado su sistema de vigilancia de seguridad",
+      "fuente": "The Verge",
+      "fecha": "21-10-2026 15:57",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "Microsoft considera que «los modelos frontera no son de fiar» y propone tratar a los agentes de IA como amenazas internas",
+      "fuente": "Xataka",
+      "fecha": "21-10-2026 16:31",
+      "enlace": "https://www.xataka.com/robotica-e-ia/microsoft-considera-que-modelos-frontera-no-fiar-hay-que-tratar-a-agentes-ia-como-amenazas-internas",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "Mercury 3, de Inception, dice superar a GPT-6 Luna y Claude Haiku 5.5 con una fracción de la espera",
+      "fuente": "The Decoder",
+      "fecha": "21-10-2026 16:45",
+      "enlace": "https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait/",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "Las salvaguardas de la IA no frenan a los ciberdelincuentes, según CrowdStrike",
+      "fuente": "Wired",
+      "fecha": "21-10-2026 16:00",
+      "enlace": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "China pone en jaque a Anthropic: la competencia de sus modelos amenaza su valoración antes de salir a Bolsa",
+      "fuente": "Xataka",
+      "fecha": "21-10-2026 14:46",
+      "enlace": "https://www.xataka.com/robotica-e-ia/china-pone-jaque-a-anthropic-competencia-sus-modelos-amenaza-su-valoracion-antes-salir-a-bolsa",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "AI reduce el tiempo de programar, pero también llena de basura la bandeja del código abierto",
+      "fuente": "The Register",
+      "fecha": "21-10-2026 14:43",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/21/ai-cuts-coding-time-but-its-also-filling-open-sources-inbox-with-crap/5304389",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "Claude Science diseña desde cero proteínas contra el veneno de escorpión",
+      "fuente": "The Decoder",
+      "fecha": "21-10-2026 10:37",
+      "enlace": "https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch/",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "La navegación conversacional de Gemini llega a Apple CarPlay",
+      "fuente": "The Verge",
+      "fecha": "21-10-2026",
+      "enlace": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "Jensen Huang manda patos robot para vender la visión de Nvidia de IA en todas partes",
+      "fuente": "The Register",
+      "fecha": "21-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/21/jensen-huang-sends-in-the-robot-ducks-to-sell-nvidias-ai-everywhere-vision/5304472",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "Mistral y Nvidia quieren acelerar el diseño industrial con IA de física",
+      "fuente": "The Decoder",
+      "fecha": "21-10-2026",
+      "enlace": "https://the-decoder.com/mistral-and-nvidia-want-to-speed-up-industrial-design-with-physics-ai/",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "La IA promete productividad, pero para los jefes es sobre todo un quebradero de cabeza, según una encuesta",
+      "fuente": "TechCrunch",
+      "fecha": "21-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "El DSX POD de Nvidia podría reducir de seis meses a 14 días la puesta en marcha de un centro de datos de IA",
+      "fuente": "The Decoder",
+      "fecha": "21-10-2026",
+      "enlace": "https://the-decoder.com/nvidias-dsx-pod-could-cut-ai-data-center-setup-from-six-months-to-as-little-as-14-days/",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "China protesta por el veto de EE. UU. a DeepSeek mientras bloquea ChatGPT, Claude y Gemini en casa",
+      "fuente": "The Decoder",
+      "fecha": "21-10-2026",
+      "enlace": "https://the-decoder.com/china-protests-the-us-deepseek-ban-while-blocking-chatgpt-claude-and-gemini-at-home/",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "OpenAI aún no sabe explicar por qué sus agentes de programación desactivan la vigilancia de desalineamiento",
+      "fuente": "The Decoder",
+      "fecha": "21-10-2026",
+      "enlace": "https://the-decoder.com/openai-cant-yet-explain-why-its-coding-agents-switch-off-misalignment-monitoring/",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "La IA tiene «potencial» para convertir a aficionados en atacantes sofisticados de infraestructuras",
+      "fuente": "The Register",
+      "fecha": "21-10-2026",
+      "enlace": "https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "Nvidia elige OpenShell para domar a los agentes de IA",
+      "fuente": "The Register",
+      "fecha": "21-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/21/nvidia-picks-openshell-to-tame-ai-gents/5304319",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "OpenAI invierte en una startup que usa implantes cerebrales para detectar cáncer",
+      "fuente": "Wired",
+      "fecha": "21-10-2026",
+      "enlace": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "WhatsApp dejó al descubierto las instrucciones secretas de su IA: esto es lo que no debía decir",
+      "fuente": "ComputerHoy",
+      "fecha": "21-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-dejo-descubierto-las-instrucciones-secretas-su-ia-esto-es-que-no-debia-decir_7051350_0.html",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "Así son los casos en los que la IA intenta estafar a personas y hackear sistemas",
+      "fuente": "ComputerHoy",
+      "fecha": "21-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/asi-son-casos-ia-intenta-estafar-personas-hackear-sistemas_7051354_0.html",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "\"El 25% de las solicitudes de extracción recibidas son basura de IA\": Linux Foundation alerta del impacto de la inteligencia artificial en el código abierto",
+      "fuente": "ComputerHoy",
+      "fecha": "21-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/25-las-solicitudes-extraccion-recibidas-son-basura-ia-linux-foundation-alerta-impacto-inteligencia-artificial-codigo-abierto_7051360_0.html",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "ChatGPT estrena una función que muchos esperaban: ya puedes ocultar tus conversaciones privadas",
+      "fuente": "ComputerHoy",
+      "fecha": "21-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/chatgpt-estrena-una-funcion-que-muchos-esperaban-ya-puedes-ocultar-tus-conversaciones-privadas_7051366_0.html",
+      "turno": "2026-10-21_T"
+    },
+    {
+      "titulo": "Exploits, ingeniería inversa, IA... Por qué ha explotado ahora y tan rápido el jailbreak de PS5 y la emulación de sus juegos en PC",
+      "fuente": "ComputerHoy",
+      "fecha": "21-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/gaming/exploits-ingenieria-inversa-ia-por-que-ha-explotado-ahora-tan-rapido-jailbreak-ps5-emulacion-sus-juegos-pc_7050985_0.html",
+      "turno": "2026-10-21_T"
+    },
+    {
       "titulo": "Anthropic propone una ley que permitiría bloquear un modelo de IA si pudiera causar más de 50 muertes",
       "fuente": "TechCrunch",
       "fecha": "21-10-2026 01:01",
