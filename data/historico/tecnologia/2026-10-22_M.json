@@ -1,0 +1,214 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "22-10-2026 04:12",
+  "destacadas": [
+    {
+      "titulo": "Un juez ordena a Meta pagar 25.000 millones de dólares a Nuevo México por engañar sobre la privacidad de sus usuarios",
+      "resumen": "Un jurado de Nuevo México, tras un juicio de dos semanas, halló 43 millones de infracciones de las leyes estatales de consumo por engañar a los usuarios sobre sus prácticas de privacidad, con multas de 5.000 dólares cada una. El caso incluyó la app de terceros ligada a Cambridge Analytica. Meta, cuyo director legal asegura que el fallo hace «casi imposible» operar en el estado, ha anunciado que apelará.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/meta-ordered-to-pay-25-billion-in-case-related-to-cambridge-analytica-scandal/",
+      "fecha": "21-10-2026 21:42"
+    },
+    {
+      "titulo": "Tesla inicia la producción de Optimus en California mientras su beneficio cae un 43 %",
+      "resumen": "Tesla fabrica ya el robot humanoide Optimus en Fremont, en una línea que antes producía coches, y Musk prevé alcanzar 20.000 unidades semanales a finales de 2027. En el tercer trimestre ingresó 28.040 millones de dólares, casi sin cambios, y ganó 787 millones, un 43 % menos, por el gasto en IA, Optimus y conducción autónoma. La versión no supervisada del FSD se retrasa de nuevo y los primeros coches de clientes en la flota de robotaxis llegarían hacia el segundo trimestre de 2027.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+      "fecha": "21-10-2026 22:33"
+    },
+    {
+      "titulo": "EA cierra BioWare, cancela el próximo Mass Effect y recorta unos 400 empleos",
+      "resumen": "Electronic Arts cierra el estudio creador de Mass Effect y Dragon Age, incluida su oficina de Edmonton, y cancela el nuevo Mass Effect, que estaba en fases iniciales. Los despidos rondan los 400 puestos, en torno al 3 % de la plantilla, y Full Circle (Skate) se reducirá a un equipo menor. EA, ahora privada y con unos 20.000 millones de dólares de deuda, concentrará sus esfuerzos en menos proyectos de gran escala.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2293402/ea-is-shutting-down-bioware-and-cutting-around-400-jobs/",
+      "fecha": "21-10-2026 20:42"
+    },
+    {
+      "titulo": "Un ataque a la cadena de suministro de LiteLLM roba contraseñas y claves de acceso",
+      "resumen": "La versión 1.107.0 de LiteLLM, subida a PyPI y Docker el 21 de octubre, incluía un infostealer que robaba credenciales de navegadores, claves de AWS, Google Cloud y Azure, claves de API de proveedores de IA y claves SSH. Los datos se cifran con AES-256 y RSA-4096 antes de enviarse, y un componente RAT consulta cada hora al atacante. Quien la ejecutó debe asumir que sus secretos están comprometidos; la última versión segura es la 1.106.2.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
+      "fecha": "21-10-2026 20:22"
+    },
+    {
+      "titulo": "Chrome analizará el texto que copias para detectar comandos sospechosos de estafas ClickFix",
+      "resumen": "Google añadirá a la Protección Mejorada de Navegación Segura una revisión de los comandos sospechosos copiados al portapapeles, usados en las estafas ClickFix para que la víctima los ejecute fuera del navegador. Chrome elimina la información personal, envía el contenido a Navegación Segura y avisa si es malicioso. No vigila todo lo que se copia y Google dice que busca minimizar las molestias a desarrolladores y usuarios avanzados.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/internet/google-chrome-analizara-texto-portapapeles-estafas/",
+      "fecha": "22-10-2026 01:30"
+    },
+    {
+      "titulo": "Nvidia lanza en Europa nuevos modelos de pesos abiertos para IA soberana",
+      "resumen": "En el GTC de Berlín, Nvidia presentó modelos de embeddings y reranking basados en Nemotron 3.5, con soporte para texto e imágenes en 34 idiomas y de 1.000 a 8.000 millones de parámetros. Añadió una versión actualizada de Nemotron Parse para extraer datos de PDF y Alpamayo 2 Edge para conducción autónoma. Nemotron 3.5 Bolt, de 74.000 millones de parámetros, cabe en 24 GB de VRAM y se podrá descargar a partir del viernes.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/21/nvidia-woos-wary-europeans-with-more-open-weights-models/5304552",
+      "fecha": "21-10-2026 21:00"
+    },
+    {
+      "titulo": "Xbox venderá horas de juego en la nube a quienes no tengan Game Pass, por 24 a 40 céntimos la hora",
+      "resumen": "Microsoft ha lanzado para los Xbox Insiders las compras sueltas de «Cloud Playtime», con horas que no caducan hasta usarse. Hay que haber comprado el juego (salvo algunos gratuitos), de modo que el coste se suma al del título. Microsoft recordó que solo el 4 % de los suscriptores de Game Pass se verá afectado por el límite de 5 a 15 horas mensuales de streaming.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+      "fecha": "22-10-2026 00:06"
+    },
+    {
+      "titulo": "Bose compra Skullcandy y la mantendrá como marca independiente",
+      "resumen": "Bose adquirió a su competidor Skullcandy, que seguirá como marca separada dentro de su negocio de audio premium y con sede en Park City, Utah. Skullcandy ya había incorporado tecnología de Bose, como el audio espacial con seguimiento de cabeza y la cancelación de ruido, en los Crusher 1080 ANC y Method 360 ANC. No se han dado detalles económicos; en 2024 Bose compró McIntosh y Sonus faber.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1015276/bose-acquisition-skullcandy-headphones-earbuds-speakers",
+      "fecha": "21-10-2026 22:15"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Para que el mundo se atiborre de GPU, Nvidia aporta dinero a la frágil cadena de suministro de obleas",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/22/to-help-world-gorge-on-gpus-nvidia-brings-cash-bucket-to-fatten-wafer-thin-supply-chain/5304623",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Tesla dice que empezará a vender Cybercabs a finales de año",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Zuckerberg afirma que Meta «entra en una nueva fase» con Muse",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2293705/mark-zuckerberg-says-meta-is-entering-a-new-phase-with-muse/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Airbnb limita las tareas que los anfitriones pueden exigir a los huéspedes y provoca quejas",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/airbnb-limits-chores-for-guests-sparking-backlash-from-hosts/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Webs gubernamentales de la UE y Canadá se desconectan por la vulnerabilidad de PHP",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2293625/government-websites-in-the-eu-and-canada-taken-offline-over-php-vulnerability/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "El creador de OpenClaw dice que gastó 10 millones de dólares en tokens el mes pasado",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/21/openclaw-creator-says-he-spent-10-million-in-tokens-last-month/5304573",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Automattic inicia despidos tras la crisis en su consejo y la salida de directivos",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/automattic-begins-layoffs-following-board-upheaval-and-executive-departures/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Según un informe, Musk ordenó ralentizar Starlink en Ucrania y luego culpó a Trump",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Un fallo de Signal podría dejar el micrófono y la cámara activos tras colgar",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/21/signal-bug-could-keep-your-mic-and-camera-on-after-hangup/5304528",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Waymo empieza a ofrecer viajes en el aeropuerto de Las Vegas",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/waymo-starts-offering-rides-at-the-las-vegas-airport/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Los auriculares PlayStation Pulse de Sony llegan el 19 de noviembre por 100 dólares",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2293077/sonys-playstation-pulse-headset-arrives-on-november-19-for-dollar100/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "OpenBSD 8.0 refuerza las máquinas virtuales y prueba Wine",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/21/openbsd-80-beefs-up-virtual-machines-and-gets-a-taste-of-wine/5304430",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "El último golpe para Meta llega en forma de una sanción de 25.000 millones de dólares por un escándalo de privacidad",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/ultimo-golpe-para-meta-llega-forma-sancion-25-000-millones-dolares-escandalo-privacidad",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Xbox revela cuánto tendrás que pagar para jugar en la nube sin tener Game Pass",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/xbox-revela-los-precios-para-usar-cloud-gaming-sin-game-pass/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Digi a Digi para llamadas o SMS no siempre es gratis: la letra pequeña que te puede costar dinero",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/servicio-digi-digi-letra-pequena/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Antonio Cañavate, ingeniero telemático, sobre la subida de precios de DIGI: \"Que no cunda el pánico, no os afecta, y son opcionales\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/antonio-canavate-ingeniero-telematico-sobre-subida-precios-digi-que-no-cunda-panico-no-os-afecta-son-opcionales_7051488_0.html",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Científicos convierten plástico en miles de millones de nanodiamantes mediante potentes disparos láser",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/materiales/cientificos-convierten-plastico-miles-millones-nanodiamantes-mediante-potentes-disparos-laser",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Adiós a ‘Mass Effect’: EA cierra BioWare y cancela el próximo juego de la saga",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/ea-cierra-bioware-cancela-mass-effect/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Eres jubilado en España y te mudas a otro país: esto es lo que ocurre con tu pensión",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/cobrar-pension-espanola-vivir-extranjero/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "La vulnerabilidad crítica de PHP que puso en alerta a Europa ya tiene parche, pero millones de webs siguen expuestas",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/vulnerabilidad-critica-php-que-puso-alerta-europa-ya-tiene-parche-pero-millones-webs-siguen-expuestas_7051629_0.html",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Hay tanta basura en órbita que los científicos proponen algo: que cada satélite pague una fianza de 200.000 dólares",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/hay-tanta-basura-orbita-que-cientificos-proponen-algo-que-cada-satelite-pague-fianza-200-000-dolares",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "¿Cuándo podrás usar el iPhone Duo con un Apple Pencil? La espera será más breve de lo que piensas",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/iphone-duo-soporte-apple-pencil-ios-27-2/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Movistar gusta por su fibra o red móvil, pero en los últimos meses ha mejorado su calidad para los clientes: bajan las reclamaciones",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-mejora-servicio-clave-clientes/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Detectan un extraño \"punto débil\" en la pantalla del iPhone Duo: \"En esta zona la pantalla se hunde con el dedo y podría generar una arruga con el tiempo\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/detectan-un-extrano-punto-debil-pantalla-iphone-duo-esta-zona-pantalla-se-hunde-con-dedo-podria-generar-una-arruga-con-tiempo_7051485_0.html",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "La tuneladora Mayrit se acerca a Atocha tras extraer 189.000 metros cúbicos y perforar tres kilómetros del suelo de Madrid",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/tuneladora-mayrit-se-acerca-a-atocha-extraer-189-000-metros-cubicos-perforar-tres-kilometros-suelo-madrid",
+      "fecha": "21-10-2026"
+    }
+  ]
+}
