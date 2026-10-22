@@ -1,0 +1,129 @@
+{
+  "seccion": "ia",
+  "actualizado": "22-10-2026 05:09",
+  "destacadas": [
+    {
+      "titulo": "Anthropic lanza Claude Duet, un agente de IA para profesionales que compite con Muse de Meta",
+      "resumen": "Claude Duet llega como «research preview» en iOS, Android y web, construido sobre Claude Opus 5.5 y pensado para profesionales y pequeños empresarios. Envía un resumen matinal de las apps conectadas, avisa solo cuando algo requiere atención y puede encargarse de tareas desde agendar reuniones hasta crear dashboards o previsiones. Pide aprobación antes de pasos importantes como pagos o borrados, incorpora un clasificador nuevo para rechazar datos de máxima sensibilidad y, de momento, solo está disponible en lista de espera para suscriptores Pro o Max en EE. UU.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+      "fecha": "21-10-2026 21:53"
+    },
+    {
+      "titulo": "GPT-5.6 Sol y Gemini 4 Argon hallan un fallo crítico en PHP que afecta a millones de webs",
+      "resumen": "La vulnerabilidad, bautizada PHP2Shell, fue detectada por GPT-5.6 Sol dentro de la iniciativa Patch-the-Planet, mientras que Wiz llegó a los mismos fallos con su plataforma Wiz Atlas, apoyada en Gemini 4 Argon y GPT-5.6 Sol. La corrección se coordinó durante dos meses en cinco fases con desarrolladores de PHP, Wiz, Cloudflare, CISA y la Casa Blanca, y hay una herramienta en GitHub para comprobar si una versión está afectada. OpenAI prevé más hallazgos de este calibre y avisa de que las mismas capacidades pueden ayudar a los atacantes.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
+      "fecha": "21-10-2026 21:45"
+    },
+    {
+      "titulo": "Los modelos de OpenAI llegan a Google Cloud y a Antigravity",
+      "resumen": "Los modelos GPT 6 y 6.1 (Astra, Sol y Luna) se ofrecerán en el Model Garden de Google Cloud, que ya incluye Gemini, Claude y modelos abiertos como Mistral, Llama y Gemma, y funcionarán íntegramente sobre infraestructura de Google. Se despliegan ya en vista previa privada para clientes empresariales seleccionados, con facturación vía Google Cloud Marketplace. Los modelos de OpenAI también aparecerán en Antigravity, la herramienta de programación con agentes de Google, aunque OpenAI mantiene a Microsoft como socio principal en la nube.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+      "fecha": "21-10-2026 20:51"
+    },
+    {
+      "titulo": "Meta dice que Muse supera los 10 millones de usuarios y que las compras son su uso estrella",
+      "resumen": "Durante la presentación de resultados del tercer trimestre, Zuckerberg afirmó que cerca del 25 % de quienes configuraron Muse lo usan a diario y que más de una cuarta parte de los usuarios activos que compraron con el agente gastó de media más de 200 dólares por compra. Las compras funcionan con el conector de Plaid y también destacan las tareas de productividad con correo y calendario. Reality Labs perdió 19.100 millones de dólares en 2025 y se espera que las pérdidas bajen a 15.000 millones este año.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "fecha": "21-10-2026 23:14"
+    },
+    {
+      "titulo": "Meta creará una nueva clase de acciones para financiar su apuesta por la IA",
+      "resumen": "Las acciones sin derecho a voto servirán también para posibles adquisiciones y compensación de empleados, y empezarán a cotizar en 2027. Meta prevé unas inversiones de capital de entre 135.000 y 145.000 millones de dólares este año, frente a la estimación previa de 130.000 a 145.000 millones. La compañía lanzó su agente Muse en septiembre, que llegó a 10 millones de descargas en EE. UU. esta semana, aunque ha tenido problemas de privacidad y tuvo que pausar la función de compartir conversaciones.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+      "fecha": "21-10-2026 23:30"
+    },
+    {
+      "titulo": "Hassabis acorta su previsión de la AGI: de entre tres y cinco años a dos o tres",
+      "resumen": "El fundador de Google DeepMind y premio Nobel de Química estima ahora que la AGI podría llegar en dos o tres años. Su prueba de referencia es el «test de Einstein»: comprobar si un sistema entrenado solo con conocimiento anterior a 1901 reproduciría los artículos de Einstein de 1905. Propone un consejo de supervisión financiado por la industria pero bajo control gubernamental que evalúe los modelos antes de su lanzamiento, y advierte de que una mala regulación es peor que ninguna.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/deepmind-founder-hassabis-shortens-agi-timeline-from-five-to-two-to-three-years/",
+      "fecha": "21-10-2026 19:10"
+    },
+    {
+      "titulo": "Recursive lanza Flint, un modelo de programación para portátil construido en gran parte por IA",
+      "resumen": "Flint, gratuito y lanzado el 21 de octubre por la empresa de Richard Socher, tiene 40.000 millones de parámetros pero usa solo 2.500 millones por tarea. Se construyó en menos de cuatro meses con el sistema de investigación automatizado Eureka Machine y, según la empresa, genera unos 131 tokens por segundo en un MacBook Pro con M4 Pro. Recursive salió del modo sigiloso en mayo con 650 millones de dólares y una valoración de 4.650 millones.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "fecha": "21-10-2026 22:27"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Jas Khaira, de Blackstone, dice que los temores por la deuda del despliegue de IA están exagerados",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Los centros de datos podrían borrar décadas de mejoras en la calidad del aire",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "SpaceX ya gana más con IA que con cohetes: el 52% de sus ingresos vienen de la IA",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/spacex-gana-ia-que-cohetes-52-sus-ingresos-vienen-ia",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Una IA que toca la pantalla de tu móvil por ti, a costa de quemar tokens",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/21/reach-new-heights-of-laziness-by-burning-tokens-to-let-an-ai-tap-your-smartphone-screen-for-you/5304567",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Mientras Amazon bloquea a los agentes de IA, Walmart les abre la puerta",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Un juez rechaza la tesis de Trump de que la EPA pueda desestimar demandas por contaminación de centros de datos",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "La IA se comerá una quinta parte de los presupuestos tecnológicos en 2027, pero no esperes que se pague sola",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/21/ai-will-eat-a-fifth-of-tech-budgets-in-2027-but-dont-expect-it-to-pay-for-itself/5304466",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Blacksmith alcanza valoración de unicornio tras una Serie C liderada por Sequoia",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "La startup de IA con anuncios valorada en 15.000 millones que quizá ya usa tu médico",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "Android Auto da un giro con Gemini: podrá encontrar un sitio en una foto y llevarte hasta él",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-da-un-giro-con-gemini-podra-encontrar-un-sitio-una-foto-llevarte-hasta_7051630_0.html",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "OpenAI descubre que un agente de ChatGPT desactivó su propio sistema de seguridad y mintió",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/openai-ia-desactivo-supervision-seguridad/",
+      "fecha": "21-10-2026"
+    },
+    {
+      "titulo": "\"Oh, sabes, pude crear una bomba nuclear con tu IA\" Elon Musk insiste en que podríamos estar viviendo en una simulación",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/oh-sabes-pude-crear-una-bomba-nuclear-con-tu-ia-elon-musk-insiste-que-podriamos-estar-viviendo-una-simulacion_7051473_0.html",
+      "fecha": "21-10-2026"
+    }
+  ]
+}
