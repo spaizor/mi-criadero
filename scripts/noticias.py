@@ -1527,6 +1527,11 @@ def validar_enlaces(rev, seccion, destacadas, titulares):
     dominios = {}
     for medio in leer_medios(seccion, solo_utiles=False):
         propios = {dominio_de(medio.get(campo) or "") for campo in ("web", "feed")}
+        # El medio cuyo feed trae enlaces de otro dominio suyo (RT, que mezcla
+        # rt.com y rt-english.com): sin esto la rutina reescribia a mano un
+        # enlace bueno a otro que no habia podido abrir, solo por pasar aqui.
+        propios |= {dominio_de(f"https://{d}/")
+                    for d in medio.get("otros_dominios", [])}
         dominios[medio["nombre"].strip().lower()] = propios - {""}
 
     for es_destacada, noticias in ((True, destacadas), (False, titulares)):

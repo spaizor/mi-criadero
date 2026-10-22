@@ -68,6 +68,41 @@ Donde **no** se pone:
 - Donde la primera ya pasa del tope: teleSUR y Resumen Latinoamericano paginan,
   pero traen 25-30 entradas dentro de la ventana y la segunda no les anadia
   nada.
+- Donde dos paginas siguen sin cubrir el turno: Prensa Latina.
+- Donde el medio no se publica nunca: Strategic Culture.
+
+### Revision del 22-10-2026: se queda en tres
+
+Una semana despues (13 turnos de Nintendo y 7 de geopolitica, con sus logs)
+**ningun medio dejo de paginar** (`SIN PAGINA 2`) y no se vio ningun
+`PAGINA 2 CAIDA`. Medido otra vez a las 16:30:
+
+| Medio | Una pagina | Dos paginas |
+|---|---|---|
+| Nintendo Everything | 10 entradas, 11,5 h | 19, 22,9 h |
+| Nintenderos | 9, 4,7 h | 18, 15,2 h |
+| Modern Diplomacy | 10, 18,2 h | 20, 28,6 h |
+| Strategic Culture | 10, 17,0 h | 20, 39,4 h |
+| Prensa Latina | 10, 0,8 h | 20, 1,9 h |
+
+- **Las horas a 00:00 de Nintendo se acabaron**: 1 en 13 turnos, y es real
+  (Nintendo Everything la publico a las 00:00:48).
+- **Prensa Latina pierde las dos paginas**: publica tanto que 20 entradas no
+  llegan a dos horas de una ventana de 24. Eran 2 candidatos mas por turno.
+- **Strategic Culture tambien**: da unos 10 candidatos por turno y **no ha
+  salido publicado ni una vez** en los 55 turnos de geopolitica. La segunda
+  pagina solo alargaba lo que lee el modelo.
+- Modern Diplomacy se queda: paso de 1 destacada en 15 turnos a 3 en 7, aunque
+  no se puede probar que vinieran de la segunda pagina.
+
+**Lo que las dos paginas NO arreglan: los turnos cortos de Nintendo** (8 de 13, antes 14 de
+26). Los logs dan dos causas: falta de material (lo nuevo ya estaba publicado o
+no era de Nintendo) y Nintenderos cortando la conexion desde la nube
+(`Connection reset by peer`) en 9 de 13 turnos, en `candidatos` o en
+`titulares`; desde casa responde. Ya pasaba antes de las dos paginas. **Subir
+el tope de 12 por medio no ayudaria**: medido en una ventana de 12 h, pasar a
+30 da 53 -> 65 candidatos, y 9 de los 12 nuevos son de GoNintendo, que no puede
+dar mas de dos destacadas.
 
 ## Un medio "que bloquea a los scripts" casi nunca bloquea
 

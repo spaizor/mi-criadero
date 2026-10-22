@@ -41,7 +41,12 @@ python3 scripts/noticias.py vigilar                las tres comprobaciones, desd
     de un titular sale del feed y no del modelo, y si un medio cambia de
     dominio un error obligaria a quitar titulares buenos hasta que alguien
     corrija `medios.json`. Con las fuentes que no estan en `medios.json` (lo
-    buscado por fuera) no hay con que comparar y no se mira.
+    buscado por fuera) no hay con que comparar y no se mira. El medio que
+    publica en mas de un dominio los lista en `otros_dominios`: el feed de RT
+    mezcla `rt.com` y `rt-english.com` desde el 16-10-2026, y el 22-10 la
+    rutina, para pasar este ERROR, reescribio a mano los enlaces buenos de
+    `rt-english.com` a `www.rt.com`, que desde Espana no se pueden abrir para
+    ver si existen.
 
   Medido el 01-10-2026 sobre las 7.662 noticias del historico: la primera caza
   las tres conocidas y nada mas; la segunda, una destacada y tres titulares
