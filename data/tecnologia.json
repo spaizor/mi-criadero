@@ -1,214 +1,214 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "22-10-2026 04:12",
+  "actualizado": "22-10-2026 16:15",
   "destacadas": [
     {
-      "titulo": "Un juez ordena a Meta pagar 25.000 millones de dólares a Nuevo México por engañar sobre la privacidad de sus usuarios",
-      "resumen": "Un jurado de Nuevo México, tras un juicio de dos semanas, halló 43 millones de infracciones de las leyes estatales de consumo por engañar a los usuarios sobre sus prácticas de privacidad, con multas de 5.000 dólares cada una. El caso incluyó la app de terceros ligada a Cambridge Analytica. Meta, cuyo director legal asegura que el fallo hace «casi imposible» operar en el estado, ha anunciado que apelará.",
+      "titulo": "Railway pide a «todos los usuarios» revocar sus claves secretas tras un ciberataque",
+      "resumen": "La plataforma de desarrollo Railway confirmó que unos atacantes pudieron acceder a variables de entorno cifradas de algunos clientes y, en parte, obtener su contenido descifrado, con contraseñas y claves de API. Aunque cree que el acceso se limitó a un subconjunto de usuarios, recomienda rotar todas las claves y pausó los despliegues mientras investiga. La empresa lo vincula a una ofensiva más amplia contra proveedores de inferencia de IA, tras un caso similar en OpenCode.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/21/meta-ordered-to-pay-25-billion-in-case-related-to-cambridge-analytica-scandal/",
-      "fecha": "21-10-2026 21:42"
+      "enlace": "https://techcrunch.com/2026/10/22/developer-platform-railway-urges-all-users-to-revoke-secret-keys-after-cyberattack/",
+      "fecha": "22-10-2026 16:03"
     },
     {
-      "titulo": "Tesla inicia la producción de Optimus en California mientras su beneficio cae un 43 %",
-      "resumen": "Tesla fabrica ya el robot humanoide Optimus en Fremont, en una línea que antes producía coches, y Musk prevé alcanzar 20.000 unidades semanales a finales de 2027. En el tercer trimestre ingresó 28.040 millones de dólares, casi sin cambios, y ganó 787 millones, un 43 % menos, por el gasto en IA, Optimus y conducción autónoma. La versión no supervisada del FSD se retrasa de nuevo y los primeros coches de clientes en la flota de robotaxis llegarían hacia el segundo trimestre de 2027.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
-      "fecha": "21-10-2026 22:33"
-    },
-    {
-      "titulo": "EA cierra BioWare, cancela el próximo Mass Effect y recorta unos 400 empleos",
-      "resumen": "Electronic Arts cierra el estudio creador de Mass Effect y Dragon Age, incluida su oficina de Edmonton, y cancela el nuevo Mass Effect, que estaba en fases iniciales. Los despidos rondan los 400 puestos, en torno al 3 % de la plantilla, y Full Circle (Skate) se reducirá a un equipo menor. EA, ahora privada y con unos 20.000 millones de dólares de deuda, concentrará sus esfuerzos en menos proyectos de gran escala.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2293402/ea-is-shutting-down-bioware-and-cutting-around-400-jobs/",
-      "fecha": "21-10-2026 20:42"
-    },
-    {
-      "titulo": "Un ataque a la cadena de suministro de LiteLLM roba contraseñas y claves de acceso",
-      "resumen": "La versión 1.107.0 de LiteLLM, subida a PyPI y Docker el 21 de octubre, incluía un infostealer que robaba credenciales de navegadores, claves de AWS, Google Cloud y Azure, claves de API de proveedores de IA y claves SSH. Los datos se cifran con AES-256 y RSA-4096 antes de enviarse, y un componente RAT consulta cada hora al atacante. Quien la ejecutó debe asumir que sus secretos están comprometidos; la última versión segura es la 1.106.2.",
+      "titulo": "Millones de ataques contra PHP2Shell: AWS detectó intentos cuatro días antes de la divulgación",
+      "resumen": "Cloudflare registra millones de intentos de explotación de las dos vulnerabilidades críticas de PHP (CVE-2026-109618 y CVE-2026-109619), con atacantes que modifican sus cargas para esquivar el cortafuegos web. Amazon Threat Intelligence detectó en sus honeypots un intento el 17 de octubre, cuatro días antes de que salieran los parches, y varias pruebas de concepto unas 12 horas antes. Hadrian señala que la mayoría abusa de la ruta de progreso de subida de sesiones de PHP.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
-      "fecha": "21-10-2026 20:22"
+      "enlace": "https://www.theregister.com/cyber-crime/2026/10/22/hackers-pile-on-php2shell-as-aws-reveals-attacks-began-before-disclosure/5304749",
+      "fecha": "22-10-2026 14:15"
     },
     {
-      "titulo": "Chrome analizará el texto que copias para detectar comandos sospechosos de estafas ClickFix",
-      "resumen": "Google añadirá a la Protección Mejorada de Navegación Segura una revisión de los comandos sospechosos copiados al portapapeles, usados en las estafas ClickFix para que la víctima los ejecute fuera del navegador. Chrome elimina la información personal, envía el contenido a Navegación Segura y avisa si es malicioso. No vigila todo lo que se copia y Google dice que busca minimizar las molestias a desarrolladores y usuarios avanzados.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/internet/google-chrome-analizara-texto-portapapeles-estafas/",
-      "fecha": "22-10-2026 01:30"
-    },
-    {
-      "titulo": "Nvidia lanza en Europa nuevos modelos de pesos abiertos para IA soberana",
-      "resumen": "En el GTC de Berlín, Nvidia presentó modelos de embeddings y reranking basados en Nemotron 3.5, con soporte para texto e imágenes en 34 idiomas y de 1.000 a 8.000 millones de parámetros. Añadió una versión actualizada de Nemotron Parse para extraer datos de PDF y Alpamayo 2 Edge para conducción autónoma. Nemotron 3.5 Bolt, de 74.000 millones de parámetros, cabe en 24 GB de VRAM y se podrá descargar a partir del viernes.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/21/nvidia-woos-wary-europeans-with-more-open-weights-models/5304552",
-      "fecha": "21-10-2026 21:00"
-    },
-    {
-      "titulo": "Xbox venderá horas de juego en la nube a quienes no tengan Game Pass, por 24 a 40 céntimos la hora",
-      "resumen": "Microsoft ha lanzado para los Xbox Insiders las compras sueltas de «Cloud Playtime», con horas que no caducan hasta usarse. Hay que haber comprado el juego (salvo algunos gratuitos), de modo que el coste se suma al del título. Microsoft recordó que solo el 4 % de los suscriptores de Game Pass se verá afectado por el límite de 5 a 15 horas mensuales de streaming.",
+      "titulo": "Secuestran 333 nodos de salida de Tor para interceptar tráfico SSH y correo sin cifrar",
+      "resumen": "Un voluntario de Tor detalló que los atacantes entraron a finales de agosto en un servidor de gestión mediante una contraseña reutilizada e instalaron la puerta trasera Ebury. Desde ahí reconfiguraron 333 nodos de salida para redirigir las conexiones SSH a 12 servidores de intercepción y bloquear los puertos de correo cifrado, a la espera de que los servicios degradaran a conexiones sin cifrar. El secuestro de los nodos se produjo entre el 2 y el 5 de octubre.",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
-      "fecha": "22-10-2026 00:06"
+      "enlace": "https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/",
+      "fecha": "22-10-2026 13:30"
     },
     {
-      "titulo": "Bose compra Skullcandy y la mantendrá como marca independiente",
-      "resumen": "Bose adquirió a su competidor Skullcandy, que seguirá como marca separada dentro de su negocio de audio premium y con sede en Park City, Utah. Skullcandy ya había incorporado tecnología de Bose, como el audio espacial con seguimiento de cabeza y la cancelación de ruido, en los Crusher 1080 ANC y Method 360 ANC. No se han dado detalles económicos; en 2024 Bose compró McIntosh y Sonus faber.",
+      "titulo": "Microsoft atribuye a Storm-0940 el ataque vía ConnectWise contra más de 2.250 inquilinos de Microsoft 365",
+      "resumen": "El grupo de espionaje vinculado a China usó credenciales de aplicaciones de ConnectWise y la herramienta de código abierto ARTEX, que automatiza el ataque con agentes de IA, para intentar acceder a más de 2.250 inquilinos, a veces con 2.900 intentos por minuto. Del 10 al 14 de octubre hizo además más de 151.000 inicios de sesión fallidos contra 327 cuentas de ocho organizaciones. Consiguió acceso privilegiado persistente en varias, aunque Microsoft no precisa cuántos clientes quedaron comprometidos.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/22/microsoft-says-connectwise-breach-let-chinese-spies-loose-on-2250-cloud-tenants/5304687",
+      "fecha": "22-10-2026 13:28"
+    },
+    {
+      "titulo": "Un hacker muestra un jailbreak de PS5 en el firmware 14.10 y la comunidad le pide que no lo publique hasta el 19 de noviembre",
+      "resumen": "El desarrollador Gezine publicó un vídeo en el que una PS5 con firmware 14.10 accede al menú oculto de depuración, aunque no es una herramienta pública ni un jailbreak descargable. Aclara que no está relacionado con Relapse, el exploit que cubría los firmwares 7.00 a 13.60. Los usuarios temen que una publicación prematura lleve a Sony a reforzar la seguridad antes del lanzamiento de GTA 6.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/hacker-afirma-haber-logrado-jailbreak-firmware-14-10-playstation-5-los-usuarios-le-piden-que-no-publique-hasta-19-noviembre_7052051_0.html",
+      "fecha": "22-10-2026 15:51"
+    },
+    {
+      "titulo": "Linus Torvalds elimina de Linux 7.4 las funciones obsoletas __get_user() y __put_user()",
+      "resumen": "Torvalds retiró del kernel, en la arquitectura x86, dos funciones que no comprueban el rango de direcciones del espacio de usuario y por tanto resultan inseguras además de más lentas que get_user() y put_user(). Las calificó de «completamente obsoletas». Según el artículo, se apoyó en herramientas de IA como Claude Code para llevar a cabo la limpieza.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-elimina-dos-funciones-problematicas-linux-7-4-esto-era-algo-que-hacia-mucha-falta-son-completamente-obsoletas-ya-no-son-opcion-correcta_7051878_0.html",
+      "fecha": "22-10-2026 13:51"
+    },
+    {
+      "titulo": "Los prototipos del iPhone Duo 2 incorporan Face ID bajo la pantalla, según Gurman",
+      "resumen": "Mark Gurman afirma que Apple trabaja activamente en Face ID bajo la pantalla y que ya hay prototipos del iPhone Duo 2 con la tecnología en la pantalla exterior. El primer plegable de Apple, de unos 2.000 dólares, usa Touch ID, probablemente por poder usarse en varias orientaciones y por lo fino de sus pantallas. También podría incluir el botón de acción en la siguiente generación.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2294041/iphone-duos-next-gen-prototypes-are-trying-to-cram-in-face-id/",
+      "fecha": "22-10-2026 16:06"
+    },
+    {
+      "titulo": "La tienda de software del Atari VCS cerrará el 1 de febrero de 2027",
+      "resumen": "Atari retira la plataforma VCS tras una década de retrasos y cambios de nombre: se podrá descargar contenido hasta el 31 de enero de 2027, y lo ya descargado seguirá funcionando. Prepara una actualización del sistema que elimine la dependencia de su infraestructura para autenticación y software, y una app Atari Home Brew para que los desarrolladores independientes sigan añadiendo juegos.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1015276/bose-acquisition-skullcandy-headphones-earbuds-speakers",
-      "fecha": "21-10-2026 22:15"
+      "enlace": "https://www.theverge.com/tech/1016481/atari-vcs-console-shutting-down-software-store-2027",
+      "fecha": "22-10-2026 15:17"
     }
   ],
   "titulares": [
     {
-      "titulo": "Para que el mundo se atiborre de GPU, Nvidia aporta dinero a la frágil cadena de suministro de obleas",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/22/to-help-world-gorge-on-gpus-nvidia-brings-cash-bucket-to-fatten-wafer-thin-supply-chain/5304623",
+      "titulo": "Apple etiquetará las apps «Made for iPhone Duo» en la App Store",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1016526/apple-made-for-iphone-duo-badge-app-store",
       "fecha": "22-10-2026"
     },
     {
-      "titulo": "Tesla dice que empezará a vender Cybercabs a finales de año",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
+      "titulo": "Insta360 lanza una versión más barata de sus micrófonos inalámbricos con pantalla de color",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1015371/insta360-mic-wireless-microphone-color-e-ink-screen",
       "fecha": "22-10-2026"
     },
     {
-      "titulo": "Zuckerberg afirma que Meta «entra en una nueva fase» con Muse",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2293705/mark-zuckerberg-says-meta-is-entering-a-new-phase-with-muse/",
+      "titulo": "Que el Optimus de Tesla esté en producción no significa que esté listo",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1016492/tesla-optimus-robots-production-musk-q3-earnings",
       "fecha": "22-10-2026"
     },
     {
-      "titulo": "Airbnb limita las tareas que los anfitriones pueden exigir a los huéspedes y provoca quejas",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/21/airbnb-limits-chores-for-guests-sparking-backlash-from-hosts/",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Webs gubernamentales de la UE y Canadá se desconectan por la vulnerabilidad de PHP",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2293625/government-websites-in-the-eu-and-canada-taken-offline-over-php-vulnerability/",
-      "fecha": "21-10-2026"
-    },
-    {
-      "titulo": "El creador de OpenClaw dice que gastó 10 millones de dólares en tokens el mes pasado",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/21/openclaw-creator-says-he-spent-10-million-in-tokens-last-month/5304573",
-      "fecha": "21-10-2026"
-    },
-    {
-      "titulo": "Automattic inicia despidos tras la crisis en su consejo y la salida de directivos",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/21/automattic-begins-layoffs-following-board-upheaval-and-executive-departures/",
-      "fecha": "21-10-2026"
-    },
-    {
-      "titulo": "Según un informe, Musk ordenó ralentizar Starlink en Ucrania y luego culpó a Trump",
+      "titulo": "GM dice que sigue apostando por los coches eléctricos y la conducción autónoma",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
-      "fecha": "21-10-2026"
+      "enlace": "https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/",
+      "fecha": "22-10-2026"
     },
     {
-      "titulo": "Un fallo de Signal podría dejar el micrófono y la cámara activos tras colgar",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/21/signal-bug-could-keep-your-mic-and-camera-on-after-hangup/5304528",
-      "fecha": "21-10-2026"
-    },
-    {
-      "titulo": "Waymo empieza a ofrecer viajes en el aeropuerto de Las Vegas",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/21/waymo-starts-offering-rides-at-the-las-vegas-airport/",
-      "fecha": "21-10-2026"
-    },
-    {
-      "titulo": "Los auriculares PlayStation Pulse de Sony llegan el 19 de noviembre por 100 dólares",
+      "titulo": "Fortnite vuelve a la App Store de Apple en Australia tras un fallo judicial",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2293077/sonys-playstation-pulse-headset-arrives-on-november-19-for-dollar100/",
-      "fecha": "21-10-2026"
+      "enlace": "https://www.engadget.com/2293801/fortnite-is-back-on-apple-australian-app-store-following-court-ruling/",
+      "fecha": "22-10-2026"
     },
     {
-      "titulo": "OpenBSD 8.0 refuerza las máquinas virtuales y prueba Wine",
+      "titulo": "Las ventas de publicidad de Meta se resienten desde que los europeos pueden elegir menos personalización",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/metas-ad-sales-suffering-now-europeans-can-pick-less-personalization/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "El CEO de IBM dice que los modelos de pesos abiertos son ya irresistiblemente buenos y baratos en local",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/10/21/openbsd-80-beefs-up-virtual-machines-and-gets-a-taste-of-wine/5304430",
-      "fecha": "21-10-2026"
+      "enlace": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "fecha": "22-10-2026"
     },
     {
-      "titulo": "El último golpe para Meta llega en forma de una sanción de 25.000 millones de dólares por un escándalo de privacidad",
+      "titulo": "La autoridad de certificación eMudhra defiende sus claves privadas, calificadas de ridículamente débiles",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Los televisores OLED Roku Pro Series LX ya están disponibles en Amazon",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2293840/roku-pro-series-lx-oled-tvs-at-amazon/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Birdbuddy Nook, un comedero inteligente compacto para espacios y presupuestos pequeños",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1015659/birdbuddy-smart-bird-feeder-2k-camera-home-nook-ai-identification",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "PHP2Shell es una vulnerabilidad crítica para tu web: cómo comprobar que tu sitio es seguro",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/ultimo-golpe-para-meta-llega-forma-sancion-25-000-millones-dolares-escandalo-privacidad",
-      "fecha": "21-10-2026"
+      "enlace": "https://www.xataka.com/seguridad/php2shell-vulnerabilidad-critica-para-tu-web-como-comprobar-que-tu-sitio-seguro",
+      "fecha": "22-10-2026"
     },
     {
-      "titulo": "Xbox revela cuánto tendrás que pagar para jugar en la nube sin tener Game Pass",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/xbox-revela-los-precios-para-usar-cloud-gaming-sin-game-pass/",
-      "fecha": "21-10-2026"
-    },
-    {
-      "titulo": "Digi a Digi para llamadas o SMS no siempre es gratis: la letra pequeña que te puede costar dinero",
+      "titulo": "España libera los prefijos con 8 en Alicante, Málaga, Sevilla y Valencia para evitar el agotamiento de números",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/servicio-digi-digi-letra-pequena/",
-      "fecha": "21-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/operadores/espana-retira-prefijos-telefonicos-numeracion-nomada/",
+      "fecha": "22-10-2026"
     },
     {
-      "titulo": "Antonio Cañavate, ingeniero telemático, sobre la subida de precios de DIGI: \"Que no cunda el pánico, no os afecta, y son opcionales\"",
+      "titulo": "Una nueva alternativa gratis a Netflix comienza a emitir en España con mas de 200 películas (algunas con varios Oscar) sin tener que registrarte",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/antonio-canavate-ingeniero-telematico-sobre-subida-precios-digi-que-no-cunda-panico-no-os-afecta-son-opcionales_7051488_0.html",
-      "fecha": "21-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/una-nueva-alternativa-gratis-netflix-comienza-emitir-espana-con-mas-200-peliculas-algunas-con-varios-oscar-sin-tener-que-registrarte_7051874_0.html",
+      "fecha": "22-10-2026"
     },
     {
-      "titulo": "Científicos convierten plástico en miles de millones de nanodiamantes mediante potentes disparos láser",
+      "titulo": "En 2023, veinte camiones cruzaron Países Bajos cargados con 400 toneladas de marisma frisia. Su destino era un canal capaz de fabricar tormentas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/materiales/cientificos-convierten-plastico-miles-millones-nanodiamantes-mediante-potentes-disparos-laser",
-      "fecha": "21-10-2026"
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/2023-veinte-camiones-cruzaron-paises-bajos-cargados-400-toneladas-marisma-frisia-su-destino-era-canal-capaz-fabricar-tormentas",
+      "fecha": "22-10-2026"
     },
     {
-      "titulo": "Adiós a ‘Mass Effect’: EA cierra BioWare y cancela el próximo juego de la saga",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/ea-cierra-bioware-cancela-mass-effect/",
-      "fecha": "21-10-2026"
-    },
-    {
-      "titulo": "Eres jubilado en España y te mudas a otro país: esto es lo que ocurre con tu pensión",
+      "titulo": "Digi revela la configuración oculta para mejorar la cobertura móvil",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/cobrar-pension-espanola-vivir-extranjero/",
-      "fecha": "21-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-configuracion-mejorar-cobertura-movil/",
+      "fecha": "22-10-2026"
     },
     {
-      "titulo": "La vulnerabilidad crítica de PHP que puso en alerta a Europa ya tiene parche, pero millones de webs siguen expuestas",
+      "titulo": "Golpe maestro de La Séptima: podrás verla en la TDT desde el 5 noviembre sin resintonizar el televisor ni tocar un solo botón del mando",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/vulnerabilidad-critica-php-que-puso-alerta-europa-ya-tiene-parche-pero-millones-webs-siguen-expuestas_7051629_0.html",
-      "fecha": "21-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/golpe-maestro-septima-podras-verla-tdt-desde-5-noviembre-sin-resintonizar-televisor-ni-tocar-un-solo-boton-mando_7051876_0.html",
+      "fecha": "22-10-2026"
     },
     {
-      "titulo": "Hay tanta basura en órbita que los científicos proponen algo: que cada satélite pague una fianza de 200.000 dólares",
+      "titulo": "BioWare ayudó a definir el rol occidental y la inclusión en videojuegos, pero no cabe en la nueva EA propiedad de Arabia Saudí",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/hay-tanta-basura-orbita-que-cientificos-proponen-algo-que-cada-satelite-pague-fianza-200-000-dolares",
-      "fecha": "21-10-2026"
+      "enlace": "https://www.xataka.com/videojuegos/bioware-ayudo-a-definir-rol-occidental-inclusion-videojuegos-no-nueva-ea-propiedad-arabia-saudi",
+      "fecha": "22-10-2026"
     },
     {
-      "titulo": "¿Cuándo podrás usar el iPhone Duo con un Apple Pencil? La espera será más breve de lo que piensas",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/apple/iphone-duo-soporte-apple-pencil-ios-27-2/",
-      "fecha": "21-10-2026"
-    },
-    {
-      "titulo": "Movistar gusta por su fibra o red móvil, pero en los últimos meses ha mejorado su calidad para los clientes: bajan las reclamaciones",
+      "titulo": "Fines de semana oscuros para Internet: eso es lo que traerá la nueva alianza antipiratería de LaLiga en Europa",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-mejora-servicio-clave-clientes/",
-      "fecha": "21-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/internet/nueva-alianza-antipirateria-laliga-europa/",
+      "fecha": "22-10-2026"
     },
     {
-      "titulo": "Detectan un extraño \"punto débil\" en la pantalla del iPhone Duo: \"En esta zona la pantalla se hunde con el dedo y podría generar una arruga con el tiempo\"",
+      "titulo": "Elon Musk pone fecha a su fábrica de chips: el primer procesador de Terafab llegará en 2027",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/detectan-un-extrano-punto-debil-pantalla-iphone-duo-esta-zona-pantalla-se-hunde-con-dedo-podria-generar-una-arruga-con-tiempo_7051485_0.html",
-      "fecha": "21-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/elon-musk-pone-fecha-su-fabrica-chips-primer-procesador-terafab-llegara-2027_7051869_0.html",
+      "fecha": "22-10-2026"
     },
     {
-      "titulo": "La tuneladora Mayrit se acerca a Atocha tras extraer 189.000 metros cúbicos y perforar tres kilómetros del suelo de Madrid",
+      "titulo": "PcComponentes deja casi a mitad de precio este robot aspirador Roborock con 25.000 Pa que no necesita casi mantenimiento",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/tuneladora-mayrit-se-acerca-a-atocha-extraer-189-000-metros-cubicos-perforar-tres-kilometros-suelo-madrid",
-      "fecha": "21-10-2026"
+      "enlace": "https://www.xataka.com/seleccion/pccomponentes-deja-casi-a-mitad-precio-este-robot-aspirador-roborock-25-000-pa-que-no-necesita-casi-mantenimiento",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Llegan los mensajes programados a WhatsApp: ya lo pueden probar los usuarios de iPhone",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/whatsapp/mensajes-programados-whatsapp-beta-ios/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "El oro blanco de la tecnología: el litio, uno de los elementos más codiciados del planeta",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/oro-blanco-tecnologia-litio-uno-los-elementos-mas-codiciados-planeta_7044809_0.html",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Carrefour liquida esta smart TV QLED de Xiaomi para la cocina o el dormitorio: ahora cuesta 149 euros",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/carrefour-liquida-esta-smart-tv-qled-xiaomi-para-cocina-dormitorio-ahora-cuesta-149-euros",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Dejar de cambiar la hora costaría menos de 2 euros al año",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/ciencia/ahorro-cambio-hora-electricidad-espana/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Enrique Álvarez, mecánico, sobre la calidad de los coches modernos: \"O salimos a las calles o en 5 años nadie va a tener poder adquisitivo para mantener un coche\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/enrique-alvarez-mecanico-sobre-calidad-los-coches-modernos-salimos-las-calles-5-anos-nadie-va-tener-poder-adquisitivo-para-mantener-un-coche_7051487_0.html",
+      "fecha": "22-10-2026"
     }
   ]
 }

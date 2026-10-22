@@ -1,0 +1,214 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "22-10-2026 16:15",
+  "destacadas": [
+    {
+      "titulo": "Railway pide a «todos los usuarios» revocar sus claves secretas tras un ciberataque",
+      "resumen": "La plataforma de desarrollo Railway confirmó que unos atacantes pudieron acceder a variables de entorno cifradas de algunos clientes y, en parte, obtener su contenido descifrado, con contraseñas y claves de API. Aunque cree que el acceso se limitó a un subconjunto de usuarios, recomienda rotar todas las claves y pausó los despliegues mientras investiga. La empresa lo vincula a una ofensiva más amplia contra proveedores de inferencia de IA, tras un caso similar en OpenCode.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/22/developer-platform-railway-urges-all-users-to-revoke-secret-keys-after-cyberattack/",
+      "fecha": "22-10-2026 16:03"
+    },
+    {
+      "titulo": "Millones de ataques contra PHP2Shell: AWS detectó intentos cuatro días antes de la divulgación",
+      "resumen": "Cloudflare registra millones de intentos de explotación de las dos vulnerabilidades críticas de PHP (CVE-2026-109618 y CVE-2026-109619), con atacantes que modifican sus cargas para esquivar el cortafuegos web. Amazon Threat Intelligence detectó en sus honeypots un intento el 17 de octubre, cuatro días antes de que salieran los parches, y varias pruebas de concepto unas 12 horas antes. Hadrian señala que la mayoría abusa de la ruta de progreso de subida de sesiones de PHP.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/10/22/hackers-pile-on-php2shell-as-aws-reveals-attacks-began-before-disclosure/5304749",
+      "fecha": "22-10-2026 14:15"
+    },
+    {
+      "titulo": "Secuestran 333 nodos de salida de Tor para interceptar tráfico SSH y correo sin cifrar",
+      "resumen": "Un voluntario de Tor detalló que los atacantes entraron a finales de agosto en un servidor de gestión mediante una contraseña reutilizada e instalaron la puerta trasera Ebury. Desde ahí reconfiguraron 333 nodos de salida para redirigir las conexiones SSH a 12 servidores de intercepción y bloquear los puertos de correo cifrado, a la espera de que los servicios degradaran a conexiones sin cifrar. El secuestro de los nodos se produjo entre el 2 y el 5 de octubre.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/",
+      "fecha": "22-10-2026 13:30"
+    },
+    {
+      "titulo": "Microsoft atribuye a Storm-0940 el ataque vía ConnectWise contra más de 2.250 inquilinos de Microsoft 365",
+      "resumen": "El grupo de espionaje vinculado a China usó credenciales de aplicaciones de ConnectWise y la herramienta de código abierto ARTEX, que automatiza el ataque con agentes de IA, para intentar acceder a más de 2.250 inquilinos, a veces con 2.900 intentos por minuto. Del 10 al 14 de octubre hizo además más de 151.000 inicios de sesión fallidos contra 327 cuentas de ocho organizaciones. Consiguió acceso privilegiado persistente en varias, aunque Microsoft no precisa cuántos clientes quedaron comprometidos.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/22/microsoft-says-connectwise-breach-let-chinese-spies-loose-on-2250-cloud-tenants/5304687",
+      "fecha": "22-10-2026 13:28"
+    },
+    {
+      "titulo": "Un hacker muestra un jailbreak de PS5 en el firmware 14.10 y la comunidad le pide que no lo publique hasta el 19 de noviembre",
+      "resumen": "El desarrollador Gezine publicó un vídeo en el que una PS5 con firmware 14.10 accede al menú oculto de depuración, aunque no es una herramienta pública ni un jailbreak descargable. Aclara que no está relacionado con Relapse, el exploit que cubría los firmwares 7.00 a 13.60. Los usuarios temen que una publicación prematura lleve a Sony a reforzar la seguridad antes del lanzamiento de GTA 6.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/hacker-afirma-haber-logrado-jailbreak-firmware-14-10-playstation-5-los-usuarios-le-piden-que-no-publique-hasta-19-noviembre_7052051_0.html",
+      "fecha": "22-10-2026 15:51"
+    },
+    {
+      "titulo": "Linus Torvalds elimina de Linux 7.4 las funciones obsoletas __get_user() y __put_user()",
+      "resumen": "Torvalds retiró del kernel, en la arquitectura x86, dos funciones que no comprueban el rango de direcciones del espacio de usuario y por tanto resultan inseguras además de más lentas que get_user() y put_user(). Las calificó de «completamente obsoletas». Según el artículo, se apoyó en herramientas de IA como Claude Code para llevar a cabo la limpieza.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-elimina-dos-funciones-problematicas-linux-7-4-esto-era-algo-que-hacia-mucha-falta-son-completamente-obsoletas-ya-no-son-opcion-correcta_7051878_0.html",
+      "fecha": "22-10-2026 13:51"
+    },
+    {
+      "titulo": "Los prototipos del iPhone Duo 2 incorporan Face ID bajo la pantalla, según Gurman",
+      "resumen": "Mark Gurman afirma que Apple trabaja activamente en Face ID bajo la pantalla y que ya hay prototipos del iPhone Duo 2 con la tecnología en la pantalla exterior. El primer plegable de Apple, de unos 2.000 dólares, usa Touch ID, probablemente por poder usarse en varias orientaciones y por lo fino de sus pantallas. También podría incluir el botón de acción en la siguiente generación.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2294041/iphone-duos-next-gen-prototypes-are-trying-to-cram-in-face-id/",
+      "fecha": "22-10-2026 16:06"
+    },
+    {
+      "titulo": "La tienda de software del Atari VCS cerrará el 1 de febrero de 2027",
+      "resumen": "Atari retira la plataforma VCS tras una década de retrasos y cambios de nombre: se podrá descargar contenido hasta el 31 de enero de 2027, y lo ya descargado seguirá funcionando. Prepara una actualización del sistema que elimine la dependencia de su infraestructura para autenticación y software, y una app Atari Home Brew para que los desarrolladores independientes sigan añadiendo juegos.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1016481/atari-vcs-console-shutting-down-software-store-2027",
+      "fecha": "22-10-2026 15:17"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Apple etiquetará las apps «Made for iPhone Duo» en la App Store",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1016526/apple-made-for-iphone-duo-badge-app-store",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Insta360 lanza una versión más barata de sus micrófonos inalámbricos con pantalla de color",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1015371/insta360-mic-wireless-microphone-color-e-ink-screen",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Que el Optimus de Tesla esté en producción no significa que esté listo",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1016492/tesla-optimus-robots-production-musk-q3-earnings",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "GM dice que sigue apostando por los coches eléctricos y la conducción autónoma",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Fortnite vuelve a la App Store de Apple en Australia tras un fallo judicial",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2293801/fortnite-is-back-on-apple-australian-app-store-following-court-ruling/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Las ventas de publicidad de Meta se resienten desde que los europeos pueden elegir menos personalización",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/metas-ad-sales-suffering-now-europeans-can-pick-less-personalization/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "El CEO de IBM dice que los modelos de pesos abiertos son ya irresistiblemente buenos y baratos en local",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "La autoridad de certificación eMudhra defiende sus claves privadas, calificadas de ridículamente débiles",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Los televisores OLED Roku Pro Series LX ya están disponibles en Amazon",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2293840/roku-pro-series-lx-oled-tvs-at-amazon/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Birdbuddy Nook, un comedero inteligente compacto para espacios y presupuestos pequeños",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1015659/birdbuddy-smart-bird-feeder-2k-camera-home-nook-ai-identification",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "PHP2Shell es una vulnerabilidad crítica para tu web: cómo comprobar que tu sitio es seguro",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/php2shell-vulnerabilidad-critica-para-tu-web-como-comprobar-que-tu-sitio-seguro",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "España libera los prefijos con 8 en Alicante, Málaga, Sevilla y Valencia para evitar el agotamiento de números",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/espana-retira-prefijos-telefonicos-numeracion-nomada/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Una nueva alternativa gratis a Netflix comienza a emitir en España con mas de 200 películas (algunas con varios Oscar) sin tener que registrarte",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/una-nueva-alternativa-gratis-netflix-comienza-emitir-espana-con-mas-200-peliculas-algunas-con-varios-oscar-sin-tener-que-registrarte_7051874_0.html",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "En 2023, veinte camiones cruzaron Países Bajos cargados con 400 toneladas de marisma frisia. Su destino era un canal capaz de fabricar tormentas",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/2023-veinte-camiones-cruzaron-paises-bajos-cargados-400-toneladas-marisma-frisia-su-destino-era-canal-capaz-fabricar-tormentas",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Digi revela la configuración oculta para mejorar la cobertura móvil",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-configuracion-mejorar-cobertura-movil/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Golpe maestro de La Séptima: podrás verla en la TDT desde el 5 noviembre sin resintonizar el televisor ni tocar un solo botón del mando",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/golpe-maestro-septima-podras-verla-tdt-desde-5-noviembre-sin-resintonizar-televisor-ni-tocar-un-solo-boton-mando_7051876_0.html",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "BioWare ayudó a definir el rol occidental y la inclusión en videojuegos, pero no cabe en la nueva EA propiedad de Arabia Saudí",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/bioware-ayudo-a-definir-rol-occidental-inclusion-videojuegos-no-nueva-ea-propiedad-arabia-saudi",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Fines de semana oscuros para Internet: eso es lo que traerá la nueva alianza antipiratería de LaLiga en Europa",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/nueva-alianza-antipirateria-laliga-europa/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Elon Musk pone fecha a su fábrica de chips: el primer procesador de Terafab llegará en 2027",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/elon-musk-pone-fecha-su-fabrica-chips-primer-procesador-terafab-llegara-2027_7051869_0.html",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "PcComponentes deja casi a mitad de precio este robot aspirador Roborock con 25.000 Pa que no necesita casi mantenimiento",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/pccomponentes-deja-casi-a-mitad-precio-este-robot-aspirador-roborock-25-000-pa-que-no-necesita-casi-mantenimiento",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Llegan los mensajes programados a WhatsApp: ya lo pueden probar los usuarios de iPhone",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/whatsapp/mensajes-programados-whatsapp-beta-ios/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "El oro blanco de la tecnología: el litio, uno de los elementos más codiciados del planeta",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/oro-blanco-tecnologia-litio-uno-los-elementos-mas-codiciados-planeta_7044809_0.html",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Carrefour liquida esta smart TV QLED de Xiaomi para la cocina o el dormitorio: ahora cuesta 149 euros",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/carrefour-liquida-esta-smart-tv-qled-xiaomi-para-cocina-dormitorio-ahora-cuesta-149-euros",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Dejar de cambiar la hora costaría menos de 2 euros al año",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/ciencia/ahorro-cambio-hora-electricidad-espana/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Enrique Álvarez, mecánico, sobre la calidad de los coches modernos: \"O salimos a las calles o en 5 años nadie va a tener poder adquisitivo para mantener un coche\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/enrique-alvarez-mecanico-sobre-calidad-los-coches-modernos-salimos-las-calles-5-anos-nadie-va-tener-poder-adquisitivo-para-mantener-un-coche_7051487_0.html",
+      "fecha": "22-10-2026"
+    }
+  ]
+}
