@@ -3,6 +3,160 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "DeepSeek habría cerrado una ronda de 15.000 millones de dólares días después del veto de EE. UU.",
+      "fuente": "TechCrunch",
+      "fecha": "22-10-2026 15:11",
+      "enlace": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Un agente de IA en «modo Skynet» secuestra modelos sin proteger para lanzar ciberataques autónomos",
+      "fuente": "The Decoder",
+      "fecha": "22-10-2026 13:30",
+      "enlace": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Agentes de OpenAI analizan datos de cerebro de ratón en 32 minutos, un trabajo de meses para humanos",
+      "fuente": "The Decoder",
+      "fecha": "22-10-2026 12:01",
+      "enlace": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Hugging Face lanza Carbon-X, un modelo abierto con el que se puede «chatear con el ADN»",
+      "fuente": "Wired",
+      "fecha": "22-10-2026 12:00",
+      "enlace": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "A OpenAI y Anthropic les han adelantado por la derecha en los agentes de IA: por WhatsApp",
+      "fuente": "Xataka",
+      "fecha": "22-10-2026 14:16",
+      "enlace": "https://www.xataka.com/robotica-e-ia/a-openai-anthropic-les-han-adelantado-derecha-agentes-ia-whatsapp-concretamente",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Bill Gates pide prepararse para 20 años de disrupción «tumultuosa» por la IA",
+      "fuente": "The Verge",
+      "fecha": "22-10-2026 16:00",
+      "enlace": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "1Password deja que los agentes de IA usen tus contraseñas sin verlas",
+      "fuente": "The Verge",
+      "fecha": "22-10-2026 15:00",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "La apuesta de IA de Spotify: ser el servicio de música que elijan los agentes",
+      "fuente": "TechCrunch",
+      "fecha": "22-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Recursive muestra el primer resultado de su proceso de investigación con IA: Flint",
+      "fuente": "The Decoder",
+      "fecha": "22-10-2026",
+      "enlace": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Nirva recauda 33 millones de dólares para un colgante que solo te escucha a ti",
+      "fuente": "TechCrunch",
+      "fecha": "22-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Huang, de Nvidia: no menciones el apocalipsis de la IA",
+      "fuente": "The Register",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/22/nvidias-huang-dont-mention-the-ai-pocalypse/5304743",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Los agentes de IA están listos para comprar, pero algunos comercios desconfían",
+      "fuente": "The Verge",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Claude no inventó el antiveneno de escorpión",
+      "fuente": "The Verge",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Los proveedores piden a sus ingenieros desplegados en clientes que justifiquen la apuesta de un billón de dólares en IA",
+      "fuente": "The Register",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/22/vendors-asking-forward-deployed-engineers-to-make-good-on-trillion-dollar-ai-bet/5304366",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "La factura oculta de almacenamiento de la IA: lo que deja la inferencia",
+      "fuente": "MIT Technology Review",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Gemini se vuelve \"personal\" en el coche: tendrá acceso a tu Gmail, Calendar y Maps mientras conduces",
+      "fuente": "Xataka",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/gemini-se-vuelve-personal-coche-tendra-acceso-a-tu-gmail-calendar-maps-conduces",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Crean virus con IA para tratar a pacientes humanos y todo apunta a que será un éxito: \"Creemos que podemos lograrlo en cuestión de días\"",
+      "fuente": "ComputerHoy",
+      "fecha": "22-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciencia/crean-virus-con-ia-para-tratar-pacientes-humanos-todo-apunta-que-sera-un-exito-creemos-que-podemos-lograrlo-cuestion-dias_7051881_0.html",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "La IA no ha encontrado un fallo nuevo en PHP, sino algo peor: la forma de aprovechar uno viejo",
+      "fuente": "Xataka",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.xataka.com/servicios/ia-no-ha-encontrado-fallo-nuevo-php-sino-algo-peor-forma-aprovechar-uno-viejo",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Anthropic lanza el agente de IA definitivo, Claude Duet: \"Te avisará cuando algo necesite tu ayuda\"",
+      "fuente": "ComputerHoy",
+      "fecha": "22-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/anthropic-lanza-agente-ia-definitivo-claude-duet-te-avisara-cuando-algo-necesite-tu-ayuda_7051882_0.html",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Qué es PHP y PHP2Shell, cuál es el papel de la IA en todo esto y cuánto tiempo tardará en solucionarse una de las mayores crisis de seguridad en la historia de internet",
+      "fuente": "ComputerHoy",
+      "fecha": "22-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/que-es-php-php2shell-cual-es-papel-ia-todo-esto-cuanto-tiempo-tardara-solucionarse-una-las-mayores-crisis-seguridad-historia-internet_7051873_0.html",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Los equipos de ciberseguridad necesitan más que nunca a la IA: \"Para abordar estos ataques, también debemos aprovechar la inteligencia artificial\"",
+      "fuente": "ComputerHoy",
+      "fecha": "22-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/los-equipos-ciberseguridad-necesitan-mas-que-nunca-ia-para-abordar-estos-ataques-tambien-debemos-aprovechar-inteligencia-artificial_7044156_0.html",
+      "turno": "2026-10-22_T"
+    },
+    {
+      "titulo": "Así es como los ciberdelincuentes crean falsos agentes de IA para robar dinero y contraseñas",
+      "fuente": "ComputerHoy",
+      "fecha": "22-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/asi-es-ciberdelincuentes-crean-falsos-agentes-ia-robar-dinero-contrasenas_7051580_0.html",
+      "turno": "2026-10-22_T"
+    },
+    {
       "titulo": "Anthropic lanza Claude Duet, un agente de IA para profesionales que compite con Muse de Meta",
       "fuente": "The Verge",
       "fecha": "21-10-2026 21:53",
