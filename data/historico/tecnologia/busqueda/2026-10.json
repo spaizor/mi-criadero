@@ -3,6 +3,237 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "GitLab corrige un fallo de gravedad máxima que permite ejecutar código remoto en versiones de los últimos 12 años",
+      "fuente": "The Register",
+      "fecha": "22-10-2026 19:36",
+      "enlace": "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Seis fallos críticos del kernel de Linux se filtran por error en una lista pública antes de tener parche",
+      "fuente": "ADSLZone",
+      "fecha": "22-10-2026 16:51",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/linux-vulnerabilidades-kernel-filtracion/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Las ventas de PC caen más de un 20 % en el tercer trimestre por el encarecimiento de la RAM",
+      "fuente": "The Verge",
+      "fecha": "22-10-2026 23:30",
+      "enlace": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Jensen Huang presenta RTX Spark en GTC Berlín y declara que «el PC ha muerto»: el portátil pasa a ser un agente personal",
+      "fuente": "ComputerHoy",
+      "fecha": "23-10-2026 02:16",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/pc-ha-muerto-jensen-huang-ceo-nvidia-anuncia-final-una-era-tu-ordenador-portatil-es-tu-agente-personal_7052055_0.html",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "The Browser Company cerrará Arc el 22 de diciembre y apuesta por su navegador de IA Dia",
+      "fuente": "TechCrunch",
+      "fecha": "22-10-2026 22:01",
+      "enlace": "https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "La FCC bloquea por primera vez dispositivos por llevar «chips de vigilancia extranjeros»",
+      "fuente": "The Verge",
+      "fecha": "22-10-2026 22:23",
+      "enlace": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Un investigador logra un jailbreak parcial de la Switch 2 que permite ejecutar homebrew",
+      "fuente": "Ars Technica",
+      "fecha": "23-10-2026 00:25",
+      "enlace": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Spotify confirma el control del plan Familiar con códigos QR, pero lo llama «mejora rutinaria»",
+      "fuente": "TechCrunch",
+      "fecha": "22-10-2026 17:24",
+      "enlace": "https://techcrunch.com/2026/10/22/spotify-confirms-family-plan-crackdown-but-calls-it-a-routine-improvement/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "La estimación actual de lanzamientos de Starship para apoyar un alunizaje: 22",
+      "fuente": "Ars Technica",
+      "fecha": "22-10-2026",
+      "enlace": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Comcast pierde más clientes y tacha de «irracionales» los precios baratos de otros operadores",
+      "fuente": "Ars Technica",
+      "fecha": "22-10-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Rivian compra una startup de modelos del mundo para acelerar su conducción autónoma",
+      "fuente": "TechCrunch",
+      "fecha": "22-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "El exploit de PHP2Shell sortea las protecciones diseñadas para frenar la ejecución remota de código",
+      "fuente": "The Register",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.theregister.com/security/2026/10/22/php2shell-exploit-bypasses-protections-designed-to-stop-remote-code-execution/5304883",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Rhode Island demanda a Meta por su manera de tratar los anuncios de estafas",
+      "fuente": "Engadget",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.engadget.com/2294778/rhode-island-sues-meta-over-its-approach-to-scam-ads/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "El altavoz Google Home lleva tiempo «comiéndose» en secreto los datos wifi, según un análisis",
+      "fuente": "Wired",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.wired.com/story/google-home-speaker-bug-oct-2026/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Samsung casi confirma que el iPhone Duo está impulsando las ventas del Galaxy Z8",
+      "fuente": "Ars Technica",
+      "fecha": "22-10-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Bluesky añade compatibilidad con iPad en su última actualización",
+      "fuente": "Engadget",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.engadget.com/2294583/bluesky-adds-ipad-support-in-latest-feature-update/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Amazon rebautiza Kindle Unlimited como Kindle+",
+      "fuente": "Engadget",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.engadget.com/2294533/amazon-rebrands-kindle-unlimited-to-kindle/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "PHP2Shell deja fuera de servicio a decenas de servicios del gobierno británico",
+      "fuente": "The Register",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.theregister.com/security/2026/10/22/php2shell-puts-dozens-of-uk-government-services-out-of-service/5304840",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Tesla prepara una avalancha de Cybercab",
+      "fuente": "TechCrunch",
+      "fecha": "22-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/22/tesla-is-prepping-a-cybercab-onslaught/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "El proceso de revisión de la App Store de Apple sufre un atasco",
+      "fuente": "The Register",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.theregister.com/applications/2026/10/22/apple-app-store-review-process-hits-a-traffic-jam/5304802",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Apagar el móvil cinco minutos al día: el consejo de sistemas de Moncloa que Sánchez contó en ‘La Revuelta’ para protegerse de virus",
+      "fuente": "Xataka",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.xataka.com/seguridad/apagar-movil-cinco-minutos-al-dia-consejo-que-recibio-pedro-sanchez-moncloa-para-protegerlo-amenazas",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "One UI 9.0 aterriza en los Galaxy A más vendidos: estos son los Samsung compatibles con Android 17",
+      "fuente": "Hipertextual",
+      "fecha": "22-10-2026",
+      "enlace": "https://hipertextual.com/mobile/samsung-one-ui-9-android-17-galaxy-a16-a17-a07-a35/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Orange lleva el cambio gratis al router WiFi 7 a los clientes de Jazztel",
+      "fuente": "ADSLZone",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/orange-cambio-gratis-router-wifi-7-jazztel/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Así puedes convertir un viejo móvil Android en un robot humanoide bípedo con PhoneBot",
+      "fuente": "ComputerHoy",
+      "fecha": "22-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/asi-puedes-convertir-un-viejo-movil-android-un-robot-humanoide-bipedo-con-phonebot_7052066_0.html",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Los fallos críticos de PHP acaban de hacerse públicos. Lo misterioso es que alguien ya intentaba explotarlos cuatro días antes",
+      "fuente": "Xataka",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.xataka.com/seguridad/fallos-criticos-php-acaban-hacerse-publicos-misterioso-que-alguien-intentaba-explotarlos-cuatro-dias-antes",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Apple ya trabaja en el iPhone Duo 2 para resolver la mayor carencia del modelo original",
+      "fuente": "Hipertextual",
+      "fecha": "22-10-2026",
+      "enlace": "https://hipertextual.com/apple/el-iphone-duo-2-podria-llegar-con-face-id/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Levi’s reforma por completo su tienda del centro comercial Gran Plaza 2 y suma Mango Home",
+      "fuente": "ADSLZone",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/centro-comercial-gran-plaza-2-renueva-tiendas-majadahonda/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "DAZN llega a un acuerdo con la ACB y emitirá baloncesto español gratis sin necesidad de cuenta de abonado",
+      "fuente": "ComputerHoy",
+      "fecha": "22-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/dazn-llega-un-acuerdo-con-acb-emitira-baloncesto-espanol-gratis-sin-necesidad-cuenta-abonado_7052060_0.html",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Los astrónomo han hecho la mejor radiografía hasta el momento de los 5 primeros minutos del Universo",
+      "fuente": "Xataka",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.xataka.com/espacio/astronomo-han-hecho-mejor-radiografia-momento-5-primeros-minutos-universo",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Movistar te ofrece una nube ilimitada gratis por tener una tarifa móvil, pero debes saber esto",
+      "fuente": "ADSLZone",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-nube-gratis-tarifa-movil-debes-saber-esto/",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Dejar de cambiar la hora en España costaría menos de 2 euros al año: un estudio desmonta el supuesto ahorro",
+      "fuente": "ComputerHoy",
+      "fecha": "22-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/dejar-cambiar-hora-espana-costaria-menos-2-euros-ano-un-estudio-desmonta-supuesto-ahorro_7052166_0.html",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Airbnb pone límite a las tareas de los huéspedes: ya no podrán exigirte fregar los platos ni sacar la basura",
+      "fuente": "Xataka",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.xataka.com/aplicaciones/airbnb-pone-limite-a-tareas-huespedes-no-podran-exigirte-fregar-platos-sacar-basura",
+      "turno": "2026-10-23_M"
+    },
+    {
+      "titulo": "Android Auto tiene una app que te deja jugar a casi cualquier juego con el coche aparcado",
+      "fuente": "ADSLZone",
+      "fecha": "22-10-2026",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/android-auto-maker-juegos-aparcados/",
+      "turno": "2026-10-23_M"
+    },
+    {
       "titulo": "Railway pide a «todos los usuarios» revocar sus claves secretas tras un ciberataque",
       "fuente": "TechCrunch",
       "fecha": "22-10-2026 16:03",
