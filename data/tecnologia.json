@@ -1,214 +1,196 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "23-10-2026 04:11",
+  "actualizado": "23-10-2026 16:13",
   "destacadas": [
     {
-      "titulo": "GitLab corrige un fallo de gravedad máxima que permite ejecutar código remoto en versiones de los últimos 12 años",
-      "resumen": "GitLab parcheó el miércoles la vulnerabilidad CVE-2026-110264, un desbordamiento de enteros al compilar expresiones regulares que permite a un atacante sin autenticar ejecutar código en servidores autoalojados, y que afecta a las ediciones CE y EE desde GitLab 7.0 (junio de 2014). Las correcciones llegan en las versiones 19.5.1, 19.4.3 y 19.3.6, con parches retroactivos hasta la 18.11.13. No hay explotación activa conocida, pero la plataforma tiene 50 millones de usuarios registrados y otro fallo máximo similar fue atacado el mes pasado a los pocos días del parche.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
-      "fecha": "22-10-2026 19:36"
+      "titulo": "Grecia aprueba prohibir las redes sociales a los menores de 15 años",
+      "resumen": "El Parlamento griego ha aprobado la ley, que entrará en vigor el 1 de enero de 2027 y afecta a plataformas como TikTok, Instagram, Facebook y X, que deberán aplicar verificación de edad fiable. Los padres tendrán que usar las apps estatales Kids Wallet o Gov.gr, y el incumplimiento se sancionará con multas de la Ley de Servicios Digitales de la UE. Es una de las primeras leyes así en la Unión, cuyo proyecto EU Kids Act solo prohíbe de forma estricta por debajo de 13 años.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2295143/greece-enacts-social-media-ban-for-kids-under-15/",
+      "fecha": "23-10-2026 15:12"
     },
     {
-      "titulo": "Seis fallos críticos del kernel de Linux se filtran por error en una lista pública antes de tener parche",
-      "resumen": "Zero Day Initiative, de Trend Micro, envió por error a la lista pública de desarrollo del kernel seis avisos de vulnerabilidades que debían ir al canal privado de seguridad; uno de ellos se había publicado un día antes que los otros cinco. Dos alcanzan 9 sobre 10 en CVSS (ZDI-CAN-33549 en SMB Direct y ZDI-CAN-33774 en KSMBD) y permiten ejecutar comandos sin acceso previo; otros tres permiten escalada local de privilegios. Ninguno tenía parche en la rama principal y la información ya no se puede retirar.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/seguridad/linux-vulnerabilidades-kernel-filtracion/",
-      "fecha": "22-10-2026 16:51"
-    },
-    {
-      "titulo": "Las ventas de PC caen más de un 20 % en el tercer trimestre por el encarecimiento de la RAM",
-      "resumen": "Counterpoint Research cifra en un 21 % interanual la caída de envíos de PC en el tercer trimestre de 2026, en línea con IDC y Omdia, mientras los envíos de móviles tocaron un mínimo de 14 años. El alza de RAM, SSD y chips de Intel, AMD y Qualcomm ha llevado a algunas marcas a recuperar DDR4 y GPU de 4 GB. Counterpoint prevé una caída del 27 % en el cuarto trimestre y un 2027 plano.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram",
-      "fecha": "22-10-2026 23:30"
-    },
-    {
-      "titulo": "Jensen Huang presenta RTX Spark en GTC Berlín y declara que «el PC ha muerto»: el portátil pasa a ser un agente personal",
-      "resumen": "En GTC Berlín 2026, el CEO de Nvidia mostró un portátil RTX Spark con arquitectura Blackwell, CPU Grace, hasta 128 GB de memoria unificada y hasta 1 petaflop de rendimiento de IA en FP4. Huang defendió que el usuario ya no abrirá aplicaciones, sino que fijará objetivos y un agente local coordinará las herramientas, y comparó el DGX-1 de 2016, que requería dos personas para moverlo, con un equipo equivalente que hoy cabe en una mano.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/pc-ha-muerto-jensen-huang-ceo-nvidia-anuncia-final-una-era-tu-ordenador-portatil-es-tu-agente-personal_7052055_0.html",
-      "fecha": "23-10-2026 02:16"
-    },
-    {
-      "titulo": "The Browser Company cerrará Arc el 22 de diciembre y apuesta por su navegador de IA Dia",
-      "resumen": "La compañía, adquirida por Atlassian por 610 millones de dólares en 2025, ya no admite cuentas nuevas en Arc; el 23 de noviembre Arc Search perderá sus funciones de IA y el 22 de diciembre dejará de funcionar en Mac y Windows, con borrado de datos en 30 días. Alega el coste creciente de mantener seguro un navegador en la era de la IA. Dia heredará perfiles, pestañas laterales y grupos de pestañas fijadas, y el CEO Josh Miller descarta abrir el código porque Arc comparte con Dia su SDK propietario.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/",
-      "fecha": "22-10-2026 22:01"
-    },
-    {
-      "titulo": "La FCC bloquea por primera vez dispositivos por llevar «chips de vigilancia extranjeros»",
-      "resumen": "Tras darse el 13 de octubre el poder de vetar aparatos con cualquier chip de empresas de su lista de amenazas, la FCC lo estrena contra dos dispositivos que incluyen el SoC HiVision Hi3516CV610, usado en cámaras de seguridad y dashcams. La agencia lo califica de chip de vigilancia porque HiVision, filial de Huawei, lo anuncia con detección de rostros. La FCC no ha dicho qué aparatos bloquea ni ha respondido a las preguntas del medio.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-      "fecha": "22-10-2026 22:23"
-    },
-    {
-      "titulo": "Un investigador logra un jailbreak parcial de la Switch 2 que permite ejecutar homebrew",
-      "resumen": "Sammy Hajhamid («Pepsipu») logró acceso a nivel de usuario sin hardware adicional, usando la versión de Switch original de SmileBasic 4: un desbordamiento de enteros de 32 bits y otro de búfer en el módulo del sistema de archivos le dan lectura y escritura de memoria y ejecución de código nativo. Usó Codex de OpenAI durante unas dos semanas para localizar el fallo. El método es «tethered» y exige un PC con macOS o Linux en la misma red; como prueba mostró personajes modificados en Mario Kart World.",
+      "titulo": "Ucrania aprende a combatir sin Starlink mientras Musk juega a la política con sus satélites",
+      "resumen": "Las restricciones impuestas por SpaceX el 13 de octubre han vuelto a dejar a Ucrania sin un servicio clave para comunicaciones y guiado de drones, tras el corte de febrero de 2026 a terminales fuera de la lista blanca. Empresas ucranianas y socios occidentales ya despliegan drones que dependen menos de Starlink. Países como Polonia y Alemania han pagado decenas de miles de terminales, y EE. UU. cedió acceso a Starshield.",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
-      "fecha": "23-10-2026 00:25"
+      "enlace": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
+      "fecha": "23-10-2026 13:30"
     },
     {
-      "titulo": "Spotify confirma el control del plan Familiar con códigos QR, pero lo llama «mejora rutinaria»",
-      "resumen": "En la llamada de resultados del tercer trimestre, el codirector ejecutivo Alex Norström restó importancia a la verificación por QR, con la que los miembros deben confirmar que viven con el administrador del plan. Tienen siete días para hacerlo; si no, no podrán unirse a otro plan Familiar o Duo durante 12 meses y tendrán que pasar a un plan individual. Spotify busca impulsar Premium frente a quienes reparten un plan Familiar sin convivir.",
+      "titulo": "Sam Altman: «No encuentro una palabra lo bastante dramática para describir el problema que se nos viene encima»",
+      "resumen": "En una charla en la Escuela de Negocios de Stanford, el CEO de OpenAI advirtió del impacto de los agentes de IA en la ciberseguridad. Recordó que entre el 9 y el 13 de julio agentes de OpenAI hicieron unas 17.600 acciones dentro de Hugging Face y ejecutaron código en 41 servidores de producción. Cree que el sandbox solo funcionará un tiempo y que habrá que «cambiar por completo el modelo de defensa».",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/sam-altman-no-encuentro-palabra-bastante-dramatica-para-describir-problema-que-se-nos-viene-encima",
+      "fecha": "23-10-2026 15:00"
+    },
+    {
+      "titulo": "Warhound, la startup que quiere criar perros militares modificados genéticamente",
+      "resumen": "Warhound, impulsada por Ben Lamm (Colossal Biosciences) y Palmer Luckey (Anduril), ha levantado 200 millones de dólares. Ya edita genes de células de perros de trabajo, sobre todo pastores belgas malinois, para clonarlos con menos riesgo de displasia de cadera o cáncer. Anduril diseñará gafas y chalecos, y la primera camada nacerá a principios de 2027.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2295033/warhound-genetically-engineering-dogs-military/",
+      "fecha": "23-10-2026 11:01"
+    },
+    {
+      "titulo": "Oura vuelve a demandar a Ultrahuman para frenar la venta de su anillo Ring Pro en EE. UU.",
+      "resumen": "Oura ha presentado en un tribunal federal de Texas una demanda por dos patentes de diseño y componentes internos, una de ellas concedida el 20 de octubre, dos días antes. También demanda al fabricante SVTronics. Ultrahuman, que volvió a vender en EE. UU. tras un dictamen favorable de Aduanas en marzo, asegura que no hay ninguna orden judicial y que se defenderá.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/22/spotify-confirms-family-plan-crackdown-but-calls-it-a-routine-improvement/",
-      "fecha": "22-10-2026 17:24"
+      "enlace": "https://techcrunch.com/2026/10/22/oura-sues-rival-ultrahuman-again-threatening-its-u-s-smart-ring-comeback/",
+      "fecha": "23-10-2026 06:22"
+    },
+    {
+      "titulo": "Reino Unido amenaza con 14 años de cárcel a quien sabotee cables submarinos",
+      "resumen": "El Gobierno británico propone sustituir leyes de 1885 por penas de hasta 14 años y multas ilimitadas para quien dañe de forma intencionada infraestructuras submarinas de energía o telecomunicaciones. Los cables llevan el 99 % del tráfico internacional de datos del país y las tuberías, el 74 % de su gas. Los operadores tendrán nuevas obligaciones de seguridad y se regulará la detección por fibra óptica.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/10/23/uk-threatens-subsea-cable-saboteurs-with-14-years-behind-bars/5304794",
+      "fecha": "23-10-2026 11:29"
+    },
+    {
+      "titulo": "Jensen Huang avisa a Europa: Alemania, «uno de los países más avanzados», se está quedando atrás en IA",
+      "resumen": "El CEO de Nvidia dijo en Londres, antes de la GTC europea, que nada le duele más que ver a un país tecnológicamente tan avanzado rezagado. También anunció inversiones en cinco startups británicas y elogió a Nscale, que podría ser la empresa británica más valiosa en una década. Después tenía previsto reunirse con el canciller Friedrich Merz.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/jensen-huang-ceo-nvidia-lanza-un-aviso-europa-uno-los-paises-mas-avanzados-nivel-tecnologico-se-esta-quedando-atras_7052413_0.html",
+      "fecha": "23-10-2026 11:15"
+    },
+    {
+      "titulo": "SpaceX gana 561 millones de dólares gracias a su participación en The Boring Company",
+      "resumen": "Según el informe trimestral de SpaceX, la ganancia por su participación en la empresa de túneles supuso más de la mitad de sus «otros ingresos», con unos ingresos netos de unos 4.000 millones de dólares. The Boring Company levantó 3.000 millones en septiembre con una valoración de 23.000 millones y planea más de 150 kilómetros de túneles en Emiratos, entre ellos el Dubai Loop.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/elon-musk-encuentra-otra-mina-oro-spacex-gana-561-millones-dolares-gracias-una-sus-empresas_7052414_0.html",
+      "fecha": "23-10-2026 14:10"
     }
   ],
   "titulares": [
     {
-      "titulo": "La estimación actual de lanzamientos de Starship para apoyar un alunizaje: 22",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/",
-      "fecha": "22-10-2026"
+      "titulo": "Apple resucita el iPod original como easter egg de Apple Music",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/entertainment/1017413/apple-music-ipod-404-page",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Comcast pierde más clientes y tacha de «irracionales» los precios baratos de otros operadores",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/",
-      "fecha": "22-10-2026"
+      "titulo": "Quienes programan con IA mejoran sus propios sistemas operativos de televisión",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1016116/vibe-coding-tv-os",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Rivian compra una startup de modelos del mundo para acelerar su conducción autónoma",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/",
-      "fecha": "22-10-2026"
+      "titulo": "Brick lanza un bloqueador de apps pensado contra el «doomscrolling» nocturno",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/gadgets/1017383/brick-night-app-blocker-gadget-bluetooth-launch",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "El exploit de PHP2Shell sortea las protecciones diseñadas para frenar la ejecución remota de código",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/22/php2shell-exploit-bypasses-protections-designed-to-stop-remote-code-execution/5304883",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Rhode Island demanda a Meta por su manera de tratar los anuncios de estafas",
+      "titulo": "Tesla no lanzará el Cybertruck en Australia ni Nueva Zelanda",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2294778/rhode-island-sues-meta-over-its-approach-to-scam-ads/",
-      "fecha": "22-10-2026"
+      "enlace": "https://www.engadget.com/2295058/tesla-will-not-release-cybertruck-in-australia-and-new-zealand/",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "El altavoz Google Home lleva tiempo «comiéndose» en secreto los datos wifi, según un análisis",
+      "titulo": "No, el iPhone Duo no es un móvil pequeño",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1017090/iphone-duo-screen-size-mini",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "8 cosas que debes saber del iPhone Duo",
       "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/google-home-speaker-bug-oct-2026/",
-      "fecha": "22-10-2026"
+      "enlace": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Samsung casi confirma que el iPhone Duo está impulsando las ventas del Galaxy Z8",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Bluesky añade compatibilidad con iPad en su última actualización",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2294583/bluesky-adds-ipad-support-in-latest-feature-update/",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Amazon rebautiza Kindle Unlimited como Kindle+",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2294533/amazon-rebrands-kindle-unlimited-to-kindle/",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "PHP2Shell deja fuera de servicio a decenas de servicios del gobierno británico",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/22/php2shell-puts-dozens-of-uk-government-services-out-of-service/5304840",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Tesla prepara una avalancha de Cybercab",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/22/tesla-is-prepping-a-cybercab-onslaught/",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "El proceso de revisión de la App Store de Apple sufre un atasco",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/applications/2026/10/22/apple-app-store-review-process-hits-a-traffic-jam/5304802",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Apagar el móvil cinco minutos al día: el consejo de sistemas de Moncloa que Sánchez contó en ‘La Revuelta’ para protegerse de virus",
+      "titulo": "Llevamos años esperando un 'Ozempic' que no requiera frío ni inyecciones. Y Europa está a punto de autorizarlo",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/apagar-movil-cinco-minutos-al-dia-consejo-que-recibio-pedro-sanchez-moncloa-para-protegerlo-amenazas",
-      "fecha": "22-10-2026"
+      "enlace": "https://www.xataka.com/medicina-y-salud/llevamos-anos-esperando-ozempic-que-no-requiera-frio-inyecciones-europa-esta-a-punto-autorizarlo",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "One UI 9.0 aterriza en los Galaxy A más vendidos: estos son los Samsung compatibles con Android 17",
+      "titulo": "Aura: Así es el nuevo concept car de Lepas que quiere convertirse en tu nuevo coche favorito.",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/samsung-one-ui-9-android-17-galaxy-a16-a17-a07-a35/",
-      "fecha": "22-10-2026"
+      "enlace": "https://hipertextual.com/movilidad/lepas-aura/",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Orange lleva el cambio gratis al router WiFi 7 a los clientes de Jazztel",
+      "titulo": "Si todavía tienes Fusión de Movistar, piénsatelo dos veces antes de pasar a miMovistar",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/orange-cambio-gratis-router-wifi-7-jazztel/",
-      "fecha": "22-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/operadores/fusion-movistar-ventajas-pasar-mimovistar/",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Así puedes convertir un viejo móvil Android en un robot humanoide bípedo con PhoneBot",
+      "titulo": "Apple quiere recuperar Face ID en el iPhone Duo 2 y tiene una idea para ocultarlo bajo la pantalla",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/asi-puedes-convertir-un-viejo-movil-android-un-robot-humanoide-bipedo-con-phonebot_7052066_0.html",
-      "fecha": "22-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/apple-quiere-recuperar-face-id-iphone-duo-2-tiene-una-idea-para-ocultarlo-bajo-pantalla_7052416_0.html",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Los fallos críticos de PHP acaban de hacerse públicos. Lo misterioso es que alguien ya intentaba explotarlos cuatro días antes",
+      "titulo": "Construir máquinas capaces de estudiar el universo cuesta miles de millones. El CERN ha calculado cuánto dinero nos devuelven",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/fallos-criticos-php-acaban-hacerse-publicos-misterioso-que-alguien-intentaba-explotarlos-cuatro-dias-antes",
-      "fecha": "22-10-2026"
+      "enlace": "https://www.xataka.com/investigacion/construir-maquinas-capaces-estudiar-universo-cuesta-miles-millones-cern-ha-calculado-cuanto-dinero-nos-devuelven",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Apple ya trabaja en el iPhone Duo 2 para resolver la mayor carencia del modelo original",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/apple/el-iphone-duo-2-podria-llegar-con-face-id/",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Levi’s reforma por completo su tienda del centro comercial Gran Plaza 2 y suma Mango Home",
+      "titulo": "El cambio de hora tiene un efecto inesperado en las cámaras de seguridad de tu casa: cuidado con las grabaciones",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/centro-comercial-gran-plaza-2-renueva-tiendas-majadahonda/",
-      "fecha": "22-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/ciencia/cambio-hora-camaras-seguridad-grabaciones/",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "DAZN llega a un acuerdo con la ACB y emitirá baloncesto español gratis sin necesidad de cuenta de abonado",
+      "titulo": "Un hacker ético muestra cómo se explota PHP2Shell en un entorno controlado y comparte otros exploits",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/dazn-llega-un-acuerdo-con-acb-emitira-baloncesto-espanol-gratis-sin-necesidad-cuenta-abonado_7052060_0.html",
-      "fecha": "22-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/un-hacker-etico-muestra-como-se-explota-php2shell-un-entorno-controlado-comparte-otros-exploits_7052181_0.html",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Los astrónomo han hecho la mejor radiografía hasta el momento de los 5 primeros minutos del Universo",
+      "titulo": "La desaparición del \"sueño bifásico\": cómo la Revolución Industrial eliminó la costumbre de dormir en dos tandas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/astronomo-han-hecho-mejor-radiografia-momento-5-primeros-minutos-universo",
-      "fecha": "22-10-2026"
+      "enlace": "https://www.xataka.com/investigacion/desaparicion-sueno-bifasico-como-revolucion-industrial-elimino-costumbre-dormir-dos-tandas",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Movistar te ofrece una nube ilimitada gratis por tener una tarifa móvil, pero debes saber esto",
+      "titulo": "Desactivar estas dos funciones de Windows puede mejorar el rendimiento de tu PC",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-nube-gratis-tarifa-movil-debes-saber-esto/",
-      "fecha": "22-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/windows/desactivar-funciones-windows-11-mejorar-rendimiento-pc/",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Dejar de cambiar la hora en España costaría menos de 2 euros al año: un estudio desmonta el supuesto ahorro",
+      "titulo": "Ya a la venta Computer Hoy número 732: cuando pasamos de escuchar álbumes a consumir canciones",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/dejar-cambiar-hora-espana-costaria-menos-2-euros-ano-un-estudio-desmonta-supuesto-ahorro_7052166_0.html",
-      "fecha": "22-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/ya-venta-computer-hoy-numero-732-cuando-pasamos-escuchar-albumes-consumir-canciones_7049058_0.html",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Airbnb pone límite a las tareas de los huéspedes: ya no podrán exigirte fregar los platos ni sacar la basura",
+      "titulo": "MediaMarkt está liquidando en su outlet este portátil HP convertible con 32 GB de RAM, 1 TB de SSD y pantalla OLED",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/aplicaciones/airbnb-pone-limite-a-tareas-huespedes-no-podran-exigirte-fregar-platos-sacar-basura",
-      "fecha": "22-10-2026"
+      "enlace": "https://www.xataka.com/seleccion/mediamarkt-esta-liquidando-su-outlet-este-portatil-hp-convertible-32-gb-ram-1-tb-ssd-pantalla-oled",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Android Auto tiene una app que te deja jugar a casi cualquier juego con el coche aparcado",
+      "titulo": "Pedro Sánchez y el truco de Moncloa para proteger el móvil: apagarlo cinco minutos al día, ¿sirve de algo?",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/android-auto-maker-juegos-aparcados/",
-      "fecha": "22-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/seguridad/pedro-sanchez-apagar-movil-cinco-minutos-virus/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "He usado el Samsung Galaxy Watch Ultra 2 para 3 actividades diferentes y creo que gana en deportes de exterior",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/he-usado-samsung-galaxy-watch-ultra-2-para-3-actividades-diferentes-creo-que-gana-deportes-exterior_7045731_0.html",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "MediaMarkt lanza un pack ahorro en la Nintendo Switch 2: incluye la consola, videojuego y suscripción online",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/mediamarkt-lanza-pack-ahorro-nintendo-switch-2-incluye-consola-videojuego-suscripcion-online",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "Si tienes DIGI TV, tu televisión acaba de mejorar: estas son las 5 novedades que llegan a tu Smart TV",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-tv-renueva-interfaz-cinco-mejoras/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "El iPhone Duo se somete a la prueba de los 10.000 pliegues y este es el resultado: \"23 minutos después he decidido que mi teléfono no necesita plegarse\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/iphone-duo-se-somete-prueba-los-10-000-pliegues-este-es-resultado-23-minutos-despues-he-decidido-que-mi-telefono-no-necesita-plegarse_7052056_0.html",
+      "fecha": "23-10-2026"
     }
   ]
 }
