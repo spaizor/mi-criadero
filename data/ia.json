@@ -1,146 +1,122 @@
 {
   "seccion": "ia",
-  "actualizado": "22-10-2026 17:11",
+  "actualizado": "23-10-2026 05:10",
   "destacadas": [
     {
-      "titulo": "DeepSeek habría cerrado una ronda de 15.000 millones de dólares días después del veto de EE. UU.",
-      "resumen": "Según Bloomberg, DeepSeek habría recaudado unos 15.000 millones de dólares, una de las mayores rondas de China, con CATL y Tencent entre los posibles inversores. Llega dos días después de que EE. UU. ordenara a las agencias civiles federales retirar su tecnología por motivos de seguridad nacional. En junio había cerrado más de 7.000 millones a una valoración de 50.000 millones, y la empresa no ha confirmado la cifra.",
+      "titulo": "OpenAI negocia una ronda de 30.000 millones con una valoración de 1,25 billones antes de su salida a bolsa",
+      "resumen": "Según CNBC, la ronda estaría liderada por Coatue e inversores de Emiratos Árabes Unidos y podría ir acompañada de un acuerdo de capacidad de cómputo desde los EAU. En septiembre Bloomberg hablaba de 1,4 billones, así que los términos aún pueden cambiar. OpenAI presentó en junio sus documentos confidenciales para la OPI y en marzo se valoró en 852.000 millones; Anthropic, que levantó 65.000 millones en mayo, buscaría entre 1,5 y 2 billones.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
-      "fecha": "22-10-2026 15:11"
+      "enlace": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "fecha": "23-10-2026 00:08"
     },
     {
-      "titulo": "Un agente de IA en «modo Skynet» secuestra modelos sin proteger para lanzar ciberataques autónomos",
-      "resumen": "Symantec capturó con un honeypot un agente ofensivo que usa modelos de lenguaje expuestos en internet, a costa de su dueño, para atacar sin supervisión hasta 100.000 pasos seguidos. Lleva 74 módulos de ataque, roba bases de datos y credenciales e instala mineros de criptomonedas. El honeypot registró más de 127.000 solicitudes de decenas de miles de direcciones.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
-      "fecha": "22-10-2026 13:30"
+      "titulo": "Microsoft asegura que su IA diagnostica mejor que los médicos",
+      "resumen": "El Diagnostic Orchestrator, un sistema de varios agentes basado en GPT-5, acertó cerca del 83 % de los casos del New England Journal of Medicine frente al 36 % de médicos generalistas con referencias, según un estudio publicado en Science. En casos de urgencias del Beth Israel Deaconess Medical Center logró un 80 % frente al 47 % de los médicos. Solo se ha probado con casos pasados; Microsoft prevé pruebas en hospitales en los próximos meses y liberará su benchmark SDBench.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+      "fecha": "22-10-2026 20:00"
     },
     {
-      "titulo": "Agentes de OpenAI analizan datos de cerebro de ratón en 32 minutos, un trabajo de meses para humanos",
-      "resumen": "OpenAI, PerturbAI y Scripps Research desplegaron miles de agentes con GPT-Rosalind sobre un atlas CRISPR de millones de células de ratón, cada uno centrado en una perturbación génica. Hallaron diferencias inesperadas entre dos genes ligados a enfermedades y un posible vínculo entre el colesterol y la neurodegeneración. Los expertos prefirieron sus informes a los de un agente único en el 75 % de las comparaciones ciegas.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/",
-      "fecha": "22-10-2026 12:01"
-    },
-    {
-      "titulo": "Hugging Face lanza Carbon-X, un modelo abierto con el que se puede «chatear con el ADN»",
-      "resumen": "El modelo, desarrollado con la Zhongguancun Academy y la Universidad de Nápoles, se ejecuta en un portátil y responde en lenguaje natural sobre el efecto de cambios en el ADN. Se entrenó con 300.000 millones de tokens de secuencias de mamíferos, plantas u hongos, sin virus por riesgo de mal uso, y admite fragmentos de unos 50.000 pares de bases. Hugging Face, que Nvidia acordó comprar en septiembre por casi 13.000 millones de dólares, lo ve útil para diseñar fármacos.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-      "fecha": "22-10-2026 12:00"
-    },
-    {
-      "titulo": "A OpenAI y Anthropic les han adelantado por la derecha en los agentes de IA: por WhatsApp",
-      "resumen": "Instinct, startup de un fundador de 23 años, funciona por WhatsApp o iMessage sin app propia, con unos 100.000 usuarios gratuitos y cerca de 1.000 millones de dólares al año en transacciones. Meta Muse, lanzado el 8 de septiembre, superó los cinco millones de descargas en 22 días y cobrará comisión a los comercios. Claude Duet y Dots, de OpenAI, llegan después y se integran en suscripciones.",
+      "titulo": "Anthropic muestra el efecto de la IA en el empleo junior: del 27 % al 9 % de las nuevas contrataciones",
+      "resumen": "Los datos internos de Anthropic indican que los perfiles junior pasaron del 27 % de las contrataciones técnicas a principios de 2025 al 9 % en junio de 2026, mientras la empresa triplicó su plantilla. En agosto los agentes trabajaban seis horas por cada hora humana. Otros estudios apuntan en la misma línea (Stanford: -13 % de empleo relativo entre 22 y 25 años; DigitalES: -33 % de ofertas junior de programación), aunque no hay pruebas de que la IA sea la única causa.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/a-openai-anthropic-les-han-adelantado-derecha-agentes-ia-whatsapp-concretamente",
-      "fecha": "22-10-2026 14:16"
+      "enlace": "https://www.xataka.com/robotica-e-ia/anthropic-muestra-efecto-ia-empleo-junior-27-al-9-nuevas-contrataciones",
+      "fecha": "22-10-2026 20:16"
     },
     {
-      "titulo": "Bill Gates pide prepararse para 20 años de disrupción «tumultuosa» por la IA",
-      "resumen": "En una entrevista en el podcast Decoder, Gates sostiene que la respuesta política no está a la altura de la velocidad del reto, tras su ensayo de finales de agosto sobre la «era turbulenta de la IA». Ha llegado a decir que la IA es «lo más peligroso» a lo que se ha acercado la humanidad. Cree que el periodo podría dividir la sociedad entre quienes viven en la frontera tecnológica y quienes la rechazan.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
-      "fecha": "22-10-2026 16:00"
+      "titulo": "Los grandes bancos de EE. UU. bloquean a los agentes de IA que entran con las credenciales del cliente",
+      "resumen": "Morgan Stanley, JPMorgan, Bank of America, Wells Fargo y Citi restringen a los agentes externos porque usan credenciales del cliente sin aprobación del banco, algo que sus políticas prohíben. Morgan Stanley los bloquea del todo y la mayoría quiere limitarlos a lectura. Los bancos tampoco distinguen si el agente actúa por encargo del usuario o por su cuenta, y herramientas como Computer Use u OpenClaw hacen difícil frenarlos.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/",
+      "fecha": "22-10-2026 20:26"
     },
     {
-      "titulo": "1Password deja que los agentes de IA usen tus contraseñas sin verlas",
-      "resumen": "1Password for Agents hace que el agente se identifique con una clave digital y que 1Password rellene el login tras aprobarlo el usuario en su dispositivo, de forma parecida a un segundo factor. Funciona con Meta Muse, ChatGPT Work, Dots, Claude Duet, Grok Bot y Town, y sumarán Browserbase, Perplexity o Ramp, entre otros.",
+      "titulo": "Uber da ChatGPT Work a sus 30.000 empleados",
+      "resumen": "Uber amplía su alianza con OpenAI y dará acceso al agente empresarial ChatGPT Work, presentado en julio, a toda su plantilla global. Lo probó antes con unos 1.000 empleados y cerca del 80 % de los primeros usuarios no eran ingenieros; lo usaron para analizar datos operativos, localizar material formativo en varios idiomas y crear paneles. Uber no ha revelado la inversión y medirá el uso para decidir cómo seguir.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "fecha": "22-10-2026 18:00"
+    },
+    {
+      "titulo": "Google presenta Agent Compute Engine: cada agente de Gemini en su propia microVM aislada",
+      "resumen": "El servicio ejecuta cada agente en una microVM protegida por el chip Titanium, que se pausa sola cuando el agente está inactivo. Junto a él llega Agent Substrate, un runtime abierto para Kubernetes con el que Google dice alojar diez veces más agentes por servidor; con 200.000 agentes, suspender y reanudar tardó menos de 500 ms. Estará en vista previa en los próximos meses, con seguimiento de tokens y soporte para Ping Identity y SailPoint.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
+      "fecha": "22-10-2026 19:50"
+    },
+    {
+      "titulo": "Canva lanza Craft, su primer modelo de imágenes, que planifica el diseño antes de generarlo",
+      "resumen": "Canva Craft usa una arquitectura de dos etapas para dar más precisión en texto legible y colocación de objetos, con imágenes de hasta 2K y más de 30 formatos. Se entrenó con millones de plantillas de la plataforma y es cuarto en el ranking de Design Arena, por detrás de tres modelos de OpenAI. Ya está disponible para todos los usuarios en Dream Lab y llegarán las versiones Craft-fast y Craft-ultrafast.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
-      "fecha": "22-10-2026 15:00"
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "fecha": "22-10-2026 23:51"
     }
   ],
   "titulares": [
     {
-      "titulo": "La apuesta de IA de Spotify: ser el servicio de música que elijan los agentes",
+      "titulo": "Dejados solos sin nada que hacer, los agentes de IA se pusieron a jugar",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "enlace": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "La IA de Meta aún podría rastrear webs de noticias, dicen expertos legales",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
       "fecha": "22-10-2026"
     },
     {
-      "titulo": "Recursive muestra el primer resultado de su proceso de investigación con IA: Flint",
+      "titulo": "Meta reactiva el uso compartido de Muse",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "OpenAI lanza al público general su rival de Jev mientras se calienta la competencia de modelos de decisión",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Mustafa Suleyman: la IA de Microsoft supera a los médicos en casos difíciles mientras persigue la «superinteligencia médica»",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "En la visión del futuro de Meta, mi Muse llamará a tu Muse",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+      "fecha": "22-10-2026"
+    },
+    {
+      "titulo": "Solo el 13 % de las empresas ve retornos reales de la IA, según una encuesta de Gartner",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/",
+      "enlace": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/",
       "fecha": "22-10-2026"
     },
     {
-      "titulo": "Nirva recauda 33 millones de dólares para un colgante que solo te escucha a ti",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Huang, de Nvidia: no menciones el apocalipsis de la IA",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/22/nvidias-huang-dont-mention-the-ai-pocalypse/5304743",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Los agentes de IA están listos para comprar, pero algunos comercios desconfían",
+      "titulo": "OpenAI, Anthropic y Nvidia registraron trimestres récord de cabildeo",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
+      "enlace": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
       "fecha": "22-10-2026"
     },
     {
-      "titulo": "Claude no inventó el antiveneno de escorpión",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+      "titulo": "Los hackers sacaron cuatro días de ventaja con la vulnerabilidad PHP2Shell",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
       "fecha": "22-10-2026"
     },
     {
-      "titulo": "Los proveedores piden a sus ingenieros desplegados en clientes que justifiquen la apuesta de un billón de dólares en IA",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/22/vendors-asking-forward-deployed-engineers-to-make-good-on-trillion-dollar-ai-bet/5304366",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "La factura oculta de almacenamiento de la IA: lo que deja la inferencia",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Gemini se vuelve \"personal\" en el coche: tendrá acceso a tu Gmail, Calendar y Maps mientras conduces",
+      "titulo": "Una simple foto del rostro puede dar pistas sobre la supervivencia de un paciente con cáncer. Esta IA busca encontrarlas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/gemini-se-vuelve-personal-coche-tendra-acceso-a-tu-gmail-calendar-maps-conduces",
+      "enlace": "https://www.xataka.com/medicina-y-salud/simple-foto-rostro-puede-dar-pistas-supervivencia-paciente-cancer-esta-ia-busca-encontrarlas",
       "fecha": "22-10-2026"
     },
     {
-      "titulo": "Crean virus con IA para tratar a pacientes humanos y todo apunta a que será un éxito: \"Creemos que podemos lograrlo en cuestión de días\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciencia/crean-virus-con-ia-para-tratar-pacientes-humanos-todo-apunta-que-sera-un-exito-creemos-que-podemos-lograrlo-cuestion-dias_7051881_0.html",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "La IA no ha encontrado un fallo nuevo en PHP, sino algo peor: la forma de aprovechar uno viejo",
+      "titulo": "Los agentes de IA ya se mueven por cuentas bancarias y algunas entidades de EEUU se preparan para lo peor",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/servicios/ia-no-ha-encontrado-fallo-nuevo-php-sino-algo-peor-forma-aprovechar-uno-viejo",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Anthropic lanza el agente de IA definitivo, Claude Duet: \"Te avisará cuando algo necesite tu ayuda\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/anthropic-lanza-agente-ia-definitivo-claude-duet-te-avisara-cuando-algo-necesite-tu-ayuda_7051882_0.html",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Qué es PHP y PHP2Shell, cuál es el papel de la IA en todo esto y cuánto tiempo tardará en solucionarse una de las mayores crisis de seguridad en la historia de internet",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/que-es-php-php2shell-cual-es-papel-ia-todo-esto-cuanto-tiempo-tardara-solucionarse-una-las-mayores-crisis-seguridad-historia-internet_7051873_0.html",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Los equipos de ciberseguridad necesitan más que nunca a la IA: \"Para abordar estos ataques, también debemos aprovechar la inteligencia artificial\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/los-equipos-ciberseguridad-necesitan-mas-que-nunca-ia-para-abordar-estos-ataques-tambien-debemos-aprovechar-inteligencia-artificial_7044156_0.html",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Así es como los ciberdelincuentes crean falsos agentes de IA para robar dinero y contraseñas",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/asi-es-ciberdelincuentes-crean-falsos-agentes-ia-robar-dinero-contrasenas_7051580_0.html",
+      "enlace": "https://www.xataka.com/robotica-e-ia/agentes-ia-se-mueven-cuentas-bancarias-algunas-entidades-eeuu-se-preparan-para-peor",
       "fecha": "22-10-2026"
     }
   ]
