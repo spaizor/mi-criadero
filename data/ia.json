@@ -1,123 +1,67 @@
 {
   "seccion": "ia",
-  "actualizado": "23-10-2026 05:10",
+  "actualizado": "23-10-2026 17:12",
   "destacadas": [
     {
-      "titulo": "OpenAI negocia una ronda de 30.000 millones con una valoración de 1,25 billones antes de su salida a bolsa",
-      "resumen": "Según CNBC, la ronda estaría liderada por Coatue e inversores de Emiratos Árabes Unidos y podría ir acompañada de un acuerdo de capacidad de cómputo desde los EAU. En septiembre Bloomberg hablaba de 1,4 billones, así que los términos aún pueden cambiar. OpenAI presentó en junio sus documentos confidenciales para la OPI y en marzo se valoró en 852.000 millones; Anthropic, que levantó 65.000 millones en mayo, buscaría entre 1,5 y 2 billones.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "fecha": "23-10-2026 00:08"
+      "titulo": "Claude escribe código y demuestra automáticamente que es seguro",
+      "resumen": "Anthropic y su socio Theorem usaron Claude para verificar formalmente código abierto existente: generó unos 180 millones de líneas de código de prueba para 123 bibliotecas del proyecto OSS-Fuzz de Google en pocas semanas. En el proceso encontró cientos de errores, entre ellos tantos fallos de seguridad en un lector de PDF como los que se reportan normalmente en un año, y un error lógico que llevaba más de una década sin detectarse. Las garantías solo valen bajo condiciones estrictas: una arquitectura de procesador concreta, programas de un solo hilo y entradas de menos de 64 MB.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
+      "fecha": "23-10-2026 13:32"
     },
     {
-      "titulo": "Microsoft asegura que su IA diagnostica mejor que los médicos",
-      "resumen": "El Diagnostic Orchestrator, un sistema de varios agentes basado en GPT-5, acertó cerca del 83 % de los casos del New England Journal of Medicine frente al 36 % de médicos generalistas con referencias, según un estudio publicado en Science. En casos de urgencias del Beth Israel Deaconess Medical Center logró un 80 % frente al 47 % de los médicos. Solo se ha probado con casos pasados; Microsoft prevé pruebas en hospitales en los próximos meses y liberará su benchmark SDBench.",
+      "titulo": "Meta retrasa sus nuevas condiciones comerciales tras las quejas de los editores por el rastreo para IA",
+      "resumen": "Las condiciones, que debían entrar en vigor el 30 de octubre, pasan al 20 de noviembre «para dar más tiempo a explicar a nuestros socios qué cambia y qué no», según un portavoz de Meta. Parecían permitir a Meta rastrear libremente las webs de noticias que usan sus plataformas para entrenar IA, y aunque quitó la palabra «entrenamiento», expertos legales dicen que no basta. La News/Media Alliance envió una carta a Zuckerberg alegando «daño severo» y editores y anunciantes de la UE y el Reino Unido pidieron a los reguladores frenarlas.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
-      "fecha": "22-10-2026 20:00"
+      "enlace": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "fecha": "23-10-2026 16:47"
     },
     {
-      "titulo": "Anthropic muestra el efecto de la IA en el empleo junior: del 27 % al 9 % de las nuevas contrataciones",
-      "resumen": "Los datos internos de Anthropic indican que los perfiles junior pasaron del 27 % de las contrataciones técnicas a principios de 2025 al 9 % en junio de 2026, mientras la empresa triplicó su plantilla. En agosto los agentes trabajaban seis horas por cada hora humana. Otros estudios apuntan en la misma línea (Stanford: -13 % de empleo relativo entre 22 y 25 años; DigitalES: -33 % de ofertas junior de programación), aunque no hay pruebas de que la IA sea la única causa.",
+      "titulo": "Al contrario que Amazon, el mayor supermercado de EEUU permitirá a los agentes de IA comprar en nombre de sus usuarios",
+      "resumen": "Walmart presentó en San Francisco Agent Gateway, una beta basada en el protocolo Model Context de Anthropic que permite a agentes aprobados comprar por los usuarios; el mes que viene llegará Agent Profiles, con límites de gasto. Amazon, en cambio, bloqueó al agente Muse de Meta, lanzado a principios de septiembre, alegando que no lo había autorizado a entrar en cuentas de clientes. Se estima que Muse tiene unos 10 millones de usuarios y que Meta quiere quedarse con un porcentaje de lo comprado.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/anthropic-muestra-efecto-ia-empleo-junior-27-al-9-nuevas-contrataciones",
-      "fecha": "22-10-2026 20:16"
+      "enlace": "https://www.xataka.com/servicios/amazon-cierra-puerta-a-agentes-ia-mayor-cadena-supermercados-eeuu-abre-par-par",
+      "fecha": "23-10-2026 13:30"
     },
     {
-      "titulo": "Los grandes bancos de EE. UU. bloquean a los agentes de IA que entran con las credenciales del cliente",
-      "resumen": "Morgan Stanley, JPMorgan, Bank of America, Wells Fargo y Citi restringen a los agentes externos porque usan credenciales del cliente sin aprobación del banco, algo que sus políticas prohíben. Morgan Stanley los bloquea del todo y la mayoría quiere limitarlos a lectura. Los bancos tampoco distinguen si el agente actúa por encargo del usuario o por su cuenta, y herramientas como Computer Use u OpenClaw hacen difícil frenarlos.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/",
-      "fecha": "22-10-2026 20:26"
+      "titulo": "Torvalds: la IA vale para desarrolladores competentes, pero sin parches «de paso»",
+      "resumen": "En la Linux Kernel Maintainers Summit de Praga, Sasha Levin anunció que los mantenedores desaprueban la etiqueta «Assisted-by», así que ya no hace falta declarar el uso de IA, aunque el código deficiente seguirá rechazándose. Greg Kroah-Hartman señaló que los informes de errores generados con IA pasaron de ser basura a ser reales. Christian Schaller, de Red Hat, creó hw-harness para ayudar a escribir drivers de Linux a partir de drivers de Windows.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357",
+      "fecha": "23-10-2026 13:31"
     },
     {
-      "titulo": "Uber da ChatGPT Work a sus 30.000 empleados",
-      "resumen": "Uber amplía su alianza con OpenAI y dará acceso al agente empresarial ChatGPT Work, presentado en julio, a toda su plantilla global. Lo probó antes con unos 1.000 empleados y cerca del 80 % de los primeros usuarios no eran ingenieros; lo usaron para analizar datos operativos, localizar material formativo en varios idiomas y crear paneles. Uber no ha revelado la inversión y medirá el uso para decidir cómo seguir.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-      "fecha": "22-10-2026 18:00"
-    },
-    {
-      "titulo": "Google presenta Agent Compute Engine: cada agente de Gemini en su propia microVM aislada",
-      "resumen": "El servicio ejecuta cada agente en una microVM protegida por el chip Titanium, que se pausa sola cuando el agente está inactivo. Junto a él llega Agent Substrate, un runtime abierto para Kubernetes con el que Google dice alojar diez veces más agentes por servidor; con 200.000 agentes, suspender y reanudar tardó menos de 500 ms. Estará en vista previa en los próximos meses, con seguimiento de tokens y soporte para Ping Identity y SailPoint.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
-      "fecha": "22-10-2026 19:50"
-    },
-    {
-      "titulo": "Canva lanza Craft, su primer modelo de imágenes, que planifica el diseño antes de generarlo",
-      "resumen": "Canva Craft usa una arquitectura de dos etapas para dar más precisión en texto legible y colocación de objetos, con imágenes de hasta 2K y más de 30 formatos. Se entrenó con millones de plantillas de la plataforma y es cuarto en el ranking de Design Arena, por detrás de tres modelos de OpenAI. Ya está disponible para todos los usuarios en Dream Lab y llegarán las versiones Craft-fast y Craft-ultrafast.",
+      "titulo": "Los videojuegos retro, desbordados por la IA",
+      "resumen": "Herramientas de programación con IA han disparado los ports por descompilación y recompilación: Halo en el navegador, Wind Waker en iPhone o Smash Bros. en realidad mixta. Chris Sotraidis, consultor de IA, pasó en pocas semanas a trabajar en una docena de ports, algo que dice no habría sido posible a ese ritmo sin IA. La avalancha perjudica a las comunidades de preservación: una web que seguía proyectos de descompilación cerró la semana pasada porque «el aspecto comunitario de la descompilación se ha roto».",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
-      "fecha": "22-10-2026 23:51"
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "fecha": "23-10-2026 14:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Dejados solos sin nada que hacer, los agentes de IA se pusieron a jugar",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "titulo": "El miedo a la IA nace de nuestra incapacidad para entender cómo funciona. Un científico cree estar a punto de resolverlo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/miedo-a-ia-nace-nuestra-incapacidad-para-entender-como-funciona-cientifico-cree-estar-a-punto-resolverlo",
       "fecha": "23-10-2026"
     },
     {
-      "titulo": "La IA de Meta aún podría rastrear webs de noticias, dicen expertos legales",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-      "fecha": "22-10-2026"
+      "titulo": "Bernie Sanders, senador de EEUU: \"Esto es una locura, no podemos permitir que accedan a tu cuenta bancaria... ¡Detengan la IA AHORA!\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/bernie-sanders-senador-eeuu-esto-es-una-locura-no-podemos-permitir-que-accedan-tu-cuenta-bancaria-detengan-ia-ahora_7052463_0.html",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "Meta reactiva el uso compartido de Muse",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
-      "fecha": "22-10-2026"
+      "titulo": "Mustafa Suleyman, CEO Microsoft IA, asegura que su inteligencia artificial supera a los médicos en los casos más difíciles",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/mustafa-suleyman-ceo-microsoft-ia-asegura-que-su-inteligencia-artificial-supera-los-medicos-los-casos-mas-dificiles_7052412_0.html",
+      "fecha": "23-10-2026"
     },
     {
-      "titulo": "OpenAI lanza al público general su rival de Jev mientras se calienta la competencia de modelos de decisión",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Mustafa Suleyman: la IA de Microsoft supera a los médicos en casos difíciles mientras persigue la «superinteligencia médica»",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "En la visión del futuro de Meta, mi Muse llamará a tu Muse",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Solo el 13 % de las empresas ve retornos reales de la IA, según una encuesta de Gartner",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "OpenAI, Anthropic y Nvidia registraron trimestres récord de cabildeo",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Los hackers sacaron cuatro días de ventaja con la vulnerabilidad PHP2Shell",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Una simple foto del rostro puede dar pistas sobre la supervivencia de un paciente con cáncer. Esta IA busca encontrarlas",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/simple-foto-rostro-puede-dar-pistas-supervivencia-paciente-cancer-esta-ia-busca-encontrarlas",
-      "fecha": "22-10-2026"
-    },
-    {
-      "titulo": "Los agentes de IA ya se mueven por cuentas bancarias y algunas entidades de EEUU se preparan para lo peor",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/agentes-ia-se-mueven-cuentas-bancarias-algunas-entidades-eeuu-se-preparan-para-peor",
-      "fecha": "22-10-2026"
+      "titulo": "Alternativas gratis a TypedAI para poder estudiar junto a la IA",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/alternativas-gratis-typedai-para-poder-estudiar-junto-ia_7042681_0.html",
+      "fecha": "23-10-2026"
     }
   ]
 }

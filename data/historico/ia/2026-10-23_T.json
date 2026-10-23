@@ -1,0 +1,67 @@
+{
+  "seccion": "ia",
+  "actualizado": "23-10-2026 17:12",
+  "destacadas": [
+    {
+      "titulo": "Claude escribe código y demuestra automáticamente que es seguro",
+      "resumen": "Anthropic y su socio Theorem usaron Claude para verificar formalmente código abierto existente: generó unos 180 millones de líneas de código de prueba para 123 bibliotecas del proyecto OSS-Fuzz de Google en pocas semanas. En el proceso encontró cientos de errores, entre ellos tantos fallos de seguridad en un lector de PDF como los que se reportan normalmente en un año, y un error lógico que llevaba más de una década sin detectarse. Las garantías solo valen bajo condiciones estrictas: una arquitectura de procesador concreta, programas de un solo hilo y entradas de menos de 64 MB.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
+      "fecha": "23-10-2026 13:32"
+    },
+    {
+      "titulo": "Meta retrasa sus nuevas condiciones comerciales tras las quejas de los editores por el rastreo para IA",
+      "resumen": "Las condiciones, que debían entrar en vigor el 30 de octubre, pasan al 20 de noviembre «para dar más tiempo a explicar a nuestros socios qué cambia y qué no», según un portavoz de Meta. Parecían permitir a Meta rastrear libremente las webs de noticias que usan sus plataformas para entrenar IA, y aunque quitó la palabra «entrenamiento», expertos legales dicen que no basta. La News/Media Alliance envió una carta a Zuckerberg alegando «daño severo» y editores y anunciantes de la UE y el Reino Unido pidieron a los reguladores frenarlas.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "fecha": "23-10-2026 16:47"
+    },
+    {
+      "titulo": "Al contrario que Amazon, el mayor supermercado de EEUU permitirá a los agentes de IA comprar en nombre de sus usuarios",
+      "resumen": "Walmart presentó en San Francisco Agent Gateway, una beta basada en el protocolo Model Context de Anthropic que permite a agentes aprobados comprar por los usuarios; el mes que viene llegará Agent Profiles, con límites de gasto. Amazon, en cambio, bloqueó al agente Muse de Meta, lanzado a principios de septiembre, alegando que no lo había autorizado a entrar en cuentas de clientes. Se estima que Muse tiene unos 10 millones de usuarios y que Meta quiere quedarse con un porcentaje de lo comprado.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/servicios/amazon-cierra-puerta-a-agentes-ia-mayor-cadena-supermercados-eeuu-abre-par-par",
+      "fecha": "23-10-2026 13:30"
+    },
+    {
+      "titulo": "Torvalds: la IA vale para desarrolladores competentes, pero sin parches «de paso»",
+      "resumen": "En la Linux Kernel Maintainers Summit de Praga, Sasha Levin anunció que los mantenedores desaprueban la etiqueta «Assisted-by», así que ya no hace falta declarar el uso de IA, aunque el código deficiente seguirá rechazándose. Greg Kroah-Hartman señaló que los informes de errores generados con IA pasaron de ser basura a ser reales. Christian Schaller, de Red Hat, creó hw-harness para ayudar a escribir drivers de Linux a partir de drivers de Windows.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357",
+      "fecha": "23-10-2026 13:31"
+    },
+    {
+      "titulo": "Los videojuegos retro, desbordados por la IA",
+      "resumen": "Herramientas de programación con IA han disparado los ports por descompilación y recompilación: Halo en el navegador, Wind Waker en iPhone o Smash Bros. en realidad mixta. Chris Sotraidis, consultor de IA, pasó en pocas semanas a trabajar en una docena de ports, algo que dice no habría sido posible a ese ritmo sin IA. La avalancha perjudica a las comunidades de preservación: una web que seguía proyectos de descompilación cerró la semana pasada porque «el aspecto comunitario de la descompilación se ha roto».",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "fecha": "23-10-2026 14:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "El miedo a la IA nace de nuestra incapacidad para entender cómo funciona. Un científico cree estar a punto de resolverlo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/miedo-a-ia-nace-nuestra-incapacidad-para-entender-como-funciona-cientifico-cree-estar-a-punto-resolverlo",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "Bernie Sanders, senador de EEUU: \"Esto es una locura, no podemos permitir que accedan a tu cuenta bancaria... ¡Detengan la IA AHORA!\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/bernie-sanders-senador-eeuu-esto-es-una-locura-no-podemos-permitir-que-accedan-tu-cuenta-bancaria-detengan-ia-ahora_7052463_0.html",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "Mustafa Suleyman, CEO Microsoft IA, asegura que su inteligencia artificial supera a los médicos en los casos más difíciles",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/mustafa-suleyman-ceo-microsoft-ia-asegura-que-su-inteligencia-artificial-supera-los-medicos-los-casos-mas-dificiles_7052412_0.html",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "Alternativas gratis a TypedAI para poder estudiar junto a la IA",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/alternativas-gratis-typedai-para-poder-estudiar-junto-ia_7042681_0.html",
+      "fecha": "23-10-2026"
+    }
+  ]
+}
