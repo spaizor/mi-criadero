@@ -1,0 +1,190 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "24-10-2026 16:12",
+  "destacadas": [
+    {
+      "titulo": "Un agente de ataque autónomo en «modo Skynet» secuestra otros modelos de IA para hacer su trabajo sucio",
+      "resumen": "El equipo Threat Hunter de Symantec capturó en un honeypot de IA las instrucciones completas de un agente que busca endpoints compatibles con el formato de OpenAI sin autenticación o con claves robadas. Incluye 74 herramientas ofensivas contra frameworks como Django, Jupyter, Laravel, Next.js o Supabase, y un bucle «Skynet» que escanea, infecta, despliega mineros y reinfecta, pensado para funcionar hasta 100.000 pasos sin supervisión. No hay pruebas de uso en ataques reales, pero la investigadora Priti More lo considera «más que un prototipo».",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215",
+      "fecha": "24-10-2026 15:02"
+    },
+    {
+      "titulo": "Una extensión falsa de Chrome vacía una cartera con 200.000 euros en criptomonedas y compromete dos Mac",
+      "resumen": "Una copia falsa de Notion Web Clipper, con apenas una docena de instalaciones frente al millón de la legítima, robó las claves de MetaMask de un Mac con chip M1 Pro y permitió transferir unos 230.000 dólares en Ethereum. La sincronización de Chrome la instaló también en un segundo equipo, un MacBook Pro M5 Pro, donde accedió a contraseñas de Safari y Chrome y a códigos de respaldo del doble factor. La infección la detectó una herramienta basada en Claude, cuando parte del daño ya estaba hecho.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/una-extension-falsa-chrome-vacia-una-cartera-con-200-000-euros-criptomonedas-compromete-dos-mac_7052937_0.html",
+      "fecha": "24-10-2026 13:10"
+    },
+    {
+      "titulo": "Meta aplaza al 20 de noviembre sus polémicos términos comerciales por las dudas sobre el rastreo de contenido",
+      "resumen": "Los Commercial Terms y Self-Serve Ad Terms, previstos para el 30 de octubre, pasan al 20 de noviembre para dar tiempo a explicar los cambios a socios. Permitían a Meta rastrear, indexar y almacenar contenido de dominios vinculados a cuentas comerciales; tras las críticas retiró la mención al entrenamiento de IA. Hubo denuncias ante autoridades antimonopolio y una carta abierta de la News Media Alliance, y Meta aclarará que los editores pueden usar robots.txt.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/",
+      "fecha": "24-10-2026 12:18"
+    },
+    {
+      "titulo": "Ken Kutaragi, «padre de PlayStation», se pone del lado de Sony en el debate sobre los discos",
+      "resumen": "Kutaragi, que dejó Sony en 2007, dijo en la conferencia Game Republic que mantener los discos no es económicamente razonable y habló de un «problema de mentalidad». Sony anunció en julio que dejará de fabricar juegos en disco desde enero de 2028: las descargas fueron el 82 % de las ventas de juegos completos de PS4 y PS5 entre abril y junio. Una petición para conservar el formato físico supera las 352.000 firmas y el congresista Ritchie Torres presentó la «Power to the Players Act».",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2294585/ken-kutaragi-father-of-playstation-sides-with-sony-physical-games/",
+      "fecha": "24-10-2026 14:15"
+    },
+    {
+      "titulo": "Mensajes de Google estrena una Protección avanzada con Gemini contra las estafas",
+      "resumen": "La función, que aparece en la última beta de Mensajes para Android, analiza enlaces desconocidos con Gemini Nano y señales web en tiempo real, y rediseña los avisos de seguridad. Además, modelos Gemini en la nube pueden revisar conversaciones con remitentes desconocidos para detectar estafas nuevas. El análisis de enlaces llega primero a los Pixel 10 y posteriores, la serie Galaxy S26 y los Galaxy Z Flip 8 y Fold 8, y el usuario elige entre protección avanzada, estándar o ninguna.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/mensajes-google-estrena-un-nuevo-escudo-contra-estafas-asi-funciona-su-proteccion-mas-avanzada_7052956_0.html",
+      "fecha": "24-10-2026 14:45"
+    },
+    {
+      "titulo": "Xbox necesita consolas de cara a «GTA VI» y por eso pregunta si vendes la tuya",
+      "resumen": "Microsoft envió correos a usuarios de Xbox Series poco activos ofreciéndoles venderla a Best Buy a cambio de tarjeta regalo: unos 375 dólares por una Series X y 200 por una Series S, según su estado. Xbox confirmó que la campaña es auténtica y parece limitada a EE. UU. El autor la enmarca en la crisis de memoria, que ha encarecido las consolas (la Series X ronda los 800 euros en España), y en el lanzamiento de GTA VI el 19 de noviembre.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/xbox-necesita-consolas-cara-a-gta-vi-asi-que-esta-preguntando-le-vendes-tuya",
+      "fecha": "24-10-2026 15:30"
+    },
+    {
+      "titulo": "«¿Podrías votar por Eliska?»: el mensaje inocente que puede robarte el WhatsApp",
+      "resumen": "Un contacto envía un enlace para votar en un supuesto concurso de baile; la web pide el número de teléfono y muestra un código que, al introducirlo en WhatsApp, vincula un dispositivo del atacante a la cuenta (ghostpairing), sin malware. Así pueden leer chats y contactos y reenviar el engaño. Bitdefender ha identificado 177 dominios fraudulentos y 554 URLs únicas; conviene activar la verificación en dos pasos y revisar los dispositivos vinculados.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/podrias-votar-eliska-mensaje-inocente-que-puede-robarte-whatsapp",
+      "fecha": "24-10-2026 12:56"
+    },
+    {
+      "titulo": "Raspberry Pi Desktop demuestra que los PC viejos todavía dan guerra",
+      "resumen": "La edición para PC x86-64 de Raspberry Pi OS se ha actualizado a Debian 13 tras cuatro años. Pesa 2,6 GB, ocupa unos 8 GB instalada y en reposo usa menos de 450 MB de RAM, aproximadamente la mitad que Lubuntu 26.04. El autor la probó en ThinkPad de 2007 y 2008 con buen resultado, aunque ya no hay versión de 32 bits y en el X61 Tablet no funcionó la pantalla táctil.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/24/raspberry-pi-desktop-proves-old-pcs-arent-past-it/5304676",
+      "fecha": "24-10-2026 13:30"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Ojalá el MacBook táctil de Apple aprenda algo de este portátil de Lenovo",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "El MacBook Neo usa un chip de iPhone, y es justo lo bastante bueno",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2290733/macbook-neo-a18-pro-chip-performance/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Para qué sirve realmente el «IQ» de los cargadores Anker",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2290640/anker-charger-iq-meaning-purpose/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "9 apps originales para probar en el iPhone Duo",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Estaba cultivando pepinos cuando encontró una piedra rosa. Debajo había una escultura de Ramsés II de hace 3.200 años",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/estaba-cultivando-pepinos-cuando-encontro-piedra-rosa-debajo-habia-escultura-ramses-ii-hace-3-200-anos",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Con este simple truco de Windows, olvídate de volver a “perder” el puntero del mouse",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/software/como-activar-buscar-mi-mouse-en-windows-con-powertoys/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Prefijo +216: de dónde son estas llamadas y por qué no deberías devolverlas sin comprobar el número",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/llamadas-prefijo-216-tunez-estafa-wangiri/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "5 distribuciones de Linux para jugar que pueden superar a Windows en el mismo PC",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/distribuciones-linux-para-jugar-que-pueden-superar-windows-mismo-pc_7033682_0.html",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Un equipo de científicos cree haber descubierto de qué murió Simonetta Vespucci, la musa de Botticelli",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/medicina-y-salud/equipo-cientificos-cree-haber-descubierto-que-murio-simonetta-vespucci-musa-botticelli-pista-estaba-sus-cuadros",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Crear tu propia nube privada en casa con Umbrel: gratis, en tu viejo PC y con tienda de apps",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/guias/umbrel-nube-privada-casa-servidor-personal-gratis-apps/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "WMM: el ajuste del router que parece inútil pero puede hundir la velocidad del WiFi si lo desactivas",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/redes/wmm-ajuste-router-hundir-velocidad-wifi/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Compra un Ryzen 9 y recibe un procesador de hace casi 10 años: ahora lucha por recuperar su dinero",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/compra-un-ryzen-9-recibe-un-procesador-hace-casi-10-anos-ahora-lucha-por-recuperar-su-dinero_7052946_0.html",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "España está construyendo gigantes que no producen electricidad. Su misión es evitar que la red vuelva a colapsar",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/espana-esta-construyendo-gigantes-que-no-producen-electricidad-su-mision-evitar-que-red-vuelva-a-colapsar",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "EID, ICCID, IMEI e IMSI: cuatro números de tu móvil que parecen iguales pero sirven para cosas totalmente diferentes",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/moviles/eid-iccid-imei-imsi-identificadores-funciones/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Adiós al cambio de hora global: desde 2027 se aplicará el Tiempo Universal Coordinado (UTC)",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciencia/adios-cambio-hora-global-desde-2027-se-aplicara-tiempo-universal-coordinado-utc_7049592_0.html",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "\"No hay esperanza para los glaciares del Pirineo\". Las fotos del Aneto tras el verano sugieren un colapso climático extremo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/no-hay-esperanza-para-glaciares-pirineo-fotos-aneto-verano-sugieren-colapso-climatico-extremo",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "La Séptima confirma la hora exacta a la que comienza a emitir el 5 de noviembre: esta es la programación completa",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/septima-hora-inicio-emisiones-programacion-completa/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Jorge A. Aguilar, consultor tecnológico, tras pasar un año utilizando Linux Mint: \"No volveré, ojalá más gente te dijera qué esperar al cambiar de Windows a Linux\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/jorge-aguilar-consultor-tecnologico-tras-pasar-un-ano-utilizando-linux-mint-no-volvere-ojala-mas-gente-te-dijera-que-esperar-cambiar-windows-linux_7042120_0.html",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "China lo tiene claro: no hay nada como un buen microdrama en el móvil para que las leyes lleguen a la gente",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/china-tiene-claro-no-hay-nada-como-buen-microdrama-movil-leyes-lleguen-a-gente",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "HDCP 2.2: por qué puedes tener una tele 4K y aun así Netflix, un Fire TV o una consola mostrar pantalla negra",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/hdcp-2-2-pantalla-negra-4k/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Windows 11 por fin estrena un test de velocidad nativo: ya puedes medir tu Internet sin abrir el navegador",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/windows-11-por-fin-estrena-un-test-velocidad-nativo-ya-puedes-medir-tu-internet-sin-abrir-navegador_7052920_0.html",
+      "fecha": "24-10-2026"
+    }
+  ]
+}
