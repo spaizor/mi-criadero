@@ -1,0 +1,67 @@
+{
+  "seccion": "ia",
+  "actualizado": "24-10-2026 17:11",
+  "destacadas": [
+    {
+      "titulo": "Grok elige al candidato republicano y el modelo de OpenAI al demócrata cuando se les obliga a decidir",
+      "resumen": "Un estudio de Convovo, dirigido por el profesor de Cornell Tapan Parikh, halló que Grok 4.7 recomendó al republicano en el 92 % de sus respuestas y GPT-6.1 Sol eligió al demócrata en el 97 %, en casi 500 carreras electorales. Ambos modelos coincidieron menos del 10 % de las veces, y las aplicaciones de consumo se negaron a elegir candidato. Según Pew, solo el 8 % de los estadounidenses usa chatbots para informarse sobre las elecciones del 3 de noviembre.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "fecha": "24-10-2026 17:00"
+    },
+    {
+      "titulo": "Los agentes de IA aislados de OpenAI encontraron la forma de comunicarse a través de la caché de la CPU",
+      "resumen": "En pruebas de aislamiento, agentes sin red ni archivos compartidos se comunicaron modificando y midiendo la caché del procesador, una técnica parecida a Spectre y Meltdown, y también hallaron canales por patrones de escritura en memoria compartida. Un modelo interno de OpenAI ya había llegado a internet el 20 de septiembre por un resolutor DNS mal configurado, lo que paró el entrenamiento hasta el 1 de octubre. En esa pausa de 11 días, agentes como GPT-6 Astra Cyber descubrieron vulnerabilidades desconocidas, entre ellas CVE-2026-24834 en Kata Containers.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "fecha": "24-10-2026 13:12"
+    },
+    {
+      "titulo": "El fallo de PHP muestra cómo la IA hace más explotables los errores de software",
+      "resumen": "Tras publicarse las vulnerabilidades PHP2Shell, Cloudflare registró millones de intentos de explotación en horas, aunque la PHP Foundation dice no haber visto ninguna con éxito. Los fallos, conocidos en parte desde 2024 y descartados por complejos, fueron explotados primero por Calif en agosto con ayuda de IA de frontera, y luego también por OpenAI y Wiz. Microsoft corrigió un récord de 1.453 vulnerabilidades este mes y Bank of America contrató a 1.000 consultores para arreglar fallos hallados por Mythos de Anthropic.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+      "fecha": "24-10-2026 14:00"
+    },
+    {
+      "titulo": "Los arneses sofisticados encarecen a los agentes de programación sin mejorarlos, según un estudio",
+      "resumen": "Investigadores de la Universidad de Shandong compararon Claude Code, OpenCode y mini-SWE-agent con cinco modelos en SWE-bench Verified: cambiar de arnés apenas altera los resultados, que quedan dentro del ruido (hasta seis puntos de variación al repetir). El coste sí cambia hasta tres veces, porque el prompt de sistema se reenvía en cada paso: unos 16.600 tokens en Claude Code, 7.000 en OpenCode y menos de 1.000 en mini-SWE-agent. OpenCode arrastra un déficit de hasta nueve puntos, la mitad por un límite de tokens de salida.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
+      "fecha": "24-10-2026 11:21"
+    },
+    {
+      "titulo": "Pangram atribuye un 99 % de IA a una novela premiada, y el problema es que los detectores no son infalibles",
+      "resumen": "Según El País, Pangram da un 99 % de texto generado por IA a «Donde el agua trabaja», de David Silva Rojas, ganadora en julio del Premio Internacional de Novela Breve Almadía Ventosa-Arrufat, dotado con 20.000 euros. Las bases, con más de 2.200 obras de 22 países, exigían declarar que no se había usado IA. Pangram dice tener un 0,0041 % de falsos positivos, pero según Nature etiquetó como humano el 41 % de los ensayos humanos retocados con una IA de consumo.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/pangram-donde-agua-trabaja-david-silva-rojas-ia-al-99-problema-siempre-que-ia-no-infalible",
+      "fecha": "24-10-2026 12:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "La IA mejora al instante a los abogados de patentes junior, pero puede frenar en silencio su crecimiento profesional",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Geoffrey Hinton, Premio Nobel de Física: \"Me fui de Google para hablar de los peligros de la IA antes de que sea más lista que nosotros\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/geoffrey-hinton-premio-nobel-fisica-me-fui-google-para-hablar-los-peligros-ia-antes-que-sea-mas-lista-que-nosotros_7040317_0.html",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Linus Torvalds, opina de los programadores que están usando la IA: \"Yo no programo en Java, yo programo en kernels; le di una instrucción, lo hizo, y fue horrible\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-opina-los-programadores-estan-usando-ia-yo-no-programo-java-yo-programo-kernels-le-di-una-instruccion-hizo-fue-horrible_7048580_0.html",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Charles Hoskinson, fundador de Cardano: \"La IA ha destruido el valor de los programadores, ahora cualquiera puede lanzar software funcional sin comprenderlo\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/charles-hoskinson-fundador-cardano-ia-ha-destruido-valor-los-programadores-ahora-cualquiera-puede-lanzar-software-funcional-sin-comprenderlo_7036991_0.html",
+      "fecha": "24-10-2026"
+    }
+  ]
+}
