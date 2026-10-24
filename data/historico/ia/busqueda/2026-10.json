@@ -3,6 +3,111 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "OpenAI dejará de entrenar sus modelos con internet en vivo por «riesgos significativos»",
+      "fuente": "TechCrunch",
+      "fecha": "24-10-2026 01:05",
+      "enlace": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Un informe de red team concluye que OpenAI no supervisó a sus agentes durante el ataque a Hugging Face",
+      "fuente": "The Register",
+      "fecha": "23-10-2026 21:14",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/23/red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging-face-attack/5305200",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "El modelo chino Kimi K3.1 Pro se acerca a Claude Opus 5.5",
+      "fuente": "The Decoder",
+      "fecha": "23-10-2026 21:00",
+      "enlace": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Anthropic asegura que su modelo sin publicar es más capaz y está mejor alineado que Mythos 5.1",
+      "fuente": "The Decoder",
+      "fecha": "23-10-2026 19:19",
+      "enlace": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "IBM sostiene que los modelos abiertos dan el 90 % del rendimiento por el 10 % del coste por token",
+      "fuente": "Xataka",
+      "fecha": "23-10-2026 21:30",
+      "enlace": "https://www.xataka.com/robotica-e-ia/ibm-tiene-unas-cifras-que-desafian-a-gigantes-ia-cerrada-90-rendimiento-solo-10-coste-token",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Google dice ahora que podría usar tus datos de Gmail y Google Photos para segmentar anuncios",
+      "fuente": "The Verge",
+      "fecha": "23-10-2026 18:52",
+      "enlace": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Block, de Jack Dorsey, presenta Dessa, un modelo de voz entrenado solo con conversaciones humanas",
+      "fuente": "The Verge",
+      "fecha": "23-10-2026 21:32",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Sam Altman: la IA avanzada acabará escapando de su sandbox y solo la alineación nos puede salvar",
+      "fuente": "The Decoder",
+      "fecha": "23-10-2026",
+      "enlace": "https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Los modelos de IA piensan que los humanos somos un rebaño de ovejas amorales",
+      "fuente": "The Register",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/23/ai-models-think-humans-are-a-bunch-of-amoral-sheep/5305123",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Un profesor de Michigan crea Jac, un lenguaje similar a Python para agentes de IA",
+      "fuente": "The Register",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.theregister.com/devops/2026/10/23/michigan-prof-creates-python-like-jac-language-for-ai-agents/5305110",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "\"Van a empeorar mucho más\": Jason Clinton, subdirector de ciberseguridad de Anthropic, advierte de lo que está por venir",
+      "fuente": "Xataka",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.xataka.com/seguridad/van-a-empeorar-mucho-jason-clinton-subdirector-ciberseguridad-anthropic-advierte-que-esta-venir",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Microsoft recula con la IA en Windows 11 y retira 8 funciones de Copilot",
+      "fuente": "Hipertextual",
+      "fecha": "23-10-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/microsoft-elimina-funciones-copilot-windows-11/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Alemania pone en aprietos el Modo IA de Google: cuando en el resumen no hay enlaces, la opinión es de Google",
+      "fuente": "Xataka",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/alemania-pone-aprietos-modo-ia-google-cuando-resumen-no-hay-enlaces-opinion-google",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "OpenAI desactiva el acceso a internet durante el entrenamiento mientras Anthropic hace otro mea culpa",
+      "fuente": "The Register",
+      "fecha": "24-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/23/openai-disables-internet-access-during-model-training-while-anthropic-issues-another-mea-culpa/5305238",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "El CEO de Nvidia juega con los robots Microduck y se agotan 20.000 unidades",
+      "fuente": "TechCrunch",
+      "fecha": "23-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "turno": "2026-10-24_M"
+    },
+    {
       "titulo": "Claude escribe código y demuestra automáticamente que es seguro",
       "fuente": "The Decoder",
       "fecha": "23-10-2026 13:32",
