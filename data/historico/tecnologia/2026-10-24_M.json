@@ -1,0 +1,184 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "24-10-2026 04:12",
+  "destacadas": [
+    {
+      "titulo": "Meta cobra a páginas de Facebook por publicar enlaces, incluidas bibliotecas públicas y ONG",
+      "resumen": "Meta prueba limitar a 2 los enlaces mensuales por página y ofrece planes Meta One de 14,99 a 499,99 dólares al mes (8 enlaces por 49,99, 20 por 149,99, ilimitados por 499,99). La restricción, que Meta decía que no afectaría a organizaciones sin ánimo de lucro ni a entidades públicas, alcanzó a la biblioteca de Greenville (Texas) y a ONG como East Side Pawject. Meta aclara que las páginas deben marcar «nonprofit» en su categoría para ser identificadas como tales.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2295422/meta-is-charging-government-and-nonprofit-pages-to-post-links-on-facebook/",
+      "fecha": "23-10-2026 18:09"
+    },
+    {
+      "titulo": "Quest Diagnostics confirma el robo de datos personales y de salud de pacientes",
+      "resumen": "La empresa de pruebas de laboratorio comunicó a la SEC un acceso no autorizado a Quanum, la plataforma con la que unos 500.000 clínicos piden análisis y gestionan la facturación. Se sustrajo información de salud protegida y registros de pacientes, sin precisar cuántos afectados ni cuándo empezó la brecha. Es su segunda gran filtración en una década, tras los 11,9 millones de registros de 2019.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
+      "fecha": "23-10-2026 17:00"
+    },
+    {
+      "titulo": "Aparece un tercer fallo de PHP2Shell que no tendrá parche de emergencia",
+      "resumen": "La PHP Foundation ha reservado el CVE-2026-115560 para un tercer fallo de ejecución remota de código, que se corregirá en la próxima versión regular. Mientras tanto recomienda desactivar session.upload_progress.enabled. Los dos fallos originales (CVE-2026-109618 y CVE-2026-109619) se parchearon el 21 de octubre y ya hay intentos de explotación documentados; Mandiant avisa de que circulan pruebas de concepto que funcionan contra mod_php pero no contra PHP-FPM.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208",
+      "fecha": "23-10-2026 22:04"
+    },
+    {
+      "titulo": "Samsung arruina la batería de los Galaxy S24 y S25 con la actualización a One UI 9",
+      "resumen": "Usuarios de Reddit y foros de Samsung reportan un consumo muy superior tras instalar One UI 9, basada en Android 17. Un Galaxy S24 pasó del 100 % al 5 % en 5 horas y 2 minutos con 3 h 15 min de pantalla, y otros dicen cargar el móvil 4 o 5 veces al día por el gasto en reposo. Samsung no se ha pronunciado y la causa, probablemente un fallo del software, no está identificada.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/samsung-arruina-bateria-galaxy-s24-s25-one-ui-9/",
+      "fecha": "23-10-2026 17:17"
+    },
+    {
+      "titulo": "Sony abandona su último reproductor Blu-ray y se despide del formato físico",
+      "resumen": "Sony dejó de distribuir el 22 de octubre el UBP-X700/K, su último reproductor Ultra HD Blu-ray, vendido en Japón y compatible con Dolby Vision y Atmos. No hay sucesor confirmado. PlayStation anunció en junio que dejará de lanzar juegos en disco desde 2028, y la PS5 quedará como única vía de Sony para ver discos 4K, sin Dolby Vision.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/tecnologia/sony-abandona-ultimo-reproductor-blu-ray/",
+      "fecha": "23-10-2026 19:53"
+    },
+    {
+      "titulo": "Unitree quiere que sus robots humanoides aprendan a mejorarse solos",
+      "resumen": "Unitree, dirigida por Wang Xingxing, presentó en Hangzhou «Unitree Rehearsal», un sistema donde agentes de IA buscan artículos, escriben código de control, lo prueban en simulación y lo validan en robots reales. Wang sugiere que los humanoides podrían ordenar habitaciones en 2027-2028, aunque el Índice de IA 2026 de Stanford sitúa el éxito en tareas domésticas reales en solo el 12 %. El medio lo considera más una prueba de concepto que un resultado demostrado.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/carrera-china-eeuu-humanoides-entra-otra-fase-unitree-quiere-que-sus-robots-aprendan-a-mejorarse-solos",
+      "fecha": "23-10-2026 17:00"
+    },
+    {
+      "titulo": "Desactivan las apps abandonadas de Popcorn Time para evitar un ejército zombi",
+      "resumen": "Eye Security halló el actualizador del fork «Time4Popcorn» activo en millones de equipos Windows, macOS y Android, conectando por HTTP sin cifrar a dominios abandonados, lo que permitía montar una botnet. Registraron uno de los dominios y enviaron una actualización que desactiva el servicio sin borrar archivos; distribuyeron más de 2 millones de descargas hasta marzo y cedieron los dominios a la Shadowserver Foundation.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided",
+      "fecha": "23-10-2026 21:35"
+    },
+    {
+      "titulo": "Se va la primera directora de operaciones de Xbox tras unos pocos meses en el cargo",
+      "resumen": "Helen Chiang, 21 años en Microsoft y antigua responsable de Minecraft, deja la compañía hoy según un memorándum interno de la CEO de Xbox, Asha Sharma. Había sido ascendida en julio con responsabilidad de resultados sobre contenido, hardware, plataforma y servicios; sus funciones se reparten entre otros directivos. Se van sin explicación mientras circulan rumores de más despidos en octubre, noviembre y enero.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
+      "fecha": "23-10-2026 23:39"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "La NASA actualiza sus planes de módulos lunares y resuelve por fin el viejo problema de Orion",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "La startup de nube para agentes Daytona alcanza los 1.000 millones de valoración",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "Hegseth advierte de que las apuestas en mercados de predicción distorsionan el criterio militar y ponen en riesgo a las tropas",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "Commonwealth Fusion Systems recibe 85 millones para fabricar mejores semiconductores aptos para fusión",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "Todos al pánico: un desarrollador de Valve dijo «HLX» en público",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gaming/2026/10/everybody-panic-a-valve-developer-said-hlx-in-public/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "En el Pentágono aprieta la presión por encontrar sede para un nuevo puerto espacial antes de 2030",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "SparkyOS: un Arch ligero y de propósito general en un pendrive",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/23/sparkyos-lightweight-general-purpose-arch-on-a-pendrive/5304984",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "La DGT tiene cámaras que multan con 200 euros por saltarse la línea continua. El problema es que no lo pueden demostrar",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/dgt-tiene-unas-camaras-que-multan-200-euros-saltarse-linea-continua-unico-problema-que-no-pueden-demostrar",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "O2 aclara si es necesario actualizar los routers por la vulnerabilidad detectada: «Estamos aplicando de manera preventiva las medidas de seguridad»",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-confirma-no-cambiar-router-vulnerabilidad/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "Solo en Aldi, la batería portátil de 10.000 mAh que puede cargar dos móviles a la vez y que no necesita electricidad: se carga con el sol y cuesta solo 14,99 euros",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/solo-aldi-bateria-portatil-10-000-mah-que-puede-cargar-dos-moviles-vez-que-no-necesita-electricidad-se-carga-con-sol-cuesta-solo-14-99-euros_7052564_0.html",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "Las obras del metro de Málaga han destapado una de las mayores necrópolis romanas de España: ya van más de 1.000 cuerpos enterrados",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/obras-metro-malaga-han-destapado-mayores-necropolis-romanas-espana-van-1-000-cuerpos-enterrados",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "Por qué cambiar tu antena Starlink por la nueva V5 no es buena idea si juegas online",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/starlink-v5-no-recomendada-jugar-online/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "El misterio de las RTX 5090 robadas en Brasil da un giro inesperado: una aparece a la venta por 6.000 euros",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/misterio-las-rtx-5090-robadas-brasil-da-un-giro-inesperado-una-aparece-venta-por-6-000-euros_7052734_0.html",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "300 glaciares han desaparecido del oeste americano desde mediados del siglo XX. Los supervivientes tienen algunas cosas en común",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/300-glaciares-han-desaparecido-oeste-americano-mediados-siglo-xx-supervivientes-tienen-algunas-cosas-comun",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "El BOE abre un plazo de 12 meses para solicitar determinadas pensiones de viudedad que antes no se podían cobrar",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/boe-plazo-12-meses-pensiones-viudedad/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "\"Inminente e inevitable, esta oportunidad se ha esfumado\", la ONU confirma que vamos a superar el límite de calentamiento de global",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciencia/inminente-inevitable-esta-oportunidad-se-ha-esfumado-onu-confirma-que-vamos-superar-limite-calentamiento-global_7052554_0.html",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "El truco viral para eliminar los anuncios del Fire TV y personalizar su interfaz",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/fire-tv-eliminar-anuncios-interfaz/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "El Blu-ray está desapareciendo: Sony retira su último reproductor y deja el futuro de los discos en el aire",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/blu-ray-esta-desapareciendo-sony-retira-su-ultimo-reproductor-deja-futuro-los-discos-aire_7052733_0.html",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "Ya no es necesaria una pantalla multimedia para usar Android Auto: han creado una app gratis que sirve para cualquier Android",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/phoneauto-android-auto-pantalla-movil/",
+      "fecha": "23-10-2026"
+    },
+    {
+      "titulo": "Disponible en Lidl la aspiradora inalámbrica para suelos definitiva que se transforma en un recogemigas y en una aspiradora portátil para el coche",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/disponible-lidl-aspiradora-inalambrica-para-suelos-definitiva-que-se-transforma-un-recogemigas-una-aspiradora-portatil-para-coche_7052563_0.html",
+      "fecha": "23-10-2026"
+    }
+  ]
+}

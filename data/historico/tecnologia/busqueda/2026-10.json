@@ -3,6 +3,202 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Meta cobra a páginas de Facebook por publicar enlaces, incluidas bibliotecas públicas y ONG",
+      "fuente": "Engadget",
+      "fecha": "23-10-2026 18:09",
+      "enlace": "https://www.engadget.com/2295422/meta-is-charging-government-and-nonprofit-pages-to-post-links-on-facebook/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Quest Diagnostics confirma el robo de datos personales y de salud de pacientes",
+      "fuente": "TechCrunch",
+      "fecha": "23-10-2026 17:00",
+      "enlace": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Aparece un tercer fallo de PHP2Shell que no tendrá parche de emergencia",
+      "fuente": "The Register",
+      "fecha": "23-10-2026 22:04",
+      "enlace": "https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Samsung arruina la batería de los Galaxy S24 y S25 con la actualización a One UI 9",
+      "fuente": "Hipertextual",
+      "fecha": "23-10-2026 17:17",
+      "enlace": "https://hipertextual.com/mobile/samsung-arruina-bateria-galaxy-s24-s25-one-ui-9/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Sony abandona su último reproductor Blu-ray y se despide del formato físico",
+      "fuente": "Hipertextual",
+      "fecha": "23-10-2026 19:53",
+      "enlace": "https://hipertextual.com/tecnologia/sony-abandona-ultimo-reproductor-blu-ray/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Unitree quiere que sus robots humanoides aprendan a mejorarse solos",
+      "fuente": "Xataka",
+      "fecha": "23-10-2026 17:00",
+      "enlace": "https://www.xataka.com/robotica-e-ia/carrera-china-eeuu-humanoides-entra-otra-fase-unitree-quiere-que-sus-robots-aprendan-a-mejorarse-solos",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Desactivan las apps abandonadas de Popcorn Time para evitar un ejército zombi",
+      "fuente": "The Verge",
+      "fecha": "23-10-2026 21:35",
+      "enlace": "https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Se va la primera directora de operaciones de Xbox tras unos pocos meses en el cargo",
+      "fuente": "The Verge",
+      "fecha": "23-10-2026 23:39",
+      "enlace": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "La NASA actualiza sus planes de módulos lunares y resuelve por fin el viejo problema de Orion",
+      "fuente": "Ars Technica",
+      "fecha": "24-10-2026",
+      "enlace": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "La startup de nube para agentes Daytona alcanza los 1.000 millones de valoración",
+      "fuente": "TechCrunch",
+      "fecha": "23-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Hegseth advierte de que las apuestas en mercados de predicción distorsionan el criterio militar y ponen en riesgo a las tropas",
+      "fuente": "Ars Technica",
+      "fecha": "23-10-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Commonwealth Fusion Systems recibe 85 millones para fabricar mejores semiconductores aptos para fusión",
+      "fuente": "TechCrunch",
+      "fecha": "23-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Todos al pánico: un desarrollador de Valve dijo «HLX» en público",
+      "fuente": "Ars Technica",
+      "fecha": "23-10-2026",
+      "enlace": "https://arstechnica.com/gaming/2026/10/everybody-panic-a-valve-developer-said-hlx-in-public/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "En el Pentágono aprieta la presión por encontrar sede para un nuevo puerto espacial antes de 2030",
+      "fuente": "Ars Technica",
+      "fecha": "23-10-2026",
+      "enlace": "https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "SparkyOS: un Arch ligero y de propósito general en un pendrive",
+      "fuente": "The Register",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/23/sparkyos-lightweight-general-purpose-arch-on-a-pendrive/5304984",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "La DGT tiene cámaras que multan con 200 euros por saltarse la línea continua. El problema es que no lo pueden demostrar",
+      "fuente": "Xataka",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.xataka.com/movilidad/dgt-tiene-unas-camaras-que-multan-200-euros-saltarse-linea-continua-unico-problema-que-no-pueden-demostrar",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "O2 aclara si es necesario actualizar los routers por la vulnerabilidad detectada: «Estamos aplicando de manera preventiva las medidas de seguridad»",
+      "fuente": "ADSLZone",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-confirma-no-cambiar-router-vulnerabilidad/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Solo en Aldi, la batería portátil de 10.000 mAh que puede cargar dos móviles a la vez y que no necesita electricidad: se carga con el sol y cuesta solo 14,99 euros",
+      "fuente": "ComputerHoy",
+      "fecha": "23-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/solo-aldi-bateria-portatil-10-000-mah-que-puede-cargar-dos-moviles-vez-que-no-necesita-electricidad-se-carga-con-sol-cuesta-solo-14-99-euros_7052564_0.html",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Las obras del metro de Málaga han destapado una de las mayores necrópolis romanas de España: ya van más de 1.000 cuerpos enterrados",
+      "fuente": "Xataka",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.xataka.com/magnet/obras-metro-malaga-han-destapado-mayores-necropolis-romanas-espana-van-1-000-cuerpos-enterrados",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Por qué cambiar tu antena Starlink por la nueva V5 no es buena idea si juegas online",
+      "fuente": "ADSLZone",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/starlink-v5-no-recomendada-jugar-online/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "El misterio de las RTX 5090 robadas en Brasil da un giro inesperado: una aparece a la venta por 6.000 euros",
+      "fuente": "ComputerHoy",
+      "fecha": "23-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/misterio-las-rtx-5090-robadas-brasil-da-un-giro-inesperado-una-aparece-venta-por-6-000-euros_7052734_0.html",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "300 glaciares han desaparecido del oeste americano desde mediados del siglo XX. Los supervivientes tienen algunas cosas en común",
+      "fuente": "Xataka",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/300-glaciares-han-desaparecido-oeste-americano-mediados-siglo-xx-supervivientes-tienen-algunas-cosas-comun",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "El BOE abre un plazo de 12 meses para solicitar determinadas pensiones de viudedad que antes no se podían cobrar",
+      "fuente": "ADSLZone",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/boe-plazo-12-meses-pensiones-viudedad/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "\"Inminente e inevitable, esta oportunidad se ha esfumado\", la ONU confirma que vamos a superar el límite de calentamiento de global",
+      "fuente": "ComputerHoy",
+      "fecha": "23-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciencia/inminente-inevitable-esta-oportunidad-se-ha-esfumado-onu-confirma-que-vamos-superar-limite-calentamiento-global_7052554_0.html",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "El truco viral para eliminar los anuncios del Fire TV y personalizar su interfaz",
+      "fuente": "ADSLZone",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/fire-tv-eliminar-anuncios-interfaz/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "El Blu-ray está desapareciendo: Sony retira su último reproductor y deja el futuro de los discos en el aire",
+      "fuente": "ComputerHoy",
+      "fecha": "23-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/blu-ray-esta-desapareciendo-sony-retira-su-ultimo-reproductor-deja-futuro-los-discos-aire_7052733_0.html",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Ya no es necesaria una pantalla multimedia para usar Android Auto: han creado una app gratis que sirve para cualquier Android",
+      "fuente": "ADSLZone",
+      "fecha": "23-10-2026",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/phoneauto-android-auto-pantalla-movil/",
+      "turno": "2026-10-24_M"
+    },
+    {
+      "titulo": "Disponible en Lidl la aspiradora inalámbrica para suelos definitiva que se transforma en un recogemigas y en una aspiradora portátil para el coche",
+      "fuente": "ComputerHoy",
+      "fecha": "23-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/disponible-lidl-aspiradora-inalambrica-para-suelos-definitiva-que-se-transforma-un-recogemigas-una-aspiradora-portatil-para-coche_7052563_0.html",
+      "turno": "2026-10-24_M"
+    },
+    {
       "titulo": "Grecia aprueba prohibir las redes sociales a los menores de 15 años",
       "fuente": "Engadget",
       "fecha": "23-10-2026 15:12",
