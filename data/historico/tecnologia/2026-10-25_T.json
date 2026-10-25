@@ -1,0 +1,172 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "25-10-2026 15:12",
+  "destacadas": [
+    {
+      "titulo": "Microsoft prueba Project Pantheon, una alternativa a Recall en la que tú decides qué se guarda",
+      "resumen": "Microsoft trabaja en silencio en Project Pantheon, una herramienta de IA para Windows 11 que no vigila la actividad ni hace capturas periódicas: solo conserva como «recuerdos» lo que el usuario añade a mano, ordenado en colecciones. La IA responde preguntas y resume lo guardado semanas o meses antes, y gracias a MCP ese contexto podría usarse en otros servicios de IA. Microsoft no ha anunciado oficialmente la app ni su lanzamiento.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-prepara-una-alternativa-recall-para-windows-11-con-una-diferencia-clave-tu-decides-que-guarda_7053096_0.html",
+      "fecha": "25-10-2026 13:25"
+    },
+    {
+      "titulo": "Casi todo internet se apoya en PHP, pero su fundación solo tiene una empleada a jornada completa",
+      "resumen": "PHP funciona en cerca del 70% de las webs según W3Techs, pero la fundación que lo sostiene tiene una única empleada a tiempo completo, su directora Elizabeth Barron, y 14 contratistas, la mayoría a tiempo parcial. Tras los dos fallos críticos parcheados esta semana (Cloudflare registró millones de intentos de ataque), Barron admite que el proyecto está «increíblemente infrafinanciado» y recibe casi el doble de propuestas de código que hace un año sin más colaboradores.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/aplicaciones/mayoria-internet-se-apoya-php-resulta-que-su-fundacion-solo-trabaja-persona-a-jornada-completa",
+      "fecha": "25-10-2026 09:30"
+    },
+    {
+      "titulo": "World, la empresa de Sam Altman, lanza una verificación de identidad universal para grandes bancos",
+      "resumen": "Alex Blania presentó el 18 de octubre en Money 20/20 una suite de World ID para banca que agrupa la app de identidad, World ID for Zoom y World ID for Agents, esta última aún en beta. La compañía asegura que más de 18 millones de personas tienen ya su certificado de humanidad. Llega mientras Deloitte prevé que el fraude en EE. UU. alcance 40.000 millones de dólares en 2027, y pese a los problemas regulatorios de Worldcoin en España y Alemania.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/empresa-biometrica-sam-altman-hace-su-primer-gran-movimiento-verificacion-universal-orientada-a-grandes-bancos",
+      "fecha": "25-10-2026 12:00"
+    },
+    {
+      "titulo": "Dinamarca abandona su plan de sustituir Microsoft Office por Collabora tras un piloto con problemas",
+      "resumen": "El Ministerio de Digitalización danés cancela el proyecto de cambiar Office por la suite europea de código abierto Collabora. El piloto, con 38 empleados, se interrumpió tras las elecciones de este año y nunca hubo una evaluación formal. Los funcionarios habían sufrido errores de formato y páginas en blanco por las diferencias entre ODF y OOXML.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/dinamarca-frena-su-plan-para-abandonar-microsoft-office-los-problemas-compatibilidad-ponen-fin-proyecto_7053084_0.html",
+      "fecha": "25-10-2026 12:09"
+    },
+    {
+      "titulo": "Samsung probablemente no cambiará One UI por «Galaxy OS»",
+      "resumen": "El rumor nació el 11 de octubre en una publicación del usuario phonefuturist en X, que hablaba de un «Galaxy OS» más centrado en la IA. La propia fuente lo rectificó después y lo atribuyó a un «error de traducción». Samsung no ha confirmado nada y despliega One UI 9, así que lo más probable sería una nueva marca dentro de One UI, no un relevo completo.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2292973/samsung-probably-not-rebranding-one-ui-as-galaxy-os/",
+      "fecha": "25-10-2026 14:45"
+    },
+    {
+      "titulo": "Construir un centro de datos en Reino Unido exige pasar por tres departamentos del Gobierno",
+      "resumen": "La ministra Liz Lloyd admitió ante el Comité de Ciencia y Tecnología que las competencias se solapan: los centros de datos dependen de BIST, las telecomunicaciones de DCMS, y además intervienen Energía, planificación local y Vivienda. A principios de octubre Microsoft abandonó el que iba a ser el mayor supercomputador de IA del país por no asegurar suministro eléctrico.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/public-sector/2026/10/25/want-to-build-a-uk-datacenter-please-hold-while-whitehall-transfers-you/5304956",
+      "fecha": "25-10-2026 11:39"
+    },
+    {
+      "titulo": "Lo que el movimiento estadounidense contra los centros de datos puede aprender de otros países",
+      "resumen": "Entrevista con Paris Marx, autor de «Hyperscale», cuando los centros de datos pesan en las elecciones legislativas de dentro de menos de dos semanas. Repasa casos previos: la moratoria de Dublín de 2021 por falta de capacidad de red, que llevó a la industria a construir centrales de gas propias, y Google en The Dalles (Oregón), que usaba el 29% del agua de la comunidad y trató de ocultarlo.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+      "fecha": "25-10-2026 11:00"
+    },
+    {
+      "titulo": "Gran Turismo 3 llega a Android gracias a un port no oficial",
+      "resumen": "GT3-Revisited (v0.2.0, en GitHub) es una recompilación nativa, no emulación, del juego de PS2 de Polyphony Digital. Funciona en Android 7.0 o superior y, según Android Authority, corre a 60 FPS estables con 8 GB de RAM y un Snapdragon de gama media. No incluye el juego: hay que aportar la ISO propia, y es un proyecto no autorizado hecho en parte con IA.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/gran-turismo-3-llega-a-android-con-este-nuevo-port/",
+      "fecha": "25-10-2026 11:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Los ordenadores cuánticos pueden estar más fríos que el espacio profundo: así se mantienen en marcha",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2292950/how-quantum-computer-stays-running-extreme-cold/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Científicos atraparon una partícula de antimateria durante meses para estudiar sus secretos",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Enlazamos 150 altavoces de 10 dólares de Ikea para hacer un muro de sonido",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Los lectores de The Register eligen «Binface» como nombre de la misión británica de limpieza espacial",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/25/reg-readers-land-on-binface-as-name-for-uk-space-cleanup-mission/5305144/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Ladrillos, tuberías y una turbina: un hombre construye su propia central hidroeléctrica en casa",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/ladrillos-tuberias-turbina-hombre-construye-su-propia-central-hidroelectrica-casa",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Tu WiFi Mesh puede tener microcortes aunque tengas cobertura perfecta: la culpa es de 802.11k, v y r",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/productos/wifi-mesh-cortes-802-11-k-v-r/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Dust Catchers, los agujeros ocultos de tu PlayStation 5 que permite limpiar el interior de la consola sin desmontarla... ¡Utilizando una aspiradora!",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/dust-catchers-los-agujeros-ocultos-tu-playstation-5-que-permite-limpiar-interior-consola-sin-desmontarla-utilizando-una-aspiradora_7044887_0.html",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "El James Webb ha detectado por primera vez nubes de agua variables fuera del Sistema Solar",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/james-webb-ha-detectado-primera-vez-nubes-agua-variables-fuera-sistema-solar",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Energy Efficient Ethernet: qué es el ajuste Green Ethernet de tu tarjeta de red o router",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/redes/energy-efficiente-ethernet-green-tarjeta-red-router/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "¿Por qué los programadores llevan sus portátiles medio abiertos por la calle, los aeropuertos o la oficina?",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/programadores-caminan-oficina-calle-aeropuertos-pc-portatiles-abiertos_6969838_0.html",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Una empresa francesa lleva un año intentando lanzar una cámara para competir con Japón. El problema no es solo el precio",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/fotografia-y-video/empresa-francesa-lleva-ano-intentando-lanzar-camara-para-competir-japon-problema-no-solo-precio",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "HbbTV OpApp: cómo puede una operadora meter todos sus canales en la televisión sin decodificador",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/hbbtv-opapp-television-sin-decodificador/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Encuentran durante la limpieza de una casa dos de los tres únicos microordenadores Q1 existentes en el mundo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/encuentran-durante-limpieza-una-casa-dos-los-tres-unicos-microordenadores-q1-existentes-mundo_7045979_0.html",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "31,50 euros en copas y seis meses de cárcel: el Supremo cambia cómo se castiga el fraude con las tarjetas de crédito",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/legislacion-y-derechos/31-50-euros-copas-seis-meses-carcel-supremo-cambia-como-se-castiga-fraude-tarjetas-credito",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Hoy anochecerá una hora antes: mira a qué hora se pone el sol en tu ciudad",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/ciencia/cambio-horario-invierno-espana-puesta-sol/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Joselo, instalador de DIGI: \"Ojo, DIGI no comparte infraestructura con el resto de compañías, no tiene convenio de compartición con nadie, nosotros lo sabemos\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/joselo-instalador-oficial-operadora-digi-ojo-no-comparte-infraestructura-resto-empresas-sin-convenio-comparticion-con-nadie-nosotros-sabemos_7012129_0.html",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "En 1941, el acorazado USS Arizona se hundió en Pearl Harbor. EEUU ya tiene su \"sucesor\": un submarino nuclear con 28 Tomahawk más",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/1941-acorazado-uss-arizona-se-hundio-pearl-harbor-eeuu-tiene-su-sucesor-submarino-nuclear-28-tomahawk",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Microsoft Teams será hasta un 20% más rápido en algunos PC gracias a un nuevo modo de eficiencia",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-teams-sera-hasta-un-20-mas-rapido-algunos-pc-gracias-un-nuevo-modo-eficiencia_7053089_0.html",
+      "fecha": "25-10-2026"
+    }
+  ]
+}
