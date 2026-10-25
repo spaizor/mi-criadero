@@ -1,0 +1,54 @@
+{
+  "seccion": "ia",
+  "actualizado": "25-10-2026 04:09",
+  "destacadas": [
+    {
+      "titulo": "Tres investigadores de seguridad despedidos por OpenAI dicen que nunca les explicaron qué filtraron",
+      "resumen": "Tomek Korbak, Mikita Balesni y Jasmine Wang niegan haber compartido información confidencial y sospechan que su despido está ligado a su defensa de sistemas de IA más transparentes. Según el Wall Street Journal, la seguridad de OpenAI les pidió desbloquear sus móviles, halló chats de Signal con mensajes temporales y los despidió a los tres una semana después. Temen que el caso disuada a los auditores independientes de colaborar con las empresas de IA.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
+      "fecha": "24-10-2026 17:19"
+    },
+    {
+      "titulo": "La IA ya cambia la predicción del tiempo: con el huracán Isaías acertó la trayectoria cuando los modelos tradicionales fallaron",
+      "resumen": "El modelo de DeepMind situó el punto de impacto en Florida mejor que los sistemas europeo y estadounidense, aunque el pronóstico oficial del NHC tuvo entre un 20 y un 40 % más de habilidad en intensidad. En 2025 el NHC incorporó modelos de IA en tiempo real y el de DeepMind superó su pronóstico de trayectoria entre 12 y 72 horas. El modelo AIFS del centro europeo ya opera y consume unas 1.000 veces menos energía por pronóstico.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/ia-esta-cambiando-prediccion-tiempo-huracan-isaias-acerto-su-trayectoria-cuando-modelos-tradicionales-fallaron",
+      "fecha": "24-10-2026 18:30"
+    },
+    {
+      "titulo": "Pensilvania exigirá etiquetas en los anuncios generados con IA",
+      "resumen": "El gobernador Josh Shapiro firmó la ley que obliga a avisar en cualquier anuncio (imagen, vídeo, audio o texto) «significativamente modificado o generado por inteligencia artificial», con la etiqueta en el mismo formato del anuncio. Se aplica aunque el anuncio se creara fuera del estado, pero deja resquicios: qué es «significativo» es subjetivo y se exceptúan la parodia, la sátira y lo «evidentemente ficticio».",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "fecha": "24-10-2026 20:32"
+    },
+    {
+      "titulo": "Gemini da problemas en Android Auto: no reproduce la canción que le piden en Amazon Music",
+      "resumen": "Usuarios del soporte de Google se quejan de que Gemini identifica y confirma la canción pedida, pero luego lanza otra distinta en Amazon Music. El fallo aparece tras la retirada definitiva de Google Assistant, que ya no sirve de alternativa. No afecta a todos, reinstalar la app o borrar la caché no lo arregla y Google pide más datos sin anunciar solución.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/gemini-da-problemas-android-auto-algunos-usuarios-aseguran-que-ya-no-reproduce-cancion-que-le-piden_7053005_0.html",
+      "fecha": "24-10-2026 19:48"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "El cementerio de la IA: lista actualizada de proyectos y startups que no sobrevivieron",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "Cucarachas cyborg con \"mochilas\" de sensores y pilotadas por IA: la promesa de una startup alemana choca con la realidad científica",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/cucarachas-cyborg-mochilas-sensores-pilotadas-ia-promesa-startup-alemana-choca-realidad-cientifica",
+      "fecha": "24-10-2026"
+    },
+    {
+      "titulo": "OpenAI toma una decisión drástica: sus modelos de IA dejarán de entrenarse con Internet en tiempo real",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/openai-toma-una-decision-drastica-sus-modelos-ia-dejaran-entrenarse-con-internet-tiempo-real_7052966_0.html",
+      "fecha": "24-10-2026"
+    }
+  ]
+}
