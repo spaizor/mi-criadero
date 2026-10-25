@@ -1,54 +1,116 @@
 {
   "seccion": "ia",
-  "actualizado": "25-10-2026 04:09",
+  "actualizado": "25-10-2026 16:10",
   "destacadas": [
     {
-      "titulo": "Tres investigadores de seguridad despedidos por OpenAI dicen que nunca les explicaron qué filtraron",
-      "resumen": "Tomek Korbak, Mikita Balesni y Jasmine Wang niegan haber compartido información confidencial y sospechan que su despido está ligado a su defensa de sistemas de IA más transparentes. Según el Wall Street Journal, la seguridad de OpenAI les pidió desbloquear sus móviles, halló chats de Signal con mensajes temporales y los despidió a los tres una semana después. Temen que el caso disuada a los auditores independientes de colaborar con las empresas de IA.",
+      "titulo": "OpenAI recorta hasta un 90 % sus precios para quitarle a Anthropic sus mayores clientes",
+      "resumen": "Según The Information, la cuota de OpenAI en la carga de programación de Rippling pasó del 16 % al 52 %, mientras que la de Anthropic bajó del 57 % al 18 %. Replit cambió de proveedor tras una oferta con más del 30 % de descuento en un contrato de más de 100 millones de dólares al año, y DataCamp asegura haber reducido costes entre un 80 % y un 90 %. OpenAI sacrifica márgenes para ganar cuota y además sufre presión de precios desde China, con DeepSeek y Kimi.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
-      "fecha": "24-10-2026 17:19"
+      "enlace": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
+      "fecha": "25-10-2026 08:30"
     },
     {
-      "titulo": "La IA ya cambia la predicción del tiempo: con el huracán Isaías acertó la trayectoria cuando los modelos tradicionales fallaron",
-      "resumen": "El modelo de DeepMind situó el punto de impacto en Florida mejor que los sistemas europeo y estadounidense, aunque el pronóstico oficial del NHC tuvo entre un 20 y un 40 % más de habilidad en intensidad. En 2025 el NHC incorporó modelos de IA en tiempo real y el de DeepMind superó su pronóstico de trayectoria entre 12 y 72 horas. El modelo AIFS del centro europeo ya opera y consume unas 1.000 veces menos energía por pronóstico.",
+      "titulo": "Anthropic: un solo agente de IA rinde más que muchos subagentes ahora que los modelos manejan la complejidad solos",
+      "resumen": "El equipo Applied AI de Anthropic recomienda a las empresas valorar si pueden fusionar sus subagentes en un único agente que cargue el contexto bajo demanda. En una comparación, la arquitectura de un solo agente fue unas dos veces más rápida, y Anthropic dice haber recortado más de un 80 % el prompt de sistema de Claude Code. Los subagentes siguen valiendo cuando el rendimiento cae con el tamaño del contexto, hay tareas paralelas o la selección de herramientas falla (a partir de 30-50 definiciones).",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
+      "fecha": "25-10-2026 10:12"
+    },
+    {
+      "titulo": "Dinamarca quiere blindar la voz y el rostro de sus ciudadanos contra los deepfakes",
+      "resumen": "Un proyecto de ley que reforma la propiedad intelectual danesa haría ilegal difundir imitaciones realistas del aspecto o la voz de una persona sin su permiso, con excepciones para parodia, sátira y crítica. El Ministerio quiere que entre en vigor a principios de 2027 y la ministra Zenia Stampe pide a las grandes tecnológicas que retiren rápido el contenido. Desde el 2 de agosto de 2026, la UE exige etiquetar deepfakes con multas de hasta 15 millones de euros o el 3 % de la facturación.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/ia-esta-cambiando-prediccion-tiempo-huracan-isaias-acerto-su-trayectoria-cuando-modelos-tradicionales-fallaron",
-      "fecha": "24-10-2026 18:30"
+      "enlace": "https://www.xataka.com/privacidad/dinamarca-tiene-plan-deepfakes-blindar-voz-rostro-sus-ciudadanos-ia",
+      "fecha": "25-10-2026 11:30"
     },
     {
-      "titulo": "Pensilvania exigirá etiquetas en los anuncios generados con IA",
-      "resumen": "El gobernador Josh Shapiro firmó la ley que obliga a avisar en cualquier anuncio (imagen, vídeo, audio o texto) «significativamente modificado o generado por inteligencia artificial», con la etiqueta en el mismo formato del anuncio. Se aplica aunque el anuncio se creara fuera del estado, pero deja resquicios: qué es «significativo» es subjetivo y se exceptúan la parodia, la sátira y lo «evidentemente ficticio».",
+      "titulo": "r/opensource prohíbe los proyectos con IA y a quienes no hablan inglés",
+      "resumen": "Los moderadores de r/opensource publicaron nuevas normas que vetan cualquier proyecto que use IA, esté hecho por IA o se dirija a IA, lo que ha desatado una polémica y la creación del subreddit rival r/trueopensource. También exigen proyectos con al menos un año, mantenidos y con varios colaboradores, y dicen que quien no hable inglés debe buscar otra comunidad porque no pueden distinguir texto escrito de traducido por IA. Críticos señalan que el kernel de Linux ya contiene código generado por IA.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-      "fecha": "24-10-2026 20:32"
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "fecha": "25-10-2026 14:25"
     },
     {
-      "titulo": "Gemini da problemas en Android Auto: no reproduce la canción que le piden en Amazon Music",
-      "resumen": "Usuarios del soporte de Google se quejan de que Gemini identifica y confirma la canción pedida, pero luego lanza otra distinta en Amazon Music. El fallo aparece tras la retirada definitiva de Google Assistant, que ya no sirve de alternativa. No afecta a todos, reinstalar la app o borrar la caché no lo arregla y Google pide más datos sin anunciar solución.",
+      "titulo": "Cómo los cambios de Google con la IA en la búsqueda han trastocado la edición online",
+      "resumen": "Desde el lanzamiento de AI Overviews en 2024 y del Modo IA en mayo de 2025, el tráfico de Google hacia los medios se ha desplomado. Según Similarweb, la búsqueda hacia The New York Times cayó del 44 % al 35,5 % en tres años, y Digital Content Next registró en 2025 caídas de entre el 1 % y el 25 % en 19 de sus miembros. La News/Media Alliance ya había advertido de que el efecto sería «catastrófico».",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "fecha": "25-10-2026 13:00"
+    },
+    {
+      "titulo": "Microsoft retira Copilot Prioritize de Outlook, la función que ordenaba tus correos con IA",
+      "resumen": "Microsoft eliminará la función que analizaba cada correo entrante y le asignaba prioridad, y que permitía filtrar la bandeja y dar instrucciones personalizadas. La retirada empezará después del 26 de octubre y terminará antes de mediados de noviembre. La compañía lo presenta como una limpieza para concentrar recursos en otras experiencias de Copilot.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/movilidad/gemini-da-problemas-android-auto-algunos-usuarios-aseguran-que-ya-no-reproduce-cancion-que-le-piden_7053005_0.html",
-      "fecha": "24-10-2026 19:48"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-elimina-una-funcion-copilot-outlook-que-organizaba-automaticamente-tus-correos_7053106_0.html",
+      "fecha": "25-10-2026 15:25"
     }
   ],
   "titulares": [
     {
-      "titulo": "El cementerio de la IA: lista actualizada de proyectos y startups que no sobrevivieron",
+      "titulo": "Los wearables y gadgets de IA más candentes que conviene conocer",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "fecha": "24-10-2026"
+      "enlace": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "fecha": "25-10-2026"
     },
     {
-      "titulo": "Cucarachas cyborg con \"mochilas\" de sensores y pilotadas por IA: la promesa de una startup alemana choca con la realidad científica",
+      "titulo": "Nvidia publica en abierto Flora, que etiqueta vídeo de robots 125 veces más barato que GPT-6 Astra",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Jack Clark, cofundador de Anthropic, adelanta a 2027 su previsión de una IA que se automejora",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Eric Schmidt compara a OpenAI y Anthropic con las modernas compañías coloniales de comercio",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "OpenMobile-2 demuestra que los agentes de móvil de código abierto pueden rivalizar con los modelos propietarios",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Lo nuevo de MrBeast: apoyar con un cuarto de millón de dólares una bola inteligente controlada con IA",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/cucarachas-cyborg-mochilas-sensores-pilotadas-ia-promesa-startup-alemana-choca-realidad-cientifica",
-      "fecha": "24-10-2026"
+      "enlace": "https://www.xataka.com/literatura-comics-y-juegos/nuevo-mrbeast-apoyar-cuarto-millon-dolares-bola-inteligente-controlada-ia",
+      "fecha": "25-10-2026"
     },
     {
-      "titulo": "OpenAI toma una decisión drástica: sus modelos de IA dejarán de entrenarse con Internet en tiempo real",
+      "titulo": "WhatsApp prepara un cambio para las llamadas de desconocidos: podrás saber quién llama antes de responder",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/openai-toma-una-decision-drastica-sus-modelos-ia-dejaran-entrenarse-con-internet-tiempo-real_7052966_0.html",
-      "fecha": "24-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-prepara-un-cambio-para-las-llamadas-desconocidos-podras-saber-quien-llama-antes-responder_7053103_0.html",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "El truco con IA para quitar todos los anuncios y hacer tu Smart TV más rápida",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/eliminar-anuncios-bloatware-smart-tv-ia/",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "¿Podemos \"enamorarnos\" de una IA? La respuesta científica es más intrigante de lo que solemos aceptar",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/podemos-enamorarnos-ia-respuesta-cientifica-intrigante-que-solemos-aceptar",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Jack Wallen, experto en software libre: \"La IA está llevando a Linux al límite del desarrollo y solo estas distros podrán mantenerse\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/jack-wallen-experto-software-libre-ia-esta-llevando-linux-limite-desarrollo-solo-estas-distros-podran-mantenerse_7048578_0.html",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "Sec2John, técnico en ciberseguridad: \"He utilizado el poder de Linux para convertir un móvil obsoleto en un miniservidor autónomo, con potencia para automatizaciones con IA que funciona incluso sin luz\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/sec2john-tecnico-ciberseguridad-he-utilizado-poder-linux-para-convertir-un-movil-obsoleto-un-miniservidor-autonomo-con-potencia-para-automatizaciones-con-ia-que-funciona-incluso-sin-luz_7044893_0.html",
+      "fecha": "25-10-2026"
     }
   ]
 }
