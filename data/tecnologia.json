@@ -1,171 +1,141 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "25-10-2026 15:12",
+  "actualizado": "26-10-2026 03:11",
   "destacadas": [
     {
-      "titulo": "Microsoft prueba Project Pantheon, una alternativa a Recall en la que tú decides qué se guarda",
-      "resumen": "Microsoft trabaja en silencio en Project Pantheon, una herramienta de IA para Windows 11 que no vigila la actividad ni hace capturas periódicas: solo conserva como «recuerdos» lo que el usuario añade a mano, ordenado en colecciones. La IA responde preguntas y resume lo guardado semanas o meses antes, y gracias a MCP ese contexto podría usarse en otros servicios de IA. Microsoft no ha anunciado oficialmente la app ni su lanzamiento.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/microsoft-prepara-una-alternativa-recall-para-windows-11-con-una-diferencia-clave-tu-decides-que-guarda_7053096_0.html",
-      "fecha": "25-10-2026 13:25"
+      "titulo": "Un youtuber desmonta un iPhone Duo y cree haber hallado la causa del «crackgate»",
+      "resumen": "Varios usuarios denuncian que la pantalla del plegable de Apple se rompe a las pocas horas, siempre en el mismo punto, con un crujido audible de la bisagra. El youtuber CuriousHagi reprodujo la rotura en una prueba de durabilidad y, al desmontarlo, vio que una de las piezas de enlace centrales es más fina que las de arriba y abajo y se partió por una muesca, con marcas de roce contra la placa de soporte.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1018290/dissected-iphone-duo-crackgate-hinge-screen",
+      "fecha": "25-10-2026 21:16"
     },
     {
-      "titulo": "Casi todo internet se apoya en PHP, pero su fundación solo tiene una empleada a jornada completa",
-      "resumen": "PHP funciona en cerca del 70% de las webs según W3Techs, pero la fundación que lo sostiene tiene una única empleada a tiempo completo, su directora Elizabeth Barron, y 14 contratistas, la mayoría a tiempo parcial. Tras los dos fallos críticos parcheados esta semana (Cloudflare registró millones de intentos de ataque), Barron admite que el proyecto está «increíblemente infrafinanciado» y recibe casi el doble de propuestas de código que hace un año sin más colaboradores.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/aplicaciones/mayoria-internet-se-apoya-php-resulta-que-su-fundacion-solo-trabaja-persona-a-jornada-completa",
-      "fecha": "25-10-2026 09:30"
-    },
-    {
-      "titulo": "World, la empresa de Sam Altman, lanza una verificación de identidad universal para grandes bancos",
-      "resumen": "Alex Blania presentó el 18 de octubre en Money 20/20 una suite de World ID para banca que agrupa la app de identidad, World ID for Zoom y World ID for Agents, esta última aún en beta. La compañía asegura que más de 18 millones de personas tienen ya su certificado de humanidad. Llega mientras Deloitte prevé que el fraude en EE. UU. alcance 40.000 millones de dólares en 2027, y pese a los problemas regulatorios de Worldcoin en España y Alemania.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/empresa-biometrica-sam-altman-hace-su-primer-gran-movimiento-verificacion-universal-orientada-a-grandes-bancos",
-      "fecha": "25-10-2026 12:00"
-    },
-    {
-      "titulo": "Dinamarca abandona su plan de sustituir Microsoft Office por Collabora tras un piloto con problemas",
-      "resumen": "El Ministerio de Digitalización danés cancela el proyecto de cambiar Office por la suite europea de código abierto Collabora. El piloto, con 38 empleados, se interrumpió tras las elecciones de este año y nunca hubo una evaluación formal. Los funcionarios habían sufrido errores de formato y páginas en blanco por las diferencias entre ODF y OOXML.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/dinamarca-frena-su-plan-para-abandonar-microsoft-office-los-problemas-compatibilidad-ponen-fin-proyecto_7053084_0.html",
-      "fecha": "25-10-2026 12:09"
-    },
-    {
-      "titulo": "Samsung probablemente no cambiará One UI por «Galaxy OS»",
-      "resumen": "El rumor nació el 11 de octubre en una publicación del usuario phonefuturist en X, que hablaba de un «Galaxy OS» más centrado en la IA. La propia fuente lo rectificó después y lo atribuyó a un «error de traducción». Samsung no ha confirmado nada y despliega One UI 9, así que lo más probable sería una nueva marca dentro de One UI, no un relevo completo.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2292973/samsung-probably-not-rebranding-one-ui-as-galaxy-os/",
-      "fecha": "25-10-2026 14:45"
-    },
-    {
-      "titulo": "Construir un centro de datos en Reino Unido exige pasar por tres departamentos del Gobierno",
-      "resumen": "La ministra Liz Lloyd admitió ante el Comité de Ciencia y Tecnología que las competencias se solapan: los centros de datos dependen de BIST, las telecomunicaciones de DCMS, y además intervienen Energía, planificación local y Vivienda. A principios de octubre Microsoft abandonó el que iba a ser el mayor supercomputador de IA del país por no asegurar suministro eléctrico.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/public-sector/2026/10/25/want-to-build-a-uk-datacenter-please-hold-while-whitehall-transfers-you/5304956",
-      "fecha": "25-10-2026 11:39"
-    },
-    {
-      "titulo": "Lo que el movimiento estadounidense contra los centros de datos puede aprender de otros países",
-      "resumen": "Entrevista con Paris Marx, autor de «Hyperscale», cuando los centros de datos pesan en las elecciones legislativas de dentro de menos de dos semanas. Repasa casos previos: la moratoria de Dublín de 2021 por falta de capacidad de red, que llevó a la industria a construir centrales de gas propias, y Google en The Dalles (Oregón), que usaba el 29% del agua de la comunidad y trató de ocultarlo.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
-      "fecha": "25-10-2026 11:00"
-    },
-    {
-      "titulo": "Gran Turismo 3 llega a Android gracias a un port no oficial",
-      "resumen": "GT3-Revisited (v0.2.0, en GitHub) es una recompilación nativa, no emulación, del juego de PS2 de Polyphony Digital. Funciona en Android 7.0 o superior y, según Android Authority, corre a 60 FPS estables con 8 GB de RAM y un Snapdragon de gama media. No incluye el juego: hay que aportar la ISO propia, y es un proyecto no autorizado hecho en parte con IA.",
+      "titulo": "¿Qué pasará con Mass Effect y Dragon Age tras el cierre de BioWare?",
+      "resumen": "EA ha cerrado BioWare tras 31 años y ha despedido a toda la plantilla; el estudio era 100 % propiedad de EA, que conserva todas sus franquicias. Mark Darrah, exproductor de BioWare, cree que EA venderá las IP o las enterrará, porque ya no queda nadie trabajando en ellas. Se filtró un tráiler del nuevo Mass Effect que Jason Schreier ha confirmado como legítimo, y la serie de Prime Video seguiría adelante.",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/gran-turismo-3-llega-a-android-con-este-nuevo-port/",
-      "fecha": "25-10-2026 11:00"
+      "enlace": "https://hipertextual.com/videojuegos/que-pasara-con-mass-effect-y-dragon-age-tras-el-cierre-de-bioware/",
+      "fecha": "25-10-2026 20:00"
+    },
+    {
+      "titulo": "He probado el Honor Robot Phone: sus ocho diferencias con el resto de móviles",
+      "resumen": "El Honor Robot Phone esconde una cámara de 200 megapíxeles en un gimbal mecánico que se despliega desde la parte trasera y sigue al usuario automáticamente. Sirve para grabar recetas sin tocar el móvil, grabarse caminando o recibir guías de pose, aunque el asistente solo funciona en inglés y chino y a veces no entiende los comandos. El autor lo ve como un producto de nicho y no se vende en España.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/moviles/he-probado-honor-robot-phone-su-camara-robotizada-estas-ocho-cosas-donde-se-diferencia-resto",
+      "fecha": "25-10-2026 20:02"
+    },
+    {
+      "titulo": "Ya ejecutan juegos de Xbox One en un iPhone con el proyecto Utsuro",
+      "resumen": "Utsuro es un proyecto de código abierto que traduce el entorno de software de Xbox One para correrlo en iPhone, iPad y Mac, apoyándose en FEXCore para ejecutar código x86-64 sobre ARM. Ya mueve Minecraft: Xbox One Edition con controles táctiles y mando; en Mac también Sonic Mania y Rocket League, este con fallos de iluminación y sonido. Está en desarrollo y su instalación exige Xcode y conocimientos técnicos.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/ejecutar-juegos-xbox-one-iphone-mac-utsuro/",
+      "fecha": "25-10-2026 18:00"
+    },
+    {
+      "titulo": "8BitDo abre la reserva de su Arcade Controller Pro, un mando sin palanca para juegos de lucha",
+      "resumen": "El Arcade Controller Pro cuesta 119,99 dólares y empezará a enviarse el 30 de noviembre. Frente al modelo original, que parte de 89,99 dólares, trae botones más pequeños y juntos, más botones programables, una pantalla de 1,47 pulgadas para ver entradas y configurar el mapeo, y una batería de 3.000 mAh que se carga en cuatro horas. Incluye reposamuñecas magnético y se ofrece en dos colores.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2296362/8bitdos-latest-button-only-arcade-controller-is-now-up-for-preorder/",
+      "fecha": "25-10-2026 17:42"
+    },
+    {
+      "titulo": "O2 explica cuánto tardará la instalación de tu fibra desde que contratas",
+      "resumen": "Según la propia operadora, la llamada para concertar la cita llega en un máximo de tres días laborables desde el alta, y después se envía un SMS y un correo de confirmación. La SIM de los packs combinados tarda entre dos y cinco días laborables, con SMS de seguimiento del envío. O2 recuerda que no hace llamadas ni envía mensajes comerciales durante el proceso, para evitar estafas.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-explica-plazos-instalacion-fibra/",
+      "fecha": "25-10-2026 21:57"
+    },
+    {
+      "titulo": "Instagram llega a Apple TV con su versión para televisión",
+      "resumen": "Una actualización de la app, detectada por MacRumors el 23 de octubre, añade Apple TV a las plataformas compatibles; el 18 de octubre solo figuraban iPhone y iPad. Instagram for TV, centrada en Reels y directos, ya estaba en Fire TV, Samsung Smart TV y Google TV, tras empezar las pruebas en diciembre del año pasado. Meta apuesta por el contenido episódico más largo y los microdramas.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1018253/now-you-can-watch-instagram-reels-on-your-apple-tv",
+      "fecha": "25-10-2026 17:20"
+    },
+    {
+      "titulo": "El FLOP Museum de Oslo reúne los grandes fracasos de producto, con un exempleado de Google detrás",
+      "resumen": "Fundado por Steffen Kalve, el museo abrió su sede en Oslo el 15 de abril de 2026 y expone unos 100 de sus más de 270 objetos, entre ellos Google Glass, el MiniDisc de Sony, la muñeca My Friend Cayla y Crystal Pepsi. Este será su último otoño en la capital noruega y después las piezas saldrán de gira, aún sin destino anunciado.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/europa-existe-museo-dedicado-a-grandes-productos-fallidos-detras-esta-antiguo-empleado-google",
+      "fecha": "25-10-2026 21:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Los ordenadores cuánticos pueden estar más fríos que el espacio profundo: así se mantienen en marcha",
+      "titulo": "Zen Browser es el sustituto de Arc que buscaba",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1018275/zen-browser-arc-replacement",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "El accesorio Nitro Deck 2 para Switch 2 estuvo a unos milímetros de ser bueno",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1017508/crkd-nitro-deck-2-nintendo-switch-2-controller-case-hands-on",
+      "fecha": "25-10-2026"
+    },
+    {
+      "titulo": "No tires tus viejos aparatos Nest sin soporte: haz esto en su lugar",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2292950/how-quantum-computer-stays-running-extreme-cold/",
+      "enlace": "https://www.engadget.com/2294122/dont-throw-away-your-old-unsupported-nest-gadgets/",
       "fecha": "25-10-2026"
     },
     {
-      "titulo": "Científicos atraparon una partícula de antimateria durante meses para estudiar sus secretos",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "Enlazamos 150 altavoces de 10 dólares de Ikea para hacer un muro de sonido",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "Los lectores de The Register eligen «Binface» como nombre de la misión británica de limpieza espacial",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/10/25/reg-readers-land-on-binface-as-name-for-uk-space-cleanup-mission/5305144/",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "Ladrillos, tuberías y una turbina: un hombre construye su propia central hidroeléctrica en casa",
+      "titulo": "Lidl soluciona (por 7,99 euros) un problema cotidiano en casa cuando llega el frío, vuelven las lluvias y sube la humedad",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/energia/ladrillos-tuberias-turbina-hombre-construye-su-propia-central-hidroelectrica-casa",
+      "enlace": "https://www.xataka.com/seleccion/lidl-soluciona-7-99-euros-problema-cotidiano-casa-cuando-llega-frio-vuelven-lluvias-sube-humedad",
       "fecha": "25-10-2026"
     },
     {
-      "titulo": "Tu WiFi Mesh puede tener microcortes aunque tengas cobertura perfecta: la culpa es de 802.11k, v y r",
+      "titulo": "Prefijo +41: de qué país es y qué debes saber antes de contestar",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/productos/wifi-mesh-cortes-802-11-k-v-r/",
+      "enlace": "https://www.adslzone.net/noticias/moviles/llamadas-prefijo-41-ubicacion/",
       "fecha": "25-10-2026"
     },
     {
-      "titulo": "Dust Catchers, los agujeros ocultos de tu PlayStation 5 que permite limpiar el interior de la consola sin desmontarla... ¡Utilizando una aspiradora!",
+      "titulo": "Steve Jobs, cofundador de Apple, sobre saber renunciar a tiempo: \"Decidir qué no hacer es tan importante como decidir qué hacer\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/gaming/dust-catchers-los-agujeros-ocultos-tu-playstation-5-que-permite-limpiar-interior-consola-sin-desmontarla-utilizando-una-aspiradora_7044887_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/steve-jobs-cofundador-apple-sobre-saber-renunciar-tiempo-decidir-que-no-hacer-es-tan-importante-como-decidir-que-hacer_7045980_0.html",
       "fecha": "25-10-2026"
     },
     {
-      "titulo": "El James Webb ha detectado por primera vez nubes de agua variables fuera del Sistema Solar",
+      "titulo": "Ocho años después de abrirla, una tumba de 55 metros con \"antenas\" en pleno desierto del Sáhara revela por fin su edad",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/james-webb-ha-detectado-primera-vez-nubes-agua-variables-fuera-sistema-solar",
+      "enlace": "https://www.xataka.com/magnet/ocho-anos-despues-abrirla-tumba-55-metros-antenas-pleno-desierto-sahara-revela-fin-su-edad",
       "fecha": "25-10-2026"
     },
     {
-      "titulo": "Energy Efficient Ethernet: qué es el ajuste Green Ethernet de tu tarjeta de red o router",
+      "titulo": "Desastre de Apple con el iPhone Duo: las pantallas se están rompiendo por arte de magia",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/energy-efficiente-ethernet-green-tarjeta-red-router/",
+      "enlace": "https://www.adslzone.net/noticias/moviles/iphone-duo-problema-pantalla-rota-crackgate/",
       "fecha": "25-10-2026"
     },
     {
-      "titulo": "¿Por qué los programadores llevan sus portátiles medio abiertos por la calle, los aeropuertos o la oficina?",
+      "titulo": "Xerife Tech, experto en Windows: \"Este es el Windows 11 que Microsoft no quiere que descubras; ni se te ocurra comprar un PC nuevo\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/programadores-caminan-oficina-calle-aeropuertos-pc-portatiles-abiertos_6969838_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/xerife-tech-experto-windows-este-es-windows-11-que-microsoft-no-quiere-que-descubras-ni-se-te-ocurra-comprar-un-pc-nuevo_7049098_0.html",
       "fecha": "25-10-2026"
     },
     {
-      "titulo": "Una empresa francesa lleva un año intentando lanzar una cámara para competir con Japón. El problema no es solo el precio",
+      "titulo": "En 1518, cientos de personas empezaron a bailar sin control en Estrasburgo. La historia real es mucho más extraña",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/fotografia-y-video/empresa-francesa-lleva-ano-intentando-lanzar-camara-para-competir-japon-problema-no-solo-precio",
+      "enlace": "https://www.xataka.com/medicina-y-salud/1518-cientos-personas-empezaron-a-bailar-control-estrasburgo-historia-real-mucho-extrana",
       "fecha": "25-10-2026"
     },
     {
-      "titulo": "HbbTV OpApp: cómo puede una operadora meter todos sus canales en la televisión sin decodificador",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/hbbtv-opapp-television-sin-decodificador/",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "Encuentran durante la limpieza de una casa dos de los tres únicos microordenadores Q1 existentes en el mundo",
+      "titulo": "George Santayana, filósofo español: \"Un niño educado solo en la escuela es un niño sin educación\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/encuentran-durante-limpieza-una-casa-dos-los-tres-unicos-microordenadores-q1-existentes-mundo_7045979_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/george-santayana-filosofo-espanol-un-nino-educado-solo-escuela-es-un-nino-sin-educacion_7042636_0.html",
       "fecha": "25-10-2026"
     },
     {
-      "titulo": "31,50 euros en copas y seis meses de cárcel: el Supremo cambia cómo se castiga el fraude con las tarjetas de crédito",
+      "titulo": "Pionero de la arqueología, la intuición de este vecino gaditano le llevó en 1793 a comprar unas tierras para luego descubrir todo un yacimiento romano",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/legislacion-y-derechos/31-50-euros-copas-seis-meses-carcel-supremo-cambia-como-se-castiga-fraude-tarjetas-credito",
+      "enlace": "https://www.xataka.com/magnet/pionero-arqueologia-intuicion-este-vecino-gaditano-le-llevo-1793-a-comprar-unas-tierras-para-luego-descubrir-todo-yacimiento-romano",
       "fecha": "25-10-2026"
     },
     {
-      "titulo": "Hoy anochecerá una hora antes: mira a qué hora se pone el sol en tu ciudad",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/ciencia/cambio-horario-invierno-espana-puesta-sol/",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "Joselo, instalador de DIGI: \"Ojo, DIGI no comparte infraestructura con el resto de compañías, no tiene convenio de compartición con nadie, nosotros lo sabemos\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/joselo-instalador-oficial-operadora-digi-ojo-no-comparte-infraestructura-resto-empresas-sin-convenio-comparticion-con-nadie-nosotros-sabemos_7012129_0.html",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "En 1941, el acorazado USS Arizona se hundió en Pearl Harbor. EEUU ya tiene su \"sucesor\": un submarino nuclear con 28 Tomahawk más",
+      "titulo": "Las abejas europeas han perdido un tercio de su territorio en un siglo. Y el cambio climático no es el principal culpable",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/1941-acorazado-uss-arizona-se-hundio-pearl-harbor-eeuu-tiene-su-sucesor-submarino-nuclear-28-tomahawk",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "Microsoft Teams será hasta un 20% más rápido en algunos PC gracias a un nuevo modo de eficiencia",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/microsoft-teams-sera-hasta-un-20-mas-rapido-algunos-pc-gracias-un-nuevo-modo-eficiencia_7053089_0.html",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/abejas-europeas-han-perdido-tercio-su-territorio-siglo-cambio-climatico-no-principal-culpable",
       "fecha": "25-10-2026"
     }
   ]
