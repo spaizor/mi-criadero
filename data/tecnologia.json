@@ -1,142 +1,202 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "26-10-2026 03:11",
+  "actualizado": "26-10-2026 15:16",
   "destacadas": [
     {
-      "titulo": "Un youtuber desmonta un iPhone Duo y cree haber hallado la causa del «crackgate»",
-      "resumen": "Varios usuarios denuncian que la pantalla del plegable de Apple se rompe a las pocas horas, siempre en el mismo punto, con un crujido audible de la bisagra. El youtuber CuriousHagi reprodujo la rotura en una prueba de durabilidad y, al desmontarlo, vio que una de las piezas de enlace centrales es más fina que las de arriba y abajo y se partió por una muesca, con marcas de roce contra la placa de soporte.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1018290/dissected-iphone-duo-crackgate-hinge-screen",
-      "fecha": "25-10-2026 21:16"
-    },
-    {
-      "titulo": "¿Qué pasará con Mass Effect y Dragon Age tras el cierre de BioWare?",
-      "resumen": "EA ha cerrado BioWare tras 31 años y ha despedido a toda la plantilla; el estudio era 100 % propiedad de EA, que conserva todas sus franquicias. Mark Darrah, exproductor de BioWare, cree que EA venderá las IP o las enterrará, porque ya no queda nadie trabajando en ellas. Se filtró un tráiler del nuevo Mass Effect que Jason Schreier ha confirmado como legítimo, y la serie de Prime Video seguiría adelante.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/que-pasara-con-mass-effect-y-dragon-age-tras-el-cierre-de-bioware/",
-      "fecha": "25-10-2026 20:00"
-    },
-    {
-      "titulo": "He probado el Honor Robot Phone: sus ocho diferencias con el resto de móviles",
-      "resumen": "El Honor Robot Phone esconde una cámara de 200 megapíxeles en un gimbal mecánico que se despliega desde la parte trasera y sigue al usuario automáticamente. Sirve para grabar recetas sin tocar el móvil, grabarse caminando o recibir guías de pose, aunque el asistente solo funciona en inglés y chino y a veces no entiende los comandos. El autor lo ve como un producto de nicho y no se vende en España.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/moviles/he-probado-honor-robot-phone-su-camara-robotizada-estas-ocho-cosas-donde-se-diferencia-resto",
-      "fecha": "25-10-2026 20:02"
-    },
-    {
-      "titulo": "Ya ejecutan juegos de Xbox One en un iPhone con el proyecto Utsuro",
-      "resumen": "Utsuro es un proyecto de código abierto que traduce el entorno de software de Xbox One para correrlo en iPhone, iPad y Mac, apoyándose en FEXCore para ejecutar código x86-64 sobre ARM. Ya mueve Minecraft: Xbox One Edition con controles táctiles y mando; en Mac también Sonic Mania y Rocket League, este con fallos de iluminación y sonido. Está en desarrollo y su instalación exige Xcode y conocimientos técnicos.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/ejecutar-juegos-xbox-one-iphone-mac-utsuro/",
-      "fecha": "25-10-2026 18:00"
-    },
-    {
-      "titulo": "8BitDo abre la reserva de su Arcade Controller Pro, un mando sin palanca para juegos de lucha",
-      "resumen": "El Arcade Controller Pro cuesta 119,99 dólares y empezará a enviarse el 30 de noviembre. Frente al modelo original, que parte de 89,99 dólares, trae botones más pequeños y juntos, más botones programables, una pantalla de 1,47 pulgadas para ver entradas y configurar el mapeo, y una batería de 3.000 mAh que se carga en cuatro horas. Incluye reposamuñecas magnético y se ofrece en dos colores.",
+      "titulo": "Apple renueva el iPad mini con pantalla OLED de 8,5 pulgadas y chip A20 Pro",
+      "resumen": "El nuevo iPad mini estrena panel OLED de 8,5 pulgadas con hasta 1.200 nits de brillo, chip A20 Pro, chip N1 (Wi-Fi 7 y Bluetooth 6) y certificación IP67. Parte de 128 GB y cuesta desde 699 dólares en Wi-Fi (200 más que el modelo de 2024) y 849 en la versión celular. La preventa arranca el 28 de octubre y llegará a las tiendas el 6 de noviembre.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2296362/8bitdos-latest-button-only-arcade-controller-is-now-up-for-preorder/",
-      "fecha": "25-10-2026 17:42"
+      "enlace": "https://www.engadget.com/2296637/apple-updates-the-ipad-mini-with-an-a20-processor-and-oled-display/",
+      "fecha": "26-10-2026 14:16"
     },
     {
-      "titulo": "O2 explica cuánto tardará la instalación de tu fibra desde que contratas",
-      "resumen": "Según la propia operadora, la llamada para concertar la cita llega en un máximo de tres días laborables desde el alta, y después se envía un SMS y un correo de confirmación. La SIM de los packs combinados tarda entre dos y cinco días laborables, con SMS de seguimiento del envío. O2 recuerda que no hace llamadas ni envía mensajes comerciales durante el proceso, para evitar estafas.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/o2-explica-plazos-instalacion-fibra/",
-      "fecha": "25-10-2026 21:57"
-    },
-    {
-      "titulo": "Instagram llega a Apple TV con su versión para televisión",
-      "resumen": "Una actualización de la app, detectada por MacRumors el 23 de octubre, añade Apple TV a las plataformas compatibles; el 18 de octubre solo figuraban iPhone y iPad. Instagram for TV, centrada en Reels y directos, ya estaba en Fire TV, Samsung Smart TV y Google TV, tras empezar las pruebas en diciembre del año pasado. Meta apuesta por el contenido episódico más largo y los microdramas.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1018253/now-you-can-watch-instagram-reels-on-your-apple-tv",
-      "fecha": "25-10-2026 17:20"
-    },
-    {
-      "titulo": "El FLOP Museum de Oslo reúne los grandes fracasos de producto, con un exempleado de Google detrás",
-      "resumen": "Fundado por Steffen Kalve, el museo abrió su sede en Oslo el 15 de abril de 2026 y expone unos 100 de sus más de 270 objetos, entre ellos Google Glass, el MiniDisc de Sony, la muñeca My Friend Cayla y Crystal Pepsi. Este será su último otoño en la capital noruega y después las piezas saldrán de gira, aún sin destino anunciado.",
+      "titulo": "Netflix ingresa más que nunca, pero vende pocos anuncios: mil despidos y dos directivos históricos fuera",
+      "resumen": "Netflix facturó 12.870 millones de dólares en el tercer trimestre (+11,8 %) con un margen operativo del 34,6 %, pero rebajó su previsión de publicidad de 3.000 a unos 2.700 millones y sus acciones cayeron un 6 %. El 14 de octubre despidió a unos 1.000 empleados (el 6 % de la plantilla). Peter Rice, exjefe de Disney Television, sustituye a Bela Bajaria al frente de contenidos y Dan Lin deja la división de cine.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/europa-existe-museo-dedicado-a-grandes-productos-fallidos-detras-esta-antiguo-empleado-google",
-      "fecha": "25-10-2026 21:00"
+      "enlace": "https://www.xataka.com/streaming/netflix-ingresa-que-nunca-vende-pocos-anuncios-consecuencia-mil-despidos-dos-directivos-historicos-calle",
+      "fecha": "26-10-2026 15:01"
+    },
+    {
+      "titulo": "El Gobierno de EE. UU. oculta una sentencia secreta sobre cómo espía a los estadounidenses",
+      "resumen": "Los senadores Ron Wyden y Adam Schiff acusan a la administración Trump de retener ilegalmente una resolución del tribunal FISA de hace siete meses que cuestionó los filtros con los que se leen mensajes de estadounidenses sin orden judicial. El plazo de 180 días para revisarla venció el 13 de septiembre y exigen explicaciones antes del 6 de noviembre. La Sección 702 caducó en junio, aunque la recogida continúa con la aprobación judicial de marzo, que expira el próximo marzo.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "fecha": "26-10-2026 15:09"
+    },
+    {
+      "titulo": "Tras gastar cientos de miles de millones en tarjetas de Nvidia, los hiperescaladores tendrían la mitad guardadas en cajas",
+      "resumen": "Según las estimaciones de Ed Zitron, Nvidia y Broadcom han vendido más de 560.000 millones de dólares en chips de IA desde 2023 y la mitad estaría sin instalar o sin energía. Microsoft, Meta, Google y Amazon prevén invertir unos 760.000 millones en 2026 (Amazon, 220.000 millones, con flujo de caja negativo). El artículo compara la situación con 2008 y avisa de subidas de precio en RAM, consolas y ordenadores.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/gastar-cientos-miles-millones-dolares-tarjetas-nvidia-hiperescaladores-tienen-mitad-guardadas-cajas",
+      "fecha": "26-10-2026 13:33"
+    },
+    {
+      "titulo": "Huawei lanza en España el Watch D3, su reloj que mide la presión arterial con certificación médica",
+      "resumen": "El Watch D3 está a la venta en España desde hoy por 449 euros, con una báscula Huawei Scale 3 de regalo en la tienda oficial. Mide la presión desde la muñeca con un airbag integrado en la correa, con certificación médica de categoría II-A, y la registra durante 24 horas. Pesa 40 g, tiene pantalla de 1,92 pulgadas con 3.000 nits, resistencia IP68 y hasta seis días de batería.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/huawei-watch-d3-caracteristicas-precio-espana/",
+      "fecha": "26-10-2026 10:00"
+    },
+    {
+      "titulo": "Pat Gelsinger apuesta por Nagare Labs para saltar el muro de la memoria",
+      "resumen": "El exCEO de Intel respalda, a través de Playground Global, a Nagare Labs, que desarrolla la memoria Z2RAM con óxidos semiconductores integrados en 3D sobre la lógica. Promete una densidad al menos cinco veces la de la SRAM (320 MB en el espacio de 64 MB). La startup cerró una ronda semilla de 5 millones de dólares y prevé muestras en cuatro años y producción en una década.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/10/26/former-intel-ceo-pat-gelsinger-bets-on-nagare-labs-to-vault-the-memory-wall/5305181",
+      "fecha": "26-10-2026 13:00"
+    },
+    {
+      "titulo": "Tesla se alía con Turo para impulsar el uso de Full Self-Driving (Supervised)",
+      "resumen": "Turo mostrará qué Teslas de su plataforma llevan FSD y dará un mes gratis a los anfitriones elegibles, verificándolo con la API de Tesla. Tesla dice que unos 1,7 millones de clientes han pagado por FSD y que más del 75 % de quienes recibieron coche en Norteamérica en el tercer trimestre lo contrataron. Los anfitriones podrán anunciar sus coches como «Self-Driving» y los usuarios verán un aviso para supervisar el software.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/26/tesla-turns-to-turo-to-boost-adoption-of-full-self-driving-supervised/",
+      "fecha": "26-10-2026 13:58"
+    },
+    {
+      "titulo": "UK Biobank volverá a abrir pronto, meses después de que alguien intentara vender en Alibaba los datos de 500.000 personas",
+      "resumen": "Tras el ataque de abril de 2026, la plataforma UKB-RAP (más de 20.000 investigadores y unos 30 petabytes) lleva cerrada a los investigadores. Su director, Sir Rory Collins, asegura que ya es segura y una auditoría independiente recomienda reabrirla, a la espera de aprobaciones oficiales. Volverá por fases: sin descargas de resultados, cierre de sesión a los 15 minutos, doble factor y sin acceso SSH.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/26/uk-biobank-back-online-soon-months-after-someone-tried-to-sell-500k-peoples-data-on-alibaba/5305363",
+      "fecha": "26-10-2026 13:38"
     }
   ],
   "titulares": [
     {
-      "titulo": "Zen Browser es el sustituto de Arc que buscaba",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1018275/zen-browser-arc-replacement",
-      "fecha": "25-10-2026"
+      "titulo": "Matiks capta 10 millones de dólares para ampliar su plataforma de juegos de matemáticas y puzles",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/26/matiks-raises-10m-to-expand-its-math-and-puzzle-gaming-platform/",
+      "fecha": "26-10-2026"
     },
     {
-      "titulo": "El accesorio Nitro Deck 2 para Switch 2 estuvo a unos milímetros de ser bueno",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1017508/crkd-nitro-deck-2-nintendo-switch-2-controller-case-hands-on",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "No tires tus viejos aparatos Nest sin soporte: haz esto en su lugar",
+      "titulo": "Even Realities lanza una versión marrón de sus gafas inteligentes G2",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2294122/dont-throw-away-your-old-unsupported-nest-gadgets/",
-      "fecha": "25-10-2026"
+      "enlace": "https://www.engadget.com/2295406/even-realities-launches-a-brown-version-of-its-g2-smart-glasses/",
+      "fecha": "26-10-2026"
     },
     {
-      "titulo": "Lidl soluciona (por 7,99 euros) un problema cotidiano en casa cuando llega el frío, vuelven las lluvias y sube la humedad",
+      "titulo": "Apple ejecutaría diagnósticos en los iPhone devueltos sin abrir el embalaje",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2296630/apple-will-reportedly-run-diagnostics-on-returned-iphones-without-opening-the-packaging/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Google Beam llega a 20 sedes de la USO",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2295586/google-beam-is-being-deployed-at-20-uso-locations/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "La ciudad que se enfrentó a Flock",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/features/1017836/flock-huntington-west-virginia-surveillance-ballot-measure",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Tesco sustituye VMware por Proxmox en sus tiendas y en el borde",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/virtualization/2026/10/26/tesco-replacing-vmware-with-proxmox-in-its-stores-and-on-the-edge/5305281",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Se acelera el trabajo para proteger el DNS de los ataques de descifrado cuántico",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/10/26/work-to-protect-dns-from-quantum-decryption-attacks-is-speeding-up/5305274",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Mark Zuckerberg amenazó con abandonar California por lo elevado de los impuestos. La propia Meta tuvo que negociar con él que se quedara",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/lidl-soluciona-7-99-euros-problema-cotidiano-casa-cuando-llega-frio-vuelven-lluvias-sube-humedad",
-      "fecha": "25-10-2026"
+      "enlace": "https://www.xataka.com/empresas-y-economia/mark-zuckerberg-amenazo-abandonar-california-elevado-impuestos-propia-meta-tuvo-que-negociar-que-se-quedara",
+      "fecha": "26-10-2026"
     },
     {
-      "titulo": "Prefijo +41: de qué país es y qué debes saber antes de contestar",
+      "titulo": "¡Por fin, Apple! El iPad mini OLED es oficial: más potente y delgado que nunca, pero también más caro",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/nuevo-ipad-mini-oled-octubre-2026/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Orange lleva su 5G+ a más ciudades: así está ahora mismo su mejor cobertura móvil en España",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/moviles/llamadas-prefijo-41-ubicacion/",
-      "fecha": "25-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/operadores/orange-evolucion-5g-plus-espana/",
+      "fecha": "26-10-2026"
     },
     {
-      "titulo": "Steve Jobs, cofundador de Apple, sobre saber renunciar a tiempo: \"Decidir qué no hacer es tan importante como decidir qué hacer\"",
+      "titulo": "¿Sirve de algo apuntarse o estar en la Lista Robinson ahora que se ha activado el prefijo 400 para las llamadas SPAM en España?",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/steve-jobs-cofundador-apple-sobre-saber-renunciar-tiempo-decidir-que-no-hacer-es-tan-importante-como-decidir-que-hacer_7045980_0.html",
-      "fecha": "25-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/sirve-algo-apuntarse-estar-lista-robinson-ahora-que-se-ha-activado-prefijo-400-para-las-llamadas-spam-espana_7053276_0.html",
+      "fecha": "26-10-2026"
     },
     {
-      "titulo": "Ocho años después de abrirla, una tumba de 55 metros con \"antenas\" en pleno desierto del Sáhara revela por fin su edad",
+      "titulo": "España tiene todo un corredor ferroviario completamente abandonado y ya hay quien quiere recuperarlo con 35.000 traviesas recicladas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/ocho-anos-despues-abrirla-tumba-55-metros-antenas-pleno-desierto-sahara-revela-fin-su-edad",
-      "fecha": "25-10-2026"
+      "enlace": "https://www.xataka.com/movilidad/espana-tiene-todo-corredor-ferroviario-completamente-abandonado-hay-quien-quiere-recuperarlo-35-000-traviesas-recicladas",
+      "fecha": "26-10-2026"
     },
     {
-      "titulo": "Desastre de Apple con el iPhone Duo: las pantallas se están rompiendo por arte de magia",
+      "titulo": "Apple presenta el nuevo iPad mini 8: su tablet más pequeña ahora sorprende con el precio",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/moviles/iphone-duo-problema-pantalla-rota-crackgate/",
-      "fecha": "25-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/marcas/apple-nuevo-ipad-mini-8/",
+      "fecha": "26-10-2026"
     },
     {
-      "titulo": "Xerife Tech, experto en Windows: \"Este es el Windows 11 que Microsoft no quiere que descubras; ni se te ocurra comprar un PC nuevo\"",
+      "titulo": "Expertos encuentran una posible causa de las pantallas rotas del iPhone Duo tras desmontarlo pieza a pieza: \"Los usuarios ya están reportando grietas y líneas brillantes en el pliegue\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/xerife-tech-experto-windows-este-es-windows-11-que-microsoft-no-quiere-que-descubras-ni-se-te-ocurra-comprar-un-pc-nuevo_7049098_0.html",
-      "fecha": "25-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/expertos-encuentran-una-posible-causa-las-pantallas-rotas-iphone-duo-tras-desmontarlo-pieza-pieza-los-usuarios-ya-estan-reportando-grietas-lineas-brillantes-pliegue_7053271_0.html",
+      "fecha": "26-10-2026"
     },
     {
-      "titulo": "En 1518, cientos de personas empezaron a bailar sin control en Estrasburgo. La historia real es mucho más extraña",
+      "titulo": "El nuevo iPad Mini 2026 no sólo estrena panel OLED: también se planta con un A20 Pro para jugar en la liga de los mayores",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/1518-cientos-personas-empezaron-a-bailar-control-estrasburgo-historia-real-mucho-extrana",
-      "fecha": "25-10-2026"
+      "enlace": "https://www.xataka.com/tablet/apple-ipad-mini-caracteristicas-precio-ficha-tecnica",
+      "fecha": "26-10-2026"
     },
     {
-      "titulo": "George Santayana, filósofo español: \"Un niño educado solo en la escuela es un niño sin educación\"",
+      "titulo": "Si eres de O2 y tienes poca cobertura en casa, mira si tu móvil está en esta lista para llamar por WiFi",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/moviles-compatibles-llamadas-wifi-o2-octubre-2026/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "La Séptima desata el caos en la TDT y aumenta el miedo a que mucha gente no busque los nuevos canales: \"Si ya la veo, ¿para qué voy a resintonizar de nuevo?\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/george-santayana-filosofo-espanol-un-nino-educado-solo-escuela-es-un-nino-sin-educacion_7042636_0.html",
-      "fecha": "25-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-desata-caos-tdt-aumenta-miedo-que-mucha-gente-no-busque-los-nuevos-canales-si-ya-veo-para-que-voy-resintonizar-nuevo_7053277_0.html",
+      "fecha": "26-10-2026"
     },
     {
-      "titulo": "Pionero de la arqueología, la intuición de este vecino gaditano le llevó en 1793 a comprar unas tierras para luego descubrir todo un yacimiento romano",
+      "titulo": "Intel i7, NVIDIA RTX y precio top: así es el portátil gaming Asus que MediaMarkt está liquidando hoy en su outlet",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/pionero-arqueologia-intuicion-este-vecino-gaditano-le-llevo-1793-a-comprar-unas-tierras-para-luego-descubrir-todo-yacimiento-romano",
-      "fecha": "25-10-2026"
+      "enlace": "https://www.xataka.com/seleccion/intel-i7-nvidia-rtx-precio-top-asi-portatil-gaming-asus-que-mediamarkt-esta-liquidando-hoy-su-outlet",
+      "fecha": "26-10-2026"
     },
     {
-      "titulo": "Las abejas europeas han perdido un tercio de su territorio en un siglo. Y el cambio climático no es el principal culpable",
+      "titulo": "Digi TV y la mejora que no todos los clientes aprovechan: ya hay más 7.000 contenidos bajo demanda",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-tv-mas-contenidos-bajo-demanda-clientes/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "He probado un reloj que mide la tensión arterial: es el más completo en salud y tiene un gran diseño",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/he-probado-reloj-que-mide-tension-arterial-huawei-watch-d3-es-mas-completo-salud-mejora-mucho-diseno_7052634_0.html",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Apple se guardaba un 'One More Thing' para 2026, uno que llevamos 15 años esperando",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/abejas-europeas-han-perdido-tercio-su-territorio-siglo-cambio-climatico-no-principal-culpable",
-      "fecha": "25-10-2026"
+      "enlace": "https://www.xataka.com/ordenadores/apple-se-guardaba-one-more-thing-para-2026-uno-que-llevamos-15-anos-esperando",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Tu conexión de Starlink puede ir mejor en las videollamadas y al jugar online: el secreto está en cómo te conectas",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/starlink-videollamadas-juego-online-cable/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "El Huawei Watch D3 lleva un diseño más cómodo y discreto a su smartwatch que mide la tensión arterial",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/huawei-watch-d3-lleva-un-diseno-mas-comodo-discreto-su-smartwatch-que-mide-tension-arterial_7052203_0.html",
+      "fecha": "26-10-2026"
     }
   ]
 }
