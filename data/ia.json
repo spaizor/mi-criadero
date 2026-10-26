@@ -1,116 +1,35 @@
 {
   "seccion": "ia",
-  "actualizado": "25-10-2026 16:10",
+  "actualizado": "26-10-2026 04:10",
   "destacadas": [
     {
-      "titulo": "OpenAI recorta hasta un 90 % sus precios para quitarle a Anthropic sus mayores clientes",
-      "resumen": "Según The Information, la cuota de OpenAI en la carga de programación de Rippling pasó del 16 % al 52 %, mientras que la de Anthropic bajó del 57 % al 18 %. Replit cambió de proveedor tras una oferta con más del 30 % de descuento en un contrato de más de 100 millones de dólares al año, y DataCamp asegura haber reducido costes entre un 80 % y un 90 %. OpenAI sacrifica márgenes para ganar cuota y además sufre presión de precios desde China, con DeepSeek y Kimi.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
-      "fecha": "25-10-2026 08:30"
+      "titulo": "Tras amenazar con vetar exportaciones de IA, China deja que DeepSeek siga vendiendo",
+      "resumen": "A mediados de octubre el Ministerio de Comercio chino revisó su catálogo de tecnologías de exportación restringida e incluyó 23 tecnologías ligadas a grandes modelos, agentes y clústeres de computación, con exención para el software de código abierto. Medios estatales informaron de que DeepSeek y MiniMax han recibido autorización para seguir exportando.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/26/after-threatening-ai-export-bans-china-allows-deepseek-to-keep-selling/5305267",
+      "fecha": "26-10-2026 01:39"
     },
     {
-      "titulo": "Anthropic: un solo agente de IA rinde más que muchos subagentes ahora que los modelos manejan la complejidad solos",
-      "resumen": "El equipo Applied AI de Anthropic recomienda a las empresas valorar si pueden fusionar sus subagentes en un único agente que cargue el contexto bajo demanda. En una comparación, la arquitectura de un solo agente fue unas dos veces más rápida, y Anthropic dice haber recortado más de un 80 % el prompt de sistema de Claude Code. Los subagentes siguen valiendo cuando el rendimiento cae con el tamaño del contexto, hay tareas paralelas o la selección de herramientas falla (a partir de 30-50 definiciones).",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
-      "fecha": "25-10-2026 10:12"
-    },
-    {
-      "titulo": "Dinamarca quiere blindar la voz y el rostro de sus ciudadanos contra los deepfakes",
-      "resumen": "Un proyecto de ley que reforma la propiedad intelectual danesa haría ilegal difundir imitaciones realistas del aspecto o la voz de una persona sin su permiso, con excepciones para parodia, sátira y crítica. El Ministerio quiere que entre en vigor a principios de 2027 y la ministra Zenia Stampe pide a las grandes tecnológicas que retiren rápido el contenido. Desde el 2 de agosto de 2026, la UE exige etiquetar deepfakes con multas de hasta 15 millones de euros o el 3 % de la facturación.",
+      "titulo": "Joe Tsai, presidente de Alibaba: «La única forma de que Europa alcance la soberanía tecnológica es con la IA open source»",
+      "resumen": "Tsai defendió en el evento Wave, en Italia, que las empresas europeas descarguen pesos abiertos, los ejecuten en su infraestructura y los ajusten con datos propios. Alibaba publicó en agosto Qwen3.8, con una versión de 2,4 billones de parámetros y otra de 27.000 millones con licencia Apache 2.0, y presentó el chip Zhenwu V900 para 2027. El artículo recuerda que Tsai es parte interesada y que cambiar de dependencia de EE. UU. a China sigue siendo dependencia.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/privacidad/dinamarca-tiene-plan-deepfakes-blindar-voz-rostro-sus-ciudadanos-ia",
-      "fecha": "25-10-2026 11:30"
+      "enlace": "https://www.xataka.com/robotica-e-ia/presidente-alibaba-tiene-claro-unica-forma-que-europa-alcance-soberania-tecnologica-ia-open-source",
+      "fecha": "25-10-2026 18:30"
     },
     {
-      "titulo": "r/opensource prohíbe los proyectos con IA y a quienes no hablan inglés",
-      "resumen": "Los moderadores de r/opensource publicaron nuevas normas que vetan cualquier proyecto que use IA, esté hecho por IA o se dirija a IA, lo que ha desatado una polémica y la creación del subreddit rival r/trueopensource. También exigen proyectos con al menos un año, mantenidos y con varios colaboradores, y dicen que quien no hable inglés debe buscar otra comunidad porque no pueden distinguir texto escrito de traducido por IA. Críticos señalan que el kernel de Linux ya contiene código generado por IA.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "fecha": "25-10-2026 14:25"
+      "titulo": "La IA no da «ningún retorno financiero» a la mayoría de empresas, según un economista de Apollo",
+      "resumen": "Torsten Slok, economista jefe de Apollo, analizó el «S&P 493» (el S&P 500 sin Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia y Tesla) y halló márgenes e ingresos por trabajador planos. Concluye que para las empresas no tecnológicas la IA ha producido «zero financial payoff» y que «en los negocios la inteligencia es sobre todo criterio».",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "fecha": "25-10-2026 17:57"
     },
     {
-      "titulo": "Cómo los cambios de Google con la IA en la búsqueda han trastocado la edición online",
-      "resumen": "Desde el lanzamiento de AI Overviews en 2024 y del Modo IA en mayo de 2025, el tráfico de Google hacia los medios se ha desplomado. Según Similarweb, la búsqueda hacia The New York Times cayó del 44 % al 35,5 % en tres años, y Digital Content Next registró en 2025 caídas de entre el 1 % y el 25 % en 19 de sus miembros. La News/Media Alliance ya había advertido de que el efecto sería «catastrófico».",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
-      "fecha": "25-10-2026 13:00"
-    },
-    {
-      "titulo": "Microsoft retira Copilot Prioritize de Outlook, la función que ordenaba tus correos con IA",
-      "resumen": "Microsoft eliminará la función que analizaba cada correo entrante y le asignaba prioridad, y que permitía filtrar la bandeja y dar instrucciones personalizadas. La retirada empezará después del 26 de octubre y terminará antes de mediados de noviembre. La compañía lo presenta como una limpieza para concentrar recursos en otras experiencias de Copilot.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-elimina-una-funcion-copilot-outlook-que-organizaba-automaticamente-tus-correos_7053106_0.html",
-      "fecha": "25-10-2026 15:25"
+      "titulo": "Grok publica los primeros siete minutos de su «Odisea» generada con IA",
+      "resumen": "Tres meses después de que Elon Musk anunciara una película «históricamente precisa», Grok difundió el 23 de octubre el «Episodio 1» de siete minutos, hecho con Wonder Studios y el director Dev Walker. El periodista lo ve menos feo de lo esperado pero sin arte ni interés humano, frente a la versión de Christopher Nolan estrenada en julio.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "fecha": "25-10-2026 22:31"
     }
   ],
-  "titulares": [
-    {
-      "titulo": "Los wearables y gadgets de IA más candentes que conviene conocer",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "Nvidia publica en abierto Flora, que etiqueta vídeo de robots 125 veces más barato que GPT-6 Astra",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "Jack Clark, cofundador de Anthropic, adelanta a 2027 su previsión de una IA que se automejora",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "Eric Schmidt compara a OpenAI y Anthropic con las modernas compañías coloniales de comercio",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "OpenMobile-2 demuestra que los agentes de móvil de código abierto pueden rivalizar con los modelos propietarios",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "Lo nuevo de MrBeast: apoyar con un cuarto de millón de dólares una bola inteligente controlada con IA",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/literatura-comics-y-juegos/nuevo-mrbeast-apoyar-cuarto-millon-dolares-bola-inteligente-controlada-ia",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "WhatsApp prepara un cambio para las llamadas de desconocidos: podrás saber quién llama antes de responder",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-prepara-un-cambio-para-las-llamadas-desconocidos-podras-saber-quien-llama-antes-responder_7053103_0.html",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "El truco con IA para quitar todos los anuncios y hacer tu Smart TV más rápida",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/inteligencia-artificial/eliminar-anuncios-bloatware-smart-tv-ia/",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "¿Podemos \"enamorarnos\" de una IA? La respuesta científica es más intrigante de lo que solemos aceptar",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/podemos-enamorarnos-ia-respuesta-cientifica-intrigante-que-solemos-aceptar",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "Jack Wallen, experto en software libre: \"La IA está llevando a Linux al límite del desarrollo y solo estas distros podrán mantenerse\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/jack-wallen-experto-software-libre-ia-esta-llevando-linux-limite-desarrollo-solo-estas-distros-podran-mantenerse_7048578_0.html",
-      "fecha": "25-10-2026"
-    },
-    {
-      "titulo": "Sec2John, técnico en ciberseguridad: \"He utilizado el poder de Linux para convertir un móvil obsoleto en un miniservidor autónomo, con potencia para automatizaciones con IA que funciona incluso sin luz\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/sec2john-tecnico-ciberseguridad-he-utilizado-poder-linux-para-convertir-un-movil-obsoleto-un-miniservidor-autonomo-con-potencia-para-automatizaciones-con-ia-que-funciona-incluso-sin-luz_7044893_0.html",
-      "fecha": "25-10-2026"
-    }
-  ]
+  "titulares": []
 }
