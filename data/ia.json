@@ -1,35 +1,141 @@
 {
   "seccion": "ia",
-  "actualizado": "26-10-2026 04:10",
+  "actualizado": "26-10-2026 16:11",
   "destacadas": [
     {
-      "titulo": "Tras amenazar con vetar exportaciones de IA, China deja que DeepSeek siga vendiendo",
-      "resumen": "A mediados de octubre el Ministerio de Comercio chino revisó su catálogo de tecnologías de exportación restringida e incluyó 23 tecnologías ligadas a grandes modelos, agentes y clústeres de computación, con exención para el software de código abierto. Medios estatales informaron de que DeepSeek y MiniMax han recibido autorización para seguir exportando.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/26/after-threatening-ai-export-bans-china-allows-deepseek-to-keep-selling/5305267",
-      "fecha": "26-10-2026 01:39"
-    },
-    {
-      "titulo": "Joe Tsai, presidente de Alibaba: «La única forma de que Europa alcance la soberanía tecnológica es con la IA open source»",
-      "resumen": "Tsai defendió en el evento Wave, en Italia, que las empresas europeas descarguen pesos abiertos, los ejecuten en su infraestructura y los ajusten con datos propios. Alibaba publicó en agosto Qwen3.8, con una versión de 2,4 billones de parámetros y otra de 27.000 millones con licencia Apache 2.0, y presentó el chip Zhenwu V900 para 2027. El artículo recuerda que Tsai es parte interesada y que cambiar de dependencia de EE. UU. a China sigue siendo dependencia.",
+      "titulo": "Anthropic presenta su S-1 ante la SEC: 16.286 millones de ingresos en el primer semestre y salida a bolsa en noviembre",
+      "resumen": "Anthropic ha registrado ante la SEC el Formulario S-1, paso previo a cotizar en el Nasdaq con el símbolo «ANT». Ingresó 16.286 millones de dólares en el primer semestre de 2026, frente a 1.163 millones un año antes, pero cerró con una pérdida neta de 80.748 millones, de los que 72.388 millones corresponden a un contrato SAFE. El WSJ apunta a una salida a bolsa en la segunda mitad de noviembre, con unos 100.000 millones captados y una valoración de entre 1,5 y 2 billones de dólares.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/presidente-alibaba-tiene-claro-unica-forma-que-europa-alcance-soberania-tecnologica-ia-open-source",
-      "fecha": "25-10-2026 18:30"
+      "enlace": "https://www.xataka.com/empresas-y-economia/anthropic-acaba-dar-uno-pasos-importantes-industria-ia-abrir-sus-cuentas-para-salir-a-bolsa",
+      "fecha": "26-10-2026 15:45"
     },
     {
-      "titulo": "La IA no da «ningún retorno financiero» a la mayoría de empresas, según un economista de Apollo",
-      "resumen": "Torsten Slok, economista jefe de Apollo, analizó el «S&P 493» (el S&P 500 sin Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia y Tesla) y halló márgenes e ingresos por trabajador planos. Concluye que para las empresas no tecnológicas la IA ha producido «zero financial payoff» y que «en los negocios la inteligencia es sobre todo criterio».",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "fecha": "25-10-2026 17:57"
+      "titulo": "Meta planea vender hasta 95.000 millones de dólares en acciones para financiar su expansión de IA",
+      "resumen": "Según The Information, la emisión incluye unos 22.500 millones en acciones Clase A, 12.500 millones en preferentes convertibles que pasarán a ordinarias en agosto de 2029 y 60.000 millones en ventas en mercado abierto de acciones Clase C, probablemente no antes del primer trimestre de 2027. Las Clase C no tienen voto, así que Zuckerberg no pierde control. Nvidia, AMD y Broadcom han mostrado interés no vinculante en comprar hasta 5.000 millones.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/",
+      "fecha": "26-10-2026 15:21"
     },
     {
-      "titulo": "Grok publica los primeros siete minutos de su «Odisea» generada con IA",
-      "resumen": "Tres meses después de que Elon Musk anunciara una película «históricamente precisa», Grok difundió el 23 de octubre el «Episodio 1» de siete minutos, hecho con Wonder Studios y el director Dev Walker. El periodista lo ve menos feo de lo esperado pero sin arte ni interés humano, frente a la versión de Christopher Nolan estrenada en julio.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-      "fecha": "25-10-2026 22:31"
+      "titulo": "¿Puede la IA resolver la crisis del código COBOL?",
+      "resumen": "OpenAI asegura que sus últimos modelos migran código antiguo a lenguajes modernos conservando el comportamiento: GPT-6.1 Sol logra un 87 % de precisión con poco razonamiento y un 98 % con más, frente al 21 % de GPT-6 Sol. Los expertos consultados por The Verge advierten de que reescribir código no es reemplazar un sistema y de que las pruebas de OpenAI están «a años luz» de una modernización real. COBOL sostiene más del 40 % de la banca online según IBM.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+      "fecha": "26-10-2026 14:15"
+    },
+    {
+      "titulo": "Reino Unido destina 130 millones de libras a defensas cibernéticas con IA",
+      "resumen": "El Gobierno británico invertirá 60 millones en un National Cyber Shield basado en IA agéntica y 70 millones en el centro NERV, que buscará vulnerabilidades en la infraestructura del país. Forma parte de un paquete de más de 600 millones en IA del Tesoro, con 165 millones para bioseguridad y 120 millones para el AI Security Institute. Llega tras el incidente PHP2Shell, que tumbó decenas de webs públicas, y aún no está claro cuánta autonomía tendrán esos agentes.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/26/britain-bets-big-on-ai-to-defend-against-the-threats-ai-is-helping-create/5305319",
+      "fecha": "26-10-2026 12:00"
+    },
+    {
+      "titulo": "Toyota apuesta 6.400 millones de dólares al año por robots humanoides y automatización de fábricas",
+      "resumen": "Toyota planea desplegar 400.000 robots dentro de ese plan anual de inversión. Su spinout de robótica con IA, Walden Robotics, salió a bolsa en julio con una valoración de 1.100 millones y 300 millones de financiación. Goldman Sachs estima que Toyota podría captar entre el 3 % y el 8 % del mercado de humanoides en 2035, aunque los inversores son cautos tras sus tropiezos con el hidrógeno y las baterías de estado sólido.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/",
+      "fecha": "26-10-2026 10:18"
+    },
+    {
+      "titulo": "Bill Gates: la IA traerá «verdadera abundancia», pero antes habrá 20 años de convulsión",
+      "resumen": "En el podcast Decoder, de The Verge, Gates afirma que, aun en el mejor escenario, la transición será «tan convulsa como cualquier otra de la historia», con ganadores y perdedores. Cree que en unos 20 años habrá robots capaces de construir casas, cultivar alimentos y operar, y que el trabajo humano dejará de ser necesario para la mayoría de bienes y servicios. Su preocupación es cómo organizarse y mantener el control humano en esa era.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/bill-gates-afirma-que-viviremos-un-periodo-convulso-durante-20-anos-antes-que-ia-cree-verdadera-abundancia_7053275_0.html",
+      "fecha": "26-10-2026 12:32"
+    },
+    {
+      "titulo": "Aiven recorta cerca del 80 % el gasto en tokens con una pasarela de LLM y modelos open-weight",
+      "resumen": "El proveedor finlandés de bases de datos open source dice haber reducido casi un 80 % el gasto en tokens de sus usuarios más intensivos al pasar a modelos open-weight. Lo logró con una pasarela interna basada en LiteLLM, autoalojada, con control de presupuestos y accesos, que ejecuta los modelos en GPU alquiladas. Planea ofrecerla como servicio a clientes como Conrad, Dojo, Sophos y Avaya.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/26/euro-open-source-specialist-proposes-llm-gateway-to-ease-token-bills/5305170",
+      "fecha": "26-10-2026 11:15"
     }
   ],
-  "titulares": []
+  "titulares": [
+    {
+      "titulo": "Anthropic presenta oficialmente su solicitud para salir a bolsa",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "El folleto de salida a bolsa de Anthropic revela qué hay bajo el capó",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "La solicitud de Anthropic plantea «revolucionar todos los ámbitos del esfuerzo humano» con IA",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Tesla renunció a la corona del coche eléctrico y ahora quiere ganar la carrera de la autonomía",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Gigante del capital riesgo: el beneficio de la IA se limita a las grandes tecnológicas",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/26/private-equity-giant-ai-payoff-strictly-limited-to-big-tech/5305358",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Los traders más rápidos de Wall Street construyen centros de datos y financian startups de chips para no quedarse atrás en IA",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-stay-ahead-in-ai/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Los agentes de IA que intentan ser periodistas de verdad",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Centrarse en los desastres de seguridad de la IA ignora los daños cotidianos",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Elon Musk prometió una película de 'La Odisea' generada con IA y Grok acaba de publicar sus primeros siete minutos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/elon-musk-prometio-pelicula-odisea-generada-ia-grok-acaba-publicar-sus-primeros-siete-minutos",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Sam Altman, CEO de OpenAI, anuncia un giro de 180 grados para los programadores: \"Nunca van a estar más ocupados, ni van a tener mayor impacto ni a ganar más dinero\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/sam-altman-ceo-openai-anuncia-un-giro-180-grados-para-los-programadores-nunca-van-estar-mas-ocupados-ni-van-tener-mayor-impacto-ni-ganar-mas-dinero_7053398_0.html",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Quién vigila al vigilante: los límites de Pangram como árbitro de lo que es IA y lo que no",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/quien-vigila-al-vigilante-limites-pangram-como-arbitro-que-ia-que-no",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "\"¿Supongo que Linux ya no está permitido aquí?\" r/opensource, el mayor foro de software libre, prohíbe la IA y veta a los programadores que no hablen inglés",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/supongo-que-linux-ya-no-esta-permitido-aqui-r-opensource-mayor-foro-software-libre-prohibe-ia-veta-los-programadores-que-no-hablen-ingles_7053285_0.html",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "\"La avalancha de IA continúa\": Linux 7.4 llega con mejoras de sonido y nuevos controladores",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/avalancha-ia-continua-linux-7-4-llega-con-mejoras-sonido-nuevos-controladores_7053270_0.html",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Alguien ha sacado una suite de Adobe totalmente gratuita creada con inteligencia artificial",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/alguien-ha-sacado-una-suite-adobe-totalmente-gratuita-creada-con-inteligencia-artificial_7047253_0.html",
+      "fecha": "26-10-2026"
+    }
+  ]
 }
