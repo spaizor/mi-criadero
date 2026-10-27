@@ -1,0 +1,214 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "27-10-2026 15:39",
+  "destacadas": [
+    {
+      "titulo": "Apple renueva el iMac y el MacBook Pro de 14 pulgadas con el chip M6 y sube los precios",
+      "resumen": "Apple lleva el M6 al MacBook Pro de 14 pulgadas y al iMac, con CPU de 12 núcleos, GPU de 12 núcleos, 16 GB de RAM de partida y Wi-Fi 7. El MacBook Pro sube 100 euros y parte de 2.329 euros; el iMac M6 mantiene los 1.819 euros tras la subida de 300 euros del verano. El MacBook Pro de 16 pulgadas seguirá con M5 Pro y Max hasta principios de 2027.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ordenadores/macbook-pro-m6-imac-m6-caracteristicas-precio-ficha-tecnica",
+      "fecha": "27-10-2026 15:16"
+    },
+    {
+      "titulo": "Anduril y Qualcomm presentan BlueChip, un portátil reforzado fabricado en EE. UU.",
+      "resumen": "Palmer Luckey anuncia con Qualcomm un portátil robusto para ejército, Gobierno y cuerpos de seguridad, con un 90% de componentes de EE. UU. o países aliados y un Snapdragon X fabricado por TSMC en Arizona. Saldrá a reserva en 2027, no tiene precio oficial y Luckey calcula que costará un 20% más que un PC de gama alta. Funcionará con apps de Windows y Linux, y el objetivo es llegar al 100% de fabricación nacional.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop/",
+      "fecha": "27-10-2026 14:00"
+    },
+    {
+      "titulo": "Apple lanza iOS 27.2 con Siri AI en español y soporte del Apple Pencil en el iPhone Duo",
+      "resumen": "iOS 27.2 añade a Siri AI compatibilidad con español, francés, portugués, coreano y japonés, aunque en España y la UE su uso sigue limitado y exige un iPhone 15 Pro o posterior. Trae cambios en Apple Music, FaceTime (intérprete de lengua de signos), perfiles en Apple TV y compatibilidad con SynthID en Fotos. El iPhone Duo gana soporte para el Apple Pencil USB-C.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/apple-lanza-ios-27-2-con-grandes-novedades-para-siri-iphone-duo-esto-es-todo-que-cambia_7053998_0.html",
+      "fecha": "27-10-2026 15:00"
+    },
+    {
+      "titulo": "NASA planea lanzar tres cohetes gigantes en dos semanas para Artemis 3",
+      "resumen": "Artemis 3 empezará con un New Glenn que pondrá en órbita baja un módulo Blue Moon Mark 2 de prueba, seguido del SLS con Orion y cuatro astronautas, que acoplarán y entrarán en el módulo. Después un Starship V3 se acoplará con Orion durante unas dos horas. La misión podría lanzarse en verano de 2027 en el mejor caso, tres meses tarde según un memorando de Isaacman.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2298015/nasa-plans-to-launch-three-massive-rockets-for-the-artemis-3-crewed-lunar-test-mission/",
+      "fecha": "27-10-2026 12:58"
+    },
+    {
+      "titulo": "Una PS5 con jailbreak ya puede leer discos de PS2, pero Sony obliga a elegir",
+      "resumen": "El emulador casero PS5SX2, basado en PCSX2, ofrece escalado a 4K, parches a 60 fps y logros. Exige el jailbreak Relapse, que solo funciona hasta el firmware 13.60, y Sony habría bloqueado el acceso a PSN a consolas anteriores al 14.10. Quien lo use pierde multijugador, tienda y juegos nuevos, y podría no poder jugar a GTA VI, previsto el 19 de noviembre.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2295693/a-jailbroken-playstation-5-can-play-ps2-discs-but-sony-is-giving-users-a-tough-choice/",
+      "fecha": "27-10-2026 14:15"
+    },
+    {
+      "titulo": "El ataque al proveedor de correo de AfD expuso 345.000 cuentas, según Have I Been Pwned",
+      "resumen": "Have I Been Pwned confirma que el ataque de septiembre al alojamiento de correo del partido alemán AfD expuso más de 345.000 direcciones únicas y cientos de miles de correos. Según una periodista, empezó con un WordPress mal protegido y los atacantes extrajeron más de un terabyte. El partido sostiene que los resúmenes con IA publicados en una web activista no son fiables.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/10/27/attack-on-email-hosting-provider-for-german-far-right-party-afd-exposed-345k-accounts/5305660",
+      "fecha": "27-10-2026 12:49"
+    },
+    {
+      "titulo": "Ford Fathom: la pickup eléctrica de menos de 30.000 dólares integra el inversor de respaldo doméstico",
+      "resumen": "La Fathom, de unos 28.000 dólares, lleva el inversor en su «E-box» y entrega más de 10 kW de corriente alterna, sin el inversor externo que necesitaba la F-150 Lightning. Ford busca que su Home Power Station cueste la mitad que la Charge Station Pro de 1.310 dólares y que el respaldo completo baje de 5.205 a unos 3.123. Ha pactado con PG&E, AEP, BC Hydro, Consumers Energy y Exelon para simplificar trámites.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/transportation/1018784/ford-fathom-bidirectional-charging-inverter-power-station-cost",
+      "fecha": "27-10-2026 14:00"
+    },
+    {
+      "titulo": "Microsoft publica una actualización fuera de ciclo de Windows con certificados tras el robo de claves de eMudhra",
+      "resumen": "La actualización no es de seguridad y actualiza la lista de confianza de certificados en equipos que no acceden al servicio de Microsoft. Llega tras retirar el 26 de octubre siete certificados de la jerarquía de eMudhra, cuyas claves privadas se comprometieron. Incluye todo lo del parche del 13 de octubre, con sus fallos conocidos en VPN, Smart App Control, audio y Escritorio remoto.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/27/microsoft-releases-out-of-band-windows-fixes-with-certificate-updates/5305637",
+      "fecha": "27-10-2026 13:30"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Palmer Luckey no se va de California por el impuesto a la riqueza",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/27/billionaire-palmer-luckey-isnt-leaving-california-over-the-wealth-tax/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Fujifilm presenta la Instax Mini Evo 2, con pantalla táctil y grabación de vídeo",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/gadgets/1019300/fujifilm-instax-mini-evo-2-instant-camera-price-availability",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "La consola portátil Acer Predator Atlas 8 llega a Best Buy el 1 de noviembre por 1.300 dólares",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2298013/acer-predator-atlas-8-gaming-handheld-comes-to-best-buy-on-november-1-for-1300/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "El AirFly de Twelve South añade una pantalla que guía el emparejamiento de auriculares",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1018679/twelve-south-airfly-view-screen-display-wireless-headphone-earbuds-airplane-adapter",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "El fundador de FreeBSD porta Omarchy a FreeBSD en diez días y diez versiones",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/27/freebsd-founder-ports-omarchy-to-freebsd-in-ten-days-ten-releases/5305446",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "X empuja a promocionar publicaciones con una mano que señala y los usuarios no lo entienden",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/26/x-is-nudging-users-to-promote-their-posts-with-a-pointing-hand-and-people-are-confused/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Sterling Anderson, de GM, cree que los robots humanoides no deberían fabricar coches",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/transportation/1018625/gm-sterling-anderson-interview-robots-ai-autonomous-data-privacy",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Slate se alía con Smarties para ofrecer vinilos de colores de caramelo en sus pickups eléctricas",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2295050/slate-ev-smarties-candy-color-wraps/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Adiós al tendedero en el dormitorio o en el salón: esta es la secadora sin instalación y compacta ideal para pisos pequeños",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/adios-al-tendedero-dormitorio-salon-esta-secadora-instalacion-compacta-ideal-para-pisos-pequenos",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Así es el nuevo MacBook Pro M6: una actualización sin sorpresas como antesala del gran cambio",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/nuevo-macbook-pro-m6-2026/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "El catálogo de juguetes de Navidad 2026 de El Corte Inglés ya está online: qué trae y cómo reservar",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/el-corte-ingles-catalogo-juguetes-navidad-2026/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Elon Musk afirma que los robots humanoides podrían consumir más memoria RAM que cualquier otro dispositivo en la Tierra",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/elon-musk-afirma-que-los-robots-humanoides-podrian-consumir-mas-memoria-ram-que-cualquier-otro-dispositivo-tierra_7053953_0.html",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Europa está llena de ciudades que sufren una crisis de vivienda. En Praga tienen algo más: un plan para solucionarla",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/europa-esta-llena-ciudades-que-sufren-crisis-vivienda-praga-tienen-algo-plan-para-solucionarla",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "El iMac se renueva con chip M6, pero aún no trae lo que más piden los usuarios",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/nuevo-imac-m6-2026/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "El nuevo plan de DAZN GO vs Movistar Plus: dónde puedes ver más deporte por menos de 10 euros",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/comparativa-dazn-go-movistar-plus/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Javier Ruiz, director de La Séptima, el nuevo canal de la TDT: \"Vamos a hacer lo que a muchos canales de televisión se les ha olvidado\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/javier-ruiz-director-septima-nuevo-canal-tdt-vamos-hacer-que-muchos-canales-television-se-les-ha-olvidado_7053817_0.html",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "El parque eólico de Muel sustituye 27 aerogeneradores por solo tres y aumenta su producción más de un 50%",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/parque-eolico-muel-sustituye-27-aerogeneradores-solo-tres-aumenta-su-produccion-50",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Nueva Magic Pro 13 de XPPen: no sólo la mejor tablet para dibujar, también para trabajar",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/brands/xppen-magic-pro-13/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Apple sube el listón con sus nuevos iMac y MacBook Pro con el uso del potente chip M6: a la venta desde el 6 de noviembre",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/apple-imac-macbook-pro-chip-m6/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "\"Sois unos repugnantes corporativos codiciosos y basura\", los jugadores más fieles están siendo penalizados por Sony en su lucha contra el jailbreak de PlayStation 5",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/sois-unos-repugnantes-corporativos-codiciosos-basura-los-jugadores-mas-fieles-estan-siendo-penalizados-por-sony-su-lucha-contra-jailbreak-playstation-5_7053399_0.html",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Singapur llevará a los tribunales a seis conductores de bus y camión por saltarse los límites de velocidad tres veces en dos días",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/cazan-tres-veces-dos-dias-a-conductor-autobus-exceso-velocidad-singapur-llevara-a-tribunales-a-seis-conductores-bus-camion",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Netflix entra en crisis: sus acciones caen un 42 % y los usuarios empiezan a abandonar la plataforma",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/netflix-usuarios-ven-menos-contenido-acciones-caen/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Segway presenta su nueva gama alta de patinetes eléctricos, con mejoras en frenado y autonomía real",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/segway-presenta-su-nueva-gama-alta-patinetes-electricos-con-mejoras-frenado-autonomia-real_7053597_0.html",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Jaca lleva tres años peleando por una UVI móvil con médico las 24 horas. Por fin ha ganado la batalla",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/jaca-lleva-tres-anos-peleando-uvi-movil-medico-24-horas-fin-ha-ganado-batalla",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Cobrar dos pensiones en 2026 es posible y no todo el mundo lo sabe",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/fintech/cobrar-pensiones-jubilacion-viudedad-2026/",
+      "fecha": "27-10-2026"
+    }
+  ]
+}
