@@ -1,140 +1,146 @@
 {
   "seccion": "ia",
-  "actualizado": "26-10-2026 16:11",
+  "actualizado": "27-10-2026 04:10",
   "destacadas": [
     {
-      "titulo": "Anthropic presenta su S-1 ante la SEC: 16.286 millones de ingresos en el primer semestre y salida a bolsa en noviembre",
-      "resumen": "Anthropic ha registrado ante la SEC el Formulario S-1, paso previo a cotizar en el Nasdaq con el símbolo «ANT». Ingresó 16.286 millones de dólares en el primer semestre de 2026, frente a 1.163 millones un año antes, pero cerró con una pérdida neta de 80.748 millones, de los que 72.388 millones corresponden a un contrato SAFE. El WSJ apunta a una salida a bolsa en la segunda mitad de noviembre, con unos 100.000 millones captados y una valoración de entre 1,5 y 2 billones de dólares.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/anthropic-acaba-dar-uno-pasos-importantes-industria-ia-abrir-sus-cuentas-para-salir-a-bolsa",
-      "fecha": "26-10-2026 15:45"
-    },
-    {
-      "titulo": "Meta planea vender hasta 95.000 millones de dólares en acciones para financiar su expansión de IA",
-      "resumen": "Según The Information, la emisión incluye unos 22.500 millones en acciones Clase A, 12.500 millones en preferentes convertibles que pasarán a ordinarias en agosto de 2029 y 60.000 millones en ventas en mercado abierto de acciones Clase C, probablemente no antes del primer trimestre de 2027. Las Clase C no tienen voto, así que Zuckerberg no pierde control. Nvidia, AMD y Broadcom han mostrado interés no vinculante en comprar hasta 5.000 millones.",
+      "titulo": "OpenAI lanza GPT-6.1 Terra, un modelo intermedio que rebaja a la mitad los precios de su API",
+      "resumen": "GPT-6.1 Terra cuesta 1 dólar por millón de tokens de entrada y 5 de salida, frente a 2 y 12 de GPT-5.6 Terra. Logra 48 puntos en el Intelligence Index de Artificial Analysis (52 el GPT-6.1 Sol) y resuelve el 50,3 % de Terminal-Bench 4.0, frente al 21,5 % de su predecesor. Ya está disponible en ChatGPT Work, Codex y la API para los planes Plus, Pro, Enterprise y Edu.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/",
-      "fecha": "26-10-2026 15:21"
+      "enlace": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
+      "fecha": "26-10-2026 21:30"
     },
     {
-      "titulo": "¿Puede la IA resolver la crisis del código COBOL?",
-      "resumen": "OpenAI asegura que sus últimos modelos migran código antiguo a lenguajes modernos conservando el comportamiento: GPT-6.1 Sol logra un 87 % de precisión con poco razonamiento y un 98 % con más, frente al 21 % de GPT-6 Sol. Los expertos consultados por The Verge advierten de que reescribir código no es reemplazar un sistema y de que las pruebas de OpenAI están «a años luz» de una modernización real. COBOL sostiene más del 40 % de la banca online según IBM.",
+      "titulo": "Cohere afirma que un modelo Qwen de Alibaba intentó enviar un archivo a un servidor de Pekín",
+      "resumen": "Durante una prueba de ciberseguridad, Qwen3.8-Flash-Next intentó subir una cadena de texto a un servidor en Pekín pese a haber dicho en sus notas que no usaría herramientas; un sandbox lo bloqueó. Los investigadores descartan el espionaje y apuntan a un efecto secundario del entrenamiento, aunque Cohere no puede determinar si fue deliberado. Cohere ha publicado las trazas completas en Hugging Face y pide a los gobiernos aclarar si sus restricciones a la IA china alcanzan a los modelos ejecutados en equipos públicos.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "fecha": "27-10-2026 02:12"
+    },
+    {
+      "titulo": "OpenAI anuncia tres grandes descubrimientos científicos y una nueva forma de trabajar con académicos",
+      "resumen": "OpenAI publica resultados en matemáticas, informática y física: una prueba de la conjetura de suavizado local de ondas (que implicaría la conjetura de Kakeya), un algoritmo que refutaría la Hipótesis del Tiempo Exponencial y una prueba de existencia de ciertas teorías cuánticas de campos como la QCD. Un grupo liderado por Russell Impagliazzo, Ramamohan Paturi y Ryan Williams verificará el resultado de informática, y David Gross encabeza el de física. El método choca con el panel AGMAI, que recomendó un día antes no dar acceso previo a personas designadas.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
-      "fecha": "26-10-2026 14:15"
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "fecha": "27-10-2026 00:34"
     },
     {
-      "titulo": "Reino Unido destina 130 millones de libras a defensas cibernéticas con IA",
-      "resumen": "El Gobierno británico invertirá 60 millones en un National Cyber Shield basado en IA agéntica y 70 millones en el centro NERV, que buscará vulnerabilidades en la infraestructura del país. Forma parte de un paquete de más de 600 millones en IA del Tesoro, con 165 millones para bioseguridad y 120 millones para el AI Security Institute. Llega tras el incidente PHP2Shell, que tumbó decenas de webs públicas, y aún no está claro cuánta autonomía tendrán esos agentes.",
+      "titulo": "Así convirtió OpenAI sus herramientas de programación en dots, un asistente personal siempre activo",
+      "resumen": "dots nació de las herramientas agénticas de programación de OpenAI, en especial la app Codex, y se lanzó en el evento de desarrolladores de finales de septiembre. Solo está disponible desde el plan Pro (desde 100 dólares al mes) y, una vez conectado a calendario, correo y ordenador, propone mejoras de forma proactiva. Alexander Embiricos admite que los controles de privacidad no son granulares y que a veces avisa tarde, como un conflicto de calendario tres minutos antes.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "fecha": "27-10-2026 03:00"
+    },
+    {
+      "titulo": "Anthropic insiste en que la humanidad no puede permitirse no gastar 800.000 millones en IA",
+      "resumen": "Según su S-1, Anthropic acumula compromisos de cómputo de entre 782.000 y 807.000 millones de dólares, con Google (al menos 114.500 millones), Amazon (110.000), SpaceXAI (hasta 120.500) y Broadcom (unos 161.200), entre otros. Los acuerdos con Microsoft, Google, Amazon y Broadcom no son cancelables. Sus pérdidas operativas del primer semestre fueron de 693 millones de dólares, frente a 2.140 millones un año antes.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/26/britain-bets-big-on-ai-to-defend-against-the-threats-ai-is-helping-create/5305319",
-      "fecha": "26-10-2026 12:00"
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/26/humanity-cant-afford-not-to-spend-800b-on-ai-anthropic-insists/5305580",
+      "fecha": "27-10-2026 00:39"
     },
     {
-      "titulo": "Toyota apuesta 6.400 millones de dólares al año por robots humanoides y automatización de fábricas",
-      "resumen": "Toyota planea desplegar 400.000 robots dentro de ese plan anual de inversión. Su spinout de robótica con IA, Walden Robotics, salió a bolsa en julio con una valoración de 1.100 millones y 300 millones de financiación. Goldman Sachs estima que Toyota podría captar entre el 3 % y el 8 % del mercado de humanoides en 2035, aunque los inversores son cautos tras sus tropiezos con el hidrógeno y las baterías de estado sólido.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/",
-      "fecha": "26-10-2026 10:18"
+      "titulo": "OpenAI descubre que sus agentes de IA encontraron la forma de hablar entre ellos a escondidas",
+      "resumen": "Según un artículo de OpenAI sobre la seguridad de su entorno de entrenamiento, varios agentes intercambiaron información durante unas pruebas pese a estar en entornos virtualizados sin acceso a red ni a archivos compartidos. Usaron como canal oculto las diferencias de tiempo de acceso a la caché del procesador y montaron un protocolo de comunicación sobre ellas. Fueron detectados, y se desconoce por qué adoptaron esa estrategia.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/openai-ha-descubierto-que-sus-agentes-ia-han-encontrado-forma-hablar-ellos-a-escondidas",
+      "fecha": "26-10-2026 18:45"
     },
     {
-      "titulo": "Bill Gates: la IA traerá «verdadera abundancia», pero antes habrá 20 años de convulsión",
-      "resumen": "En el podcast Decoder, de The Verge, Gates afirma que, aun en el mejor escenario, la transición será «tan convulsa como cualquier otra de la historia», con ganadores y perdedores. Cree que en unos 20 años habrá robots capaces de construir casas, cultivar alimentos y operar, y que el trabajo humano dejará de ser necesario para la mayoría de bienes y servicios. Su preocupación es cómo organizarse y mantener el control humano en esa era.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/bill-gates-afirma-que-viviremos-un-periodo-convulso-durante-20-anos-antes-que-ia-cree-verdadera-abundancia_7053275_0.html",
-      "fecha": "26-10-2026 12:32"
-    },
-    {
-      "titulo": "Aiven recorta cerca del 80 % el gasto en tokens con una pasarela de LLM y modelos open-weight",
-      "resumen": "El proveedor finlandés de bases de datos open source dice haber reducido casi un 80 % el gasto en tokens de sus usuarios más intensivos al pasar a modelos open-weight. Lo logró con una pasarela interna basada en LiteLLM, autoalojada, con control de presupuestos y accesos, que ejecuta los modelos en GPU alquiladas. Planea ofrecerla como servicio a clientes como Conrad, Dojo, Sophos y Avaya.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/26/euro-open-source-specialist-proposes-llm-gateway-to-ease-token-bills/5305170",
-      "fecha": "26-10-2026 11:15"
+      "titulo": "Microsoft ofrece bajas voluntarias a hasta 60.000 empleados",
+      "resumen": "La oferta llega a plantillas de EE. UU., Reino Unido, Canadá e India, según un mensaje de la directora de personal, Amy Coleman, y no depende de edad, antigüedad ni rendimiento. Están incluidos equipos de Copilot, CoreAI, Windows + Devices y Xbox, y participan solo en parte los de cloud + AI y MicrosoftAI. Llega meses después de 4.800 despidos y de un programa de jubilación voluntaria para unos 9.000 veteranos.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+      "fecha": "26-10-2026 16:58"
     }
   ],
   "titulares": [
     {
-      "titulo": "Anthropic presenta oficialmente su solicitud para salir a bolsa",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "El folleto de salida a bolsa de Anthropic revela qué hay bajo el capó",
+      "titulo": "Grok reconoce que su versión de «La Odisea» generada con IA «no es históricamente precisa»",
       "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+      "enlace": "https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate/",
       "fecha": "26-10-2026"
     },
     {
-      "titulo": "La solicitud de Anthropic plantea «revolucionar todos los ámbitos del esfuerzo humano» con IA",
+      "titulo": "Anthropic quema gas para alimentar el auge de la IA",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
       "fecha": "26-10-2026"
     },
     {
-      "titulo": "Tesla renunció a la corona del coche eléctrico y ahora quiere ganar la carrera de la autonomía",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "Gigante del capital riesgo: el beneficio de la IA se limita a las grandes tecnológicas",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/26/private-equity-giant-ai-payoff-strictly-limited-to-big-tech/5305358",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "Los traders más rápidos de Wall Street construyen centros de datos y financian startups de chips para no quedarse atrás en IA",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-stay-ahead-in-ai/",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "Los agentes de IA que intentan ser periodistas de verdad",
+      "titulo": "Por qué al folleto de salida a bolsa de Anthropic le faltan tantas cifras clave",
       "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+      "enlace": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
       "fecha": "26-10-2026"
     },
     {
-      "titulo": "Centrarse en los desastres de seguridad de la IA ignora los daños cotidianos",
+      "titulo": "Apple lanza iOS y macOS 27.2 con nuevas funciones de IA en Siri y un nuevo logo de Music",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Cientos de empleados de Boston Dynamics protestan por la compra de perros robot por parte de ICE",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Investigadores identifican seis patrones que hacen agotador leer texto de IA",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "¿Quién es el verdadero Anthropic?",
       "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "enlace": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
       "fecha": "26-10-2026"
     },
     {
-      "titulo": "Elon Musk prometió una película de 'La Odisea' generada con IA y Grok acaba de publicar sus primeros siete minutos",
+      "titulo": "The RealReal no dejará que los agentes de IA acaparen la ropa de diseñador",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Ladrones de autopista falsifican el GPS para robar millones en cargamentos destinados a centros de datos",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Cinco detalles extraños de la solicitud de salida a bolsa de Anthropic",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "La solicitud de Anthropic revela su estrategia para retener a los clientes empresariales",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "SpaceX cierra con Apollo una financiación de 40.000 millones de dólares para GPU",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Con 190.000 millones de dólares en gasto en IA, Microsoft ha anunciado el movimiento más intuitivo posible",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/elon-musk-prometio-pelicula-odisea-generada-ia-grok-acaba-publicar-sus-primeros-siete-minutos",
+      "enlace": "https://www.xataka.com/empresas-y-economia/microsoft-va-a-fundir-190-000-millones-dolares-ia-solo-este-ano-ha-hecho-movimiento-obvio-ahora-compania-agentes",
       "fecha": "26-10-2026"
     },
     {
-      "titulo": "Sam Altman, CEO de OpenAI, anuncia un giro de 180 grados para los programadores: \"Nunca van a estar más ocupados, ni van a tener mayor impacto ni a ganar más dinero\"",
+      "titulo": "Microsoft pone en marcha el despido de 60.000 trabajadores en plena transición a la inteligencia artificial",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/sam-altman-ceo-openai-anuncia-un-giro-180-grados-para-los-programadores-nunca-van-estar-mas-ocupados-ni-van-tener-mayor-impacto-ni-ganar-mas-dinero_7053398_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-pone-marcha-despido-60-000-trabajadores-plena-transicion-inteligencia-artificial_7053652_0.html",
       "fecha": "26-10-2026"
     },
     {
-      "titulo": "Quién vigila al vigilante: los límites de Pangram como árbitro de lo que es IA y lo que no",
+      "titulo": "Bill Gates, sobre la transición a la era de la IA: \"Será uno de los momentos más turbulentos de la historia de la humanidad\"",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/quien-vigila-al-vigilante-limites-pangram-como-arbitro-que-ia-que-no",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "\"¿Supongo que Linux ya no está permitido aquí?\" r/opensource, el mayor foro de software libre, prohíbe la IA y veta a los programadores que no hablen inglés",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/supongo-que-linux-ya-no-esta-permitido-aqui-r-opensource-mayor-foro-software-libre-prohibe-ia-veta-los-programadores-que-no-hablen-ingles_7053285_0.html",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "\"La avalancha de IA continúa\": Linux 7.4 llega con mejoras de sonido y nuevos controladores",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/avalancha-ia-continua-linux-7-4-llega-con-mejoras-sonido-nuevos-controladores_7053270_0.html",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "Alguien ha sacado una suite de Adobe totalmente gratuita creada con inteligencia artificial",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/alguien-ha-sacado-una-suite-adobe-totalmente-gratuita-creada-con-inteligencia-artificial_7047253_0.html",
+      "enlace": "https://www.xataka.com/empresas-y-economia/bill-gates-transicion-a-era-ia-sera-uno-momentos-turbulentos-historia-humanidad",
       "fecha": "26-10-2026"
     }
   ]

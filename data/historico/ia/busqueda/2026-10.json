@@ -3,6 +3,160 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "OpenAI lanza GPT-6.1 Terra, un modelo intermedio que rebaja a la mitad los precios de su API",
+      "fuente": "The Decoder",
+      "fecha": "26-10-2026 21:30",
+      "enlace": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Cohere afirma que un modelo Qwen de Alibaba intentó enviar un archivo a un servidor de Pekín",
+      "fuente": "TechCrunch",
+      "fecha": "27-10-2026 02:12",
+      "enlace": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "OpenAI anuncia tres grandes descubrimientos científicos y una nueva forma de trabajar con académicos",
+      "fuente": "The Verge",
+      "fecha": "27-10-2026 00:34",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Así convirtió OpenAI sus herramientas de programación en dots, un asistente personal siempre activo",
+      "fuente": "TechCrunch",
+      "fecha": "27-10-2026 03:00",
+      "enlace": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Anthropic insiste en que la humanidad no puede permitirse no gastar 800.000 millones en IA",
+      "fuente": "The Register",
+      "fecha": "27-10-2026 00:39",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/26/humanity-cant-afford-not-to-spend-800b-on-ai-anthropic-insists/5305580",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "OpenAI descubre que sus agentes de IA encontraron la forma de hablar entre ellos a escondidas",
+      "fuente": "Xataka",
+      "fecha": "26-10-2026 18:45",
+      "enlace": "https://www.xataka.com/robotica-e-ia/openai-ha-descubierto-que-sus-agentes-ia-han-encontrado-forma-hablar-ellos-a-escondidas",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Microsoft ofrece bajas voluntarias a hasta 60.000 empleados",
+      "fuente": "The Verge",
+      "fecha": "26-10-2026 16:58",
+      "enlace": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Grok reconoce que su versión de «La Odisea» generada con IA «no es históricamente precisa»",
+      "fuente": "Wired",
+      "fecha": "26-10-2026",
+      "enlace": "https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate/",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Anthropic quema gas para alimentar el auge de la IA",
+      "fuente": "The Verge",
+      "fecha": "26-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Por qué al folleto de salida a bolsa de Anthropic le faltan tantas cifras clave",
+      "fuente": "Wired",
+      "fecha": "26-10-2026",
+      "enlace": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Apple lanza iOS y macOS 27.2 con nuevas funciones de IA en Siri y un nuevo logo de Music",
+      "fuente": "Ars Technica",
+      "fecha": "26-10-2026",
+      "enlace": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Cientos de empleados de Boston Dynamics protestan por la compra de perros robot por parte de ICE",
+      "fuente": "Ars Technica",
+      "fecha": "26-10-2026",
+      "enlace": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Investigadores identifican seis patrones que hacen agotador leer texto de IA",
+      "fuente": "The Decoder",
+      "fecha": "26-10-2026",
+      "enlace": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "¿Quién es el verdadero Anthropic?",
+      "fuente": "MIT Technology Review",
+      "fecha": "26-10-2026",
+      "enlace": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "The RealReal no dejará que los agentes de IA acaparen la ropa de diseñador",
+      "fuente": "The Verge",
+      "fecha": "26-10-2026",
+      "enlace": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Ladrones de autopista falsifican el GPS para robar millones en cargamentos destinados a centros de datos",
+      "fuente": "Ars Technica",
+      "fecha": "26-10-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Cinco detalles extraños de la solicitud de salida a bolsa de Anthropic",
+      "fuente": "The Verge",
+      "fecha": "26-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "La solicitud de Anthropic revela su estrategia para retener a los clientes empresariales",
+      "fuente": "TechCrunch",
+      "fecha": "26-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "SpaceX cierra con Apollo una financiación de 40.000 millones de dólares para GPU",
+      "fuente": "TechCrunch",
+      "fecha": "26-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Con 190.000 millones de dólares en gasto en IA, Microsoft ha anunciado el movimiento más intuitivo posible",
+      "fuente": "Xataka",
+      "fecha": "26-10-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/microsoft-va-a-fundir-190-000-millones-dolares-ia-solo-este-ano-ha-hecho-movimiento-obvio-ahora-compania-agentes",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Microsoft pone en marcha el despido de 60.000 trabajadores en plena transición a la inteligencia artificial",
+      "fuente": "ComputerHoy",
+      "fecha": "26-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-pone-marcha-despido-60-000-trabajadores-plena-transicion-inteligencia-artificial_7053652_0.html",
+      "turno": "2026-10-27_M"
+    },
+    {
+      "titulo": "Bill Gates, sobre la transición a la era de la IA: \"Será uno de los momentos más turbulentos de la historia de la humanidad\"",
+      "fuente": "Xataka",
+      "fecha": "26-10-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/bill-gates-transicion-a-era-ia-sera-uno-momentos-turbulentos-historia-humanidad",
+      "turno": "2026-10-27_M"
+    },
+    {
       "titulo": "Anthropic presenta su S-1 ante la SEC: 16.286 millones de ingresos en el primer semestre y salida a bolsa en noviembre",
       "fuente": "Xataka",
       "fecha": "26-10-2026 15:45",
