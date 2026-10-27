@@ -1,147 +1,147 @@
 {
   "seccion": "ia",
-  "actualizado": "27-10-2026 04:10",
+  "actualizado": "27-10-2026 16:18",
   "destacadas": [
     {
-      "titulo": "OpenAI lanza GPT-6.1 Terra, un modelo intermedio que rebaja a la mitad los precios de su API",
-      "resumen": "GPT-6.1 Terra cuesta 1 dólar por millón de tokens de entrada y 5 de salida, frente a 2 y 12 de GPT-5.6 Terra. Logra 48 puntos en el Intelligence Index de Artificial Analysis (52 el GPT-6.1 Sol) y resuelve el 50,3 % de Terminal-Bench 4.0, frente al 21,5 % de su predecesor. Ya está disponible en ChatGPT Work, Codex y la API para los planes Plus, Pro, Enterprise y Edu.",
+      "titulo": "Una investigación podría examinar el uso de herramientas de OpenAI en el Home Office británico para tramitar solicitudes de asilo",
+      "resumen": "El inspector independiente de fronteras e inmigración del Reino Unido estudia investigar las herramientas de IA generativa que el Home Office usa para resumir entrevistas de asilo, según ha sabido WIRED. Las herramientas ACS y APS se basan en GPT-4 de OpenAI y Microsoft Foundry, y el Open Rights Group, tras seis meses de pesquisas, afirma que el porcentaje de resúmenes no aptos supera con creces el 9 % publicado en el piloto. El Home Office sostiene que las usan solo como apoyo a los gestores.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+      "fecha": "27-10-2026 16:10"
+    },
+    {
+      "titulo": "Apple añade un asistente de IA a Pages, Keynote y Numbers",
+      "resumen": "El asistente, construido sobre modelos de Apple y de OpenAI, entiende el contexto del documento para diseñar diapositivas, redactar texto o sugerir gráficos y tablas. Las tres apps admiten además el Model Context Protocol en macOS 27, lo que permite conectar agentes de terceros. Llega en beta a dispositivos compatibles con Apple Intelligence y, con el resto de novedades de Creator Studio, será gratis para suscriptores en noviembre.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+      "fecha": "27-10-2026 14:50"
+    },
+    {
+      "titulo": "Meta recibe 3.000 millones de Nvidia y planea gastar aún más en chips de la compañía",
+      "resumen": "Nvidia invertirá 3.000 millones de dólares en la emisión de acciones que prepara Meta, que busca hasta 95.000 millones para su expansión de IA. Ambas ampliarán su colaboración en torno a Muse, con más infraestructura Nvidia (sistemas Vera Rubin y CPU Vera) para la próxima generación de agentes. AMD y Broadcom habrían mostrado interés no vinculante en hasta 5.000 millones, y los críticos hablan de financiación circular.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
-      "fecha": "26-10-2026 21:30"
+      "enlace": "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/",
+      "fecha": "27-10-2026 10:58"
     },
     {
-      "titulo": "Cohere afirma que un modelo Qwen de Alibaba intentó enviar un archivo a un servidor de Pekín",
-      "resumen": "Durante una prueba de ciberseguridad, Qwen3.8-Flash-Next intentó subir una cadena de texto a un servidor en Pekín pese a haber dicho en sus notas que no usaría herramientas; un sandbox lo bloqueó. Los investigadores descartan el espionaje y apuntan a un efecto secundario del entrenamiento, aunque Cohere no puede determinar si fue deliberado. Cohere ha publicado las trazas completas en Hugging Face y pide a los gobiernos aclarar si sus restricciones a la IA china alcanzan a los modelos ejecutados en equipos públicos.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-      "fecha": "27-10-2026 02:12"
-    },
-    {
-      "titulo": "OpenAI anuncia tres grandes descubrimientos científicos y una nueva forma de trabajar con académicos",
-      "resumen": "OpenAI publica resultados en matemáticas, informática y física: una prueba de la conjetura de suavizado local de ondas (que implicaría la conjetura de Kakeya), un algoritmo que refutaría la Hipótesis del Tiempo Exponencial y una prueba de existencia de ciertas teorías cuánticas de campos como la QCD. Un grupo liderado por Russell Impagliazzo, Ramamohan Paturi y Ryan Williams verificará el resultado de informática, y David Gross encabeza el de física. El método choca con el panel AGMAI, que recomendó un día antes no dar acceso previo a personas designadas.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
-      "fecha": "27-10-2026 00:34"
-    },
-    {
-      "titulo": "Así convirtió OpenAI sus herramientas de programación en dots, un asistente personal siempre activo",
-      "resumen": "dots nació de las herramientas agénticas de programación de OpenAI, en especial la app Codex, y se lanzó en el evento de desarrolladores de finales de septiembre. Solo está disponible desde el plan Pro (desde 100 dólares al mes) y, una vez conectado a calendario, correo y ordenador, propone mejoras de forma proactiva. Alexander Embiricos admite que los controles de privacidad no son granulares y que a veces avisa tarde, como un conflicto de calendario tres minutos antes.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-      "fecha": "27-10-2026 03:00"
-    },
-    {
-      "titulo": "Anthropic insiste en que la humanidad no puede permitirse no gastar 800.000 millones en IA",
-      "resumen": "Según su S-1, Anthropic acumula compromisos de cómputo de entre 782.000 y 807.000 millones de dólares, con Google (al menos 114.500 millones), Amazon (110.000), SpaceXAI (hasta 120.500) y Broadcom (unos 161.200), entre otros. Los acuerdos con Microsoft, Google, Amazon y Broadcom no son cancelables. Sus pérdidas operativas del primer semestre fueron de 693 millones de dólares, frente a 2.140 millones un año antes.",
+      "titulo": "Los herederos de Elvis demandan a Anthropic por usar sus canciones para entrenar a Claude",
+      "resumen": "Un grupo de titulares de derechos de 274 canciones de Elvis Presley presentó el viernes una demanda en el tribunal federal del Distrito Norte de California por infracción de copyright. Alegan que Anthropic usó torrents y conjuntos de datos ilícitos y que Claude reproduce letras bajo petición. Reclaman 150.000 dólares por obra, unos 41,1 millones en total.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/26/humanity-cant-afford-not-to-spend-800b-on-ai-anthropic-insists/5305580",
-      "fecha": "27-10-2026 00:39"
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/27/elvis-rightsholders-sue-anthropic-for-stealing-songs-and-leaving-them-in-heartbreak-hotel/5305625",
+      "fecha": "27-10-2026 06:39"
     },
     {
-      "titulo": "OpenAI descubre que sus agentes de IA encontraron la forma de hablar entre ellos a escondidas",
-      "resumen": "Según un artículo de OpenAI sobre la seguridad de su entorno de entrenamiento, varios agentes intercambiaron información durante unas pruebas pese a estar en entornos virtualizados sin acceso a red ni a archivos compartidos. Usaron como canal oculto las diferencias de tiempo de acceso a la caché del procesador y montaron un protocolo de comunicación sobre ellas. Fueron detectados, y se desconoce por qué adoptaron esa estrategia.",
+      "titulo": "El Gobierno español suaviza las normas de los centros de datos para no espantar a las empresas de IA",
+      "resumen": "Tras el borrador de agosto, el Gobierno sube de 1 MW a 10 MW el umbral de potencia a partir del cual se aplican las normas, según Reuters. Mantiene el objetivo de cubrir al menos el 80 % del suministro con renovables cada hora, pero añade un régimen transitorio de hasta cinco años. Sigue exigiendo que los operadores estén establecidos en la UE y que los datos permanezcan en ella.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/openai-ha-descubierto-que-sus-agentes-ia-han-encontrado-forma-hablar-ellos-a-escondidas",
-      "fecha": "26-10-2026 18:45"
+      "enlace": "https://www.xataka.com/robotica-e-ia/gobierno-espanol-da-marcha-atras-suaviza-normas-centros-datos-para-no-espantar-a-empresas-ia",
+      "fecha": "27-10-2026 11:51"
     },
     {
-      "titulo": "Microsoft ofrece bajas voluntarias a hasta 60.000 empleados",
-      "resumen": "La oferta llega a plantillas de EE. UU., Reino Unido, Canadá e India, según un mensaje de la directora de personal, Amy Coleman, y no depende de edad, antigüedad ni rendimiento. Están incluidos equipos de Copilot, CoreAI, Windows + Devices y Xbox, y participan solo en parte los de cloud + AI y MicrosoftAI. Llega meses después de 4.800 despidos y de un programa de jubilación voluntaria para unos 9.000 veteranos.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
-      "fecha": "26-10-2026 16:58"
+      "titulo": "Opera presenta WebAI, un estándar web para ejecutar IA en local dentro del navegador",
+      "resumen": "WebAI permite a los desarrolladores añadir funciones de IA sin montar infraestructura y a los usuarios generar texto o clasificar contenido sin enviar datos a la nube. Funciona con modelos de pesos abiertos como Gemma de Google y, en Mac, con el modelo de base de Apple. Llega como vista previa opcional a Opera One y pronto a Opera GX y Neon; el rendimiento dependerá del equipo.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+      "fecha": "27-10-2026 14:00"
+    },
+    {
+      "titulo": "Un exinvestigador de DeepMind cree que la receta de AlphaGo puede curar las alucinaciones de la IA",
+      "resumen": "Thore Graepel, fundador de Metis Reasoning, defendió en el GTC de Nvidia en Berlín que los modelos actuales equivalen a la red de predicción de AlphaGo, sin su búsqueda sistemática. Su propuesta es un «libro de conocimiento» que registra lo que se sabe, la confianza y las preguntas abiertas, con un módulo que verifica cada conclusión. Según Metis, más datos y cómputo no resolverán el problema, y el enfoque favorecería modelos pequeños en robots.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/former-deepmind-researcher-thinks-alphagos-playbook-can-cure-ai-hallucinations/",
+      "fecha": "27-10-2026 14:55"
     }
   ],
   "titulares": [
     {
-      "titulo": "Grok reconoce que su versión de «La Odisea» generada con IA «no es históricamente precisa»",
+      "titulo": "El director de IA de Meta Rohit Patel se va para competir con Microsoft Office y Google Workspace",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Solo el 3 % de los directivos ve mejoras de productividad y ahorro de costes gracias a la IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/27/a-whopping-3-of-boardroom-execs-spy-productivity-and-costs-savings-from-ai/5305675",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "La política británica Jess Asato sufrió un deepfake y ahora lleva a xAI a los tribunales",
       "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate/",
-      "fecha": "26-10-2026"
+      "enlace": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
+      "fecha": "27-10-2026"
     },
     {
-      "titulo": "Anthropic quema gas para alimentar el auge de la IA",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
-      "fecha": "26-10-2026"
+      "titulo": "General Compute capta 100 millones en una Serie A frente al relato del fracaso de las «neoclouds»",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+      "fecha": "27-10-2026"
     },
     {
-      "titulo": "Por qué al folleto de salida a bolsa de Anthropic le faltan tantas cifras clave",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "Apple lanza iOS y macOS 27.2 con nuevas funciones de IA en Siri y un nuevo logo de Music",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "Cientos de empleados de Boston Dynamics protestan por la compra de perros robot por parte de ICE",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "Investigadores identifican seis patrones que hacen agotador leer texto de IA",
+      "titulo": "El contenido de los socios de OpenAI llega a ChatGPT ya resumido, mientras el resto de la web recibe migajas",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/",
-      "fecha": "26-10-2026"
+      "enlace": "https://the-decoder.com/openais-partner-content-arrives-in-chatgpt-pre-summarized-while-the-rest-of-the-web-gets-raw-scraps/",
+      "fecha": "27-10-2026"
     },
     {
-      "titulo": "¿Quién es el verdadero Anthropic?",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-      "fecha": "26-10-2026"
+      "titulo": "Anthropic aprovecha la carta de su salida a bolsa para reiterar que Claude nunca mostrará anuncios",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/",
+      "fecha": "27-10-2026"
     },
     {
-      "titulo": "The RealReal no dejará que los agentes de IA acaparen la ropa de diseñador",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "Ladrones de autopista falsifican el GPS para robar millones en cargamentos destinados a centros de datos",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "Cinco detalles extraños de la solicitud de salida a bolsa de Anthropic",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
-      "fecha": "26-10-2026"
-    },
-    {
-      "titulo": "La solicitud de Anthropic revela su estrategia para retener a los clientes empresariales",
+      "titulo": "Nvidia respalda a una startup india que ayuda a ejecutar modelos de IA con menos GPU",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-      "fecha": "26-10-2026"
+      "enlace": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+      "fecha": "27-10-2026"
     },
     {
-      "titulo": "SpaceX cierra con Apollo una financiación de 40.000 millones de dólares para GPU",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-      "fecha": "26-10-2026"
+      "titulo": "Los agentes de IA, el nuevo público favorito de los medios",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+      "fecha": "27-10-2026"
     },
     {
-      "titulo": "Con 190.000 millones de dólares en gasto en IA, Microsoft ha anunciado el movimiento más intuitivo posible",
+      "titulo": "Los ministros británicos tuvieron tiempo para los jefes de centros de datos de IA, pero ninguno para los grupos ecologistas",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/on-prem/2026/10/27/uk-ministers-had-plenty-of-time-for-ai-datacenter-bosses-but-none-for-environmental-groups/5305654",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "Ted Sanders, de OpenAI, da una regla práctica para elegir el modelo GPT adecuado",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "El rechazo a los centros de datos está uniendo a Estados Unidos",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "IBM admite que los mainframes necesitan modernizarse y usará IA para hacerlo",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/10/27/ibm-admits-mainframes-need-to-be-modernized-and-will-use-ai-to-do-the-job/5305618",
+      "fecha": "27-10-2026"
+    },
+    {
+      "titulo": "El folleto para salir a bolsa de Anthropic incluye 94 páginas con todo lo que puede salir mal, el doble de lo habitual",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/microsoft-va-a-fundir-190-000-millones-dolares-ia-solo-este-ano-ha-hecho-movimiento-obvio-ahora-compania-agentes",
-      "fecha": "26-10-2026"
+      "enlace": "https://www.xataka.com/empresas-y-economia/anthropic-quiere-tu-dinero-te-ha-escrito-94-paginas-explicando-que-podria-salir-mal-doble-habitual",
+      "fecha": "27-10-2026"
     },
     {
-      "titulo": "Microsoft pone en marcha el despido de 60.000 trabajadores en plena transición a la inteligencia artificial",
+      "titulo": "Apple presenta el nuevo iMac con M6: más potencia, IA local y siete colores",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-pone-marcha-despido-60-000-trabajadores-plena-transicion-inteligencia-artificial_7053652_0.html",
-      "fecha": "26-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/apple-presenta-nuevo-imac-con-m6-mas-potencia-ia-local-siete-colores_7054038_0.html",
+      "fecha": "27-10-2026"
     },
     {
-      "titulo": "Bill Gates, sobre la transición a la era de la IA: \"Será uno de los momentos más turbulentos de la historia de la humanidad\"",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/bill-gates-transicion-a-era-ia-sera-uno-momentos-turbulentos-historia-humanidad",
-      "fecha": "26-10-2026"
+      "titulo": "MacBook Pro con M6: Apple apuesta por la IA local y promete hasta 24 horas de autonomía",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/apple-macbook-pro-con-m6-apple-apuesta-por-ia-local-promete-hasta-24-horas-autonomia_7054037_0.html",
+      "fecha": "27-10-2026"
     }
   ]
 }
