@@ -1,0 +1,208 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "27-10-2026 03:11",
+  "destacadas": [
+    {
+      "titulo": "Microsoft abre un plan de salidas voluntarias para unos 60.000 empleados, el 27% de su plantilla",
+      "resumen": "La compañía ofrece salidas voluntarias a unos 60.000 empleados de EE. UU., Canadá, India y Reino Unido, hasta nivel 70, sobre un total de 223.000 trabajadores. Según CNBC, tendrán hasta comienzos de diciembre para decidir y la salida sería efectiva el 31 de diciembre. Microsoft no ha fijado un objetivo de bajas ni detallado las condiciones económicas.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/microsoft-acaba-abrir-gigantesco-plan-salidas-voluntarias-para-cerca-27-su-plantilla-unos-60-000-empleados",
+      "fecha": "26-10-2026 20:15"
+    },
+    {
+      "titulo": "Apple reconoce el fallo de pantalla del iPhone Duo y promete reemplazar las unidades afectadas",
+      "resumen": "Tras el vídeo de decenas de usuarios con la pantalla interna rota, Apple admite un problema que afecta a «un pequeño número de unidades» del primer plegable de la marca. Quienes lo sufran deben contactar con AppleCare para solicitar un reemplazo. La polémica surge pocos días después del lanzamiento del terminal.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/apple-reconoce-fallo-pantalla-iphone-duo/",
+      "fecha": "26-10-2026 19:56"
+    },
+    {
+      "titulo": "El ataque a la cadena de suministro de LiteLLM empezó con una clave maestra expuesta en GitHub",
+      "resumen": "LiteLLM atribuye el ataque a una clave maestra subida por error a un repositorio público el 27 de mayo y que nunca se revocó. El 10 de octubre el atacante la usó para obtener un token OAuth de GitHub CLI con acceso de propietario a todos sus repositorios. La versión envenenada 1.107.0, con infostealer y troyano de acceso remoto, estuvo menos de dos horas en PyPI y sumó unas 49.000 descargas.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544",
+      "fecha": "26-10-2026 21:30"
+    },
+    {
+      "titulo": "Musk acusa a Ucrania de violar las condiciones de Starlink con ataques letales de drones",
+      "resumen": "Musk afirma que Ucrania usó el servicio comercial Starlink para ataques ofensivos con drones y que SpaceX cerró esa «laguna» la semana pasada con una restricción de velocidad. Un asesor de Zelenski, Serhii Beskrestnov, lo niega y asegura que los límites previos ya lo impedían. Zelenski afirma que las nuevas restricciones se han levantado.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/musk-accuses-ukraine-of-violating-starlink-terms-with-deadly-drone-strikes/",
+      "fecha": "26-10-2026 19:09"
+    },
+    {
+      "titulo": "Samsung recortará un 20% la producción de los Galaxy A y los encarecerá por la «chipflación»",
+      "resumen": "Según ETNews, Samsung reducirá alrededor de un 20% la fabricación de la serie Galaxy A respecto a lo previsto, por el encarecimiento de memorias, placas PCB y condensadores MLCC. Priorizará los Galaxy S y Z, de mayor margen, aunque la gama A supone el 70% de sus ventas de móviles. La compañía ya subió precios en sus líneas hace unos meses.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/samsung-recorta-produccion-galaxy-a-subida-precios/",
+      "fecha": "26-10-2026 22:45"
+    },
+    {
+      "titulo": "Microsoft publica correcciones urgentes de .NET por un fallo de Brotli que permite corromper memoria",
+      "resumen": "La actualización fuera de ciclo cubre .NET 8, 9, 10 y 11 frente a la vulnerabilidad CVE-2026-111497, un desbordamiento de búfer con 8,1 de CVSS que permite leer o corromper memoria sin autenticación. Fue revelada el 21 de octubre por Node.js y Microsoft la califica de «explotación más probable», aunque no hay ataques conocidos. Existen exploits funcionales creados por expertos.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/26/microsoft-releases-emergency-net-security-fixes-for-google-brotli-bug/5305515",
+      "fecha": "26-10-2026 18:58"
+    },
+    {
+      "titulo": "Audio filtrado: el CEO de Flock dice a policías que las protestas contra la empresa «no son reales»",
+      "resumen": "Según un audio obtenido por 404 Media, Garrett Langley dijo a jefes de policía en una conferencia privada que el rechazo a Flock, empresa de lectores de matrículas, no es real. Sin pruebas, atribuyó las críticas en redes sobre todo a bots rusos y aseguró que la conversación sobre Flock ha caído un 95% desde julio. También dijo que preferiría no volver a dar entrevistas.",
+      "fuente": "404 Media",
+      "enlace": "https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/",
+      "fecha": "26-10-2026 18:43"
+    },
+    {
+      "titulo": "Musk predice «muertes y consolidaciones a nivel extremo» entre las más de 200 neoclouds",
+      "resumen": "Musk escribió en X que los mercados de deuda han cerrado casi del todo el acceso a financiación para las neoclouds sin ingresos relevantes fuera de los centros de datos de IA. Según Reuters, CoreWeave, Nebius, IREN y Applied Digital cerraron el lunes a la baja. Estos proveedores de nube se centran en computación con GPU para entrenar y ejecutar modelos de IA.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/elon-musk-cree-que-carrera-ia-se-cobrara-nuevas-victimas-neoclouds",
+      "fecha": "26-10-2026 19:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Instagram pasa de los vídeos cortos a emitir vídeos de 90 minutos en televisión",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "El iPhone Duo admitirá el Apple Pencil con iOS 27.2",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1018827/ios-27-2-iphone-duo-apple-pencil",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Halide lanza su primera tanda de actualizaciones para el iPhone Duo",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2297806/halide-releases-its-first-batch-of-updates-for-the-iphone-duo/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Sucker Punch, el estudio de Ghost of Yōtei, despediría a 24 trabajadores",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2297486/ghost-of-yotei-studio-sucker-punch-lays-off-24-workers/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Una startup de excavadoras autónomas capta 600 millones de dólares",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Las startups de fusión dan participaciones al Gobierno a cambio de ayudas: ¿compensa?",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/26/fusion-startups-are-giving-the-government-shares-in-exchange-for-awards-is-it-worth-it/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Un pentester británico gana 2.000 dólares en bitcoin en el concurso CTF PHP2Shell",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/26/uk-pentester-killa-claims-2k-bitcoin-prize-in-php2shell-capture-the-flag-contest/5305429",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Un teclado de código abierto deja cambiar piezas como ladrillos Lego magnéticos",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/26/open-source-keyboard-lets-you-swap-parts-like-magnetic-lego-bricks/5305470",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Fin de operaciones de Swift: la nave de 2004 camina hacia una reentrada en llamas",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/science/2026/10/26/swift-operations-end-2004-spacecraft-headed-for-fiery-reentry/5305346",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "La respuesta de la NBA a los escándalos de apuestas: más acuerdos con casas de apuestas",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/entertainment/1018818/nba-kalshi-polymarket",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "China está apretando el suministro de un metal que Japón necesita para coches y motores de avión. Las reservas ya se miden en meses",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/china-esta-apretando-suministro-metal-que-japon-necesita-para-coches-motores-avion-reservas-se-miden-meses",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Instagram da el salto a la televisión: así son los vídeos de 90 minutos con los que quiere competir con YouTube",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/tecnologia/instagram-videos-90-minutos-apple-tv/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Wi-Fi 7 llega a los hogares, pero ¿merece la pena cambiar el router si tienes Wi-Fi 6?",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/wifi-7-vs-wifi-6-merece-la-pena-cambiar-router/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Soy-Yo, la alternativa gratis a TrueCaller y ListaSpam, para comprobar números de teléfono de los creadores de La Lista Robinson",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/soy-yo-alternativa-gratis-truecaller-listaspam-para-comprobar-numeros-telefono-los-creadores-lista-robinson_7053397_0.html",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Las muestras que OSIRIS-REx trajo del asteroide Bennu resuelven un misterio que llevaba años desconcertando a los científicos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/muestras-que-osiris-rex-trajo-asteroide-bennu-resuelven-misterio-que-llevaba-anos-desconcertando-a-cientificos",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Esta petición con miles de firmas busca salvar ‘Mass Effect’ tras el cierre de BioWare",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/peticion-salvar-mass-effect-bioware/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Microsoft ofrece la salida a una cuarta parte de su plantilla: 60.000 trabajadores podrían estar fuera de la empresa por recortes",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/microsoft-salidas-voluntarias-60000-empleados-inteligencia-artificial/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Si tienes una Smart TV ya puedes ver RTVE 70 años, canal gratis con series míticas y programas que marcaron una época",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/si-tienes-una-smart-tv-ya-puedes-ver-rtve-70-anos-canal-gratis-con-series-miticas-programas-que-marcaron-una-epoca_7053615_0.html",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "La ciencia tiene la respuesta a por qué nos encantan las películas malas: cuando lo cutre es lo más divertido",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/cine-y-tv/ciencia-tiene-respuesta-a-que-nos-encantan-peliculas-malas-cuando-cutre-divertido",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "¿Cuánto pagarás por el nuevo iPad mini OLED en España y México? Todos sus precios",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/ipad-mini-oled-todos-sus-precios-en-espana-y-mexico/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "WhatsApp prepara el adiós a la pestaña Novedades: los canales se mudarán a Chats y podrás elegir cuáles archivar",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/whatsapp/novedad-canales-whatsapp-desaparece-novedades/",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "\"Tu misión será doble\": La Séptima avisa a sus futuros espectadores y les encarga una \"tarea\" para el 5 de noviembre",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/tu-mision-sera-doble-septima-avisa-sus-futuros-espectadores-les-encarga-una-tarea-para-5-noviembre_7053410_0.html",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "La drástica ruptura de Moeve y Galp explica lo difícil que es transformar el negocio energético en España",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/moeve-galp-querian-crear-gigante-iberico-su-ruptura-dice-mucho-dificil-que-transformar-negocio-energetico",
+      "fecha": "26-10-2026"
+    },
+    {
+      "titulo": "Todo esto llega a M+: la gala del Balón de Oro en exclusiva, partidos de LaLiga y Champions, varios estrenos de cine y series y más",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/todo-esto-llega-a-m-gala-balon-oro-exclusiva-partidos-laliga-champions-varios-estrenos-cine-series",
+      "fecha": "26-10-2026"
+    }
+  ]
+}
