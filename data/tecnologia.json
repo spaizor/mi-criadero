@@ -1,214 +1,214 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "28-10-2026 03:12",
+  "actualizado": "28-10-2026 15:30",
   "destacadas": [
     {
-      "titulo": "Un fallo de 16 años en el firmware UEFI de TianoCore EDK II afecta a la mayoría de servidores del mundo",
-      "resumen": "La vulnerabilidad CVE-2026-97631, con una gravedad de 9,5 sobre 10, es un desbordamiento de búfer en el controlador PXE del código base EDK II, usado por AMI, Insyde y Phoenix, y permite ejecutar código antes de que actúen defensas como Secure Boot. La habían descubierto Alex Matrosov, de Anthropic, y Dan Holmes, de Google, con divulgación coordinada prevista para enero, pero un «pull request» publicado por AMI el mes pasado desveló el parche y TianoCore tuvo que emitir un aviso público la semana pasada. Con el código del arreglo ya público, será sencillo crear exploits, y parchear millones de equipos será lento.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
-      "fecha": "27-10-2026 21:25"
-    },
-    {
-      "titulo": "EE. UU. avisa de que ya se explotan los fallos críticos de PHP conocidos como PHP2Shell",
-      "resumen": "La agencia CISA confirmó el 26 de octubre la explotación activa de dos fallos críticos en PHP que permiten entrar remotamente en un sistema sin contraseñas, y dio a las agencias federales civiles tres días para corregirlos. Los fallos se descubrieron hace unos dos años, pero no se parchearon porque se creía que no había forma práctica de explotarlos, hasta que la firma Calif encontró una a principios de 2026 con ayuda de un modelo de IA. PHP se usa en en torno al 70 % de los servidores web accesibles desde internet y los parches llegaron hacia el 24 de octubre.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs/",
-      "fecha": "27-10-2026 15:40"
-    },
-    {
-      "titulo": "Discord hará que los mensajes de sus servidores públicos se puedan buscar en Google",
-      "resumen": "El 16 de noviembre llegarán las «Server Web Pages» a los servidores descubribles de al menos 1.000 miembros, y a mediados de diciembre los mensajes de sus canales públicos podrán aparecer textualmente en buscadores, sin nombre de usuario ni avatar. Los administradores pueden excluir canales ya, y los usuarios pueden evitar la indexación desde Datos y privacidad. En la UE, Reino Unido, Canadá, Brasil, Australia y Corea del Sur viene desactivado por defecto, y los adolescentes quedan excluidos.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2299126/discord-server-messages-google-searchable-opt-out/",
-      "fecha": "28-10-2026 00:04"
-    },
-    {
-      "titulo": "Así puede romper la bisagra la pantalla del iPhone Duo, según iFixit",
-      "resumen": "Pocas horas después del lanzamiento, varios usuarios mostraron pantallas interiores rotas sobre la bisagra, y Apple reconoció el lunes un «problema» y dijo que reemplazará las unidades dañadas. Shahram Mokhtari, de iFixit, cree que la pantalla flexible roza una pieza metálica de la bisagra donde la barra central de soporte deja espacio al cable flex, creando un punto de tensión. Apple asegura que afecta a un «pequeño número» de unidades y no hay retirada, aunque Mokhtari prevé un rediseño en la siguiente generación.",
+      "titulo": "Amazon renueva su gama Echo: reloj despertador Echo Time, marco de fotos con Alexa y un Echo Studio con cámara",
+      "resumen": "Amazon ha presentado en Nueva York el Echo Time, un despertador inteligente con pantalla de 3,2 pulgadas y detección del sueño que cuesta 199,99 dólares, y el Echo Show 16, que sale por 499,99 dólares con soporte de pared incluido. También estrena el Alexa Photo Frame, su primer marco digital, y un Echo Studio con cámara integrada para vigilar una habitación. El nuevo Alexa Home Map pasa a ser una vista 3D interactiva que, con cámaras Ring compatibles, muestra también el exterior de la casa.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge",
-      "fecha": "27-10-2026 23:55"
+      "enlace": "https://www.theverge.com/tech/1020403/everything-announced-at-amazons-october-2026-hardware-launch",
+      "fecha": "28-10-2026 13:20"
     },
     {
-      "titulo": "Google presenta Genie 4, su modelo para generar simulaciones interactivas con «un realismo sin precedentes»",
-      "resumen": "El modelo de DeepMind, anunciado el 27 de octubre, genera simulaciones interactivas en tiempo real con música, sonido ambiente y diálogo, y duplica la duración máxima de Genie 3: de uno a dos minutos. Incluye física avanzada y controles en tiempo real mediante prompts. Por ahora solo lo prueban testers de confianza, y llegará a suscriptores de Google AI Ultra dentro de Project Genie, con acceso previo por API de Gemini y AI Studio solo para algunos invitados.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/ia/google-genie-4-modelo-experiencias-interactivas/",
-      "fecha": "27-10-2026 17:44"
+      "titulo": "SK Hynix avisa de que la escasez de memoria durará hasta 2030",
+      "resumen": "El fabricante surcoreano prevé que la demanda supere a la oferta al menos hasta 2030, por la dificultad técnica de los procesos punteros y el tiempo que lleva construir fábricas. Ha registrado unos ingresos trimestrales de 104,6 billones de wones (78.100 millones de dólares), un 328 % más que hace un año, y un beneficio operativo de 87,68 billones de wones. Su director financiero espera que caigan los envíos de PC y móviles por el encarecimiento de la memoria, y la empresa tiene 14 contratos a largo plazo que cubren más de la mitad de su producción de 2027 y 2028.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
+      "fecha": "28-10-2026 05:21"
     },
     {
-      "titulo": "GTA VI ocuparía 210 GB en PS5, según una filtración",
-      "resumen": "La cifra procede del dataminer «PlayStation Game Size» y la corroboró Insider Gaming, aunque no está claro si incluye todo lo necesario para instalar el juego. Son 61 GB más que los 149 GB de Red Dead Redemption 2 en PS4. Según lo publicado, la edición estándar cuesta 79,99 dólares, la precarga empieza el 12 de noviembre y el lanzamiento es el 19 de noviembre de 2026.",
+      "titulo": "La FCC autoriza que Amazon Leo compre el operador de satélites Globalstar",
+      "resumen": "El regulador estadounidense ha aprobado la adquisición de Globalstar por 11.500 millones de dólares, que permitirá a Amazon Leo ofrecer servicio directo a dispositivos móviles. Globalstar da la conectividad satelital de emergencia de los iPhone y Apple Watch compatibles, y Apple tenía un 20 % de la empresa; Leo seguirá dando ese servicio. Leo, rival de Starlink, tiene 400 satélites en órbita y aspira a más de 3.000, frente a los 11.000 de SpaceX.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2298872/gta-6-download-size-reportedly-210-gb/",
-      "fecha": "27-10-2026 20:39"
+      "enlace": "https://www.engadget.com/2299367/fcc-clears-amazon-leo-to-acquire-mobile-satellite-operator-globalstar/",
+      "fecha": "28-10-2026 14:13"
     },
     {
-      "titulo": "Google empieza a certificar tiendas de apps alternativas en Android, salvo en EE. UU.",
-      "resumen": "El programa Registered App Stores abre ya las solicitudes y arranca el 1 de diciembre; las tiendas aceptadas podrán instalar con un clic y actualizar apps en segundo plano, como Google Play. Participar cuesta 10.000 dólares al año, pagaderos antes de la revisión, y exige proteger la propiedad intelectual, retirar contenido ilegal y publicar una política de privacidad. Solo funcionará en dispositivos con Android 17 QPR2, así que muchos móviles de los países admitidos podrían quedarse sin soporte.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gadgets/2026/10/googles-android-registered-app-stores-program-launches-dec-1-applications-now-open/",
-      "fecha": "27-10-2026 20:32"
-    },
-    {
-      "titulo": "Re:Build, la empresa de la que nació Slate Auto, levanta 2.100 millones de dólares",
-      "resumen": "La ronda está liderada por General Catalyst y el Strategic Investment Group de JPMorganChase, y servirá para ampliar su capacidad de fabricar productos de tecnología dura y lanzar startups industriales. Fundada en 2020 por Jeff Wilke, exdirectivo de Amazon, y Miles Arnone, su red emplea a más de 2.100 personas en EE. UU. De ella se escindió Slate Auto en 2023, que ha recaudado al menos 1.400 millones.",
+      "titulo": "Kodiak cierra su primer contrato comercial para suministrar camiones sin conductor en carreteras públicas",
+      "resumen": "Kodiak AI entregará 75 camiones autónomos a la transportista californiana DTL Transport a partir de 2028, en rutas como Dallas–El Paso y la I-20 entre Dallas y Atlanta. Es su primer cliente en el modelo Driver-as-a-Service, en el que cobra por milla por licenciar la tecnología. En diciembre retirará a los operadores de seguridad de la cabina para un servicio sin conductor entre Dallas y Houston con carga de Ikea; sus acciones han caído un 87 % desde su debut en bolsa.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/",
-      "fecha": "27-10-2026 21:31"
+      "enlace": "https://techcrunch.com/2026/10/28/kodiak-lands-first-commercial-deal-to-supply-driverless-trucks-for-public-highways/",
+      "fecha": "28-10-2026 14:00"
+    },
+    {
+      "titulo": "Las acciones de Jio se disparan un 21 % en su estreno tras la mayor salida a bolsa de la historia de India",
+      "resumen": "Jio Platforms, la filial de telecomunicaciones de Mukesh Ambani con inversión de Meta y Google, recaudó 3.200 millones de dólares y abrió a 1.358 rupias frente a las 1.119 de la oferta, lo que la valora en unos 131.900 millones de dólares. La oferta recibió pujas por más de 77.000 millones de dólares, 22,19 veces las acciones disponibles, con más de 13,8 millones de solicitantes. La empresa tiene más de 540 millones de clientes y destinará hasta 2.900 millones de dólares a amortizar deuda.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/27/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/",
+      "fecha": "28-10-2026 06:20"
+    },
+    {
+      "titulo": "Los cables submarinos del Pacífico de Google y Meta, entre los más expuestos al sabotaje chino",
+      "resumen": "Un informe encargado por la comisión asesora del Congreso de EE. UU. sobre China y la seguridad elabora un índice de vulnerabilidad de los cables transpacíficos. Tres proyectos con participación estadounidense, el TPU de Google, el ORCA de Meta y el E2A de Verizon, están entre los cinco de mayor riesgo, sobre todo en torno a Taiwán, Japón y Filipinas. Los autores advierten de que cortar un solo cable podría saturar las rutas directas y forzar el tráfico por otras más lentas.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/",
+      "fecha": "28-10-2026 12:00"
+    },
+    {
+      "titulo": "El creador de Rocky Linux crea Ginux, un kernel escrito en Rust con IA en solo 11 días",
+      "resumen": "Gregory Kurtzer, cofundador de CentOS y creador de Rocky Linux, ha desarrollado con OpenAI Codex un kernel x86-64 independiente de Linux, con unas 139.000 líneas de código y más de 1.000 commits. Incluye gestión de memoria, planificador, sistemas de archivos, red y una capa de compatibilidad con Linux, y ya arranca Rocky Linux 10 en una máquina virtual. Kurtzer aclara que decidió la arquitectura, los objetivos y las pruebas, y que aún quedan cosas por pulir.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/gregory-kurtzer-creador-rocky-linux-crea-ginux-un-kernel-completo-sin-linux-con-139-000-lineas-codigo-solo-11-dias_7054319_0.html",
+      "fecha": "28-10-2026 14:05"
+    },
+    {
+      "titulo": "Un usuario mide que Starlink oculta microcortes que impiden jugar online",
+      "resumen": "Tras tres días midiendo su conexión cada segundo con un monitor en Go, un usuario detectó 485 segundos de pérdida, de los que el registro del plato solo recogía 25, es decir, el 95 % quedaba fuera. La conexión perdía unos 27 segundos por hora y el 41 % de las pérdidas coincidía con el segundo del cambio de satélite, que ocurre cada quince. El autor descartó su router y su red doméstica, con un 0,003 % de pérdida, y el artículo apunta a que la app mide disponibilidad general, no microcortes.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/redes/starlink-microcortes-app-jugar-online/",
+      "fecha": "28-10-2026 08:57"
     }
   ],
   "titulares": [
     {
-      "titulo": "Se filtra el iPhone 18e y esta sería la única razón real para comprarlo en 2027",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/apple/iphone-18e-filtracion-especificaciones-comparacion-17e/",
+      "titulo": "TikTok se lanza a las guías de restaurantes con la función «Must Eat»",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/tiktok-expands-into-restaurant-guides-with-must-eat-feature/",
       "fecha": "28-10-2026"
     },
     {
-      "titulo": "Guidewire compra Hyperexponential por 1.700 millones de dólares en efectivo",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
-      "fecha": "27-10-2026"
-    },
-    {
-      "titulo": "El avión espacial secreto de China no puede esconderse en órbita baja",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
-      "fecha": "27-10-2026"
-    },
-    {
-      "titulo": "GM apuesta ahora por los híbridos",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/27/gm-is-embracing-hybrids-now/",
-      "fecha": "27-10-2026"
-    },
-    {
-      "titulo": "El iPhone 18e llevaría el chip A20 de 2 nm y pantalla de 60 Hz, según una filtración",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2299043/iphone-18e-reportedly-comes-with-2nm-a20-chip-and-60hz-screen/",
-      "fecha": "27-10-2026"
-    },
-    {
-      "titulo": "Los trabajadores de Rockstar en Reino Unido votarán sobre sindicarse justo cuando salga GTA 6",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2298907/rockstar-workers-in-uk-hold-union-vote-as-gta-6-release/",
-      "fecha": "27-10-2026"
-    },
-    {
-      "titulo": "Defensores de la privacidad en la UE acusan a una empresa de anotación de datos de EE. UU. de espiar a sus contratistas",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/legal/2026/10/27/eu-privacy-advocates-accuse-us-data-annotation-firm-of-snooping-on-contractors/5305757",
-      "fecha": "27-10-2026"
-    },
-    {
-      "titulo": "El Super Mouse coloca un panel táctil de macros bajo la mano y busca financiación en Kickstarter",
+      "titulo": "Esta es la nueva nave Apeiron de Virgin Galactic",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1019484/super-mouse-touchscreen-shortcuts-macros-kickstarter",
-      "fecha": "27-10-2026"
+      "enlace": "https://www.theverge.com/science/1020607/virgin-galactic-apeiron-2027-commercial-spaceflight",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "Pokémon Unite cerrará",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2298514/pokemon-unite-is-shutting-down/",
-      "fecha": "27-10-2026"
+      "titulo": "Microsoft podría someter a votación de sus accionistas su plan para reducir emisiones",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/on-prem/2026/10/28/microsoft-faces-potential-vote-shareholders-curious-about-its-plans-to-tackle-emissions/5305953",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "La derrota legal de 25.000 millones de Meta huele a sangre para otros demandantes",
+      "titulo": "Free Fire vuelve a India cuatro años después del veto con una versión localizada de Garena",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/free-fire-returns-to-india-as-garena-launches-localized-version-four-years-after-ban/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Así de empeñado está X en que pagues por promocionar tus publicaciones",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement",
-      "fecha": "27-10-2026"
+      "enlace": "https://www.theverge.com/tech/1020488/x-twitter-animated-hand-point-promote-posts",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "Segundo día sin clases en la Universidad de Nuevo México tras el ciberataque a su centro de ciencias de la salud",
+      "titulo": "Intel recibe ventajas fiscales mientras las autoridades locales pierden ingresos, según un think tank",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
-      "fecha": "27-10-2026"
+      "enlace": "https://www.theregister.com/systems/2026/10/28/intel-gets-tax-breaks-while-local-authorities-lose-revenue-claims-policy-org/5305902",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "El sueldo del consejero delegado de Microsoft baja un 6 % en un año récord",
+      "titulo": "Open Cosmos refuerza la soberanía espacial europea y presenta sus satélites ConnectedCosmos",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/saas/2026/10/27/take-it-on-the-chin-satnad-microsoft-chief-execs-pay-slips-6-in-record-year/5305737",
-      "fecha": "27-10-2026"
+      "enlace": "https://www.theregister.com/networks/2026/10/28/open-cosmos-steps-up-europes-space-sovereignty-game-shows-off-connectedcosmos-satellites/5305479",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "PlayStation 5 ya muestra quién habla en el chat de voz",
+      "titulo": "Los Galaxy Buds On de Samsung son sus primeros auriculares abiertos de clip",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2284038/playstation-5-display-whos-speaking-party-voice-feature/",
-      "fecha": "27-10-2026"
+      "enlace": "https://www.engadget.com/2299270/samsungs-galaxy-buds-on-are-clip-on-open-ear-wireless-headphones/",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "Siete días metiéndose en agua a 14 °C: lo que de verdad dice (y lo que no) el último estudio del “cold plunge”",
+      "titulo": "Cómo una fusión de supermercados podría ampliar una red de vigilancia (Kroger)",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/policy/1020187/kroger-grocery-merger-surveillance",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Los hombres que pagan 50.000 dólares solo por reservar un Tesla Roadster",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/the-men-dropping-50000-and-up-on-teslas-new-roadster/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Apple renueva su iMac con el chip M6: que cambia frente al M4, qué se mantiene y cuál conviene comprar",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/investigacion/siete-dias-metiendose-agua-a-14-c-que-verdad-dice-que-no-ultimo-estudio-cold-plunge",
-      "fecha": "27-10-2026"
+      "enlace": "https://www.xataka.com/seleccion/apple-renueva-su-imac-chip-m6-que-cambia-frente-al-m4-que-se-mantiene-cual-conviene-comprar",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "Movistar da una respuesta inesperada a los clientes con routers afectados por el fallo de seguridad",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-aclara-vulnerabilidad-routers/",
-      "fecha": "27-10-2026"
-    },
-    {
-      "titulo": "DIGI lleva su DIGI Tour a toda España, seas o no cliente: \"Nuestra siguiente parada puede ser cerca de ti\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/digi-lleva-su-digi-tour-toda-espana-seas-no-cliente-nuestra-siguiente-parada-puede-ser-cerca-ti_7053957_0.html",
-      "fecha": "27-10-2026"
-    },
-    {
-      "titulo": "\"Esto es alucinantemente loco\": Hemos tenido que cambiar de nuevo el eje de las ordenadas para poder mantener a El Niño de 2026 dentro",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/esto-alucinantemente-loco-hemos-tenido-que-cambiar-nuevo-eje-ordenadas-para-poder-mantener-a-nino-2026-dentro",
-      "fecha": "27-10-2026"
-    },
-    {
-      "titulo": "Apple pisa el acelerador con el MacBook Neo 2",
+      "titulo": "Amazon presenta nuevos Echo con Alexa+, incluyendo un despertador inteligente que querrás poner en la mesilla de noche",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/apple/apple-pisa-el-acelerador-con-el-macbook-neo-2/",
-      "fecha": "27-10-2026"
+      "enlace": "https://hipertextual.com/tecnologia/amazon-presenta-nuevos-echo-con-alexa-incluyendo-un-despertador-inteligente-que-querras-poner-en-la-mesilla-de-noche/",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "Huelga de Renfe del 29 de octubre: puedes recuperar el dinero del billete y cobrar una indemnización de hasta el 100 %",
+      "titulo": "Jubilarse a finales de 2026 o esperar a 2027: así cambia una pensión de 2.000 euros",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/huelga-trenes-29-octubre-derechos-indemnizacion-renfe/",
-      "fecha": "27-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/internet/jubilacion-2026-2027-pension-diferencias/",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "Windows 11 prepara un cambio muy esperado: podrás descubrir qué aplicaciones te vigilan y bloquearlas",
+      "titulo": "Adiós al iPhone barato, el iPhone 18e llegaría con tres importantes novedades que dispararían su precio",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/windows-11-prepara-un-cambio-muy-esperado-podras-descubrir-que-aplicaciones-te-vigilan-bloquearlas_7054065_0.html",
-      "fecha": "27-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/adios-iphone-barato-iphone-18e-llegaria-con-tres-importantes-novedades-que-dispararian-su-precio_7054325_0.html",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "Hay un motivo por el que los combates de 'Phantom Blade: Zero' parecen una película de artes marciales: Jackie Chan",
+      "titulo": "Discord quiere que los mensajes de sus servidores públicos se puedan buscar en Google, con todo lo que eso conlleva",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/hay-motivo-que-combates-phantom-blade-zero-parecen-pelicula-artes-marciales-jackie-chan",
-      "fecha": "27-10-2026"
+      "enlace": "https://www.xataka.com/aplicaciones/discord-quiere-que-mensajes-sus-servidores-publicos-se-puedan-buscar-google-todo-que-eso-conlleva",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "Android Auto vuelve a la pantalla del móvil gracias a esta app gratuita",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/phoneauto-android-auto-pantalla-movil/",
-      "fecha": "27-10-2026"
-    },
-    {
-      "titulo": "La Garmin Cirqa recibe una actualización que cambia cómo recibes las notificaciones",
+      "titulo": "El parte del accidente de tren de Toledo revela fallos en las comunicaciones y una caída del sistema de seguridad LZB",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/garmin-cirqa-actualizacion-4-20-notificaciones/",
-      "fecha": "27-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/internet/parte-accidente-tren-toledo-fallos-lzb-comunicaciones/",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "\"Busca y captura\" para el hacker que avisó a Sony de una vulnerabilidad de la PS5 por dinero: \"Ahora tendremos que elegir... Linux o GTA 6\"",
+      "titulo": "Alerta por una app falsa de WhatsApp: más de 500.000 usuarios podrían haber caído en la trampa",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/gaming/busca-captura-para-hacker-que-aviso-sony-una-vulnerabilidad-ps5-por-dinero-ahora-tendremos-que-elegir-linux-gta-6_7053948_0.html",
-      "fecha": "27-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/alerta-por-una-app-falsa-whatsapp-mas-500-000-usuarios-podrian-haber-caido-trampa_7054315_0.html",
+      "fecha": "28-10-2026"
     },
     {
-      "titulo": "Atomic-6 ha mandado su armadura para satélites al espacio y reza para que reciba un impacto",
+      "titulo": "El sistema LZB que ha fallado en el accidente de Toledo debería haber sido sustituido en su totalidad por ERTMS-2 en 2026",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/atomic-6-ha-mandado-su-armadura-para-satelites-al-espacio-reza-reciba-impacto",
-      "fecha": "27-10-2026"
+      "enlace": "https://www.xataka.com/movilidad/sistema-lzb-que-ha-fallado-accidente-toledo-deberia-haber-sido-sustituido-su-totalidad-ertms-2-2026",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Amazon lanza en España tres nuevos Echo con cámara inteligente, alarmas que detectan el sueño y más funciones",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/marcas/amazon-nuevos-echo-alexa-plus-precios/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Amazon renueva su gama Echo con Alexa+: ahora es más personal y proactiva que nunca",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/amazon-renueva-su-gama-echo-con-alexa-ahora-es-mas-personal-proactiva-que-nunca_7054446_0.html",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "\"Es un principio básico de respeto\": el veto al burka se cuela en las escuelas españolas por la Comunidad Valenciana",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/comunidad-valenciana-ha-abierto-melon-espinoso-educacion-espanola-veto-al-burka-escuelas",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "El centro comercial H2O de Rivas suma Valor Cacao Bar, Cash Converters y una bolera de 17 pistas",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/centro-comercial-h20-madrid-nuevas-tiendas/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "MoureDev, programador: \"El vibe coding es una porquería para el sector profesional del desarrollo de software\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/mouredev-programador-vibe-coding-es-una-porqueria-para-sector-profesional-desarrollo-software_7054296_0.html",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Unos científicos desarrollan un dispositivo capaz de unir la luz de varios telescopios y lo probarán en Calar Alto, Almería",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/unos-cientificos-han-desarrollado-dispositivo-capaz-sumar-luz-varios-telescopios-pruebas-se-realizaran-calar-alto-almeria",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Varios clientes de Digi se quejan de problemas de cobertura: esta es la recomendación del operador para solucionarlos",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/recomendacion-problemas-cobertura-digi/",
+      "fecha": "28-10-2026"
     }
   ]
 }

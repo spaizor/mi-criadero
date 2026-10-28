@@ -1,0 +1,214 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "28-10-2026 15:30",
+  "destacadas": [
+    {
+      "titulo": "Amazon renueva su gama Echo: reloj despertador Echo Time, marco de fotos con Alexa y un Echo Studio con cámara",
+      "resumen": "Amazon ha presentado en Nueva York el Echo Time, un despertador inteligente con pantalla de 3,2 pulgadas y detección del sueño que cuesta 199,99 dólares, y el Echo Show 16, que sale por 499,99 dólares con soporte de pared incluido. También estrena el Alexa Photo Frame, su primer marco digital, y un Echo Studio con cámara integrada para vigilar una habitación. El nuevo Alexa Home Map pasa a ser una vista 3D interactiva que, con cámaras Ring compatibles, muestra también el exterior de la casa.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1020403/everything-announced-at-amazons-october-2026-hardware-launch",
+      "fecha": "28-10-2026 13:20"
+    },
+    {
+      "titulo": "SK Hynix avisa de que la escasez de memoria durará hasta 2030",
+      "resumen": "El fabricante surcoreano prevé que la demanda supere a la oferta al menos hasta 2030, por la dificultad técnica de los procesos punteros y el tiempo que lleva construir fábricas. Ha registrado unos ingresos trimestrales de 104,6 billones de wones (78.100 millones de dólares), un 328 % más que hace un año, y un beneficio operativo de 87,68 billones de wones. Su director financiero espera que caigan los envíos de PC y móviles por el encarecimiento de la memoria, y la empresa tiene 14 contratos a largo plazo que cubren más de la mitad de su producción de 2027 y 2028.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
+      "fecha": "28-10-2026 05:21"
+    },
+    {
+      "titulo": "La FCC autoriza que Amazon Leo compre el operador de satélites Globalstar",
+      "resumen": "El regulador estadounidense ha aprobado la adquisición de Globalstar por 11.500 millones de dólares, que permitirá a Amazon Leo ofrecer servicio directo a dispositivos móviles. Globalstar da la conectividad satelital de emergencia de los iPhone y Apple Watch compatibles, y Apple tenía un 20 % de la empresa; Leo seguirá dando ese servicio. Leo, rival de Starlink, tiene 400 satélites en órbita y aspira a más de 3.000, frente a los 11.000 de SpaceX.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2299367/fcc-clears-amazon-leo-to-acquire-mobile-satellite-operator-globalstar/",
+      "fecha": "28-10-2026 14:13"
+    },
+    {
+      "titulo": "Kodiak cierra su primer contrato comercial para suministrar camiones sin conductor en carreteras públicas",
+      "resumen": "Kodiak AI entregará 75 camiones autónomos a la transportista californiana DTL Transport a partir de 2028, en rutas como Dallas–El Paso y la I-20 entre Dallas y Atlanta. Es su primer cliente en el modelo Driver-as-a-Service, en el que cobra por milla por licenciar la tecnología. En diciembre retirará a los operadores de seguridad de la cabina para un servicio sin conductor entre Dallas y Houston con carga de Ikea; sus acciones han caído un 87 % desde su debut en bolsa.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/kodiak-lands-first-commercial-deal-to-supply-driverless-trucks-for-public-highways/",
+      "fecha": "28-10-2026 14:00"
+    },
+    {
+      "titulo": "Las acciones de Jio se disparan un 21 % en su estreno tras la mayor salida a bolsa de la historia de India",
+      "resumen": "Jio Platforms, la filial de telecomunicaciones de Mukesh Ambani con inversión de Meta y Google, recaudó 3.200 millones de dólares y abrió a 1.358 rupias frente a las 1.119 de la oferta, lo que la valora en unos 131.900 millones de dólares. La oferta recibió pujas por más de 77.000 millones de dólares, 22,19 veces las acciones disponibles, con más de 13,8 millones de solicitantes. La empresa tiene más de 540 millones de clientes y destinará hasta 2.900 millones de dólares a amortizar deuda.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/27/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/",
+      "fecha": "28-10-2026 06:20"
+    },
+    {
+      "titulo": "Los cables submarinos del Pacífico de Google y Meta, entre los más expuestos al sabotaje chino",
+      "resumen": "Un informe encargado por la comisión asesora del Congreso de EE. UU. sobre China y la seguridad elabora un índice de vulnerabilidad de los cables transpacíficos. Tres proyectos con participación estadounidense, el TPU de Google, el ORCA de Meta y el E2A de Verizon, están entre los cinco de mayor riesgo, sobre todo en torno a Taiwán, Japón y Filipinas. Los autores advierten de que cortar un solo cable podría saturar las rutas directas y forzar el tráfico por otras más lentas.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/",
+      "fecha": "28-10-2026 12:00"
+    },
+    {
+      "titulo": "El creador de Rocky Linux crea Ginux, un kernel escrito en Rust con IA en solo 11 días",
+      "resumen": "Gregory Kurtzer, cofundador de CentOS y creador de Rocky Linux, ha desarrollado con OpenAI Codex un kernel x86-64 independiente de Linux, con unas 139.000 líneas de código y más de 1.000 commits. Incluye gestión de memoria, planificador, sistemas de archivos, red y una capa de compatibilidad con Linux, y ya arranca Rocky Linux 10 en una máquina virtual. Kurtzer aclara que decidió la arquitectura, los objetivos y las pruebas, y que aún quedan cosas por pulir.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/gregory-kurtzer-creador-rocky-linux-crea-ginux-un-kernel-completo-sin-linux-con-139-000-lineas-codigo-solo-11-dias_7054319_0.html",
+      "fecha": "28-10-2026 14:05"
+    },
+    {
+      "titulo": "Un usuario mide que Starlink oculta microcortes que impiden jugar online",
+      "resumen": "Tras tres días midiendo su conexión cada segundo con un monitor en Go, un usuario detectó 485 segundos de pérdida, de los que el registro del plato solo recogía 25, es decir, el 95 % quedaba fuera. La conexión perdía unos 27 segundos por hora y el 41 % de las pérdidas coincidía con el segundo del cambio de satélite, que ocurre cada quince. El autor descartó su router y su red doméstica, con un 0,003 % de pérdida, y el artículo apunta a que la app mide disponibilidad general, no microcortes.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/redes/starlink-microcortes-app-jugar-online/",
+      "fecha": "28-10-2026 08:57"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "TikTok se lanza a las guías de restaurantes con la función «Must Eat»",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/tiktok-expands-into-restaurant-guides-with-must-eat-feature/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Esta es la nueva nave Apeiron de Virgin Galactic",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/science/1020607/virgin-galactic-apeiron-2027-commercial-spaceflight",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Microsoft podría someter a votación de sus accionistas su plan para reducir emisiones",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/on-prem/2026/10/28/microsoft-faces-potential-vote-shareholders-curious-about-its-plans-to-tackle-emissions/5305953",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Free Fire vuelve a India cuatro años después del veto con una versión localizada de Garena",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/free-fire-returns-to-india-as-garena-launches-localized-version-four-years-after-ban/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Así de empeñado está X en que pagues por promocionar tus publicaciones",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1020488/x-twitter-animated-hand-point-promote-posts",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Intel recibe ventajas fiscales mientras las autoridades locales pierden ingresos, según un think tank",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/10/28/intel-gets-tax-breaks-while-local-authorities-lose-revenue-claims-policy-org/5305902",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Open Cosmos refuerza la soberanía espacial europea y presenta sus satélites ConnectedCosmos",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/10/28/open-cosmos-steps-up-europes-space-sovereignty-game-shows-off-connectedcosmos-satellites/5305479",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Los Galaxy Buds On de Samsung son sus primeros auriculares abiertos de clip",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2299270/samsungs-galaxy-buds-on-are-clip-on-open-ear-wireless-headphones/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Cómo una fusión de supermercados podría ampliar una red de vigilancia (Kroger)",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/policy/1020187/kroger-grocery-merger-surveillance",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Los hombres que pagan 50.000 dólares solo por reservar un Tesla Roadster",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/the-men-dropping-50000-and-up-on-teslas-new-roadster/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Apple renueva su iMac con el chip M6: que cambia frente al M4, qué se mantiene y cuál conviene comprar",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/apple-renueva-su-imac-chip-m6-que-cambia-frente-al-m4-que-se-mantiene-cual-conviene-comprar",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Amazon presenta nuevos Echo con Alexa+, incluyendo un despertador inteligente que querrás poner en la mesilla de noche",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/tecnologia/amazon-presenta-nuevos-echo-con-alexa-incluyendo-un-despertador-inteligente-que-querras-poner-en-la-mesilla-de-noche/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Jubilarse a finales de 2026 o esperar a 2027: así cambia una pensión de 2.000 euros",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/jubilacion-2026-2027-pension-diferencias/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Adiós al iPhone barato, el iPhone 18e llegaría con tres importantes novedades que dispararían su precio",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/adios-iphone-barato-iphone-18e-llegaria-con-tres-importantes-novedades-que-dispararian-su-precio_7054325_0.html",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Discord quiere que los mensajes de sus servidores públicos se puedan buscar en Google, con todo lo que eso conlleva",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/aplicaciones/discord-quiere-que-mensajes-sus-servidores-publicos-se-puedan-buscar-google-todo-que-eso-conlleva",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "El parte del accidente de tren de Toledo revela fallos en las comunicaciones y una caída del sistema de seguridad LZB",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/parte-accidente-tren-toledo-fallos-lzb-comunicaciones/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Alerta por una app falsa de WhatsApp: más de 500.000 usuarios podrían haber caído en la trampa",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/alerta-por-una-app-falsa-whatsapp-mas-500-000-usuarios-podrian-haber-caido-trampa_7054315_0.html",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "El sistema LZB que ha fallado en el accidente de Toledo debería haber sido sustituido en su totalidad por ERTMS-2 en 2026",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/sistema-lzb-que-ha-fallado-accidente-toledo-deberia-haber-sido-sustituido-su-totalidad-ertms-2-2026",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Amazon lanza en España tres nuevos Echo con cámara inteligente, alarmas que detectan el sueño y más funciones",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/marcas/amazon-nuevos-echo-alexa-plus-precios/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Amazon renueva su gama Echo con Alexa+: ahora es más personal y proactiva que nunca",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/amazon-renueva-su-gama-echo-con-alexa-ahora-es-mas-personal-proactiva-que-nunca_7054446_0.html",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "\"Es un principio básico de respeto\": el veto al burka se cuela en las escuelas españolas por la Comunidad Valenciana",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/comunidad-valenciana-ha-abierto-melon-espinoso-educacion-espanola-veto-al-burka-escuelas",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "El centro comercial H2O de Rivas suma Valor Cacao Bar, Cash Converters y una bolera de 17 pistas",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/centro-comercial-h20-madrid-nuevas-tiendas/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "MoureDev, programador: \"El vibe coding es una porquería para el sector profesional del desarrollo de software\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/mouredev-programador-vibe-coding-es-una-porqueria-para-sector-profesional-desarrollo-software_7054296_0.html",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Unos científicos desarrollan un dispositivo capaz de unir la luz de varios telescopios y lo probarán en Calar Alto, Almería",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/unos-cientificos-han-desarrollado-dispositivo-capaz-sumar-luz-varios-telescopios-pruebas-se-realizaran-calar-alto-almeria",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Varios clientes de Digi se quejan de problemas de cobertura: esta es la recomendación del operador para solucionarlos",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/recomendacion-problemas-cobertura-digi/",
+      "fecha": "28-10-2026"
+    }
+  ]
+}
