@@ -3,6 +3,160 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Google DeepMind presenta Genie 4: mundos interactivos con audio y edición en tiempo real",
+      "fuente": "TechCrunch",
+      "fecha": "27-10-2026 17:30",
+      "enlace": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Unos padres demandan a OpenAI: GPT-4o habría guiado a su hija a dejar su medicación contra las convulsiones",
+      "fuente": "TechCrunch",
+      "fecha": "28-10-2026 00:34",
+      "enlace": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Delaware plantea permitir que agentes de IA dirijan empresas enteras y el Congreso abre una investigación",
+      "fuente": "Ars Technica",
+      "fecha": "27-10-2026 22:50",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Un «hacker» de IA encuentra cuatro fallos graves en software de control industrial en menos de cuatro horas",
+      "fuente": "The Register",
+      "fecha": "27-10-2026 20:11",
+      "enlace": "https://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Oracle ofrecerá las TPU de Google en su nube a partir de 2027",
+      "fuente": "The Register",
+      "fecha": "27-10-2026 21:20",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/27/big-red-gets-cozy-with-google-to-offer-tpus-to-ai-customers/5305846",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Los investigadores se cansan de cómo OpenAI gestiona la difusión de sus avances",
+      "fuente": "The Verge",
+      "fecha": "27-10-2026 21:48",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Linus Torvalds rechaza prohibir herramientas de IA en el kernel: «No vamos a establecer reglas estúpidas»",
+      "fuente": "ComputerHoy",
+      "fecha": "27-10-2026 23:43",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-estalla-contra-las-criticas-por-programas-con-ia-asi-que-no-no-vamos-establecer-reglas-estupidas-que-digan-que-no-puedes-usar-herramientas-para-x_7053959_0.html",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Los fondos de capital riesgo ganarán miles de millones con la salida a bolsa de Anthropic, pero Amazon ganará mucho más",
+      "fuente": "TechCrunch",
+      "fecha": "28-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "El auge de los centros de datos tiene una ventaja: innovación para la red eléctrica de EE. UU.",
+      "fuente": "TechCrunch",
+      "fecha": "27-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Bank of America pide amablemente que no compartas la contraseña del banco con tu asistente de IA",
+      "fuente": "TechCrunch",
+      "fecha": "27-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "¿Quién manda de verdad en Anthropic tras la salida a bolsa?",
+      "fuente": "TechCrunch",
+      "fecha": "27-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "La salida a bolsa de Anthropic advierte de que su IA podría chantajear, volverse consciente o acabar con la humanidad",
+      "fuente": "Ars Technica",
+      "fecha": "27-10-2026",
+      "enlace": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Anthropic dice que revolucionará la biología, algún día",
+      "fuente": "Wired",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Anthropic permite ahora a los usuarios de Claude saltar de un avión sin paracaídas",
+      "fuente": "The Register",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/27/anthropic-now-lets-claude-users-jump-out-of-plane-without-parachute/5305807",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "¿Genes «vibe»? El lenguaje natural llega al software de diseño de proteínas y genomas",
+      "fuente": "Ars Technica",
+      "fecha": "27-10-2026",
+      "enlace": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Laboratorios de IA afirman que sus modelos refutaron la hipótesis del tiempo exponencial: ¿qué significa?",
+      "fuente": "TechCrunch",
+      "fecha": "27-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "El elaborado plan de Anthropic para mantener a raya a Wall Street",
+      "fuente": "The Verge",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Smart Window de Firefox añade relleno de formularios con IA y vigilancia de páginas web",
+      "fuente": "The Verge",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Un agente de IA no es un chatbot más: te puede ahorrar mucho tiempo al día. Y este no llega a 7 euros al mes",
+      "fuente": "Xataka",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.xataka.com/seleccion/agente-ia-no-chatbot-te-puede-ahorrar-mucho-tiempo-al-dia-este-no-llega-a-7-euros-al-mes",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "El MIT confirma que la IA ha disparado su capacidad para resolver problemas científicos en solo 16 meses",
+      "fuente": "ComputerHoy",
+      "fecha": "27-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciencia/mit-confirma-ia-disparado-capacidad-resolver-problemas-cientificos-solo-16-meses_7053809_0.html",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Google presenta Genie 4: su IA para crear mundos interactivos es más bestia que nunca",
+      "fuente": "Hipertextual",
+      "fecha": "27-10-2026",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/google-genie-4/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Anthropic, en su S-1: \"Tenemos un historial de pérdidas y es posible que no generemos ingresos suficientes en el futuro\"",
+      "fuente": "Xataka",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/anthropic-su-s-1-tenemos-historial-perdidas-posible-que-no-generemos-ingresos-suficientes-futuro",
+      "turno": "2026-10-28_M"
+    },
+    {
       "titulo": "Una investigación podría examinar el uso de herramientas de OpenAI en el Home Office británico para tramitar solicitudes de asilo",
       "fuente": "Wired",
       "fecha": "27-10-2026 16:10",
