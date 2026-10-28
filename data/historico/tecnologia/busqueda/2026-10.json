@@ -3,6 +3,237 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Un fallo de 16 años en el firmware UEFI de TianoCore EDK II afecta a la mayoría de servidores del mundo",
+      "fuente": "Ars Technica",
+      "fecha": "27-10-2026 21:25",
+      "enlace": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "EE. UU. avisa de que ya se explotan los fallos críticos de PHP conocidos como PHP2Shell",
+      "fuente": "TechCrunch",
+      "fecha": "27-10-2026 15:40",
+      "enlace": "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Discord hará que los mensajes de sus servidores públicos se puedan buscar en Google",
+      "fuente": "Engadget",
+      "fecha": "28-10-2026 00:04",
+      "enlace": "https://www.engadget.com/2299126/discord-server-messages-google-searchable-opt-out/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Así puede romper la bisagra la pantalla del iPhone Duo, según iFixit",
+      "fuente": "The Verge",
+      "fecha": "27-10-2026 23:55",
+      "enlace": "https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Google presenta Genie 4, su modelo para generar simulaciones interactivas con «un realismo sin precedentes»",
+      "fuente": "ADSLZone",
+      "fecha": "27-10-2026 17:44",
+      "enlace": "https://www.adslzone.net/noticias/ia/google-genie-4-modelo-experiencias-interactivas/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "GTA VI ocuparía 210 GB en PS5, según una filtración",
+      "fuente": "Engadget",
+      "fecha": "27-10-2026 20:39",
+      "enlace": "https://www.engadget.com/2298872/gta-6-download-size-reportedly-210-gb/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Google empieza a certificar tiendas de apps alternativas en Android, salvo en EE. UU.",
+      "fuente": "Ars Technica",
+      "fecha": "27-10-2026 20:32",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/googles-android-registered-app-stores-program-launches-dec-1-applications-now-open/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Re:Build, la empresa de la que nació Slate Auto, levanta 2.100 millones de dólares",
+      "fuente": "TechCrunch",
+      "fecha": "27-10-2026 21:31",
+      "enlace": "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Se filtra el iPhone 18e y esta sería la única razón real para comprarlo en 2027",
+      "fuente": "Hipertextual",
+      "fecha": "28-10-2026",
+      "enlace": "https://hipertextual.com/apple/iphone-18e-filtracion-especificaciones-comparacion-17e/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Guidewire compra Hyperexponential por 1.700 millones de dólares en efectivo",
+      "fuente": "TechCrunch",
+      "fecha": "27-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "El avión espacial secreto de China no puede esconderse en órbita baja",
+      "fuente": "Ars Technica",
+      "fecha": "27-10-2026",
+      "enlace": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "GM apuesta ahora por los híbridos",
+      "fuente": "TechCrunch",
+      "fecha": "27-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/27/gm-is-embracing-hybrids-now/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "El iPhone 18e llevaría el chip A20 de 2 nm y pantalla de 60 Hz, según una filtración",
+      "fuente": "Engadget",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.engadget.com/2299043/iphone-18e-reportedly-comes-with-2nm-a20-chip-and-60hz-screen/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Los trabajadores de Rockstar en Reino Unido votarán sobre sindicarse justo cuando salga GTA 6",
+      "fuente": "Engadget",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.engadget.com/2298907/rockstar-workers-in-uk-hold-union-vote-as-gta-6-release/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Defensores de la privacidad en la UE acusan a una empresa de anotación de datos de EE. UU. de espiar a sus contratistas",
+      "fuente": "The Register",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.theregister.com/legal/2026/10/27/eu-privacy-advocates-accuse-us-data-annotation-firm-of-snooping-on-contractors/5305757",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "El Super Mouse coloca un panel táctil de macros bajo la mano y busca financiación en Kickstarter",
+      "fuente": "The Verge",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.theverge.com/tech/1019484/super-mouse-touchscreen-shortcuts-macros-kickstarter",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Pokémon Unite cerrará",
+      "fuente": "Engadget",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.engadget.com/2298514/pokemon-unite-is-shutting-down/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "La derrota legal de 25.000 millones de Meta huele a sangre para otros demandantes",
+      "fuente": "The Verge",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Segundo día sin clases en la Universidad de Nuevo México tras el ciberataque a su centro de ciencias de la salud",
+      "fuente": "The Register",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "El sueldo del consejero delegado de Microsoft baja un 6 % en un año récord",
+      "fuente": "The Register",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.theregister.com/saas/2026/10/27/take-it-on-the-chin-satnad-microsoft-chief-execs-pay-slips-6-in-record-year/5305737",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "PlayStation 5 ya muestra quién habla en el chat de voz",
+      "fuente": "Engadget",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.engadget.com/2284038/playstation-5-display-whos-speaking-party-voice-feature/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Siete días metiéndose en agua a 14 °C: lo que de verdad dice (y lo que no) el último estudio del “cold plunge”",
+      "fuente": "Xataka",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.xataka.com/investigacion/siete-dias-metiendose-agua-a-14-c-que-verdad-dice-que-no-ultimo-estudio-cold-plunge",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Movistar da una respuesta inesperada a los clientes con routers afectados por el fallo de seguridad",
+      "fuente": "ADSLZone",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-aclara-vulnerabilidad-routers/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "DIGI lleva su DIGI Tour a toda España, seas o no cliente: \"Nuestra siguiente parada puede ser cerca de ti\"",
+      "fuente": "ComputerHoy",
+      "fecha": "27-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/digi-lleva-su-digi-tour-toda-espana-seas-no-cliente-nuestra-siguiente-parada-puede-ser-cerca-ti_7053957_0.html",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "\"Esto es alucinantemente loco\": Hemos tenido que cambiar de nuevo el eje de las ordenadas para poder mantener a El Niño de 2026 dentro",
+      "fuente": "Xataka",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/esto-alucinantemente-loco-hemos-tenido-que-cambiar-nuevo-eje-ordenadas-para-poder-mantener-a-nino-2026-dentro",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Apple pisa el acelerador con el MacBook Neo 2",
+      "fuente": "Hipertextual",
+      "fecha": "27-10-2026",
+      "enlace": "https://hipertextual.com/apple/apple-pisa-el-acelerador-con-el-macbook-neo-2/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Huelga de Renfe del 29 de octubre: puedes recuperar el dinero del billete y cobrar una indemnización de hasta el 100 %",
+      "fuente": "ADSLZone",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/huelga-trenes-29-octubre-derechos-indemnizacion-renfe/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Windows 11 prepara un cambio muy esperado: podrás descubrir qué aplicaciones te vigilan y bloquearlas",
+      "fuente": "ComputerHoy",
+      "fecha": "27-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/windows-11-prepara-un-cambio-muy-esperado-podras-descubrir-que-aplicaciones-te-vigilan-bloquearlas_7054065_0.html",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Hay un motivo por el que los combates de 'Phantom Blade: Zero' parecen una película de artes marciales: Jackie Chan",
+      "fuente": "Xataka",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.xataka.com/videojuegos/hay-motivo-que-combates-phantom-blade-zero-parecen-pelicula-artes-marciales-jackie-chan",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Android Auto vuelve a la pantalla del móvil gracias a esta app gratuita",
+      "fuente": "Hipertextual",
+      "fecha": "27-10-2026",
+      "enlace": "https://hipertextual.com/mobile/phoneauto-android-auto-pantalla-movil/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "La Garmin Cirqa recibe una actualización que cambia cómo recibes las notificaciones",
+      "fuente": "ADSLZone",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/garmin-cirqa-actualizacion-4-20-notificaciones/",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "\"Busca y captura\" para el hacker que avisó a Sony de una vulnerabilidad de la PS5 por dinero: \"Ahora tendremos que elegir... Linux o GTA 6\"",
+      "fuente": "ComputerHoy",
+      "fecha": "27-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/gaming/busca-captura-para-hacker-que-aviso-sony-una-vulnerabilidad-ps5-por-dinero-ahora-tendremos-que-elegir-linux-gta-6_7053948_0.html",
+      "turno": "2026-10-28_M"
+    },
+    {
+      "titulo": "Atomic-6 ha mandado su armadura para satélites al espacio y reza para que reciba un impacto",
+      "fuente": "Xataka",
+      "fecha": "27-10-2026",
+      "enlace": "https://www.xataka.com/espacio/atomic-6-ha-mandado-su-armadura-para-satelites-al-espacio-reza-reciba-impacto",
+      "turno": "2026-10-28_M"
+    },
+    {
       "titulo": "Apple renueva el iMac y el MacBook Pro de 14 pulgadas con el chip M6 y sube los precios",
       "fuente": "Xataka",
       "fecha": "27-10-2026 15:16",
