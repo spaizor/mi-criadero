@@ -206,8 +206,33 @@ faltan a proposito:
 **Lo que sigue entrando**, y no es un descuido: la programacion deportiva de
 `/operadores/` ("Movistar Plus confirma los partidos de Primera Federacion que
 veras en su TV en streaming"). Ahi "futbol" y "partidos" son tambien el negocio
-de las telecos, igual que el 27-08. Y en `/internet/` queda lo que no es ni
-tecnologia ni tienda (pensiones, el paro, el BOE), sin medir.
+de las telecos, igual que el 27-08. Y en `/internet/` quedaba lo que no es ni
+tecnologia ni tienda (pensiones, el paro, el BOE), sin medir: ver abajo.
+
+### `/internet/` ampliada (29-10-2026)
+
+Dos semanas despues la lista del 15-10 hacia su trabajo: en la portada de
+`/internet/` tiraba 18 de 52 entradas, las 18 tiendas, y no habia entrado ni un
+supermercado. En `/operadores/` no tiraba nada, pero tampoco hubo estrenos de
+cine que tirar. Lo que seguia entrando por `/internet/` eran **unos 10 de sus 28
+titulares**, de dos tipos que la lista no recogia:
+
+- Centros comerciales y marcas que no estaban: "El centro comercial H2O de
+  Rivas suma una bolera de 17 pistas", "Levi's reforma su tienda... y suma Mango
+  Home", el catalogo de juguetes de El Corte Ingles.
+- Pensiones: "Jubilarse a finales de 2026 o esperar a 2027", "El BOE abre un
+  plazo para solicitar pensiones de viudedad".
+
+Se anadieron `mango, corte ingles, centro comercial, centros comerciales,
+pension, pensiones, jubilacion, jubilado, jubilados, jubilarse, viudedad`.
+Medidos sobre las 159 publicadas de la ruta desde el 07-08: cazan 20 que la
+lista no cazaba (11 de centros comerciales, 1 de Mango, 2 de El Corte Ingles,
+6 de pensiones) y ninguna de tecnologia. En la portada, 7 de 52, todas ruido.
+Dos que faltan a proposito:
+
+- `boe`: solo ha cazado ruido, pero es donde sale la regulacion de las telecos.
+  "El BOE regula las llamadas comerciales" seria noticia de la seccion.
+- `renfe`: un solo caso (una huelga), y el WiFi de los trenes si es noticia.
 
 ### Los tres terminos de `RUIDO` que no funcionaban
 

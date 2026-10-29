@@ -320,6 +320,19 @@ Lo que costaba, medido en los logs del 02-10 al 15-10-2026:
 Quitar esos medios de `medios.json` no es la salida: el feed les funciona y son
 de las mejores fuentes de la seccion (unas 3 de cada 20 destacadas).
 
+Lo que arreglo, medido del 16-10 al 29-10-2026 (28 turnos por seccion):
+
+- **Tecnologia:** 0 turnos cortos de 28 (antes 13 de 27). Las destacadas de
+  esos cuatro medios pasan de 31 de 196 a 75 de 224, y salen en 27 turnos.
+- **IA:** 9 turnos cortos de 28 (antes 17 de 25), y de 12 destacadas de esos
+  medios a 54. Los 9 son falta de material: 7 en fin de semana o lunes por la
+  manana, y los dos de entre semana, por candidatos ya publicados y por el tope
+  de 2 destacadas por medio.
+- En los seis logs leidos el modelo pasa a `leer` en cuanto WebFetch falla, sin
+  `curl` ni busquedas web, y no sale ningun "NO SE PUEDE LEER". Cuatro
+  resumenes hechos con `leer`, cotejados con el articulo: cifras, nombres y
+  fechas correctos.
+
 **Como encuentra el texto.** Tres cosas, en este orden:
 
 1. El `articleBody` del JSON-LD, que es lo que el propio medio declara como
