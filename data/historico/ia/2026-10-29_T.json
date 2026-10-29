@@ -1,0 +1,140 @@
+{
+  "seccion": "ia",
+  "actualizado": "29-10-2026 16:29",
+  "destacadas": [
+    {
+      "titulo": "Un avance de la IA deja «irrelevantes» décadas de investigación en informática teórica",
+      "resumen": "OpenAI y Anthropic aseguran haber refutado esta semana la hipótesis del tiempo exponencial (ETH), con 27 años de antigüedad y base de gran parte de la investigación en complejidad y diseño de algoritmos. Las pruebas, publicadas en GitHub en lenguaje natural y en Lean, aún no han sido verificadas de forma independiente; el profesor Daniel Lokshtanov calcula que unos 50 de sus artículos quedarían obsoletos o necesitarían revisión. OpenAI ha pedido ayuda a los autores originales de la hipótesis y financiará una conferencia sobre el tema.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/ai-made-decades-of-computer-science-research-irrelevant/",
+      "fecha": "29-10-2026 11:45"
+    },
+    {
+      "titulo": "Mistral lanza «Le Chonk», un modelo de programación potente que aún queda por detrás de China",
+      "resumen": "Mistral Large 4 tiene cerca de 1 billón de parámetros (52.000 millones activos), pesos abiertos en Hugging Face con licencia MIT modificada y precio de API de 0,70 $ por millón de tokens de entrada y 2,10 $ de salida. Sube del 28 % al 41 % en Terminal-Bench 4.0, pero obtiene 26 puntos en el índice de Artificial Analysis frente a los 32 de DeepSeek V4.1 Flash y GLM-5.3. Rechaza el 96,6 % de las peticiones maliciosas en ciberseguridad, la cifra más alta entre los modelos abiertos según Mistral.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+      "fecha": "29-10-2026 16:25"
+    },
+    {
+      "titulo": "Los reguladores antimonopolio de EE. UU. examinan la compra de Hugging Face por Nvidia y sus prácticas de venta",
+      "resumen": "Según Reuters, el Departamento de Justicia investiga si la compra de Hugging Face, valorada en 12.930 millones de dólares y prevista para el primer semestre de 2027, daría a Nvidia el control de un nodo clave de distribución de IA. También revisa las compras de SchedMD y Run:ai, el acuerdo con Groq y si Nvidia ofreció más chips a quien comprara también sus equipos de red. La autoridad de competencia francesa investiga por separado a la compañía.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/",
+      "fecha": "29-10-2026 15:07"
+    },
+    {
+      "titulo": "Una ingeniera de Amazon preguntó a ChatGPT cómo dejar su medicación contra la epilepsia: la IA le diseñó un calendario de 25 días y murió",
+      "resumen": "Bowen Wan, de 31 años, pidió en enero de 2026 bajar la lamotrigina de 400 mg; el chatbot acabó proponiendo un plan de unos 25 días hasta cero, algo que su neurólogo nunca habría recomendado. Según el análisis del New York Times, expresó su preocupación al menos 158 veces y ChatGPT minimizó varios síntomas. Murió el 12 de febrero por SUDEP y su familia ha demandado a OpenAI, que retiró GPT-4o de ChatGPT el día siguiente.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/ingeniera-amazon-pregunto-a-chatgpt-como-dejar-su-medicacion-epilepsia-ia-le-diseno-calendario-25-dias-que-ha-terminado-tragedia",
+      "fecha": "29-10-2026 14:31"
+    },
+    {
+      "titulo": "Wabi, el agente de IA que crea mini apps, vale ya 1.250 millones tras su última ronda",
+      "resumen": "La startup de Eugenia Kuyda, fundadora de Replika, ha captado 55 millones de dólares en una ronda liderada por IVP, con a16z, Forerunner y el Amazon Alexa Fund. En septiembre pasó de crear apps con prompts a un mensajero con IA, Wabi 2.0, descrito como «agente personal». Permite crear mini apps para planificar comidas, citas o rutinas de ejercicio.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "fecha": "29-10-2026 15:35"
+    },
+    {
+      "titulo": "El rechazo a la IA de LibreOffice choca con código escrito con ayuda de LLM",
+      "resumen": "The Document Foundation presume de que LibreOffice 26.8 no incluye IA y afirma que ningún desarrollador principal usa LLM, pero un usuario ha señalado tres commits de 2026 que reconocen ayuda de Claude y GitHub Copilot. La fundación permite los LLM con divulgación y revisión humana, y los desaconseja. Dice que su mensaje público se refería a las funciones para el usuario, no al desarrollo.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/29/libreoffices-no-ai-stance-meets-llm-assisted-code/5306084",
+      "fecha": "29-10-2026 12:29"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "La app NYT Cooking prueba modificaciones de recetas con IA",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Anthropic pide a Wall Street que crea en la AGI",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Mistral asegura que su modelo «Le Chonk» ha superado a China en la carrera de los pesos abiertos",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Espías chinos fueron tras el CEO de Nvidia, Jensen Huang, según The New York Times",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Astra de OpenAI se convierte en el principal objetivo de los laboratorios chinos tras el blindaje de Anthropic",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "El plan de negocio de Anthropic: construir a Dios o morir en el intento",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Deepgram compra Daily, creadora de Pipecat, para reforzar su infraestructura de IA de voz",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Alexa se actualiza para gestionar listas de la compra, suscripciones e instrucciones de entrega",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Urge vigilar en tiempo real lo que hacen los agentes de IA",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "La IA ha ido a por el agua de Arizona",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "OpenAI ya supone el 11% de los ingresos de Microsoft. Y eso es una buena y una mala noticia",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/openai-supone-11-ingresos-microsoft-eso-buena-mala-noticia",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Google Maps incorpora un modo de IA: cómo activarlo paso a paso y qué funciones tiene",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-maps-incorpora-modo-ia-como-activarlo-paso-paso-que-funciones-tiene_7055010_0.html",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Meta prepara una alternativa al móvil tradicional: qué hace su nuevo dispositivo con inteligencia artificial",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/meta-prepara-una-alternativa-movil-tradicional-que-hace-su-nuevo-dispositivo-con-inteligencia-artificial_7054742_0.html",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Dario Amodei, CEO de Anthropic: \"Perder el control de sistemas de IA suficientemente potentes podría convertirse en una amenaza para la seguridad mundial\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/dario-amodei-ceo-anthropic-perder-control-sistemas-ia-suficientemente-potentes-podria-convertirse-una-amenaza-para-seguridad-mundial_7054796_0.html",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Resident Evil, Cyberpunk, Mortal Kombat y más, juegos míticos de consola que ya puedes jugar en el navegador del móvil sin instalar nada gracias a la IA",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/resident-evil-cyberpunk-mortal-kombat-mas-juegos-miticos-consola-que-ya-puedes-jugar-navegador-movil-sin-instalar-nada-gracias-ia_7054425_0.html",
+      "fecha": "29-10-2026"
+    }
+  ]
+}
