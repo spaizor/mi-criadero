@@ -1,214 +1,208 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "29-10-2026 03:12",
+  "actualizado": "29-10-2026 15:37",
   "destacadas": [
     {
-      "titulo": "Apple presenta su primer MacBook Pro con pantalla táctil OLED y macOS 27 adaptado a los dedos",
-      "resumen": "Los nuevos MacBook Pro de 14 y 16 pulgadas estrenan el panel PROLED XDR, un OLED en tándem de hasta 2.000 nits, contraste de 10.000.000:1 y 120 Hz variables, además de la Dynamic Island. macOS 27 traduce los toques en clics para que muchas apps funcionen sin rediseño, y el modelo táctil arranca en 3.349 euros en España.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ordenadores/apple-presenta-fin-su-primer-macbook-pro-pantalla-tactil-recupera-mitico-logo-iluminado",
-      "fecha": "28-10-2026 18:15"
-    },
-    {
-      "titulo": "Un hacker roba y publica datos de más de 40.000 empleados de Seguridad Nacional de EE. UU.",
-      "resumen": "El hacker «Department of Peace» afirma haber sacado los datos de un sistema Okta de acceso único del DHS: nombres, cargos, correos, móviles y oficinas. Unos 21.000 registros son de CBP, 10.000 de ICE y HSI y cerca de 1.000 de CISA. Los datos, extraídos hacia mediados de agosto, llegaron a DDoSecrets a través de maia arson crimew y TechCrunch verificó una parte.",
+      "titulo": "DoorDash compra Instacart por 17.000 millones de dólares",
+      "resumen": "DoorDash ha acordado adquirir a su rival Instacart por 17.000 millones de dólares, a 65 dólares por acción, con el visto bueno de los consejos de ambas empresas. Instacart, con más de 13.000 millones de capitalización, había negociado antes con Uber, según Bloomberg. DoorDash mantendrá la marca y la app de Instacart y prevé cerrar la operación entre finales de 2027 y la primera mitad de 2028.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
-      "fecha": "28-10-2026 21:01"
+      "enlace": "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/",
+      "fecha": "29-10-2026 14:40"
     },
     {
-      "titulo": "Microsoft factura 92.300 millones y Azure crece un 48 % en su primer trimestre fiscal de 2027",
-      "resumen": "Los ingresos suben un 19 % y el beneficio neto un 32 % hasta 33.600 millones. La compañía reorganiza su informe en dos segmentos, Agents and Infra (76.800 millones, +25 %) y Devices and Consumer (15.500 millones, −3 %), y desglosa por primera vez Azure: 33.170 millones. Los ingresos OEM de Windows caen un 22 % y Amy Hood prevé otro descenso de en torno al 35 % el próximo trimestre.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027",
-      "fecha": "28-10-2026 21:20"
-    },
-    {
-      "titulo": "GitHub sumará cuatro millones de núcleos para aguantar la avalancha de agentes de IA",
-      "resumen": "GitHub registró 7.400 millones de commits en septiembre, cinco veces más que un año antes, lo que provocó caídas repetidas y una disponibilidad a 90 días de en torno al 84 % en mayo. Añadirá cuatro millones de núcleos y 160 petabytes de almacenamiento, separará cómputo y almacenamiento para ganar 35 veces de rendimiento y completará la migración multirregión en Azure a principios de 2027. También lanza Copilot Fusion, un enrutador de modelos.",
+      "titulo": "Un atacante usa issues de GitHub para golpear 61 repositorios públicos en menos de una hora",
+      "resumen": "Investigadores de Radware hallaron 83 elementos maliciosos en 61 repositorios, entre ellos trivy, discord.js, podman o github/docs, publicados casi todos el 1 de septiembre en 43 minutos desde 74 cuentas. Los comandos iban ocultos en comentarios HTML y un workflow de CI/CD vulnerable los ejecutaba para sacar variables de entorno a un servidor del atacante. La mayoría de repositorios ya están corregidos, aunque no se puede confirmar que todos lo estén.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/28/github-powering-up-four-million-extra-cores-to-stop-its-service-going-down/5305863",
-      "fecha": "28-10-2026 17:30"
+      "enlace": "https://www.theregister.com/security/2026/10/29/attackers-turn-github-issues-into-supply-chain-campaign-against-61-public-repos-in-less-than-an-hour/5306153",
+      "fecha": "29-10-2026 13:00"
     },
     {
-      "titulo": "Europa proyecta el primer cable submarino que conecte directamente la UE con Groenlandia",
-      "resumen": "El Pan-Arctic Cable figura como proyecto estrella en la estrategia ártica de la Comisión Europea del 20 de octubre y podría extenderse a Canadá, Japón y Corea del Sur sin pasar por EE. UU. La UE ya ha invertido 107 millones de euros en la conectividad groenlandesa. Más del 90 % de las comunicaciones Europa-Asia pasan por el mar Rojo, ahora en riesgo por los ataques hutíes.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
-      "fecha": "28-10-2026 23:35"
+      "titulo": "Una vulnerabilidad crítica de 16 años en el firmware UEFI de EDK II pone en riesgo a millones de servidores",
+      "resumen": "El fallo, registrado como CVE-2026-97631 y con gravedad 9,5 sobre 10, está en el componente de arranque por red de EDK II, base del firmware UEFI de muchos fabricantes. Un tamaño de mensaje mal comprobado permitiría ejecutar código con máximos privilegios antes de que arranquen las protecciones del sistema. Lo descubrieron Alex Matrosov y Dan Holmes, que habían pactado mantenerlo en secreto hasta enero, pero se ha hecho público antes de lo previsto.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/una-vulnerabilidad-critica-pone-riesgo-millones-servidores-fallo-llevaba-16-anos-oculto-nadie-se-habia-dado-cuenta_7054795_0.html",
+      "fecha": "29-10-2026 12:43"
     },
     {
-      "titulo": "Ojo con los emuladores de PS5 en GitHub: hay versiones falsas que roban tus contraseñas",
-      "resumen": "Repositorios que imitan a emuladores conocidos como AnyPS5 y KyttyPS5 distribuyen un infostealer. El malware provoca una excepción en Windows para esquivar Defender, descarga el programa que extrae contraseñas y datos, y después ejecuta un script que borra sus rastros.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/seguridad/emuladores-ps5-malware-github/",
-      "fecha": "28-10-2026 21:50"
+      "titulo": "Un hacker infectó a jugadores de póker de altas apuestas con malware que mostraba sus cartas",
+      "resumen": "Un jugador profesional, bajo seudónimo, descubrió el 25 de septiembre gracias a su agente Claude que el programa MeshAgent llevaba instalado desde el 24 de abril y capturaba su pantalla durante sus partidas en Americas Cardroom. Un mismo rival, OxOO, estaba en 10 de las 11 sesiones espiadas, y él perdió unos 30.000 dólares. Cientos de jugadores habrían sido atacados durante años, con millones de dólares robados.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/",
+      "fecha": "29-10-2026 11:30"
     },
     {
-      "titulo": "Xreal lanza las Aura, unas gafas con cable y Android XR que cuestan desde 1.099 dólares",
-      "resumen": "Las Xreal Aura usan Snapdragon Reality Elite, pantalla Micro-OLED de Sony de 1200p a 120 Hz y 95 grados de campo de visión, y se conectan a un procesador externo. Pesan 95 gramos frente a los 69 de las Ray-Ban Meta Display. Se reservan desde hoy en EE. UU., Canadá, Japón y Corea del Sur desde 1.279 dólares (1.099 de lanzamiento hasta diciembre) y se envían a mediados de noviembre.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/",
-      "fecha": "28-10-2026 18:00"
-    },
-    {
-      "titulo": "Sony lanza mandos DualSense transparentes de la colección Prism por 85 dólares",
-      "resumen": "La colección Prism llega en naranja, verde y gris, con acabado translúcido brillante que deja ver el interior del mando, y se acompaña de carcasas para la PS5 a 75 dólares. La reserva abre el 10 de noviembre y los envíos empiezan en febrero.",
+      "titulo": "Corea del Sur multiplica las multas a Google y Apple por abusos en sus tiendas de aplicaciones",
+      "resumen": "El regulador coreano (KMCC) multa a Google con 42.900 millones de wones (unos 32 millones de dólares) y a Apple con 20.810 millones (unos 15,6 millones) por infringir la ley de telecomunicaciones. Les achaca imponer su sistema de pago, cobrar un 26 % por pagos de terceros y retrasar sin motivo la revisión de apps. Deberán aceptar pagos externos y Apple dejar de discriminar a desarrolladores extranjeros.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2300152/sonys-new-see-through-dualsense-controllers-let-you-game-like-its-1999/",
-      "fecha": "28-10-2026 19:38"
+      "enlace": "https://www.engadget.com/2300690/apple-google-fined-south-korea-app-store-violations/",
+      "fecha": "29-10-2026 11:42"
+    },
+    {
+      "titulo": "Chrome buscará en tu Gmail el número de pedido para autocompletar formularios, pero aún no en España",
+      "resumen": "Chrome mejora su autocompletado para que Gemini localice en Gmail números de pedido, códigos de seguimiento o datos de reservas y los sugiera marcados como «Suggested by Gemini». Empieza en Estados Unidos en ordenador, Android e iPhone y exige cuenta personal de Google, ser mayor de 18 años y dar permiso a la IA. En el Espacio Económico Europeo, España incluida, no hay fecha porque Personal Intelligence no está disponible.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/ia/google-chrome-gmail-gemini-autocompletar/",
+      "fecha": "29-10-2026 11:02"
+    },
+    {
+      "titulo": "Matrix, el estándar abierto de mensajería, se postula como alternativa soberana a las grandes tecnológicas",
+      "resumen": "En el evento de Malmö la asistencia creció un 30 % interanual, y Element, que financia buena parte de la Fundación Matrix, pidió a los gobiernos usuarios que aporten dinero. La Comisión Europea lo desplegó tras una prueba de concepto del cuarto trimestre de 2025 y llegó a los portátiles entre julio y septiembre, con alojamiento en la Schengen Cloud Alliance. Francia, Alemania y Suecia ya lo usan, pese a quejas anónimas recogidas por Politico.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/software/2026/10/29/matrix-takes-sovereign-messaging-into-the-realm-of-the-tech-giants/5305915",
+      "fecha": "29-10-2026 10:30"
+    },
+    {
+      "titulo": "Dos senadores exigen explicaciones a Meta por los riesgos de privacidad de sus gafas inteligentes",
+      "resumen": "Ron Wyden y Edward Markey piden a Meta que explique qué salvaguardas tiene contra grabaciones íntimas sin consentimiento y qué imágenes usa para entrenar su IA. La carta cita una investigación de 404 Media sobre acoso a trabajadoras con las Ray-Ban de Meta, una demanda de más de 70 personas por exposición de imágenes íntimas a etiquetadores y el despido de los etiquetadores de Kenia. También preguntan si se pueden borrar los datos biométricos.",
+      "fuente": "404 Media",
+      "enlace": "https://www.404media.co/senators-wyden-markey-letter-to-meta-smart-glasses/",
+      "fecha": "29-10-2026 11:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Upwind levanta 400 millones de dólares tras rechazar una oferta de compra de Datadog",
+      "titulo": "Bluesky bloquea los enlaces a los datos filtrados de empleados de Seguridad Nacional mientras el Gobierno pide retirarlos",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
+      "enlace": "https://techcrunch.com/2026/10/29/bluesky-blocks-links-to-leaked-dhs-employee-data-as-government-seeks-takedowns/",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "El presidente de la FCC quiere permitir que las cárceles bloqueen los móviles ilegales",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2300569/fcc-chair-wants-to-let-prisons-jam-illegal-cellphones/",
+      "titulo": "Publicada la lista corta de verificaciones de edad para la prohibición de redes sociales a menores de 16 en Reino Unido: «algunos» adultos tendrán que verificarse",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/29/shortlist-of-age-checks-for-the-uks-under-16-social-media-ban-is-out-some-adults-will-need-verifying/5306282",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "El cohete Vulcan de ULA volverá a volar el viernes 13",
+      "titulo": "Aparecen en GitHub rastros de un nuevo hardware de Raspberry Pi",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/personal-tech/2026/10/29/traces-of-new-pi-hardware-spotted-in-github/5306022",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "SpaceX ya no necesita a la NASA, y eso es un problema para la agencia espacial de EE. UU.",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
-      "fecha": "28-10-2026"
+      "enlace": "https://arstechnica.com/space/2026/10/spacex-no-longer-needs-nasa-and-thats-a-problem-for-americas-space-agency/",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "Readwise se lanza contra Kindle y Kobo con su propia tienda de libros electrónicos",
+      "titulo": "Microsoft rompe la apertura de adjuntos del nuevo Outlook con una actualización de Edge",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/personal-tech/2026/10/29/microsoft-breaks-new-outlook-attachment-opening-with-edge-update/5306224",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Fujifilm multiplicará por cinco su capacidad de producción de cinta: la cinta no está muerta",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/storage/2026/10/29/tape-is-so-not-dead-that-fujifilm-will-increase-production-capacity-5x/5306189",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Anduril asegura ahora que su portátil BlueChip cumplirá los estándares Buy American desde el lanzamiento",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1020264/readwise-books-launch-ebook-store",
-      "fecha": "28-10-2026"
+      "enlace": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "Google construye un robot médico para la NASA",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/10/28/please-state-the-nature-of-the-medical-emergency-google-is-building-a-robot-medic-for-nasa/5306130",
-      "fecha": "28-10-2026"
-    },
-    {
-      "titulo": "Oracle cierra el mes de la ciberseguridad con cuatro problemas a la vez",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121",
-      "fecha": "28-10-2026"
-    },
-    {
-      "titulo": "Meta se plantea retrasar unas condiciones comerciales «alarmantes» ante las críticas",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2300293/meta-weighs-delaying-alarming-new-business-terms-as-backlash-grows/",
-      "fecha": "28-10-2026"
-    },
-    {
-      "titulo": "La PlayStation 5 podría ser el último reproductor de Blu-ray de Sony",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2300289/playstation-5-might-be-sony-final-blu-ray-player/",
-      "fecha": "28-10-2026"
-    },
-    {
-      "titulo": "Reddit se suma al feed «Para ti» con recomendaciones personalizadas",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/28/reddit-is-the-latest-platform-to-embrace-the-for-you-feed/",
-      "fecha": "28-10-2026"
-    },
-    {
-      "titulo": "El Departamento de Energía de Trump presta 5.000 millones a centrales nucleares que alimentarán centros de datos",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers/",
-      "fecha": "28-10-2026"
-    },
-    {
-      "titulo": "Condenado a 70 meses de cárcel un ciberdelincuente en serie por sus papeles en Nefilim y Hive",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
-      "fecha": "28-10-2026"
-    },
-    {
-      "titulo": "Una parte de Dinamarca quiso deshacerse de Microsoft Office y usar una alternativa open source. Y el plan empezó a torcerse",
+      "titulo": "\"Es una cuestión de salud mental\": cada vez más padres están pagando hasta 260 euros la noche a niñeras nocturnas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/aplicaciones/parte-dinamarca-quiso-deshacerse-microsoft-office-usar-alternativa-open-source-plan-empezo-a-torcerse",
-      "fecha": "28-10-2026"
+      "enlace": "https://www.xataka.com/magnet/cuestion-salud-mental-cada-vez-padres-estan-pagando-260-euros-noche-a-nineras-nocturnas",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "Tus mensajes de Discord podrían aparecer en Google si no haces este ajuste",
+      "titulo": "Hasta la caca de perro será un arma en ‘GTA 6’: revelada la última locura de Rockstar",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/internet/discord-mensajes-google-como-evitar-indexacion/",
-      "fecha": "28-10-2026"
+      "enlace": "https://hipertextual.com/videojuegos/hasta-la-caca-de-perro-sera-un-arma-en-gta-6/",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "Orange y Movistar activan conectividad satélite con Starlink tras el accidente de tren de Toledo",
+      "titulo": "Deja de pagar Google Drive todos los meses: la alternativa que pagas una sola vez, para siempre, es mucho más segura y española",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-orange-starlink-accidente-tren-toledo/",
-      "fecha": "28-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/internet/internxt-alternativa-google-drive-pago-unico/",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "No solo La Séptima, RTVE estrenará un nuevo canal nacional en la TDT en abierto después del \"apagón\" del 5 de noviembre del que nadie habla",
+      "titulo": "Wewi Mobile se cuela en lista de principales operadores de telefonía móvil en España junto a Orange, Telefónica, Vodafone y DIGI, según la CNMC",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/no-solo-septima-rtve-estrenara-un-nuevo-canal-nacional-tdt-abierto-despues-apagon-5-noviembre-que-nadie-habla_7054436_0.html",
-      "fecha": "28-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/wewi-mobile-se-cuela-lista-principales-operadores-telefonia-movil-espana-junto-orange-telefonica-vodafone-digi-segun-cnmc_7054828_0.html",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "He probado el nuevo MacBook Pro táctil: no tenía claro para qué querría tocar su pantalla. He encontrado las primeras respuestas",
+      "titulo": "Raquel Ayllón, controladora ferroviaria y portavoz de SCF: \"El CRC de Atocha tiene una cantidad de trabajo inhumana. No se podía ni ir al baño\"",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/eventos/apple-macbook-pro-tactil-opiniones-toma-contacto-fotos",
-      "fecha": "28-10-2026"
+      "enlace": "https://www.xataka.com/movilidad/raquel-ayllon-controladora-portavoz-scf-crc-atocha-tiene-cantidad-trabajo-inhumana-no-se-podia-ir-al-bano",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "¿Cuánto cuesta el MacBook Pro táctil más caro? Prepárate para llorar",
+      "titulo": "Denza trae a España el BAO 5: su enorme SUV de 544 CV, hibridación DMO y 835 km de autonomía",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/apple/cuanto-cuesta-el-macbook-pro-tactil-mas-caro-preparate-para-llorar/",
-      "fecha": "28-10-2026"
+      "enlace": "https://hipertextual.com/movilidad/denza-trae-a-espana-el-bao-5/",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "Qué dice la letra pequeña de la nube gratis de O2: 5 cosas que deberías saber",
+      "titulo": "McDonald’s, Action, Tedi y VivaGym llegan a un centro comercial de Cantabria y buscan 50 trabajadores",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/5-cosas-letra-pequena-nube-gratis-o2/",
-      "fecha": "28-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/internet/centro-comercial-cantabria-los-puertos-reforma/",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "Crean una conexión de fibra óptica capaz de descargar 20.000 películas en 4K en un segundo",
+      "titulo": "La crisis de la memoria RAM no tiene final a la vista y Samsung avisa de que lo peor llegará en 2027: \"Esto supondrá una limitación física para el suministro\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/crean-una-conexion-fibra-optica-capaz-descargar-20-000-peliculas-4k-un-segundo_7054558_0.html",
-      "fecha": "28-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/crisis-memoria-ram-no-tiene-final-vista-samsung-avisa-que-peor-llegara-2027-esto-supondra-una-limitacion-fisica-para-suministro_7054802_0.html",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "El nuevo MacBook Pro con pantalla táctil cuesta desde 3.349 euros en España: más de 1.000 euros más que su hermano \"no táctil\"",
+      "titulo": "Los Mossos piden ayuda al Ministerio del Interior para que cierre todas las cuentas de Blocus, mientras detienen al creador de \"Blocus VLC\"",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ordenadores/nuevo-macbook-pro-pantalla-tactil-cuesta-3-349-euros-espana-1-000-euros-que-su-hermano-no-tactil",
-      "fecha": "28-10-2026"
+      "enlace": "https://www.xataka.com/magnet/mossos-piden-ayuda-al-ministerio-interior-cierre-todas-cuentas-blocus-detienen-al-creador-blocus-vlc",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "El MacBook Pro estrena pantalla táctil y OLED: Apple rompe su gran tabú",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/apple/el-macbook-pro-estrena-pantalla-tactil-y-oled-apple-rompe-su-gran-tabu/",
-      "fecha": "28-10-2026"
-    },
-    {
-      "titulo": "Este domingo llega noviembre y hay novedades para los conductores: qué pasa con la ayuda de 20 céntimos a la gasolina",
+      "titulo": "Orange tiene varios decos y no son igual de buenos: ¿cuál te instala ahora?",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/ayuda-gasolina-diesel-noviembre-20-centimos/",
-      "fecha": "28-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/operadores/orange-deco-instala-octubre-2026/",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "\"Mira, mira, el de la tele; defender tus principios puede llevarte a la cola del paro, espero que no pase aquí\", Javier Ruiz, director de La Séptima, confiesa su gran miedo",
+      "titulo": "Apple ha encontrado la función del iPhone Duo que los móviles plegables Android todavía no consiguen igualar",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/mira-mira-tele-defender-tus-principios-puede-llevarte-cola-paro-espero-que-no-pase-aqui-javier-ruiz-director-septima-confiesa-su-gran-miedo_7054431_0.html",
-      "fecha": "28-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/apple-ha-encontrado-funcion-iphone-duo-que-los-moviles-plegables-android-todavia-no-consiguen-igualar_7054798_0.html",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "Un hacker reventó toda la seguridad de PS5. Ahora otro ha cobrado 50.000 dólares por contar a Sony cómo lo hizo",
+      "titulo": "Del MacBook Pro M5 al nuevo modelo táctil: ¿cuánto cambia realmente y cuál compensa comprar?",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/hacker-revento-toda-seguridad-ps5-ahora-otro-ha-cobrado-50-000-dolares-contar-a-sony-como-hizo",
-      "fecha": "28-10-2026"
+      "enlace": "https://www.xataka.com/seleccion/macbook-pro-m5-al-nuevo-modelo-tactil-cuanto-cambia-realmente-cual-compensa-comprar",
+      "fecha": "29-10-2026"
     },
     {
-      "titulo": "Virgin Galactic presenta Apeiron, su nuevo «avión espacial» para vuelos comerciales",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/aviacion/virgin-galactic-presenta-apeiron-su-nuevo-avion-espacial/",
-      "fecha": "28-10-2026"
+      "titulo": "Adiós a depender del DNI físico para votar: el Gobierno prepara un cambio en las mesas electorales",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/gobierno-dni-movil-votar-elecciones/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "¿Qué Mac es para ti? MacBook PROLED XDR vs. iMac M6 vs. MacBook Pro M6",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/que-mac-es-para-ti-macbook-proled-xdr-vs-imac-m6-vs-macbook-pro-m6_7054794_0.html",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Un crucero de lujo ofreció a sus pasajeros dar la vuelta al mundo. Se han quedado varados en Camboya por el precio del combustible",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/crucero-lujo-ofrecio-a-sus-pajeros-dar-vuelta-al-mundo-se-han-quedado-varados-camboya-precio-combustible",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "La fibra subirá de precio: queda saber si serán 1,50 euros o 16 céntimos al mes",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/fibra-optica-precio-subida-telefonica-cnmc/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Qué significan los números y las letras de los procesadores AMD Ryzen",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/que-significan-los-numeros-las-letras-los-procesadores-amd-ryzen_7054799_0.html",
+      "fecha": "29-10-2026"
     }
   ]
 }

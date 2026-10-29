@@ -1,0 +1,208 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "29-10-2026 15:37",
+  "destacadas": [
+    {
+      "titulo": "DoorDash compra Instacart por 17.000 millones de dólares",
+      "resumen": "DoorDash ha acordado adquirir a su rival Instacart por 17.000 millones de dólares, a 65 dólares por acción, con el visto bueno de los consejos de ambas empresas. Instacart, con más de 13.000 millones de capitalización, había negociado antes con Uber, según Bloomberg. DoorDash mantendrá la marca y la app de Instacart y prevé cerrar la operación entre finales de 2027 y la primera mitad de 2028.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/",
+      "fecha": "29-10-2026 14:40"
+    },
+    {
+      "titulo": "Un atacante usa issues de GitHub para golpear 61 repositorios públicos en menos de una hora",
+      "resumen": "Investigadores de Radware hallaron 83 elementos maliciosos en 61 repositorios, entre ellos trivy, discord.js, podman o github/docs, publicados casi todos el 1 de septiembre en 43 minutos desde 74 cuentas. Los comandos iban ocultos en comentarios HTML y un workflow de CI/CD vulnerable los ejecutaba para sacar variables de entorno a un servidor del atacante. La mayoría de repositorios ya están corregidos, aunque no se puede confirmar que todos lo estén.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/29/attackers-turn-github-issues-into-supply-chain-campaign-against-61-public-repos-in-less-than-an-hour/5306153",
+      "fecha": "29-10-2026 13:00"
+    },
+    {
+      "titulo": "Una vulnerabilidad crítica de 16 años en el firmware UEFI de EDK II pone en riesgo a millones de servidores",
+      "resumen": "El fallo, registrado como CVE-2026-97631 y con gravedad 9,5 sobre 10, está en el componente de arranque por red de EDK II, base del firmware UEFI de muchos fabricantes. Un tamaño de mensaje mal comprobado permitiría ejecutar código con máximos privilegios antes de que arranquen las protecciones del sistema. Lo descubrieron Alex Matrosov y Dan Holmes, que habían pactado mantenerlo en secreto hasta enero, pero se ha hecho público antes de lo previsto.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/una-vulnerabilidad-critica-pone-riesgo-millones-servidores-fallo-llevaba-16-anos-oculto-nadie-se-habia-dado-cuenta_7054795_0.html",
+      "fecha": "29-10-2026 12:43"
+    },
+    {
+      "titulo": "Un hacker infectó a jugadores de póker de altas apuestas con malware que mostraba sus cartas",
+      "resumen": "Un jugador profesional, bajo seudónimo, descubrió el 25 de septiembre gracias a su agente Claude que el programa MeshAgent llevaba instalado desde el 24 de abril y capturaba su pantalla durante sus partidas en Americas Cardroom. Un mismo rival, OxOO, estaba en 10 de las 11 sesiones espiadas, y él perdió unos 30.000 dólares. Cientos de jugadores habrían sido atacados durante años, con millones de dólares robados.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/",
+      "fecha": "29-10-2026 11:30"
+    },
+    {
+      "titulo": "Corea del Sur multiplica las multas a Google y Apple por abusos en sus tiendas de aplicaciones",
+      "resumen": "El regulador coreano (KMCC) multa a Google con 42.900 millones de wones (unos 32 millones de dólares) y a Apple con 20.810 millones (unos 15,6 millones) por infringir la ley de telecomunicaciones. Les achaca imponer su sistema de pago, cobrar un 26 % por pagos de terceros y retrasar sin motivo la revisión de apps. Deberán aceptar pagos externos y Apple dejar de discriminar a desarrolladores extranjeros.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2300690/apple-google-fined-south-korea-app-store-violations/",
+      "fecha": "29-10-2026 11:42"
+    },
+    {
+      "titulo": "Chrome buscará en tu Gmail el número de pedido para autocompletar formularios, pero aún no en España",
+      "resumen": "Chrome mejora su autocompletado para que Gemini localice en Gmail números de pedido, códigos de seguimiento o datos de reservas y los sugiera marcados como «Suggested by Gemini». Empieza en Estados Unidos en ordenador, Android e iPhone y exige cuenta personal de Google, ser mayor de 18 años y dar permiso a la IA. En el Espacio Económico Europeo, España incluida, no hay fecha porque Personal Intelligence no está disponible.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/ia/google-chrome-gmail-gemini-autocompletar/",
+      "fecha": "29-10-2026 11:02"
+    },
+    {
+      "titulo": "Matrix, el estándar abierto de mensajería, se postula como alternativa soberana a las grandes tecnológicas",
+      "resumen": "En el evento de Malmö la asistencia creció un 30 % interanual, y Element, que financia buena parte de la Fundación Matrix, pidió a los gobiernos usuarios que aporten dinero. La Comisión Europea lo desplegó tras una prueba de concepto del cuarto trimestre de 2025 y llegó a los portátiles entre julio y septiembre, con alojamiento en la Schengen Cloud Alliance. Francia, Alemania y Suecia ya lo usan, pese a quejas anónimas recogidas por Politico.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/software/2026/10/29/matrix-takes-sovereign-messaging-into-the-realm-of-the-tech-giants/5305915",
+      "fecha": "29-10-2026 10:30"
+    },
+    {
+      "titulo": "Dos senadores exigen explicaciones a Meta por los riesgos de privacidad de sus gafas inteligentes",
+      "resumen": "Ron Wyden y Edward Markey piden a Meta que explique qué salvaguardas tiene contra grabaciones íntimas sin consentimiento y qué imágenes usa para entrenar su IA. La carta cita una investigación de 404 Media sobre acoso a trabajadoras con las Ray-Ban de Meta, una demanda de más de 70 personas por exposición de imágenes íntimas a etiquetadores y el despido de los etiquetadores de Kenia. También preguntan si se pueden borrar los datos biométricos.",
+      "fuente": "404 Media",
+      "enlace": "https://www.404media.co/senators-wyden-markey-letter-to-meta-smart-glasses/",
+      "fecha": "29-10-2026 11:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Bluesky bloquea los enlaces a los datos filtrados de empleados de Seguridad Nacional mientras el Gobierno pide retirarlos",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/bluesky-blocks-links-to-leaked-dhs-employee-data-as-government-seeks-takedowns/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Publicada la lista corta de verificaciones de edad para la prohibición de redes sociales a menores de 16 en Reino Unido: «algunos» adultos tendrán que verificarse",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/29/shortlist-of-age-checks-for-the-uks-under-16-social-media-ban-is-out-some-adults-will-need-verifying/5306282",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Aparecen en GitHub rastros de un nuevo hardware de Raspberry Pi",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/personal-tech/2026/10/29/traces-of-new-pi-hardware-spotted-in-github/5306022",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "SpaceX ya no necesita a la NASA, y eso es un problema para la agencia espacial de EE. UU.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/10/spacex-no-longer-needs-nasa-and-thats-a-problem-for-americas-space-agency/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Microsoft rompe la apertura de adjuntos del nuevo Outlook con una actualización de Edge",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/personal-tech/2026/10/29/microsoft-breaks-new-outlook-attachment-opening-with-edge-update/5306224",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Fujifilm multiplicará por cinco su capacidad de producción de cinta: la cinta no está muerta",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/storage/2026/10/29/tape-is-so-not-dead-that-fujifilm-will-increase-production-capacity-5x/5306189",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Anduril asegura ahora que su portátil BlueChip cumplirá los estándares Buy American desde el lanzamiento",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "\"Es una cuestión de salud mental\": cada vez más padres están pagando hasta 260 euros la noche a niñeras nocturnas",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/cuestion-salud-mental-cada-vez-padres-estan-pagando-260-euros-noche-a-nineras-nocturnas",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Hasta la caca de perro será un arma en ‘GTA 6’: revelada la última locura de Rockstar",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/hasta-la-caca-de-perro-sera-un-arma-en-gta-6/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Deja de pagar Google Drive todos los meses: la alternativa que pagas una sola vez, para siempre, es mucho más segura y española",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/internxt-alternativa-google-drive-pago-unico/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Wewi Mobile se cuela en lista de principales operadores de telefonía móvil en España junto a Orange, Telefónica, Vodafone y DIGI, según la CNMC",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/wewi-mobile-se-cuela-lista-principales-operadores-telefonia-movil-espana-junto-orange-telefonica-vodafone-digi-segun-cnmc_7054828_0.html",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Raquel Ayllón, controladora ferroviaria y portavoz de SCF: \"El CRC de Atocha tiene una cantidad de trabajo inhumana. No se podía ni ir al baño\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/raquel-ayllon-controladora-portavoz-scf-crc-atocha-tiene-cantidad-trabajo-inhumana-no-se-podia-ir-al-bano",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Denza trae a España el BAO 5: su enorme SUV de 544 CV, hibridación DMO y 835 km de autonomía",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/movilidad/denza-trae-a-espana-el-bao-5/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "McDonald’s, Action, Tedi y VivaGym llegan a un centro comercial de Cantabria y buscan 50 trabajadores",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/centro-comercial-cantabria-los-puertos-reforma/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "La crisis de la memoria RAM no tiene final a la vista y Samsung avisa de que lo peor llegará en 2027: \"Esto supondrá una limitación física para el suministro\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/crisis-memoria-ram-no-tiene-final-vista-samsung-avisa-que-peor-llegara-2027-esto-supondra-una-limitacion-fisica-para-suministro_7054802_0.html",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Los Mossos piden ayuda al Ministerio del Interior para que cierre todas las cuentas de Blocus, mientras detienen al creador de \"Blocus VLC\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/mossos-piden-ayuda-al-ministerio-interior-cierre-todas-cuentas-blocus-detienen-al-creador-blocus-vlc",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Orange tiene varios decos y no son igual de buenos: ¿cuál te instala ahora?",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/orange-deco-instala-octubre-2026/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Apple ha encontrado la función del iPhone Duo que los móviles plegables Android todavía no consiguen igualar",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/apple-ha-encontrado-funcion-iphone-duo-que-los-moviles-plegables-android-todavia-no-consiguen-igualar_7054798_0.html",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Del MacBook Pro M5 al nuevo modelo táctil: ¿cuánto cambia realmente y cuál compensa comprar?",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/macbook-pro-m5-al-nuevo-modelo-tactil-cuanto-cambia-realmente-cual-compensa-comprar",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Adiós a depender del DNI físico para votar: el Gobierno prepara un cambio en las mesas electorales",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/gobierno-dni-movil-votar-elecciones/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "¿Qué Mac es para ti? MacBook PROLED XDR vs. iMac M6 vs. MacBook Pro M6",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/que-mac-es-para-ti-macbook-proled-xdr-vs-imac-m6-vs-macbook-pro-m6_7054794_0.html",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Un crucero de lujo ofreció a sus pasajeros dar la vuelta al mundo. Se han quedado varados en Camboya por el precio del combustible",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/crucero-lujo-ofrecio-a-sus-pajeros-dar-vuelta-al-mundo-se-han-quedado-varados-camboya-precio-combustible",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "La fibra subirá de precio: queda saber si serán 1,50 euros o 16 céntimos al mes",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/fibra-optica-precio-subida-telefonica-cnmc/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Qué significan los números y las letras de los procesadores AMD Ryzen",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/que-significan-los-numeros-las-letras-los-procesadores-amd-ryzen_7054799_0.html",
+      "fecha": "29-10-2026"
+    }
+  ]
+}
