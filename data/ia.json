@@ -1,122 +1,146 @@
 {
   "seccion": "ia",
-  "actualizado": "28-10-2026 16:17",
+  "actualizado": "29-10-2026 04:10",
   "destacadas": [
     {
-      "titulo": "Agentes de IA hackean Anthropic, creadora de algunos de los modelos más capaces para ciberdefensa",
-      "resumen": "La startup Cathedral, fundada por exempleados del DOGE, usó agentes de IA para entrar en sistemas internos de Anthropic a través de software empresarial de terceros, dentro del programa de recompensas por errores. Cathedral asegura que obtuvo mensajes de Slack y datos salariales en menos de doce horas; Anthropic sostiene que los intentos duraron días y que solo se expusieron sistemas limitados de ventas, RR. HH. y TI, sin chats, código fuente ni pesos de modelos. Anthropic cerró los accesos, desactivó los programas de terceros y avisó a las autoridades federales.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
-      "fecha": "28-10-2026 11:56"
+      "titulo": "Google presenta Gemini 4 Carbon, su modelo más capaz, aunque todavía no se puede usar",
+      "resumen": "Dos semanas después de Gemini 4 Argon, Google anuncia Carbon, que dice dar un «salto significativo» en detección, validación y corrección de vulnerabilidades y que genera código sin fallos el doble de veces que Argon. Supera por pocos puntos a GPT-6 Astra, Claude Opus 5.5 y Claude Fable 5.1 en casi todas las pruebas y resistió todos los ataques de inyección de prompts en Grey Swan (0 %). Se lanzará de forma escalonada vía el programa Fairwinds, con tarifa de lanzamiento de 2 dólares por millón de tokens de entrada y 10 de salida.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+      "fecha": "28-10-2026 19:47"
     },
     {
-      "titulo": "Bruselas plantea un «matiz» al RGPD y abre la puerta a entrenar a la IA con datos sin consentimiento",
-      "resumen": "El 21 de octubre, el Coreper fijó la postura del Consejo de la UE sobre el Digital Omnibus, un documento de 179 páginas que modifica el RGPD, ePrivacy, el Reglamento de Datos y NIS2. Añadiría un artículo 88 bis que permite a las empresas de IA entrenar modelos con datos personales por interés legítimo, y el Consejo elimina el derecho de oposición incondicional y la excepción para menores que proponía la Comisión. Aún no es ley: el Parlamento Europeo no tiene postura y la Comisión quiere cerrar los ómnibus antes de fin de año.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/legislacion-y-derechos/consejo-ue-propone-ligero-matiz-al-rgpd-que-se-pueda-entrenar-ia-tus-datos-pedir-permiso",
-      "fecha": "28-10-2026 13:45"
-    },
-    {
-      "titulo": "Un nuevo índice de Artificial Analysis amplía la brecha entre modelos abiertos y cerrados",
-      "resumen": "Artificial Analysis rediseñó su Intelligence Index (versión 5) el 28 de octubre y Kimi K3.1 Pro cayó del cuarto al noveno puesto, por detrás de ocho modelos cerrados. La distancia entre los modelos abiertos y la cima pasó de 3 a 12 puntos, y Grok 4.7 perdió 12 puntos. El nuevo índice usa conjuntos de prueba privados en el 60 % de sus evaluaciones para evitar que se entrene con las preguntas.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models/",
-      "fecha": "28-10-2026 16:04"
-    },
-    {
-      "titulo": "Nvidia lanza Nemotron 3.5 Transcribe, un nuevo modelo abierto de transcripción de voz",
-      "resumen": "El modelo, gratuito y de pesos abiertos, transcribe audio en hasta 40 idiomas y traduce 31 de ida y vuelta con el inglés. Tiene 30.000 millones de parámetros, procesa grabaciones de hasta una hora y distingue hasta ocho hablantes, aunque solo funciona con audio grabado y no en directo. Nvidia publica además la versión 2 de su conjunto de datos de voz Granary, en plena oleada de modelos de voz como Voxtral 3 de Mistral o el de ElevenLabs.",
+      "titulo": "Microsoft ingresó 10.000 millones de dólares de OpenAI en un solo trimestre",
+      "resumen": "Según un documento ante la SEC, Microsoft obtuvo 10.000 millones de sus acuerdos con OpenAI, incluido el reparto de ingresos, en el trimestre cerrado el 30 de septiembre: casi el 11 % de sus 92.300 millones totales. Tiene además 7.200 millones por cobrar a OpenAI, y su participación en la compañía bajó de cerca del 25 % en junio a cerca del 24 %.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
-      "fecha": "28-10-2026 16:00"
+      "enlace": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "fecha": "28-10-2026 22:34"
     },
     {
-      "titulo": "xAI compra casas a los vecinos que se comprometan a no demandarla por el ruido de su centro de datos",
-      "resumen": "Una filial de xAI ofrece comprar viviendas en un barrio de Southaven (Misisipi) a cambio de que los propietarios renuncien a sumarse a la demanda contra su centro de datos y su central de gas. Según una agente inmobiliaria, xAI planea comprar 418 casas y 18 propietarios ya habrían aceptado vender. La empresa afronta además hasta 6,1 millones de dólares en sanciones ambientales y una demanda de la NAACP por turbinas sin permiso.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
-      "fecha": "28-10-2026 15:44"
-    },
-    {
-      "titulo": "Cisco libera una herramienta para detectar agentes de IA que se lanzan a hackear",
-      "resumen": "Cisco publicó como código abierto Project Quarry, un motor de detección de comportamiento de agentes de IA pensado como lenguaje común al estilo de Snort o YARA. Analiza la sesión completa del agente, no solo interacciones aisladas, y cubre conversaciones con LLM, uso de herramientas, MCP y entradas multimodales. Según el artículo, habría marcado el acceso a internet desde un sandbox en el incidente de Hugging Face, aunque Cisco no lo ha probado con esos datos.",
+      "titulo": "Alphabet se hunde casi un 10 % en bolsa porque las búsquedas con IA monetizan menos",
+      "resumen": "Los ingresos de búsqueda de Google crecieron un 12 % hasta 63.250 millones de dólares, frente al 14,5 % del año anterior, y su director de negocio atribuyó la desaceleración a la menor monetización de AI Mode. Alphabet invirtió 51.400 millones en el trimestre, mantiene un gasto de 195.000-205.000 millones para 2026 y admite que Google Cloud no tiene capacidad para todos sus clientes.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867",
-      "fecha": "28-10-2026 13:00"
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/29/google-struggling-to-make-ai-mode-searches-pay/5306181",
+      "fecha": "29-10-2026 02:12"
     },
     {
-      "titulo": "123 Reg revela un «ciberataque con IA» contra datos de clientes y sospecha de un grupo vinculado a China",
-      "resumen": "El registrador británico, propiedad de GoDaddy, avisó de que el 18 de septiembre sufrió un ataque basado en IA que expuso nombres, teléfonos, productos contratados y números de IVA. Afirma que el atacante solo tuvo acceso de lectura, aunque pudo copiar datos, y sospecha de un grupo chino por IP alojadas en China y Singapur. Habría usado la herramienta ARTEX, documentada por CrowdStrike el 7 de octubre, y la empresa avisó a la FTC y a las autoridades del Reino Unido y la UE.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
-      "fecha": "28-10-2026 12:45"
+      "titulo": "OpenAI negocia comprar chips de IA a Google para depender menos de Nvidia",
+      "resumen": "Según The Information, OpenAI negocia con Google la compra de sus TPU para ampliar su capacidad de cómputo; el acuerdo no está confirmado y no hay cifras. OpenAI, que ya alquila chips a Google desde 2025, presentó a finales de agosto su propio chip de inferencia Jalapeño y busca reducir su dependencia de las GPU de Nvidia, caras y limitadas por la capacidad de TSMC.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/componentes/openai-va-a-comprar-chips-ia-a-google-carrera-computacion-no-entiende-rivales",
+      "fecha": "28-10-2026 18:31"
+    },
+    {
+      "titulo": "Google abre el desarrollo de Android a agentes de IA de terceros",
+      "resumen": "Android Studio Rabbit 2 incorpora «Bring Your Own Agent», que permite usar más de 40 agentes externos, como Claude Agent, Codex y Antigravity, mediante el protocolo ACP. Android CLI pasa a ser plugin oficial para esos agentes y Google dice que completan tareas de interfaz un 77 % más rápido con hasta tres veces menos tokens. También presenta nuevas APIs con Gemini Nano 4 y más de 50 integraciones de socios en la app Gemini.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
+      "fecha": "28-10-2026 17:59"
+    },
+    {
+      "titulo": "Anthropic lanza herramientas para que las empresas vean qué consiguen con su gasto en IA",
+      "resumen": "Las nuevas herramientas de informes muestran a los gerentes el trabajo de un equipo, su coste y dónde fallaron los flujos, y permiten presupuestos de tokens compartidos. Un informe de Jellyfish con 276.000 clientes calcula que Claude Code y herramientas basadas en modelos de Anthropic generan casi un tercio de los cambios de código enviados a revisión, con un gasto multiplicado por diez en lo que va de año.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "fecha": "28-10-2026 20:19"
+    },
+    {
+      "titulo": "Claude for Legal verifica fuentes automáticamente y pasa el expediente a un abogado",
+      "resumen": "Anthropic amplía Claude Enterprise para el sector legal con plantillas y nuevos artifacts interactivos para verificar citas, comparar leyes entre países y revisar contratos frente a guías internas. El modelo hace la comprobación inicial y enlaza cada afirmación con su fuente antes de la revisión humana. Suma más de 60 integraciones, entre ellas Bloomberg Law, y herramientas de Harvey, Goodwin, Foley & Lardner y PwC.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/",
+      "fecha": "28-10-2026 17:20"
     }
   ],
   "titulares": [
     {
-      "titulo": "Los votantes de Texas coinciden: odian los centros de datos",
+      "titulo": "Adam Mosseri dice que la negatividad en torno a la IA «va a empeorar»",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Google extiende a todo el mundo los anuncios en la búsqueda con IA mientras se frena el crecimiento publicitario",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
       "fecha": "28-10-2026"
     },
     {
-      "titulo": "Meta lanzó discretamente una app de «diario de mascotas con IA»",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
+      "titulo": "Microsoft revela por primera vez los ingresos de Azure en dólares: 33.200 millones",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
       "fecha": "28-10-2026"
     },
     {
-      "titulo": "Con la IA escribiendo el código, el pensamiento emprendedor es lo que más cuenta para los recién llegados a Anthropic",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic/",
-      "fecha": "28-10-2026"
-    },
-    {
-      "titulo": "Empleados de Macmillan dicen que la editorial celebró una fiesta por un asistente de IA que luego eliminó",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/",
-      "fecha": "28-10-2026"
-    },
-    {
-      "titulo": "Una «neocloud» cree que sus principales clientes serán agentes de IA, no personas",
+      "titulo": "Un ingeniero de Anthropic declara muerta la entrevista de programación",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/28/neocloud-thinks-ai-agents-not-meatbags-will-be-its-main-customers/5305496",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/28/anthropic-engineer-declares-the-coding-interview-dead/5306115",
       "fecha": "28-10-2026"
     },
     {
-      "titulo": "Llegan las alertas de emergencia con IA; puede que las personas no estén preparadas",
+      "titulo": "Microsoft dejará de ofrecer soporte de Copilot en televisores inteligentes",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Puse a varios agentes de IA al frente de un equipo de fútbol fantasy: aún no superan a los humanos",
       "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+      "enlace": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
       "fecha": "28-10-2026"
     },
     {
-      "titulo": "¿Debe la IA decidir tu caso judicial? Este juez dice que sí",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
+      "titulo": "La IA de Google se pone esquiva al preguntarle quién ganó las elecciones de 2020",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
       "fecha": "28-10-2026"
     },
     {
-      "titulo": "\"Nos hemos quedado sin identidad\": los programadores tienen otro frente con la IA: su salud mental",
+      "titulo": "El autocompletado con IA de Chrome ya puede rebuscar en tu Gmail para rellenar formularios",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Amazon pide a los desarrolladores que frenen el «tokenmaxxing» con IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/28/amazon-tells-tokenmaxxing-devs-to-slow-their-ai-roll/5306090",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "OpenAI adelanta Dots para Europa, pero su DevDay de Berlín iba de construir una plataforma",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Los directivos de IA pueden estar demasiado desconectados para crear productos para el público general",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Los despidos tecnológicos de 2026 ya rozan los 197.000 en pleno giro del capital hacia la IA",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/nos-hemos-quedado-identidad-programadores-tienen-otro-frente-ia-su-salud-mental",
+      "enlace": "https://www.xataka.com/empresas-y-economia/despidos-tecnologicos-2026-rozan-197-000-pleno-giro-capital-ia",
       "fecha": "28-10-2026"
     },
     {
-      "titulo": "DeepMind presenta Genie 4, su nuevo modelo de IA que promete unas físicas y seres humanos 100% realistas",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/deepmind-presenta-genie-4-su-nuevo-modelo-ia-que-promete-unas-fisicas-seres-humanos-100-realistas_7054298_0.html",
+      "titulo": "Google lanza Gemini 4 Carbon, una IA que puede detectar fallos antes que los hackers",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-4-carbon-google-ciberseguridad-ia/",
       "fecha": "28-10-2026"
     },
     {
-      "titulo": "OpenAI asegura haber logrado avances en tres problemas científicos muy complejos, aunque la academia tendrá la última palabra",
+      "titulo": "Anthropic ha diseñado un peculiar sistema de poder para evitar que sus accionistas la controlen después de su salida a bolsa",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/openai-asegura-haber-logrado-avances-tres-problemas-cientificos-muy-complejos-academia-tendra-ultima-palabra",
+      "enlace": "https://www.xataka.com/robotica-e-ia/anthropic-ha-disenado-peculiar-sistema-poder-para-evitar-que-sus-accionistas-controlen-despues-su-salida-a-bolsa",
       "fecha": "28-10-2026"
     },
     {
-      "titulo": "\"La IA no va a meterse debajo de las casas para instalar tuberías\": en EEUU y Francia los oficios manuales están al alza",
+      "titulo": "Que Anthropic salga a bolsa va a tener consecuencias hasta para una constructora española: Ferrovial",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/ia-no-va-a-meterse-debajo-casas-para-instalar-tuberias-eeuu-francia-oficios-manuales-estan-al-alza",
+      "enlace": "https://www.xataka.com/empresas-y-economia/que-anthropic-salga-a-bolsa-va-a-tener-consecuencias-para-constructora-espanola-ferrovial",
       "fecha": "28-10-2026"
     }
   ]

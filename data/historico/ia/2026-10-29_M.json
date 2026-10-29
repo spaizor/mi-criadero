@@ -1,0 +1,147 @@
+{
+  "seccion": "ia",
+  "actualizado": "29-10-2026 04:10",
+  "destacadas": [
+    {
+      "titulo": "Google presenta Gemini 4 Carbon, su modelo más capaz, aunque todavía no se puede usar",
+      "resumen": "Dos semanas después de Gemini 4 Argon, Google anuncia Carbon, que dice dar un «salto significativo» en detección, validación y corrección de vulnerabilidades y que genera código sin fallos el doble de veces que Argon. Supera por pocos puntos a GPT-6 Astra, Claude Opus 5.5 y Claude Fable 5.1 en casi todas las pruebas y resistió todos los ataques de inyección de prompts en Grey Swan (0 %). Se lanzará de forma escalonada vía el programa Fairwinds, con tarifa de lanzamiento de 2 dólares por millón de tokens de entrada y 10 de salida.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+      "fecha": "28-10-2026 19:47"
+    },
+    {
+      "titulo": "Microsoft ingresó 10.000 millones de dólares de OpenAI en un solo trimestre",
+      "resumen": "Según un documento ante la SEC, Microsoft obtuvo 10.000 millones de sus acuerdos con OpenAI, incluido el reparto de ingresos, en el trimestre cerrado el 30 de septiembre: casi el 11 % de sus 92.300 millones totales. Tiene además 7.200 millones por cobrar a OpenAI, y su participación en la compañía bajó de cerca del 25 % en junio a cerca del 24 %.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "fecha": "28-10-2026 22:34"
+    },
+    {
+      "titulo": "Alphabet se hunde casi un 10 % en bolsa porque las búsquedas con IA monetizan menos",
+      "resumen": "Los ingresos de búsqueda de Google crecieron un 12 % hasta 63.250 millones de dólares, frente al 14,5 % del año anterior, y su director de negocio atribuyó la desaceleración a la menor monetización de AI Mode. Alphabet invirtió 51.400 millones en el trimestre, mantiene un gasto de 195.000-205.000 millones para 2026 y admite que Google Cloud no tiene capacidad para todos sus clientes.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/29/google-struggling-to-make-ai-mode-searches-pay/5306181",
+      "fecha": "29-10-2026 02:12"
+    },
+    {
+      "titulo": "OpenAI negocia comprar chips de IA a Google para depender menos de Nvidia",
+      "resumen": "Según The Information, OpenAI negocia con Google la compra de sus TPU para ampliar su capacidad de cómputo; el acuerdo no está confirmado y no hay cifras. OpenAI, que ya alquila chips a Google desde 2025, presentó a finales de agosto su propio chip de inferencia Jalapeño y busca reducir su dependencia de las GPU de Nvidia, caras y limitadas por la capacidad de TSMC.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/componentes/openai-va-a-comprar-chips-ia-a-google-carrera-computacion-no-entiende-rivales",
+      "fecha": "28-10-2026 18:31"
+    },
+    {
+      "titulo": "Google abre el desarrollo de Android a agentes de IA de terceros",
+      "resumen": "Android Studio Rabbit 2 incorpora «Bring Your Own Agent», que permite usar más de 40 agentes externos, como Claude Agent, Codex y Antigravity, mediante el protocolo ACP. Android CLI pasa a ser plugin oficial para esos agentes y Google dice que completan tareas de interfaz un 77 % más rápido con hasta tres veces menos tokens. También presenta nuevas APIs con Gemini Nano 4 y más de 50 integraciones de socios en la app Gemini.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
+      "fecha": "28-10-2026 17:59"
+    },
+    {
+      "titulo": "Anthropic lanza herramientas para que las empresas vean qué consiguen con su gasto en IA",
+      "resumen": "Las nuevas herramientas de informes muestran a los gerentes el trabajo de un equipo, su coste y dónde fallaron los flujos, y permiten presupuestos de tokens compartidos. Un informe de Jellyfish con 276.000 clientes calcula que Claude Code y herramientas basadas en modelos de Anthropic generan casi un tercio de los cambios de código enviados a revisión, con un gasto multiplicado por diez en lo que va de año.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "fecha": "28-10-2026 20:19"
+    },
+    {
+      "titulo": "Claude for Legal verifica fuentes automáticamente y pasa el expediente a un abogado",
+      "resumen": "Anthropic amplía Claude Enterprise para el sector legal con plantillas y nuevos artifacts interactivos para verificar citas, comparar leyes entre países y revisar contratos frente a guías internas. El modelo hace la comprobación inicial y enlaza cada afirmación con su fuente antes de la revisión humana. Suma más de 60 integraciones, entre ellas Bloomberg Law, y herramientas de Harvey, Goodwin, Foley & Lardner y PwC.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/",
+      "fecha": "28-10-2026 17:20"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Adam Mosseri dice que la negatividad en torno a la IA «va a empeorar»",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Google extiende a todo el mundo los anuncios en la búsqueda con IA mientras se frena el crecimiento publicitario",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Microsoft revela por primera vez los ingresos de Azure en dólares: 33.200 millones",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Un ingeniero de Anthropic declara muerta la entrevista de programación",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/28/anthropic-engineer-declares-the-coding-interview-dead/5306115",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Microsoft dejará de ofrecer soporte de Copilot en televisores inteligentes",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Puse a varios agentes de IA al frente de un equipo de fútbol fantasy: aún no superan a los humanos",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "La IA de Google se pone esquiva al preguntarle quién ganó las elecciones de 2020",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "El autocompletado con IA de Chrome ya puede rebuscar en tu Gmail para rellenar formularios",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Amazon pide a los desarrolladores que frenen el «tokenmaxxing» con IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/28/amazon-tells-tokenmaxxing-devs-to-slow-their-ai-roll/5306090",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "OpenAI adelanta Dots para Europa, pero su DevDay de Berlín iba de construir una plataforma",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Los directivos de IA pueden estar demasiado desconectados para crear productos para el público general",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Los despidos tecnológicos de 2026 ya rozan los 197.000 en pleno giro del capital hacia la IA",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/despidos-tecnologicos-2026-rozan-197-000-pleno-giro-capital-ia",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Google lanza Gemini 4 Carbon, una IA que puede detectar fallos antes que los hackers",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-4-carbon-google-ciberseguridad-ia/",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Anthropic ha diseñado un peculiar sistema de poder para evitar que sus accionistas la controlen después de su salida a bolsa",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/anthropic-ha-disenado-peculiar-sistema-poder-para-evitar-que-sus-accionistas-controlen-despues-su-salida-a-bolsa",
+      "fecha": "28-10-2026"
+    },
+    {
+      "titulo": "Que Anthropic salga a bolsa va a tener consecuencias hasta para una constructora española: Ferrovial",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/que-anthropic-salga-a-bolsa-va-a-tener-consecuencias-para-constructora-espanola-ferrovial",
+      "fecha": "28-10-2026"
+    }
+  ]
+}
