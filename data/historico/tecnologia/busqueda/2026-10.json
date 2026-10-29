@@ -3,6 +3,237 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Apple presenta su primer MacBook Pro con pantalla táctil OLED y macOS 27 adaptado a los dedos",
+      "fuente": "Xataka",
+      "fecha": "28-10-2026 18:15",
+      "enlace": "https://www.xataka.com/ordenadores/apple-presenta-fin-su-primer-macbook-pro-pantalla-tactil-recupera-mitico-logo-iluminado",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Un hacker roba y publica datos de más de 40.000 empleados de Seguridad Nacional de EE. UU.",
+      "fuente": "TechCrunch",
+      "fecha": "28-10-2026 21:01",
+      "enlace": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Microsoft factura 92.300 millones y Azure crece un 48 % en su primer trimestre fiscal de 2027",
+      "fuente": "The Verge",
+      "fecha": "28-10-2026 21:20",
+      "enlace": "https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "GitHub sumará cuatro millones de núcleos para aguantar la avalancha de agentes de IA",
+      "fuente": "The Register",
+      "fecha": "28-10-2026 17:30",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/28/github-powering-up-four-million-extra-cores-to-stop-its-service-going-down/5305863",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Europa proyecta el primer cable submarino que conecte directamente la UE con Groenlandia",
+      "fuente": "Ars Technica",
+      "fecha": "28-10-2026 23:35",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Ojo con los emuladores de PS5 en GitHub: hay versiones falsas que roban tus contraseñas",
+      "fuente": "Hipertextual",
+      "fecha": "28-10-2026 21:50",
+      "enlace": "https://hipertextual.com/seguridad/emuladores-ps5-malware-github/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Xreal lanza las Aura, unas gafas con cable y Android XR que cuestan desde 1.099 dólares",
+      "fuente": "TechCrunch",
+      "fecha": "28-10-2026 18:00",
+      "enlace": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Sony lanza mandos DualSense transparentes de la colección Prism por 85 dólares",
+      "fuente": "Engadget",
+      "fecha": "28-10-2026 19:38",
+      "enlace": "https://www.engadget.com/2300152/sonys-new-see-through-dualsense-controllers-let-you-game-like-its-1999/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Upwind levanta 400 millones de dólares tras rechazar una oferta de compra de Datadog",
+      "fuente": "TechCrunch",
+      "fecha": "29-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "El presidente de la FCC quiere permitir que las cárceles bloqueen los móviles ilegales",
+      "fuente": "Engadget",
+      "fecha": "29-10-2026",
+      "enlace": "https://www.engadget.com/2300569/fcc-chair-wants-to-let-prisons-jam-illegal-cellphones/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "El cohete Vulcan de ULA volverá a volar el viernes 13",
+      "fuente": "Ars Technica",
+      "fecha": "28-10-2026",
+      "enlace": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Readwise se lanza contra Kindle y Kobo con su propia tienda de libros electrónicos",
+      "fuente": "The Verge",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.theverge.com/tech/1020264/readwise-books-launch-ebook-store",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Google construye un robot médico para la NASA",
+      "fuente": "The Register",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/28/please-state-the-nature-of-the-medical-emergency-google-is-building-a-robot-medic-for-nasa/5306130",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Oracle cierra el mes de la ciberseguridad con cuatro problemas a la vez",
+      "fuente": "The Register",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Meta se plantea retrasar unas condiciones comerciales «alarmantes» ante las críticas",
+      "fuente": "Engadget",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.engadget.com/2300293/meta-weighs-delaying-alarming-new-business-terms-as-backlash-grows/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "La PlayStation 5 podría ser el último reproductor de Blu-ray de Sony",
+      "fuente": "Engadget",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.engadget.com/2300289/playstation-5-might-be-sony-final-blu-ray-player/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Reddit se suma al feed «Para ti» con recomendaciones personalizadas",
+      "fuente": "TechCrunch",
+      "fecha": "28-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/28/reddit-is-the-latest-platform-to-embrace-the-for-you-feed/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "El Departamento de Energía de Trump presta 5.000 millones a centrales nucleares que alimentarán centros de datos",
+      "fuente": "TechCrunch",
+      "fecha": "28-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Condenado a 70 meses de cárcel un ciberdelincuente en serie por sus papeles en Nefilim y Hive",
+      "fuente": "The Register",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/10/28/serial-ransomware-crook-gets-70-months-behind-bars-for-nefilim-hive-roles/5306050",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Una parte de Dinamarca quiso deshacerse de Microsoft Office y usar una alternativa open source. Y el plan empezó a torcerse",
+      "fuente": "Xataka",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.xataka.com/aplicaciones/parte-dinamarca-quiso-deshacerse-microsoft-office-usar-alternativa-open-source-plan-empezo-a-torcerse",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Tus mensajes de Discord podrían aparecer en Google si no haces este ajuste",
+      "fuente": "Hipertextual",
+      "fecha": "28-10-2026",
+      "enlace": "https://hipertextual.com/internet/discord-mensajes-google-como-evitar-indexacion/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Orange y Movistar activan conectividad satélite con Starlink tras el accidente de tren de Toledo",
+      "fuente": "ADSLZone",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-orange-starlink-accidente-tren-toledo/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "No solo La Séptima, RTVE estrenará un nuevo canal nacional en la TDT en abierto después del \"apagón\" del 5 de noviembre del que nadie habla",
+      "fuente": "ComputerHoy",
+      "fecha": "28-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/no-solo-septima-rtve-estrenara-un-nuevo-canal-nacional-tdt-abierto-despues-apagon-5-noviembre-que-nadie-habla_7054436_0.html",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "He probado el nuevo MacBook Pro táctil: no tenía claro para qué querría tocar su pantalla. He encontrado las primeras respuestas",
+      "fuente": "Xataka",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.xataka.com/eventos/apple-macbook-pro-tactil-opiniones-toma-contacto-fotos",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "¿Cuánto cuesta el MacBook Pro táctil más caro? Prepárate para llorar",
+      "fuente": "Hipertextual",
+      "fecha": "28-10-2026",
+      "enlace": "https://hipertextual.com/apple/cuanto-cuesta-el-macbook-pro-tactil-mas-caro-preparate-para-llorar/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Qué dice la letra pequeña de la nube gratis de O2: 5 cosas que deberías saber",
+      "fuente": "ADSLZone",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/5-cosas-letra-pequena-nube-gratis-o2/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Crean una conexión de fibra óptica capaz de descargar 20.000 películas en 4K en un segundo",
+      "fuente": "ComputerHoy",
+      "fecha": "28-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/crean-una-conexion-fibra-optica-capaz-descargar-20-000-peliculas-4k-un-segundo_7054558_0.html",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "El nuevo MacBook Pro con pantalla táctil cuesta desde 3.349 euros en España: más de 1.000 euros más que su hermano \"no táctil\"",
+      "fuente": "Xataka",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.xataka.com/ordenadores/nuevo-macbook-pro-pantalla-tactil-cuesta-3-349-euros-espana-1-000-euros-que-su-hermano-no-tactil",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "El MacBook Pro estrena pantalla táctil y OLED: Apple rompe su gran tabú",
+      "fuente": "Hipertextual",
+      "fecha": "28-10-2026",
+      "enlace": "https://hipertextual.com/apple/el-macbook-pro-estrena-pantalla-tactil-y-oled-apple-rompe-su-gran-tabu/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Este domingo llega noviembre y hay novedades para los conductores: qué pasa con la ayuda de 20 céntimos a la gasolina",
+      "fuente": "ADSLZone",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/ayuda-gasolina-diesel-noviembre-20-centimos/",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "\"Mira, mira, el de la tele; defender tus principios puede llevarte a la cola del paro, espero que no pase aquí\", Javier Ruiz, director de La Séptima, confiesa su gran miedo",
+      "fuente": "ComputerHoy",
+      "fecha": "28-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/mira-mira-tele-defender-tus-principios-puede-llevarte-cola-paro-espero-que-no-pase-aqui-javier-ruiz-director-septima-confiesa-su-gran-miedo_7054431_0.html",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Un hacker reventó toda la seguridad de PS5. Ahora otro ha cobrado 50.000 dólares por contar a Sony cómo lo hizo",
+      "fuente": "Xataka",
+      "fecha": "28-10-2026",
+      "enlace": "https://www.xataka.com/videojuegos/hacker-revento-toda-seguridad-ps5-ahora-otro-ha-cobrado-50-000-dolares-contar-a-sony-como-hizo",
+      "turno": "2026-10-29_M"
+    },
+    {
+      "titulo": "Virgin Galactic presenta Apeiron, su nuevo «avión espacial» para vuelos comerciales",
+      "fuente": "Hipertextual",
+      "fecha": "28-10-2026",
+      "enlace": "https://hipertextual.com/aviacion/virgin-galactic-presenta-apeiron-su-nuevo-avion-espacial/",
+      "turno": "2026-10-29_M"
+    },
+    {
       "titulo": "Amazon renueva su gama Echo: reloj despertador Echo Time, marco de fotos con Alexa y un Echo Studio con cámara",
       "fuente": "The Verge",
       "fecha": "28-10-2026 13:20",
