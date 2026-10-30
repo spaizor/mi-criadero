@@ -1,214 +1,196 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "30-10-2026 03:11",
+  "actualizado": "30-10-2026 15:15",
   "destacadas": [
     {
-      "titulo": "Binance suspende los retiros tras un hackeo que podría superar los 2.000 millones de dólares",
-      "resumen": "Binance confirmó un incidente de seguridad y suspendió temporalmente los retiros en varias redes, mientras los usuarios veían vaciarse sus carteras calientes. Los analistas calculan al menos 2.000 millones de dólares robados, con estimaciones de hasta 5.700 millones, y Circle y Tether congelaron unos 800 y 1.560 millones en fondos vinculados. Aún se desconoce quién está detrás, y Changpeng Zhao ya anticipó que los fondos estarán «totalmente cubiertos».",
+      "titulo": "Hackers norcoreanos, señalados por el robo récord de 6.300 millones de dólares a Binance",
+      "resumen": "Investigadores de seguridad atribuyen a hackers del régimen norcoreano el robo de al menos 6.300 millones de dólares en cripto de las carteras de Binance, aunque cerca de la mitad quedó congelada mientras los fondos viajaban entre cadenas. Binance explica que el ataque partió del portátil comprometido de un ingeniero, que dio acceso a un contenedor de servicio desde el que se enviaron retiradas no autorizadas, y asegura que no hay evidencia de filtración de claves privadas. La plataforma ha suspendido todos los depósitos y retiradas y publicará una prueba de reservas actualizada al terminar la remediación.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
-      "fecha": "29-10-2026 23:27"
+      "enlace": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/",
+      "fecha": "30-10-2026 15:00"
     },
     {
-      "titulo": "Reddit exigirá iniciar sesión para usarlo",
-      "resumen": "El CEO Steve Huffman confirmó en la carta a accionistas del tercer trimestre que Reddit pasará a una experiencia «solo con sesión iniciada», que probará en mercados selectos fuera de EE. UU. en el cuarto trimestre. La empresa lo justifica por la publicidad y la protección de sus datos, y advierte de que las visitas desde buscadores caen más de un millón por semana, lo que podría reducir los usuarios diarios en un porcentaje de dos dígitos bajos.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
-      "fecha": "29-10-2026 22:47"
+      "titulo": "El desplome de los chips para PC borra una cuarta parte del valor de Intel",
+      "resumen": "Las acciones de Intel cayeron casi un 25 % tras publicar unos resultados del tercer trimestre con ingresos de 16.500 millones (+21 %), impulsados por un crecimiento del 78 % en centros de datos e IA, pero con una caída del 5 % interanual en computación de cliente (8.100 millones). El CEO Lip-Bu Tan atribuye el frenazo a los precios y la disponibilidad de la memoria y prevé que el mercado de chips para PC se encoja un 12 % el año próximo. SK Hynix avisó esta semana de que la escasez de memoria podría durar hasta 2030.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/10/30/pc-chip-plunge-wipes-out-a-quarter-of-intels-value/5306531",
+      "fecha": "30-10-2026 03:42"
     },
     {
-      "titulo": "Windows 11 recibe una actualización de 41 cambios que permite reinstalar el sistema aunque el PC no arranque",
-      "resumen": "La actualización opcional KB5127936, para Windows 11 25H2 y 26H2, permite reinstalar Windows descargando los archivos desde Windows Update. Añade un menú contextual del Explorador más personalizable, controles de cámara, micrófono y ubicación agrupados en Privacidad y un resumen de lo restaurado al recuperar una copia de seguridad en un equipo nuevo.",
+      "titulo": "El próximo robotaxi de Waymo será un Toyota bZ4X fabricado a medida en Japón",
+      "resumen": "Waymo lanzará en Tokio en 2027 un servicio con Toyota bZ4X eléctricos ensamblados en la planta de Takaoka, donde los sensores y ordenadores de conducción autónoma se instalarán directamente en la línea de montaje, en lugar de adaptar coches ya terminados. Tras las pruebas en Japón el año que viene, los vehículos llegarán al Reino Unido y otros mercados. Hoy Waymo opera con el Jaguar I-Pace y el Zeekr RT, y pronto sumará un modelo basado en el Hyundai Ioniq 5.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/transportation/1023112/waymos-next-robotaxi-is-a-purpose-built-toyota-bz4x",
+      "fecha": "30-10-2026 14:52"
+    },
+    {
+      "titulo": "Un fallo de Forocoches permitía obtener datos de los visitantes con solo abrir un hilo",
+      "resumen": "El INCIBE avisa (INCIBE-2026-815, severidad alta, 8,2 sobre 10) de una vulnerabilidad ya corregida en Forocoches: un comentario con una imagen alojada en un servidor ajeno hacía que el navegador de quien abriera el hilo enviara una petición al atacante, que recibía la IP, el navegador, el sistema operativo y la hora del acceso. No hacía falta entrar en el foro ni en su base de datos, y el fallo ya no es explotable.",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/windows/windows-11-actualizacion-29-octubre-cambios/",
-      "fecha": "29-10-2026 20:02"
+      "enlace": "https://www.adslzone.net/noticias/seguridad/forocoches-fallo-seguridad-datos-usuarios/",
+      "fecha": "30-10-2026 14:32"
     },
     {
-      "titulo": "La web de fanfiction AO3 estará caída hasta cuatro semanas tras un incidente de seguridad",
-      "resumen": "Archive of Our Own, de la organización sin ánimo de lucro OTW, calcula que su recuperación tardará entre dos y cuatro semanas tras detectar un incidente de seguridad. No creen que se haya robado la base de datos de usuarios, pero no pueden descartarlo: contiene nombres de usuario, correos, IP y contraseñas con hash, por lo que recomiendan cambiarlas en otros sitios.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/",
-      "fecha": "29-10-2026 21:43"
+      "titulo": "La NASA estudia una misión de servicio al Hubble o su reentrada controlada",
+      "resumen": "La NASA ha publicado una solicitud de información a empresas espaciales comerciales para dar servicio al telescopio Hubble. Calcula un 10 % de probabilidad de reentrada antes de septiembre de 2032 y un 50 % para diciembre de 2033, por la mayor actividad solar. Entre las opciones están elevar su órbita por encima de 600 km, alargar su vida útil o capturarlo para una reentrada controlada; la misión debería realizarse antes de 2032 y sin dañar el telescopio.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/science/2026/10/30/nasa-ponders-a-hubble-servicing-mission-or-a-controlled-deorbit/5306622",
+      "fecha": "30-10-2026 15:00"
     },
     {
-      "titulo": "Trump ignoró la información sobre una espía china cerca del CEO de Nvidia, según un informe",
-      "resumen": "Según The New York Times, hace un año se informó a Trump de que Pekín recibía datos de alguien con acceso directo a Jensen Huang: Alice Huang, exejecutiva de la firma singapurense Megaspeed, sospechosa de ayudar a China a esquivar los controles de exportación de chips. Trump no hizo nada, en parte por temor a dañar las ventas de Nvidia y la tregua comercial. China lo califica de calumnias infundadas.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
-      "fecha": "29-10-2026 19:29"
+      "titulo": "Starlink elimina las tarifas fijas: el precio variará según la congestión de la red y la zona",
+      "resumen": "Starlink avisa por correo a sus abonados de que pasa a tarifas dinámicas que dependen de la congestión y la capacidad de la constelación en cada ubicación. El precio solo podrá variar un máximo del 20 % entre facturas y los ajustes serán trimestrales. En Valencia, la tarifa básica ya ha bajado de 35 a 31,60 euros con la llegada de los satélites V3.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/starlink-precios-dinamicos-revision-trimestral/",
+      "fecha": "30-10-2026 07:57"
     },
     {
-      "titulo": "Polymarket suspende el trading internacional tras un hackeo que vació cuentas de usuarios",
-      "resumen": "La brecha afectó a un proveedor externo con sede en Reino Unido, no a la web de Polymarket. Bubblemaps cifra en unos 700 los usuarios afectados y en unos 2,7 millones de dólares lo robado; la empresa reembolsará a los afectados y ya ha reanudado el trading. La plataforma estadounidense, regulada, no se vio afectada, y es el segundo incidente similar desde junio.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
-      "fecha": "29-10-2026 20:51"
+      "titulo": "La marca de motos eléctricas de Harley-Davidson, LiveWire, duda de su continuidad",
+      "resumen": "LiveWire ha advertido en su informe financiero de «dudas sustanciales» sobre su capacidad de seguir operando, por pérdidas recurrentes, flujo de caja negativo y liquidez limitada, pese a haber subido las ventas y tener un 80 % del segmento de motos eléctricas de más de 50 kW. Ha creado un comité de reestructuración para estudiar financiación, venta o alianzas y ha retirado su previsión de pérdidas operativas de 70-80 millones para 2026.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2302065/harley-davidsons-electric-motorbike-brand-has-substantial-doubt-about-its-future/",
+      "fecha": "30-10-2026 14:06"
     },
     {
-      "titulo": "GM pagará 220 millones de dólares por vender datos de conducción de sus clientes",
-      "resumen": "El acuerdo con 36 fiscales generales de EE. UU. obliga a GM a limitar los datos que recoge y a obtener consentimiento expreso. El programa Smart Driver, cancelado en 2024, recogía aceleraciones, frenadas y duración de los trayectos, y se pasaba a intermediarios que lo vendían a aseguradoras, que subían las primas. Meses atrás GM ya pagó 12,75 millones en California.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1022555/gm-data-privacy-attorneys-general-lawsuit",
-      "fecha": "29-10-2026 20:19"
-    },
-    {
-      "titulo": "Intel vende todos los chips económicos para portátiles que puede fabricar",
-      "resumen": "El CEO Lip-Bu Tan afirmó que la demanda de los Wildcat Lake «supera la oferta» y el director financiero confirmó que están agotados. Equipan portátiles baratos como el nuevo Dell XPS 13 o el HP Omnibook 5 14, a menudo con solo 8 GB de RAM. Intel no es optimista con la memoria en 2027, y SK Hynix prevé que la escasez dure hasta 2030.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage",
-      "fecha": "30-10-2026 00:42"
+      "titulo": "CachyOS prepara un kernel para jugar en Linux a Fortnite con Easy Anti-Cheat v2",
+      "resumen": "CachyOS, distribución basada en Arch Linux, prepara el kernel linux-cachyos-eac para cumplir los requisitos de Easy Anti-Cheat Linux v2 de Epic Games: Kernel Lockdown, Secure Boot, TPM 2.0, arranque medido, módulos firmados y protección IOMMU. La nueva versión del antitrampas no instala un controlador propio en el kernel, como hacen algunos en Windows, y el kernel será opcional y con limitaciones.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/linux-quiere-jugar-misma-liga-que-windows-cachyos-prepara-un-kernel-especial-para-ejecutar-juegos-como-fortnite-con-easy-anti-cheat-v2_7055308_0.html",
+      "fecha": "30-10-2026 13:37"
     }
   ],
   "titulares": [
     {
-      "titulo": "Andy Jassy asegura que Prime Video va camino de ganar «decenas de miles de millones de dólares»",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/",
+      "titulo": "Un organismo del NHS alerta del riesgo para los datos de pacientes tras la quiebra de un proveedor web de consultas médicas",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/public-sector/2026/10/30/nhs-quango-warns-of-risk-to-gp-patient-data-after-website-vendor-collapse/5306647",
       "fecha": "30-10-2026"
     },
     {
-      "titulo": "Meta prueba «Threads Friends» para compartir publicaciones con grupos más pequeños",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2301804/meta-is-testing-threads-friends-for-sharing-posts-with-smaller-groups/",
-      "fecha": "29-10-2026"
+      "titulo": "Una agencia de inteligencia británica extravió «miles» de dispositivos de almacenamiento y años después no sabe cuántos",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/30/british-intelligence-agency-misplaced-thousands-of-storage-devices-years-later-still-cant-say-how-many/5306605",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Amazon registra unos ingresos récord en la nube pero se queda por debajo de lo esperado en el resto",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
-      "fecha": "29-10-2026"
+      "titulo": "Un revendedor británico de Shelly avisa del robo de datos de pago tras hallar malware en su web",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/10/30/uk-shelly-reseller-warns-payment-data-stolen-after-malware-found-on-website/5306250",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "El inspector general del Pentágono se niega a investigar la ralentización de Starlink/Starshield en Ucrania",
+      "titulo": "Rocket Report: se acerca el invierno para Themis y Cowboy Space echa hierro al fuego",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/10/pentagon-ig-refuses-to-investigate-starlink-starshield-slowdown-in-ukraine/",
-      "fecha": "29-10-2026"
+      "enlace": "https://arstechnica.com/space/2026/10/rocket-report-winter-is-coming-for-themis-cowboy-space-adds-iron-to-the-fire/",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "El R2 ya es el vehículo más vendido de Rivian",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/the-r2-suv-is-already-rivians-best-selling-vehicle/",
-      "fecha": "29-10-2026"
+      "titulo": "Una app te avergüenza midiendo las horas que has perdido haciendo scroll",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/oh-my-hours-ios-app/",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Atacantes presuntamente chinos crearon un exploit PHP2Shell a medida y tomaron el control de 25 servidores",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/29/suspected-chinese-attackers-built-a-custom-php2shell-exploit-and-rooted-25-servers/5306456",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Meta avisará a los padres si un adolescente busca «repetidamente» contenido de autolesiones en Facebook",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2301410/meta-will-now-alert-parents-if-teens-repeatedly-search-for-self-harm-content-on-facebook/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Kalshi y sus cofundadores afrontan cargos graves por violar las leyes de juego de Utah",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Ubuntu 27.04 podría traer una vista previa del esperado Core Desktop",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/10/29/ubuntu-2704-may-bring-a-preview-of-the-long-awaited-core-desktop/5306426",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "La GSA dejó archivos sensibles de Google Drive abiertos a empleados y contratistas",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/public-sector/2026/10/29/gsa-left-sensitive-google-drive-files-open-to-staff-contractors/5306430",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "FromSoftware retrasa The Duskbloods hasta 2027",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2300955/fromsoftware-delays-the-duskbloods-until-2027/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "La agencia tributaria de Bélgica confirma un ciberataque y desconecta sus servicios",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Más de 2.000 millones de dólares salen de carteras vinculadas a Binance. La sospecha apunta a un hackeo histórico",
+      "titulo": "Los sindicatos se rebelan contra Óscar Puente por señalar al controlador de Adif: \"Sus declaraciones nos parecen lamentables\"",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/criptomonedas/2-000-millones-dolares-salen-carteras-binance-sospecha-apunta-a-hackeo-historico",
-      "fecha": "29-10-2026"
+      "enlace": "https://www.xataka.com/movilidad/sindicatos-se-rebelan-oscar-puente-senalar-al-controlador-adif-sus-declaraciones-nos-parecen-lamentables",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Windows 11 ahora puede reinstalarse desde la nube aunque el PC no arranque",
+      "titulo": "No tiene rival: la cámara del nuevo vivo X500 Pro Max es lo mejor que hay ahora mismo en el mercado",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/software/reinstalar-windows-11-y-drivers-desde-nube-cloud-rebuild/",
-      "fecha": "29-10-2026"
+      "enlace": "https://hipertextual.com/brands/vivo-x500-pro-max-camara/",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "O2 aclara si podrás bloquear los números 400: «En cuanto sea posible, te informaremos»",
+      "titulo": "No actualices tu Garmin Fénix: un fallo hace que no deje de reiniciarse",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/o2-aclara-si-podras-bloquear-los-numeros-400-en-cuanto-sea-posible-te-informaremos/",
-      "fecha": "29-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-fenix-8-problemas-reinicios/",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Tu factura de Internet podría subir 18 euros al año por un cambio que afecta a la fibra óptica",
+      "titulo": "Ese menú que tantos años llevabas pidiendo por fin llega a Windows 11",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/tu-factura-internet-podria-subir-18-euros-ano-por-un-cambio-que-afecta-fibra-optica_7055075_0.html",
-      "fecha": "29-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/ese-menu-que-tantos-anos-llevabas-pidiendo-por-fin-llega-windows-11_7055321_0.html",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Muere Patrick Stewart a los 86 años, el inolvidable capitán Jean-Luc Picard de ‘Star Trek’",
+      "titulo": "Palma de Mallorca está en la cuenta atrás para las protestas de Blocus. Y ya hay quien pide suspender clases en institutos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/cine-y-tv/muere-patrick-stewart-a-86-anos-inolvidable-capitan-jean-luc-picard-star-trek",
-      "fecha": "29-10-2026"
+      "enlace": "https://www.xataka.com/magnet/palma-mallorca-esta-cuenta-atras-para-protestas-blocus-hay-quien-pide-suspender-clases-institutos",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Samsung advierte: la crisis de RAM está a un paso de volverse mucho peor",
+      "titulo": "DJI acaba de solucionar una de las mayores preocupaciones de los robots aspiradores",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/hardware/samsung-advierte-la-crisis-de-ram-sera-mucho-peor-en-2027/",
-      "fecha": "29-10-2026"
+      "enlace": "https://hipertextual.com/tecnologia/dji-acaba-de-solucionar-una-de-las-mayores-preocupaciones-de-los-robots-aspiradores/",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Android Auto estrena una nueva versión de su app más popular con mejoras en Stremio y control remoto del móvil desde el coche",
+      "titulo": "Openbank deja sin cuentas y sin tarjetas a un cliente por hacerse una transferencia a sí mismo a otro banco",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/android-auto-fermatax-2-1-interfaz-control-remoto/",
-      "fecha": "29-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/fintech/openbank-bloqueo-cuentas-tarjetas-transferencia/",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Atresmedia avisa del peligro del \"apagón\" de la TDT del 5 de noviembre para uno de sus canales: \"Puede desaparecer de tu televisor\"",
+      "titulo": "El otro canal de la TDT en UHD 4K que llegará el 5 de noviembre del que nadie habla: esto es lo que necesitarás para poder verlo",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/atresmedia-avisa-peligro-apagon-tdt-5-noviembre-para-uno-sus-canales-puede-desaparecer-tu-televisor_7054951_0.html",
-      "fecha": "29-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/otro-canal-tdt-uhd-4k-que-llegara-5-noviembre-que-nadie-habla-esto-es-que-necesitaras-para-poder-verlo_7055318_0.html",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "La Guerra de las Galaxias real está empeorando tanto que una empresa quiere ponerle \"guardaespaldas\" a los satélites",
+      "titulo": "Algo extremadamente raro está pasando en el ártico: la rotura del vértice polar más temprana desde que tenemos registros",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/guerra-galaxias-real-esta-empeorando-que-empresa-quiere-ponerle-guardaespaldas-a-satelites",
-      "fecha": "29-10-2026"
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/algo-extremadamente-raro-esta-pasando-artico-rotura-vertice-polar-temprana-que-tenemos-registros",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Tu Motorola Edge 70 Pro acaba de recibir Android 17: estas son las novedades más importantes",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/motorola-edge-70-pro-android-17-novedades-actualizacion/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "¿Tienes un Garmin sin mapas integrados? Una nueva app añade compatibilidad con decenas de modelos",
+      "titulo": "Este es el audio que la policía no quiere que reenvíes por WhatsApp: «Van a venir un montón de moros de Barcelona»",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-trailsync-mapas-relojes-compatibles/",
-      "fecha": "29-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/whatsapp/audio-bulo-whatsapp-disturbios-madrid-policia/",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Canonical retoma el desarrollo de Ubuntu Core Desktop, que podría convertirse en la opción predeterminada de Ubuntu",
+      "titulo": "Confirmado por el BOE: podrás votar con el móvil en las elecciones generales del 29N, no necesitarás llevar nada más",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/canonical-retoma-desarrollo-ubuntu-core-desktop-que-podria-convertirse-opcion-predeterminada-ubuntu_7054939_0.html",
-      "fecha": "29-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/confirmado-por-boe-podras-votar-con-movil-las-elecciones-generales-29n-no-necesitaras-llevar-nada-mas_7055310_0.html",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Hay quien dice que crujirse los nudillos provoca artritis. Un médico pasó 50 años haciéndolo para demostrar qué hay de cierto",
+      "titulo": "Una operación de espionaje de China tiene como objetivos a Jensen Huang y Nvidia, según The New York Times",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/hay-quien-dice-que-crujirse-nudillos-provoca-artritis-medico-paso-50-anos-haciendolo-para-demostrar-que-hay-cierto",
-      "fecha": "29-10-2026"
+      "enlace": "https://www.xataka.com/robotica-e-ia/operacion-espionaje-china-tiene-como-objetivos-a-jensen-huang-nvidia-the-new-york-times",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Google ya lo confirma: busca una solución para que tu Pixel Watch deje de gastar tanta batería",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/google-trabaja-solucion-bateria-pixel-watch/",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "La Séptima recupera por sorpresa para su parrilla un mítico programa de televisión que no se emitía en España desde hace más de 30 años",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-recupera-por-sorpresa-para-su-parrilla-un-mitico-programa-television-que-no-se-emitia-espana-desde-hace-mas-30-anos_7055309_0.html",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "\"Estará al fondo del jardín\": compraron una casa a las afueras de París y ahora tendrán un centro de datos que consume cuatro veces lo que Disneyland",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/estara-al-fondo-jardin-compraron-casa-a-afueras-paris-ahora-paris-le-quiere-construir-centro-datos-que-devora-cuatro-veces-energia-disneyland",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Movistar y O2 tienen un plan para que dejes de recibir enlaces peligrosos por SMS",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/telefonica-estafas-sms-bloquear-llamadas-fraudulentas/",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "He probado el primer plegable de Apple: tiene algo que los demás no pueden ofrecer (y todos desean)",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/he-probado-iphone-duo-primer-plegable-apple-tiene-algo-que-los-demas-no-pueden-ofrecer-todos-desean_7054543_0.html",
+      "fecha": "30-10-2026"
     }
   ]
 }
