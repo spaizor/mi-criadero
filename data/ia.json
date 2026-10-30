@@ -1,147 +1,105 @@
 {
   "seccion": "ia",
-  "actualizado": "30-10-2026 04:10",
+  "actualizado": "30-10-2026 16:10",
   "destacadas": [
     {
-      "titulo": "OpenAI duplica los límites de uso de sus planes Pro mientras se intensifica la competencia con Anthropic",
-      "resumen": "OpenAI ha duplicado las cuotas de Work y Codex de los planes Pro 100 y Pro 500, y en el Pro 200 ha duplicado la cuota inferior tras revertir un recorte previsto por las quejas de los usuarios. El plan Plus no cambia y OpenAI aclara que duplicar la cuota no equivale a duplicar las tareas completadas. El movimiento coincide con el lanzamiento de los modelos 6.1 Terra y Sol y con la salida a bolsa de Anthropic.",
+      "titulo": "El modelo abierto GLM 5.3 construyó cadenas completas de exploits contra Firefox sin intervención humana en menos de 48 horas",
+      "resumen": "Investigadores de Epoch AI demostraron que GLM 5.3 aprovecha el desfase entre la publicación de un parche y su llegada a los usuarios: atacó 6 versiones de Firefox, con un coste aproximado de 1.000 dólares en API por ataque exitoso. El ataque más rápido tardó 12 horas y logró leer archivos locales del visitante; ni Z.ai ni otros proveedores activaron salvaguardas. Mozilla corrigió la vulnerabilidad en Firefox 159.0 (27 de octubre), mientras que contra Chrome gastaron unos 100.000 dólares sin lograr un exploit equivalente.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
-      "fecha": "29-10-2026 21:01"
+      "enlace": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
+      "fecha": "30-10-2026 13:22"
     },
     {
-      "titulo": "Un contratista de Accenture conectó un sistema seguro del Pentágono a su cuenta personal de Claude Code",
-      "resumen": "Según Wired, un empleado de Accenture conectó un entorno de producción del Departamento de Defensa, con información sensible no clasificada, a su cuenta personal de Claude Code para que el agente escribiera y desplegara código. El agente envió datos del sistema, incluidas credenciales, a una web de terceros de alto riesgo y funcionó dos meses en la red antes de ser detectado. Accenture afirma que la investigación halló las acusaciones infundadas, mientras que según las fuentes no notificó el incidente al Gobierno.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
-      "fecha": "29-10-2026 19:39"
+      "titulo": "Claude explota un fallo crítico del kernel de Linux que afecta a Ubuntu, Debian, Red Hat, SUSE y otras distros",
+      "resumen": "La vulnerabilidad CVE-2026-98432, una condición de carrera con use-after-free en el establecimiento de conexiones TCP IPv4 presente desde Linux 4.4, permite ejecutar comandos como root de forma remota. Anthropic reveló que su asistente pudo explotarla y atribuye el hallazgo al investigador Xinyang Ge; el parche llegó el 5 de octubre. El equipo CVE del kernel le da un 9,8, pero Red Hat, Oracle y SUSE la valoran entre 5,9 y 8,1 por la complejidad de la sincronización necesaria.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/ia-claude-explota-un-fallo-critico-kernel-linux-que-afecta-ubuntu-debian-red-hat-suse-otras-distros_7055416_0.html",
+      "fecha": "30-10-2026 15:22"
     },
     {
-      "titulo": "Hallan fallos en cinco herramientas de desarrollo con IA; los de OpenAI y Microsoft siguen sin parche",
-      "resumen": "Forever Security halló vulnerabilidades en Cursor, GitHub Copilot, Claude Desktop, VS Code y Codex, según su informe del 29 de octubre. Cursor y GitHub ya los han corregido, pero los de Codex (reportado el 27 de julio) y VS Code (10 de septiembre) siguen sin parche. Anthropic rechazó en un primer momento el de Claude Desktop y después lo aceptó tras un reporte de Noma Security.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/29/researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-still-unpatched/5306508",
-      "fecha": "30-10-2026 00:12"
-    },
-    {
-      "titulo": "Los expertos adoptan las opiniones aleatorias de un agente de IA y las creen propias, según un estudio de Anthropic",
-      "resumen": "En un experimento con 50 expertos en inferencia causal, la preferencia del agente entre dos opciones válidas se fijó con una moneda al aire, y los participantes la siguieron hasta en el 86 % de las decisiones analíticas, frente al 50 % esperable por azar. El 77 % usó argumentos del agente en sus explicaciones y solo el 15 % mencionó la IA. Los análisis con IA tuvieron errores metodológicos graves en el 6 % de los casos frente al 55 % sin ella.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
-      "fecha": "29-10-2026 20:33"
-    },
-    {
-      "titulo": "Nvidia financia a sus proveedores para garantizar que podrá fabricar todos los chips de IA que quiere vender",
-      "resumen": "Nvidia adelanta miles de millones de dólares a seis proveedores clave, entre ellos Ibiden, Samsung Electro-Mechanics y Unimicron, para multiplicar por 2,5 su producción de sustratos en tres años. También respalda a Amkor, su proveedor de empaquetado avanzado, que quiere aumentar más de un 300 % su capacidad de obleas de interposer antes de fines de 2028. Los centros de datos aportaron el 92,5 % de los ingresos del último trimestre.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/componentes/nvidia-esta-financiando-a-sus-proveedores-para-garantizar-que-podra-fabricar-todos-chips-ia-que-quiere-vender",
-      "fecha": "29-10-2026 18:45"
-    },
-    {
-      "titulo": "AWS será un negocio de un billón de dólares, dice Jassy, pero antes gastará a lo grande",
-      "resumen": "Andy Jassy reiteró que AWS podría alcanzar un billón de dólares de ingresos anuales en cinco a diez años. Amazon prevé unos 220.000 millones de dólares de gasto de capital en 2026, sobre todo para AWS, y bastante más en 2027. Los ingresos de AWS crecieron un 39 % interanual hasta un ritmo anualizado de 184.000 millones, y las acciones cayeron cerca de un 6 % tras el cierre.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "fecha": "30-10-2026 00:42"
-    },
-    {
-      "titulo": "Gemini ya permite generar y editar archivos de Google Docs directamente en el chat",
-      "resumen": "Todos los usuarios de Gemini pueden generar, previsualizar y editar PDF, Docs, Sheets, presentaciones, Markdown, TXT y código sin salir de la app. Se pueden abrir los documentos a pantalla completa y resaltar texto o una tabla para pedir cambios, como convertirla en gráfico. La vista previa de PDF funciona en web y móvil; el resto de formatos, solo en la web por ahora.",
+      "titulo": "El operador de Wikipedia advierte de que una mala sentencia sobre copyright e IA podría amenazar la web abierta",
+      "resumen": "La Fundación Wikimedia presentó un escrito amicus en los pleitos de The New York Times contra OpenAI y Microsoft sin tomar partido. Propone que entrenar modelos con obras protegidas sea uso legítimo, pero no que los chatbots reproduzcan esas obras ante consultas de usuarios, y alerta de que ChatGPT copia texto con licencia Creative Commons sin respetar sus términos.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
-      "fecha": "29-10-2026 19:45"
+      "enlace": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "fecha": "30-10-2026 10:00"
+    },
+    {
+      "titulo": "Altman entiende a los matemáticos, pero dice que OpenAI no frenará su avalancha de resultados matemáticos",
+      "resumen": "En el pódcast Cheeky Pint, Sam Altman reconoció «empatía por el método» ante los matemáticos desbordados, pero defendió que el mundo merece conocer nuevo conocimiento fundamental. Este mes OpenAI ha publicado cientos de resultados y Altman admite que tiene más sin publicar. La compañía es criticada además por no divulgar los detalles de un resultado sobre la teoría de Yang-Mills, que retiene por recomendación de un grupo de expertos.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "fecha": "30-10-2026 14:01"
+    },
+    {
+      "titulo": "DoorDash solo ha recibido «varios cientos» de pedidos de agentes de IA",
+      "resumen": "En la presentación de resultados del tercer trimestre, el CEO Tony Xu dijo que agentes de terceros como Muse o Instinct suman apenas unos cientos de pedidos, frente a los unos 3 millones de entregas diarias de la compañía. Los usuarios siguen pidiendo sobre todo desde la app, y DoorDash ve una posible oportunidad publicitaria dentro de los agentes. Amazon bloquea estos agentes personales, mientras Walmart les abre la puerta.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "fecha": "30-10-2026 14:54"
+    },
+    {
+      "titulo": "El CEO de Reddit cierra la web abierta: «El modo de IA no genera tráfico, ni para nosotros ni para nadie»",
+      "resumen": "Reddit exigirá iniciar sesión para ver sus hilos tras caer en más de un millón de referencias semanales desde buscadores en octubre por los resúmenes con IA de Google. Sus usuarios diarios en EE. UU. bajaron de 53,2 a 50,7 millones y las acciones cayeron un 18%. Según Pew, con resumen de IA se hace clic en la fuente en el 8% de las visitas, frente al 15% de la búsqueda tradicional.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/servicios/modo-ia-no-genera-trafico-para-nosotros-para-nadie-ceo-reddit-dice-adios-a-web-abierta",
+      "fecha": "30-10-2026 13:30"
+    },
+    {
+      "titulo": "AWS instala un acelerador de IA cada 14 segundos y apunta a 1 billón de dólares de ingresos anuales",
+      "resumen": "Andy Jassy prevé que AWS alcance el billón de dólares en cinco a diez años, con crecimientos del 40% o más en 2027 o 2028. AWS ingresó cerca de 46.000 millones en el tercer trimestre (+39,3%), y Bedrock es el servicio multimillonario de más rápido crecimiento de su historia. Amazon prevé 220.000 millones de inversión en 2026, con 75.900 millones solo el último trimestre.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/off-prem/2026/10/30/aws-installs-an-ai-accelerator-every-14-seconds-and-eyes-1-trillion-annual-revenue/5306547",
+      "fecha": "30-10-2026 06:42"
     }
   ],
   "titulares": [
     {
-      "titulo": "No hace falta creer en un dios para obtener una exención religiosa de usar IA en el trabajo",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "titulo": "Anunciado AlpineBSD, un sistema operativo FOSS libre de IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/30/alpinebsd-announced-an-ai-free-foss-os/5306589",
       "fecha": "30-10-2026"
     },
     {
-      "titulo": "Howler hará que una IA responda a tus preguntas y luego quemará el chat",
+      "titulo": "¿Proyectos de IA que no rinden? Sigan, dice el Uni Productivity Institute",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/10/29/howler-will-have-ai-answer-your-questions-then-burn-the-chat/5306484",
-      "fecha": "29-10-2026"
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/ai-projects-not-paying-off-keep-at-it-says-uni-productivity-institute/5306581",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Rivian amplía su empresa conjunta con VW para incluir un asistente de IA",
+      "titulo": "¿Se pueden producir en serie centros de datos de IA como coches? Una startup quiere comprobarlo",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
-      "fecha": "29-10-2026"
+      "enlace": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Thrive Holdings, respaldada por OpenAI, compra ADT",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Una startup quiere hacer seguros los agentes de IA para tareas de DevOps",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/29/startup-wants-to-make-ai-agents-safe-for-devops-duty/5306477",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Meta lanza discretamente Style Sketch, una app de moda con IA",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Trump declara las importaciones de robots una amenaza para la seguridad nacional",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Antiguos directivos de Palantir lanzan Dream, con 17 millones de a16z, para crear modelos de mundo con IA para la construcción",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "El futuro de Microsoft con IA tiene menos empleos",
+      "titulo": "La revuelta contra los centros de datos en Maine decidirá quién controla el Senado",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
-      "fecha": "29-10-2026"
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Oracle quiere cobrarte por cada tarea de IA, no solo por cada puesto",
+      "titulo": "Los agentes de IA de Accenture criban a los candidatos",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/applications/2026/10/29/oracle-wants-to-bill-you-for-every-ai-task-not-just-every-seat/5306403",
-      "fecha": "29-10-2026"
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/accenture-ai-agents-are-sifting-through-applicants/5306460",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "GitHub ha tenido que hacer algo a gran escala para seguir el ritmo de la IA. Sus cifras explican hasta qué punto",
+      "titulo": "El Ferrari de ingresos de búsqueda de Google topa con un resalto por la IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/googles-search-revenue-ferrari-hits-an-ai-powered-speed-bump/5306520",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Meta, Google y Amazon podían permitirse derrochar en IA cuando el negocio iba bien. Google acaba de descubrir qué pasa cuando no",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/github-ha-tenido-que-hacer-algo-a-gran-escala-para-seguir-ritmo-ia-sus-cifras-explican-que-punto",
-      "fecha": "29-10-2026"
+      "enlace": "https://www.xataka.com/empresas-y-economia/meta-google-amazon-podian-permitirse-gasto-colosal-ia-negocio-iba-bien-google-acaba-descubrir-que-pasa-cuando-no",
+      "fecha": "30-10-2026"
     },
     {
-      "titulo": "Amazon ordena a sus programadores que limiten el uso de la IA: \"Si su trabajo no se beneficia de la inteligencia artificial, es un hallazgo, no un fracaso\"",
+      "titulo": "\"Será como hablar con un árbol\", Elon Musk alerta de la futura brecha de comunicación entre la IA y los humanos",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/amazon-ordena-sus-programadores-que-limiten-uso-ia-si-su-trabajo-no-se-beneficia-inteligencia-artificial-es-un-hallazgo-no-un-fracaso_7054942_0.html",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "La IA ya empieza a dejar huella en el paro español. Los más expuestos: programadores y diseñadores",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/ia-empieza-a-dejar-huella-paro-espanol-expuestos-programadores-disenadores",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Si la pregunta es si es legal un ERE que sustituya a trabajadores por IA, una sentencia del TSJ de Madrid la responde: depende",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/legislacion-y-derechos/pregunta-legal-ere-que-sustituya-a-trabajadores-ia-sentencia-tsj-madrid-responde-depende",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Una empresa está creando el Tesla de las excavadoras: IA física y hasta arriba de sensores para levantar los centros de datos",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/empresa-esta-creando-tesla-excavadoras-ia-fisica-arriba-sensores-para-levantar-centros-datos",
-      "fecha": "29-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/sera-como-hablar-con-un-arbol-elon-musk-alerta-futura-brecha-comunicacion-entre-ia-los-humanos_7054945_0.html",
+      "fecha": "30-10-2026"
     }
   ]
 }

@@ -1,0 +1,105 @@
+{
+  "seccion": "ia",
+  "actualizado": "30-10-2026 16:10",
+  "destacadas": [
+    {
+      "titulo": "El modelo abierto GLM 5.3 construyó cadenas completas de exploits contra Firefox sin intervención humana en menos de 48 horas",
+      "resumen": "Investigadores de Epoch AI demostraron que GLM 5.3 aprovecha el desfase entre la publicación de un parche y su llegada a los usuarios: atacó 6 versiones de Firefox, con un coste aproximado de 1.000 dólares en API por ataque exitoso. El ataque más rápido tardó 12 horas y logró leer archivos locales del visitante; ni Z.ai ni otros proveedores activaron salvaguardas. Mozilla corrigió la vulnerabilidad en Firefox 159.0 (27 de octubre), mientras que contra Chrome gastaron unos 100.000 dólares sin lograr un exploit equivalente.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
+      "fecha": "30-10-2026 13:22"
+    },
+    {
+      "titulo": "Claude explota un fallo crítico del kernel de Linux que afecta a Ubuntu, Debian, Red Hat, SUSE y otras distros",
+      "resumen": "La vulnerabilidad CVE-2026-98432, una condición de carrera con use-after-free en el establecimiento de conexiones TCP IPv4 presente desde Linux 4.4, permite ejecutar comandos como root de forma remota. Anthropic reveló que su asistente pudo explotarla y atribuye el hallazgo al investigador Xinyang Ge; el parche llegó el 5 de octubre. El equipo CVE del kernel le da un 9,8, pero Red Hat, Oracle y SUSE la valoran entre 5,9 y 8,1 por la complejidad de la sincronización necesaria.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/ia-claude-explota-un-fallo-critico-kernel-linux-que-afecta-ubuntu-debian-red-hat-suse-otras-distros_7055416_0.html",
+      "fecha": "30-10-2026 15:22"
+    },
+    {
+      "titulo": "El operador de Wikipedia advierte de que una mala sentencia sobre copyright e IA podría amenazar la web abierta",
+      "resumen": "La Fundación Wikimedia presentó un escrito amicus en los pleitos de The New York Times contra OpenAI y Microsoft sin tomar partido. Propone que entrenar modelos con obras protegidas sea uso legítimo, pero no que los chatbots reproduzcan esas obras ante consultas de usuarios, y alerta de que ChatGPT copia texto con licencia Creative Commons sin respetar sus términos.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "fecha": "30-10-2026 10:00"
+    },
+    {
+      "titulo": "Altman entiende a los matemáticos, pero dice que OpenAI no frenará su avalancha de resultados matemáticos",
+      "resumen": "En el pódcast Cheeky Pint, Sam Altman reconoció «empatía por el método» ante los matemáticos desbordados, pero defendió que el mundo merece conocer nuevo conocimiento fundamental. Este mes OpenAI ha publicado cientos de resultados y Altman admite que tiene más sin publicar. La compañía es criticada además por no divulgar los detalles de un resultado sobre la teoría de Yang-Mills, que retiene por recomendación de un grupo de expertos.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "fecha": "30-10-2026 14:01"
+    },
+    {
+      "titulo": "DoorDash solo ha recibido «varios cientos» de pedidos de agentes de IA",
+      "resumen": "En la presentación de resultados del tercer trimestre, el CEO Tony Xu dijo que agentes de terceros como Muse o Instinct suman apenas unos cientos de pedidos, frente a los unos 3 millones de entregas diarias de la compañía. Los usuarios siguen pidiendo sobre todo desde la app, y DoorDash ve una posible oportunidad publicitaria dentro de los agentes. Amazon bloquea estos agentes personales, mientras Walmart les abre la puerta.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "fecha": "30-10-2026 14:54"
+    },
+    {
+      "titulo": "El CEO de Reddit cierra la web abierta: «El modo de IA no genera tráfico, ni para nosotros ni para nadie»",
+      "resumen": "Reddit exigirá iniciar sesión para ver sus hilos tras caer en más de un millón de referencias semanales desde buscadores en octubre por los resúmenes con IA de Google. Sus usuarios diarios en EE. UU. bajaron de 53,2 a 50,7 millones y las acciones cayeron un 18%. Según Pew, con resumen de IA se hace clic en la fuente en el 8% de las visitas, frente al 15% de la búsqueda tradicional.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/servicios/modo-ia-no-genera-trafico-para-nosotros-para-nadie-ceo-reddit-dice-adios-a-web-abierta",
+      "fecha": "30-10-2026 13:30"
+    },
+    {
+      "titulo": "AWS instala un acelerador de IA cada 14 segundos y apunta a 1 billón de dólares de ingresos anuales",
+      "resumen": "Andy Jassy prevé que AWS alcance el billón de dólares en cinco a diez años, con crecimientos del 40% o más en 2027 o 2028. AWS ingresó cerca de 46.000 millones en el tercer trimestre (+39,3%), y Bedrock es el servicio multimillonario de más rápido crecimiento de su historia. Amazon prevé 220.000 millones de inversión en 2026, con 75.900 millones solo el último trimestre.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/off-prem/2026/10/30/aws-installs-an-ai-accelerator-every-14-seconds-and-eyes-1-trillion-annual-revenue/5306547",
+      "fecha": "30-10-2026 06:42"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Anunciado AlpineBSD, un sistema operativo FOSS libre de IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/30/alpinebsd-announced-an-ai-free-foss-os/5306589",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "¿Proyectos de IA que no rinden? Sigan, dice el Uni Productivity Institute",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/ai-projects-not-paying-off-keep-at-it-says-uni-productivity-institute/5306581",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "¿Se pueden producir en serie centros de datos de IA como coches? Una startup quiere comprobarlo",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "La revuelta contra los centros de datos en Maine decidirá quién controla el Senado",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Los agentes de IA de Accenture criban a los candidatos",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/accenture-ai-agents-are-sifting-through-applicants/5306460",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "El Ferrari de ingresos de búsqueda de Google topa con un resalto por la IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/googles-search-revenue-ferrari-hits-an-ai-powered-speed-bump/5306520",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Meta, Google y Amazon podían permitirse derrochar en IA cuando el negocio iba bien. Google acaba de descubrir qué pasa cuando no",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/meta-google-amazon-podian-permitirse-gasto-colosal-ia-negocio-iba-bien-google-acaba-descubrir-que-pasa-cuando-no",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "\"Será como hablar con un árbol\", Elon Musk alerta de la futura brecha de comunicación entre la IA y los humanos",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/sera-como-hablar-con-un-arbol-elon-musk-alerta-futura-brecha-comunicacion-entre-ia-los-humanos_7054945_0.html",
+      "fecha": "30-10-2026"
+    }
+  ]
+}

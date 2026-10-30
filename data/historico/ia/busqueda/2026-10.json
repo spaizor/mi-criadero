@@ -3,6 +3,111 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "El modelo abierto GLM 5.3 construyó cadenas completas de exploits contra Firefox sin intervención humana en menos de 48 horas",
+      "fuente": "The Decoder",
+      "fecha": "30-10-2026 13:22",
+      "enlace": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "Claude explota un fallo crítico del kernel de Linux que afecta a Ubuntu, Debian, Red Hat, SUSE y otras distros",
+      "fuente": "ComputerHoy",
+      "fecha": "30-10-2026 15:22",
+      "enlace": "https://computerhoy.20minutos.es/software/ia-claude-explota-un-fallo-critico-kernel-linux-que-afecta-ubuntu-debian-red-hat-suse-otras-distros_7055416_0.html",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "El operador de Wikipedia advierte de que una mala sentencia sobre copyright e IA podría amenazar la web abierta",
+      "fuente": "The Verge",
+      "fecha": "30-10-2026 10:00",
+      "enlace": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "Altman entiende a los matemáticos, pero dice que OpenAI no frenará su avalancha de resultados matemáticos",
+      "fuente": "The Verge",
+      "fecha": "30-10-2026 14:01",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "DoorDash solo ha recibido «varios cientos» de pedidos de agentes de IA",
+      "fuente": "TechCrunch",
+      "fecha": "30-10-2026 14:54",
+      "enlace": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "El CEO de Reddit cierra la web abierta: «El modo de IA no genera tráfico, ni para nosotros ni para nadie»",
+      "fuente": "Xataka",
+      "fecha": "30-10-2026 13:30",
+      "enlace": "https://www.xataka.com/servicios/modo-ia-no-genera-trafico-para-nosotros-para-nadie-ceo-reddit-dice-adios-a-web-abierta",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "AWS instala un acelerador de IA cada 14 segundos y apunta a 1 billón de dólares de ingresos anuales",
+      "fuente": "The Register",
+      "fecha": "30-10-2026 06:42",
+      "enlace": "https://www.theregister.com/off-prem/2026/10/30/aws-installs-an-ai-accelerator-every-14-seconds-and-eyes-1-trillion-annual-revenue/5306547",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "Anunciado AlpineBSD, un sistema operativo FOSS libre de IA",
+      "fuente": "The Register",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/30/alpinebsd-announced-an-ai-free-foss-os/5306589",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "¿Proyectos de IA que no rinden? Sigan, dice el Uni Productivity Institute",
+      "fuente": "The Register",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/ai-projects-not-paying-off-keep-at-it-says-uni-productivity-institute/5306581",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "¿Se pueden producir en serie centros de datos de IA como coches? Una startup quiere comprobarlo",
+      "fuente": "TechCrunch",
+      "fecha": "30-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "La revuelta contra los centros de datos en Maine decidirá quién controla el Senado",
+      "fuente": "The Verge",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "Los agentes de IA de Accenture criban a los candidatos",
+      "fuente": "The Register",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/accenture-ai-agents-are-sifting-through-applicants/5306460",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "El Ferrari de ingresos de búsqueda de Google topa con un resalto por la IA",
+      "fuente": "The Register",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/googles-search-revenue-ferrari-hits-an-ai-powered-speed-bump/5306520",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "Meta, Google y Amazon podían permitirse derrochar en IA cuando el negocio iba bien. Google acaba de descubrir qué pasa cuando no",
+      "fuente": "Xataka",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/meta-google-amazon-podian-permitirse-gasto-colosal-ia-negocio-iba-bien-google-acaba-descubrir-que-pasa-cuando-no",
+      "turno": "2026-10-30_T"
+    },
+    {
+      "titulo": "\"Será como hablar con un árbol\", Elon Musk alerta de la futura brecha de comunicación entre la IA y los humanos",
+      "fuente": "ComputerHoy",
+      "fecha": "30-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/sera-como-hablar-con-un-arbol-elon-musk-alerta-futura-brecha-comunicacion-entre-ia-los-humanos_7054945_0.html",
+      "turno": "2026-10-30_T"
+    },
+    {
       "titulo": "OpenAI duplica los límites de uso de sus planes Pro mientras se intensifica la competencia con Anthropic",
       "fuente": "The Decoder",
       "fecha": "29-10-2026 21:01",
