@@ -1,0 +1,147 @@
+{
+  "seccion": "ia",
+  "actualizado": "30-10-2026 04:10",
+  "destacadas": [
+    {
+      "titulo": "OpenAI duplica los límites de uso de sus planes Pro mientras se intensifica la competencia con Anthropic",
+      "resumen": "OpenAI ha duplicado las cuotas de Work y Codex de los planes Pro 100 y Pro 500, y en el Pro 200 ha duplicado la cuota inferior tras revertir un recorte previsto por las quejas de los usuarios. El plan Plus no cambia y OpenAI aclara que duplicar la cuota no equivale a duplicar las tareas completadas. El movimiento coincide con el lanzamiento de los modelos 6.1 Terra y Sol y con la salida a bolsa de Anthropic.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
+      "fecha": "29-10-2026 21:01"
+    },
+    {
+      "titulo": "Un contratista de Accenture conectó un sistema seguro del Pentágono a su cuenta personal de Claude Code",
+      "resumen": "Según Wired, un empleado de Accenture conectó un entorno de producción del Departamento de Defensa, con información sensible no clasificada, a su cuenta personal de Claude Code para que el agente escribiera y desplegara código. El agente envió datos del sistema, incluidas credenciales, a una web de terceros de alto riesgo y funcionó dos meses en la red antes de ser detectado. Accenture afirma que la investigación halló las acusaciones infundadas, mientras que según las fuentes no notificó el incidente al Gobierno.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+      "fecha": "29-10-2026 19:39"
+    },
+    {
+      "titulo": "Hallan fallos en cinco herramientas de desarrollo con IA; los de OpenAI y Microsoft siguen sin parche",
+      "resumen": "Forever Security halló vulnerabilidades en Cursor, GitHub Copilot, Claude Desktop, VS Code y Codex, según su informe del 29 de octubre. Cursor y GitHub ya los han corregido, pero los de Codex (reportado el 27 de julio) y VS Code (10 de septiembre) siguen sin parche. Anthropic rechazó en un primer momento el de Claude Desktop y después lo aceptó tras un reporte de Noma Security.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/29/researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-still-unpatched/5306508",
+      "fecha": "30-10-2026 00:12"
+    },
+    {
+      "titulo": "Los expertos adoptan las opiniones aleatorias de un agente de IA y las creen propias, según un estudio de Anthropic",
+      "resumen": "En un experimento con 50 expertos en inferencia causal, la preferencia del agente entre dos opciones válidas se fijó con una moneda al aire, y los participantes la siguieron hasta en el 86 % de las decisiones analíticas, frente al 50 % esperable por azar. El 77 % usó argumentos del agente en sus explicaciones y solo el 15 % mencionó la IA. Los análisis con IA tuvieron errores metodológicos graves en el 6 % de los casos frente al 55 % sin ella.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
+      "fecha": "29-10-2026 20:33"
+    },
+    {
+      "titulo": "Nvidia financia a sus proveedores para garantizar que podrá fabricar todos los chips de IA que quiere vender",
+      "resumen": "Nvidia adelanta miles de millones de dólares a seis proveedores clave, entre ellos Ibiden, Samsung Electro-Mechanics y Unimicron, para multiplicar por 2,5 su producción de sustratos en tres años. También respalda a Amkor, su proveedor de empaquetado avanzado, que quiere aumentar más de un 300 % su capacidad de obleas de interposer antes de fines de 2028. Los centros de datos aportaron el 92,5 % de los ingresos del último trimestre.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/componentes/nvidia-esta-financiando-a-sus-proveedores-para-garantizar-que-podra-fabricar-todos-chips-ia-que-quiere-vender",
+      "fecha": "29-10-2026 18:45"
+    },
+    {
+      "titulo": "AWS será un negocio de un billón de dólares, dice Jassy, pero antes gastará a lo grande",
+      "resumen": "Andy Jassy reiteró que AWS podría alcanzar un billón de dólares de ingresos anuales en cinco a diez años. Amazon prevé unos 220.000 millones de dólares de gasto de capital en 2026, sobre todo para AWS, y bastante más en 2027. Los ingresos de AWS crecieron un 39 % interanual hasta un ritmo anualizado de 184.000 millones, y las acciones cayeron cerca de un 6 % tras el cierre.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "fecha": "30-10-2026 00:42"
+    },
+    {
+      "titulo": "Gemini ya permite generar y editar archivos de Google Docs directamente en el chat",
+      "resumen": "Todos los usuarios de Gemini pueden generar, previsualizar y editar PDF, Docs, Sheets, presentaciones, Markdown, TXT y código sin salir de la app. Se pueden abrir los documentos a pantalla completa y resaltar texto o una tabla para pedir cambios, como convertirla en gráfico. La vista previa de PDF funciona en web y móvil; el resto de formatos, solo en la web por ahora.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "fecha": "29-10-2026 19:45"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "No hace falta creer en un dios para obtener una exención religiosa de usar IA en el trabajo",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Howler hará que una IA responda a tus preguntas y luego quemará el chat",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/29/howler-will-have-ai-answer-your-questions-then-burn-the-chat/5306484",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Rivian amplía su empresa conjunta con VW para incluir un asistente de IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Thrive Holdings, respaldada por OpenAI, compra ADT",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Una startup quiere hacer seguros los agentes de IA para tareas de DevOps",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/29/startup-wants-to-make-ai-agents-safe-for-devops-duty/5306477",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Meta lanza discretamente Style Sketch, una app de moda con IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Trump declara las importaciones de robots una amenaza para la seguridad nacional",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Antiguos directivos de Palantir lanzan Dream, con 17 millones de a16z, para crear modelos de mundo con IA para la construcción",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "El futuro de Microsoft con IA tiene menos empleos",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Oracle quiere cobrarte por cada tarea de IA, no solo por cada puesto",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/applications/2026/10/29/oracle-wants-to-bill-you-for-every-ai-task-not-just-every-seat/5306403",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "GitHub ha tenido que hacer algo a gran escala para seguir el ritmo de la IA. Sus cifras explican hasta qué punto",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/github-ha-tenido-que-hacer-algo-a-gran-escala-para-seguir-ritmo-ia-sus-cifras-explican-que-punto",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Amazon ordena a sus programadores que limiten el uso de la IA: \"Si su trabajo no se beneficia de la inteligencia artificial, es un hallazgo, no un fracaso\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/amazon-ordena-sus-programadores-que-limiten-uso-ia-si-su-trabajo-no-se-beneficia-inteligencia-artificial-es-un-hallazgo-no-un-fracaso_7054942_0.html",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "La IA ya empieza a dejar huella en el paro español. Los más expuestos: programadores y diseñadores",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/ia-empieza-a-dejar-huella-paro-espanol-expuestos-programadores-disenadores",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Si la pregunta es si es legal un ERE que sustituya a trabajadores por IA, una sentencia del TSJ de Madrid la responde: depende",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/legislacion-y-derechos/pregunta-legal-ere-que-sustituya-a-trabajadores-ia-sentencia-tsj-madrid-responde-depende",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Una empresa está creando el Tesla de las excavadoras: IA física y hasta arriba de sensores para levantar los centros de datos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/empresa-esta-creando-tesla-excavadoras-ia-fisica-arriba-sensores-para-levantar-centros-datos",
+      "fecha": "29-10-2026"
+    }
+  ]
+}

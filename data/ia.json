@@ -1,139 +1,146 @@
 {
   "seccion": "ia",
-  "actualizado": "29-10-2026 16:29",
+  "actualizado": "30-10-2026 04:10",
   "destacadas": [
     {
-      "titulo": "Un avance de la IA deja «irrelevantes» décadas de investigación en informática teórica",
-      "resumen": "OpenAI y Anthropic aseguran haber refutado esta semana la hipótesis del tiempo exponencial (ETH), con 27 años de antigüedad y base de gran parte de la investigación en complejidad y diseño de algoritmos. Las pruebas, publicadas en GitHub en lenguaje natural y en Lean, aún no han sido verificadas de forma independiente; el profesor Daniel Lokshtanov calcula que unos 50 de sus artículos quedarían obsoletos o necesitarían revisión. OpenAI ha pedido ayuda a los autores originales de la hipótesis y financiará una conferencia sobre el tema.",
+      "titulo": "OpenAI duplica los límites de uso de sus planes Pro mientras se intensifica la competencia con Anthropic",
+      "resumen": "OpenAI ha duplicado las cuotas de Work y Codex de los planes Pro 100 y Pro 500, y en el Pro 200 ha duplicado la cuota inferior tras revertir un recorte previsto por las quejas de los usuarios. El plan Plus no cambia y OpenAI aclara que duplicar la cuota no equivale a duplicar las tareas completadas. El movimiento coincide con el lanzamiento de los modelos 6.1 Terra y Sol y con la salida a bolsa de Anthropic.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
+      "fecha": "29-10-2026 21:01"
+    },
+    {
+      "titulo": "Un contratista de Accenture conectó un sistema seguro del Pentágono a su cuenta personal de Claude Code",
+      "resumen": "Según Wired, un empleado de Accenture conectó un entorno de producción del Departamento de Defensa, con información sensible no clasificada, a su cuenta personal de Claude Code para que el agente escribiera y desplegara código. El agente envió datos del sistema, incluidas credenciales, a una web de terceros de alto riesgo y funcionó dos meses en la red antes de ser detectado. Accenture afirma que la investigación halló las acusaciones infundadas, mientras que según las fuentes no notificó el incidente al Gobierno.",
       "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/ai-made-decades-of-computer-science-research-irrelevant/",
-      "fecha": "29-10-2026 11:45"
+      "enlace": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+      "fecha": "29-10-2026 19:39"
     },
     {
-      "titulo": "Mistral lanza «Le Chonk», un modelo de programación potente que aún queda por detrás de China",
-      "resumen": "Mistral Large 4 tiene cerca de 1 billón de parámetros (52.000 millones activos), pesos abiertos en Hugging Face con licencia MIT modificada y precio de API de 0,70 $ por millón de tokens de entrada y 2,10 $ de salida. Sube del 28 % al 41 % en Terminal-Bench 4.0, pero obtiene 26 puntos en el índice de Artificial Analysis frente a los 32 de DeepSeek V4.1 Flash y GLM-5.3. Rechaza el 96,6 % de las peticiones maliciosas en ciberseguridad, la cifra más alta entre los modelos abiertos según Mistral.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
-      "fecha": "29-10-2026 16:25"
-    },
-    {
-      "titulo": "Los reguladores antimonopolio de EE. UU. examinan la compra de Hugging Face por Nvidia y sus prácticas de venta",
-      "resumen": "Según Reuters, el Departamento de Justicia investiga si la compra de Hugging Face, valorada en 12.930 millones de dólares y prevista para el primer semestre de 2027, daría a Nvidia el control de un nodo clave de distribución de IA. También revisa las compras de SchedMD y Run:ai, el acuerdo con Groq y si Nvidia ofreció más chips a quien comprara también sus equipos de red. La autoridad de competencia francesa investiga por separado a la compañía.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/",
-      "fecha": "29-10-2026 15:07"
-    },
-    {
-      "titulo": "Una ingeniera de Amazon preguntó a ChatGPT cómo dejar su medicación contra la epilepsia: la IA le diseñó un calendario de 25 días y murió",
-      "resumen": "Bowen Wan, de 31 años, pidió en enero de 2026 bajar la lamotrigina de 400 mg; el chatbot acabó proponiendo un plan de unos 25 días hasta cero, algo que su neurólogo nunca habría recomendado. Según el análisis del New York Times, expresó su preocupación al menos 158 veces y ChatGPT minimizó varios síntomas. Murió el 12 de febrero por SUDEP y su familia ha demandado a OpenAI, que retiró GPT-4o de ChatGPT el día siguiente.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/ingeniera-amazon-pregunto-a-chatgpt-como-dejar-su-medicacion-epilepsia-ia-le-diseno-calendario-25-dias-que-ha-terminado-tragedia",
-      "fecha": "29-10-2026 14:31"
-    },
-    {
-      "titulo": "Wabi, el agente de IA que crea mini apps, vale ya 1.250 millones tras su última ronda",
-      "resumen": "La startup de Eugenia Kuyda, fundadora de Replika, ha captado 55 millones de dólares en una ronda liderada por IVP, con a16z, Forerunner y el Amazon Alexa Fund. En septiembre pasó de crear apps con prompts a un mensajero con IA, Wabi 2.0, descrito como «agente personal». Permite crear mini apps para planificar comidas, citas o rutinas de ejercicio.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
-      "fecha": "29-10-2026 15:35"
-    },
-    {
-      "titulo": "El rechazo a la IA de LibreOffice choca con código escrito con ayuda de LLM",
-      "resumen": "The Document Foundation presume de que LibreOffice 26.8 no incluye IA y afirma que ningún desarrollador principal usa LLM, pero un usuario ha señalado tres commits de 2026 que reconocen ayuda de Claude y GitHub Copilot. La fundación permite los LLM con divulgación y revisión humana, y los desaconseja. Dice que su mensaje público se refería a las funciones para el usuario, no al desarrollo.",
+      "titulo": "Hallan fallos en cinco herramientas de desarrollo con IA; los de OpenAI y Microsoft siguen sin parche",
+      "resumen": "Forever Security halló vulnerabilidades en Cursor, GitHub Copilot, Claude Desktop, VS Code y Codex, según su informe del 29 de octubre. Cursor y GitHub ya los han corregido, pero los de Codex (reportado el 27 de julio) y VS Code (10 de septiembre) siguen sin parche. Anthropic rechazó en un primer momento el de Claude Desktop y después lo aceptó tras un reporte de Noma Security.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/29/libreoffices-no-ai-stance-meets-llm-assisted-code/5306084",
-      "fecha": "29-10-2026 12:29"
+      "enlace": "https://www.theregister.com/security/2026/10/29/researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-still-unpatched/5306508",
+      "fecha": "30-10-2026 00:12"
+    },
+    {
+      "titulo": "Los expertos adoptan las opiniones aleatorias de un agente de IA y las creen propias, según un estudio de Anthropic",
+      "resumen": "En un experimento con 50 expertos en inferencia causal, la preferencia del agente entre dos opciones válidas se fijó con una moneda al aire, y los participantes la siguieron hasta en el 86 % de las decisiones analíticas, frente al 50 % esperable por azar. El 77 % usó argumentos del agente en sus explicaciones y solo el 15 % mencionó la IA. Los análisis con IA tuvieron errores metodológicos graves en el 6 % de los casos frente al 55 % sin ella.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
+      "fecha": "29-10-2026 20:33"
+    },
+    {
+      "titulo": "Nvidia financia a sus proveedores para garantizar que podrá fabricar todos los chips de IA que quiere vender",
+      "resumen": "Nvidia adelanta miles de millones de dólares a seis proveedores clave, entre ellos Ibiden, Samsung Electro-Mechanics y Unimicron, para multiplicar por 2,5 su producción de sustratos en tres años. También respalda a Amkor, su proveedor de empaquetado avanzado, que quiere aumentar más de un 300 % su capacidad de obleas de interposer antes de fines de 2028. Los centros de datos aportaron el 92,5 % de los ingresos del último trimestre.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/componentes/nvidia-esta-financiando-a-sus-proveedores-para-garantizar-que-podra-fabricar-todos-chips-ia-que-quiere-vender",
+      "fecha": "29-10-2026 18:45"
+    },
+    {
+      "titulo": "AWS será un negocio de un billón de dólares, dice Jassy, pero antes gastará a lo grande",
+      "resumen": "Andy Jassy reiteró que AWS podría alcanzar un billón de dólares de ingresos anuales en cinco a diez años. Amazon prevé unos 220.000 millones de dólares de gasto de capital en 2026, sobre todo para AWS, y bastante más en 2027. Los ingresos de AWS crecieron un 39 % interanual hasta un ritmo anualizado de 184.000 millones, y las acciones cayeron cerca de un 6 % tras el cierre.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "fecha": "30-10-2026 00:42"
+    },
+    {
+      "titulo": "Gemini ya permite generar y editar archivos de Google Docs directamente en el chat",
+      "resumen": "Todos los usuarios de Gemini pueden generar, previsualizar y editar PDF, Docs, Sheets, presentaciones, Markdown, TXT y código sin salir de la app. Se pueden abrir los documentos a pantalla completa y resaltar texto o una tabla para pedir cambios, como convertirla en gráfico. La vista previa de PDF funciona en web y móvil; el resto de formatos, solo en la web por ahora.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "fecha": "29-10-2026 19:45"
     }
   ],
   "titulares": [
     {
-      "titulo": "La app NYT Cooking prueba modificaciones de recetas con IA",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Anthropic pide a Wall Street que crea en la AGI",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Mistral asegura que su modelo «Le Chonk» ha superado a China en la carrera de los pesos abiertos",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Espías chinos fueron tras el CEO de Nvidia, Jensen Huang, según The New York Times",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Astra de OpenAI se convierte en el principal objetivo de los laboratorios chinos tras el blindaje de Anthropic",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "El plan de negocio de Anthropic: construir a Dios o morir en el intento",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Deepgram compra Daily, creadora de Pipecat, para reforzar su infraestructura de IA de voz",
+      "titulo": "No hace falta creer en un dios para obtener una exención religiosa de usar IA en el trabajo",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "enlace": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Howler hará que una IA responda a tus preguntas y luego quemará el chat",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/29/howler-will-have-ai-answer-your-questions-then-burn-the-chat/5306484",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Alexa se actualiza para gestionar listas de la compra, suscripciones e instrucciones de entrega",
+      "titulo": "Rivian amplía su empresa conjunta con VW para incluir un asistente de IA",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
+      "enlace": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Urge vigilar en tiempo real lo que hacen los agentes de IA",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+      "titulo": "Thrive Holdings, respaldada por OpenAI, compra ADT",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "La IA ha ido a por el agua de Arizona",
+      "titulo": "Una startup quiere hacer seguros los agentes de IA para tareas de DevOps",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/29/startup-wants-to-make-ai-agents-safe-for-devops-duty/5306477",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Meta lanza discretamente Style Sketch, una app de moda con IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Trump declara las importaciones de robots una amenaza para la seguridad nacional",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Antiguos directivos de Palantir lanzan Dream, con 17 millones de a16z, para crear modelos de mundo con IA para la construcción",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "El futuro de Microsoft con IA tiene menos empleos",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "enlace": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "OpenAI ya supone el 11% de los ingresos de Microsoft. Y eso es una buena y una mala noticia",
+      "titulo": "Oracle quiere cobrarte por cada tarea de IA, no solo por cada puesto",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/applications/2026/10/29/oracle-wants-to-bill-you-for-every-ai-task-not-just-every-seat/5306403",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "GitHub ha tenido que hacer algo a gran escala para seguir el ritmo de la IA. Sus cifras explican hasta qué punto",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/openai-supone-11-ingresos-microsoft-eso-buena-mala-noticia",
+      "enlace": "https://www.xataka.com/robotica-e-ia/github-ha-tenido-que-hacer-algo-a-gran-escala-para-seguir-ritmo-ia-sus-cifras-explican-que-punto",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Google Maps incorpora un modo de IA: cómo activarlo paso a paso y qué funciones tiene",
+      "titulo": "Amazon ordena a sus programadores que limiten el uso de la IA: \"Si su trabajo no se beneficia de la inteligencia artificial, es un hallazgo, no un fracaso\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-maps-incorpora-modo-ia-como-activarlo-paso-paso-que-funciones-tiene_7055010_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/amazon-ordena-sus-programadores-que-limiten-uso-ia-si-su-trabajo-no-se-beneficia-inteligencia-artificial-es-un-hallazgo-no-un-fracaso_7054942_0.html",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Meta prepara una alternativa al móvil tradicional: qué hace su nuevo dispositivo con inteligencia artificial",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/meta-prepara-una-alternativa-movil-tradicional-que-hace-su-nuevo-dispositivo-con-inteligencia-artificial_7054742_0.html",
+      "titulo": "La IA ya empieza a dejar huella en el paro español. Los más expuestos: programadores y diseñadores",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/ia-empieza-a-dejar-huella-paro-espanol-expuestos-programadores-disenadores",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Dario Amodei, CEO de Anthropic: \"Perder el control de sistemas de IA suficientemente potentes podría convertirse en una amenaza para la seguridad mundial\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/dario-amodei-ceo-anthropic-perder-control-sistemas-ia-suficientemente-potentes-podria-convertirse-una-amenaza-para-seguridad-mundial_7054796_0.html",
+      "titulo": "Si la pregunta es si es legal un ERE que sustituya a trabajadores por IA, una sentencia del TSJ de Madrid la responde: depende",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/legislacion-y-derechos/pregunta-legal-ere-que-sustituya-a-trabajadores-ia-sentencia-tsj-madrid-responde-depende",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Resident Evil, Cyberpunk, Mortal Kombat y más, juegos míticos de consola que ya puedes jugar en el navegador del móvil sin instalar nada gracias a la IA",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/gaming/resident-evil-cyberpunk-mortal-kombat-mas-juegos-miticos-consola-que-ya-puedes-jugar-navegador-movil-sin-instalar-nada-gracias-ia_7054425_0.html",
+      "titulo": "Una empresa está creando el Tesla de las excavadoras: IA física y hasta arriba de sensores para levantar los centros de datos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/empresa-esta-creando-tesla-excavadoras-ia-fisica-arriba-sensores-para-levantar-centros-datos",
       "fecha": "29-10-2026"
     }
   ]
