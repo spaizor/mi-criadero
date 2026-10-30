@@ -1,207 +1,213 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "29-10-2026 15:37",
+  "actualizado": "30-10-2026 03:11",
   "destacadas": [
     {
-      "titulo": "DoorDash compra Instacart por 17.000 millones de dólares",
-      "resumen": "DoorDash ha acordado adquirir a su rival Instacart por 17.000 millones de dólares, a 65 dólares por acción, con el visto bueno de los consejos de ambas empresas. Instacart, con más de 13.000 millones de capitalización, había negociado antes con Uber, según Bloomberg. DoorDash mantendrá la marca y la app de Instacart y prevé cerrar la operación entre finales de 2027 y la primera mitad de 2028.",
+      "titulo": "Binance suspende los retiros tras un hackeo que podría superar los 2.000 millones de dólares",
+      "resumen": "Binance confirmó un incidente de seguridad y suspendió temporalmente los retiros en varias redes, mientras los usuarios veían vaciarse sus carteras calientes. Los analistas calculan al menos 2.000 millones de dólares robados, con estimaciones de hasta 5.700 millones, y Circle y Tether congelaron unos 800 y 1.560 millones en fondos vinculados. Aún se desconoce quién está detrás, y Changpeng Zhao ya anticipó que los fondos estarán «totalmente cubiertos».",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/",
-      "fecha": "29-10-2026 14:40"
+      "enlace": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+      "fecha": "29-10-2026 23:27"
     },
     {
-      "titulo": "Un atacante usa issues de GitHub para golpear 61 repositorios públicos en menos de una hora",
-      "resumen": "Investigadores de Radware hallaron 83 elementos maliciosos en 61 repositorios, entre ellos trivy, discord.js, podman o github/docs, publicados casi todos el 1 de septiembre en 43 minutos desde 74 cuentas. Los comandos iban ocultos en comentarios HTML y un workflow de CI/CD vulnerable los ejecutaba para sacar variables de entorno a un servidor del atacante. La mayoría de repositorios ya están corregidos, aunque no se puede confirmar que todos lo estén.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/29/attackers-turn-github-issues-into-supply-chain-campaign-against-61-public-repos-in-less-than-an-hour/5306153",
-      "fecha": "29-10-2026 13:00"
+      "titulo": "Reddit exigirá iniciar sesión para usarlo",
+      "resumen": "El CEO Steve Huffman confirmó en la carta a accionistas del tercer trimestre que Reddit pasará a una experiencia «solo con sesión iniciada», que probará en mercados selectos fuera de EE. UU. en el cuarto trimestre. La empresa lo justifica por la publicidad y la protección de sus datos, y advierte de que las visitas desde buscadores caen más de un millón por semana, lo que podría reducir los usuarios diarios en un porcentaje de dos dígitos bajos.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
+      "fecha": "29-10-2026 22:47"
     },
     {
-      "titulo": "Una vulnerabilidad crítica de 16 años en el firmware UEFI de EDK II pone en riesgo a millones de servidores",
-      "resumen": "El fallo, registrado como CVE-2026-97631 y con gravedad 9,5 sobre 10, está en el componente de arranque por red de EDK II, base del firmware UEFI de muchos fabricantes. Un tamaño de mensaje mal comprobado permitiría ejecutar código con máximos privilegios antes de que arranquen las protecciones del sistema. Lo descubrieron Alex Matrosov y Dan Holmes, que habían pactado mantenerlo en secreto hasta enero, pero se ha hecho público antes de lo previsto.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/una-vulnerabilidad-critica-pone-riesgo-millones-servidores-fallo-llevaba-16-anos-oculto-nadie-se-habia-dado-cuenta_7054795_0.html",
-      "fecha": "29-10-2026 12:43"
-    },
-    {
-      "titulo": "Un hacker infectó a jugadores de póker de altas apuestas con malware que mostraba sus cartas",
-      "resumen": "Un jugador profesional, bajo seudónimo, descubrió el 25 de septiembre gracias a su agente Claude que el programa MeshAgent llevaba instalado desde el 24 de abril y capturaba su pantalla durante sus partidas en Americas Cardroom. Un mismo rival, OxOO, estaba en 10 de las 11 sesiones espiadas, y él perdió unos 30.000 dólares. Cientos de jugadores habrían sido atacados durante años, con millones de dólares robados.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/",
-      "fecha": "29-10-2026 11:30"
-    },
-    {
-      "titulo": "Corea del Sur multiplica las multas a Google y Apple por abusos en sus tiendas de aplicaciones",
-      "resumen": "El regulador coreano (KMCC) multa a Google con 42.900 millones de wones (unos 32 millones de dólares) y a Apple con 20.810 millones (unos 15,6 millones) por infringir la ley de telecomunicaciones. Les achaca imponer su sistema de pago, cobrar un 26 % por pagos de terceros y retrasar sin motivo la revisión de apps. Deberán aceptar pagos externos y Apple dejar de discriminar a desarrolladores extranjeros.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2300690/apple-google-fined-south-korea-app-store-violations/",
-      "fecha": "29-10-2026 11:42"
-    },
-    {
-      "titulo": "Chrome buscará en tu Gmail el número de pedido para autocompletar formularios, pero aún no en España",
-      "resumen": "Chrome mejora su autocompletado para que Gemini localice en Gmail números de pedido, códigos de seguimiento o datos de reservas y los sugiera marcados como «Suggested by Gemini». Empieza en Estados Unidos en ordenador, Android e iPhone y exige cuenta personal de Google, ser mayor de 18 años y dar permiso a la IA. En el Espacio Económico Europeo, España incluida, no hay fecha porque Personal Intelligence no está disponible.",
+      "titulo": "Windows 11 recibe una actualización de 41 cambios que permite reinstalar el sistema aunque el PC no arranque",
+      "resumen": "La actualización opcional KB5127936, para Windows 11 25H2 y 26H2, permite reinstalar Windows descargando los archivos desde Windows Update. Añade un menú contextual del Explorador más personalizable, controles de cámara, micrófono y ubicación agrupados en Privacidad y un resumen de lo restaurado al recuperar una copia de seguridad en un equipo nuevo.",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/ia/google-chrome-gmail-gemini-autocompletar/",
-      "fecha": "29-10-2026 11:02"
+      "enlace": "https://www.adslzone.net/noticias/windows/windows-11-actualizacion-29-octubre-cambios/",
+      "fecha": "29-10-2026 20:02"
     },
     {
-      "titulo": "Matrix, el estándar abierto de mensajería, se postula como alternativa soberana a las grandes tecnológicas",
-      "resumen": "En el evento de Malmö la asistencia creció un 30 % interanual, y Element, que financia buena parte de la Fundación Matrix, pidió a los gobiernos usuarios que aporten dinero. La Comisión Europea lo desplegó tras una prueba de concepto del cuarto trimestre de 2025 y llegó a los portátiles entre julio y septiembre, con alojamiento en la Schengen Cloud Alliance. Francia, Alemania y Suecia ya lo usan, pese a quejas anónimas recogidas por Politico.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/software/2026/10/29/matrix-takes-sovereign-messaging-into-the-realm-of-the-tech-giants/5305915",
-      "fecha": "29-10-2026 10:30"
+      "titulo": "La web de fanfiction AO3 estará caída hasta cuatro semanas tras un incidente de seguridad",
+      "resumen": "Archive of Our Own, de la organización sin ánimo de lucro OTW, calcula que su recuperación tardará entre dos y cuatro semanas tras detectar un incidente de seguridad. No creen que se haya robado la base de datos de usuarios, pero no pueden descartarlo: contiene nombres de usuario, correos, IP y contraseñas con hash, por lo que recomiendan cambiarlas en otros sitios.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/",
+      "fecha": "29-10-2026 21:43"
     },
     {
-      "titulo": "Dos senadores exigen explicaciones a Meta por los riesgos de privacidad de sus gafas inteligentes",
-      "resumen": "Ron Wyden y Edward Markey piden a Meta que explique qué salvaguardas tiene contra grabaciones íntimas sin consentimiento y qué imágenes usa para entrenar su IA. La carta cita una investigación de 404 Media sobre acoso a trabajadoras con las Ray-Ban de Meta, una demanda de más de 70 personas por exposición de imágenes íntimas a etiquetadores y el despido de los etiquetadores de Kenia. También preguntan si se pueden borrar los datos biométricos.",
-      "fuente": "404 Media",
-      "enlace": "https://www.404media.co/senators-wyden-markey-letter-to-meta-smart-glasses/",
-      "fecha": "29-10-2026 11:00"
+      "titulo": "Trump ignoró la información sobre una espía china cerca del CEO de Nvidia, según un informe",
+      "resumen": "Según The New York Times, hace un año se informó a Trump de que Pekín recibía datos de alguien con acceso directo a Jensen Huang: Alice Huang, exejecutiva de la firma singapurense Megaspeed, sospechosa de ayudar a China a esquivar los controles de exportación de chips. Trump no hizo nada, en parte por temor a dañar las ventas de Nvidia y la tregua comercial. China lo califica de calumnias infundadas.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+      "fecha": "29-10-2026 19:29"
+    },
+    {
+      "titulo": "Polymarket suspende el trading internacional tras un hackeo que vació cuentas de usuarios",
+      "resumen": "La brecha afectó a un proveedor externo con sede en Reino Unido, no a la web de Polymarket. Bubblemaps cifra en unos 700 los usuarios afectados y en unos 2,7 millones de dólares lo robado; la empresa reembolsará a los afectados y ya ha reanudado el trading. La plataforma estadounidense, regulada, no se vio afectada, y es el segundo incidente similar desde junio.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
+      "fecha": "29-10-2026 20:51"
+    },
+    {
+      "titulo": "GM pagará 220 millones de dólares por vender datos de conducción de sus clientes",
+      "resumen": "El acuerdo con 36 fiscales generales de EE. UU. obliga a GM a limitar los datos que recoge y a obtener consentimiento expreso. El programa Smart Driver, cancelado en 2024, recogía aceleraciones, frenadas y duración de los trayectos, y se pasaba a intermediarios que lo vendían a aseguradoras, que subían las primas. Meses atrás GM ya pagó 12,75 millones en California.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/transportation/1022555/gm-data-privacy-attorneys-general-lawsuit",
+      "fecha": "29-10-2026 20:19"
+    },
+    {
+      "titulo": "Intel vende todos los chips económicos para portátiles que puede fabricar",
+      "resumen": "El CEO Lip-Bu Tan afirmó que la demanda de los Wildcat Lake «supera la oferta» y el director financiero confirmó que están agotados. Equipan portátiles baratos como el nuevo Dell XPS 13 o el HP Omnibook 5 14, a menudo con solo 8 GB de RAM. Intel no es optimista con la memoria en 2027, y SK Hynix prevé que la escasez dure hasta 2030.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage",
+      "fecha": "30-10-2026 00:42"
     }
   ],
   "titulares": [
     {
-      "titulo": "Bluesky bloquea los enlaces a los datos filtrados de empleados de Seguridad Nacional mientras el Gobierno pide retirarlos",
+      "titulo": "Andy Jassy asegura que Prime Video va camino de ganar «decenas de miles de millones de dólares»",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/29/bluesky-blocks-links-to-leaked-dhs-employee-data-as-government-seeks-takedowns/",
+      "enlace": "https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Meta prueba «Threads Friends» para compartir publicaciones con grupos más pequeños",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2301804/meta-is-testing-threads-friends-for-sharing-posts-with-smaller-groups/",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Publicada la lista corta de verificaciones de edad para la prohibición de redes sociales a menores de 16 en Reino Unido: «algunos» adultos tendrán que verificarse",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/10/29/shortlist-of-age-checks-for-the-uks-under-16-social-media-ban-is-out-some-adults-will-need-verifying/5306282",
+      "titulo": "Amazon registra unos ingresos récord en la nube pero se queda por debajo de lo esperado en el resto",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Aparecen en GitHub rastros de un nuevo hardware de Raspberry Pi",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/personal-tech/2026/10/29/traces-of-new-pi-hardware-spotted-in-github/5306022",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "SpaceX ya no necesita a la NASA, y eso es un problema para la agencia espacial de EE. UU.",
+      "titulo": "El inspector general del Pentágono se niega a investigar la ralentización de Starlink/Starshield en Ucrania",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/10/spacex-no-longer-needs-nasa-and-thats-a-problem-for-americas-space-agency/",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/pentagon-ig-refuses-to-investigate-starlink-starshield-slowdown-in-ukraine/",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Microsoft rompe la apertura de adjuntos del nuevo Outlook con una actualización de Edge",
+      "titulo": "El R2 ya es el vehículo más vendido de Rivian",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/29/the-r2-suv-is-already-rivians-best-selling-vehicle/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Atacantes presuntamente chinos crearon un exploit PHP2Shell a medida y tomaron el control de 25 servidores",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/personal-tech/2026/10/29/microsoft-breaks-new-outlook-attachment-opening-with-edge-update/5306224",
+      "enlace": "https://www.theregister.com/security/2026/10/29/suspected-chinese-attackers-built-a-custom-php2shell-exploit-and-rooted-25-servers/5306456",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Fujifilm multiplicará por cinco su capacidad de producción de cinta: la cinta no está muerta",
+      "titulo": "Meta avisará a los padres si un adolescente busca «repetidamente» contenido de autolesiones en Facebook",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2301410/meta-will-now-alert-parents-if-teens-repeatedly-search-for-self-harm-content-on-facebook/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Kalshi y sus cofundadores afrontan cargos graves por violar las leyes de juego de Utah",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Ubuntu 27.04 podría traer una vista previa del esperado Core Desktop",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/storage/2026/10/29/tape-is-so-not-dead-that-fujifilm-will-increase-production-capacity-5x/5306189",
+      "enlace": "https://www.theregister.com/os-platforms/2026/10/29/ubuntu-2704-may-bring-a-preview-of-the-long-awaited-core-desktop/5306426",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Anduril asegura ahora que su portátil BlueChip cumplirá los estándares Buy American desde el lanzamiento",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
+      "titulo": "La GSA dejó archivos sensibles de Google Drive abiertos a empleados y contratistas",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/public-sector/2026/10/29/gsa-left-sensitive-google-drive-files-open-to-staff-contractors/5306430",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "\"Es una cuestión de salud mental\": cada vez más padres están pagando hasta 260 euros la noche a niñeras nocturnas",
+      "titulo": "FromSoftware retrasa The Duskbloods hasta 2027",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2300955/fromsoftware-delays-the-duskbloods-until-2027/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "La agencia tributaria de Bélgica confirma un ciberataque y desconecta sus servicios",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "Más de 2.000 millones de dólares salen de carteras vinculadas a Binance. La sospecha apunta a un hackeo histórico",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/cuestion-salud-mental-cada-vez-padres-estan-pagando-260-euros-noche-a-nineras-nocturnas",
+      "enlace": "https://www.xataka.com/criptomonedas/2-000-millones-dolares-salen-carteras-binance-sospecha-apunta-a-hackeo-historico",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Hasta la caca de perro será un arma en ‘GTA 6’: revelada la última locura de Rockstar",
+      "titulo": "Windows 11 ahora puede reinstalarse desde la nube aunque el PC no arranque",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/hasta-la-caca-de-perro-sera-un-arma-en-gta-6/",
+      "enlace": "https://hipertextual.com/software/reinstalar-windows-11-y-drivers-desde-nube-cloud-rebuild/",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Deja de pagar Google Drive todos los meses: la alternativa que pagas una sola vez, para siempre, es mucho más segura y española",
+      "titulo": "O2 aclara si podrás bloquear los números 400: «En cuanto sea posible, te informaremos»",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/internxt-alternativa-google-drive-pago-unico/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-aclara-si-podras-bloquear-los-numeros-400-en-cuanto-sea-posible-te-informaremos/",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Wewi Mobile se cuela en lista de principales operadores de telefonía móvil en España junto a Orange, Telefónica, Vodafone y DIGI, según la CNMC",
+      "titulo": "Tu factura de Internet podría subir 18 euros al año por un cambio que afecta a la fibra óptica",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/wewi-mobile-se-cuela-lista-principales-operadores-telefonia-movil-espana-junto-orange-telefonica-vodafone-digi-segun-cnmc_7054828_0.html",
+      "enlace": "https://computerhoy.20minutos.es/moviles/tu-factura-internet-podria-subir-18-euros-ano-por-un-cambio-que-afecta-fibra-optica_7055075_0.html",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Raquel Ayllón, controladora ferroviaria y portavoz de SCF: \"El CRC de Atocha tiene una cantidad de trabajo inhumana. No se podía ni ir al baño\"",
+      "titulo": "Muere Patrick Stewart a los 86 años, el inolvidable capitán Jean-Luc Picard de ‘Star Trek’",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/raquel-ayllon-controladora-portavoz-scf-crc-atocha-tiene-cantidad-trabajo-inhumana-no-se-podia-ir-al-bano",
+      "enlace": "https://www.xataka.com/cine-y-tv/muere-patrick-stewart-a-86-anos-inolvidable-capitan-jean-luc-picard-star-trek",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Denza trae a España el BAO 5: su enorme SUV de 544 CV, hibridación DMO y 835 km de autonomía",
+      "titulo": "Samsung advierte: la crisis de RAM está a un paso de volverse mucho peor",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/movilidad/denza-trae-a-espana-el-bao-5/",
+      "enlace": "https://hipertextual.com/hardware/samsung-advierte-la-crisis-de-ram-sera-mucho-peor-en-2027/",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "McDonald’s, Action, Tedi y VivaGym llegan a un centro comercial de Cantabria y buscan 50 trabajadores",
+      "titulo": "Android Auto estrena una nueva versión de su app más popular con mejoras en Stremio y control remoto del móvil desde el coche",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/centro-comercial-cantabria-los-puertos-reforma/",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/android-auto-fermatax-2-1-interfaz-control-remoto/",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "La crisis de la memoria RAM no tiene final a la vista y Samsung avisa de que lo peor llegará en 2027: \"Esto supondrá una limitación física para el suministro\"",
+      "titulo": "Atresmedia avisa del peligro del \"apagón\" de la TDT del 5 de noviembre para uno de sus canales: \"Puede desaparecer de tu televisor\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/crisis-memoria-ram-no-tiene-final-vista-samsung-avisa-que-peor-llegara-2027-esto-supondra-una-limitacion-fisica-para-suministro_7054802_0.html",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/atresmedia-avisa-peligro-apagon-tdt-5-noviembre-para-uno-sus-canales-puede-desaparecer-tu-televisor_7054951_0.html",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Los Mossos piden ayuda al Ministerio del Interior para que cierre todas las cuentas de Blocus, mientras detienen al creador de \"Blocus VLC\"",
+      "titulo": "La Guerra de las Galaxias real está empeorando tanto que una empresa quiere ponerle \"guardaespaldas\" a los satélites",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/mossos-piden-ayuda-al-ministerio-interior-cierre-todas-cuentas-blocus-detienen-al-creador-blocus-vlc",
+      "enlace": "https://www.xataka.com/espacio/guerra-galaxias-real-esta-empeorando-que-empresa-quiere-ponerle-guardaespaldas-a-satelites",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Orange tiene varios decos y no son igual de buenos: ¿cuál te instala ahora?",
+      "titulo": "Tu Motorola Edge 70 Pro acaba de recibir Android 17: estas son las novedades más importantes",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/motorola-edge-70-pro-android-17-novedades-actualizacion/",
+      "fecha": "29-10-2026"
+    },
+    {
+      "titulo": "¿Tienes un Garmin sin mapas integrados? Una nueva app añade compatibilidad con decenas de modelos",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/orange-deco-instala-octubre-2026/",
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-trailsync-mapas-relojes-compatibles/",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Apple ha encontrado la función del iPhone Duo que los móviles plegables Android todavía no consiguen igualar",
+      "titulo": "Canonical retoma el desarrollo de Ubuntu Core Desktop, que podría convertirse en la opción predeterminada de Ubuntu",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/apple-ha-encontrado-funcion-iphone-duo-que-los-moviles-plegables-android-todavia-no-consiguen-igualar_7054798_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/canonical-retoma-desarrollo-ubuntu-core-desktop-que-podria-convertirse-opcion-predeterminada-ubuntu_7054939_0.html",
       "fecha": "29-10-2026"
     },
     {
-      "titulo": "Del MacBook Pro M5 al nuevo modelo táctil: ¿cuánto cambia realmente y cuál compensa comprar?",
+      "titulo": "Hay quien dice que crujirse los nudillos provoca artritis. Un médico pasó 50 años haciéndolo para demostrar qué hay de cierto",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/macbook-pro-m5-al-nuevo-modelo-tactil-cuanto-cambia-realmente-cual-compensa-comprar",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Adiós a depender del DNI físico para votar: el Gobierno prepara un cambio en las mesas electorales",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/seguridad/gobierno-dni-movil-votar-elecciones/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "¿Qué Mac es para ti? MacBook PROLED XDR vs. iMac M6 vs. MacBook Pro M6",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/que-mac-es-para-ti-macbook-proled-xdr-vs-imac-m6-vs-macbook-pro-m6_7054794_0.html",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Un crucero de lujo ofreció a sus pasajeros dar la vuelta al mundo. Se han quedado varados en Camboya por el precio del combustible",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/crucero-lujo-ofrecio-a-sus-pajeros-dar-vuelta-al-mundo-se-han-quedado-varados-camboya-precio-combustible",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "La fibra subirá de precio: queda saber si serán 1,50 euros o 16 céntimos al mes",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/fibra-optica-precio-subida-telefonica-cnmc/",
-      "fecha": "29-10-2026"
-    },
-    {
-      "titulo": "Qué significan los números y las letras de los procesadores AMD Ryzen",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/que-significan-los-numeros-las-letras-los-procesadores-amd-ryzen_7054799_0.html",
+      "enlace": "https://www.xataka.com/medicina-y-salud/hay-quien-dice-que-crujirse-nudillos-provoca-artritis-medico-paso-50-anos-haciendolo-para-demostrar-que-hay-cierto",
       "fecha": "29-10-2026"
     }
   ]
