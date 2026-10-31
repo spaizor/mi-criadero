@@ -1,0 +1,172 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "31-10-2026 15:13",
+  "destacadas": [
+    {
+      "titulo": "Google corrige «SMS of Death», un fallo crítico de Android que bloqueaba las llamadas con un SMS invisible",
+      "resumen": "El investigador Mark Blaszczyk demostró que un SMS malformado, que ni siquiera aparece en la bandeja, hacía cerrar el servicio de llamadas y podía provocar bucles de reinicio, también en llamadas de emergencia. Reprodujo el fallo en Pixel y Galaxy; el código vulnerable existe desde Android 12 y figura como CVE-2026-58882 con gravedad crítica. Google ya había corregido el fallo el 15 de junio, un mes después de que se lo notificaran el 5 de mayo, y el parche cubre de Android 14 a 17.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/google-soluciona-un-grave-fallo-android-que-permitia-bloquear-tu-movil-con-un-sms-invisible_7055744_0.html",
+      "fecha": "31-10-2026 12:35"
+    },
+    {
+      "titulo": "Localizan la pieza que rompe la pantalla de algunos iPhone Duo y amenaza la campaña navideña",
+      "resumen": "Varios usuarios denunciaron una línea horizontal de píxeles muertos y otra vertical en la bisagra de la pantalla interior. iFixit, apoyándose en un vídeo de un youtuber surcoreano, señala un refuerzo estructural que al plegarse tensiona el panel y sus conexiones. Un empleado anónimo de Foxconn afirma que Apple relajó la inspección de calidad para llegar al lanzamiento, aunque iFixit cree que es pronto para hablar de un fallo de diseño generalizado.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/moviles/parece-que-han-encontrado-a-culpable-rotura-pantalla-algunos-iphone-duo-esto-pone-campana-navidena-a-tiritar",
+      "fecha": "31-10-2026 09:31"
+    },
+    {
+      "titulo": "Microsoft 365 Family pasa de 1 TB por miembro a 2 TB compartidos sin bajar el precio",
+      "resumen": "Desde el 8 de octubre el plan Family ofrece 2 TB repartidos entre todos los miembros, frente a 1 TB por persona (hasta 6 TB) antes, y sigue costando 13 dólares al mes o 130 al año. Los suscriptores actuales pasarán al modelo compartido en su primera renovación desde el 2 de mayo de 2027, salvo que cambien de plan antes. Se puede ampliar hasta 10 TB con paquetes de 100 GB, 500 GB, 1 TB o 6 TB.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2301048/this-microsoft-365-family-plan-cloud-storage-change-may-leave-you-frustrated/",
+      "fecha": "31-10-2026 13:15"
+    },
+    {
+      "titulo": "España lidera Europa en sistemas solares expuestos en internet",
+      "resumen": "Un estudio de Modat Magnify, con el NCSC de Países Bajos, halló 8.547 interfaces de parques solares y eólicos accesibles desde la red pública en 35 países: 7.942 solares y 605 eólicas. España concentra 2.766 sistemas, cerca del 35 % y el primer puesto en solar. Algunos paneles carecían de autenticación y permitían parar o reiniciar turbinas, aunque estar expuesto no implica haber sido atacado.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/espana-lidera-ranking-europeo-que-no-queria-estar-sistemas-solares-expuestos-internet",
+      "fecha": "31-10-2026 14:01"
+    },
+    {
+      "titulo": "Muse, el agente de compras de Meta, aún no ha movido el negocio de las empresas",
+      "resumen": "Zuckerberg asegura que más de 10 millones de personas en EE. UU. y Canadá han activado Muse y que más de un 25 % lo usa para comprar. Sin embargo, unos 50 directivos consultados por Wired restan importancia: DoorDash habla de «cientos» de pedidos, Hilton de reservas «insignificantes» y eBay de cifras «muy, muy pequeñas». Aun así, empresas como Chipotle ya adaptan su web para que los agentes completen compras.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+      "fecha": "31-10-2026 11:30"
+    },
+    {
+      "titulo": "Microsoft anima a vender la Xbox que no usas con hasta 375 dólares en Best Buy",
+      "resumen": "Xbox envía correos a algunos usuarios ofreciéndoles canjear su Series X o S en Best Buy por hasta 375 dólares, pagados en crédito de tienda. La campaña llega tras la subida de precios de junio, causada por la demanda de RAM de la IA, y con la escasez prevista hasta 2028. Microsoft gana mientras alguien use la consola, vía Game Pass y compras digitales.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2299867/microsoft-really-wants-you-to-sell-that-xbox-youre-not-using/",
+      "fecha": "31-10-2026 15:00"
+    },
+    {
+      "titulo": "Nvidia ya vende más redes de centros de datos que Cisco",
+      "resumen": "En el segundo trimestre los ingresos de redes de Nvidia superaron los 17.500 millones de dólares, frente a los 17.300 millones que facturó Cisco en todos sus productos. El salto viene de la compra de Mellanox por 6.900 millones en 2019 y de integrar computación y red, según la analista Sameh Boujelbene de Dell'Oro. Recursion, por ejemplo, eligió InfiniBand de Nvidia para simplificar la optimización de sus clústeres.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/10/31/backbone-of-a-beast-charting-nvidias-rise-to-networking-titan/5306499",
+      "fecha": "31-10-2026 09:03"
+    },
+    {
+      "titulo": "Samsung cierra Samsung News el 21 de diciembre y deja sin servicio su widget",
+      "resumen": "La app ha empezado a mostrar un aviso de cierre en algunos países: el 21 de diciembre dejarán de actualizarse la aplicación, el widget y la página tipo Google Discover del borde izquierdo. Samsung borrará los datos recopilados salvo donde la ley exija retenerlos. Había debutado en abril de 2023, cuarta versión tras Bixby Home, Samsung Daily y Samsung Free.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/samsung-news-tira-la-toalla-y-dejara-de-funcionar-muy-pronto/",
+      "fecha": "31-10-2026 11:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Me llevé dos iPhone de vacaciones y el Duo me conquistó",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/31/i-took-two-iphones-on-vacation-the-duo-won-me-over/",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Cuánto costaba el iPhone Pro en 2019 frente a 2026",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2300201/how-much-iphone-pro-cost-2021-vs-2026/",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Por qué tus juegos ocupan mucho más disco de lo esperado, incluso desinstalados",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2299478/games-take-up-more-drive-space-expected/",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Pantallas táctiles por todas partes: iPad mini, Alexa, marco de fotos y Readwise",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1023569/ipad-mini-alexa-photo-frame-readwise-installer",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Un usuario se provoca una pantalla negra en Windows 3.1 por su estética gótica",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/31/goth-aesthetic-gone-wild-a-users-self-inflicted-black-screen-of-non-death-in-windows-31s/5306592",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Windows 10 y el espacio en disco: ¿oruga de chocolate o tetera de chocolate?",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/31/chocolate-caterpillar-or-chocolate-teapot-top-up-the-disk-space-for-windows-10-to-find-out/5306103",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Ya podemos medir el hidrógeno cósmico sin mapas de galaxias. Es un paso clave para entender la energía oscura",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/podemos-medir-hidrogeno-cosmico-mapas-galaxias-paso-clave-para-entender-energia-oscura",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Tu Mac no tiene Face ID, pero esta aplicación permite desbloquearlo con tu cara",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/guias/desbloquear-mac-con-tu-cara-face-id-mac/",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Google Takeout: cómo descargar absolutamente todo lo que Google guarda de ti",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/google-takeout-descargar-datos-google/",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Linus Torvalds, creador de Linux: \"No creo en un mundo en el que a todos los niños se les deba enseñar a programar\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-creador-linux-no-creo-un-mundo-que-todos-los-ninos-se-les-deba-ensenar-programar_7051005_0.html",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Hay una \"ciudad\" que se quedó en España por una palabra y hoy es un trozo de territorio español rodeado por Francia",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/hay-ciudad-que-se-quedo-espana-palabra-hoy-trozo-territorio-espanol-rodeado-francia",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Marcelo Vázquez, experto en ciberseguridad: \"¿Windows o Linux? Lo sabes cambiando una letra, si te devuelve lo mismo, es Windows\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/marcelo-vazquez-experto-ciberseguridad-windows-linux-sabes-cambiando-una-letra-si-te-devuelve-mismo-es-windows_7049088_0.html",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Javier Calvo, director de 'La Bola Negra': \"Se ha podido hacer con menos de 15 millones de euros porque tiene dos directores\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/cine-y-tv/javier-calvo-bola-negra-se-ha-podido-hacer-15-millones-euros-porque-tiene-dos-directores",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Carpetas y archivos ocultos de Windows 11 que no sirven para nada y están robándote espacio de tu disco SSD",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/carpetas-archivos-ocultos-windows-11-que-no-sirven-para-nada-estan-robandote-espacio-tu-disco-ssd_7052559_0.html",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "La \"snackficación\" de la dieta española: el sector de los aperitivos y frutos secos crece casi un 5% hasta los 3.253 millones de euros",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/snackficacion-dieta-espanola-sector-aperitivos-frutos-secos-crece-casi-5-3-253-millones-euros",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Microsoft reconoce que los ciberdelincuentes pueden estar buscando tu cuenta de OneDrive, pero dice que no debes preocuparte",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/microsoft-reconoce-que-los-ciberdelincuentes-pueden-estar-buscando-tu-cuenta-onedrive-pero-dice-que-no-debes-preocuparte_7055741_0.html",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Bill Gates, fundador de Microsoft: \"Consiste en contratar al robot, despedir al humano y no mirar atrás\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/bill-gates-fundador-microsoft-consiste-contratar-al-robot-despedir-al-humano-no-mirar-atras",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Dario Gil, director de investigación de IBM: \"Ni 1.000 millones de las supercomputadoras actuales conectadas entre sí podrán realizar los cálculos de un ordenador cuántico\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/dario-gil-director-investigacion-ibm-ni-1-000-millones-las-supercomputadoras-actuales-conectadas-entre-si-podran-realizar-los-calculos-un-ordenador-cuantico_7050988_0.html",
+      "fecha": "31-10-2026"
+    }
+  ]
+}

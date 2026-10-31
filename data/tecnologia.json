@@ -1,190 +1,172 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "31-10-2026 03:11",
+  "actualizado": "31-10-2026 15:13",
   "destacadas": [
     {
-      "titulo": "Salesforce compra la startup de defensa Rune por 375 millones de dólares",
-      "resumen": "Salesforce habría acordado adquirir Rune Technologies, una startup de IA que ayuda al ejército de EE. UU. a predecir necesidades de suministro y gestionar la logística, por 375 millones en efectivo y acciones. Rune, fundada en 2024, ha recaudado 30 millones y su última valoración fue de 127 millones. La compra refuerza Missionforce, la unidad de defensa de Salesforce, cuyo negocio creció un 80 % interanual y que tiene un contrato de 5.600 millones con el Ejército.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
-      "fecha": "31-10-2026 00:21"
-    },
-    {
-      "titulo": "El BCE elige a Telefónica e Indra para la infraestructura del euro digital",
-      "resumen": "El BCE ha adjudicado a un consorcio de Telefónica y Minsait (Indra) las comunicaciones seguras que conectarán la plataforma del euro digital con bancos y proveedores de pago. El contrato dura diez años desde el 3 de mayo de 2027, con un valor estimado de 81,42 millones de euros y un máximo de 177,66 millones. El piloto arrancará en la segunda mitad de 2027 con 36 proveedores de servicios de pago.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/bce-elige-a-telefonica-e-indra-para-desarrollar-parte-clave-infraestructura-futuro-euro-digital",
-      "fecha": "30-10-2026 18:11"
-    },
-    {
-      "titulo": "Meta llega a un acuerdo en otro caso de adicción a las redes justo antes del juicio",
-      "resumen": "Meta pactó con K.D.B., una joven de 18 años de Misisipi, justo antes del juicio previsto en Los Ángeles, y Snap queda como única demandada tras los acuerdos previos de TikTok y YouTube. No se han revelado los términos. En un caso anterior, un jurado condenó a Meta y YouTube a pagar 6 millones de dólares.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2302956/meta-settles-another-social-media-addiction-case-just-before-trial/",
-      "fecha": "30-10-2026 21:21"
-    },
-    {
-      "titulo": "Applebee's expuso datos de clientes al dejar la contraseña de su base de datos en la app",
-      "resumen": "El investigador Robert Wiggins halló una contraseña de una base de datos interna incrustada en la app Android de Applebee's, con más de un millón de descargas. La base incluía nombres, correos, fechas de nacimiento, teléfonos y direcciones IP, y el programa de recompensas tenía al menos 8,5 millones de miembros. Applebee's corrigió el fallo y su matriz, Dine Brands, dice no haber hallado accesos no autorizados por ahora.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
-      "fecha": "30-10-2026 22:48"
-    },
-    {
-      "titulo": "Samsung vende la memoria más cara que nunca y su división de dispositivos lo sufre",
-      "resumen": "Samsung cerró el trimestre más rentable de una tecnológica, con 107,4 billones de wones (unos 80.000 millones de dólares) de beneficio operativo, casi todo por la memoria para IA. La división de chips aportó unos 79.400 millones, mientras la de dispositivos perdió unos 600 millones. Prevé que la escasez de memoria siga en 2027.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/samsung-vende-memoria-cara-que-nunca-uno-sus-clientes-perjudicados-samsung",
-      "fecha": "30-10-2026 17:01"
-    },
-    {
-      "titulo": "Rivian se la juega con la conducción autónoma: su primera prueba real llega este año",
-      "resumen": "Rivian desplegará este año entre sus empleados su conducción manos libres punto a punto, para clientes en 2027, y lanzará robotaxis con Uber en 2028. Tesla le saca ventaja, con FSD en más de 1,7 millones de coches, y más del 75 % de sus compradores nuevos en Norteamérica lo contrata. Rivian ingresó 605 millones de dólares en software y suscripciones en el tercer trimestre.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026",
-      "fecha": "30-10-2026 18:16"
-    },
-    {
-      "titulo": "Todo lo que hay que saber de los Googlebooks, los portátiles que sustituyen a ChromeOS",
-      "resumen": "Los Googlebooks se lanzaron oficialmente en octubre de 2026, con precios de 899 dólares (Acer Googlebook 14) a 1.299 (ASUS Googlebook 14), y el Dell XPS en 999 y el HP en 1.199. Google incluye un año de GeForce Now Fast Pass con hasta 50 horas al mes. Engadget considera que el sistema aún necesita trabajo, por ejemplo porque los grupos de pestañas de Chrome no se sincronizan.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2302681/everything-you-need-to-know-about-googlebooks/",
-      "fecha": "30-10-2026 20:00"
-    },
-    {
-      "titulo": "La fibra de DIGI, Vodafone y Orange podría encarecerse si cambia la regulación de MARCo",
-      "resumen": "Varios operadores advierten ante la CNMC de que cambiar el modelo regulado de acceso a las infraestructuras de Telefónica (oferta MARCo) encarecería la fibra al menos 1,5 euros al mes por línea. Estiman una subida acumulada de hasta el 110 % en cinco años en el coste de acceso. Aseguran que hasta el 80 % de ciertos despliegues alternativos usa elementos de Telefónica, unos 120.000 km de red.",
+      "titulo": "Google corrige «SMS of Death», un fallo crítico de Android que bloqueaba las llamadas con un SMS invisible",
+      "resumen": "El investigador Mark Blaszczyk demostró que un SMS malformado, que ni siquiera aparece en la bandeja, hacía cerrar el servicio de llamadas y podía provocar bucles de reinicio, también en llamadas de emergencia. Reprodujo el fallo en Pixel y Galaxy; el código vulnerable existe desde Android 12 y figura como CVE-2026-58882 con gravedad crítica. Google ya había corregido el fallo el 15 de junio, un mes después de que se lo notificaran el 5 de mayo, y el parche cubre de Android 14 a 17.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/digi-podria-verse-obligada-subir-precio-su-fibra-todos-sus-clientes-vodafone-orange-tambien-tendrian-que-hacerlo_7055421_0.html",
-      "fecha": "30-10-2026 23:38"
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/google-soluciona-un-grave-fallo-android-que-permitia-bloquear-tu-movil-con-un-sms-invisible_7055744_0.html",
+      "fecha": "31-10-2026 12:35"
+    },
+    {
+      "titulo": "Localizan la pieza que rompe la pantalla de algunos iPhone Duo y amenaza la campaña navideña",
+      "resumen": "Varios usuarios denunciaron una línea horizontal de píxeles muertos y otra vertical en la bisagra de la pantalla interior. iFixit, apoyándose en un vídeo de un youtuber surcoreano, señala un refuerzo estructural que al plegarse tensiona el panel y sus conexiones. Un empleado anónimo de Foxconn afirma que Apple relajó la inspección de calidad para llegar al lanzamiento, aunque iFixit cree que es pronto para hablar de un fallo de diseño generalizado.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/moviles/parece-que-han-encontrado-a-culpable-rotura-pantalla-algunos-iphone-duo-esto-pone-campana-navidena-a-tiritar",
+      "fecha": "31-10-2026 09:31"
+    },
+    {
+      "titulo": "Microsoft 365 Family pasa de 1 TB por miembro a 2 TB compartidos sin bajar el precio",
+      "resumen": "Desde el 8 de octubre el plan Family ofrece 2 TB repartidos entre todos los miembros, frente a 1 TB por persona (hasta 6 TB) antes, y sigue costando 13 dólares al mes o 130 al año. Los suscriptores actuales pasarán al modelo compartido en su primera renovación desde el 2 de mayo de 2027, salvo que cambien de plan antes. Se puede ampliar hasta 10 TB con paquetes de 100 GB, 500 GB, 1 TB o 6 TB.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2301048/this-microsoft-365-family-plan-cloud-storage-change-may-leave-you-frustrated/",
+      "fecha": "31-10-2026 13:15"
+    },
+    {
+      "titulo": "España lidera Europa en sistemas solares expuestos en internet",
+      "resumen": "Un estudio de Modat Magnify, con el NCSC de Países Bajos, halló 8.547 interfaces de parques solares y eólicos accesibles desde la red pública en 35 países: 7.942 solares y 605 eólicas. España concentra 2.766 sistemas, cerca del 35 % y el primer puesto en solar. Algunos paneles carecían de autenticación y permitían parar o reiniciar turbinas, aunque estar expuesto no implica haber sido atacado.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/espana-lidera-ranking-europeo-que-no-queria-estar-sistemas-solares-expuestos-internet",
+      "fecha": "31-10-2026 14:01"
+    },
+    {
+      "titulo": "Muse, el agente de compras de Meta, aún no ha movido el negocio de las empresas",
+      "resumen": "Zuckerberg asegura que más de 10 millones de personas en EE. UU. y Canadá han activado Muse y que más de un 25 % lo usa para comprar. Sin embargo, unos 50 directivos consultados por Wired restan importancia: DoorDash habla de «cientos» de pedidos, Hilton de reservas «insignificantes» y eBay de cifras «muy, muy pequeñas». Aun así, empresas como Chipotle ya adaptan su web para que los agentes completen compras.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+      "fecha": "31-10-2026 11:30"
+    },
+    {
+      "titulo": "Microsoft anima a vender la Xbox que no usas con hasta 375 dólares en Best Buy",
+      "resumen": "Xbox envía correos a algunos usuarios ofreciéndoles canjear su Series X o S en Best Buy por hasta 375 dólares, pagados en crédito de tienda. La campaña llega tras la subida de precios de junio, causada por la demanda de RAM de la IA, y con la escasez prevista hasta 2028. Microsoft gana mientras alguien use la consola, vía Game Pass y compras digitales.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2299867/microsoft-really-wants-you-to-sell-that-xbox-youre-not-using/",
+      "fecha": "31-10-2026 15:00"
+    },
+    {
+      "titulo": "Nvidia ya vende más redes de centros de datos que Cisco",
+      "resumen": "En el segundo trimestre los ingresos de redes de Nvidia superaron los 17.500 millones de dólares, frente a los 17.300 millones que facturó Cisco en todos sus productos. El salto viene de la compra de Mellanox por 6.900 millones en 2019 y de integrar computación y red, según la analista Sameh Boujelbene de Dell'Oro. Recursion, por ejemplo, eligió InfiniBand de Nvidia para simplificar la optimización de sus clústeres.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/10/31/backbone-of-a-beast-charting-nvidias-rise-to-networking-titan/5306499",
+      "fecha": "31-10-2026 09:03"
+    },
+    {
+      "titulo": "Samsung cierra Samsung News el 21 de diciembre y deja sin servicio su widget",
+      "resumen": "La app ha empezado a mostrar un aviso de cierre en algunos países: el 21 de diciembre dejarán de actualizarse la aplicación, el widget y la página tipo Google Discover del borde izquierdo. Samsung borrará los datos recopilados salvo donde la ley exija retenerlos. Había debutado en abril de 2023, cuarta versión tras Bixby Home, Samsung Daily y Samsung Free.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/samsung-news-tira-la-toalla-y-dejara-de-funcionar-muy-pronto/",
+      "fecha": "31-10-2026 11:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "La NASA vuelve a pedir ideas para rescatar al Hubble de una muerte segura",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
+      "titulo": "Me llevé dos iPhone de vacaciones y el Duo me conquistó",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/31/i-took-two-iphones-on-vacation-the-duo-won-me-over/",
       "fecha": "31-10-2026"
     },
     {
-      "titulo": "Los analistas ven la inminente crisis de lanzamientos «más grave» de lo previsto",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/10/analysts-find-looming-launch-crisis-is-more-severe-than-anticipated/",
-      "fecha": "30-10-2026"
-    },
-    {
-      "titulo": "Bluesky estrena una bandeja de moderación dedicada",
+      "titulo": "Cuánto costaba el iPhone Pro en 2019 frente a 2026",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2302932/bluesky-now-has-a-dedicated-moderation-inbox/",
-      "fecha": "30-10-2026"
+      "enlace": "https://www.engadget.com/2300201/how-much-iphone-pro-cost-2021-vs-2026/",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "Novedades de tvOS 27.2 para mejorar la experiencia del Apple TV",
+      "titulo": "Por qué tus juegos ocupan mucho más disco de lo esperado, incluso desinstalados",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2302449/tvos-27-2-features-try-upgraded-apple-tv-experience/",
-      "fecha": "30-10-2026"
+      "enlace": "https://www.engadget.com/2299478/games-take-up-more-drive-space-expected/",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "HTTP/3 es más rápido con algo de trabajo y la ayuda de Cloudflare",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/devops/2026/10/30/http/3-is-faster-with-some-work-and-help-from-cloudflare/5306767",
-      "fecha": "30-10-2026"
-    },
-    {
-      "titulo": "La Voyager 1 da el silencio por respuesta a los controladores",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/science/2026/10/30/voyager-1-gives-controllers-the-silent-treatment/5306637",
-      "fecha": "30-10-2026"
-    },
-    {
-      "titulo": "Satlyt da otro paso para convertir satélites en centros de datos espaciales",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
-      "fecha": "30-10-2026"
-    },
-    {
-      "titulo": "Detalles exclusivos del Akai MPC Sample Key",
+      "titulo": "Pantallas táctiles por todas partes: iPad mini, Alexa, marco de fotos y Readwise",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/gadgets/1023649/akai-mpc-sample-key-exclusive",
-      "fecha": "30-10-2026"
+      "enlace": "https://www.theverge.com/tech/1023569/ipad-mini-alexa-photo-frame-readwise-installer",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "Google quería levantar un centro de datos en Finlandia. Empezó talando 330 hectáreas y acabó bajo investigación penal",
+      "titulo": "Un usuario se provoca una pantalla negra en Windows 3.1 por su estética gótica",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/31/goth-aesthetic-gone-wild-a-users-self-inflicted-black-screen-of-non-death-in-windows-31s/5306592",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Windows 10 y el espacio en disco: ¿oruga de chocolate o tetera de chocolate?",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/10/31/chocolate-caterpillar-or-chocolate-teapot-top-up-the-disk-space-for-windows-10-to-find-out/5306103",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Ya podemos medir el hidrógeno cósmico sin mapas de galaxias. Es un paso clave para entender la energía oscura",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/google-queria-levantar-centro-datos-finlandia-empezo-talando-330-hectareas-acabo-investigacion-penal",
-      "fecha": "30-10-2026"
+      "enlace": "https://www.xataka.com/espacio/podemos-medir-hidrogeno-cosmico-mapas-galaxias-paso-clave-para-entender-energia-oscura",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "Estos Galaxy Watch estarían a punto de quedarse sin nuevas funciones de Samsung",
+      "titulo": "Tu Mac no tiene Face ID, pero esta aplicación permite desbloquearlo con tu cara",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/galaxy-watch-fin-actualizaciones-samsung/",
-      "fecha": "30-10-2026"
+      "enlace": "https://hipertextual.com/guias/desbloquear-mac-con-tu-cara-face-id-mac/",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "Compartir Digi TV con alguien fuera de casa te puede salir caro: las cláusulas que casi nadie lee",
+      "titulo": "Google Takeout: cómo descargar absolutamente todo lo que Google guarda de ti",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/compartir-digi-tv-fuera-casa-condiciones/",
-      "fecha": "30-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/internet/google-takeout-descargar-datos-google/",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "¿El robo del siglo? Ciberdelincuentes asaltan Binance y se llevan más de 6.300 millones en criptomonedas",
+      "titulo": "Linus Torvalds, creador de Linux: \"No creo en un mundo en el que a todos los niños se les deba enseñar a programar\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/fintech/robo-siglo-ciberdelincuentes-asaltan-binance-se-llevan-mas-6-300-millones-criptomonedas_7055548_0.html",
-      "fecha": "30-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-creador-linux-no-creo-un-mundo-que-todos-los-ninos-se-les-deba-ensenar-programar_7051005_0.html",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "Por qué el dolor de espalda crónico se siente tan personal: el cerebro lo trata como parte de quiénes somos",
+      "titulo": "Hay una \"ciudad\" que se quedó en España por una palabra y hoy es un trozo de territorio español rodeado por Francia",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/que-dolor-espalda-cronico-se-siente-personal-cerebro-trata-como-parte-quienes-somos",
-      "fecha": "30-10-2026"
+      "enlace": "https://www.xataka.com/magnet/hay-ciudad-que-se-quedo-espana-palabra-hoy-trozo-territorio-espanol-rodeado-francia",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "¿Por qué la gasolina ha bajado 20 céntimos en un mes y el diésel no?",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/gasolina-diesel-octubre-2026/",
-      "fecha": "30-10-2026"
-    },
-    {
-      "titulo": "¡Locura absoluta! Las Nvidia RTX 5080 alcanzan el precio original de lanzamiento de las RTX 5090",
+      "titulo": "Marcelo Vázquez, experto en ciberseguridad: \"¿Windows o Linux? Lo sabes cambiando una letra, si te devuelve lo mismo, es Windows\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/locura-absoluta-las-nvidia-rtx-5080-alcanzan-precio-original-lanzamiento-las-rtx-5090_7055412_0.html",
-      "fecha": "30-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/marcelo-vazquez-experto-ciberseguridad-windows-linux-sabes-cambiando-una-letra-si-te-devuelve-mismo-es-windows_7049088_0.html",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "Hemos normalizado el uso del móvil en los estadios de fútbol. En Alemania, Vodafone está consiguiendo lo contrario",
+      "titulo": "Javier Calvo, director de 'La Bola Negra': \"Se ha podido hacer con menos de 15 millones de euros porque tiene dos directores\"",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/aplicaciones/hemos-normalizado-uso-movil-estadios-futbol-alemania-vodafone-esta-consiguiendo-contrario",
-      "fecha": "30-10-2026"
+      "enlace": "https://www.xataka.com/cine-y-tv/javier-calvo-bola-negra-se-ha-podido-hacer-15-millones-euros-porque-tiene-dos-directores",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "La Séptima hace cambios de última hora y asciende a dos antiguos reporteros de El programa de Ana Rosa",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/streaming-tv/septima-asciende-reporteros-ana-rosa/",
-      "fecha": "30-10-2026"
-    },
-    {
-      "titulo": "\"Elon Musk es un genio, un verdadero genio\", Vladímir Putin afirma que está en constante contacto con el fundador de Starlink",
+      "titulo": "Carpetas y archivos ocultos de Windows 11 que no sirven para nada y están robándote espacio de tu disco SSD",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/elon-musk-es-un-genio-un-verdadero-genio-vladimir-putin-afirma-que-esta-constante-contacto-con-fundador-starlink_7055425_0.html",
-      "fecha": "30-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/carpetas-archivos-ocultos-windows-11-que-no-sirven-para-nada-estan-robandote-espacio-tu-disco-ssd_7052559_0.html",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "Corea del Norte se ha convertido en una superpotencia del ciberataque y lo está utilizando para autofinanciarse",
+      "titulo": "La \"snackficación\" de la dieta española: el sector de los aperitivos y frutos secos crece casi un 5% hasta los 3.253 millones de euros",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/corea-norte-se-ha-convertido-superpotencia-ciberataque-esta-utilizando-para-autofinanciarse",
-      "fecha": "30-10-2026"
+      "enlace": "https://www.xataka.com/magnet/snackficacion-dieta-espanola-sector-aperitivos-frutos-secos-crece-casi-5-3-253-millones-euros",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "El Banco Central Europeo elige a Telefónica e Indra para preparar la llegada del euro digital",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/fintech/bce-telefonica-indra-euro-digital/",
-      "fecha": "30-10-2026"
+      "titulo": "Microsoft reconoce que los ciberdelincuentes pueden estar buscando tu cuenta de OneDrive, pero dice que no debes preocuparte",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/microsoft-reconoce-que-los-ciberdelincuentes-pueden-estar-buscando-tu-cuenta-onedrive-pero-dice-que-no-debes-preocuparte_7055741_0.html",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "¿Un Apple Watch Series 10 por 300 euros menos? Back Market lo tiene entre sus reacondicionados en un estado excelente",
+      "titulo": "Bill Gates, fundador de Microsoft: \"Consiste en contratar al robot, despedir al humano y no mirar atrás\"",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/apple-watch-series-10-300-euros-back-market-tiene-sus-reacondicionados-estado-excelente",
-      "fecha": "30-10-2026"
+      "enlace": "https://www.xataka.com/robotica-e-ia/bill-gates-fundador-microsoft-consiste-contratar-al-robot-despedir-al-humano-no-mirar-atras",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Dario Gil, director de investigación de IBM: \"Ni 1.000 millones de las supercomputadoras actuales conectadas entre sí podrán realizar los cálculos de un ordenador cuántico\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/dario-gil-director-investigacion-ibm-ni-1-000-millones-las-supercomputadoras-actuales-conectadas-entre-si-podran-realizar-los-calculos-un-ordenador-cuantico_7050988_0.html",
+      "fecha": "31-10-2026"
     }
   ]
 }
