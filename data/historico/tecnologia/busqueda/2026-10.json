@@ -3,6 +3,209 @@
   "mes": "2026-10",
   "noticias": [
     {
+      "titulo": "Salesforce compra la startup de defensa Rune por 375 millones de dólares",
+      "fuente": "TechCrunch",
+      "fecha": "31-10-2026 00:21",
+      "enlace": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "El BCE elige a Telefónica e Indra para la infraestructura del euro digital",
+      "fuente": "Xataka",
+      "fecha": "30-10-2026 18:11",
+      "enlace": "https://www.xataka.com/empresas-y-economia/bce-elige-a-telefonica-e-indra-para-desarrollar-parte-clave-infraestructura-futuro-euro-digital",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Meta llega a un acuerdo en otro caso de adicción a las redes justo antes del juicio",
+      "fuente": "Engadget",
+      "fecha": "30-10-2026 21:21",
+      "enlace": "https://www.engadget.com/2302956/meta-settles-another-social-media-addiction-case-just-before-trial/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Applebee's expuso datos de clientes al dejar la contraseña de su base de datos en la app",
+      "fuente": "TechCrunch",
+      "fecha": "30-10-2026 22:48",
+      "enlace": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Samsung vende la memoria más cara que nunca y su división de dispositivos lo sufre",
+      "fuente": "Xataka",
+      "fecha": "30-10-2026 17:01",
+      "enlace": "https://www.xataka.com/empresas-y-economia/samsung-vende-memoria-cara-que-nunca-uno-sus-clientes-perjudicados-samsung",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Rivian se la juega con la conducción autónoma: su primera prueba real llega este año",
+      "fuente": "The Verge",
+      "fecha": "30-10-2026 18:16",
+      "enlace": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Todo lo que hay que saber de los Googlebooks, los portátiles que sustituyen a ChromeOS",
+      "fuente": "Engadget",
+      "fecha": "30-10-2026 20:00",
+      "enlace": "https://www.engadget.com/2302681/everything-you-need-to-know-about-googlebooks/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "La fibra de DIGI, Vodafone y Orange podría encarecerse si cambia la regulación de MARCo",
+      "fuente": "ComputerHoy",
+      "fecha": "30-10-2026 23:38",
+      "enlace": "https://computerhoy.20minutos.es/moviles/digi-podria-verse-obligada-subir-precio-su-fibra-todos-sus-clientes-vodafone-orange-tambien-tendrian-que-hacerlo_7055421_0.html",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "La NASA vuelve a pedir ideas para rescatar al Hubble de una muerte segura",
+      "fuente": "Ars Technica",
+      "fecha": "31-10-2026",
+      "enlace": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Los analistas ven la inminente crisis de lanzamientos «más grave» de lo previsto",
+      "fuente": "Ars Technica",
+      "fecha": "30-10-2026",
+      "enlace": "https://arstechnica.com/space/2026/10/analysts-find-looming-launch-crisis-is-more-severe-than-anticipated/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Bluesky estrena una bandeja de moderación dedicada",
+      "fuente": "Engadget",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.engadget.com/2302932/bluesky-now-has-a-dedicated-moderation-inbox/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Novedades de tvOS 27.2 para mejorar la experiencia del Apple TV",
+      "fuente": "Engadget",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.engadget.com/2302449/tvos-27-2-features-try-upgraded-apple-tv-experience/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "HTTP/3 es más rápido con algo de trabajo y la ayuda de Cloudflare",
+      "fuente": "The Register",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.theregister.com/devops/2026/10/30/http/3-is-faster-with-some-work-and-help-from-cloudflare/5306767",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "La Voyager 1 da el silencio por respuesta a los controladores",
+      "fuente": "The Register",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.theregister.com/science/2026/10/30/voyager-1-gives-controllers-the-silent-treatment/5306637",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Satlyt da otro paso para convertir satélites en centros de datos espaciales",
+      "fuente": "TechCrunch",
+      "fecha": "30-10-2026",
+      "enlace": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Detalles exclusivos del Akai MPC Sample Key",
+      "fuente": "The Verge",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.theverge.com/gadgets/1023649/akai-mpc-sample-key-exclusive",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Google quería levantar un centro de datos en Finlandia. Empezó talando 330 hectáreas y acabó bajo investigación penal",
+      "fuente": "Xataka",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/google-queria-levantar-centro-datos-finlandia-empezo-talando-330-hectareas-acabo-investigacion-penal",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Estos Galaxy Watch estarían a punto de quedarse sin nuevas funciones de Samsung",
+      "fuente": "Hipertextual",
+      "fecha": "30-10-2026",
+      "enlace": "https://hipertextual.com/mobile/galaxy-watch-fin-actualizaciones-samsung/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Compartir Digi TV con alguien fuera de casa te puede salir caro: las cláusulas que casi nadie lee",
+      "fuente": "ADSLZone",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/compartir-digi-tv-fuera-casa-condiciones/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "¿El robo del siglo? Ciberdelincuentes asaltan Binance y se llevan más de 6.300 millones en criptomonedas",
+      "fuente": "ComputerHoy",
+      "fecha": "30-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/fintech/robo-siglo-ciberdelincuentes-asaltan-binance-se-llevan-mas-6-300-millones-criptomonedas_7055548_0.html",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Por qué el dolor de espalda crónico se siente tan personal: el cerebro lo trata como parte de quiénes somos",
+      "fuente": "Xataka",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.xataka.com/medicina-y-salud/que-dolor-espalda-cronico-se-siente-personal-cerebro-trata-como-parte-quienes-somos",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "¿Por qué la gasolina ha bajado 20 céntimos en un mes y el diésel no?",
+      "fuente": "ADSLZone",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/gasolina-diesel-octubre-2026/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "¡Locura absoluta! Las Nvidia RTX 5080 alcanzan el precio original de lanzamiento de las RTX 5090",
+      "fuente": "ComputerHoy",
+      "fecha": "30-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/locura-absoluta-las-nvidia-rtx-5080-alcanzan-precio-original-lanzamiento-las-rtx-5090_7055412_0.html",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Hemos normalizado el uso del móvil en los estadios de fútbol. En Alemania, Vodafone está consiguiendo lo contrario",
+      "fuente": "Xataka",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.xataka.com/aplicaciones/hemos-normalizado-uso-movil-estadios-futbol-alemania-vodafone-esta-consiguiendo-contrario",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "La Séptima hace cambios de última hora y asciende a dos antiguos reporteros de El programa de Ana Rosa",
+      "fuente": "ADSLZone",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/septima-asciende-reporteros-ana-rosa/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "\"Elon Musk es un genio, un verdadero genio\", Vladímir Putin afirma que está en constante contacto con el fundador de Starlink",
+      "fuente": "ComputerHoy",
+      "fecha": "30-10-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/elon-musk-es-un-genio-un-verdadero-genio-vladimir-putin-afirma-que-esta-constante-contacto-con-fundador-starlink_7055425_0.html",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "Corea del Norte se ha convertido en una superpotencia del ciberataque y lo está utilizando para autofinanciarse",
+      "fuente": "Xataka",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.xataka.com/seguridad/corea-norte-se-ha-convertido-superpotencia-ciberataque-esta-utilizando-para-autofinanciarse",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "El Banco Central Europeo elige a Telefónica e Indra para preparar la llegada del euro digital",
+      "fuente": "ADSLZone",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.adslzone.net/noticias/fintech/bce-telefonica-indra-euro-digital/",
+      "turno": "2026-10-31_M"
+    },
+    {
+      "titulo": "¿Un Apple Watch Series 10 por 300 euros menos? Back Market lo tiene entre sus reacondicionados en un estado excelente",
+      "fuente": "Xataka",
+      "fecha": "30-10-2026",
+      "enlace": "https://www.xataka.com/seleccion/apple-watch-series-10-300-euros-back-market-tiene-sus-reacondicionados-estado-excelente",
+      "turno": "2026-10-31_M"
+    },
+    {
       "titulo": "Hackers norcoreanos, señalados por el robo récord de 6.300 millones de dólares a Binance",
       "fuente": "TechCrunch",
       "fecha": "30-10-2026 15:00",
