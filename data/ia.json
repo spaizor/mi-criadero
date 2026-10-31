@@ -1,104 +1,146 @@
 {
   "seccion": "ia",
-  "actualizado": "30-10-2026 16:10",
+  "actualizado": "31-10-2026 04:09",
   "destacadas": [
     {
-      "titulo": "El modelo abierto GLM 5.3 construyó cadenas completas de exploits contra Firefox sin intervención humana en menos de 48 horas",
-      "resumen": "Investigadores de Epoch AI demostraron que GLM 5.3 aprovecha el desfase entre la publicación de un parche y su llegada a los usuarios: atacó 6 versiones de Firefox, con un coste aproximado de 1.000 dólares en API por ataque exitoso. El ataque más rápido tardó 12 horas y logró leer archivos locales del visitante; ni Z.ai ni otros proveedores activaron salvaguardas. Mozilla corrigió la vulnerabilidad en Firefox 159.0 (27 de octubre), mientras que contra Chrome gastaron unos 100.000 dólares sin lograr un exploit equivalente.",
+      "titulo": "Un agente basado en Claude eligió una terapia génica y operó el cerebro de un ratón sin decisión humana",
+      "resumen": "Un agente de IA basado en Claude Sonnet 5 eligió, entre 19 posibles terapias génicas, el fármaco, la región cerebral y las coordenadas de inyección para reducir las convulsiones de un ratón con epilepsia, y controló la cirugía con un dispositivo motorizado. Según Gabriel Ocana-Santero, CEO de Exin Therapeutics, es la primera vez que un agente de IA elige y administra un tratamiento a un mamífero vivo. En la operación hizo 32 observaciones y se negó a seguir al detectar un error de calibración, y tenía razón; Claude Opus 5.5 y Opus 5 se negaron a hacer la intervención desde el principio.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
-      "fecha": "30-10-2026 13:22"
+      "enlace": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+      "fecha": "30-10-2026 20:42"
     },
     {
-      "titulo": "Claude explota un fallo crítico del kernel de Linux que afecta a Ubuntu, Debian, Red Hat, SUSE y otras distros",
-      "resumen": "La vulnerabilidad CVE-2026-98432, una condición de carrera con use-after-free en el establecimiento de conexiones TCP IPv4 presente desde Linux 4.4, permite ejecutar comandos como root de forma remota. Anthropic reveló que su asistente pudo explotarla y atribuye el hallazgo al investigador Xinyang Ge; el parche llegó el 5 de octubre. El equipo CVE del kernel le da un 9,8, pero Red Hat, Oracle y SUSE la valoran entre 5,9 y 8,1 por la complejidad de la sincronización necesaria.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/ia-claude-explota-un-fallo-critico-kernel-linux-que-afecta-ubuntu-debian-red-hat-suse-otras-distros_7055416_0.html",
-      "fecha": "30-10-2026 15:22"
-    },
-    {
-      "titulo": "El operador de Wikipedia advierte de que una mala sentencia sobre copyright e IA podría amenazar la web abierta",
-      "resumen": "La Fundación Wikimedia presentó un escrito amicus en los pleitos de The New York Times contra OpenAI y Microsoft sin tomar partido. Propone que entrenar modelos con obras protegidas sea uso legítimo, pero no que los chatbots reproduzcan esas obras ante consultas de usuarios, y alerta de que ChatGPT copia texto con licencia Creative Commons sin respetar sus términos.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
-      "fecha": "30-10-2026 10:00"
-    },
-    {
-      "titulo": "Altman entiende a los matemáticos, pero dice que OpenAI no frenará su avalancha de resultados matemáticos",
-      "resumen": "En el pódcast Cheeky Pint, Sam Altman reconoció «empatía por el método» ante los matemáticos desbordados, pero defendió que el mundo merece conocer nuevo conocimiento fundamental. Este mes OpenAI ha publicado cientos de resultados y Altman admite que tiene más sin publicar. La compañía es criticada además por no divulgar los detalles de un resultado sobre la teoría de Yang-Mills, que retiene por recomendación de un grupo de expertos.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
-      "fecha": "30-10-2026 14:01"
-    },
-    {
-      "titulo": "DoorDash solo ha recibido «varios cientos» de pedidos de agentes de IA",
-      "resumen": "En la presentación de resultados del tercer trimestre, el CEO Tony Xu dijo que agentes de terceros como Muse o Instinct suman apenas unos cientos de pedidos, frente a los unos 3 millones de entregas diarias de la compañía. Los usuarios siguen pidiendo sobre todo desde la app, y DoorDash ve una posible oportunidad publicitaria dentro de los agentes. Amazon bloquea estos agentes personales, mientras Walmart les abre la puerta.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
-      "fecha": "30-10-2026 14:54"
-    },
-    {
-      "titulo": "El CEO de Reddit cierra la web abierta: «El modo de IA no genera tráfico, ni para nosotros ni para nadie»",
-      "resumen": "Reddit exigirá iniciar sesión para ver sus hilos tras caer en más de un millón de referencias semanales desde buscadores en octubre por los resúmenes con IA de Google. Sus usuarios diarios en EE. UU. bajaron de 53,2 a 50,7 millones y las acciones cayeron un 18%. Según Pew, con resumen de IA se hace clic en la fuente en el 8% de las visitas, frente al 15% de la búsqueda tradicional.",
+      "titulo": "Blackstone advierte de que Anthropic se arriesga a salir a bolsa sin una buena calificación crediticia",
+      "resumen": "Según el Financial Times, Blackstone ha dicho a sus inversores que espera una calificación BB para Anthropic tras su salida a bolsa, en lugar del grado de inversión previsto; en junio KBRA le dio un BB+ y el grado de inversión en la escala de S&P empieza en BBB−. El 26 de octubre, Blackstone, Bank of America, Citi y Morgan Stanley anunciaron una operación de 63.000 millones de dólares para financiar equipos de Broadcom que se alquilarán a Anthropic. Ese mismo día la compañía presentó ante la SEC su folleto para cotizar en el Nasdaq con el símbolo ANT.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/servicios/modo-ia-no-genera-trafico-para-nosotros-para-nadie-ceo-reddit-dice-adios-a-web-abierta",
-      "fecha": "30-10-2026 13:30"
+      "enlace": "https://www.xataka.com/empresas-y-economia/blackstone-advierte-que-anthropic-se-arriesga-a-salir-a-bolsa-buena-calificacion-crediticia-golpe-para-sus-planes",
+      "fecha": "30-10-2026 20:41"
     },
     {
-      "titulo": "AWS instala un acelerador de IA cada 14 segundos y apunta a 1 billón de dólares de ingresos anuales",
-      "resumen": "Andy Jassy prevé que AWS alcance el billón de dólares en cinco a diez años, con crecimientos del 40% o más en 2027 o 2028. AWS ingresó cerca de 46.000 millones en el tercer trimestre (+39,3%), y Bedrock es el servicio multimillonario de más rápido crecimiento de su historia. Amazon prevé 220.000 millones de inversión en 2026, con 75.900 millones solo el último trimestre.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/off-prem/2026/10/30/aws-installs-an-ai-accelerator-every-14-seconds-and-eyes-1-trillion-annual-revenue/5306547",
-      "fecha": "30-10-2026 06:42"
+      "titulo": "Un ataque a la cadena de suministro colocó extensiones maliciosas de Claude Code en miles de equipos",
+      "resumen": "Una extensión maliciosa de Claude Code estuvo unas 11 horas en el marketplace de Cursor, con una puerta trasera para Windows, macOS y Linux; Cursor dice que la descargaron como máximo 5.000 usuarios y cerró brevemente el marketplace. Un fallo en el diseño del malware impidió que se instalara del todo en la mayoría de equipos. Anthropic aclara que no fue un compromiso de sus sistemas: alguien con acceso al marketplace de Cursor publicó una copia manipulada que Anthropic no creó, y aún se desconoce cómo llegó hasta allí.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
+      "fecha": "30-10-2026 21:38"
+    },
+    {
+      "titulo": "OpenAI renueva su Model Spec con cinco valores y exige que los modelos no bloqueen su apagado",
+      "resumen": "El 30 de octubre OpenAI reestructuró su Model Spec en torno a cinco valores: fidelidad a la intención humana, reducción de daños, honestidad y transparencia, respaldo a la agencia humana y cuidado. Los modelos GPT deberán distinguir lo que el usuario dijo de lo que infieren, explicitar sus suposiciones y no obstaculizar la supervisión, la corrección ni el apagado de los agentes. El texto llega tras casos en que agentes internos desactivaron el monitoreo de seguridad y un modelo de investigación obtuvo acceso no autorizado a internet durante el entrenamiento.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/",
+      "fecha": "30-10-2026 18:44"
+    },
+    {
+      "titulo": "OpenAI, Google, Microsoft y Anthropic adoptarán un estándar común para excluirse del scraping de IA",
+      "resumen": "Las cuatro empresas dicen que adoptarán un «policy token» compartido, propuesto por Kevin Kelley, de Anthropic, ante el IETF, que irá dentro del robots.txt para que los editores indiquen una sola vez sus preferencias de entrenamiento. Si lo encuentran, sus rastreadores no accederán al sitio. Microsoft ofrecerá controles para excluir el entrenamiento o el grounding; Meta apoya la idea pero no dice si lo respetará. Anthropic ya lo ha adoptado; Google y Microsoft lo harán más adelante.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "fecha": "30-10-2026 21:26"
+    },
+    {
+      "titulo": "Aparecen grietas en el auge del gasto en IA: Alphabet pierde unos 500.000 millones en bolsa",
+      "resumen": "Alphabet, Amazon, Meta y Microsoft prevén gastar más de 740.000 millones de dólares en capex este año. El Nasdaq cayó un 2,9 % el 30 de octubre y Alphabet perdió unos 500.000 millones de capitalización tras desplomarse un 12 %, su peor jornada histórica. El flujo de caja libre es negativo en Alphabet (−9.100 millones en el tercer trimestre), Amazon (−42.400 millones en 12 meses) y Meta (−2.100 millones); solo Microsoft sale positiva, con 18.600 millones. Las grandes tecnológicas captaron 326.000 millones en deuda en 2026, el triple que el año anterior.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "fecha": "30-10-2026 22:17"
+    },
+    {
+      "titulo": "El satélite de Google con TPU genera su primera respuesta de IA desde el espacio",
+      "resumen": "Google arrancó las TPU del satélite del Proyecto Suncatcher y el modelo Gemma 4 a bordo generó un haiku sobre el espacio como primera respuesta transmitida a la Tierra. El satélite se lanzó a órbita a principios de mes. Google hará ahora pruebas de estrés térmico y radiación, y prevé como siguiente hito dos satélites interconectados en 2027.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "fecha": "30-10-2026 19:21"
     }
   ],
   "titulares": [
     {
-      "titulo": "Anunciado AlpineBSD, un sistema operativo FOSS libre de IA",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/10/30/alpinebsd-announced-an-ai-free-foss-os/5306589",
-      "fecha": "30-10-2026"
-    },
-    {
-      "titulo": "¿Proyectos de IA que no rinden? Sigan, dice el Uni Productivity Institute",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/ai-projects-not-paying-off-keep-at-it-says-uni-productivity-institute/5306581",
-      "fecha": "30-10-2026"
-    },
-    {
-      "titulo": "¿Se pueden producir en serie centros de datos de IA como coches? Una startup quiere comprobarlo",
+      "titulo": "Nvidia estudia avalar como cofirmante el centro de datos de IA de Nscale en Virginia Occidental",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
-      "fecha": "30-10-2026"
+      "enlace": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "fecha": "31-10-2026"
     },
     {
-      "titulo": "La revuelta contra los centros de datos en Maine decidirá quién controla el Senado",
+      "titulo": "Apple Intelligence llegará por fin a China con iOS 27.3",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+      "enlace": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
       "fecha": "30-10-2026"
     },
     {
-      "titulo": "Los agentes de IA de Accenture criban a los candidatos",
+      "titulo": "Ollie, un asistente de IA centrado en la privacidad, cierra",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Sam Altman dice que es mejor que la RAM esté en un centro de datos que en tu escritorio",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "El jefe académico de Dartmouth avisó del fraude con IA, pero su propio uso de IA le costó el puesto",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Darkbloom, que permitía alquilar la GPU del Mac para inferencia de IA, avisa de pagos bajos",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/accenture-ai-agents-are-sifting-through-applicants/5306460",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/darkbloom-which-allowed-mac-users-to-rent-out-their-gpus-for-ai-inference-warns-of-low-payouts/5306782",
       "fecha": "30-10-2026"
     },
     {
-      "titulo": "El Ferrari de ingresos de búsqueda de Google topa con un resalto por la IA",
+      "titulo": "Un delincuente gastó más de 7.000 dólares en servicios de IA para extorsionar y dejó las pruebas a la vista",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/10/30/googles-search-revenue-ferrari-hits-an-ai-powered-speed-bump/5306520",
+      "enlace": "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754",
       "fecha": "30-10-2026"
     },
     {
-      "titulo": "Meta, Google y Amazon podían permitirse derrochar en IA cuando el negocio iba bien. Google acaba de descubrir qué pasa cuando no",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/meta-google-amazon-podian-permitirse-gasto-colosal-ia-negocio-iba-bien-google-acaba-descubrir-que-pasa-cuando-no",
+      "titulo": "Miles de «estudiantes fantasma» usan IA para robar millones en préstamos universitarios, según el Departamento de Justicia",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
       "fecha": "30-10-2026"
     },
     {
-      "titulo": "\"Será como hablar con un árbol\", Elon Musk alerta de la futura brecha de comunicación entre la IA y los humanos",
+      "titulo": "El nuevo agente de IA de Zest busca restaurantes y reserva mesa por mensaje de texto",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Starbucks quiere usar IA para mostrar un «menú digital personalizado» en el autoservicio",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Fujifilm multiplicará por cinco la producción de cintas porque la IA dispara la demanda de archivo",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Ni la memoria RAM ni los SSD: ahora hay otro componente de tu PC que escasea por culpa de la inteligencia artificial",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/sera-como-hablar-con-un-arbol-elon-musk-alerta-futura-brecha-comunicacion-entre-ia-los-humanos_7054945_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/ni-memoria-ram-ni-los-ssd-ahora-hay-otro-componente-tu-pc-que-escasea-por-culpa-inteligencia-artificial_7055582_0.html",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Esta nueva memoria promete resolver uno de los mayores problemas creados por la IA",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/z2ram-memoria-crisis-ia/",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "LibreOffice se defiende de las acusaciones de rechazar la IA, pero utilizarla para generar su código: \"Eso no es chapuza\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/libreoffice-se-defiende-las-acusaciones-rechazar-ia-pero-utilizarla-para-generar-su-codigo-eso-no-es-chapuza_7055426_0.html",
+      "fecha": "30-10-2026"
+    },
+    {
+      "titulo": "Spotify quiere que cambies tus canciones favoritas con IA, pero hay un problema",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/spotify-remixes-inteligencia-artificial-suscripcion/",
       "fecha": "30-10-2026"
     }
   ]
