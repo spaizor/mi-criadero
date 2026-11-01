@@ -1,171 +1,129 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "31-10-2026 15:13",
+  "actualizado": "01-11-2026 03:11",
   "destacadas": [
     {
-      "titulo": "Google corrige «SMS of Death», un fallo crítico de Android que bloqueaba las llamadas con un SMS invisible",
-      "resumen": "El investigador Mark Blaszczyk demostró que un SMS malformado, que ni siquiera aparece en la bandeja, hacía cerrar el servicio de llamadas y podía provocar bucles de reinicio, también en llamadas de emergencia. Reprodujo el fallo en Pixel y Galaxy; el código vulnerable existe desde Android 12 y figura como CVE-2026-58882 con gravedad crítica. Google ya había corregido el fallo el 15 de junio, un mes después de que se lo notificaran el 5 de mayo, y el parche cubre de Android 14 a 17.",
+      "titulo": "Detectan 319 extensiones de Chrome que secuestran las búsquedas de 13,4 millones de usuarios",
+      "resumen": "El investigador John Tuckner, de Socket, ha destapado una red de 319 extensiones que cambian el buscador por defecto mediante chrome_settings_overrides y desvían el tráfico por proxies propios. Amplía en 264 complementos un rastreo de abril de 2025; se anuncian como convertidores de PDF o asistentes de IA, están como no listados en la Chrome Web Store y se ganan la vida con afiliación en Yahoo o Bing, aunque el proxy permitiría también redirigir a páginas de suplantación.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/google-soluciona-un-grave-fallo-android-que-permitia-bloquear-tu-movil-con-un-sms-invisible_7055744_0.html",
-      "fecha": "31-10-2026 12:35"
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/detectan-319-extensiones-chrome-que-secuestran-tus-busquedas-acumulan-13-4-millones-instalaciones_7055877_0.html",
+      "fecha": "31-10-2026 20:25"
     },
     {
-      "titulo": "Localizan la pieza que rompe la pantalla de algunos iPhone Duo y amenaza la campaña navideña",
-      "resumen": "Varios usuarios denunciaron una línea horizontal de píxeles muertos y otra vertical en la bisagra de la pantalla interior. iFixit, apoyándose en un vídeo de un youtuber surcoreano, señala un refuerzo estructural que al plegarse tensiona el panel y sus conexiones. Un empleado anónimo de Foxconn afirma que Apple relajó la inspección de calidad para llegar al lanzamiento, aunque iFixit cree que es pronto para hablar de un fallo de diseño generalizado.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/moviles/parece-que-han-encontrado-a-culpable-rotura-pantalla-algunos-iphone-duo-esto-pone-campana-navidena-a-tiritar",
-      "fecha": "31-10-2026 09:31"
+      "titulo": "Francia aprueba por un voto una enmienda para cobrar 0,055 euros por cada gigabyte que envían las plataformas",
+      "resumen": "La Asamblea Nacional aprobó el 30 de octubre, con 11 votos a favor, 10 en contra y 14 abstenciones, la enmienda I-1358 del socialista Laurent Lhardit para los presupuestos de 2027. La tasa, 5,50 euros por cada 100 GB y 55 por terabyte, la pagarían Google, Netflix, Amazon, Meta o tiendas como Steam y PlayStation Store, no el usuario, aunque podrían trasladarla al precio de sus servicios.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/francia-impuesto-giga-descargar-juegos-streaming/",
+      "fecha": "31-10-2026 22:09"
     },
     {
-      "titulo": "Microsoft 365 Family pasa de 1 TB por miembro a 2 TB compartidos sin bajar el precio",
-      "resumen": "Desde el 8 de octubre el plan Family ofrece 2 TB repartidos entre todos los miembros, frente a 1 TB por persona (hasta 6 TB) antes, y sigue costando 13 dólares al mes o 130 al año. Los suscriptores actuales pasarán al modelo compartido en su primera renovación desde el 2 de mayo de 2027, salvo que cambien de plan antes. Se puede ampliar hasta 10 TB con paquetes de 100 GB, 500 GB, 1 TB o 6 TB.",
+      "titulo": "Bolt Graphics enciende el primer silicio de su GPU Zeus, que no llegará en volumen hasta 2028",
+      "resumen": "La startup californiana ha arrancado sin problemas un chip de pruebas de 12 nm fabricado por TSMC, de 6 mm² y 1,4 W, con hardware dedicado a la simulación electromagnética. La Zeus final usará núcleos RISC-V y TSMC N5P, con memoria ampliable hasta 384 GB. Bolt no ha publicado cifras de rendimiento y, según Reuters, busca unos 100 millones de dólares con una valoración de unos 700 millones.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2301048/this-microsoft-365-family-plan-cloud-storage-change-may-leave-you-frustrated/",
-      "fecha": "31-10-2026 13:15"
+      "enlace": "https://www.engadget.com/2301962/bolt-graphics-powers-on-first-zeus-gpu/",
+      "fecha": "31-10-2026 18:30"
     },
     {
-      "titulo": "España lidera Europa en sistemas solares expuestos en internet",
-      "resumen": "Un estudio de Modat Magnify, con el NCSC de Países Bajos, halló 8.547 interfaces de parques solares y eólicos accesibles desde la red pública en 35 países: 7.942 solares y 605 eólicas. España concentra 2.766 sistemas, cerca del 35 % y el primer puesto en solar. Algunos paneles carecían de autenticación y permitían parar o reiniciar turbinas, aunque estar expuesto no implica haber sido atacado.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/energia/espana-lidera-ranking-europeo-que-no-queria-estar-sistemas-solares-expuestos-internet",
-      "fecha": "31-10-2026 14:01"
+      "titulo": "Chrome usará Gemini para buscar en Gmail números de pedido y reservas de vuelo al rellenar formularios",
+      "resumen": "Google despliega a algunos usuarios una función de Gemini con Personal Intelligence que sugiere, al pulsar un campo de formulario, números de pedido, códigos de seguimiento y reservas de vuelo sacados de Gmail. Las sugerencias llevan la etiqueta «Suggested by Gemini» y el usuario puede decidir si activa la función y qué información puede consultar.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/google-chrome-se-vuelve-mas-inteligente-buscara-tus-correos-numeros-pedido-reservas-vuelos_7055895_0.html",
+      "fecha": "31-10-2026 22:25"
     },
     {
-      "titulo": "Muse, el agente de compras de Meta, aún no ha movido el negocio de las empresas",
-      "resumen": "Zuckerberg asegura que más de 10 millones de personas en EE. UU. y Canadá han activado Muse y que más de un 25 % lo usa para comprar. Sin embargo, unos 50 directivos consultados por Wired restan importancia: DoorDash habla de «cientos» de pedidos, Hilton de reservas «insignificantes» y eBay de cifras «muy, muy pequeñas». Aun así, empresas como Chipotle ya adaptan su web para que los agentes completen compras.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
-      "fecha": "31-10-2026 11:30"
+      "titulo": "Binance asegura que ya ha repuesto el 90 % de los 6.300 millones robados y reabrirá retiradas el domingo",
+      "resumen": "Tras el mayor robo de criptomonedas registrado, con 6.300 millones de dólares sustraídos a clientes, el CEO de Binance afirma que la empresa ha cubierto el 90 % de los fondos y repondrá el 10 % restante, formado por tokens menos líquidos. Los retiros siguen en pausa pero, según la compañía, se reanudarán el domingo 1 de noviembre.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
+      "fecha": "31-10-2026 19:40"
     },
     {
-      "titulo": "Microsoft anima a vender la Xbox que no usas con hasta 375 dólares en Best Buy",
-      "resumen": "Xbox envía correos a algunos usuarios ofreciéndoles canjear su Series X o S en Best Buy por hasta 375 dólares, pagados en crédito de tienda. La campaña llega tras la subida de precios de junio, causada por la demanda de RAM de la IA, y con la escasez prevista hasta 2028. Microsoft gana mientras alguien use la consola, vía Game Pass y compras digitales.",
+      "titulo": "TikTok avanza hacia la «superapp» con una guía de restaurantes y pagos por mensaje directo",
+      "resumen": "La plataforma ha anunciado «Must Eat», una guía de restaurantes basada en más de 40 millones de publicaciones y comentarios, filtrable por ciudad, cocina, precio y valoración, que compite con Yelp y Google Maps. Bloomberg informó en agosto de que también desarrolla el envío de dinero por mensajes directos, que se sumaría a TikTok Shop, el mapa local y los juegos.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/",
+      "fecha": "31-10-2026 16:41"
+    },
+    {
+      "titulo": "Windows 11 prueba atajos para el modo Xbox y una búsqueda mucho más potente",
+      "resumen": "Las builds Insider 26220.9836 (beta) y 26340.9843 (experimental) permiten controlar Bluetooth, WiFi y energía sin salir del modo Xbox. La búsqueda se puede filtrar por archivos, acciones o web, cambia brillo o volumen, actúa sobre un móvil conectado (incluso llamar), muestra gráficos de bolsa y tiempo y aprende con pulgares arriba o abajo.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
+      "fecha": "31-10-2026 16:12"
+    },
+    {
+      "titulo": "Los Galaxy Watch 4 y Watch 4 Classic se quedan sin One UI 9 Watch",
+      "resumen": "Samsung deja sin la nueva versión a los modelos de 2021, que ya recibieron cuatro actualizaciones mayores, por lo que no tendrán correcciones, funciones ni parches de seguridad. Del Galaxy Watch 5 en adelante la recibirán antes de que acabe 2026. El Watch 9 y el Watch Ultra 2 prometen cinco actualizaciones.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2299867/microsoft-really-wants-you-to-sell-that-xbox-youre-not-using/",
-      "fecha": "31-10-2026 15:00"
-    },
-    {
-      "titulo": "Nvidia ya vende más redes de centros de datos que Cisco",
-      "resumen": "En el segundo trimestre los ingresos de redes de Nvidia superaron los 17.500 millones de dólares, frente a los 17.300 millones que facturó Cisco en todos sus productos. El salto viene de la compra de Mellanox por 6.900 millones en 2019 y de integrar computación y red, según la analista Sameh Boujelbene de Dell'Oro. Recursion, por ejemplo, eligió InfiniBand de Nvidia para simplificar la optimización de sus clústeres.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/networks/2026/10/31/backbone-of-a-beast-charting-nvidias-rise-to-networking-titan/5306499",
-      "fecha": "31-10-2026 09:03"
-    },
-    {
-      "titulo": "Samsung cierra Samsung News el 21 de diciembre y deja sin servicio su widget",
-      "resumen": "La app ha empezado a mostrar un aviso de cierre en algunos países: el 21 de diciembre dejarán de actualizarse la aplicación, el widget y la página tipo Google Discover del borde izquierdo. Samsung borrará los datos recopilados salvo donde la ley exija retenerlos. Había debutado en abril de 2023, cuarta versión tras Bixby Home, Samsung Daily y Samsung Free.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/samsung-news-tira-la-toalla-y-dejara-de-funcionar-muy-pronto/",
-      "fecha": "31-10-2026 11:00"
+      "enlace": "https://www.engadget.com/2301961/samsung-galaxy-watches-not-getting-one-ui-update/",
+      "fecha": "31-10-2026 18:15"
     }
   ],
   "titulares": [
     {
-      "titulo": "Me llevé dos iPhone de vacaciones y el Duo me conquistó",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/31/i-took-two-iphones-on-vacation-the-duo-won-me-over/",
-      "fecha": "31-10-2026"
-    },
-    {
-      "titulo": "Cuánto costaba el iPhone Pro en 2019 frente a 2026",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2300201/how-much-iphone-pro-cost-2021-vs-2026/",
-      "fecha": "31-10-2026"
-    },
-    {
-      "titulo": "Por qué tus juegos ocupan mucho más disco de lo esperado, incluso desinstalados",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2299478/games-take-up-more-drive-space-expected/",
-      "fecha": "31-10-2026"
-    },
-    {
-      "titulo": "Pantallas táctiles por todas partes: iPad mini, Alexa, marco de fotos y Readwise",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1023569/ipad-mini-alexa-photo-frame-readwise-installer",
-      "fecha": "31-10-2026"
-    },
-    {
-      "titulo": "Un usuario se provoca una pantalla negra en Windows 3.1 por su estética gótica",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/10/31/goth-aesthetic-gone-wild-a-users-self-inflicted-black-screen-of-non-death-in-windows-31s/5306592",
-      "fecha": "31-10-2026"
-    },
-    {
-      "titulo": "Windows 10 y el espacio en disco: ¿oruga de chocolate o tetera de chocolate?",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/10/31/chocolate-caterpillar-or-chocolate-teapot-top-up-the-disk-space-for-windows-10-to-find-out/5306103",
-      "fecha": "31-10-2026"
-    },
-    {
-      "titulo": "Ya podemos medir el hidrógeno cósmico sin mapas de galaxias. Es un paso clave para entender la energía oscura",
+      "titulo": "Precio de derribo para móviles de todas las gamas en el 11.11 de AliExpress (con envío desde España): hay Xiaomi, Realme, Samsung y más",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/podemos-medir-hidrogeno-cosmico-mapas-galaxias-paso-clave-para-entender-energia-oscura",
-      "fecha": "31-10-2026"
+      "enlace": "https://www.xataka.com/seleccion/precio-derribo-para-moviles-todas-gamas-11-11-aliexpress-envio-espana-hay-xiaomi-realme-samsung",
+      "fecha": "01-11-2026"
     },
     {
-      "titulo": "Tu Mac no tiene Face ID, pero esta aplicación permite desbloquearlo con tu cara",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/guias/desbloquear-mac-con-tu-cara-face-id-mac/",
-      "fecha": "31-10-2026"
-    },
-    {
-      "titulo": "Google Takeout: cómo descargar absolutamente todo lo que Google guarda de ti",
+      "titulo": "Si esperas un router, un deco o una SIM de Movistar y O2, esta es la empresa que puede llamar a tu puerta: así puedes seguir tus envíos",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/google-takeout-descargar-datos-google/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-o2-empresa-mensajeria/",
       "fecha": "31-10-2026"
     },
     {
-      "titulo": "Linus Torvalds, creador de Linux: \"No creo en un mundo en el que a todos los niños se les deba enseñar a programar\"",
+      "titulo": "Google Maps cambia en Android Auto: ahora muestra el otoño en pantalla con árboles de colores",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-creador-linux-no-creo-un-mundo-que-todos-los-ninos-se-les-deba-ensenar-programar_7051005_0.html",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/google-maps-cambia-android-auto-ahora-muestra-otono-pantalla-con-arboles-colores_7055891_0.html",
       "fecha": "31-10-2026"
     },
     {
-      "titulo": "Hay una \"ciudad\" que se quedó en España por una palabra y hoy es un trozo de territorio español rodeado por Francia",
+      "titulo": "Cuando Lenin se topó con “El Monederos”: el día que casi le secuestran y roban el Rolls-Royce",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/hay-ciudad-que-se-quedo-espana-palabra-hoy-trozo-territorio-espanol-rodeado-francia",
+      "enlace": "https://www.xataka.com/magnet/cuando-lenin-se-topo-monederos-dia-que-casi-le-secuestran-roban-rolls-royce-1",
       "fecha": "31-10-2026"
     },
     {
-      "titulo": "Marcelo Vázquez, experto en ciberseguridad: \"¿Windows o Linux? Lo sabes cambiando una letra, si te devuelve lo mismo, es Windows\"",
+      "titulo": "Así sabe AEMET que puede formarse una DANA antes de que llegue: satélites, radares y modelos",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/aemet-deteccion-dana-satelites-radares-modelos/",
+      "fecha": "31-10-2026"
+    },
+    {
+      "titulo": "Microsoft mejora Windows 11 para evitar que tu portátil se quede sin batería mientras no lo usas",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/marcelo-vazquez-experto-ciberseguridad-windows-linux-sabes-cambiando-una-letra-si-te-devuelve-mismo-es-windows_7049088_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-mejora-windows-11-para-evitar-que-tu-portatil-se-quede-sin-bateria-mientras-no-usas_7055883_0.html",
       "fecha": "31-10-2026"
     },
     {
-      "titulo": "Javier Calvo, director de 'La Bola Negra': \"Se ha podido hacer con menos de 15 millones de euros porque tiene dos directores\"",
+      "titulo": "En esta web puedes calcular todos tus cumpleaños del Sistema Solar y más allá: yo estoy a punto de cumplir 61 años en Venus",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/cine-y-tv/javier-calvo-bola-negra-se-ha-podido-hacer-15-millones-euros-porque-tiene-dos-directores",
+      "enlace": "https://www.xataka.com/espacio/esta-web-puedes-calcular-todos-tus-cumpleanos-sistema-solar-alla-yo-estoy-a-punto-cumplir-61-anos-venus",
       "fecha": "31-10-2026"
     },
     {
-      "titulo": "Carpetas y archivos ocultos de Windows 11 que no sirven para nada y están robándote espacio de tu disco SSD",
+      "titulo": "Android Auto se prepara para uno de sus mayores cambios: YouTube y los navegadores cada vez más cerca",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/carpetas-archivos-ocultos-windows-11-que-no-sirven-para-nada-estan-robandote-espacio-tu-disco-ssd_7052559_0.html",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-se-prepara-para-uno-sus-mayores-cambios-youtube-los-navegadores-cada-vez-mas-cerca_7055816_0.html",
       "fecha": "31-10-2026"
     },
     {
-      "titulo": "La \"snackficación\" de la dieta española: el sector de los aperitivos y frutos secos crece casi un 5% hasta los 3.253 millones de euros",
+      "titulo": "Desde hoy, Aldi soluciona (por 14,99 euros) un problema cotidiano en casa cuando sube la humedad por el frío y las lluvias",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/snackficacion-dieta-espanola-sector-aperitivos-frutos-secos-crece-casi-5-3-253-millones-euros",
+      "enlace": "https://www.xataka.com/seleccion/hoy-aldi-soluciona-14-99-euros-problema-cotidiano-casa-cuando-sube-humedad-frio-lluvias",
       "fecha": "31-10-2026"
     },
     {
-      "titulo": "Microsoft reconoce que los ciberdelincuentes pueden estar buscando tu cuenta de OneDrive, pero dice que no debes preocuparte",
+      "titulo": "Google quiere acabar con una de las limitaciones de Chrome al buscar palabras dentro de una web",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/microsoft-reconoce-que-los-ciberdelincuentes-pueden-estar-buscando-tu-cuenta-onedrive-pero-dice-que-no-debes-preocuparte_7055741_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/google-quiere-acabar-con-una-las-limitaciones-chrome-buscar-palabras-dentro-una-web_7055813_0.html",
       "fecha": "31-10-2026"
     },
     {
-      "titulo": "Bill Gates, fundador de Microsoft: \"Consiste en contratar al robot, despedir al humano y no mirar atrás\"",
+      "titulo": "150 años después, la Abadía de Westminster sabe (casi) quién duerme en su sarcófago romano",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/bill-gates-fundador-microsoft-consiste-contratar-al-robot-despedir-al-humano-no-mirar-atras",
-      "fecha": "31-10-2026"
-    },
-    {
-      "titulo": "Dario Gil, director de investigación de IBM: \"Ni 1.000 millones de las supercomputadoras actuales conectadas entre sí podrán realizar los cálculos de un ordenador cuántico\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/dario-gil-director-investigacion-ibm-ni-1-000-millones-las-supercomputadoras-actuales-conectadas-entre-si-podran-realizar-los-calculos-un-ordenador-cuantico_7050988_0.html",
+      "enlace": "https://www.xataka.com/magnet/150-anos-despues-abadia-westminster-sabe-casi-quien-duerme-su-sarcofago-romano",
       "fecha": "31-10-2026"
     }
   ]
