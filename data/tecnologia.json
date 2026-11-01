@@ -1,130 +1,148 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "01-11-2026 03:11",
+  "actualizado": "01-11-2026 15:13",
   "destacadas": [
     {
-      "titulo": "Detectan 319 extensiones de Chrome que secuestran las búsquedas de 13,4 millones de usuarios",
-      "resumen": "El investigador John Tuckner, de Socket, ha destapado una red de 319 extensiones que cambian el buscador por defecto mediante chrome_settings_overrides y desvían el tráfico por proxies propios. Amplía en 264 complementos un rastreo de abril de 2025; se anuncian como convertidores de PDF o asistentes de IA, están como no listados en la Chrome Web Store y se ganan la vida con afiliación en Yahoo o Bing, aunque el proxy permitiría también redirigir a páginas de suplantación.",
+      "titulo": "Windows 11 26H2: una actualización de 174 KB para unos equipos y 6,5 GB para otros",
+      "resumen": "Microsoft ha empezado a desplegar Windows 11 26H2. Quienes están en 24H2 o 25H2 al día solo instalan el paquete de habilitación KB5121794, de 174 KB, que activa funciones ya descargadas y pasa la compilación a la serie 26300. Los de 23H2 deben hacer un reemplazo completo del sistema, con una imagen de más de 5,3 GB y descarga total de unos 6,5 GB, y además se acercan al fin de su soporte.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/detectan-319-extensiones-chrome-que-secuestran-tus-busquedas-acumulan-13-4-millones-instalaciones_7055877_0.html",
-      "fecha": "31-10-2026 20:25"
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-lanza-una-actualizacion-windows-11-que-pesa-solo-174-kb-pero-podrias-necesitar-6-5-gb-libres_7055954_0.html",
+      "fecha": "01-11-2026 12:00"
     },
     {
-      "titulo": "Francia aprueba por un voto una enmienda para cobrar 0,055 euros por cada gigabyte que envían las plataformas",
-      "resumen": "La Asamblea Nacional aprobó el 30 de octubre, con 11 votos a favor, 10 en contra y 14 abstenciones, la enmienda I-1358 del socialista Laurent Lhardit para los presupuestos de 2027. La tasa, 5,50 euros por cada 100 GB y 55 por terabyte, la pagarían Google, Netflix, Amazon, Meta o tiendas como Steam y PlayStation Store, no el usuario, aunque podrían trasladarla al precio de sus servicios.",
+      "titulo": "WhatsApp prueba fotos de portada en los perfiles, con opción de crearlas con Meta AI",
+      "resumen": "Algunos usuarios de las betas de Android e iOS ya pueden añadir una imagen horizontal en la parte superior de su perfil, sacada con la cámara, elegida de la galería o generada con Meta AI. Se puede recortar y elegir quién la ve: todos, solo contactos, excluir a personas concretas u ocultarla. WhatsApp no ha dicho cuándo llegará a la versión estable.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-prepara-uno-sus-mayores-cambios-perfil-vas-poder-anadir-una-imagen-portada-como-otras-redes-sociales_7055987_0.html",
+      "fecha": "01-11-2026 14:25"
+    },
+    {
+      "titulo": "Tesla abandona las tejas solares Solar Roof tras años de ventas muy por debajo de lo previsto",
+      "resumen": "Según Electrek, Tesla dejó de ofrecer el Solar Roof y su red de instaladores recibirá solo paneles convencionales; la página del producto ya redirige a los paneles. Wood Mackenzie contó unas 3.000 viviendas con el producto en EE. UU. y su pico de instalaciones quedó lejos de las 1.000 semanales que prometía Musk. Los precios llegaron a subir de 54.966 a entre 79.938 y 100.621 dólares en un año.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2301053/tesla-ditching-solar-roof-tiles-discontinued-good-reason/",
+      "fecha": "01-11-2026 14:30"
+    },
+    {
+      "titulo": "Openreach avisa de que la red telefónica fija analógica del Reino Unido se apaga el 31 de enero, sin prórrogas",
+      "resumen": "La filial de BT ha enviado una carta a los operadores recordando que las líneas PSTN se retiran a finales de enero de 2027 y que el plazo no se aplaza. Afecta a terminales de pago, alarmas y teleasistencia para mayores, y quien quiera mantener el fijo deberá conectarlo al router con Digital Voice. Analistas y Age UK piden más campañas de información para los usuarios vulnerables.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
+      "fecha": "01-11-2026 10:04"
+    },
+    {
+      "titulo": "Xuper TV, la sucesora de Magis TV: una app pirata con permisos excesivos y riesgo de malware",
+      "resumen": "Xuper TV mantiene el modelo de Magis TV, bloqueada por la justicia en Argentina y Colombia, y se distribuye fuera de las tiendas oficiales mediante webs y grupos de mensajería. El análisis de ESET del archivo que circula señala que pide acceso al contenido del dispositivo, a fotos, vídeos y documentos, y que muchos clones están infectados con malware.",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/francia-impuesto-giga-descargar-juegos-streaming/",
-      "fecha": "31-10-2026 22:09"
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/xuper-tv-magis-tv-app-pirata-riesgos/",
+      "fecha": "01-11-2026 11:57"
     },
     {
-      "titulo": "Bolt Graphics enciende el primer silicio de su GPU Zeus, que no llegará en volumen hasta 2028",
-      "resumen": "La startup californiana ha arrancado sin problemas un chip de pruebas de 12 nm fabricado por TSMC, de 6 mm² y 1,4 W, con hardware dedicado a la simulación electromagnética. La Zeus final usará núcleos RISC-V y TSMC N5P, con memoria ampliable hasta 384 GB. Bolt no ha publicado cifras de rendimiento y, según Reuters, busca unos 100 millones de dólares con una valoración de unos 700 millones.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2301962/bolt-graphics-powers-on-first-zeus-gpu/",
-      "fecha": "31-10-2026 18:30"
+      "titulo": "Emacs cumple 50 años: del conjunto de macros para TECO al editor que impulsó el software libre",
+      "resumen": "MIT Technology Review recuerda el medio siglo de Emacs, nacido en el laboratorio de IA del MIT como macros sobre el editor TECO. Guy Steele atribuye a Richard Stallman casi todo el mérito de convertirlo en el editor más potente, y Stallman asumió la mayor parte del desarrollo hacia octubre de 1976. XEmacs sacó la versión 21.5.37 el mes pasado y GNU Emacs sigue en desarrollo activo.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/applications/2026/11/01/mother-of-all-editors-emacs-is-50/5306727",
+      "fecha": "01-11-2026 12:51"
     },
     {
-      "titulo": "Chrome usará Gemini para buscar en Gmail números de pedido y reservas de vuelo al rellenar formularios",
-      "resumen": "Google despliega a algunos usuarios una función de Gemini con Personal Intelligence que sugiere, al pulsar un campo de formulario, números de pedido, códigos de seguimiento y reservas de vuelo sacados de Gmail. Las sugerencias llevan la etiqueta «Suggested by Gemini» y el usuario puede decidir si activa la función y qué información puede consultar.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/google-chrome-se-vuelve-mas-inteligente-buscara-tus-correos-numeros-pedido-reservas-vuelos_7055895_0.html",
-      "fecha": "31-10-2026 22:25"
+      "titulo": "Google Vids, el editor de vídeo gratuito escondido en Google Drive",
+      "resumen": "Lanzado en 2024 para empresas y abierto a particulares en 2026, funciona en el navegador y no es un editor profesional multipista, pero basta para uso personal. Permite partir de plantillas, convertir presentaciones en vídeo, generar vídeo con Veo 3.1, crear música con IA, grabar con la cámara o usar avatares con IA. La interfaz es la habitual de línea de tiempo, con importación desde Drive y Fotos.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/google-vids-free-video-editor-inside-google-drive/",
+      "fecha": "01-11-2026 13:00"
     },
     {
-      "titulo": "Binance asegura que ya ha repuesto el 90 % de los 6.300 millones robados y reabrirá retiradas el domingo",
-      "resumen": "Tras el mayor robo de criptomonedas registrado, con 6.300 millones de dólares sustraídos a clientes, el CEO de Binance afirma que la empresa ha cubierto el 90 % de los fondos y repondrá el 10 % restante, formado por tokens menos líquidos. Los retiros siguen en pausa pero, según la compañía, se reanudarán el domingo 1 de noviembre.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
-      "fecha": "31-10-2026 19:40"
-    },
-    {
-      "titulo": "TikTok avanza hacia la «superapp» con una guía de restaurantes y pagos por mensaje directo",
-      "resumen": "La plataforma ha anunciado «Must Eat», una guía de restaurantes basada en más de 40 millones de publicaciones y comentarios, filtrable por ciudad, cocina, precio y valoración, que compite con Yelp y Google Maps. Bloomberg informó en agosto de que también desarrolla el envío de dinero por mensajes directos, que se sumaría a TikTok Shop, el mapa local y los juegos.",
+      "titulo": "Los centros de datos llegan a las elecciones de mitad de mandato en EE. UU., incluso en Brooklyn",
+      "resumen": "Un informe de Data Center Watch cifra en casi 200.000 millones de dólares los proyectos de centros de datos retrasados, frenados o bloqueados en el primer semestre de 2026 por oposición política y vecinal. Estados como Pensilvania, Georgia, Texas, Nueva York y Virginia estudian más controles y transparencia. En un acto electoral en Brooklyn, la sala abucheó al preguntar quién apoyaba los centros de datos de IA.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/",
-      "fecha": "31-10-2026 16:41"
-    },
-    {
-      "titulo": "Windows 11 prueba atajos para el modo Xbox y una búsqueda mucho más potente",
-      "resumen": "Las builds Insider 26220.9836 (beta) y 26340.9843 (experimental) permiten controlar Bluetooth, WiFi y energía sin salir del modo Xbox. La búsqueda se puede filtrar por archivos, acciones o web, cambia brillo o volumen, actúa sobre un móvil conectado (incluso llamar), muestra gráficos de bolsa y tiempo y aprende con pulgares arriba o abajo.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
-      "fecha": "31-10-2026 16:12"
-    },
-    {
-      "titulo": "Los Galaxy Watch 4 y Watch 4 Classic se quedan sin One UI 9 Watch",
-      "resumen": "Samsung deja sin la nueva versión a los modelos de 2021, que ya recibieron cuatro actualizaciones mayores, por lo que no tendrán correcciones, funciones ni parches de seguridad. Del Galaxy Watch 5 en adelante la recibirán antes de que acabe 2026. El Watch 9 y el Watch Ultra 2 prometen cinco actualizaciones.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2301961/samsung-galaxy-watches-not-getting-one-ui-update/",
-      "fecha": "31-10-2026 18:15"
+      "enlace": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+      "fecha": "01-11-2026 03:22"
     }
   ],
   "titulares": [
     {
-      "titulo": "Precio de derribo para móviles de todas las gamas en el 11.11 de AliExpress (con envío desde España): hay Xiaomi, Realme, Samsung y más",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/precio-derribo-para-moviles-todas-gamas-11-11-aliexpress-envio-espana-hay-xiaomi-realme-samsung",
+      "titulo": "La Proposición 45 de California podría esconder una laguna para los centros de datos",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy",
       "fecha": "01-11-2026"
     },
     {
-      "titulo": "Si esperas un router, un deco o una SIM de Movistar y O2, esta es la empresa que puede llamar a tu puerta: así puedes seguir tus envíos",
+      "titulo": "Lo que los demócratas pueden aprender de la moratoria de centros de datos de Nueva York",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/what-democrats-can-learn-new-york-data-center-moratorium/",
+      "fecha": "01-11-2026"
+    },
+    {
+      "titulo": "El colorista de «Puñales por la espalda» explica su viral app de cámara para iPhone",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/the-hollywood-color-nerd-who-shot-knives-out-explains-his-viral-iphone-camera-app/",
+      "fecha": "01-11-2026"
+    },
+    {
+      "titulo": "Hemos llenado las ciudades de árboles para combatir el calor. Un nuevo estudio advierte que a veces pueden lograr exactamente lo contrario",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/hemos-llenado-ciudades-arboles-para-combatir-calor-nuevo-estudio-advierte-que-a-veces-pueden-lograr-exactamente-contrario",
+      "fecha": "01-11-2026"
+    },
+    {
+      "titulo": "Prefijo +33: de dónde es y cuándo debes desconfiar de una llamada desde Francia",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-o2-empresa-mensajeria/",
-      "fecha": "31-10-2026"
+      "enlace": "https://www.adslzone.net/noticias/internet/prefijo-33-francia-estafa-llamadas/",
+      "fecha": "01-11-2026"
     },
     {
-      "titulo": "Google Maps cambia en Android Auto: ahora muestra el otoño en pantalla con árboles de colores",
+      "titulo": "Sistemas operativos de código abierto que sorprendentemente no están basados en Linux y que merece la pena probar",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/movilidad/google-maps-cambia-android-auto-ahora-muestra-otono-pantalla-con-arboles-colores_7055891_0.html",
-      "fecha": "31-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/sistemas-operativos-codigo-abierto-que-sorprendentemente-no-estan-basados-linux-que-merece-pena-probar_7050474_0.html",
+      "fecha": "01-11-2026"
     },
     {
-      "titulo": "Cuando Lenin se topó con “El Monederos”: el día que casi le secuestran y roban el Rolls-Royce",
+      "titulo": "Antes se marcaba estatus con tonos pastel y sobriedad: ahora hemos entrado en la era de la purpurina y el brilli brilli",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/cuando-lenin-se-topo-monederos-dia-que-casi-le-secuestran-roban-rolls-royce-1",
-      "fecha": "31-10-2026"
+      "enlace": "https://www.xataka.com/magnet/antes-se-marcaba-estatus-tonos-pastel-sobriedad-ahora-hemos-entrado-era-purpurina-brilli-brilli",
+      "fecha": "01-11-2026"
     },
     {
-      "titulo": "Así sabe AEMET que puede formarse una DANA antes de que llegue: satélites, radares y modelos",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/aemet-deteccion-dana-satelites-radares-modelos/",
-      "fecha": "31-10-2026"
-    },
-    {
-      "titulo": "Microsoft mejora Windows 11 para evitar que tu portátil se quede sin batería mientras no lo usas",
+      "titulo": "Un jugador compra un PC gaming por menos de 250 euros porque se bloqueaba, pero el problema tenía una solución sorprendentemente sencilla",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/microsoft-mejora-windows-11-para-evitar-que-tu-portatil-se-quede-sin-bateria-mientras-no-usas_7055883_0.html",
-      "fecha": "31-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/tendencias/un-jugador-compra-un-pc-gaming-por-menos-250-euros-porque-se-bloqueaba-pero-problema-tenia-una-solucion-sorprendentemente-sencilla_7055978_0.html",
+      "fecha": "01-11-2026"
     },
     {
-      "titulo": "En esta web puedes calcular todos tus cumpleaños del Sistema Solar y más allá: yo estoy a punto de cumplir 61 años en Venus",
+      "titulo": "El problema de los hogares no es que la inflación arrastre la cesta de la compra, es que los salarios no han seguido su ritmo",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/esta-web-puedes-calcular-todos-tus-cumpleanos-sistema-solar-alla-yo-estoy-a-punto-cumplir-61-anos-venus",
-      "fecha": "31-10-2026"
+      "enlace": "https://www.xataka.com/magnet/problema-hogares-no-que-inflacion-arrastre-cesta-compra-que-salarios-no-han-seguido-su-ritmo",
+      "fecha": "01-11-2026"
     },
     {
-      "titulo": "Android Auto se prepara para uno de sus mayores cambios: YouTube y los navegadores cada vez más cerca",
+      "titulo": "¿Es suficiente o merece la pena ahorrar en lugar de comprar un ordenador con 8 GB de memoria RAM para ejecutar Windows 11?",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-se-prepara-para-uno-sus-mayores-cambios-youtube-los-navegadores-cada-vez-mas-cerca_7055816_0.html",
-      "fecha": "31-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/es-suficiente-merece-pena-ahorrar-lugar-comprar-un-ordenador-con-8-gb-memoria-ram-para-ejecutar-windows-11_7050473_0.html",
+      "fecha": "01-11-2026"
     },
     {
-      "titulo": "Desde hoy, Aldi soluciona (por 14,99 euros) un problema cotidiano en casa cuando sube la humedad por el frío y las lluvias",
+      "titulo": "Llevo años queriendo dar de baja mi moto. Instinct me lo ha solucionado en menos de diez minutos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/hoy-aldi-soluciona-14-99-euros-problema-cotidiano-casa-cuando-sube-humedad-frio-lluvias",
-      "fecha": "31-10-2026"
+      "enlace": "https://www.xataka.com/robotica-e-ia/llevo-anos-queriendo-dar-baja-mi-moto-instinct-me-ha-solucionado-diez-minutos",
+      "fecha": "01-11-2026"
     },
     {
-      "titulo": "Google quiere acabar con una de las limitaciones de Chrome al buscar palabras dentro de una web",
+      "titulo": "Android Auto prepara dos cambios muy esperados mientras Google ultima su mayor rediseño en años",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/google-quiere-acabar-con-una-las-limitaciones-chrome-buscar-palabras-dentro-una-web_7055813_0.html",
-      "fecha": "31-10-2026"
+      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-prepara-dos-cambios-muy-esperados-mientras-google-ultima-su-mayor-rediseno-anos_7055959_0.html",
+      "fecha": "01-11-2026"
     },
     {
-      "titulo": "150 años después, la Abadía de Westminster sabe (casi) quién duerme en su sarcófago romano",
+      "titulo": "Un nuevo aceite enriquecido promete frenar el daño renal en diabéticos: por qué es una buena noticia y por qué no sirve tu aceite del supermercado",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/150-anos-despues-abadia-westminster-sabe-casi-quien-duerme-su-sarcofago-romano",
-      "fecha": "31-10-2026"
+      "enlace": "https://www.xataka.com/medicina-y-salud/nuevo-aceite-enriquecido-promete-frenar-dano-renal-diabeticos-que-buena-noticia-que-no-sirve-tu-aceite-supermercado",
+      "fecha": "01-11-2026"
+    },
+    {
+      "titulo": "Sergio Llorente, electricista: \"¿Qué hacer si se te estropea una tele de 5.000 euros y la garantía no lo cubre? Si no haces POP, te puede pasar\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/sergio-llorente-electricista-que-hacer-si-se-te-estropea-una-tele-5-000-euros-garantia-no-cubre-si-no-haces-pop-te-puede-pasar_7052565_0.html",
+      "fecha": "01-11-2026"
     }
   ]
 }
