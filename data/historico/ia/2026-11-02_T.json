@@ -1,0 +1,99 @@
+{
+  "seccion": "ia",
+  "actualizado": "02-11-2026 16:12",
+  "destacadas": [
+    {
+      "titulo": "El folleto de salida a bolsa de Anthropic, cargado de promesas y escaso en respuestas a las preguntas difíciles",
+      "resumen": "The Register analiza las 614 páginas del S-1 de Anthropic: unos ingresos netos de 16.300 millones de dólares, pérdidas operativas de unos 700 millones y otros 80.700 millones de pérdidas totales que atribuye a un ajuste contable que el documento no detalla. Los analistas señalan compromisos de computación cercanos al billón de dólares y que buena parte de su capacidad depende de clientes que también son competidores.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/02/anthropics-ipo-prospectus-is-big-on-promises-short-on-answers-to-tough-questions/5306811",
+      "fecha": "02-11-2026 13:30"
+    },
+    {
+      "titulo": "Saudi Aramco compra el 49 % de la empresa de IA Humain por 2.600 millones de dólares",
+      "resumen": "La petrolera aportará unos 2.600 millones en 2026 y su propia tecnología de IA a Humain, fundada en mayo de 2025 por el fondo soberano PIF. Humain construye centros de datos, ofrece servicios en la nube y entrena modelos como el árabe ALLaM, y prevé tres gigavatios de capacidad en 2030. La guerra de Irán obliga a reforzar la protección de sus instalaciones, aunque dice no haber notado caída de demanda.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
+      "fecha": "02-11-2026 12:47"
+    },
+    {
+      "titulo": "Cientos de apps de IA aparentemente inocuas esconden funciones de deepfakes sexuales abusivos",
+      "resumen": "Una investigación de WIRED destapa una red de más de 400 dominios y apps, como una de retratos de mascotas, que cargan en secreto una interfaz para generar imágenes y vídeos sexuales explícitos a partir de fotos subidas por los usuarios. Se promocionaban con miles de anuncios en Facebook e Instagram y aparecen ligadas a desarrolladores chinos y a una entidad registrada en Hong Kong, KeLing Technology Limited. Llevaban un año publicándose pese a las políticas de Apple, Google y Meta.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+      "fecha": "02-11-2026 11:00"
+    },
+    {
+      "titulo": "El nuevo cuello de botella de la IA no son los chips ni la energía: es el dinero barato",
+      "resumen": "Según el WSJ, los inversores exigen más a quienes se endeudan para construir centros de datos, como CoreWeave, Nebius y Nscale, que llevan semanas casi sin poder vender bonos. Nscale ha retrasado a diciembre su salida a bolsa porque los financiadores de su centro de datos para Anthropic piden condiciones más duras. Hasta septiembre las empresas de IA habían captado 466.000 millones en deuda, más de cuatro veces que un año antes.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/nuevo-cuello-botella-ia-no-chips-energia-dinero-barato",
+      "fecha": "02-11-2026 16:01"
+    },
+    {
+      "titulo": "India propone que «el modelo viaje a los datos» en lugar de los datos al modelo para entrenar IA",
+      "resumen": "El ministerio indio de Electrónica y TI plantea DEPA para entrenamiento de IA: hospitales, bancos y organismos públicos compartirían datos anonimizados y cifrados con una plataforma de intercambio, donde los desarrolladores entrenarían sus modelos en entornos seguros por hardware, con privacidad diferencial y auditoría. El Gobierno sostiene que podría ampliar el crédito a 400 millones de personas y pymes, aunque no está claro cuánto falta para hacerlo realidad.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/public-sector/2026/11/02/india-floats-ai-plan-under-which-the-model-travels-to-the-data-rather-than-the-data-travelling-to-the-model/5306872",
+      "fecha": "02-11-2026 05:39"
+    },
+    {
+      "titulo": "Un Redmi Note 12 ejecutando iOS, con ayuda de Claude",
+      "resumen": "Una oleada de aficionados usa IA generativa para arrancar iOS en móviles Android. El proyecto de código abierto ios-sweet sustituye el núcleo Linux por XNU de Apple y le da el árbol de dispositivos de un iPhone X para cargar iOS 16. Por ahora llega a la pantalla de inicio y responde al tacto, pero no funcionan Wi-Fi, Bluetooth, audio ni cámaras, y probablemente no valga para móviles más modernos por la autenticación de punteros.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/moviles/alguien-ha-conseguido-que-parecia-imposible-redmi-note-12-ejecutando-ios-ayuda-claude-claro",
+      "fecha": "02-11-2026 12:01"
+    },
+    {
+      "titulo": "Una lavadora Samsung abandonada recupera sus funciones inteligentes gracias a Claude",
+      "resumen": "Un usuario de Reddit, dueño de una lavadora de más de diez años que Samsung dejó sin soporte, usó Claude para devolverle el control desde SmartThings en unas dos horas. Publicó en GitHub la herramienta smartthings-samsung-drc-washer, que integra modelos antiguos mediante un controlador Edge. El caso se suma a otros usos de la IA contra la obsolescencia, aunque OpenAI y Anthropic han suspendido cuentas de usuarios que analizaban vulnerabilidades de televisores.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/reviven-lavadora-samsung-usando-ia-claude/",
+      "fecha": "02-11-2026 12:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Omen AI incorpora experiencia en refrigeración líquida con la compra de Aquatic Labs por 16 millones de dólares",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "¿Quieres firmar con un agente de Hollywood? Empieza por burlarte de la IA",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/comedians-making-fun-of-ai/",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Diversión retro: probar agentes de IA con hardware antiguo solo porque se puede",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/11/02/vintage-fun-prodding-ai-agents-using-retro-hardware-just-because-you-can/5306705",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Sam Altman, CEO de ChatGPT: \"Es bastante terrible que la gente tenga memoria RAM en su PC utilizándose sólo el 5 % del tiempo\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/sam-altman-ceo-chatgpt-bastante-terrible-que-gente-tenga-memoria-ram-su-pc-utilizandose-solo-5-tiempo",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Rosa Ayari, analista de transformación digital: “Usar IA no significa haber transformado el negocio”",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/redes-sociales/rosa-ayari-analista-transformacion-digital-usar-ia-no-significa-haber-transformado-negocio_7054745_0.html",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Sam Altman no quiere que ejecutes IA en tu PC. La subida de las gráficas que provoca su propia industria se lo está poniendo fácil",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/sam-altman-no-quiere-que-ejecutes-ia-tu-pc-subida-graficas-que-provoca-su-propia-industria-se-esta-poniendo-facil",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Daniel Vaquero, experto en ciberseguridad advierte sobre la IA: \"¿Estamos entrenando a las personas para las amenazas de hoy o para las de hace cinco años?\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/daniel-vaquero-experto-ciberseguridad-advierte-sobre-ia-estamos-entrenando-las-personas-para-las-amenazas-hoy-para-las-hace-cinco-anos_7054740_0.html",
+      "fecha": "02-11-2026"
+    }
+  ]
+}
