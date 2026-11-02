@@ -1,0 +1,48 @@
+{
+  "seccion": "ia",
+  "actualizado": "02-11-2026 04:10",
+  "destacadas": [
+    {
+      "titulo": "Torvalds dice que el kernel de Linux ya funciona con un «modelo mucho más sano» para las contribuciones con IA",
+      "resumen": "Linus Torvalds publicó la primera release candidate de Linux 7.4, cuya ventana de integración reunió casi 20.000 commits frente a los ~15.000 habituales. Se dice «mucho más contento» de que el trabajo desencadenado por IA llegue en la ventana de integración y no como correcciones durante las -rc, y lo llama «un modelo mucho más sano». Añade que los parches sugeridos por IA «a menudo se reescriben» y que un tercio de los cambios son desplazamientos de registros y máscaras de bits de GPU AMD.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/01/linus-torvalds-says-linux-kernel-is-out-of-stabilization-phase-and-using-much-healthier-model-for-ai-contributions/5306852",
+      "fecha": "02-11-2026 00:11"
+    },
+    {
+      "titulo": "OpenAI prepara una ofensiva de relaciones públicas tras las elecciones y podría rebautizar sus centros de datos como «campus de computación de IA»",
+      "resumen": "Según Axios, OpenAI planea una «PR blitz» tras las elecciones legislativas del martes, con los demócratas favoritos para ganar la Cámara. Su directivo Chris Lehane dice que las midterms son «un tráiler» de lo que veremos en 2028 y que la IA será el tema central. Entre las propuestas figuran límites de velocidad para la IA, el cambio de nombre de los centros de datos y que EE. UU. lidere los estándares globales; Amazon y Microsoft dejarán de usar NDAs con gobiernos locales.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "fecha": "01-11-2026 22:55"
+    },
+    {
+      "titulo": "Sam Altman cree que ejecutar IA local es «una terrible asignación de un recurso escaso»",
+      "resumen": "En el podcast Cheeky Pint, Altman sostiene que la DRAM de los equipos de usuario se emplea solo cerca del 5% del tiempo, por lo que es mejor concentrarla en centros de datos. Según TrendForce, los precios de la DRAM subieron entre un 90% y un 95% en el primer trimestre de 2026 y Micron, Samsung y SK Hynix no logran aumentar producción al ritmo de los hiperescaladores. Altman defiende que entren nuevos actores, como los chips propios de OpenAI con Broadcom.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/sam-altman-cree-que-ejecutar-ia-local-terrible-asignacion-recurso-escaso",
+      "fecha": "01-11-2026 17:01"
+    },
+    {
+      "titulo": "Microsoft retirará Copilot de los televisores inteligentes menos de un año después de lanzarlo",
+      "resumen": "Microsoft dejará de dar soporte a Copilot en televisores de todas las marcas, incluidos LG con webOS y Samsung, según Windows Central. LG ha avisado de que la función se discontinuará durante 2026, sin fechas exactas. Copilot se había instalado sin permiso explícito como un acceso directo que abría el asistente en el navegador de la tele, y el paso se suma a otros recortes de Microsoft en Xbox y Windows 11.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/hasta-nunca-copilot-la-ia-de-microsoft-desaparecera-pronto-de-tu-televisor/",
+      "fecha": "01-11-2026 18:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Harto de la basura en las carreteras, un desarrollador ha creado una “dashcam” con IA que la detecta, clasifica e informa",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/aplicaciones/harto-basura-carreteras-desarrollador-ha-creado-dashcam-ia-que-detecta-clasifica-e-informa",
+      "fecha": "01-11-2026"
+    },
+    {
+      "titulo": "Manuel Murcia, experto español en IA: \"Gemini te regala un profesor particular para cualquier asignatura y así puedes activarlo\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/manuel-murcia-experto-espanol-ia-gemini-te-regala-un-profesor-particular-para-cualquier-asignatura-asi-puedes-activarlo_7048588_0.html",
+      "fecha": "01-11-2026"
+    }
+  ]
+}
