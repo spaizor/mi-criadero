@@ -1,141 +1,208 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "02-11-2026 03:11",
+  "actualizado": "02-11-2026 16:09",
   "destacadas": [
     {
-      "titulo": "El FBI atribuye a Corea del Norte el robo de 6.300 millones de dólares a Binance",
-      "resumen": "El FBI sostiene que Corea del Norte está detrás del robo de más de 6.000 millones de dólares en criptomonedas a Binance, ocurrido hacia el 29 de octubre, y lo vincula al grupo «TraderTraitor». Según la agencia, esos actores ya convierten los fondos robados sobre todo a Ethereum y preparan nuevas fases de blanqueo mediante servicios DeFi y de intercambio instantáneo. El FBI aportó pocos detalles o pruebas; Binance reabrió hoy las retiradas de clientes, congeladas tras el ataque.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
-      "fecha": "01-11-2026 15:33"
-    },
-    {
-      "titulo": "Windows 11 por fin te dirá qué aplicaciones pueden verte, escucharte y rastrearte",
-      "resumen": "La compilación 26340.9767 del canal Insider de Windows 11 prueba permisos individuales de cámara, micrófono y ubicación para las aplicaciones de escritorio instaladas con .EXE, no solo para las de la Microsoft Store. Desde Configuración > Privacidad y seguridad se podrá permitir o negar el acceso app por app, con un indicador de la última vez que cada una accedió a la ubicación. La versión añade además un identificador del autor de cada aplicación.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/software/windows-11-apps-camara-microfono-ubicacion-privacidad/",
-      "fecha": "01-11-2026 19:00"
-    },
-    {
-      "titulo": "La Luna tendrá su propio superordenador: procesar datos en la Tierra no es una opción",
-      "resumen": "HPE ha desarrollado Spaceborne Computer-4, un sistema de computación de alto rendimiento de 1,2 kg, con CPU y GPU de bajo consumo, sin ventiladores y con unidades SSD de Kioxia. Viajará en el rover FLIP de Astrolab a bordo del módulo Griffin-1 dentro del programa CLPS de la NASA, con lanzamiento previsto a finales de 2026 y aterrizaje cerca del polo sur lunar. Probará benchmarks, modelos de lenguaje con RAG, procesado LiDAR y el sistema de ciberseguridad Silent Shield de Deloitte.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/luna-tendra-su-propio-superordenador-procesar-datos-tierra-no-opcion",
-      "fecha": "01-11-2026 21:01"
-    },
-    {
-      "titulo": "Investigadores de UCLA convierten un móvil en el cerebro de un robot que camina",
-      "resumen": "El laboratorio RoMeLa de UCLA presentó en arXiv el 6 de octubre de 2026 PhoneBot, un robot de 48,3 cm y 1,8 kg con 13 articulaciones motorizadas cuyo torso aloja un smartphone. El teléfono aporta sus sensores de inclinación, su procesador y su cámara, y envía las órdenes por Wi-Fi a una placa que controla los motores. Se entrenó con aprendizaje por refuerzo en simulación y ya consigue caminar.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/unos-investigadores-han-decidido-ponerle-patas-a-telefono-movil-resultado-ha-sido-robot-que-camina",
-      "fecha": "01-11-2026 22:01"
-    },
-    {
-      "titulo": "El HomeView de Apple podría convertirse en cámara de seguridad",
-      "resumen": "Un usuario de Reddit halló en el código de HomeView 27.2 cadenas que describen un modo de cámara de seguridad con detección de movimiento, retransmisión y grabación mediante HomeKit Secure Video. Habría luz indicadora y sonido cuando alguien vea o grabe, y aviso a los miembros del hogar si cambian los ajustes. Apple no ha dicho nada que confirme que estas funciones vayan a llegar.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
-      "fecha": "01-11-2026 18:16"
-    },
-    {
-      "titulo": "Un nuevo auge de los vehículos autónomos, más grande que el de 2016",
-      "resumen": "El fondo Trucks VC ha recibido en 2026 propuestas de 81 startups de vehículos autónomos, dos tercios más que el año pasado y más que en los años de bonanza de 2016 y 2017. Su socio Puneeth Meruva atribuye la ola a los modelos fundacionales, que hacen viables los sistemas de extremo a extremo, y a modelos abiertos como Alpamayo de Nvidia y Qwen. Muchas startups se despliegan en pocos meses con menos de un millón recaudado, y crece el número que apuesta por el robotaxi frente a Waymo.",
+      "titulo": "Nueva oleada de ciberataques deja sin frío a supermercados de Bélgica, Irlanda, Luxemburgo y Suecia",
+      "resumen": "Ahold Delhaize y Colruyt han confirmado ataques que alteraron la configuración de sus neveras y congeladores y obligaron a tirar alimentos en decenas de tiendas. Un mes antes ocurrió algo parecido en cientos de supermercados franceses. Los investigadores señalan equipos conectados de la danesa Danfoss que ya no recibían parches de seguridad, un riesgo que Claroty había advertido en agosto.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
-      "fecha": "01-11-2026 18:04"
+      "enlace": "https://techcrunch.com/2026/11/02/a-fresh-wave-of-cyberattacks-has-hit-europes-supermarket-refrigerators-destroying-food-across-countries/",
+      "fecha": "02-11-2026 15:08"
     },
     {
-      "titulo": "Microsoft explica por qué nunca devolverá a Windows 11 el arrastrar y soltar de la barra de tareas",
-      "resumen": "Diego Baca, vicepresidente de diseño de Windows, defendió que mover la barra de tareas arrastrándola provocaba movimientos accidentales y que cambiarla de sitio no es algo frecuente, por lo que su ausencia es «una decisión de diseño deliberada, no una capacidad ausente». Brandon LeBlanc respaldó esa postura. La posición de la barra se seguirá cambiando desde Ajustes, aunque Microsoft sigue evaluando mejoras para configuraciones con varios monitores.",
+      "titulo": "SpaceX podría comprar Boost Mobile como parte de su plan para ser operador móvil",
+      "resumen": "Según The Washington Post, Elon Musk habló el mes pasado con Charlie Ergen, presidente de EchoStar (matriz de Boost Mobile), de comprar la compañía o usar su red para lanzar el servicio de Starlink Mobile. La red de Boost funciona hoy sobre T-Mobile y AT&T, así que SpaceX podría necesitar su permiso. Bloomberg informó además de que SpaceX negocia acceso a al menos 80.000 torres de telefonía en EE. UU.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/science/1024330/spacex-boost-mobile-deal-report",
+      "fecha": "02-11-2026 15:05"
+    },
+    {
+      "titulo": "Hackers atacan las apps de alerta de emergencia de Rusia y Ucrania con avisos falsos de ataque nuclear",
+      "resumen": "El domingo por la noche la app ucraniana Air Alert difundió mensajes falsos sobre ataques químicos y radiación en Kiev, y la Fuerza Aérea pidió calma. Hacia las 00:30 UTC el Ministerio de Emergencias ruso confirmó otro ataque a su app, con avisos de ataques nucleares en todas las regiones, y la restableció unos 90 minutos después. Kiev lo vincula a la guerra cibernética rusa; Moscú no ha acusado a Ucrania.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/02/nuclear-threats-and-street-brawls-russia-ukraine-report-attacks-on-their-emergency-alert-apps/5306901",
+      "fecha": "02-11-2026 15:45"
+    },
+    {
+      "titulo": "Northwood Space capta 375 millones de dólares con una valoración de 2.000 millones",
+      "resumen": "La startup de infraestructura terrestre para satélites, fundada en 2022 y dirigida por la exactriz Bridgit Mendler, cierra una Serie C codirigida por Andreessen Horowitz y DFJ Growth, con un acuerdo financiero con HSBC. En enero había levantado 100 millones en su Serie B y firmado un contrato de casi 50 millones con la Fuerza Espacial de EE. UU.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/02/northwood-space-raises-375m-series-c-at-a-2b-valuation-from-a16z-and-dfj-growth/",
+      "fecha": "02-11-2026 15:22"
+    },
+    {
+      "titulo": "La Raspberry Pi 5 de 16 GB sube 80 dólares y ya cuesta 385 por la escasez de RAM",
+      "resumen": "Lanzada a 120 dólares, la versión de 16 GB cuesta ya más del triple. Los Compute Module 5 de 16 GB suben 40 dólares y quedan entre 375 y 415. Eben Upton atribuye la subida a la falta de suministro alternativo de DRAM de 16 GB y recomienda no pagar más memoria de la necesaria; promete revertir los precios cuando la memoria baje.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1024342/raspberry-pi-5-16gb-price-hike-ram",
+      "fecha": "02-11-2026 15:07"
+    },
+    {
+      "titulo": "El iPhone Duo acumula denuncias por grietas en la pantalla interior y problemas de bisagra",
+      "resumen": "Apple ha reconocido «un problema que afecta a la pantalla interior» en «un pequeño número de unidades» y pide a los afectados acudir a AppleCare para sustituir el equipo. Los usuarios describen grietas y una línea brillante durante el uso normal, y algunos notaron antes más resistencia al abrirlo. El desmontaje de iFixit sugiere que la pantalla puede rozar una barra central bajo el panel.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/microsoft-explica-por-que-nunca-devolvera-esta-funcion-clasica-barra-tareas-windows-11_7055994_0.html",
-      "fecha": "01-11-2026 15:25"
+      "enlace": "https://computerhoy.20minutos.es/moviles/iphone-duo-acumula-denuncias-por-un-problema-grave-su-bisagra_7056197_0.html",
+      "fecha": "02-11-2026 14:55"
+    },
+    {
+      "titulo": "Apple lanzaría tres iPad nuevos a principios del próximo año, según Bloomberg",
+      "resumen": "Mark Gurman anticipa un iPad básico con A19 mejorado, 8 GB de RAM, chip N1 y módem C1X (Wi-Fi 7 y 5G sub-6), un iPad Air con pantalla OLED y un iPad Pro que pasaría del M5 al M6 o incluso al M7, con cámara de vapor. Son datos filtrados, no anuncios oficiales.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2303590/apple-is-reportedly-launching-three-new-ipads-early-next-year/",
+      "fecha": "02-11-2026 12:12"
+    },
+    {
+      "titulo": "El cambio horario en Canadá deja a los administradores de Microsoft corrigiendo calendarios a mano",
+      "resumen": "Zonas de Columbia Británica, Alberta y Manitoba dejaron el 1 de noviembre de cambiar de hora y Microsoft publicó su guía solo el 26 de octubre. Las citas existentes de Outlook quedan una hora desfasadas y la corrección de reuniones recurrentes aún no tiene fecha. Como apaño en Power Automate y Fabric se propone elegir Saskatchewan, Arizona o, en Manitoba, Bogotá.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/software/2026/11/02/microsofts-canada-timezone-troubles-leave-admins-fixing-calendars-pretending-theyre-in-bogota/5306934",
+      "fecha": "02-11-2026 15:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "La NASA busca ayuda del sector espacial comercial para salvar el Hubble",
+      "titulo": "Cómo podría el rechazo a los centros de datos cambiar el resultado en Florida",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble",
-      "fecha": "01-11-2026"
+      "enlace": "https://www.theverge.com/policy/1024357/florida-governors-race-donalds-jolly-data-centers",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "Flock sigue ignorando las peticiones de cancelar sus contratos",
+      "titulo": "El YouTuber Druski hará contenido exclusivo para Netflix",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts",
-      "fecha": "01-11-2026"
+      "enlace": "https://www.theverge.com/streaming/1023777/youtube-druski-netflix-deal",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "Binance reanuda las retiradas tras el robo de 6.300 millones de dólares",
+      "titulo": "Ford lanza una «promesa de privacidad» y explica cómo usa los datos de sus clientes",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
-      "fecha": "01-11-2026"
+      "enlace": "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "Se filtra una versión completamente jugable de F-Stop, la precuela de Portal",
+      "titulo": "Affinity, el estudio creativo de Canva, llega gratis al iPad",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
-      "fecha": "01-11-2026"
+      "enlace": "https://www.theverge.com/1024283/canva-affinity-for-ipad-design-app-availability",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "Hace casi mil años en un lago italiano sucedió algo impensable: dos tsunamis. Ahora sabemos quién lo provocó",
+      "titulo": "Cuánto costaba la RAM en 2020 frente a 2026",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2300341/how-much-ram-cost-2020-vs-2026/",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Un panel de papel electrónico de 48 dólares que puede ser lo que quieras",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/this-48-e-paper-display-can-be-whatever-you-want-it-to-be/",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "El sueño del coche sin conductor en Reino Unido choca con preguntas incómodas",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/02/britains-driverless-dream-hits-a-roundabout-of-awkward-questions/5306715",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "El programador del Pac-Man de Google cuenta cómo el juego desquició a Firefox",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/personal-tech/2026/11/02/chap-who-coded-googles-pac-man-clone-reveals-how-the-game-freaked-out-firefox/5306879",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Jackery reduce aún más el tamaño de sus estaciones de energía portátiles",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Las bodas están llegando a tal extremo de desbarre que ya empiezan a tener su propio podcast para la ocasión",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/hace-casi-mil-anos-lago-italiano-sucedio-algo-impensable-dos-tsunamis-ahora-sabemos-quien-provoco",
-      "fecha": "01-11-2026"
+      "enlace": "https://www.xataka.com/magnet/bodas-estan-llegando-a-tal-extremo-desbarre-que-empiezan-a-tener-su-propio-podcast-para-ocasion",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "Orange tiene muchas tarifas móviles: así cambia la velocidad cuando te quedas sin GB",
+      "titulo": "En ‘GTA 6’ podrás romper la relación entre Jason y Lucía: la decisión es tuya",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/rockstar-games-gta-6-romper-relacion-jason-lucia/",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Movistar Plus lanza un aviso urgente para dueños de televisores Samsung y LG: tienes hasta el 17 de noviembre",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/orange-tarifas-moviles-cambia-velocidad-sin-gb/",
-      "fecha": "01-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-plus-fecha-limite-smart-tv-samsung/",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "Albert Einstein, sobre la madurez del ser humano: \"Comienza a manifestarse cuando sentimos que nuestra preocupación por los demás es mayor que nuestra preocupación por nosotros mismos\"",
+      "titulo": "Compra un AMD Ryzen 9 y descubre la estafa más surrealista: le han vendido un procesador sin procesador",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/albert-einstein-sobre-madurez-ser-humano-comienza-manifestarse-cuando-sentimos-que-nuestra-preocupacion-por-los-demas-es-mayor-que-nuestra-preocupacion-por-nosotros-mismos_7052070_0.html",
-      "fecha": "01-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/tendencias/compra-un-amd-ryzen-9-descubre-estafa-mas-surrealista-le-han-vendido-un-procesador-sin-procesador_7054557_0.html",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "\"Decidí hacerme amiga del fantasma\": en Japón las casas encantadas se han convertido en la obsesión de los cazadores de gangas",
+      "titulo": "Un robot de reparto provoca un accidente con nueve heridos en Tallin y sigue su camino: técnicamente, es un conductor a la fuga",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/decidi-hacerme-amiga-fantasma-japon-casas-encantadas-se-han-convertido-obsesion-cazadores-gangas",
-      "fecha": "01-11-2026"
+      "enlace": "https://www.xataka.com/movilidad/robot-reparto-provoca-accidente-nueve-heridos-tallin-sigue-su-camino-tecnicamente-conductor-a-fuga",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "MLO en wifi 7: cómo saber si de verdad lo estás usando o tu móvil sigue conectado a una sola banda",
+      "titulo": "El botón del router de Starlink que casi nadie utiliza y que te soluciona los cortes puntuales de banda 5 GHz",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/mlo-wifi-7-comprobar-movil-varias-bandas/",
-      "fecha": "01-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/redes/starlink-router-boton-cortes-banda-5ghz/",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "Qué significa el icono de la llave en la barra de notificaciones de tu móvil Android y por qué es importante que reacciones de inmediato",
+      "titulo": "Su portátil reacondicionado deja de funcionar al mes y lo que encuentra dentro es repugnante",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/que-significa-icono-llave-barra-notificaciones-tu-movil-android-por-que-es-importante-que-reacciones-inmediato_7049100_0.html",
-      "fecha": "01-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/tendencias/su-portatil-reacondicionado-deja-funcionar-mes-que-encuentra-dentro-es-repugnante_7054064_0.html",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "Han atrapado una única partícula de antimateria durante meses. Si logran su objetivo, será \"el mayor descubrimiento del siglo\"",
+      "titulo": "En Ibiza hay un pueblo que se debate entre el turismo de borrachera y de lujo. Su mayor problema es otro: el precio de la vivienda",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/investigacion/han-atrapado-unica-particula-antimateria-durante-meses-logran-su-objetivo-sera-mayor-descubrimiento-siglo",
-      "fecha": "01-11-2026"
+      "enlace": "https://www.xataka.com/magnet/ibiza-hay-pueblo-atrapado-turismo-borrachera-lujo-su-mayor-problema-otro-precio-vivienda",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "¿Sigues con grabaciones programadas de series que Movistar Plus ya no emite? Así ha cambiado la forma de cancelar la grabación",
+      "titulo": "Android Auto tiene una nueva app gratis que te deja acceder a funciones ocultas en el sistema",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/grabaciones-programadas-series-movistar-plus-cambio/",
-      "fecha": "01-11-2026"
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/android-auto-aa-experiments-funciones-ocultas/",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "Hoy en Lidl (por 6,99 euros) este pack de tres higrómetros con los que tener la humedad y temperatura de casa siempre bajo control",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/hoy-lidl-6-99-euros-este-pack-tres-higrometros-que-tener-humedad-temperatura-casa-siempre-control",
-      "fecha": "01-11-2026"
+      "titulo": "Microsoft añade un interruptor oculto a Windows 11 para activar una tecnología de Intel que mejora el rendimiento",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-anade-un-interruptor-oculto-windows-11-para-activar-una-tecnologia-intel-que-mejora-rendimiento_7053617_0.html",
+      "fecha": "02-11-2026"
     },
     {
-      "titulo": "Hay quien propone hacer el mantenimiento del turbo de tu coche cada 10.000 kilómetros pero la realidad es más compleja",
+      "titulo": "Tener las neveras conectadas puede hacer que alguien las suba a 50 grados. Está pasando en Bélgica y Suecia",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/hay-quien-propone-hacer-mantenimiento-turbo-tu-coche-cada-10-000-kilometros-realidad-compleja",
-      "fecha": "01-11-2026"
+      "enlace": "https://www.xataka.com/seguridad/tener-neveras-conectadas-puede-hacer-que-alguien-suba-a-50-grados-esta-pasando-belgica-suecia",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Garmin lanza una actualización masiva para los Fénix 9 con más de 30 novedades",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-fenix-9-actualizacion-24-14-novedades/",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Brais Moure, programador y divulgador tecnológico: \"Los móviles son tan buenos que ya no necesitamos cambiarlos cada año\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/brais-moure-programador-divulgador-tecnologico-los-moviles-son-tan-buenos-que-ya-no-necesitamos-cambiarlos-cada-ano_7054743_0.html",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Burgos ante la paradoja ferroviaria española: Renfe es un servicio público pero rechaza poner más trenes por su baja rentabilidad",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/burgos-paradoja-ferroviaria-espanola-renfe-servicio-publico-rechaza-poner-trenes-su-baja-rentabilidad",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Ctrl+Alt+Supr, la combinación más mítica de Windows que Bill Gates odia y que nadie se atreve a cambiar",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/ctrl-alt-supr-combinacion-mas-mitica-windows-que-bill-gates-odia-que-nadie-se-atreve-cambiar_7052558_0.html",
+      "fecha": "02-11-2026"
     }
   ]
 }
