@@ -1,147 +1,140 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "01-11-2026 15:13",
+  "actualizado": "02-11-2026 03:11",
   "destacadas": [
     {
-      "titulo": "Windows 11 26H2: una actualización de 174 KB para unos equipos y 6,5 GB para otros",
-      "resumen": "Microsoft ha empezado a desplegar Windows 11 26H2. Quienes están en 24H2 o 25H2 al día solo instalan el paquete de habilitación KB5121794, de 174 KB, que activa funciones ya descargadas y pasa la compilación a la serie 26300. Los de 23H2 deben hacer un reemplazo completo del sistema, con una imagen de más de 5,3 GB y descarga total de unos 6,5 GB, y además se acercan al fin de su soporte.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/microsoft-lanza-una-actualizacion-windows-11-que-pesa-solo-174-kb-pero-podrias-necesitar-6-5-gb-libres_7055954_0.html",
-      "fecha": "01-11-2026 12:00"
+      "titulo": "El FBI atribuye a Corea del Norte el robo de 6.300 millones de dólares a Binance",
+      "resumen": "El FBI sostiene que Corea del Norte está detrás del robo de más de 6.000 millones de dólares en criptomonedas a Binance, ocurrido hacia el 29 de octubre, y lo vincula al grupo «TraderTraitor». Según la agencia, esos actores ya convierten los fondos robados sobre todo a Ethereum y preparan nuevas fases de blanqueo mediante servicios DeFi y de intercambio instantáneo. El FBI aportó pocos detalles o pruebas; Binance reabrió hoy las retiradas de clientes, congeladas tras el ataque.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
+      "fecha": "01-11-2026 15:33"
     },
     {
-      "titulo": "WhatsApp prueba fotos de portada en los perfiles, con opción de crearlas con Meta AI",
-      "resumen": "Algunos usuarios de las betas de Android e iOS ya pueden añadir una imagen horizontal en la parte superior de su perfil, sacada con la cámara, elegida de la galería o generada con Meta AI. Se puede recortar y elegir quién la ve: todos, solo contactos, excluir a personas concretas u ocultarla. WhatsApp no ha dicho cuándo llegará a la versión estable.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-prepara-uno-sus-mayores-cambios-perfil-vas-poder-anadir-una-imagen-portada-como-otras-redes-sociales_7055987_0.html",
-      "fecha": "01-11-2026 14:25"
+      "titulo": "Windows 11 por fin te dirá qué aplicaciones pueden verte, escucharte y rastrearte",
+      "resumen": "La compilación 26340.9767 del canal Insider de Windows 11 prueba permisos individuales de cámara, micrófono y ubicación para las aplicaciones de escritorio instaladas con .EXE, no solo para las de la Microsoft Store. Desde Configuración > Privacidad y seguridad se podrá permitir o negar el acceso app por app, con un indicador de la última vez que cada una accedió a la ubicación. La versión añade además un identificador del autor de cada aplicación.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/software/windows-11-apps-camara-microfono-ubicacion-privacidad/",
+      "fecha": "01-11-2026 19:00"
     },
     {
-      "titulo": "Tesla abandona las tejas solares Solar Roof tras años de ventas muy por debajo de lo previsto",
-      "resumen": "Según Electrek, Tesla dejó de ofrecer el Solar Roof y su red de instaladores recibirá solo paneles convencionales; la página del producto ya redirige a los paneles. Wood Mackenzie contó unas 3.000 viviendas con el producto en EE. UU. y su pico de instalaciones quedó lejos de las 1.000 semanales que prometía Musk. Los precios llegaron a subir de 54.966 a entre 79.938 y 100.621 dólares en un año.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2301053/tesla-ditching-solar-roof-tiles-discontinued-good-reason/",
-      "fecha": "01-11-2026 14:30"
+      "titulo": "La Luna tendrá su propio superordenador: procesar datos en la Tierra no es una opción",
+      "resumen": "HPE ha desarrollado Spaceborne Computer-4, un sistema de computación de alto rendimiento de 1,2 kg, con CPU y GPU de bajo consumo, sin ventiladores y con unidades SSD de Kioxia. Viajará en el rover FLIP de Astrolab a bordo del módulo Griffin-1 dentro del programa CLPS de la NASA, con lanzamiento previsto a finales de 2026 y aterrizaje cerca del polo sur lunar. Probará benchmarks, modelos de lenguaje con RAG, procesado LiDAR y el sistema de ciberseguridad Silent Shield de Deloitte.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/luna-tendra-su-propio-superordenador-procesar-datos-tierra-no-opcion",
+      "fecha": "01-11-2026 21:01"
     },
     {
-      "titulo": "Openreach avisa de que la red telefónica fija analógica del Reino Unido se apaga el 31 de enero, sin prórrogas",
-      "resumen": "La filial de BT ha enviado una carta a los operadores recordando que las líneas PSTN se retiran a finales de enero de 2027 y que el plazo no se aplaza. Afecta a terminales de pago, alarmas y teleasistencia para mayores, y quien quiera mantener el fijo deberá conectarlo al router con Digital Voice. Analistas y Age UK piden más campañas de información para los usuarios vulnerables.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
-      "fecha": "01-11-2026 10:04"
+      "titulo": "Investigadores de UCLA convierten un móvil en el cerebro de un robot que camina",
+      "resumen": "El laboratorio RoMeLa de UCLA presentó en arXiv el 6 de octubre de 2026 PhoneBot, un robot de 48,3 cm y 1,8 kg con 13 articulaciones motorizadas cuyo torso aloja un smartphone. El teléfono aporta sus sensores de inclinación, su procesador y su cámara, y envía las órdenes por Wi-Fi a una placa que controla los motores. Se entrenó con aprendizaje por refuerzo en simulación y ya consigue caminar.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/unos-investigadores-han-decidido-ponerle-patas-a-telefono-movil-resultado-ha-sido-robot-que-camina",
+      "fecha": "01-11-2026 22:01"
     },
     {
-      "titulo": "Xuper TV, la sucesora de Magis TV: una app pirata con permisos excesivos y riesgo de malware",
-      "resumen": "Xuper TV mantiene el modelo de Magis TV, bloqueada por la justicia en Argentina y Colombia, y se distribuye fuera de las tiendas oficiales mediante webs y grupos de mensajería. El análisis de ESET del archivo que circula señala que pide acceso al contenido del dispositivo, a fotos, vídeos y documentos, y que muchos clones están infectados con malware.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/streaming-tv/xuper-tv-magis-tv-app-pirata-riesgos/",
-      "fecha": "01-11-2026 11:57"
+      "titulo": "El HomeView de Apple podría convertirse en cámara de seguridad",
+      "resumen": "Un usuario de Reddit halló en el código de HomeView 27.2 cadenas que describen un modo de cámara de seguridad con detección de movimiento, retransmisión y grabación mediante HomeKit Secure Video. Habría luz indicadora y sonido cuando alguien vea o grabe, y aviso a los miembros del hogar si cambian los ajustes. Apple no ha dicho nada que confirme que estas funciones vayan a llegar.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
+      "fecha": "01-11-2026 18:16"
     },
     {
-      "titulo": "Emacs cumple 50 años: del conjunto de macros para TECO al editor que impulsó el software libre",
-      "resumen": "MIT Technology Review recuerda el medio siglo de Emacs, nacido en el laboratorio de IA del MIT como macros sobre el editor TECO. Guy Steele atribuye a Richard Stallman casi todo el mérito de convertirlo en el editor más potente, y Stallman asumió la mayor parte del desarrollo hacia octubre de 1976. XEmacs sacó la versión 21.5.37 el mes pasado y GNU Emacs sigue en desarrollo activo.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/applications/2026/11/01/mother-of-all-editors-emacs-is-50/5306727",
-      "fecha": "01-11-2026 12:51"
-    },
-    {
-      "titulo": "Google Vids, el editor de vídeo gratuito escondido en Google Drive",
-      "resumen": "Lanzado en 2024 para empresas y abierto a particulares en 2026, funciona en el navegador y no es un editor profesional multipista, pero basta para uso personal. Permite partir de plantillas, convertir presentaciones en vídeo, generar vídeo con Veo 3.1, crear música con IA, grabar con la cámara o usar avatares con IA. La interfaz es la habitual de línea de tiempo, con importación desde Drive y Fotos.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/google-vids-free-video-editor-inside-google-drive/",
-      "fecha": "01-11-2026 13:00"
-    },
-    {
-      "titulo": "Los centros de datos llegan a las elecciones de mitad de mandato en EE. UU., incluso en Brooklyn",
-      "resumen": "Un informe de Data Center Watch cifra en casi 200.000 millones de dólares los proyectos de centros de datos retrasados, frenados o bloqueados en el primer semestre de 2026 por oposición política y vecinal. Estados como Pensilvania, Georgia, Texas, Nueva York y Virginia estudian más controles y transparencia. En un acto electoral en Brooklyn, la sala abucheó al preguntar quién apoyaba los centros de datos de IA.",
+      "titulo": "Un nuevo auge de los vehículos autónomos, más grande que el de 2016",
+      "resumen": "El fondo Trucks VC ha recibido en 2026 propuestas de 81 startups de vehículos autónomos, dos tercios más que el año pasado y más que en los años de bonanza de 2016 y 2017. Su socio Puneeth Meruva atribuye la ola a los modelos fundacionales, que hacen viables los sistemas de extremo a extremo, y a modelos abiertos como Alpamayo de Nvidia y Qwen. Muchas startups se despliegan en pocos meses con menos de un millón recaudado, y crece el número que apuesta por el robotaxi frente a Waymo.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
-      "fecha": "01-11-2026 03:22"
+      "enlace": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+      "fecha": "01-11-2026 18:04"
+    },
+    {
+      "titulo": "Microsoft explica por qué nunca devolverá a Windows 11 el arrastrar y soltar de la barra de tareas",
+      "resumen": "Diego Baca, vicepresidente de diseño de Windows, defendió que mover la barra de tareas arrastrándola provocaba movimientos accidentales y que cambiarla de sitio no es algo frecuente, por lo que su ausencia es «una decisión de diseño deliberada, no una capacidad ausente». Brandon LeBlanc respaldó esa postura. La posición de la barra se seguirá cambiando desde Ajustes, aunque Microsoft sigue evaluando mejoras para configuraciones con varios monitores.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-explica-por-que-nunca-devolvera-esta-funcion-clasica-barra-tareas-windows-11_7055994_0.html",
+      "fecha": "01-11-2026 15:25"
     }
   ],
   "titulares": [
     {
-      "titulo": "La Proposición 45 de California podría esconder una laguna para los centros de datos",
+      "titulo": "La NASA busca ayuda del sector espacial comercial para salvar el Hubble",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy",
+      "enlace": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble",
       "fecha": "01-11-2026"
     },
     {
-      "titulo": "Lo que los demócratas pueden aprender de la moratoria de centros de datos de Nueva York",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/what-democrats-can-learn-new-york-data-center-moratorium/",
+      "titulo": "Flock sigue ignorando las peticiones de cancelar sus contratos",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts",
       "fecha": "01-11-2026"
     },
     {
-      "titulo": "El colorista de «Puñales por la espalda» explica su viral app de cámara para iPhone",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/the-hollywood-color-nerd-who-shot-knives-out-explains-his-viral-iphone-camera-app/",
+      "titulo": "Binance reanuda las retiradas tras el robo de 6.300 millones de dólares",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
       "fecha": "01-11-2026"
     },
     {
-      "titulo": "Hemos llenado las ciudades de árboles para combatir el calor. Un nuevo estudio advierte que a veces pueden lograr exactamente lo contrario",
+      "titulo": "Se filtra una versión completamente jugable de F-Stop, la precuela de Portal",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
+      "fecha": "01-11-2026"
+    },
+    {
+      "titulo": "Hace casi mil años en un lago italiano sucedió algo impensable: dos tsunamis. Ahora sabemos quién lo provocó",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/hemos-llenado-ciudades-arboles-para-combatir-calor-nuevo-estudio-advierte-que-a-veces-pueden-lograr-exactamente-contrario",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/hace-casi-mil-anos-lago-italiano-sucedio-algo-impensable-dos-tsunamis-ahora-sabemos-quien-provoco",
       "fecha": "01-11-2026"
     },
     {
-      "titulo": "Prefijo +33: de dónde es y cuándo debes desconfiar de una llamada desde Francia",
+      "titulo": "Orange tiene muchas tarifas móviles: así cambia la velocidad cuando te quedas sin GB",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/prefijo-33-francia-estafa-llamadas/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/orange-tarifas-moviles-cambia-velocidad-sin-gb/",
       "fecha": "01-11-2026"
     },
     {
-      "titulo": "Sistemas operativos de código abierto que sorprendentemente no están basados en Linux y que merece la pena probar",
+      "titulo": "Albert Einstein, sobre la madurez del ser humano: \"Comienza a manifestarse cuando sentimos que nuestra preocupación por los demás es mayor que nuestra preocupación por nosotros mismos\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/sistemas-operativos-codigo-abierto-que-sorprendentemente-no-estan-basados-linux-que-merece-pena-probar_7050474_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/albert-einstein-sobre-madurez-ser-humano-comienza-manifestarse-cuando-sentimos-que-nuestra-preocupacion-por-los-demas-es-mayor-que-nuestra-preocupacion-por-nosotros-mismos_7052070_0.html",
       "fecha": "01-11-2026"
     },
     {
-      "titulo": "Antes se marcaba estatus con tonos pastel y sobriedad: ahora hemos entrado en la era de la purpurina y el brilli brilli",
+      "titulo": "\"Decidí hacerme amiga del fantasma\": en Japón las casas encantadas se han convertido en la obsesión de los cazadores de gangas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/antes-se-marcaba-estatus-tonos-pastel-sobriedad-ahora-hemos-entrado-era-purpurina-brilli-brilli",
+      "enlace": "https://www.xataka.com/magnet/decidi-hacerme-amiga-fantasma-japon-casas-encantadas-se-han-convertido-obsesion-cazadores-gangas",
       "fecha": "01-11-2026"
     },
     {
-      "titulo": "Un jugador compra un PC gaming por menos de 250 euros porque se bloqueaba, pero el problema tenía una solución sorprendentemente sencilla",
+      "titulo": "MLO en wifi 7: cómo saber si de verdad lo estás usando o tu móvil sigue conectado a una sola banda",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/redes/mlo-wifi-7-comprobar-movil-varias-bandas/",
+      "fecha": "01-11-2026"
+    },
+    {
+      "titulo": "Qué significa el icono de la llave en la barra de notificaciones de tu móvil Android y por qué es importante que reacciones de inmediato",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/un-jugador-compra-un-pc-gaming-por-menos-250-euros-porque-se-bloqueaba-pero-problema-tenia-una-solucion-sorprendentemente-sencilla_7055978_0.html",
+      "enlace": "https://computerhoy.20minutos.es/moviles/que-significa-icono-llave-barra-notificaciones-tu-movil-android-por-que-es-importante-que-reacciones-inmediato_7049100_0.html",
       "fecha": "01-11-2026"
     },
     {
-      "titulo": "El problema de los hogares no es que la inflación arrastre la cesta de la compra, es que los salarios no han seguido su ritmo",
+      "titulo": "Han atrapado una única partícula de antimateria durante meses. Si logran su objetivo, será \"el mayor descubrimiento del siglo\"",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/problema-hogares-no-que-inflacion-arrastre-cesta-compra-que-salarios-no-han-seguido-su-ritmo",
+      "enlace": "https://www.xataka.com/investigacion/han-atrapado-unica-particula-antimateria-durante-meses-logran-su-objetivo-sera-mayor-descubrimiento-siglo",
       "fecha": "01-11-2026"
     },
     {
-      "titulo": "¿Es suficiente o merece la pena ahorrar en lugar de comprar un ordenador con 8 GB de memoria RAM para ejecutar Windows 11?",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/es-suficiente-merece-pena-ahorrar-lugar-comprar-un-ordenador-con-8-gb-memoria-ram-para-ejecutar-windows-11_7050473_0.html",
+      "titulo": "¿Sigues con grabaciones programadas de series que Movistar Plus ya no emite? Así ha cambiado la forma de cancelar la grabación",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/grabaciones-programadas-series-movistar-plus-cambio/",
       "fecha": "01-11-2026"
     },
     {
-      "titulo": "Llevo años queriendo dar de baja mi moto. Instinct me lo ha solucionado en menos de diez minutos",
+      "titulo": "Hoy en Lidl (por 6,99 euros) este pack de tres higrómetros con los que tener la humedad y temperatura de casa siempre bajo control",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/llevo-anos-queriendo-dar-baja-mi-moto-instinct-me-ha-solucionado-diez-minutos",
+      "enlace": "https://www.xataka.com/seleccion/hoy-lidl-6-99-euros-este-pack-tres-higrometros-que-tener-humedad-temperatura-casa-siempre-control",
       "fecha": "01-11-2026"
     },
     {
-      "titulo": "Android Auto prepara dos cambios muy esperados mientras Google ultima su mayor rediseño en años",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-prepara-dos-cambios-muy-esperados-mientras-google-ultima-su-mayor-rediseno-anos_7055959_0.html",
-      "fecha": "01-11-2026"
-    },
-    {
-      "titulo": "Un nuevo aceite enriquecido promete frenar el daño renal en diabéticos: por qué es una buena noticia y por qué no sirve tu aceite del supermercado",
+      "titulo": "Hay quien propone hacer el mantenimiento del turbo de tu coche cada 10.000 kilómetros pero la realidad es más compleja",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/nuevo-aceite-enriquecido-promete-frenar-dano-renal-diabeticos-que-buena-noticia-que-no-sirve-tu-aceite-supermercado",
-      "fecha": "01-11-2026"
-    },
-    {
-      "titulo": "Sergio Llorente, electricista: \"¿Qué hacer si se te estropea una tele de 5.000 euros y la garantía no lo cubre? Si no haces POP, te puede pasar\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/sergio-llorente-electricista-que-hacer-si-se-te-estropea-una-tele-5-000-euros-garantia-no-cubre-si-no-haces-pop-te-puede-pasar_7052565_0.html",
+      "enlace": "https://www.xataka.com/movilidad/hay-quien-propone-hacer-mantenimiento-turbo-tu-coche-cada-10-000-kilometros-realidad-compleja",
       "fecha": "01-11-2026"
     }
   ]
