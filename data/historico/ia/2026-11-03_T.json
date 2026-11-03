@@ -1,0 +1,147 @@
+{
+  "seccion": "ia",
+  "actualizado": "03-11-2026 16:11",
+  "destacadas": [
+    {
+      "titulo": "GPT-6 Astra mejora a otro modelo de IA retocándole sus pesos, sin reentrenarlo",
+      "resumen": "Investigadores del MIT comprobaron que GPT-6 Astra, de OpenAI, puede modificar directamente los parámetros de otra red: en Qwen3.5-0.8B, de Alibaba, mejoró notablemente las matemáticas tocando solo el 0,016 % de sus pesos. El artículo aclara que no es automejora recursiva en sentido estricto, aunque señala el riesgo de que los modelos de frontera sean más difíciles de evaluar y controlar si estas mejoras se acumulan.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/llegada-ia-automejora-recursiva-que-significa-que-astra-haya-ayudado-a-modificar-otro-modelo-ia-que-riesgos-beneficios-conlleva",
+      "fecha": "03-11-2026 15:01"
+    },
+    {
+      "titulo": "Drax quiere un centro de datos de 20.000 millones de libras en su central de biomasa para alimentar la IA británica",
+      "resumen": "Drax, junto a Brookfield y su empresa Radiant, plantea un centro de datos de más de 1 GW en North Yorkshire, con una primera fase de 100 MW a principios de 2028 y 2.500 millones de libras. Aún faltan permisos, un inquilino y la aprobación para desviar hasta 500 MW de su generación, que quema pellets de madera importados.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/on-prem/2026/11/03/drax-wants-to-feed-britains-ai-habit-with-20b-datacenter-at-biomass-power-station/5307237",
+      "fecha": "03-11-2026 14:27"
+    },
+    {
+      "titulo": "Nvidia pide a sus clientes de nube que reduzcan el negocio con empresas chinas",
+      "resumen": "Según The Information y el Financial Times, Nvidia ha pedido de palabra a algunos proveedores de nube, incluidos neoclouds que respalda, que acepten menos clientes chinos en contratos futuros y que revelen quién usa los chips. La directriz no es obligatoria y busca cerrar la vía del alquiler remoto, que los controles de exportación de EE. UU. no cubren.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/",
+      "fecha": "03-11-2026 13:22"
+    },
+    {
+      "titulo": "OpenAI paga hasta 172.000 dólares a quien encuentre fallos de seguridad",
+      "resumen": "OpenAI ha cuadruplicado su programa de recompensas: hasta 30.000 dólares por vulnerabilidades críticas en ChatGPT o Codex y 100.000 por hallazgos excepcionales, con bonos que elevan el total a unos 172.000. Añade un sistema de lealtad de cinco niveles, pagos retroactivos para los últimos 30 días y una auditoría intensiva junto a la firma Cathedral.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/",
+      "fecha": "03-11-2026 11:42"
+    },
+    {
+      "titulo": "Gartner: los modelos abiertos pueden hacer el 90 % del trabajo agéntico a una veinteava parte del coste",
+      "resumen": "Un informe de Gartner sostiene que nueve de cada diez pasos de un flujo de agentes son rutinarios y que un modelo de pesos abiertos cuesta una veinteava parte que un modelo de frontera usado en cada paso. Los propios analistas rebajan el ahorro real a cinco o seis veces y prevén que en 2030 el 90 % de esos pasos corra en modelos abiertos.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/03/open-models-can-do-90-of-agentic-work-at-a-twentieth-of-the-cost-of-a-frontier-llm-gartner/5307132",
+      "fecha": "03-11-2026 07:19"
+    },
+    {
+      "titulo": "La «teoría de juegos inversa» como forma de mantener a raya a los agentes de IA",
+      "resumen": "El diseño de mecanismos busca fijar reglas e incentivos para que los agentes se porten bien, sin necesidad de entender su interior. Stephen Morris (MIT) propone recompensar a un modelo por predecir a otro, y Elad Hazan (Princeton) un sistema de solucionadores y auditores con castigo para los tramposos; los propios expertos admiten que las IA no son del todo racionales.",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "fecha": "03-11-2026 11:43"
+    },
+    {
+      "titulo": "El gran ganador de la IA en Apple no es Siri, es el Mac",
+      "resumen": "El Mac ingresó 10.792 millones de dólares entre julio y septiembre, un 23,7 % más que un año antes, impulsado según el artículo por la IA local y los agentes, con el Mac mini como gran beneficiado. Aun así, los ingresos del año siguen un 5,6 % por debajo del récord de 2022 y los precios de la memoria podrían limitar la oferta en Navidad.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ordenadores/gran-ganador-ia-apple-no-siri-mac",
+      "fecha": "03-11-2026 10:47"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "OpenAI ficha a un exsecretario del Ejército y gana alcance bipartidista justo antes de las elecciones de mitad de mandato",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-hires-ex-army-secretary-gaining-bipartisan-reach-just-as-midterms-loom/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Un duelo con Pokémon revela cuáles son los mejores frameworks de JavaScript para la IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/devops/2026/11/03/pokemon-bakeoff-reveals-best-javascript-frameworks-for-ai/5307249",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Por qué no deberías usar la IA para decidir tu voto",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Controlar a los agentes de IA y las pruebas de lealtad de la «superinteligencia»",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Reino Unido en alerta: los ataques de ransomware con IA llegarán en 2028",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/03/britain-on-notice-ai-powered-ransomware-attacks-to-arrive-by-2028/5307200",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Los Message Threads de Anthropic reducen un 35 % el tiempo hasta el primer token en conversaciones largas",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Huawei dice a sus clientes que busquen ellos la memoria de sus chips de IA, externalizando la compra al mercado negro",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "«Nuestro riesgo, su beneficio»: Zohran Mamdani sobre la IA y los centros de datos",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Las funciones de IA del Apple Watch para rebobinar y resumir conversaciones entran en fase beta",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Google lleva Dreambeans a India para acercar a las masas las historias personales generadas por IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "El Internet de las Cosas parecía una gran idea en 2013: los supermercados de Europa están descubriendo que con la IA no lo era tanto",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/internet-cosas-parecia-gran-idea-2013-supermercados-europa-estan-descubriendo-que-ia-no-era",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Google planea el futuro de los centros de datos y lleva la IA al espacio con Project Suncatcher",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-planea-futuro-los-centros-datos-lleva-ia-espacio-con-project-suncatcher_7056418_0.html",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Una IA ha hecho mejor a otra IA con un método inesperado: recortarle lo que le estorbaba",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/ia-ha-hecho-mejor-a-otra-ia-metodo-inesperado-recortarle-que-le-estorbaba",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Google quiere revolucionar las gafas inteligentes: sus nuevas XREAL AURA permiten usar YouTube, Google Maps y tienen Gemini integrado",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/google-quiere-revolucionar-las-gafas-inteligentes-sus-nuevas-xreal-aura-permiten-usar-youtube-google-maps-tienen-gemini-integrado_7056405_0.html",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "VT Security, experto en ciberseguridad: \"Le di mi Linux a un agente de IA y quiso matar un proceso\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/vt-security-experto-ciberseguridad-le-di-mi-linux-un-agente-ia-quiso-matar-un-proceso_7049604_0.html",
+      "fecha": "03-11-2026"
+    }
+  ]
+}
