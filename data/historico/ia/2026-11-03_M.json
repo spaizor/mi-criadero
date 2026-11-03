@@ -1,0 +1,147 @@
+{
+  "seccion": "ia",
+  "actualizado": "03-11-2026 04:09",
+  "destacadas": [
+    {
+      "titulo": "Anthropic avisa de que está muy cerca de la automejora recursiva: una IA que se entrena a sí misma",
+      "resumen": "En la versión revisada de su S-1A, presentada el 2 de noviembre, Anthropic admite que sus modelos futuros podrían cumplir pronto la definición de «progreso drásticamente acelerado atribuible a la IA» de su Responsible Scaling Policy. Asegura que ningún modelo actual ha cruzado ese umbral, pero reconoce que en el pasado no detectó una aceleración significativa hasta que ya se había producido. Promete mantener supervisión humana y estudia actualizar su política.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "fecha": "02-11-2026 23:14"
+    },
+    {
+      "titulo": "Anthropic multiplica por doce sus ingresos, pero registra una pérdida de 23.000 millones de dólares",
+      "resumen": "Según Bloomberg y The Information, Anthropic facturó casi 17.000 millones en el trimestre, doce veces más que hace un año, pero sus costes operativos (17.500 millones) superaron los ingresos y la pérdida neta fue de 23.300 millones. Su prospecto recoge compromisos por 895.000 millones de dólares en computación y centros de datos, y la salida a bolsa podría recaudar unos 100.000 millones.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+      "fecha": "02-11-2026 17:26"
+    },
+    {
+      "titulo": "Anthropic frena a Claude Code para que no clone videojuegos existentes",
+      "resumen": "Anthropic ha añadido dos frases al prompt de Claude Code en Opus 5.5 para desalentar la recreación de juegos de terceros y ciertas tareas de ingeniería inversa, según explicó Addy Osmani en X. El cambio no afecta a versiones anteriores, y algunos usuarios lo esquivan volviendo a Opus 4.8. La compañía promete revisar el bloqueo para que no perjudique usos legítimos.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/olvidate-de-usar-claude-code-para-clonar-tus-juegos-favoritos/",
+      "fecha": "02-11-2026 21:23"
+    },
+    {
+      "titulo": "El New York Times y otros medios demandan al navegador Brave por rastrear contenido para IA y saltarse muros de pago",
+      "resumen": "Varias demandas acusan a Brave Software de vender acceso a su índice de webs rastreadas a empresas de IA como Anthropic, Perplexity, Mistral, xAI y Cohere, y de permitir a los usuarios eludir los muros de pago de cientos de editores. El Times asegura que Brave ignoró peticiones reiteradas de detener la práctica. Perplexity respondió con ironía a la demanda.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "fecha": "02-11-2026 18:51"
+    },
+    {
+      "titulo": "Google ejecuta por primera vez Gemma 4 en una TPU en órbita, primer paso hacia centros de datos espaciales",
+      "resumen": "El satélite de pruebas del Project Suncatcher, construido con Planet y lanzado el 1 de octubre, devolvió desde órbita la respuesta de Gemma 4 procesada en una TPU. Solo puede usar una de sus cuatro TPU a la vez, unos 20 minutos. Google calcula hasta ocho veces más electricidad solar que en la Tierra y planea probar dos satélites interconectados en 2027.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/google-ha-dado-paso-clave-centros-datos-espaciales-acaba-ejecutar-ia-orbita",
+      "fecha": "02-11-2026 21:01"
+    },
+    {
+      "titulo": "Goldman Sachs retira las herramientas de programación con IA a traders y banqueros",
+      "resumen": "Según Bloomberg, que cita directrices internas de octubre, solo los ingenieros de Goldman Sachs podrán seguir usando herramientas como Claude Code o GitHub Copilot. En julio, su CIO Marco Argenti había elogiado el «vibe coding» del personal no técnico. Un portavoz atribuye el giro a productividad y gestión de riesgos y dice que la fase de experimentación ha terminado.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+      "fecha": "02-11-2026 21:00"
+    },
+    {
+      "titulo": "Musk recorta los límites de Grok Bot porque su coste es «insosteniblemente alto»",
+      "resumen": "Tras quejas de usuarios cuyos límites semanales se agotaban sin explicación, Elon Musk confirmó el 1 de noviembre que no era un error: servir Grok Bot costaba demasiado en relación con los ingresos. SpaceX, ya cotizada, dijo en octubre que la IA supone el 52 % de sus ingresos y que su división de superinteligencia ganó 431 millones de dólares.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "fecha": "02-11-2026 17:23"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Apple podría aumentar ingresos haciendo «algo» con las apps de IA de terceros",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Garry Tan, de Y Combinator, usa tantos agentes de IA que gasta hasta 200.000 dólares al año en tokens",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "La factura de computación de Anthropic podría superar el billón de dólares con unos ingresos cercanos a 17.000 millones en el tercer trimestre",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/02/anthropics-compute-tab-could-top-1t-as-q3-revenue-nears-17b/5307089",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Trajectory capta 45 millones para que expertos no técnicos puedan entrenar modelos de IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "La IA podría romper los sistemas legales al encontrar lagunas antes ocultas",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/02/ai-could-break-legal-systems-by-finding-previously-hidden-loopholes/5307066",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Las élites de la IA podrían acaparar inteligencia como los mercantilistas acaparaban oro",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold/",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "OpenAI propone centrales eléctricas en sus centros de datos para proteger a las zonas cercanas",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Ladrones roban variables de entorno de la herramienta de flujos de IA Trigger",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/02/thieves-pilfer-environment-variables-from-trigger-ai-workflow-tool/5306998",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "42AI sale del anonimato con 62,5 millones y un modelo del mundo que «predice el comportamiento humano»",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Los ladrones de tokens cuestan a las empresas más de 100.000 dólares diarios en cargos ilícitos de LLM",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/02/token-thieves-costing-companies-100k-per-day-in-illicit-llm-charges/5306967",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Una noche brutal en Minecraft llevó a 50 agentes de IA a inventar protocolos de traspaso de gallinas, un Oficial de Fertilizante y turnos de pesca",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "SUSE recortará a uno de cada diez empleados por la IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "Shigeru Miyamoto, padre de Super Mario y Zelda: \"Si la IA llegara a encargarse de todo, siempre habrá un papel para nosotros\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/shigeru-miyamoto-padre-super-mario-zelda-ia-llegara-a-encargarse-todo-siempre-habra-papel-para-nosotros",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "El dilema de la IA local: por qué Sam Altman cree que usar tu PC para ejecutar modelos es un error",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/dilema-ia-local-por-que-sam-altman-cree-que-usar-tu-pc-para-ejecutar-modelos-es-un-error_7056199_0.html",
+      "fecha": "02-11-2026"
+    },
+    {
+      "titulo": "ChatGPT copia a Claude con un cambio clave: su app de escritorio será mucho mejor",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/chatgpt-fusionara-chat-y-work-apps-escritorio/",
+      "fecha": "02-11-2026"
+    }
+  ]
+}
