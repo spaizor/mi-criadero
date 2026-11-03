@@ -1,214 +1,214 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "03-11-2026 03:11",
+  "actualizado": "03-11-2026 15:13",
   "destacadas": [
     {
-      "titulo": "Marvell compra Lumentum por 115.000 millones de dólares, una de las mayores operaciones de la historia tecnológica",
-      "resumen": "Marvell adquirirá Lumentum, fabricante de chips ópticos y equipos de red, en una operación íntegramente en acciones: cada título de Lumentum se canjeará por 4,5 de Marvell. El valor empresarial es de 115.000 millones de dólares (unos 80.000 millones en valor patrimonial, según el Wall Street Journal), por encima de Activision Blizzard (68.700 millones) o EMC (67.000 millones). Nvidia es accionista de ambas, con 2.000 millones invertidos en cada una en marzo, y el cierre se espera para el primer semestre de 2028.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/",
-      "fecha": "02-11-2026 18:54"
-    },
-    {
-      "titulo": "Apple bate su récord de ventas de iPhone sin lanzar un iPhone estándar nuevo",
-      "resumen": "En el cuarto trimestre Apple ingresó 57.580 millones de dólares por iPhone, un 17 % más que hace un año, tras lanzar la gama iPhone 18 con modelos Pro más caros y subir precios en los antiguos. Los ingresos totales crecieron un 12 %, hasta 114.500 millones; los Mac subieron un 24 %, los servicios llegaron a 31.570 millones y el iPad cayó un 10 %. Los pedidos del plegable iPhone Duo aún no cuentan, y John Ternus admitió un mayor coste de la memoria.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings",
-      "fecha": "02-11-2026 23:02"
-    },
-    {
-      "titulo": "Google desmantela una botnet de 1,3 millones de dispositivos Android creada por un fabricante socio",
-      "resumen": "Google asegura que Videostrong Technology, fabricante de Shenzhen, instaló una puerta trasera en 1,3 millones de dispositivos, sobre todo cajas Android TV, para fraude publicitario, robo de datos y redes proxy residenciales. Google ha cortado relaciones con la empresa, le ha vetado fabricar o vender dispositivos Android certificados y ha derribado los dominios de control de sus afiliados, lo que según sus cálculos deja sin acceso a otros 10 millones de equipos. También ha cambiado su proceso de revisión de fabricantes.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down",
-      "fecha": "02-11-2026 21:37"
-    },
-    {
-      "titulo": "Alemania alerta de que iPhones de diputados pueden haber sido hackeados con spyware",
-      "resumen": "La oficina federal de ciberseguridad (BSI) informó de que miembros del Bundestag y otras personas recibieron avisos de Apple sobre posibles ataques, y recomienda asumir que el dispositivo puede estar comprometido. El Gobierno alemán dice tomárselo «muy en serio» pero no aclara si el canciller Friedrich Merz figura entre los objetivos. Apple envió su último lote de notificaciones de amenaza a usuarios de 99 países y no atribuye los ataques a ningún gobierno.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware/",
-      "fecha": "02-11-2026 20:45"
-    },
-    {
-      "titulo": "Un fallo de gravedad máxima en una herramienta industrial se explota para instalar malware en Linux",
-      "resumen": "El fallo CVE-2026-58115, con puntuación 10 sobre 10, afecta a Node-RED en dispositivos como el Siemens SIMATIC IoT2050, cuya interfaz HTTP no exige autenticación. VulnCheck detectó su explotación el 30 de octubre desde una única IP con una sola petición POST /flows que descargaba un bot para Linux AMD64. Lo considera escaneo masivo oportunista, y la vulnerabilidad aún no figuraba en el catálogo KEV de CISA.",
+      "titulo": "Apple vendió más Macs que nunca en un año fiscal, pero el precio de la memoria amenaza su racha",
+      "resumen": "Los Mac aportaron 10.800 millones de dólares en el trimestre de septiembre, un 24 % más que un año antes. John Ternus, en su primera presentación de resultados como CEO, calificó el encarecimiento de la memoria de «sin precedentes» y avisó de costes aún mayores en diciembre. Apple prevé restricciones de suministro en Mac e iPad y que su margen bruto caiga del 47,9 % a entre el 45 y el 46 %.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/02/max-severity-bug-in-widely-used-ot-programming-tool-exploited-to-deliver-linux-malware/5307086",
-      "fecha": "02-11-2026 23:55"
+      "enlace": "https://www.theregister.com/personal-tech/2026/11/03/apples-mac-business-is-booming-but-the-memory-market-has-other-plans/5307188",
+      "fecha": "03-11-2026 13:27"
     },
     {
-      "titulo": "Oracle agota en una semana su límite de endeudamiento de 20.000 millones de dólares",
-      "resumen": "Una semana después de prometer limitar sus nuevos préstamos a 20.000 millones hasta su año fiscal 2030, Oracle ha lanzado de golpe 10.000 millones en bonos y otros 10.000 millones en acciones. Probablemente irán a centros de datos: gastó 55.700 millones en el año fiscal 2026 y prevé entre 90.000 y 95.000 millones en el 2027. La CFO Hilary Maxson afirma que el compromiso es real.",
+      "titulo": "Virgin Media O2 prepara miles de despidos y recortar un tercio de sus costes laborales",
+      "resumen": "La operadora británica quiere ahorrar unos 800 millones de libras hasta 2029 y destinará a despidos cerca del 30 % de sus costes de personal en dos años; hoy emplea a 16.000 personas. También frena la inversión en fibra más allá de lo comprometido y mejorará su red híbrida de cable para ofrecer 2 Gbps en 2027. Los ingresos del tercer trimestre cayeron un 5,7 % hasta 2.430 millones de libras.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/paas-and-iaas/2026/11/02/oracle-gobbles-20-billion-borrowing-limit-a-week-after-setting-it/5307014",
-      "fecha": "02-11-2026 18:35"
+      "enlace": "https://www.theregister.com/networks/2026/11/03/virgin-media-o2-outlines-plans-to-lay-off-thousands-as-revenue-falls/5307194",
+      "fecha": "03-11-2026 14:17"
     },
     {
-      "titulo": "El Modo IA de Google gana respuestas directas pero monetiza peor que la búsqueda clásica",
-      "resumen": "Alphabet registró una caída importante en el crecimiento de sus ingresos por búsqueda y Google admite que una de las causas es la menor monetización del Modo IA. Philipp Schindler asegura que sus experimentos con anuncios son prometedores y que los extiende a más usuarios, consultas y mercados, además de a conversaciones de varios turnos en EE. UU. El artículo advierte del riesgo de credibilidad al mezclar publicidad con las respuestas de Gemini.",
+      "titulo": "Bambu Lab presenta la H3C, una impresora 3D de nueve cabezales por 2.499 dólares",
+      "resumen": "Su sistema «Swaptek» cambia entre nueve herramientas en seis segundos y permite mezclar colores, materiales blandos y duros e incluso distintos tamaños de boquilla. Imprime con un solo material a la vez, pero cada cabezal se precalienta de forma independiente. El analista de The Verge probó piezas como un reloj con correa flexible integrada y una pluma multicolor.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1024978/bambu-h3c-color-mixing-toolchanger-3d-printer-trend",
+      "fecha": "03-11-2026 15:00"
+    },
+    {
+      "titulo": "xAI quiere comprar las 418 casas de un barrio de Mississippi para frenar las quejas por el ruido de su centro de datos",
+      "resumen": "Los vecinos de Southaven denuncian un zumbido continuo de las turbinas que alimentan el mayor centro de datos de xAI. La filial MZX ofrece comprar las viviendas de Colonial Hills solo a quien no participe en la demanda colectiva iniciada en junio; al menos 18 propietarios ya habrían aceptado. xAI niega las acusaciones y el alcalde dice que no hay infracciones del límite de 70 decibelios.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/google-ha-mejorado-su-buscador-ia-que-se-ha-encontrado-problema-necesita-empeorarlo-para-ganar-dinero",
-      "fecha": "02-11-2026 17:30"
+      "enlace": "https://www.xataka.com/robotica-e-ia/elon-musk-tiene-plan-para-acabar-vecinos-quejandose-centros-datos-cerca-comprar-sus-casas",
+      "fecha": "03-11-2026 13:05"
     },
     {
-      "titulo": "WhatsApp estrena acciones de texto que reconocen teléfonos, direcciones y fechas en los chats",
-      "resumen": "La función, llamada Acciones de texto, subraya números de teléfono, fechas y horas, direcciones y correos para abrir un menú con atajos: llamar, guardar contacto, abrir el mapa o crear un evento en el calendario. Llega a las versiones recientes de Android e iOS y funciona también con los mensajes enviados. Según WABetaInfo, el reconocimiento usa expresiones regulares en el propio dispositivo, sin enviar los chats a los servidores.",
+      "titulo": "Linux 7.4 bate un récord con casi 20.000 cambios y se acerca a los 42 millones de líneas",
+      "resumen": "Según datos de Phoronix, ha habido 19.671 cambios desde Linux 7.3, frente a los 16.267 de la versión anterior, y el código ronda ya los 41,6 millones de líneas. La inteligencia artificial está ayudando a corregir errores, pero también genera tal avalancha de pequeños cambios que los responsables del kernel dicen sentirse desbordados.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-estrena-una-funcion-que-reconoce-telefonos-direcciones-fechas-tus-conversaciones-te-permite-hacer-cosas-sin-salir-chat_7056357_0.html",
-      "fecha": "02-11-2026 23:56"
+      "enlace": "https://computerhoy.20minutos.es/software/linux-7-4-bate-un-record-historico-casi-20-000-cambios-una-sola-actualizacion-se-acerca-las-42-millones-lineas-codigo_7056397_0.html",
+      "fecha": "03-11-2026 12:04"
+    },
+    {
+      "titulo": "Roli, la empresa de los instrumentos Seaboard, colapsa y deja a sus clientes sin respuesta",
+      "resumen": "Dos administradores concursales fueron nombrados el 20 de octubre, la segunda vez que la compañía quiebra tras la de 2021. Su fundador y CEO, Roland Lamb, habría sido apartado este año. Clientes que pagaron pedidos de cientos o miles de dólares no han recibido producto ni reembolso, y temen que los instrumentos queden inservibles sin soporte de software.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/roli-has-fallen-apart-and-left-customers-holding-the-bag/",
+      "fecha": "03-11-2026 15:00"
+    },
+    {
+      "titulo": "Apple exigirá clasificación 18+ a las apps de citas en la App Store",
+      "resumen": "Apple añadirá a App Store Connect dos nuevas preguntas para desarrolladores: si la app comparte la ubicación real del usuario y si permite citas entre personas o con un acompañante virtual de contenido romántico o sexual. Las apps de citas tendrán clasificación mínima de 18 años. Las preguntas aparecen el 16 de noviembre y deberán estar respondidas antes del 12 de enero de 2027.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2305017/apple-start-mandating-age-requirements-dating-apps/",
+      "fecha": "03-11-2026 11:32"
+    },
+    {
+      "titulo": "Una web «vibe coded» que copiaba AO3 cae tras recibir 2.000 solicitudes de retirada en un día",
+      "resumen": "ao3.life aprovechó la caída de Archive of Our Own, prevista de hasta cuatro semanas tras un incidente de seguridad, para copiar obras con agentes de IA y vender audiolibros generados. Su creador cerró la web el lunes tras la reacción de autores y lectores. Algunas autoras aseguraron que sus obras seguían copiadas pese a tenerlas bloqueadas en AO3.",
+      "fuente": "404 Media",
+      "enlace": "https://www.404media.co/vibe-coded-ao3-clone-site-down-after-fanfic-authors-buried-it-with-2-000-takedown-notices-in-a-single-day/",
+      "fecha": "03-11-2026 09:49"
     }
   ],
   "titulares": [
     {
-      "titulo": "Una marca china de móviles Android lanza una colaboración con Harry Potter",
+      "titulo": "Adobe añadirá música con licencia de grandes artistas a su app móvil Premiere",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1025160/adobe-umg-wmg-premiere-mobile-licensed-music",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Peak Design amplía su gama de accesorios de carga inalámbrica",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1024484/peak-design-wireless-travel-battery-charging-charger-station-qi",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Redmagic mejora su móvil gaming refrigerado por líquido con más luces RGB",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/gadgets/1024504/redmagic-12-pro-liquid-cooling-rgb-lighting-185hz-camera",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Rivian Also quiere reinventar la rueda, pero primero tiene que fabricar",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/transportation/1024747/rivian-spinoff-also-chris-yu-interview-ebike-production-ramp",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Peak Design lanza cargadores y baterías premium para sus mochilas y trípodes",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2300381/chinese-android-phone-brand-realme-harry-potter-collaboration/",
+      "enlace": "https://www.engadget.com/2305009/peak-design-premium-chargers-batteries-cables-accessories/",
       "fecha": "03-11-2026"
     },
     {
-      "titulo": "El nuevo dispositivo de bolsillo de Ucrania vuelve las cámaras de los drones rusos contra ellos",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/",
+      "titulo": "El observatorio Swift de la NASA volverá a la Tierra el 4 de noviembre",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2305059/nasas-swift-observatory-is-expected-to-re-enter-earth-on-november-4/",
       "fecha": "03-11-2026"
     },
     {
-      "titulo": "Hinge prueba un plan más barato ante el hartazgo de los usuarios por pagar en apps de citas",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/02/hinge-tests-a-cheaper-plan-as-users-become-more-fed-up-paying-for-dating-apps/",
-      "fecha": "03-11-2026"
-    },
-    {
-      "titulo": "Apple dice que es «difícil de predecir» cuándo mejorarán las limitaciones del iPhone Duo",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/",
-      "fecha": "03-11-2026"
-    },
-    {
-      "titulo": "El inventario de Apple se dispara un 154 % por el encarecimiento de los chips de memoria",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/",
-      "fecha": "03-11-2026"
-    },
-    {
-      "titulo": "Unas gafas inteligentes prometen convertir en texto el movimiento silencioso de la boca",
+      "titulo": "Broadcom se negó a dar los nombres de los proveedores cloud que respaldan el reto a la fusión de VMware",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/11/02/these-smart-glasses-promise-to-turn-your-silent-mouth-movements-into-text/5307070",
-      "fecha": "02-11-2026"
+      "enlace": "https://www.theregister.com/virtualization/2026/11/03/broadcom-denied-names-of-cloud-providers-backing-vmware-merger-challenge/5307178",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "Meta dejará de actualizar el sistema de las Quest 2 en 2027",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1024835/meta-vr-quest-2-pro-os-end-updates",
-      "fecha": "02-11-2026"
+      "titulo": "La última beta de watchOS 27 activa las funciones Siri Recap y Live Rewind",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2304993/apples-latest-watchos-27-beta-enables-siri-recap-and-live-rewind-audio-features/",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "BMW competirá con el FSD de Tesla con asistencia a la conducción urbana desde 2027",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1024616/bmw-level-2-city-driver-assist-2027",
-      "fecha": "02-11-2026"
-    },
-    {
-      "titulo": "Snap llega a un acuerdo en la demanda que le acusaba de alimentar la depresión adolescente y los trastornos alimentarios",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/02/snap-settles-lawsuit-accusing-platform-of-fueling-teen-depression-and-eating-disorders/",
-      "fecha": "02-11-2026"
-    },
-    {
-      "titulo": "La ex directora de operaciones de Xbox tiene «serias preocupaciones» sobre su salida repentina",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/news/1024649/xbox-chief-operating-officer-helen-chiang-depature-comments",
-      "fecha": "02-11-2026"
-    },
-    {
-      "titulo": "Ericsson asegura que puede detectar y seguir drones usando solo redes móviles",
+      "titulo": "Un arquitecto crea una alternativa de código abierto a la herramienta de migración de VMs que VMware ha escondido",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/networks/2026/11/02/ericsson-says-it-can-detect-track-drones-using-only-mobile-networks/5306958",
-      "fecha": "02-11-2026"
+      "enlace": "https://www.theregister.com/virtualization/2026/11/03/architect-creates-open-source-replacement-for-vm-migration-tool-vmware-has-hidden/5307124",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "China presenta públicamente su plan para aterrizar en la Luna en menos de tres años",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/11/china-releases-timeline-for-lunar-landing-on-the-moon-targeting-before-2030/",
-      "fecha": "02-11-2026"
+      "titulo": "Toyota presenta un SoC que guarda los pesos del modelo y el sistema operativo en memoria integrada",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/11/03/toyota-shows-off-soc-that-stores-model-weights-and-its-os-on-integrated-memory/5307117",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "Binance sufrió el mayor robo de criptomonedas de la historia, pero el verdadero examen llegó después: la confianza",
+      "titulo": "Yvonne Bajela aporta 17 millones de dólares de capital fresco a las startups europeas",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/03/yvonne-bajela-is-bringing-17m-in-fresh-capital-to-europes-startup-scene/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Un delantero del Tenerife ha muerto tras un rodillazo. La pregunta ahora es si Jesús Owono afronta responsabilidades penales",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/criptomonedas/binance-sufrio-mayor-robo-criptomonedas-historia-verdadero-examen-llego-despues-confianza",
-      "fecha": "02-11-2026"
+      "enlace": "https://www.xataka.com/magnet/delantero-tenerife-ha-muerto-rodillazo-pregunta-ahora-jesus-owono-afronta-responsabilidades-penales",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "El HomeView es solo el principio: filtrados los planes de Apple para una versión Ultra con brazo robótico",
+      "titulo": "Tu TV box con Android podría traer malware de fábrica: Google desactiva una puerta trasera en millones de dispositivos",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/apple/el-homeview-es-solo-el-principio-filtrados-los-planes-de-apple-para-una-version-ultra-con-brazo-robotico/",
-      "fecha": "02-11-2026"
+      "enlace": "https://hipertextual.com/seguridad/tv-box-android-videostrong-malware-botnet/",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "Digi aclara los tres requisitos para disfrutar del 5G y qué puedes hacer si no alcanzas la máxima velocidad",
+      "titulo": "Instagram añade un misterioso botón a las stories y nadie sabe todavía para qué sirve",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/digi-5g-requisitos-activar-velocidad/",
-      "fecha": "02-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/redes-sociales/instagram-stories-circulo-reloj-caducidad/",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "Si tienes un móvil Samsung con One UI 9, cuidado con Android Auto: una actualización está provocando fallos al conectar el teléfono al coche",
+      "titulo": "Microsoft explica por qué jamás verás una barra de tareas como la de Windows 10 en Windows 11... y la culpa eres tú",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/si-tienes-un-movil-samsung-con-one-ui-9-cuidado-con-android-auto-una-actualizacion-esta-provocando-fallos-conectar-telefono-coche_7056344_0.html",
-      "fecha": "02-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-explica-por-que-jamas-veras-una-barra-tareas-como-windows-10-windows-11-culpa-eres-tu_7056428_0.html",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "Los hosteleros le han puesto ya una tarea al próximo Gobierno: que los 'mercaurantes' dejen de ser un negocio redondo",
+      "titulo": "En 2022, alguien decidió construir la mayor batería hidroeléctrica de Canarias. El único problema es que empezó la casa por el tejado",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/hosteleros-le-han-puesto-tarea-al-proximo-gobierno-que-mercaurantes-dejen-ser-negocio-redondo",
-      "fecha": "02-11-2026"
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/2022-alguien-decidio-construir-mayor-bateria-hidroelectrica-canarias-unico-problema-que-empezo-casa-tejado",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "Nuevos NASync DXP6800 Ultra y 8800 Ultra de UGREEN: más potencia, más capacidad y mejor rendimiento",
+      "titulo": "Este Black Friday es el momento perfecto para renovar tu PC gaming: desde sólo 699 euros",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/brands/nasync-dxp/",
-      "fecha": "02-11-2026"
+      "enlace": "https://hipertextual.com/brands/pc-gaming-black-friday-2/",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "Un usuario se cansa de las limitaciones de O2 Cloud y desarrolla una herramienta para acceder a sus archivos",
+      "titulo": "DIGI lleva más de 2 años robando clientes a todo el mundo y nadie sabe qué hacer",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/cloud-archivos-limitaciones-acceder-cansa-desarrolla-herramienta/",
-      "fecha": "02-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-portabilidades-octubre-millones-2026/",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "Los supermercados europeos en alerta: ciberdelincuentes manipulan sus frigoríficos y elevan la temperatura hasta los 50 grados",
+      "titulo": "Tu próximo viaje será diferente: Google Maps sabrá cuándo aterrizas y tendrá una sorpresa preparada",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/los-supermercados-europeos-alerta-ciberdelincuentes-manipulan-sus-frigorificos-elevan-temperatura-hasta-los-50-grados_7056213_0.html",
-      "fecha": "02-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/tu-proximo-viaje-sera-diferente-google-maps-sabra-cuando-aterrizas-tendra-una-sorpresa-preparada_7056407_0.html",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "Hoy en Action la powerbank perfecta para llevarla en el bolsillo: es ideal para viajes o festivales y está disponible en varios colores",
+      "titulo": "PlayStation está empezando a escribir a los usuarios para que vendan sus PS5 a Back Market",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/hoy-action-powerbank-perfecta-para-llevarla-bolsillo-ideal-para-viajes-festivales-esta-disponible-varios-colores",
-      "fecha": "02-11-2026"
+      "enlace": "https://www.xataka.com/videojuegos/playstation-esta-empezando-a-escribir-a-usuarios-vendan-sus-ps5-a-back-market",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "Lo que nadie te cuenta del WiFi 7: este ajuste del router puede dejar sin Internet a tus dispositivos antiguos",
+      "titulo": "Call of Duty: Modern Warfare 4 es el mejor juego de la franquicia en años",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/call-of-duty-modern-warfare-4-es-el-mejor-juego-de-la-franquicia-en-anos/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "El Black Friday no es el mejor día para comprar: esto revelan cinco años de estudios de precios",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/wifi-wpa3-dispositivos-antiguos-conexion/",
-      "fecha": "02-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/productos/black-friday-dia-comprar-estudio-ocu/",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "Google Maps prepara una revolución en Android Auto: podría guiarte usando edificios, montañas y hasta conciertos",
+      "titulo": "Elon Musk se ríe de Sam Altman por afirmar que es terrible que tu PC de casa tenga memoria RAM: \"¡La gente se merece tener su RAM!\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/movilidad/google-maps-prepara-una-revolucion-android-auto-podria-guiarte-usando-edificios-montanas-hasta-conciertos_7056212_0.html",
-      "fecha": "02-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/elon-musk-se-rie-sam-altman-por-afirmar-que-es-terrible-que-tu-pc-casa-tenga-memoria-ram-gente-se-merece-tener-su-ram_7056410_0.html",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "Brasil hundirá un túnel bajo el canal del mayor puerto de Latinoamérica: de una hora en coche a unos 5 minutos",
+      "titulo": "Ya es oficial el nuevo Oppo A7 Pro 5G: una brutal batería de 7.400 mAh y certificación de grado militar para reventar la gama media",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ingenieria-y-megaconstrucciones/brasil-hundira-tunel-canal-mayor-puerto-latinoamerica-hora-coche-a-unos-5-minutos",
-      "fecha": "02-11-2026"
+      "enlace": "https://www.xataka.com/seleccion/oficial-nuevo-oppo-a7-pro-5g-brutal-bateria-7-400-mah-certificacion-grado-militar-para-reventar-gama-media",
+      "fecha": "03-11-2026"
     },
     {
-      "titulo": "No solo la PS5 y los portátiles: la Raspberry Pi también tiene un aumento de precio por la crisis de componentes",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/no-solo-ps5-los-portatiles-raspberry-pi-tambien-tiene-un-aumento-precio-por-crisis-componentes_7056194_0.html",
-      "fecha": "02-11-2026"
+      "titulo": "Instala una segunda pantalla de Android y ahora puede ver YouTube y usar Spotify mientras conduce",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/segunda-pantalla-android-auto-pasajero/",
+      "fecha": "03-11-2026"
     }
   ]
 }
