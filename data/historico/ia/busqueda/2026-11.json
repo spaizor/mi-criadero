@@ -3,6 +3,146 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "El abogado general del TJUE concluye que Gemini puede vulnerar los derechos de los editores",
+      "fuente": "Xataka",
+      "fecha": "03-11-2026 20:25",
+      "enlace": "https://www.xataka.com/robotica-e-ia/google-recibe-reves-tjue-uso-noticias-gemini-medios-ganan-terreno-para-reclamar-compensaciones",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "OpenAI dice que GPT-6 Astra diseñó un dispositivo de hardware desde cero en menos de una semana",
+      "fuente": "The Decoder",
+      "fecha": "03-11-2026 21:15",
+      "enlace": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Google dejará a los colegios prescindir de la IA, pero a cambio tendrán que renunciar también al buscador",
+      "fuente": "Ars Technica",
+      "fecha": "03-11-2026 18:54",
+      "enlace": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Apple abre Siri AI a las aplicaciones de terceros con iOS 27.3",
+      "fuente": "The Verge",
+      "fecha": "03-11-2026 21:16",
+      "enlace": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Revolut recorta 10 veces el coste de la IA para programar al sustituir Claude por modelos alojados en casa",
+      "fuente": "The Register",
+      "fecha": "03-11-2026 21:07",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "OpenAI asegura que las búsquedas en ChatGPT ya equivalen al 20 % de las de Google",
+      "fuente": "The Verge",
+      "fecha": "03-11-2026 19:30",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Anthropic trabaja en FlashProve, un sistema para demostrar qué modelo de IA generó una respuesta",
+      "fuente": "TechCrunch",
+      "fecha": "03-11-2026 23:41",
+      "enlace": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "La mayor web de mods de PC se pronuncia sobre la IA: Nexus Mods y las declaraciones de uso",
+      "fuente": "The Verge",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Por favor, dejad de preguntarme cuándo va a estallar la burbuja de la IA",
+      "fuente": "The Verge",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Los centros de datos recurren a viejos motores de avión mientras crece la espera por la energía",
+      "fuente": "TechCrunch",
+      "fecha": "03-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Ballistic Ventures, de Ted Schlein, busca 490 millones para nuevos fondos en pleno auge de la ciberseguridad con IA",
+      "fuente": "TechCrunch",
+      "fecha": "03-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Los ataques con drones de Ucrania aceleran los planes rusos de centros de datos subterráneos",
+      "fuente": "Ars Technica",
+      "fecha": "03-11-2026",
+      "enlace": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "El desarrollo acelerado de los LLM va por delante de la investigación que debería explicarlo, según un estudio",
+      "fuente": "The Decoder",
+      "fecha": "03-11-2026",
+      "enlace": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Fal, startup de inferencia de IA, duplica su valoración hasta 16.000 millones de dólares",
+      "fuente": "TechCrunch",
+      "fecha": "03-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Expertos en políticas de IA declaran los «agentes soberanos» una amenaza para la civilización",
+      "fuente": "The Register",
+      "fecha": "03-11-2026",
+      "enlace": "https://www.theregister.com/security/2026/11/03/ai-policy-wonks-declare-sovereign-agents-a-threat-to-civilization/5307354",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Netflix estrena «AI Discover», una pestaña con IA para elegir qué ver según tu estado de ánimo",
+      "fuente": "TechCrunch",
+      "fecha": "03-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Agentes de IA toman el mando del Allen Telescope Array del SETI en la búsqueda de inteligencia extraterrestre",
+      "fuente": "The Decoder",
+      "fecha": "03-11-2026",
+      "enlace": "https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence/",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Apple restringe a mayores de 18 años las apps de citas y los compañeros de IA",
+      "fuente": "TechCrunch",
+      "fecha": "03-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "La salida a bolsa de Anthropic conseguirá algo tan poco habitual como que el 80% de su plantilla se haga millonaria",
+      "fuente": "Xataka",
+      "fecha": "03-11-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/salida-a-bolsa-anthropic-conseguira-algo-poco-habitual-como-que-80-su-plantilla-se-haga-millonaria",
+      "turno": "2026-11-04_M"
+    },
+    {
+      "titulo": "Anthropic ya ingresa 17.000 millones al trimestre. Su factura de computación es más de 50 veces mayor",
+      "fuente": "Xataka",
+      "fecha": "03-11-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/anthropic-ingresa-17-000-millones-al-trimestre-su-factura-computacion-50-veces-mayor",
+      "turno": "2026-11-04_M"
+    },
+    {
       "titulo": "GPT-6 Astra mejora a otro modelo de IA retocándole sus pesos, sin reentrenarlo",
       "fuente": "Xataka",
       "fecha": "03-11-2026 15:01",

@@ -1,146 +1,134 @@
 {
   "seccion": "ia",
-  "actualizado": "03-11-2026 16:11",
+  "actualizado": "04-11-2026 04:10",
   "destacadas": [
     {
-      "titulo": "GPT-6 Astra mejora a otro modelo de IA retocándole sus pesos, sin reentrenarlo",
-      "resumen": "Investigadores del MIT comprobaron que GPT-6 Astra, de OpenAI, puede modificar directamente los parámetros de otra red: en Qwen3.5-0.8B, de Alibaba, mejoró notablemente las matemáticas tocando solo el 0,016 % de sus pesos. El artículo aclara que no es automejora recursiva en sentido estricto, aunque señala el riesgo de que los modelos de frontera sean más difíciles de evaluar y controlar si estas mejoras se acumulan.",
+      "titulo": "El abogado general del TJUE concluye que Gemini puede vulnerar los derechos de los editores",
+      "resumen": "El abogado general del TJUE, Maciej Szpunar, ha concluido que Gemini puede infringir los derechos de los editores cuando reproduce de forma reconocible sus publicaciones o accede a ellas eludiendo medidas técnicas de protección. El caso parte de la demanda de la editora húngara Like Company contra Google. Las conclusiones no son vinculantes y el tribunal aún debe dictar sentencia, pero abren la vía a reclamaciones económicas de los medios.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/llegada-ia-automejora-recursiva-que-significa-que-astra-haya-ayudado-a-modificar-otro-modelo-ia-que-riesgos-beneficios-conlleva",
-      "fecha": "03-11-2026 15:01"
+      "enlace": "https://www.xataka.com/robotica-e-ia/google-recibe-reves-tjue-uso-noticias-gemini-medios-ganan-terreno-para-reclamar-compensaciones",
+      "fecha": "03-11-2026 20:25"
     },
     {
-      "titulo": "Drax quiere un centro de datos de 20.000 millones de libras en su central de biomasa para alimentar la IA británica",
-      "resumen": "Drax, junto a Brookfield y su empresa Radiant, plantea un centro de datos de más de 1 GW en North Yorkshire, con una primera fase de 100 MW a principios de 2028 y 2.500 millones de libras. Aún faltan permisos, un inquilino y la aprobación para desviar hasta 500 MW de su generación, que quema pellets de madera importados.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/on-prem/2026/11/03/drax-wants-to-feed-britains-ai-habit-with-20b-datacenter-at-biomass-power-station/5307237",
-      "fecha": "03-11-2026 14:27"
-    },
-    {
-      "titulo": "Nvidia pide a sus clientes de nube que reduzcan el negocio con empresas chinas",
-      "resumen": "Según The Information y el Financial Times, Nvidia ha pedido de palabra a algunos proveedores de nube, incluidos neoclouds que respalda, que acepten menos clientes chinos en contratos futuros y que revelen quién usa los chips. La directriz no es obligatoria y busca cerrar la vía del alquiler remoto, que los controles de exportación de EE. UU. no cubren.",
+      "titulo": "OpenAI dice que GPT-6 Astra diseñó un dispositivo de hardware desde cero en menos de una semana",
+      "resumen": "Según OpenAI, GPT-6 Astra se encargó de todo el proceso, desde la carcasa y el diseño de la placa hasta el firmware y la interfaz, de un aparato para hablar con el agente Codex. Un fabricante produjo un pequeño lote de prototipos en menos de un mes, con varias rondas de revisión porque Astra no siempre tenía en cuenta tolerancias y montaje. Un modelo interno más nuevo logra 0,875 en BenchCAD 2.0 frente a 0,594 de Astra.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/",
-      "fecha": "03-11-2026 13:22"
+      "enlace": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
+      "fecha": "03-11-2026 21:15"
     },
     {
-      "titulo": "OpenAI paga hasta 172.000 dólares a quien encuentre fallos de seguridad",
-      "resumen": "OpenAI ha cuadruplicado su programa de recompensas: hasta 30.000 dólares por vulnerabilidades críticas en ChatGPT o Codex y 100.000 por hallazgos excepcionales, con bonos que elevan el total a unos 172.000. Añade un sistema de lealtad de cinco niveles, pagos retroactivos para los últimos 30 días y una auditoría intensiva junto a la firma Cathedral.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/",
-      "fecha": "03-11-2026 11:42"
+      "titulo": "Google dejará a los colegios prescindir de la IA, pero a cambio tendrán que renunciar también al buscador",
+      "resumen": "Los centros que usen los productos educativos de Google tendrán la IA desactivada por defecto y los administradores deberán activarla a mano en los próximos meses. Gemini, Gemini Notebook, Gemini en Classroom y Google Search van en el mismo paquete: o todo o nada, según el vicepresidente de educación Chris Phillips. Quien la active podrá elegir entre el Gemini estándar y la versión «Guided Learning», de tutoría sin dar todas las respuestas.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+      "fecha": "03-11-2026 18:54"
     },
     {
-      "titulo": "Gartner: los modelos abiertos pueden hacer el 90 % del trabajo agéntico a una veinteava parte del coste",
-      "resumen": "Un informe de Gartner sostiene que nueve de cada diez pasos de un flujo de agentes son rutinarios y que un modelo de pesos abiertos cuesta una veinteava parte que un modelo de frontera usado en cada paso. Los propios analistas rebajan el ahorro real a cinco o seis veces y prevén que en 2030 el 90 % de esos pasos corra en modelos abiertos.",
+      "titulo": "Apple abre Siri AI a las aplicaciones de terceros con iOS 27.3",
+      "resumen": "Con iOS 27.3, en versión Developer Preview, los desarrolladores pueden integrar Siri AI en «todas las apps», con acceso al contexto personal, lenguaje natural y conciencia de pantalla. Se añade además «app skills», que combina varias tareas en una sola acción. Las capacidades ampliadas llegan también a apps propias como Calendario, Mail, Mapas, Fotos o Safari.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+      "fecha": "03-11-2026 21:16"
+    },
+    {
+      "titulo": "Revolut recorta 10 veces el coste de la IA para programar al sustituir Claude por modelos alojados en casa",
+      "resumen": "La fintech británica ha reducido en torno a un 90 % sus costes de inferencia al hacer de los modelos autoalojados su opción por defecto. Usa GLM-5.3, de Z.ai, servido con 56 GPU Nvidia B200 para unos 2.000 ingenieros, a unos 0,30 dólares por millón de tokens. Declara mejoras del 60 % en tiempo de programación y del 70 % en plazo de entrega.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/03/open-models-can-do-90-of-agentic-work-at-a-twentieth-of-the-cost-of-a-frontier-llm-gartner/5307132",
-      "fecha": "03-11-2026 07:19"
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+      "fecha": "03-11-2026 21:07"
     },
     {
-      "titulo": "La «teoría de juegos inversa» como forma de mantener a raya a los agentes de IA",
-      "resumen": "El diseño de mecanismos busca fijar reglas e incentivos para que los agentes se porten bien, sin necesidad de entender su interior. Stephen Morris (MIT) propone recompensar a un modelo por predecir a otro, y Elad Hazan (Princeton) un sistema de solucionadores y auditores con castigo para los tramposos; los propios expertos admiten que las IA no son del todo racionales.",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-      "fecha": "03-11-2026 11:43"
+      "titulo": "OpenAI asegura que las búsquedas en ChatGPT ya equivalen al 20 % de las de Google",
+      "resumen": "Adam Fry, responsable de producto de consumo de ChatGPT, dijo que el volumen de consultas que generan una búsqueda web en ChatGPT iguala el 20 % del de Google, sin precisar la fuente de esta última cifra. OpenAI defiende que los anuncios no han perjudicado el uso del producto y se acerca a una posible salida a bolsa a principios del año próximo. También apuesta por una «Intelligent UI», un lienzo interactivo dentro del chat.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "fecha": "03-11-2026 19:30"
     },
     {
-      "titulo": "El gran ganador de la IA en Apple no es Siri, es el Mac",
-      "resumen": "El Mac ingresó 10.792 millones de dólares entre julio y septiembre, un 23,7 % más que un año antes, impulsado según el artículo por la IA local y los agentes, con el Mac mini como gran beneficiado. Aun así, los ingresos del año siguen un 5,6 % por debajo del récord de 2022 y los precios de la memoria podrían limitar la oferta en Navidad.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ordenadores/gran-ganador-ia-apple-no-siri-mac",
-      "fecha": "03-11-2026 10:47"
+      "titulo": "Anthropic trabaja en FlashProve, un sistema para demostrar qué modelo de IA generó una respuesta",
+      "resumen": "El sistema de código abierto busca ofrecer «inferencia demostrable»: una prueba criptográfica de que una salida procede de un modelo concreto, incluso frente al propio laboratorio. Cada laboratorio publicaría una «huella» del modelo sin revelar sus pesos, y la verificación podría hacerse en local. Es investigación intermedia y no hay planes de desplegarlo en Anthropic ni en otros laboratorios.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "fecha": "03-11-2026 23:41"
     }
   ],
   "titulares": [
     {
-      "titulo": "OpenAI ficha a un exsecretario del Ejército y gana alcance bipartidista justo antes de las elecciones de mitad de mandato",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openai-hires-ex-army-secretary-gaining-bipartisan-reach-just-as-midterms-loom/",
-      "fecha": "03-11-2026"
+      "titulo": "La mayor web de mods de PC se pronuncia sobre la IA: Nexus Mods y las declaraciones de uso",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "fecha": "04-11-2026"
     },
     {
-      "titulo": "Un duelo con Pokémon revela cuáles son los mejores frameworks de JavaScript para la IA",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/devops/2026/11/03/pokemon-bakeoff-reveals-best-javascript-frameworks-for-ai/5307249",
-      "fecha": "03-11-2026"
+      "titulo": "Por favor, dejad de preguntarme cuándo va a estallar la burbuja de la IA",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+      "fecha": "04-11-2026"
     },
     {
-      "titulo": "Por qué no deberías usar la IA para decidir tu voto",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
-      "fecha": "03-11-2026"
-    },
-    {
-      "titulo": "Controlar a los agentes de IA y las pruebas de lealtad de la «superinteligencia»",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
-      "fecha": "03-11-2026"
-    },
-    {
-      "titulo": "Reino Unido en alerta: los ataques de ransomware con IA llegarán en 2028",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/03/britain-on-notice-ai-powered-ransomware-attacks-to-arrive-by-2028/5307200",
-      "fecha": "03-11-2026"
-    },
-    {
-      "titulo": "Los Message Threads de Anthropic reducen un 35 % el tiempo hasta el primer token en conversaciones largas",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/",
-      "fecha": "03-11-2026"
-    },
-    {
-      "titulo": "Huawei dice a sus clientes que busquen ellos la memoria de sus chips de IA, externalizando la compra al mercado negro",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/",
-      "fecha": "03-11-2026"
-    },
-    {
-      "titulo": "«Nuestro riesgo, su beneficio»: Zohran Mamdani sobre la IA y los centros de datos",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
-      "fecha": "03-11-2026"
-    },
-    {
-      "titulo": "Las funciones de IA del Apple Watch para rebobinar y resumir conversaciones entran en fase beta",
+      "titulo": "Los centros de datos recurren a viejos motores de avión mientras crece la espera por la energía",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+      "enlace": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
       "fecha": "03-11-2026"
     },
     {
-      "titulo": "Google lleva Dreambeans a India para acercar a las masas las historias personales generadas por IA",
+      "titulo": "Ballistic Ventures, de Ted Schlein, busca 490 millones para nuevos fondos en pleno auge de la ciberseguridad con IA",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "enlace": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
       "fecha": "03-11-2026"
     },
     {
-      "titulo": "El Internet de las Cosas parecía una gran idea en 2013: los supermercados de Europa están descubriendo que con la IA no lo era tanto",
+      "titulo": "Los ataques con drones de Ucrania aceleran los planes rusos de centros de datos subterráneos",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "El desarrollo acelerado de los LLM va por delante de la investigación que debería explicarlo, según un estudio",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Fal, startup de inferencia de IA, duplica su valoración hasta 16.000 millones de dólares",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Expertos en políticas de IA declaran los «agentes soberanos» una amenaza para la civilización",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/03/ai-policy-wonks-declare-sovereign-agents-a-threat-to-civilization/5307354",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Netflix estrena «AI Discover», una pestaña con IA para elegir qué ver según tu estado de ánimo",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Agentes de IA toman el mando del Allen Telescope Array del SETI en la búsqueda de inteligencia extraterrestre",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "Apple restringe a mayores de 18 años las apps de citas y los compañeros de IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+      "fecha": "03-11-2026"
+    },
+    {
+      "titulo": "La salida a bolsa de Anthropic conseguirá algo tan poco habitual como que el 80% de su plantilla se haga millonaria",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/internet-cosas-parecia-gran-idea-2013-supermercados-europa-estan-descubriendo-que-ia-no-era",
+      "enlace": "https://www.xataka.com/empresas-y-economia/salida-a-bolsa-anthropic-conseguira-algo-poco-habitual-como-que-80-su-plantilla-se-haga-millonaria",
       "fecha": "03-11-2026"
     },
     {
-      "titulo": "Google planea el futuro de los centros de datos y lleva la IA al espacio con Project Suncatcher",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-planea-futuro-los-centros-datos-lleva-ia-espacio-con-project-suncatcher_7056418_0.html",
-      "fecha": "03-11-2026"
-    },
-    {
-      "titulo": "Una IA ha hecho mejor a otra IA con un método inesperado: recortarle lo que le estorbaba",
+      "titulo": "Anthropic ya ingresa 17.000 millones al trimestre. Su factura de computación es más de 50 veces mayor",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/ia-ha-hecho-mejor-a-otra-ia-metodo-inesperado-recortarle-que-le-estorbaba",
-      "fecha": "03-11-2026"
-    },
-    {
-      "titulo": "Google quiere revolucionar las gafas inteligentes: sus nuevas XREAL AURA permiten usar YouTube, Google Maps y tienen Gemini integrado",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/google-quiere-revolucionar-las-gafas-inteligentes-sus-nuevas-xreal-aura-permiten-usar-youtube-google-maps-tienen-gemini-integrado_7056405_0.html",
-      "fecha": "03-11-2026"
-    },
-    {
-      "titulo": "VT Security, experto en ciberseguridad: \"Le di mi Linux a un agente de IA y quiso matar un proceso\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/vt-security-experto-ciberseguridad-le-di-mi-linux-un-agente-ia-quiso-matar-un-proceso_7049604_0.html",
+      "enlace": "https://www.xataka.com/empresas-y-economia/anthropic-ingresa-17-000-millones-al-trimestre-su-factura-computacion-50-veces-mayor",
       "fecha": "03-11-2026"
     }
   ]
