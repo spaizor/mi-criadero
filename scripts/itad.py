@@ -115,10 +115,24 @@ PAUSA = 0.15
 # tienda ponga un precio raro de verdad. Es lo mismo que decidio 'excluir_rutas'
 # frente a un filtro por palabras. Lo que si hay que hacer es repasarla con la
 # cuenta de arriba cuando ITAD de de alta una tienda nueva.
+#
+# Repasada el 05-11-2026, cuando aparecio Gamesporium (desde el 12-10). Las dos
+# que entran convierten un solo juego, SteamWorld Heist II, y las dos lo
+# delatan igual:
+#
+#     Gamesporium   26,61 a 26,96 segun el dia: el cambio moviendose solo
+#     AllYouPlay    26,10 / 26,11, o sea 29,99 USD x 0,871, el dolar otra vez
+#
+# Con eso fueron "Mas barato" de ese juego en 21 de 96 pasadas desde el 23-10,
+# por 15 a 80 centimos sobre las de euros. El resto de sus tarifas acaban en
+# .99 (AllYouPlay 14 de 15), pero se van enteras como se fue Muve, por
+# decision del usuario. Cuesta poco: AllYouPlay no ha ganado nunca con un
+# precio en euros, y Gamesporium una vez (Aeterna Noctis a 2,99 el 31-10).
 TIENDAS_FUERA = {
     "WinGameStore",
     "GamesPlanet FR", "GamesPlanet UK", "GamesPlanet DE", "GamesPlanet US",
     "Muve", "Zapagames", "Fortuna Digital",
+    "Gamesporium", "AllYouPlay",
 }
 
 # La tienda Steam se ignora aqui aunque ITAD la traiga, y no es un descuido: su

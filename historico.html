@@ -177,7 +177,14 @@
         }
       }));
 
-      indices[seccion] = partes.flat();
+      // El mes se pide entero, pero solo se queda lo de los turnos que salen
+      // en el desplegable. Si el corte de los 90 dias cae el 23 de mayo, el
+      // fichero de mayo trae tambien del 1 al 22, y el boton de "ver el turno"
+      // de esas noticias no tendria turno al que ir: se pulsaria sin que
+      // pasara nada. Asi buscador y desplegable cubren los mismos 90 dias.
+      const turnos = new Set(entradas.map((e) => e.fichero));
+      indices[seccion] = partes.flat()
+        .filter((n) => turnos.has(n.turno + '.json'));
       return indices[seccion];
     }
 

@@ -399,11 +399,20 @@ Cuatro cosas mas que hay que saber:
 anterior al buscador (asi se hizo con tecnologia y nintendo) o para reparar; el
 dia a dia lo lleva `archivar` solo.
 
-**Los tres limites del historico no son el mismo, y conviene tenerlo claro:**
-en disco no caduca nada (las rutinas no borran); el desplegable de dia y turno
-enseña los ultimos 90 dias exactos (`DIAS` en `historico.html`); y el buscador
-cubre esos mismos 90 dias **redondeados al mes**, porque los meses salen de las
-entradas ya filtradas pero se pide el fichero del mes entero. Si el corte cae el
-23 de mayo, `2026-05.json` entra completo. En la practica el buscador ve entre
-90 y 120 dias segun el dia del mes. No se noto hasta ahora porque el historico
-empezo el 07-08-2026: los tres limites coinciden hasta el 05-11-2026.
+**Los limites del historico:** en disco no caduca nada (las rutinas no borran);
+el desplegable de dia y turno enseña los ultimos 90 dias exactos (`DIAS` en
+`historico.html`), y **el buscador cubre esos mismos 90 dias**. No sale solo:
+el fichero se pide por meses, y si el corte cae el 23 de mayo `2026-05.json`
+trae tambien del 1 al 22. Hasta el 05-11-2026 el buscador se lo quedaba entero
+y veia entre 90 y 120 dias segun el dia del mes, y eso tenia un fallo mudo: el
+boton "ver el turno" de una noticia mas vieja que el desplegable busca su turno
+en el y, al no encontrarlo, no hacia nada. Desde entonces el buscador **se
+queda solo con los turnos del desplegable**. Se eligio eso y no abrir el turno
+por fuera del desplegable, que conservaba los dias de mas a cambio de dejar el
+desplegable marcando otro dia: esos dias de mas no los anunciaba la pagina, que
+dice "Se guardan los ultimos 90 dias".
+
+Hasta ese dia los dos limites coincidieron, y no porque el historico empezara
+el 07-08: tecnologia tiene turnos del 06-08 y nintendo del 07-08, pero estan en
+el formato antiguo (un solo array `noticias`) y `escribir_busqueda` solo lee
+`destacadas` y `titulares`, asi que nunca entraron en el buscador.

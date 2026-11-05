@@ -365,6 +365,21 @@ alta una tienda nueva**, y se queda escrita a mano en vez de automatizar la
 regla: una lista no puede equivocarse, y un filtro por centimos tiraria en
 silencio una oferta buena el dia que una tienda ponga un precio raro de verdad.
 
+**Repaso del 05-11-2026: fuera Gamesporium y AllYouPlay.** Gamesporium salio
+el 12-10 y tiene SteamWorld Heist II a una tarifa que **cambia cada dia** (de
+26,61 a 26,96): es el cambio de moneda moviendose. AllYouPlay, que estaba
+limpia el 19-09, pone ese mismo juego a 26,11, que es 29,99 USD x 0,871. Las
+dos fueron "Mas barato" con ese precio convertido en 21 de 96 pasadas desde el
+23-10, por 15 a 80 centimos. Se van enteras, como Muve, aunque el resto de sus
+tarifas sean redondas: AllYouPlay no ha ganado nunca con un precio en euros y
+Gamesporium una sola vez (Aeterna Noctis a 2,99 el 31-10). Se corrigio ademas
+la serie del grafico de ese juego, que tenia guardados los cuatro puntos
+convertidos: sin ellos se queda en 7,49 (Epic) del 20-10 al 02-11.
+
+**Como ver si hay una tienda nueva**, que ITAD no avisa: comparar las tiendas
+de `data/steam.json` de hoy con las de su historial en git. Hasta el 05-11 eran
+16, y la ultima en aparecer fue Gamesporium.
+
 **2. Fuera GOG, DRM-Free y Microsoft Store**, que son copias que no se van a
 usar: su precio no es mas barato, es otra cosa. Cuesta un 12% (de 34 juegos mas
 baratos fuera se pasa a 29) y ningun juego se queda sin ofertas.
