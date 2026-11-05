@@ -3,6 +3,160 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "GPT-6 Astra saboteó en silencio la investigación en seguridad de IA inventando obstáculos",
+      "fuente": "The Decoder",
+      "fecha": "05-11-2026 15:08",
+      "enlace": "https://the-decoder.com/openais-gpt-6-astra-quietly-sabotaged-safety-research-by-inventing-fake-obstacles/",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Anthropic no corregirá un fallo de Claude Dispatch que permite ejecutar comandos remotos entre empresas",
+      "fuente": "The Register",
+      "fecha": "05-11-2026 14:00",
+      "enlace": "https://www.theregister.com/research/2026/11/05/anthropic-wont-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remote-commands-across-corporate-boundaries/5307684",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Anthropic cambia de postura y paga por contenido de prensa por primera vez",
+      "fuente": "The Decoder",
+      "fecha": "05-11-2026 15:09",
+      "enlace": "https://the-decoder.com/anthropic-reverses-course-and-pays-for-news-content-for-the-first-time/",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Anthropic impide que Claude Code recree videojuegos existentes",
+      "fuente": "Xataka",
+      "fecha": "05-11-2026 14:00",
+      "enlace": "https://www.xataka.com/videojuegos/anthropic-toma-medidas-drasticas-clones-videojuegos-ia-hechos-claude-esta-ver-que-sirva-para-algo",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "El anillo inteligente de Aina lleva pantalla, joystick y micrófono para hablar con agentes de IA",
+      "fuente": "TechCrunch",
+      "fecha": "05-11-2026 15:42",
+      "enlace": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "El debut en el Nasdaq de Agility Robotics somete a escrutinio el mercado de robots humanoides",
+      "fuente": "Ars Technica",
+      "fecha": "05-11-2026 13:00",
+      "enlace": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "ElevenLabs permite publicar música generada con IA directamente en SoundCloud",
+      "fuente": "The Verge",
+      "fecha": "05-11-2026 16:00",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Tras la derrota en las elecciones, OpenAI intenta ganarse a las comunidades que necesita para expandir su IA",
+      "fuente": "The Decoder",
+      "fecha": "05-11-2026",
+      "enlace": "https://the-decoder.com/after-midterm-rout-openai-tries-to-win-over-communities-it-needs-for-ai-expansion/",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Anthropic pierde a Catherine Wu, responsable de producto de Claude Code, que se va a OpenAI",
+      "fuente": "The Decoder",
+      "fecha": "05-11-2026",
+      "enlace": "https://the-decoder.com/anthropic-loses-product-lead-catherine-wu-behind-claude-code-to-openai/",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "El gran despliegue de IA de las tecnológicas no acabará hasta que alguien lo detenga",
+      "fuente": "The Verge",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Los costes ocultos de la cadena de suministro del boom de la IA",
+      "fuente": "The Verge",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Box recurre a Nemotron de Nvidia para su nuevo sistema de recuperación de contenido pensado para agentes",
+      "fuente": "TechCrunch",
+      "fecha": "05-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Una startup de YC pone 1 millón de dólares sobre cinco problemas sin resolver de ciencia de materiales para la IA",
+      "fuente": "TechCrunch",
+      "fecha": "05-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Descubrir fármacos es laborioso: esta startup de IA se salta el trabajo de laboratorio",
+      "fuente": "Wired",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.wired.com/story/finding-new-drugs-is-laborious-this-ai-startup-is-skipping-the-lab-work/",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "El próximo truco de la IA: hablar con delfines",
+      "fuente": "Wired",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Se dedica a trolear a los laboratorios de IA y ahora todos quieren trabajar con él",
+      "fuente": "Wired",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Qualcomm busca fuera del móvil lo que le quita la crisis de la memoria: coches, IA y antenas para SpaceX",
+      "fuente": "Xataka",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/qualcomm-busca-fuera-movil-que-le-quita-crisis-memoria-coches-ia-antenas-para-spacex",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Apple corta el grifo de la inteligencia artificial a sus empleados para intentar reducir costes",
+      "fuente": "ComputerHoy",
+      "fecha": "05-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/apple-corta-grifo-inteligencia-artificial-sus-empleados-para-intentar-reducir-costes_7057473_0.html",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Apple quiere que Siri IA esté en todas partes. Al mismo tiempo, limita a 200 dólares el gasto de tokens para sus empleados",
+      "fuente": "Xataka",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/apple-quiere-que-siri-ia-este-todas-partes-al-tiempo-limita-a-200-dolares-gasto-tokens-para-sus-empleados",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Juanjo Valiño, programador, sobre la llegada de la IA: \"A los programadores nos han arrancado de cuajo nuestra identidad de la noche a la mañana\"",
+      "fuente": "ComputerHoy",
+      "fecha": "05-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/juanjo-valino-programador-sobre-llegada-ia-los-programadores-nos-han-arrancado-cuajo-nuestra-identidad-noche-manana_7057459_0.html",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "Las escuelas de EEUU quieren un Google sin IA, pero se enfrentan a un dilema: o aceptan sus resúmenes con IA o se quedan sin buscador",
+      "fuente": "Xataka",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/escuelas-eeuu-quieren-google-ia-se-enfrentan-a-dilema-aceptan-sus-resumenes-ia-se-quedan-buscador",
+      "turno": "2026-11-05_T"
+    },
+    {
+      "titulo": "He probado el primer portátil con chip de Nvidia: tiene superpoderes de IA, pero pincha en eficiencia energética",
+      "fuente": "ComputerHoy",
+      "fecha": "05-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/he-probado-primer-portatil-con-chip-nvidia-asus-proart-p16-2026-tiene-superpoderes-ia-pero-pincha-eficiencia-energetica_7055093_0.html",
+      "turno": "2026-11-05_T"
+    },
+    {
       "titulo": "ChatGPT ya crea GIFs animados a partir de texto o fotos con el modelo Images 2.6 de OpenAI",
       "fuente": "The Decoder",
       "fecha": "04-11-2026 20:44",
