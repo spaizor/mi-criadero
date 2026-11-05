@@ -3,6 +3,237 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "Apple revisará los enlaces públicos de iCloud en busca de «contenido dañino»",
+      "fuente": "The Register",
+      "fecha": "04-11-2026 22:49",
+      "enlace": "https://www.theregister.com/security/2026/11/04/apple-turns-icloud-into-spy-cloud-will-start-looking-at-public-share-links/5307681",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Hackers vinculados al Kremlin explotaron fallos de iOS y Android para infectar móviles",
+      "fuente": "Ars Technica",
+      "fecha": "04-11-2026 23:26",
+      "enlace": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Macronix, el principal proveedor de ROM de los cartuchos de Switch, abandona ese negocio",
+      "fuente": "Engadget",
+      "fecha": "04-11-2026 19:39",
+      "enlace": "https://www.engadget.com/2306886/nintendos-main-switch-cartridge-supplier-is-leaving-the-rom-business/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Los estadounidenses votan en masa contra los centros de datos en las elecciones",
+      "fuente": "Engadget",
+      "fecha": "04-11-2026 16:28",
+      "enlace": "https://www.engadget.com/2306534/americans-overwhelmingly-voted-against-data-centers-in-the-midterms/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Hackers robaron archivos y correos de clientes de DreamHost durante meses",
+      "fuente": "TechCrunch",
+      "fecha": "04-11-2026 21:36",
+      "enlace": "https://techcrunch.com/2026/11/04/hackers-stole-dreamhost-customer-files-and-inboxes-during-months-long-attack/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Snapchat supera los 30 millones de suscriptores de pago pero sus acciones caen un 12 %",
+      "fuente": "TechCrunch",
+      "fecha": "04-11-2026 22:49",
+      "enlace": "https://techcrunch.com/2026/11/04/snapchat-surpasses-30m-paid-subscribers/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Apple encuentra en los 2 nm una salida a sus problemas de fabricación",
+      "fuente": "Xataka",
+      "fecha": "04-11-2026 16:01",
+      "enlace": "https://www.xataka.com/componentes/apple-encuentra-2-nm-salida-a-sus-problemas-fabricacion",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Xbox prueba jugar en la nube con el móvil como mando y conexión wifi directa del Xbox Nano",
+      "fuente": "The Verge",
+      "fecha": "04-11-2026 20:00",
+      "enlace": "https://www.theverge.com/news/1026455/xbox-nano-direct-cloud-wifi-connection-xbox-cloud-gaming-phone-controller",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "X asegura que su nueva aplicación web es mucho más rápida",
+      "fuente": "The Verge",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.theverge.com/tech/1027113/x-says-its-updated-web-app-is-way-faster",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "VMware lanza vSphere Express para virtualizar hasta 128 núcleos",
+      "fuente": "Ars Technica",
+      "fecha": "04-11-2026",
+      "enlace": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Waymo confirma que cambiará su relación con Uber en enero de 2028",
+      "fuente": "TechCrunch",
+      "fecha": "04-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/04/waymo-confirms-its-shaking-up-its-uber-relationship-in-january-2028/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Fedora 45 ya está terminada",
+      "fuente": "The Register",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/04/fedora-45-is-finally-finished-and-fit/5307631",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "El Enough Phone pondrá a prueba si la gente quiere de verdad móviles pequeños",
+      "fuente": "Ars Technica",
+      "fecha": "04-11-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "God of War Laufey se retrasa hasta el 20 de mayo",
+      "fuente": "Engadget",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.engadget.com/2306802/god-of-war-laufey-is-delayed-until-may-20/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "El Bluetooth será mucho más rápido en 2027",
+      "fuente": "Engadget",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.engadget.com/2306723/bluetooth-is-going-to-get-a-lot-faster-in-2027/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Sequoia da marcha atrás y deshace 20 años de expansión",
+      "fuente": "TechCrunch",
+      "fecha": "04-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Titan OS levanta 46 millones de dólares para expandir su sistema de smart TV",
+      "fuente": "TechCrunch",
+      "fecha": "04-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/04/titan-os-raises-46-million-to-expand-its-smart-tv-os-internationally/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Un informático del Gobierno de EE. UU. se declara culpable de enviar archivos secretos a Etiopía",
+      "fuente": "The Register",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.theregister.com/security/2026/11/04/us-gov-it-worker-pleads-guilty-to-sending-top-secret-files-to-ethiopia/5307595",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "HP Inc ficha al ex jefe de GSK como nuevo CEO",
+      "fuente": "The Register",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.theregister.com/personal-tech/2026/11/04/hp-inc-hires-former-gsk-boss-as-ceo/5307588",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Comprar electricidad barata y venderla cara: el negocio de las baterías eléctricas tiene un enemigo inesperado",
+      "fuente": "Xataka",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.xataka.com/energia/comprar-electricidad-barata-venderla-cara-negocio-baterias-tiene-enemigo-inesperado",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Un ciberataque altera los bancos de sangre en Francia y enciende las alarmas en Europa",
+      "fuente": "Hipertextual",
+      "fecha": "04-11-2026",
+      "enlace": "https://hipertextual.com/seguridad/ciberataque-refrigeracion-sangre-francia/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "La radio FM tiene compañía: España acelera la radio digital DAB+ sin interferencias",
+      "fuente": "ADSLZone",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/radio-espana-dab-digital-interferencias-acelera-compania/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "La Séptima Pantalla, el único programa de toda la programación del nuevo canal de la TDT que se emitirá en grabado y sin cortes de publicidad",
+      "fuente": "ComputerHoy",
+      "fecha": "04-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-pantalla-unico-programa-toda-programacion-nuevo-canal-tdt-que-se-emitira-grabado-sin-cortes-publicidad_7057108_0.html",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Los ciberataques siguen afectando a empresas europeas y ahora golpean al banco francés Crédit Mutuel Arkéa",
+      "fuente": "Xataka",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.xataka.com/seguridad/ciberataques-siguen-afectando-a-empresas-europeas-ahora-golpean-al-banco-frances-credit-mutuel-arkea",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "‘God of War Laufey’ retrasa su lanzamiento: cuándo llega a PS5",
+      "fuente": "Hipertextual",
+      "fecha": "04-11-2026",
+      "enlace": "https://hipertextual.com/videojuegos/god-of-war-laufey-retrasa-su-lanzamiento-cuando-llega-a-ps5/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Madrid estrena un macroparque de Navidad con entrada gratis: tendrá un belén gigante y una pista de hielo natural",
+      "fuente": "ADSLZone",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/getavoli-getafe-parque-navidad-gratis-belen-pista-hielo/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Ya puedes reservar tus Raven Prism, las gafas inteligente con un PC Linux integrado",
+      "fuente": "ComputerHoy",
+      "fecha": "04-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/ya-puedes-reservar-tus-raven-prism-las-gafas-inteligente-con-un-pc-linux-integrado_7057094_0.html",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Hay físicos empeñados en demostrar que Einstein se equivocó y los neutrinos del Mediterráneo, de momento, no les dan la razón",
+      "fuente": "Xataka",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.xataka.com/espacio/einstein-a-prueba-fondo-mediterraneo-neutrinos-no-encuentran-grietas-teoria-relatividad-momento",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Honor prepara un móvil con una batería que podría durar una semana",
+      "fuente": "Hipertextual",
+      "fecha": "04-11-2026",
+      "enlace": "https://hipertextual.com/mobile/honor-movil-bateria-15000-mah-semana-autonomia/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Xiaomi fulmina a Jia Wei, su responsable de marketing en Europa: del culto a su imagen personal al despido",
+      "fuente": "ADSLZone",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/marcas/xiaomi-despide-jia-wei-marketing-europa/",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Consiguen ejecutar Windows 11 sin tarjeta gráfica, pero el resultado es desesperante: apenas 2 FPS",
+      "fuente": "ComputerHoy",
+      "fecha": "04-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/consiguen-ejecutar-windows-11-sin-tarjeta-grafica-pero-resultado-es-desesperante-apenas-2-fps_7057212_0.html",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Los centros de datos también se presentaban a las elecciones de EEUU y han perdido estrepitosamente",
+      "fuente": "Xataka",
+      "fecha": "04-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/centros-datos-tambien-se-presentaban-a-elecciones-eeuu-han-perdido-estrepitosamente",
+      "turno": "2026-11-05_M"
+    },
+    {
+      "titulo": "Nintendo recibe un golpe que podría afectar a todos los que compran juegos físicos",
+      "fuente": "Hipertextual",
+      "fecha": "04-11-2026",
+      "enlace": "https://hipertextual.com/videojuegos/nintendo-switch-2-problema-juegos-fisicos-cartuchos/",
+      "turno": "2026-11-05_M"
+    },
+    {
       "titulo": "Binance perdió 6.340 millones de dólares en un robo que empezó con entrevistas de trabajo falsas",
       "fuente": "Engadget",
       "fecha": "04-11-2026 09:50",
