@@ -3,6 +3,237 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "«*sshole»: la vulnerabilidad que permite entrar por SSH en dispositivos Linux sin contraseña",
+      "fuente": "Ars Technica",
+      "fecha": "06-11-2026 00:09",
+      "enlace": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "SpaceX no convenció a las operadoras con Starlink móvil, así que Musk se crea su propia operadora",
+      "fuente": "Xataka",
+      "fecha": "05-11-2026 19:31",
+      "enlace": "https://www.xataka.com/telefono-movil/spacex-no-convencio-a-operadoras-telefonia-starlink-asi-que-elon-musk-se-esta-creando-su-propia-operadora-movil",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Meta, Google y TikTok demandan al fiscal general de California por la ley de redes sociales para menores",
+      "fuente": "TechCrunch",
+      "fecha": "06-11-2026 01:01",
+      "enlace": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "The New York Times negocia comprar Letterboxd por unos 330 millones de dólares",
+      "fuente": "The Verge",
+      "fecha": "06-11-2026 00:45",
+      "enlace": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "El retraso del New Glenn de Blue Origin se alarga hasta 2027",
+      "fuente": "Engadget",
+      "fecha": "05-11-2026 23:10",
+      "enlace": "https://www.engadget.com/2308647/blue-origin-new-glenn-launch-delay-will-continue-into-2027/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Xbox rediseña su app para PC: más simple y hasta un 60 % más rápida",
+      "fuente": "Hipertextual",
+      "fecha": "05-11-2026 22:20",
+      "enlace": "https://hipertextual.com/videojuegos/nueva-app-xbox-pc/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Sony revive los auriculares del Walkman de 1979 con los MDR-3R",
+      "fuente": "Xataka",
+      "fecha": "05-11-2026 20:59",
+      "enlace": "https://www.xataka.com/audio/sony-revive-auriculares-walkman-1979-nuevos-mdr-3r-se-suma-al-regreso-audio-cable",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "EEUU alerta de ataques masivos a congeladores industriales de supermercados y bases militares",
+      "fuente": "TechCrunch",
+      "fecha": "05-11-2026 19:48",
+      "enlace": "https://techcrunch.com/2026/11/05/u-s-government-warns-of-ongoing-cyber-threat-amid-mass-hacks-of-industrial-retail-and-military-freezers/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Un grupo de atacantes ataca a las fintech indias durante los fines de semana, cuando los defensores no vigilan",
+      "fuente": "The Register",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Blue Origin dice que construye un motor de cohete de mayor rendimiento a una cuarta parte del coste",
+      "fuente": "Ars Technica",
+      "fecha": "06-11-2026",
+      "enlace": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "El propietario de T-Mobile sobre el operador móvil de Elon Musk: «Bienvenido a la fiesta»",
+      "fuente": "The Verge",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "AWS Kiro quiere resolver la crisis de identidad añadiendo otra identidad: un orquestador de bots",
+      "fuente": "The Register",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/05/aws-kiro-aims-to-solve-identity-crisis-by-adding-another-identity-bot-orchestrator/5307965",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Sony recupera los auriculares originales del Walkman y les añade USB-C",
+      "fuente": "Ars Technica",
+      "fecha": "05-11-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Bose retira baterías del S1 Pro por riesgo de incendio y sobrecalentamiento",
+      "fuente": "Engadget",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.engadget.com/2308609/bose-recalls-s1-pro-battery-packs-due-to-fire-and-overheating-risks/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Serve Robotics lanza un negocio para convertirse en el AWS de los robots",
+      "fuente": "TechCrunch",
+      "fecha": "05-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Warby Parker habría filtrado el lanzamiento de las gafas inteligentes Android XR de Google",
+      "fuente": "Engadget",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.engadget.com/2308376/warby-parker-seemingly-spilled-the-beans-on-googles-android-xr-smart-glasses-launch/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "La FAA retira por fin los disquetes del control del tráfico aéreo",
+      "fuente": "Engadget",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.engadget.com/2308330/the-faa-is-finally-phasing-out-floppy-disks-from-air-traffic-control/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Obtener root en un sistema Linux con musl enviándole una contraseña demasiado larga",
+      "fuente": "The Register",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.theregister.com/security/2026/11/05/get-root-on-a-musl-linux-system-by-slamming-it-with-an-overly-long-password/5307910",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Los jugadores se esfuerzan por «mejorar» GTA VI con el DLSS 5 de Nvidia",
+      "fuente": "Ars Technica",
+      "fecha": "05-11-2026",
+      "enlace": "https://arstechnica.com/gaming/2026/11/gamers-go-to-ridiculous-lengths-to-improve-gta-vi-with-nvidias-dlss-5/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Instagram lleva Edits al escritorio para competir con CapCut",
+      "fuente": "TechCrunch",
+      "fecha": "05-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/05/instagram-brings-edits-to-desktop-to-take-on-capcut/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "La Junta Electoral autoriza el uso de MiDNI para identificarse al votar en las elecciones generales del 29 de noviembre",
+      "fuente": "Xataka",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.xataka.com/aplicaciones/junta-electoral-autoriza-uso-midni-para-identificarse-al-votar-elecciones-generales-29-noviembre",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "¡Que ‘GTA 6’ llegue ya! Rockstar calienta el lanzamiento del juego con estas espectaculares imágenes",
+      "fuente": "Hipertextual",
+      "fecha": "05-11-2026",
+      "enlace": "https://hipertextual.com/videojuegos/espectaculares-nuevas-imagenes-de-gta-6/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Orange no cobra lo mismo si no devuelves sus routers: así cambian las penalizaciones",
+      "fuente": "ADSLZone",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/orange-no-devolver-routers-penalizaciones/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "La Séptima ya está aquí y no solo en la TDT: todas las formas de ver el nuevo canal, además de televisión gratis y en abierto",
+      "fuente": "ComputerHoy",
+      "fecha": "05-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-ya-esta-aqui-no-solo-tdt-todas-las-formas-ver-nuevo-canal-ademas-television-gratis-abierto_7057599_0.html",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Hundimiento histórico de la bolsa estadounidense: las grandes tecnológicas se dejan a esta hora entre un 9% y un 19%",
+      "fuente": "Xataka",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "El Galaxy Fit 4 se filtra y hay una novedad que muchos llevaban años esperando",
+      "fuente": "Hipertextual",
+      "fecha": "05-11-2026",
+      "enlace": "https://hipertextual.com/mobile/galaxy-fit-4-filtraciones-funciones-cambios/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Garmin acaba con el molesto fallo de los Fénix 8 en su última actualización",
+      "fuente": "ADSLZone",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-fenix-8-beta-24-15-corrige-bloqueo/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Samsung Galaxy S27, filtrados sus posibles procesadores y qué modelos tendrán Snapdragon y cuáles tendrán Exynos",
+      "fuente": "ComputerHoy",
+      "fecha": "05-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/samsung-galaxy-s27-filtrados-sus-posibles-procesadores-que-modelos-tendran-snapdragon-cuales-tendran-exynos_7057592_0.html",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Nunca habíamos dedicado tanto tiempo a nuestros hijos y, aun así, nos sentimos malos padres por salir a cenar sin ellos",
+      "fuente": "Xataka",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.xataka.com/medicina-y-salud/nunca-habiamos-dedicado-tiempo-a-nuestros-hijos-asi-nos-sentimos-malos-padres-salir-a-cenar-ellos",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Costco abrirá en Madrid una tienda de 15000 metros cuadrados: llega en 2027 con gasolinera propia y restaurante",
+      "fuente": "ADSLZone",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/costco-torrejon-ardoz-madrid-2027-gasolinera-restaurante/",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "Sony vuelve a los ochenta con los MDR-3R, una versión modernizada de los auriculares para Walkman",
+      "fuente": "ComputerHoy",
+      "fecha": "05-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/sony-vuelve-los-ochenta-con-los-mdr-3r-una-version-modernizada-los-auriculares-para-walkman_7057328_0.html",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "En 2007, EEUU tuvo la disparatada idea de fabricar cemento quemando montañas de alfombras viejas: el experimento funcionó, hasta que llegó la factura",
+      "fuente": "Xataka",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.xataka.com/energia/2007-eeuu-tuvo-disparatada-idea-fabricar-cemento-quemando-millones-alfombras-viejas-experimento-funciono-que-llego-factura",
+      "turno": "2026-11-06_M"
+    },
+    {
+      "titulo": "La fibra de DIGI llega a tu calle, pero no puedes contratar: este es EL MOTIVO",
+      "fuente": "ADSLZone",
+      "fecha": "05-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-fibra-smart-clientes-pueden-contratar/",
+      "turno": "2026-11-06_M"
+    },
+    {
       "titulo": "Motorola Signature 27: batería de 7.000 mAh en 7,99 mm y el primer Snapdragon 8 Elite Extreme Gen 6",
       "fuente": "Xataka",
       "fecha": "05-11-2026 14:02",

@@ -1,213 +1,213 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "05-11-2026 15:12",
+  "actualizado": "06-11-2026 03:11",
   "destacadas": [
     {
-      "titulo": "Motorola Signature 27: batería de 7.000 mAh en 7,99 mm y el primer Snapdragon 8 Elite Extreme Gen 6",
-      "resumen": "Motorola presenta su móvil más ambicioso, con pantalla AMOLED de 6,78 pulgadas a 120 Hz, 12.000 nits de brillo pico y una batería de silicio-carbono de 7.000 mAh en un cuerpo de 7,99 mm y 227 gramos. Es el primer teléfono comercial con el Snapdragon 8 Elite Extreme Gen 6, admite GrapheneOS y carga a 90 W por cable y 50 W sin cables. Incluye cámara principal de 50 MP y teleobjetivo periscópico de 200 MP con zoom óptico 3x; ronda los 1.600 dólares.",
+      "titulo": "«*sshole»: la vulnerabilidad que permite entrar por SSH en dispositivos Linux sin contraseña",
+      "resumen": "Un fallo de hace una década en la interacción entre OpenSSH y musl afecta a configuraciones de Alpine Linux, y posiblemente de otras distribuciones, que no usen PAM. Para explotarlo hace falta una cuenta con contraseña hasheada en SHA256 o SHA512 y otra cuenta sin contraseña marcada con «*» en /etc/shadow. Los responsables de Alpine aseguran que basta una conexión y que funciona siempre, sin reintentos.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+      "fecha": "06-11-2026 00:09"
+    },
+    {
+      "titulo": "SpaceX no convenció a las operadoras con Starlink móvil, así que Musk se crea su propia operadora",
+      "resumen": "Tras recibir un no de las grandes operadoras de EEUU, SpaceX ha comprado frecuencias, ha hablado con los dueños de las antenas y ha fichado a un proveedor de tecnología 5G para montar su red. El CEO de T-Mobile, Srini Gopalan, descartó un acuerdo de operador virtual y Verizon dijo no ver «ningún beneficio» en ofrecerlo.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/telefono-movil/motorola-signature-27-caracteristicas-precio-ficha-tecnica",
-      "fecha": "05-11-2026 14:02"
+      "enlace": "https://www.xataka.com/telefono-movil/spacex-no-convencio-a-operadoras-telefonia-starlink-asi-que-elon-musk-se-esta-creando-su-propia-operadora-movil",
+      "fecha": "05-11-2026 19:31"
     },
     {
-      "titulo": "Amazon deja Grubhub y elige a Uber Eats como socio de reparto para Prime",
-      "resumen": "Los miembros de Prime en EE. UU. podrán pedir comida de Uber Eats desde Amazon.com y la app de compras, sin crear cuenta de Uber y sin gastos de envío en pedidos de más de 25 dólares. El acuerdo con Grubhub, vigente desde 2022, termina este jueves, aunque quienes ya activaron Grubhub+ lo conservan hasta el 31 de diciembre de 2027. Para arrancar, ambas compañías ofrecen 20 dólares de descuento en los dos primeros pedidos de 25 dólares o más durante dos semanas.",
+      "titulo": "Meta, Google y TikTok demandan al fiscal general de California por la ley de redes sociales para menores",
+      "resumen": "La ley AB 1709, firmada en septiembre y con entrada en vigor a comienzos de año, prohíbe la reproducción automática y los feeds personalizados a menores de 16 años y obliga a borrar sus cuentas si no se desactivan. Las multas pueden llegar a 50.000 dólares por usuario. Las tres empresas alegan que viola la Primera Enmienda y que la Sección 230 la invalida.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime/",
-      "fecha": "05-11-2026 12:00"
+      "enlace": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/",
+      "fecha": "06-11-2026 01:01"
     },
     {
-      "titulo": "Discord abandona Electron y reescribe su aplicación de escritorio en Rust",
-      "resumen": "Su director técnico, Stanislav Vishnevskiy, anunció que Electron desaparece y que también se abandona React Native: el cliente de escritorio pasa a Rust y los móviles mantienen interfaz nativa compartiendo código con el escritorio. Mostró el cliente de Windows usando 290 MB de RAM, frente a 1 GB o más de la app actual. Aún no hay fecha para el cambio completo, pero esperan lanzar pronto una fase de pruebas con usuarios.",
+      "titulo": "The New York Times negocia comprar Letterboxd por unos 330 millones de dólares",
+      "resumen": "Según el propio Times, mantiene negociaciones en exclusiva para adquirir la red social de cine, que también habría interesado a Sony Pictures y A24. Los cofundadores seguirían al frente reportando a un directivo del grupo, Letterboxd seguiría como servicio independiente y se integraría la tecnología publicitaria del Times.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
-      "fecha": "05-11-2026 12:39"
+      "enlace": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report",
+      "fecha": "06-11-2026 00:45"
     },
     {
-      "titulo": "Las ventas de Switch 2 caen casi un 40 % tras la subida de precio de Nintendo",
-      "resumen": "Nintendo vendió 6,49 millones de Switch 2 en el primer semestre de su año fiscal (3,82 millones en el primer trimestre y 2,67 en el segundo), un 37,4 % menos que los 10,36 millones del mismo periodo anterior. En mayo la consola subió 50 dólares hasta los 500 en EE. UU. por el coste de la memoria y los aranceles. Aun así, el beneficio neto subió un 11 % por el software y la película de Super Mario, y la previsión de 16,5 millones de unidades se mantiene.",
+      "titulo": "El retraso del New Glenn de Blue Origin se alarga hasta 2027",
+      "resumen": "Tras la explosión de un cohete New Glenn en la plataforma en mayo de 2026, un memorando interno del CEO Dave Limp sitúa el próximo lanzamiento en enero de 2027, según el Financial Times. La torre de acceso y el puente de lanzamiento ya están reparados; Limp culpó al clima de la lentitud. Blue Origin tiene contratos con la NASA para una red de comunicaciones en Marte y con Amazon Leo.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2307555/switch-2-sales-fell-by-almost-40-percent-nintendo-increased-prices/",
-      "fecha": "05-11-2026 11:44"
+      "enlace": "https://www.engadget.com/2308647/blue-origin-new-glenn-launch-delay-will-continue-into-2027/",
+      "fecha": "05-11-2026 23:10"
     },
     {
-      "titulo": "Starlink desplegará decenas de miles de estaciones 5G terrestres con Qualcomm desde 2027",
-      "resumen": "SpaceX ha anunciado un acuerdo con Qualcomm para construir una red móvil terrestre en Estados Unidos a partir de 2027, que se combinará con sus satélites para cubrir zonas rurales o sin cobertura. Qualcomm suministrará las plataformas Dragonwing QRU100 y QDU100 con Massive MIMO 64T64R. Es el tercer paso de Starlink tras el internet por satélite y la conexión directa a móviles (Direct to Cell).",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/starlink-antenas-5g-qualcomm-cobertura-terrestre/",
-      "fecha": "05-11-2026 09:59"
+      "titulo": "Xbox rediseña su app para PC: más simple y hasta un 60 % más rápida",
+      "resumen": "La nueva app mejora la navegación de la biblioteca y los filtros, e incorpora un buscador unificado de juegos, complementos y personas, además de acceso más directo a los amigos y a sus partidas. El diseño llegará también a la web de Xbox y a las apps de juego en la nube para cascos de realidad virtual y televisores.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/nueva-app-xbox-pc/",
+      "fecha": "05-11-2026 22:20"
     },
     {
-      "titulo": "Roban los datos de los 20.614 usuarios del portal de ayudas de la agencia noruega Norad",
-      "resumen": "Norad confirmó que unos atacantes accedieron a su portal de subvenciones, creado en 2017, y se llevaron nombres y correos de todos sus 20.614 usuarios registrados, de 12.511 organizaciones. Entraron con 27 cuentas comprometidas y las solicitudes de al menos tres organizaciones se vieron afectadas. La intrusión se detectó el 30 de octubre y la agencia no descarta que haya datos de solicitantes en zonas de conflicto o Estados autoritarios.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/cyber-crime/2026/11/05/norways-aid-agency-pwned-and-all-users-data-is-stolen/5307765",
-      "fecha": "05-11-2026 12:19"
+      "titulo": "Sony revive los auriculares del Walkman de 1979 con los MDR-3R",
+      "resumen": "Los MDR-3R se inspiran en los MDR-3L2 que acompañaron al Walkman TPS-L2: diadema fina y ajustable, estructura abierta y 38 gramos de peso, además del logotipo original. Llegan en plena recuperación del audio con cable.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/audio/sony-revive-auriculares-walkman-1979-nuevos-mdr-3r-se-suma-al-regreso-audio-cable",
+      "fecha": "05-11-2026 20:59"
     },
     {
-      "titulo": "Sony dispara un 44 % su beneficio neto por PlayStation y Spider-Man, aunque la PS5 vende menos",
-      "resumen": "El beneficio neto trimestral de Sony subió a 449.600 millones de yenes (unos 2.840 millones de dólares), un 44 % más. Sony Pictures ganó 581 millones de dólares gracias a «Spider-Man: Brand New Day», que recaudó 2.520 millones. Se vendieron 2,6 millones de PS5 frente a los 4 millones de hace un año, y la próxima consola avanza «según lo previsto», según su director financiero.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1027358/sony-q2-2026-earnings-spider-man-playstation",
-      "fecha": "05-11-2026 12:00"
-    },
-    {
-      "titulo": "Microsoft Authenticator pasará sus copias de seguridad en Android a Google One en enero de 2027",
-      "resumen": "Desde enero de 2027 la app dejará de guardar en la cuenta de Microsoft las copias de las contraseñas de un solo uso y las credenciales 2FA en Android, y usará Google One, que habrá que activar desde la propia app. Microsoft no ha aclarado qué pasará con las copias ya existentes ni con quienes no usen Google One. En iPhone no cambia nada: sigue usando iCloud.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/microsoft-authenticator-abandonara-su-actual-sistema-copias-seguridad-partir-enero-2027_7057465_0.html",
-      "fecha": "05-11-2026 11:43"
+      "titulo": "EEUU alerta de ataques masivos a congeladores industriales de supermercados y bases militares",
+      "resumen": "CISA y el FBI avisan de que hay atacantes comprometiendo sistemas de refrigeración conectados en tiendas y almacenes frigoríficos, con riesgo de incendios y pérdida de inventario. Dos oleadas previas en Reino Unido y Europa subieron la temperatura de equipos en al menos una docena de países, incluidos unos de Danfoss sin actualizaciones, y también afectaron a un banco de sangre en Francia.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/05/u-s-government-warns-of-ongoing-cyber-threat-amid-mass-hacks-of-industrial-retail-and-military-freezers/",
+      "fecha": "05-11-2026 19:48"
     }
   ],
   "titulares": [
     {
-      "titulo": "RadianX promete dispositivos con energía solar que nunca necesitan cargarse",
+      "titulo": "Un grupo de atacantes ataca a las fintech indias durante los fines de semana, cuando los defensores no vigilan",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Blue Origin dice que construye un motor de cohete de mayor rendimiento a una cuarta parte del coste",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "El propietario de T-Mobile sobre el operador móvil de Elon Musk: «Bienvenido a la fiesta»",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "AWS Kiro quiere resolver la crisis de identidad añadiendo otra identidad: un orquestador de bots",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/05/aws-kiro-aims-to-solve-identity-crisis-by-adding-another-identity-bot-orchestrator/5307965",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Sony recupera los auriculares originales del Walkman y les añade USB-C",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Bose retira baterías del S1 Pro por riesgo de incendio y sobrecalentamiento",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2308609/bose-recalls-s1-pro-battery-packs-due-to-fire-and-overheating-risks/",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Serve Robotics lanza un negocio para convertirse en el AWS de los robots",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/05/radianx-promises-solar-powered-devices-that-never-need-charging/",
+      "enlace": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "Microsoft arregló un error de copiar y pegar en Excel 2016, lo reintrodujo y ahora lo ha vuelto a arreglar",
+      "titulo": "Warby Parker habría filtrado el lanzamiento de las gafas inteligentes Android XR de Google",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2308376/warby-parker-seemingly-spilled-the-beans-on-googles-android-xr-smart-glasses-launch/",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "La FAA retira por fin los disquetes del control del tráfico aéreo",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2308330/the-faa-is-finally-phasing-out-floppy-disks-from-air-traffic-control/",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Obtener root en un sistema Linux con musl enviándole una contraseña demasiado larga",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/software/2026/11/05/microsoft-fixed-excel-2016-copy-paste-bug-then-reintroduced-it-now-its-fixed-again/5307782",
+      "enlace": "https://www.theregister.com/security/2026/11/05/get-root-on-a-musl-linux-system-by-slamming-it-with-an-overly-long-password/5307910",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "«Stop dirty datacenters»: protestas por toda Europa piden una moratoria a la construcción de centros de datos",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/systems/2026/11/05/stop-dirty-datacenters-europe-wide-protests-planned-demanding-building-moratorium/5307790",
+      "titulo": "Los jugadores se esfuerzan por «mejorar» GTA VI con el DLSS 5 de Nvidia",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gaming/2026/11/gamers-go-to-ridiculous-lengths-to-improve-gta-vi-with-nvidias-dlss-5/",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "Spotify llega a las pantallas de los asientos de United con ayuda de Starlink",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1026472/united-seatback-spotify-app-starlink-wifi",
+      "titulo": "Instagram lleva Edits al escritorio para competir con CapCut",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/05/instagram-brings-edits-to-desktop-to-take-on-capcut/",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "La Biblioteca Pública de Queens, en Nueva York, lucha contra un ransomware: sin wifi, préstamos ni web",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/cyber-crime/2026/11/05/new-yorks-queens-public-library-battles-ransomware-crims-wi-fi-checkouts-and-website-go-dark/5307796",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "Cuando un centro de datos pierde la luz deberían arrancar los generadores: en Londres no pasó con Google",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/off-prem/2026/11/05/when-datacenters-lose-power-generators-should-kick-in-that-didnt-happen-for-google-in-london/5307739",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "Los diseñadores de Nintendo buscaron «elegancia» al rehacer Ocarina of Time",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "VMware ofrece discretamente a usuarios europeos ventas y soporte ampliados de su vSphere más básico",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/virtualization/2026/11/05/vmware-quietly-offers-european-users-extended-sales-and-support-for-low-end-vsphere/5307732",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "Hay tres borrascas bailando en el Atlántico y solo puede quedar una: la que decidirá que pasa este fin de semana en España",
+      "titulo": "La Junta Electoral autoriza el uso de MiDNI para identificarse al votar en las elecciones generales del 29 de noviembre",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/hay-tres-borrascas-bailando-atlantico-solo-puede-quedar-que-decidira-que-pasa-este-fin-semana-espana",
+      "enlace": "https://www.xataka.com/aplicaciones/junta-electoral-autoriza-uso-midni-para-identificarse-al-votar-elecciones-generales-29-noviembre",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "Más problemas para One UI 9, que rompe el WiFi y las redes móviles de varios Samsung Galaxy",
+      "titulo": "¡Que ‘GTA 6’ llegue ya! Rockstar calienta el lanzamiento del juego con estas espectaculares imágenes",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/one-ui-9-problemas-wifi-redes-moviles-sim/",
+      "enlace": "https://hipertextual.com/videojuegos/espectaculares-nuevas-imagenes-de-gta-6/",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "Movistar ya no garantizará Internet y teléfono en toda España: la CNMC da un paso más",
+      "titulo": "Orange no cobra lo mismo si no devuelves sus routers: así cambian las penalizaciones",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-dejara-garantizar-internet-telefono-cnmc/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/orange-no-devolver-routers-penalizaciones/",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "\"Ni pagando podrás comprar memoria\": la crisis de la RAM no da tregua y los precios podrían seguir subiendo durante 2027",
+      "titulo": "La Séptima ya está aquí y no solo en la TDT: todas las formas de ver el nuevo canal, además de televisión gratis y en abierto",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/ni-pagando-podras-comprar-memoria-crisis-ram-no-da-tregua-los-precios-podrian-seguir-subiendo-durante-2027_7057460_0.html",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-ya-esta-aqui-no-solo-tdt-todas-las-formas-ver-nuevo-canal-ademas-television-gratis-abierto_7057599_0.html",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "MediaMarkt agota la solución para instalar los 212 GB de 'GTA VI' en Xbox Series sin borrar otros juegos, pero aquí hay otra opción aún mejor",
+      "titulo": "Hundimiento histórico de la bolsa estadounidense: las grandes tecnológicas se dejan a esta hora entre un 9% y un 19%",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/mediamarkt-agota-solucion-para-instalar-212-gb-gta-vi-xbox-series-borrar-otros-juegos-aqui-hay-otra-opcion-mejor",
+      "enlace": "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "Motorola asalta la gama alta con un nuevo móvil de casi 2000 euros llamado Signature 27 y su impresionante sistema de cámaras",
+      "titulo": "El Galaxy Fit 4 se filtra y hay una novedad que muchos llevaban años esperando",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/tecnologia/motorola-signature-27/",
+      "enlace": "https://hipertextual.com/mobile/galaxy-fit-4-filtraciones-funciones-cambios/",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "Confirmado: lo que cobrarás de pensión con solo 15 años cotizados",
+      "titulo": "Garmin acaba con el molesto fallo de los Fénix 8 en su última actualización",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/fintech/pension-jubilacion-anos-cotizados-cuantia-2026/",
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-fenix-8-beta-24-15-corrige-bloqueo/",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "El Motorola Signature 27 ya está aquí: así es su móvil más ambicioso (y caro) con GrapheneOS y lo mejor de Qualcomm",
+      "titulo": "Samsung Galaxy S27, filtrados sus posibles procesadores y qué modelos tendrán Snapdragon y cuáles tendrán Exynos",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/motorola-signature-27-ya-esta-aqui-asi-es-su-movil-mas-ambicioso-caro-con-grapheneos-mejor-qualcomm_7057470_0.html",
+      "enlace": "https://computerhoy.20minutos.es/moviles/samsung-galaxy-s27-filtrados-sus-posibles-procesadores-que-modelos-tendran-snapdragon-cuales-tendran-exynos_7057592_0.html",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "Sam Altman da marcha atrás tras la polémica de la RAM: \"es jodidamente molesto que se haya sacado de contexto\"",
+      "titulo": "Nunca habíamos dedicado tanto tiempo a nuestros hijos y, aun así, nos sentimos malos padres por salir a cenar sin ellos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/sam-altman-da-marcha-atras-polemica-ram-jodidamente-molesto-que-se-haya-sacado-contexto",
+      "enlace": "https://www.xataka.com/medicina-y-salud/nunca-habiamos-dedicado-tiempo-a-nuestros-hijos-asi-nos-sentimos-malos-padres-salir-a-cenar-ellos",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "LaLiga bajo sospecha: pidió firmar folios en blanco y las firmas acabaron en 1.352 informes de piratería",
+      "titulo": "Costco abrirá en Madrid una tienda de 15000 metros cuadrados: llega en 2027 con gasolinera propia y restaurante",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/descargas/laliga-firmas-informes-pirateria-bares/",
+      "enlace": "https://www.adslzone.net/noticias/internet/costco-torrejon-ardoz-madrid-2027-gasolinera-restaurante/",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "Motorola presenta sus primeros auriculares Ultra y el reloj Watch Fit 2 con 12 días de batería",
+      "titulo": "Sony vuelve a los ochenta con los MDR-3R, una versión modernizada de los auriculares para Walkman",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/motorola-presenta-sus-primeros-auriculares-ultra-reloj-watch-fit-2-con-12-dias-bateria_7057471_0.html",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/sony-vuelve-los-ochenta-con-los-mdr-3r-una-version-modernizada-los-auriculares-para-walkman_7057328_0.html",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "Marruecos destina otros 11 millones de euros para seguir estudiando la viabilidad de construir un túnel bajo el Estrecho de Gibraltar",
+      "titulo": "En 2007, EEUU tuvo la disparatada idea de fabricar cemento quemando montañas de alfombras viejas: el experimento funcionó, hasta que llegó la factura",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ingenieria-y-megaconstrucciones/espana-marruecos-llevan-40-anos-queriendo-unir-ambos-paises-mediante-tunel-submarino-se-han-destinado-11-millones-euros-para-estudios",
+      "enlace": "https://www.xataka.com/energia/2007-eeuu-tuvo-disparatada-idea-fabricar-cemento-quemando-millones-alfombras-viejas-experimento-funciono-que-llego-factura",
       "fecha": "05-11-2026"
     },
     {
-      "titulo": "Vodafone ahora te regala 150 euros por cada amigo que contrate su fibra y móvil",
+      "titulo": "La fibra de DIGI llega a tu calle, pero no puedes contratar: este es EL MOTIVO",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/vodafone-150-euros-plan-amigo/",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "Es oficial, La Séptima y los canales de la TDT en UHD 4K ya están, pero no puedes verlos: ¿qué está pasando?",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/es-oficial-septima-los-canales-tdt-uhd-4k-ya-estan-pero-no-puedes-verlos-que-esta-pasando_7057448_0.html",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "Groenlandia inaugura un nuevo aeropuerto en una ciudad remota entre icebergs para ser la “Ibiza del hielo”",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/groenlandia-acaba-inaugurar-aeropuerto-ciudad-remota-icebergs-su-objetivo-ser-ibiza-hielo",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "YouTube, navegador, radio y mucho más: la nueva app de Android Auto que lo cambia todo",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/youtube-navegador-radio-app-android-auto/",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "¿Hasta qué día tienes para resintonizar tu televisor para poder ver La Séptima y los nuevos canales UHD 4K?",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/hasta-que-dia-tienes-para-resintonizar-tu-televisor-para-poder-ver-septima-los-nuevos-canales-uhd-4k_7057449_0.html",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-fibra-smart-clientes-pueden-contratar/",
       "fecha": "05-11-2026"
     }
   ]
