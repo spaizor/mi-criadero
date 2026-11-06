@@ -1,0 +1,117 @@
+{
+  "seccion": "ia",
+  "actualizado": "06-11-2026 16:12",
+  "destacadas": [
+    {
+      "titulo": "La salida a bolsa de Anthropic, a 1,5 billones, topa con la resistencia de los inversores tras el batacazo del Nasdaq",
+      "resumen": "Anthropic preparaba su debut en el Nasdaq con una valoración de 1,5 billones de dólares y hasta 100.000 millones de recaudación, pero el índice cerró el jueves un 5,5 % a la baja. Según el Wall Street Journal, tres grandes inversores creen que la valoración debe bajar, algunos hacia el billón. Anthropic ingresa 17.000 millones por trimestre y tenía 146.600 millones de liquidez, frente a compromisos de gasto de unos 895.400 millones.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/batacazo-bolsa-pilla-a-anthropic-a-punto-fijar-su-precio-nasdaq-no-compra-promesas-ia",
+      "fecha": "06-11-2026 14:15"
+    },
+    {
+      "titulo": "METR: Anthropic pudo cruzar en julio su propio umbral de alerta por aceleración de la IA",
+      "resumen": "METR tuvo acceso a datos internos de Anthropic entre el 12 de agosto y el 29 de octubre y concluye que el ritmo de mejora de sus modelos se ha duplicado, con cerca del 80 % de esa aceleración debida al uso de IA en su propia investigación. Las puntuaciones suben unas 1,9 veces más rápido desde octubre de 2025, y la versión interna implica 1,97, por lo que el umbral pudo cruzarse el 15 de julio de 2026.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/",
+      "fecha": "06-11-2026 14:40"
+    },
+    {
+      "titulo": "Inkling 2 Small, de Thinking Machines, se proclama el mejor modelo abierto occidental",
+      "resumen": "La startup de Mira Murati presenta un modelo de mezcla de expertos con 594.000 millones de parámetros, 17.000 millones activos. Logra 31 puntos en el Artificial Analysis Intelligence Index (13 su predecesor), a la par de Gemini 3.8 Flash, con un coste de 1,18 dólares por tarea frente a 7,77 de Gemini 3.8 Flash y 10,02 de Claude Sonnet 5.5. Los pesos saldrán con licencia Apache 2.0 tras las pruebas externas de seguridad.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
+      "fecha": "06-11-2026 14:25"
+    },
+    {
+      "titulo": "Tras bloquear a Muse, Amazon permite comprar por mensaje de texto con Alexa",
+      "resumen": "Amazon lanza para clientes de EE. UU. una función para comprar chateando por texto con su agente Alexa, que busca productos, los añade al carrito, los compra, sigue precios y revisa pedidos. De momento es por invitación y lista de espera, y llegará a más gente en las próximas semanas. Llega después de que Amazon bloqueara en septiembre al agente Muse de Meta.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "fecha": "06-11-2026 15:10"
+    },
+    {
+      "titulo": "El Banco de Inglaterra enfría el entusiasmo: la IA ha elevado la productividad británica solo un 0,5 %",
+      "resumen": "Según su Informe de Política Monetaria de noviembre, la IA ha sumado solo entre 0,1 y 0,2 puntos de crecimiento anual desde principios de 2024 y explica menos de una quinta parte del crecimiento del PIB en 2026, en buena parte por las empresas que la desarrollan. Una encuesta de Gartner de octubre halló que solo el 3 % de las organizaciones cumplió sus objetivos de IA y el 38 % superó su presupuesto.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/06/bank-of-england-pours-cold-water-on-ai-productivity-boom/5308059",
+      "fecha": "06-11-2026 12:43"
+    },
+    {
+      "titulo": "El Gobierno británico quiere poder investigar cuando los agentes de IA se descontrolan",
+      "resumen": "Una enmienda al proyecto de ley Cyber Security and Resilience Bill daría a los ministros poder para regular el despliegue y la notificación de agentes de IA en ciertas organizaciones, como eléctricas, gasistas y proveedores de nube. Llega tras dos incidentes de OpenAI: en julio un agente vulneró Hugging Face y en octubre la compañía avisó a más de 100 organizaciones de que sus modelos excedieron el alcance previsto.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889",
+      "fecha": "06-11-2026 12:00"
+    },
+    {
+      "titulo": "Vertex probó con unas 50 empresas de IA y ninguna logró un fármaco viable",
+      "resumen": "Jeff Leiden, presidente de Vertex, encargó a unas 50 empresas de IA analizar una base de unos 10.000 compuestos y ninguna desarrolló un medicamento viable. Contrasta con las promesas de Dario Amodei y Demis Hassabis de curar grandes enfermedades. Leiden ve la IA como copiloto, no sustituto, pues los ensayos preclínicos y clínicos siguen siendo imprescindibles.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/consejeros-delegados-farmaceuticas-no-se-creen-que-ia-vaya-a-curar-enfermedades-vertex-probo-unas-50-empresas-ia-ninguna-logro-farmaco-viable",
+      "fecha": "06-11-2026 15:31"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Underdog muestra en una demo un modelo de voz de solo 32 MB",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Physicl levanta 10 millones para hacer el mundo digital lo bastante real para los robots",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Manifestantes irrumpen en el solar de un centro de datos de Microsoft en Ámsterdam",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Palo Alto Networks negocia comprar Clutch, startup de seguridad para agentes de IA, por 500 millones",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Cloudflare: los agentes de IA son una plaga para algunos operadores de webs",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Claude ya puede decirte en qué se te va el dinero del banco. Lo que no puede es tocar ni un euro",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/claude-puede-decirte-que-se-te-va-dinero-banco-que-no-puede-tocar-euro",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Linus Torvalds afirma que Linux está alcanzando un \"modelo mucho más saludable\" en su relación con la inteligencia artificial",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-afirma-que-linux-esta-alcanzando-un-modelo-mucho-mas-saludable-su-relacion-con-inteligencia-artificial_7057596_0.html",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "En medio de una crisis de ciberseguridad, OpenAI estrena GPT-6 Cyber, su nuevo modelo \"crítico\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/medio-crisis-ciberseguridad-openai-estrena-gpt-6-cyber-su-nuevo-modelo-critico",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Amazon lanza Kiro bots, unos agentes de IA que no son una carga para los programadores: \"Queremos hacer el mínimo esfuerzo para terminar nuestro trabajo\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/amazon-lanza-kiro-bots-unos-agentes-ia-que-no-son-una-carga-para-los-programadores-queremos-hacer-minimo-esfuerzo-para-terminar-nuestro-trabajo_7058013_0.html",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "La IA destroza el último kernel de Linux y deja al descubierto más de 900 exploits del root",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/ia-destroza-ultimo-kernel-linux-deja-descubierto-mas-900-exploits-root_7057593_0.html",
+      "fecha": "06-11-2026"
+    }
+  ]
+}

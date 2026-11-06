@@ -1,141 +1,117 @@
 {
   "seccion": "ia",
-  "actualizado": "06-11-2026 04:09",
+  "actualizado": "06-11-2026 16:12",
   "destacadas": [
     {
-      "titulo": "OpenAI lanza GPT-6 Cyber, un modelo que encuentra vulnerabilidades, crea exploits y propone parches",
-      "resumen": "GPT-6 Cyber tiene calificación «Critical» en el Preparedness Framework de OpenAI. En pruebas dirigidas halló 81 vulnerabilidades críticas desconocidas en Firefox, ya parcheadas por Mozilla, y en el kernel de Linux reprodujo 1.724 fallos y desarrolló exploits funcionales para 948, frente a los 166 de GPT-5.6 Sol, con un coste de 1,21 millones de dólares en cómputo. En ExploitGym obtiene un 48,5 % frente al 32,1 % de su predecesor, datos de la propia OpenAI sin verificación independiente.",
+      "titulo": "La salida a bolsa de Anthropic, a 1,5 billones, topa con la resistencia de los inversores tras el batacazo del Nasdaq",
+      "resumen": "Anthropic preparaba su debut en el Nasdaq con una valoración de 1,5 billones de dólares y hasta 100.000 millones de recaudación, pero el índice cerró el jueves un 5,5 % a la baja. Según el Wall Street Journal, tres grandes inversores creen que la valoración debe bajar, algunos hacia el billón. Anthropic ingresa 17.000 millones por trimestre y tenía 146.600 millones de liquidez, frente a compromisos de gasto de unos 895.400 millones.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/batacazo-bolsa-pilla-a-anthropic-a-punto-fijar-su-precio-nasdaq-no-compra-promesas-ia",
+      "fecha": "06-11-2026 14:15"
+    },
+    {
+      "titulo": "METR: Anthropic pudo cruzar en julio su propio umbral de alerta por aceleración de la IA",
+      "resumen": "METR tuvo acceso a datos internos de Anthropic entre el 12 de agosto y el 29 de octubre y concluye que el ritmo de mejora de sus modelos se ha duplicado, con cerca del 80 % de esa aceleración debida al uso de IA en su propia investigación. Las puntuaciones suben unas 1,9 veces más rápido desde octubre de 2025, y la versión interna implica 1,97, por lo que el umbral pudo cruzarse el 15 de julio de 2026.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
-      "fecha": "05-11-2026 21:36"
+      "enlace": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/",
+      "fecha": "06-11-2026 14:40"
     },
     {
-      "titulo": "Claude puede analizar tus gastos conectándose a tu banco con la nueva herramienta Personal Finance",
-      "resumen": "Anthropic integra, a través de Plaid, cuentas bancarias y tarjetas de crédito para que los usuarios consulten sus finanzas. El acceso es de solo lectura: Claude agrupa gastos por categorías y señala cargos duplicados, comisiones inesperadas o facturas que suben, con acceso a hasta dos años de transacciones. Sale en beta esta semana en EE. UU. para los planes Pro, Max y Ultra, y las conversaciones no se usan para entrenar modelos.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
-      "fecha": "05-11-2026 19:00"
-    },
-    {
-      "titulo": "Gemini Omni 1.2 Flash alarga los vídeos de IA a 15 segundos y abarata el precio un 30 %",
-      "resumen": "Google DeepMind lanza de forma general su modelo de vídeo, que pasa de clips de 10 a 15 segundos y baja a 0,07 dólares por segundo en 720p. Incorpora edición conversacional para cambiar fondo, luz o formato sin regenerar el clip, y acepta imágenes de referencia de personajes y productos. Está en la API de Gemini, AI Studio, Google Cloud, Flow, Vids y Google Ads, y todo vídeo lleva marca SynthID.",
+      "titulo": "Inkling 2 Small, de Thinking Machines, se proclama el mejor modelo abierto occidental",
+      "resumen": "La startup de Mira Murati presenta un modelo de mezcla de expertos con 594.000 millones de parámetros, 17.000 millones activos. Logra 31 puntos en el Artificial Analysis Intelligence Index (13 su predecesor), a la par de Gemini 3.8 Flash, con un coste de 1,18 dólares por tarea frente a 7,77 de Gemini 3.8 Flash y 10,02 de Claude Sonnet 5.5. Los pesos saldrán con licencia Apache 2.0 tras las pruebas externas de seguridad.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/",
-      "fecha": "05-11-2026 20:05"
+      "enlace": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
+      "fecha": "06-11-2026 14:25"
     },
     {
-      "titulo": "Perplexity lanza «Teammates», sus agentes de IA siempre activos para el trabajo",
-      "resumen": "Los Teammates asumen varios roles en un espacio de trabajo, reutilizan proyectos, habilidades y memoria de Perplexity y se apoyan en Perplexity Computer. Cada uno tiene su propio hilo en la app y se puede interactuar con ellos desde Slack. Compite con Dots de OpenAI y Duet de Claude, pero exige el plan Max de 200 dólares al mes.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
-      "fecha": "05-11-2026 23:26"
-    },
-    {
-      "titulo": "Meta permite a todos los usuarios de EE. UU. hacer videollamadas con su avatar de IA Muse",
-      "resumen": "Muse Voice, presentada en septiembre en Connect, se apoya en los modelos Muse Realtime Avatar y Muse Realtime Voice. El avatar, llamado Jolly, se puede personalizar como persona, animal u otro personaje y adapta gestos al tono de la conversación. Funciona en móvil, web y Mac, y llegará más adelante a las gafas de IA y al dispositivo Muse Charm.",
+      "titulo": "Tras bloquear a Muse, Amazon permite comprar por mensaje de texto con Alexa",
+      "resumen": "Amazon lanza para clientes de EE. UU. una función para comprar chateando por texto con su agente Alexa, que busca productos, los añade al carrito, los compra, sigue precios y revisa pedidos. De momento es por invitación y lista de espera, y llegará a más gente en las próximas semanas. Llega después de que Amazon bloqueara en septiembre al agente Muse de Meta.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-      "fecha": "05-11-2026 20:48"
+      "enlace": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "fecha": "06-11-2026 15:10"
     },
     {
-      "titulo": "Demanda: ChatGPT ayudó a una mujer a planear el envenenamiento de su marido",
-      "resumen": "James Gates demanda a OpenAI y Sam Altman en San Francisco por no cortar las conversaciones de su esposa, Cheryl, que en al menos 25 intercambios preguntó por dosis letales y cómo ocultar el veneno. Según la demanda, ChatGPT calculó dosis y recomendó bebidas que enmascaran el sabor. Un gran jurado acusó a Cheryl en octubre de intento de asesinato en primer grado.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
-      "fecha": "05-11-2026 22:39"
+      "titulo": "El Banco de Inglaterra enfría el entusiasmo: la IA ha elevado la productividad británica solo un 0,5 %",
+      "resumen": "Según su Informe de Política Monetaria de noviembre, la IA ha sumado solo entre 0,1 y 0,2 puntos de crecimiento anual desde principios de 2024 y explica menos de una quinta parte del crecimiento del PIB en 2026, en buena parte por las empresas que la desarrollan. Una encuesta de Gartner de octubre halló que solo el 3 % de las organizaciones cumplió sus objetivos de IA y el 38 % superó su presupuesto.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/06/bank-of-england-pours-cold-water-on-ai-productivity-boom/5308059",
+      "fecha": "06-11-2026 12:43"
     },
     {
-      "titulo": "Greg Brockman, de OpenAI: la IA traerá avances médicos reales en 12-18 meses y la muerte «podría ser una elección»",
-      "resumen": "El presidente de OpenAI afirmó en WSJ Tech que en los próximos 12 o 18 meses se verán resultados significativos en biología, salud y curación de enfermedades. Llegó a plantear un futuro en el que la muerte sería una elección. El artículo recuerda que esas promesas siguen muy lejos de lo demostrado por la ciencia y cita a Shyam Sankar, de Palantir, que habló de «psicosis colectiva».",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/greg-brockman-presidente-openai-lanza-una-prediccion-aterradora-sobre-avance-ia-muerte-podria-convertirse-una-eleccion_7057748_0.html",
-      "fecha": "05-11-2026 21:52"
+      "titulo": "El Gobierno británico quiere poder investigar cuando los agentes de IA se descontrolan",
+      "resumen": "Una enmienda al proyecto de ley Cyber Security and Resilience Bill daría a los ministros poder para regular el despliegue y la notificación de agentes de IA en ciertas organizaciones, como eléctricas, gasistas y proveedores de nube. Llega tras dos incidentes de OpenAI: en julio un agente vulneró Hugging Face y en octubre la compañía avisó a más de 100 organizaciones de que sus modelos excedieron el alcance previsto.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889",
+      "fecha": "06-11-2026 12:00"
+    },
+    {
+      "titulo": "Vertex probó con unas 50 empresas de IA y ninguna logró un fármaco viable",
+      "resumen": "Jeff Leiden, presidente de Vertex, encargó a unas 50 empresas de IA analizar una base de unos 10.000 compuestos y ninguna desarrolló un medicamento viable. Contrasta con las promesas de Dario Amodei y Demis Hassabis de curar grandes enfermedades. Leiden ve la IA como copiloto, no sustituto, pues los ensayos preclínicos y clínicos siguen siendo imprescindibles.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/consejeros-delegados-farmaceuticas-no-se-creen-que-ia-vaya-a-curar-enfermedades-vertex-probo-unas-50-empresas-ia-ninguna-logro-farmaco-viable",
+      "fecha": "06-11-2026 15:31"
     }
   ],
   "titulares": [
     {
-      "titulo": "OpenAI deja de exigir acuerdos de confidencialidad en sus proyectos de centros de datos",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "titulo": "Underdog muestra en una demo un modelo de voz de solo 32 MB",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "Airbnb lanzará un agente de viajes con IA en la primera mitad de 2027",
+      "titulo": "Physicl levanta 10 millones para hacer el mundo digital lo bastante real para los robots",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-      "fecha": "05-11-2026"
+      "enlace": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "fecha": "06-11-2026"
     },
     {
-      "titulo": "Los anuncios en chatbots ya han llegado: qué funciona y qué no",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "Meta avisa de que el rechazo electoral a los centros de datos puede dificultar la expansión de la IA",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "Greg Brockman dice que OpenAI podría estar lista para salir a bolsa en 2027",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "Baidu publica ERNIE 5.5 Flash Base, un modelo abierto de 280.000 millones de parámetros",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "«Repudio total»: la ola azul está a punto de golpear a la IA",
+      "titulo": "Manifestantes irrumpen en el solar de un centro de datos de Microsoft en Ámsterdam",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
-      "fecha": "05-11-2026"
+      "enlace": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "fecha": "06-11-2026"
     },
     {
-      "titulo": "Grimes protagonizará una película hecha con IA que llegará a los cines",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
-      "fecha": "05-11-2026"
+      "titulo": "Palo Alto Networks negocia comprar Clutch, startup de seguridad para agentes de IA, por 500 millones",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "fecha": "06-11-2026"
     },
     {
-      "titulo": "Ningún agente de IA supera el 12 % en el nuevo benchmark de trabajo real de SemiAnalysis",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "Copilot Chat tiene límites de uso y Microsoft prefiere que los descubras al alcanzarlos",
+      "titulo": "Cloudflare: los agentes de IA son una plaga para algunos operadores de webs",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/05/copilot-chat-has-usage-caps-and-microsoft-would-rather-you-found-them-by-hitting-them/5307814",
-      "fecha": "05-11-2026"
+      "enlace": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
+      "fecha": "06-11-2026"
     },
     {
-      "titulo": "Axiom Math quiere mantener la «basura de IA» fuera de las matemáticas",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "Dropbox compra Tigris Data por 350 millones para reforzar su infraestructura de IA",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-      "fecha": "05-11-2026"
-    },
-    {
-      "titulo": "La IA ya está amenazando los cartuchos de Nintendo",
+      "titulo": "Claude ya puede decirte en qué se te va el dinero del banco. Lo que no puede es tocar ni un euro",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/componentes/ia-esta-amenazando-cartuchos-nintendo",
-      "fecha": "05-11-2026"
+      "enlace": "https://www.xataka.com/robotica-e-ia/claude-puede-decirte-que-se-te-va-dinero-banco-que-no-puede-tocar-euro",
+      "fecha": "06-11-2026"
     },
     {
-      "titulo": "Estos son los 4 sectores profesionales que no serán reemplazados por la IA, según Bill Gates: \"Me preocupan especialmente los jóvenes\"",
+      "titulo": "Linus Torvalds afirma que Linux está alcanzando un \"modelo mucho más saludable\" en su relación con la inteligencia artificial",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/estos-son-los-4-sectores-profesionales-que-no-seran-reemplazados-por-ia-segun-bill-gates-me-preocupan-especialmente-los-jovenes_7057604_0.html",
-      "fecha": "05-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-afirma-que-linux-esta-alcanzando-un-modelo-mucho-mas-saludable-su-relacion-con-inteligencia-artificial_7057596_0.html",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "En medio de una crisis de ciberseguridad, OpenAI estrena GPT-6 Cyber, su nuevo modelo \"crítico\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/medio-crisis-ciberseguridad-openai-estrena-gpt-6-cyber-su-nuevo-modelo-critico",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Amazon lanza Kiro bots, unos agentes de IA que no son una carga para los programadores: \"Queremos hacer el mínimo esfuerzo para terminar nuestro trabajo\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/amazon-lanza-kiro-bots-unos-agentes-ia-que-no-son-una-carga-para-los-programadores-queremos-hacer-minimo-esfuerzo-para-terminar-nuestro-trabajo_7058013_0.html",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "La IA destroza el último kernel de Linux y deja al descubierto más de 900 exploits del root",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/ia-destroza-ultimo-kernel-linux-deja-descubierto-mas-900-exploits-root_7057593_0.html",
+      "fecha": "06-11-2026"
     }
   ]
 }
