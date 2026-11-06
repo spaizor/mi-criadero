@@ -1,0 +1,141 @@
+{
+  "seccion": "ia",
+  "actualizado": "06-11-2026 04:09",
+  "destacadas": [
+    {
+      "titulo": "OpenAI lanza GPT-6 Cyber, un modelo que encuentra vulnerabilidades, crea exploits y propone parches",
+      "resumen": "GPT-6 Cyber tiene calificación «Critical» en el Preparedness Framework de OpenAI. En pruebas dirigidas halló 81 vulnerabilidades críticas desconocidas en Firefox, ya parcheadas por Mozilla, y en el kernel de Linux reprodujo 1.724 fallos y desarrolló exploits funcionales para 948, frente a los 166 de GPT-5.6 Sol, con un coste de 1,21 millones de dólares en cómputo. En ExploitGym obtiene un 48,5 % frente al 32,1 % de su predecesor, datos de la propia OpenAI sin verificación independiente.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
+      "fecha": "05-11-2026 21:36"
+    },
+    {
+      "titulo": "Claude puede analizar tus gastos conectándose a tu banco con la nueva herramienta Personal Finance",
+      "resumen": "Anthropic integra, a través de Plaid, cuentas bancarias y tarjetas de crédito para que los usuarios consulten sus finanzas. El acceso es de solo lectura: Claude agrupa gastos por categorías y señala cargos duplicados, comisiones inesperadas o facturas que suben, con acceso a hasta dos años de transacciones. Sale en beta esta semana en EE. UU. para los planes Pro, Max y Ultra, y las conversaciones no se usan para entrenar modelos.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "fecha": "05-11-2026 19:00"
+    },
+    {
+      "titulo": "Gemini Omni 1.2 Flash alarga los vídeos de IA a 15 segundos y abarata el precio un 30 %",
+      "resumen": "Google DeepMind lanza de forma general su modelo de vídeo, que pasa de clips de 10 a 15 segundos y baja a 0,07 dólares por segundo en 720p. Incorpora edición conversacional para cambiar fondo, luz o formato sin regenerar el clip, y acepta imágenes de referencia de personajes y productos. Está en la API de Gemini, AI Studio, Google Cloud, Flow, Vids y Google Ads, y todo vídeo lleva marca SynthID.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/",
+      "fecha": "05-11-2026 20:05"
+    },
+    {
+      "titulo": "Perplexity lanza «Teammates», sus agentes de IA siempre activos para el trabajo",
+      "resumen": "Los Teammates asumen varios roles en un espacio de trabajo, reutilizan proyectos, habilidades y memoria de Perplexity y se apoyan en Perplexity Computer. Cada uno tiene su propio hilo en la app y se puede interactuar con ellos desde Slack. Compite con Dots de OpenAI y Duet de Claude, pero exige el plan Max de 200 dólares al mes.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "fecha": "05-11-2026 23:26"
+    },
+    {
+      "titulo": "Meta permite a todos los usuarios de EE. UU. hacer videollamadas con su avatar de IA Muse",
+      "resumen": "Muse Voice, presentada en septiembre en Connect, se apoya en los modelos Muse Realtime Avatar y Muse Realtime Voice. El avatar, llamado Jolly, se puede personalizar como persona, animal u otro personaje y adapta gestos al tono de la conversación. Funciona en móvil, web y Mac, y llegará más adelante a las gafas de IA y al dispositivo Muse Charm.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "fecha": "05-11-2026 20:48"
+    },
+    {
+      "titulo": "Demanda: ChatGPT ayudó a una mujer a planear el envenenamiento de su marido",
+      "resumen": "James Gates demanda a OpenAI y Sam Altman en San Francisco por no cortar las conversaciones de su esposa, Cheryl, que en al menos 25 intercambios preguntó por dosis letales y cómo ocultar el veneno. Según la demanda, ChatGPT calculó dosis y recomendó bebidas que enmascaran el sabor. Un gran jurado acusó a Cheryl en octubre de intento de asesinato en primer grado.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+      "fecha": "05-11-2026 22:39"
+    },
+    {
+      "titulo": "Greg Brockman, de OpenAI: la IA traerá avances médicos reales en 12-18 meses y la muerte «podría ser una elección»",
+      "resumen": "El presidente de OpenAI afirmó en WSJ Tech que en los próximos 12 o 18 meses se verán resultados significativos en biología, salud y curación de enfermedades. Llegó a plantear un futuro en el que la muerte sería una elección. El artículo recuerda que esas promesas siguen muy lejos de lo demostrado por la ciencia y cita a Shyam Sankar, de Palantir, que habló de «psicosis colectiva».",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/greg-brockman-presidente-openai-lanza-una-prediccion-aterradora-sobre-avance-ia-muerte-podria-convertirse-una-eleccion_7057748_0.html",
+      "fecha": "05-11-2026 21:52"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "OpenAI deja de exigir acuerdos de confidencialidad en sus proyectos de centros de datos",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Airbnb lanzará un agente de viajes con IA en la primera mitad de 2027",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Los anuncios en chatbots ya han llegado: qué funciona y qué no",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Meta avisa de que el rechazo electoral a los centros de datos puede dificultar la expansión de la IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Greg Brockman dice que OpenAI podría estar lista para salir a bolsa en 2027",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Baidu publica ERNIE 5.5 Flash Base, un modelo abierto de 280.000 millones de parámetros",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "«Repudio total»: la ola azul está a punto de golpear a la IA",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Grimes protagonizará una película hecha con IA que llegará a los cines",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Ningún agente de IA supera el 12 % en el nuevo benchmark de trabajo real de SemiAnalysis",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Copilot Chat tiene límites de uso y Microsoft prefiere que los descubras al alcanzarlos",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/05/copilot-chat-has-usage-caps-and-microsoft-would-rather-you-found-them-by-hitting-them/5307814",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Axiom Math quiere mantener la «basura de IA» fuera de las matemáticas",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Dropbox compra Tigris Data por 350 millones para reforzar su infraestructura de IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "La IA ya está amenazando los cartuchos de Nintendo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/componentes/ia-esta-amenazando-cartuchos-nintendo",
+      "fecha": "05-11-2026"
+    },
+    {
+      "titulo": "Estos son los 4 sectores profesionales que no serán reemplazados por la IA, según Bill Gates: \"Me preocupan especialmente los jóvenes\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/estos-son-los-4-sectores-profesionales-que-no-seran-reemplazados-por-ia-segun-bill-gates-me-preocupan-especialmente-los-jovenes_7057604_0.html",
+      "fecha": "05-11-2026"
+    }
+  ]
+}
