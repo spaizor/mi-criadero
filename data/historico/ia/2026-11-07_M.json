@@ -1,0 +1,105 @@
+{
+  "seccion": "ia",
+  "actualizado": "07-11-2026 04:10",
+  "destacadas": [
+    {
+      "titulo": "OpenAI se valora en 1,25 billones de dólares tras captar otros 11.000 millones",
+      "resumen": "Según Bloomberg, OpenAI cierra una nueva ronda de 11.000 millones de dólares que la valora en 1,25 billones, frente a los 852.000 millones de marzo, cuando levantó 122.000 millones. Sigue buscando más inversión hasta llegar a 20.000 millones; había aspirado a 30.000 millones con una valoración de 1,4 billones antes de la caída de las tecnológicas y del resultado de las elecciones legislativas. Anthropic presentó la semana pasada su S-1 para salir a bolsa.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "fecha": "07-11-2026 00:46"
+    },
+    {
+      "titulo": "Los modelos chinos gratuitos ya hackean casi tan bien como los cerrados, según Vals",
+      "resumen": "Un estudio de Vals en redes corporativas simuladas muestra que el modelo cibernético Daybreak de OpenAI, solo para socios de confianza, completó el 81 % de las tareas, y el modelo abierto chino DeepSeek, el 73 %. Atacar con DeepSeek cuesta 2-3 dólares en tokens frente a 17-46 de GPT-6-Sol. Los resultados cuestionan la estrategia de acceso restringido de laboratorios como Anthropic con Claude Mythos Preview.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
+      "fecha": "06-11-2026 19:43"
+    },
+    {
+      "titulo": "Cientos de servidores de la herramienta de hacking con IA Artex, expuestos en internet sin contraseña",
+      "resumen": "Censys localizó más de 800 despliegues de Artex, una herramienta china de código abierto de pruebas de penetración autónomas lanzada en julio, accesibles sin contraseña. Se ha vinculado a ataques contra entidades financieras surcoreanas (CrowdStrike) y a intrusiones en clientes de ConnectWise. Artex anuncia que pasará a código cerrado, aunque siguen circulando copias de su código.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "fecha": "06-11-2026 19:44"
+    },
+    {
+      "titulo": "Corea del Sur, termómetro de la IA: el KOSPI se hunde un 6 % por las dudas de Wall Street",
+      "resumen": "El KOSPI llegó a caer un 8,8 %, con suspensión de la negociación durante 20 minutos, y cerró con un -6,02 %; en la semana pierde un 11,7 %. Samsung y SK hynix, fabricantes de memoria HBM para IA, pesan el 55,5 % del índice. La caída no responde a sus resultados del tercer trimestre, sino al temor a que el nuevo Congreso demócrata endurezca la regulación de la IA y de los centros de datos.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/corea-sur-se-ha-convertido-termometro-ia-sus-fabricantes-chips-estan-pagando-dudas-wall-street",
+      "fecha": "06-11-2026 17:31"
+    },
+    {
+      "titulo": "Ripple-65B Preview: un modelo abierto estadounidense Apache 2.0 con buenos resultados en programación agéntica",
+      "resumen": "Ricursive Intelligence publica Ripple-65B Preview, un Transformer denso de 65.000 millones de parámetros preentrenado con 12 billones de tokens por unos 32 millones de dólares. Según la empresa logra 80,52 puntos en TerminalBench 2.1, el mejor resultado entre modelos abiertos de EE. UU., aunque queda por detrás de Inkling 2 Small en SWE-Bench Pro y DeepSWE. Está en Hugging Face.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/",
+      "fecha": "06-11-2026 20:47"
+    },
+    {
+      "titulo": "OpenAI compra Pierre Computer para integrar almacenamiento de código en Codex y rivalizar con GitHub",
+      "resumen": "OpenAI adquiere Pierre Computer, startup de herramientas para desarrolladores, para incorporar su funcionalidad Code Storage a Codex una vez concluya la integración. Así los desarrolladores podrían guardar proyectos, versionar y supervisar código en un mismo entorno. Cursor presentó hace poco Origin, otra propuesta pensada para competir con GitHub.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/openai-esta-creando-su-propia-alternativa-github-codex-que-podria-cambiarlo-todo-para-los-programadores_7058144_0.html",
+      "fecha": "06-11-2026 18:19"
+    },
+    {
+      "titulo": "Meta presenta Spaces, una forma de colaborar con su agente Muse",
+      "resumen": "Spaces son conversaciones paralelas por tema, en la barra lateral, que Muse construye a partir de una descripción: rastreadores, planificadores o tableros de proyecto. Pueden conectarse a apps de terceros y actualizarse en segundo plano. Zuckerberg dijo en octubre que los agentes de Meta tenían 10 millones de usuarios en EE. UU. y Canadá menos de dos meses después de su estreno.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "fecha": "06-11-2026 19:44"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Crusoe vende a Google su problemático proyecto de centro de datos en Wyoming",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "China habría reclutado a un directivo de IA para espiar a Jensen Huang",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "Los datos de Ramp muestran que el gasto en IA se estanca justo cuando Anthropic se acerca a su salida a bolsa",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Las empresas de IA quieren comprar tus archivos y correos de trabajo",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Frontier Radar n.º 5: si la AGI está tan cerca, ¿por qué se va todo el mundo? Los neolabs y sus apuestas",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Akai y Moog se abren a las modificaciones creadas con «vibe coding»",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "La IA, el nuevo motivo para romper en las citas",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "¿Podrían los posibles clones de GTA VI hechos con IA forzar un port oficial más rápido?",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+      "fecha": "06-11-2026"
+    }
+  ]
+}
