@@ -1,105 +1,73 @@
 {
   "seccion": "ia",
-  "actualizado": "07-11-2026 04:10",
+  "actualizado": "07-11-2026 16:09",
   "destacadas": [
     {
-      "titulo": "OpenAI se valora en 1,25 billones de dólares tras captar otros 11.000 millones",
-      "resumen": "Según Bloomberg, OpenAI cierra una nueva ronda de 11.000 millones de dólares que la valora en 1,25 billones, frente a los 852.000 millones de marzo, cuando levantó 122.000 millones. Sigue buscando más inversión hasta llegar a 20.000 millones; había aspirado a 30.000 millones con una valoración de 1,4 billones antes de la caída de las tecnológicas y del resultado de las elecciones legislativas. Anthropic presentó la semana pasada su S-1 para salir a bolsa.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-      "fecha": "07-11-2026 00:46"
-    },
-    {
-      "titulo": "Los modelos chinos gratuitos ya hackean casi tan bien como los cerrados, según Vals",
-      "resumen": "Un estudio de Vals en redes corporativas simuladas muestra que el modelo cibernético Daybreak de OpenAI, solo para socios de confianza, completó el 81 % de las tareas, y el modelo abierto chino DeepSeek, el 73 %. Atacar con DeepSeek cuesta 2-3 dólares en tokens frente a 17-46 de GPT-6-Sol. Los resultados cuestionan la estrategia de acceso restringido de laboratorios como Anthropic con Claude Mythos Preview.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
-      "fecha": "06-11-2026 19:43"
-    },
-    {
-      "titulo": "Cientos de servidores de la herramienta de hacking con IA Artex, expuestos en internet sin contraseña",
-      "resumen": "Censys localizó más de 800 despliegues de Artex, una herramienta china de código abierto de pruebas de penetración autónomas lanzada en julio, accesibles sin contraseña. Se ha vinculado a ataques contra entidades financieras surcoreanas (CrowdStrike) y a intrusiones en clientes de ConnectWise. Artex anuncia que pasará a código cerrado, aunque siguen circulando copias de su código.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "fecha": "06-11-2026 19:44"
-    },
-    {
-      "titulo": "Corea del Sur, termómetro de la IA: el KOSPI se hunde un 6 % por las dudas de Wall Street",
-      "resumen": "El KOSPI llegó a caer un 8,8 %, con suspensión de la negociación durante 20 minutos, y cerró con un -6,02 %; en la semana pierde un 11,7 %. Samsung y SK hynix, fabricantes de memoria HBM para IA, pesan el 55,5 % del índice. La caída no responde a sus resultados del tercer trimestre, sino al temor a que el nuevo Congreso demócrata endurezca la regulación de la IA y de los centros de datos.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/corea-sur-se-ha-convertido-termometro-ia-sus-fabricantes-chips-estan-pagando-dudas-wall-street",
-      "fecha": "06-11-2026 17:31"
-    },
-    {
-      "titulo": "Ripple-65B Preview: un modelo abierto estadounidense Apache 2.0 con buenos resultados en programación agéntica",
-      "resumen": "Ricursive Intelligence publica Ripple-65B Preview, un Transformer denso de 65.000 millones de parámetros preentrenado con 12 billones de tokens por unos 32 millones de dólares. Según la empresa logra 80,52 puntos en TerminalBench 2.1, el mejor resultado entre modelos abiertos de EE. UU., aunque queda por detrás de Inkling 2 Small en SWE-Bench Pro y DeepSWE. Está en Hugging Face.",
+      "titulo": "Nueve agentes de IA intentaron investigación autónoma sobre preguntas abiertas de laboratorios nacionales de EE. UU. y ninguno superó el listón de los expertos",
+      "resumen": "El benchmark «Into the Unknown», de Carnegie Mellon con científicos de laboratorios del Departamento de Energía, evaluó 135 trabajos de nueve agentes sobre 15 tareas abiertas y ninguno cumplió todos los requisitos. 114 envíos fallaron la comprobación de integridad; solo GPT-6 Astra, GPT-5.6 Sol y Claude Opus 5.5 entregaron trabajos sin infracciones, y únicamente un envío, de GPT-6 Astra, fue completo.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/",
-      "fecha": "06-11-2026 20:47"
+      "enlace": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
+      "fecha": "07-11-2026 12:13"
     },
     {
-      "titulo": "OpenAI compra Pierre Computer para integrar almacenamiento de código en Codex y rivalizar con GitHub",
-      "resumen": "OpenAI adquiere Pierre Computer, startup de herramientas para desarrolladores, para incorporar su funcionalidad Code Storage a Codex una vez concluya la integración. Así los desarrolladores podrían guardar proyectos, versionar y supervisar código en un mismo entorno. Cursor presentó hace poco Origin, otra propuesta pensada para competir con GitHub.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/openai-esta-creando-su-propia-alternativa-github-codex-que-podria-cambiarlo-todo-para-los-programadores_7058144_0.html",
-      "fecha": "06-11-2026 18:19"
+      "titulo": "La propaganda estatal de algunos modelos chinos es solo «una capa fina» que el ajuste fino puede eliminar",
+      "resumen": "Nous Research ajustó Qwen3.8-27B de Alibaba con unos 53 millones de tokens para crear Arete-27B. Las respuestas con propaganda bajaron del 22 % al 0,9 % sobre 803 prompts, la exactitud factual subió de 2,32 a 2,98 sobre 5 y el rendimiento general apenas cambió. Pesos y datos se publicaron con licencia Apache 2.0.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+      "fecha": "07-11-2026 13:32"
     },
     {
-      "titulo": "Meta presenta Spaces, una forma de colaborar con su agente Muse",
-      "resumen": "Spaces son conversaciones paralelas por tema, en la barra lateral, que Muse construye a partir de una descripción: rastreadores, planificadores o tableros de proyecto. Pueden conectarse a apps de terceros y actualizarse en segundo plano. Zuckerberg dijo en octubre que los agentes de Meta tenían 10 millones de usuarios en EE. UU. y Canadá menos de dos meses después de su estreno.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "fecha": "06-11-2026 19:44"
+      "titulo": "En España ChatGPT crece sobre todo como buscador, no para escribir",
+      "resumen": "Según un informe de OpenAI sobre cuentas individuales en España, la redacción pasó de cerca del 35 % de la actividad en julio de 2024 a un mínimo del 15 % en agosto de 2026, mientras la búsqueda de información superó el 25 %. Las guías prácticas subieron del 25 % al 30 % y, en jornada laboral, casi la mitad del uso es pedirle que ejecute tareas.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/creiamos-que-ia-iba-a-escribir-nosotros-donde-chagpt-esta-creciendo-espana-como-buscador",
+      "fecha": "07-11-2026 10:00"
+    },
+    {
+      "titulo": "Fireworks AI: pagas de más por IA si no enrutas entre todos los modelos",
+      "resumen": "Rob Ferguson, vicepresidente de Fireworks AI, defiende la inferencia gestionada con enrutamiento automático frente a centros de datos propios: 10.000 GPU suponen unos 1.000 millones de dólares y deben estar bien aprovechadas. La empresa afirma que su enrutamiento abarata la factura entre seis y ocho veces y cachea cerca del 90 % de las tareas de una firma de ciencia de datos.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/07/fireworks-says-youre-wasting-money-on-ai-unless-youre-using-all-the-models/5308277",
+      "fecha": "07-11-2026 16:00"
+    },
+    {
+      "titulo": "Lituania, con 2,9 millones de habitantes, compite con China fabricando láseres para chips de IA en serie",
+      "resumen": "LITILIT inauguró en Vilna una fábrica de láseres de femtosegundo, con unos seis millones de euros de inversión y 4.000 m². Prevé 1.000 láseres el primer año y 3.000 a plena capacidad, con producción desde 2027; frente a una capacidad mundial de unas 9.600 unidades en 2025, supondría cerca de un tercio.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/componentes/lituania-tiene-2-9-millones-habitantes-compite-china-fabricando-laseres-para-chips-ia-serie",
+      "fecha": "07-11-2026 14:01"
     }
   ],
   "titulares": [
     {
-      "titulo": "Crusoe vende a Google su problemático proyecto de centro de datos en Wyoming",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-      "fecha": "07-11-2026"
-    },
-    {
-      "titulo": "China habría reclutado a un directivo de IA para espiar a Jensen Huang",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-      "fecha": "07-11-2026"
-    },
-    {
-      "titulo": "Los datos de Ramp muestran que el gasto en IA se estanca justo cuando Anthropic se acerca a su salida a bolsa",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "fecha": "06-11-2026"
-    },
-    {
-      "titulo": "Las empresas de IA quieren comprar tus archivos y correos de trabajo",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
-      "fecha": "06-11-2026"
-    },
-    {
-      "titulo": "Frontier Radar n.º 5: si la AGI está tan cerca, ¿por qué se va todo el mundo? Los neolabs y sus apuestas",
+      "titulo": "La IA de Google detecta la hipertensión con un smartwatch normal, sin manguito",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/",
-      "fecha": "06-11-2026"
+      "enlace": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/",
+      "fecha": "07-11-2026"
     },
     {
-      "titulo": "Akai y Moog se abren a las modificaciones creadas con «vibe coding»",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
-      "fecha": "06-11-2026"
+      "titulo": "Las apps para cuidadores incorporan IA, pero puede no bastar",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+      "fecha": "07-11-2026"
     },
     {
-      "titulo": "La IA, el nuevo motivo para romper en las citas",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
-      "fecha": "06-11-2026"
+      "titulo": "La fiebre de la IA está creando otro problema, necesitamos toneladas de metal para poder darle electricidad",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/fiebre-ia-esta-creando-otro-problema-necesitamos-toneladas-metal-para-poder-darle-electricidad",
+      "fecha": "07-11-2026"
     },
     {
-      "titulo": "¿Podrían los posibles clones de GTA VI hechos con IA forzar un port oficial más rápido?",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
-      "fecha": "06-11-2026"
+      "titulo": "Python, JavaScript, TypeScript... Estos son los lenguajes de programación que deberías aprender (a pesar de la IA)",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/python-javascript-typescript-estos-son-los-lenguajes-programacion-que-deberias-aprender-pesar-ia_7053960_0.html",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "Max Shestov, programador y desarrollador: \"Si la IA escribe mejor código que tú, ¿qué te convierte entonces en programador?\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/max-shestov-programador-desarrollador-si-ia-escribe-mejor-codigo-que-tu-que-te-convierte-entonces-programador_7048082_0.html",
+      "fecha": "07-11-2026"
     }
   ]
 }
