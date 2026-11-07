@@ -3,6 +3,251 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "La Fiscalía Europea investiga un posible fraude en fondos de la UE tras el accidente de tren mortal en España",
+      "fuente": "Al Jazeera",
+      "fecha": "07-11-2026 02:33",
+      "enlace": "https://www.aljazeera.com/news/2026/11/7/eu-prosecutor-office-investigates-fatal-train-crash-in-spain?traffic_source=rss",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Más de 1.000 migrantes llegan a Canarias en una noche, uno de ellos fallecido",
+      "fuente": "Anadolu Espanol",
+      "fecha": "06-11-2026 16:03",
+      "enlace": "https://www.aa.com.tr/es/mundo/m%C3%A1s-de-1000-migrantes-llegan-a-las-islas-canarias-en-una-noche-uno-de-ellos-fallecido/4114502",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Eslovaquia podría demandar a la UE si prohíbe el petróleo ruso, advierte Fico",
+      "fuente": "TASS",
+      "fecha": "07-11-2026 03:43",
+      "enlace": "https://tass.com/world/2214153",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Kallas advierte a Putin de que la UE debe participar en cualquier acuerdo de paz para Ucrania",
+      "fuente": "Daily Sabah",
+      "fecha": "06-11-2026 17:14",
+      "enlace": "https://www.dailysabah.com/world/europe/eu-must-have-role-in-ukraine-peace-deal-kallas-warns-putin",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Rutte replica a las críticas europeas por el acuerdo del diésel entre Trump y Rusia: «Europa no es santa»",
+      "fuente": "RT",
+      "fecha": "06-11-2026 14:44",
+      "enlace": "https://rt-english.com/news/648524-nato-chief-europe-trump-diesel-criticism/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Bruselas ordena a TikTok cambiar su feed «Para ti» y amenaza con multas",
+      "fuente": "Al Jazeera",
+      "fecha": "07-11-2026 00:33",
+      "enlace": "https://www.aljazeera.com/news/2026/11/6/eu-tells-tiktok-to-fix-harmful-for-you-feed-threatens-fines?traffic_source=rss",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Turquía denuncia que un buque con bandera francesa prepara investigación no autorizada en el Mediterráneo oriental",
+      "fuente": "TRT World",
+      "fecha": "07-11-2026 01:28",
+      "enlace": "https://www.trtworld.com/article/e83b70cc5118",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "China confirma que negocia una reunión entre Xi, Trump y Putin",
+      "fuente": "The Hindu",
+      "fecha": "07-11-2026 03:57",
+      "enlace": "https://www.thehindu.com/news/international/china-says-discussions-underway-on-xi-trump-putin-meeting/article71677194.ece",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Vance lidera en silencio un nuevo impulso para un acuerdo entre EEUU e Irán, según Axios",
+      "fuente": "TRT World",
+      "fecha": "07-11-2026 03:35",
+      "enlace": "https://www.trtworld.com/article/c1df4be1c52e",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "El Senado de Paraguay destituye a Santiago Peña por la crisis del Ueno Bank y queda bajo arresto domiciliario",
+      "fuente": "SCMP",
+      "fecha": "07-11-2026 00:41",
+      "enlace": "https://www.scmp.com/news/world/americas/article/3373623/paraguays-president-pena-impeached-over-ueno-banking-crisis-placed-under-house-arrest",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Los asesores de Trump creen que EEUU tiene dos meses para una nueva operación militar contra Irán, según una cadena de televisión",
+      "fuente": "TASS",
+      "fecha": "07-11-2026",
+      "enlace": "https://tass.com/world/2214157",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "UKMTO: 11 barcos atacados en la semana hasta el 4 de noviembre en Ormuz y el golfo Arábigo",
+      "fuente": "Middle East Eye",
+      "fecha": "07-11-2026",
+      "enlace": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-11-ships-attacked-week-4-nov-hormuz-arabian-gulf",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Kiev recibe 49.400 millones de dólares del G7 y la UE financiados con los ingresos de los activos rusos congelados",
+      "fuente": "TASS",
+      "fecha": "07-11-2026",
+      "enlace": "https://tass.com/world/2214149",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Turquía no piensa dejar de comprar gas ruso pese a su precio elevado, dice el ministro",
+      "fuente": "TASS",
+      "fecha": "07-11-2026",
+      "enlace": "https://tass.com/economy/2214131",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "¿Es la incautación rusa de activos de Japan Tobacco la gota que colma el vaso para Tokio?",
+      "fuente": "SCMP",
+      "fecha": "07-11-2026",
+      "enlace": "https://www.scmp.com/week-asia/politics/article/3373624/russias-seizure-japan-tobacco-assets-last-straw-tokyo-amid-frosty-ties",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "La defensa aérea iraní derriba un dron MQ-9 sobre la isla de Qeshm, según medios",
+      "fuente": "Middle East Eye",
+      "fecha": "07-11-2026",
+      "enlace": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-air-defence-destroys-mq-9-drone-over-qeshm-island-report-says",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "EEUU pide a China que cumpla los compromisos del acuerdo comercial de Busan",
+      "fuente": "Al Jazeera",
+      "fecha": "07-11-2026",
+      "enlace": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "\"Veinte dólares a la semana no alcanzan\": Este es el complicado panorama financiero para estudiar en Ecuador",
+      "fuente": "Sputnik Mundo",
+      "fecha": "07-11-2026",
+      "enlace": "https://noticiaslatam.lat/20261107/veinte-dolares-a-la-semana-no-alcanzan-este-es-el-complicado-panorama-financiero-para-estudiar-en-1175773826.html",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Riesgo país de Argentina supera los 930 puntos por deterioro de variables económicas",
+      "fuente": "teleSUR",
+      "fecha": "07-11-2026",
+      "enlace": "https://www.telesurtv.net/argentina-riesgo-pais-sipera-930-puntos/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Argentina. Las CTA advierten al Papa sobre la situación de «endeudamiento» y «el flagelo de las apuestas»",
+      "fuente": "Resumen Latinoamericano",
+      "fecha": "07-11-2026",
+      "enlace": "https://www.resumenlatinoamericano.org/2026/11/06/argentina-las-cta-advierten-al-papa-sobre-la-situacion-de-endeudamiento-y-el-flagelo-de-las-apuestas/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Panamá contabiliza más de mil 400 réplicas tras fuerte terremoto",
+      "fuente": "Prensa Latina",
+      "fecha": "07-11-2026",
+      "enlace": "https://www.prensa-latina.cu/2026/11/06/panama-contabiliza-mas-de-mil-400-replicas-tras-fuerte-terremoto/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "\"Uruguay necesita esa bendición\": León XIV arranca su gira por Sudamérica en el país menos católico de la zona",
+      "fuente": "Sputnik Mundo",
+      "fecha": "07-11-2026",
+      "enlace": "https://noticiaslatam.lat/20261107/uruguay-necesita-esa-bendicion-leon-xiv-arranca-su-gira-por-sudamerica-en-el-pais-menos-catolico-de-1175774468.html",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Abdul El-Sayed: contribuyentes de EE.UU. no deberían financiar guerras de Israel",
+      "fuente": "teleSUR",
+      "fecha": "07-11-2026",
+      "enlace": "https://www.telesurtv.net/abdul-el-sayed-contribuyentes-eeuu-israel/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "El candidato turco Feridun Sinirlioglu expone su plan si es elegido jefe de la ONU",
+      "fuente": "TRT World",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.trtworld.com/article/4c557e60768e",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Marruecos conmemora el aniversario de la ocupación del Sáhara Occidental mientras termina la misión de la ONU",
+      "fuente": "Africanews",
+      "fecha": "06-11-2026",
+      "enlace": "http://www.africanews.com/2026/11/06/morocco-marks-anniversary-of-western-sahara-occupation-as-un-mission-ends/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Israel prepara un nuevo ataque contra el Líbano si se reanuda la guerra con Irán",
+      "fuente": "Daily Sabah",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.dailysabah.com/world/mid-east/israel-prepares-for-renewed-lebanon-attack-if-iran-war-resumes",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Bangladés y Rusia firman un pacto para impulsar el comercio",
+      "fuente": "RT",
+      "fecha": "06-11-2026",
+      "enlace": "https://rt-english.com/news/648532-bangladesh-and-russia-ink-pact/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Ataques aéreos contra un mercado del suroeste de Yemen matan al menos a 30 personas, según los hutíes",
+      "fuente": "The Hindu",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.thehindu.com/news/international/airstrikes-on-market-in-southwestern-yemen-kill-at-least-20-houthis-say/article71674991.ece",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Merz pide que abandonen Alemania los migrantes que rechacen la responsabilidad por el Holocausto",
+      "fuente": "Daily Sabah",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.dailysabah.com/world/europe/merz-tells-migrants-rejecting-holocaust-responsibility-to-leave-germany",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Meloni advierte de que las infraestructuras civiles están bajo ataque",
+      "fuente": "Daily Sabah",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.dailysabah.com/world/europe/italys-pm-meloni-warns-civilian-infrastructure-under-attack",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Serbia confirma la victoria electoral de la oposición",
+      "fuente": "RT",
+      "fecha": "06-11-2026",
+      "enlace": "https://rt-english.com/news/648507-serbia-official-election-results/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Los primeros resultados sitúan al ANC sudafricano en un mínimo histórico del 32 %",
+      "fuente": "Africanews",
+      "fecha": "06-11-2026",
+      "enlace": "http://www.africanews.com/2026/11/06/first-results-show-south-africas-anc-headed-to-all-time-election-low-with-32/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "La condena de 10 años de cárcel al activista hongkonés Joshua Wong recibe críticas internacionales",
+      "fuente": "Anadolu",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.aa.com.tr/en/asia-pacific/hong-kong-activist-joshua-wongs-10-year-prison-sentence-draws-international-criticism/4114472",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "ONU alerta que 15,4 millones de personas necesitan urgentemente refugio en Sudán en medio de escasez de fondos",
+      "fuente": "Anadolu Espanol",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.aa.com.tr/es/mundo/onu-alerta-que-15-4-millones-de-personas-necesitan-urgentemente-refugio-en-sud%C3%A1n-en-medio-de-escasez-de-fondos/4114477",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "El Parlamento de Turkiye aprueba el pacto de defensa conjunta de La Meca con Pakistán y Arabia Saudita",
+      "fuente": "Anadolu Espanol",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.aa.com.tr/es/pol%C3%ADtica/el-parlamento-de-turkiye-aprueba-el-pacto-de-defensa-conjunta-de-la-meca-con-pakist%C3%A1n-y-arabia-saudita/4114446",
+      "turno": "2026-11-07_M"
+    },
+    {
       "titulo": "Trump anuncia que un acuerdo entre Rusia y Ucrania está cerca tras reunirse con el enviado de Putin",
       "fuente": "Al Jazeera",
       "fecha": "06-11-2026 01:06",
