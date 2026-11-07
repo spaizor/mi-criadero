@@ -3,6 +3,237 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "Chainalysis admite que los atacantes robaron credenciales y tokens de todos sus clientes",
+      "fuente": "Ars Technica",
+      "fecha": "06-11-2026 21:56",
+      "enlace": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Windows 11 27H2 reescribirá partes del sistema para mejorar el rendimiento en 64 bits",
+      "fuente": "Hipertextual",
+      "fecha": "06-11-2026 23:09",
+      "enlace": "https://hipertextual.com/software/windows-11-27h2-actualizacion-2027-novedades/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Fox cierra la compra de Roku por 22.000 millones de dólares",
+      "fuente": "TechCrunch",
+      "fecha": "06-11-2026 17:05",
+      "enlace": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Apple asegura que ya hay más de 100.000 apps para el iPhone Duo",
+      "fuente": "TechCrunch",
+      "fecha": "06-11-2026 22:38",
+      "enlace": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Gentle Monster y Warby Parker apuntan a lanzar sus gafas Android XR en diciembre",
+      "fuente": "Engadget",
+      "fecha": "06-11-2026 20:45",
+      "enlace": "https://www.engadget.com/2309631/googles-eyewear-partners-cant-keep-a-lid-on-its-smart-glasses-plans/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Desaparece un envío de hardware de Nvidia de 11,4 millones de dólares entre Oakland y Texas",
+      "fuente": "Ars Technica",
+      "fecha": "06-11-2026 21:05",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Microsoft alerta de instaladores falsos que convierten tu PC en una fuente de ingresos para los atacantes",
+      "fuente": "ComputerHoy",
+      "fecha": "06-11-2026 22:34",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/microsoft-descubre-instaladores-falsos-que-convierten-tu-pc-una-maquina-para-ganar-dinero-sin-que-sepas_7058271_0.html",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Blue Origin presenta Northstar, un motor de 324 toneladas-fuerza que sustituirá al BE-4",
+      "fuente": "Xataka",
+      "fecha": "06-11-2026 18:01",
+      "enlace": "https://www.xataka.com/espacio/blue-origin-presenta-northstar-su-esperadisimo-motor-mucho-potente-que-actuales-muchisimo-barato",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Starlink Mobile: todas las novedades sobre las ambiciones de SpaceX como operadora móvil",
+      "fuente": "The Verge",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Barcos rondan los cables submarinos mientras Irán lanza advertencias a Trump",
+      "fuente": "Ars Technica",
+      "fecha": "06-11-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Los agentes de IA revelan secretos cuando se les propone colaborar entre ellos",
+      "fuente": "The Register",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.theregister.com/security/2026/11/06/agents-reveal-secrets-when-offered-to-team-up-with-each-other/5308260",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Un desarrollador rompe su lucrativo acuerdo de salvapantallas con Roku porque Fox la ha comprado",
+      "fuente": "Ars Technica",
+      "fecha": "06-11-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "La FAA abandonará por fin los disquetes en lo que llama una mejora tecnológica «histórica»",
+      "fuente": "Ars Technica",
+      "fecha": "06-11-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "PyTorch 2.15 aborda el problema de la «GPU defectuosa»",
+      "fuente": "The Register",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.theregister.com/devops/2026/11/06/pytorch-215-tackles-the-one-bad-gpu-problem/5308227",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Las empresas de satélites empiezan a construir sus propios cohetes ante la dureza del mercado de lanzamientos",
+      "fuente": "Ars Technica",
+      "fecha": "06-11-2026",
+      "enlace": "https://arstechnica.com/space/2026/11/ast-spacemobile-is-so-desperate-for-launch-theyre-building-their-own-rocket/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Casi cualquiera puede alquilar acceso a direcciones IP de la Casa Blanca",
+      "fuente": "The Verge",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.theverge.com/tech/1028835/white-house-residential-proxy",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Pronto se podrá escribir a Alexa para comprar en Amazon",
+      "fuente": "Engadget",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.engadget.com/2309285/youll-soon-be-able-to-text-alexa-to-shop-on-amazon/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Oak Ridge estrena un sistema híbrido cuántico-HPC para probar la corrección de errores de qubits",
+      "fuente": "The Register",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.theregister.com/hpc/2026/11/06/oak-ridge-labs-gets-hybrid-quantum-hpc-system-to-test-qubit-error-correction/5308187",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "El Departamento de Justicia lanza un «Super Intelligence Task Force»",
+      "fuente": "Engadget",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.engadget.com/2309257/doj-just-launched-something-called-the-super-intelligence-task-force/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "El Pentágono ofrece a la startup de baterías 6K un préstamo de 250 millones para una fábrica en EE. UU.",
+      "fuente": "TechCrunch",
+      "fecha": "06-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Algunos sistemas Linux permiten entrar sin conocer la contraseña: el fallo llevaba una década escondido",
+      "fuente": "Xataka",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.xataka.com/seguridad/algunos-sistemas-linux-permiten-entrar-conocer-contrasena-fallo-llevaba-decada-escondido",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "El próximo iPhone podría quedarse sin su botón más útil",
+      "fuente": "Hipertextual",
+      "fecha": "06-11-2026",
+      "enlace": "https://hipertextual.com/apple/el-proximo-iphone-podria-quedarse-sin-el-boton-de-accion/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Amazon te regala este mes con Prime y Luna juegos de deportes y otros títulos imprescindibles",
+      "fuente": "ADSLZone",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/videojuegos/amazon-prime-gaming-luna-noviembre-2026/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Microsoft defiende Windows 11 tras corregir más de 1.100 fallos en un mes: \"No significa que sea menos seguro\"",
+      "fuente": "ComputerHoy",
+      "fecha": "06-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-defiende-windows-11-tras-corregir-mas-1-100-fallos-un-mes-no-significa-que-sea-menos-seguro_7058270_0.html",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "India anuncia planes para desarrollar GPU nacionales en 24 meses mientras busca dar salida comercial a sus chips RISC-V",
+      "fuente": "Xataka",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/india-anuncia-planes-para-desarrollar-gpu-nacionales-24-meses-busca-dar-salida-comercial-a-sus-chips-risc-v",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Esta herramienta gratuita te muestra por fin qué está consumiendo la GPU de tu PC",
+      "fuente": "Hipertextual",
+      "fecha": "06-11-2026",
+      "enlace": "https://hipertextual.com/hardware/gputaskman-herramienta-muestra-que-usa-tu-gpu/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Android Auto da un giro inesperado y permite hacer mucho más con YouTube y Stremio",
+      "fuente": "ADSLZone",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/xtream-player-2-0-10-android-auto-stremio-youtube/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Un desarrollador crea una herramienta que permite instala Linux en Windows sin necesidad de grabar las distros en una memoria USB",
+      "fuente": "ComputerHoy",
+      "fecha": "06-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/un-desarrollador-crea-una-herramienta-que-permite-instala-linux-windows-sin-necesidad-grabar-las-distros-una-memoria-usb_7058145_0.html",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Toyota quiere ir más allá de los coches. La respuesta a su próxima gran apuesta está en sus propias fábricas",
+      "fuente": "Xataka",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/toyota-quiere-ir-alla-coches-respuesta-a-su-proxima-gran-apuesta-esta-sus-propias-fabricas",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Tu iPhone podría estar cambiando algunas palabras cuando escribes sin que lo notes",
+      "fuente": "Hipertextual",
+      "fecha": "06-11-2026",
+      "enlace": "https://hipertextual.com/apple/apple-lista-palabras-iphone-evita-sugerir-autocompletado/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "A qué hora juega Alcaraz vs Fritz del Masters 1000 París de cuartos de final",
+      "fuente": "ADSLZone",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/ver-alcaraz-fritz-masters-1000-paris-tv/",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "La Séptima sufre en su primer día en la TDT: \"De momento solo nos hemos ido a negro dos veces, esto va de maravilla!!!!!!!!!\"",
+      "fuente": "ComputerHoy",
+      "fecha": "06-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-sufre-su-primer-dia-tdt-momento-solo-nos-hemos-ido-negro-dos-veces-esto-va-maravilla_7058156_0.html",
+      "turno": "2026-11-07_M"
+    },
+    {
+      "titulo": "Ola Källenius, CEO de Mercedes: “no existe una estrategia en la que puedas dejar a China de lado”",
+      "fuente": "Xataka",
+      "fecha": "06-11-2026",
+      "enlace": "https://www.xataka.com/movilidad/ola-kallenius-ceo-mercedes-no-existe-estrategia-que-puedas-dejar-a-china-lado",
+      "turno": "2026-11-07_M"
+    },
+    {
       "titulo": "Tesla dejará de fabricar la Cybertruck en 2027 para dar paso a más Cybercabs",
       "fuente": "TechCrunch",
       "fecha": "06-11-2026 12:50",

@@ -1,195 +1,213 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "06-11-2026 15:13",
+  "actualizado": "07-11-2026 03:11",
   "destacadas": [
     {
-      "titulo": "Tesla dejará de fabricar la Cybertruck en 2027 para dar paso a más Cybercabs",
-      "resumen": "Elon Musk ha anunciado en X que Tesla pondrá fin a la producción de la Cybertruck en 2027 y usará esa fábrica para fabricar más Cybercabs, robotaxis de dos plazas. Musk preveía unas 250.000 ventas anuales, pero en tres años solo se han vendido decenas de miles, con un precio base cercano a 60.000 dólares frente a los menos de 40.000 prometidos. Es el tercer producto que Tesla retira tras el Model S y el Model X, y los Cybercabs ya circulan en Austin y llegarán a Dallas este mes.",
+      "titulo": "Chainalysis admite que los atacantes robaron credenciales y tokens de todos sus clientes",
+      "resumen": "Los atacantes obtuvieron nombres, usuarios, hashes de contraseñas y tokens activos de todos los usuarios de Chainalysis, cuyos clientes incluyen al FBI, ICE, la Fuerza Aérea de EE. UU., Microsoft, Coinbase y Barclays. La empresa atribuye el incidente de octubre a un ataque «on-path» y a técnicas ofensivas asistidas por agentes de IA, y exige ahora rotar credenciales y enviar IP de confianza. Aún no ha explicado dónde se comprometió la infraestructura ni por qué tardó días en revelar el alcance.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "fecha": "06-11-2026 21:56"
+    },
+    {
+      "titulo": "Windows 11 27H2 reescribirá partes del sistema para mejorar el rendimiento en 64 bits",
+      "resumen": "A diferencia de 25H2 y 26H2, que llegaron como parches, la 27H2 sustituirá piezas importantes de la base del sistema. Incluye mejoras de gestión de memoria que reducen el uso del disco con la RAM bajo presión, posible soporte para Intel APX y nuevos fondos en lugar de Bloom. Microsoft sigue reescribiendo diálogos antiguos en WinUI 3 y Windows 12 no se anunciará todavía.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/software/windows-11-27h2-actualizacion-2027-novedades/",
+      "fecha": "06-11-2026 23:09"
+    },
+    {
+      "titulo": "Fox cierra la compra de Roku por 22.000 millones de dólares",
+      "resumen": "Fox completó la adquisición el 6 de noviembre, mucho antes de lo previsto: se anunció en junio de 2026 con cierre esperado en la primera mitad de 2027. Según Fox, el grupo resultante es el tercer negocio de televisión de EE. UU. por audiencia, y Roku llega a más de 100 millones de hogares. El Departamento de Justicia había pedido información adicional en septiembre dentro de su revisión antimonopolio.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
-      "fecha": "06-11-2026 12:50"
+      "enlace": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/",
+      "fecha": "06-11-2026 17:05"
     },
     {
-      "titulo": "Bruselas exige a TikTok cambiar su página «Para ti» por el efecto madriguera",
-      "resumen": "La Comisión Europea sostiene que TikTok incumple la Ley de Servicios Digitales porque su algoritmo expone de forma «interminable y repetida» a contenidos sobre tristeza, aislamiento o imagen corporal. Según las conclusiones preliminares, los controles que la plataforma ya aplicó no son eficaces, y TikTok deberá rediseñar el feed o afrontar multas de hasta el 6 % de su facturación mundial. Es la primera vez que Bruselas cita un algoritmo de recomendación como motivo de infracción.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1028597/tiktok-eu-for-you-algorithm-rabbit-hole-effect",
-      "fecha": "06-11-2026 15:00"
+      "titulo": "Apple asegura que ya hay más de 100.000 apps para el iPhone Duo",
+      "resumen": "Apple anunció que más de 100.000 apps adaptadas al iPhone Duo están en la App Store, con miles más cada día, y que se suman Word, Outlook, Zoom y Etsy. Más de 2.000 desarrolladores pasaron por 50 talleres presenciales en 19 ciudades. El Duo parte de 1.999 dólares y se agotó en horas, con envíos ya retrasados hasta el año que viene.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
+      "fecha": "06-11-2026 22:38"
     },
     {
-      "titulo": "DigiCert admite un fallo de seguridad de 16 meses que expuso datos de clientes",
-      "resumen": "Una migración de servidor mal ejecutada en febrero de 2025 dejó un sistema interno expuesto a Internet durante más de 16 meses. Una cuenta no autorizada accedió entre el 27 de junio y el 2 de julio a registros con nombres, correos, teléfonos y, en algunos casos, pasaportes y carnés de conducir. DigiCert no revela cuántas personas están afectadas y asegura que CertCentral y DigiCert ONE no se vieron comprometidos.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
-      "fecha": "06-11-2026 14:15"
-    },
-    {
-      "titulo": "Telefónica dejará de prestar el servicio universal de telecomunicaciones el 1 de enero de 2027",
-      "resumen": "El Gobierno ha decidido, con el visto bueno de la CNMC, que Telefónica deje de ser la responsable única del servicio universal, una obligación que tenía desde 1998. La responsabilidad se repartirá entre las operadoras con red en cada zona, ya que la fibra, el móvil y el satélite llegan a casi todo el país. Los clientes no tendrán que cambiar de compañía ni de tarifa ni perderán su conexión.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/como-te-afecta-telefonica-tiene-luz-verde-dejara-dar-servicio-universal-telecomunicaciones-espana-desde-1-enero-2027_7058008_0.html",
-      "fecha": "06-11-2026 14:11"
-    },
-    {
-      "titulo": "Google Find Hub ya avisa si te dejas olvidado un rastreador",
-      "resumen": "Google ha empezado a desplegar en Find Hub la función «Notify when left behind», que avisa cuando se deja atrás un localizador o el objeto al que está unido. Se activa dispositivo a dispositivo en los ajustes de la app y no avisa si el objeto está en la dirección de casa configurada en Google Maps. Está disponible en EE. UU. y algunas zonas de Europa, y funciona con rastreadores de terceros como Chipolo.",
+      "titulo": "Gentle Monster y Warby Parker apuntan a lanzar sus gafas Android XR en diciembre",
+      "resumen": "Gentle Monster anunció que sus gafas «Intelligent Eyewear» con Android XR saldrán en diciembre, con reservas desde el 12 de noviembre; Warby Parker pareció filtrar la misma fecha por error. Son gafas sin pantalla y centradas en el audio, con acceso a Gemini, y Samsung también es socio de Google. Google no ha confirmado ninguna de las fechas.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2308903/googles-find-hub-can-finally-notify-you-if-youve-left-a-tracker-behind/",
-      "fecha": "06-11-2026 14:05"
+      "enlace": "https://www.engadget.com/2309631/googles-eyewear-partners-cant-keep-a-lid-on-its-smart-glasses-plans/",
+      "fecha": "06-11-2026 20:45"
     },
     {
-      "titulo": "Xiaomi prueba dos robots humanoides durante un turno completo de 8 horas en su fábrica de coches",
-      "resumen": "Xiaomi ha mostrado en X un turno de 8 horas en el que dos humanoides de tamaño completo clasifican cubiertas laterales de parachoques sin intervención humana en una planta de sus coches eléctricos. Los robots pararon solo dos veces a recargar la batería y hubo un único error: una pieza caída que recogió un robot auxiliar más pequeño. La compañía lo presenta como validación preliminar en condiciones reales de producción.",
+      "titulo": "Desaparece un envío de hardware de Nvidia de 11,4 millones de dólares entre Oakland y Texas",
+      "resumen": "Seis palés de equipos de Nvidia salieron de Oakland el 29 de agosto rumbo a Fort Worth y se perdió su pista en el condado de San Bernardino; el robo no se detectó hasta septiembre y se denunció el 13. No hay detenidos ni se sabe qué hardware era. Desde junio, robos similares suman más de 100 millones de dólares, con técnicas como la suplantación del GPS.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/",
+      "fecha": "06-11-2026 21:05"
+    },
+    {
+      "titulo": "Microsoft alerta de instaladores falsos que convierten tu PC en una fuente de ingresos para los atacantes",
+      "resumen": "La campaña distribuye falsas versiones gratuitas de software, activadores, plugins y juegos mediante instaladores de Inno Setup. Monetiza los equipos con el proxy WorldProxyPool, computación distribuida con BOINC y CharityEngine (a veces con VirtualBox) y aplicaciones publicitarias o de afiliación. Defender XDR ya bloquea varios de estos comportamientos.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/los-robots-humanoides-xiaomi-se-suman-sus-cadenas-montaje-mas-8-horas-clasificando-piezas-sin-parar_7058047_0.html",
-      "fecha": "06-11-2026 13:26"
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/microsoft-descubre-instaladores-falsos-que-convierten-tu-pc-una-maquina-para-ganar-dinero-sin-que-sepas_7058271_0.html",
+      "fecha": "06-11-2026 22:34"
     },
     {
-      "titulo": "Windows 11 23H2 pierde el soporte en Enterprise y Education el 10 de noviembre",
-      "resumen": "Microsoft retirará el soporte de Windows 11 23H2 en las ediciones Enterprise y Education el 10 de noviembre de 2026, un año después de hacerlo en Home y Pro. Desde la versión 24H2 el sistema exige procesadores con SSE4.2, así que muchos equipos no podrán pasar a 25H2 o 26H2. Quienes no puedan actualizar tendrán que cambiar de PC o de sistema operativo para seguir recibiendo parches.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/windows/windows-23h2-fin-soporte-enterprise-education/",
-      "fecha": "06-11-2026 13:30"
-    },
-    {
-      "titulo": "Al menos 10 gobiernos locales de EE. UU. han abandonado las cámaras de Flock desde el verano",
-      "resumen": "Desde el verano, al menos 10 ciudades y cuerpos policiales han recortado o cancelado su uso de Flock Safety por la vigilancia masiva y la privacidad, entre ellos Monroe, Newburgh, Richmond, Lansing y Asheville. Flock tiene más de 100.000 cámaras en el país; Florida prohibió los lectores de matrículas en carreteras estatales y Texas pausó los fondos estatales para la empresa.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/05/at-least-10-local-governments-have-moved-to-drop-flocks-surveillance-cameras-since-summer/",
-      "fecha": "06-11-2026 08:18"
+      "titulo": "Blue Origin presenta Northstar, un motor de 324 toneladas-fuerza que sustituirá al BE-4",
+      "resumen": "Northstar tendrá más empuje que el BE-4 (324 frente a 290 toneladas-fuerza), la mitad de piezas, un 30 % menos de masa y cerca del 65 % de componentes imprimibles en 3D, con un coste de fabricación en torno al 25 % del habitual. Quema metano líquido y empezará a complementar al BE-4 en la primera etapa del New Glenn, que seguirá en el Vulcan de ULA. No hay fecha para su estreno.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/blue-origin-presenta-northstar-su-esperadisimo-motor-mucho-potente-que-actuales-muchisimo-barato",
+      "fecha": "06-11-2026 18:01"
     }
   ],
   "titulares": [
     {
-      "titulo": "El Enough Phone, un móvil pequeño hecho para quienes están hartos de las pantallas grandes",
+      "titulo": "Starlink Mobile: todas las novedades sobre las ambiciones de SpaceX como operadora móvil",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1028160/enough-small-phone-kickstarter-sleke",
+      "enlace": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "El contrato de servicios en la nube del Home Office podría dar a AWS 1.000 millones de libras",
+      "titulo": "Barcos rondan los cables submarinos mientras Irán lanza advertencias a Trump",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Los agentes de IA revelan secretos cuando se les propone colaborar entre ellos",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/public-sector/2026/11/06/home-office-cloud-services-contract-may-net-aws-1b/5308106",
+      "enlace": "https://www.theregister.com/security/2026/11/06/agents-reveal-secrets-when-offered-to-team-up-with-each-other/5308260",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "El autocompletado de Safari podría estar distorsionando el tiempo",
+      "titulo": "Un desarrollador rompe su lucrativo acuerdo de salvapantallas con Roku porque Fox la ha comprado",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "La FAA abandonará por fin los disquetes en lo que llama una mejora tecnológica «histórica»",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "PyTorch 2.15 aborda el problema de la «GPU defectuosa»",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/applications/2026/11/06/safaris-autofill-feature-may-be-distorting-time/5308006",
+      "enlace": "https://www.theregister.com/devops/2026/11/06/pytorch-215-tackles-the-one-bad-gpu-problem/5308227",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "El NHS pide una segunda opinión sobre las autoevaluaciones elogiosas de Palantir",
+      "titulo": "Las empresas de satélites empiezan a construir sus propios cohetes ante la dureza del mercado de lanzamientos",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/ast-spacemobile-is-so-desperate-for-launch-theyre-building-their-own-rocket/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Casi cualquiera puede alquilar acceso a direcciones IP de la Casa Blanca",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1028835/white-house-residential-proxy",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Pronto se podrá escribir a Alexa para comprar en Amazon",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2309285/youll-soon-be-able-to-text-alexa-to-shop-on-amazon/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Oak Ridge estrena un sistema híbrido cuántico-HPC para probar la corrección de errores de qubits",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/public-sector/2026/11/06/nhs-wants-a-second-opinion-on-palantirs-glowing-self-assessments/5307809",
+      "enlace": "https://www.theregister.com/hpc/2026/11/06/oak-ridge-labs-gets-hybrid-quantum-hpc-system-to-test-qubit-error-correction/5308187",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "Diputados británicos avisan: las ambiciones tecnológicas del país dependen de minerales chinos",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/public-sector/2026/11/06/britains-tech-ambitions-depend-on-minerals-made-in-china-mps-warn/5307779",
+      "titulo": "El Departamento de Justicia lanza un «Super Intelligence Task Force»",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2309257/doj-just-launched-something-called-the-super-intelligence-task-force/",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "Ozempic solo era el principio de los medicamentos para adelgazar: ya están preparando una nueva generación aún más potente",
+      "titulo": "El Pentágono ofrece a la startup de baterías 6K un préstamo de 250 millones para una fábrica en EE. UU.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "Algunos sistemas Linux permiten entrar sin conocer la contraseña: el fallo llevaba una década escondido",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/creiamos-que-ozempic-era-limite-ciencia-prueba-farmacos-capaces-eliminar-casi-tercio-peso-corporal",
+      "enlace": "https://www.xataka.com/seguridad/algunos-sistemas-linux-permiten-entrar-conocer-contrasena-fallo-llevaba-decada-escondido",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "Calienta el Black Friday: tres teléfonos top con su precio histórico más bajo",
+      "titulo": "El próximo iPhone podría quedarse sin su botón más útil",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/ofertas-descuentos/telefonos-pc-componentes/",
+      "enlace": "https://hipertextual.com/apple/el-proximo-iphone-podria-quedarse-sin-el-boton-de-accion/",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "Los clientes de Orange comienzan a ver un nuevo icono en la pantalla de sus móviles: esto es lo que significa",
+      "titulo": "Amazon te regala este mes con Prime y Luna juegos de deportes y otros títulos imprescindibles",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/orange-icono-5g-plus-significado/",
+      "enlace": "https://www.adslzone.net/noticias/videojuegos/amazon-prime-gaming-luna-noviembre-2026/",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "Así han reaccionado las redes sociales al estreno de La Séptima en la TDT: \"Hay que retrotraerse a los inicios de Cuatro para ver algo de calidad similar\"",
+      "titulo": "Microsoft defiende Windows 11 tras corregir más de 1.100 fallos en un mes: \"No significa que sea menos seguro\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/asi-han-reaccionado-las-redes-sociales-estreno-septima-tdt-hay-que-retrotraerse-los-inicios-cuatro-para-ver-algo-calidad-similar_7058007_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-defiende-windows-11-tras-corregir-mas-1-100-fallos-un-mes-no-significa-que-sea-menos-seguro_7058270_0.html",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "Madrid enfrenta el mayor reto de la A-5 cerrando la conexión con la M-30 durante 43 días a partir del 10 de noviembre",
+      "titulo": "India anuncia planes para desarrollar GPU nacionales en 24 meses mientras busca dar salida comercial a sus chips RISC-V",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/madrid-enfrenta-mayor-reto-a-5-cerrando-conexion-m-30-durante-43-dias-a-partir-10-noviembre",
+      "enlace": "https://www.xataka.com/robotica-e-ia/india-anuncia-planes-para-desarrollar-gpu-nacionales-24-meses-busca-dar-salida-comercial-a-sus-chips-risc-v",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "He probado el Lepas L6 PHEV en China: ¿va a reventar el mercado este nuevo SUV?",
+      "titulo": "Esta herramienta gratuita te muestra por fin qué está consumiendo la GPU de tu PC",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/movilidad/he-probado-el-lepas-l6-phev-en-china-va-a-reventar-el-mercado-este-nuevo-suv/",
+      "enlace": "https://hipertextual.com/hardware/gputaskman-herramienta-muestra-que-usa-tu-gpu/",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "Adiós a los avisos en las Zonas de bajas emisiones: el BOE obliga desde hoy a multar en toda España",
+      "titulo": "Android Auto da un giro inesperado y permite hacer mucho más con YouTube y Stremio",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/espana-nuevas-normas-zonas-bajas-emisiones-zbe/",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/xtream-player-2-0-10-android-auto-stremio-youtube/",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "Así ha quedado la TDT tras la llegada de La Séptima y los nuevos canales UHD: esto es todo lo que deberías ver según tu modelo de televisor, compruébalo",
+      "titulo": "Un desarrollador crea una herramienta que permite instala Linux en Windows sin necesidad de grabar las distros en una memoria USB",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/asi-ha-quedado-tdt-tras-llegada-septima-los-nuevos-canales-uhd-esto-es-todo-que-deberias-ver-segun-tu-modelo-televisor-compruebalo_7058005_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/un-desarrollador-crea-una-herramienta-que-permite-instala-linux-windows-sin-necesidad-grabar-las-distros-una-memoria-usb_7058145_0.html",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "\"Buscamos a Mister Calvo 2026\": el gastrobar de un pueblo de Castellón ha decidido organizar una fiesta de calvos contra la despoblación",
+      "titulo": "Toyota quiere ir más allá de los coches. La respuesta a su próxima gran apuesta está en sus propias fábricas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/buscamos-a-mister-calvo-2026-gastrobar-pueblo-castellon-ha-decidido-organizar-fiesta-calvos-despoblacion",
+      "enlace": "https://www.xataka.com/robotica-e-ia/toyota-quiere-ir-alla-coches-respuesta-a-su-proxima-gran-apuesta-esta-sus-propias-fabricas",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "Tebas conocía el supuesto falseo de firmas de LaLiga contra la piratería: un correo demuestra que recibió el aviso",
+      "titulo": "Tu iPhone podría estar cambiando algunas palabras cuando escribes sin que lo notes",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/apple-lista-palabras-iphone-evita-sugerir-autocompletado/",
+      "fecha": "06-11-2026"
+    },
+    {
+      "titulo": "A qué hora juega Alcaraz vs Fritz del Masters 1000 París de cuartos de final",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/descargas/tebas-supuesto-falseo-firmas-laliga-pirateria/",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/ver-alcaraz-fritz-masters-1000-paris-tv/",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "Un ingeniero de Microsoft crea el administrador de GPU que le falta a Windows 11: \"El Administrador de tareas indica que se han utilizado 15 GB. Esto intenta responder: ¿por qué?\"",
+      "titulo": "La Séptima sufre en su primer día en la TDT: \"De momento solo nos hemos ido a negro dos veces, esto va de maravilla!!!!!!!!!\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/un-ingeniero-microsoft-crea-administrador-gpu-que-le-falta-windows-11-administrador-tareas-indica-que-se-han-utilizado-15-gb-esto-intenta-responder-por-que_7057999_0.html",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-sufre-su-primer-dia-tdt-momento-solo-nos-hemos-ido-negro-dos-veces-esto-va-maravilla_7058156_0.html",
       "fecha": "06-11-2026"
     },
     {
-      "titulo": "El SEPE dará el subsidio por desempleo a quien gane menos de 964 euros brutos al mes en 2027",
+      "titulo": "Ola Källenius, CEO de Mercedes: “no existe una estrategia en la que puedas dejar a China de lado”",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/legislacion-y-derechos/sepe-dara-subsidio-desempleo-a-quien-gane-964-euros-brutos-al-mes-2027",
-      "fecha": "06-11-2026"
-    },
-    {
-      "titulo": "Te van a quitar la sección Para Ti de TikTok y no podrás hacer nada para recuperarla",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes-sociales/bruselas-tiktok-cambios-aplicacion/",
-      "fecha": "06-11-2026"
-    },
-    {
-      "titulo": "TikTok Shop, a punto de llegar a iOS y Android: en qué consiste esta app de compras y qué incluye",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/tiktok-shop-punto-llegar-ios-android-que-consiste-esta-app-compras-que-incluye_7058014_0.html",
-      "fecha": "06-11-2026"
-    },
-    {
-      "titulo": "España ha elegido las aguas de Canarias para volar por los aires un buque de guerra que Marruecos tiene en su flota desde 1982",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/espana-ha-elegido-aguas-canarias-para-volar-aires-buque-guerra-que-marruecos-tiene-su-flota-1982",
-      "fecha": "06-11-2026"
-    },
-    {
-      "titulo": "La Séptima no se puede ver en Orange TV y Vodafone TV: solo tienes dos opciones como cliente",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/streaming-tv/orange-tv-vodafone-tv-formas-ver-septima/",
-      "fecha": "06-11-2026"
-    },
-    {
-      "titulo": "laSexta UHD ha comenzado sus emisiones, pero para verlo no necesitas resintonizar la TDT como el resto de canales 4K",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/lasexta-uhd-ha-comenzado-sus-emisiones-pero-para-verlo-no-necesitas-resintonizar-tdt-como-resto-canales-4k_7058003_0.html",
+      "enlace": "https://www.xataka.com/movilidad/ola-kallenius-ceo-mercedes-no-existe-estrategia-que-puedas-dejar-a-china-lado",
       "fecha": "06-11-2026"
     }
   ]
