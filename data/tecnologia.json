@@ -1,129 +1,172 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "08-11-2026 03:11",
+  "actualizado": "08-11-2026 15:12",
   "destacadas": [
     {
-      "titulo": "Un fallo de Android llamado GhostMap puede dejar el móvil en bucle de errores con solo instalar una app",
-      "resumen": "Investigadores de Bitdefender describen GhostMap, una vulnerabilidad en cómo Android procesa ciertos métodos de compresión de los ZIP incluidos en las APK, que provoca fallos repetidos en system_server y deja el teléfono en reinicios constantes. Google cerró el primer informe por no poder reproducirlo y aún no ha publicado corrección; Bitdefender no ha detectado ataques reales. Recuperarlo exige restaurar de fábrica o borrar el archivo problemático con herramientas avanzadas.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/descubren-un-fallo-android-que-puede-dejar-tu-movil-inutilizable-con-solo-instalar-una-aplicacion_7058514_0.html",
-      "fecha": "07-11-2026 15:50"
-    },
-    {
-      "titulo": "Microsoft reconoce una vulnerabilidad crítica en Paint de Windows 11 y su parche no llega a todos",
-      "resumen": "El fallo CVE-2026-83844 permite ejecución remota de código mediante una imagen manipulada, aunque Microsoft reconoce que la complejidad del ataque es alta. La guía de seguridad apunta a Paint 11.2605.91.0, pero muchos administradores siguen recibiendo la 11.2605.81.0 en Microsoft Store, y se cita también la 11.2609.401.0 como la que realmente corrige el problema. Se recomienda no abrir imágenes de fuentes no fiables.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/ni-siquiera-paint-esta-salvo-una-imagen-manipulada-puede-comprometer-tu-pc-con-windows-11_7058522_0.html",
-      "fecha": "07-11-2026 17:15"
-    },
-    {
-      "titulo": "El director financiero de Binance se va tras el robo de 6.300 millones de dólares",
-      "resumen": "Kaiser Ng deja Binance para «emprender un nuevo proyecto» tras más de cinco años, según Bloomberg; le sustituye Justin Yek. La salida llega poco más de una semana después de que unos hackers robaran 6.300 millones en criptomonedas, atribuidos por Binance y el FBI al grupo norcoreano TraderTraitor. Binance congeló retiradas varios días, los usuarios retiraron 3.600 millones netos en las primeras horas tras reabrir y la empresa promete cubrir todas las pérdidas.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
-      "fecha": "07-11-2026 18:24"
-    },
-    {
-      "titulo": "EEUU vota en masa contra los centros de datos, salvo un pueblo de Dakota del Norte",
-      "resumen": "Tras al menos 40 referéndums locales, las urnas del 3 de noviembre dejaron un rechazo general a los centros de datos. La excepción es Harwood (940 habitantes), que rechazó por 325 votos a 105 una norma que exigía evaluaciones independientes y audiencias públicas para grandes proyectos futuros. Allí Applied Digital levanta Polaris Forge 2, de 3.000 millones de dólares y 280 MW, arrendado a Oracle.",
+      "titulo": "Zaragoza sale a la calle contra los centros de datos: «No generan empleo, no pagan impuestos y se quedan con todos los recursos»",
+      "resumen": "Entre 2.000 (Policía Nacional) y 5.000 personas (elDiario.es) se manifestaron en el Día Europeo contra los centros de datos para pedir que se paralicen los proyectos en construcción. Se prevén 34 centros en Aragón, cuyo consumo eléctrico pasaría de unos 10.000 a más de 55.000 GWh al año si se ejecutan todos. Mientras, el borrador del Real Decreto se ha suavizado: el umbral sube de 1 a 10 MW y hay hasta cinco años de transición para el 80 % renovable.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/eeuu-ha-votado-masa-centros-datos-todos-pueblo-dakota-norte-mil-habitantes",
-      "fecha": "07-11-2026 18:01"
+      "enlace": "https://www.xataka.com/robotica-e-ia/zaragoza-sale-a-calle-centros-datos-no-generan-empleo-no-pagan-impuestos-se-quedan-todos-recursos",
+      "fecha": "08-11-2026 09:31"
     },
     {
-      "titulo": "CachyOS supera a SteamOS como el Linux más usado en la encuesta de Steam",
-      "resumen": "La encuesta de hardware de Steam de octubre sitúa a CachyOS, distribución basada en Arch y centrada en el rendimiento, por delante de SteamOS entre las distros de Linux. Linux sube un 0,9 %, Windows 11 un 1,2 % y macOS un 0,4 %, mientras Windows 10 cae un 2,5 %. AMD tiene el 47,37 % de los procesadores y el 41,42 % de los usuarios tiene 16 GB de RAM.",
+      "titulo": "La primera pantalla táctil cosida en una manga funciona tras 50 lavados",
+      "resumen": "Un equipo de la Universidad Nacional de Singapur, dirigido por Tural Khudiyev, publicó en Nature una manga con 54 fibras de píxeles de 1 mm y 96 LED cada una, que forman una pantalla táctil de 96 × 54 píxeles y 30 fps. Resistió 50 lavados y 1.000 dobleces sin cambios apreciables, aunque sigue sin resolverse la alimentación y la resolución es baja.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/investigacion/primera-pantalla-tactil-cosida-manga-funciona-50-lavados-pregunta-necesitamos-claro",
+      "fecha": "08-11-2026 13:31"
+    },
+    {
+      "titulo": "Chrome prueba un menú de tres puntos con buscador integrado",
+      "resumen": "Google ha activado en Chrome Canary un menú renovado con un cuadro de búsqueda fijo que localiza acciones del navegador, marcadores e historial reciente sin salir del menú. Reorganiza las opciones en bloques visuales, convierte algunos accesos en botones destacados y sustituye las flechas de desplazamiento por una barra convencional. Google no ha dicho cuándo llegará a la versión estable.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/chrome-prepara-uno-sus-cambios-mas-practicos-anos-menu-los-tres-puntos-por-fin-te-ayudara-encontrar-que-buscas_7058647_0.html",
+      "fecha": "08-11-2026 14:10"
+    },
+    {
+      "titulo": "Los modelos del mundo serán inevitables: qué son y por qué importan",
+      "resumen": "A diferencia de los LLM, que predicen la siguiente palabra, los modelos del mundo reciben un estado visual y predicen el siguiente, simulando física y causa-efecto. Niantic Spatial aprovecha los escaneos de Pokémon Go para entrenar robots, Wayve los usa con grabaciones de cámaras de coche para recrear situaciones peligrosas y Yann LeCun ha levantado más de mil millones de dólares para la tecnología. Wired prevé que 2027 sea clave para los robots domésticos y los coches autónomos.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
+      "fecha": "08-11-2026 11:00"
+    },
+    {
+      "titulo": "Físicos escuchan el ruido eléctrico para resolver un misterio de los superconductores",
+      "resumen": "Un equipo liderado por Milan Allan (LMU Múnich) e Ingmar Swart (Utrecht) midió el ruido de disparo con un microscopio de efecto túnel en un cuprato para detectar directamente pares de Cooper. Es un intento de aclarar el pseudogap, el fenómeno de «electrones desaparecidos» que lleva casi 40 años sin explicación y que ha sido publicado en Science.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
+      "fecha": "08-11-2026 13:15"
+    },
+    {
+      "titulo": "La gobernanza de internet afronta su prueba cuatrienal en la reunión de la UIT",
+      "resumen": "La conferencia de plenipotenciarios de la UIT arranca el 9 de noviembre y dura 18 días, con 278 propuestas sobre la mesa. Internet Society e ICANN advierten de propuestas que ampliarían el papel de la UIT en redes IP, DNS y políticas de internet, con riesgo de fragmentación. Siguen pendientes decisiones sobre constelaciones de satélites en órbita baja y resiliencia de cables submarinos.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/11/08/internet-governance-about-to-get-its-quadrennial-stress-test-at-itu-meeting/5308031",
+      "fecha": "08-11-2026 10:33"
+    },
+    {
+      "titulo": "Bill Gates admite que ha dejado de programar: «Mis habilidades se han quedado obsoletas»",
+      "resumen": "En una entrevista con The Observer, Bill Gates afirma que a finales del año pasado vio que sus habilidades de programación, en las que se obsesionó desde los 13 años, se habían vuelto básicamente obsoletas por la IA. Cree que ningún humano podrá ya ser el mejor programador del mundo frente a herramientas como Claude Code, Cursor o GitHub Copilot.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/bill-gates-confirma-que-ha-dejado-programar-mis-habilidades-programacion-las-que-me-obsesione-desde-los-13-anos-se-han-quedado-obsoletas_7053404_0.html",
+      "fecha": "08-11-2026 09:00"
+    },
+    {
+      "titulo": "El Elder Scrolls 6: Sentinel está a más de dos años, según Jason Schreier",
+      "resumen": "Bethesda ha confirmado que The Elder Scrolls 6 se llamará Sentinel, sin dar más detalles. Jason Schreier (Bloomberg) afirma que el juego está «a más de dos años» y otras especulaciones lo sitúan en 2029 como pronto. Su desarrollo formal arrancó en 2023 tras Starfield y se espera que transcurra en Hammerfell.",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/cachyos-supera-steamos-linux-steam-encuesta-hardware/",
-      "fecha": "07-11-2026 20:00"
-    },
-    {
-      "titulo": "GTA 6 supera los 750 millones de dólares en reservas antes de salir",
-      "resumen": "Según Sensor Tower, el juego ha recaudado más de 750 millones desde que arrancó la preventa el 25 de junio, hasta el 3 de noviembre: unos 5,7 millones al día y alrededor de 7,71 millones de copias. PS5 acapara el 74 % de las reservas y Xbox Series X|S el 26 %. El juego sale el 19 de noviembre.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/cuanto-dinero-ha-generado-gta-6-antes-lanzamiento/",
-      "fecha": "07-11-2026 18:00"
-    },
-    {
-      "titulo": "La beta de One UI 9.5 de Samsung, cada vez más cerca",
-      "resumen": "Una compilación de One UI 9.5 para el Galaxy S26 Ultra (firmware S948BXXU6ZZK3) ha aparecido en los servidores de Samsung de Corea y EE. UU., paso habitual antes de abrir el registro. Se basa en Android 17 y debutaría con el Galaxy S27 a comienzos de 2027; la beta de One UI 8.5 abrió el 8 de diciembre de 2025. Estaría disponible en Alemania, India, Polonia, Corea del Sur, Reino Unido y EE. UU.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2307479/samsung-one-ui-9-5-beta-program-how-to-sign-up/",
-      "fecha": "08-11-2026 02:00"
+      "enlace": "https://hipertextual.com/videojuegos/the-elder-scrolls-6-sentinel-espera-mas-larga/",
+      "fecha": "08-11-2026 11:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Los padres piden móviles más seguros para niños y las empresas responden",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
-      "fecha": "07-11-2026"
+      "titulo": "¿Puede un hacker hacer algo de verdad con tu dirección IP?",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2306218/can-hackers-do-anything-with-ip-address/",
+      "fecha": "08-11-2026"
     },
     {
-      "titulo": "El misterioso motivo por el que los avanzadísimos retretes japoneses no han triunfado en el resto del mundo",
+      "titulo": "No hay quien frene el segundo giro de los medios hacia el vídeo",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Un problema matemático de hace 55 años se resuelve, esta vez por humanos",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans/",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Doom ofrece cinco minutos de violencia en terminal en un mainframe de IBM",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/11/08/doom-delivers-five-minutes-of-terminal-violence-on-an-ibm-mainframe/5308092",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Tras años de envejecimiento, China se enfrenta a una nueva realidad: sus familias ya mantienen a más ancianos que niños",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/internet-of-things/misterioso-motivo-que-avanzadisimos-retretes-japoneses-no-han-triunfado-resto-mundo",
-      "fecha": "07-11-2026"
+      "enlace": "https://www.xataka.com/magnet/anos-envejecimiento-china-se-enfrenta-a-nueva-realidad-sus-familias-mantienen-a-ancianos-que-ninos",
+      "fecha": "08-11-2026"
     },
     {
-      "titulo": "Si tienes un móvil alquilado con O2, no lo puedes devolver en cualquier estado: qué perdona el operador",
+      "titulo": "Lo que faltaba: este bug de Paint deja tu PC con Windows 11 a merced de los hackers",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/software/lo-que-faltaba-este-bug-de-paint-deja-tu-pc-con-windows-11-a-merced-de-los-hackers/",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Jumbo Frames: qué son los 9.000 bytes de tu tarjeta de red y por qué normalmente no deberías activarlos",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/movil-alquilado-o2-devolver-estado/",
-      "fecha": "07-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/redes/jumbo-frames-9000-bytes-tarjeta-red/",
+      "fecha": "08-11-2026"
     },
     {
-      "titulo": "Windows 11 27H2 apunta a ser la mayor revolución del sistema desde 2024: más velocidad y una renovación completa",
+      "titulo": "Google tiene un truco oculto para detectar estafas en tus SMS y casi nadie lo usa: \"Solo tienes que rodearlo\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/windows-11-27h2-apunta-ser-mayor-revolucion-sistema-desde-2024-mas-velocidad-una-renovacion-completa_7058577_0.html",
-      "fecha": "07-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/google-tiene-un-truco-oculto-para-detectar-estafas-tus-sms-casi-nadie-usa-solo-tienes-que-rodearlo_7049613_0.html",
+      "fecha": "08-11-2026"
     },
     {
-      "titulo": "EEUU financió una red de sensores en el Pacífico. China ha utilizado sus datos para descubrir una gigantesca estructura invisible bajo el mar",
+      "titulo": "El Alpine A390 GT es toda una masterclass de cómo hacer un coche eléctrico deportivo y divertido cuando tienes que mover 2.200 kg",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/eeuu-financio-red-sensores-pacifico-china-ha-utilizado-sus-datos-para-descubrir-gigantesca-estructura-invisible-mar",
-      "fecha": "07-11-2026"
+      "enlace": "https://www.xataka.com/movilidad/alpine-a390-gt-analisis-review-caracteristicas-precio-especificaciones",
+      "fecha": "08-11-2026"
     },
     {
-      "titulo": "Si compraste un coche eléctrico a partir de 2023, atento: puedes conseguir hasta 3.000 euros",
+      "titulo": "Prefijo +234: por qué recibes llamadas desde Nigeria y qué estafas utilizan este número",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/dinero-coche-electrico-certificados-ahorro-energetico-cae/",
-      "fecha": "07-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/internet/prefijo-234-nigeria-llamadas-estafas/",
+      "fecha": "08-11-2026"
     },
     {
-      "titulo": "El aviso que salvará vidas: Waze te alertará en tiempo real cuando haya ciclistas cerca",
+      "titulo": "Qué es Android Auto Maker y cómo funciona la herramienta que lleva todas tus apps del móvil a la pantalla del coche",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/movilidad/aviso-que-salvara-vidas-waze-te-alertara-tiempo-real-cuando-haya-ciclistas-cerca_7058573_0.html",
-      "fecha": "07-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/que-es-android-auto-maker-como-funciona-herramienta-que-lleva-todas-tus-apps-movil-pantalla-coche_7055428_0.html",
+      "fecha": "08-11-2026"
     },
     {
-      "titulo": "Hace 600 años, unos conquistadores europeos llegaron a Lanzarote y levantaron una ciudad donde apenas había agua. Ahora sabemos cómo sobrevivieron",
+      "titulo": "En su empeño por ser una potencia del petróleo, China perforó el segundo pozo más profundo del mundo",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/hace-600-anos-unos-conquistadores-europeos-llegaron-a-lanzarote-levantaron-ciudad-donde-apenas-habia-agua-ahora-sabemos-como-sobrevivieron",
-      "fecha": "07-11-2026"
+      "enlace": "https://www.xataka.com/ingenieria-y-megaconstrucciones/su-empeno-ser-potencia-petroleo-china-perforo-segundo-pozo-profundo-mundo",
+      "fecha": "08-11-2026"
     },
     {
-      "titulo": "Si acumulas decenas de pestañas en Chrome, este nuevo cambio podría ahorrarte mucho tiempo",
+      "titulo": "Por qué algunos routers WiFi 7 no tienen banda de 6 GHz aunque se anuncien como WiFi 7",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/redes/routers-wifi-7-no-tienen-banda-6-ghz/",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "WhatsApp prepara para Android el truco definitivo para leer mensajes sin dejar rastro",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/si-acumulas-decenas-pestanas-chrome-este-nuevo-cambio-podria-ahorrarte-mucho-tiempo_7058566_0.html",
-      "fecha": "07-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-prepara-para-android-truco-definitivo-para-leer-mensajes-sin-dejar-rastro_7058628_0.html",
+      "fecha": "08-11-2026"
     },
     {
-      "titulo": "Nuestras abuelas echaban romero al aceite para freír. Han demostrado que tenían buenos motivos para hacerlo",
+      "titulo": "Un país de Europa acaba de mostrar una de las piezas de artillería más insólitas: un monstruo que dispara proyectiles de 100 kg y huye a 80 km/h",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/nuestras-abuelas-echaban-romero-al-aceite-para-freir-han-demostrado-que-tenian-buenos-motivos-para-hacerlo",
-      "fecha": "07-11-2026"
+      "enlace": "https://www.xataka.com/magnet/pais-europa-acaba-mostrar-piezas-artilleria-insolitas-monstruo-que-dispara-proyectiles-100-kg-huye-a-80-km-h",
+      "fecha": "08-11-2026"
     },
     {
-      "titulo": "Estaba jugando a Call of Duty cuando una bala atravesó su casa: su monitor ASUS le salvó la vida",
+      "titulo": "Linus Torvalds, padre de Linux: \"No creo en un mundo en el que a todos los niños se les deba enseñar a programar\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/estaba-jugando-call-of-duty-cuando-una-bala-atraveso-su-casa-su-monitor-asus-le-salvo-vida_7058527_0.html",
-      "fecha": "07-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-padre-linux-no-creo-un-mundo-que-todos-los-ninos-se-les-deba-ensenar-programar_7051005_0.html",
+      "fecha": "08-11-2026"
     },
     {
-      "titulo": "Los 212 GB de ‘GTA VI’ son un problema para muchas PS5 y Xbox Series, pero con estas soluciones no tendrás que borrar otros juegos",
+      "titulo": "La extraña supervivencia de Pinterest: quién demonios sigue utilizándolo y por qué sigue ganando dinero",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/212-gb-gta-vi-pueden-ser-problema-para-muchas-ps5-xbox-series-estas-soluciones-te-ayudaran-a-no-tener-que-borrar-juegos",
-      "fecha": "07-11-2026"
+      "enlace": "https://www.xataka.com/empresas-y-economia/extrana-supervivencia-pinterest-quien-demonios-sigue-utilizandolo-que-sigue-ganando-dinero",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Photoshop gratis: mejores aplicaciones de código abierto alternativas a Adobe para editar imágenes sin gastar un solo euro",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/photoshop-gratis-mejores-aplicaciones-codigo-abierto-alternativas-adobe-para-editar-imagenes-sin-gastar-un-solo-euro_7054947_0.html",
+      "fecha": "08-11-2026"
     }
   ]
 }
