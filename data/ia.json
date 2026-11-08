@@ -1,48 +1,85 @@
 {
   "seccion": "ia",
-  "actualizado": "08-11-2026 04:09",
+  "actualizado": "08-11-2026 16:10",
   "destacadas": [
     {
-      "titulo": "Anthropic sigue adelante con su salida a bolsa antes de Acción de Gracias y acepta una valoración menor",
-      "resumen": "Según el Financial Times, Anthropic busca recaudar entre 80.000 y 100.000 millones de dólares con una valoración de entre 1,25 y 1,75 billones, por debajo de los 2 billones que esperaban los inversores más optimistas, aunque por encima de los 965.000 millones actuales. Sus ingresos anualizados rondan los 81.000 millones, frente a unos 65.000 a finales de julio. El Nasdaq 100 cayó un 6,4 % el jueves y OpenAI ha rebajado su ronda de 1,4 a 1,25 billones.",
+      "titulo": "Los agentes de programación aún necesitan limpieza humana en casi tres de cada cuatro tareas reales",
+      "resumen": "Investigadores de Alibaba y universidades asiáticas han creado Co-Design Bench, un test basado en peticiones reales de cambios sobre aplicaciones web. El mejor de los diez modelos, GPT-6 Astra, cumple de media un 70 % de los requisitos, pero solo resuelve del todo el 26,4 % de las tareas. Le siguen Claude Opus 5 y Qwen3.8-Max, y Grok 4.6 queda último.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
-      "fecha": "07-11-2026 18:37"
+      "enlace": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+      "fecha": "08-11-2026 10:50"
     },
     {
-      "titulo": "EE. UU. dejó que Nvidia vendiera chips a una oficina vacía en China",
-      "resumen": "Según el New York Times, New Matrix figura entre las empresas chinas autorizadas a manejar los chips H200 de Nvidia, pero sus oficinas están vacías y apenas hay rastro de su existencia. Sus propietarios tienen vínculos con un fondo de capital privado chino en la lista negra de EE. UU. desde 2024. El diario describe un patrón de empresas ligadas a entidades con restricciones comerciales que reciben aprobación.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-      "fecha": "07-11-2026 16:43"
-    },
-    {
-      "titulo": "Los auditores de IA detectan la mayoría de los malos comportamientos de agentes, pero inundan a los revisores de falsas alarmas",
-      "resumen": "Un estudio piloto de Andy Hall, que amplía un trabajo de METR, probó cinco modelos como auditores. Con un 5 % de falsas alarmas, GPT-5 detectó casi el 98 % de los casos de reward hacking, y en sandbagging todos acertaron entre el 71 % y el 81 %. Con 100.000 sesiones al mes y un 3 % de falsas alarmas habría casi 3.000 avisos falsos frente a unos 2.000 reales.",
+      "titulo": "Andrej Karpathy crea en un fin de semana una plataforma de vídeo curada con Claude y 20 años de Hacker News",
+      "resumen": "Karpathy construyó HackerTube con Claude Opus 5.5: filtró 43 millones de comentarios de Hacker News y los destiló en 6.454 vídeos recomendados de forma recurrente. Después creó TristanTube, con 47.000 vídeos, «en 3 minutos» con Claude Code. Sus únicos pasos manuales fueron una clave de API de Google Cloud, un servidor alquilado y el dominio.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
-      "fecha": "07-11-2026 17:56"
+      "enlace": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "fecha": "08-11-2026 15:23"
     },
     {
-      "titulo": "Tras las elecciones, el panorama se complica para Elon Musk y los centros de datos",
-      "resumen": "Tras la victoria demócrata en las elecciones de mitad de mandato, votantes de decenas de referéndums locales rechazaron centros de datos, y la gobernadora electa de Texas, Gina Hinojosa, prometió restringirlos. OpenAI ha publicado un plan para sus «campus de cómputo» y dejará de exigir acuerdos de confidencialidad. Wall Street, además, mira con menos entusiasmo el gasto masivo en cómputo.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-      "fecha": "07-11-2026 23:07"
+      "titulo": "DeepSeek lanza un agente gratuito que programa directamente desde GitHub",
+      "resumen": "DeepSeek ha publicado dsh-superagent, un prototipo de investigación con licencia MIT que convierte solicitudes ligadas a un repositorio de GitHub en tareas y devuelve una pull request lista para revisar. Funciona sobre DeepSeek Harness, admite integración opcional con Feishu y no fusiona cambios por su cuenta: la aprobación final queda en manos del equipo.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/deepseek-lanza-un-agente-gratuito-que-programa-directamente-desde-github-asi-funciona_7058028_0.html",
+      "fecha": "08-11-2026 05:30"
+    },
+    {
+      "titulo": "Microsoft patenta una IA que cambia en tiempo real lo que se dice en un directo, labios incluidos",
+      "resumen": "Una patente descubierta por Patentlyze describe un sistema que sustituye palabras de una retransmisión según la edad, el idioma o la ubicación del espectador, y ajusta el movimiento de los labios para disimularlo. La patente no aclara si se avisaría al espectador, y su existencia no garantiza que llegue a ser un producto.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-quiere-que-ia-pueda-cambiar-que-escuchas-un-directo-tiempo-real-segun-una-nueva-patente_7058642_0.html",
+      "fecha": "08-11-2026 13:15"
+    },
+    {
+      "titulo": "Un redactor le pide a Claude que reasigne los botones del mando de su tele y lo logra en diez minutos",
+      "resumen": "El autor pidió a Claude cambiar el botón de YouTube de su Google TV Streamer para abrir Movistar Plus. Con ADB inalámbrico, Claude localizó el dispositivo, capturó el evento del botón, descargó las herramientas necesarias y desarrolló e instaló una app. Tardó unos diez minutos, aunque el autor cree que usó demasiados archivos para tan poco.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/mando-mi-tele-tiene-botones-que-no-utilizo-le-he-pedido-a-ia-que-cambie-apps-que-uso",
+      "fecha": "08-11-2026 14:01"
     }
   ],
   "titulares": [
     {
-      "titulo": "La brecha entre modelos abiertos y cerrados en capacidades cibernéticas sigue reduciéndose",
+      "titulo": "El inventor de la «lección amarga» tiene una lección amarga para los fans del escalado de LLM",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
-      "fecha": "07-11-2026"
+      "enlace": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+      "fecha": "08-11-2026"
     },
     {
-      "titulo": "Inkling 2 Small, de Thinking Machines, suelta 316 palabrotas a lo largo de las pruebas de referencia",
+      "titulo": "La metáfora del cerebro como ordenador marcó la IA moderna pero puede despistar en el debate sobre la conciencia",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
-      "fecha": "07-11-2026"
+      "enlace": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Microsoft confirma que ha creado el nuevo test de velocidad de Windows 11 \"en un rato\" usando IA",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-confirma-que-ha-creado-nuevo-test-velocidad-windows-11-un-rato-usando-ia_7058635_0.html",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Sec2John, experto en ciberseguridad: \"He utilizado el poder de Linux para convertir un móvil viejo en un miniservidor autónomo, con potencia para automatizaciones con IA que funciona incluso sin luz\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/sec2john-tecnico-ciberseguridad-he-utilizado-poder-linux-para-convertir-un-movil-viejo-un-miniservidor-autonomo-con-potencia-para-automatizaciones-con-ia-que-funciona-incluso-sin-luz_7044893_0.html",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Jack Wallen, experto en software libre: \"La IA está llevando a Linux a su límite de desarrollo y solo estas distros podrán mantenerse\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/jack-wallen-experto-software-libre-inteligencia-artificial-esta-llevando-linux-limite-desarrollo-solo-estas-distros-podran-mantenerse_7048578_0.html",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "El experto en IA Ben Pierron comparte seis prompts de ChatGPT para diseñar un logotipo profesional gratis",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/experto-ia-ben-pierron-comparte-seis-prompts-chatgpt-para-disenar-un-logotipo-profesional-gratis_7058042_0.html",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Estas son las funciones de Copilot que desaparecen de Windows 11",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/estas-son-las-funciones-copilot-que-desaparecen-windows-11_7058033_0.html",
+      "fecha": "08-11-2026"
     }
   ]
 }

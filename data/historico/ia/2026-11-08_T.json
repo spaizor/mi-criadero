@@ -1,0 +1,85 @@
+{
+  "seccion": "ia",
+  "actualizado": "08-11-2026 16:10",
+  "destacadas": [
+    {
+      "titulo": "Los agentes de programación aún necesitan limpieza humana en casi tres de cada cuatro tareas reales",
+      "resumen": "Investigadores de Alibaba y universidades asiáticas han creado Co-Design Bench, un test basado en peticiones reales de cambios sobre aplicaciones web. El mejor de los diez modelos, GPT-6 Astra, cumple de media un 70 % de los requisitos, pero solo resuelve del todo el 26,4 % de las tareas. Le siguen Claude Opus 5 y Qwen3.8-Max, y Grok 4.6 queda último.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+      "fecha": "08-11-2026 10:50"
+    },
+    {
+      "titulo": "Andrej Karpathy crea en un fin de semana una plataforma de vídeo curada con Claude y 20 años de Hacker News",
+      "resumen": "Karpathy construyó HackerTube con Claude Opus 5.5: filtró 43 millones de comentarios de Hacker News y los destiló en 6.454 vídeos recomendados de forma recurrente. Después creó TristanTube, con 47.000 vídeos, «en 3 minutos» con Claude Code. Sus únicos pasos manuales fueron una clave de API de Google Cloud, un servidor alquilado y el dominio.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "fecha": "08-11-2026 15:23"
+    },
+    {
+      "titulo": "DeepSeek lanza un agente gratuito que programa directamente desde GitHub",
+      "resumen": "DeepSeek ha publicado dsh-superagent, un prototipo de investigación con licencia MIT que convierte solicitudes ligadas a un repositorio de GitHub en tareas y devuelve una pull request lista para revisar. Funciona sobre DeepSeek Harness, admite integración opcional con Feishu y no fusiona cambios por su cuenta: la aprobación final queda en manos del equipo.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/deepseek-lanza-un-agente-gratuito-que-programa-directamente-desde-github-asi-funciona_7058028_0.html",
+      "fecha": "08-11-2026 05:30"
+    },
+    {
+      "titulo": "Microsoft patenta una IA que cambia en tiempo real lo que se dice en un directo, labios incluidos",
+      "resumen": "Una patente descubierta por Patentlyze describe un sistema que sustituye palabras de una retransmisión según la edad, el idioma o la ubicación del espectador, y ajusta el movimiento de los labios para disimularlo. La patente no aclara si se avisaría al espectador, y su existencia no garantiza que llegue a ser un producto.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-quiere-que-ia-pueda-cambiar-que-escuchas-un-directo-tiempo-real-segun-una-nueva-patente_7058642_0.html",
+      "fecha": "08-11-2026 13:15"
+    },
+    {
+      "titulo": "Un redactor le pide a Claude que reasigne los botones del mando de su tele y lo logra en diez minutos",
+      "resumen": "El autor pidió a Claude cambiar el botón de YouTube de su Google TV Streamer para abrir Movistar Plus. Con ADB inalámbrico, Claude localizó el dispositivo, capturó el evento del botón, descargó las herramientas necesarias y desarrolló e instaló una app. Tardó unos diez minutos, aunque el autor cree que usó demasiados archivos para tan poco.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/mando-mi-tele-tiene-botones-que-no-utilizo-le-he-pedido-a-ia-que-cambie-apps-que-uso",
+      "fecha": "08-11-2026 14:01"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "El inventor de la «lección amarga» tiene una lección amarga para los fans del escalado de LLM",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "La metáfora del cerebro como ordenador marcó la IA moderna pero puede despistar en el debate sobre la conciencia",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Microsoft confirma que ha creado el nuevo test de velocidad de Windows 11 \"en un rato\" usando IA",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-confirma-que-ha-creado-nuevo-test-velocidad-windows-11-un-rato-usando-ia_7058635_0.html",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Sec2John, experto en ciberseguridad: \"He utilizado el poder de Linux para convertir un móvil viejo en un miniservidor autónomo, con potencia para automatizaciones con IA que funciona incluso sin luz\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/sec2john-tecnico-ciberseguridad-he-utilizado-poder-linux-para-convertir-un-movil-viejo-un-miniservidor-autonomo-con-potencia-para-automatizaciones-con-ia-que-funciona-incluso-sin-luz_7044893_0.html",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Jack Wallen, experto en software libre: \"La IA está llevando a Linux a su límite de desarrollo y solo estas distros podrán mantenerse\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/jack-wallen-experto-software-libre-inteligencia-artificial-esta-llevando-linux-limite-desarrollo-solo-estas-distros-podran-mantenerse_7048578_0.html",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "El experto en IA Ben Pierron comparte seis prompts de ChatGPT para diseñar un logotipo profesional gratis",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/experto-ia-ben-pierron-comparte-seis-prompts-chatgpt-para-disenar-un-logotipo-profesional-gratis_7058042_0.html",
+      "fecha": "08-11-2026"
+    },
+    {
+      "titulo": "Estas son las funciones de Copilot que desaparecen de Windows 11",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/estas-son-las-funciones-copilot-que-desaparecen-windows-11_7058033_0.html",
+      "fecha": "08-11-2026"
+    }
+  ]
+}
