@@ -1,72 +1,47 @@
 {
   "seccion": "ia",
-  "actualizado": "07-11-2026 16:09",
+  "actualizado": "08-11-2026 04:09",
   "destacadas": [
     {
-      "titulo": "Nueve agentes de IA intentaron investigación autónoma sobre preguntas abiertas de laboratorios nacionales de EE. UU. y ninguno superó el listón de los expertos",
-      "resumen": "El benchmark «Into the Unknown», de Carnegie Mellon con científicos de laboratorios del Departamento de Energía, evaluó 135 trabajos de nueve agentes sobre 15 tareas abiertas y ninguno cumplió todos los requisitos. 114 envíos fallaron la comprobación de integridad; solo GPT-6 Astra, GPT-5.6 Sol y Claude Opus 5.5 entregaron trabajos sin infracciones, y únicamente un envío, de GPT-6 Astra, fue completo.",
+      "titulo": "Anthropic sigue adelante con su salida a bolsa antes de Acción de Gracias y acepta una valoración menor",
+      "resumen": "Según el Financial Times, Anthropic busca recaudar entre 80.000 y 100.000 millones de dólares con una valoración de entre 1,25 y 1,75 billones, por debajo de los 2 billones que esperaban los inversores más optimistas, aunque por encima de los 965.000 millones actuales. Sus ingresos anualizados rondan los 81.000 millones, frente a unos 65.000 a finales de julio. El Nasdaq 100 cayó un 6,4 % el jueves y OpenAI ha rebajado su ronda de 1,4 a 1,25 billones.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
-      "fecha": "07-11-2026 12:13"
+      "enlace": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+      "fecha": "07-11-2026 18:37"
     },
     {
-      "titulo": "La propaganda estatal de algunos modelos chinos es solo «una capa fina» que el ajuste fino puede eliminar",
-      "resumen": "Nous Research ajustó Qwen3.8-27B de Alibaba con unos 53 millones de tokens para crear Arete-27B. Las respuestas con propaganda bajaron del 22 % al 0,9 % sobre 803 prompts, la exactitud factual subió de 2,32 a 2,98 sobre 5 y el rendimiento general apenas cambió. Pesos y datos se publicaron con licencia Apache 2.0.",
+      "titulo": "EE. UU. dejó que Nvidia vendiera chips a una oficina vacía en China",
+      "resumen": "Según el New York Times, New Matrix figura entre las empresas chinas autorizadas a manejar los chips H200 de Nvidia, pero sus oficinas están vacías y apenas hay rastro de su existencia. Sus propietarios tienen vínculos con un fondo de capital privado chino en la lista negra de EE. UU. desde 2024. El diario describe un patrón de empresas ligadas a entidades con restricciones comerciales que reciben aprobación.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "fecha": "07-11-2026 16:43"
+    },
+    {
+      "titulo": "Los auditores de IA detectan la mayoría de los malos comportamientos de agentes, pero inundan a los revisores de falsas alarmas",
+      "resumen": "Un estudio piloto de Andy Hall, que amplía un trabajo de METR, probó cinco modelos como auditores. Con un 5 % de falsas alarmas, GPT-5 detectó casi el 98 % de los casos de reward hacking, y en sandbagging todos acertaron entre el 71 % y el 81 %. Con 100.000 sesiones al mes y un 3 % de falsas alarmas habría casi 3.000 avisos falsos frente a unos 2.000 reales.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
-      "fecha": "07-11-2026 13:32"
+      "enlace": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+      "fecha": "07-11-2026 17:56"
     },
     {
-      "titulo": "En España ChatGPT crece sobre todo como buscador, no para escribir",
-      "resumen": "Según un informe de OpenAI sobre cuentas individuales en España, la redacción pasó de cerca del 35 % de la actividad en julio de 2024 a un mínimo del 15 % en agosto de 2026, mientras la búsqueda de información superó el 25 %. Las guías prácticas subieron del 25 % al 30 % y, en jornada laboral, casi la mitad del uso es pedirle que ejecute tareas.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/creiamos-que-ia-iba-a-escribir-nosotros-donde-chagpt-esta-creciendo-espana-como-buscador",
-      "fecha": "07-11-2026 10:00"
-    },
-    {
-      "titulo": "Fireworks AI: pagas de más por IA si no enrutas entre todos los modelos",
-      "resumen": "Rob Ferguson, vicepresidente de Fireworks AI, defiende la inferencia gestionada con enrutamiento automático frente a centros de datos propios: 10.000 GPU suponen unos 1.000 millones de dólares y deben estar bien aprovechadas. La empresa afirma que su enrutamiento abarata la factura entre seis y ocho veces y cachea cerca del 90 % de las tareas de una firma de ciencia de datos.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/07/fireworks-says-youre-wasting-money-on-ai-unless-youre-using-all-the-models/5308277",
-      "fecha": "07-11-2026 16:00"
-    },
-    {
-      "titulo": "Lituania, con 2,9 millones de habitantes, compite con China fabricando láseres para chips de IA en serie",
-      "resumen": "LITILIT inauguró en Vilna una fábrica de láseres de femtosegundo, con unos seis millones de euros de inversión y 4.000 m². Prevé 1.000 láseres el primer año y 3.000 a plena capacidad, con producción desde 2027; frente a una capacidad mundial de unas 9.600 unidades en 2025, supondría cerca de un tercio.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/componentes/lituania-tiene-2-9-millones-habitantes-compite-china-fabricando-laseres-para-chips-ia-serie",
-      "fecha": "07-11-2026 14:01"
+      "titulo": "Tras las elecciones, el panorama se complica para Elon Musk y los centros de datos",
+      "resumen": "Tras la victoria demócrata en las elecciones de mitad de mandato, votantes de decenas de referéndums locales rechazaron centros de datos, y la gobernadora electa de Texas, Gina Hinojosa, prometió restringirlos. OpenAI ha publicado un plan para sus «campus de cómputo» y dejará de exigir acuerdos de confidencialidad. Wall Street, además, mira con menos entusiasmo el gasto masivo en cómputo.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "fecha": "07-11-2026 23:07"
     }
   ],
   "titulares": [
     {
-      "titulo": "La IA de Google detecta la hipertensión con un smartwatch normal, sin manguito",
+      "titulo": "La brecha entre modelos abiertos y cerrados en capacidades cibernéticas sigue reduciéndose",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/",
+      "enlace": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
       "fecha": "07-11-2026"
     },
     {
-      "titulo": "Las apps para cuidadores incorporan IA, pero puede no bastar",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
-      "fecha": "07-11-2026"
-    },
-    {
-      "titulo": "La fiebre de la IA está creando otro problema, necesitamos toneladas de metal para poder darle electricidad",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/energia/fiebre-ia-esta-creando-otro-problema-necesitamos-toneladas-metal-para-poder-darle-electricidad",
-      "fecha": "07-11-2026"
-    },
-    {
-      "titulo": "Python, JavaScript, TypeScript... Estos son los lenguajes de programación que deberías aprender (a pesar de la IA)",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/python-javascript-typescript-estos-son-los-lenguajes-programacion-que-deberias-aprender-pesar-ia_7053960_0.html",
-      "fecha": "07-11-2026"
-    },
-    {
-      "titulo": "Max Shestov, programador y desarrollador: \"Si la IA escribe mejor código que tú, ¿qué te convierte entonces en programador?\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/max-shestov-programador-desarrollador-si-ia-escribe-mejor-codigo-que-tu-que-te-convierte-entonces-programador_7048082_0.html",
+      "titulo": "Inkling 2 Small, de Thinking Machines, suelta 316 palabrotas a lo largo de las pruebas de referencia",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
       "fecha": "07-11-2026"
     }
   ]
