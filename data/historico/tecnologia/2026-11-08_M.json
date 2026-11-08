@@ -1,0 +1,129 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "08-11-2026 03:11",
+  "destacadas": [
+    {
+      "titulo": "Un fallo de Android llamado GhostMap puede dejar el móvil en bucle de errores con solo instalar una app",
+      "resumen": "Investigadores de Bitdefender describen GhostMap, una vulnerabilidad en cómo Android procesa ciertos métodos de compresión de los ZIP incluidos en las APK, que provoca fallos repetidos en system_server y deja el teléfono en reinicios constantes. Google cerró el primer informe por no poder reproducirlo y aún no ha publicado corrección; Bitdefender no ha detectado ataques reales. Recuperarlo exige restaurar de fábrica o borrar el archivo problemático con herramientas avanzadas.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/descubren-un-fallo-android-que-puede-dejar-tu-movil-inutilizable-con-solo-instalar-una-aplicacion_7058514_0.html",
+      "fecha": "07-11-2026 15:50"
+    },
+    {
+      "titulo": "Microsoft reconoce una vulnerabilidad crítica en Paint de Windows 11 y su parche no llega a todos",
+      "resumen": "El fallo CVE-2026-83844 permite ejecución remota de código mediante una imagen manipulada, aunque Microsoft reconoce que la complejidad del ataque es alta. La guía de seguridad apunta a Paint 11.2605.91.0, pero muchos administradores siguen recibiendo la 11.2605.81.0 en Microsoft Store, y se cita también la 11.2609.401.0 como la que realmente corrige el problema. Se recomienda no abrir imágenes de fuentes no fiables.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/ni-siquiera-paint-esta-salvo-una-imagen-manipulada-puede-comprometer-tu-pc-con-windows-11_7058522_0.html",
+      "fecha": "07-11-2026 17:15"
+    },
+    {
+      "titulo": "El director financiero de Binance se va tras el robo de 6.300 millones de dólares",
+      "resumen": "Kaiser Ng deja Binance para «emprender un nuevo proyecto» tras más de cinco años, según Bloomberg; le sustituye Justin Yek. La salida llega poco más de una semana después de que unos hackers robaran 6.300 millones en criptomonedas, atribuidos por Binance y el FBI al grupo norcoreano TraderTraitor. Binance congeló retiradas varios días, los usuarios retiraron 3.600 millones netos en las primeras horas tras reabrir y la empresa promete cubrir todas las pérdidas.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
+      "fecha": "07-11-2026 18:24"
+    },
+    {
+      "titulo": "EEUU vota en masa contra los centros de datos, salvo un pueblo de Dakota del Norte",
+      "resumen": "Tras al menos 40 referéndums locales, las urnas del 3 de noviembre dejaron un rechazo general a los centros de datos. La excepción es Harwood (940 habitantes), que rechazó por 325 votos a 105 una norma que exigía evaluaciones independientes y audiencias públicas para grandes proyectos futuros. Allí Applied Digital levanta Polaris Forge 2, de 3.000 millones de dólares y 280 MW, arrendado a Oracle.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/eeuu-ha-votado-masa-centros-datos-todos-pueblo-dakota-norte-mil-habitantes",
+      "fecha": "07-11-2026 18:01"
+    },
+    {
+      "titulo": "CachyOS supera a SteamOS como el Linux más usado en la encuesta de Steam",
+      "resumen": "La encuesta de hardware de Steam de octubre sitúa a CachyOS, distribución basada en Arch y centrada en el rendimiento, por delante de SteamOS entre las distros de Linux. Linux sube un 0,9 %, Windows 11 un 1,2 % y macOS un 0,4 %, mientras Windows 10 cae un 2,5 %. AMD tiene el 47,37 % de los procesadores y el 41,42 % de los usuarios tiene 16 GB de RAM.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/cachyos-supera-steamos-linux-steam-encuesta-hardware/",
+      "fecha": "07-11-2026 20:00"
+    },
+    {
+      "titulo": "GTA 6 supera los 750 millones de dólares en reservas antes de salir",
+      "resumen": "Según Sensor Tower, el juego ha recaudado más de 750 millones desde que arrancó la preventa el 25 de junio, hasta el 3 de noviembre: unos 5,7 millones al día y alrededor de 7,71 millones de copias. PS5 acapara el 74 % de las reservas y Xbox Series X|S el 26 %. El juego sale el 19 de noviembre.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/cuanto-dinero-ha-generado-gta-6-antes-lanzamiento/",
+      "fecha": "07-11-2026 18:00"
+    },
+    {
+      "titulo": "La beta de One UI 9.5 de Samsung, cada vez más cerca",
+      "resumen": "Una compilación de One UI 9.5 para el Galaxy S26 Ultra (firmware S948BXXU6ZZK3) ha aparecido en los servidores de Samsung de Corea y EE. UU., paso habitual antes de abrir el registro. Se basa en Android 17 y debutaría con el Galaxy S27 a comienzos de 2027; la beta de One UI 8.5 abrió el 8 de diciembre de 2025. Estaría disponible en Alemania, India, Polonia, Corea del Sur, Reino Unido y EE. UU.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2307479/samsung-one-ui-9-5-beta-program-how-to-sign-up/",
+      "fecha": "08-11-2026 02:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Los padres piden móviles más seguros para niños y las empresas responden",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "El misterioso motivo por el que los avanzadísimos retretes japoneses no han triunfado en el resto del mundo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/internet-of-things/misterioso-motivo-que-avanzadisimos-retretes-japoneses-no-han-triunfado-resto-mundo",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "Si tienes un móvil alquilado con O2, no lo puedes devolver en cualquier estado: qué perdona el operador",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movil-alquilado-o2-devolver-estado/",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "Windows 11 27H2 apunta a ser la mayor revolución del sistema desde 2024: más velocidad y una renovación completa",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/windows-11-27h2-apunta-ser-mayor-revolucion-sistema-desde-2024-mas-velocidad-una-renovacion-completa_7058577_0.html",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "EEUU financió una red de sensores en el Pacífico. China ha utilizado sus datos para descubrir una gigantesca estructura invisible bajo el mar",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/eeuu-financio-red-sensores-pacifico-china-ha-utilizado-sus-datos-para-descubrir-gigantesca-estructura-invisible-mar",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "Si compraste un coche eléctrico a partir de 2023, atento: puedes conseguir hasta 3.000 euros",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/dinero-coche-electrico-certificados-ahorro-energetico-cae/",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "El aviso que salvará vidas: Waze te alertará en tiempo real cuando haya ciclistas cerca",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/aviso-que-salvara-vidas-waze-te-alertara-tiempo-real-cuando-haya-ciclistas-cerca_7058573_0.html",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "Hace 600 años, unos conquistadores europeos llegaron a Lanzarote y levantaron una ciudad donde apenas había agua. Ahora sabemos cómo sobrevivieron",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/hace-600-anos-unos-conquistadores-europeos-llegaron-a-lanzarote-levantaron-ciudad-donde-apenas-habia-agua-ahora-sabemos-como-sobrevivieron",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "Si acumulas decenas de pestañas en Chrome, este nuevo cambio podría ahorrarte mucho tiempo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/si-acumulas-decenas-pestanas-chrome-este-nuevo-cambio-podria-ahorrarte-mucho-tiempo_7058566_0.html",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "Nuestras abuelas echaban romero al aceite para freír. Han demostrado que tenían buenos motivos para hacerlo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/medicina-y-salud/nuestras-abuelas-echaban-romero-al-aceite-para-freir-han-demostrado-que-tenian-buenos-motivos-para-hacerlo",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "Estaba jugando a Call of Duty cuando una bala atravesó su casa: su monitor ASUS le salvó la vida",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/estaba-jugando-call-of-duty-cuando-una-bala-atraveso-su-casa-su-monitor-asus-le-salvo-vida_7058527_0.html",
+      "fecha": "07-11-2026"
+    },
+    {
+      "titulo": "Los 212 GB de ‘GTA VI’ son un problema para muchas PS5 y Xbox Series, pero con estas soluciones no tendrás que borrar otros juegos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/212-gb-gta-vi-pueden-ser-problema-para-muchas-ps5-xbox-series-estas-soluciones-te-ayudaran-a-no-tener-que-borrar-juegos",
+      "fecha": "07-11-2026"
+    }
+  ]
+}

@@ -1,171 +1,128 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "07-11-2026 15:15",
+  "actualizado": "08-11-2026 03:11",
   "destacadas": [
     {
-      "titulo": "Sequoia cierra su programa de scouts y su oficina de Londres",
-      "resumen": "Sequoia anunció en un memo publicado en X una reestructuración que incluye cerrar su oficina de Londres y eliminar el programa de scouts que ideó hace 17 años y que muchas firmas de capital riesgo copiaron. Los scouts son fundadores y operadores que invierten en nombre de la firma; Roxanne Varza, scout entre 2020 y 2025 y directora de Station F, lamentó el cierre. Sequoia no critica el modelo, sino que lo justifica con la necesidad de «putting more energy behind fewer people and things».",
+      "titulo": "Un fallo de Android llamado GhostMap puede dejar el móvil en bucle de errores con solo instalar una app",
+      "resumen": "Investigadores de Bitdefender describen GhostMap, una vulnerabilidad en cómo Android procesa ciertos métodos de compresión de los ZIP incluidos en las APK, que provoca fallos repetidos en system_server y deja el teléfono en reinicios constantes. Google cerró el primer informe por no poder reproducirlo y aún no ha publicado corrección; Bitdefender no ha detectado ataques reales. Recuperarlo exige restaurar de fábrica o borrar el archivo problemático con herramientas avanzadas.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/descubren-un-fallo-android-que-puede-dejar-tu-movil-inutilizable-con-solo-instalar-una-aplicacion_7058514_0.html",
+      "fecha": "07-11-2026 15:50"
+    },
+    {
+      "titulo": "Microsoft reconoce una vulnerabilidad crítica en Paint de Windows 11 y su parche no llega a todos",
+      "resumen": "El fallo CVE-2026-83844 permite ejecución remota de código mediante una imagen manipulada, aunque Microsoft reconoce que la complejidad del ataque es alta. La guía de seguridad apunta a Paint 11.2605.91.0, pero muchos administradores siguen recibiendo la 11.2605.81.0 en Microsoft Store, y se cita también la 11.2609.401.0 como la que realmente corrige el problema. Se recomienda no abrir imágenes de fuentes no fiables.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/ni-siquiera-paint-esta-salvo-una-imagen-manipulada-puede-comprometer-tu-pc-con-windows-11_7058522_0.html",
+      "fecha": "07-11-2026 17:15"
+    },
+    {
+      "titulo": "El director financiero de Binance se va tras el robo de 6.300 millones de dólares",
+      "resumen": "Kaiser Ng deja Binance para «emprender un nuevo proyecto» tras más de cinco años, según Bloomberg; le sustituye Justin Yek. La salida llega poco más de una semana después de que unos hackers robaran 6.300 millones en criptomonedas, atribuidos por Binance y el FBI al grupo norcoreano TraderTraitor. Binance congeló retiradas varios días, los usuarios retiraron 3.600 millones netos en las primeras horas tras reabrir y la empresa promete cubrir todas las pérdidas.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/",
-      "fecha": "07-11-2026 06:01"
+      "enlace": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
+      "fecha": "07-11-2026 18:24"
     },
     {
-      "titulo": "China fija su alunizaje tripulado antes de 2030, probablemente en 2029",
-      "resumen": "En la Séptima Conferencia de Vuelos Espaciales Tripulados, en Pekín, el diseñador jefe Wang Xiang detalló un programa lunar de cuatro fases. En 2027 se probará sin tripulación el Long March 10A con la nave Mengzhou y en 2028 el Long March 10 con el módulo Lanyue, incluyendo descenso y ascenso lunar. En 2029 dos cohetes Long March 10 acoplarían ambas naves en órbita lunar, mientras la NASA prevé su alunizaje tripulado con Artemis IV en 2028.",
+      "titulo": "EEUU vota en masa contra los centros de datos, salvo un pueblo de Dakota del Norte",
+      "resumen": "Tras al menos 40 referéndums locales, las urnas del 3 de noviembre dejaron un rechazo general a los centros de datos. La excepción es Harwood (940 habitantes), que rechazó por 325 votos a 105 una norma que exigía evaluaciones independientes y audiencias públicas para grandes proyectos futuros. Allí Applied Digital levanta Polaris Forge 2, de 3.000 millones de dólares y 280 MW, arrendado a Oracle.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/china-tiene-fecha-para-pisar-luna-su-calendario-pone-cuerdas-a-nasa",
-      "fecha": "07-11-2026 15:01"
+      "enlace": "https://www.xataka.com/robotica-e-ia/eeuu-ha-votado-masa-centros-datos-todos-pueblo-dakota-norte-mil-habitantes",
+      "fecha": "07-11-2026 18:01"
     },
     {
-      "titulo": "Bluetooth 7.0 llegará en 2027 con una velocidad casi cuatro veces mayor y audio sin pérdidas",
-      "resumen": "Bluetooth SIG ha presentado Bluetooth High Data Throughput (HDT) dentro de la especificación Core 7.0. Los dispositivos compatibles podrán llegar a 7,5 Mbps frente a los 2 Mbps actuales de LE 2M PHY, lo que acelera sincronizaciones y actualizaciones de firmware y permite apagar antes la radio para ahorrar batería. El mayor ancho de banda abre la puerta al audio inalámbrico sin pérdidas y al sonido multicanal.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/bluetooth-prepara-su-mayor-salto-anos-mas-velocidad-menos-consumo-audio-sin-perdidas_7058506_0.html",
-      "fecha": "07-11-2026 14:35"
+      "titulo": "CachyOS supera a SteamOS como el Linux más usado en la encuesta de Steam",
+      "resumen": "La encuesta de hardware de Steam de octubre sitúa a CachyOS, distribución basada en Arch y centrada en el rendimiento, por delante de SteamOS entre las distros de Linux. Linux sube un 0,9 %, Windows 11 un 1,2 % y macOS un 0,4 %, mientras Windows 10 cae un 2,5 %. AMD tiene el 47,37 % de los procesadores y el 41,42 % de los usuarios tiene 16 GB de RAM.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/cachyos-supera-steamos-linux-steam-encuesta-hardware/",
+      "fecha": "07-11-2026 20:00"
     },
     {
-      "titulo": "Un soldado británico ignoró la orden de quitarse la SIM y acabó chantajeado",
-      "resumen": "El cabo Daniel Barton-Kennedy desobedeció la orden de retirar la SIM, apagar la ubicación y usar una VPN antes de un despliegue en Tapa, Estonia, a unas 90 millas de la frontera rusa. Le hackearon el móvil, robaron fotos íntimas y le exigieron 100 libras, luego 250, momento en que avisó a su mando el 19 de enero. Fue juzgado en consejo de guerra, se declaró culpable, fue degradado y condenado a 10 meses de detención; la apelación se rechazó en agosto de 2026.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed/",
-      "fecha": "07-11-2026 12:00"
+      "titulo": "GTA 6 supera los 750 millones de dólares en reservas antes de salir",
+      "resumen": "Según Sensor Tower, el juego ha recaudado más de 750 millones desde que arrancó la preventa el 25 de junio, hasta el 3 de noviembre: unos 5,7 millones al día y alrededor de 7,71 millones de copias. PS5 acapara el 74 % de las reservas y Xbox Series X|S el 26 %. El juego sale el 19 de noviembre.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/cuanto-dinero-ha-generado-gta-6-antes-lanzamiento/",
+      "fecha": "07-11-2026 18:00"
     },
     {
-      "titulo": "Científicos chinos enfrían átomos a 9,7 picokelvin en la estación Tiangong",
-      "resumen": "Un equipo chino enfrió unos 20.000 átomos de rubidio hasta 9,7 picokelvin en la estación espacial Tiangong, según un estudio publicado en Science. La microgravedad permitió observar la expansión de la nube durante siete segundos; la marca es una cuarta parte de los 38 picokelvin logrados por un equipo alemán en 2021. El sistema llegó en 2022 en el módulo Mengtian y reduce un laboratorio terrestre de unas 10 toneladas a un instrumento de 500 kilos.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/china-acaba-conseguir-algo-extraordinario-su-estacion-espacial-ha-enfriado-atomos-record-historico",
-      "fecha": "07-11-2026 09:01"
-    },
-    {
-      "titulo": "WhatsApp prepara ajustes para elegir quién ve tu número si usas nombre de usuario",
-      "resumen": "WhatsApp trabaja en una sección de privacidad para decidir quién puede ver el número asociado a una cuenta con nombre de usuario, con cuatro opciones: Todos, Mis contactos, Mis contactos excepto y Nadie. «Nadie» seguirá siendo el valor por defecto, de modo que el número queda oculto a quien no lo tenga en su agenda. La función aún no está ni en la beta pública y avisará de que las excepciones previas se restablecen al cambiar de nivel.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-prepara-un-cambio-clave-para-ocultar-mostrar-tu-numero-telefono-cuando-uses-nombre-usuario_7058489_0.html",
-      "fecha": "07-11-2026 12:45"
-    },
-    {
-      "titulo": "One UI 9 de Samsung añade fotos de 24 MP, webcam por USB y multitarea con tres apps",
-      "resumen": "Entre las novedades de One UI 9 figura una resolución de 24 MP, intermedia entre los 12 y los 50 MP anteriores, que se activa con el módulo Camera Assistant de Good Lock. También permite usar el móvil como webcam por USB, tener hasta tres apps en pantalla, gestos multidedo con cinco acciones personalizables y velocidad de red en tiempo real en la barra de estado. Incluye además un indicador de privacidad azul que muestra qué apps comparten la ubicación.",
+      "titulo": "La beta de One UI 9.5 de Samsung, cada vez más cerca",
+      "resumen": "Una compilación de One UI 9.5 para el Galaxy S26 Ultra (firmware S948BXXU6ZZK3) ha aparecido en los servidores de Samsung de Corea y EE. UU., paso habitual antes de abrir el registro. Se basa en Android 17 y debutaría con el Galaxy S27 a comienzos de 2027; la beta de One UI 8.5 abrió el 8 de diciembre de 2025. Estaría disponible en Alemania, India, Polonia, Corea del Sur, Reino Unido y EE. UU.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2305270/samsung-one-ui-9-coolest-features/",
-      "fecha": "07-11-2026 14:15"
-    },
-    {
-      "titulo": "Las elecciones de mitad de mandato ponen a las grandes tecnológicas en el punto de mira",
-      "resumen": "Tras dos años de cercanía a Trump, con ejecutivos donando millones a super PAC, las empresas tecnológicas intentan acercarse a los demócratas, que prometen más supervisión de la IA; OpenAI ha contratado a Jessica Schumer, hija del senador Chuck Schumer. Trump firmó en diciembre una orden que creó el AI Litigation Task Force contra leyes estatales de IA. Una caída bursátil de un billón de dólares tras las elecciones llevó a algunos inversores a replantearse la salida a bolsa de Anthropic.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
-      "fecha": "07-11-2026 05:16"
+      "enlace": "https://www.engadget.com/2307479/samsung-one-ui-9-5-beta-program-how-to-sign-up/",
+      "fecha": "08-11-2026 02:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Por qué PlayStation no puede competir con la retrocompatibilidad de Xbox",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2305049/playstation-cant-hold-candle-to-xbox-backwards-compatibility/",
+      "titulo": "Los padres piden móviles más seguros para niños y las empresas responden",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
       "fecha": "07-11-2026"
     },
     {
-      "titulo": "La línea de ayuda por filtraciones del NHS dejó al personal con una «carga emocional significativa»",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/07/nhs-breach-helpline-left-staff-carrying-a-significant-emotional-burden/5308201",
-      "fecha": "07-11-2026"
-    },
-    {
-      "titulo": "Windows se toma un descanso en un área de servicio de autopista británica",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/11/07/windows-takes-a-break-at-uk-motorway-services/5307862",
-      "fecha": "07-11-2026"
-    },
-    {
-      "titulo": "BYD ha lanzado su superdeportivo más extremo a 503 km/h para conseguir un nuevo récord de velocidad",
+      "titulo": "El misterioso motivo por el que los avanzadísimos retretes japoneses no han triunfado en el resto del mundo",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/byd-ha-lanzado-su-superdeportivo-extremo-a-503-km-h-para-conseguir-nuevo-record-velocidad",
+      "enlace": "https://www.xataka.com/internet-of-things/misterioso-motivo-que-avanzadisimos-retretes-japoneses-no-han-triunfado-resto-mundo",
       "fecha": "07-11-2026"
     },
     {
-      "titulo": "Llevo meses usando esta app gratuita para Android y mis auriculares suenan mejor que nunca",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/wavelet-android-mejorar-sonido-auriculares/",
-      "fecha": "07-11-2026"
-    },
-    {
-      "titulo": "Tu billete de tren, autobús o metro incluye un seguro de hasta 84.141 euros y así se reclama",
+      "titulo": "Si tienes un móvil alquilado con O2, no lo puedes devolver en cualquier estado: qué perdona el operador",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/seguro-obligatorio-viajeros-que-cubre-reclamar/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movil-alquilado-o2-devolver-estado/",
       "fecha": "07-11-2026"
     },
     {
-      "titulo": "192.168.0.1: Diferentes formas y cómo iniciar sesión en la configuración de tu router WiFi",
+      "titulo": "Windows 11 27H2 apunta a ser la mayor revolución del sistema desde 2024: más velocidad y una renovación completa",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/192-168-0-1-diferentes-formas-como-iniciar-sesion-configuracion-tu-router-wifi_7054957_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/windows-11-27h2-apunta-ser-mayor-revolucion-sistema-desde-2024-mas-velocidad-una-renovacion-completa_7058577_0.html",
       "fecha": "07-11-2026"
     },
     {
-      "titulo": "Ya es oficial: Elon Musk anuncia el principio del fin del Cybertruck y su nueva gran apuesta para 2027",
+      "titulo": "EEUU financió una red de sensores en el Pacífico. China ha utilizado sus datos para descubrir una gigantesca estructura invisible bajo el mar",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/oficial-elon-musk-anuncia-principio-fin-cybertruck-su-nueva-gran-apuesta-para-2027",
+      "enlace": "https://www.xataka.com/magnet/eeuu-financio-red-sensores-pacifico-china-ha-utilizado-sus-datos-para-descubrir-gigantesca-estructura-invisible-mar",
       "fecha": "07-11-2026"
     },
     {
-      "titulo": "¿Tu PC se está quedando sin espacio? Esta carpeta de Windows podría tener parte de culpa",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/guias/limpiar-espacio-disponible-carpeta-windows-installer/",
-      "fecha": "07-11-2026"
-    },
-    {
-      "titulo": "WPA2/WPA3 Transition Mode: por qué existe y por qué puede darte problemas con aparatos antiguos",
+      "titulo": "Si compraste un coche eléctrico a partir de 2023, atento: puedes conseguir hasta 3.000 euros",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/wpa2-wpa3-transition-mode-problemas-dispositivos-antiguos/",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/dinero-coche-electrico-certificados-ahorro-energetico-cae/",
       "fecha": "07-11-2026"
     },
     {
-      "titulo": "Apple podría decir adiós en los próximos iPhone a uno de sus botones más utilizados",
+      "titulo": "El aviso que salvará vidas: Waze te alertará en tiempo real cuando haya ciclistas cerca",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/apple-podria-decir-adios-los-proximos-iphone-uno-sus-botones-mas-utilizados_7058499_0.html",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/aviso-que-salvara-vidas-waze-te-alertara-tiempo-real-cuando-haya-ciclistas-cerca_7058573_0.html",
       "fecha": "07-11-2026"
     },
     {
-      "titulo": "El Ayuntamiento de Salamanca anuncia otra tala de árboles y hay quien sospecha que es \"para mejorar las vistas\" de la Catedral",
+      "titulo": "Hace 600 años, unos conquistadores europeos llegaron a Lanzarote y levantaron una ciudad donde apenas había agua. Ahora sabemos cómo sobrevivieron",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/ayuntamiento-salamanca-anuncia-otra-tala-arboles-hay-quien-sospecha-que-para-mejorar-vistas-catedral",
+      "enlace": "https://www.xataka.com/magnet/hace-600-anos-unos-conquistadores-europeos-llegaron-a-lanzarote-levantaron-ciudad-donde-apenas-habia-agua-ahora-sabemos-como-sobrevivieron",
       "fecha": "07-11-2026"
     },
     {
-      "titulo": "IGMP Snooping: por qué aparece esta opción en tu router y qué pasa si usas televisión del operador",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/igmp-snooping-router-television-operador/",
-      "fecha": "07-11-2026"
-    },
-    {
-      "titulo": "Patrick Hearn, experto en software, tras probar todas las alternativas a Photoshop gratis de código abierto: \"Esta es, con diferencia, la mejor",
+      "titulo": "Si acumulas decenas de pestañas en Chrome, este nuevo cambio podría ahorrarte mucho tiempo",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/patrick-hearn-experto-software-tras-probar-todas-las-alternativas-photoshop-gratis-codigo-abierto-esta-es-con-diferencia-mejor_7055417_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/si-acumulas-decenas-pestanas-chrome-este-nuevo-cambio-podria-ahorrarte-mucho-tiempo_7058566_0.html",
       "fecha": "07-11-2026"
     },
     {
-      "titulo": "En 1986, Países Bajos gastó una fortuna en una barrera de 9 km para detener a su mayor enemigo. El problema es que casi siempre está abierta",
+      "titulo": "Nuestras abuelas echaban romero al aceite para freír. Han demostrado que tenían buenos motivos para hacerlo",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ingenieria-y-megaconstrucciones/1986-paises-bajos-gasto-fortuna-barrera-9-km-para-detener-a-su-mayor-enemigo-problema-que-casi-siempre-esta-abierta",
+      "enlace": "https://www.xataka.com/medicina-y-salud/nuestras-abuelas-echaban-romero-al-aceite-para-freir-han-demostrado-que-tenian-buenos-motivos-para-hacerlo",
       "fecha": "07-11-2026"
     },
     {
-      "titulo": "Beatriz De Retes, estratega de cuentas de Google: \"Trabajar como cajera, frutera y reponedora en Mercadona ha sido una de las mejores experiencias de mi vida\"",
+      "titulo": "Estaba jugando a Call of Duty cuando una bala atravesó su casa: su monitor ASUS le salvó la vida",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/beatriz-retes-estratega-cuentas-google-trabajar-como-cajera-frutera-reponedora-mercadona-ha-sido-una-las-mejores-experiencias-mi-vida_7058148_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/estaba-jugando-call-of-duty-cuando-una-bala-atraveso-su-casa-su-monitor-asus-le-salvo-vida_7058527_0.html",
       "fecha": "07-11-2026"
     },
     {
-      "titulo": "La NASA presenta X-70 Fractal, un nuevo avión experimental que probará maniobras \"nunca antes demostradas\" con piloto a bordo",
+      "titulo": "Los 212 GB de ‘GTA VI’ son un problema para muchas PS5 y Xbox Series, pero con estas soluciones no tendrás que borrar otros juegos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/nasa-presenta-x-70-fractal-nuevo-avion-experimental-que-probara-maniobras-nunca-antes-demostradas-piloto-a-bordo",
-      "fecha": "07-11-2026"
-    },
-    {
-      "titulo": "Antonio Cañavate, ingeniero telemático, sobre las subidas de precio de DIGI: \"Que no cunda el pánico, no os afecta, y son opcionales\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/antonio-canavate-ingeniero-telematico-subidas-precios-digi-que-no-cunda-panico-no-os-afecta-son-opcionales_7051488_0.html",
+      "enlace": "https://www.xataka.com/seleccion/212-gb-gta-vi-pueden-ser-problema-para-muchas-ps5-xbox-series-estas-soluciones-te-ayudaran-a-no-tener-que-borrar-juegos",
       "fecha": "07-11-2026"
     }
   ]
