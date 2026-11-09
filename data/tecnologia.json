@@ -1,171 +1,145 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "08-11-2026 15:12",
+  "actualizado": "09-11-2026 03:11",
   "destacadas": [
     {
-      "titulo": "Zaragoza sale a la calle contra los centros de datos: «No generan empleo, no pagan impuestos y se quedan con todos los recursos»",
-      "resumen": "Entre 2.000 (Policía Nacional) y 5.000 personas (elDiario.es) se manifestaron en el Día Europeo contra los centros de datos para pedir que se paralicen los proyectos en construcción. Se prevén 34 centros en Aragón, cuyo consumo eléctrico pasaría de unos 10.000 a más de 55.000 GWh al año si se ejecutan todos. Mientras, el borrador del Real Decreto se ha suavizado: el umbral sube de 1 a 10 MW y hay hasta cinco años de transición para el 80 % renovable.",
+      "titulo": "Jensen Huang confiesa su infidelidad mientras Nvidia investiga un posible espionaje chino",
+      "resumen": "El CEO de Nvidia reconoció en un mensaje a sus empleados que fue infiel a su esposa, sin identificar a la otra persona. El consejo ha abierto una investigación independiente tras informaciones del New York Times y el Financial Times que apuntan a Alice Huang, exdirectiva de Megaspeed, empresa de centros de datos de Singapur, y a un supuesto vínculo con el Ministerio de Seguridad del Estado chino. Nvidia sostiene que no hay indicios de que sus secretos comerciales hayan sido comprometidos; China lo rechaza y las acusaciones no están demostradas.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/zaragoza-sale-a-calle-centros-datos-no-generan-empleo-no-pagan-impuestos-se-quedan-todos-recursos",
-      "fecha": "08-11-2026 09:31"
+      "enlace": "https://www.xataka.com/empresas-y-economia/debo-disculpa-a-mi-familia-jensen-huang-confiesa-su-infidelidad-nvidia-investiga-posible-espionaje-chino",
+      "fecha": "08-11-2026 23:46"
     },
     {
-      "titulo": "La primera pantalla táctil cosida en una manga funciona tras 50 lavados",
-      "resumen": "Un equipo de la Universidad Nacional de Singapur, dirigido por Tural Khudiyev, publicó en Nature una manga con 54 fibras de píxeles de 1 mm y 96 LED cada una, que forman una pantalla táctil de 96 × 54 píxeles y 30 fps. Resistió 50 lavados y 1.000 dobleces sin cambios apreciables, aunque sigue sin resolverse la alimentación y la resolución es baja.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/investigacion/primera-pantalla-tactil-cosida-manga-funciona-50-lavados-pregunta-necesitamos-claro",
-      "fecha": "08-11-2026 13:31"
+      "titulo": "El Epic Games Launcher llegará a SteamOS",
+      "resumen": "El director de comunicación de Epic, Jake Jones, confirmó a GamingOnLinux que el nuevo lanzador, aún en versión preliminar, será compatible con SteamOS, Fedora, Cachy u Omarchy, y que el AppImage volverá este mes. Eso no garantiza que Fortnite llegue a SteamOS: sigue pendiente el soporte de Easy Anti-Cheat v2 en Linux, que Steam Deck todavía no cubre.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos",
+      "fecha": "08-11-2026 21:52"
     },
     {
-      "titulo": "Chrome prueba un menú de tres puntos con buscador integrado",
-      "resumen": "Google ha activado en Chrome Canary un menú renovado con un cuadro de búsqueda fijo que localiza acciones del navegador, marcadores e historial reciente sin salir del menú. Reorganiza las opciones en bloques visuales, convierte algunos accesos en botones destacados y sustituye las flechas de desplazamiento por una barra convencional. Google no ha dicho cuándo llegará a la versión estable.",
+      "titulo": "Las gafas Specs de Snap mejoran en comodidad, pero siguen sin un propósito claro",
+      "resumen": "Tras probar la versión final, TechCrunch destaca que las gafas de realidad aumentada pesan 132 gramos, casi la mitad que el prototipo, vienen en dos tamaños (47 y 52 mm), tienen bisagras con muelle y ya no se calientan. Cuestan 2.200 dólares y Snap no supo explicar para qué sirven en el día a día, aunque destaca la sincronización espacial entre dos usuarios.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/08/if-snaps-specs-are-still-ridiculously-expensive-theyre-also-a-lot-more-comfortable-than-they-used-to-be/",
+      "fecha": "08-11-2026 22:00"
+    },
+    {
+      "titulo": "Sequoia cierra su oficina de Londres y se tensa su relación con Roelof Botha tras entrar en el consejo de SpaceX",
+      "resumen": "Según el Financial Times, los cambios de Sequoia (cierre de Londres, fusión de los equipos de etapa inicial y crecimiento y fin del programa Scouts) buscan deshacer el legado de Botha. La ruptura se habría ahondado cuando este se unió al consejo de SpaceX sin pasar por cumplimiento ni por los socios, algo que podría complicar la venta de la participación de 20.000 millones de dólares de la firma. Sequoia asegura que sigue colaborando con él.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/",
+      "fecha": "08-11-2026 20:51"
+    },
+    {
+      "titulo": "Un estudio sobre más de 5.000 discos duros señala su problema: el fallo impredecible",
+      "resumen": "Los datos de Backblaze, con más de 350.000 unidades, indican que cerca del 1,5 % de los discos falla y casi la mitad lo hace el primer año; el 30 % de los averiados se rompe sin avisar. Un informe de Secure Data Recovery calcula 807 días de vida media en los discos ya fallados, y el riesgo crece a partir de los siete años. Seagate fue la más fiable entre abril y junio de 2026.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2309632/one-problem-with-new-hdds-5000-drives-study/",
+      "fecha": "08-11-2026 22:45"
+    },
+    {
+      "titulo": "Windows 11 permitirá desactivar para siempre los avisos de Teclas especiales y Teclas de filtro",
+      "resumen": "Las compilaciones Insider de Windows 11 26H2 añaden una casilla en los diálogos que saltan al pulsar Shift cinco veces o mantener la tecla, para que no vuelvan a activarse con ese atajo. Hasta ahora había que entrar en los ajustes de accesibilidad para quitarlos, una molestia que viene de Windows 95.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/chrome-prepara-uno-sus-cambios-mas-practicos-anos-menu-los-tres-puntos-por-fin-te-ayudara-encontrar-que-buscas_7058647_0.html",
-      "fecha": "08-11-2026 14:10"
-    },
-    {
-      "titulo": "Los modelos del mundo serán inevitables: qué son y por qué importan",
-      "resumen": "A diferencia de los LLM, que predicen la siguiente palabra, los modelos del mundo reciben un estado visual y predicen el siguiente, simulando física y causa-efecto. Niantic Spatial aprovecha los escaneos de Pokémon Go para entrenar robots, Wayve los usa con grabaciones de cámaras de coche para recrear situaciones peligrosas y Yann LeCun ha levantado más de mil millones de dólares para la tecnología. Wired prevé que 2027 sea clave para los robots domésticos y los coches autónomos.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
-      "fecha": "08-11-2026 11:00"
-    },
-    {
-      "titulo": "Físicos escuchan el ruido eléctrico para resolver un misterio de los superconductores",
-      "resumen": "Un equipo liderado por Milan Allan (LMU Múnich) e Ingmar Swart (Utrecht) midió el ruido de disparo con un microscopio de efecto túnel en un cuprato para detectar directamente pares de Cooper. Es un intento de aclarar el pseudogap, el fenómeno de «electrones desaparecidos» que lleva casi 40 años sin explicación y que ha sido publicado en Science.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
-      "fecha": "08-11-2026 13:15"
-    },
-    {
-      "titulo": "La gobernanza de internet afronta su prueba cuatrienal en la reunión de la UIT",
-      "resumen": "La conferencia de plenipotenciarios de la UIT arranca el 9 de noviembre y dura 18 días, con 278 propuestas sobre la mesa. Internet Society e ICANN advierten de propuestas que ampliarían el papel de la UIT en redes IP, DNS y políticas de internet, con riesgo de fragmentación. Siguen pendientes decisiones sobre constelaciones de satélites en órbita baja y resiliencia de cables submarinos.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/networks/2026/11/08/internet-governance-about-to-get-its-quadrennial-stress-test-at-itu-meeting/5308031",
-      "fecha": "08-11-2026 10:33"
-    },
-    {
-      "titulo": "Bill Gates admite que ha dejado de programar: «Mis habilidades se han quedado obsoletas»",
-      "resumen": "En una entrevista con The Observer, Bill Gates afirma que a finales del año pasado vio que sus habilidades de programación, en las que se obsesionó desde los 13 años, se habían vuelto básicamente obsoletas por la IA. Cree que ningún humano podrá ya ser el mejor programador del mundo frente a herramientas como Claude Code, Cursor o GitHub Copilot.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/bill-gates-confirma-que-ha-dejado-programar-mis-habilidades-programacion-las-que-me-obsesione-desde-los-13-anos-se-han-quedado-obsoletas_7053404_0.html",
-      "fecha": "08-11-2026 09:00"
-    },
-    {
-      "titulo": "El Elder Scrolls 6: Sentinel está a más de dos años, según Jason Schreier",
-      "resumen": "Bethesda ha confirmado que The Elder Scrolls 6 se llamará Sentinel, sin dar más detalles. Jason Schreier (Bloomberg) afirma que el juego está «a más de dos años» y otras especulaciones lo sitúan en 2029 como pronto. Su desarrollo formal arrancó en 2023 tras Starfield y se espera que transcurra en Hammerfell.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/the-elder-scrolls-6-sentinel-espera-mas-larga/",
-      "fecha": "08-11-2026 11:00"
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-corrige-windows-11-un-problema-que-lleva-desesperando-los-usuarios-desde-hace-mas-30-anos_7058651_0.html",
+      "fecha": "08-11-2026 15:25"
     }
   ],
   "titulares": [
     {
-      "titulo": "¿Puede un hacker hacer algo de verdad con tu dirección IP?",
+      "titulo": "Qué cámaras Canon son compatibles con su software gratuito de fotos en 3D",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2306218/can-hackers-do-anything-with-ip-address/",
+      "enlace": "https://www.engadget.com/2309282/which-canon-cameras-compatible-with-free-3d-software/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "TechCrunch Mobility: el experimento del Cybertruck ha terminado",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "No hay quien frene el segundo giro de los medios hacia el vídeo",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
+      "titulo": "Detenía a un hacker y pasó 18 meses limpiando su nombre: ahora es capitalista de riesgo en ciberseguridad con un segundo fondo de 250 millones",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "Un problema matemático de hace 55 años se resuelve, esta vez por humanos",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans/",
+      "titulo": "Perturbaciones coordinadas acechan las redes eléctricas del mundo: así resolvieron el misterio los investigadores",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "Doom ofrece cinco minutos de violencia en terminal en un mainframe de IBM",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/11/08/doom-delivers-five-minutes-of-terminal-violence-on-an-ibm-mainframe/5308092",
-      "fecha": "08-11-2026"
-    },
-    {
-      "titulo": "Tras años de envejecimiento, China se enfrenta a una nueva realidad: sus familias ya mantienen a más ancianos que niños",
+      "titulo": "Valencia sabía desde 2003 el lugar en el que se inundaría: por qué la humanidad sigue viviendo en zonas catastróficas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/anos-envejecimiento-china-se-enfrenta-a-nueva-realidad-sus-familias-mantienen-a-ancianos-que-ninos",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/valencia-sabia-2003-lugar-que-se-inundaria-que-humanidad-sigue-viviendo-zonas-catastroficas",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "Lo que faltaba: este bug de Paint deja tu PC con Windows 11 a merced de los hackers",
+      "titulo": "El iPod no ha muerto: esta aplicación convierte tu móvil, PC y Mac en el mítico reproductor de Apple",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/software/lo-que-faltaba-este-bug-de-paint-deja-tu-pc-con-windows-11-a-merced-de-los-hackers/",
+      "enlace": "https://hipertextual.com/guias/ipod-apple-app-reproductor-musica-classipod/",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "Jumbo Frames: qué son los 9.000 bytes de tu tarjeta de red y por qué normalmente no deberías activarlos",
+      "titulo": "Movistar tiene más de 500 dispositivos en su tienda, pero casi 200 te pueden salir desde 0 € como cliente",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/jumbo-frames-9000-bytes-tarjeta-red/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-dispositivos-desde-0-euros-1126/",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "Google tiene un truco oculto para detectar estafas en tus SMS y casi nadie lo usa: \"Solo tienes que rodearlo\"",
+      "titulo": "Henry Ford, empresario e ingeniero, sobre el trabajo y el esfuerzo: \"Pensar es un trabajo duro, por eso tan poca gente lo hace\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/google-tiene-un-truco-oculto-para-detectar-estafas-tus-sms-casi-nadie-usa-solo-tienes-que-rodearlo_7049613_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/henry-ford-empresario-ingeniero-sobre-trabajo-esfuerzo-pensar-es-un-trabajo-duro-por-eso-tan-poca-gente-hace_7031431_0.html",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "El Alpine A390 GT es toda una masterclass de cómo hacer un coche eléctrico deportivo y divertido cuando tienes que mover 2.200 kg",
+      "titulo": "China está construyendo una grúa capaz de levantar 14.000 toneladas. Necesita dos unidades trabajando juntas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/alpine-a390-gt-analisis-review-caracteristicas-precio-especificaciones",
+      "enlace": "https://www.xataka.com/ingenieria-y-megaconstrucciones/china-esta-construyendo-grua-capaz-levantar-14-000-toneladas-necesita-dos-unidades-trabajando-juntas",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "Prefijo +234: por qué recibes llamadas desde Nigeria y qué estafas utilizan este número",
+      "titulo": "¿Has pagado con tarjeta y te han cobrado dos veces? Así puedes reclamar y recuperar tu dinero",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/prefijo-234-nigeria-llamadas-estafas/",
+      "enlace": "https://www.adslzone.net/noticias/fintech/pago-tarjeta-cobro-duplicado-como-reclamar/",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "Qué es Android Auto Maker y cómo funciona la herramienta que lleva todas tus apps del móvil a la pantalla del coche",
+      "titulo": "Pankil Shah, experto en tecnología: \"No puedo dejar Android por estas funciones secretas\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/que-es-android-auto-maker-como-funciona-herramienta-que-lleva-todas-tus-apps-movil-pantalla-coche_7055428_0.html",
+      "enlace": "https://computerhoy.20minutos.es/moviles/pankil-shah-experto-tecnologia-no-puedo-dejar-android-por-estas-funciones-secretas_7041200_0.html",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "En su empeño por ser una potencia del petróleo, China perforó el segundo pozo más profundo del mundo",
+      "titulo": "Hace 110 años, el guanaco se extinguió de una parte de Argentina. Un viaje de 3.200 kilómetros lo trajo de vuelta",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ingenieria-y-megaconstrucciones/su-empeno-ser-potencia-petroleo-china-perforo-segundo-pozo-profundo-mundo",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/hace-110-anos-guanaco-se-extinguio-parte-argentina-viaje-3-200-kilometros-trajo-vuelta",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "Por qué algunos routers WiFi 7 no tienen banda de 6 GHz aunque se anuncien como WiFi 7",
+      "titulo": "¿Problemas con tu deco 4K de Orange? Hay cinco pasos que debes probar antes de borrarlo todo",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/routers-wifi-7-no-tienen-banda-6-ghz/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/problemas-deco-4k-orange-cinco-soluciones/",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "WhatsApp prepara para Android el truco definitivo para leer mensajes sin dejar rastro",
+      "titulo": "Richard Feynman, físico del siglo XX: \"El primer principio es que no debes engañarte a ti mismo, y tú eres la persona más fácil de engañar\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-prepara-para-android-truco-definitivo-para-leer-mensajes-sin-dejar-rastro_7058628_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/richard-feynman-fisico-siglo-xx-primer-principio-es-que-no-debes-enganarte-ti-mismo-tu-eres-persona-mas-facil-enganar_7033680_0.html",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "Un país de Europa acaba de mostrar una de las piezas de artillería más insólitas: un monstruo que dispara proyectiles de 100 kg y huye a 80 km/h",
+      "titulo": "Hoy en Ikea (por 24,99 euros) la solución 5 en 1 para tener enchufes en las esquinas de las paredes y los rincones desaprovechados de casa",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/pais-europa-acaba-mostrar-piezas-artilleria-insolitas-monstruo-que-dispara-proyectiles-100-kg-huye-a-80-km-h",
+      "enlace": "https://www.xataka.com/seleccion/hoy-ikea-24-99-euros-solucion-5-1-para-tener-enchufes-esquinas-paredes-rincones-desaprovechados-casa",
       "fecha": "08-11-2026"
     },
     {
-      "titulo": "Linus Torvalds, padre de Linux: \"No creo en un mundo en el que a todos los niños se les deba enseñar a programar\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-padre-linux-no-creo-un-mundo-que-todos-los-ninos-se-les-deba-ensenar-programar_7051005_0.html",
-      "fecha": "08-11-2026"
-    },
-    {
-      "titulo": "La extraña supervivencia de Pinterest: quién demonios sigue utilizándolo y por qué sigue ganando dinero",
+      "titulo": "Sabíamos que el exceso de azúcar era malo para engordar. Ahora también puede dar demencia muchos años antes de que te des cuenta",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/extrana-supervivencia-pinterest-quien-demonios-sigue-utilizandolo-que-sigue-ganando-dinero",
-      "fecha": "08-11-2026"
-    },
-    {
-      "titulo": "Photoshop gratis: mejores aplicaciones de código abierto alternativas a Adobe para editar imágenes sin gastar un solo euro",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/photoshop-gratis-mejores-aplicaciones-codigo-abierto-alternativas-adobe-para-editar-imagenes-sin-gastar-un-solo-euro_7054947_0.html",
+      "enlace": "https://www.xataka.com/medicina-y-salud/sabiamos-que-exceso-azucar-era-malo-para-engordar-ahora-tambien-puede-dar-demencia-muchos-anos-te-des-cuenta",
       "fecha": "08-11-2026"
     }
   ]
