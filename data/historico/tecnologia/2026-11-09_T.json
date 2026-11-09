@@ -1,0 +1,214 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "09-11-2026 15:20",
+  "destacadas": [
+    {
+      "titulo": "Unos 600.000 chips H200 de Nvidia esperan en Hong Kong tras el portazo de China a las exportaciones de EEUU",
+      "resumen": "Reuters publicó el 5 de noviembre que unos 600.000 chips H200 aguardaban en Hong Kong para pasar a China continental. EEUU autorizó en mayo su venta a una decena de empresas chinas (Alibaba, Tencent, ByteDance), pero Pekín limitó las compras a menos de 200.000 unidades y empuja a usar chips nacionales como los de Huawei. Un servidor con ocho H200 ronda ya los 6 millones de yuanes en el mercado gris, el triple que hace un año; Nvidia investiga además un posible espionaje chino vinculado a su CEO.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/puerto-hong-kong-esperan-600-000-chips-avanzados-nvidia-portazo-chino-a-exportaciones-eeuu",
+      "fecha": "09-11-2026 15:01"
+    },
+    {
+      "titulo": "Musk anuncia que Tesla devolverá parte de los depósitos del Cybertruck y defiende acabar con su producción",
+      "resumen": "Según Musk, Tesla dejará de fabricar el Cybertruck en unos ocho meses y producirá todos los que pueda hasta entonces. Defiende que el modelo no daba pérdidas, pero que la complejidad no compensa frente a producir más Cybercab en esa fábrica. Afirma que había unas 1.000.000 de reservas, mientras los expertos estiman unas 71.000 unidades vendidas desde noviembre de 2023; SpaceX compró 131 millones de dólares en Cybertrucks en 2025.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/musk-says-tesla-will-refund-some-cybertruck-deposits-defends-decision-to-end-production/",
+      "fecha": "09-11-2026 14:43"
+    },
+    {
+      "titulo": "Huawei presenta un PC de sobremesa que dice ser 100 % chino",
+      "resumen": "El Qingyun HM650 monta el procesador Kirin X90 (diez núcleos, 20 hilos, 2,3 GHz) y una nueva versión empresarial de HarmonyOS. Una sola agencia del Gobierno chino habría encargado ya 600 unidades. The Register señala que no está claro que todos los componentes sean de diseño chino, ya que muchas empresas extranjeras fabrican en China.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335",
+      "fecha": "09-11-2026 03:14"
+    },
+    {
+      "titulo": "Iris Ohyama cierra su tienda online tras una brecha en la nube que pone en riesgo 7,7 millones de registros",
+      "resumen": "La empresa japonesa detectó el 28 de octubre un archivo sospechoso en un servicio de nube de terceros usado por Iris Plaza y lo comunicó al día siguiente. Afecta a unos 5,8 millones de clientes registrados y 1,9 millones de compradores sin cuenta: nombres, direcciones, teléfonos, correos, fechas de nacimiento y contraseñas, algunas cifradas. Dice que no había datos de tarjetas y aún no ha dado fecha de reapertura ni nombrado al proveedor.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/09/japanese-homeware-giant-pulls-online-store-after-cloud-breach-puts-77m-records-at-risk/5308377",
+      "fecha": "09-11-2026 13:47"
+    },
+    {
+      "titulo": "Ethereum se convierte en canal de infección con la reaparición del malware PolinRider en npm",
+      "resumen": "Sonatype detectó el 4 de noviembre una campaña ligada a PolinRider con 12 paquetes npm maliciosos capaces de descargar y ejecutar código remoto en Node.js. Los cargadores usan transacciones de Ethereum para ocultar las direcciones IP de los servidores de mando y no dependen de scripts de instalación, así que desactivarlos no protege. Si falla el RPC público, recurren a servicios alternativos como Blockscout.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/fintech/ethereum-se-vuelve-un-canal-infeccion-con-reaparicion-malware-polinrider-npm_7058877_0.html",
+      "fecha": "09-11-2026 14:58"
+    },
+    {
+      "titulo": "Coinbase recibe la aprobación para convertirse en banco fiduciario con licencia federal",
+      "resumen": "La OCC de EEUU le concede una licencia nacional de trust bank, más limitada que una bancaria completa: no podrá aceptar depósitos ni conceder préstamos, pero sí ofrecer pagos y custodia y ampliar su negocio de stablecoins. Circle y Ripple ya tienen licencias similares, mientras Block y Wise no las han logrado. Coinbase se presenta como el mayor custodio cripto del mundo y se ha aliado con Citigroup para convertir stablecoins en divisas.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2310531/coinbase-receives-approval-to-become-a-chartered-trust-bank/",
+      "fecha": "09-11-2026 14:40"
+    },
+    {
+      "titulo": "El Gobierno amenaza con cerrar TikTok en España y el PP propone vetar las redes a menores de 14",
+      "resumen": "La ministra Sira Riego pidió a la Fiscalía investigar a TikTok tras una investigación de Maldita.es de 35 días que halló 1.183 vídeos de abuso sexual infantil con 48 millones de visualizaciones. Según El País, el Gobierno estudia paralizar el servicio. El programa del PP, con elecciones el 29 de noviembre, prohibiría las redes a menores de 14 y exigiría autorización paterna entre 14 y 16.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/redes-sociales/pp-prohibir-redes-sociales-menores-14/",
+      "fecha": "09-11-2026 10:30"
+    },
+    {
+      "titulo": "Moteros y amantes de los insectos se alían contra un nuevo centro de datos de Google en Reino Unido",
+      "resumen": "Una petición con casi 55.000 firmas pide a Google abandonar su campus de datos en Thurrock, a 24 km de Londres. Buglife teme por la destrucción del hábitat de una planta y un abejorro en peligro, Foxglove cifra hasta 570.000 toneladas de emisiones anuales y el club Thurrock Hammers quiere recuperar el circuito. De 1.000 alegaciones al ayuntamiento solo una apoyaba el proyecto; Google promete ganancia neta de biodiversidad y neutralidad de carbono en 2030.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
+      "fecha": "09-11-2026 09:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "El radar militar puede hacer que tu router cambie de canal Wi-Fi: por qué ocurre",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2307712/military-radar-makes-your-router-change-wifi-channels/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Drops, la nueva app de música que recupera el placer de compartir canciones con amigos",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/meet-drops-the-new-music-app-bringing-back-the-fun-of-sharing-songs-with-friends/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Tesla amplía su servicio de robotaxis a San Antonio",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/tesla-expands-robotaxi-service-to-san-antonio/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Un fallo en el portal de la principal universidad de Alemania expone la contraseña de todos sus usuarios",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/09/portal-breach-at-germanys-top-university-exposes-every-registered-users-password/5308380",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "El nuevo Congreso demócrata probablemente recortará el Golden Dome de Trump",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Las elecciones de medio mandato, buena señal para el movimiento por el derecho a reparar",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/the-midterms-were-a-pretty-good-sign-for-right-to-repair/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "El DHS ha usado 185.000 veces una polémica herramienta de investigación desde que Trump asumió el cargo",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/dhs-has-used-this-controversial-investigative-tool-185000-times-since-trump-took-office/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "La escasez de memoria hace que el hardware reacondicionado parezca mucho menos de segunda mano",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/on-prem/2026/11/09/memory-crunch-makes-refurbished-kit-look-a-lot-less-secondhand/5307758",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Un error de un desarrollador dejó inservibles 600 PC y provocó una baja de 1 millón de dólares en CD-ROM",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/software/2026/11/09/dev-error-bricked-600-pcs-caused-1m-cd-rom-write-off/5308039",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Científicos podrían haber descubierto una enorme galaxia sin estrellas",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/scientists-discover-massive-starless-galaxy/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "La máquina de escribir sin distracciones de Pomera es elegante, pero demasiado pequeña",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/gadgets/1029603/pomeras-dm25us-distraction-free-writing-review",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Un nuevo fármaco experimental para adelgazar se ha visto que también ayuda a aliviar el dolor de las rodillas con artrosis",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/medicina-y-salud/nuevo-farmaco-experimental-para-adelgazar-se-ha-visto-que-tambien-ayuda-a-aliviar-dolor-rodillas-artrosis",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Windows 11 incluye una herramienta de seguridad que muchos ignoran y puede salvar tu ordenador",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/seguridad/smart-app-control-windows-11-funcion-seguridad/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Viajar con DIGI: estos son los 33 países con 5G en roaming y los 23 con llamadas VoLTE",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-paises-5g-volte-roaming/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Jeroen Derks, especialista en ciberseguridad, desvela su truco para evitar el phishing con \"un cambio en la forma en que la aplicación de correo muestra un enlace\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/jeroen-derks-especialista-ciberseguridad-desvela-su-truco-para-evitar-phishing-con-un-cambio-forma-que-aplicacion-correo-muestra-un-enlace_7054746_0.html",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Ucrania está fabricando ataúdes de acero para sus soldados, y están diseñados para mantenerlos vivos en el frente",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/ucrania-esta-fabricando-ataudes-acero-para-sus-soldados-estan-disenados-para-mantenerlos-vivos-frente",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "El truco de Steam para tener todos tus juegos en un mismo sitio aunque vengan de otras tiendas",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/guias/anadir-juegos-steam-biblioteca-otras-tiendas-lanzadores/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "La infidelidad del CEO de Nvidia le cuesta a la compañía más de 200.000 millones",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/fintech/nvidia-jensen-huang-infidelidad-caida-bolsa/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Quería montar un PC barato y termina quemándolo por completo: el error que nunca debes cometer",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/queria-montar-un-pc-barato-termina-quemandolo-por-completo-error-que-nunca-debes-cometer_7057746_0.html",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Black Friday anticipado en El Corte Inglés: estos auriculares gaming de Sony cuestan ahora 99 euros",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/black-friday-anticipado-corte-ingles-estos-auriculares-gaming-sony-cuestan-ahora-99-euros",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Ya no te perderás en tus entrenamientos: la última actualización del Fénix corrige este molesto problema",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-fenix-beta-24-16-alertas-giro/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Ponen a seis robots humanoides a trabajar durante 24 horas y despiden a dos por incompetentes",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/ponen-seis-robots-humanoides-trabajar-durante-24-horas-despiden-dos-por-incompetentes_7057211_0.html",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "El corazón no solo necesita que duermas entre siete y ocho horas: también importa cuándo te acuestas",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/medicina-y-salud/corazon-no-solo-necesita-que-duermas-siete-ocho-horas-tambien-importa-cuando-te-acuestas",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "España dará hasta 7.600 euros a familias que regresen del extranjero",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/fintech/ayuda-7600-euros-regreso-espana-extranjero/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "España dice adiós a los enchufes tradicionales, llegan los enchufes modulares que se pueden instalar en cualquier lugar de la casa sin obras",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/enchufes-modulares-sin-obras-instalacion-rapida-alternativa-moderna-enchufes-tradicionales-1487216-1_6660877_0.html",
+      "fecha": "09-11-2026"
+    }
+  ]
+}
