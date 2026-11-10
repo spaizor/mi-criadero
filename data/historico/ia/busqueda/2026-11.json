@@ -3,6 +3,160 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "Anthropic fija su salida a bolsa en 70-78 dólares por acción, con una valoración de 1,4 billones",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026 15:01",
+      "enlace": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "DeepMind presenta Gemini Robotics 2.5 y el banco de pruebas de seguridad abierto ASIMOV-jailbreak",
+      "fuente": "Ars Technica",
+      "fecha": "10-11-2026 16:00",
+      "enlace": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Fable 5.2 de Anthropic completa el 41 % de trabajos freelance reales, frente al 2,5 % de hace un año",
+      "fuente": "The Decoder",
+      "fecha": "10-11-2026 15:07",
+      "enlace": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Adobe llena Photoshop, Premiere y Firefly de agentes de IA y lanza un servidor MCP",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026 15:05",
+      "enlace": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Google ya no quiere un solo chip de IA: lanza dos nuevas TPU especializadas para plantar cara a Nvidia",
+      "fuente": "Xataka",
+      "fecha": "10-11-2026 15:01",
+      "enlace": "https://www.xataka.com/componentes/google-no-quiere-solo-chip-ia-que-haga-todo-lanza-dos-nuevas-tpu-especializadas-para-plantar-cara-a-nvidia",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Ocho países y los grandes laboratorios acuerdan mecanismos de apagado en la nueva declaración de París",
+      "fuente": "The Decoder",
+      "fecha": "10-11-2026 14:37",
+      "enlace": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Una nueva herramienta de IA de Google DeepMind demuestra que el protocolo Signal es seguro",
+      "fuente": "Wired",
+      "fecha": "10-11-2026 06:01",
+      "enlace": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Los ciberataques amenazan con hacer la IA de código abierto algo menos abierta, avisa un directivo de Hugging Face",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Microsoft da por defecto a Claude las llaves de los tenants de Copilot en el Reino Unido",
+      "fuente": "The Register",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/10/microsoft-is-giving-claude-the-keys-to-uk-copilot-tenants-by-default/5308693",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "El DJ con IA de Spotify estrena voces, personalidades y una opción para hablar menos",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Tras desafiar a Android con Cyanogen, su cofundador apunta a Windows en la era de la IA",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Photoshop, Lightroom y Premiere facilitan eliminar elementos de las imágenes con IA",
+      "fuente": "The Verge",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Kora, un nuevo sistema de escritorio basado en Linux, está pensado para los entusiastas de la IA",
+      "fuente": "Wired",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "El estudio centenario de Stanford sobre IA admite que ya está desfasado",
+      "fuente": "The Register",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/10/stanfords-century-long-ai-study-admits-its-already-out-of-date/5308574",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Los drones de fibra óptica de Ucrania, ahogados por la demanda de centros de datos de IA",
+      "fuente": "Ars Technica",
+      "fecha": "10-11-2026",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "El dron de interior de Ring vuelve, ahora con IA",
+      "fuente": "Wired",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.wired.com/story/ring-robotics-drone-cam-rover-cam/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Los renegados que liberan a los chatbots de las barreras corporativas",
+      "fuente": "Wired",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Otter AI ya puede seguir conversaciones en más de 30 idiomas",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Pulsar “Sí, y no vuelvas a preguntar” en Claude Code parecía inofensivo. Ha acabado filtrando miles de contraseñas en GitHub",
+      "fuente": "Xataka",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/pulsar-no-vuelvas-a-preguntar-claude-code-parecia-inofensivo-ha-acabado-filtrando-miles-contrasenas-github",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Queremos una IA que lo haga todo por nosotros, pero hay algo que nos sigue dando miedo: nuestra privacidad",
+      "fuente": "ComputerHoy",
+      "fecha": "10-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/queremos-una-ia-que-haga-todo-por-nosotros-pero-hay-algo-que-nos-sigue-dando-miedo-nuestra-privacidad_7059098_0.html",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Claude va un paso más allá del vibe coding y Fable 5.2 ha diseñado dispositivos que funcionan en el mundo real",
+      "fuente": "Xataka",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/claude-va-paso-alla-vibe-coding-fable-5-2-ha-disenado-dispositivos-que-funcionan-mundo-real",
+      "turno": "2026-11-10_T"
+    },
+    {
+      "titulo": "Apple quiere convertir Siri en un agente autónomo que deje de esperar tus órdenes: su próxima IA podrá trabajar por ti",
+      "fuente": "ComputerHoy",
+      "fecha": "10-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/apple-quiere-convertir-siri-un-agente-autonomo-que-deje-esperar-tus-ordenes-su-proxima-ia-podra-trabajar-por-ti_7059102_0.html",
+      "turno": "2026-11-10_T"
+    },
+    {
       "titulo": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2: uno de acceso general y otro restringido",
       "fuente": "Xataka",
       "fecha": "09-11-2026 22:57",
