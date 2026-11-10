@@ -1,140 +1,146 @@
 {
   "seccion": "ia",
-  "actualizado": "09-11-2026 16:13",
+  "actualizado": "10-11-2026 04:10",
   "destacadas": [
     {
-      "titulo": "El escándalo de espionaje de Nvidia debilita el lobby de Huang contra controles de exportación más estrictos",
-      "resumen": "Jensen Huang admitió en un memorando interno una relación con Alice Huang, exejecutiva de Megaspeed International y presunta informante de la inteligencia china, y la junta de Nvidia abrió una investigación independiente. Megaspeed, operadora de centros de datos en el Sudeste Asiático, es sospechosa de canalizar chips a China: una empresa hermana en Malasia compró equipos con chips Nvidia por al menos 4.800 millones de dólares entre junio de 2024 y febrero de 2026. El caso llega cuando el nuevo Congreso demócrata presidirá los comités en enero.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/",
-      "fecha": "09-11-2026 12:38"
-    },
-    {
-      "titulo": "Anthropic pidió frenar el desarrollo de la IA, pero su IA avanza el doble de rápido que el año pasado",
-      "resumen": "Según METR, los modelos de Anthropic mejoran unas 1,9 veces más rápido desde octubre de 2025 que entre marzo de 2024 y octubre de 2025, con un margen de entre 1,3 y 3 veces. METR atribuye cerca del 80 % de esa aceleración al uso de IA en el propio desarrollo de IA. El análisis llega pese a la petición de Dario Amodei del 12 de septiembre de frenar el ritmo, y METR denuncia que Anthropic censuró la mayor parte de las pruebas más informativas.",
+      "titulo": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2: uno de acceso general y otro restringido",
+      "resumen": "Los dos modelos comparten base pero tienen distintas salvaguardas: Fable 5.2 bloquea tareas de alto riesgo en ciberseguridad y parte de la investigación biológica, y cuesta 8 dólares por millón de tokens de entrada y 40 de salida; Mythos 5.2 solo se concede a profesionales verificados. Anthropic dice que responden hasta un 30 % más rápido y que Fable 5.2 coordinó más de 1.000 subagentes durante ocho días para crear un sistema operativo prototipo. Vals AI lo sitúa primero entre 36 modelos con un 71,31 %, con diferencias mínimas frente a Sonnet 5.5 (70,85 %).",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/anthropic-pidio-frenar-desarrollo-ia-su-ia-esta-avanzando-doble-rapido-que-ano-pasado",
-      "fecha": "09-11-2026 13:31"
+      "enlace": "https://www.xataka.com/robotica-e-ia/anthropic-acaba-lanzar-sus-dos-modelos-ia-avanzados-uno-tendra-acceso-general-otro-estara-restringido",
+      "fecha": "09-11-2026 22:57"
     },
     {
-      "titulo": "Google lanza cuatro variantes de TPU en un año para competir con Nvidia",
-      "resumen": "Google ha añadido a su línea de octava generación la TPU 8tx, pensada para computación confidencial, y la TPU 8i Max, que junta dos chips 8i en un paquete para duplicar cómputo, memoria y ancho de banda en el mismo rack. Es la primera vez que la compañía lanza cuatro sistemas TPU en un solo año, y cuenta con casi 100 clientes externos. También liberó TorchTPU como código abierto, mientras Nvidia respondió con su acuerdo de talento y licencias con Groq.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/",
-      "fecha": "09-11-2026 13:59"
-    },
-    {
-      "titulo": "Claude Code guardaba tu correo para saber quién eres y algunas webs acabaron recibiéndolo",
-      "resumen": "Claude Code incluía el correo del usuario en la cabecera User-Agent al acceder a webs que lo pedían, como la base de datos EDGAR de la SEC, sin avisar. Lydia Hallie, del equipo de Claude Code, se disculpó en nombre de Anthropic y desde la versión 2.1.317 la herramienta pregunta antes de enviarlo. La protección no es total, porque los scripts que Claude ejecuta por su cuenta podrían seguir usándolo; la próxima versión retirará ese dato del contexto del modelo.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/claude-code-guardaba-tu-correo-para-saber-quien-eres-algunas-webs-acabaron-recibiendolo",
-      "fecha": "09-11-2026 12:01"
-    },
-    {
-      "titulo": "Linus Torvalds ve señales de que la avalancha de parches generados con IA ha tocado techo",
-      "resumen": "Torvalds describió como «various AI fixes» las correcciones asistidas por IA que engordan Linux 7.4 rc2. Desde el lanzamiento del modelo Mythos de Anthropic en abril se encuentran más fallos: Microsoft corrigió un récord de 974 en septiembre y Oracle 1.449 en un solo mes. Alexei Starovoitov, responsable de eBPF, afirma que en ese subsistema las correcciones ya llegan más rápido que los nuevos reportes.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345",
-      "fecha": "09-11-2026 05:53"
-    },
-    {
-      "titulo": "Automattic lanza Spacefast, una plataforma para desplegar apps hechas con «vibe coding»",
-      "resumen": "Automattic, propietaria de WordPress.com, presenta Spacefast, con bases de datos, autenticación, subida de archivos, correo y analítica, en competencia con Lovable y Emergent. Se conecta con agentes como ChatGPT, Claude o Cursor, o con un repositorio Git, y tuvo un lanzamiento suave en septiembre. Llega tras meses turbulentos en la empresa, con la salida y rápido regreso de Matt Mullenweg y despidos en octubre.",
+      "titulo": "Meta lanza Muse Ember, su modelo más barato, pensado para el trabajo repetitivo de los agentes",
+      "resumen": "Meta Superintelligence Labs presenta su modelo más ligero y económico, a 10 céntimos de dólar por millón de tokens de entrada, que procesa texto, imágenes y audio. Está pensado para llamadas a herramientas, subtareas de programación, enrutado y extracción de documentos largos, y trabajará junto al modelo mayor Muse Wonder: «Wonder planifica, Ember se ocupa del volumen». Meta afirma que es bastante más barato que Haiku de Anthropic y Luna de OpenAI, y competitivo frente a DeepSeek V4.1 Flash y GLM 5.3 Flash.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
-      "fecha": "09-11-2026 15:00"
+      "enlace": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "fecha": "09-11-2026 19:00"
     },
     {
-      "titulo": "Jonathan Kanter usa la IA para plantar cara a las grandes tecnológicas",
-      "resumen": "El exjefe antimonopolio del Departamento de Justicia lanzó con Doha Mekki la startup FluxCap, una herramienta de investigación legal con IA para demandantes en casos antimonopolio. Ayuda a buscar indicios de conducta anticompetitiva en grandes volúmenes de documentos y, según Kanter, aporta el trabajo de más de 20 personas. La División Antimonopolio recibió 245 millones de dólares para 2026, y entre sus primeros clientes está el despacho Kressin Powers.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
-      "fecha": "09-11-2026 15:30"
+      "titulo": "Claude Code está filtrando credenciales por todo GitHub a través de sus ficheros de ajustes",
+      "resumen": "Investigadores de Apiiro hallaron más de 100.000 casos de ficheros .claude/settings.local.json subidos a repositorios públicos; unos 1.100, de 63 organizaciones, contenían secretos como contraseñas de bases de datos, tokens de API y claves privadas. El fallo viene de que al aprobar «Sí, y no volver a preguntar» el comando se guarda tal cual, y el .gitignore global no protege a nivel de repositorio. 215 de esos secretos no los detectaron gitleaks ni TruffleHog; Boris Cherny, de Claude Code, dice que el equipo estudia cómo evitarlo.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+      "fecha": "09-11-2026 18:24"
+    },
+    {
+      "titulo": "Anthropic compra turbinas de gas natural por 3.400 millones de dólares",
+      "resumen": "Los generadores son de Caterpillar, capaces de producir hasta 1,7 gigavatios, y los había encargado originalmente el proveedor OnePWR, que no consiguió financiación para completar el pedido. Anthropic suele alquilar en lugar de comprar: en su S-1 de mayo reveló que pagará a xAI 1.250 millones de dólares al mes hasta mayo de 2029 por capacidad de cómputo. La lista de espera de turbinas de gas llega hasta principios de la década de 2030.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "fecha": "09-11-2026 17:56"
+    },
+    {
+      "titulo": "La aventura de Jensen Huang con una supuesta espía china se convierte en un problema de seguridad nacional",
+      "resumen": "Huang admitió en un mensaje interno haber sido infiel, dos días después de que el Financial Times contara su relación con Alice Huang, ejecutiva de Megaspeed (cliente de Nvidia en Singapur) a la que la inteligencia de EE. UU. considera reclutada por el Ministerio de Seguridad del Estado chino. El consejo de Nvidia abre una investigación independiente y las acciones cotizadas en Fráncfort caían más de un 6 %. Trump lo calificó de «hombre honorable» y de haber hecho un «trabajo increíble».",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+      "fecha": "09-11-2026 16:23"
+    },
+    {
+      "titulo": "Disney apuesta por Firefly de Adobe para crear modelos de IA a medida de sus marcas",
+      "resumen": "Disney y Adobe firman una alianza plurianual anunciada en Adobe MAX: Firefly Foundry construirá modelos personalizados entrenados con los personajes, entornos y estilos de Disney para obtener resultados «comercialmente seguros y listos para producción». Abarca parques, cruceros, ESPN (con ESPN Edge) y flujos de trabajo de Walt Disney Studios, e Imagineering ya usa Firefly. No se han dado cifras económicas; Disney ya había firmado y luego abandonado un acuerdo con OpenAI.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/",
+      "fecha": "09-11-2026 17:54"
+    },
+    {
+      "titulo": "El jefe de IA de Tencent avisa de que llegan las bioarmas con IA, pero cerrar los modelos no es la solución",
+      "resumen": "Vinces Yao Shunyu, científico jefe de IA de Tencent, defiende un punto medio entre modelos abiertos y cerrados porque en biología es más difícil separar capacidades ofensivas y defensivas que en ciberseguridad. Cita el caso de Hugging Face, que usó el modelo chino GLM-5.2 porque Claude rechazó analizar los comandos de un ataque, y anuncia que Tencent Hy4 saldrá con pesos abiertos e informe de seguridad. Según Artificial Analysis, los filtros de Claude Fable 5 afectaron al 8-9 % de las tareas.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/",
+      "fecha": "09-11-2026 16:44"
     }
   ],
   "titulares": [
     {
-      "titulo": "La burbuja de la IA puede esperar, pero tu plan de salida no",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/09/the-ai-bubble-can-wait-but-your-exit-plan-cant/5308415",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "The Download: promesas climáticas vacías de la IA y una investigación a Nvidia",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "Centros de datos, Elon Musk e IA, en la picota cuando el Congreso cambie de manos en 2027",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/legal/2026/11/09/datacenters-elon-musk-and-ai-are-all-on-the-chopping-block-once-congress-changes-hands-in-2027/5308250",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "Los autores pueden defenderse de acusaciones de usar IA con herramientas de «rastro documental»: ¿basta?",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "El experimento de radio AI Slop FM pone a las máquinas a juicio, una canción dudosa tras otra",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/11/09/ai-slop-fm-radio-experiment-puts-machines-on-trial-one-dodgy-tune-at-a-time/5308161",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "El argumento climático a favor de la IA no se ha demostrado",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "Probé Pangram en mi bandeja de Gmail: cuánto contenido de IA encontró",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/i-let-pangram-loose-on-my-gmail-inbox-heres-how-much-ai-it-found/",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "¿Peligra el puesto de Jensen Huang? Para Jeffrey Sonnenfeld, de Yale, es «un 50-50»",
+      "titulo": "Anthropic seguiría adelante con su salida a bolsa, según informes",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "enlace": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "David Ellison: la IA podría ser el «mayor impulso creativo de la historia moderna»",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Los problemas de Jensen Huang dejan en shock a la industria de la IA",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "¿Qué podría conseguir China de Jensen Huang?",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Jensen Huang contrató hace un año a una agencia de relaciones públicas experta en escándalos sexuales de alto perfil",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Un vendedor en corto alertó de los lazos del CEO de Nvidia con una supuesta espía china seis meses antes del escándalo",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "El empleo en programación y consultoría informática marca máximo histórico en la EPA: por ahora no llega la temida caída por la IA",
+      "titulo": "Empieza la carrera por demandar a Nvidia",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Jensen Huang se retira de la cumbre de ElevenLabs en plena polémica de Nvidia",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Los paquetes de uso de Apple Intelligence de 50 dólares amplían el acceso a algunas funciones de IA",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Seedream 5.5 de ByteDance promete edición de imagen estable durante 100 rondas sin deriva de color",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Effect Builder de Instagram crea filtros nuevos a partir de instrucciones de IA",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "La sustituta de Nancy Pelosi está lista para regular la IA",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "De unos 320 millones de viajes y pedidos de Uber en la semana de Halloween, solo cuatro viajes y 500 pedidos de Uber Eats vinieron de agentes de IA",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/empleo-programacion-consultoria-informatica-marca-maximo-historico-epa-ahora-no-llega-temida-caida-ia",
+      "enlace": "https://www.xataka.com/robotica-e-ia/unos-320-millones-viajes-pedidos-uber-semana-halloween-solo-cuatro-viajes-500-pedidos-uber-eats-vinieron-agentes-ia",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "Héctor de León, programador y Microsoft MVP: \"La IA está volviendo locos a los programadores; ni siquiera un vago como yo puede llevar el ritmo\"",
+      "titulo": "Siri cambiará para siempre y Apple prepara un agente de IA capaz de hacer tareas por ti en el iPhone",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/hector-leon-programador-microsoft-mvp-ia-esta-volviendo-locos-los-programadores-ni-siquiera-un-vago-como-yo-puede-llevar-ritmo_7053962_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/siri-cambiara-para-siempre-apple-prepara-un-agente-ia-capaz-hacer-tareas-por-ti-iphone_7059041_0.html",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "Hans Witdouck, experto en telecomunicaciones: \"La inteligencia artificial está impulsando una demanda sin precedentes de fibra oscura\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/hans-witdouck-experto-telecomunicaciones-inteligencia-artificial-esta-impulsando-una-demanda-sin-precedentes-fibra-oscura_7054948_0.html",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "Con esta herramienta tendrás varios agentes de IA trabajando por ti para cualquier investigación",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/con-esta-herramienta-tendras-varios-agentes-ia-trabajando-por-ti-para-cualquier-investigacion_7055169_0.html",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "El experto en tecnología Jordi García Castillón: “El gran error de las empresas con la IA es implantarla antes de saber protegerla\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/experto-tecnologia-jordi-garcia-castillon-gran-error-las-empresas-con-ia-es-implantarla-antes-saber-protegerla_7057370_0.html",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "Bill Gates, sobre el avance de la IA: \"Las cosas buenas avanzan despacio y las malas son inminentes\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/bill-gates-avance-ia-cosas-buenas-avanzan-despacio-malas-inminentes_7057518_0.html",
+      "titulo": "Meta lanza Muse Ember: una IA ultrabarata para programar y automatizar tareas con agentes",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/muse-ember-ia-programar-meta/",
       "fecha": "09-11-2026"
     }
   ]
