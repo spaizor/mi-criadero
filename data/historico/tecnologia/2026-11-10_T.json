@@ -1,0 +1,214 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "10-11-2026 15:17",
+  "destacadas": [
+    {
+      "titulo": "Google parchea el octavo zero-day de Chrome explotado en 2026, igualando todo el año pasado",
+      "resumen": "Google ha corregido CVE-2026-125350, un fallo grave de uso tras liberación en el componente XML de Chrome que ya se explota en ataques reales; lo reportó un anónimo el 6 de noviembre. La actualización llega en Chrome 157.0.8103.50/.51 y corrige otras ocho vulnerabilidades, entre ellas fallos en WebGL, GPU y V8. Con ocho zero-days, 2026 iguala el total de 2025 con casi dos meses por delante.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/10/chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8/5308732",
+      "fecha": "10-11-2026 14:28"
+    },
+    {
+      "titulo": "Binance alerta de un fallo de iOS que permitiría a una app maliciosa leer archivos de otras apps",
+      "resumen": "El exchange avisa de una vulnerabilidad llamada «worse_query» que afecta a iOS 26.7.1, 27.0.1 y 27.2 y expone frases semilla, claves privadas y credenciales. El repositorio del investigador amplía el alcance desde iOS 26.0 hasta 26.7.2. Apple no ha confirmado el fallo con ese nombre ni ha anunciado parche.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/binance-fallo-ios-worse-query/",
+      "fecha": "10-11-2026 12:05"
+    },
+    {
+      "titulo": "La supuesta amante de Jensen Huang habría ayudado a desviar 7.500 millones de dólares en chips de Nvidia a China",
+      "resumen": "Según The Information, la relación con Alice Huang data al menos de 2023 y ella montó una red de empresas en China y Singapur, con Shanghai Century Litong como socio preferente de Nvidia. Se habrían enviado unas 240.000 GPU H100, H200 y A100 pese al veto de EEUU. El caso ha provocado una revisión interna de Nvidia y una investigación del FBI.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/actualidad/alice-huang-amante-jensen-huang-desviar-7500-millones-dolares-hardware-nvidia-china/",
+      "fecha": "10-11-2026 14:45"
+    },
+    {
+      "titulo": "Ring lanza una división de robótica con un dron de seguridad para el hogar y un robot para empresas",
+      "resumen": "Amazon presenta Ring Robotics con el Ring Drone Cam, una cámara voladora de interior con vídeo 2K y luces LED que patrulla la casa y acude a donde salta la alarma, y el Ring Rover Cam, un robot con vídeo 4K continuo, cámara periscopio y audio bidireccional. Ambos funcionan con el mismo sistema de IA propio y prometen polémica por la privacidad.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+      "fecha": "10-11-2026 14:30"
+    },
+    {
+      "titulo": "Photoshop, Lightroom y Premiere facilitan eliminar objetos con nuevas herramientas de IA",
+      "resumen": "En Adobe Max, Premiere estrena en beta Generative Remove para borrar objetos del vídeo, y Photoshop mejora su herramienta Remove con reflejos y sombras y añade Quick Compare y Relight. Lightroom de escritorio recibe la retirada de imperfecciones que ya tenía el móvil, y Generative Media pasa a estar disponible para todos.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+      "fecha": "10-11-2026 15:00"
+    },
+    {
+      "titulo": "SpaceX intentará el 13 de noviembre capturar por primera vez los dos cuerpos de Starship",
+      "resumen": "El Vuelo 15 despegaría el 13 de noviembre a las 17:45 hora del este de EEUU, pendiente de aprobación regulatoria. La nave intentará dar unas 14 órbitas en más de 22 horas y desplegará 26 satélites Starlink V3. El Super Heavy se capturaría minutos después del lanzamiento y la nave un día más tarde, solo si las condiciones son óptimas.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2311878/spacex-first-attempt-to-catch-both-starship-stages-november-13/",
+      "fecha": "10-11-2026 14:03"
+    },
+    {
+      "titulo": "GTA 6 ya se puede predescargar en Xbox Series y PS5: ocupa 212 GB",
+      "resumen": "Con el lanzamiento fijado para el 19 de noviembre, Rockstar ha abierto la precarga en consolas, primero en Xbox y después en PS5. Las copias físicas llegarán a tiendas el 12 de noviembre. El juego cuesta 80 dólares la edición estándar y 100 la Ultimate, y ya acumula unos 8 millones de reservas.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2311841/gta-6-now-available-for-preload/",
+      "fecha": "10-11-2026 11:01"
+    },
+    {
+      "titulo": "Android Auto: la app AAGearUP 1.5 trae YouTube sin anuncios y Plex a la pantalla del coche",
+      "resumen": "La app no certificada AAGearUP llega a la versión 1.5 con un ajuste, desactivado por defecto, que salta los cortes publicitarios de YouTube y mejora el control desde el volante. Se instala manualmente desde GitHub, con prueba de 14 días y licencia única, y ofrece favoritos con YouTube, Stremio o Plex.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/android-auto-aagearup-15-youtube-sin-anuncios-plex/",
+      "fecha": "10-11-2026 09:57"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "BT no lanzará su acuerdo con Starlink hasta que la gente olvide Ucrania",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2311922/bt-wont-launch-starlink-deal-until-people-forget-about-ukraine/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "El nuevo marco de fotos de tinta electrónica de Aura es mejor y más barato que el anterior",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/10/auras-newest-e-ink-photo-frame-is-even-better-and-more-affordable-than-its-last/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Un ransomware suena en los ordenadores de la Universidad Vanderbilt durante un ciberataque",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/10/ransomware-threat-blares-from-vanderbilt-university-computers-during-cyberattack/5308687",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Los contadores inteligentes costarán miles de millones al Reino Unido: el apagado del 2G obliga a cambiar 12-13 millones",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/11/10/smart-meters-to-cost-the-uk-billions-2g-switch-off-means-replacing-12-13-million/5308728",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Garmin permite compartir la ubicación en bici a través de Waze para mayor seguridad",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2311124/garmin-users-can-now-share-their-cycling-location-through-waze-for-extra-safety/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Seagate FireCuda Forge mueve los datos entre disco duro y SSD para mejorar el rendimiento",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1029665/seagate-firecuda-forge-hybrid-ssd-hard-drive-storage-alkemi-technology",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "El proyecto informático fronterizo de 212 millones de la UE mete a IBM y Atos en problemas legales",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/public-sector/2026/11/10/eus-212m-border-it-project-lands-ibm-and-atos-in-legal-water/5308669",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "La Royal Navy estrena su primer escuadrón de barcos autónomos",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/11/10/royal-navy-stands-up-first-autonomous-boat-squadron/5308494",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Fallos de seguridad en webs del Gobierno británico expusieron información «de nivel dios»",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "El Departamento de Justicia demanda a Lyft por rechazar sistemáticamente a pasajeros con discapacidad",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2311839/doj-lawsuit-lyft-routinely-refused-service-passengers-with-disabilities/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Fracasa en California el «impuesto a los milmillonarios» propuesto",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/californias-proposed-billionaire-tax-fails-to-pass/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Cisco vinculará todos sus productos futuros a su herramienta de gestión en la nube Cloud Control",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/11/10/cisco-to-link-all-future-products-to-its-saas-y-cloud-control-management-tool/5308660",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Quién es Alice Huang, la exdirectiva de Megaspeed que ha puesto contra las cuerdas a Jensen Huang y Nvidia",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/quien-alice-huang-exdirectiva-megaspeed-que-ha-puesto-cuerdas-a-jensen-huang-nvidia",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Vodafone suelta la bomba y lanza bonos de datos de roaming desde 3 €",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/vodafone-lanza-bonos-roaming-3-euros/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Nvidia tiene un problema inesperado: nadie parece preparado para sustituir a Jensen Huang",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/nvidia-tiene-un-problema-inesperado-nadie-parece-preparado-para-sustituir-jensen-huang_7059128_0.html",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "China ha inventado un Frankenstein para sus cementerios de palas eólicas: una descarga de medio segundo para resucitarlas como grafeno",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/china-ha-inventado-frankenstein-para-sus-cementerios-palas-eolicas-descarga-medio-segundo-para-resucitarlas-como-grafeno",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Telefónica lleva 30 meses haciendo algo que sus rivales no consiguen: captar clientes de móvil",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/telefonica-30-meses-portabilidades-positivas/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "¿Por qué ya no se ven Atreseries, DKISS, Clan y BeMad en la TDT y cómo solucionarlo?",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/por-que-ya-no-se-ven-atreseries-dkiss-clan-bemad-tdt-como-solucionarlo_7059108_0.html",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Carrefour rebaja esta MiniLED Samsung de 65 pulgadas antes del Black Friday: ideal para salones luminosos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/carrefour-rebaja-esta-miniled-samsung-65-pulgadas-antes-black-friday-ideal-para-salones-luminosos",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Las Smart TV se actualizan con dos nuevos canales de cine gratis y uno de deportes",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/smart-tv-nuevos-canales-cine-gratis-futbol/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Anker Eufy entra en el mercado de la maternidad con 4 sacaleches inteligentes que incorporan tecnología de calor",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/anker-eufy-entra-mercado-maternidad-con-4-sacaleches-inteligentes-que-incorporan-tecnologia-calor_7059190_0.html",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Oviedo, cerrada por \"operación jaula\" para localizar al hombre de la mochila bomba que ha matado a un policía y mantiene a otro en gravedad extrema",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/oviedo-cerrada-operacion-jaula-para-localizar-al-hombre-mochila-bomba-que-ha-matado-a-policia-mantiene-a-otro-gravedad-extrema",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Por qué no todos los canales de TDT en UHD 4K se ven igual y algunos se ven muy oscuros: ¿hay alguna forma de arreglarlo?",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/por-que-no-todos-los-canales-tdt-uhd-4k-se-ven-igual-algunos-se-ven-muy-oscuros-hay-alguna-forma-arreglarlo_7059105_0.html",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "El Black Friday anticipado de Amazon tira el precio del POCO F9 Pro. Y en su configuración con 512 GB",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/black-friday-anticipado-amazon-tira-precio-poco-f9-pro-su-configuracion-512-gb",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Más delgado y con doble cámara: así sería el iPhone Air 2 que prepara Apple",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/mas-delgado-con-doble-camara-asi-seria-iphone-air-2-que-prepara-apple_7059097_0.html",
+      "fecha": "10-11-2026"
+    }
+  ]
+}
