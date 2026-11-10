@@ -1,0 +1,184 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "10-11-2026 03:11",
+  "destacadas": [
+    {
+      "titulo": "Explotan activamente «sshole», un fallo crítico que permite entrar por SSH en dispositivos Linux",
+      "resumen": "Varios investigadores han detectado ataques reales contra la vulnerabilidad CVE-2026-123158, que surge de la interacción entre OpenSSH y la biblioteca musl y da acceso sin autenticar a cuentas con privilegios en segundos. Greynoise la ve usada por el grupo GT10, que instala un backdoor llamado TAC Agent con comentarios en chino y aparente código generado con IA; watchTowr y Previdian (20 intentos desde 13 IP) también reportan actividad. OpenSSH ya ha publicado un parche.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+      "fecha": "09-11-2026 20:41"
+    },
+    {
+      "titulo": "Francia culpa a Irán de los ciberataques masivos a congeladores de supermercados y bancos de sangre",
+      "resumen": "El ministro de Exteriores, Jean-Noël Barrot, atribuyó a la Guardia Revolucionaria iraní dos oleadas de ataques entre octubre y noviembre contra controladores web de refrigeración industrial, que subieron temperaturas para estropear alimentos. Los bancos de sangre también fueron atacados, pero se frenó antes de perder sangre. Francia ha citado al embajador iraní y anuncia sanciones europeas; algunos modelos afectados, de la danesa Danfoss, ya no reciben parches.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/france-blames-iran-for-mass-hacks-targeting-freezers-in-grocery-stores-and-blood-banks/",
+      "fecha": "09-11-2026 20:19"
+    },
+    {
+      "titulo": "Atacantes abusan de integraciones de confianza con AWS para robar secretos",
+      "resumen": "Con credenciales IAM comprometidas de la plataforma Qubole, los atacantes asumieron roles entre cuentas en entornos de clientes de AWS desde el 14 de octubre y robaron claves y secretos de Lambda, Secrets Manager y SSM Parameter Store. Wiz habla de una campaña oportunista de cadena de suministro que alcanzó a «varias» organizaciones, favorecida por políticas de confianza que seguían activas tras abandonar la plataforma. Usaron TruffleHog para probar credenciales y llegar a secretos de Entra ID.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553",
+      "fecha": "09-11-2026 20:59"
+    },
+    {
+      "titulo": "Waymo dijo haber arreglado su problema con autobuses escolares; el Gobierno de EEUU dice que no funcionó",
+      "resumen": "La NHTSA abre una investigación formal para comprobar si la retirada de software de Waymo, con arreglo a mediados de noviembre y retirada oficial un mes después, resolvió que sus robotaxis adelanten autobuses escolares parados. Según el organismo, la mayoría de los incidentes ocurrieron después de esa fecha, y la NTSB documentó otro en enero. Waymo asegura que no la han multado por ello desde marzo.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/waymo-school-bus-problem-the-us-government-says-it-didnt-work/",
+      "fecha": "09-11-2026 23:40"
+    },
+    {
+      "titulo": "La crisis de la memoria llega a los móviles «Ultra»: el Oppo Find X10 Ultra, en pausa según una filtración",
+      "resumen": "El filtrador Digital Chat Station apunta en Weibo que un modelo Ultra de la generación actual se ha pausado por el coste de los componentes, y Android Authority lo identifica con el Oppo Find X10 Ultra, previsto para 2027 con cuatro cámaras de 200, 200, 200 y 50 megapíxeles. El Find X9 Ultra salió en abril por 1.699 euros y el Find X10 Pro Max acaba de llegar por 1.799.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/moviles/crisis-memoria-no-encarece-solo-moviles-baratos-modelos-ultra-siguientes-punto-mira",
+      "fecha": "09-11-2026 18:31"
+    },
+    {
+      "titulo": "Android Auto deja de funcionar en móviles con Android 9 y 10",
+      "resumen": "Google ha confirmado en su documentación que Android 11 es ahora la versión mínima para usar Android Auto por cable USB, lo que deja fuera a los teléfonos con Android 9 y 10, como el Galaxy S9, el Note 9 o el Xperia XZ2 Compact. Antes ya se retiró el soporte de Android 6 en 2022 y de Android 8 en 2024. Algunos usuarios afirman que la función ya ha dejado de funcionar.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-deja-funcionar-millones-moviles-google-confirma-un-cambio-que-afecta-android-9-10_7058915_0.html",
+      "fecha": "09-11-2026 21:02"
+    },
+    {
+      "titulo": "Wyndham expuso datos de clientes por una contraseña dentro de su app de Android",
+      "resumen": "El investigador Robert Wiggins, de What Security, halló una credencial en el código de la app de Wyndham que daba acceso a una base de datos en Salesforce con nombres, correos, números de socio y tokens de sesión, con millones de registros. La contraseña se revocó tras avisar TechCrunch; Wyndham dice no tener pruebas de acceso no autorizado, pero no aclara si avisará a los clientes ni cuánto tiempo estuvo expuesta.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/",
+      "fecha": "10-11-2026 00:03"
+    },
+    {
+      "titulo": "Investigadores hackean las apps Android de dos fabricantes para abrir coches a distancia",
+      "resumen": "Shubham Shah (Assetnote) y Sam Curry explotaron fallos en la plataforma de identidad ForgeRock usada por dos fabricantes, con vehículos en Australia y EEUU. Usaron credenciales de administrador de pruebas que también funcionaban en producción y, en la versión estadounidense, credenciales por defecto de la consola de Apache Felix para obtener shell. Así pudieron arrancar motores, encender luces y tocar el claxon.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/09/researchers-pwn-automakers-android-apps-to-remotely-unlock-cars-honk-horns/5308483",
+      "fecha": "09-11-2026 18:31"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "El escándalo de espionaje que rodea al CEO de Nvidia acaba de dar otro giro: Trump dice que el FBI ya lo investiga",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/escandalo-espionaje-que-rodea-al-ceo-nvidia-acaba-dar-otro-giro-trump-dice-que-fbi-investiga",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Samsung prepara una revolución en sus Galaxy más baratos: la pantalla se verá mejor que nunca",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/samsung-oled-galaxy-baratos-fin-lcd/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Un hombre que perdió 308.000 dólares en apuestas deportivas demanda a Kalshi por ofrecer juego ilegal",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Una parodia de Sam Altman ofrece una lección divertida sobre gestión de memoria",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/a-sam-altman-parody-offers-an-amusing-lesson-in-memory-management/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Los datos de streaming de YouTube vuelven a las listas Billboard y ponen fin a una gran disputa",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/youtube-streaming-data-returns-to-billboard-charts-ending-major-disagreement/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "El Pentágono estudia poner una flota de satélites militares alrededor de la Luna",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Uber lanza un servicio de aparcamiento tras comprar SpotHero, con los robotaxis en el punto de mira",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "La NASA cumple su PROMISE de despiezar bancos de pruebas de Marte para aprovechar piezas",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/science/2026/11/09/nasa-keeps-its-promise-to-raid-mars-testbeds-for-parts/5308475",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "SpaceX ya es «fundamentalmente una empresa de infraestructuras», según un alto cargo",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Azure Linux de Microsoft recibe más de 470 correcciones de seguridad en una sola sesión de parcheo",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/09/microsofts-azure-linux-gets-470-plus-security-fixes-in-one-almighty-patching-session/5308434",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Who Gives A Crap: expuestos los datos de clientes del fabricante de papel higiénico",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/09/who-gives-a-crap-hackers-apparently-after-toilet-paper-makers-customer-data-exposed/5308419",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "O2 revela la verdad sobre tu fibra: esta es la velocidad media que tendrás en casa en función de tu tarifa",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-velocidad-maxima-real-fibra-condiciones/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Xbox rediseña la experiencia en PC y Cloud Gaming: todas las novedades",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/xbox-redisena-experiencia-pc-cloud-gaming-todas-las-novedades_7058833_0.html",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Los ciberataques a frigoríficos de supermercados europeos dieron la vuelta al mundo. Francia acaba de señalar a un responsable",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/ciberataques-a-frigorificos-supermercados-europeos-dieron-vuelta-al-mundo-francia-acaba-senalar-a-responsable",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Link Aggregation o LACP: por qué dos cables Ethernet no siempre significan el doble de velocidad",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/redes/link-aggregation-lacp-dos-cables-no-duplican-velocidad/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Escándalo en Nvidia: el consejo investiga a su CEO tras confesar una infidelidad en un caso de espionaje",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/escandalo-nvidia-consejo-investiga-su-ceo-tras-confesar-una-infidelidad-un-caso-espionaje_7058834_0.html",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Lidl está agotando la freidora de aire Moulinex original que llega a tiendas hoy, pero aquí la hemos encontrado incluso más barata",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/lidl-esta-agotando-freidora-aire-moulinex-original-que-llega-a-tiendas-hoy-aqui-hemos-encontrado-incluso-barata",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Tu televisor sigue gastando luz aunque lo apagues: así afecta a tu factura",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/televisor-nunca-apagado-consumo-luz/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Sudamérica está viviendo un boom de turistas europeos y hay un sospechoso claro: la guerra de Irán",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/sudamerica-esta-viviendo-boom-turistas-europeos-hay-sospechoso-claro-guerra-iran",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Un asteroide de 11 metros se mueve como si alguien lo empujara y los científicos acaban de descartar la explicación más obvia",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/asteroide-11-metros-se-mueve-como-alguien-empujara-cientificos-acaban-descartar-explicacion-obvia",
+      "fecha": "09-11-2026"
+    }
+  ]
+}

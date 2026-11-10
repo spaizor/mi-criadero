@@ -1,213 +1,183 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "09-11-2026 15:20",
+  "actualizado": "10-11-2026 03:11",
   "destacadas": [
     {
-      "titulo": "Unos 600.000 chips H200 de Nvidia esperan en Hong Kong tras el portazo de China a las exportaciones de EEUU",
-      "resumen": "Reuters publicó el 5 de noviembre que unos 600.000 chips H200 aguardaban en Hong Kong para pasar a China continental. EEUU autorizó en mayo su venta a una decena de empresas chinas (Alibaba, Tencent, ByteDance), pero Pekín limitó las compras a menos de 200.000 unidades y empuja a usar chips nacionales como los de Huawei. Un servidor con ocho H200 ronda ya los 6 millones de yuanes en el mercado gris, el triple que hace un año; Nvidia investiga además un posible espionaje chino vinculado a su CEO.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/puerto-hong-kong-esperan-600-000-chips-avanzados-nvidia-portazo-chino-a-exportaciones-eeuu",
-      "fecha": "09-11-2026 15:01"
+      "titulo": "Explotan activamente «sshole», un fallo crítico que permite entrar por SSH en dispositivos Linux",
+      "resumen": "Varios investigadores han detectado ataques reales contra la vulnerabilidad CVE-2026-123158, que surge de la interacción entre OpenSSH y la biblioteca musl y da acceso sin autenticar a cuentas con privilegios en segundos. Greynoise la ve usada por el grupo GT10, que instala un backdoor llamado TAC Agent con comentarios en chino y aparente código generado con IA; watchTowr y Previdian (20 intentos desde 13 IP) también reportan actividad. OpenSSH ya ha publicado un parche.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+      "fecha": "09-11-2026 20:41"
     },
     {
-      "titulo": "Musk anuncia que Tesla devolverá parte de los depósitos del Cybertruck y defiende acabar con su producción",
-      "resumen": "Según Musk, Tesla dejará de fabricar el Cybertruck en unos ocho meses y producirá todos los que pueda hasta entonces. Defiende que el modelo no daba pérdidas, pero que la complejidad no compensa frente a producir más Cybercab en esa fábrica. Afirma que había unas 1.000.000 de reservas, mientras los expertos estiman unas 71.000 unidades vendidas desde noviembre de 2023; SpaceX compró 131 millones de dólares en Cybertrucks en 2025.",
+      "titulo": "Francia culpa a Irán de los ciberataques masivos a congeladores de supermercados y bancos de sangre",
+      "resumen": "El ministro de Exteriores, Jean-Noël Barrot, atribuyó a la Guardia Revolucionaria iraní dos oleadas de ataques entre octubre y noviembre contra controladores web de refrigeración industrial, que subieron temperaturas para estropear alimentos. Los bancos de sangre también fueron atacados, pero se frenó antes de perder sangre. Francia ha citado al embajador iraní y anuncia sanciones europeas; algunos modelos afectados, de la danesa Danfoss, ya no reciben parches.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/09/musk-says-tesla-will-refund-some-cybertruck-deposits-defends-decision-to-end-production/",
-      "fecha": "09-11-2026 14:43"
+      "enlace": "https://techcrunch.com/2026/11/09/france-blames-iran-for-mass-hacks-targeting-freezers-in-grocery-stores-and-blood-banks/",
+      "fecha": "09-11-2026 20:19"
     },
     {
-      "titulo": "Huawei presenta un PC de sobremesa que dice ser 100 % chino",
-      "resumen": "El Qingyun HM650 monta el procesador Kirin X90 (diez núcleos, 20 hilos, 2,3 GHz) y una nueva versión empresarial de HarmonyOS. Una sola agencia del Gobierno chino habría encargado ya 600 unidades. The Register señala que no está claro que todos los componentes sean de diseño chino, ya que muchas empresas extranjeras fabrican en China.",
+      "titulo": "Atacantes abusan de integraciones de confianza con AWS para robar secretos",
+      "resumen": "Con credenciales IAM comprometidas de la plataforma Qubole, los atacantes asumieron roles entre cuentas en entornos de clientes de AWS desde el 14 de octubre y robaron claves y secretos de Lambda, Secrets Manager y SSM Parameter Store. Wiz habla de una campaña oportunista de cadena de suministro que alcanzó a «varias» organizaciones, favorecida por políticas de confianza que seguían activas tras abandonar la plataforma. Usaron TruffleHog para probar credenciales y llegar a secretos de Entra ID.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335",
-      "fecha": "09-11-2026 03:14"
+      "enlace": "https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553",
+      "fecha": "09-11-2026 20:59"
     },
     {
-      "titulo": "Iris Ohyama cierra su tienda online tras una brecha en la nube que pone en riesgo 7,7 millones de registros",
-      "resumen": "La empresa japonesa detectó el 28 de octubre un archivo sospechoso en un servicio de nube de terceros usado por Iris Plaza y lo comunicó al día siguiente. Afecta a unos 5,8 millones de clientes registrados y 1,9 millones de compradores sin cuenta: nombres, direcciones, teléfonos, correos, fechas de nacimiento y contraseñas, algunas cifradas. Dice que no había datos de tarjetas y aún no ha dado fecha de reapertura ni nombrado al proveedor.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/cyber-crime/2026/11/09/japanese-homeware-giant-pulls-online-store-after-cloud-breach-puts-77m-records-at-risk/5308377",
-      "fecha": "09-11-2026 13:47"
-    },
-    {
-      "titulo": "Ethereum se convierte en canal de infección con la reaparición del malware PolinRider en npm",
-      "resumen": "Sonatype detectó el 4 de noviembre una campaña ligada a PolinRider con 12 paquetes npm maliciosos capaces de descargar y ejecutar código remoto en Node.js. Los cargadores usan transacciones de Ethereum para ocultar las direcciones IP de los servidores de mando y no dependen de scripts de instalación, así que desactivarlos no protege. Si falla el RPC público, recurren a servicios alternativos como Blockscout.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/fintech/ethereum-se-vuelve-un-canal-infeccion-con-reaparicion-malware-polinrider-npm_7058877_0.html",
-      "fecha": "09-11-2026 14:58"
-    },
-    {
-      "titulo": "Coinbase recibe la aprobación para convertirse en banco fiduciario con licencia federal",
-      "resumen": "La OCC de EEUU le concede una licencia nacional de trust bank, más limitada que una bancaria completa: no podrá aceptar depósitos ni conceder préstamos, pero sí ofrecer pagos y custodia y ampliar su negocio de stablecoins. Circle y Ripple ya tienen licencias similares, mientras Block y Wise no las han logrado. Coinbase se presenta como el mayor custodio cripto del mundo y se ha aliado con Citigroup para convertir stablecoins en divisas.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2310531/coinbase-receives-approval-to-become-a-chartered-trust-bank/",
-      "fecha": "09-11-2026 14:40"
-    },
-    {
-      "titulo": "El Gobierno amenaza con cerrar TikTok en España y el PP propone vetar las redes a menores de 14",
-      "resumen": "La ministra Sira Riego pidió a la Fiscalía investigar a TikTok tras una investigación de Maldita.es de 35 días que halló 1.183 vídeos de abuso sexual infantil con 48 millones de visualizaciones. Según El País, el Gobierno estudia paralizar el servicio. El programa del PP, con elecciones el 29 de noviembre, prohibiría las redes a menores de 14 y exigiría autorización paterna entre 14 y 16.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes-sociales/pp-prohibir-redes-sociales-menores-14/",
-      "fecha": "09-11-2026 10:30"
-    },
-    {
-      "titulo": "Moteros y amantes de los insectos se alían contra un nuevo centro de datos de Google en Reino Unido",
-      "resumen": "Una petición con casi 55.000 firmas pide a Google abandonar su campus de datos en Thurrock, a 24 km de Londres. Buglife teme por la destrucción del hábitat de una planta y un abejorro en peligro, Foxglove cifra hasta 570.000 toneladas de emisiones anuales y el club Thurrock Hammers quiere recuperar el circuito. De 1.000 alegaciones al ayuntamiento solo una apoyaba el proyecto; Google promete ganancia neta de biodiversidad y neutralidad de carbono en 2030.",
+      "titulo": "Waymo dijo haber arreglado su problema con autobuses escolares; el Gobierno de EEUU dice que no funcionó",
+      "resumen": "La NHTSA abre una investigación formal para comprobar si la retirada de software de Waymo, con arreglo a mediados de noviembre y retirada oficial un mes después, resolvió que sus robotaxis adelanten autobuses escolares parados. Según el organismo, la mayoría de los incidentes ocurrieron después de esa fecha, y la NTSB documentó otro en enero. Waymo asegura que no la han multado por ello desde marzo.",
       "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
-      "fecha": "09-11-2026 09:00"
+      "enlace": "https://www.wired.com/story/waymo-school-bus-problem-the-us-government-says-it-didnt-work/",
+      "fecha": "09-11-2026 23:40"
+    },
+    {
+      "titulo": "La crisis de la memoria llega a los móviles «Ultra»: el Oppo Find X10 Ultra, en pausa según una filtración",
+      "resumen": "El filtrador Digital Chat Station apunta en Weibo que un modelo Ultra de la generación actual se ha pausado por el coste de los componentes, y Android Authority lo identifica con el Oppo Find X10 Ultra, previsto para 2027 con cuatro cámaras de 200, 200, 200 y 50 megapíxeles. El Find X9 Ultra salió en abril por 1.699 euros y el Find X10 Pro Max acaba de llegar por 1.799.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/moviles/crisis-memoria-no-encarece-solo-moviles-baratos-modelos-ultra-siguientes-punto-mira",
+      "fecha": "09-11-2026 18:31"
+    },
+    {
+      "titulo": "Android Auto deja de funcionar en móviles con Android 9 y 10",
+      "resumen": "Google ha confirmado en su documentación que Android 11 es ahora la versión mínima para usar Android Auto por cable USB, lo que deja fuera a los teléfonos con Android 9 y 10, como el Galaxy S9, el Note 9 o el Xperia XZ2 Compact. Antes ya se retiró el soporte de Android 6 en 2022 y de Android 8 en 2024. Algunos usuarios afirman que la función ya ha dejado de funcionar.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-deja-funcionar-millones-moviles-google-confirma-un-cambio-que-afecta-android-9-10_7058915_0.html",
+      "fecha": "09-11-2026 21:02"
+    },
+    {
+      "titulo": "Wyndham expuso datos de clientes por una contraseña dentro de su app de Android",
+      "resumen": "El investigador Robert Wiggins, de What Security, halló una credencial en el código de la app de Wyndham que daba acceso a una base de datos en Salesforce con nombres, correos, números de socio y tokens de sesión, con millones de registros. La contraseña se revocó tras avisar TechCrunch; Wyndham dice no tener pruebas de acceso no autorizado, pero no aclara si avisará a los clientes ni cuánto tiempo estuvo expuesta.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/",
+      "fecha": "10-11-2026 00:03"
+    },
+    {
+      "titulo": "Investigadores hackean las apps Android de dos fabricantes para abrir coches a distancia",
+      "resumen": "Shubham Shah (Assetnote) y Sam Curry explotaron fallos en la plataforma de identidad ForgeRock usada por dos fabricantes, con vehículos en Australia y EEUU. Usaron credenciales de administrador de pruebas que también funcionaban en producción y, en la versión estadounidense, credenciales por defecto de la consola de Apache Felix para obtener shell. Así pudieron arrancar motores, encender luces y tocar el claxon.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/09/researchers-pwn-automakers-android-apps-to-remotely-unlock-cars-honk-horns/5308483",
+      "fecha": "09-11-2026 18:31"
     }
   ],
   "titulares": [
     {
-      "titulo": "El radar militar puede hacer que tu router cambie de canal Wi-Fi: por qué ocurre",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2307712/military-radar-makes-your-router-change-wifi-channels/",
-      "fecha": "09-11-2026"
+      "titulo": "El escándalo de espionaje que rodea al CEO de Nvidia acaba de dar otro giro: Trump dice que el FBI ya lo investiga",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/escandalo-espionaje-que-rodea-al-ceo-nvidia-acaba-dar-otro-giro-trump-dice-que-fbi-investiga",
+      "fecha": "10-11-2026"
     },
     {
-      "titulo": "Drops, la nueva app de música que recupera el placer de compartir canciones con amigos",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/09/meet-drops-the-new-music-app-bringing-back-the-fun-of-sharing-songs-with-friends/",
-      "fecha": "09-11-2026"
+      "titulo": "Samsung prepara una revolución en sus Galaxy más baratos: la pantalla se verá mejor que nunca",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/samsung-oled-galaxy-baratos-fin-lcd/",
+      "fecha": "10-11-2026"
     },
     {
-      "titulo": "Tesla amplía su servicio de robotaxis a San Antonio",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/09/tesla-expands-robotaxi-service-to-san-antonio/",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "Un fallo en el portal de la principal universidad de Alemania expone la contraseña de todos sus usuarios",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/cyber-crime/2026/11/09/portal-breach-at-germanys-top-university-exposes-every-registered-users-password/5308380",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "El nuevo Congreso demócrata probablemente recortará el Golden Dome de Trump",
+      "titulo": "Un hombre que perdió 308.000 dólares en apuestas deportivas demanda a Kalshi por ofrecer juego ilegal",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling/",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "Las elecciones de medio mandato, buena señal para el movimiento por el derecho a reparar",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/the-midterms-were-a-pretty-good-sign-for-right-to-repair/",
+      "titulo": "Una parodia de Sam Altman ofrece una lección divertida sobre gestión de memoria",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/a-sam-altman-parody-offers-an-amusing-lesson-in-memory-management/",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "El DHS ha usado 185.000 veces una polémica herramienta de investigación desde que Trump asumió el cargo",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/dhs-has-used-this-controversial-investigative-tool-185000-times-since-trump-took-office/",
+      "titulo": "Los datos de streaming de YouTube vuelven a las listas Billboard y ponen fin a una gran disputa",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/youtube-streaming-data-returns-to-billboard-charts-ending-major-disagreement/",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "La escasez de memoria hace que el hardware reacondicionado parezca mucho menos de segunda mano",
+      "titulo": "El Pentágono estudia poner una flota de satélites militares alrededor de la Luna",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Uber lanza un servicio de aparcamiento tras comprar SpotHero, con los robotaxis en el punto de mira",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "La NASA cumple su PROMISE de despiezar bancos de pruebas de Marte para aprovechar piezas",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/on-prem/2026/11/09/memory-crunch-makes-refurbished-kit-look-a-lot-less-secondhand/5307758",
+      "enlace": "https://www.theregister.com/science/2026/11/09/nasa-keeps-its-promise-to-raid-mars-testbeds-for-parts/5308475",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "Un error de un desarrollador dejó inservibles 600 PC y provocó una baja de 1 millón de dólares en CD-ROM",
+      "titulo": "SpaceX ya es «fundamentalmente una empresa de infraestructuras», según un alto cargo",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/",
+      "fecha": "09-11-2026"
+    },
+    {
+      "titulo": "Azure Linux de Microsoft recibe más de 470 correcciones de seguridad en una sola sesión de parcheo",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/software/2026/11/09/dev-error-bricked-600-pcs-caused-1m-cd-rom-write-off/5308039",
+      "enlace": "https://www.theregister.com/security/2026/11/09/microsofts-azure-linux-gets-470-plus-security-fixes-in-one-almighty-patching-session/5308434",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "Científicos podrían haber descubierto una enorme galaxia sin estrellas",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/scientists-discover-massive-starless-galaxy/",
+      "titulo": "Who Gives A Crap: expuestos los datos de clientes del fabricante de papel higiénico",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/09/who-gives-a-crap-hackers-apparently-after-toilet-paper-makers-customer-data-exposed/5308419",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "La máquina de escribir sin distracciones de Pomera es elegante, pero demasiado pequeña",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/gadgets/1029603/pomeras-dm25us-distraction-free-writing-review",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "Un nuevo fármaco experimental para adelgazar se ha visto que también ayuda a aliviar el dolor de las rodillas con artrosis",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/nuevo-farmaco-experimental-para-adelgazar-se-ha-visto-que-tambien-ayuda-a-aliviar-dolor-rodillas-artrosis",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "Windows 11 incluye una herramienta de seguridad que muchos ignoran y puede salvar tu ordenador",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/seguridad/smart-app-control-windows-11-funcion-seguridad/",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "Viajar con DIGI: estos son los 33 países con 5G en roaming y los 23 con llamadas VoLTE",
+      "titulo": "O2 revela la verdad sobre tu fibra: esta es la velocidad media que tendrás en casa en función de tu tarifa",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/digi-paises-5g-volte-roaming/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-velocidad-maxima-real-fibra-condiciones/",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "Jeroen Derks, especialista en ciberseguridad, desvela su truco para evitar el phishing con \"un cambio en la forma en que la aplicación de correo muestra un enlace\"",
+      "titulo": "Xbox rediseña la experiencia en PC y Cloud Gaming: todas las novedades",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/jeroen-derks-especialista-ciberseguridad-desvela-su-truco-para-evitar-phishing-con-un-cambio-forma-que-aplicacion-correo-muestra-un-enlace_7054746_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/xbox-redisena-experiencia-pc-cloud-gaming-todas-las-novedades_7058833_0.html",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "Ucrania está fabricando ataúdes de acero para sus soldados, y están diseñados para mantenerlos vivos en el frente",
+      "titulo": "Los ciberataques a frigoríficos de supermercados europeos dieron la vuelta al mundo. Francia acaba de señalar a un responsable",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/ucrania-esta-fabricando-ataudes-acero-para-sus-soldados-estan-disenados-para-mantenerlos-vivos-frente",
+      "enlace": "https://www.xataka.com/seguridad/ciberataques-a-frigorificos-supermercados-europeos-dieron-vuelta-al-mundo-francia-acaba-senalar-a-responsable",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "El truco de Steam para tener todos tus juegos en un mismo sitio aunque vengan de otras tiendas",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/guias/anadir-juegos-steam-biblioteca-otras-tiendas-lanzadores/",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "La infidelidad del CEO de Nvidia le cuesta a la compañía más de 200.000 millones",
+      "titulo": "Link Aggregation o LACP: por qué dos cables Ethernet no siempre significan el doble de velocidad",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/fintech/nvidia-jensen-huang-infidelidad-caida-bolsa/",
+      "enlace": "https://www.adslzone.net/noticias/redes/link-aggregation-lacp-dos-cables-no-duplican-velocidad/",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "Quería montar un PC barato y termina quemándolo por completo: el error que nunca debes cometer",
+      "titulo": "Escándalo en Nvidia: el consejo investiga a su CEO tras confesar una infidelidad en un caso de espionaje",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/queria-montar-un-pc-barato-termina-quemandolo-por-completo-error-que-nunca-debes-cometer_7057746_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/escandalo-nvidia-consejo-investiga-su-ceo-tras-confesar-una-infidelidad-un-caso-espionaje_7058834_0.html",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "Black Friday anticipado en El Corte Inglés: estos auriculares gaming de Sony cuestan ahora 99 euros",
+      "titulo": "Lidl está agotando la freidora de aire Moulinex original que llega a tiendas hoy, pero aquí la hemos encontrado incluso más barata",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/black-friday-anticipado-corte-ingles-estos-auriculares-gaming-sony-cuestan-ahora-99-euros",
+      "enlace": "https://www.xataka.com/seleccion/lidl-esta-agotando-freidora-aire-moulinex-original-que-llega-a-tiendas-hoy-aqui-hemos-encontrado-incluso-barata",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "Ya no te perderás en tus entrenamientos: la última actualización del Fénix corrige este molesto problema",
+      "titulo": "Tu televisor sigue gastando luz aunque lo apagues: así afecta a tu factura",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-fenix-beta-24-16-alertas-giro/",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/televisor-nunca-apagado-consumo-luz/",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "Ponen a seis robots humanoides a trabajar durante 24 horas y despiden a dos por incompetentes",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/ponen-seis-robots-humanoides-trabajar-durante-24-horas-despiden-dos-por-incompetentes_7057211_0.html",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "El corazón no solo necesita que duermas entre siete y ocho horas: también importa cuándo te acuestas",
+      "titulo": "Sudamérica está viviendo un boom de turistas europeos y hay un sospechoso claro: la guerra de Irán",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/corazon-no-solo-necesita-que-duermas-siete-ocho-horas-tambien-importa-cuando-te-acuestas",
+      "enlace": "https://www.xataka.com/magnet/sudamerica-esta-viviendo-boom-turistas-europeos-hay-sospechoso-claro-guerra-iran",
       "fecha": "09-11-2026"
     },
     {
-      "titulo": "España dará hasta 7.600 euros a familias que regresen del extranjero",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/fintech/ayuda-7600-euros-regreso-espana-extranjero/",
-      "fecha": "09-11-2026"
-    },
-    {
-      "titulo": "España dice adiós a los enchufes tradicionales, llegan los enchufes modulares que se pueden instalar en cualquier lugar de la casa sin obras",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/enchufes-modulares-sin-obras-instalacion-rapida-alternativa-moderna-enchufes-tradicionales-1487216-1_6660877_0.html",
+      "titulo": "Un asteroide de 11 metros se mueve como si alguien lo empujara y los científicos acaban de descartar la explicación más obvia",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/asteroide-11-metros-se-mueve-como-alguien-empujara-cientificos-acaban-descartar-explicacion-obvia",
       "fecha": "09-11-2026"
     }
   ]
