@@ -1,214 +1,214 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "11-11-2026 03:11",
+  "actualizado": "11-11-2026 15:15",
   "destacadas": [
     {
-      "titulo": "Accionistas de Nvidia demandan a la compañía y a Jensen Huang por ocultar su relación con Alice Huang",
-      "resumen": "Mark Kistenmacher, accionista de Nvidia, ha presentado una demanda que busca convertir en colectiva para quienes compraron acciones entre el 9 de octubre y el 8 de noviembre. Sostiene que la empresa y Huang engañaron a los inversores sobre su relación con Alice Huang, exejecutiva de Megaspeed y sospechosa de ser un activo de espionaje chino, tras una declaración de la compañía que la calificaba de «no inusual». La acción llegó a rozar una pérdida de más de 470.000 millones de dólares en valor de mercado en dos días.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2312947/nvidia-shareholders-are-suing-the-company-and-ceo-jensen-huang/",
-      "fecha": "11-11-2026 00:42"
+      "titulo": "La UE propone la Ley de Equidad Digital: prohíbe los «dark patterns» y las funciones adictivas como las rachas de Duolingo",
+      "resumen": "La Comisión Europea ha presentado la Digital Fairness Act, que prohíbe los «dark patterns», limita los precios dinámicos de entradas como los de Ticketmaster, obliga a los influencers a declarar los contenidos pagados y facilita cancelar suscripciones. También permitirá desactivar funciones adictivas como el autoplay o las rachas de apps como Strava y Duolingo. El comisario Michael McGrath la define como la mayor reforma de protección del consumidor de la UE en más de 20 años.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/duolingo-strava-and-ticketmaster-are-all-caught-up-in-eus-new-digital-fairness-rules/",
+      "fecha": "11-11-2026 14:36"
     },
     {
-      "titulo": "El Patch Tuesday de noviembre corrige 1.094 fallos de Microsoft, con un solo zero-day en Outlook",
-      "resumen": "Microsoft ha parcheado 1.094 vulnerabilidades, tras las 1.474 de octubre. La única explotada activamente es CVE-2026-124194, un fallo de suplantación en Outlook (CVSS 6,5) que permite robar el hash NTLMv2 del usuario con un mensaje manipulado. Hay además tres críticas de CVSS 9,8 sin interacción del usuario, en la búsqueda de Windows vía Exchange, en LDAP y en el servicio de red de Xbox Live, y ZDI cuenta 30 CVE con riesgo de propagación tipo gusano.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/10/november-patch-tuesday-boasts-over-1000-bugs-but-only-one-zero-day-so-far/5308946",
-      "fecha": "10-11-2026 23:37"
+      "titulo": "Microsoft promete hasta un 40 % más de velocidad en Windows 11 con solo 8 GB de RAM",
+      "resumen": "Pavan Davuluri, jefe de Windows, afirma que una compresión de memoria ajustada permite conservar hasta 2 GB más de datos activos en RAM, y que el panel de Widgets libera más de 200 MB y Office reduce su consumo hasta 360 MB. El 40 % sale de una sola demostración en un HP OmniBook 3 con Snapdragon X Plus y 8 GB, que Microsoft aclara que no es un benchmark.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ordenadores/microsoft-promete-40-velocidad-windows-11-solo-8-gb-ram",
+      "fecha": "11-11-2026 14:31"
     },
     {
-      "titulo": "N-able desconecta su servicio de acceso remoto N-Central tras publicar un investigador decenas de zero-days",
-      "resumen": "N-able ha dejado fuera de servicio N-Central, su acceso remoto en la nube, y ha pedido a los clientes autoalojados que apaguen sus servidores. El investigador Ben Bales publicó en GitHub más de 30 fallos de día cero, bautizados Able2Shell, que permiten robar credenciales, crear administradores y obtener root. Bales dice que lo hizo porque N-able no parcheó defectos que había reportado en otro producto; la empresa afirma no tener evidencia de explotación en clientes.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs/",
-      "fecha": "10-11-2026 16:45"
-    },
-    {
-      "titulo": "Starlink Mini 2 es oficial: batería intercambiable, Wi-Fi 6 y conexión en unos 60 segundos",
-      "resumen": "La nueva antena portátil de Starlink tiene batería intercambiable con hasta 4,5 horas de autonomía, Wi-Fi 6 con cobertura de unos 167 m² (frente a 111 m²) y certificación IP67. Se alimenta por USB-C de 60 W, no tiene puerto Ethernet y cuesta 999 dólares en EE UU con roaming ilimitado; el plan parte de 45 euros al mes. De momento solo se reserva por invitación, empezando por Estados Unidos.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/tecnologia/starlink-mini-2-bateria-integrada-wifi-6/",
-      "fecha": "11-11-2026 01:02"
-    },
-    {
-      "titulo": "Pixel Tag, el rastreador de Google de 30 dólares para Android, ya está a la venta",
-      "resumen": "El Pixel Tag cuesta 29,99 dólares (99,99 el pack de cuatro) y se vende en Google Store. Usa Bluetooth, UWB y NFC, tiene botón para hacer sonar el teléfono, altavoz de hasta unos 80 dB, pila CR2032 sustituible de hasta un año e IP67. Funciona con Find Hub, con la red de más de mil millones de dispositivos Android, y requiere Android 9 o posterior.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/pixel-tag-googles-30-android-ready-answer-to-apples-airtag-is-now-available/",
-      "fecha": "10-11-2026 19:49"
-    },
-    {
-      "titulo": "Barracuda confirma ataques contra sus pasarelas de correo mediante dos fallos que dan acceso root",
-      "resumen": "CVE-2026-116606 (CVSS 9,3, salto de autorización) y CVE-2026-111560 (CVSS 8,6, inyección de comandos) afectan a Email Security Gateway y a otros productos de Barracuda; encadenadas dan acceso root. La empresa confirmó explotación contra «un pequeño número de organizaciones», cuando su aviso del 2 de noviembre no lo indicaba. Ya hay parches y se recomienda no exponer a Internet la interfaz de administración.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/10/barracudas-email-security-gateways-bitten-by-make-me-root-vulns/5308883",
-      "fecha": "10-11-2026 19:51"
-    },
-    {
-      "titulo": "Microsoft lanza Auto SR, su rival de DLSS, para la Xbox Ally X y funciona en modo portátil",
-      "resumen": "Automatic Super Resolution llega a las Xbox Ally X, Xbox Ally X20 y algunos PC Copilot+. Frente a la prueba de abril, que solo funcionaba con la consola acoplada, ahora lo hace en modo portátil con batería y con juegos a 1080p, aunque Microsoft admite que el rendimiento puede ser menos óptimo. Un nuevo modo Performance permitirá llegar a 120 fps, frente al límite anterior de 60-75, y habrá compatibilidad con Auto HDR mediante actualizaciones de Windows.",
+      "titulo": "The Verge pregunta a todos los fabricantes de televisores cómo recopilan datos de sus usuarios",
+      "resumen": "Tras un mes de espera, The Verge publica las respuestas a 17 preguntas de sí o no sobre ACR, audio grabado y datos enviados a la nube. Han contestado los tres mayores fabricantes y todas las grandes marcas de streaming; Hisense ignoró los correos y otras empresas declinaron. El reportaje recuerda que el ACR suele poder desactivarse aunque se haya aceptado en la configuración inicial.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
-      "fecha": "11-11-2026 01:34"
+      "enlace": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+      "fecha": "11-11-2026 14:00"
     },
     {
-      "titulo": "Samsung patenta un sistema para estimar la grasa abdominal con radar UWB e impedancia",
-      "resumen": "La patente US-12778503-B2 describe estimar la grasa subcutánea y visceral sin pruebas clínicas, combinando radar de banda ultraancha con la bioimpedancia que ya usan los relojes Samsung, más edad, sexo, estatura y peso. No menciona el Galaxy Watch por su nombre, aunque sería el candidato natural. Es solo una estimación aproximada y una patente no garantiza que llegue a ningún modelo.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/samsung-galaxy-watch-medir-grasa-abdominal-patente/",
-      "fecha": "10-11-2026 22:35"
+      "titulo": "Apple cerrará su foro Apple Support Community el 20 de noviembre",
+      "resumen": "El foro, que nació en 1998 como Apple Tech Exchange, ya está en modo solo lectura y no admite mensajes nuevos. Apple dirige a los usuarios a su sitio oficial de soporte y no ha aclarado qué pasará con las publicaciones acumuladas durante décadas. La compañía dice que lo cierra tras evaluar su estrategia y las necesidades de los clientes.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
+      "fecha": "11-11-2026 13:19"
+    },
+    {
+      "titulo": "Apple lanza iOS 27.2.1 con correcciones de seguridad para iMessage, Bluetooth y AirPlay",
+      "resumen": "La actualización llega dos semanas después de iOS 27.2 y corrige un fallo que permitía a un atacante remoto unirse a un grupo de iMessage y leer los mensajes, además de otro que dejaba ver mensajes anteriores a un nuevo miembro. También arregla errores de Bluetooth y AirPlay. Está disponible para el iPhone 11 y posteriores.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/apple-lanza-ios-27-2-1-para-corregir-fallos-seguridad-que-podrian-dejar-expuestos-tus-mensajes-privados_7059701_0.html",
+      "fecha": "11-11-2026 12:15"
+    },
+    {
+      "titulo": "Seagate presenta el FireCuda Forge, un disco externo híbrido de hasta 20 TB con ranura para tu propio SSD",
+      "resumen": "Combina un HDD de 8 o 20 TB con un SSD M.2 NVMe de hasta 1 TB que se compra aparte, y la plataforma Alkemi mueve los archivos más usados al SSD con aprendizaje automático. Seagate promete hasta 2.500 MB/s de lectura y 2.000 MB/s de escritura por USB4. Cuesta 863,99 euros (8 TB) y 1.085,99 euros (20 TB), sin SSD.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/componentes/seagate-firecuda-forge-ficha-tecnica-caracteristicas-fotos-precio-fecha",
+      "fecha": "11-11-2026 12:45"
+    },
+    {
+      "titulo": "LinkedIn prueba una función que avisa de quién visita tu perfil varias veces",
+      "resumen": "La función, llamada «Frequent Viewer», marca en la lista de visitas a los usuarios con LinkedIn Premium que han consultado su perfil repetidamente. LinkedIn ha confirmado la prueba sin dar más detalles. Una usuaria que la tiene activa la apodó «alerta de acosadores» y asegura que le sirve para detectar contactos de negocio interesantes.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/linkedin-is-testing-a-feature-that-lets-you-see-your-profile-stalkers/",
+      "fecha": "11-11-2026 11:00"
+    },
+    {
+      "titulo": "AMD asegura que con Mext se logra el 99 % del rendimiento con la mitad de DRAM en servidores Epyc",
+      "resumen": "AMD compró la tecnología de Mext en junio: usa IA para mover páginas de memoria poco usadas a SSD NVMe y traerlas de vuelta antes de que se necesiten. Según Gary Smerdon, podría recortar hasta un 83 % el coste de un servidor, y en los 145 sistemas desplegados ya se habrían evitado 5 millones de dólares en DRAM.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/11/11/amd-where-were-going-we-dont-need-as-much-dram/5308953",
+      "fecha": "11-11-2026 10:59"
     }
   ],
   "titulares": [
     {
-      "titulo": "X lanza su propia función de clips para impulsar la interacción de los influencers",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement/",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "iFixit desmonta el MacBook y explica cómo funciona el logo luminoso PROLED de Apple",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works/",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "Cómo SCSKiller intenta corregir los tirones por compilación de shaders en los juegos de PC",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2307815/scskiller-fix-shader-stuttering-pc-games/",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "Estos móviles de Xiaomi dejan de recibir soporte con la actualización a HyperOS 4",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update/",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "La app de Disney+ para Meta Quest ya incluye películas en 3D",
+      "titulo": "El streaming sigue intentando ser TikTok",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.theverge.com/streaming/1030864/streaming-skydance-paramount-disney-hulu-earnings-tiktok-short-form-video",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Un desarrollador propone «cegar» a los agentes de IA para impedir la ingeniería inversa",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/10/to-thwart-reverse-engineering-by-agents-dev-proposes-blinding-them/5308897",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "La app PlayStation Plus para PC dejará de funcionar el mes que viene",
+      "titulo": "No a todos les gusta su nuevo iPhone Duo",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/games/1031144/sony-playstation-plus-windows-pc-app-shutting-down",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.theverge.com/tech/1030398/iphone-duo-returns-screen-apps",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Google Fi añade una segunda red 5G sin decir cuál es",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/google/2026/11/google-fi-adds-support-for-a-second-5g-network-wont-say-which-one/",
-      "fecha": "10-11-2026"
+      "titulo": "Serve Robotics abre una API para desarrolladores de robots de reparto en aceras",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/transportation/1030902/serve-robotics-open-developer-api-sidewalk-delivery",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "El rendimiento de Steam Deck se pone a prueba con los nuevos datos de FPS de Valve",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gaming/2026/11/steam-deck-performance-gets-a-reality-check-with-valves-new-fps-data/",
-      "fecha": "10-11-2026"
+      "titulo": "Exclusiva: la cámara de tu móvil podría recibir una gran mejora con esta tecnología",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/your-smartphone-camera-could-get-a-big-upgrade-with-this-tech/",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "AMD acelera los núcleos Zen 6 para lograr frecuencias más altas",
+      "titulo": "Linux se suma a la flota de pantallas informativas averiadas de Heathrow",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/systems/2026/11/10/amd-winds-up-zen-6-cores-for-faster-clock-speeds/5308603",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.theregister.com/offbeat/2026/11/11/linux-joins-heathrows-grounded-fleet-of-information-screens/5308738",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Trump nombra al jefe de seguridad de Palantir para dirigir la maltrecha agencia de ciberdefensa de EE UU",
+      "titulo": "El CEO de Lucid dice que la empresa no sabía dónde estaban sus propios coches",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2313113/lucid-q3-2026-losing-cars/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "La apuesta tecnológica «compra británico» choca con la realidad: menos de 1 de cada 6 libras se queda en casa",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/10/trump-taps-palantir-security-chief-to-run-battered-us-cyber-defense-agency/5308763",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.theregister.com/public-sector/2026/11/11/uks-buy-british-tech-ambitions-hit-reality-as-less-than-1-in-6-stays-at-home/5308814",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Apple TV integra la interpretación en lengua de signos como función de accesibilidad",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/apple-tv-makes-sign-language-interpretation-a-built-in-accessibility-feature/",
-      "fecha": "10-11-2026"
+      "titulo": "Samsung Gallery ahora sincroniza con Google para copiar tus fotos",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2313059/samsung-gallery-syncs-with-google/",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "España llega tarde al DAB+ pero llega: el estándar digital de radio que Europa lleva usando una década empieza su despliegue",
+      "titulo": "Un vecino de Salamanca se puso a lanzar bolas de papel mojado desde un sexto piso. Ahora se enfrenta a una multa publicada en el BOE",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/servicios/espana-llega-tarde-al-dab-llega-estandar-digital-radio-que-europa-lleva-usando-decada-empieza-su-despliegue",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.xataka.com/magnet/vecino-salamanca-se-puso-a-lanzar-bolas-papel-mojado-sexto-piso-ahora-se-enfrenta-a-multa-publicada-boe",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "No todo es ‘GTA 6’: ‘GTA V’ y ‘Red Dead Redemption 2’ también llegarán a Xbox Cloud Gaming",
+      "titulo": "La PS5 entra al club de los 100 millones, aunque el trono de la PS2 sigue inalcanzable",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/gta-v-y-red-dead-redemption-llegaran-xbox-cloud-gaming/",
-      "fecha": "10-11-2026"
+      "enlace": "https://hipertextual.com/videojuegos/ps5-100-millones-unidades-enviadas/",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Tienes 2 días para no perder los gigas acumulados en Digi: lo que muchos clientes no saben",
+      "titulo": "Nulo seguimiento de la huelga en Movistar, Orange, Vodafone o Digi",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/no-perder-gigas-acumulados-digi/",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/operadores/nulo-seguimiento-huelga-movistar-orange-vodafone-digi/",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Si cargas tu móvil por la noche, esto te interesa: nunca lo hagas sin activar esta función si no quieres arruinar la batería",
+      "titulo": "Nintendo bloquea los avances del jailbreak de Nintendo Switch y la emulación de sus juegos en PC con su última actualización 23.5.0",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/si-cargas-tu-movil-por-noche-esto-te-interesa-nunca-hagas-sin-activar-esta-funcion-si-no-quieres-arruinar-bateria_7059257_0.html",
-      "fecha": "10-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/gaming/nintendo-bloquea-los-avances-jailbreak-nintendo-switch-emulacion-sus-juegos-pc-con-su-ultima-actualizacion-23-5-0_7059667_0.html",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Madrid se está convirtiendo en el nuevo Los Ángeles y por el camino se ha quedado con sus atascos permanentes",
+      "titulo": "Solo hoy puedes llevarte (en el Single Day de MediaMarkt) esta PS Portal por apenas 180 euros",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/madrid-se-esta-convirtiendo-nuevo-angeles-camino-se-ha-quedado-sus-atascos-permanentes",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.xataka.com/seleccion/solo-hoy-puedes-llevarte-single-day-mediamarkt-esta-ps-portal-apenas-180-euros",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Meta lanza una actualización urgente para sus gafas inteligentes: si tienes este modelo, descárgala cuanto antes",
+      "titulo": "Estos son los tres portátiles que elegiría en este Black Friday",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/tecnologia/meta-actualizacion-urgente-gafas-sobrecalentamiento/",
-      "fecha": "10-11-2026"
+      "enlace": "https://hipertextual.com/ofertas-descuentos/tres-portatiles-pccomponentes/",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Todos los ganadores de los Premios ADSLZone 2026",
+      "titulo": "O2 no solo te ofrece roaming gratis en la UE: hay seis países más en los que podrás navegar sin pagar nada",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/premios-adslzone-2026/",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-roaming-seis-paises-fuera-ue/",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Shawn Layden, expresidente de PlayStation Studios: \"La innovación no es fabricar un PlayStation 6 por más de 1.000 euros, sino en crear otra PlayStation 5 por 250 euros\"",
+      "titulo": "Nuevos iPhone en 2027: Apple prepara hasta 6 nuevos modelos para el próximo año y ya se han filtrado muchos detalles",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/gaming/shawn-layden-expresidente-playstation-studios-innovacion-no-es-fabricar-un-playstation-6-por-mas-1-000-euros-sino-crear-otra-playstation-5-por-250-euros_7059252_0.html",
-      "fecha": "10-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/nuevos-iphone-2027-apple-prepara-hasta-6-nuevos-modelos-para-proximo-ano-ya-se-han-filtrado-muchos-detalles_7059588_0.html",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "La fusión de Warner y Paramount sigue haciendo rodar cabezas: James Gunn sale de DC y su proyecto de universo se desmorona",
+      "titulo": "Los cinco chollos de Xiaomi en el 11.11 de AliExpress que merecen la pena: smart TVs, móviles y más",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/cine-y-tv/fusion-warner-paramount-sigue-haciendo-rodar-cabezas-james-gunn-sale-dc-su-proyecto-universo-se-desmorona",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.xataka.com/seleccion/cinco-chollos-xiaomi-11-11-aliexpress-que-merecen-pena-smart-tvs-moviles",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "‘GTA 6’ estará en Xbox Cloud Gaming desde el primer día: gran noticia si tienes una Xbox One, pero no si usas un PC",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/gta-6-estara-en-xbox-cloud-gaming-desde-el-primer-dia/",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "La nube de Movistar no solo te sale gratis, ahora esconde una función que mejorará los vídeos que guardas",
+      "titulo": "Lenovo Yoga Pro 9i Aura Edition: así es el mejor portátil del año para productividad y diseño",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/nube-movistar-nuevo-editor-videos/",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/marcas/lenovo-yoga-pro-9i-aura-edition-potencia-intel-graficos/",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Creían que el mayor enemigo de los televisores OLED era el quemado de la pantalla, pero han descubierto algo todavía más extraño",
+      "titulo": "Apple echa el cierre a uno de sus servicios más veteranos: desaparecerá después de casi 30 años",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/creian-que-mayor-enemigo-los-televisores-oled-era-quemado-pantalla-pero-han-descubierto-algo-todavia-mas-extrano_7059384_0.html",
-      "fecha": "10-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/apple-echa-cierre-uno-sus-servicios-mas-veteranos-desaparecera-despues-casi-30-anos_7059600_0.html",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Nuevo tráiler de ‘GTA VI’ y ya sabemos lo que significa eso de “mejor en PS5” y cómo poder jugar en Xbox One",
+      "titulo": "Los buitres mantienen en su interior bacterias propias de cada especie a pesar de que se alimentan de carroña",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/nuevo-trailer-gta-vi-sabemos-que-significa-eso-mejor-ps5-como-poder-jugar-xbox-one",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/buitres-mantienen-su-interior-bacterias-propias-cada-especie-a-pesar-que-se-alimentan-carrona",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Barcelona abre un mercado de Navidad de 10.000 metros cuadrados: pista de hielo gigante, noria, tren y atracciones con entradas ya disponibles",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/mercado-navidad-barcelona-nadal-westfield/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Ahora entiendo mejor por qué un televisor muestra grises en vez de negros o el color salmón en lugar del rojo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/ahora-entiendo-mejor-por-que-un-televisor-muestra-grises-vez-negros-color-salmon-lugar-rojo_7058341_0.html",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Ya es oficial: el nuevo router Mini 2 de Starlink ahora promete WiFi vía satélite sin estar conectado a la corriente",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/servicios/oficial-nuevo-router-mini-2-starlink-ahora-promete-wifi-via-satelite-estar-conectado-a-corriente",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Garmin confirma un bombazo: podrás llevar Waze gratis en todos estos relojes",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-waze-relojes-avisos-ciclistas/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Tom Boger (Apple), sobre el MacBook Pro PROLED XDR: \"Hemos querido trasladar la experiencia táctil de otros dispositivos al ordenador, pero adaptándola para que encaje\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/tom-boger-apple-sobre-macbook-pro-proled-xdr-hemos-querido-trasladar-experiencia-tactil-otros-dispositivos-ordenador-pero-adaptandola-para-que-encaje_7059243_0.html",
+      "fecha": "11-11-2026"
     }
   ]
 }
