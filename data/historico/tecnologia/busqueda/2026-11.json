@@ -3,6 +3,237 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "Accionistas de Nvidia demandan a la compañía y a Jensen Huang por ocultar su relación con Alice Huang",
+      "fuente": "Engadget",
+      "fecha": "11-11-2026 00:42",
+      "enlace": "https://www.engadget.com/2312947/nvidia-shareholders-are-suing-the-company-and-ceo-jensen-huang/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "El Patch Tuesday de noviembre corrige 1.094 fallos de Microsoft, con un solo zero-day en Outlook",
+      "fuente": "The Register",
+      "fecha": "10-11-2026 23:37",
+      "enlace": "https://www.theregister.com/security/2026/11/10/november-patch-tuesday-boasts-over-1000-bugs-but-only-one-zero-day-so-far/5308946",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "N-able desconecta su servicio de acceso remoto N-Central tras publicar un investigador decenas de zero-days",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026 16:45",
+      "enlace": "https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Starlink Mini 2 es oficial: batería intercambiable, Wi-Fi 6 y conexión en unos 60 segundos",
+      "fuente": "Hipertextual",
+      "fecha": "11-11-2026 01:02",
+      "enlace": "https://hipertextual.com/tecnologia/starlink-mini-2-bateria-integrada-wifi-6/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Pixel Tag, el rastreador de Google de 30 dólares para Android, ya está a la venta",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026 19:49",
+      "enlace": "https://techcrunch.com/2026/11/10/pixel-tag-googles-30-android-ready-answer-to-apples-airtag-is-now-available/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Barracuda confirma ataques contra sus pasarelas de correo mediante dos fallos que dan acceso root",
+      "fuente": "The Register",
+      "fecha": "10-11-2026 19:51",
+      "enlace": "https://www.theregister.com/security/2026/11/10/barracudas-email-security-gateways-bitten-by-make-me-root-vulns/5308883",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Microsoft lanza Auto SR, su rival de DLSS, para la Xbox Ally X y funciona en modo portátil",
+      "fuente": "The Verge",
+      "fecha": "11-11-2026 01:34",
+      "enlace": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Samsung patenta un sistema para estimar la grasa abdominal con radar UWB e impedancia",
+      "fuente": "Hipertextual",
+      "fecha": "10-11-2026 22:35",
+      "enlace": "https://hipertextual.com/mobile/samsung-galaxy-watch-medir-grasa-abdominal-patente/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "X lanza su propia función de clips para impulsar la interacción de los influencers",
+      "fuente": "TechCrunch",
+      "fecha": "11-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "iFixit desmonta el MacBook y explica cómo funciona el logo luminoso PROLED de Apple",
+      "fuente": "Engadget",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Cómo SCSKiller intenta corregir los tirones por compilación de shaders en los juegos de PC",
+      "fuente": "Engadget",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.engadget.com/2307815/scskiller-fix-shader-stuttering-pc-games/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Estos móviles de Xiaomi dejan de recibir soporte con la actualización a HyperOS 4",
+      "fuente": "Engadget",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "La app de Disney+ para Meta Quest ya incluye películas en 3D",
+      "fuente": "The Verge",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Un desarrollador propone «cegar» a los agentes de IA para impedir la ingeniería inversa",
+      "fuente": "The Register",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/10/to-thwart-reverse-engineering-by-agents-dev-proposes-blinding-them/5308897",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "La app PlayStation Plus para PC dejará de funcionar el mes que viene",
+      "fuente": "The Verge",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.theverge.com/games/1031144/sony-playstation-plus-windows-pc-app-shutting-down",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Google Fi añade una segunda red 5G sin decir cuál es",
+      "fuente": "Ars Technica",
+      "fecha": "10-11-2026",
+      "enlace": "https://arstechnica.com/google/2026/11/google-fi-adds-support-for-a-second-5g-network-wont-say-which-one/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "El rendimiento de Steam Deck se pone a prueba con los nuevos datos de FPS de Valve",
+      "fuente": "Ars Technica",
+      "fecha": "10-11-2026",
+      "enlace": "https://arstechnica.com/gaming/2026/11/steam-deck-performance-gets-a-reality-check-with-valves-new-fps-data/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "AMD acelera los núcleos Zen 6 para lograr frecuencias más altas",
+      "fuente": "The Register",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.theregister.com/systems/2026/11/10/amd-winds-up-zen-6-cores-for-faster-clock-speeds/5308603",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Trump nombra al jefe de seguridad de Palantir para dirigir la maltrecha agencia de ciberdefensa de EE UU",
+      "fuente": "The Register",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.theregister.com/security/2026/11/10/trump-taps-palantir-security-chief-to-run-battered-us-cyber-defense-agency/5308763",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Apple TV integra la interpretación en lengua de signos como función de accesibilidad",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/10/apple-tv-makes-sign-language-interpretation-a-built-in-accessibility-feature/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "España llega tarde al DAB+ pero llega: el estándar digital de radio que Europa lleva usando una década empieza su despliegue",
+      "fuente": "Xataka",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.xataka.com/servicios/espana-llega-tarde-al-dab-llega-estandar-digital-radio-que-europa-lleva-usando-decada-empieza-su-despliegue",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "No todo es ‘GTA 6’: ‘GTA V’ y ‘Red Dead Redemption 2’ también llegarán a Xbox Cloud Gaming",
+      "fuente": "Hipertextual",
+      "fecha": "10-11-2026",
+      "enlace": "https://hipertextual.com/videojuegos/gta-v-y-red-dead-redemption-llegaran-xbox-cloud-gaming/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Tienes 2 días para no perder los gigas acumulados en Digi: lo que muchos clientes no saben",
+      "fuente": "ADSLZone",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/no-perder-gigas-acumulados-digi/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Si cargas tu móvil por la noche, esto te interesa: nunca lo hagas sin activar esta función si no quieres arruinar la batería",
+      "fuente": "ComputerHoy",
+      "fecha": "10-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/si-cargas-tu-movil-por-noche-esto-te-interesa-nunca-hagas-sin-activar-esta-funcion-si-no-quieres-arruinar-bateria_7059257_0.html",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Madrid se está convirtiendo en el nuevo Los Ángeles y por el camino se ha quedado con sus atascos permanentes",
+      "fuente": "Xataka",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.xataka.com/movilidad/madrid-se-esta-convirtiendo-nuevo-angeles-camino-se-ha-quedado-sus-atascos-permanentes",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Meta lanza una actualización urgente para sus gafas inteligentes: si tienes este modelo, descárgala cuanto antes",
+      "fuente": "Hipertextual",
+      "fecha": "10-11-2026",
+      "enlace": "https://hipertextual.com/tecnologia/meta-actualizacion-urgente-gafas-sobrecalentamiento/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Todos los ganadores de los Premios ADSLZone 2026",
+      "fuente": "ADSLZone",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/premios-adslzone-2026/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Shawn Layden, expresidente de PlayStation Studios: \"La innovación no es fabricar un PlayStation 6 por más de 1.000 euros, sino en crear otra PlayStation 5 por 250 euros\"",
+      "fuente": "ComputerHoy",
+      "fecha": "10-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/gaming/shawn-layden-expresidente-playstation-studios-innovacion-no-es-fabricar-un-playstation-6-por-mas-1-000-euros-sino-crear-otra-playstation-5-por-250-euros_7059252_0.html",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "La fusión de Warner y Paramount sigue haciendo rodar cabezas: James Gunn sale de DC y su proyecto de universo se desmorona",
+      "fuente": "Xataka",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.xataka.com/cine-y-tv/fusion-warner-paramount-sigue-haciendo-rodar-cabezas-james-gunn-sale-dc-su-proyecto-universo-se-desmorona",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "‘GTA 6’ estará en Xbox Cloud Gaming desde el primer día: gran noticia si tienes una Xbox One, pero no si usas un PC",
+      "fuente": "Hipertextual",
+      "fecha": "10-11-2026",
+      "enlace": "https://hipertextual.com/videojuegos/gta-6-estara-en-xbox-cloud-gaming-desde-el-primer-dia/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "La nube de Movistar no solo te sale gratis, ahora esconde una función que mejorará los vídeos que guardas",
+      "fuente": "ADSLZone",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/nube-movistar-nuevo-editor-videos/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Creían que el mayor enemigo de los televisores OLED era el quemado de la pantalla, pero han descubierto algo todavía más extraño",
+      "fuente": "ComputerHoy",
+      "fecha": "10-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/creian-que-mayor-enemigo-los-televisores-oled-era-quemado-pantalla-pero-han-descubierto-algo-todavia-mas-extrano_7059384_0.html",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Nuevo tráiler de ‘GTA VI’ y ya sabemos lo que significa eso de “mejor en PS5” y cómo poder jugar en Xbox One",
+      "fuente": "Xataka",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.xataka.com/videojuegos/nuevo-trailer-gta-vi-sabemos-que-significa-eso-mejor-ps5-como-poder-jugar-xbox-one",
+      "turno": "2026-11-11_M"
+    },
+    {
       "titulo": "Google parchea el octavo zero-day de Chrome explotado en 2026, igualando todo el año pasado",
       "fuente": "The Register",
       "fecha": "10-11-2026 14:28",
