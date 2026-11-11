@@ -3,6 +3,146 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "Google lanza Gemini 4 Carbon con una función de «enjambre» de agentes",
+      "fuente": "The Verge",
+      "fecha": "10-11-2026 17:00",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Anthropic crea su propio Office con Claude y quiere cambiar tu forma de trabajar",
+      "fuente": "Hipertextual",
+      "fecha": "10-11-2026 20:23",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/anthropic-claude-office-ia-herramientas-productividad/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "La ley de seguridad de IA de Nueva York obliga a OpenAI y Anthropic a registrarse antes de 2027",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026 21:52",
+      "enlace": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "El agente de programación Grok Build expone datos confidenciales, incluidos los de SpaceXSI",
+      "fuente": "Ars Technica",
+      "fecha": "10-11-2026 22:12",
+      "enlace": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "ChatGPT estrena «Business Agents» verificados para hablar con marcas",
+      "fuente": "The Verge",
+      "fecha": "10-11-2026 19:00",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "GR00T 2 de Nvidia aprende viendo vídeos de humanos e imagina que es el robot",
+      "fuente": "The Decoder",
+      "fecha": "10-11-2026 19:41",
+      "enlace": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Fireworks AI sufre un segundo ciberataque y amplía la exposición de datos de clientes",
+      "fuente": "The Register",
+      "fecha": "10-11-2026 16:28",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/10/fireworks-ai-gets-burned-twice-as-customer-data-exposure-widens/5308722",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "OpenAI adquiere Odessia, la startup de viajes creada por el fundador de Sonder",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "¿Qué le ocurre a las matemáticas cuando la IA se convierte en un oráculo?",
+      "fuente": "Ars Technica",
+      "fecha": "10-11-2026",
+      "enlace": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Los siete fundadores de Anthropic ganarán unos 250 millones de dólares cada uno con la salida a bolsa",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Oura comprará Counsel Health, startup de atención primaria con IA, por 625 millones de dólares",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "PSI intenta hacer negocio con el descubrimiento científico impulsado por IA",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Un joven de 14 años crea una herramienta para que los agentes de IA se agrupen como un equipo",
+      "fuente": "The Register",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/10/14-year-old-creates-tool-for-ai-agents-to-band-together-like-a-team/5308841",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "La comunidad de juegos indie, en desacuerdo por la IA y Big Walk",
+      "fuente": "The Verge",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Gemini Robotics 2.5 de DeepMind acierta el 96 % clasificando piezas metálicas en un piloto de Mercedes-Benz",
+      "fuente": "The Decoder",
+      "fecha": "10-11-2026",
+      "enlace": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "eBay parece haber cerrado la puerta a los agentes de IA de terceros",
+      "fuente": "The Verge",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "El agente de IA Muse de Meta llega al Apple Watch y a Wear OS",
+      "fuente": "TechCrunch",
+      "fecha": "10-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Anthropic ha descubierto lo que mi madre ya sabía: la IA cuida mejor las cosas cuando cree que son suyas",
+      "fuente": "Xataka",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/anthropic-ha-descubierto-que-mi-madre-sabia-cuidas-mejor-cosas-cuando-crees-que-tuyas-a-su-ia-le-pasa-codigo",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Microsoft quiere pagarte por prestar la tarjeta gráfica de tu PC para entrenar a su inteligencia artificial",
+      "fuente": "ComputerHoy",
+      "fecha": "10-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/microsoft-quiere-pagarte-por-prestar-tarjeta-grafica-tu-pc-para-entrenar-su-inteligencia-artificial_7059385_0.html",
+      "turno": "2026-11-11_M"
+    },
+    {
+      "titulo": "Google tuvo el mejor modelo de IA durante trece días. Anthropic se lo quitó y la respuesta ha tardado 24 horas",
+      "fuente": "Xataka",
+      "fecha": "10-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/google-tuvo-mejor-modelo-ia-durante-trece-dias-anthropic-se-quito-respuesta-ha-tardado-24-horas",
+      "turno": "2026-11-11_M"
+    },
+    {
       "titulo": "Anthropic fija su salida a bolsa en 70-78 dólares por acción, con una valoración de 1,4 billones",
       "fuente": "TechCrunch",
       "fecha": "10-11-2026 15:01",

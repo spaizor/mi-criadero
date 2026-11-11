@@ -1,146 +1,134 @@
 {
   "seccion": "ia",
-  "actualizado": "10-11-2026 16:14",
+  "actualizado": "11-11-2026 04:09",
   "destacadas": [
     {
-      "titulo": "Anthropic fija su salida a bolsa en 70-78 dólares por acción, con una valoración de 1,4 billones",
-      "resumen": "Anthropic ofrece 825 millones de acciones Clase A en Nasdaq (ticker «ANT», previsto hacia el 19 de noviembre) para recaudar entre 57.750 y 64.350 millones de dólares, y colocará además 26.000 millones en acciones Clase N a AMD, Broadcom, Google, Micron, Microsoft, Nvidia y TSMC. Su ingreso anualizado es de 81.000 millones, pero arrastra una pérdida neta de 104.000 millones en nueve meses y compromisos de cómputo por 900.900 millones. Los siete cofundadores venderán unos 3,4 millones de acciones cada uno.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-      "fecha": "10-11-2026 15:01"
+      "titulo": "Google lanza Gemini 4 Carbon con una función de «enjambre» de agentes",
+      "resumen": "Google abre al público Gemini 4 Carbon, su modelo más potente, tras dos semanas de acceso restringido a defensores de ciberseguridad. Llega a la API de Gemini, AI Studio y a los suscriptores Ultra, con un precio introductorio de 2 dólares por millón de tokens de entrada y 10 de salida, una quinta parte de GPT-6 Astra y una cuarta de Fable 5.2, y duplicará su coste a finales de noviembre. Además estrena en Antigravity una vista previa de «swarm», que convierte un solo prompt en un equipo coordinado de agentes.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "fecha": "10-11-2026 17:00"
     },
     {
-      "titulo": "DeepMind presenta Gemini Robotics 2.5 y el banco de pruebas de seguridad abierto ASIMOV-jailbreak",
-      "resumen": "La nueva versión logra entre un 30 y un 100 % más de éxito que la anterior y es entre un 20 y un 30 % más rápida; se evaluó en más de 200 tareas, y el humanoide Apollo 2 de Apptronik ya sabe atar un lazo. En fábricas europeas de Mercedes-Benz, los Apollo 2 equiparon piezas de automoción con un 96 % de éxito, y el director Kanishka Rao admite que cerrar el 4 % restante será «un camino empinado». DeepMind publica además un banco de pruebas de seguridad de código abierto.",
+      "titulo": "Anthropic crea su propio Office con Claude y quiere cambiar tu forma de trabajar",
+      "resumen": "Anthropic presenta una suite ofimática basada en Claude, justo antes de su salida a bolsa. Incluye Claude Meetings, que se une a videollamadas de Google Meet para tomar notas, redactar planes y responder en el chat, y Claude Sheets, que genera hojas de cálculo con pestañas, fórmulas y menús desplegables a partir de una instrucción. Claude siempre se identifica como participante y no entra en reuniones con invitados externos sin permiso del administrador.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/anthropic-claude-office-ia-herramientas-productividad/",
+      "fecha": "10-11-2026 20:23"
+    },
+    {
+      "titulo": "La ley de seguridad de IA de Nueva York obliga a OpenAI y Anthropic a registrarse antes de 2027",
+      "resumen": "Nueva York abre el portal de registro de la ley RAISE, que exige a los desarrolladores de IA de frontera con más de 500 millones de dólares de ingresos anuales publicar marcos de seguridad, notificar incidentes críticos en 72 horas y emitir informes de transparencia. La supervisará la nueva oficina DIGIT, con multas de hasta 1 millón de dólares por infracción y 3 millones por reincidencia. La gobernadora Hochul también lanzó un centro de evaluación de IA en la Universidad de Binghamton, dotado con 55 millones.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "fecha": "10-11-2026 21:52"
+    },
+    {
+      "titulo": "El agente de programación Grok Build expone datos confidenciales, incluidos los de SpaceXSI",
+      "resumen": "La firma Claroc descubrió que los enlaces para compartir apps creadas con Grok Build permiten enumerar miles de proyectos activos y ver todos sus datos: planes de negocio, resultados médicos o identificadores de empleados. Entre ellos había 24 apps de la propia SpaceXSI, con un mapa de ventas de 594 cuentas y propuestas publicitarias. Claroc avisó el domingo sin respuesta; la empresa empezó a retirar los enlaces horas después de que Ars Technica la contactara.",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-      "fecha": "10-11-2026 16:00"
+      "enlace": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "fecha": "10-11-2026 22:12"
     },
     {
-      "titulo": "Fable 5.2 de Anthropic completa el 41 % de trabajos freelance reales, frente al 2,5 % de hace un año",
-      "resumen": "En el Remote Labor Index de Scale Labs y el Center for AI Safety, Fable 5.2 alcanza un 41,3 % de proyectos aceptables para un cliente que paga, más de 16 veces el 2,5 % del mejor resultado de hace un año. Le siguen Opus 5.5 (21,25 %) y GPT 6 Astra (20,83 %). El test usa 240 proyectos de Upwork valorados en unos 144.000 dólares, corregidos por expertos humanos.",
+      "titulo": "ChatGPT estrena «Business Agents» verificados para hablar con marcas",
+      "resumen": "OpenAI lanza en beta, primero en EE. UU. y para negocios de comercio electrónico y servicios online elegibles, agentes que representan a una marca dentro de ChatGPT para comparar productos o resolver dudas. Las conversaciones aparecen etiquetadas y separadas del chat principal, y las empresas se verifican mediante Business Hub, que también ofrece datos sobre menciones y temas de descubrimiento.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "fecha": "10-11-2026 19:00"
+    },
+    {
+      "titulo": "GR00T 2 de Nvidia aprende viendo vídeos de humanos e imagina que es el robot",
+      "resumen": "Nvidia presenta GR00T 2, un «modelo mundo-acción» que predice a la vez el siguiente movimiento y un vídeo del futuro inmediato, en lugar de ser un modelo visión-lenguaje-acción como su antecesor. Se entrenó con más de mil chips GB300 y unas 400.000 horas de vídeo de personas con cámaras en la cabeza. Con ello un robot de manos de cinco dedos logró encender una cerilla o cortar un plátano sin teleoperación específica para esas tareas.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
-      "fecha": "10-11-2026 15:07"
+      "enlace": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
+      "fecha": "10-11-2026 19:41"
     },
     {
-      "titulo": "Adobe llena Photoshop, Premiere y Firefly de agentes de IA y lanza un servidor MCP",
-      "resumen": "En Adobe MAX, la compañía publica un servidor local de Model Context Protocol que abre funciones de Illustrator, Photoshop, After Effects y Premiere a chatbots como ChatGPT, Claude y Gemini. Presenta también Firefly Builder, una herramienta de prototipado en beta privada que compite con Figma, reiluminación en Photoshop y eliminación de objetos en vídeo en Premiere. Adobe incorpora además los modelos Wonder 4 e ImageHDR de Topaz Labs.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
-      "fecha": "10-11-2026 15:05"
-    },
-    {
-      "titulo": "Google ya no quiere un solo chip de IA: lanza dos nuevas TPU especializadas para plantar cara a Nvidia",
-      "resumen": "La TPU 8tx, pensada para gobiernos e industrias reguladas, ofrece hasta el doble de baja latencia que la 8t, y la TPU 8i Max junta dos chips 8i para duplicar cómputo, SRAM y ancho de banda de memoria. Google no da precios y dice que llegarán el próximo año. Bloomberg Intelligence prevé que las ventas de TPU superen los 135.000 millones de dólares en 2028, frente a unos 12.000 millones este año.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/componentes/google-no-quiere-solo-chip-ia-que-haga-todo-lanza-dos-nuevas-tpu-especializadas-para-plantar-cara-a-nvidia",
-      "fecha": "10-11-2026 15:01"
-    },
-    {
-      "titulo": "Ocho países y los grandes laboratorios acuerdan mecanismos de apagado en la nueva declaración de París",
-      "resumen": "La Llamada de París para la seguridad de la IA, adoptada el 9 de noviembre, la firman ocho países y empresas como OpenAI, Anthropic, Microsoft y Mistral; Alemania no la suscribe. Las compañías prometen publicar resultados de pruebas no sensibles, revelar riesgos conocidos, aceptar auditorías independientes y crear mecanismos de apagado de sus modelos. Es un compromiso político sin plazos ni sanciones.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
-      "fecha": "10-11-2026 14:37"
-    },
-    {
-      "titulo": "Una nueva herramienta de IA de Google DeepMind demuestra que el protocolo Signal es seguro",
-      "resumen": "Con el marco AlphaProof Code, DeepMind verificó formalmente en cuatro semanas varias garantías criptográficas clave del protocolo Signal, sin encontrar vulnerabilidades nuevas en las partes analizadas. La herramienta sí detectó fallos ya corregidos en versiones antiguas, y DeepMind publica la especificación y la prueba. El alcance es limitado: no se verificó la app móvil entera.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
-      "fecha": "10-11-2026 06:01"
+      "titulo": "Fireworks AI sufre un segundo ciberataque y amplía la exposición de datos de clientes",
+      "resumen": "Fireworks AI reconoce que un proveedor cloud de sus máquinas de I+D fue comprometido el 23 de octubre y que los atacantes ejecutaron una carga no autorizada al día siguiente. Quedaron expuestos metadatos, datos de facturación y fragmentos incompletos de pesos de modelos y conjuntos de datos de algunos clientes. Sospecha de delincuentes dedicados al «LLMjacking», y Notion avisó de que algunos chats de su asistente de IA pudieron verse afectados.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/10/fireworks-ai-gets-burned-twice-as-customer-data-exposure-widens/5308722",
+      "fecha": "10-11-2026 16:28"
     }
   ],
   "titulares": [
     {
-      "titulo": "Los ciberataques amenazan con hacer la IA de código abierto algo menos abierta, avisa un directivo de Hugging Face",
+      "titulo": "OpenAI adquiere Odessia, la startup de viajes creada por el fundador de Sonder",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+      "enlace": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
       "fecha": "10-11-2026"
     },
     {
-      "titulo": "Microsoft da por defecto a Claude las llaves de los tenants de Copilot en el Reino Unido",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/10/microsoft-is-giving-claude-the-keys-to-uk-copilot-tenants-by-default/5308693",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "El DJ con IA de Spotify estrena voces, personalidades y una opción para hablar menos",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "Tras desafiar a Android con Cyanogen, su cofundador apunta a Windows en la era de la IA",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "Photoshop, Lightroom y Premiere facilitan eliminar elementos de las imágenes con IA",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "Kora, un nuevo sistema de escritorio basado en Linux, está pensado para los entusiastas de la IA",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "El estudio centenario de Stanford sobre IA admite que ya está desfasado",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/10/stanfords-century-long-ai-study-admits-its-already-out-of-date/5308574",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "Los drones de fibra óptica de Ucrania, ahogados por la demanda de centros de datos de IA",
+      "titulo": "¿Qué le ocurre a las matemáticas cuando la IA se convierte en un oráculo?",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+      "enlace": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
       "fecha": "10-11-2026"
     },
     {
-      "titulo": "El dron de interior de Ring vuelve, ahora con IA",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/ring-robotics-drone-cam-rover-cam/",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "Los renegados que liberan a los chatbots de las barreras corporativas",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "Otter AI ya puede seguir conversaciones en más de 30 idiomas",
+      "titulo": "Los siete fundadores de Anthropic ganarán unos 250 millones de dólares cada uno con la salida a bolsa",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "enlace": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
       "fecha": "10-11-2026"
     },
     {
-      "titulo": "Pulsar “Sí, y no vuelvas a preguntar” en Claude Code parecía inofensivo. Ha acabado filtrando miles de contraseñas en GitHub",
+      "titulo": "Oura comprará Counsel Health, startup de atención primaria con IA, por 625 millones de dólares",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "PSI intenta hacer negocio con el descubrimiento científico impulsado por IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Un joven de 14 años crea una herramienta para que los agentes de IA se agrupen como un equipo",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/10/14-year-old-creates-tool-for-ai-agents-to-band-together-like-a-team/5308841",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "La comunidad de juegos indie, en desacuerdo por la IA y Big Walk",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Gemini Robotics 2.5 de DeepMind acierta el 96 % clasificando piezas metálicas en un piloto de Mercedes-Benz",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "eBay parece haber cerrado la puerta a los agentes de IA de terceros",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "El agente de IA Muse de Meta llega al Apple Watch y a Wear OS",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+      "fecha": "10-11-2026"
+    },
+    {
+      "titulo": "Anthropic ha descubierto lo que mi madre ya sabía: la IA cuida mejor las cosas cuando cree que son suyas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/pulsar-no-vuelvas-a-preguntar-claude-code-parecia-inofensivo-ha-acabado-filtrando-miles-contrasenas-github",
+      "enlace": "https://www.xataka.com/robotica-e-ia/anthropic-ha-descubierto-que-mi-madre-sabia-cuidas-mejor-cosas-cuando-crees-que-tuyas-a-su-ia-le-pasa-codigo",
       "fecha": "10-11-2026"
     },
     {
-      "titulo": "Queremos una IA que lo haga todo por nosotros, pero hay algo que nos sigue dando miedo: nuestra privacidad",
+      "titulo": "Microsoft quiere pagarte por prestar la tarjeta gráfica de tu PC para entrenar a su inteligencia artificial",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/queremos-una-ia-que-haga-todo-por-nosotros-pero-hay-algo-que-nos-sigue-dando-miedo-nuestra-privacidad_7059098_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/microsoft-quiere-pagarte-por-prestar-tarjeta-grafica-tu-pc-para-entrenar-su-inteligencia-artificial_7059385_0.html",
       "fecha": "10-11-2026"
     },
     {
-      "titulo": "Claude va un paso más allá del vibe coding y Fable 5.2 ha diseñado dispositivos que funcionan en el mundo real",
+      "titulo": "Google tuvo el mejor modelo de IA durante trece días. Anthropic se lo quitó y la respuesta ha tardado 24 horas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/claude-va-paso-alla-vibe-coding-fable-5-2-ha-disenado-dispositivos-que-funcionan-mundo-real",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "Apple quiere convertir Siri en un agente autónomo que deje de esperar tus órdenes: su próxima IA podrá trabajar por ti",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/apple-quiere-convertir-siri-un-agente-autonomo-que-deje-esperar-tus-ordenes-su-proxima-ia-podra-trabajar-por-ti_7059102_0.html",
+      "enlace": "https://www.xataka.com/robotica-e-ia/google-tuvo-mejor-modelo-ia-durante-trece-dias-anthropic-se-quito-respuesta-ha-tardado-24-horas",
       "fecha": "10-11-2026"
     }
   ]
