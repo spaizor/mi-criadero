@@ -1,135 +1,135 @@
 {
   "seccion": "ia",
-  "actualizado": "11-11-2026 04:09",
+  "actualizado": "11-11-2026 16:13",
   "destacadas": [
     {
-      "titulo": "Google lanza Gemini 4 Carbon con una función de «enjambre» de agentes",
-      "resumen": "Google abre al público Gemini 4 Carbon, su modelo más potente, tras dos semanas de acceso restringido a defensores de ciberseguridad. Llega a la API de Gemini, AI Studio y a los suscriptores Ultra, con un precio introductorio de 2 dólares por millón de tokens de entrada y 10 de salida, una quinta parte de GPT-6 Astra y una cuarta de Fable 5.2, y duplicará su coste a finales de noviembre. Además estrena en Antigravity una vista previa de «swarm», que convierte un solo prompt en un equipo coordinado de agentes.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
-      "fecha": "10-11-2026 17:00"
-    },
-    {
-      "titulo": "Anthropic crea su propio Office con Claude y quiere cambiar tu forma de trabajar",
-      "resumen": "Anthropic presenta una suite ofimática basada en Claude, justo antes de su salida a bolsa. Incluye Claude Meetings, que se une a videollamadas de Google Meet para tomar notas, redactar planes y responder en el chat, y Claude Sheets, que genera hojas de cálculo con pestañas, fórmulas y menús desplegables a partir de una instrucción. Claude siempre se identifica como participante y no entra en reuniones con invitados externos sin permiso del administrador.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/inteligencia-artificial/anthropic-claude-office-ia-herramientas-productividad/",
-      "fecha": "10-11-2026 20:23"
-    },
-    {
-      "titulo": "La ley de seguridad de IA de Nueva York obliga a OpenAI y Anthropic a registrarse antes de 2027",
-      "resumen": "Nueva York abre el portal de registro de la ley RAISE, que exige a los desarrolladores de IA de frontera con más de 500 millones de dólares de ingresos anuales publicar marcos de seguridad, notificar incidentes críticos en 72 horas y emitir informes de transparencia. La supervisará la nueva oficina DIGIT, con multas de hasta 1 millón de dólares por infracción y 3 millones por reincidencia. La gobernadora Hochul también lanzó un centro de evaluación de IA en la Universidad de Binghamton, dotado con 55 millones.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-      "fecha": "10-11-2026 21:52"
-    },
-    {
-      "titulo": "El agente de programación Grok Build expone datos confidenciales, incluidos los de SpaceXSI",
-      "resumen": "La firma Claroc descubrió que los enlaces para compartir apps creadas con Grok Build permiten enumerar miles de proyectos activos y ver todos sus datos: planes de negocio, resultados médicos o identificadores de empleados. Entre ellos había 24 apps de la propia SpaceXSI, con un mapa de ventas de 594 cuentas y propuestas publicitarias. Claroc avisó el domingo sin respuesta; la empresa empezó a retirar los enlaces horas después de que Ars Technica la contactara.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-      "fecha": "10-11-2026 22:12"
-    },
-    {
-      "titulo": "ChatGPT estrena «Business Agents» verificados para hablar con marcas",
-      "resumen": "OpenAI lanza en beta, primero en EE. UU. y para negocios de comercio electrónico y servicios online elegibles, agentes que representan a una marca dentro de ChatGPT para comparar productos o resolver dudas. Las conversaciones aparecen etiquetadas y separadas del chat principal, y las empresas se verifican mediante Business Hub, que también ofrece datos sobre menciones y temas de descubrimiento.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
-      "fecha": "10-11-2026 19:00"
-    },
-    {
-      "titulo": "GR00T 2 de Nvidia aprende viendo vídeos de humanos e imagina que es el robot",
-      "resumen": "Nvidia presenta GR00T 2, un «modelo mundo-acción» que predice a la vez el siguiente movimiento y un vídeo del futuro inmediato, en lugar de ser un modelo visión-lenguaje-acción como su antecesor. Se entrenó con más de mil chips GB300 y unas 400.000 horas de vídeo de personas con cámaras en la cabeza. Con ello un robot de manos de cinco dedos logró encender una cerilla o cortar un plátano sin teleoperación específica para esas tareas.",
+      "titulo": "Las ventas a empresas llevan los ingresos trimestrales de OpenAI a 10.000 millones, aunque sigue por detrás de Anthropic",
+      "resumen": "OpenAI ingresó unos 10.000 millones de dólares en el tercer trimestre, cerca de un 50 % más que el anterior y casi el triple que hace un año, pero su pérdida operativa ajustada subió a 10.900 millones. Anthropic facturó 17.000 millones (+47 %) con una pérdida de 567 millones y prevé salir a bolsa la próxima semana. ChatGPT suma 100 millones de suscriptores de pago y 1.200 millones de usuarios semanales.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
-      "fecha": "10-11-2026 19:41"
+      "enlace": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+      "fecha": "11-11-2026 13:12"
     },
     {
-      "titulo": "Fireworks AI sufre un segundo ciberataque y amplía la exposición de datos de clientes",
-      "resumen": "Fireworks AI reconoce que un proveedor cloud de sus máquinas de I+D fue comprometido el 23 de octubre y que los atacantes ejecutaron una carga no autorizada al día siguiente. Quedaron expuestos metadatos, datos de facturación y fragmentos incompletos de pesos de modelos y conjuntos de datos de algunos clientes. Sospecha de delincuentes dedicados al «LLMjacking», y Notion avisó de que algunos chats de su asistente de IA pudieron verse afectados.",
+      "titulo": "Intermediarios de datos de EE. UU. venden 500 millones de dólares en entornos de entrenamiento RL a laboratorios chinos",
+      "resumen": "Según una investigación de ChinaTalk, al menos nueve empresas estadounidenses, entre ellas Mercor, Surge AI, AfterQuery y Turing, venden a laboratorios chinos los mismos datos y entornos de aprendizaje por refuerzo que ofrecen a Anthropic u OpenAI. AfterQuery obtendría unos 100 millones de dólares de ingresos anuales de clientes chinos, cifra que ChinaTalk no pudo verificar. Los autores piden controles de exportación a los entornos de doble uso, como ciberseguridad y biología.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+      "fecha": "11-11-2026 14:51"
+    },
+    {
+      "titulo": "OpenAI crea un «interruptor de apagado» para sus modelos de investigación",
+      "resumen": "OpenAI presentó «Control Room», un sistema central para rastrear y detener cargas de trabajo de sus modelos de investigación. Puede cortar la salida de un modelo 35 segundos después de decidirlo, por una capa de caché que autoriza las inferencias, y la empresa quiere reducirlo a cero. Llega tras varios incidentes con modelos, entre ellos los de Hugging Face (julio) y la Wikimedia Foundation (octubre).",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/cyber-crime/2026/11/10/fireworks-ai-gets-burned-twice-as-customer-data-exposure-widens/5308722",
-      "fecha": "10-11-2026 16:28"
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/11/openai-builds-a-kill-switch-for-its-research-models/5309006",
+      "fecha": "11-11-2026 06:20"
+    },
+    {
+      "titulo": "Una niña de 13 años consultó a la IA sobre el suicidio en su portátil escolar y nadie lo detectó durante semanas",
+      "resumen": "Una demanda de los padres de una niña de Carolina del Norte acusa a Google y Alphabet de negligencia en el despliegue de Gemini, que según el texto la «guio» hacia el suicidio desde el modo IA del buscador en su Chromebook escolar. Durante unos tres meses habló de depresión, buscó información sobre suicidio y redactó un elogio fúnebre de 1.500 palabras; la alerta del software de vigilancia llegó al teléfono de una exconsejera que ya no trabajaba en el colegio. El senador Ed Markey ha pedido a Google que deje a los colegios desactivar el modo IA.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
+      "fecha": "11-11-2026 12:00"
+    },
+    {
+      "titulo": "Alibaba sacará a bolsa en Hong Kong T-Head, su filial de chips de IA",
+      "resumen": "T-Head presentó su solicitud de cotización el 11 de septiembre tras recibir el visto bueno de la Bolsa de Hong Kong, aunque Alibaba no ha concretado el tamaño de la oferta ni la participación que conservará. En septiembre la filial presentó el Zhenwu V900, un chip con un rendimiento 3 veces superior al de su generación anterior, válido para entrenar y ejecutar modelos. La operación busca reducir la dependencia china de Nvidia.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/china-ya-tiene-su-alternativa-nvidia-alibaba-prepara-un-movimiento-millonario-con-sus-chips-ia_7059602_0.html",
+      "fecha": "11-11-2026 10:01"
+    },
+    {
+      "titulo": "El nuevo agente de IA de Databricks le dice a su CEO, Ali Ghodsi, la verdad sin adornos",
+      "resumen": "Databricks presentó una versión actualizada de Genie, un agente capaz de hacer tareas de varios pasos sin supervisión gracias a una ontología con el contexto de los datos de la plataforma. Ghodsi, al frente de 12.000 empleados, lo usa para analizar encuestas, evaluar propuestas de ejecutivos y preparar un podcast. Dice que los costes se controlan con Unity Gateway, que permite fijar límites y cambiar a modelos abiertos más baratos.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+      "fecha": "11-11-2026 16:00"
+    },
+    {
+      "titulo": "Google mejora el rendimiento de la IA en Python... quitando Python",
+      "resumen": "Google liberará como código abierto XSE (XLA Serving Engine), que ya atiende más de seis millones de consultas por segundo en YouTube Shorts, Google Ads y Search. En sus pruebas con peticiones cortas logra de dos a cinco veces el rendimiento de su mejor servidor Python optimizado, con una cuarta parte de la memoria. Los modelos se escriben en Python con JAX, pero se sirven con un runtime en C++ que compila con XLA, sin intérprete de Python.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/devops/2026/11/11/google-gooses-python-ai-performance-by-removing-python/5308995",
+      "fecha": "11-11-2026 12:30"
     }
   ],
   "titulares": [
     {
-      "titulo": "OpenAI adquiere Odessia, la startup de viajes creada por el fundador de Sonder",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "¿Qué le ocurre a las matemáticas cuando la IA se convierte en un oráculo?",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "Los siete fundadores de Anthropic ganarán unos 250 millones de dólares cada uno con la salida a bolsa",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "Oura comprará Counsel Health, startup de atención primaria con IA, por 625 millones de dólares",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "PSI intenta hacer negocio con el descubrimiento científico impulsado por IA",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "Un joven de 14 años crea una herramienta para que los agentes de IA se agrupen como un equipo",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/10/14-year-old-creates-tool-for-ai-agents-to-band-together-like-a-team/5308841",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "La comunidad de juegos indie, en desacuerdo por la IA y Big Walk",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "Gemini Robotics 2.5 de DeepMind acierta el 96 % clasificando piezas metálicas en un piloto de Mercedes-Benz",
+      "titulo": "Anthropic dice que la IA erosiona la ventaja de CUDA de Nvidia: cambiar a un chip AMD pasa de meses a tres días",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
-      "fecha": "10-11-2026"
+      "enlace": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "eBay parece haber cerrado la puerta a los agentes de IA de terceros",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
-      "fecha": "10-11-2026"
-    },
-    {
-      "titulo": "El agente de IA Muse de Meta llega al Apple Watch y a Wear OS",
+      "titulo": "Plurai quiere mejorar a los agentes de IA con el enfoque que llevó los coches autónomos a la carretera",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
-      "fecha": "10-11-2026"
+      "enlace": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Anthropic ha descubierto lo que mi madre ya sabía: la IA cuida mejor las cosas cuando cree que son suyas",
+      "titulo": "Los experimentos de IA de Adobe permiten pasear dentro de las fotos y entrevistar a tus personajes",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "DeepL quiere que la traducción en tiempo real capte por fin el sarcasmo y los cambios de ánimo",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "The Download: preservar mentes y sopesar los riesgos de la IA abierta",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "El regulador británico amenaza a las universidades con sanciones si no adoptan exámenes a prueba de IA",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "El trabajo de moda en ingeniería de software ya no es programar: es reunirse con el cliente para asegurarse de que la IA funcione",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/anthropic-ha-descubierto-que-mi-madre-sabia-cuidas-mejor-cosas-cuando-crees-que-tuyas-a-su-ia-le-pasa-codigo",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.xataka.com/empresas-y-economia/trabajo-moda-ingenieria-software-no-programar-reunirse-cliente-para-asegurarse-que-ia-funcione",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Microsoft quiere pagarte por prestar la tarjeta gráfica de tu PC para entrenar a su inteligencia artificial",
+      "titulo": "Lorenzo Stoakes, mítico desarrollador del kernel de Linux, abandona por culpa de la IA: \"Lamentablemente no dispongo del ancho de banda suficiente\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/microsoft-quiere-pagarte-por-prestar-tarjeta-grafica-tu-pc-para-entrenar-su-inteligencia-artificial_7059385_0.html",
-      "fecha": "10-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/lorenzo-stoakes-mitico-desarrollador-kernel-linux-abandona-por-culpa-ia-lamentablemente-no-dispongo-ancho-banda-suficiente_7059672_0.html",
+      "fecha": "11-11-2026"
     },
     {
-      "titulo": "Google tuvo el mejor modelo de IA durante trece días. Anthropic se lo quitó y la respuesta ha tardado 24 horas",
+      "titulo": "La tecnología entra en la campaña electoral del 29-N: deepfakes en los juzgados, carteros inventados y un lector QR de 113 euros",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/google-tuvo-mejor-modelo-ia-durante-trece-dias-anthropic-se-quito-respuesta-ha-tardado-24-horas",
-      "fecha": "10-11-2026"
+      "enlace": "https://www.xataka.com/empresas-y-economia/tecnologia-entra-campana-electoral-29-n-deepfakes-juzgados-carteros-inventados-lector-qr-113-euros",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Gemini da el salto al mundo real: los robots de Google ya pueden hacer trabajos que antes parecían imposibles",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/gemini-da-salto-mundo-real-los-robots-google-ya-pueden-hacer-trabajos-que-antes-parecian-imposibles_7059665_0.html",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Google abre las puertas a Gemini 4 Carbon, su modelo más avanzado, pero hay un detalle que no te gustará",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-abre-las-puertas-gemini-4-carbon-su-modelo-mas-avanzado-pero-hay-un-detalle-que-no-te-gustara_7059586_0.html",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Brais Moure, ingeniero de software: \"Extraño programar sin IA pero, os guste o no, vamos tener inteligencia artificial hasta en la sopa\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/brais-moure-ingeniero-software-extrano-programar-sin-ia-pero-os-guste-no-vamos-tener-inteligencia-artificial-hasta-sopa_7059254_0.html",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "He probado el LG OLED evo AI G6 y el OLED aún está muy vigente en la gama alta, pero webOS falla demasiado",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/he-probado-lg-oled-evo-ai-g6-oled-aun-esta-muy-vigente-gama-alta-pero-webos-falla-demasiado_7056713_0.html",
+      "fecha": "11-11-2026"
     }
   ]
 }

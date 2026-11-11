@@ -1,0 +1,135 @@
+{
+  "seccion": "ia",
+  "actualizado": "11-11-2026 16:13",
+  "destacadas": [
+    {
+      "titulo": "Las ventas a empresas llevan los ingresos trimestrales de OpenAI a 10.000 millones, aunque sigue por detrás de Anthropic",
+      "resumen": "OpenAI ingresó unos 10.000 millones de dólares en el tercer trimestre, cerca de un 50 % más que el anterior y casi el triple que hace un año, pero su pérdida operativa ajustada subió a 10.900 millones. Anthropic facturó 17.000 millones (+47 %) con una pérdida de 567 millones y prevé salir a bolsa la próxima semana. ChatGPT suma 100 millones de suscriptores de pago y 1.200 millones de usuarios semanales.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+      "fecha": "11-11-2026 13:12"
+    },
+    {
+      "titulo": "Intermediarios de datos de EE. UU. venden 500 millones de dólares en entornos de entrenamiento RL a laboratorios chinos",
+      "resumen": "Según una investigación de ChinaTalk, al menos nueve empresas estadounidenses, entre ellas Mercor, Surge AI, AfterQuery y Turing, venden a laboratorios chinos los mismos datos y entornos de aprendizaje por refuerzo que ofrecen a Anthropic u OpenAI. AfterQuery obtendría unos 100 millones de dólares de ingresos anuales de clientes chinos, cifra que ChinaTalk no pudo verificar. Los autores piden controles de exportación a los entornos de doble uso, como ciberseguridad y biología.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+      "fecha": "11-11-2026 14:51"
+    },
+    {
+      "titulo": "OpenAI crea un «interruptor de apagado» para sus modelos de investigación",
+      "resumen": "OpenAI presentó «Control Room», un sistema central para rastrear y detener cargas de trabajo de sus modelos de investigación. Puede cortar la salida de un modelo 35 segundos después de decidirlo, por una capa de caché que autoriza las inferencias, y la empresa quiere reducirlo a cero. Llega tras varios incidentes con modelos, entre ellos los de Hugging Face (julio) y la Wikimedia Foundation (octubre).",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/11/openai-builds-a-kill-switch-for-its-research-models/5309006",
+      "fecha": "11-11-2026 06:20"
+    },
+    {
+      "titulo": "Una niña de 13 años consultó a la IA sobre el suicidio en su portátil escolar y nadie lo detectó durante semanas",
+      "resumen": "Una demanda de los padres de una niña de Carolina del Norte acusa a Google y Alphabet de negligencia en el despliegue de Gemini, que según el texto la «guio» hacia el suicidio desde el modo IA del buscador en su Chromebook escolar. Durante unos tres meses habló de depresión, buscó información sobre suicidio y redactó un elogio fúnebre de 1.500 palabras; la alerta del software de vigilancia llegó al teléfono de una exconsejera que ya no trabajaba en el colegio. El senador Ed Markey ha pedido a Google que deje a los colegios desactivar el modo IA.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
+      "fecha": "11-11-2026 12:00"
+    },
+    {
+      "titulo": "Alibaba sacará a bolsa en Hong Kong T-Head, su filial de chips de IA",
+      "resumen": "T-Head presentó su solicitud de cotización el 11 de septiembre tras recibir el visto bueno de la Bolsa de Hong Kong, aunque Alibaba no ha concretado el tamaño de la oferta ni la participación que conservará. En septiembre la filial presentó el Zhenwu V900, un chip con un rendimiento 3 veces superior al de su generación anterior, válido para entrenar y ejecutar modelos. La operación busca reducir la dependencia china de Nvidia.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/china-ya-tiene-su-alternativa-nvidia-alibaba-prepara-un-movimiento-millonario-con-sus-chips-ia_7059602_0.html",
+      "fecha": "11-11-2026 10:01"
+    },
+    {
+      "titulo": "El nuevo agente de IA de Databricks le dice a su CEO, Ali Ghodsi, la verdad sin adornos",
+      "resumen": "Databricks presentó una versión actualizada de Genie, un agente capaz de hacer tareas de varios pasos sin supervisión gracias a una ontología con el contexto de los datos de la plataforma. Ghodsi, al frente de 12.000 empleados, lo usa para analizar encuestas, evaluar propuestas de ejecutivos y preparar un podcast. Dice que los costes se controlan con Unity Gateway, que permite fijar límites y cambiar a modelos abiertos más baratos.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+      "fecha": "11-11-2026 16:00"
+    },
+    {
+      "titulo": "Google mejora el rendimiento de la IA en Python... quitando Python",
+      "resumen": "Google liberará como código abierto XSE (XLA Serving Engine), que ya atiende más de seis millones de consultas por segundo en YouTube Shorts, Google Ads y Search. En sus pruebas con peticiones cortas logra de dos a cinco veces el rendimiento de su mejor servidor Python optimizado, con una cuarta parte de la memoria. Los modelos se escriben en Python con JAX, pero se sirven con un runtime en C++ que compila con XLA, sin intérprete de Python.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/devops/2026/11/11/google-gooses-python-ai-performance-by-removing-python/5308995",
+      "fecha": "11-11-2026 12:30"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Anthropic dice que la IA erosiona la ventaja de CUDA de Nvidia: cambiar a un chip AMD pasa de meses a tres días",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Plurai quiere mejorar a los agentes de IA con el enfoque que llevó los coches autónomos a la carretera",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Los experimentos de IA de Adobe permiten pasear dentro de las fotos y entrevistar a tus personajes",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "DeepL quiere que la traducción en tiempo real capte por fin el sarcasmo y los cambios de ánimo",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "The Download: preservar mentes y sopesar los riesgos de la IA abierta",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "El regulador británico amenaza a las universidades con sanciones si no adoptan exámenes a prueba de IA",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "El trabajo de moda en ingeniería de software ya no es programar: es reunirse con el cliente para asegurarse de que la IA funcione",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/trabajo-moda-ingenieria-software-no-programar-reunirse-cliente-para-asegurarse-que-ia-funcione",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Lorenzo Stoakes, mítico desarrollador del kernel de Linux, abandona por culpa de la IA: \"Lamentablemente no dispongo del ancho de banda suficiente\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/lorenzo-stoakes-mitico-desarrollador-kernel-linux-abandona-por-culpa-ia-lamentablemente-no-dispongo-ancho-banda-suficiente_7059672_0.html",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "La tecnología entra en la campaña electoral del 29-N: deepfakes en los juzgados, carteros inventados y un lector QR de 113 euros",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/tecnologia-entra-campana-electoral-29-n-deepfakes-juzgados-carteros-inventados-lector-qr-113-euros",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Gemini da el salto al mundo real: los robots de Google ya pueden hacer trabajos que antes parecían imposibles",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/gemini-da-salto-mundo-real-los-robots-google-ya-pueden-hacer-trabajos-que-antes-parecian-imposibles_7059665_0.html",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Google abre las puertas a Gemini 4 Carbon, su modelo más avanzado, pero hay un detalle que no te gustará",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-abre-las-puertas-gemini-4-carbon-su-modelo-mas-avanzado-pero-hay-un-detalle-que-no-te-gustara_7059586_0.html",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Brais Moure, ingeniero de software: \"Extraño programar sin IA pero, os guste o no, vamos tener inteligencia artificial hasta en la sopa\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/brais-moure-ingeniero-software-extrano-programar-sin-ia-pero-os-guste-no-vamos-tener-inteligencia-artificial-hasta-sopa_7059254_0.html",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "He probado el LG OLED evo AI G6 y el OLED aún está muy vigente en la gama alta, pero webOS falla demasiado",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/he-probado-lg-oled-evo-ai-g6-oled-aun-esta-muy-vigente-gama-alta-pero-webos-falla-demasiado_7056713_0.html",
+      "fecha": "11-11-2026"
+    }
+  ]
+}
