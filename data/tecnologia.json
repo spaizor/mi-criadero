@@ -1,213 +1,213 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "11-11-2026 15:15",
+  "actualizado": "12-11-2026 03:11",
   "destacadas": [
     {
-      "titulo": "La UE propone la Ley de Equidad Digital: prohíbe los «dark patterns» y las funciones adictivas como las rachas de Duolingo",
-      "resumen": "La Comisión Europea ha presentado la Digital Fairness Act, que prohíbe los «dark patterns», limita los precios dinámicos de entradas como los de Ticketmaster, obliga a los influencers a declarar los contenidos pagados y facilita cancelar suscripciones. También permitirá desactivar funciones adictivas como el autoplay o las rachas de apps como Strava y Duolingo. El comisario Michael McGrath la define como la mayor reforma de protección del consumidor de la UE en más de 20 años.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/duolingo-strava-and-ticketmaster-are-all-caught-up-in-eus-new-digital-fairness-rules/",
-      "fecha": "11-11-2026 14:36"
+      "titulo": "El consejo de Nvidia se reúne de urgencia sobre el futuro de Jensen Huang tras revelarse una segunda relación con una directiva",
+      "resumen": "El consejo de Nvidia celebró el miércoles una reunión urgente sobre su fundador después de que se supiera que Huang mantuvo una relación con Kimberly Powell, vicepresidenta de sanidad, además de la que admitió con Alice Huang, ejecutiva de un cliente a la que la inteligencia de EE. UU. vincula con el espionaje chino. Las acciones cayeron más de un 8 % tras el cierre y el consejo, que había respaldado a Huang el domingo, ha contratado a un exfiscal federal para investigar; Trump dijo que el FBI estudia el caso.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
+      "fecha": "12-11-2026 00:10"
     },
     {
-      "titulo": "Microsoft promete hasta un 40 % más de velocidad en Windows 11 con solo 8 GB de RAM",
-      "resumen": "Pavan Davuluri, jefe de Windows, afirma que una compresión de memoria ajustada permite conservar hasta 2 GB más de datos activos en RAM, y que el panel de Widgets libera más de 200 MB y Office reduce su consumo hasta 360 MB. El 40 % sale de una sola demostración en un HP OmniBook 3 con Snapdragon X Plus y 8 GB, que Microsoft aclara que no es un benchmark.",
+      "titulo": "Nueva York acusa a T-Mobile de imponer ilegalmente un límite de 50 GB en su internet doméstico para rentas bajas",
+      "resumen": "El estado de Nueva York asegura que T-Mobile incumplió su ley de banda ancha asequible al limitar a 50 GB mensuales los planes domésticos para familias con pocos ingresos y reducir la velocidad de 25 Mbps a 600 Kbps al superarlos. En el acuerdo, la operadora (que no admite la infracción) deberá eliminar los límites y ampliar la disponibilidad de los planes en 120 días.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/",
+      "fecha": "11-11-2026 21:32"
+    },
+    {
+      "titulo": "IBM presenta Nighthawk r3, un procesador cuántico de 520 qubits que se puede conectar con otros chips",
+      "resumen": "El nuevo chip de IBM ejecuta hasta 10.000 operaciones cuánticas sobre 520 qubits programables y añade 10 interconexiones para enlazar procesadores entre sí. IBM prevé unir dos Nighthawk r3 en un sistema de más de 1.000 qubits, una arquitectura modular frente a la corrección de errores por la que apuestan Microsoft, Google y Amazon.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/hardware/ibm-procesador-cuantico-nighthawk-r3/",
+      "fecha": "11-11-2026 20:29"
+    },
+    {
+      "titulo": "Amazon lanza Ring Drone Cam, un dron doméstico de vigilancia, y un robot de seguridad para negocios",
+      "resumen": "Ring Robotics presenta un dron de interior con cámara 2K, 148 grados de campo de visión y piloto automático con IA que patrulla rutas y acude a alertas, aunque solo vuela hasta ocho minutos con la batería llena. Le acompaña el Ring Rover Cam, un robot autónomo para locales y almacenes con vídeo de hasta 4K, sirena y audio bidireccional.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ordenadores/microsoft-promete-40-velocidad-windows-11-solo-8-gb-ram",
-      "fecha": "11-11-2026 14:31"
+      "enlace": "https://www.xataka.com/robotica-e-ia/camaras-ring-ahora-se-mueven-amazon-entra-mundo-robots-domesticos-dron-que-vuela-salon-casa",
+      "fecha": "11-11-2026 18:01"
     },
     {
-      "titulo": "The Verge pregunta a todos los fabricantes de televisores cómo recopilan datos de sus usuarios",
-      "resumen": "Tras un mes de espera, The Verge publica las respuestas a 17 preguntas de sí o no sobre ACR, audio grabado y datos enviados a la nube. Han contestado los tres mayores fabricantes y todas las grandes marcas de streaming; Hisense ignoró los correos y otras empresas declinaron. El reportaje recuerda que el ACR suele poder desactivarse aunque se haya aceptado en la configuración inicial.",
+      "titulo": "Roku dejará de vender dispositivos para el hogar inteligente días después de pasar a manos de Fox",
+      "resumen": "Roku confirma que reducirá la venta de hardware de hogar inteligente para centrarse en el streaming, aunque seguirá dando soporte. Solo quedan dos productos en su tienda. Sus pérdidas de hardware se duplicaron en el tercer trimestre, de 22,9 a 48,6 millones de dólares, por el coste de la memoria.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2313802/roku-will-stop-selling-smart-home-devices-and-refocus-on-streaming/",
+      "fecha": "11-11-2026 18:44"
+    },
+    {
+      "titulo": "Home Assistant lanza Connect Aux-2, una caja de 69 dólares para integrar dispositivos no inteligentes",
+      "resumen": "Nabu Casa presenta un dispositivo del tamaño de una baraja con Wi-Fi, Bluetooth, Ethernet, USB, jack de audio y dos puertos serie RS-232. Sirve de puente Bluetooth, permite controlar televisores o inversores solares por serie y conectar altavoces para música. Está basado en ESPHome y The Verge destaca lo sencillo de su configuración.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
-      "fecha": "11-11-2026 14:00"
+      "enlace": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
+      "fecha": "11-11-2026 23:00"
     },
     {
-      "titulo": "Apple cerrará su foro Apple Support Community el 20 de noviembre",
-      "resumen": "El foro, que nació en 1998 como Apple Tech Exchange, ya está en modo solo lectura y no admite mensajes nuevos. Apple dirige a los usuarios a su sitio oficial de soporte y no ha aclarado qué pasará con las publicaciones acumuladas durante décadas. La compañía dice que lo cierra tras evaluar su estrategia y las necesidades de los clientes.",
+      "titulo": "Toyota resucita Scion con el KEI-01, una camioneta kei fabricada en EE. UU. que llegará en 2027",
+      "resumen": "«Scion by Toyota» vuelve como incubadora de movilidad experimental y su primer modelo se construye en Indiana. Monta un motor de gasolina de 660 cc y tres cilindros con cambio CVT, tracción total a demanda y mide unos 3,4 metros de largo. Llegará en la segunda mitad de 2027, con más de 30.000 kei usados importados a EE. UU. desde 2020.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
-      "fecha": "11-11-2026 13:19"
+      "enlace": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival",
+      "fecha": "11-11-2026 18:09"
     },
     {
-      "titulo": "Apple lanza iOS 27.2.1 con correcciones de seguridad para iMessage, Bluetooth y AirPlay",
-      "resumen": "La actualización llega dos semanas después de iOS 27.2 y corrige un fallo que permitía a un atacante remoto unirse a un grupo de iMessage y leer los mensajes, además de otro que dejaba ver mensajes anteriores a un nuevo miembro. También arregla errores de Bluetooth y AirPlay. Está disponible para el iPhone 11 y posteriores.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/apple-lanza-ios-27-2-1-para-corregir-fallos-seguridad-que-podrian-dejar-expuestos-tus-mensajes-privados_7059701_0.html",
-      "fecha": "11-11-2026 12:15"
-    },
-    {
-      "titulo": "Seagate presenta el FireCuda Forge, un disco externo híbrido de hasta 20 TB con ranura para tu propio SSD",
-      "resumen": "Combina un HDD de 8 o 20 TB con un SSD M.2 NVMe de hasta 1 TB que se compra aparte, y la plataforma Alkemi mueve los archivos más usados al SSD con aprendizaje automático. Seagate promete hasta 2.500 MB/s de lectura y 2.000 MB/s de escritura por USB4. Cuesta 863,99 euros (8 TB) y 1.085,99 euros (20 TB), sin SSD.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/componentes/seagate-firecuda-forge-ficha-tecnica-caracteristicas-fotos-precio-fecha",
-      "fecha": "11-11-2026 12:45"
-    },
-    {
-      "titulo": "LinkedIn prueba una función que avisa de quién visita tu perfil varias veces",
-      "resumen": "La función, llamada «Frequent Viewer», marca en la lista de visitas a los usuarios con LinkedIn Premium que han consultado su perfil repetidamente. LinkedIn ha confirmado la prueba sin dar más detalles. Una usuaria que la tiene activa la apodó «alerta de acosadores» y asegura que le sirve para detectar contactos de negocio interesantes.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/linkedin-is-testing-a-feature-that-lets-you-see-your-profile-stalkers/",
-      "fecha": "11-11-2026 11:00"
-    },
-    {
-      "titulo": "AMD asegura que con Mext se logra el 99 % del rendimiento con la mitad de DRAM en servidores Epyc",
-      "resumen": "AMD compró la tecnología de Mext en junio: usa IA para mover páginas de memoria poco usadas a SSD NVMe y traerlas de vuelta antes de que se necesiten. Según Gary Smerdon, podría recortar hasta un 83 % el coste de un servidor, y en los 145 sistemas desplegados ya se habrían evitado 5 millones de dólares en DRAM.",
+      "titulo": "El consumo eléctrico de los centros de datos en EE. UU. crece diez veces más rápido que la red",
+      "resumen": "Según el bróker Howden, desde 2000 la energía de los campus de datos ha subido un 19 % anual frente a un 2 % de la capacidad de la red, y su cuota ha pasado del 0,1 % al 5 %. Para mantenerla hasta 2030 necesitarían 110 GW propios, algo que Howden ve improbable; retrasos de red de dos a seis años pueden costar entre 800 millones y 2.400 millones de dólares.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/systems/2026/11/11/amd-where-were-going-we-dont-need-as-much-dram/5308953",
-      "fecha": "11-11-2026 10:59"
+      "enlace": "https://www.theregister.com/systems/2026/11/11/us-bit-barn-boom-sees-energy-needs-grow-10x-as-fast-as-grid-capacity/5309191",
+      "fecha": "11-11-2026 18:47"
     }
   ],
   "titulares": [
     {
-      "titulo": "El streaming sigue intentando ser TikTok",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/streaming/1030864/streaming-skydance-paramount-disney-hulu-earnings-tiktok-short-form-video",
+      "titulo": "NVIDIA podría destituir a Jensen Huang como CEO tras el escándalo con la espía china",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/economia-empresas/jensen-huang-destitucion-nvidia-escandalo/",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "Anduril asegura que su primer satélite puede ver maniobras de adversarios en la noche orbital",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "No a todos les gusta su nuevo iPhone Duo",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1030398/iphone-duo-returns-screen-apps",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "Serve Robotics abre una API para desarrolladores de robots de reparto en aceras",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1030902/serve-robotics-open-developer-api-sidewalk-delivery",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "Exclusiva: la cámara de tu móvil podría recibir una gran mejora con esta tecnología",
+      "titulo": "He visto el futuro de la robótica en un pato virtual que persigue a mi gato",
       "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/your-smartphone-camera-could-get-a-big-upgrade-with-this-tech/",
+      "enlace": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Linux se suma a la flota de pantallas informativas averiadas de Heathrow",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/11/11/linux-joins-heathrows-grounded-fleet-of-information-screens/5308738",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "El CEO de Lucid dice que la empresa no sabía dónde estaban sus propios coches",
+      "titulo": "¿Cuántas pruebas del cohete Starship de SpaceX han fallado?",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2313113/lucid-q3-2026-losing-cars/",
+      "enlace": "https://www.engadget.com/2314045/how-many-spacex-starship-rocket-tests-failed/",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "La apuesta tecnológica «compra británico» choca con la realidad: menos de 1 de cada 6 libras se queda en casa",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/public-sector/2026/11/11/uks-buy-british-tech-ambitions-hit-reality-as-less-than-1-in-6-stays-at-home/5308814",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "Samsung Gallery ahora sincroniza con Google para copiar tus fotos",
+      "titulo": "Peacock rediseña su app móvil para centrarse en los vídeos verticales",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2313059/samsung-gallery-syncs-with-google/",
+      "enlace": "https://www.engadget.com/2313912/peacock-is-redesigning-its-mobile-app-to-focus-more-on-vertical-videos/",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Un vecino de Salamanca se puso a lanzar bolas de papel mojado desde un sexto piso. Ahora se enfrenta a una multa publicada en el BOE",
+      "titulo": "La Administración Trump pierde el pulso para espiar los mensajes de LinkedIn de periodistas al azar",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Los servicios web de Canonical fallan justo antes de la Ubuntu Summit",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/11/canonical-web-services-get-stage-fright-ahead-of-ubuntu-summit/5309186",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "El cierre de AO3 enfrenta a lectores y autores de fanfics",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "El MacBook Pro táctil de Apple no soporta que lo desmonten",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/personal-tech/2026/11/11/apples-touchscreen-macbook-pro-does-not-like-to-be-taken-apart/5309110",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Un cofundador de Siri respalda a Helix por su tecnología de identificación por voz",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Ocarina of Time mejora si usas una app de smartphone",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1031321/the-legend-of-zelda-ocarina-of-time-notes-app-gold-skulltula",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "El Patch Tuesday de Microsoft no puede romper nada si no se instala",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/11/microsofts-patch-tuesday-cant-break-stuff-if-it-wont-install/5309059",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "El Black Friday se adelanta con la TCL C6K Pro: una tele Mini LED de gama alta con Google TV, de 55 a 85 pulgadas (y hasta 98 con la C6K)",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/vecino-salamanca-se-puso-a-lanzar-bolas-papel-mojado-sexto-piso-ahora-se-enfrenta-a-multa-publicada-boe",
+      "enlace": "https://www.xataka.com/seleccion/black-friday-se-adelanta-tcl-c6k-pro-tele-mini-led-gama-alta-google-tv-55-a-85-pulgadas-98-c6k",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "La PS5 entra al club de los 100 millones, aunque el trono de la PS2 sigue inalcanzable",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/ps5-100-millones-unidades-enviadas/",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "Nulo seguimiento de la huelga en Movistar, Orange, Vodafone o Digi",
+      "titulo": "La razón por la que tu router de Movistar no descarga la última actualización, aunque ya esté disponible",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/nulo-seguimiento-huelga-movistar-orange-vodafone-digi/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/router-movistar-descarga-ultima-actualizacion/",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Nintendo bloquea los avances del jailbreak de Nintendo Switch y la emulación de sus juegos en PC con su última actualización 23.5.0",
+      "titulo": "Ni bancos ni criptomonedas: los camiones cargados de memoria RAM y componentes se convierten en el principal objetivo de las bandas organizadas",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/gaming/nintendo-bloquea-los-avances-jailbreak-nintendo-switch-emulacion-sus-juegos-pc-con-su-ultima-actualizacion-23-5-0_7059667_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/ni-bancos-ni-criptomonedas-los-camiones-cargados-memoria-ram-componentes-se-convierten-principal-objetivo-las-bandas-organizadas_7059734_0.html",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Solo hoy puedes llevarte (en el Single Day de MediaMarkt) esta PS Portal por apenas 180 euros",
+      "titulo": "Jeff Bezos tiene una teoría sobre por qué la gente odia a los ricos: \"El éxito no es sinónimo de maldad\"",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/solo-hoy-puedes-llevarte-single-day-mediamarkt-esta-ps-portal-apenas-180-euros",
+      "enlace": "https://www.xataka.com/empresas-y-economia/jeff-bezos-tiene-teoria-que-gente-odia-a-ricos-exito-no-sinonimo-maldad",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Estos son los tres portátiles que elegiría en este Black Friday",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/ofertas-descuentos/tres-portatiles-pccomponentes/",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "O2 no solo te ofrece roaming gratis en la UE: hay seis países más en los que podrás navegar sin pagar nada",
+      "titulo": "Digi y su último gran movimiento: 10 antenas en 2025, casi 2.000 en 2026 y todavía no ha terminado",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/o2-roaming-seis-paises-fuera-ue/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-nodos-activo-noviembre-2026/",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Nuevos iPhone en 2027: Apple prepara hasta 6 nuevos modelos para el próximo año y ya se han filtrado muchos detalles",
+      "titulo": "Esta versión de Windows 11 tiene los días contados: Microsoft la retira y tu PC puede quedar en peligro",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/nuevos-iphone-2027-apple-prepara-hasta-6-nuevos-modelos-para-proximo-ano-ya-se-han-filtrado-muchos-detalles_7059588_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/esta-version-windows-11-tiene-los-dias-contados-microsoft-retira-tu-pc-puede-quedar-peligro_7059845_0.html",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Los cinco chollos de Xiaomi en el 11.11 de AliExpress que merecen la pena: smart TVs, móviles y más",
+      "titulo": "Acabamos de ver cómo un exoplaneta desaparece de la vista de nuestros telescopios. El culpable es su vecino invisible",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/cinco-chollos-xiaomi-11-11-aliexpress-que-merecen-pena-smart-tvs-moviles",
+      "enlace": "https://www.xataka.com/espacio/acabamos-ver-como-exoplaneta-desaparece-vista-nuestros-telescopios-culpable-su-vecino-invisible",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Lenovo Yoga Pro 9i Aura Edition: así es el mejor portátil del año para productividad y diseño",
+      "titulo": "Jordi Wild, de la hipnosis a Maduro: las cuatro polémicas que vuelven a dar que hablar",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/marcas/lenovo-yoga-pro-9i-aura-edition-potencia-intel-graficos/",
+      "enlace": "https://www.adslzone.net/noticias/internet/jordi-wild-polemicas-carrera/",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Apple echa el cierre a uno de sus servicios más veteranos: desaparecerá después de casi 30 años",
+      "titulo": "Un móvil Android ha permanecido encendido durante 11 años seguidos: esto es lo que ha pasado ahora",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/apple-echa-cierre-uno-sus-servicios-mas-veteranos-desaparecera-despues-casi-30-anos_7059600_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/un-movil-android-ha-permanecido-encendido-durante-11-anos-seguidos-esto-es-que-ha-pasado-ahora_7059842_0.html",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Los buitres mantienen en su interior bacterias propias de cada especie a pesar de que se alimentan de carroña",
+      "titulo": "Cada vez más gente está viendo el nuevo icono '5G+' en sus móviles. Y es una buena noticia para ellos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/buitres-mantienen-su-interior-bacterias-propias-cada-especie-a-pesar-que-se-alimentan-carrona",
+      "enlace": "https://www.xataka.com/telefono-movil/cada-vez-gente-esta-viendo-nuevo-icono-5g-sus-moviles-buena-noticia-para-ellos",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Barcelona abre un mercado de Navidad de 10.000 metros cuadrados: pista de hielo gigante, noria, tren y atracciones con entradas ya disponibles",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/mercado-navidad-barcelona-nadal-westfield/",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "Ahora entiendo mejor por qué un televisor muestra grises en vez de negros o el color salmón en lugar del rojo",
+      "titulo": "Flipper One, el Tamagotchi para los hackers de código abierto para Linux, por fin disponible",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/ahora-entiendo-mejor-por-que-un-televisor-muestra-grises-vez-negros-color-salmon-lugar-rojo_7058341_0.html",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/flipper-one-tamagotchi-para-los-hackers-codigo-abierto-para-linux-por-fin-disponible_7059731_0.html",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Ya es oficial: el nuevo router Mini 2 de Starlink ahora promete WiFi vía satélite sin estar conectado a la corriente",
+      "titulo": "Por primera vez, un robot ha construido de forma autónoma parte de una estructura en el espacio",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/servicios/oficial-nuevo-router-mini-2-starlink-ahora-promete-wifi-via-satelite-estar-conectado-a-corriente",
+      "enlace": "https://www.xataka.com/espacio/primera-vez-robot-ha-construido-forma-autonoma-parte-estructura-espacio",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Garmin confirma un bombazo: podrás llevar Waze gratis en todos estos relojes",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-waze-relojes-avisos-ciclistas/",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "Tom Boger (Apple), sobre el MacBook Pro PROLED XDR: \"Hemos querido trasladar la experiencia táctil de otros dispositivos al ordenador, pero adaptándola para que encaje\"",
+      "titulo": "Apple lo da todo para iluminar su logo en el MacBook Pro con pantalla táctil con un pequeño problema: si se estropea deberás cambiar toda la pantalla",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/tom-boger-apple-sobre-macbook-pro-proled-xdr-hemos-querido-trasladar-experiencia-tactil-otros-dispositivos-ordenador-pero-adaptandola-para-que-encaje_7059243_0.html",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/apple-da-todo-para-iluminar-su-logo-macbook-pro-con-pantalla-tactil-con-un-pequeno-problema-si-se-estropea-deberas-cambiar-toda-pantalla_7059718_0.html",
       "fecha": "11-11-2026"
     }
   ]

@@ -3,6 +3,237 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "El consejo de Nvidia se reúne de urgencia sobre el futuro de Jensen Huang tras revelarse una segunda relación con una directiva",
+      "fuente": "Ars Technica",
+      "fecha": "12-11-2026 00:10",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Nueva York acusa a T-Mobile de imponer ilegalmente un límite de 50 GB en su internet doméstico para rentas bajas",
+      "fuente": "Ars Technica",
+      "fecha": "11-11-2026 21:32",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "IBM presenta Nighthawk r3, un procesador cuántico de 520 qubits que se puede conectar con otros chips",
+      "fuente": "Hipertextual",
+      "fecha": "11-11-2026 20:29",
+      "enlace": "https://hipertextual.com/hardware/ibm-procesador-cuantico-nighthawk-r3/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Amazon lanza Ring Drone Cam, un dron doméstico de vigilancia, y un robot de seguridad para negocios",
+      "fuente": "Xataka",
+      "fecha": "11-11-2026 18:01",
+      "enlace": "https://www.xataka.com/robotica-e-ia/camaras-ring-ahora-se-mueven-amazon-entra-mundo-robots-domesticos-dron-que-vuela-salon-casa",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Roku dejará de vender dispositivos para el hogar inteligente días después de pasar a manos de Fox",
+      "fuente": "Engadget",
+      "fecha": "11-11-2026 18:44",
+      "enlace": "https://www.engadget.com/2313802/roku-will-stop-selling-smart-home-devices-and-refocus-on-streaming/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Home Assistant lanza Connect Aux-2, una caja de 69 dólares para integrar dispositivos no inteligentes",
+      "fuente": "The Verge",
+      "fecha": "11-11-2026 23:00",
+      "enlace": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Toyota resucita Scion con el KEI-01, una camioneta kei fabricada en EE. UU. que llegará en 2027",
+      "fuente": "The Verge",
+      "fecha": "11-11-2026 18:09",
+      "enlace": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "El consumo eléctrico de los centros de datos en EE. UU. crece diez veces más rápido que la red",
+      "fuente": "The Register",
+      "fecha": "11-11-2026 18:47",
+      "enlace": "https://www.theregister.com/systems/2026/11/11/us-bit-barn-boom-sees-energy-needs-grow-10x-as-fast-as-grid-capacity/5309191",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "NVIDIA podría destituir a Jensen Huang como CEO tras el escándalo con la espía china",
+      "fuente": "Hipertextual",
+      "fecha": "12-11-2026",
+      "enlace": "https://hipertextual.com/economia-empresas/jensen-huang-destitucion-nvidia-escandalo/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Anduril asegura que su primer satélite puede ver maniobras de adversarios en la noche orbital",
+      "fuente": "Ars Technica",
+      "fecha": "11-11-2026",
+      "enlace": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "He visto el futuro de la robótica en un pato virtual que persigue a mi gato",
+      "fuente": "Wired",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "¿Cuántas pruebas del cohete Starship de SpaceX han fallado?",
+      "fuente": "Engadget",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.engadget.com/2314045/how-many-spacex-starship-rocket-tests-failed/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Peacock rediseña su app móvil para centrarse en los vídeos verticales",
+      "fuente": "Engadget",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.engadget.com/2313912/peacock-is-redesigning-its-mobile-app-to-focus-more-on-vertical-videos/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "La Administración Trump pierde el pulso para espiar los mensajes de LinkedIn de periodistas al azar",
+      "fuente": "Ars Technica",
+      "fecha": "11-11-2026",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Los servicios web de Canonical fallan justo antes de la Ubuntu Summit",
+      "fuente": "The Register",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/11/canonical-web-services-get-stage-fright-ahead-of-ubuntu-summit/5309186",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "El cierre de AO3 enfrenta a lectores y autores de fanfics",
+      "fuente": "Wired",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "El MacBook Pro táctil de Apple no soporta que lo desmonten",
+      "fuente": "The Register",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.theregister.com/personal-tech/2026/11/11/apples-touchscreen-macbook-pro-does-not-like-to-be-taken-apart/5309110",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Un cofundador de Siri respalda a Helix por su tecnología de identificación por voz",
+      "fuente": "TechCrunch",
+      "fecha": "11-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Ocarina of Time mejora si usas una app de smartphone",
+      "fuente": "The Verge",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.theverge.com/games/1031321/the-legend-of-zelda-ocarina-of-time-notes-app-gold-skulltula",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "El Patch Tuesday de Microsoft no puede romper nada si no se instala",
+      "fuente": "The Register",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/11/microsofts-patch-tuesday-cant-break-stuff-if-it-wont-install/5309059",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "El Black Friday se adelanta con la TCL C6K Pro: una tele Mini LED de gama alta con Google TV, de 55 a 85 pulgadas (y hasta 98 con la C6K)",
+      "fuente": "Xataka",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.xataka.com/seleccion/black-friday-se-adelanta-tcl-c6k-pro-tele-mini-led-gama-alta-google-tv-55-a-85-pulgadas-98-c6k",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "La razón por la que tu router de Movistar no descarga la última actualización, aunque ya esté disponible",
+      "fuente": "ADSLZone",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/router-movistar-descarga-ultima-actualizacion/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Ni bancos ni criptomonedas: los camiones cargados de memoria RAM y componentes se convierten en el principal objetivo de las bandas organizadas",
+      "fuente": "ComputerHoy",
+      "fecha": "11-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/ni-bancos-ni-criptomonedas-los-camiones-cargados-memoria-ram-componentes-se-convierten-principal-objetivo-las-bandas-organizadas_7059734_0.html",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Jeff Bezos tiene una teoría sobre por qué la gente odia a los ricos: \"El éxito no es sinónimo de maldad\"",
+      "fuente": "Xataka",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/jeff-bezos-tiene-teoria-que-gente-odia-a-ricos-exito-no-sinonimo-maldad",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Digi y su último gran movimiento: 10 antenas en 2025, casi 2.000 en 2026 y todavía no ha terminado",
+      "fuente": "ADSLZone",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-nodos-activo-noviembre-2026/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Esta versión de Windows 11 tiene los días contados: Microsoft la retira y tu PC puede quedar en peligro",
+      "fuente": "ComputerHoy",
+      "fecha": "11-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/esta-version-windows-11-tiene-los-dias-contados-microsoft-retira-tu-pc-puede-quedar-peligro_7059845_0.html",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Acabamos de ver cómo un exoplaneta desaparece de la vista de nuestros telescopios. El culpable es su vecino invisible",
+      "fuente": "Xataka",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.xataka.com/espacio/acabamos-ver-como-exoplaneta-desaparece-vista-nuestros-telescopios-culpable-su-vecino-invisible",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Jordi Wild, de la hipnosis a Maduro: las cuatro polémicas que vuelven a dar que hablar",
+      "fuente": "ADSLZone",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.adslzone.net/noticias/internet/jordi-wild-polemicas-carrera/",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Un móvil Android ha permanecido encendido durante 11 años seguidos: esto es lo que ha pasado ahora",
+      "fuente": "ComputerHoy",
+      "fecha": "11-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/un-movil-android-ha-permanecido-encendido-durante-11-anos-seguidos-esto-es-que-ha-pasado-ahora_7059842_0.html",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Cada vez más gente está viendo el nuevo icono '5G+' en sus móviles. Y es una buena noticia para ellos",
+      "fuente": "Xataka",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.xataka.com/telefono-movil/cada-vez-gente-esta-viendo-nuevo-icono-5g-sus-moviles-buena-noticia-para-ellos",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Flipper One, el Tamagotchi para los hackers de código abierto para Linux, por fin disponible",
+      "fuente": "ComputerHoy",
+      "fecha": "11-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/flipper-one-tamagotchi-para-los-hackers-codigo-abierto-para-linux-por-fin-disponible_7059731_0.html",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Por primera vez, un robot ha construido de forma autónoma parte de una estructura en el espacio",
+      "fuente": "Xataka",
+      "fecha": "11-11-2026",
+      "enlace": "https://www.xataka.com/espacio/primera-vez-robot-ha-construido-forma-autonoma-parte-estructura-espacio",
+      "turno": "2026-11-12_M"
+    },
+    {
+      "titulo": "Apple lo da todo para iluminar su logo en el MacBook Pro con pantalla táctil con un pequeño problema: si se estropea deberás cambiar toda la pantalla",
+      "fuente": "ComputerHoy",
+      "fecha": "11-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/apple-da-todo-para-iluminar-su-logo-macbook-pro-con-pantalla-tactil-con-un-pequeno-problema-si-se-estropea-deberas-cambiar-toda-pantalla_7059718_0.html",
+      "turno": "2026-11-12_M"
+    },
+    {
       "titulo": "La UE propone la Ley de Equidad Digital: prohíbe los «dark patterns» y las funciones adictivas como las rachas de Duolingo",
       "fuente": "Wired",
       "fecha": "11-11-2026 14:36",
