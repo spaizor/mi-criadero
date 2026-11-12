@@ -1,134 +1,122 @@
 {
   "seccion": "ia",
-  "actualizado": "11-11-2026 16:13",
+  "actualizado": "12-11-2026 04:09",
   "destacadas": [
     {
-      "titulo": "Las ventas a empresas llevan los ingresos trimestrales de OpenAI a 10.000 millones, aunque sigue por detrás de Anthropic",
-      "resumen": "OpenAI ingresó unos 10.000 millones de dólares en el tercer trimestre, cerca de un 50 % más que el anterior y casi el triple que hace un año, pero su pérdida operativa ajustada subió a 10.900 millones. Anthropic facturó 17.000 millones (+47 %) con una pérdida de 567 millones y prevé salir a bolsa la próxima semana. ChatGPT suma 100 millones de suscriptores de pago y 1.200 millones de usuarios semanales.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
-      "fecha": "11-11-2026 13:12"
-    },
-    {
-      "titulo": "Intermediarios de datos de EE. UU. venden 500 millones de dólares en entornos de entrenamiento RL a laboratorios chinos",
-      "resumen": "Según una investigación de ChinaTalk, al menos nueve empresas estadounidenses, entre ellas Mercor, Surge AI, AfterQuery y Turing, venden a laboratorios chinos los mismos datos y entornos de aprendizaje por refuerzo que ofrecen a Anthropic u OpenAI. AfterQuery obtendría unos 100 millones de dólares de ingresos anuales de clientes chinos, cifra que ChinaTalk no pudo verificar. Los autores piden controles de exportación a los entornos de doble uso, como ciberseguridad y biología.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
-      "fecha": "11-11-2026 14:51"
-    },
-    {
-      "titulo": "OpenAI crea un «interruptor de apagado» para sus modelos de investigación",
-      "resumen": "OpenAI presentó «Control Room», un sistema central para rastrear y detener cargas de trabajo de sus modelos de investigación. Puede cortar la salida de un modelo 35 segundos después de decidirlo, por una capa de caché que autoriza las inferencias, y la empresa quiere reducirlo a cero. Llega tras varios incidentes con modelos, entre ellos los de Hugging Face (julio) y la Wikimedia Foundation (octubre).",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/11/openai-builds-a-kill-switch-for-its-research-models/5309006",
-      "fecha": "11-11-2026 06:20"
-    },
-    {
-      "titulo": "Una niña de 13 años consultó a la IA sobre el suicidio en su portátil escolar y nadie lo detectó durante semanas",
-      "resumen": "Una demanda de los padres de una niña de Carolina del Norte acusa a Google y Alphabet de negligencia en el despliegue de Gemini, que según el texto la «guio» hacia el suicidio desde el modo IA del buscador en su Chromebook escolar. Durante unos tres meses habló de depresión, buscó información sobre suicidio y redactó un elogio fúnebre de 1.500 palabras; la alerta del software de vigilancia llegó al teléfono de una exconsejera que ya no trabajaba en el colegio. El senador Ed Markey ha pedido a Google que deje a los colegios desactivar el modo IA.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
-      "fecha": "11-11-2026 12:00"
-    },
-    {
-      "titulo": "Alibaba sacará a bolsa en Hong Kong T-Head, su filial de chips de IA",
-      "resumen": "T-Head presentó su solicitud de cotización el 11 de septiembre tras recibir el visto bueno de la Bolsa de Hong Kong, aunque Alibaba no ha concretado el tamaño de la oferta ni la participación que conservará. En septiembre la filial presentó el Zhenwu V900, un chip con un rendimiento 3 veces superior al de su generación anterior, válido para entrenar y ejecutar modelos. La operación busca reducir la dependencia china de Nvidia.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/china-ya-tiene-su-alternativa-nvidia-alibaba-prepara-un-movimiento-millonario-con-sus-chips-ia_7059602_0.html",
-      "fecha": "11-11-2026 10:01"
-    },
-    {
-      "titulo": "El nuevo agente de IA de Databricks le dice a su CEO, Ali Ghodsi, la verdad sin adornos",
-      "resumen": "Databricks presentó una versión actualizada de Genie, un agente capaz de hacer tareas de varios pasos sin supervisión gracias a una ontología con el contexto de los datos de la plataforma. Ghodsi, al frente de 12.000 empleados, lo usa para analizar encuestas, evaluar propuestas de ejecutivos y preparar un podcast. Dice que los costes se controlan con Unity Gateway, que permite fijar límites y cambiar a modelos abiertos más baratos.",
+      "titulo": "Nvidia se prepara para destituir a Jensen Huang y sus acciones caen cerca de un 8 % tras el cierre",
+      "resumen": "Según el Wall Street Journal, el consejo de Nvidia se prepara para apartar a Huang, que lleva 33 años al frente, tras admitir el domingo una relación con una mujer que la inteligencia de EE. UU. considera espía china. El New York Times añade una segunda relación, con una ejecutiva que le reporta directamente. La acción cayó cerca de un 8 % fuera de horario y un 11 % en cinco días, y la empresa, sin sucesor claro, trabaja con una firma externa para buscar candidatos, según Bloomberg.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
-      "fecha": "11-11-2026 16:00"
+      "enlace": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "fecha": "12-11-2026 00:28"
     },
     {
-      "titulo": "Google mejora el rendimiento de la IA en Python... quitando Python",
-      "resumen": "Google liberará como código abierto XSE (XLA Serving Engine), que ya atiende más de seis millones de consultas por segundo en YouTube Shorts, Google Ads y Search. En sus pruebas con peticiones cortas logra de dos a cinco veces el rendimiento de su mejor servidor Python optimizado, con una cuarta parte de la memoria. Los modelos se escriben en Python con JAX, pero se sirven con un runtime en C++ que compila con XLA, sin intérprete de Python.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/devops/2026/11/11/google-gooses-python-ai-performance-by-removing-python/5308995",
-      "fecha": "11-11-2026 12:30"
+      "titulo": "TSMC invertirá 1.000 millones de dólares en Anthropic y OpenAI",
+      "resumen": "El consejo de TSMC aprobó, según Reuters, hasta 500 millones en acciones preferentes de OpenAI y otros 500 millones en acciones de Anthropic al precio esperado de su salida a bolsa. Los analistas advierten de que esta financiación circular entre inversores, proveedores y clientes dificulta medir la demanda real de hardware de IA. TSMC ganó más de 23.000 millones de dólares entre julio y septiembre, su sexto trimestre seguido de beneficios récord.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+      "fecha": "11-11-2026 19:16"
+    },
+    {
+      "titulo": "La salida a bolsa de Anthropic se desinflaba y ahora tiene más demanda institucional que SpaceX",
+      "resumen": "Con una horquilla de 70 a 78 dólares por acción y una valoración de entre 1,26 y 1,41 billones, según CNBC los pedidos cubren toda la oferta y los bancos estudian subir el precio. Se fijará el 18 de noviembre y cotizará en Nasdaq el 19 con el ticker $ANT. Anthropic tenía unos ingresos anualizados de 81.000 millones en octubre y una colocación privada de 26.000 millones de proveedores como Nvidia, Google o TSMC.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/salida-a-bolsa-anthropic-se-estaba-desinflando-ahora-tiene-demanda-institucional-que-spacex",
+      "fecha": "11-11-2026 18:31"
+    },
+    {
+      "titulo": "Google presenta Gemini Decision 1, que puntúa 1.000 preguntas en una sola pasada",
+      "resumen": "DeepMind lanza la Gemini Decisions API para decisiones cerradas (sí/no, opción múltiple y escalas), con entradas de texto, imagen, audio, vídeo y PDF y respuestas con probabilidades en 150-250 milisegundos. Cuesta 0,10 dólares por millón de tokens de entrada, unas cinco veces menos que Gemini 3.5 Flash-Lite según Google, y ya está en AI Studio. Google lo usa internamente en el enrutado de modelos de Gemini Notebook y en comprobaciones de seguridad de Search.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
+      "fecha": "11-11-2026 21:12"
+    },
+    {
+      "titulo": "United no dejará que tu agente de IA reserve tus vuelos",
+      "resumen": "La aerolínea prohíbe que asistentes personales de IA completen compras en su web, alegando privacidad y normativa federal sobre la información que debe darse al pasajero. Los agentes aún pueden mostrar vuelos, pero no cerrar la reserva. El consejero delegado, Scott Kirby, dijo que no quiere «crear otro intermediario»; eBay y varios bancos también restringen a los agentes, lo que limita a asistentes como Muse de Meta o Dots de OpenAI.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "fecha": "11-11-2026 22:54"
+    },
+    {
+      "titulo": "Sam Altman quiere que Samsung le ayude a crear el sucesor del smartphone",
+      "resumen": "Según Financial News, el CEO de OpenAI se reunió con directivos de Samsung a finales de octubre para plantear un dispositivo conjunto: un asistente físico con IA basado en modelos como ChatGPT y Codex. El primer aparato de OpenAI sería un pequeño altavoz inteligente sin pantalla, y Altman apuntó hace un año a un posible lanzamiento en 2027. OpenAI ya fichó a Jony Ive y a varios ejecutivos de Apple, con quien mantiene una relación tensa por demandas de secretos comerciales.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/sam-altman-openai-quiere-que-samsung-le-ayude-a-crear-el-sucesor-del-smartphone/",
+      "fecha": "11-11-2026 22:49"
+    },
+    {
+      "titulo": "Una startup quiere combatir las armas biológicas creadas con IA con más IA",
+      "resumen": "Radical Numerics presentó Omnii Defense, un modelo ligero que detecta patógenos naturales o diseñados con IA con un portátil y un secuenciador genético USB, incluso sin conexión. Asigna a cada genoma una puntuación de amenaza de 0 a 1 y, a diferencia de herramientas como Felix, predice funciones en lugar de buscar coincidencias exactas. La empresa está en el centro de una polémica: George Church dimitió como asesor por no revelar una colaboración con Tabula Bioscience.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
+      "fecha": "11-11-2026 18:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Anthropic dice que la IA erosiona la ventaja de CUDA de Nvidia: cambiar a un chip AMD pasa de meses a tres días",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "Plurai quiere mejorar a los agentes de IA con el enfoque que llevó los coches autónomos a la carretera",
+      "titulo": "El escándalo de Jensen Huang, cronología",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "enlace": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "Meta pierde a su jefe de infraestructura de toda la vida",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Los experimentos de IA de Adobe permiten pasear dentro de las fotos y entrevistar a tus personajes",
+      "titulo": "CoreWeave recurre a prepagos de clientes y contratos más cortos para financiar su crecimiento en IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "El gasto empresarial en IA en EE. UU. marca un máximo en octubre, pero el crecimiento se frena al 1,65 %",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "La británica Fractile logra 720 millones de dólares en la carrera por los chips de IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "El Congreso citará a Jensen Huang por la supuesta relación con una espía china",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+      "fecha": "11-11-2026"
+    },
+    {
+      "titulo": "Tabletop, el experimento de IA de Google para crear aplicaciones de colaboración a medida",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "enlace": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "DeepL quiere que la traducción en tiempo real capte por fin el sarcasmo y los cambios de ánimo",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "The Download: preservar mentes y sopesar los riesgos de la IA abierta",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "El regulador británico amenaza a las universidades con sanciones si no adoptan exámenes a prueba de IA",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "El trabajo de moda en ingeniería de software ya no es programar: es reunirse con el cliente para asegurarse de que la IA funcione",
+      "titulo": "Lidl trae a su tienda online la chimenea eléctrica con efectos de llama que tiene varias temperaturas y un diseño muy decorativo",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/trabajo-moda-ingenieria-software-no-programar-reunirse-cliente-para-asegurarse-que-ia-funcione",
+      "enlace": "https://www.xataka.com/seleccion/lidl-trae-a-su-tienda-online-chimenea-electrica-efectos-llama-que-tiene-varias-temperaturas-diseno-muy-decorativo",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Lorenzo Stoakes, mítico desarrollador del kernel de Linux, abandona por culpa de la IA: \"Lamentablemente no dispongo del ancho de banda suficiente\"",
+      "titulo": "Darling, la alternativa a Wine para ejecutar aplicaciones de macOS en Linux revive gracias a la inteligencia artificial",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/lorenzo-stoakes-mitico-desarrollador-kernel-linux-abandona-por-culpa-ia-lamentablemente-no-dispongo-ancho-banda-suficiente_7059672_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/darling-alternativa-wine-para-ejecutar-aplicaciones-macos-linux-revive-gracias-inteligencia-artificial_7059719_0.html",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "La tecnología entra en la campaña electoral del 29-N: deepfakes en los juzgados, carteros inventados y un lector QR de 113 euros",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/tecnologia-entra-campana-electoral-29-n-deepfakes-juzgados-carteros-inventados-lector-qr-113-euros",
+      "titulo": "Dile adiós a reservar vuelos con una IA: esta aerolínea comienza a bloquear las compras hechas por agentes",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/united-airlines-bloquea-la-compra-de-boletos-con-agentes-de-ia/",
       "fecha": "11-11-2026"
     },
     {
-      "titulo": "Gemini da el salto al mundo real: los robots de Google ya pueden hacer trabajos que antes parecían imposibles",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/gemini-da-salto-mundo-real-los-robots-google-ya-pueden-hacer-trabajos-que-antes-parecian-imposibles_7059665_0.html",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "Google abre las puertas a Gemini 4 Carbon, su modelo más avanzado, pero hay un detalle que no te gustará",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-abre-las-puertas-gemini-4-carbon-su-modelo-mas-avanzado-pero-hay-un-detalle-que-no-te-gustara_7059586_0.html",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "Brais Moure, ingeniero de software: \"Extraño programar sin IA pero, os guste o no, vamos tener inteligencia artificial hasta en la sopa\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/brais-moure-ingeniero-software-extrano-programar-sin-ia-pero-os-guste-no-vamos-tener-inteligencia-artificial-hasta-sopa_7059254_0.html",
-      "fecha": "11-11-2026"
-    },
-    {
-      "titulo": "He probado el LG OLED evo AI G6 y el OLED aún está muy vigente en la gama alta, pero webOS falla demasiado",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/he-probado-lg-oled-evo-ai-g6-oled-aun-esta-muy-vigente-gama-alta-pero-webos-falla-demasiado_7056713_0.html",
+      "titulo": "Microsoft quiere usar la potencia que tu ordenador desperdicia todos los días (y te pagará por ello)",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/microsoft-patente-gpu-gamers-entrenamiento-ia/",
       "fecha": "11-11-2026"
     }
   ]
