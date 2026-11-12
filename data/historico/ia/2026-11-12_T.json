@@ -1,0 +1,81 @@
+{
+  "seccion": "ia",
+  "actualizado": "12-11-2026 16:12",
+  "destacadas": [
+    {
+      "titulo": "Jensen Huang dimite como CEO de Nvidia tras el escándalo de espionaje y las infidelidades",
+      "resumen": "El consejo de Nvidia aceptó la dimisión de Huang como CEO, presidente y consejero, con efecto inmediato, tras las informaciones sobre dos aventuras extramatrimoniales, una de ellas con una ejecutiva de Megaspeed acusada de pasar información a la inteligencia china. La directora financiera Colette Kress será CEO interina y Harvey C. Jones, exCEO de Synopsys, será el primer presidente del consejo en la historia de la compañía. Nvidia busca un CEO permanente entre candidatos internos y externos.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
+      "fecha": "12-11-2026 14:53"
+    },
+    {
+      "titulo": "Un ciberataque a Fireworks AI expone las conversaciones de clientes de Notion AI",
+      "resumen": "Un atacante vulneró al proveedor de nube de Fireworks AI y accedió a un sistema de desarrollo, con lo que robó datos de facturación y algunos conjuntos de datos de clientes. Notion confirma que afectó a cerca del 1 % de sus clientes y que se llevaron transcripciones de chat de la función «Insights» de Notion AI; desconectó sus sistemas el 3 de noviembre. Es la segunda brecha de Fireworks en dos meses y los atacantes buscarían vender acceso a modelos de lenguaje.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "fecha": "12-11-2026 16:02"
+    },
+    {
+      "titulo": "Google lanza sus gafas inteligentes con Gemini desde 395 dólares",
+      "resumen": "Gentle Monster y Warby Parker abren las reservas de las primeras gafas con Gemini, fabricadas con Samsung: desde 395 dólares las de Warby Parker (solo EE. UU.) y desde 449 las de Gentle Monster (EE. UU. y Corea del Sur). Pesan unos 41 gramos, no llevan pantalla y se manejan con voz o cámara con «Hey Gemini». Google insiste en la privacidad, con micrófonos direccionales que no captan a otras personas.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+      "fecha": "12-11-2026 15:50"
+    },
+    {
+      "titulo": "Google DeepMind presenta AlphaGenome 2, que predice efectos genéticos por tipo de célula",
+      "resumen": "El nuevo modelo, entrenado con más de 107 millones de perfiles celulares de 68 tejidos, calcula el efecto de variantes del ADN en un tipo celular concreto. En el banco TenK10K identificó cerca del 30 % de las variantes causales frente al 16 % de una versión ajustada de AlphaGenome 1. También predice metilación del ADN y reprodujo por ordenador un mecanismo de la enfermedad inflamatoria intestinal vinculado al gen ETS2.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+      "fecha": "12-11-2026 13:09"
+    },
+    {
+      "titulo": "Australia propone obligar a los creadores de modelos de frontera a someterse a auditorías independientes",
+      "resumen": "El Gobierno de Albanese anuncia una ley que impondría por primera vez normas de seguridad obligatorias a las empresas de IA más avanzadas. Un nuevo organismo, junto al Instituto de Seguridad de IA australiano, podrá imponer sanciones elevadas. Las empresas deberán permitir auditorías independientes, publicar sus marcos de seguridad y notificar de inmediato los incidentes, incluidos los de agentes que se descontrolen.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+      "fecha": "12-11-2026 11:09"
+    },
+    {
+      "titulo": "Una IA de Microsoft encuentra en Rust un fallo crítico oculto durante casi once años",
+      "resumen": "El laboratorio FORGE de Microsoft usó Hyenas, una versión basada en agentes del sistema MDASH, para analizar los fallos de memoria de la biblioteca estándar de Rust. Halló un error presente desde 2015 en la pila de señales de process::exit, además de fallos en MapWindows::clone y str::replace. Los clasificó en tres patrones, entre ellos la confianza ciega en implementaciones del usuario.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/ia-microsoft-pone-jaque-seguridad-rust-localiza-un-error-critico-que-ha-estado-oculto-durante-mas-10-anos_7060069_0.html",
+      "fecha": "12-11-2026 12:55"
+    },
+    {
+      "titulo": "Google DeepMind verifica matemáticamente el protocolo de Signal con agentes de IA",
+      "resumen": "Con AlphaProof Code, un marco de agentes basado en Gemini 4 Carbon, DeepMind verificó formalmente el código de producción en Rust del protocolo de Signal compilado a AArch64. Los agentes generaron de forma autónoma más de 6,5 millones de líneas de pruebas sobre un repositorio de unos 7 millones, en cuatro semanas y con cinco investigadores. El CTO de Signal, Ehren Kret, lo ve como un gran avance.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/ia-google-pone-prueba-seguridad-signal-alternativa-segura-whatsapp-resultado-es-historico_7060061_0.html",
+      "fecha": "12-11-2026 10:43"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "ElevenLabs Scribe v3 Live usa el contexto de la conversación para que los agentes de voz no corten a quien llama a media frase",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "Sale el último informe de FreeBSD y el debate sobre la IA continúa",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/12/the-latest-freebsd-report-is-here-and-the-ai-debate-is-ongoing/5309206",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "Blue quiere que dejes el iPhone por un Android con un agente de IA dentro. La gran duda es cómo pagarlo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/telefono-movil/blue-quiere-que-dejes-iphone-android-agente-ia-dentro-gran-duda-como-pagarlo",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "Kirt McMaster, cofundador de Cyanogen, lanza KORA, una alternativa a Windows con Linux nativo con IA que llegará gratis en 2027",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/kirt-mcmaster-cofundador-cyanogen-lanza-kora-una-alternativa-windows-con-linux-nativo-con-ia-que-llegara-gratis-2027_7059722_0.html",
+      "fecha": "12-11-2026"
+    }
+  ]
+}

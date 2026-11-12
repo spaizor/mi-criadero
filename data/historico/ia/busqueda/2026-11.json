@@ -3,6 +3,83 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "Jensen Huang dimite como CEO de Nvidia tras el escándalo de espionaje y las infidelidades",
+      "fuente": "The Verge",
+      "fecha": "12-11-2026 14:53",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
+      "turno": "2026-11-12_T"
+    },
+    {
+      "titulo": "Un ciberataque a Fireworks AI expone las conversaciones de clientes de Notion AI",
+      "fuente": "TechCrunch",
+      "fecha": "12-11-2026 16:02",
+      "enlace": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "turno": "2026-11-12_T"
+    },
+    {
+      "titulo": "Google lanza sus gafas inteligentes con Gemini desde 395 dólares",
+      "fuente": "Ars Technica",
+      "fecha": "12-11-2026 15:50",
+      "enlace": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+      "turno": "2026-11-12_T"
+    },
+    {
+      "titulo": "Google DeepMind presenta AlphaGenome 2, que predice efectos genéticos por tipo de célula",
+      "fuente": "The Decoder",
+      "fecha": "12-11-2026 13:09",
+      "enlace": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+      "turno": "2026-11-12_T"
+    },
+    {
+      "titulo": "Australia propone obligar a los creadores de modelos de frontera a someterse a auditorías independientes",
+      "fuente": "The Decoder",
+      "fecha": "12-11-2026 11:09",
+      "enlace": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+      "turno": "2026-11-12_T"
+    },
+    {
+      "titulo": "Una IA de Microsoft encuentra en Rust un fallo crítico oculto durante casi once años",
+      "fuente": "ComputerHoy",
+      "fecha": "12-11-2026 12:55",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/ia-microsoft-pone-jaque-seguridad-rust-localiza-un-error-critico-que-ha-estado-oculto-durante-mas-10-anos_7060069_0.html",
+      "turno": "2026-11-12_T"
+    },
+    {
+      "titulo": "Google DeepMind verifica matemáticamente el protocolo de Signal con agentes de IA",
+      "fuente": "ComputerHoy",
+      "fecha": "12-11-2026 10:43",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/ia-google-pone-prueba-seguridad-signal-alternativa-segura-whatsapp-resultado-es-historico_7060061_0.html",
+      "turno": "2026-11-12_T"
+    },
+    {
+      "titulo": "ElevenLabs Scribe v3 Live usa el contexto de la conversación para que los agentes de voz no corten a quien llama a media frase",
+      "fuente": "The Decoder",
+      "fecha": "12-11-2026",
+      "enlace": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
+      "turno": "2026-11-12_T"
+    },
+    {
+      "titulo": "Sale el último informe de FreeBSD y el debate sobre la IA continúa",
+      "fuente": "The Register",
+      "fecha": "12-11-2026",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/12/the-latest-freebsd-report-is-here-and-the-ai-debate-is-ongoing/5309206",
+      "turno": "2026-11-12_T"
+    },
+    {
+      "titulo": "Blue quiere que dejes el iPhone por un Android con un agente de IA dentro. La gran duda es cómo pagarlo",
+      "fuente": "Xataka",
+      "fecha": "12-11-2026",
+      "enlace": "https://www.xataka.com/telefono-movil/blue-quiere-que-dejes-iphone-android-agente-ia-dentro-gran-duda-como-pagarlo",
+      "turno": "2026-11-12_T"
+    },
+    {
+      "titulo": "Kirt McMaster, cofundador de Cyanogen, lanza KORA, una alternativa a Windows con Linux nativo con IA que llegará gratis en 2027",
+      "fuente": "ComputerHoy",
+      "fecha": "12-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/kirt-mcmaster-cofundador-cyanogen-lanza-kora-una-alternativa-windows-con-linux-nativo-con-ia-que-llegara-gratis-2027_7059722_0.html",
+      "turno": "2026-11-12_T"
+    },
+    {
       "titulo": "Nvidia se prepara para destituir a Jensen Huang y sus acciones caen cerca de un 8 % tras el cierre",
       "fuente": "TechCrunch",
       "fecha": "12-11-2026 00:28",
