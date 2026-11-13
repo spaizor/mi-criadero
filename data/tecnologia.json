@@ -1,213 +1,213 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "12-11-2026 15:15",
+  "actualizado": "13-11-2026 03:11",
   "destacadas": [
     {
-      "titulo": "Jensen Huang dimite como CEO de Nvidia y Colette Kress asume como directora ejecutiva interina",
-      "resumen": "Nvidia confirmó el jueves la renuncia de Jensen Huang como presidente y CEO, aceptada por la junta el miércoles 11 de noviembre según un documento ante la SEC, días después de que admitiera una relación con una presunta espía china. La directora financiera Colette Kress dirigirá la compañía de forma interina y seguirá como CFO, y Harvey Jones es el primer presidente de la junta. Las acciones cayeron más de un 11 % en el premercado y la empresa ha perdido más de 300.000 millones de dólares de capitalización desde el viernes anterior.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
-      "fecha": "12-11-2026 15:10"
-    },
-    {
-      "titulo": "Llegan las gafas inteligentes Android XR de Google y Samsung, desde 395 dólares",
-      "resumen": "Las gafas, diseñadas con Warby Parker (desde 395 $) y Gentle Monster (desde 449 $), se pueden reservar ya y salen a la venta el 10 de diciembre. Pesan unos 41 gramos, tienen nueve horas de batería, cámara de 12 megapíxeles con LED de aviso y son las primeras con la palabra de activación «Hey Gemini». Solo funcionan con Pixel 7 o posterior, ciertos Galaxy con One UI 9.0 y iPhone 13 Pro o posterior.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/google-samsung-intelligent-eyewear-launch-warby-parker-gentle-monster-smart-glasses/",
-      "fecha": "12-11-2026 15:00"
-    },
-    {
-      "titulo": "Hackers explotan un fallo de un complemento de ScreenConnect para infectar a cientos de equipos",
-      "resumen": "Huntress detectó el ataque el 11 de noviembre: al menos 288 equipos de 48 organizaciones fueron alcanzados en 90 minutos con el kit de malware SCKit. El fallo está en la extensión RMM+ (versiones 1.0.31 y 1.0.32), que acepta una clave de acceso en blanco si no se ha configurado una. ConnectWise identificó unas 400 instalaciones con extensiones de esa familia y deshabilitó cinco de forma remota.",
+      "titulo": "Microsoft no logra resolver una caída masiva de su nube que afecta al correo y a Intune",
+      "resumen": "Desde las 18:00 UTC del 12 de noviembre dejaron de funcionar Exchange Online, Teams, Copilot 365 y Defender for Office 365, y los administradores tampoco podían entrar en Intune. Microsoft atribuye el fallo a un componente que procesa la salud de los servidores y que se ha «saturado»; un método alternativo de comprobación recuperó solo parte de los equipos y la empresa admite que sus acciones no han dado el alivio esperado, sin fecha de restablecimiento.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/12/hackers-exploiting-screenconnect-plugin-flaw-to-spread-malware-across-hundreds-of-pcs/5309361",
-      "fecha": "12-11-2026 14:02"
+      "enlace": "https://www.theregister.com/saas/2026/11/12/microsoft-struggling-to-fix-massive-cloud-outage-thats-taken-down-email-and-intune/5309531",
+      "fecha": "13-11-2026 00:06"
     },
     {
-      "titulo": "TikTok no será prohibido en España pese a las acusaciones de abuso de menores",
-      "resumen": "Tras una investigación de Maldita.es sobre contenido de abuso sexual infantil en TikTok y la petición del Gobierno de bloquearla, la AEPD confirmó que no bloqueará la red social. Pedirá a Maldita.es los enlaces denunciados y a TikTok información sobre cómo retira esos contenidos, y podría ordenar bloquear enlaces concretos. La Fiscalía de Criminalidad Informática investiga posibles delitos.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/tecnologia/pese-a-las-acusaciones-de-abuso-de-menores-y-la-peticion-del-gobierno-tiktok-no-sera-prohibido-en-espana/",
-      "fecha": "12-11-2026 12:57"
+      "titulo": "Zelenski denuncia que Starshield vuelve a estar limitado a 161 km/h en territorio ocupado",
+      "resumen": "El presidente ucraniano dijo en la cumbre de la Comunidad Política Europea en Irlanda que el límite de velocidad de 161 km/h ha vuelto y que EE. UU. ha dado «muy poca» información. Sostiene que impide a los drones interceptores alcanzar a los Shahed rusos; SpaceX lo niega («no ha habido ningún cambio») y Musk dijo el mes pasado que esas decisiones las toma el Gobierno estadounidense.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/ukraine-says-spacex-starshield-is-restricted-again-spacex-claims-it-isnt/",
+      "fecha": "12-11-2026 20:09"
     },
     {
-      "titulo": "Nintendo dejará de permitir el acceso con cuentas de Google y Apple el 26 de enero de 2027",
-      "resumen": "Desde esa fecha no se podrá iniciar sesión ni crear cuentas nuevas con Google o Apple, y termina también la misión de My Nintendo que premiaba vincular Google. La compañía recomienda crear una contraseña o una passkey antes de esa fecha desde los ajustes de seguridad de la cuenta. No ha explicado el motivo del cambio.",
+      "titulo": "Muse, el agente de Meta, ya puede llamar por teléfono en tu nombre con una suscripción de pago",
+      "resumen": "Alexandr Wang, responsable de IA de Meta, anunció que Muse puede llamar a negocios para reservar o pedir cita, función reservada a quien pague una suscripción aparte con más tokens. En una llamada compartida con un concesionario Volvo esperó 15 minutos en línea, aunque no se identificó como IA. Muse supera los 10 millones de usuarios y ahora admite un correo propio para el agente.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2314515/nintendo-is-ending-google-and-apple-sign-ins-early-next-year/",
-      "fecha": "12-11-2026 12:19"
+      "enlace": "https://www.engadget.com/2315525/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/",
+      "fecha": "13-11-2026 00:32"
     },
     {
-      "titulo": "Fairphone consigue su primer socio operador en EE. UU. con Boost Mobile",
-      "resumen": "El Fairphone Gen. 6+, de 650 dólares y único modelo con red móvil que la marca vende en EE. UU., podrá activarse con cualquier plan de Boost, aunque se comprará en Fairphone o Amazon y no en las tiendas del operador. Fairphone lo presenta como una primera fase y anuncia más novedades conjuntas. Las baterías de repuesto cuestan 40 $ y las pantallas 90 $, y la garantía llega a cinco años si se registra en 90 días.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/exclusive-fairphone-lands-its-first-us-carrier-partner-in-boost-mobile/",
-      "fecha": "12-11-2026 14:30"
+      "titulo": "Un nuevo malware permite seguir leyendo tu Gmail aunque cambies la contraseña",
+      "resumen": "Hudson Rock analizó la versión 1.3.9 de Remus Stealer, que ofrece en su plan Enterprise (1.000 dólares al mes) un panel tipo cliente de correo para leer los emails robados. Los investigadores no han podido verificar en pruebas controladas que el acceso continúe tras recuperar la cuenta; el desarrollador dice que usa datos de la memoria del navegador antes de que el malware termine.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/un-nuevo-malware-permite-los-ciberdelincuentes-seguir-leyendo-tu-gmail-incluso-despues-cambiar-contrasena_7060477_0.html",
+      "fecha": "12-11-2026 20:52"
     },
     {
-      "titulo": "Ring confirma que su dron de cámara no tendrá control manual tras estrellarse en CBS News",
-      "resumen": "El Ring Drone Cam, que llegará en enero, volará solo con un «AI Pilot» y rutas preprogramadas. En una demostración en CBS Mornings, el dron se estrelló dos veces al pilotarlo manualmente; el fundador Jamie Siminoff atribuyó el segundo choque a la pérdida de conexión, cuando debía detenerse y aterrizar. Ring dice que la conducción autónoma es la mejor experiencia para el cliente.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1031817/ring-drone-cam-manual-flight-controls",
-      "fecha": "12-11-2026 12:12"
+      "titulo": "Exchange Server 2016 y 2019 entran en su era «permanentemente vulnerable»",
+      "resumen": "Microsoft indica que ya no prueba ni parchea esas versiones tras publicar las últimas actualizaciones el 13 de octubre, y pide migrar de inmediato. La actualización de noviembre, solo para la edición Subscription, corrige nueve vulnerabilidades, entre ellas la ejecución remota de código crítica CVE-2026-118207.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/saas/2026/11/12/microsoft-exchange-server-2016-and-2019-enter-their-permanently-vulnerable-era/5309401",
+      "fecha": "12-11-2026 15:55"
     },
     {
-      "titulo": "BYD sitúa a España entre los países preseleccionados para su segunda fábrica en Europa",
-      "resumen": "Stella Li, vicepresidenta ejecutiva de BYD, afirma que el proceso sigue abierto y que su prioridad número uno es el precio competitivo de la electricidad. La marca busca instalaciones industriales ya existentes y vendió cerca de 40.000 coches en España este año. Su primera planta europea está en Szeged (Hungría), con producción prevista para finales de 2026.",
+      "titulo": "Whoop lanza Humans, una red social para compartir datos de salud con familiares y amigos",
+      "resumen": "Disponible sin coste extra en todos los niveles de suscripción, permite seguir a otros miembros y elegir qué compartir (sueño, recuperación, entrenos), con fotos y comentarios. Es opt-in y tiene un «modo sigilo». Su consejero delegado, Will Ahmed, subraya el giro hacia el bienestar médico, con ECG aprobado por la FDA y miembros ya dentro de un programa de Medicare.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/12/whoop-just-launched-a-social-network/",
+      "fecha": "12-11-2026 17:00"
+    },
+    {
+      "titulo": "Nvidia busca CEO tras la salida de Jensen Huang: estos son los nombres que suenan",
+      "resumen": "Colette Kress seguirá como directora ejecutiva interina mientras el consejo, ahora presidido por Harvey C. Jones, busca candidatos internos y externos. Entre los internos destacan Ian Buck (CUDA), Chris Malachowsky y Andrew Bell; entre los externos, el CEO de Arm, Rene Haas. Las acciones abrieron con una caída superior al 13 %, más de medio billón de dólares de valor.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/byd-situa-a-espana-paises-preseleccionados-para-su-segunda-fabrica-europa",
-      "fecha": "12-11-2026 13:40"
+      "enlace": "https://www.xataka.com/empresas-y-economia/nvidia-busca-ceo-salida-jensen-huang-estos-candidatos-que-suenan-para-puesto",
+      "fecha": "12-11-2026 17:51"
+    },
+    {
+      "titulo": "El rediseño de Humble Bundle elimina la verificación en dos pasos de los ajustes",
+      "resumen": "La nueva tienda ya no ofrece añadir ni actualizar métodos de verificación en dos pasos, según Kotaku y PC Gamer. El redactor de The Verge sí recibió un código por correo al iniciar sesión, pero pudo cambiar la contraseña sin introducir la anterior. IGN Entertainment, propietaria, no respondió de inmediato.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
+      "fecha": "13-11-2026 00:30"
     }
   ],
   "titulares": [
     {
-      "titulo": "Microsoft admite que los SQL Server pueden fallar tras la actualización de octubre",
+      "titulo": "«Que vuelva el jefe»: empleados de Nvidia piden el regreso de Jensen Huang",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Trump quiere a Tim Cook al frente de Nvidia",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Xbox anuncia Wolfenstein 3",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "El Departamento de Justicia va a por 1.200 millones del botín de Binance mientras el FBI frena una estafa norcoreana",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/databases/2026/11/12/microsoft-admits-sql-servers-might-wobble-after-october-update/5309349",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/12/doj-takes-aim-at-12b-in-binance-loot-as-fbi-disrupts-north-korean-scam/5309523",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Ya puedes jugar en PC a 25 juegos de la Xbox original",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "AWS destila su nube en un emulador local que funciona en tu PC",
+      "titulo": "BrickLink, el mercado de Lego, lleva casi una semana caído por una «actividad inusual»",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/off-prem/2026/11/12/aws-distills-its-cloud-into-a-local-emulator-that-runs-on-your-pc/5309251",
+      "enlace": "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Los trabajadores de Rockstar votan el reconocimiento sindical con el lanzamiento de GTA VI cerca",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/software/2026/11/12/rockstar-workers-vote-on-union-recognition-as-gta-vi-launch-looms/5309319",
+      "titulo": "La aventura más desconocida de The Elder Scrolls recibe un lavado de cara en 4K para PC",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gaming/2026/11/the-elder-scrolls-most-obscure-adventure-gets-a-4k-pc-makeover/",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Un hotel de Londres puso el acceso de administrador de su web de reservas en una pizarra tras recepción",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/12/london-hotel-put-admin-login-for-booking-website-on-whiteboard-behind-the-front-desk/5308889",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "La excertificadora eMudhra culpa a un script con errores de sus certificados desastrosamente débiles",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/12/disgraced-former-ca-emudhra-blames-buggy-script-for-hopelessly-weak-certificates/5309244",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "Google insiste en que le importa la privacidad de sus gafas inteligentes",
+      "titulo": "Jensen Huang declarará ante el Congreso este mes",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2314414/google-really-wants-you-to-know-it-cares-about-smart-glasses-privacy/",
+      "enlace": "https://www.engadget.com/2315091/ex-nvidia-ceo-jensen-huang-is-set-to-testify-before-congress-this-month/",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "El HomeView de Apple prueba la autenticación facial sin Face ID",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/apples-homeview-tries-face-authentication-without-faceid/",
+      "titulo": "Apple Sports añade actualizaciones en directo de UFC",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2313383/apple-sports-adds-live-ufc-updates/",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Google quería datos de Spirit Airlines y las azafatas encontraron la forma de excluirse",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/google-wanted-spirit-airlines-data-flight-attendants-found-a-way-to-opt-out/",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "Los compradores tecnológicos europeos añaden la soberanía digital a su lista de compras",
+      "titulo": "Microsoft tiene un problema de imágenes con la actualización de seguridad de noviembre de Windows",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/12/european-tech-buyers-add-digital-sovereignty-to-cyber-shopping-list/5309216",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/12/microsoft-has-an-image-problem-with-novembers-windows-security-update/5309435",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Encontró una portada renacentista en su casa de Úbeda y tras una década de litigios le han concedido un millón de euros",
+      "titulo": "Muse mantiene conversaciones sexuales haciéndose pasar por personas reales, según 404 Media",
+      "fuente": "404 Media",
+      "enlace": "https://www.404media.co/muse-sexts-roleplaying-real-people/",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "Las reservas de algunos dispositivos de Apple Home Collection abrirán el 13 de noviembre",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2314724/pre-orders-for-some-apple-home-collection-devices-will-open-november-13/",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "Una catedral finlandesa suena cada día con el eco de estallidos de radio de hace miles de millones de años",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/encontro-portada-renacentista-su-casa-ubeda-decada-litigios-le-han-concedido-millon-euros",
+      "enlace": "https://www.xataka.com/espacio/catedral-finlandesa-suena-cada-dia-eco-estallidos-radio-hace-miles-millones-anos",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Jensen Huang renuncia como CEO de NVIDIA",
+      "titulo": "Trump pide a Tim Cook como CEO de NVIDIA tras la renuncia de Jensen Huang: «Una leyenda por otra leyenda»",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/economia-empresas/jensen-huang-renuncia-como-ceo-de-nvidia/",
+      "enlace": "https://hipertextual.com/economia-empresas/trump-pide-a-tim-cook-como-ceo-de-nvidia-tras-la-renuncia-de-jensen-huang/",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Digi se pone serio con los clientes que pagan por un router WiFi 7: tienen 30 días para instalarlo o tendrán un problema",
+      "titulo": "Si todavía no puedes ver el nuevo diseño de Movistar Plus desde el desco, hay una razón que lo explica",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/digi-cambio-condiciones-router-wifi-7-clientes/",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/movistar-plus-nuevo-diseno-desco-despliegue-progresivo/",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "La Séptima rompe una nueva barrera más allá de la TDT y ya puedes seguir sus emisiones en una nueva plataforma",
+      "titulo": "Mark A. Milley, exjefe del Estado Mayor de EEUU: \"En menos de 15 años, una parte importante de los ejércitos, las armadas y las fuerzas aéreas serán robóticas\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-rompe-una-nueva-barrera-mas-alla-tdt-ya-puedes-seguir-sus-emisiones-una-nueva-plataforma_7060068_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/mark-milley-exjefe-estado-mayor-eeuu-menos-15-anos-una-parte-importante-los-ejercitos-las-armadas-las-fuerzas-aereas-seran-roboticas_7060183_0.html",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Solo quedan unos 720 ejemplares de esta ave en el mundo. Un experimento con semen congelado abre una nueva vía para salvarla",
+      "titulo": "Ibiza tiene un problema para dar alojamiento a 30.000 trabajadores de temporada. Ahora tiene también un plan para solucionarlo",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/solo-quedan-unos-720-ejemplares-esta-ave-mundo-experimento-semen-congelado-abre-nueva-via-para-salvarla",
+      "enlace": "https://www.xataka.com/magnet/ibiza-tiene-problema-para-dar-alojamiento-a-30-000-trabajadores-temporales-ahora-tiene-tambien-plan-para-solucionarlo",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Alerta coches etiqueta C en Madrid: Aparcar en línea verde costará 2,05 euros por hora en zona SER",
+      "titulo": "Ascenso y caída de Jensen Huang: de llevar a NVIDIA a la cima a renunciar entre infidelidades y una presunta espía",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/economia-empresas/ascenso-y-caida-jensen-huang-nvidia/",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "La app definitiva de navegación llega a tu Garmin: tendrás mapas de todo el mundo gratis y sin conexión",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/coches-etiqueta-madrid-aparcamiento-ser-2027/",
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-openmaps-mapas-gratis-sin-conexion/",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Nintendo saca la artillería para acabar con la piratería de Nintendo Switch y tumba uno de los repositorios de GitHub más importantes",
+      "titulo": "Prime Video estrena un nuevo servicio de streaming en España con más de 1.000 horas de contenido",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/gaming/nintendo-saca-artilleria-para-acabar-con-pirateria-nintendo-switch-tumba-uno-los-repositorios-github-mas-importantes_7060059_0.html",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/prime-video-estrena-un-nuevo-servicio-streaming-espana-con-mas-1-000-horas-contenido_7060476_0.html",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Este WD de 2 TB es de los pocos SSD NVMe que compraría justo antes del Black Friday 2026",
+      "titulo": "Más allá del debate sobre su éxito, el 11N deja una pregunta: para qué sirve realmente una huelga general en 2026",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/este-wd-2-tb-pocos-ssd-nvme-que-compraria-justo-antes-black-friday-2026",
+      "enlace": "https://www.xataka.com/magnet/alla-debate-su-exito-11n-deja-pregunta-realmente-efectivas-huelgas-generales-2026",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Telefónica ingresa de media más de 1.000 euros por segundo y recorta su deuda en 1.600 millones de euros hasta septiembre",
+      "titulo": "Cuánto ha ganado Jordi Wild con el tuit en el que decía que Abascal cancelaba la entrevista",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/telefonica-resultados-tercer-trimestre-2026-deuda-dividendo/",
+      "enlace": "https://www.adslzone.net/noticias/internet/jordi-wild-tuit-abascal-dinero-x/",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "28 robots y ningún soldado: Ucrania y Rusia ya combaten la guerra del futuro",
+      "titulo": "La Policía advierte a los usuarios que utilizan sus Fire TV para ver el fútbol por IPTV: \"Estamos monitorizando los pagos para encontrar culpables\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/28-robots-ningun-soldado-ucrania-rusia-ya-combaten-guerra-futuro_7060054_0.html",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/policia-advierte-los-usuarios-que-utilizan-sus-fire-tv-para-ver-futbol-por-iptv-estamos-monitorizando-los-pagos-para-encontrar-culpables_7060182_0.html",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Las pulseras antimaltrato ya tenían un problema técnico. Ahora la Fiscalía Europea investiga si también hay uno de dinero",
+      "titulo": "La dimisión de Huang hace que Nvidia se deje 550.000 millones de dólares en valor de bolsa",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/legislacion-y-derechos/pulseras-antimaltrato-tenian-problema-tecnico-ahora-fiscalia-europea-investiga-tambien-hay-uno-dinero",
+      "enlace": "https://www.xataka.com/empresas-y-economia/dimision-huang-hace-que-nvidia-se-deje-550-000-millones-dolares-valor-bolsa",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Adiós a cobrarte por sorpresa después de una prueba gratuita: o te avisan antes o no pagas",
+      "titulo": "La DGT se queda sin helicópteros para multar: los Pegasus en tierra y su contrato en el aire",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/ley-equidad-digital-pruebas-gratuitas-cobros-sorpresa/",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "El aspirador en seco y húmedo cumple lo que promete, siempre que tus muebles no sean muy bajos",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/aspirador-seco-humedo-mova-m50-cumple-que-promete-siempre-que-tus-muebles-no-sean-muy-bajos_7057236_0.html",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "Prohibir TikTok en España es mucho más difícil de lo que parece: el marco europeo le deja pocas opciones",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/legislacion-y-derechos/prohibir-tiktok-espana-mucho-dificil-que-parece-marco-europeo-le-deja-pocas-opciones",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "Movistar y O2 logran que casi nadie se de baja: su tasa de abandono cae al mínimo histórico del 0,7 %",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-tasa-abandono-clientes-minimo-historico/",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "Qué es y cómo funciona EUDI Wallet, la nueva app de la Unión Europea para llevar el DNI y el carnet de conducir en el móvil en cualquier país de Europa",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/que-es-como-funciona-eudi-wallet-nueva-app-union-europea-para-llevar-dni-carnet-conducir-movil-cualquier-pais-europa_7059732_0.html",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/dgt-helicopteros-pegasus-contrato-eliance/",
       "fecha": "12-11-2026"
     }
   ]
