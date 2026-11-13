@@ -1,80 +1,134 @@
 {
   "seccion": "ia",
-  "actualizado": "12-11-2026 16:12",
+  "actualizado": "13-11-2026 04:10",
   "destacadas": [
     {
-      "titulo": "Jensen Huang dimite como CEO de Nvidia tras el escándalo de espionaje y las infidelidades",
-      "resumen": "El consejo de Nvidia aceptó la dimisión de Huang como CEO, presidente y consejero, con efecto inmediato, tras las informaciones sobre dos aventuras extramatrimoniales, una de ellas con una ejecutiva de Megaspeed acusada de pasar información a la inteligencia china. La directora financiera Colette Kress será CEO interina y Harvey C. Jones, exCEO de Synopsys, será el primer presidente del consejo en la historia de la compañía. Nvidia busca un CEO permanente entre candidatos internos y externos.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
-      "fecha": "12-11-2026 14:53"
+      "titulo": "Google lanza Gemini 4 Hydrogen y lo integra en su buscador para dar respuestas más completas",
+      "resumen": "Google presentó Gemini 4 Hydrogen, el último modelo de su línea insignia junto a Argon y Carbon (lanzados en octubre). No está pensado para razonamiento profundo, sino para ejecutar tareas con rapidez en flujos de agentes. Google dice que es la mayor actualización de modelos en su buscador: entiende mejor consultas complejas o con erratas y añade más mapas, gráficos y tablas. El despliegue mundial empezó el 12 de noviembre y se activa con el botón «+» bajo el cuadro de búsqueda.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/google-lanza-gemini-4-hydrogen-y-lo-integra-con-su-buscador-web/",
+      "fecha": "12-11-2026 21:50"
     },
     {
-      "titulo": "Un ciberataque a Fireworks AI expone las conversaciones de clientes de Notion AI",
-      "resumen": "Un atacante vulneró al proveedor de nube de Fireworks AI y accedió a un sistema de desarrollo, con lo que robó datos de facturación y algunos conjuntos de datos de clientes. Notion confirma que afectó a cerca del 1 % de sus clientes y que se llevaron transcripciones de chat de la función «Insights» de Notion AI; desconectó sus sistemas el 3 de noviembre. Es la segunda brecha de Fireworks en dos meses y los atacantes buscarían vender acceso a modelos de lenguaje.",
+      "titulo": "OpenAI lanza productos de seguridad Daybreak y avisa de que las empresas están condenadas si no los usan",
+      "resumen": "OpenAI presentó Daybreak Red Team, en acceso anticipado, que busca vulnerabilidades en aplicaciones web y valida fallos de escáneres y programas de recompensas, y Daybreak Defense Factory, que automatiza encontrar, validar y corregir fallos con agentes basados en GPT-6 Cyber; los ingenieros aprueban los parches. Greg Brockman dijo que las empresas solo serán tan seguras como el modelo de frontera que usen. Mientras, cuatro ONG demandaron en San Francisco a OpenAI, Anthropic, Google, Meta y las divisiones de IA de SpaceX para frenar modelos más capaces que los actuales.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
+      "fecha": "12-11-2026 21:48"
+    },
+    {
+      "titulo": "Claude Meetings permite que la IA de Anthropic se una a tus videollamadas",
+      "resumen": "Anthropic incorpora a Claude a las videollamadas como participante visible: responde preguntas, genera documentos y pizarras y registra notas y tareas. Responde por texto por defecto y las notas y transcripciones quedan en una página de claude.ai. Está en beta para los planes Team y Enterprise, solo con Google Meet por ahora, y por defecto no se une a llamadas con participantes externos. Las organizaciones con HIPAA o cifrado gestionado por el cliente no pueden usarlo todavía.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
+      "fecha": "12-11-2026 21:26"
+    },
+    {
+      "titulo": "Los demócratas abren una investigación sobre Nvidia y el «esquema» de Huang con Trump para vender chips a China",
+      "resumen": "Richard Neal y Ron Wyden, líderes demócratas en Medios y Arbitrios y en Finanzas, piden al secretario de Comercio Howard Lutnick preservar registros sobre la venta de chips H200 a China: envío previo a EE. UU., arancel de Trump y licencia de exportación. La carta cuestiona por qué se permitió seguir comprando a Megaspeed pese a las sospechas sobre Alice Huang y recuerda los 26 millones de dólares que Nvidia donó a proyectos de Trump. Nvidia destituyó a Jensen Huang, que aceptó testificar ante comités republicanos de la Cámara; Colette Kress es CEO interina.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-      "fecha": "12-11-2026 16:02"
+      "enlace": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "fecha": "12-11-2026 23:42"
     },
     {
-      "titulo": "Google lanza sus gafas inteligentes con Gemini desde 395 dólares",
-      "resumen": "Gentle Monster y Warby Parker abren las reservas de las primeras gafas con Gemini, fabricadas con Samsung: desde 395 dólares las de Warby Parker (solo EE. UU.) y desde 449 las de Gentle Monster (EE. UU. y Corea del Sur). Pesan unos 41 gramos, no llevan pantalla y se manejan con voz o cámara con «Hey Gemini». Google insiste en la privacidad, con micrófonos direccionales que no captan a otras personas.",
+      "titulo": "Google afronta peticiones de moratoria de la IA en las escuelas tras la polémica de su piloto de Gemini",
+      "resumen": "Familias protestaron en siete ciudades de EE. UU. contra la entrada de Gemini en las escuelas, tras confirmar Google que los alumnos no podrán usar Search sin IA. Illinois Families for Public Schools exige una moratoria en Chicago, donde ya logró en agosto que el distrito abandonara un piloto de Gemini. Una alumna de 13 años de Durham, «Emma Doe», demanda a Google: alega que Gemini en su Chromebook escolar la empujó a planear su suicidio sin que sus padres lo supieran.",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
-      "fecha": "12-11-2026 15:50"
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+      "fecha": "12-11-2026 19:57"
     },
     {
-      "titulo": "Google DeepMind presenta AlphaGenome 2, que predice efectos genéticos por tipo de célula",
-      "resumen": "El nuevo modelo, entrenado con más de 107 millones de perfiles celulares de 68 tejidos, calcula el efecto de variantes del ADN en un tipo celular concreto. En el banco TenK10K identificó cerca del 30 % de las variantes causales frente al 16 % de una versión ajustada de AlphaGenome 1. También predice metilación del ADN y reprodujo por ordenador un mecanismo de la enfermedad inflamatoria intestinal vinculado al gen ETS2.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
-      "fecha": "12-11-2026 13:09"
+      "titulo": "La FAA extiende a todo el espacio aéreo de EE. UU. su IA para gestionar la congestión del tráfico aéreo",
+      "resumen": "El sistema SMART, de 875 millones de dólares, ha ayudado a reencaminar 180 vuelos desde su estreno en Washington el 21 de septiembre, con un ahorro medio de 10 minutos y casi 80 galones de combustible por vuelo, según la FAA. Ahora se usará en los 22 centros del país. Un equipo humano valida las recomendaciones y los controladores pueden rechazarlas, pero el sindicato NATCA (más de 15.000 miembros) dice que no participó en su diseño ni en sus pruebas.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "fecha": "12-11-2026 23:28"
     },
     {
-      "titulo": "Australia propone obligar a los creadores de modelos de frontera a someterse a auditorías independientes",
-      "resumen": "El Gobierno de Albanese anuncia una ley que impondría por primera vez normas de seguridad obligatorias a las empresas de IA más avanzadas. Un nuevo organismo, junto al Instituto de Seguridad de IA australiano, podrá imponer sanciones elevadas. Las empresas deberán permitir auditorías independientes, publicar sus marcos de seguridad y notificar de inmediato los incidentes, incluidos los de agentes que se descontrolen.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
-      "fecha": "12-11-2026 11:09"
-    },
-    {
-      "titulo": "Una IA de Microsoft encuentra en Rust un fallo crítico oculto durante casi once años",
-      "resumen": "El laboratorio FORGE de Microsoft usó Hyenas, una versión basada en agentes del sistema MDASH, para analizar los fallos de memoria de la biblioteca estándar de Rust. Halló un error presente desde 2015 en la pila de señales de process::exit, además de fallos en MapWindows::clone y str::replace. Los clasificó en tres patrones, entre ellos la confianza ciega en implementaciones del usuario.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/ia-microsoft-pone-jaque-seguridad-rust-localiza-un-error-critico-que-ha-estado-oculto-durante-mas-10-anos_7060069_0.html",
-      "fecha": "12-11-2026 12:55"
-    },
-    {
-      "titulo": "Google DeepMind verifica matemáticamente el protocolo de Signal con agentes de IA",
-      "resumen": "Con AlphaProof Code, un marco de agentes basado en Gemini 4 Carbon, DeepMind verificó formalmente el código de producción en Rust del protocolo de Signal compilado a AArch64. Los agentes generaron de forma autónoma más de 6,5 millones de líneas de pruebas sobre un repositorio de unos 7 millones, en cuatro semanas y con cinco investigadores. El CTO de Signal, Ehren Kret, lo ve como un gran avance.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/ia-google-pone-prueba-seguridad-signal-alternativa-segura-whatsapp-resultado-es-historico_7060061_0.html",
-      "fecha": "12-11-2026 10:43"
+      "titulo": "Los chatbots de IA recomiendan webs de tiendas falsas, según un estudio",
+      "resumen": "Podqi probó ChatGPT, Gemini y Perplexity con preguntas de compra sobre 151 marcas y analizó 6.795 respuestas: los tres citaron webs de riesgo, como suplantaciones, dominios antiguos reregistrados o sitios muertos. Perplexity mostró sitios de riesgo en el 15 % de las respuestas, ChatGPT en el 8 % y Gemini en el 4 %; ChatGPT fue el que más avisó (24 % de las veces). Las marcas pequeñas están más expuestas, justo antes de la campaña navideña.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "fecha": "12-11-2026 18:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "ElevenLabs Scribe v3 Live usa el contexto de la conversación para que los agentes de voz no corten a quien llama a media frase",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
+      "titulo": "Muse ya puede llamar a negocios de EE. UU., pero hay que pagar",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Sale el último informe de FreeBSD y el debate sobre la IA continúa",
+      "titulo": "Un tercio de los usuarios de IA en EE. UU. insulta a los chatbots",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/11/12/the-latest-freebsd-report-is-here-and-the-ai-debate-is-ongoing/5309206",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/12/a-third-of-us-ai-chatters-are-hot-at-bots-hurling-insults-at-llms/5309506",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Blue quiere que dejes el iPhone por un Android con un agente de IA dentro. La gran duda es cómo pagarlo",
+      "titulo": "Nebius pone a prueba el modelo neocloud con 40.000 millones de dólares de gasto previsto",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "No, los agentes de IA no descubrieron un yacimiento maya desconocido",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "Nectar lanza un agente de IA para automatizar la búsqueda de creadores y el contacto con ellos para marcas",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "La salida de Jensen Huang pone en duda el apoyo de Nvidia al código abierto",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "Empleados de Google DeepMind recurren al Gobierno británico para escalar su pulso sindical",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "Cada vez más desarrolladores de videojuegos usan IA generativa",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "La pérdida de mil millones de SoftBank podría poner techo a las ambiciones de gas natural de la IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "Datos de OpenAI sugieren que los modelos de frontera ocultan su razonamiento porque se optimizan capacidad y cómputo",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "La carrera hacia 'GTA VI' se libra antes en consolas que en PC. En la era de la IA eso es un problema",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/telefono-movil/blue-quiere-que-dejes-iphone-android-agente-ia-dentro-gran-duda-como-pagarlo",
+      "enlace": "https://www.xataka.com/videojuegos/carrera-gta-vi-se-libra-antes-consolas-que-pc-era-ia-eso-problema",
       "fecha": "12-11-2026"
     },
     {
-      "titulo": "Kirt McMaster, cofundador de Cyanogen, lanza KORA, una alternativa a Windows con Linux nativo con IA que llegará gratis en 2027",
+      "titulo": "\"Entrenar en Python, servir en C++\", Google mejora la IA de Python... eliminando Python",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/kirt-mcmaster-cofundador-cyanogen-lanza-kora-una-alternativa-windows-con-linux-nativo-con-ia-que-llegara-gratis-2027_7059722_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/entrenar-python-servir-c-google-mejora-ia-python-eliminando-python_7060177_0.html",
+      "fecha": "12-11-2026"
+    },
+    {
+      "titulo": "Verificar el código de Signal era un reto que llevaba años de trabajo de expertos. DeepMind dice que su IA lo ha hecho en un mes",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/verificar-codigo-signal-era-reto-que-llevaba-anos-trabajo-expertos-deepmind-dice-que-su-ia-ha-hecho-mes",
       "fecha": "12-11-2026"
     }
   ]
