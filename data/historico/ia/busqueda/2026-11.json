@@ -3,6 +3,111 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "ChatGPT Wallet permite que los agentes de OpenAI compren por ti",
+      "fuente": "TechCrunch",
+      "fecha": "13-11-2026 17:00",
+      "enlace": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "La salida a bolsa de Anthropic está sobresuscrita seis veces y apunta a ser la mayor de la historia",
+      "fuente": "The Decoder",
+      "fecha": "13-11-2026 16:15",
+      "enlace": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "Un exinvestigador de OpenAI dice haber hallado huellas de Nvidia Blackwell en seis modelos chinos",
+      "fuente": "The Decoder",
+      "fecha": "13-11-2026 16:21",
+      "enlace": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "Duet, el agente de Claude para profesionales, es algo neurótico pero sorprendentemente útil",
+      "fuente": "The Verge",
+      "fecha": "13-11-2026 15:00",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "Huang no confiaba en su sucesora en Nvidia, según el Wall Street Journal",
+      "fuente": "TechCrunch",
+      "fecha": "13-11-2026 13:28",
+      "enlace": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "Juan Roig, a través de Angels Capital, invierte en Ploot, startup española de IA para ventas",
+      "fuente": "ComputerHoy",
+      "fecha": "13-11-2026 06:30",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/juan-roig-acelera-llegada-inteligencia-artificial-mercadona-con-ploot_7060186_0.html",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "Casi el 70 % de las agencias de EE. UU. usa IA generativa y los sindicatos empiezan a ponerse al día con garantías",
+      "fuente": "The Decoder",
+      "fecha": "13-11-2026",
+      "enlace": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "La nueva app de ElevenLabs combina notas de reuniones y dictado para equipos",
+      "fuente": "TechCrunch",
+      "fecha": "13-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "Los fondos de capital riesgo de Israel ven una oportunidad para los rivales en la crisis de Nvidia",
+      "fuente": "TechCrunch",
+      "fecha": "13-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "Una startup apuesta por los microdramas con IA para llevar más historias negras a Hollywood",
+      "fuente": "Wired",
+      "fecha": "13-11-2026",
+      "enlace": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "Google cree haber dado con el santo grial de la IA: Gemini 4 Hydrogen es rápido, bueno y (casi) barato",
+      "fuente": "Xataka",
+      "fecha": "13-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/google-cree-haber-dado-santo-grial-ia-gemini-4-hydrogen-rapido-bueno-casi-barato",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "Fernando Marzal, CEO de Kämpe: \"Estos trabajos tradicionales pueden ser el nuevo oro en plena revolución de la IA\"",
+      "fuente": "ComputerHoy",
+      "fecha": "13-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/fernando-marzal-ceo-kaempe-estos-trabajos-tradicionales-pueden-ser-nuevo-oro-plena-revolucion-ia_7060588_0.html",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "Quién liderará la revolución de la IA: la dimisión de Jensen Huang deja 5 grandes incógnitas",
+      "fuente": "ComputerHoy",
+      "fecha": "13-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/quien-liderara-revolucion-ia-dimision-jensen-huang-deja-5-grandes-incognitas_7060589_0.html",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "Caída de Outlook, Teams, Copilot... todos los servicios de Microsoft que siguen sin funcionar tras el fallo en España y resto del mundo",
+      "fuente": "ComputerHoy",
+      "fecha": "13-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/caida-outlook-teams-copilot-todos-los-servicios-microsoft-que-siguen-sin-funcionar-tras-fallo-espana-resto-mundo_7060568_0.html",
+      "turno": "2026-11-13_T"
+    },
+    {
+      "titulo": "Microsoft sufre una caída global que deja sin Outlook, Teams y Copilot a millones de usuarios: todavía no ha conseguido solucionarlo",
+      "fuente": "ComputerHoy",
+      "fecha": "13-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-sufre-una-caida-global-que-deja-sin-outlook-teams-copilot-millones-usuarios-todavia-no-ha-conseguido-solucionarlo_7060557_0.html",
+      "turno": "2026-11-13_T"
+    },
+    {
       "titulo": "Google lanza Gemini 4 Hydrogen y lo integra en su buscador para dar respuestas más completas",
       "fuente": "Hipertextual",
       "fecha": "12-11-2026 21:50",

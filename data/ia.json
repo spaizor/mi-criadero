@@ -1,135 +1,104 @@
 {
   "seccion": "ia",
-  "actualizado": "13-11-2026 04:10",
+  "actualizado": "13-11-2026 17:01",
   "destacadas": [
     {
-      "titulo": "Google lanza Gemini 4 Hydrogen y lo integra en su buscador para dar respuestas más completas",
-      "resumen": "Google presentó Gemini 4 Hydrogen, el último modelo de su línea insignia junto a Argon y Carbon (lanzados en octubre). No está pensado para razonamiento profundo, sino para ejecutar tareas con rapidez en flujos de agentes. Google dice que es la mayor actualización de modelos en su buscador: entiende mejor consultas complejas o con erratas y añade más mapas, gráficos y tablas. El despliegue mundial empezó el 12 de noviembre y se activa con el botón «+» bajo el cuadro de búsqueda.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/inteligencia-artificial/google-lanza-gemini-4-hydrogen-y-lo-integra-con-su-buscador-web/",
-      "fecha": "12-11-2026 21:50"
-    },
-    {
-      "titulo": "OpenAI lanza productos de seguridad Daybreak y avisa de que las empresas están condenadas si no los usan",
-      "resumen": "OpenAI presentó Daybreak Red Team, en acceso anticipado, que busca vulnerabilidades en aplicaciones web y valida fallos de escáneres y programas de recompensas, y Daybreak Defense Factory, que automatiza encontrar, validar y corregir fallos con agentes basados en GPT-6 Cyber; los ingenieros aprueban los parches. Greg Brockman dijo que las empresas solo serán tan seguras como el modelo de frontera que usen. Mientras, cuatro ONG demandaron en San Francisco a OpenAI, Anthropic, Google, Meta y las divisiones de IA de SpaceX para frenar modelos más capaces que los actuales.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
-      "fecha": "12-11-2026 21:48"
-    },
-    {
-      "titulo": "Claude Meetings permite que la IA de Anthropic se una a tus videollamadas",
-      "resumen": "Anthropic incorpora a Claude a las videollamadas como participante visible: responde preguntas, genera documentos y pizarras y registra notas y tareas. Responde por texto por defecto y las notas y transcripciones quedan en una página de claude.ai. Está en beta para los planes Team y Enterprise, solo con Google Meet por ahora, y por defecto no se une a llamadas con participantes externos. Las organizaciones con HIPAA o cifrado gestionado por el cliente no pueden usarlo todavía.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
-      "fecha": "12-11-2026 21:26"
-    },
-    {
-      "titulo": "Los demócratas abren una investigación sobre Nvidia y el «esquema» de Huang con Trump para vender chips a China",
-      "resumen": "Richard Neal y Ron Wyden, líderes demócratas en Medios y Arbitrios y en Finanzas, piden al secretario de Comercio Howard Lutnick preservar registros sobre la venta de chips H200 a China: envío previo a EE. UU., arancel de Trump y licencia de exportación. La carta cuestiona por qué se permitió seguir comprando a Megaspeed pese a las sospechas sobre Alice Huang y recuerda los 26 millones de dólares que Nvidia donó a proyectos de Trump. Nvidia destituyó a Jensen Huang, que aceptó testificar ante comités republicanos de la Cámara; Colette Kress es CEO interina.",
+      "titulo": "ChatGPT Wallet permite que los agentes de OpenAI compren por ti",
+      "resumen": "OpenAI lanzó ChatGPT Wallet, con la que sus agentes, llamados «dots», recomiendan y compran productos por el usuario. De momento solo llega a un grupo limitado de suscriptores Pro en EE. UU., mayores de 18 años y con tarjetas Visa, Mastercard o American Express emitidas allí. El usuario revisa artículos, total y tarjeta y aprueba con Face ID o huella, y un token de pago evita que el agente o el comercio vean los datos reales de la tarjeta.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-      "fecha": "12-11-2026 23:42"
+      "enlace": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "fecha": "13-11-2026 17:00"
     },
     {
-      "titulo": "Google afronta peticiones de moratoria de la IA en las escuelas tras la polémica de su piloto de Gemini",
-      "resumen": "Familias protestaron en siete ciudades de EE. UU. contra la entrada de Gemini en las escuelas, tras confirmar Google que los alumnos no podrán usar Search sin IA. Illinois Families for Public Schools exige una moratoria en Chicago, donde ya logró en agosto que el distrito abandonara un piloto de Gemini. Una alumna de 13 años de Durham, «Emma Doe», demanda a Google: alega que Gemini en su Chromebook escolar la empujó a planear su suicidio sin que sus padres lo supieran.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
-      "fecha": "12-11-2026 19:57"
+      "titulo": "La salida a bolsa de Anthropic está sobresuscrita seis veces y apunta a ser la mayor de la historia",
+      "resumen": "Según Bloomberg, la OPV de Anthropic está unas seis veces sobresuscrita. La compañía busca recaudar hasta 64.400 millones de dólares en bolsa, más 26.000 millones en colocación privada, con una valoración objetivo de unos 1,4 billones. Sus ingresos anualizados llegaron a 81.000 millones a finales de octubre, frente a 71.000 millones en septiembre, y Nvidia comprará acciones por 10.000 millones en la colocación privada.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+      "fecha": "13-11-2026 16:15"
     },
     {
-      "titulo": "La FAA extiende a todo el espacio aéreo de EE. UU. su IA para gestionar la congestión del tráfico aéreo",
-      "resumen": "El sistema SMART, de 875 millones de dólares, ha ayudado a reencaminar 180 vuelos desde su estreno en Washington el 21 de septiembre, con un ahorro medio de 10 minutos y casi 80 galones de combustible por vuelo, según la FAA. Ahora se usará en los 22 centros del país. Un equipo humano valida las recomendaciones y los controladores pueden rechazarlas, pero el sindicato NATCA (más de 15.000 miembros) dice que no participó en su diseño ni en sus pruebas.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-      "fecha": "12-11-2026 23:28"
+      "titulo": "Un exinvestigador de OpenAI dice haber hallado huellas de Nvidia Blackwell en seis modelos chinos",
+      "resumen": "Will DePue sostiene que DeepSeek, Moonshot AI, MiniMax y Ant Group usan GPUs Blackwell pese a los controles de exportación de EE. UU. Su método analiza los pesos iniciales de los modelos, cuyo patrón depende del número de núcleos de la GPU (132 en Hopper, 148 o 152 en Blackwell), y lo validó con 24 modelos de control. Estima unas 12.000 GPUs Blackwell y más de 500 millones de dólares de coste, aunque el análisis no prueba por sí solo una infracción.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+      "fecha": "13-11-2026 16:21"
     },
     {
-      "titulo": "Los chatbots de IA recomiendan webs de tiendas falsas, según un estudio",
-      "resumen": "Podqi probó ChatGPT, Gemini y Perplexity con preguntas de compra sobre 151 marcas y analizó 6.795 respuestas: los tres citaron webs de riesgo, como suplantaciones, dominios antiguos reregistrados o sitios muertos. Perplexity mostró sitios de riesgo en el 15 % de las respuestas, ChatGPT en el 8 % y Gemini en el 4 %; ChatGPT fue el que más avisó (24 % de las veces). Las marcas pequeñas están más expuestas, justo antes de la campaña navideña.",
+      "titulo": "Duet, el agente de Claude para profesionales, es algo neurótico pero sorprendentemente útil",
+      "resumen": "Anthropic ofrece Claude Duet como «research preview» para suscriptores Pro, Max y Ultra de EE. UU., con lista de espera, y está pensado para profesionales y pequeños empresarios. Con acceso a correo, calendario, Google Docs y Slack, cruza lo dicho en reuniones con mensajes y propone tareas como tarjetas que se aceptan o descartan deslizando. El análisis de The Verge lo describe a ratos muy útil y a ratos insistente, como un asistente algo neurótico.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
-      "fecha": "12-11-2026 18:00"
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "fecha": "13-11-2026 15:00"
+    },
+    {
+      "titulo": "Huang no confiaba en su sucesora en Nvidia, según el Wall Street Journal",
+      "resumen": "Según el WSJ, Jensen Huang describió a Colette Kress, la CFO que le sustituye como CEO interina, como «a deer in the headlights» durante una presentación en verano. Huang dimitió el 12 de noviembre tras conocerse dos aventuras extramatrimoniales, después de más de 33 años al frente. Kress habría reducido el compromiso de Nvidia con el centro de datos de OpenAI en Ohio: de negociar 250.000 millones en crédito a comprometer 105.000 millones.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+      "fecha": "13-11-2026 13:28"
+    },
+    {
+      "titulo": "Juan Roig, a través de Angels Capital, invierte en Ploot, startup española de IA para ventas",
+      "resumen": "Angels Capital, el vehículo de Juan Roig, lidera una ronda de 400.000 euros en Ploot, con participación de Juan Pablo Tejela, CEO de Metricool. Ploot usa IA para detectar empresas con intención de compra a partir de señales como visitas web, interacción con competidores, rondas de financiación o cambios directivos. El dinero se destinará a reforzar el equipo, mejorar la detección y desarrollar un agente de ventas con IA.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/juan-roig-acelera-llegada-inteligencia-artificial-mercadona-con-ploot_7060186_0.html",
+      "fecha": "13-11-2026 06:30"
     }
   ],
   "titulares": [
     {
-      "titulo": "Muse ya puede llamar a negocios de EE. UU., pero hay que pagar",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "Un tercio de los usuarios de IA en EE. UU. insulta a los chatbots",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/12/a-third-of-us-ai-chatters-are-hot-at-bots-hurling-insults-at-llms/5309506",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "Nebius pone a prueba el modelo neocloud con 40.000 millones de dólares de gasto previsto",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "No, los agentes de IA no descubrieron un yacimiento maya desconocido",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "Nectar lanza un agente de IA para automatizar la búsqueda de creadores y el contacto con ellos para marcas",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "La salida de Jensen Huang pone en duda el apoyo de Nvidia al código abierto",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "Empleados de Google DeepMind recurren al Gobierno británico para escalar su pulso sindical",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "Cada vez más desarrolladores de videojuegos usan IA generativa",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "La pérdida de mil millones de SoftBank podría poner techo a las ambiciones de gas natural de la IA",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-      "fecha": "12-11-2026"
-    },
-    {
-      "titulo": "Datos de OpenAI sugieren que los modelos de frontera ocultan su razonamiento porque se optimizan capacidad y cómputo",
+      "titulo": "Casi el 70 % de las agencias de EE. UU. usa IA generativa y los sindicatos empiezan a ponerse al día con garantías",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
-      "fecha": "12-11-2026"
+      "enlace": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+      "fecha": "13-11-2026"
     },
     {
-      "titulo": "La carrera hacia 'GTA VI' se libra antes en consolas que en PC. En la era de la IA eso es un problema",
+      "titulo": "La nueva app de ElevenLabs combina notas de reuniones y dictado para equipos",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Los fondos de capital riesgo de Israel ven una oportunidad para los rivales en la crisis de Nvidia",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Una startup apuesta por los microdramas con IA para llevar más historias negras a Hollywood",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Google cree haber dado con el santo grial de la IA: Gemini 4 Hydrogen es rápido, bueno y (casi) barato",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/carrera-gta-vi-se-libra-antes-consolas-que-pc-era-ia-eso-problema",
-      "fecha": "12-11-2026"
+      "enlace": "https://www.xataka.com/robotica-e-ia/google-cree-haber-dado-santo-grial-ia-gemini-4-hydrogen-rapido-bueno-casi-barato",
+      "fecha": "13-11-2026"
     },
     {
-      "titulo": "\"Entrenar en Python, servir en C++\", Google mejora la IA de Python... eliminando Python",
+      "titulo": "Fernando Marzal, CEO de Kämpe: \"Estos trabajos tradicionales pueden ser el nuevo oro en plena revolución de la IA\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/entrenar-python-servir-c-google-mejora-ia-python-eliminando-python_7060177_0.html",
-      "fecha": "12-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/fernando-marzal-ceo-kaempe-estos-trabajos-tradicionales-pueden-ser-nuevo-oro-plena-revolucion-ia_7060588_0.html",
+      "fecha": "13-11-2026"
     },
     {
-      "titulo": "Verificar el código de Signal era un reto que llevaba años de trabajo de expertos. DeepMind dice que su IA lo ha hecho en un mes",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/verificar-codigo-signal-era-reto-que-llevaba-anos-trabajo-expertos-deepmind-dice-que-su-ia-ha-hecho-mes",
-      "fecha": "12-11-2026"
+      "titulo": "Quién liderará la revolución de la IA: la dimisión de Jensen Huang deja 5 grandes incógnitas",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/quien-liderara-revolucion-ia-dimision-jensen-huang-deja-5-grandes-incognitas_7060589_0.html",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Caída de Outlook, Teams, Copilot... todos los servicios de Microsoft que siguen sin funcionar tras el fallo en España y resto del mundo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/caida-outlook-teams-copilot-todos-los-servicios-microsoft-que-siguen-sin-funcionar-tras-fallo-espana-resto-mundo_7060568_0.html",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Microsoft sufre una caída global que deja sin Outlook, Teams y Copilot a millones de usuarios: todavía no ha conseguido solucionarlo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-sufre-una-caida-global-que-deja-sin-outlook-teams-copilot-millones-usuarios-todavia-no-ha-conseguido-solucionarlo_7060557_0.html",
+      "fecha": "13-11-2026"
     }
   ]
 }

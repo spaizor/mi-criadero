@@ -1,0 +1,104 @@
+{
+  "seccion": "ia",
+  "actualizado": "13-11-2026 17:01",
+  "destacadas": [
+    {
+      "titulo": "ChatGPT Wallet permite que los agentes de OpenAI compren por ti",
+      "resumen": "OpenAI lanzó ChatGPT Wallet, con la que sus agentes, llamados «dots», recomiendan y compran productos por el usuario. De momento solo llega a un grupo limitado de suscriptores Pro en EE. UU., mayores de 18 años y con tarjetas Visa, Mastercard o American Express emitidas allí. El usuario revisa artículos, total y tarjeta y aprueba con Face ID o huella, y un token de pago evita que el agente o el comercio vean los datos reales de la tarjeta.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "fecha": "13-11-2026 17:00"
+    },
+    {
+      "titulo": "La salida a bolsa de Anthropic está sobresuscrita seis veces y apunta a ser la mayor de la historia",
+      "resumen": "Según Bloomberg, la OPV de Anthropic está unas seis veces sobresuscrita. La compañía busca recaudar hasta 64.400 millones de dólares en bolsa, más 26.000 millones en colocación privada, con una valoración objetivo de unos 1,4 billones. Sus ingresos anualizados llegaron a 81.000 millones a finales de octubre, frente a 71.000 millones en septiembre, y Nvidia comprará acciones por 10.000 millones en la colocación privada.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+      "fecha": "13-11-2026 16:15"
+    },
+    {
+      "titulo": "Un exinvestigador de OpenAI dice haber hallado huellas de Nvidia Blackwell en seis modelos chinos",
+      "resumen": "Will DePue sostiene que DeepSeek, Moonshot AI, MiniMax y Ant Group usan GPUs Blackwell pese a los controles de exportación de EE. UU. Su método analiza los pesos iniciales de los modelos, cuyo patrón depende del número de núcleos de la GPU (132 en Hopper, 148 o 152 en Blackwell), y lo validó con 24 modelos de control. Estima unas 12.000 GPUs Blackwell y más de 500 millones de dólares de coste, aunque el análisis no prueba por sí solo una infracción.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+      "fecha": "13-11-2026 16:21"
+    },
+    {
+      "titulo": "Duet, el agente de Claude para profesionales, es algo neurótico pero sorprendentemente útil",
+      "resumen": "Anthropic ofrece Claude Duet como «research preview» para suscriptores Pro, Max y Ultra de EE. UU., con lista de espera, y está pensado para profesionales y pequeños empresarios. Con acceso a correo, calendario, Google Docs y Slack, cruza lo dicho en reuniones con mensajes y propone tareas como tarjetas que se aceptan o descartan deslizando. El análisis de The Verge lo describe a ratos muy útil y a ratos insistente, como un asistente algo neurótico.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "fecha": "13-11-2026 15:00"
+    },
+    {
+      "titulo": "Huang no confiaba en su sucesora en Nvidia, según el Wall Street Journal",
+      "resumen": "Según el WSJ, Jensen Huang describió a Colette Kress, la CFO que le sustituye como CEO interina, como «a deer in the headlights» durante una presentación en verano. Huang dimitió el 12 de noviembre tras conocerse dos aventuras extramatrimoniales, después de más de 33 años al frente. Kress habría reducido el compromiso de Nvidia con el centro de datos de OpenAI en Ohio: de negociar 250.000 millones en crédito a comprometer 105.000 millones.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+      "fecha": "13-11-2026 13:28"
+    },
+    {
+      "titulo": "Juan Roig, a través de Angels Capital, invierte en Ploot, startup española de IA para ventas",
+      "resumen": "Angels Capital, el vehículo de Juan Roig, lidera una ronda de 400.000 euros en Ploot, con participación de Juan Pablo Tejela, CEO de Metricool. Ploot usa IA para detectar empresas con intención de compra a partir de señales como visitas web, interacción con competidores, rondas de financiación o cambios directivos. El dinero se destinará a reforzar el equipo, mejorar la detección y desarrollar un agente de ventas con IA.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/juan-roig-acelera-llegada-inteligencia-artificial-mercadona-con-ploot_7060186_0.html",
+      "fecha": "13-11-2026 06:30"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Casi el 70 % de las agencias de EE. UU. usa IA generativa y los sindicatos empiezan a ponerse al día con garantías",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "La nueva app de ElevenLabs combina notas de reuniones y dictado para equipos",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Los fondos de capital riesgo de Israel ven una oportunidad para los rivales en la crisis de Nvidia",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Una startup apuesta por los microdramas con IA para llevar más historias negras a Hollywood",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Google cree haber dado con el santo grial de la IA: Gemini 4 Hydrogen es rápido, bueno y (casi) barato",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/google-cree-haber-dado-santo-grial-ia-gemini-4-hydrogen-rapido-bueno-casi-barato",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Fernando Marzal, CEO de Kämpe: \"Estos trabajos tradicionales pueden ser el nuevo oro en plena revolución de la IA\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/fernando-marzal-ceo-kaempe-estos-trabajos-tradicionales-pueden-ser-nuevo-oro-plena-revolucion-ia_7060588_0.html",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Quién liderará la revolución de la IA: la dimisión de Jensen Huang deja 5 grandes incógnitas",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/quien-liderara-revolucion-ia-dimision-jensen-huang-deja-5-grandes-incognitas_7060589_0.html",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Caída de Outlook, Teams, Copilot... todos los servicios de Microsoft que siguen sin funcionar tras el fallo en España y resto del mundo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/caida-outlook-teams-copilot-todos-los-servicios-microsoft-que-siguen-sin-funcionar-tras-fallo-espana-resto-mundo_7060568_0.html",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Microsoft sufre una caída global que deja sin Outlook, Teams y Copilot a millones de usuarios: todavía no ha conseguido solucionarlo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-sufre-una-caida-global-que-deja-sin-outlook-teams-copilot-millones-usuarios-todavia-no-ha-conseguido-solucionarlo_7060557_0.html",
+      "fecha": "13-11-2026"
+    }
+  ]
+}
