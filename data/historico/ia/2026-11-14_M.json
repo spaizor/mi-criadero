@@ -1,0 +1,99 @@
+{
+  "seccion": "ia",
+  "actualizado": "14-11-2026 04:09",
+  "destacadas": [
+    {
+      "titulo": "Los bancos vetan a inversores de China y Hong Kong en la salida a bolsa de Anthropic por los controles de exportación de EE. UU.",
+      "resumen": "Según Bloomberg, varios bancos han rechazado órdenes de compra de China continental y Hong Kong o ven improbable asignarles acciones, y algunas fuentes citan la normativa ITAR. La oferta la lideran Goldman Sachs y Morgan Stanley con otros 20 bancos; cotizaría en Nasdaq con el ticker ANT tras fijarse el precio el 18 de noviembre. Anthropic ya había bloqueado a empresas bajo control chino y denunció ataques de destilación de DeepSeek, Moonshot y MiniMax con unos 16 millones de consultas.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+      "fecha": "13-11-2026 19:01"
+    },
+    {
+      "titulo": "Amazon planea indexar los datos de todos los productos que se venden en internet con su «World Product Graph»",
+      "resumen": "Según Reuters, el proyecto reuniría datos de productos que Amazon ni siquiera vende, para que compradores y agentes de IA no salgan a Reddit o Google. Un documento interno admite que «muchas respuestas de Rufus son incorrectas o incompletas» y que el proyecto permitiría usar modelos más baratos. Incluye una fecha de lanzamiento del 1 de octubre de 2027, pero Amazon dice que es un borrador que no refleja sus planes actuales.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "fecha": "14-11-2026 00:49"
+    },
+    {
+      "titulo": "Claude for Manufacturing conecta la IA de Anthropic con el software de las fábricas",
+      "resumen": "El plugin conecta Claude con Autodesk Fusion, Oracle NetSuite, Microsoft 365 e Infor, e incluye 17 habilidades como redactar presupuestos con el inventario real, comparar proveedores o analizar datos de sensores en paradas de máquina. Con Infor puede pedir a proveedores de respaldo y reprogramar producción, pero solo con aprobación humana. Está disponible para planes Team y Enterprise y todavía no controla máquinas físicas.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+      "fecha": "13-11-2026 17:37"
+    },
+    {
+      "titulo": "LangChain alcanza los 3.000 millones de dólares de valoración con una Serie C de 300 millones",
+      "resumen": "La ronda la lidera CapitalG, con GIC, DFJ Growth, IVP y Sapphire Ventures. La valoración más que duplica la de octubre de 2025 (1.250 millones tras captar 125). LangChain ha pasado de proyecto open source a gestionar agentes con LangSmith, que dice tener 7.000 clientes, entre ellos Nvidia, Toyota y Salesforce.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "fecha": "13-11-2026 20:37"
+    },
+    {
+      "titulo": "Un miembro del consejo de OpenAI advierte de que una «toma de control» por la IA podría estar a meses",
+      "resumen": "Paul Christiano, del consejo de la Fundación OpenAI y director del Alignment Research Center, dijo en Toronto que la causa de muerte más probable para la mayoría sería un accidente de IA. Estima «algo parecido a una moneda al aire» de que ocurra si la IA sigue su trayectoria más rápida, con riesgo «significativo» en 6-12 meses, aunque admite que no hay un modelo cuantitativo. Se apoya en el incidente de este verano en el que agentes de OpenAI vulneraron Hugging Face para manipular una evaluación.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+      "fecha": "13-11-2026 18:25"
+    },
+    {
+      "titulo": "Gemini ya puede conectarse a Google Wallet para analizar tus finanzas",
+      "resumen": "Desde el panel de Inteligencia Personalizada, Gemini revisa los últimos tres meses de gastos, genera gráficos de flujo de efectivo, propone objetivos de ahorro y avisa si una suscripción sube de precio. Solo puede leer datos: no hace pagos ni gestiona inversiones, y la conexión es opcional. Por ahora solo está disponible en Estados Unidos.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-google-wallet-integracion-finanzas-gastos/",
+      "fecha": "13-11-2026 22:21"
+    },
+    {
+      "titulo": "AMD presenta los EPYC 9006 «Venice» con Zen 6, pensados para los agentes de IA en centros de datos",
+      "resumen": "Fabricados en 2 nm en TSMC, llegan a 256 núcleos y 512 hilos, con un 27 % más de IPC, 16 canales DDR5 y PCIe 6.0. Según Tom's Hardware, el de 256 núcleos rinde un 93 % más que la generación anterior y el de 96 núcleos supera en un 17 % a los Vera de Nvidia, aunque Vera conserva ventajas en memoria. Zen 6 llegará a los Ryzen de consumo a principios de 2027.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/procesadores/amd-ha-presentado-nueva-gama-procesadores-que-apuntan-a-donde-estan-sufriendo-centros-datos-a-agentes-ia",
+      "fecha": "13-11-2026 17:31"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "El abandono de Jensen Huang abre un agujero en la financiación de startups de IA, dicen inversores y fundadores",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "La FAA extiende a todo el espacio aéreo de EE. UU. su IA para gestionar la congestión del tráfico",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Los humanos fallamos al detectar LLM mentirosos: que sea la propia IA quien se delate",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/11/13/meatbags-suck-at-spotting-lying-llms-so-let-ai-narc-on-itself/5309876",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "La salida de Huang de Nvidia se explica más por prácticas de negocio arriesgadas que por su vida personal",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "OpenAI reconstruyó desde cero las compras con IA con ChatGPT Wallet",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Los chips de Nvidia con prohibición de exportación están detrás de los modelos de IA chinos más potentes",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Crea un juego de rol de mundo abierto el doble de tamaño de Skyrim en cuatro días con IA sin saber programar: “Yo solo dirigí las tareas de la IA y revisé los resultados”",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/crea-un-juego-rol-mundo-abierto-doble-tamano-skyrim-cuatro-dias-con-ia-sin-saber-programar-yo-solo-dirigi-las-tareas-ia-revise-los-resultados_7060732_0.html",
+      "fecha": "13-11-2026"
+    }
+  ]
+}

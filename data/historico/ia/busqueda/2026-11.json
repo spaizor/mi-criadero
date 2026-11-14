@@ -3,6 +3,104 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "Los bancos vetan a inversores de China y Hong Kong en la salida a bolsa de Anthropic por los controles de exportación de EE. UU.",
+      "fuente": "The Decoder",
+      "fecha": "13-11-2026 19:01",
+      "enlace": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "Amazon planea indexar los datos de todos los productos que se venden en internet con su «World Product Graph»",
+      "fuente": "The Verge",
+      "fecha": "14-11-2026 00:49",
+      "enlace": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "Claude for Manufacturing conecta la IA de Anthropic con el software de las fábricas",
+      "fuente": "The Decoder",
+      "fecha": "13-11-2026 17:37",
+      "enlace": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "LangChain alcanza los 3.000 millones de dólares de valoración con una Serie C de 300 millones",
+      "fuente": "TechCrunch",
+      "fecha": "13-11-2026 20:37",
+      "enlace": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "Un miembro del consejo de OpenAI advierte de que una «toma de control» por la IA podría estar a meses",
+      "fuente": "Ars Technica",
+      "fecha": "13-11-2026 18:25",
+      "enlace": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "Gemini ya puede conectarse a Google Wallet para analizar tus finanzas",
+      "fuente": "Hipertextual",
+      "fecha": "13-11-2026 22:21",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-google-wallet-integracion-finanzas-gastos/",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "AMD presenta los EPYC 9006 «Venice» con Zen 6, pensados para los agentes de IA en centros de datos",
+      "fuente": "Xataka",
+      "fecha": "13-11-2026 17:31",
+      "enlace": "https://www.xataka.com/procesadores/amd-ha-presentado-nueva-gama-procesadores-que-apuntan-a-donde-estan-sufriendo-centros-datos-a-agentes-ia",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "El abandono de Jensen Huang abre un agujero en la financiación de startups de IA, dicen inversores y fundadores",
+      "fuente": "TechCrunch",
+      "fecha": "13-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "La FAA extiende a todo el espacio aéreo de EE. UU. su IA para gestionar la congestión del tráfico",
+      "fuente": "Ars Technica",
+      "fecha": "13-11-2026",
+      "enlace": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "Los humanos fallamos al detectar LLM mentirosos: que sea la propia IA quien se delate",
+      "fuente": "The Register",
+      "fecha": "13-11-2026",
+      "enlace": "https://www.theregister.com/offbeat/2026/11/13/meatbags-suck-at-spotting-lying-llms-so-let-ai-narc-on-itself/5309876",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "La salida de Huang de Nvidia se explica más por prácticas de negocio arriesgadas que por su vida personal",
+      "fuente": "The Decoder",
+      "fecha": "13-11-2026",
+      "enlace": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "OpenAI reconstruyó desde cero las compras con IA con ChatGPT Wallet",
+      "fuente": "The Decoder",
+      "fecha": "13-11-2026",
+      "enlace": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "Los chips de Nvidia con prohibición de exportación están detrás de los modelos de IA chinos más potentes",
+      "fuente": "TechCrunch",
+      "fecha": "13-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "turno": "2026-11-14_M"
+    },
+    {
+      "titulo": "Crea un juego de rol de mundo abierto el doble de tamaño de Skyrim en cuatro días con IA sin saber programar: “Yo solo dirigí las tareas de la IA y revisé los resultados”",
+      "fuente": "ComputerHoy",
+      "fecha": "13-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/crea-un-juego-rol-mundo-abierto-doble-tamano-skyrim-cuatro-dias-con-ia-sin-saber-programar-yo-solo-dirigi-las-tareas-ia-revise-los-resultados_7060732_0.html",
+      "turno": "2026-11-14_M"
+    },
+    {
       "titulo": "ChatGPT Wallet permite que los agentes de OpenAI compren por ti",
       "fuente": "TechCrunch",
       "fecha": "13-11-2026 17:00",

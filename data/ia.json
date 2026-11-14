@@ -1,103 +1,98 @@
 {
   "seccion": "ia",
-  "actualizado": "13-11-2026 17:01",
+  "actualizado": "14-11-2026 04:09",
   "destacadas": [
     {
-      "titulo": "ChatGPT Wallet permite que los agentes de OpenAI compren por ti",
-      "resumen": "OpenAI lanzó ChatGPT Wallet, con la que sus agentes, llamados «dots», recomiendan y compran productos por el usuario. De momento solo llega a un grupo limitado de suscriptores Pro en EE. UU., mayores de 18 años y con tarjetas Visa, Mastercard o American Express emitidas allí. El usuario revisa artículos, total y tarjeta y aprueba con Face ID o huella, y un token de pago evita que el agente o el comercio vean los datos reales de la tarjeta.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "fecha": "13-11-2026 17:00"
-    },
-    {
-      "titulo": "La salida a bolsa de Anthropic está sobresuscrita seis veces y apunta a ser la mayor de la historia",
-      "resumen": "Según Bloomberg, la OPV de Anthropic está unas seis veces sobresuscrita. La compañía busca recaudar hasta 64.400 millones de dólares en bolsa, más 26.000 millones en colocación privada, con una valoración objetivo de unos 1,4 billones. Sus ingresos anualizados llegaron a 81.000 millones a finales de octubre, frente a 71.000 millones en septiembre, y Nvidia comprará acciones por 10.000 millones en la colocación privada.",
+      "titulo": "Los bancos vetan a inversores de China y Hong Kong en la salida a bolsa de Anthropic por los controles de exportación de EE. UU.",
+      "resumen": "Según Bloomberg, varios bancos han rechazado órdenes de compra de China continental y Hong Kong o ven improbable asignarles acciones, y algunas fuentes citan la normativa ITAR. La oferta la lideran Goldman Sachs y Morgan Stanley con otros 20 bancos; cotizaría en Nasdaq con el ticker ANT tras fijarse el precio el 18 de noviembre. Anthropic ya había bloqueado a empresas bajo control chino y denunció ataques de destilación de DeepSeek, Moonshot y MiniMax con unos 16 millones de consultas.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
-      "fecha": "13-11-2026 16:15"
+      "enlace": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+      "fecha": "13-11-2026 19:01"
     },
     {
-      "titulo": "Un exinvestigador de OpenAI dice haber hallado huellas de Nvidia Blackwell en seis modelos chinos",
-      "resumen": "Will DePue sostiene que DeepSeek, Moonshot AI, MiniMax y Ant Group usan GPUs Blackwell pese a los controles de exportación de EE. UU. Su método analiza los pesos iniciales de los modelos, cuyo patrón depende del número de núcleos de la GPU (132 en Hopper, 148 o 152 en Blackwell), y lo validó con 24 modelos de control. Estima unas 12.000 GPUs Blackwell y más de 500 millones de dólares de coste, aunque el análisis no prueba por sí solo una infracción.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
-      "fecha": "13-11-2026 16:21"
-    },
-    {
-      "titulo": "Duet, el agente de Claude para profesionales, es algo neurótico pero sorprendentemente útil",
-      "resumen": "Anthropic ofrece Claude Duet como «research preview» para suscriptores Pro, Max y Ultra de EE. UU., con lista de espera, y está pensado para profesionales y pequeños empresarios. Con acceso a correo, calendario, Google Docs y Slack, cruza lo dicho en reuniones con mensajes y propone tareas como tarjetas que se aceptan o descartan deslizando. El análisis de The Verge lo describe a ratos muy útil y a ratos insistente, como un asistente algo neurótico.",
+      "titulo": "Amazon planea indexar los datos de todos los productos que se venden en internet con su «World Product Graph»",
+      "resumen": "Según Reuters, el proyecto reuniría datos de productos que Amazon ni siquiera vende, para que compradores y agentes de IA no salgan a Reddit o Google. Un documento interno admite que «muchas respuestas de Rufus son incorrectas o incompletas» y que el proyecto permitiría usar modelos más baratos. Incluye una fecha de lanzamiento del 1 de octubre de 2027, pero Amazon dice que es un borrador que no refleja sus planes actuales.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-      "fecha": "13-11-2026 15:00"
+      "enlace": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "fecha": "14-11-2026 00:49"
     },
     {
-      "titulo": "Huang no confiaba en su sucesora en Nvidia, según el Wall Street Journal",
-      "resumen": "Según el WSJ, Jensen Huang describió a Colette Kress, la CFO que le sustituye como CEO interina, como «a deer in the headlights» durante una presentación en verano. Huang dimitió el 12 de noviembre tras conocerse dos aventuras extramatrimoniales, después de más de 33 años al frente. Kress habría reducido el compromiso de Nvidia con el centro de datos de OpenAI en Ohio: de negociar 250.000 millones en crédito a comprometer 105.000 millones.",
+      "titulo": "Claude for Manufacturing conecta la IA de Anthropic con el software de las fábricas",
+      "resumen": "El plugin conecta Claude con Autodesk Fusion, Oracle NetSuite, Microsoft 365 e Infor, e incluye 17 habilidades como redactar presupuestos con el inventario real, comparar proveedores o analizar datos de sensores en paradas de máquina. Con Infor puede pedir a proveedores de respaldo y reprogramar producción, pero solo con aprobación humana. Está disponible para planes Team y Enterprise y todavía no controla máquinas físicas.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+      "fecha": "13-11-2026 17:37"
+    },
+    {
+      "titulo": "LangChain alcanza los 3.000 millones de dólares de valoración con una Serie C de 300 millones",
+      "resumen": "La ronda la lidera CapitalG, con GIC, DFJ Growth, IVP y Sapphire Ventures. La valoración más que duplica la de octubre de 2025 (1.250 millones tras captar 125). LangChain ha pasado de proyecto open source a gestionar agentes con LangSmith, que dice tener 7.000 clientes, entre ellos Nvidia, Toyota y Salesforce.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
-      "fecha": "13-11-2026 13:28"
+      "enlace": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "fecha": "13-11-2026 20:37"
     },
     {
-      "titulo": "Juan Roig, a través de Angels Capital, invierte en Ploot, startup española de IA para ventas",
-      "resumen": "Angels Capital, el vehículo de Juan Roig, lidera una ronda de 400.000 euros en Ploot, con participación de Juan Pablo Tejela, CEO de Metricool. Ploot usa IA para detectar empresas con intención de compra a partir de señales como visitas web, interacción con competidores, rondas de financiación o cambios directivos. El dinero se destinará a reforzar el equipo, mejorar la detección y desarrollar un agente de ventas con IA.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/juan-roig-acelera-llegada-inteligencia-artificial-mercadona-con-ploot_7060186_0.html",
-      "fecha": "13-11-2026 06:30"
+      "titulo": "Un miembro del consejo de OpenAI advierte de que una «toma de control» por la IA podría estar a meses",
+      "resumen": "Paul Christiano, del consejo de la Fundación OpenAI y director del Alignment Research Center, dijo en Toronto que la causa de muerte más probable para la mayoría sería un accidente de IA. Estima «algo parecido a una moneda al aire» de que ocurra si la IA sigue su trayectoria más rápida, con riesgo «significativo» en 6-12 meses, aunque admite que no hay un modelo cuantitativo. Se apoya en el incidente de este verano en el que agentes de OpenAI vulneraron Hugging Face para manipular una evaluación.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+      "fecha": "13-11-2026 18:25"
+    },
+    {
+      "titulo": "Gemini ya puede conectarse a Google Wallet para analizar tus finanzas",
+      "resumen": "Desde el panel de Inteligencia Personalizada, Gemini revisa los últimos tres meses de gastos, genera gráficos de flujo de efectivo, propone objetivos de ahorro y avisa si una suscripción sube de precio. Solo puede leer datos: no hace pagos ni gestiona inversiones, y la conexión es opcional. Por ahora solo está disponible en Estados Unidos.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-google-wallet-integracion-finanzas-gastos/",
+      "fecha": "13-11-2026 22:21"
+    },
+    {
+      "titulo": "AMD presenta los EPYC 9006 «Venice» con Zen 6, pensados para los agentes de IA en centros de datos",
+      "resumen": "Fabricados en 2 nm en TSMC, llegan a 256 núcleos y 512 hilos, con un 27 % más de IPC, 16 canales DDR5 y PCIe 6.0. Según Tom's Hardware, el de 256 núcleos rinde un 93 % más que la generación anterior y el de 96 núcleos supera en un 17 % a los Vera de Nvidia, aunque Vera conserva ventajas en memoria. Zen 6 llegará a los Ryzen de consumo a principios de 2027.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/procesadores/amd-ha-presentado-nueva-gama-procesadores-que-apuntan-a-donde-estan-sufriendo-centros-datos-a-agentes-ia",
+      "fecha": "13-11-2026 17:31"
     }
   ],
   "titulares": [
     {
-      "titulo": "Casi el 70 % de las agencias de EE. UU. usa IA generativa y los sindicatos empiezan a ponerse al día con garantías",
+      "titulo": "El abandono de Jensen Huang abre un agujero en la financiación de startups de IA, dicen inversores y fundadores",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "La FAA extiende a todo el espacio aéreo de EE. UU. su IA para gestionar la congestión del tráfico",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Los humanos fallamos al detectar LLM mentirosos: que sea la propia IA quien se delate",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/11/13/meatbags-suck-at-spotting-lying-llms-so-let-ai-narc-on-itself/5309876",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "La salida de Huang de Nvidia se explica más por prácticas de negocio arriesgadas que por su vida personal",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+      "enlace": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "La nueva app de ElevenLabs combina notas de reuniones y dictado para equipos",
+      "titulo": "OpenAI reconstruyó desde cero las compras con IA con ChatGPT Wallet",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Los chips de Nvidia con prohibición de exportación están detrás de los modelos de IA chinos más potentes",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "enlace": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "Los fondos de capital riesgo de Israel ven una oportunidad para los rivales en la crisis de Nvidia",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "Una startup apuesta por los microdramas con IA para llevar más historias negras a Hollywood",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "Google cree haber dado con el santo grial de la IA: Gemini 4 Hydrogen es rápido, bueno y (casi) barato",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/google-cree-haber-dado-santo-grial-ia-gemini-4-hydrogen-rapido-bueno-casi-barato",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "Fernando Marzal, CEO de Kämpe: \"Estos trabajos tradicionales pueden ser el nuevo oro en plena revolución de la IA\"",
+      "titulo": "Crea un juego de rol de mundo abierto el doble de tamaño de Skyrim en cuatro días con IA sin saber programar: “Yo solo dirigí las tareas de la IA y revisé los resultados”",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/fernando-marzal-ceo-kaempe-estos-trabajos-tradicionales-pueden-ser-nuevo-oro-plena-revolucion-ia_7060588_0.html",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "Quién liderará la revolución de la IA: la dimisión de Jensen Huang deja 5 grandes incógnitas",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/quien-liderara-revolucion-ia-dimision-jensen-huang-deja-5-grandes-incognitas_7060589_0.html",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "Caída de Outlook, Teams, Copilot... todos los servicios de Microsoft que siguen sin funcionar tras el fallo en España y resto del mundo",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/caida-outlook-teams-copilot-todos-los-servicios-microsoft-que-siguen-sin-funcionar-tras-fallo-espana-resto-mundo_7060568_0.html",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "Microsoft sufre una caída global que deja sin Outlook, Teams y Copilot a millones de usuarios: todavía no ha conseguido solucionarlo",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-sufre-una-caida-global-que-deja-sin-outlook-teams-copilot-millones-usuarios-todavia-no-ha-conseguido-solucionarlo_7060557_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/crea-un-juego-rol-mundo-abierto-doble-tamano-skyrim-cuatro-dias-con-ia-sin-saber-programar-yo-solo-dirigi-las-tareas-ia-revise-los-resultados_7060732_0.html",
       "fecha": "13-11-2026"
     }
   ]
