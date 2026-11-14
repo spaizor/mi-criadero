@@ -1,213 +1,207 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "13-11-2026 16:14",
+  "actualizado": "14-11-2026 03:12",
   "destacadas": [
     {
-      "titulo": "Uber confirma el robo de datos de carnés de conducir de miles de conductores",
-      "resumen": "Uber avisa a miles de conductores de que su información personal y los datos de su carné fueron robados en una brecha de octubre en un proveedor tecnológico, que TechCrunch identifica como Fireworks AI. Los avisos presentados en varios estados cifran 2.567 afectados en Massachusetts, 3.430 en Carolina del Sur y 1.873 en Rhode Island, sin total global. Es la segunda brecha conocida de Uber este año, tras la de Uber Freight.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
-      "fecha": "13-11-2026 15:57"
-    },
-    {
-      "titulo": "Singapur dice que EE. UU. y Supermicro apenas ayudaron a investigar a la amiga china de Jensen Huang",
-      "resumen": "Singapur afirma haber recibido «información o ayuda limitadas» de EE. UU. pese a pedirla en julio y septiembre de 2025 en el caso de Megaspeed, la empresa de Alice Huang, investigada por declaraciones falsas en la compra de servidores. La policía cerró el caso en febrero de 2026 por falta de pruebas, con una advertencia severa y la prohibición de volver al país. Supermicro habría ofrecido «cooperación limitada» y niega haber vendido a Megaspeed.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/legal/2026/11/13/singapore-says-us-authorities-and-supermicro-hardly-helped-investigation-of-jensen-huangs-chinese-friend/5309579",
-      "fecha": "13-11-2026 04:41"
-    },
-    {
-      "titulo": "Motorola Signature 27: Snapdragon 8 Elite Extreme y 1.600 dólares",
-      "resumen": "El Signature 27 monta el Snapdragon 8 Elite Extreme Gen 6, pantalla OLED en tándem de 6,8 pulgadas, 12 GB de RAM ampliables a 24 GB y 512 GB de almacenamiento. Tiene batería de 7.000 mAh, carga de 90 W por cable y 50 W inalámbrica, tres cámaras de 50, 50 y 200 MP y certificación IP69. Cuesta 1.600 dólares y las reservas se abren el 19 de noviembre.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2315452/motorola-signature-27-hands-on/",
-      "fecha": "13-11-2026 15:00"
-    },
-    {
-      "titulo": "Los drones de Quantum Systems vuelven a volar tras el susto por malware",
-      "resumen": "Quantum Systems detectó a finales de octubre un ataque y la Bundeswehr suspendió sus drones por precaución. Según Der Spiegel, el malware iba en una actualización de QBase, el software de control en tierra, que llegó a servidores militares alemanes pero no infectó los drones. La empresa dice que la amenaza está contenida y que la Bundeswehr fue el único cliente que paró.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/13/quantum-systems-drones-back-in-the-air-after-malware-scare/5309658",
-      "fecha": "13-11-2026 14:14"
-    },
-    {
-      "titulo": "El Hubble se hunde: la NASA busca ayuda privada para elevar su órbita",
-      "resumen": "La NASA ha lanzado una solicitud de información para que empresas privadas propongan misiones de servicio al Hubble, que sin impulso reentraría en la atmósfera en 2033 o 2034. Se busca elevar su órbita, aunque también se aceptan propuestas de desorbitado controlado o mejoras. El intento anterior con Katalyst para rescatar el observatorio Swift fracasó y este reentró el 4 de noviembre.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/nasa-wants-to-keep-the-hubble-space-telescope-afloat/",
-      "fecha": "13-11-2026 11:00"
-    },
-    {
-      "titulo": "BYD reconoce que montó mal las llantas de su SUV eléctrico Great Tang",
-      "resumen": "BYD se disculpó por instalar las llantas anchas delante y las estrechas detrás en el Great Tang (Datang en China), un SUV que parte de unos 40.000 dólares y suma 150.000 pedidos en China. El fallo viene de un proveedor de Hubei, y la empresa asegura que no hay riesgo de seguridad. Ofrece cambio gratuito, coche de sustitución o compensación y reinicia la garantía.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2315638/byd-wheel-assembly-error-great-tang-electric-suv/",
-      "fecha": "13-11-2026 09:12"
-    },
-    {
-      "titulo": "Garmin lanza la beta 7.19 para los Fénix 9 con 38 novedades",
-      "resumen": "La beta 7.19 llega a Fénix 9 Pro, Enduro 4 y MARQ 3 con segundero continuo en algunas esferas, ajuste de tiempo en la linterna y tarjetas de peso de mochila y calorías. Corrige la vista previa de rutas, las notificaciones sonando en silencio y dos apagones inesperados. Solo para inscritos en la beta; la versión pública puede tardar semanas.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-fenix-9-actualizacion-7-19-beta/",
-      "fecha": "13-11-2026 15:57"
-    },
-    {
-      "titulo": "Meta planeó volverse contra Jonathan Haidt y ahora hasta sus críticos le defienden",
-      "resumen": "Documentos judiciales en California revelaron que en 2023 empleados de Meta debatieron una «estrategia Whisper» para poner a académicos en contra de Haidt, autor de The Anxious Generation. Candice Odgers y danah boyd han dicho que sus críticas son suyas, y Andrew Gelman ha defendido a Haidt. Meta no ha comentado y no se sabe si llegó a aplicar el plan.",
+      "titulo": "La FAA levanta la parada nacional de vuelos tras más de cuatro horas sin despegues en EE. UU.",
+      "resumen": "La FAA ordenó a las 15:44 (ET) del viernes una parada nacional de despegues por un «fallo temporal de telecomunicaciones» y la levantó a las 20:15, más de cuatro horas después. El secretario de Transporte culpó a un sistema de control aéreo obsoleto, con equipos analógicos que se «sobrecargaron de datos»; FlightAware contaba 9.124 vuelos retrasados y 5.901 cancelados. Seguridad Nacional dice que no hay indicios de ciberataque ni de relación con la caída de Microsoft, y es la tercera parada nacional de la historia.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1032645/jonathan-haidt-critics-response-meta",
-      "fecha": "13-11-2026 15:30"
+      "enlace": "https://www.theverge.com/news/1033489/faa-ground-stop",
+      "fecha": "14-11-2026 00:47"
+    },
+    {
+      "titulo": "El vuelo 15 de Starship llega a órbita y despliega 26 satélites Starlink V3, con posible captura de la nave el sábado",
+      "resumen": "Starship despegó puntual desde Starbase, Texas, y su etapa superior alcanzó órbita baja por segunda vez, desplegando 26 satélites Starlink V3 a los 40 minutos. El propulsor, en cambio, fue desviado al golfo de México por un problema no especificado en vez de ser capturado por la torre. SpaceX intentará el sábado, hacia las 21:15 UTC, recuperar por primera vez la etapa superior si pasa las comprobaciones en órbita.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+      "fecha": "14-11-2026 01:49"
+    },
+    {
+      "titulo": "Microsoft 365 vuelve a la vida tras una caída de 24 horas que afectó a más de 70 países",
+      "resumen": "La caída empezó el jueves hacia las 12:00 ET con fallos en Outlook y se extendió a Teams, Copilot y otros servicios en más de 70 países, con gobiernos, aerolíneas, servicios de emergencia y hospitales afectados. Microsoft descarta un ciberataque o la IA y la atribuye a un problema introducido en una ampliación de capacidad de red, tras un cambio reciente. Ha ampliado a 48 horas la cola de correos y promete un informe completo.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+      "fecha": "13-11-2026 20:08"
+    },
+    {
+      "titulo": "Un investigador descontento publica SignDrop, un 0-day de Windows que da derechos de System",
+      "resumen": "Nightmare Eclipse, seudónimo de un investigador enfrentado a Microsoft, divulgó el martes SignDrop, una vulnerabilidad en el Common Log File System que permite a un usuario local obtener privilegios de System en algunas versiones de Windows. El ataque fuerza a Windows Defender a abrir un contenedor CLFS manipulado mediante enlaces simbólicos. Irónicamente, nace de una mitigación que Microsoft introdujo en octubre de 2025 para frenar otros fallos de CLFS.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+      "fecha": "13-11-2026 17:26"
+    },
+    {
+      "titulo": "Los CVE de 2026 superan los 100.000, más del doble que en 2025, por la búsqueda de fallos con IA",
+      "resumen": "VulnCheck contabilizaba 100.222 CVE el viernes, y su responsable de divulgación atribuye la mayor parte al descubrimiento de vulnerabilidades con IA. Solo Microsoft sumó 1.094 fallos el martes, tras 1.474 el mes anterior. Aunque el 1,4 % (1.363) ya figura como explotado, la mediana entre publicación del CVE y explotación bajó de 120 días en 2025 a 80 en el primer semestre de 2026.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/13/this-years-bug-count-just-passed-100k/5309882",
+      "fecha": "13-11-2026 21:52"
+    },
+    {
+      "titulo": "Guido van Rossum anuncia la muerte de Tim Peters, autor del Zen de Python y de Timsort",
+      "resumen": "El creador de Python publicó en el foro oficial un homenaje a Tim Peters, fallecido el 15 de julio de 2026. Peters escribió los 19 principios del Zen de Python (PEP 20) y creó en 2002 el algoritmo Timsort, adoptado también por Java y Android. Van Rossum lo define como «un mentor y un colaborador en el diseño del lenguaje» mucho antes de su obra más conocida.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/guido-van-rossum-creador-python-anuncia-fallecimiento-tim-peters-creador-las-miticas-19-lineas-para-mi-era-un-mentor-sin-peters-python-no-seria-que-es-hoy_7060741_0.html",
+      "fecha": "13-11-2026 22:54"
+    },
+    {
+      "titulo": "Trump intentó que Jensen Huang no dejara de ser CEO de Nvidia: «Es demasiado grande para caer»",
+      "resumen": "Según el New York Times, Trump pidió a Huang el martes 10 de noviembre que luchara por su puesto, sin éxito: el directivo dimitió tras conocerse relaciones con empleadas de Nvidia, la última con la vicepresidenta de salud y una segunda según Reuters. Trump ve el asunto como un «simple caso de adulterio» y a Huang como pieza geopolítica clave, con Nvidia dominando el 80 % de los chips avanzados de IA.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/donald-trump-intento-que-jensen-huang-siguiera-como-ceo-nvidia-demasiado-grande-como-para-caer",
+      "fecha": "13-11-2026 17:01"
+    },
+    {
+      "titulo": "La precarga de GTA VI bate récords de tráfico en Europa antes del lanzamiento del 19 de noviembre",
+      "resumen": "Virgin Media O2 registró el 10 de noviembre su mayor pico vespertino y volumen diario de su historia, un 3,8 % y un 4 % por encima de los récords previos. El nodo de DE-CIX en Fráncfort llegó a 22,30 Tbit/s y el conjunto de sus nodos a un máximo de 33,01 Tbit/s. La instalación pesa hasta 212 GB y 1&1 notó un tráfico diez veces mayor al habitual hacia PSN y Xbox Live.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/hay-videojuego-que-pueda-romper-internet-ese-gta-vi-su-precarga-esta-dejando-picos-record-trafico",
+      "fecha": "13-11-2026 16:31"
     }
   ],
   "titulares": [
     {
-      "titulo": "Slate Auto presume de GPS sin pantalla: «Acuérdate del atlas de carreteras»",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "Por qué el HomeView de Apple depende tanto de tu iPhone",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2315338/why-apples-homeview-relies-so-heavily-on-your-iphone/",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "Microsoft retira opciones de compatibilidad de Word y los documentos podrán descuadrarse",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/applications/2026/11/13/oh-my-word-microsoft-retires-compatibility-options-because-who-needs-layouts-to-stay-put/5309664",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "La caída del correo de Microsoft se convierte en una crisis global de la nube",
+      "titulo": "Amazon lanza el nuevo Kindle Colorsoft: un lector premium con precio premium",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
+      "enlace": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
+      "fecha": "14-11-2026"
+    },
+    {
+      "titulo": "Algunas copias físicas internacionales de GTA VI podrían canjearse sin abrir la caja",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2316687/some-physical-copies-of-gta-vi-can-allegedly-be-redeemed-without-opening-the-box/",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "Apple debería haber hecho RGB el logo del MacBook Pro",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1032550/apple-macbook-pro-proled-xdr-lid-logo-led-rgb-colors",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "La caída masiva de Outlook de Microsoft continúa",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "Palantir suma tres policías británicas con un contrato de 10,1 millones de libras",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/public-sector/2026/11/13/palantir-adds-three-uk-police-forces-to-its-beat-with-101m-deal/5309699",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "Rocket Report: Starship prepara un vuelo de prueba histórico y Electron cumple un siglo",
+      "titulo": "Kalshi prescinde de Trump Jr. como asesor: su CEO admite que la imagen no era buena",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "El regulador policial británico alerta de que el reconocimiento facial puede causar detenciones erróneas",
+      "titulo": "Las películas 3D de Disney lucen en Quest 3 de Meta, aunque se han hecho esperar",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2316342/meta-quest-3-disney-plus-3d-movies-hands-on/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "El nuevo ratón inalámbrico de Keychron permite ajustar la posición del trackball",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "La versión más pequeña de la videocámara retro de Camp Snap cabe en un llavero",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Mozilla deja a su suerte a los dueños de webs de Solo al cerrar el alojamiento",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/13/brit-police-watchdog-says-cops-use-of-facial-recog-risks-wrongful-arrests/5309379",
+      "enlace": "https://www.theregister.com/software/2026/11/13/mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down/5309632",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "C++26 tropieza en la recta final por la disputa sobre los Contratos",
+      "titulo": "El nuevo Apple TV tiene un problema con YouTube",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Direcciones de correo de falsas amenazas de bomba en colegios europeos aparecen en viejos logs de infostealers",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/devops/2026/11/13/c26-stumbles-at-finish-line-over-contracts-dispute/5309526",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/13/email-addresses-used-in-european-school-bomb-hoaxes-spotted-in-old-infostealer-logs/5309765",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "La caída de M365 supera las 20 horas mientras fallan las correcciones de Microsoft",
+      "titulo": "HPE presenta configuraciones híbridas de almacenamiento: el coste de los SSD golpea a la supercomputación",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/saas/2026/11/13/microsofts-massive-m365-outage-stretches-past-20-hours-as-its-fixes-keep-failing/5309609",
+      "enlace": "https://www.theregister.com/storage/2026/11/13/hpe-debuts-hybrid-storage-configs-rising-ssd-costs-hit-supercomputing/5309679",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "La empresa gallega Sargadelos cree que Nvidia copió su logotipo de uno de sus diseños: \"En el fondo, nos gusta\"",
+      "titulo": "Otro desarrollador del kernel de Linux se aparta de parte de sus tareas por exceso de carga",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/13/another-linux-kernel-developer-steps-back-from-some-duties-due-to-overload/5309628",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Startup quiere alimentar centros de datos flotantes con el calor del océano y ya tiene inversores",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "El USB del espacio: Europa crea un conector universal para reparar satélites en órbita en lugar de tirarlos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/empresa-gallega-sargadelos-muestra-como-nvidia-pudo-copiar-su-logotipo-uno-sus-disenos-fondo-nos-gusta",
+      "enlace": "https://www.xataka.com/espacio/usb-espacio-europa-crea-conector-universal-para-reparar-satelites-orbita-lugar-tirarlos",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "Pedro Sánchez invita a Jordi Wild a mirar su teléfono: “Puedes ver lo que quieras ver”",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/seguridad/pedro-sanchez-movil-jordi-wild-pegasus/",
+      "titulo": "Millones de documentos de Word podrían cambiar tras esta decisión de Microsoft",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/software/microsoft-retira-funciones-compatibilidad-word-documentos-antiguos/",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "Por qué Antena 3 UHD se ve tan mal en la TDT y cómo solucionarlo con las opciones de configuración de tu Smart TV",
+      "titulo": "Hackers están instalando GSocket en servidores Linux para seguir teniendo acceso incluso tras corregir las vulnerabilidades",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/por-que-antena-3-uhd-se-ve-tan-mal-tdt-como-solucionarlo-con-las-opciones-configuracion-tu-smart-tv_7060584_0.html",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/hackers-estan-instalando-gsocket-servidores-linux-para-seguir-teniendo-acceso-incluso-tras-corregir-las-vulnerabilidades_7060737_0.html",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "3,1 millones de visualizaciones en unas horas: las entrevistas de Jordi Wild monopolizan el arranque de la campaña",
+      "titulo": "Muchos anuncios de GTA VI no muestran armas: no es que el juego se haya moderado, es que Rockstar sabe que muchos jugadores son menores",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/3-1-millon-visualizaciones-unas-horas-entrevistas-jordi-wild-monopolizan-arranque-campana",
+      "enlace": "https://www.xataka.com/videojuegos/muchos-anuncios-gta-vi-no-muestran-armas-no-que-juego-se-haya-moderado-que-rockstar-sabe-que-muchos-jugadores-menores",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "O2 vuelve a hablar del cambio al router WiFi 7 y confirma qué detalle deben cumplir sus clientes para recibirlo gratis",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/o2-cambio-router-wifi-7-detalle-recibirlo-gratis/",
+      "titulo": "¿Quiénes son los principales candidatos a reemplazar a Jensen Huang en NVIDIA?",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/economia-empresas/candidatos-reemplazar-jensen-huang-ceo-nvidia/",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "La Séptima suma y sigue más allá de la TDT y ya puede verse en un nuevo operador: solo le queda uno de los grandes",
+      "titulo": "Android Auto 18.2 ya se puede descargar con todas estas novedades: así puedes instalarla aunque no estés en el programa beta",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-suma-sigue-mas-alla-tdt-ya-puede-verse-un-nuevo-operador-solo-le-queda-uno-los-grandes_7060578_0.html",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-18-2-ya-se-puede-descargar-con-todas-estas-novedades-asi-puedes-instalarla-aunque-no-estes-programa-beta_7060828_0.html",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "Pedro Sánchez, en el podcast de Jordi Wild: \"Aquí tienes mi móvil, puedes ver lo que quieras ver\"",
+      "titulo": "Cambiar la caldera comunitaria por aerotermia puede salir más barato: los nuevos incentivos y sus condiciones",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/pedro-sanchez-podcast-jordi-wild-aqui-tienes-mi-movil-puedes-ver-que-quieras-ver",
+      "enlace": "https://www.xataka.com/energia/cambiar-caldera-comunitaria-aerotermia-puede-salir-barato-nuevos-incentivos-sus-condiciones",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "La Séptima da un gran paso y ya se puede ver en Vodafone TV y en la televisión por satélite",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/streaming-tv/tv-satelite-vodafone-septima-television-canal-puede/",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "Todo lo que sabemos de la caída de Outlook, Teams y los servicios de Microsoft: ¿podría tratarse de un ciberataque?",
+      "titulo": "Microsoft va a cambiar Word y tus documentos antiguos podrían dejar de verse como siempre",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/todo-que-sabemos-caida-outlook-teams-los-servicios-microsoft-podria-tratarse-un-ciberataque_7060590_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-va-cambiar-word-tus-documentos-antiguos-podrian-dejar-verse-como-siempre_7060827_0.html",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "Uno de los mejores móviles pequeños de 2026, a mínimo histórico: el Pixel 11 Pro cae por debajo de los 790 euros",
+      "titulo": "Cinco televisores con buena relación calidad-precio para disfrutar de 'GTA VI'",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/uno-mejores-moviles-pequenos-2026-a-minimo-historico-pixel-11-pro-cae-debajo-790-euros",
+      "enlace": "https://www.xataka.com/seleccion/cinco-televisores-buena-relacion-calidad-precio-para-disfrutar-gta-vi",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "Feijóo aclara a Jordi Wild qué pasará con los autónomos que llevan 12 años trabajando: “No pagarán IVA”",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/fintech/feijoo-autonomos-anos-iva/",
-      "fecha": "13-11-2026"
-    },
-    {
-      "titulo": "¿Cuánto tiempo podría durar la caída de Outlook y los problemas con los servicios de Microsoft en España?",
+      "titulo": "La Séptima impresiona en su primera semana en la TDT con unos datos que han encendido todas las alarmas en laSexta",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/cuanto-tiempo-podria-durar-caida-outlook-los-problemas-con-los-servicios-microsoft-espana_7060570_0.html",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-impresiona-su-primera-semana-tdt-con-unos-datos-que-han-encendido-todas-las-alarmas-lasexta_7060740_0.html",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "Más de 60 huesos encontrados en Murcia han permitido reconstruir al lince ibérico más antiguo conocido: vivió hace un millón de años",
+      "titulo": "Las secadoras de Whirlpool estrenan Adaptive Dry: así es la función que aprende cómo te gusta la ropa tras cada ciclo",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/hallado-murcia-esqueleto-antiguo-lince-iberico-viaje-millon-anos-a-origenes-felino-emblematico",
+      "enlace": "https://www.xataka.com/seleccion/secadoras-whirlpool-estrenan-adaptive-dry-asi-funcion-que-aprende-como-te-gusta-ropa-cada-ciclo",
       "fecha": "13-11-2026"
     },
     {
-      "titulo": "Ada Colau acusa directamente a X ante Jordi Wild: “El algoritmo de Twitter va a favor de la derecha y la extrema derecha”",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes-sociales/derecha-ada-algoritmo-colau-extrema-acusa-twitter/",
+      "titulo": "Microsoft confirma que has podido perder correos de Outlook y Hotmail durante días: \"No los encontrarás ni en la carpeta de SPAM\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-confirma-que-has-podido-perder-correos-outlook-hotmail-durante-dias-no-los-encontraras-ni-carpeta-spam_7060742_0.html",
       "fecha": "13-11-2026"
     }
   ]

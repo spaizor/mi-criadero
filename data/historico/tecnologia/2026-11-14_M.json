@@ -1,0 +1,208 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "14-11-2026 03:12",
+  "destacadas": [
+    {
+      "titulo": "La FAA levanta la parada nacional de vuelos tras más de cuatro horas sin despegues en EE. UU.",
+      "resumen": "La FAA ordenó a las 15:44 (ET) del viernes una parada nacional de despegues por un «fallo temporal de telecomunicaciones» y la levantó a las 20:15, más de cuatro horas después. El secretario de Transporte culpó a un sistema de control aéreo obsoleto, con equipos analógicos que se «sobrecargaron de datos»; FlightAware contaba 9.124 vuelos retrasados y 5.901 cancelados. Seguridad Nacional dice que no hay indicios de ciberataque ni de relación con la caída de Microsoft, y es la tercera parada nacional de la historia.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/news/1033489/faa-ground-stop",
+      "fecha": "14-11-2026 00:47"
+    },
+    {
+      "titulo": "El vuelo 15 de Starship llega a órbita y despliega 26 satélites Starlink V3, con posible captura de la nave el sábado",
+      "resumen": "Starship despegó puntual desde Starbase, Texas, y su etapa superior alcanzó órbita baja por segunda vez, desplegando 26 satélites Starlink V3 a los 40 minutos. El propulsor, en cambio, fue desviado al golfo de México por un problema no especificado en vez de ser capturado por la torre. SpaceX intentará el sábado, hacia las 21:15 UTC, recuperar por primera vez la etapa superior si pasa las comprobaciones en órbita.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+      "fecha": "14-11-2026 01:49"
+    },
+    {
+      "titulo": "Microsoft 365 vuelve a la vida tras una caída de 24 horas que afectó a más de 70 países",
+      "resumen": "La caída empezó el jueves hacia las 12:00 ET con fallos en Outlook y se extendió a Teams, Copilot y otros servicios en más de 70 países, con gobiernos, aerolíneas, servicios de emergencia y hospitales afectados. Microsoft descarta un ciberataque o la IA y la atribuye a un problema introducido en una ampliación de capacidad de red, tras un cambio reciente. Ha ampliado a 48 horas la cola de correos y promete un informe completo.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+      "fecha": "13-11-2026 20:08"
+    },
+    {
+      "titulo": "Un investigador descontento publica SignDrop, un 0-day de Windows que da derechos de System",
+      "resumen": "Nightmare Eclipse, seudónimo de un investigador enfrentado a Microsoft, divulgó el martes SignDrop, una vulnerabilidad en el Common Log File System que permite a un usuario local obtener privilegios de System en algunas versiones de Windows. El ataque fuerza a Windows Defender a abrir un contenedor CLFS manipulado mediante enlaces simbólicos. Irónicamente, nace de una mitigación que Microsoft introdujo en octubre de 2025 para frenar otros fallos de CLFS.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+      "fecha": "13-11-2026 17:26"
+    },
+    {
+      "titulo": "Los CVE de 2026 superan los 100.000, más del doble que en 2025, por la búsqueda de fallos con IA",
+      "resumen": "VulnCheck contabilizaba 100.222 CVE el viernes, y su responsable de divulgación atribuye la mayor parte al descubrimiento de vulnerabilidades con IA. Solo Microsoft sumó 1.094 fallos el martes, tras 1.474 el mes anterior. Aunque el 1,4 % (1.363) ya figura como explotado, la mediana entre publicación del CVE y explotación bajó de 120 días en 2025 a 80 en el primer semestre de 2026.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/13/this-years-bug-count-just-passed-100k/5309882",
+      "fecha": "13-11-2026 21:52"
+    },
+    {
+      "titulo": "Guido van Rossum anuncia la muerte de Tim Peters, autor del Zen de Python y de Timsort",
+      "resumen": "El creador de Python publicó en el foro oficial un homenaje a Tim Peters, fallecido el 15 de julio de 2026. Peters escribió los 19 principios del Zen de Python (PEP 20) y creó en 2002 el algoritmo Timsort, adoptado también por Java y Android. Van Rossum lo define como «un mentor y un colaborador en el diseño del lenguaje» mucho antes de su obra más conocida.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/guido-van-rossum-creador-python-anuncia-fallecimiento-tim-peters-creador-las-miticas-19-lineas-para-mi-era-un-mentor-sin-peters-python-no-seria-que-es-hoy_7060741_0.html",
+      "fecha": "13-11-2026 22:54"
+    },
+    {
+      "titulo": "Trump intentó que Jensen Huang no dejara de ser CEO de Nvidia: «Es demasiado grande para caer»",
+      "resumen": "Según el New York Times, Trump pidió a Huang el martes 10 de noviembre que luchara por su puesto, sin éxito: el directivo dimitió tras conocerse relaciones con empleadas de Nvidia, la última con la vicepresidenta de salud y una segunda según Reuters. Trump ve el asunto como un «simple caso de adulterio» y a Huang como pieza geopolítica clave, con Nvidia dominando el 80 % de los chips avanzados de IA.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/donald-trump-intento-que-jensen-huang-siguiera-como-ceo-nvidia-demasiado-grande-como-para-caer",
+      "fecha": "13-11-2026 17:01"
+    },
+    {
+      "titulo": "La precarga de GTA VI bate récords de tráfico en Europa antes del lanzamiento del 19 de noviembre",
+      "resumen": "Virgin Media O2 registró el 10 de noviembre su mayor pico vespertino y volumen diario de su historia, un 3,8 % y un 4 % por encima de los récords previos. El nodo de DE-CIX en Fráncfort llegó a 22,30 Tbit/s y el conjunto de sus nodos a un máximo de 33,01 Tbit/s. La instalación pesa hasta 212 GB y 1&1 notó un tráfico diez veces mayor al habitual hacia PSN y Xbox Live.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/hay-videojuego-que-pueda-romper-internet-ese-gta-vi-su-precarga-esta-dejando-picos-record-trafico",
+      "fecha": "13-11-2026 16:31"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Amazon lanza el nuevo Kindle Colorsoft: un lector premium con precio premium",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
+      "fecha": "14-11-2026"
+    },
+    {
+      "titulo": "Algunas copias físicas internacionales de GTA VI podrían canjearse sin abrir la caja",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2316687/some-physical-copies-of-gta-vi-can-allegedly-be-redeemed-without-opening-the-box/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Kalshi prescinde de Trump Jr. como asesor: su CEO admite que la imagen no era buena",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Las películas 3D de Disney lucen en Quest 3 de Meta, aunque se han hecho esperar",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2316342/meta-quest-3-disney-plus-3d-movies-hands-on/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "El nuevo ratón inalámbrico de Keychron permite ajustar la posición del trackball",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "La versión más pequeña de la videocámara retro de Camp Snap cabe en un llavero",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Mozilla deja a su suerte a los dueños de webs de Solo al cerrar el alojamiento",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/software/2026/11/13/mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down/5309632",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "El nuevo Apple TV tiene un problema con YouTube",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Direcciones de correo de falsas amenazas de bomba en colegios europeos aparecen en viejos logs de infostealers",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/13/email-addresses-used-in-european-school-bomb-hoaxes-spotted-in-old-infostealer-logs/5309765",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "HPE presenta configuraciones híbridas de almacenamiento: el coste de los SSD golpea a la supercomputación",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/storage/2026/11/13/hpe-debuts-hybrid-storage-configs-rising-ssd-costs-hit-supercomputing/5309679",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Otro desarrollador del kernel de Linux se aparta de parte de sus tareas por exceso de carga",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/13/another-linux-kernel-developer-steps-back-from-some-duties-due-to-overload/5309628",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Startup quiere alimentar centros de datos flotantes con el calor del océano y ya tiene inversores",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "El USB del espacio: Europa crea un conector universal para reparar satélites en órbita en lugar de tirarlos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/usb-espacio-europa-crea-conector-universal-para-reparar-satelites-orbita-lugar-tirarlos",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Millones de documentos de Word podrían cambiar tras esta decisión de Microsoft",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/software/microsoft-retira-funciones-compatibilidad-word-documentos-antiguos/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Hackers están instalando GSocket en servidores Linux para seguir teniendo acceso incluso tras corregir las vulnerabilidades",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/hackers-estan-instalando-gsocket-servidores-linux-para-seguir-teniendo-acceso-incluso-tras-corregir-las-vulnerabilidades_7060737_0.html",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Muchos anuncios de GTA VI no muestran armas: no es que el juego se haya moderado, es que Rockstar sabe que muchos jugadores son menores",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/muchos-anuncios-gta-vi-no-muestran-armas-no-que-juego-se-haya-moderado-que-rockstar-sabe-que-muchos-jugadores-menores",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "¿Quiénes son los principales candidatos a reemplazar a Jensen Huang en NVIDIA?",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/economia-empresas/candidatos-reemplazar-jensen-huang-ceo-nvidia/",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Android Auto 18.2 ya se puede descargar con todas estas novedades: así puedes instalarla aunque no estés en el programa beta",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-18-2-ya-se-puede-descargar-con-todas-estas-novedades-asi-puedes-instalarla-aunque-no-estes-programa-beta_7060828_0.html",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Cambiar la caldera comunitaria por aerotermia puede salir más barato: los nuevos incentivos y sus condiciones",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/cambiar-caldera-comunitaria-aerotermia-puede-salir-barato-nuevos-incentivos-sus-condiciones",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Microsoft va a cambiar Word y tus documentos antiguos podrían dejar de verse como siempre",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-va-cambiar-word-tus-documentos-antiguos-podrian-dejar-verse-como-siempre_7060827_0.html",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Cinco televisores con buena relación calidad-precio para disfrutar de 'GTA VI'",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/cinco-televisores-buena-relacion-calidad-precio-para-disfrutar-gta-vi",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "La Séptima impresiona en su primera semana en la TDT con unos datos que han encendido todas las alarmas en laSexta",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-impresiona-su-primera-semana-tdt-con-unos-datos-que-han-encendido-todas-las-alarmas-lasexta_7060740_0.html",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Las secadoras de Whirlpool estrenan Adaptive Dry: así es la función que aprende cómo te gusta la ropa tras cada ciclo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/secadoras-whirlpool-estrenan-adaptive-dry-asi-funcion-que-aprende-como-te-gusta-ropa-cada-ciclo",
+      "fecha": "13-11-2026"
+    },
+    {
+      "titulo": "Microsoft confirma que has podido perder correos de Outlook y Hotmail durante días: \"No los encontrarás ni en la carpeta de SPAM\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-confirma-que-has-podido-perder-correos-outlook-hotmail-durante-dias-no-los-encontraras-ni-carpeta-spam_7060742_0.html",
+      "fecha": "13-11-2026"
+    }
+  ]
+}
