@@ -1,0 +1,68 @@
+{
+  "seccion": "ia",
+  "actualizado": "14-11-2026 16:10",
+  "destacadas": [
+    {
+      "titulo": "OpenAI reasigna a sus investigadores de robótica porque los modelos generales podrían hacer innecesaria la IA especializada",
+      "resumen": "Los investigadores pasan al equipo de investigación de Mark Chen y los de robótica aplicada y hardware, a la organización Applied de Greg Brockman. OpenAI cree que modelos como GPT-6 Astra pueden controlar robots directamente: en un estudio de Nvidia, un agente con Astra logró un 74,8 % de éxito en tareas simuladas frente al 51 % del mejor modelo especializado. Altman apunta a una primera demo pública de robot en 2027.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+      "fecha": "14-11-2026 12:40"
+    },
+    {
+      "titulo": "Un exinvestigador asegura que Anthropic ya puede reentrenar Mythos con «una fracción del cómputo original»",
+      "resumen": "Jacob Coxon, que trabajó en OpenAI y Anthropic, dice que una diapositiva de la presentación de Anthropic para su salida a bolsa fue clave para que se marchara tras unos cuatro meses. Según él, muestra que la eficiencia algorítmica mejora de forma acelerada y que Mythos fue «un punto en una curva superexponencial». Pide pausar el desarrollo de modelos de frontera el próximo año.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+      "fecha": "14-11-2026 12:21"
+    },
+    {
+      "titulo": "Bing lanza un modo sin IA: el operador «-ai» y una extensión para recuperar los resultados clásicos",
+      "resumen": "Microsoft añade el operador «-ai» para ocultar las respuestas generadas por IA en cualquier búsqueda, configurable de forma permanente con un motor de búsqueda personalizado. También lanza la extensión Microsoft Bing AI Search Choice para Chrome y Edge, que alterna entre ambas experiencias con un clic. La compañía mantiene su apuesta por las funciones de IA.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-admite-que-no-todo-mundo-quiere-ia-las-busquedas-bing-lanza-un-modo-sin-inteligencia-artificial-asi-puedes-activarlo_7061120_0.html",
+      "fecha": "14-11-2026 15:50"
+    },
+    {
+      "titulo": "El auge del ransomware con IA: casi 3.000 ataques reivindicados en verano, un 20-40 % más que en primavera",
+      "resumen": "Los investigadores coinciden en que los ataques reivindicados han subido, sobre todo fuera de EE. UU., y atribuyen parte del aumento a la IA. Aún no hay ransomware totalmente autónomo con IA, pero los grupos usan LLM para mejorar el phishing y las negociaciones. Grupos como Gentlemen, Qilin y Akira dominan, con una nube de grupos pequeños que aparecen y desaparecen.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+      "fecha": "14-11-2026 14:00"
+    },
+    {
+      "titulo": "Helen Toner, la consejera que despidió a Altman: seguimos sin poder fiarnos de los CEO de la IA",
+      "resumen": "La directora ejecutiva del CSET de Georgetown defiende en el podcast Decoder que, si el futuro depende de que una sola persona sea de fiar, hay un problema grave. Recuerda que el mecanismo de control del consejo de OpenAI falló cuando intentó actuar, y que el acuerdo voluntario de la Casa Blanca se apoya en esa misma idea. Habla también de alineamiento, regulación y China.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "fecha": "14-11-2026 16:00"
+    },
+    {
+      "titulo": "Noruega tiene 3.500 robots con IA y láser cazando piojos en sus granjas de salmón",
+      "resumen": "Los robots submarinos de Stingray Marine Solutions identifican con cámaras e IA los piojos del salmón y los eliminan con pulsos láser, de forma preventiva y 24/7. Operan sobre 112 millones de peces. Los piojos, que proliferan con el calor, causan en la industria pérdidas de unos mil millones de dólares al año.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/noruega-tiene-3-500-robots-ia-armados-laser-cazando-piojos-sus-granjas-salmon",
+      "fecha": "14-11-2026 14:01"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Praxis-1 de Runway, de código abierto, convierte la IA de vídeo en controlador de robots",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+      "fecha": "14-11-2026"
+    },
+    {
+      "titulo": "OpenAI estrena ChatGPT Wallet para que sus agentes de IA puedan realizar compras por ti",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/openai-estrena-chatgpt-wallet-para-que-sus-agentes-ia-puedan-realizar-compras-por-ti_7061089_0.html",
+      "fecha": "14-11-2026"
+    },
+    {
+      "titulo": "Jack Wallen, experto en software libre: \"La IA está empujando a Linux a su límite de desarrollo y solo estas distros podrán mantenerse\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/jack-wallen-experto-software-libre-inteligencia-artificial-esta-empujando-linux-limite-desarrollo-solo-estas-distros-podran-mantenerse_7048578_0.html",
+      "fecha": "14-11-2026"
+    }
+  ]
+}
