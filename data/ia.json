@@ -1,67 +1,46 @@
 {
   "seccion": "ia",
-  "actualizado": "14-11-2026 16:10",
+  "actualizado": "15-11-2026 04:09",
   "destacadas": [
     {
-      "titulo": "OpenAI reasigna a sus investigadores de robótica porque los modelos generales podrían hacer innecesaria la IA especializada",
-      "resumen": "Los investigadores pasan al equipo de investigación de Mark Chen y los de robótica aplicada y hardware, a la organización Applied de Greg Brockman. OpenAI cree que modelos como GPT-6 Astra pueden controlar robots directamente: en un estudio de Nvidia, un agente con Astra logró un 74,8 % de éxito en tareas simuladas frente al 51 % del mejor modelo especializado. Altman apunta a una primera demo pública de robot en 2027.",
+      "titulo": "Amodei admite «una enorme incertidumbre» sobre el próximo año días antes de la mayor salida a bolsa",
+      "resumen": "El CEO de Anthropic lo dijo en un evento de inversores de JPMorgan, con la OPV prevista para el 19 de noviembre. Según Bloomberg, la compañía acumula compromisos de unos 901.000 millones de dólares, sobre todo en cómputo y chips, de los que unos 71.000 millones vencen antes de septiembre de 2027. Planea captar hasta 64.400 millones en la OPV y 26.000 millones en colocación privada; su ingreso anualizado llegó a 81.000 millones a finales de octubre.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
-      "fecha": "14-11-2026 12:40"
+      "enlace": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+      "fecha": "14-11-2026 20:05"
     },
     {
-      "titulo": "Un exinvestigador asegura que Anthropic ya puede reentrenar Mythos con «una fracción del cómputo original»",
-      "resumen": "Jacob Coxon, que trabajó en OpenAI y Anthropic, dice que una diapositiva de la presentación de Anthropic para su salida a bolsa fue clave para que se marchara tras unos cuatro meses. Según él, muestra que la eficiencia algorítmica mejora de forma acelerada y que Mythos fue «un punto en una curva superexponencial». Pide pausar el desarrollo de modelos de frontera el próximo año.",
+      "titulo": "Gemini 4 Carbon lidera MathArena pero cuesta 15 veces más que GPT-6.1 Sol",
+      "resumen": "El modelo de Google, lanzado el 10 de noviembre, logra un 85,4 % en MathArena frente al 80,6 % de GPT-6.1 Sol. Claude Fable 5.2 queda segundo con un 82,8 % y Kimi K3.1 Pro es el mejor modelo abierto con un 54,3 %. El coste esperado por tarea es de 15,70 $ para Carbon y 40,20 $ para Fable 5.2, frente a 1,07 $ de GPT-6.1 Sol.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
-      "fecha": "14-11-2026 12:21"
+      "enlace": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+      "fecha": "14-11-2026 17:48"
     },
     {
-      "titulo": "Bing lanza un modo sin IA: el operador «-ai» y una extensión para recuperar los resultados clásicos",
-      "resumen": "Microsoft añade el operador «-ai» para ocultar las respuestas generadas por IA en cualquier búsqueda, configurable de forma permanente con un motor de búsqueda personalizado. También lanza la extensión Microsoft Bing AI Search Choice para Chrome y Edge, que alterna entre ambas experiencias con un clic. La compañía mantiene su apuesta por las funciones de IA.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-admite-que-no-todo-mundo-quiere-ia-las-busquedas-bing-lanza-un-modo-sin-inteligencia-artificial-asi-puedes-activarlo_7061120_0.html",
-      "fecha": "14-11-2026 15:50"
-    },
-    {
-      "titulo": "El auge del ransomware con IA: casi 3.000 ataques reivindicados en verano, un 20-40 % más que en primavera",
-      "resumen": "Los investigadores coinciden en que los ataques reivindicados han subido, sobre todo fuera de EE. UU., y atribuyen parte del aumento a la IA. Aún no hay ransomware totalmente autónomo con IA, pero los grupos usan LLM para mejorar el phishing y las negociaciones. Grupos como Gentlemen, Qilin y Akira dominan, con una nube de grupos pequeños que aparecen y desaparecen.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
-      "fecha": "14-11-2026 14:00"
-    },
-    {
-      "titulo": "Helen Toner, la consejera que despidió a Altman: seguimos sin poder fiarnos de los CEO de la IA",
-      "resumen": "La directora ejecutiva del CSET de Georgetown defiende en el podcast Decoder que, si el futuro depende de que una sola persona sea de fiar, hay un problema grave. Recuerda que el mecanismo de control del consejo de OpenAI falló cuando intentó actuar, y que el acuerdo voluntario de la Casa Blanca se apoya en esa misma idea. Habla también de alineamiento, regulación y China.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-      "fecha": "14-11-2026 16:00"
-    },
-    {
-      "titulo": "Noruega tiene 3.500 robots con IA y láser cazando piojos en sus granjas de salmón",
-      "resumen": "Los robots submarinos de Stingray Marine Solutions identifican con cámaras e IA los piojos del salmón y los eliminan con pulsos láser, de forma preventiva y 24/7. Operan sobre 112 millones de peces. Los piojos, que proliferan con el calor, causan en la industria pérdidas de unos mil millones de dólares al año.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/noruega-tiene-3-500-robots-ia-armados-laser-cazando-piojos-sus-granjas-salmon",
-      "fecha": "14-11-2026 14:01"
+      "titulo": "Musk y otros directivos tecnológicos piden a Nvidia que readmita a Jensen Huang",
+      "resumen": "Más de 115.000 personas habían firmado el sábado 14 de noviembre la petición, entre ellas 5.965 empleados actuales, 1.108 exempleados y 63.063 accionistas. Apoyan públicamente Elon Musk, Amjad Masad (Replit), Tim Sweeney (Epic Games) y Garry Tan (Y Combinator). Huang dimitió el 12 de noviembre y la CFO Colette Kress es CEO interina.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "fecha": "14-11-2026 22:41"
     }
   ],
   "titulares": [
     {
-      "titulo": "Praxis-1 de Runway, de código abierto, convierte la IA de vídeo en controlador de robots",
+      "titulo": "¿Dónde estaba el equipo de seguridad de Nvidia?",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Anthropic dice que los hábitos de prompting anticuados frenan a Claude Opus 5.5",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+      "enlace": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
       "fecha": "14-11-2026"
     },
     {
-      "titulo": "OpenAI estrena ChatGPT Wallet para que sus agentes de IA puedan realizar compras por ti",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/openai-estrena-chatgpt-wallet-para-que-sus-agentes-ia-puedan-realizar-compras-por-ti_7061089_0.html",
-      "fecha": "14-11-2026"
-    },
-    {
-      "titulo": "Jack Wallen, experto en software libre: \"La IA está empujando a Linux a su límite de desarrollo y solo estas distros podrán mantenerse\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/jack-wallen-experto-software-libre-inteligencia-artificial-esta-empujando-linux-limite-desarrollo-solo-estas-distros-podran-mantenerse_7048578_0.html",
+      "titulo": "Los gobiernos asiáticos reaccionan a la salida de Jensen Huang de Nvidia",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
       "fecha": "14-11-2026"
     }
   ]
