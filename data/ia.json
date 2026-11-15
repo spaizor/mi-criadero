@@ -1,47 +1,98 @@
 {
   "seccion": "ia",
-  "actualizado": "15-11-2026 04:09",
+  "actualizado": "15-11-2026 16:09",
   "destacadas": [
     {
-      "titulo": "Amodei admite «una enorme incertidumbre» sobre el próximo año días antes de la mayor salida a bolsa",
-      "resumen": "El CEO de Anthropic lo dijo en un evento de inversores de JPMorgan, con la OPV prevista para el 19 de noviembre. Según Bloomberg, la compañía acumula compromisos de unos 901.000 millones de dólares, sobre todo en cómputo y chips, de los que unos 71.000 millones vencen antes de septiembre de 2027. Planea captar hasta 64.400 millones en la OPV y 26.000 millones en colocación privada; su ingreso anualizado llegó a 81.000 millones a finales de octubre.",
+      "titulo": "Meituan publica un modelo agente de 1,6 billones de parámetros que nunca tocó una GPU de Nvidia",
+      "resumen": "Meituan ha liberado los pesos de LongCat-2.5, un modelo de mezcla de expertos con 1,6 billones de parámetros (unos 48.000 millones activos por token) entrenado íntegramente con chips chinos. Admite hasta 1 millón de tokens de entrada y logra 88,4 puntos en Terminal Bench v2.1, frente a 89,1 de Claude Opus 5 y 88,8 de GPT-5.6 Sol. Se distribuye con licencia MIT y un despliegue de ejemplo usa 194 aceleradores Huawei Ascend.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
-      "fecha": "14-11-2026 20:05"
+      "enlace": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "fecha": "15-11-2026 11:06"
     },
     {
-      "titulo": "Gemini 4 Carbon lidera MathArena pero cuesta 15 veces más que GPT-6.1 Sol",
-      "resumen": "El modelo de Google, lanzado el 10 de noviembre, logra un 85,4 % en MathArena frente al 80,6 % de GPT-6.1 Sol. Claude Fable 5.2 queda segundo con un 82,8 % y Kimi K3.1 Pro es el mejor modelo abierto con un 54,3 %. El coste esperado por tarea es de 15,70 $ para Carbon y 40,20 $ para Fable 5.2, frente a 1,07 $ de GPT-6.1 Sol.",
+      "titulo": "Una firma ligada a la expareja de Jensen Huang gestionó casi 12.000 millones en pedidos de chips de Nvidia para China",
+      "resumen": "Según documentos revisados por el Wall Street Journal, Megaspeed, propiedad de Alice Huang, gestionó cerca de 12.000 millones de dólares en pedidos de chips de Nvidia para empresas chinas entre marzo de 2024 y junio de 2025, varios cientos de miles de chips que EE. UU. quería mantener fuera de China. Megaspeed afirma que Huang dejó la empresa el 30 de agosto de 2025. Culper Research estima que más del 20 % de los ingresos de Nvidia del último año fiscal procedió de clientes chinos.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
-      "fecha": "14-11-2026 17:48"
+      "enlace": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+      "fecha": "15-11-2026 15:45"
     },
     {
-      "titulo": "Musk y otros directivos tecnológicos piden a Nvidia que readmita a Jensen Huang",
-      "resumen": "Más de 115.000 personas habían firmado el sábado 14 de noviembre la petición, entre ellas 5.965 empleados actuales, 1.108 exempleados y 63.063 accionistas. Apoyan públicamente Elon Musk, Amjad Masad (Replit), Tim Sweeney (Epic Games) y Garry Tan (Y Combinator). Huang dimitió el 12 de noviembre y la CFO Colette Kress es CEO interina.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-      "fecha": "14-11-2026 22:41"
+      "titulo": "Gemini llega a Apple CarPlay y convierte el coche en una extensión de Gmail y la IA de Google",
+      "resumen": "Google empieza a desplegar Gemini en Apple CarPlay a nivel global para quien tenga la app de Gemini en iOS. Permite resumir correos de Gmail, consultar Google Calendar y pedir recomendaciones por voz, con conversaciones que se pueden interrumpir y sincronizadas con el móvil. Hay que iniciar Gemini Live al menos una vez en el iPhone antes de conectarlo al coche.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/gemini-llega-apple-carplay-convierte-tu-coche-una-extension-gmail-ia-google_7061268_0.html",
+      "fecha": "15-11-2026 14:20"
+    },
+    {
+      "titulo": "DeepSeek lanza un agente gratuito que programa directamente desde GitHub",
+      "resumen": "DeepSeek ha publicado dsh-superagent, un prototipo de investigación con licencia MIT que recibe solicitudes ligadas a un repositorio de GitHub, las convierte en tareas y devuelve la solución como pull request lista para revisar. El agente no fusiona cambios por su cuenta: la aprobación final queda en manos del equipo. Funciona como paquete para DeepSeek Harness y admite una integración opcional con Feishu.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/deepseek-lanza-un-agente-gratis-que-programa-directamente-desde-github-asi-funciona_7058028_0.html",
+      "fecha": "15-11-2026 13:30"
+    },
+    {
+      "titulo": "La IA más rentable de 2027 no explicará nada: solo dará respuestas como un 0,82 o un 0,16",
+      "resumen": "Google y OpenAI apuestan por los «modelos de decisión», sistemas que no generan texto sino una opción con un número de confianza, en unos 150 milisegundos y a muy bajo coste. La startup TypeSafe los inventó en septiembre con su modelo Jev y tres semanas después valía 7.500 millones de dólares. OpenAI, Microsoft y Amazon lanzaron rivales, y Google lo ha hecho esta semana, con el problema de que no explican sus decisiones.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/ia-rentable-2027-no-va-a-explicarnos-nada-solo-nos-dara-respuestas-como-0-82-0-16",
+      "fecha": "15-11-2026 11:01"
+    },
+    {
+      "titulo": "Kora OS, un Linux con IA creado por un cofundador de Cyanogen",
+      "resumen": "Kirt McMaster, cofundador de Cyanogen, presenta Kora OS, distribución basada en Fedora Silverblue desarrollada por Kora Systems, surgida de Playtron. Su motor Cortex coordina CPU, GPU y NPU y puede usar otros equipos de la misma red. Una versión empresarial, Humain OS, se hace con la saudí Humain; ambos llegarán en 2027 con Snapdragon X2 Elite y se espera ejecutar localmente modelos de 26.000 millones de parámetros.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/kora-os-linux-ia-creador-cyanogen/",
+      "fecha": "15-11-2026 10:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "¿Dónde estaba el equipo de seguridad de Nvidia?",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "titulo": "Un resumen de los días caóticos de Jensen Huang",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
       "fecha": "15-11-2026"
     },
     {
-      "titulo": "Anthropic dice que los hábitos de prompting anticuados frenan a Claude Opus 5.5",
+      "titulo": "El banco central de Australia constata que la IA golpea primero a los jóvenes, sobre todo en software y atención al cliente",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
-      "fecha": "14-11-2026"
+      "enlace": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+      "fecha": "15-11-2026"
     },
     {
-      "titulo": "Los gobiernos asiáticos reaccionan a la salida de Jensen Huang de Nvidia",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-      "fecha": "14-11-2026"
+      "titulo": "Este Tamagotchi con IA convierte objetos cotidianos en mascotas virtuales exigentes",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Simon Batt, experto en software, sobre el uso de la inteligencia artificial en Linux: \"La IA está actuando mejor como perro rastreador que como cazador\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/simon-batt-experto-software-sobre-uso-inteligencia-artificial-linux-ia-esta-actuando-mejor-como-perro-rastreador-que-como-cazador_7037923_0.html",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Lorenzo Stoakes, mítico desarrollador del kernel de Linux, se rinde ante la IA: \"Lamentablemente no dispongo del ancho de banda suficiente\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/lorenzo-stoakes-mitico-desarrollador-kernel-linux-abandona-por-ia-lamentablemente-no-dispongo-ancho-banda-suficiente_7059672_0.html",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "\"Gravar los tokens o reservar trabajos solo para humanos\": Las propuestas de Bill Gates para mitigar el impacto de la IA en el empleo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/gravar-los-tokens-reservar-trabajos-solo-para-humanos-las-propuestas-bill-gates-para-mitigar-impacto-ia-empleo_7053416_0.html",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Brais Moure, ingeniero de software: \"Echo de menos programar sin IA pero, os guste o no, vamos tener inteligencia artificial hasta en la sopa\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/brais-moure-ingeniero-software-echo-menos-programar-sin-ia-pero-os-guste-no-vamos-tener-inteligencia-artificial-hasta-sopa_7059254_0.html",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Google prepara una IA para Android Auto que sabrá lo que necesitas antes de que se lo pidas",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/google-prepara-una-ia-para-android-auto-que-sabra-que-necesitas-antes-que-se-pidas_7061248_0.html",
+      "fecha": "15-11-2026"
     }
   ]
 }
