@@ -1,0 +1,110 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "15-11-2026 03:11",
+  "destacadas": [
+    {
+      "titulo": "SpaceX captura por primera vez la nave Starship con los brazos de su torre",
+      "resumen": "Tras completar varias órbitas en el vuelo 15, la etapa superior de Starship regresó, giró a vertical con tres motores Raptor y fue atrapada por los brazos «Mechazilla» de la torre de lanzamiento, usando solo dos salientes de unos 30 cm como apoyo. Es la primera vez que la maniobra de «palillos chinos» funciona con la nave y no con el propulsor. La captura del propulsor se abortó y este explotó sobre el golfo de México, y SpaceX investiga la causa.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+      "fecha": "15-11-2026 01:40"
+    },
+    {
+      "titulo": "El parón de vuelos en EE. UU. se debió a un router nuevo que saturó la red de control aéreo",
+      "resumen": "El secretario de Transporte, Sean Duffy, explicó que el parón nacional del viernes se produjo al sustituir un cable de cobre obsoleto por fibra óptica en una instalación remota de la FAA. El router recién instalado inundó a otros routers con más de 1.000 intentos de conexión cada 4-5 segundos, afectando a radares y comunicaciones con los aviones. Duffy no descartó fallo de hardware, mala configuración o «incompetencia» del contratista L3Harris, que dice llevar completado más del 70 % de la migración.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
+      "fecha": "14-11-2026 18:44"
+    },
+    {
+      "titulo": "Google lanza una actualización urgente de Chrome contra un día cero ya explotado",
+      "resumen": "Google corrige la vulnerabilidad CVE-2026-125350, un fallo use-after-free en el componente XML de Chrome que ya se usaba en ataques reales antes del parche. Es el octavo día cero de Chrome corregido en 2026. La actualización está en el canal estable para Windows, macOS y Linux, y se puede buscar a mano desde la configuración del navegador.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/google-lanza-una-actualizacion-urgente-chrome-corrige-una-vulnerabilidad-que-ya-estaba-siendo-utilizada-por-atacantes_7061130_0.html",
+      "fecha": "14-11-2026 18:40"
+    },
+    {
+      "titulo": "Una patente de Sony añadiría un lector de pagos NFC al mando de PlayStation",
+      "resumen": "Una patente provisional de Sony presentada en 2025, «Video game controller-driven information transfer», describe un mando que detecta un móvil cercano por NFC o Bluetooth para enviar datos de pago o de cuenta a la consola. Se activaría ante eventos como una compra o introducir una tarjeta regalo. Encaja con el plan de Sony de abandonar los discos físicos en 2028, aunque nada garantiza que llegue a producto.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/",
+      "fecha": "15-11-2026 01:45"
+    },
+    {
+      "titulo": "LibreOffice se burla de la caída de Microsoft 365 y bate su récord de donaciones",
+      "resumen": "Tras la caída de Microsoft 365, la cuenta oficial de LibreOffice presumió de más tiempo de actividad. The Document Foundation anunció después más de 1.000 donaciones en un solo día, un récord. La fundación no lo atribuye directamente a la caída, pero sugiere relación y recuerda que los archivos se guardan en local con el formato abierto ODF.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/libreoffice-se-burla-caida-microsoft-365-mientras-bate-un-record-historico-donaciones_7061124_0.html",
+      "fecha": "14-11-2026 17:20"
+    },
+    {
+      "titulo": "Varios ayuntamientos ajustan la TDT para añadir canales y habrá que resintonizar",
+      "resumen": "Distintos municipios adaptan sus centros emisores para recibir canales nuevos. El lunes 16 de noviembre, en Elche de la Sierra, la señal se interrumpirá entre tres y seis horas por la adaptación del múltiple MPE5. Después habrá que resintonizar para ver cuatro canales: La Séptima, Real Madrid TV, DKiss y Ten.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/ayuntamientos-anaden-canales-tdt-resintonizar/",
+      "fecha": "14-11-2026 16:02"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "¿Qué GPU de NVIDIA se parece más a la PS5? La respuesta no es tan simple",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2313644/nvidia-gpu-ps5-closest-match-answer-not-simple/",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "El Schlörwagen, el superaerodinámico y peligrosísimo coche alemán que intentó revolucionar el mundo en 1939",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/schlorwagen-superaerodinamico-peligrosisimo-coche-aleman-que-intento-revolucionar-mundo-1939",
+      "fecha": "14-11-2026"
+    },
+    {
+      "titulo": "Digi TV es de las más baratas, pero tiene una limitación que no encontrarás en sus rivales",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-tv-opciones-baratas-limitacion-rivales/",
+      "fecha": "14-11-2026"
+    },
+    {
+      "titulo": "Un nuevo fallo de Windows 11 pone en peligro al 80% de los PC: permite tomar el control del sistema y saltarse el antivirus",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/un-nuevo-fallo-windows-11-pone-peligro-80-los-pc-permite-tomar-control-sistema-saltarse-antivirus_7061192_0.html",
+      "fecha": "14-11-2026"
+    },
+    {
+      "titulo": "Los mayas decoraron sus ciudades con tanto pigmento rojo que acabaron provocando un colapso ecológico en sus reservas de agua",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/mayas-decoraron-sus-ciudades-pigmento-rojo-que-acabaron-provocando-colapso-ecologico-sus-reservas-agua",
+      "fecha": "14-11-2026"
+    },
+    {
+      "titulo": "Outlook clásico recibe una actualización inesperada de Microsoft con cambios visuales y una función muy solicitada",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/outlook-clasico-recibe-una-actualizacion-inesperada-microsoft-con-cambios-visuales-una-funcion-muy-solicitada_7061190_0.html",
+      "fecha": "14-11-2026"
+    },
+    {
+      "titulo": "Cuando el desierto se queda corto: resulta que la sequía extrema amenaza la supervivencia del cactus",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/cuando-desierto-se-queda-corto-resulta-que-sequia-extrema-amenaza-supervivencia-cactus",
+      "fecha": "14-11-2026"
+    },
+    {
+      "titulo": "Este jugador ha llevado la refrigeración líquida de su PC al exterior de casa para conseguir más rendimiento: se aprovecha del frío",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/este-jugador-ha-llevado-refrigeracion-liquida-su-pc-exterior-casa-para-conseguir-mas-rendimiento-se-aprovecha-frio_7061184_0.html",
+      "fecha": "14-11-2026"
+    },
+    {
+      "titulo": "Ante el problema de las riadas, en parte de Valencia ya subvencionan hasta 500 euros por instalar barreras en la puerta de tu casa",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/problema-riadas-parte-valencia-subvencionan-500-euros-instalar-barreras-puerta-tu-casa",
+      "fecha": "14-11-2026"
+    },
+    {
+      "titulo": "Muchas personas se despiertan “solas” a la hora que quieren sin necesidad de despertador y la ciencia tiene una explicación",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/medicina-y-salud/cuerpo-humano-capaz-anticipar-hora-a-que-queremos-despertarnos-hay-explicacion-cientifica",
+      "fecha": "14-11-2026"
+    }
+  ]
+}
