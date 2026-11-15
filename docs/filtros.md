@@ -234,6 +234,25 @@ Dos que faltan a proposito:
   "El BOE regula las llamadas comerciales" seria noticia de la seccion.
 - `renfe`: un solo caso (una huelga), y el WiFi de los trenes si es noticia.
 
+### Comprobacion de `/internet/` y dos marcas mas (15-11-2026)
+
+Dos semanas despues, los terminos del 29-10 no habian tirado nada bueno. En la
+portada de `/internet/` (52 entradas) tiran 7 que la lista anterior dejaba
+pasar: 6 centros comerciales y el outlet de El Corte Ingles. `mango` y
+`corte ingles`, medidos con pocos casos, llevan 2 cada uno en las 176
+publicadas de la ruta, todos ruido. De pensiones no hubo ninguna en ese tiempo.
+
+De lo publicado desde el 30-10 seguian entrando unas 6 de 15 que no eran
+tecnologia. Se anadieron las dos marcas de tiendas que faltaban, `costco` y
+`action`, que en todo lo publicado cazan 3, las 3 ruido ("Costco abrira en
+Madrid una tienda de 15000 metros cuadrados", "Action abre cuatro nuevas
+tiendas en Espana"). Lo que falta a proposito:
+
+- `navidad`: en lo publicado solo ha cazado ruido (mercados y parques de
+  Navidad), pero en diciembre puede llevarse alguna noticia buena de la ruta.
+- Los dos titulares de Jordi Wild: fueron una semana concreta, no un patron.
+- `boe` y `renfe` siguen igual que el 29-10.
+
 ### Los tres terminos de `RUIDO` que no funcionaban
 
 "sorteo", "sorteamos" y "regalamos" se pusieron el 21-08-2026 rodeados de
