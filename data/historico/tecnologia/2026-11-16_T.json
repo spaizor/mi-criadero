@@ -1,0 +1,196 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "16-11-2026 15:17",
+  "destacadas": [
+    {
+      "titulo": "Jensen Huang estudia volver a la dirección de Nvidia días después de dimitir",
+      "resumen": "Según el Financial Times, Huang ha empezado a hablar con personas de confianza de un posible regreso como CEO, mientras aliados de Silicon Valley buscan apoyo de la Casa Blanca. La carta abierta «Stand with Jensen», respaldada por Elon Musk y Tim Sweeney, supera las 178.000 firmas (más de 8.800 de empleados actuales), aunque no se han podido verificar. Pide su vuelta, una investigación independiente y una explicación pública.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/economia-empresas/jensen-huang-quiere-volver-como-ceo-nvidia/",
+      "fecha": "16-11-2026 15:15"
+    },
+    {
+      "titulo": "Microsoft atribuye la gran caída del correo a un defecto introducido en una actualización de julio",
+      "resumen": "El informe preliminar de Microsoft del 15 de noviembre explica que un bloqueo interno en un proceso de Windows de las pasarelas de red de Microsoft 365 agotó CPU y memoria. Saltó cuando Teams conmutó a la pasarela principal de Exchange Online y casi el 14 % de la capacidad estaba fuera de servicio; llegó a haber más del 80 % de servidores sin responder. No se pudo hacer rollback, así que se desplegó un parche que devolvió el código al estado anterior.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+      "fecha": "16-11-2026 12:15"
+    },
+    {
+      "titulo": "Los robotaxis de Zoox ya se pueden pedir desde la app de Uber en Las Vegas",
+      "resumen": "Es la primera alianza de Zoox, filial de Amazon, con una plataforma de transporte de terceros. De momento no se puede elegir un Zoox: puede asignarse a quien pida UberX, Comfort o Electric, con opción de preferir viajes autónomos. Zoox empezará operaciones en Los Ángeles este año y el servicio comercial allí llegará en 2027; además firman una alianza plurianual con MGM Resorts.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/",
+      "fecha": "16-11-2026 13:00"
+    },
+    {
+      "titulo": "Azure Linux 4.0 abandona CBL-Mariner y se reconstruye sobre Fedora",
+      "resumen": "Microsoft rehace su distribución sobre Fedora para adoptar el sistema de paquetes RPM, con la herramienta propia azldev para aplicar parches sin romper la compatibilidad. Usa el kernel 6.18 LTS con controladores para Hyper-V e integra Defender for Cloud, Azure Monitor y Azure CLI. Apunta a bases de datos, web y clústeres de IA con GPU, sin coste de licencia para clientes de Azure.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/azure-linux-4-0-distro-uso-gratuito-microsoft-abandona-common-base-linux-se-pasa-fedora_7061454_0.html",
+      "fecha": "16-11-2026 13:26"
+    },
+    {
+      "titulo": "Mercedes prueba su asistente Drive Assist Pro, capaz de moverse en tráfico complejo",
+      "resumen": "Tras conducirlo, Ars Technica lo describe como un sistema colaborativo de conducción parcialmente asistida que extiende la idea del asistente de autopista a menor velocidad y situaciones más complicadas. Llegará a clientes con MB.OS en EE. UU. y Alemania. El MB.Drive Assist de autopista con manos libres llegará la próxima primavera, de serie en el S-Class 2027 y opcional en CLA, GLB, C-Class, GLC y GLE.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/cars/2026/11/mercedes-clever-new-driving-assist-handles-complex-traffic-like-a-champ/",
+      "fecha": "16-11-2026 15:00"
+    },
+    {
+      "titulo": "Marvell y Penguin Solutions presentan una memoria fotónica compartida contra la escasez de RAM",
+      "resumen": "El módulo, basado en tecnología de Celestial AI (comprada por 3.500 millones de dólares), combina 72 GB de HBM3e y DDR5 sobre un interposer fotónico de 900 GB/s. Los equipos de Penguin admitirán 16 módulos, hasta 16 TB de DDR5 y 1 TB de HBM, y darán memoria compartida a hasta 16 servidores. Se plantea como alternativa al volcado de caché KV a almacenamiento en inferencia de IA.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/11/16/marvell-and-penguin-solutions-aim-to-end-the-rampocalypse-with-photonic-memory-fabric/5309921",
+      "fecha": "16-11-2026 15:00"
+    },
+    {
+      "titulo": "Euro-Office, la suite ofimática europea, llega a escritorio para Windows, macOS y Linux",
+      "resumen": "La aplicación Nextcloud Office Desktop permite trabajar sin conexión, usar las fuentes del sistema, firmas digitales avanzadas y edición colaborativa. Hay versiones para Windows x64 y ARM64, Apple Silicon y paquetes .deb y .rpm. Es de código abierto (AGPL v3), la respaldan Nextcloud, IONOS y Open-Xchange, y abre DOCX, XLSX, PPTX y formatos ODF.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/euro-office-alternativa-europea-microsoft-office-ya-esta-disponible-para-descargar-gratis-version-escritorio-para-windows-macos-linux_7061439_0.html",
+      "fecha": "16-11-2026 11:19"
+    },
+    {
+      "titulo": "Our Next Energy, la startup de baterías que esquivó la quiebra, saldrá a bolsa mediante una SPAC",
+      "resumen": "ONE se fusionará con Wen Acquisition Corp. con una valoración previa de 600 millones de dólares y unos 400 millones de ingresos brutos si no hay reembolsos; cotizará en Nasdaq como «ONEE». Ha levantado 483 millones y llegó a valer 1.300 millones. Tras sus problemas en 2023 abandonó el coche eléctrico para centrarse en baterías a escala de red.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/16/after-dodging-death-battery-startup-our-next-energy-is-now-going-public/",
+      "fecha": "16-11-2026 14:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Mazama Energy tiene una solución al mayor problema de perforación de la geotermia",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/16/mazama-energy-has-a-solution-for-geothermals-biggest-drilling-problem/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Los Alamos probará el chip Maverick-2 de NextSilicon en su banco de pruebas Darwin",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/11/16/los-alamos-boffins-to-put-nextsilicons-maverick-2-through-natural-selection-in-darwin-testbed/5309862",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Los centros de datos casi triplican su peso en las solicitudes de planificación del Reino Unido",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/on-prem/2026/11/16/datacenters-share-of-uk-planning-applications-nearly-triples-in-three-years/5310029",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Los drones de reparto llegan, y para algunas personas con TEPT son una perspectiva aterradora",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/the-drone-delivery-boom-could-be-a-nightmare-for-people-traumatized-by-war/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Nvidia ya tenía problemas antes del lío de Jensen Huang",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Omaxian lleva el aspecto de Omarchy por otro camino de Linux",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/16/omaxian-takes-the-omarchy-look-down-a-different-linux-backstreet/5309750",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Plural, respaldo de Helsing, levanta 1.100 millones de dólares para las próximas apuestas de Europa",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Hace 2.400 años los poblados del norte de la península se vaciaron en un tiempo récord. Los arqueólogos al fin tienen respuestas",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/hace-2-400-anos-poblados-norte-peninsula-se-vaciaron-tiempo-record-arqueologos-al-fin-tienen-respuestas",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Javier Sanz avisa: “habrá más ciberataques y España no está preparada”",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/javier-sanz-adslzone-ciberataques-espana-preparada/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Samsung Galaxy S27 Ultra podría 'tomar prestadas' algunas funcionalidades y opciones del iPhone 18 Pro",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/samsung-galaxy-s27-ultra-podria-tomar-prestadas-algunas-funcionalidades-opciones-iphone-18-pro_7061464_0.html",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "¿Estamos ante una guerra híbrida? Qué hay detrás de los ataques a supermercados, amenazas a aviones y a los bancos de sangre",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/estamos-guerra-hibrida-que-hay-detras-ataques-a-supermercados-amenazas-a-aviones-a-bancos-sangre",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "El dato que no te cuenta O2 de su repetidor WiFi 7",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/amplificador-wifi-routers-compatibles/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "La Séptima conseguirá hacer pleno en tiempo récord más allá de la TDT: un nuevo operador comenzará en breve con sus emisiones",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-conseguira-hacer-pleno-tiempo-record-mas-alla-tdt-un-nuevo-operador-comenzara-breve-con-sus-emisiones_7061448_0.html",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Un día sin Outlook y un fallo en cadena que tumbó a Microsoft. Ya se sabe por qué: un bug que llevaba dormido desde julio",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/aplicaciones/dia-outlook-fallo-cadena-que-tumbo-a-microsoft-se-sabe-que-bug-que-llevaba-dormido-julio",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Orange 12 millones, Movistar 5: así se reparten las ayudas para llevar el 5G a zonas donde hoy no hay ni 4G",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/ayudas-5g-zonas-rurales-4g-orange-movistar/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Adiós a sacar el móvil del bolsillo: Apple podría lanzar unas nuevas gafas inteligentes que quieren hacerlo todo por ti",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/adios-sacar-movil-bolsillo-apple-podria-lanzar-unas-nuevas-gafas-inteligentes-que-quieren-hacerlo-todo-por-ti_7061449_0.html",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Mi padre quiere una barra de sonido buena, bonita y barata. Esta es la que le quiero recomendar",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/mi-padre-quiere-barra-sonido-buena-bonita-barata-esta-que-le-quiero-recomendar",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Frenazo temporal a la subida del butano: ¿movimiento electoral del Gobierno?",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/fintech/precio-butano-noviembre-2026-boe/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Linus Torvalds lanza Linux 7.4-rc3 con importantes mejoras: \"Otra semana, otro gran -rc con el ruido habitual por todas partes\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-lanza-linux-7-4-rc3-con-importantes-mejoras-otra-semana-otro-gran-rc-con-ruido-habitual-por-todas-partes_7061438_0.html",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "A finales de 1986, un buque vació su agua de lastre en los Grandes Lagos. Ahora EEUU ofrece 200.000 dólares a quien solucione la plaga de mejillones que ha provocado",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/a-finales-1986-buque-vacio-su-agua-lastre-grandes-lagos-ahora-eeuu-ofrece-200-000-dolares-a-quien-solucione-plaga-mejillones-que-ha-provocado",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Miles de coches sin etiqueta podrían volver a recibir multas en Madrid si no se cumple esta condición",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/madrid-multas-coches-sin-etiqueta-aire/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "El esperado regreso de Google a Motorola no decepciona, aunque el Moto Watch Ultra no es para todo el mundo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/esperado-regreso-google-motorola-no-decepciona-aunque-moto-watch-ultra-no-es-para-todo-mundo_7060779_0.html",
+      "fecha": "16-11-2026"
+    }
+  ]
+}
