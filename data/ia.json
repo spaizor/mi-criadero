@@ -1,40 +1,85 @@
 {
   "seccion": "ia",
-  "actualizado": "16-11-2026 04:09",
+  "actualizado": "16-11-2026 16:14",
   "destacadas": [
     {
-      "titulo": "Claude Fable 5.2 no genera imágenes: las pinta con cientos de miles de pinceladas",
-      "resumen": "El nuevo modelo de Anthropic crea pinturas complejas, incluso fotorrealistas, escribiendo programas de Python de 1.000 a 2.000 líneas que manejan un motor de pintura simulado, sin modelo de imagen externo. Jake Eaton, de Anthropic, mostró un carrito en un garaje hecho con unas 700.000 pinceladas, y otro ingeniero, Michael Graczyk, un pájaro al amanecer con 111 trazos iniciales en el que el modelo corrige sus propios errores sin poder deshacer nada.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
-      "fecha": "15-11-2026 16:42"
-    },
-    {
-      "titulo": "Apple lanza una app para estudiar cómo usa la gente la IA para temas de salud",
-      "resumen": "Apple se alía con OpenEvidence para un estudio de hasta 200.000 participantes en EE. UU. durante más de 12 meses, con iPhone 15 o posterior, iOS 26 y Apple Intelligence. La app responde preguntas médicas con respuestas basadas en NEJM, JAMA o Nature y puede usar datos de HealthKit; los datos se anonimizan, no entrenan modelos y OpenEvidence borra consultas y respuestas a las 24 horas.",
+      "titulo": "EE. UU. endurece el control de exportación de chips de IA para impedir que empresas chinas accedan a cómputo en remoto",
+      "resumen": "El Departamento de Comercio prepara una norma provisional que exigirá licencia para exportar o transferir chips de IA y servidores a centros de datos de cualquier país si pueden dar cómputo a empresas de China u otros países restringidos (grupo D:5). Afecta a redes de más de 12 millones de TPP (unos 750 H100 o H200), cubre el acceso indirecto vía intermediarios y añade requisitos para Malasia, Singapur, Indonesia, Tailandia y Brasil; los operadores actuales tendrán 90 días para pedir licencias. Deroga la regla de difusión de IA de la era Biden y llega días después de la dimisión de Jensen Huang en Nvidia.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
-      "fecha": "16-11-2026 02:30"
+      "enlace": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+      "fecha": "16-11-2026 16:02"
     },
     {
-      "titulo": "El Congreso quiere endurecer las exportaciones de chips de IA tras el escándalo de espionaje de Nvidia",
-      "resumen": "Demócratas y republicanos apoyan medidas para restringir la venta de chips de IA a China tras el caso de Jensen Huang y una sospechosa vinculada a la inteligencia china. El presidente del Comité Bancario del Senado, Tim Scott, pide que Huang y Howard Lutnick declaren, y proyectos como la Remote Access Security Act, estancado desde abril de 2025, recobran interés. El presidente de la Cámara, Mike Johnson, habla de «consenso creciente» para limitar las exportaciones.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-      "fecha": "15-11-2026 20:15"
+      "titulo": "Google: un agente de IA convirtió un parche de seguridad en un exploit funcional sin ayuda humana",
+      "resumen": "El Google Threat Intelligence Group asegura que un operador de habla rusa usó un agente de IA, «exploit_agent», para comparar el código antes y después de las actualizaciones de software web popular y generar exploits funcionales sin intervención humana, algo que califica de inédito. El agente apareció en un servidor expuesto con datos robados y scripts de reconocimiento, fuerza bruta y webshells; el objetivo parecían ser webs francesas de medios, entretenimiento y educación. GTIG observa además a otros grupos usando marcos como CAIRN, CyberStrikeAI, HexStrike AI y PentAGI.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926",
+      "fecha": "16-11-2026 15:00"
+    },
+    {
+      "titulo": "Aliados de Jensen Huang montan una «sala de guerra» para devolverlo a Nvidia",
+      "resumen": "Huang ha hablado con su entorno de volver como consejero delegado, días después de dimitir por las informaciones sobre sus relaciones con una sospechosa espía china y una subordinada, mientras una investigación independiente del consejo sigue abierta. Un aliado dice a FT que reúne a directivos de Silicon Valley para presionar y buscar apoyo en la Casa Blanca; Musk y Tim Sweeney respaldan una carta pública, aunque el secretario del Tesoro, Scott Bessent, pide un «cambio drástico» en la dirección. La directora interina es Colette Kress y Nvidia presenta resultados el martes.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+      "fecha": "16-11-2026 15:06"
+    },
+    {
+      "titulo": "Google Maps ya crea itinerarios de viaje con IA y llama a negocios para pedir cita",
+      "resumen": "Con «Ask Maps», Google genera itinerarios día a día con pines numerados, que se pueden compartir o exportar a Google Docs, y durante el trayecto muestra tráfico, horarios y el ambiente de la siguiente parada. También busca citas de belleza, mascotas, taller o reparaciones y llama a los negocios por el usuario. Se despliega este lunes en Android e iOS, y Ask Maps llega a 30 países de Europa, entre ellos España, Alemania y Reino Unido.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+      "fecha": "16-11-2026 15:48"
+    },
+    {
+      "titulo": "John Langford, veterano científico de IA de Microsoft, abandona la empresa: «Mi investigación no tiene ninguna aplicación práctica»",
+      "resumen": "Langford, más de 14 años como investigador principal en Microsoft Research, anunció su salida en una actualización de una entrada de su blog, tras la reorganización de septiembre en la que AI Frontiers fue absorbido por Microsoft AI, dirigida por Mustafa Suleyman. Casi todo el equipo directivo fundador se marcha, el grupo se disuelve y se cancela el programa de prácticas. Critica que la filosofía sea «el escalado agresivo, y no la investigación» y que se ignorase su estudio Full Bandwidth Transformer.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/john-langford-cientifico-ia-microsoft-abandona-no-me-siento-comodo-una-empresa-donde-mi-investigacion-no-tiene-ninguna-aplicacion-practica_7061453_0.html",
+      "fecha": "16-11-2026 12:33"
+    },
+    {
+      "titulo": "Linus Torvalds avisa de que hay que tener cuidado al usar IA en algo importante, aunque ahora le gusta usarla",
+      "resumen": "En el Open Source Summit Europe de Praga, Torvalds contó que pidió a una IA renovar la interfaz en Java del pedal de guitarra que construye y el resultado fue «horrible»; «yo no hago Java, yo hago kernels». Aun así dice que ha pasado de pensar que no era muy buena a disfrutar usándola para tareas que no domina, y defiende el vibe coding como forma de atraer a más gente a programar.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-padre-linux-advierte-quienes-programan-kernel-ia-tener-mucho-cuidado-cuando-utilizas-algo-importante_7060633_0.html",
+      "fecha": "16-11-2026 06:30"
     }
   ],
   "titulares": [
     {
-      "titulo": "Jensen Huang podría estar tramando su regreso y más novedades del drama de Nvidia",
+      "titulo": "Audible quiere que sea más fácil encontrar audiolibros que de verdad te gusten, con IA",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
-      "fecha": "15-11-2026"
+      "enlace": "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability",
+      "fecha": "16-11-2026"
     },
     {
-      "titulo": "La startup india de chips Bharat Semi logra 24 millones en su ronda semilla y apunta al mercado global de sensores de IA",
+      "titulo": "Antiguos de Freshworks recaudan 53 millones para competir con Salesforce y HubSpot con un CRM nativo de IA",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "enlace": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "La saga de Jensen Huang podría ser el principio del fin de la burbuja de la IA, o un regalo para la competencia",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/16/the-jensen-huang-saga-could-be-the-beginning-of-the-end-of-the-ai-bubble-or-just-a-boon-for-competitors/5309856",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "El escándalo de Nvidia no se frena",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Una extensión que te permite diseñar, publicar y gestionar tu web directamente desde tu IA: así es Hostinger Connector",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/extension-que-te-permite-disenar-publicar-gestionar-tu-web-directamente-tu-ia-asi-hostinger-connector",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Qué es Git y cómo miles de programadores lo utilizan en plena revolución de la IA",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/que-es-git-como-miles-programadores-utilizan-plena-revolucion-ia_7060763_0.html",
       "fecha": "16-11-2026"
     }
   ]
