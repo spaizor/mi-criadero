@@ -1,0 +1,41 @@
+{
+  "seccion": "ia",
+  "actualizado": "16-11-2026 04:09",
+  "destacadas": [
+    {
+      "titulo": "Claude Fable 5.2 no genera imágenes: las pinta con cientos de miles de pinceladas",
+      "resumen": "El nuevo modelo de Anthropic crea pinturas complejas, incluso fotorrealistas, escribiendo programas de Python de 1.000 a 2.000 líneas que manejan un motor de pintura simulado, sin modelo de imagen externo. Jake Eaton, de Anthropic, mostró un carrito en un garaje hecho con unas 700.000 pinceladas, y otro ingeniero, Michael Graczyk, un pájaro al amanecer con 111 trazos iniciales en el que el modelo corrige sus propios errores sin poder deshacer nada.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+      "fecha": "15-11-2026 16:42"
+    },
+    {
+      "titulo": "Apple lanza una app para estudiar cómo usa la gente la IA para temas de salud",
+      "resumen": "Apple se alía con OpenEvidence para un estudio de hasta 200.000 participantes en EE. UU. durante más de 12 meses, con iPhone 15 o posterior, iOS 26 y Apple Intelligence. La app responde preguntas médicas con respuestas basadas en NEJM, JAMA o Nature y puede usar datos de HealthKit; los datos se anonimizan, no entrenan modelos y OpenEvidence borra consultas y respuestas a las 24 horas.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "fecha": "16-11-2026 02:30"
+    },
+    {
+      "titulo": "El Congreso quiere endurecer las exportaciones de chips de IA tras el escándalo de espionaje de Nvidia",
+      "resumen": "Demócratas y republicanos apoyan medidas para restringir la venta de chips de IA a China tras el caso de Jensen Huang y una sospechosa vinculada a la inteligencia china. El presidente del Comité Bancario del Senado, Tim Scott, pide que Huang y Howard Lutnick declaren, y proyectos como la Remote Access Security Act, estancado desde abril de 2025, recobran interés. El presidente de la Cámara, Mike Johnson, habla de «consenso creciente» para limitar las exportaciones.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "fecha": "15-11-2026 20:15"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Jensen Huang podría estar tramando su regreso y más novedades del drama de Nvidia",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "La startup india de chips Bharat Semi logra 24 millones en su ronda semilla y apunta al mercado global de sensores de IA",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "fecha": "16-11-2026"
+    }
+  ]
+}
