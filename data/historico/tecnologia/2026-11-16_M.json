@@ -1,0 +1,116 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "16-11-2026 03:11",
+  "destacadas": [
+    {
+      "titulo": "El cohete Vulcan falla en pleno vuelo y destruye 40 satélites de Amazon Leo",
+      "resumen": "El Vulcan de United Launch Alliance sufrió una anomalía a los 10 minutos de despegar de Cabo Cañaveral y no logró poner en órbita los 40 satélites de Amazon Leo. Era el primero de los 38 lanzamientos que Amazon contrató para su red rival de Starlink, y el cohete debe lanzar cerca de la mitad de las misiones de seguridad nacional de EE. UU. en los próximos años. Según fuentes de Ars, el fallo estuvo en la etapa del propulsor: los dos motores BE-4 de Blue Origin siguieron encendidos al menos 30 segundos más de lo previsto, y se espera que el cohete quede en tierra de forma indefinida.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+      "fecha": "16-11-2026 00:11"
+    },
+    {
+      "titulo": "Apple presentaría sus primeras gafas inteligentes en la WWDC de junio, sin realidad aumentada",
+      "resumen": "Según Mark Gurman, de Bloomberg, el primer modelo de Apple, sin funciones de realidad aumentada, se anunciaría en la WWDC del próximo junio y los envíos empezarían antes de fin de año. Los prototipos, llamados N50, ejecutan una versión reducida de visionOS con un procesador basado en los chips de sus relojes. Se cargan con un cargador tipo MagSafe del tamaño de un Tic Tac y tienen Wi-Fi, aunque dependen del iPhone y no serán un dispositivo independiente. Apple apuesta por el estilo, la privacidad y la calidad de audio, apoyada en el nuevo Siri.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+      "fecha": "15-11-2026 17:59"
+    },
+    {
+      "titulo": "Microsoft sube un 15,7 % los precios de su nube en India y los baja en China",
+      "resumen": "Microsoft ajustará desde el 1 de enero de 2027 los precios de su nube comercial, fijados en moneda local según el equivalente en dólares. En India suben un 15,7 % (hasta un 20 % algunas ofertas locales) y en Nueva Zelanda un 10 %. Bajan hasta un 8,5 % en China, a través de su socio 21Vianet, un 4,5 % en Australia y un 5,9 % en Noruega.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993",
+      "fecha": "16-11-2026 00:46"
+    },
+    {
+      "titulo": "Windows 11 no puede completar su instalación inicial en redes solo IPv6",
+      "resumen": "Varios usuarios, entre ellos Bob Pony, comprobaron que el asistente de configuración inicial (OOBE) de Windows 11 se detiene con un aviso de conexión perdida cuando el equipo solo tiene acceso por IPv6, aunque el sistema detecte Internet. El problema también se reproduce en una compilación reciente de Windows Insider. Microsoft no lo documenta y no está claro si es un error o una limitación heredada, pese a que la actualización opcional KB5127936 de octubre añadió IPv6 CLAT.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/windows-11-esconde-un-requisito-internet-que-microsoft-no-menciona-que-puede-bloquear-instalacion_7061274_0.html",
+      "fecha": "15-11-2026 15:25"
+    },
+    {
+      "titulo": "Los Grandes Lagos, candidatos a albergar centros de datos bajo el agua en EE. UU.",
+      "resumen": "Con los centros de datos para IA rechazados en referéndums locales, las empresas buscan ubicaciones nuevas como el agua. Los Grandes Lagos, que abastecen a más de 30 millones de personas, ofrecen agua fría y cercanía a Chicago, Toronto y Detroit, pero solo Nueva York tiene una moratoria, hasta mediados de 2027. DeepGreen Holdings ha pedido permisos iniciales para un complejo de unos 6,7 km² con 66 módulos frente a Maine y Alaska. Subir entre 1 y 3 °C el agua podría provocar un choque térmico en los peces.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/eeuu-mira-al-fondo-agua-para-montar-sus-centros-datos-grandes-lagos-tienen-todas-papeletas",
+      "fecha": "15-11-2026 18:01"
+    },
+    {
+      "titulo": "Samsung retirará de la Galaxy Store sus apps Quick Measure y AR Doodle el 31 de diciembre",
+      "resumen": "Samsung dejará de ofrecer las dos apps de realidad aumentada, una regla virtual y una herramienta para dibujar con efectos 3D sobre fotos y vídeos. Tras esa fecha no habrá descargas ni actualizaciones; las ya instaladas seguirán funcionando, pero una actualización de Android en 2027 podría dejarlas inservibles. La compañía se disculpó y dijo que volverá con servicios mejorados, sin dar plazos.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2313930/samsung-is-discontinuing-these-useful-mobile-apps-in-december/",
+      "fecha": "15-11-2026 23:30"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "TechCrunch Mobility: el plan B de Nvidia para la industria china de conducción autónoma",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "\"Cualquier parecido con la realidad es pura coincidencia\": el disclaimer del cine que nos ganamos por culpa de Rasputín",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/cine-y-tv/cualquier-parecido-realidad-pura-coincidencia-disclaimer-cine-que-nos-ganamos-culpa-rasputin",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "El primer PC de Google: tan solo 40 GB, piezas de Lego y un algoritmo que lo cambiaría todo",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/tecnologia/primer-pc-de-google-piezas-juguetes-lego/",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Tu móvil no va lento por viejo: esta regla con la memoria puede cambiarlo todo",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/moviles/movil-no-lento-viejo-regla-memoria/",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Andrew Carnegie, empresario: \"Quienes no son capaces de motivarse a sí mismos deben conformarse con la mediocridad, por muy impresionantes que sean sus otros talentos\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/andrew-carnegie-empresario-quienes-no-son-capaces-motivarse-si-mismos-deben-conformarse-con-mediocridad-por-muy-impresionantes-que-sean-sus-otros-talentos_7038436_0.html",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Hay quien ronca todas las noches y no tiene apnea. El problema llega cuando aparecen otras señales",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/medicina-y-salud/hay-quien-ronca-todas-noches-no-tiene-apnea-problema-llega-cuando-aparecen-otras-senales",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Millones de usuarios pulsaron este botón creyendo que hacía su PC más rápida, pero estaban equivocados",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/curiosidades/boton-turbo-pc-que-era-para-que-servia/",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Cuánto gana un electricista o un técnico de climatización en España en 2026",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/cuanto-gana-electricista-tecnico-climatizacion-espana-2026_7056907_0.html",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Aldi venderá desde el sábado 21 de noviembre esta solución para bajar la humedad de casa y secar la ropa en días de lluvia",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/aldi-vendera-sabado-21-noviembre-esta-solucion-para-bajar-humedad-casa-secar-ropa-dias-lluvia",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Antes de la cerámica en Oriente Próximo, los niños de allí ya hacían manualidades con arcilla hace 15.000 años",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/antes-ceramica-oriente-proximo-ninos-alli-hacian-manualidades-arcilla-hace-15-000-anos",
+      "fecha": "15-11-2026"
+    },
+    {
+      "titulo": "Tatooine no es tan descabellado: en un sistema con dos soles a 16 años luz es posible que existan planetas habitables",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/otros-estudios-habian-encontrado-tatooine-vida-real-solo-este-apunta-a-planeta-masa-terrestre",
+      "fecha": "15-11-2026"
+    }
+  ]
+}
