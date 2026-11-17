@@ -3,6 +3,139 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "California demanda a OpenAI por los incidentes de agentes descontrolados",
+      "fuente": "TechCrunch",
+      "fecha": "16-11-2026 21:07",
+      "enlace": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "Alibaba lanza Qwen4-Max, un modelo de 2,4 billones de parámetros con precios mucho menores",
+      "fuente": "The Decoder",
+      "fecha": "16-11-2026 17:56",
+      "enlace": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "El FBI y AWS alertan de que los atacantes automatizan el cibercrimen con agentes de IA a «escala industrial»",
+      "fuente": "The Register",
+      "fecha": "16-11-2026 20:52",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "GPT-6 Astra ayuda a resolver un problema de unos 50 años sobre el Modelo Estándar en una red discreta",
+      "fuente": "The Decoder",
+      "fecha": "16-11-2026 20:19",
+      "enlace": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "Los centros de datos hiperescala de EE. UU. consumen más electricidad que un país de tamaño medio",
+      "fuente": "The Verge",
+      "fecha": "16-11-2026 21:27",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "Apple prueba límites diarios de uso para las funciones más complejas de Siri con IA",
+      "fuente": "The Verge",
+      "fecha": "16-11-2026 20:24",
+      "enlace": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "Ubuntu ofrece parches de seguridad generados por IA en un canal opcional para quienes se atrevan",
+      "fuente": "The Register",
+      "fecha": "16-11-2026 19:01",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/16/ubuntu-gets-ai-generated-security-fixes-for-those-feeling-brave/5310139",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "La startup de IA para ciberseguridad Corma alcanza los 1.000 millones de valoración en unos tres meses",
+      "fuente": "TechCrunch",
+      "fecha": "17-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "La startup de robosoldados respaldada por Eric Trump no paga las nóminas y podría colapsar",
+      "fuente": "Ars Technica",
+      "fecha": "16-11-2026",
+      "enlace": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "Sam Altman quiere que todo el mundo «tenga mucha RAM»",
+      "fuente": "The Verge",
+      "fecha": "16-11-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "Google avisa de que los ciberataques totalmente automatizados ya han llegado y empeorarán rápido",
+      "fuente": "The Decoder",
+      "fecha": "16-11-2026",
+      "enlace": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "Moonshot AI reorienta Kimi de la programación a la ciencia mientras se estancan las mejoras en benchmarks",
+      "fuente": "The Decoder",
+      "fecha": "16-11-2026",
+      "enlace": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "Tone, la nueva startup de voz con IA de Jordan Belfort, quiere vender como el «lobo de Wall Street»",
+      "fuente": "TechCrunch",
+      "fecha": "16-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "OpenAI incorporará a investigadores de Apollo para investigar la subversión de la IA",
+      "fuente": "TechCrunch",
+      "fecha": "16-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "OpenAI lanza un clasificador de imágenes y avisos en ChatGPT contra el material de abuso infantil",
+      "fuente": "TechCrunch",
+      "fecha": "16-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "Los aliados de EE. UU. refuerzan su pacto para proteger las cadenas de suministro de IA frente a «actores hostiles»",
+      "fuente": "The Register",
+      "fecha": "16-11-2026",
+      "enlace": "https://www.theregister.com/systems/2026/11/16/us-allies-deepen-deal-to-guard-ai-supply-chains-against-hostile-actors-cough-china-cough/5310094",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "Claude ya crea webs interactivas dentro de gráficos canvas, resucitando la era Flash con HTML real",
+      "fuente": "The Decoder",
+      "fecha": "16-11-2026",
+      "enlace": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "Construir una IA fiable cercándola en lugar de prediciéndola",
+      "fuente": "MIT Technology Review",
+      "fecha": "16-11-2026",
+      "enlace": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+      "turno": "2026-11-17_M"
+    },
+    {
+      "titulo": "Anthropic: la clave de la memoria de los agentes es saber qué olvidar, no cuánto almacenar",
+      "fuente": "The Decoder",
+      "fecha": "16-11-2026",
+      "enlace": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
+      "turno": "2026-11-17_M"
+    },
+    {
       "titulo": "EE. UU. endurece el control de exportación de chips de IA para impedir que empresas chinas accedan a cómputo en remoto",
       "fuente": "TechCrunch",
       "fecha": "16-11-2026 16:02",
