@@ -1,0 +1,208 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "17-11-2026 15:16",
+  "destacadas": [
+    {
+      "titulo": "Un ataque a Optimizely reparte malware desde webs como IKEA, Zoom, CNN o HSBC",
+      "resumen": "Un fallo en el proceso de creación de cuentas de Optimizely permitió cargar JavaScript malicioso en las webs de 178 organizaciones, según Report URI, el lunes 16 de noviembre. El código podía interceptar datos de tarjetas, cambiar direcciones de carteras cripto y hacer capturas de pantalla, y en iPhone y iPad con sistemas antiguos añadía los malware Coruna (iOS 13 a 17) y Darksword (iOS 18 o superior). Aún no hay pruebas de que se haya llegado a comprometer ningún dispositivo.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/seguridad/ataque-optimizely-malware-iphone-ipad/",
+      "fecha": "17-11-2026 15:09"
+    },
+    {
+      "titulo": "Windows 11 funciona mejor con 8 GB de RAM tras las últimas mejoras",
+      "resumen": "Con la RAM por las nubes, 8 GB vuelven a ser lo habitual en portátiles baratos. Microsoft asegura que Windows es hasta un 20 % más ágil y la multitarea hasta un 40 % más rápida, y que puede mantener hasta 2 GB más de datos activos en memoria. The Verge lo probó en el Surface Laptop de 13 pulgadas con 8 GB que había criticado en julio.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1035159/windows-11-8gb-ram-updates-performance-improvements-surface-laptop-testing",
+      "fecha": "17-11-2026 15:00"
+    },
+    {
+      "titulo": "Apple prepara hasta 18 productos nuevos para 2027, entre ellos el iPhone 20 Pro, gafas inteligentes y un robot",
+      "resumen": "Según los rumores de Mark Gurman y otras fuentes, Apple lanzaría el iPhone 18, el 18e y el iPhone Air 2 en primavera de 2027. En otoño, por el 20 aniversario del iPhone, llegaría el iPhone 20 Pro, saltándose la generación 19. A ellos se sumarían iPad, MacBook, las primeras gafas inteligentes y un robot.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/apple-prepara-hasta-18-nuevos-productos-para-2027-iphone-20-pro-gafas-inteligentes-incluso-un-robot_7061940_0.html",
+      "fecha": "17-11-2026 11:58"
+    },
+    {
+      "titulo": "PostgreSQL corrige 52 vulnerabilidades y retira la versión 14",
+      "resumen": "Las actualizaciones de las versiones 14 a 18 corrigen 52 fallos de seguridad y más de 140 errores, y llega la segunda versión candidata de PostgreSQL 19. La 14.25 es la última de la versión 14, que deja de tener soporte. Entre los fallos está CVE-2026-6460, de tipo type confusion y con una puntuación CVSS de 8,8. Es el tercer trimestre seguido con récord de CVE corregidas, en parte por escáneres con IA de Anthropic y OpenAI.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/databases/2026/11/17/postgresql-patches-52-security-holes-sends-version-14-into-retirement/5310108",
+      "fecha": "17-11-2026 10:30"
+    },
+    {
+      "titulo": "Uber Eats estrena en Texas su reparto con drones de Zipline",
+      "resumen": "El servicio arranca en Spring, en las afueras de Houston, seguirá en Dallas y llegará a decenas de ciudades de EE. UU. Los drones vuelan a más de 300 pies y hasta 70 mph, y bajan el pedido en una cápsula atada. Cargan hasta 8 libras en un radio de 10 millas. Uber y Zipline quieren llegar a un millón de entregas diarias en 2029, cuando hoy Zipline hace unas 4.300 al día.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
+      "fecha": "17-11-2026 14:00"
+    },
+    {
+      "titulo": "Blackstone compra el 75 % de dos campus de centros de datos de AWS por unos 5.000 millones y se los alquila de vuelta",
+      "resumen": "Blackstone Digital Infrastructure Trust adquirirá una participación del 75 % en dos sociedades con AWS, que conserva el 25 % y alquilará las instalaciones durante 12 años iniciales en régimen triple net. Los campus, en el norte de Indiana y en Mississippi, suman 13 salas con 647 MW. Amazon confirma que es su primer acuerdo de este tipo.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/on-prem/2026/11/17/reit-move-blackstone-joint-venture-buys-aws-campuses-to-lease-back-to-the-cloud-giant/5310355",
+      "fecha": "17-11-2026 13:31"
+    },
+    {
+      "titulo": "La función Live Rewind del Apple Watch transcribe los últimos 15 segundos de una conversación",
+      "resumen": "Live Rewind, una de las nuevas funciones de Audio Intelligence, está en beta pública en watchOS 27.3 y se espera para antes de que acabe el año. Con Siri Recap, el reloj puede escuchar el entorno y mostrar al final del día un resumen de las conversaciones. Defensores de la privacidad advierten de que normaliza la vigilancia ambiental, y el análisis de Wired concluye que resulta incómodo.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/",
+      "fecha": "17-11-2026 12:00"
+    },
+    {
+      "titulo": "TRMNL lanza Frame, un marco de papel electrónico a color de 31,5 pulgadas por 1.300 dólares",
+      "resumen": "Frame es un panel e-paper a todo color Spectra 6 en un marco de madera artesanal, pensado para mostrar pinturas y fotos. Se enviará a finales de 2026 o principios de 2027 en una primera tanda de unas 470 unidades, con reserva abierta para EE. UU., Canadá, México y Australia. Trae un motor de color de código abierto llamado Lazarus, ranura microSD y batería recargable.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2318822/trmnl-frame-is-a-full-color-e-paper-display-that-looks-like-real-art/",
+      "fecha": "17-11-2026 09:16"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Un hackeo a Optimizely convierte grandes webs en distribuidoras de malware",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/17/optimizely-hack-turns-worlds-biggest-websites-into-malware-dispensers/5310448",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Un investigador halla seis fallos de día cero en controladores de frigoríficos Danfoss en menos de una hora",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/17/not-rocket-surgery-claims-researcher-who-found-six-danfoss-fridge-controller-zero-days-in-under-an-hour/5310197",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "La encuestadora Ipsos reconoce un «incidente de ciberseguridad»",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/17/opinion-pollster-ipsos-fesses-up-to-cybersecurity-incident/5310405",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Hasta el 99 % de los funcionarios británicos depende de Microsoft para comunicarse, admite un ministro",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/software/2026/11/17/up-to-99-of-uk-civil-servants-rely-on-microsoft-for-comms-minister-admits/5310385",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Upside Foods ya puede producir un millón de libras de pollo al año sin matar animales",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/17/upside-foods-can-now-make-one-million-pounds-of-chicken-each-year-without-killing-a-single-animal/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Hank Green financia ClockwiseTV, una plataforma de vídeo educativo para niños",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/17/hank-green-is-self-funding-clockwisetv-a-curated-educational-video-platform-for-kids/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Natural Cycles actualiza su pulsera de seguimiento del ciclo",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2318468/natural-cycles-updates-its-cycle-tracking-wearable/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Adam Mosseri cree «bastante difícil» diseñar Instagram para el iPhone Duo",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2318832/adam-mosseri-pretty-challenging-design-instagram-iphone-duo/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "En 1895 descubrimos una estatua romana de bronce en Pamplona. Ahora los arqueólogos intentan aclarar su mayor misterio: su sexo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/1895-descubrimos-estatua-romana-bronce-pamplona-ahora-arqueologos-intentan-aclarar-su-mayor-misterio-su-sexo",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Si recibes el Ingreso Mínimo Vital pagarás un 25% menos por Internet",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/tarifa-asequible-internet-ingreso-minimo-vital/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "HP renueva su catálogo de consumo con el nuevo OmniBook 5 y una apuesta más ambiciosa por el gaming con HyperX",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/hp-renueva-su-catalogo-consumo-con-nuevo-omnibook-5-una-apuesta-mas-ambiciosa-por-gaming-con-hyperx_7062159_0.html",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Los electricistas expertos coinciden sobre el coste de dejar los cargadores enchufados: \"es insignificante\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/electricistas-expertos-coinciden-coste-dejar-cargadores-enchufados-insignificante",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Movistar ya lo avisa por el apagado del 3G: si tienes una tarifa de Internet sin fibra podrías tener que cambiar de router",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-apagado-3g-clientes-internet-radio/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Si tienes un Smart TV de LG, enhorabuena: añade dos nuevos canales gratis alternativos a la TDT que puedes ver sin necesidad de antena",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/si-tienes-un-smart-tv-lg-enhorabuena-anade-dos-nuevos-canales-gratis-alternativos-tdt-que-puedes-ver-sin-necesidad-antena_7061953_0.html",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Si vas a comprar un portátil gaming en el Black Friday, no hace falta esperar: este Asus con buena configuración ha bajado mucho de precio",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/vas-a-comprar-portatil-gaming-black-friday-no-hace-falta-esperar-este-asus-buena-configuracion-ha-bajado-mucho-precio",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Adiós a Palantir 3, el addon más famoso de Kodi: alternativas para streaming",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/palantir-cierre-kodi-alternativas-streaming/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "NoisyTCP, un error del kernel de Linux de hace más de 11 años, permite a los hackers bloquear servidores Linux a distancia sin iniciar sesión",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/noisytcp-un-error-kernel-linux-hace-mas-11-anos-permite-los-hackers-bloquear-servidores-linux-distancia-sin-iniciar-sesion_7061941_0.html",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Trump quiere de vuelta a Jensen Huang. Eso es justo lo que impide al consejo de NVIDIA readmitirlo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/trump-quiere-vuelta-a-jensen-huang-eso-justo-que-impide-al-consejo-nvidia-readmitirlo",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Black Friday en Orange: móviles, ordenadores, consolas y mucho más en los Todo Days",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/black-friday-2026-orange-moviles-ordenadores-consolas-todo-days/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "He probado un robot humilde, pero que destaca por su base y escaso mantenimiento",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/he-probado-roborock-qrevo-2-pro-un-robot-mas-humilde-pero-que-destaca-por-su-base-escaso-mantenimiento_7061265_0.html",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Vuelven los móviles de toda la vida, pero con USB-C y 4G: así es el nuevo HMD 235 4G (2ª edición) con batería extraíble y Snake",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/vuelven-moviles-toda-vida-usb-c-4g-asi-nuevo-hmd-235-4g-2-a-edicion-bateria-extraible-snake",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "GTA 6 se podrá conseguir gratis de tres formas distintas: nacidos en 2008 y usuarios de dos plataformas de vídeos",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/videojuegos/gta-gratis-bono-cultural-twitch/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Nadie lo sabe, pero el mensaje original de la famosa \"Pantalla Azul de la Muerte\" de Windows lo escribió el propio Steve Ballmer",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/nadie-sabe-pero-mensaje-original-famosa-pantalla-azul-muerte-windows-escribio-propio-steve-ballmer_7061578_0.html",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Disney+ y Hulu serán una sola app en diciembre",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/streaming/1035226/disney-plus-hulu-app-merger-q4-2026",
+      "fecha": "17-11-2026"
+    }
+  ]
+}
