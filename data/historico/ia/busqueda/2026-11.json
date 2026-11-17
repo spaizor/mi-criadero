@@ -3,6 +3,111 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "Isomorphic Labs levanta 5.000 millones para llevar sus fármacos diseñados con IA a ensayos clínicos",
+      "fuente": "TechCrunch",
+      "fecha": "17-11-2026 15:50",
+      "enlace": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "OpenAI abre su herramienta de ciberseguridad Daybreak a la OTAN y a gobiernos europeos",
+      "fuente": "The Decoder",
+      "fecha": "17-11-2026 16:02",
+      "enlace": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "Grok Bot hizo accesos no autorizados, ignoró órdenes de parar y luego lo negó",
+      "fuente": "Ars Technica",
+      "fecha": "17-11-2026 15:00",
+      "enlace": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "Nvidia crea un comité de seguridad nacional tras la salida de Jensen Huang",
+      "fuente": "TechCrunch",
+      "fecha": "17-11-2026 15:05",
+      "enlace": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "Los casos de abuso infantil generado con IA se disparan más de un 8.400 % en dos años",
+      "fuente": "The Decoder",
+      "fecha": "17-11-2026 15:59",
+      "enlace": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "Clément Delangue, de Hugging Face: «el 95 % de las defensas vendrá del código abierto»",
+      "fuente": "Wired",
+      "fecha": "17-11-2026 12:00",
+      "enlace": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "Crean un modelo de IA que cabe en un disquete y funciona en un 486 con MS-DOS",
+      "fuente": "Xataka",
+      "fecha": "17-11-2026 14:01",
+      "enlace": "https://www.xataka.com/robotica-e-ia/alguien-ha-creado-modelo-ia-que-disquete-funciona-486-ms-dos-ha-programado-otra-ia",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "La tecnología cerebral de Science Corporation vale 3.500 millones tras una nueva ronda",
+      "fuente": "TechCrunch",
+      "fecha": "17-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "La nueva herramienta de Spotify busca evitar que los deepfakes se atribuyan a artistas reales",
+      "fuente": "TechCrunch",
+      "fecha": "17-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "Los juguetes con IA vuelven a la lista de los traviesos esta Navidad",
+      "fuente": "The Register",
+      "fecha": "17-11-2026",
+      "enlace": "https://www.theregister.com/offbeat/2026/11/17/ai-toys-are-on-the-naughty-list-again-this-year/5310261",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "La IA les dijo a estos exempleados de Google cómo montar un negocio de armas de mil millones",
+      "fuente": "Wired",
+      "fecha": "17-11-2026",
+      "enlace": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business/",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "Xiaomi 18 Pro y 18 Pro Max: dos pantallas, cámaras Leica de 200 MP y una apuesta total por la IA",
+      "fuente": "ComputerHoy",
+      "fecha": "17-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/moviles/xiaomi-18-pro-18-pro-max-dos-pantallas-camaras-leica-200-mp-una-apuesta-total-por-ia_7061500_0.html",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "\"China ya no podrá usar nuestros chips desde la nube\": EEUU prepara un golpe directo a Nvidia y a la IA china",
+      "fuente": "ComputerHoy",
+      "fecha": "17-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/china-ya-no-podra-usar-nuestros-chips-desde-nube-eeuu-prepara-un-golpe-directo-nvidia-ia-china_7061954_0.html",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "Microsoft confirma qué provocó la caída de Outlook, Teams y Copilot sembrando el caos mundial: \"Más del 80 % de los servidores dejaron de responder\"",
+      "fuente": "ComputerHoy",
+      "fecha": "17-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-confirma-que-provoco-caida-outlook-teams-copilot-sembrando-caos-mundial-mas-80-los-servidores-dejaron-responder_7061939_0.html",
+      "turno": "2026-11-17_T"
+    },
+    {
+      "titulo": "Oded Blatman, experto en ciberseguridad, advierte: “La IA ha cambiado lo que cuesta realizar un ciberataque”",
+      "fuente": "ComputerHoy",
+      "fecha": "17-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/oded-blatman-experto-ciberseguridad-advierte-ia-ha-cambiado-que-cuesta-realizar-un-ciberataque_7060342_0.html",
+      "turno": "2026-11-17_T"
+    },
+    {
       "titulo": "California demanda a OpenAI por los incidentes de agentes descontrolados",
       "fuente": "TechCrunch",
       "fecha": "16-11-2026 21:07",
