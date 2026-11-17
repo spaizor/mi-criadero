@@ -1,0 +1,214 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "17-11-2026 03:11",
+  "destacadas": [
+    {
+      "titulo": "Uber avisa a 150.000 conductores del robo de datos de sus carnets por una brecha en Fireworks AI",
+      "resumen": "Uber notifica a cerca de 150.000 conductores de que sus nombres, direcciones, fechas de nacimiento y números de carnet de conducir fueron robados en una brecha de octubre en un proveedor tecnológico. TechCrunch ha sabido que el proveedor es Fireworks AI, también afectado en el caso de Notion y Cursor. Los atacantes usaron credenciales internas de Fireworks, por lo que no saltó ninguna alerta.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+      "fecha": "16-11-2026 20:53"
+    },
+    {
+      "titulo": "Roban los datos de contacto de 22 millones de personas en un ataque a una filial del correo francés",
+      "resumen": "Los datos de contacto de 22 millones de personas, con nombres completos y direcciones postales, fueron robados en un ciberataque de septiembre contra Maileva, plataforma de correo de Docaposte, filial de La Poste. Maileva tiene más de 70.000 usuarios y envía más de 180 millones de documentos al año, y el incidente la dejó seis días con el servicio interrumpido.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/16/criminals-attack-french-postal-operator-subsidiary-grab-contact-details-of-22m-people/5310070",
+      "fecha": "16-11-2026 16:28"
+    },
+    {
+      "titulo": "Infoblox sufre una brecha en SharePoint que expone datos de clientes y empleados",
+      "resumen": "Infoblox investiga una brecha a través de un proveedor externo de migración de datos con acceso de confianza a su SharePoint. Los atacantes sacaron configuraciones de despliegues NIOS de algunos clientes (DNS, DHCP, bases de datos Grid) y datos de empleados como cuentas de ingreso, fechas de nacimiento y números de la Seguridad Social. La empresa dice que no hay indicios de que sus productos o su cadena de software se vieran afectados.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/16/infoblox-customer-and-staff-data-exposed-in-sharepoint-breach/5310280",
+      "fecha": "16-11-2026 22:53"
+    },
+    {
+      "titulo": "Tesla invertirá 3.000 millones en ampliar su fábrica de Berlín para producir el Cybercab",
+      "resumen": "Tesla invertirá 3.000 millones de euros (3.300 millones de dólares) en ampliar su gigafactoría de Grünheide, cerca de Berlín, y empezará a fabricar el Cybercab allí en 2029. La nueva nave podrá producir hasta un millón de vehículos al año y su construcción arrancará en la primera mitad de 2027. El anuncio llega dos meses después de que los primeros Cybercab salieran a la carretera.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/",
+      "fecha": "16-11-2026 19:21"
+    },
+    {
+      "titulo": "Google Maps estrena en España Ask Maps, su mayor cambio en diez años",
+      "resumen": "Ask Maps, la mayor evolución de Google Maps en más de una década, llega por fin a España y Europa. Está impulsado por Gemini, maneja información de más de 300 millones de lugares y reseñas de más de 500 millones de colaboradores, y permite preguntar en lenguaje natural o crear itinerarios de viaje completos. Se lanzó en marzo, pero solo en EE. UU. e India.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/google-maps-renovacion-estreno-usuarios-espana/",
+      "fecha": "16-11-2026 16:17"
+    },
+    {
+      "titulo": "Meta prueba Direct, una app de mensajería independiente para Instagram",
+      "resumen": "Meta prueba Direct, una app independiente que traslada la bandeja de mensajes de Instagram a una aplicación aparte y no exige tener cuenta de Instagram: se puede registrar con correo o teléfono. De momento solo está disponible en Tailandia y Turquía. Incluye controles parentales y limita los chats nuevos a cuentas ya conectadas.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2318452/meta-is-testing-direct-a-standalone-messaging-app-for-instagram/",
+      "fecha": "17-11-2026 02:00"
+    },
+    {
+      "titulo": "El iPhone Duo recibe un desbloqueo facial con iOS 27.3, sin ser Face ID",
+      "resumen": "Apple añade un desbloqueo facial al iPhone Duo con iOS 27.3, aunque no es Face ID: el plegable no tiene espacio para el sistema TrueDepth. Solo funciona si antes se ha autenticado con Touch ID o código, y Apple Pay y las contraseñas siguen exigiendo la huella. Tras 45 minutos de inactividad hay que volver a usar huella o PIN.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/iphone-duo-desbloqueo-facial-no-face-id/",
+      "fecha": "16-11-2026 22:55"
+    },
+    {
+      "titulo": "El Bluetooth será casi cuatro veces más rápido en 2027, con los auriculares como primeros beneficiados",
+      "resumen": "El Bluetooth SIG ha adoptado High Data Throughput (HDT) en Bluetooth Core 7.0, que lleva el máximo de Bluetooth LE a 7,5 Mbps, casi cuatro veces los 2 Mbps vigentes desde 2016. Los productos compatibles llegarían a partir de 2027 y los auriculares serán los primeros, con audio sin pérdidas integrado en el estándar sin depender de códecs como LDAC o aptX Lossless.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/audio/bluetooth-va-a-ser-casi-cuatro-veces-rapido-2027-auriculares-seran-primeros-notarlo",
+      "fecha": "16-11-2026 19:01"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "El hacker que filtró GTA VI en 2022 se declara culpable",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Microsoft aclara uno de los mayores misterios de Windows cuando el rendimiento se desploma",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/software/microsoft-explica-administrador-tareas-no-acelera-windows/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Un fallo informático de United Airlines interrumpe salidas días después de una parada general en tierra",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Los centros de datos de hiperescala consumen el 2 % de la electricidad de EE. UU.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Accionistas demandan a Intel, su CEO y su CFO tras desplomarse la acción un 28,6 % en un día",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "AT&T acusa a Comcast de publicidad engañosa: su «wifi con fibra» es solo cable",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "¿Cuándo volarán humanos en Starship?",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/when-will-humans-actually-fly-on-starship/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "HTML-in-Canvas llega a los navegadores y podría hacer la web más creativa... y más absurda",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/devops/2026/11/16/html-in-canvas-ships-and-could-make-the-web-a-lot-more-creativeand-a-lot-stupider/5310135",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Island, una app contra el tiempo de pantalla que convierte no usar el móvil en un juego",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/16/island-is-a-new-screen-time-app-that-turns-staying-off-your-phone-into-a-game/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "«123456», la contraseña más popular del mundo en 7 de los últimos 8 años",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/16/123456-has-been-the-worlds-most-popular-password-for-7-out-of-the-last-8-years/5310189",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "NoisyTCP: un error en Linux de hace 11 años permite bloquear servidores de forma remota",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/16/noisytcp-bug-gives-linux-servers-a-remote-crash-problem-11-years-in-the-making/5310144",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Instagram permite añadir enlaces de afiliado de Amazon en reels y publicaciones",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Solo 400 centros de datos de EE. UU. consumen más electricidad que todo Michigan",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "La guerra de Ucrania está teniendo un beneficiado inesperado: la minería ilegal de ámbar",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/guerra-ucrania-esta-teniendo-beneficiado-inesperado-mineria-ilegal-ambar",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Ni el móvil ni el cinturón: la DGT tiene más sistemas que nunca para vigilarte cuando conduces",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/control-movil-cinturon-sistema-dgt/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "La otra \"Séptima\" que lucha por sobrevivir en la TDT: \"Oye, se han copiado, el logo es muy similar\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/otra-septima-que-lucha-por-sobrevivir-tdt-oye-se-han-copiado-logo-es-muy-similar_7061587_0.html",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "SpaceX ha hecho historia con el vuelo 14 y 15 de Starship: ahora espera repetir la hazaña con el vuelo 16",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/spacex-ha-hecho-historia-vuelo-14-15-starship-ahora-espera-repetir-hazana-vuelo-16",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Los Samsung Galaxy S28 podrían recuperar una función de cámara que el iPhone 18 Pro volvió a poner de moda",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/samsung-galaxy-s28-pro-y-ultra-apertura-variable/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Vuelve a Lidl por tiempo limitado el maletín de bricolaje definitivo: taladro y atornillador de 20 V, dos baterías, brocas y todos los accesorios por 64,99 euros",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/vuelve-lidl-por-tiempo-limitado-maletin-bricolaje-definitivo-taladro-atornillador-20-v-dos-baterias-brocas-todos-los-accesorios-por-64-99-euros_7061590_0.html",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Guerra interna por el control de Nvidia: la vuelta de Jensen Huang como CEO está encima de la mesa",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/guerra-interna-control-nvidia-vuelta-jensen-huang-como-ceo-esta-encima-mesa",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "El hacker que filtró GTA 6 se declara culpable y podría pasar más de 10 años en la cárcel",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/hacker-filtracion-gta-6-arion-kurtaj-declara-culpable/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Los desarrolladores de Manjaro Linux logran hacerse con el control de la distro y crean su propia organización sin ánimo de lucro",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/los-desarrolladores-manjaro-linux-logran-hacerse-con-control-distro-crean-su-propia-organizacion-sin-animo-lucro_7061575_0.html",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Esta tele MiniLED es enorme: tiene casi 100 pulgadas, ha bajado de precio y es ideal para pelis, series y videojuegos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/esta-tele-miniled-enorme-tiene-casi-100-pulgadas-ha-bajado-precio-ideal-para-pelis-series-videojuegos",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Xbox revela nuevos detalles de Project Helix, que aspira a ser la «máquina de juegos definitiva»",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/xbox-revela-nuevos-detalles-de-project-helix-que-aspira-a-ser-la-maquina-de-juegos-definitiva/",
+      "fecha": "16-11-2026"
+    },
+    {
+      "titulo": "Instalan Windows 11 en el iPhone Duo de Apple y lo convierten en un ordenador portátil",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/instalan-windows-11-iphone-duo-apple-convierten-un-ordenador-portatil_7061702_0.html",
+      "fecha": "16-11-2026"
+    }
+  ]
+}
