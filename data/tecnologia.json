@@ -1,207 +1,213 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "17-11-2026 15:16",
+  "actualizado": "18-11-2026 03:12",
   "destacadas": [
     {
-      "titulo": "Un ataque a Optimizely reparte malware desde webs como IKEA, Zoom, CNN o HSBC",
-      "resumen": "Un fallo en el proceso de creación de cuentas de Optimizely permitió cargar JavaScript malicioso en las webs de 178 organizaciones, según Report URI, el lunes 16 de noviembre. El código podía interceptar datos de tarjetas, cambiar direcciones de carteras cripto y hacer capturas de pantalla, y en iPhone y iPad con sistemas antiguos añadía los malware Coruna (iOS 13 a 17) y Darksword (iOS 18 o superior). Aún no hay pruebas de que se haya llegado a comprometer ningún dispositivo.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/seguridad/ataque-optimizely-malware-iphone-ipad/",
-      "fecha": "17-11-2026 15:09"
+      "titulo": "Waymo suspende en todo EE. UU. los viajes por autopista tras la orden del DMV de California",
+      "resumen": "El DMV de California ordenó el 11 de noviembre restringir las operaciones de Waymo en autopistas, aunque no se hizo pública hasta el martes 17. La decisión llegó tras entrar tres vehículos autónomos en un cierre de obras activo de la US-101, cerca de Burlingame, y un incidente con la Patrulla de Caminos en la Carretera 280. Waymo, que opera en 15 ciudades, frena estos viajes en todos sus mercados hasta demostrar «acciones correctivas efectivas».",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/",
+      "fecha": "17-11-2026 20:49"
     },
     {
-      "titulo": "Windows 11 funciona mejor con 8 GB de RAM tras las últimas mejoras",
-      "resumen": "Con la RAM por las nubes, 8 GB vuelven a ser lo habitual en portátiles baratos. Microsoft asegura que Windows es hasta un 20 % más ágil y la multitarea hasta un 40 % más rápida, y que puede mantener hasta 2 GB más de datos activos en memoria. The Verge lo probó en el Surface Laptop de 13 pulgadas con 8 GB que había criticado en julio.",
+      "titulo": "Nvidia descarta readmitir a Jensen Huang como consejero delegado",
+      "resumen": "Harvey Jones, nuevo presidente del consejo, dijo en la presentación de resultados que el consejo aceptó por unanimidad la dimisión de Huang del 12 de noviembre y no pretende reincorporarlo. Huang había dicho horas antes que volvería si se lo ofrecían y que cooperará con la investigación interna; declarará ante el Congreso el 1 de diciembre. Trump ha dicho que «no le importaría» su regreso.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1035159/windows-11-8gb-ram-updates-performance-improvements-surface-laptop-testing",
-      "fecha": "17-11-2026 15:00"
+      "enlace": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo",
+      "fecha": "17-11-2026 23:05"
     },
     {
-      "titulo": "Apple prepara hasta 18 productos nuevos para 2027, entre ellos el iPhone 20 Pro, gafas inteligentes y un robot",
-      "resumen": "Según los rumores de Mark Gurman y otras fuentes, Apple lanzaría el iPhone 18, el 18e y el iPhone Air 2 en primavera de 2027. En otoño, por el 20 aniversario del iPhone, llegaría el iPhone 20 Pro, saltándose la generación 19. A ellos se sumarían iPad, MacBook, las primeras gafas inteligentes y un robot.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/apple-prepara-hasta-18-nuevos-productos-para-2027-iphone-20-pro-gafas-inteligentes-incluso-un-robot_7061940_0.html",
-      "fecha": "17-11-2026 11:58"
+      "titulo": "Una caída de Apple afecta a iCloud, App Store y Apple Music",
+      "resumen": "El 17 de noviembre, a las 10:55 PST, la página de estado de Apple confirmó fallos en el inicio de sesión de iCloud para todos los usuarios, además de problemas en App Store, AppleCare on Device y Apple Music. Apple los atribuyó a una actualización interna, no a un ciberataque, y a las 18:00 ET estaban resueltos.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
+      "fecha": "17-11-2026 19:55"
     },
     {
-      "titulo": "PostgreSQL corrige 52 vulnerabilidades y retira la versión 14",
-      "resumen": "Las actualizaciones de las versiones 14 a 18 corrigen 52 fallos de seguridad y más de 140 errores, y llega la segunda versión candidata de PostgreSQL 19. La 14.25 es la última de la versión 14, que deja de tener soporte. Entre los fallos está CVE-2026-6460, de tipo type confusion y con una puntuación CVSS de 8,8. Es el tercer trimestre seguido con récord de CVE corregidas, en parte por escáneres con IA de Anthropic y OpenAI.",
+      "titulo": "Windows 11 prueba un bloqueo remoto que solo puede levantar el administrador de TI",
+      "resumen": "La compilación experimental 26340-10013 incluye Remote Lock, controlado por Intune, que bloquea un equipo gestionado sin borrar datos en su siguiente conexión. Cierra todas las sesiones, oculta las opciones de inicio y persiste tras reinicios o sin conexión. Otra compilación beta, la 26320-10003, elimina los ajustes de mapas sin conexión.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/databases/2026/11/17/postgresql-patches-52-security-holes-sends-version-14-into-retirement/5310108",
-      "fecha": "17-11-2026 10:30"
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/17/windows-11-previews-remote-padlock-only-it-can-open/5310402",
+      "fecha": "17-11-2026 16:29"
     },
     {
-      "titulo": "Uber Eats estrena en Texas su reparto con drones de Zipline",
-      "resumen": "El servicio arranca en Spring, en las afueras de Houston, seguirá en Dallas y llegará a decenas de ciudades de EE. UU. Los drones vuelan a más de 300 pies y hasta 70 mph, y bajan el pedido en una cápsula atada. Cargan hasta 8 libras en un radio de 10 millas. Uber y Zipline quieren llegar a un millón de entregas diarias en 2029, cuando hoy Zipline hace unas 4.300 al día.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
-      "fecha": "17-11-2026 14:00"
+      "titulo": "Xiaomi 18 Pro y 18 Pro Max: pantalla trasera de 4.000 nits y dos cámaras de 200 megapíxeles",
+      "resumen": "Presentados en París, el 18 Pro tiene pantalla de 6,4 pulgadas y batería de 6.000 mAh, y el Pro Max de 6,9 pulgadas y 7.050 mAh. Usan Snapdragon 8 Elite Gen 6 y Elite Extreme Gen 6, HyperOS 4 y graban en 8K a 30 fps. En España cuestan desde 1.399,99 € el Pro y 1.599,99 € el Pro Max, con ofertas hasta el 6 de enero.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/zona-xiaomi/moviles/lanzamiento-xiaomi-18-pro-series/",
+      "fecha": "17-11-2026 15:32"
     },
     {
-      "titulo": "Blackstone compra el 75 % de dos campus de centros de datos de AWS por unos 5.000 millones y se los alquila de vuelta",
-      "resumen": "Blackstone Digital Infrastructure Trust adquirirá una participación del 75 % en dos sociedades con AWS, que conserva el 25 % y alquilará las instalaciones durante 12 años iniciales en régimen triple net. Los campus, en el norte de Indiana y en Mississippi, suman 13 salas con 647 MW. Amazon confirma que es su primer acuerdo de este tipo.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/on-prem/2026/11/17/reit-move-blackstone-joint-venture-buys-aws-campuses-to-lease-back-to-the-cloud-giant/5310355",
-      "fecha": "17-11-2026 13:31"
-    },
-    {
-      "titulo": "La función Live Rewind del Apple Watch transcribe los últimos 15 segundos de una conversación",
-      "resumen": "Live Rewind, una de las nuevas funciones de Audio Intelligence, está en beta pública en watchOS 27.3 y se espera para antes de que acabe el año. Con Siri Recap, el reloj puede escuchar el entorno y mostrar al final del día un resumen de las conversaciones. Defensores de la privacidad advierten de que normaliza la vigilancia ambiental, y el análisis de Wired concluye que resulta incómodo.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/",
-      "fecha": "17-11-2026 12:00"
-    },
-    {
-      "titulo": "TRMNL lanza Frame, un marco de papel electrónico a color de 31,5 pulgadas por 1.300 dólares",
-      "resumen": "Frame es un panel e-paper a todo color Spectra 6 en un marco de madera artesanal, pensado para mostrar pinturas y fotos. Se enviará a finales de 2026 o principios de 2027 en una primera tanda de unas 470 unidades, con reserva abierta para EE. UU., Canadá, México y Australia. Trae un motor de color de código abierto llamado Lazarus, ranura microSD y batería recargable.",
+      "titulo": "Google Wallet llega a iOS en Estados Unidos, pero sin pago sin contacto",
+      "resumen": "Google lanzó el 17 de noviembre su app Wallet para iPhone en EE. UU., presentada como centro de compras agénticas. En iOS no tendrá pago sin contacto y no se ha confirmado si lo añadirá. Engadget destaca que se parece mucho a Apple Wallet y que es raro que cada compañía lance software para el hardware de la otra.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2318822/trmnl-frame-is-a-full-color-e-paper-display-that-looks-like-real-art/",
-      "fecha": "17-11-2026 09:16"
+      "enlace": "https://www.engadget.com/2319673/google-wallet-is-launching-on-ios/",
+      "fecha": "17-11-2026 20:33"
+    },
+    {
+      "titulo": "WhatsApp prueba su propio almacenamiento en la nube para copias de chats, con 2 GB gratis",
+      "resumen": "La beta 2.26.46.4 para Android, según WABetaInfo, ofrece hasta 2 GB gratuitos con cifrado de extremo a extremo y passkey obligatoria. Habrá ampliaciones de hasta 100 GB con WhatsApp Plus y 4 TB con Meta One. Quien supere los 2 GB y deje de pagar tendrá cuatro meses antes de que se borre la copia; no se sabe si llegará a iPhone.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/whatsapp-almacenamiento-nube-chats-gratis/",
+      "fecha": "17-11-2026 22:39"
+    },
+    {
+      "titulo": "San Diego rompe con Flock y con las farolas inteligentes de Ubicquia",
+      "resumen": "El pleno municipal votó el lunes terminar los contratos con ambos proveedores; San Diego es una de las mayores ciudades en dejar Flock, valorada en unos 8.300 millones de dólares. La policía defendía una caída del 20 % en robos de vehículos desde 2023 y 689 coches recuperados. El alcalde Todd Gloria no vetará la decisión.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/san-diego-dumps-both-flock-cameras-and-smart-streetlights/",
+      "fecha": "18-11-2026 00:09"
     }
   ],
   "titulares": [
     {
-      "titulo": "Un hackeo a Optimizely convierte grandes webs en distribuidoras de malware",
+      "titulo": "Un Senado estadounidense acusa a Roblox en una audiencia por el abuso sexual infantil en la plataforma",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/the-predators-are-real-senate-hearing-slams-roblox-over-child-sex-abuse/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Las caídas diarias que paralizan aviones y trabajo, el nuevo normal",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/cyber-crime/2026/11/17/optimizely-hack-turns-worlds-biggest-websites-into-malware-dispensers/5310448",
-      "fecha": "17-11-2026"
+      "enlace": "https://www.theregister.com/security/2026/11/17/daily-disruptive-outages-that-ground-planes-and-halt-work-welcome-to-the-new-normal/5310634",
+      "fecha": "18-11-2026"
     },
     {
-      "titulo": "Un investigador halla seis fallos de día cero en controladores de frigoríficos Danfoss en menos de una hora",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/17/not-rocket-surgery-claims-researcher-who-found-six-danfoss-fridge-controller-zero-days-in-under-an-hour/5310197",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "La encuestadora Ipsos reconoce un «incidente de ciberseguridad»",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/17/opinion-pollster-ipsos-fesses-up-to-cybersecurity-incident/5310405",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Hasta el 99 % de los funcionarios británicos depende de Microsoft para comunicarse, admite un ministro",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/software/2026/11/17/up-to-99-of-uk-civil-servants-rely-on-microsoft-for-comms-minister-admits/5310385",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Upside Foods ya puede producir un millón de libras de pollo al año sin matar animales",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/17/upside-foods-can-now-make-one-million-pounds-of-chicken-each-year-without-killing-a-single-animal/",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Hank Green financia ClockwiseTV, una plataforma de vídeo educativo para niños",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/17/hank-green-is-self-funding-clockwisetv-a-curated-educational-video-platform-for-kids/",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Natural Cycles actualiza su pulsera de seguimiento del ciclo",
+      "titulo": "La CFTC ordena a Kalshi dejar de permitir apuestas sobre los discursos de Trump",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2318468/natural-cycles-updates-its-cycle-tracking-wearable/",
+      "enlace": "https://www.engadget.com/2320023/kalshi-ordered-to-stop-letting-people-bet-on-trump-speeches/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Otra empresa de satélites busca cohete, pero esta vez con sentido",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/yet-another-satellite-company-is-jockeying-for-a-rocket-but-this-one-makes-sense/",
       "fecha": "17-11-2026"
     },
     {
-      "titulo": "Adam Mosseri cree «bastante difícil» diseñar Instagram para el iPhone Duo",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2318832/adam-mosseri-pretty-challenging-design-instagram-iphone-duo/",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "En 1895 descubrimos una estatua romana de bronce en Pamplona. Ahora los arqueólogos intentan aclarar su mayor misterio: su sexo",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/1895-descubrimos-estatua-romana-bronce-pamplona-ahora-arqueologos-intentan-aclarar-su-mayor-misterio-su-sexo",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Si recibes el Ingreso Mínimo Vital pagarás un 25% menos por Internet",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/tarifa-asequible-internet-ingreso-minimo-vital/",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "HP renueva su catálogo de consumo con el nuevo OmniBook 5 y una apuesta más ambiciosa por el gaming con HyperX",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/hp-renueva-su-catalogo-consumo-con-nuevo-omnibook-5-una-apuesta-mas-ambiciosa-por-gaming-con-hyperx_7062159_0.html",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Los electricistas expertos coinciden sobre el coste de dejar los cargadores enchufados: \"es insignificante\"",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/energia/electricistas-expertos-coinciden-coste-dejar-cargadores-enchufados-insignificante",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Movistar ya lo avisa por el apagado del 3G: si tienes una tarifa de Internet sin fibra podrías tener que cambiar de router",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-apagado-3g-clientes-internet-radio/",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Si tienes un Smart TV de LG, enhorabuena: añade dos nuevos canales gratis alternativos a la TDT que puedes ver sin necesidad de antena",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/si-tienes-un-smart-tv-lg-enhorabuena-anade-dos-nuevos-canales-gratis-alternativos-tdt-que-puedes-ver-sin-necesidad-antena_7061953_0.html",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Si vas a comprar un portátil gaming en el Black Friday, no hace falta esperar: este Asus con buena configuración ha bajado mucho de precio",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/vas-a-comprar-portatil-gaming-black-friday-no-hace-falta-esperar-este-asus-buena-configuracion-ha-bajado-mucho-precio",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Adiós a Palantir 3, el addon más famoso de Kodi: alternativas para streaming",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/tecnologia/palantir-cierre-kodi-alternativas-streaming/",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "NoisyTCP, un error del kernel de Linux de hace más de 11 años, permite a los hackers bloquear servidores Linux a distancia sin iniciar sesión",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/noisytcp-un-error-kernel-linux-hace-mas-11-anos-permite-los-hackers-bloquear-servidores-linux-distancia-sin-iniciar-sesion_7061941_0.html",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Trump quiere de vuelta a Jensen Huang. Eso es justo lo que impide al consejo de NVIDIA readmitirlo",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/trump-quiere-vuelta-a-jensen-huang-eso-justo-que-impide-al-consejo-nvidia-readmitirlo",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Black Friday en Orange: móviles, ordenadores, consolas y mucho más en los Todo Days",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/black-friday-2026-orange-moviles-ordenadores-consolas-todo-days/",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "He probado un robot humilde, pero que destaca por su base y escaso mantenimiento",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/he-probado-roborock-qrevo-2-pro-un-robot-mas-humilde-pero-que-destaca-por-su-base-escaso-mantenimiento_7061265_0.html",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Vuelven los móviles de toda la vida, pero con USB-C y 4G: así es el nuevo HMD 235 4G (2ª edición) con batería extraíble y Snake",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/vuelven-moviles-toda-vida-usb-c-4g-asi-nuevo-hmd-235-4g-2-a-edicion-bateria-extraible-snake",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "GTA 6 se podrá conseguir gratis de tres formas distintas: nacidos en 2008 y usuarios de dos plataformas de vídeos",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/videojuegos/gta-gratis-bono-cultural-twitch/",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Nadie lo sabe, pero el mensaje original de la famosa \"Pantalla Azul de la Muerte\" de Windows lo escribió el propio Steve Ballmer",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/nadie-sabe-pero-mensaje-original-famosa-pantalla-azul-muerte-windows-escribio-propio-steve-ballmer_7061578_0.html",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Disney+ y Hulu serán una sola app en diciembre",
+      "titulo": "El desmontaje de iFixit del Apple HomeView revela un dispositivo difícil de reparar",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/streaming/1035226/disney-plus-hulu-app-merger-q4-2026",
+      "enlace": "https://www.theverge.com/tech/1036045/ifixit-teardown-apple-homeview-smart-home-hub",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Instagram ayuda a los creadores a frenar los vídeos copiados",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1035943/instagram-creators-crack-down-copycat-videos",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Firaxis, el estudio de Civilization, despide a un tercio de la plantilla",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/gaming/2026/11/civilization-studio-firaxis-games-lays-off-a-third-of-staff/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Los centros de datos hiperescala de EE. UU. consumen tanta energía como estados enteros",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/off-prem/2026/11/17/americas-hyperscale-bit-barns-draw-as-much-power-as-entire-states/5310471",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "El escándalo de Nvidia podría alterar las ventas de chips a China, que Trump quiere mantener",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/the-nvidia-scandal-is-about-chip-sales-to-china-trump-wants-to-keep-them-going/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "El responsable de migración a la nube de SAP pasa a ser CEO de Ionos",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/software/2026/11/17/saps-cloud-migration-chief-is-migrating-to-ionos-as-ceo/5310530",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "VSCO va a por Adobe Lightroom con su nueva app de escritorio",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/vsco-is-gunning-for-adobe-lightroom-with-its-new-desktop-app/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Nvidia pone las exportaciones de chips bajo supervisión del consejo tras la salida de Huang",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/11/17/nvidia-places-chip-exports-under-boardroom-supervision-after-huangs-exit/5310429",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Premios Xataka Verisure 2026: dónde comprar al mejor precio todos los dispositivos ganadores",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/donde-comprar-barato-dispositivos-ganadores-premios-xataka-verisure-2026",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "‘GTA 6’ domina las nominaciones a los Game Awards y va por el premio a Juego del Año",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/gta-6-nominaciones-game-awards-2026/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "O2 confirma cuándo empezará a bloquear automáticamente las llamadas comerciales: “contamos con un plazo…”",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-bloqueo-llamadas-comerciales-prefijo-400/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "John Hultquist, jefe de Amenazas de Google: \"Imagina a un hacker que no come, no duerme ni se cansa, y que nunca deja de buscar una forma de entrar\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/john-hultquist-jefe-amenazas-google-imagina-un-hacker-que-no-come-no-duerme-ni-se-cansa-que-nunca-deja-buscar-una-forma-entrar_7062057_0.html",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Los 90 productos tecnológicos del año: estos son los ganadores de los Premios Xataka Verisure 2026",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/xataka/90-productos-tecnologicos-ano-estos-ganadores-premios-xataka-verisure-2026",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Apple vuelve al centro de la polémica por un inesperado problema del iPhone Duo",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/apple-silenciado-proveedor-iphone-duo-crackgate/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Un ciberataque masivo pone en peligro los datos de clientes de Zoom, IKEA y 180 empresas más",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/ciberataque-optimizely-zoom-ikea-178-empresas/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Los electricistas expertos coinciden en que este hábito tan común en el salón es la causa número uno de incendios eléctricos en casa",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/los-electricistas-expertos-coinciden-que-este-habito-tan-comun-salon-es-causa-numero-uno-incendios-electricos-casa_7062070_0.html",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Los 30 FPS de 'GTA VI' en todas las consolas es un fastidio. También el compromiso para que se vea como se ve",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/30-fps-gta-vi-todas-consolas-fastidio-tambien-compromiso-se-vea-como-se-ve",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "La pantalla del Galaxy S27 podría cambiar para siempre el diseño de los Galaxy",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/galaxy-s27-pantalla-sin-bordes-rumores/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Se cae Apple y te deja sin poder pagar: la firma anuncia caídas en EEUU en todos sus servicios",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/apple-caida-cuenta-icloud-inicio-sesion/",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "Un programador consigue lo impensable: elimina Android de un móvil y lo convierte en un PC con Windows 11",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/un-programador-consigue-impensable-elimina-android-un-movil-convierte-un-pc-con-windows-11_7062205_0.html",
+      "fecha": "17-11-2026"
+    },
+    {
+      "titulo": "La testosterona es apta para tratar el deseo sexual femenino, pero se receta con geles pensados para hombres",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/medicina-y-salud/testosterona-apta-para-tratar-deseo-sexual-femenino-se-receta-geles-pensados-para-hombres",
       "fecha": "17-11-2026"
     }
   ]
