@@ -1,0 +1,208 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "18-11-2026 15:15",
+  "destacadas": [
+    {
+      "titulo": "Tesla vende el Cybercab por 29.900 dólares, pero exige una suscripción de 299 al mes para que funcione",
+      "resumen": "Tesla ha invitado a «clientes selectos» a comprar su Cybercab, biplaza sin volante ni pedales, con entregas previstas en diciembre. El coche no opera sin una «suscripción de autonomía» desde 299 dólares al mes, y Tesla puede suspenderla, limitar zonas (hoy partes de Florida y Texas) o dejarlo inservible por seguridad. Los reguladores estadounidenses investigan además por qué Tesla cree que cumple las normas sin tantos sistemas exigidos.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/cars/2026/11/tesla-will-sell-you-a-cybercab-for-30000-then-charge-299-a-month-to-use-it/",
+      "fecha": "18-11-2026 15:01"
+    },
+    {
+      "titulo": "Hace falta la última actualización de la PS5 para jugar a GTA VI",
+      "resumen": "Sony ha lanzado el firmware 14.23 para PS5, de 1,267 GB, obligatorio para jugar a GTA VI, que sale a medianoche del 19 de noviembre. Sony lo describe como correcciones de seguridad sin más explicación, y llega un día después de que un jailbreaker afirmara haber extraído un binario del juego con el firmware 14.22. La versión digital pesa 212 GB y Rockstar ha publicado parches de 600 MB para quienes precargaron.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2320303/youll-need-the-latest-ps5-firmware-update-to-play-gta-vi/",
+      "fecha": "18-11-2026 14:01"
+    },
+    {
+      "titulo": "Java4Shell: la CISA urge a parchear un fallo crítico de OpenJDK con puntuación 9,2",
+      "resumen": "El fallo CVE-2026-114938, hallado por Calif.io, es una corrupción de memoria en el decodificador Base64 de OpenJDK que permite caídas de la JVM o ejecución remota de código sin autenticación. Afecta a OpenJDK 17.0.6 y posteriores en CPUs x86-64 con AVX-512 VBMI, y a aplicaciones como Jira, Confluence, Jenkins, Kafka o Elasticsearch. Oracle publicó su parche de noviembre con 655 correcciones, 62 críticas; Cisco Talos no ve explotación aún y recomienda desactivar AVX-512 como mitigación.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/18/oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allows-attacks-on-many-third-party-apps/5310661",
+      "fecha": "18-11-2026 05:33"
+    },
+    {
+      "titulo": "HBO Max empieza a avisar en España a quienes comparten cuenta: 5,99 euros al mes por un «miembro extra»",
+      "resumen": "HBO Max avisa a los usuarios que comparten cuenta fuera del hogar y les ofrece el complemento «Miembro extra» por 5,99 euros al mes. Los avisos llegan en dos fases, con una advertencia y luego una petición de suscribirse o verificar el dispositivo con un código al correo del titular, aunque por ahora no se bloquea el acceso del todo. El extra exige ser mayor de 18 años, residir en el mismo país, no incluye Deportes y solo se contrata pagando directamente a HBO Max.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/streaming/hbo-max-avisa-a-quienes-comparten-cuenta-espana-pagas-miembro-adicional-te-quedas-servicio",
+      "fecha": "18-11-2026 12:36"
+    },
+    {
+      "titulo": "La Voyager 1 alcanza una distancia de un día luz de la Tierra",
+      "resumen": "La sonda cruzó el hito el miércoles a las 5:16 ET y está a 16.094 millones de millas, lo que recorre la luz en 24 horas: es el objeto humano más lejano jamás lanzado. Sigue operativa tras 49 años, envía datos de ondas de plasma, campos magnéticos y partículas, y las señales tardan un día en llegar. Viaja a casi 38.000 mph hacia la estrella Gliese 445, que pasará en unos 40.000 años; la Voyager 2 llegará al día luz en 2035.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/science/1036431/nasa-voyager-1-light-day-milestone",
+      "fecha": "18-11-2026 13:03"
+    },
+    {
+      "titulo": "Windows Server 2028 llega en vista previa con Server Core endurecido por defecto",
+      "resumen": "Microsoft ha publicado la vista previa pública de Windows Server 2028 (compilación 29706 de Insider Preview) con cientos de ajustes de seguridad activados desde el primer arranque. Esa configuración puede romper protocolos antiguos, autenticación heredada y algunos scripts que funcionaban en Windows Server 2025. Según Lansweeper, en octubre Windows Server 2019 tenía un 33 % de cuota frente al 7 % de Windows Server 2025.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/18/windows-server-2028-wont-be-compatible-by-default/5310766",
+      "fecha": "18-11-2026 14:16"
+    },
+    {
+      "titulo": "Germ DM, alternativa a Signal con «tarjetas desechables», llega a Android",
+      "resumen": "Germ, lanzada en iOS en 2023 por Mark Xue y su cofundadora Brown, estrena versión Android. No pide número de teléfono: se comparte mediante «tarjetas desechables» por QR o enlace, cada una como una línea separada que, al borrarla, elimina sus chats. Usa cifrado Messaging Layer Security del IETF, pero no ha pasado una auditoría independiente.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/germ-dm-is-now-available-on-android/",
+      "fecha": "18-11-2026 12:00"
+    },
+    {
+      "titulo": "YouTube empezará a inflar las visualizaciones públicas cuando se vea en la tele",
+      "resumen": "YouTube contará «co-views» en televisores, aplicables a vídeos largos, Shorts y directos. Las estimará con un modelo estadístico «respetuoso con la privacidad» basado en patrones demográficos y horarios, sin cámaras ni micrófonos. Las cifras subirán solo hacia adelante, sin efecto retroactivo ni sobre los ingresos publicitarios ni los umbrales del Programa de Socios.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2320163/youtube-will-start-boosting-public-view-counts-when-you-watch-on-a-tv/",
+      "fecha": "18-11-2026 07:08"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "ULA dice que el Vulcan no tuvo potencia para llevar los satélites de Amazon a órbita",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/science/2026/11/18/ula-says-vulcan-lacked-the-oomph-to-get-amazon-satellites-to-orbit/5310712",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "China domina el grafito para baterías, pero esta startup podría romper el monopolio",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/18/china-dominates-battery-graphite-but-this-startup-could-break-the-monopoly/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Una empresa mixta del Gobierno británico logra un contrato de alojamiento de 178 M£ con el Home Office sin concurso",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/public-sector/2026/11/18/ukgov-jv-gets-178m-home-office-hosting-deal-without-competition/5310433",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Wired: Lovable quiere que programes «por vibraciones» el trabajo de tus sueños",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Palmer Luckey asegura que su «seastead» SLAB es «mucho más chulo» que un centro de datos flotante",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2320221/palmer-luckeys-slab-seastead-is-way-cooler-than-a-floating-data-center/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "La FAA suspende la instalación del router que provocó la parada de vuelos en EE. UU.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2320202/faa-suspends-installation-router-ground-stop-flights-across-us/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Europa dice que el sistema de cumplimiento de Temu es de baja calidad y está lleno de agujeros",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/legal/2026/11/18/temus-compliance-regime-is-low-quality-fits-badly-and-full-of-holes-says-europe/5310684",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Ya es oficial: el servicio universal de internet será diez veces más rápido en 2027 y beneficiará a mucha más gente",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/servicios/oficial-servicio-universal-internet-sera-diez-veces-rapido-2027-beneficiara-a-mucha-gente",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Actualiza ya tu PS5 o ‘GTA 6’ no arrancará, confirma Sony",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/actualiza-ya-tu-ps5-o-gta-6-no-arrancara-confirma-sony/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Digi comparte sus planes sobre la incorporación de los nuevos canales UHD en Digi TV",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-tv-canales-uhd-sin-fecha/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Aumentan los rumores de un iPhone 20 con pantalla curva que no conseguiría la deseada \"pantalla completa\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/aumentan-los-rumores-un-iphone-20-con-pantalla-curva-que-no-conseguiria-deseada-pantalla-completa_7062488_0.html",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "El lunes, 23 de noviembre, llegará a Lidl la solución para secar la ropa en casa sin tener una secadora",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/lunes-23-noviembre-llegara-a-lidl-solucion-para-secar-ropa-casa-tener-secadora",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Geely trae a España el Monjaro EM-i Ultra: su nuevo SUV híbrido enchufable de más de 300 CV",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/movilidad/geely-trae-a-espana-el-monjaro-em-i-ultra-su-nuevo-suv-hibrido-enchufable-de-mas-de-300-cv/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Te lo están contando mal: la DGT no va a poner códigos QR o microchips en las matrículas",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/dgt-matriculas-qr-microchip-bulo/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Digital Foundry afirma que GTA 6 es tan exigente que es casi imposible jugarlo a más de 30 fps en consola aunque tengas una PS5 Pro",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/digital-foundry-afirma-que-gta-6-es-tan-exigente-que-es-casi-imposible-jugarlo-mas-30-fps-consola-aunque-tengas-una-ps5-pro_7062481_0.html",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "El Xiaomi Watch S5 llega en formato pequeño: así es el nuevo reloj con Google Wallet y hasta 14 días de autonomía",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/xiaomi-watch-s5-llega-formato-pequeno-asi-nuevo-reloj-google-wallet-14-dias-autonomia",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Se acabaron los problemas en tu Garmin: la actualización más importante llega a tu reloj",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-forerunner-29-52-actualizacion-estable/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "La agencia de ciberseguridad americana alerta de un fallo crítico de seguridad en el lenguaje de programación JAVA: \"Prácticamente todos los sectores críticos funcionan con él\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/agencia-ciberseguridad-americana-alerta-un-fallo-critico-seguridad-lenguaje-programacion-java-practicamente-todos-los-sectores-criticos-funcionan-con_7062480_0.html",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Este pueblo madrileño ha encontrado la fórmula para dar prioridad a sus vecinos en vivienda pública: exige llevar 10 años empadronado",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/este-pueblo-madrileno-ha-encontrado-formula-para-dar-prioridad-a-sus-vecinos-vivienda-publica-exige-llevar-10-anos-empadronado",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Google Maps y Waze tienen un nuevo rival: un navegador 3D de aspecto futurista llega a Android Auto",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/horizon-maps-navegador-3d-android-auto/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Juanma Fernández, sobre el éxito de La Séptima en la TDT: \"Es el cuento de nunca acabar, en el momento que a unos les va bien...\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/juanma-fernandez-sobre-exito-septima-tdt-es-cuento-nunca-acabar-momento-que-unos-les-va-bien_7062440_0.html",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "'GTA VI' es el juego más grande de la historia. La pregunta es si también será una buena base para los que están por venir",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/gta-vi-juego-grande-historia-pregunta-tambien-sera-buena-base-estan-venir",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "HBO Max comienza a bloquear oficialmente las cuentas compartidas en España",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/hbo-max-bloquea-cuentas-compartidas-espana/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "WhatsApp tiene una sorpresa si tienes un móvil Android: adiós Google Drive, copias de seguridad gratis y cifradas en la nube",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/whatsapp-tiene-una-sorpresa-si-tienes-un-movil-android-adios-google-drive-copias-seguridad-gratis-cifradas-nube_7062436_0.html",
+      "fecha": "18-11-2026"
+    }
+  ]
+}
