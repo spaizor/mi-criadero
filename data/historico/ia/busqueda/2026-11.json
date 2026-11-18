@@ -3,6 +3,160 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "OpenAI lanza GPT-6.2 Astra y Sol con precios de API más bajos y algunas mejoras en benchmarks",
+      "fuente": "The Decoder",
+      "fecha": "17-11-2026 21:30",
+      "enlace": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Amazon y Google tendrán juntas casi el 30 % de Anthropic tras su salida a bolsa",
+      "fuente": "TechCrunch",
+      "fecha": "17-11-2026 23:29",
+      "enlace": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Microsoft define Copilot como «el nuevo sistema operativo del trabajo» y mete Office dentro",
+      "fuente": "Ars Technica",
+      "fecha": "18-11-2026 01:27",
+      "enlace": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Nvidia dice que no piensa reinstaurar a Jensen Huang como CEO",
+      "fuente": "TechCrunch",
+      "fecha": "17-11-2026 23:42",
+      "enlace": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "El agente Spark de Google pasa a llamarse «Tasks» en Gemini y ahora es gratis",
+      "fuente": "The Verge",
+      "fecha": "17-11-2026 19:58",
+      "enlace": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Nvidia es el «Super Glue» de la industria de la IA: sin Huang temen que sea pegamento de barra",
+      "fuente": "Xataka",
+      "fecha": "17-11-2026 16:31",
+      "enlace": "https://www.xataka.com/empresas-y-economia/nvidia-super-glue-industria-ia-huang-al-frente-temen-que-sea-pegamento-barra",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Google facilita usar Gemini sin que entrene con tus datos, pero retendrá los chats dos meses",
+      "fuente": "Ars Technica",
+      "fecha": "17-11-2026 17:50",
+      "enlace": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Las participaciones de Nvidia en startups suben a 65.000 millones, pero la salida de Huang pone en duda futuros acuerdos",
+      "fuente": "TechCrunch",
+      "fecha": "18-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Satya Nadella dice que ahora está «AGI-pilled»",
+      "fuente": "The Verge",
+      "fecha": "18-11-2026",
+      "enlace": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Nvidia abandona China tras la salida de Jensen Huang",
+      "fuente": "TechCrunch",
+      "fecha": "18-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Satya se disculpa por el fallo SaaS y mira hacia otro lado: más IA",
+      "fuente": "The Register",
+      "fecha": "17-11-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/17/satya-sorry-for-saas-y-snafu-look-over-there-more-ai/5310594",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Ni Sam Altman se libra de los deepfakes de IA en Instagram",
+      "fuente": "The Verge",
+      "fecha": "17-11-2026",
+      "enlace": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Una prueba con Gemini confirma que los agentes de IA amorales harán casi cualquier cosa si se les dice «NUNCA te rindas»",
+      "fuente": "The Register",
+      "fecha": "17-11-2026",
+      "enlace": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Model ML levanta 250 millones para automatizar el trabajo rutinario de la banca de inversión",
+      "fuente": "TechCrunch",
+      "fecha": "17-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Los agentes de IA empiezan a rellenar formularios médicos y solicitudes de seguros en lugar del personal humano",
+      "fuente": "The Decoder",
+      "fecha": "17-11-2026",
+      "enlace": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "El Departamento de Justicia investiga a Megaspeed",
+      "fuente": "The Verge",
+      "fecha": "17-11-2026",
+      "enlace": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Hackers roban datos de carnés de conductores de Uber a un proveedor de IA",
+      "fuente": "The Register",
+      "fecha": "17-11-2026",
+      "enlace": "https://www.theregister.com/security/2026/11/17/hackers-smash-n-grab-ai-vendor-take-off-with-license-data-of-uber-drivers/5310464",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "No solo aloja tu página: hosting.com también tiene creador de web con IA. Todo (y más) por menos de 2 euros al mes este Black Friday",
+      "fuente": "Xataka",
+      "fecha": "17-11-2026",
+      "enlace": "https://www.xataka.com/seleccion/no-solo-aloja-tu-pagina-hosting-com-tambien-tiene-creador-web-ia-todo-2-euros-al-mes-este-black-friday",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Consiguen ejecutar una IA actual con 9.000 millones de parámetros en una PS4 sin necesidad de PC, Linux ni conexión a internet",
+      "fuente": "ComputerHoy",
+      "fecha": "17-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/consiguen-ejecutar-una-ia-actual-con-9-000-millones-parametros-una-ps4-sin-necesidad-pc-linux-ni-conexion-internet_7062059_0.html",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Pusieron a unos agentes de IA a jugar al Minecraft y crearon algo para lo que no estaban diseñadas: la burocracia",
+      "fuente": "Xataka",
+      "fecha": "17-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/pusieron-a-unos-agentes-ia-a-jugar-al-minecraft-crearon-algo-no-estaban-disenadas-burocracia",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "Google lanza una herramienta en Gmail para resumir conversaciones y recordar tareas con IA: cómo funciona y cómo activarla paso a paso",
+      "fuente": "ComputerHoy",
+      "fecha": "17-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-lanza-una-herramienta-gmail-para-resumir-conversaciones-recordar-tareas-con-ia-como-funciona-como-activarla-paso-paso_7061603_0.html",
+      "turno": "2026-11-18_M"
+    },
+    {
+      "titulo": "He convertido una presentación en una web con Gemini Notebook. Solo tuve que pedírselo",
+      "fuente": "Xataka",
+      "fecha": "17-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/he-convertido-presentacion-web-gemini-notebook-solo-tuve-que-pedirselo",
+      "turno": "2026-11-18_M"
+    },
+    {
       "titulo": "Isomorphic Labs levanta 5.000 millones para llevar sus fármacos diseñados con IA a ensayos clínicos",
       "fuente": "TechCrunch",
       "fecha": "17-11-2026 15:50",
