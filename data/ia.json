@@ -1,147 +1,128 @@
 {
   "seccion": "ia",
-  "actualizado": "18-11-2026 04:10",
+  "actualizado": "18-11-2026 16:12",
   "destacadas": [
     {
-      "titulo": "OpenAI lanza GPT-6.2 Astra y Sol con precios de API más bajos y algunas mejoras en benchmarks",
-      "resumen": "Astra apunta a trabajo profesional exigente (ciencia, derecho, finanzas) y Sol a tareas rápidas. En API, Astra cuesta 8 $ por millón de tokens de entrada y 40 $ de salida, un 20 % menos que su predecesor, y Sol 2 $ y 10 $. Artificial Analysis le da 62 puntos a Astra, segundo tras Claude Fable 5.2 (65), y OpenAI admite que Astra es el primer modelo publicado en alcanzar el umbral «High» de automejora; ambos llegan al nivel «Critical» en ciberseguridad.",
+      "titulo": "OpenAI abre sus sistemas a cuatro auditores independientes con acceso presencial por primera vez",
+      "resumen": "Apollo Research, METR, Transluce y Goodfire podrán acceder en las oficinas de OpenAI a modelos no publicados, código fuente, datos de entrenamiento y sistemas de monitorización. Un consejo de seguridad independiente supervisa el proceso, recibe informes sin redactar y media en disputas, aunque OpenAI puede tachar material confidencial y retrasar publicaciones. Transluce y OpenAI preparan una revisión de ocho semanas a comienzos de 2027.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
-      "fecha": "17-11-2026 21:30"
+      "enlace": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+      "fecha": "18-11-2026 15:36"
     },
     {
-      "titulo": "Amazon y Google tendrán juntas casi el 30 % de Anthropic tras su salida a bolsa",
-      "resumen": "Amazon tendrá un 14,7 % y Google un 13,7 %, unos 28,4 % entre las dos, en acciones sin derecho a voto. En una colocación privada, AMD, Broadcom, Google, Micron, Microsoft, Nvidia y TSMC Partners comprarán acciones por 26.000 millones de dólares, con 10.000 millones cada una de Google y Nvidia. Anthropic se compromete además a gastar más de 100.000 millones en AWS durante la próxima década.",
+      "titulo": "Diputados británicos piden un regulador de IA con poder para desconectar modelos peligrosos",
+      "resumen": "El comité parlamentario de Negocios, presidido por Liam Byrne, publica «Guardrails for Growth: Making AI Safe» tras interrogar a OpenAI, Google DeepMind, Anthropic y Meta. Propone una ley que permita a un regulador frenar entrenamientos de alto riesgo, bloquear despliegues o suspender servicios, y señala diez carencias, como la falta de notificación obligatoria de incidentes. Las recomendaciones no son vinculantes y el Gobierno no se ha comprometido a legislar.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/18/uk-mps-want-ai-watchdog-with-power-to-pull-the-plug-on-dangerous-models/5310567",
+      "fecha": "18-11-2026 10:30"
+    },
+    {
+      "titulo": "Mistral va a rebufo con Vibe Desktop mientras sus rivales ya controlan sistemas operativos enteros",
+      "resumen": "Mistral lanza una app de escritorio para Vibe en macOS y Windows, con Linux en camino, que ejecuta varias tareas en paralelo en un repositorio local o en la nube mediante Git worktrees. No menciona control del ordenador, algo que el escritorio de Anthropic ofrece desde primavera. Large 4, lanzado en octubre, sigue muy por detrás de Gemini 4 Carbon y Claude Opus 5.5 en las comparativas.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
+      "fecha": "18-11-2026 15:40"
+    },
+    {
+      "titulo": "Nvidia aclara cuándo seguirá y cuándo no financiando a las «neoclouds»",
+      "resumen": "En la presentación de resultados, la CEO interina Colette Kress explicó que la garantía de un préstamo solo se activa cuando el cliente asegura la financiación y completa la instalación con equipos de Nvidia, como en el campus de OpenAI en Ohio respaldado por 105.000 millones de dólares. Nvidia registró un beneficio neto de 64.900 millones en su tercer trimestre fiscal, frente a 59.700 millones del anterior. La aclaración llega tras la salida de Jensen Huang.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
-      "fecha": "17-11-2026 23:29"
+      "enlace": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
+      "fecha": "18-11-2026 14:00"
     },
     {
-      "titulo": "Microsoft define Copilot como «el nuevo sistema operativo del trabajo» y mete Office dentro",
-      "resumen": "En la keynote de Ignite, Satya Nadella anunció la disponibilidad general de Word, Excel y PowerPoint dentro de Copilot, con agentes al mando y las aplicaciones como complementos. Llegan también Copilot Autopilot, un agente autónomo en la nube con facturación por uso mediante Copilot Credits y precio aún sin fijar, y Microsoft IQ con su capa de contexto Work IQ. Nadella reconoció que la alineación y la comprensión de los modelos siguen siendo esquivas: «por definición, no puedes» confiar del todo.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
-      "fecha": "18-11-2026 01:27"
+      "titulo": "Más de un tercio de la generación Z recurre a la IA como compañía",
+      "resumen": "Un estudio de Gallup y el Digital Wellness Lab del Boston Children's Hospital, con 15.925 jóvenes de 15 a 22 años en 16 países, halla que el 33 % usa la IA como compañía, cifra que sube al 50 % entre usuarios diarios. Quienes dependen de amigos solo online o de la IA tienen más probabilidades de sentirse solos, y las amistades presenciales siguen siendo las mejor valoradas. Los investigadores no ven un cambio permanente, pero esperan que la compañía de IA se haga más común.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
+      "fecha": "18-11-2026 06:01"
     },
     {
-      "titulo": "Nvidia dice que no piensa reinstaurar a Jensen Huang como CEO",
-      "resumen": "Tras ofrecerse Huang en X a volver si el consejo lo considera lo mejor, el presidente Harvey C. Jones dijo en la llamada de resultados que la junta «no pretende reinstalarlo». Huang dimitió el 12 de noviembre por conducta personal incompatible con el código de la empresa, incluida una relación con una exejecutiva de Megaspeed sospechada de espiar para China. Colette Kress es CEO interina, el consejo hace una investigación independiente y la SEC investiga a Nvidia.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
-      "fecha": "17-11-2026 23:42"
-    },
-    {
-      "titulo": "El agente Spark de Google pasa a llamarse «Tasks» en Gemini y ahora es gratis",
-      "resumen": "Con el nuevo modelo Gemini 4 Hydrogen, Tasks planifica menús, gestiona el calendario y busca gastos recurrentes en el correo. En EE. UU. también llama a negocios para comparar precios, compra con Google Pay y se puede encargar por correo o SMS. Llega a usuarios de EE. UU., Canadá, Japón, Corea, Australia e India, trabaja en una máquina virtual aislada y pide permiso antes de acciones sensibles como comprar.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
-      "fecha": "17-11-2026 19:58"
-    },
-    {
-      "titulo": "Nvidia es el «Super Glue» de la industria de la IA: sin Huang temen que sea pegamento de barra",
-      "resumen": "Las acciones de Nvidia han perdido unos 550.000 millones de dólares de valor desde el máximo del 6 de octubre. Según CNBC, la compañía acumula compromisos de hasta 36.000 millones en compras de nube a neoclouds, una garantía condicionada de 105.000 millones para un centro de datos de OpenAI y SB Energy en Ohio y hasta 125.000 millones en un programa de crédito, con estimaciones de más de 400.000 millones en total. Si fallara, el impacto llegaría a prestatarios y bancos.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/nvidia-super-glue-industria-ia-huang-al-frente-temen-que-sea-pegamento-barra",
-      "fecha": "17-11-2026 16:31"
-    },
-    {
-      "titulo": "Google facilita usar Gemini sin que entrene con tus datos, pero retendrá los chats dos meses",
-      "resumen": "Gemini separa el historial de chats del entrenamiento con dos interruptores distintos: ya no hace falta borrar el historial para evitar el entrenamiento, aunque sigue siendo opt-out. Solo afecta a interacciones futuras, y Google puede conservar los datos hasta tres años para otros fines. Con el historial desactivado, la retención sube de 72 horas a dos meses.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
-      "fecha": "17-11-2026 17:50"
+      "titulo": "Una startup asegura que su «nariz» de IA huele tan bien como un humano",
+      "resumen": "Osmo, fundada en 2023 por Alex Wiltschko tras su paso por Google Brain, ha reunido más de 10 millones de etiquetas humanas y 800 millones de «tokens de olor» en un laboratorio cerca de Newark. Afirma haber alcanzado «inteligencia olfativa humana» y haber superado a perfumistas de una gran empresa de consumo; con una beca de 3,5 millones de la Fundación Gates identificó ocho sustancias más repelentes que el DEET. Un crítico cuestiona que sus afirmaciones de marketing estén documentadas.",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+      "fecha": "18-11-2026 11:20"
     }
   ],
   "titulares": [
     {
-      "titulo": "Las participaciones de Nvidia en startups suben a 65.000 millones, pero la salida de Huang pone en duda futuros acuerdos",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "titulo": "El índice del bombo de la IA: la IA está en todas partes",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
       "fecha": "18-11-2026"
     },
     {
-      "titulo": "Satya Nadella dice que ahora está «AGI-pilled»",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "Nvidia abandona China tras la salida de Jensen Huang",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "Satya se disculpa por el fallo SaaS y mira hacia otro lado: más IA",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/17/satya-sorry-for-saas-y-snafu-look-over-there-more-ai/5310594",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Ni Sam Altman se libra de los deepfakes de IA en Instagram",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Una prueba con Gemini confirma que los agentes de IA amorales harán casi cualquier cosa si se les dice «NUNCA te rindas»",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Model ML levanta 250 millones para automatizar el trabajo rutinario de la banca de inversión",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Los agentes de IA empiezan a rellenar formularios médicos y solicitudes de seguros en lugar del personal humano",
+      "titulo": "Hugging Face enruta ahora las peticiones de modelos a través de OpenRouter para lograr el mejor precio o velocidad",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
-      "fecha": "17-11-2026"
+      "enlace": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
+      "fecha": "18-11-2026"
     },
     {
-      "titulo": "El Departamento de Justicia investiga a Megaspeed",
+      "titulo": "El próximo juego de Will Wright usa IA para mapear tus recuerdos",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
-      "fecha": "17-11-2026"
+      "enlace": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+      "fecha": "18-11-2026"
     },
     {
-      "titulo": "Hackers roban datos de carnés de conductores de Uber a un proveedor de IA",
+      "titulo": "El «Project Exponential» de KPMG puso agentes de IA junto a un equipo de auditoría real y los bots profundizaron más en preguntas concretas",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "La SEC investiga a Nvidia por ventas de chips no declaradas vinculadas a China",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Felicis lidera una apuesta de 7,5 millones por Unsiloed AI para que los agentes de IA puedan usar documentos empresariales",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "La india Humyn Labs levanta 47 millones para dar datos a las empresas de robótica de EE. UU.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Suno ya permite crear vídeos con IA para tu música con IA",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "SAP abre su IA a clientes on-premise, pero los compromisos con la nube podrían dejar fuera a las pequeñas",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/17/hackers-smash-n-grab-ai-vendor-take-off-with-license-data-of-uber-drivers/5310464",
-      "fecha": "17-11-2026"
+      "enlace": "https://www.theregister.com/applications/2026/11/18/sap-opens-ai-to-on-prem-customers-but-cloud-commitments-could-shut-smaller-firms-out/5310056",
+      "fecha": "18-11-2026"
     },
     {
-      "titulo": "No solo aloja tu página: hosting.com también tiene creador de web con IA. Todo (y más) por menos de 2 euros al mes este Black Friday",
+      "titulo": "El disparatado precio de la memoria de almacenamiento y la IA está reviviendo una tecnología de hace 50 años: la cinta magnética",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/no-solo-aloja-tu-pagina-hosting-com-tambien-tiene-creador-web-ia-todo-2-euros-al-mes-este-black-friday",
-      "fecha": "17-11-2026"
+      "enlace": "https://www.xataka.com/componentes/disparatado-precio-memoria-almacenamiento-ia-esta-reviviendo-tecnologia-hace-50-anos-cinta-magnetica",
+      "fecha": "18-11-2026"
     },
     {
-      "titulo": "Consiguen ejecutar una IA actual con 9.000 millones de parámetros en una PS4 sin necesidad de PC, Linux ni conexión a internet",
+      "titulo": "Vincent Boulanin, investigador de la IA, sobre el peligro de los robots asesinos: \"Lo que antes era un debate futurista ahora es algo muy tangible y real\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/consiguen-ejecutar-una-ia-actual-con-9-000-millones-parametros-una-ps4-sin-necesidad-pc-linux-ni-conexion-internet_7062059_0.html",
-      "fecha": "17-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/vincent-boulanin-investigador-ia-sobre-peligro-los-robots-asesinos-que-antes-era-un-debate-futurista-ahora-es-algo-muy-tangible-real_7062055_0.html",
+      "fecha": "18-11-2026"
     },
     {
-      "titulo": "Pusieron a unos agentes de IA a jugar al Minecraft y crearon algo para lo que no estaban diseñadas: la burocracia",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/pusieron-a-unos-agentes-ia-a-jugar-al-minecraft-crearon-algo-no-estaban-disenadas-burocracia",
-      "fecha": "17-11-2026"
-    },
-    {
-      "titulo": "Google lanza una herramienta en Gmail para resumir conversaciones y recordar tareas con IA: cómo funciona y cómo activarla paso a paso",
+      "titulo": "Elon Musk cede ante Donald Trump: Tesla cambia el nombre de la IA de sus coches por la superinteligencia",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/google-lanza-una-herramienta-gmail-para-resumir-conversaciones-recordar-tareas-con-ia-como-funciona-como-activarla-paso-paso_7061603_0.html",
-      "fecha": "17-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/movilidad/elon-musk-cede-ante-donald-trump-tesla-cambia-nombre-ia-sus-coches-por-superinteligencia_7062068_0.html",
+      "fecha": "18-11-2026"
     },
     {
-      "titulo": "He convertido una presentación en una web con Gemini Notebook. Solo tuve que pedírselo",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/he-convertido-presentacion-web-gemini-notebook-solo-tuve-que-pedirselo",
-      "fecha": "17-11-2026"
+      "titulo": "Google afirma que hackers rusos han llevado a cabo el primer ciberataque de IA totalmente automatizado",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/google-afirma-que-hackers-rusos-han-llevado-cabo-primer-ciberataque-ia-totalmente-automatizado_7062123_0.html",
+      "fecha": "18-11-2026"
     }
   ]
 }

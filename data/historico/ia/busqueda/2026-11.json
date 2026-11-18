@@ -3,6 +3,139 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "OpenAI abre sus sistemas a cuatro auditores independientes con acceso presencial por primera vez",
+      "fuente": "The Decoder",
+      "fecha": "18-11-2026 15:36",
+      "enlace": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "Diputados británicos piden un regulador de IA con poder para desconectar modelos peligrosos",
+      "fuente": "The Register",
+      "fecha": "18-11-2026 10:30",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/18/uk-mps-want-ai-watchdog-with-power-to-pull-the-plug-on-dangerous-models/5310567",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "Mistral va a rebufo con Vibe Desktop mientras sus rivales ya controlan sistemas operativos enteros",
+      "fuente": "The Decoder",
+      "fecha": "18-11-2026 15:40",
+      "enlace": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "Nvidia aclara cuándo seguirá y cuándo no financiando a las «neoclouds»",
+      "fuente": "TechCrunch",
+      "fecha": "18-11-2026 14:00",
+      "enlace": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "Más de un tercio de la generación Z recurre a la IA como compañía",
+      "fuente": "Wired",
+      "fecha": "18-11-2026 06:01",
+      "enlace": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "Una startup asegura que su «nariz» de IA huele tan bien como un humano",
+      "fuente": "MIT Technology Review",
+      "fecha": "18-11-2026 11:20",
+      "enlace": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "El índice del bombo de la IA: la IA está en todas partes",
+      "fuente": "MIT Technology Review",
+      "fecha": "18-11-2026",
+      "enlace": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "Hugging Face enruta ahora las peticiones de modelos a través de OpenRouter para lograr el mejor precio o velocidad",
+      "fuente": "The Decoder",
+      "fecha": "18-11-2026",
+      "enlace": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "El próximo juego de Will Wright usa IA para mapear tus recuerdos",
+      "fuente": "The Verge",
+      "fecha": "18-11-2026",
+      "enlace": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "El «Project Exponential» de KPMG puso agentes de IA junto a un equipo de auditoría real y los bots profundizaron más en preguntas concretas",
+      "fuente": "The Decoder",
+      "fecha": "18-11-2026",
+      "enlace": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "La SEC investiga a Nvidia por ventas de chips no declaradas vinculadas a China",
+      "fuente": "The Decoder",
+      "fecha": "18-11-2026",
+      "enlace": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "Felicis lidera una apuesta de 7,5 millones por Unsiloed AI para que los agentes de IA puedan usar documentos empresariales",
+      "fuente": "TechCrunch",
+      "fecha": "18-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "La india Humyn Labs levanta 47 millones para dar datos a las empresas de robótica de EE. UU.",
+      "fuente": "TechCrunch",
+      "fecha": "18-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "Suno ya permite crear vídeos con IA para tu música con IA",
+      "fuente": "The Verge",
+      "fecha": "18-11-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "SAP abre su IA a clientes on-premise, pero los compromisos con la nube podrían dejar fuera a las pequeñas",
+      "fuente": "The Register",
+      "fecha": "18-11-2026",
+      "enlace": "https://www.theregister.com/applications/2026/11/18/sap-opens-ai-to-on-prem-customers-but-cloud-commitments-could-shut-smaller-firms-out/5310056",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "El disparatado precio de la memoria de almacenamiento y la IA está reviviendo una tecnología de hace 50 años: la cinta magnética",
+      "fuente": "Xataka",
+      "fecha": "18-11-2026",
+      "enlace": "https://www.xataka.com/componentes/disparatado-precio-memoria-almacenamiento-ia-esta-reviviendo-tecnologia-hace-50-anos-cinta-magnetica",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "Vincent Boulanin, investigador de la IA, sobre el peligro de los robots asesinos: \"Lo que antes era un debate futurista ahora es algo muy tangible y real\"",
+      "fuente": "ComputerHoy",
+      "fecha": "18-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/vincent-boulanin-investigador-ia-sobre-peligro-los-robots-asesinos-que-antes-era-un-debate-futurista-ahora-es-algo-muy-tangible-real_7062055_0.html",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "Elon Musk cede ante Donald Trump: Tesla cambia el nombre de la IA de sus coches por la superinteligencia",
+      "fuente": "ComputerHoy",
+      "fecha": "18-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/elon-musk-cede-ante-donald-trump-tesla-cambia-nombre-ia-sus-coches-por-superinteligencia_7062068_0.html",
+      "turno": "2026-11-18_T"
+    },
+    {
+      "titulo": "Google afirma que hackers rusos han llevado a cabo el primer ciberataque de IA totalmente automatizado",
+      "fuente": "ComputerHoy",
+      "fecha": "18-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/google-afirma-que-hackers-rusos-han-llevado-cabo-primer-ciberataque-ia-totalmente-automatizado_7062123_0.html",
+      "turno": "2026-11-18_T"
+    },
+    {
       "titulo": "OpenAI lanza GPT-6.2 Astra y Sol con precios de API más bajos y algunas mejoras en benchmarks",
       "fuente": "The Decoder",
       "fecha": "17-11-2026 21:30",
