@@ -1,214 +1,190 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "19-11-2026 03:11",
+  "actualizado": "19-11-2026 15:15",
   "destacadas": [
     {
-      "titulo": "Ucrania derribó el puente de Kerch con drones repetidores para esquivar los límites de Starlink",
-      "resumen": "Oleadas de drones y misiles ucranianos los días 15 y 16 de noviembre hicieron colapsar uno de los dos arcos de acero de la calzada del puente de Kerch, según el Institute for the Study of War. Los operadores, a más de 250 km, guiaron misiles como el Flamingo mediante una red de drones con radios mesh como nodos repetidores, sin usar Starshield, la versión militar de Starlink, que EE. UU. restringe por encima de 161 km/h. Fue además el mayor ataque nocturno de drones ucraniano contra Rusia desde el inicio de la guerra.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/",
-      "fecha": "19-11-2026 00:10"
-    },
-    {
-      "titulo": "Tencent dice que el nuevo veto de EE. UU. a las GPU «hace retroceder a todos en China»",
-      "resumen": "El presidente de Tencent, Martin Lau, admitió en la presentación de resultados del tercer trimestre que la prohibición de acceder en remoto a GPU de EE. UU. alargará el entrenamiento de la próxima versión de su modelo Hy4, aunque cree que los chips chinos cubrirán la inferencia. Los 10 millones de usuarios de su asistente WorkBuddy consumen más de 100 billones de tokens al día. La nube de Tencent creció un 35 % interanual y la empresa un 8 %, con 1.440 millones de usuarios mensuales en WeChat.",
+      "titulo": "TfL cierra la web de las tarjetas Oyster tras comprometer atacantes cuentas de unos 265.000 clientes",
+      "resumen": "Transport for London detectó el problema el 16 de noviembre, cuando clientes recibieron correos pidiéndoles crear cuentas que ya tenían. Shashi Verma, directivo de TfL, aseguró que no se vieron comprometidas contraseñas, datos bancarios ni historiales de viaje, aunque se pedirá a todos cambiar la contraseña y se avisó a la ICO. TfL ya sufrió en septiembre de 2024 un ciberataque que afectó a más de 7 millones de clientes.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/systems/2026/11/19/chinese-web-giant-tencent-says-new-us-gpu-ban-sets-everyone-back-in-china/5310927",
-      "fecha": "19-11-2026 01:39"
+      "enlace": "https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985",
+      "fecha": "19-11-2026 12:01"
     },
     {
-      "titulo": "El paquete oficial agent-framework de Microsoft en PyPI, secuestrado para distribuir malware",
-      "resumen": "Las versiones 1.26.1 y 1.26.2 del paquete de Python, con casi 200.000 descargas al mes, roban variables de entorno y credenciales de Azure, Git, Docker o Hugging Face y las envían a una dirección de webhook.site; además solicitan tokens nuevos de GitHub Actions y Azure DevOps. OX Security señala que la 1.26.2 se subió desde la cuenta oficial de Microsoft en PyPI, lo que apunta a acceso no autorizado a un administrador de su organización en GitHub. Microsoft ha puesto en privado varios repositorios mientras investiga.",
+      "titulo": "Microsoft retirará las apps To Do el 30 de junio de 2027",
+      "resumen": "Microsoft lo anunció en Ignite: To Do, heredera de Wunderlist (comprada en 2015), desaparecerá en esa fecha. Las tareas no se migrarán automáticamente a Planner, que carece de funciones como los grupos de listas. Los usuarios con cuentas personales, incluidos los de Microsoft 365 Personal y Family, no tienen acceso a Planner y deberán exportar sus datos a otra app.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
-      "fecha": "18-11-2026 18:23"
+      "enlace": "https://www.theregister.com/personal-tech/2026/11/19/microsoft-to-do-will-soon-become-microsoft-done/5310973",
+      "fecha": "19-11-2026 13:26"
     },
     {
-      "titulo": "Waymo suspende el servicio en San Francisco tras quedarse varios robotaxis atascados en calles inundadas",
-      "resumen": "Waymo pausó hacia las 11:00 hora local su servicio en la ciudad con el aviso «en pausa por el clima», tras varios vídeos de coches bloqueando cruces inundados durante un fuerte temporal. No es la primera vez: en mayo retiró casi 4.000 vehículos por un caso similar en San Antonio y después tuvo que parar también en Atlanta. La pausa llega un día después de que el DMV de California le vetara las autopistas.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2321312/waymo-pauses-service-in-san-francisco-after-robotaxis-get-stuck-on-flooded-streets/",
-      "fecha": "19-11-2026 00:23"
+      "titulo": "Los Joy-Con de la Switch 2 funcionarán de forma nativa en Linux gracias a un controlador de Valve",
+      "resumen": "Valve ha creado un controlador para el kernel Linux 7.4 que reconoce los mandos de Switch 2, y SDL también ha añadido soporte. Cubre los Joy-Con 2, el Pro Controller 2 y los mandos de GameCube de Nintendo Switch Online, aunque habrá que esperar a que llegue a las distribuciones.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/los-mandos-joy-con-nintendo-switch-2-podran-utilizarse-para-jugar-linux-gracias-valve_7062957_0.html",
+      "fecha": "19-11-2026 14:00"
     },
     {
-      "titulo": "Un fallo en los drivers de NVIDIA desgasta tu SSD con escrituras constantes",
-      "resumen": "Usuarios de los foros de NVIDIA y Dell denuncian que el controlador GRD 621.14 reescribe sin parar el archivo nvlog.nvlgstg mediante NVDisplay.Container.exe: unos 512 MB en cinco minutos y cerca de 3 GB por hora con el PC inactivo, algo que no ocurría con la 621.01. Provoca también tirones en juegos y vídeo. No hay solución oficial; volver al driver 621.01 con una instalación limpia con DDU es lo más eficaz.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/hardware/nvidia-fallo-controladores-desgasta-ssd/",
-      "fecha": "18-11-2026 23:43"
+      "titulo": "Millones de descargas de 'GTA VI' de 200 GB y internet sigue en pie gracias a trucos de DNS",
+      "resumen": "Tras abrirse la predescarga el 10 de noviembre, DE-CIX registró un récord de 33,03 Tbit/s en sus puntos de intercambio, un 25 % más que una semana normal, y su nodo de Madrid llegó a 1,43 Tbit/s. Según el RIPE NCC, GeoDNS y las CDN repartieron la carga entre Akamai, Fastly, Google y Amazon; un único servidor habría afrontado 2,4 exabytes de demanda.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/millones-personas-se-han-bajado-200-gb-gta-vi-e-internet-sigue-pie-merito-unos-cuantos-trucos-dns",
+      "fecha": "19-11-2026 12:27"
     },
     {
-      "titulo": "Instagram permite editar las historias hasta 15 minutos después de publicarlas",
-      "resumen": "Según anunció Adam Mosseri, se podrá cambiar texto, música, stickers y dibujos sin perder visualizaciones, «me gusta» ni respuestas, desde el menú de tres puntos y «Editar historia». La actualización añade además nuevas fuentes, colores y formas para los stickers, hojas de stickers más fáciles de explorar y nuevas opciones de desenfoque y fondos degradados.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1036941/instagram-now-lets-you-edit-your-stories-after-you-post-them",
-      "fecha": "18-11-2026 20:29"
-    },
-    {
-      "titulo": "Primera reunión de Nvidia sin Jensen Huang: subidas de sueldo y más acciones en diciembre",
-      "resumen": "La CEO interina Colette Kress adelantó a la plantilla de unos 49.000 empleados que habrá aumentos salariales y más acciones en diciembre. El presidente Harvey Jones reiteró que Huang dimitió por su conducta personal y su «falta de franqueza» y que no habrá un «clon de Jensen». Pese a las peticiones de reincorporarlo, con unos 200.000 apoyos, el consejo busca sustituto dentro y fuera, mientras las acciones subían un 5 % tras unos resultados mejores de lo previsto.",
+      "titulo": "La FAA aún no sabe la causa raíz de la parada de vuelos de 4,5 horas en EE. UU.",
+      "resumen": "El secretario de Transporte, Sean Duffy, admitió que no hay claridad sobre el origen del fallo del viernes 13. La FAA cita una sustitución rutinaria de infraestructura, un router defectuoso, sobrecarga de datos y fallos en comunicaciones por radio. Su administrador, Bryan Bedford, lo llamó «un rasguño» y pidió perdón; un controlador lo describió como «los 90 minutos más peliagudos de mi carrera».",
       "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
-      "fecha": "18-11-2026 18:33"
+      "enlace": "https://www.wired.com/story/how-the-november-13-faa-ground-stop-went-down/",
+      "fecha": "19-11-2026 11:30"
     },
     {
-      "titulo": "Rockstar confirma que GTA 6 no tendrá modo de 60 fps en ninguna consola, ni en PS5 Pro",
-      "resumen": "Marc Chambers, director de producción tecnológica de Rockstar, explicó a Kotaku que el límite de 30 fps se debe a la CPU, que no puede con la simulación del mundo abierto, y que la PS5 Pro solo mejora la imagen con sombras con trazado de rayos y reescalado PSSR. Digital Foundry confirma que ambas consolas renderizan a 1440p y que la Pro mantiene los 30 fps bloqueados, mientras la base cae a mediados de los 20 en escenas pesadas. Solo cabe esperar una versión de PC.",
+      "titulo": "EE. UU. acusa a un ruso de espiar y acosar a empleados de Palantir",
+      "resumen": "Según el Departamento de Justicia, Igor D'iu fue reclutado por el gobierno ruso vía Telegram y entró desde México en junio de 2026. Fotografiaba pantallas de portátiles cerca de la oficina de Palo Alto y siguió en coche a una empleada más de 48 km. En su registro del 8 de octubre hallaron dos pasaportes rusos y 18.035 dólares; afronta cuatro cargos y comparece el 24 de noviembre.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2321134/rockstar-just-settled-a-major-question-about-gta-6s-controversial-fps-decision/",
-      "fecha": "18-11-2026 22:03"
+      "enlace": "https://www.engadget.com/2321489/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees/",
+      "fecha": "19-11-2026 11:33"
+    },
+    {
+      "titulo": "Caída de la fibra de Digi en varias ciudades de España",
+      "resumen": "Los usuarios empezaron a reportar fallos hacia las 8 de la mañana. Downdetector muestra problemas sobre todo en banda ancha fija y WiFi en Madrid, Barcelona, Valencia, Sevilla, Málaga y Granada. Digi no había reconocido aún un problema generalizado.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/servicios/digi-no-funciona-incidencia-esta-provocando-problemas-fibra-diferentes-puntos-espana",
+      "fecha": "19-11-2026 12:48"
+    },
+    {
+      "titulo": "Los nuevos planes lunares de la NASA obligan a Orion a volar de una forma para la que no fue diseñada",
+      "resumen": "Para acoplarse a Starship en órbita alta terrestre, Orion debe volar hacia atrás con el módulo de servicio arriba, lo que obliga a modificar los depósitos de propelente de la ESA y Airbus. La aceleración en la inyección translunar pasaría de 0,1-0,15 g a 0,8-1 g en sentido contrario, y la estructura debe certificarse para ello. Kirk Shireman, de Lockheed Martin, también advierte de problemas térmicos en la misión en órbita baja.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
+      "fecha": "19-11-2026 14:40"
     }
   ],
   "titulares": [
     {
-      "titulo": "Elon Musk intenta explicar qué ocurre con Ucrania y Starlink",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1037448/elon-musk-ukraine-starlink-starshield-nyt-dealbook",
-      "fecha": "19-11-2026"
-    },
-    {
-      "titulo": "El comité de Ted Cruz aprueba por 15-0 al candidato de Trump a la FCC mientras los demócratas boicotean la votación",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-democrats-boycott-vote/",
-      "fecha": "19-11-2026"
-    },
-    {
-      "titulo": "Prepárate para otra versión de seguridad crítica de PHP",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/patches/2026/11/18/get-ready-for-another-critical-php-security-release-to-drop/5310911",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "El CEO de Netflix admite que la app puede enterrar lo que quieres ver bajo lo que no",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/gadgets/2026/11/netflix-ceo-admits-app-may-bury-stuff-you-want-to-watch-under-stuff-you-dont/",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "Los policías de GTA 6 te recordarán gracias al sistema «Heat»",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2320983/gta-6s-cops-will-remember-you-thanks-to-the-heat-system/",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "Payhawk, plataforma de gestión de gastos, anuncia una ronda de 280 M$ con valoración de 2.000 M$",
+      "titulo": "Nimble entra en el mercado de localizadores con etiquetas de equipaje y llaveros ecológicos",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation/",
-      "fecha": "18-11-2026"
+      "enlace": "https://techcrunch.com/2026/11/19/nimble-enters-the-item-tracking-market-with-eco-friendly-luggage-tags-and-keychains/",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "La filtración de la Lenovo Legion Go Beam apunta a la consola portátil asequible que hace falta",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/games/1036819/the-leaked-lenovo-legion-go-beam-could-be-the-affordable-handheld-we-need",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "En GTA 6 no podrás usar trucos hasta pasarte el juego",
+      "titulo": "Rockstar dice que el mapa de GTA 6 tiene margen para ampliarse con futuras historias",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2320852/you-cant-use-gta-6-cheats-until-you-beat-the-game/",
-      "fecha": "18-11-2026"
+      "enlace": "https://www.engadget.com/2321545/rockstar-says-that-gta-6s-map-has-room-to-expand-for-future-storylines/",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "MongoDB compra Firebolt para unir transacciones y analítica",
+      "titulo": "Un ciberataque a un proveedor expone datos de beneficiarios de pagos de 40 cooperativas de crédito irlandesas",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/databases/2026/11/18/mongodb-snaps-up-firebolt-to-bring-transactions-and-analytics-under-one-roof/5310809",
-      "fecha": "18-11-2026"
+      "enlace": "https://www.theregister.com/security/2026/11/19/cyberattack-on-service-provider-exposes-payee-data-at-40-irish-credit-unions/5310979",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "PowerShell 7 llega a Windows mientras la versión 5.1 llega a su final",
+      "titulo": "Una nota adhesiva en un monitor dio las llaves de toda la empresa",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/11/18/powershell-7-heading-into-windows-as-51-hits-the-end-of-the-road/5310791",
-      "fecha": "18-11-2026"
+      "enlace": "https://www.theregister.com/security/2026/11/19/sticky-note-on-monitor-provided-keys-to-the-companys-kingdom/5310908",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "StubHub International avisa de que los datos de clientes pueden haberse filtrado",
+      "titulo": "Google sigue con su experimento de química de modelos con Neon",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/cyber-crime/2026/11/18/stubhub-international-warns-customer-data-may-have-left-the-venue/5310775",
-      "fecha": "18-11-2026"
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/19/google-continues-model-chemistry-experiment-with-neon/5310934",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "El Hierro ha recibido en dos semanas casi tantas personas como habitantes tiene. El Gobierno responde con 5 millones y un marco",
+      "titulo": "Corea del Sur lanza una alerta de «Emergencia Extrema» en los móviles para frenar el fraude en los exámenes",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/personal-tech/2026/11/19/south-korea-tries-to-out-exam-cheats-with-extreme-emergency-smartphone-alert/5310942",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "EEUU busca desesperadamente tarjetas de memoria de los años 90 para su caza furtivo más sofisticado. El problema es que ya nadie las hace",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/hierro-ha-recibido-dos-semanas-casi-tantas-personas-como-habitantes-tiene-gobierno-responde-5-millones-marco",
-      "fecha": "18-11-2026"
+      "enlace": "https://www.xataka.com/magnet/eeuu-busca-desesperadamente-tarjetas-memoria-anos-90-para-su-caza-furtivo-sofisticado-problema-que-nadie-hace",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "Hackean una herramienta de Microsoft y la convierten en malware para robar tus datos",
+      "titulo": "BYD actualiza su coche más vendido con mejoras muy interesantes: así es el SEAL U DM-i Model Year 2027",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/seguridad/hackeo-herramienta-microsoft-robo-credenciales-python/",
-      "fecha": "18-11-2026"
+      "enlace": "https://hipertextual.com/movilidad/seal-u-dm-i-model-year-2027/",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "PlayStation Network funciona: ya se puede jugar online",
+      "titulo": "Digi no funciona: los usuarios informan de problemas con la conexión",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/videojuegos/playstation-network-caida-1126/",
-      "fecha": "18-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-caida-19-noviembre-2026/",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "El microondas tiene los días contados: los electrodomésticos que ganan lugar en las cocinas de cara al 2027",
+      "titulo": "¿Por qué GTA 6 va a 30 FPS en PS5 Pro? Rockstar confirma que no habrá modo a 60 FPS porque \"no tiene la potencia suficiente\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/microondas-tiene-los-dias-contados-los-electrodomesticos-que-ganan-lugar-las-cocinas-cara-2027_7062578_0.html",
-      "fecha": "18-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/gaming/por-que-gta-6-va-30-fps-ps5-pro-rockstar-confirma-que-no-habra-modo-60-fps-porque-no-tiene-potencia-suficiente_7062956_0.html",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "Antonio Roma tiene 350.000 seguidores y no existe. Lo más loco es que va a dar un concierto en Madrid ante 500 espectadores",
+      "titulo": "Los expertos en longevidad lo tienen claro: \"vivir más tiempo no es cuestión de hacer ejercicio, sino de en zonas donde todos los desplazamientos al trabajo se realizan caminando\"",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/musica/antonio-roma-tiene-350-000-seguidores-no-existe-loco-que-va-a-dar-concierto-madrid-500-espectadores",
-      "fecha": "18-11-2026"
+      "enlace": "https://www.xataka.com/medicina-y-salud/expertos-longevidad-tienen-claro-vivir-tiempo-no-cuestion-hacer-ejercicio-sino-zonas-donde-todos-desplazamientos-al-trabajo-se-realizan-caminando",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "GTA 6 es el mejor juego de la historia, según la crítica especializada",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/gta-6-juego-mejor-valorado-historia/",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "Starlink decepciona con su nueva antena: menos potencia y más lenta que la anterior",
+      "titulo": "Joseba Barrenengoa, dueño de 19 gasolineras, avisa sobre el combustible por menos de 1 euro: «El E85 es un producto más barato»",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/starlink-v5-mas-lenta-menos-consumo/",
-      "fecha": "18-11-2026"
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/joseba-barrenengoa-combustible-e85/",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "Cuidado con WinRAR y Windows Media Player: un malware consigue convertir programas normales en armas para infectar tu PC",
+      "titulo": "Es oficial, SkyShowtime cierra en 2027: qué pasará con tu suscripción y las series que estás viendo",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/cuidado-con-winrar-windows-media-player-un-malware-consigue-convertir-programas-normales-armas-para-infectar-tu-pc_7062697_0.html",
-      "fecha": "18-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/es-oficial-skyshowtime-cierra-2027-que-pasara-con-tu-suscripcion-las-series-que-estas-viendo_7062947_0.html",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "El Gobierno da el último paso para aprobar una inversión récord en la red eléctrica hasta 2030",
+      "titulo": "Sale más rentable comprar este eReader con lápiz que sin él, pero solo durante el Día sin IVA de MediaMarkt",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/energia/gobierno-da-ultimo-paso-para-aprobar-inversion-record-red-electrica-2030",
-      "fecha": "18-11-2026"
+      "enlace": "https://www.xataka.com/seleccion/sale-rentable-comprar-este-ereader-lapiz-que-solo-durante-dia-iva-mediamarkt",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "One UI 9.5 ya está aquí: principales novedades y primeros móviles compatibles",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/beta-one-ui-9-5-samsung-galaxy-s26/",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "Javier Sanz y el problema de los bloqueos de LaLiga: «Es brutal que tengas un negocio lícito y de repente llegue el sábado y te lo bloqueen»",
+      "titulo": "Un nuevo canal gratis perfecto para Navidad ya está disponible en las televisiones de Samsung",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/javier-sanz-problema-bloqueos-laliga/",
-      "fecha": "18-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/vevo-navidad-canal-gratis-samsung-tv-plus/",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "Doug Linder, administrador de sistemas: \"Un buen programador es alguien que siempre mira a ambos lados antes de cruzar una calle de sentido único\"",
+      "titulo": "Pablo Motos, presentador de El Hormiguero, sobre los datos de La Séptima en la TDT: \"Es incomprensible todo y nos hemos quedado con cara de conejo\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/doug-linder-administrador-sistemas-un-buen-programador-es-alguien-que-siempre-mira-ambos-lados-antes-cruzar-una-calle-sentido-unico_7062576_0.html",
-      "fecha": "18-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/pablo-motos-presentador-hormiguero-sobre-los-datos-septima-tdt-es-incomprensible-todo-nos-hemos-quedado-con-cara-conejo_7062951_0.html",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "Las asociaciones de guardias civiles de Tráfico denuncian que les proponen cobrar más por poner multas que por hacer controles",
+      "titulo": "Mikel Oyarzabal, Bruce Springsteen y José Luis Rebordinos, entre los nominados al Tambor de Oro de San Sebastián",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/movilidad/asociaciones-guardias-civiles-trafico-denuncian-que-les-proponen-cobrar-poner-multas-que-hacer-controles",
-      "fecha": "18-11-2026"
+      "enlace": "https://www.xataka.com/magnet/san-sebastian-han-organizado-torneo-para-elegir-al-embajador-ciudad-springsteen-oyarzabal-rebordinos-se-pelean-oro",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "Nuevo hito para la Voyager 1, el primer objeto humano a un día luz de la Tierra",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/ciencia/voyager-1-un-dia-luz-distancia-tierra/",
-      "fecha": "18-11-2026"
+      "titulo": "SkyShowtime cierra oficialmente en 2027: esto es lo que tienen que saber sus usuarios",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/skyshowtime-cierre-2027/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Se acabó uno de los mayores problemas de Instagram: ahora puedes editar y corregir tus Stories sin perder nada",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/redes-sociales/se-acabo-uno-los-mayores-problemas-instagram-ahora-puedes-editar-corregir-tus-stories-sin-perder-nada_7062963_0.html",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Lefant tiene un robot aspirador que friega siempre con agua limpia. Y este Black Friday lo tenemos a mitad de precio",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/lefant-tiene-robot-aspirador-que-friega-siempre-agua-limpia-este-black-friday-tenemos-a-mitad-precio",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "IlloJuan borra por error GTA 6 segundos antes de comenzar su primera partida: \"Histórico lo mío, se me ha ido la olla\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/illojuan-borra-por-error-gta-6-segundos-antes-comenzar-su-primera-partida-historico-mio-se-me-ha-ido-olla_7062949_0.html",
+      "fecha": "19-11-2026"
     }
   ]
 }

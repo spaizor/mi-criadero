@@ -1,0 +1,190 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "19-11-2026 15:15",
+  "destacadas": [
+    {
+      "titulo": "TfL cierra la web de las tarjetas Oyster tras comprometer atacantes cuentas de unos 265.000 clientes",
+      "resumen": "Transport for London detectó el problema el 16 de noviembre, cuando clientes recibieron correos pidiéndoles crear cuentas que ya tenían. Shashi Verma, directivo de TfL, aseguró que no se vieron comprometidas contraseñas, datos bancarios ni historiales de viaje, aunque se pedirá a todos cambiar la contraseña y se avisó a la ICO. TfL ya sufrió en septiembre de 2024 un ciberataque que afectó a más de 7 millones de clientes.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985",
+      "fecha": "19-11-2026 12:01"
+    },
+    {
+      "titulo": "Microsoft retirará las apps To Do el 30 de junio de 2027",
+      "resumen": "Microsoft lo anunció en Ignite: To Do, heredera de Wunderlist (comprada en 2015), desaparecerá en esa fecha. Las tareas no se migrarán automáticamente a Planner, que carece de funciones como los grupos de listas. Los usuarios con cuentas personales, incluidos los de Microsoft 365 Personal y Family, no tienen acceso a Planner y deberán exportar sus datos a otra app.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/personal-tech/2026/11/19/microsoft-to-do-will-soon-become-microsoft-done/5310973",
+      "fecha": "19-11-2026 13:26"
+    },
+    {
+      "titulo": "Los Joy-Con de la Switch 2 funcionarán de forma nativa en Linux gracias a un controlador de Valve",
+      "resumen": "Valve ha creado un controlador para el kernel Linux 7.4 que reconoce los mandos de Switch 2, y SDL también ha añadido soporte. Cubre los Joy-Con 2, el Pro Controller 2 y los mandos de GameCube de Nintendo Switch Online, aunque habrá que esperar a que llegue a las distribuciones.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/los-mandos-joy-con-nintendo-switch-2-podran-utilizarse-para-jugar-linux-gracias-valve_7062957_0.html",
+      "fecha": "19-11-2026 14:00"
+    },
+    {
+      "titulo": "Millones de descargas de 'GTA VI' de 200 GB y internet sigue en pie gracias a trucos de DNS",
+      "resumen": "Tras abrirse la predescarga el 10 de noviembre, DE-CIX registró un récord de 33,03 Tbit/s en sus puntos de intercambio, un 25 % más que una semana normal, y su nodo de Madrid llegó a 1,43 Tbit/s. Según el RIPE NCC, GeoDNS y las CDN repartieron la carga entre Akamai, Fastly, Google y Amazon; un único servidor habría afrontado 2,4 exabytes de demanda.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/millones-personas-se-han-bajado-200-gb-gta-vi-e-internet-sigue-pie-merito-unos-cuantos-trucos-dns",
+      "fecha": "19-11-2026 12:27"
+    },
+    {
+      "titulo": "La FAA aún no sabe la causa raíz de la parada de vuelos de 4,5 horas en EE. UU.",
+      "resumen": "El secretario de Transporte, Sean Duffy, admitió que no hay claridad sobre el origen del fallo del viernes 13. La FAA cita una sustitución rutinaria de infraestructura, un router defectuoso, sobrecarga de datos y fallos en comunicaciones por radio. Su administrador, Bryan Bedford, lo llamó «un rasguño» y pidió perdón; un controlador lo describió como «los 90 minutos más peliagudos de mi carrera».",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/how-the-november-13-faa-ground-stop-went-down/",
+      "fecha": "19-11-2026 11:30"
+    },
+    {
+      "titulo": "EE. UU. acusa a un ruso de espiar y acosar a empleados de Palantir",
+      "resumen": "Según el Departamento de Justicia, Igor D'iu fue reclutado por el gobierno ruso vía Telegram y entró desde México en junio de 2026. Fotografiaba pantallas de portátiles cerca de la oficina de Palo Alto y siguió en coche a una empleada más de 48 km. En su registro del 8 de octubre hallaron dos pasaportes rusos y 18.035 dólares; afronta cuatro cargos y comparece el 24 de noviembre.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2321489/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees/",
+      "fecha": "19-11-2026 11:33"
+    },
+    {
+      "titulo": "Caída de la fibra de Digi en varias ciudades de España",
+      "resumen": "Los usuarios empezaron a reportar fallos hacia las 8 de la mañana. Downdetector muestra problemas sobre todo en banda ancha fija y WiFi en Madrid, Barcelona, Valencia, Sevilla, Málaga y Granada. Digi no había reconocido aún un problema generalizado.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/servicios/digi-no-funciona-incidencia-esta-provocando-problemas-fibra-diferentes-puntos-espana",
+      "fecha": "19-11-2026 12:48"
+    },
+    {
+      "titulo": "Los nuevos planes lunares de la NASA obligan a Orion a volar de una forma para la que no fue diseñada",
+      "resumen": "Para acoplarse a Starship en órbita alta terrestre, Orion debe volar hacia atrás con el módulo de servicio arriba, lo que obliga a modificar los depósitos de propelente de la ESA y Airbus. La aceleración en la inyección translunar pasaría de 0,1-0,15 g a 0,8-1 g en sentido contrario, y la estructura debe certificarse para ello. Kirk Shireman, de Lockheed Martin, también advierte de problemas térmicos en la misión en órbita baja.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
+      "fecha": "19-11-2026 14:40"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Nimble entra en el mercado de localizadores con etiquetas de equipaje y llaveros ecológicos",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/19/nimble-enters-the-item-tracking-market-with-eco-friendly-luggage-tags-and-keychains/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Rockstar dice que el mapa de GTA 6 tiene margen para ampliarse con futuras historias",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2321545/rockstar-says-that-gta-6s-map-has-room-to-expand-for-future-storylines/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Un ciberataque a un proveedor expone datos de beneficiarios de pagos de 40 cooperativas de crédito irlandesas",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/19/cyberattack-on-service-provider-exposes-payee-data-at-40-irish-credit-unions/5310979",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Una nota adhesiva en un monitor dio las llaves de toda la empresa",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/19/sticky-note-on-monitor-provided-keys-to-the-companys-kingdom/5310908",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Google sigue con su experimento de química de modelos con Neon",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/19/google-continues-model-chemistry-experiment-with-neon/5310934",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Corea del Sur lanza una alerta de «Emergencia Extrema» en los móviles para frenar el fraude en los exámenes",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/personal-tech/2026/11/19/south-korea-tries-to-out-exam-cheats-with-extreme-emergency-smartphone-alert/5310942",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "EEUU busca desesperadamente tarjetas de memoria de los años 90 para su caza furtivo más sofisticado. El problema es que ya nadie las hace",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/eeuu-busca-desesperadamente-tarjetas-memoria-anos-90-para-su-caza-furtivo-sofisticado-problema-que-nadie-hace",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "BYD actualiza su coche más vendido con mejoras muy interesantes: así es el SEAL U DM-i Model Year 2027",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/movilidad/seal-u-dm-i-model-year-2027/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Digi no funciona: los usuarios informan de problemas con la conexión",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-caida-19-noviembre-2026/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "¿Por qué GTA 6 va a 30 FPS en PS5 Pro? Rockstar confirma que no habrá modo a 60 FPS porque \"no tiene la potencia suficiente\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/por-que-gta-6-va-30-fps-ps5-pro-rockstar-confirma-que-no-habra-modo-60-fps-porque-no-tiene-potencia-suficiente_7062956_0.html",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Los expertos en longevidad lo tienen claro: \"vivir más tiempo no es cuestión de hacer ejercicio, sino de en zonas donde todos los desplazamientos al trabajo se realizan caminando\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/medicina-y-salud/expertos-longevidad-tienen-claro-vivir-tiempo-no-cuestion-hacer-ejercicio-sino-zonas-donde-todos-desplazamientos-al-trabajo-se-realizan-caminando",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Joseba Barrenengoa, dueño de 19 gasolineras, avisa sobre el combustible por menos de 1 euro: «El E85 es un producto más barato»",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/joseba-barrenengoa-combustible-e85/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Es oficial, SkyShowtime cierra en 2027: qué pasará con tu suscripción y las series que estás viendo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/es-oficial-skyshowtime-cierra-2027-que-pasara-con-tu-suscripcion-las-series-que-estas-viendo_7062947_0.html",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Sale más rentable comprar este eReader con lápiz que sin él, pero solo durante el Día sin IVA de MediaMarkt",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/sale-rentable-comprar-este-ereader-lapiz-que-solo-durante-dia-iva-mediamarkt",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Un nuevo canal gratis perfecto para Navidad ya está disponible en las televisiones de Samsung",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/tecnologia/vevo-navidad-canal-gratis-samsung-tv-plus/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Pablo Motos, presentador de El Hormiguero, sobre los datos de La Séptima en la TDT: \"Es incomprensible todo y nos hemos quedado con cara de conejo\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/pablo-motos-presentador-hormiguero-sobre-los-datos-septima-tdt-es-incomprensible-todo-nos-hemos-quedado-con-cara-conejo_7062951_0.html",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Mikel Oyarzabal, Bruce Springsteen y José Luis Rebordinos, entre los nominados al Tambor de Oro de San Sebastián",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/san-sebastian-han-organizado-torneo-para-elegir-al-embajador-ciudad-springsteen-oyarzabal-rebordinos-se-pelean-oro",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "SkyShowtime cierra oficialmente en 2027: esto es lo que tienen que saber sus usuarios",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/skyshowtime-cierre-2027/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Se acabó uno de los mayores problemas de Instagram: ahora puedes editar y corregir tus Stories sin perder nada",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/redes-sociales/se-acabo-uno-los-mayores-problemas-instagram-ahora-puedes-editar-corregir-tus-stories-sin-perder-nada_7062963_0.html",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Lefant tiene un robot aspirador que friega siempre con agua limpia. Y este Black Friday lo tenemos a mitad de precio",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/lefant-tiene-robot-aspirador-que-friega-siempre-agua-limpia-este-black-friday-tenemos-a-mitad-precio",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "IlloJuan borra por error GTA 6 segundos antes de comenzar su primera partida: \"Histórico lo mío, se me ha ido la olla\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/illojuan-borra-por-error-gta-6-segundos-antes-comenzar-su-primera-partida-historico-mio-se-me-ha-ido-olla_7062949_0.html",
+      "fecha": "19-11-2026"
+    }
+  ]
+}
