@@ -1,0 +1,98 @@
+{
+  "seccion": "ia",
+  "actualizado": "19-11-2026 16:12",
+  "destacadas": [
+    {
+      "titulo": "La salida a bolsa de Anthropic recauda 81.300 millones y bate el récord de SpaceX",
+      "resumen": "Anthropic fijó su precio en 83 dólares por acción, por encima del rango previsto de 70 a 78, y superó los 75.000 millones que recaudó SpaceX en junio. Ingresó 33.240 millones en los nueve primeros meses de 2026, impulsada por Claude Code, con pérdidas netas de 104.000 millones debidas sobre todo a revaloraciones de pasivos. Dustin Moskovitz, inversor temprano, se distanció de la operación y advirtió de los riesgos de una carrera de IA sin regular.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
+      "fecha": "19-11-2026 15:02"
+    },
+    {
+      "titulo": "La salida a bolsa de Anthropic pone a prueba el auge de la financiación circular de la IA",
+      "resumen": "Amazon (14,7 %) y Google (13,7 %) tienen participaciones que suman cerca de 307.900 millones de dólares en Anthropic, que prevé unos 220.000 millones en caja tras una colocación privada de 26.000 millones con Nvidia, AMD, Microsoft, Broadcom, Micron y TSMC. Tiene compromisos de gasto de 900.000 millones, sobre todo en computación. Según SemiAnalysis, necesitaría unos 280.000 millones de ingresos acumulados en cuatro años para pagar esa factura.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "fecha": "19-11-2026 15:54"
+    },
+    {
+      "titulo": "Los investigadores de OpenAI valoran más sus herramientas de IA que a casi la mitad de sus colegas",
+      "resumen": "En su segundo informe sobre aceleración de la investigación interna, OpenAI cifra el consumo del investigador mediano en 2.400 dólares diarios en tokens a precio de lista, un 62 % más que el mes anterior. La tasa de éxito de los agentes en tareas de 2 a 4 horas subió del 23 % al 46 % entre marzo y octubre, aunque fallan en trabajo complejo. En una encuesta a 101 empleados, la mediana renunciaría al 40 % de su equipo antes que pasar tres meses sin agentes de programación.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
+      "fecha": "19-11-2026 14:08"
+    },
+    {
+      "titulo": "Qualcomm abre pruebas en la nube de su rack de IA que desafía a Nvidia",
+      "resumen": "Qualcomm da acceso a clientes seleccionados, vía Cirrascale, a su sistema Dragonfly AI200, presentado en SC26. Cada tarjeta lleva 768 GB de memoria LPDDR y 56 tarjetas suman unos 43 TB en un rack refrigerado por líquido, con soporte para modelos de hasta 10 billones de parámetros. Usa LPDDR en vez de las pilas HBM3e de Nvidia, más rápidas y caras, aunque más memoria no garantiza igualar su rendimiento.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/11/19/qualcomm-offers-test-drive-of-its-rack-scale-nvidia-ai-challenger/5310966",
+      "fecha": "19-11-2026 15:03"
+    },
+    {
+      "titulo": "Los modelos de IA sin censura proliferan en las plataformas de código",
+      "resumen": "Investigadores de la Universidad de Illinois Urbana-Champaign y la Tecnológica de Nanyang analizaron 22.096 modelos de lenguaje y hallaron más de 11.000 sin censura, la mayoría en Hugging Face. Solo un 13 % incluía advertencias de moderación y 27, con 136.000 descargas, mostraron indicios de amenaza. Su número pasó de unos 100 al mes en mayo de 2023 a más de 1.000 mensuales.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/19/uncensored-ai-models-are-thriving-on-code-hosting-platforms/5310891",
+      "fecha": "19-11-2026 10:30"
+    },
+    {
+      "titulo": "Siri Recap: probamos la IA de Apple que escucha siempre y resume tu vida",
+      "resumen": "Siri Recap, en el Apple Watch Ultra 4, resume conversaciones ambientales; es opt-in, se programa por horarios y los resúmenes se autodestruyen a 1, 3 o 7 días. No guarda audio ni transcripción: se procesa en un exclave seguro del chip S11 y lo que sube a la nube va por Private Cloud Compute. A diferencia de otras funciones, no avisa a los presentes de que graba, lo que obliga a explicarlo.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "fecha": "19-11-2026 14:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Con la mayor salida a bolsa de la historia, la reputación de «chicos buenos» de Anthropic está en juego",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Superhuman lleva su asistente Go a todas partes",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "The Download: un hígado vivo, un acuerdo de baterías de mil millones y el bombo de la IA",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Canva añade un botón para desactivar la IA",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "La salida a bolsa récord de Anthropic muestra al peor enemigo del gigante de la IA: él mismo",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Digitalizar un millón de páginas con OCR cuesta ya menos de 130 dólares: los costes caen cinco veces en 18 meses",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Gemini 4 Neon jubila a su “abuelo”: el nieto hace casi lo mismo, tres veces más rápido y por menos dinero",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/google-quiere-que-gemini-4-neon-sea-tu-modelo-para-casi-todo-rapido-que-carbon-barato-tarea",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "NVIDIA gana tanto dinero con la IA que podría acabar con el hambre: \"¿Por qué no arreglar el mundo en lugar de esperar a la singularidad?",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/nvidia-gana-tanto-dinero-con-ia-que-podria-acabar-con-hambre-por-que-no-arreglar-mundo-lugar-esperar-singularidad_7062966_0.html",
+      "fecha": "19-11-2026"
+    }
+  ]
+}

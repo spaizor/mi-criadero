@@ -3,6 +3,104 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "La salida a bolsa de Anthropic recauda 81.300 millones y bate el récord de SpaceX",
+      "fuente": "The Decoder",
+      "fecha": "19-11-2026 15:02",
+      "enlace": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "La salida a bolsa de Anthropic pone a prueba el auge de la financiación circular de la IA",
+      "fuente": "TechCrunch",
+      "fecha": "19-11-2026 15:54",
+      "enlace": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "Los investigadores de OpenAI valoran más sus herramientas de IA que a casi la mitad de sus colegas",
+      "fuente": "The Decoder",
+      "fecha": "19-11-2026 14:08",
+      "enlace": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "Qualcomm abre pruebas en la nube de su rack de IA que desafía a Nvidia",
+      "fuente": "The Register",
+      "fecha": "19-11-2026 15:03",
+      "enlace": "https://www.theregister.com/systems/2026/11/19/qualcomm-offers-test-drive-of-its-rack-scale-nvidia-ai-challenger/5310966",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "Los modelos de IA sin censura proliferan en las plataformas de código",
+      "fuente": "The Register",
+      "fecha": "19-11-2026 10:30",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/19/uncensored-ai-models-are-thriving-on-code-hosting-platforms/5310891",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "Siri Recap: probamos la IA de Apple que escucha siempre y resume tu vida",
+      "fuente": "The Verge",
+      "fecha": "19-11-2026 14:00",
+      "enlace": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "Con la mayor salida a bolsa de la historia, la reputación de «chicos buenos» de Anthropic está en juego",
+      "fuente": "The Verge",
+      "fecha": "19-11-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "Superhuman lleva su asistente Go a todas partes",
+      "fuente": "TechCrunch",
+      "fecha": "19-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "The Download: un hígado vivo, un acuerdo de baterías de mil millones y el bombo de la IA",
+      "fuente": "MIT Technology Review",
+      "fecha": "19-11-2026",
+      "enlace": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "Canva añade un botón para desactivar la IA",
+      "fuente": "The Verge",
+      "fecha": "19-11-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "La salida a bolsa récord de Anthropic muestra al peor enemigo del gigante de la IA: él mismo",
+      "fuente": "Wired",
+      "fecha": "19-11-2026",
+      "enlace": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "Digitalizar un millón de páginas con OCR cuesta ya menos de 130 dólares: los costes caen cinco veces en 18 meses",
+      "fuente": "The Decoder",
+      "fecha": "19-11-2026",
+      "enlace": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "Gemini 4 Neon jubila a su “abuelo”: el nieto hace casi lo mismo, tres veces más rápido y por menos dinero",
+      "fuente": "Xataka",
+      "fecha": "19-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/google-quiere-que-gemini-4-neon-sea-tu-modelo-para-casi-todo-rapido-que-carbon-barato-tarea",
+      "turno": "2026-11-19_T"
+    },
+    {
+      "titulo": "NVIDIA gana tanto dinero con la IA que podría acabar con el hambre: \"¿Por qué no arreglar el mundo en lugar de esperar a la singularidad?",
+      "fuente": "ComputerHoy",
+      "fecha": "19-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/nvidia-gana-tanto-dinero-con-ia-que-podria-acabar-con-hambre-por-que-no-arreglar-mundo-lugar-esperar-singularidad_7062966_0.html",
+      "turno": "2026-11-19_T"
+    },
+    {
       "titulo": "Anthropic fija en 83 dólares por acción el precio de su salida a bolsa, por encima del rango previsto",
       "fuente": "TechCrunch",
       "fecha": "18-11-2026 23:11",
