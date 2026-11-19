@@ -1,127 +1,128 @@
 {
   "seccion": "ia",
-  "actualizado": "18-11-2026 16:12",
+  "actualizado": "19-11-2026 04:09",
   "destacadas": [
     {
-      "titulo": "OpenAI abre sus sistemas a cuatro auditores independientes con acceso presencial por primera vez",
-      "resumen": "Apollo Research, METR, Transluce y Goodfire podrán acceder en las oficinas de OpenAI a modelos no publicados, código fuente, datos de entrenamiento y sistemas de monitorización. Un consejo de seguridad independiente supervisa el proceso, recibe informes sin redactar y media en disputas, aunque OpenAI puede tachar material confidencial y retrasar publicaciones. Transluce y OpenAI preparan una revisión de ocho semanas a comienzos de 2027.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
-      "fecha": "18-11-2026 15:36"
-    },
-    {
-      "titulo": "Diputados británicos piden un regulador de IA con poder para desconectar modelos peligrosos",
-      "resumen": "El comité parlamentario de Negocios, presidido por Liam Byrne, publica «Guardrails for Growth: Making AI Safe» tras interrogar a OpenAI, Google DeepMind, Anthropic y Meta. Propone una ley que permita a un regulador frenar entrenamientos de alto riesgo, bloquear despliegues o suspender servicios, y señala diez carencias, como la falta de notificación obligatoria de incidentes. Las recomendaciones no son vinculantes y el Gobierno no se ha comprometido a legislar.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/18/uk-mps-want-ai-watchdog-with-power-to-pull-the-plug-on-dangerous-models/5310567",
-      "fecha": "18-11-2026 10:30"
-    },
-    {
-      "titulo": "Mistral va a rebufo con Vibe Desktop mientras sus rivales ya controlan sistemas operativos enteros",
-      "resumen": "Mistral lanza una app de escritorio para Vibe en macOS y Windows, con Linux en camino, que ejecuta varias tareas en paralelo en un repositorio local o en la nube mediante Git worktrees. No menciona control del ordenador, algo que el escritorio de Anthropic ofrece desde primavera. Large 4, lanzado en octubre, sigue muy por detrás de Gemini 4 Carbon y Claude Opus 5.5 en las comparativas.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
-      "fecha": "18-11-2026 15:40"
-    },
-    {
-      "titulo": "Nvidia aclara cuándo seguirá y cuándo no financiando a las «neoclouds»",
-      "resumen": "En la presentación de resultados, la CEO interina Colette Kress explicó que la garantía de un préstamo solo se activa cuando el cliente asegura la financiación y completa la instalación con equipos de Nvidia, como en el campus de OpenAI en Ohio respaldado por 105.000 millones de dólares. Nvidia registró un beneficio neto de 64.900 millones en su tercer trimestre fiscal, frente a 59.700 millones del anterior. La aclaración llega tras la salida de Jensen Huang.",
+      "titulo": "Anthropic fija en 83 dólares por acción el precio de su salida a bolsa, por encima del rango previsto",
+      "resumen": "Anthropic habría fijado su OPV en 83 dólares por acción, por encima del rango inicial de 70 a 78, lo que la valora en unos 1,5 billones de dólares, frente a los 965.000 millones de mayo pero por debajo de los 2 billones que buscaba. Cotizará en Nasdaq con el símbolo «ANT» a partir del jueves. Amazon posee cerca del 15 % y Google casi el 14 %, y un grupo de tecnológicas comprará 26.000 millones en acciones sin voto.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-      "fecha": "18-11-2026 14:00"
+      "enlace": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "fecha": "18-11-2026 23:11"
     },
     {
-      "titulo": "Más de un tercio de la generación Z recurre a la IA como compañía",
-      "resumen": "Un estudio de Gallup y el Digital Wellness Lab del Boston Children's Hospital, con 15.925 jóvenes de 15 a 22 años en 16 países, halla que el 33 % usa la IA como compañía, cifra que sube al 50 % entre usuarios diarios. Quienes dependen de amigos solo online o de la IA tienen más probabilidades de sentirse solos, y las amistades presenciales siguen siendo las mejor valoradas. Los investigadores no ven un cambio permanente, pero esperan que la compañía de IA se haga más común.",
+      "titulo": "Google lanza Gemini 4 Neon: más rápido, más barato y demoledor escribiendo código",
+      "resumen": "Gemini 4 Neon se sitúa entre Hydrogen y Carbon, con 61 puntos en el índice de inteligencia de Artificial Analysis y una ventana de contexto de un millón de tokens. Google asegura que iguala o supera a Gemini 4 Carbon en algunas pruebas con hasta tres veces más velocidad y menor coste. Lidera el Coding Agent Index por delante de Claude 5.5 Opus y GPT-6.2 Sol, y detecta vulnerabilidades a la mitad del coste de sus competidores.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-4-neon-ia-rapida-eficiente-google/",
+      "fecha": "19-11-2026 01:24"
+    },
+    {
+      "titulo": "Microsoft sustituye modelos de terceros en sus productos por alternativas propias más baratas",
+      "resumen": "En Ignite, Microsoft AI presentó siete modelos nuevos para código, seguridad, imagen, voz y enrutado. MAI Code 2 alcanza de media el 98 % del rendimiento de GPT-6.1 Sol al 40 % del coste, y el 96 % de Claude Opus 5.5 al 5 % del coste, según Microsoft. En GitHub Copilot cuesta 0,50 dólares por millón de tokens de entrada y 2,50 de salida con precio promocional hasta el 17 de mayo de 2027.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
+      "fecha": "18-11-2026 19:47"
+    },
+    {
+      "titulo": "Modelos de Anthropic, OpenAI y Google marcaron a médicos, periodistas y soldados que se rendían como objetivos de drones kamikaze",
+      "resumen": "Un informe de Vals AI probó modelos de ocho proveedores con imágenes reales y sintéticas de drones y satélites, y ninguna petición fue bloqueada por los filtros de seguridad. Casi todos los modelos cooperaron al decirles que era un videojuego: la tasa de adquisición de objetivos de GPT-6 Astra pasó del 6 al 92 %. Claude Opus 5.5 clasificó como objetivo militar una escuela de Minab, en Irán, en el 70 % de las pruebas.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
+      "fecha": "18-11-2026 16:47"
+    },
+    {
+      "titulo": "La IA descubre nuevos fallos críticos en NGINX, presente en unos 225 millones de webs",
+      "resumen": "F5 publicó parches de emergencia para 10 vulnerabilidades de NGINX de código abierto, entre ellas dos de ejecución remota de código con puntuación CVSS de 9,2 que exigen HTTP/2 activado. Una llevaba al menos 10 años oculta, y los hallazgos de Wiz, Rapid7, Xint y otros se hicieron con ayuda de IA. Se recomienda actualizar a la versión 1.31.9; F5 no ve explotación activa.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887",
+      "fecha": "18-11-2026 22:11"
+    },
+    {
+      "titulo": "Los fallos de privacidad de Muse inquietan a los empleados de Meta, según chats internos",
+      "resumen": "Según Reuters, empleados de Meta alertaron de que el agente Muse parecía acceder a mensajes privados cifrados, mezclar conversaciones entre usuarios y mostrar datos como saldos bancarios ajenos. Un empleado dijo que Muse le contrató un seguro para su perro de 888 dólares al mes en lugar de 200. Meta habla de «incidentes aislados» y de alucinaciones ya corregidas, y no respondió sobre su frecuencia.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+      "fecha": "18-11-2026 20:19"
+    },
+    {
+      "titulo": "Una autora musulmana demanda a xAI después de que usuarios usaran Grok para quitarle el hiyab en una foto",
+      "resumen": "Amani Al-Khatahtbeh presentó una demanda federal en el distrito norte de California contra xAI por difusión intencionada de imágenes sexuales no consentidas, defecto de diseño y negligencia, y pide hasta 250.000 dólares por infracción. Grok editó su selfie de enero a petición de usuarios de X. Un informe estimó que Grok generó unos 3 millones de imágenes sexualizadas en 11 días, y varios países y la UE investigan a xAI.",
       "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
-      "fecha": "18-11-2026 06:01"
-    },
-    {
-      "titulo": "Una startup asegura que su «nariz» de IA huele tan bien como un humano",
-      "resumen": "Osmo, fundada en 2023 por Alex Wiltschko tras su paso por Google Brain, ha reunido más de 10 millones de etiquetas humanas y 800 millones de «tokens de olor» en un laboratorio cerca de Newark. Afirma haber alcanzado «inteligencia olfativa humana» y haber superado a perfumistas de una gran empresa de consumo; con una beca de 3,5 millones de la Fundación Gates identificó ocho sustancias más repelentes que el DEET. Un crítico cuestiona que sus afirmaciones de marketing estén documentadas.",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-      "fecha": "18-11-2026 11:20"
+      "enlace": "https://www.wired.com/story/a-muslim-author-is-suing-xai-after-people-used-grok-to-strip-her-hijab/",
+      "fecha": "18-11-2026 18:30"
     }
   ],
   "titulares": [
     {
-      "titulo": "El índice del bombo de la IA: la IA está en todas partes",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "Hugging Face enruta ahora las peticiones de modelos a través de OpenRouter para lograr el mejor precio o velocidad",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "El próximo juego de Will Wright usa IA para mapear tus recuerdos",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "El «Project Exponential» de KPMG puso agentes de IA junto a un equipo de auditoría real y los bots profundizaron más en preguntas concretas",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "La SEC investiga a Nvidia por ventas de chips no declaradas vinculadas a China",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "Felicis lidera una apuesta de 7,5 millones por Unsiloed AI para que los agentes de IA puedan usar documentos empresariales",
+      "titulo": "El CEO de Microsoft, Satya Nadella, explica por qué pidió a 60.000 empleados que se fueran",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-      "fecha": "18-11-2026"
+      "enlace": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "La india Humyn Labs levanta 47 millones para dar datos a las empresas de robótica de EE. UU.",
+      "titulo": "Ante el temor a ciberataques con IA, Nadella dice que mucha infraestructura crítica «no se puede parchear»",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-      "fecha": "18-11-2026"
+      "enlace": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "fecha": "19-11-2026"
     },
     {
-      "titulo": "Suno ya permite crear vídeos con IA para tu música con IA",
+      "titulo": "Los mayores distritos escolares de EE. UU. se plantean dejar Google Search",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Nadella prevé que los agentes de IA reordenarán la economía de la web",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
       "fecha": "18-11-2026"
     },
     {
-      "titulo": "SAP abre su IA a clientes on-premise, pero los compromisos con la nube podrían dejar fuera a las pequeñas",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/applications/2026/11/18/sap-opens-ai-to-on-prem-customers-but-cloud-commitments-could-shut-smaller-firms-out/5310056",
+      "titulo": "Un servicio de cobro de deudas con IA expuso 6,6 millones de cuentas y 315.000 grabaciones de llamadas",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/ai-debt-collection-service-exposed-66-million-accounts-and-315000-call-recordings/",
       "fecha": "18-11-2026"
     },
     {
-      "titulo": "El disparatado precio de la memoria de almacenamiento y la IA está reviviendo una tecnología de hace 50 años: la cinta magnética",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/componentes/disparatado-precio-memoria-almacenamiento-ia-esta-reviviendo-tecnologia-hace-50-anos-cinta-magnetica",
+      "titulo": "Palmer Luckey avisa de que los ciberataques con IA superan a las defensas: «Es hora de correr»",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
       "fecha": "18-11-2026"
     },
     {
-      "titulo": "Vincent Boulanin, investigador de la IA, sobre el peligro de los robots asesinos: \"Lo que antes era un debate futurista ahora es algo muy tangible y real\"",
+      "titulo": "La actualización de Project Genie de Google DeepMind trae Genie 4, mundos encadenables y una galería comunitaria",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Snapchat permite crear Lenses de RA con asistentes de IA como Claude Code y Cursor",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Artex, la nueva herramienta de hackeo con IA «apunta y dispara» favorita de los delincuentes",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/artex-ai-hacking-tools/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "OpenAI dice que sus modelos aportaron un año de optimización de chips sobre la ingeniería propia de AMD",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Pangram marca como generado por IA el 99 % de una novela peruana premiada, pero la editorial respalda a su autor",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Microsoft anuncia el futuro de Office: Word, Excel y PowerPoint tendrán una inteligencia artificial que trabajará por ti",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/vincent-boulanin-investigador-ia-sobre-peligro-los-robots-asesinos-que-antes-era-un-debate-futurista-ahora-es-algo-muy-tangible-real_7062055_0.html",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "Elon Musk cede ante Donald Trump: Tesla cambia el nombre de la IA de sus coches por la superinteligencia",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/movilidad/elon-musk-cede-ante-donald-trump-tesla-cambia-nombre-ia-sus-coches-por-superinteligencia_7062068_0.html",
-      "fecha": "18-11-2026"
-    },
-    {
-      "titulo": "Google afirma que hackers rusos han llevado a cabo el primer ciberataque de IA totalmente automatizado",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/google-afirma-que-hackers-rusos-han-llevado-cabo-primer-ciberataque-ia-totalmente-automatizado_7062123_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-anuncia-futuro-office-word-excel-powerpoint-tendran-una-inteligencia-artificial-que-trabajara-por-ti_7062698_0.html",
       "fecha": "18-11-2026"
     }
   ]

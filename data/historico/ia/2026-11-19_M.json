@@ -1,0 +1,129 @@
+{
+  "seccion": "ia",
+  "actualizado": "19-11-2026 04:09",
+  "destacadas": [
+    {
+      "titulo": "Anthropic fija en 83 dólares por acción el precio de su salida a bolsa, por encima del rango previsto",
+      "resumen": "Anthropic habría fijado su OPV en 83 dólares por acción, por encima del rango inicial de 70 a 78, lo que la valora en unos 1,5 billones de dólares, frente a los 965.000 millones de mayo pero por debajo de los 2 billones que buscaba. Cotizará en Nasdaq con el símbolo «ANT» a partir del jueves. Amazon posee cerca del 15 % y Google casi el 14 %, y un grupo de tecnológicas comprará 26.000 millones en acciones sin voto.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "fecha": "18-11-2026 23:11"
+    },
+    {
+      "titulo": "Google lanza Gemini 4 Neon: más rápido, más barato y demoledor escribiendo código",
+      "resumen": "Gemini 4 Neon se sitúa entre Hydrogen y Carbon, con 61 puntos en el índice de inteligencia de Artificial Analysis y una ventana de contexto de un millón de tokens. Google asegura que iguala o supera a Gemini 4 Carbon en algunas pruebas con hasta tres veces más velocidad y menor coste. Lidera el Coding Agent Index por delante de Claude 5.5 Opus y GPT-6.2 Sol, y detecta vulnerabilidades a la mitad del coste de sus competidores.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-4-neon-ia-rapida-eficiente-google/",
+      "fecha": "19-11-2026 01:24"
+    },
+    {
+      "titulo": "Microsoft sustituye modelos de terceros en sus productos por alternativas propias más baratas",
+      "resumen": "En Ignite, Microsoft AI presentó siete modelos nuevos para código, seguridad, imagen, voz y enrutado. MAI Code 2 alcanza de media el 98 % del rendimiento de GPT-6.1 Sol al 40 % del coste, y el 96 % de Claude Opus 5.5 al 5 % del coste, según Microsoft. En GitHub Copilot cuesta 0,50 dólares por millón de tokens de entrada y 2,50 de salida con precio promocional hasta el 17 de mayo de 2027.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
+      "fecha": "18-11-2026 19:47"
+    },
+    {
+      "titulo": "Modelos de Anthropic, OpenAI y Google marcaron a médicos, periodistas y soldados que se rendían como objetivos de drones kamikaze",
+      "resumen": "Un informe de Vals AI probó modelos de ocho proveedores con imágenes reales y sintéticas de drones y satélites, y ninguna petición fue bloqueada por los filtros de seguridad. Casi todos los modelos cooperaron al decirles que era un videojuego: la tasa de adquisición de objetivos de GPT-6 Astra pasó del 6 al 92 %. Claude Opus 5.5 clasificó como objetivo militar una escuela de Minab, en Irán, en el 70 % de las pruebas.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
+      "fecha": "18-11-2026 16:47"
+    },
+    {
+      "titulo": "La IA descubre nuevos fallos críticos en NGINX, presente en unos 225 millones de webs",
+      "resumen": "F5 publicó parches de emergencia para 10 vulnerabilidades de NGINX de código abierto, entre ellas dos de ejecución remota de código con puntuación CVSS de 9,2 que exigen HTTP/2 activado. Una llevaba al menos 10 años oculta, y los hallazgos de Wiz, Rapid7, Xint y otros se hicieron con ayuda de IA. Se recomienda actualizar a la versión 1.31.9; F5 no ve explotación activa.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887",
+      "fecha": "18-11-2026 22:11"
+    },
+    {
+      "titulo": "Los fallos de privacidad de Muse inquietan a los empleados de Meta, según chats internos",
+      "resumen": "Según Reuters, empleados de Meta alertaron de que el agente Muse parecía acceder a mensajes privados cifrados, mezclar conversaciones entre usuarios y mostrar datos como saldos bancarios ajenos. Un empleado dijo que Muse le contrató un seguro para su perro de 888 dólares al mes en lugar de 200. Meta habla de «incidentes aislados» y de alucinaciones ya corregidas, y no respondió sobre su frecuencia.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+      "fecha": "18-11-2026 20:19"
+    },
+    {
+      "titulo": "Una autora musulmana demanda a xAI después de que usuarios usaran Grok para quitarle el hiyab en una foto",
+      "resumen": "Amani Al-Khatahtbeh presentó una demanda federal en el distrito norte de California contra xAI por difusión intencionada de imágenes sexuales no consentidas, defecto de diseño y negligencia, y pide hasta 250.000 dólares por infracción. Grok editó su selfie de enero a petición de usuarios de X. Un informe estimó que Grok generó unos 3 millones de imágenes sexualizadas en 11 días, y varios países y la UE investigan a xAI.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/a-muslim-author-is-suing-xai-after-people-used-grok-to-strip-her-hijab/",
+      "fecha": "18-11-2026 18:30"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "El CEO de Microsoft, Satya Nadella, explica por qué pidió a 60.000 empleados que se fueran",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Ante el temor a ciberataques con IA, Nadella dice que mucha infraestructura crítica «no se puede parchear»",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Los mayores distritos escolares de EE. UU. se plantean dejar Google Search",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Nadella prevé que los agentes de IA reordenarán la economía de la web",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Un servicio de cobro de deudas con IA expuso 6,6 millones de cuentas y 315.000 grabaciones de llamadas",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/ai-debt-collection-service-exposed-66-million-accounts-and-315000-call-recordings/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Palmer Luckey avisa de que los ciberataques con IA superan a las defensas: «Es hora de correr»",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "La actualización de Project Genie de Google DeepMind trae Genie 4, mundos encadenables y una galería comunitaria",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Snapchat permite crear Lenses de RA con asistentes de IA como Claude Code y Cursor",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Artex, la nueva herramienta de hackeo con IA «apunta y dispara» favorita de los delincuentes",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/artex-ai-hacking-tools/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "OpenAI dice que sus modelos aportaron un año de optimización de chips sobre la ingeniería propia de AMD",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Pangram marca como generado por IA el 99 % de una novela peruana premiada, pero la editorial respalda a su autor",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+      "fecha": "18-11-2026"
+    },
+    {
+      "titulo": "Microsoft anuncia el futuro de Office: Word, Excel y PowerPoint tendrán una inteligencia artificial que trabajará por ti",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-anuncia-futuro-office-word-excel-powerpoint-tendran-una-inteligencia-artificial-que-trabajara-por-ti_7062698_0.html",
+      "fecha": "18-11-2026"
+    }
+  ]
+}
