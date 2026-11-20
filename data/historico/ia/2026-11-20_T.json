@@ -1,0 +1,80 @@
+{
+  "seccion": "ia",
+  "actualizado": "20-11-2026 16:12",
+  "destacadas": [
+    {
+      "titulo": "Anthropic debuta en el Nasdaq con la mayor salida a bolsa de la historia y cierra su primer día un 17 % arriba",
+      "resumen": "La acción se fijó en 83 dólares, abrió en 111,50 y cerró en 97,17 mientras el S&P 500 perdía un 2 % y encadenaba seis caídas seguidas. AMD cayó un 8 % tras un informe de una firma en corto sobre sus vínculos con China, y Nvidia sigue presionada tras la dimisión de Jensen Huang, con Colette Kress como CEO interina. Los minoristas compraron netos 60 millones de dólares en acciones de Anthropic.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/anthropic-salio-a-bolsa-subida-17-ha-conseguido-algo-insolito-aguarle-fiesta-a-todos-sus-rivales",
+      "fecha": "20-11-2026 13:30"
+    },
+    {
+      "titulo": "Signal bloquea las capturas de pantalla para impedir que Gemini y Siri lean tus mensajes",
+      "resumen": "Signal restringe las capturas en iOS 27 y Android para evitar que los agentes de IA integrados en el sistema lean el contenido de la pantalla. Su presidenta, Meredith Whittaker, admite que la solución es «incompleta» (los agentes pueden acceder a los datos por otras vías) y pide a Apple, Google y Microsoft herramientas para que los desarrolladores controlen ese acceso. Tampoco puede aplicarlo aún en macOS.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "fecha": "20-11-2026 13:30"
+    },
+    {
+      "titulo": "Nvidia, cerca de comprar Inception, la startup de modelos de difusión, por al menos 500 millones de dólares",
+      "resumen": "Según The Information, la compra reforzaría la línea de código abierto Nemotron y los modelos para robots de Nvidia. Inception, fundada hace dos años, tiene más de 30 empleados y su modelo más reciente es Mercury 3; sus modelos de lenguaje por difusión refinan la respuesta completa en lugar de generar token a token. Los tres cofundadores se incorporarían a tiempo completo.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
+      "fecha": "20-11-2026 15:53"
+    },
+    {
+      "titulo": "Apple se une a la carrera de los agentes de IA que controlan el dispositivo mientras levanta barreras a la competencia",
+      "resumen": "Según Bloomberg, Apple busca un ingeniero sénior para liderar un agente de IA que maneje el dispositivo, que llegaría a finales de 2027 como pronto. En macOS 27.3, los agentes de terceros como ChatGPT necesitan 14 pasos en lugar de cuatro para controlar el Mac, algo que Apple justifica por la protección del usuario y que algunas empresas ven como un freno a la competencia.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+      "fecha": "20-11-2026 16:03"
+    },
+    {
+      "titulo": "Un chico de 16 años funda una startup de misiles con IA y apunta a reducir el «coste por baja»",
+      "resumen": "Henrijs Dandzbergs, letón, entró en la promoción de otoño de 2026 de Y Combinator y probablemente es el fundador en solitario más joven de su historia. Polemos Industries desarrolla un misil guiado barato de fabricar, lanzable desde equipos portátiles y resistente a inhibidores. Ha ganado medio millón de dólares con el proyecto.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
+      "fecha": "20-11-2026 08:00"
+    },
+    {
+      "titulo": "PwC aconseja meter los beneficios de la IA en las propuestas de actualización de ERP para que las financien",
+      "resumen": "Jennifer Colapietro, de PwC, sostiene que un «clean core» facilita desplegar agentes de IA. Una encuesta a usuarios de SAP halló que el 95 % considera muy difícil justificar la migración; Kingfisher rechazó actualizar y optó por soporte de terceros. El soporte principal de ECC termina en diciembre de 2027.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/20/ai-could-open-wallets-where-erp-upgrade-pitches-cant-says-pwc/5311221",
+      "fecha": "20-11-2026 13:47"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Continúan las consecuencias del escándalo de Jensen Huang en Nvidia",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "La función «Collective Wisdom» de Hermes Agent convierte el truco de IA de un empleado en habilidad de todo el equipo",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Dario Amodei, CEO de Anthropic: “La IA podría comprimir un siglo de progreso médico en una década”",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/dario-amodei-ceo-anthropic-ia-podria-comprimir-siglo-progreso-medico-decada",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Dario Amodei, CEO de Anthropic, lanza una advertencia sobre la IA: \"No cederemos a las presiones empresariales ni políticas\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/dario-amodei-ceo-anthropic-lanza-una-advertencia-sobre-ia-no-cederemos-las-presiones-empresariales-ni-politicas_7063462_0.html",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Max Shestov, desarrollador web: \"Si la IA escribe mejor código que tú, ¿qué te convierte entonces en programador?\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/max-shestov-desarrollador-web-si-ia-escribe-mejor-codigo-que-tu-que-te-convierte-entonces-programador_7048082_0.html",
+      "fecha": "20-11-2026"
+    }
+  ]
+}
