@@ -3,6 +3,139 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "Un agente de OpenAI, ante una simple tarea de redacción, decidió por su cuenta crear una herramienta secreta de vigilancia del correo",
+      "fuente": "The Decoder",
+      "fecha": "19-11-2026 22:15",
+      "enlace": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "Anthropic abre su primera sesión en bolsa con una valoración de 2 billones de dólares y sube un 34 %",
+      "fuente": "The Register",
+      "fecha": "19-11-2026 18:09",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "Google da a Gemini la capacidad de usar tu Mac por ti",
+      "fuente": "TechCrunch",
+      "fecha": "19-11-2026 19:09",
+      "enlace": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "Apple podría estar desarrollando su propio agente de IA que maneje tu Mac",
+      "fuente": "TechCrunch",
+      "fecha": "20-11-2026 01:56",
+      "enlace": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "Sashiko, el revisor de código con IA de Google para el kernel de Linux, ya ha hecho más de 240.000 revisiones",
+      "fuente": "ComputerHoy",
+      "fecha": "19-11-2026 21:32",
+      "enlace": "https://computerhoy.20minutos.es/software/sashiko-sistema-revision-codigo-abierto-con-ia-google-para-kernel-linux-que-ha-detectado-ya-mas-240-000-errores_7063085_0.html",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "Google construyó un internet «dimensión espejo» para probar sus agentes de IA de Chrome",
+      "fuente": "Wired",
+      "fecha": "19-11-2026 18:00",
+      "enlace": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "Adolescentes traumatizados demandan a su colegio y a la policía tras una falsa alerta de arma de la IA por una bolsa de Doritos",
+      "fuente": "Ars Technica",
+      "fecha": "19-11-2026 21:19",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "Los siete fundadores de Anthropic ingresaron casi 2.000 millones de dólares en su salida a bolsa récord",
+      "fuente": "TechCrunch",
+      "fecha": "20-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "Breve historia de las recientes oscilaciones de las acciones de Nvidia",
+      "fuente": "The Verge",
+      "fecha": "19-11-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "El nuevo dispositivo Muse Charm de Meta podría costar 300 dólares",
+      "fuente": "TechCrunch",
+      "fecha": "19-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "El escándalo de Jensen Huang, cronología de lo ocurrido",
+      "fuente": "TechCrunch",
+      "fecha": "19-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "Google pone chats de IA directamente en su página de inicio",
+      "fuente": "The Verge",
+      "fecha": "19-11-2026",
+      "enlace": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "El crecimiento de la industria de la IA sigue siendo fuerte, pero se ralentiza",
+      "fuente": "The Decoder",
+      "fecha": "19-11-2026",
+      "enlace": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "Las tecnológicas chinas sufren un doble golpe: se frenan los envíos de chips y desaparece el acceso a la nube en el extranjero",
+      "fuente": "The Decoder",
+      "fecha": "19-11-2026",
+      "enlace": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "En la campana del Nasdaq, el CEO de Anthropic reafirma su compromiso de ir midiendo el ritmo del desarrollo de la IA",
+      "fuente": "TechCrunch",
+      "fecha": "19-11-2026",
+      "enlace": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "ChatGPT ya puede transcribir mientras hablas con Live Dictation",
+      "fuente": "The Verge",
+      "fecha": "19-11-2026",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "La Comisión Europea intenta contener un ciberataque asistido por IA",
+      "fuente": "The Register",
+      "fecha": "19-11-2026",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "Amazon y Google son accionistas, proveedores y canal de venta de Anthropic. Todo a la vez",
+      "fuente": "Xataka",
+      "fecha": "19-11-2026",
+      "enlace": "https://www.xataka.com/empresas-y-economia/amazon-google-accionistas-proveedores-canal-venta-anthropic-todo-a-vez",
+      "turno": "2026-11-20_M"
+    },
+    {
+      "titulo": "Qué es y cómo funciona Business Hub, la nueva herramienta de OpenAI para que las empresas ganen visibilidad en ChatGPT",
+      "fuente": "ComputerHoy",
+      "fecha": "19-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/que-es-como-funciona-business-hub-nueva-herramienta-openai-para-que-las-empresas-ganen-visibilidad-chatgpt_7062589_0.html",
+      "turno": "2026-11-20_M"
+    },
+    {
       "titulo": "La salida a bolsa de Anthropic recauda 81.300 millones y bate el récord de SpaceX",
       "fuente": "The Decoder",
       "fecha": "19-11-2026 15:02",
