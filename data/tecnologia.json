@@ -1,189 +1,213 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "19-11-2026 15:15",
+  "actualizado": "20-11-2026 03:12",
   "destacadas": [
     {
-      "titulo": "TfL cierra la web de las tarjetas Oyster tras comprometer atacantes cuentas de unos 265.000 clientes",
-      "resumen": "Transport for London detectó el problema el 16 de noviembre, cuando clientes recibieron correos pidiéndoles crear cuentas que ya tenían. Shashi Verma, directivo de TfL, aseguró que no se vieron comprometidas contraseñas, datos bancarios ni historiales de viaje, aunque se pedirá a todos cambiar la contraseña y se avisó a la ICO. TfL ya sufrió en septiembre de 2024 un ciberataque que afectó a más de 7 millones de clientes.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985",
-      "fecha": "19-11-2026 12:01"
-    },
-    {
-      "titulo": "Microsoft retirará las apps To Do el 30 de junio de 2027",
-      "resumen": "Microsoft lo anunció en Ignite: To Do, heredera de Wunderlist (comprada en 2015), desaparecerá en esa fecha. Las tareas no se migrarán automáticamente a Planner, que carece de funciones como los grupos de listas. Los usuarios con cuentas personales, incluidos los de Microsoft 365 Personal y Family, no tienen acceso a Planner y deberán exportar sus datos a otra app.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/personal-tech/2026/11/19/microsoft-to-do-will-soon-become-microsoft-done/5310973",
-      "fecha": "19-11-2026 13:26"
-    },
-    {
-      "titulo": "Los Joy-Con de la Switch 2 funcionarán de forma nativa en Linux gracias a un controlador de Valve",
-      "resumen": "Valve ha creado un controlador para el kernel Linux 7.4 que reconoce los mandos de Switch 2, y SDL también ha añadido soporte. Cubre los Joy-Con 2, el Pro Controller 2 y los mandos de GameCube de Nintendo Switch Online, aunque habrá que esperar a que llegue a las distribuciones.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/gaming/los-mandos-joy-con-nintendo-switch-2-podran-utilizarse-para-jugar-linux-gracias-valve_7062957_0.html",
-      "fecha": "19-11-2026 14:00"
-    },
-    {
-      "titulo": "Millones de descargas de 'GTA VI' de 200 GB y internet sigue en pie gracias a trucos de DNS",
-      "resumen": "Tras abrirse la predescarga el 10 de noviembre, DE-CIX registró un récord de 33,03 Tbit/s en sus puntos de intercambio, un 25 % más que una semana normal, y su nodo de Madrid llegó a 1,43 Tbit/s. Según el RIPE NCC, GeoDNS y las CDN repartieron la carga entre Akamai, Fastly, Google y Amazon; un único servidor habría afrontado 2,4 exabytes de demanda.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/millones-personas-se-han-bajado-200-gb-gta-vi-e-internet-sigue-pie-merito-unos-cuantos-trucos-dns",
-      "fecha": "19-11-2026 12:27"
-    },
-    {
-      "titulo": "La FAA aún no sabe la causa raíz de la parada de vuelos de 4,5 horas en EE. UU.",
-      "resumen": "El secretario de Transporte, Sean Duffy, admitió que no hay claridad sobre el origen del fallo del viernes 13. La FAA cita una sustitución rutinaria de infraestructura, un router defectuoso, sobrecarga de datos y fallos en comunicaciones por radio. Su administrador, Bryan Bedford, lo llamó «un rasguño» y pidió perdón; un controlador lo describió como «los 90 minutos más peliagudos de mi carrera».",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/how-the-november-13-faa-ground-stop-went-down/",
-      "fecha": "19-11-2026 11:30"
-    },
-    {
-      "titulo": "EE. UU. acusa a un ruso de espiar y acosar a empleados de Palantir",
-      "resumen": "Según el Departamento de Justicia, Igor D'iu fue reclutado por el gobierno ruso vía Telegram y entró desde México en junio de 2026. Fotografiaba pantallas de portátiles cerca de la oficina de Palo Alto y siguió en coche a una empleada más de 48 km. En su registro del 8 de octubre hallaron dos pasaportes rusos y 18.035 dólares; afronta cuatro cargos y comparece el 24 de noviembre.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2321489/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees/",
-      "fecha": "19-11-2026 11:33"
-    },
-    {
-      "titulo": "Caída de la fibra de Digi en varias ciudades de España",
-      "resumen": "Los usuarios empezaron a reportar fallos hacia las 8 de la mañana. Downdetector muestra problemas sobre todo en banda ancha fija y WiFi en Madrid, Barcelona, Valencia, Sevilla, Málaga y Granada. Digi no había reconocido aún un problema generalizado.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/servicios/digi-no-funciona-incidencia-esta-provocando-problemas-fibra-diferentes-puntos-espana",
-      "fecha": "19-11-2026 12:48"
-    },
-    {
-      "titulo": "Los nuevos planes lunares de la NASA obligan a Orion a volar de una forma para la que no fue diseñada",
-      "resumen": "Para acoplarse a Starship en órbita alta terrestre, Orion debe volar hacia atrás con el módulo de servicio arriba, lo que obliga a modificar los depósitos de propelente de la ESA y Airbus. La aceleración en la inyección translunar pasaría de 0,1-0,15 g a 0,8-1 g en sentido contrario, y la estructura debe certificarse para ello. Kirk Shireman, de Lockheed Martin, también advierte de problemas térmicos en la misión en órbita baja.",
+      "titulo": "Google activará en enero de 2027 la verificación de desarrolladores de Android en todo el mundo",
+      "resumen": "Google empezará a exigir en enero de 2027, en todas las regiones, que los desarrolladores estén registrados para poder instalar sus apps fuera de Play Store. La verificación pide documento de identidad y 25 dólares, ya funciona desde septiembre en Brasil, Indonesia, Singapur y Tailandia, y llegará a todos los dispositivos en «varios meses». Tras las críticas, los aficionados podrán distribuir apps a hasta 50 instalaciones y habrá un «flujo avanzado» para quien no quiera esta limitación.",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
-      "fecha": "19-11-2026 14:40"
+      "enlace": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027/",
+      "fecha": "19-11-2026 19:00"
+    },
+    {
+      "titulo": "Chase, Visa y Mastercard confirman brechas en proveedores externos tras el ataque de la banda n0n",
+      "resumen": "JPMorgan Chase, Visa y Mastercard investigan ciberataques a terceros que pueden haber expuesto datos de clientes, tras reivindicarlos la banda de extorsión n0n, que opera desde Rusia y ha publicado 108 víctimas desde septiembre. Chase cree que se accedió a datos de marketing con nombres y correos; Mastercard habla de correos de un subconjunto de titulares y Visa asegura que no se vieron afectados datos de pago.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+      "fecha": "19-11-2026 22:12"
+    },
+    {
+      "titulo": "Un tribunal obliga al Gobierno británico a confirmar su orden secreta de puerta trasera a Apple",
+      "resumen": "El Investigatory Powers Tribunal ha rechazado el argumento del Ministerio del Interior de que revelar la existencia de la orden dañaría la seguridad nacional. Apple se negó a crear una puerta trasera y desactivó en el Reino Unido la Protección Avanzada de Datos de iCloud. Es la primera vez que se obliga al Gobierno a confirmar una orden técnica secreta; la vista final sobre qué detalles pueden publicarse será el año que viene.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
+      "fecha": "19-11-2026 16:32"
+    },
+    {
+      "titulo": "Nvidia teme ahora la fuga de sus mejores ingenieros tras la salida de Jensen Huang",
+      "resumen": "La CEO interina, Colette Kress, prometió adelantar subidas de sueldo y más acciones para retener talento, tras presentar unos ingresos de 115.800 millones de dólares en el tercer trimestre fiscal (+103%). Nvidia ha perdido unos 550.000 millones de dólares de valor bursátil desde que el consejo apartó a Huang, y los analistas creen que rivales como AMD o Broadcom intentarán captar a sus líderes técnicos.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/nvidia-se-enfrenta-a-nueva-amenaza-destitucion-jensen-huang-perdida-sus-mejores-ingenieros",
+      "fecha": "19-11-2026 20:30"
+    },
+    {
+      "titulo": "Google y Blue Origin lanzarán satélites con centros de datos y chips TPU desde 2029",
+      "resumen": "Dentro del Proyecto Suncatcher, cada satélite tendrá más o menos la capacidad de un rack de centro de datos y viajará en un cohete New Glenn a una órbita heliosíncrona. El primer lanzamiento no llegará hasta principios de 2029. El prototipo que Google lanzó en octubre a órbita baja solo puede operar 15 minutos seguidos, y la refrigeración y la radiación siguen siendo grandes obstáculos.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2321988/google-signs-deal-with-blue-origin-to-send-satellite-data-centers-into-orbit/",
+      "fecha": "19-11-2026 18:38"
+    },
+    {
+      "titulo": "La Steam Machine de 512 GB ya se puede comprar sin lista de espera, pero se cierran las de 2 TB",
+      "resumen": "Valve vende la versión de 512 GB, con o sin mando, con entrega estimada de 3 a 5 días laborables. Cierra las listas de espera del modelo de 2 TB porque hay más gente apuntada que unidades, y avisa de que el coste de memoria y almacenamiento sube «a niveles sin precedentes». Dará más información sobre el suministro en enero; el modelo de 512 GB sin mando costó 1.049 dólares al lanzarse en junio.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply",
+      "fecha": "19-11-2026 20:33"
+    },
+    {
+      "titulo": "Flipper One, el PC Linux de bolsillo, supera los 10 millones de euros en Kickstarter en 24 horas",
+      "resumen": "Frente a los 270.000 euros de objetivo inicial, el dispositivo llegará en 2027. Usa un procesador Rockchip RK3576 con un microcontrolador Raspberry Pi RP2350 que mantiene funciones esenciales aunque Linux falle, y admite WiFi, Ethernet, 5G y comunicación por satélite. Puede ejecutar radio definida por software y modelos de IA en local.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/flipper-one-pc-linux-bolsillo-ya-es-una-realidad-consigue-una-financiacion-record-10-millones-euros-llegara-2027_7063214_0.html",
+      "fecha": "19-11-2026 21:56"
+    },
+    {
+      "titulo": "Equinor, el mayor proveedor de gas de Europa, sigue bajo un ciberataque sin fecha de recuperación",
+      "resumen": "La petrolera noruega reveló el ataque el martes por la tarde y asegura que la producción continúa con normalidad y que no hay indicios de robo o alteración de datos. El incidente sigue activo, no parece dirigido específicamente a la empresa y se ha denunciado a la policía; el correo interno está caído, según Reuters. Equinor, controlada en un 67% por el Estado noruego, no ha dicho quién está detrás ni cuándo restablecerá los sistemas.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/19/europes-biggest-gas-supplier-battling-cyberattack-with-no-timeline-for-recovery/5311026",
+      "fecha": "19-11-2026 16:37"
     }
   ],
   "titulares": [
     {
-      "titulo": "Nimble entra en el mercado de localizadores con etiquetas de equipaje y llaveros ecológicos",
+      "titulo": "Fallos en VMware y KVM que conviene corregir junto a los de Java y PHP",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/20/flaws-in-vmware-and-kvm-need-attention-if-you-have-time-while-fixing-java-php-and-everything-else/5311193",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Germ Network llega a Android: una infección, pero para bien",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/20/germ-network-infects-android-but-in-a-good-way/5311186",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Elon Musk asegura que SpaceX tiene un plan para eliminar las zonas sin cobertura móvil",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/19/nimble-enters-the-item-tracking-market-with-eco-friendly-luggage-tags-and-keychains/",
-      "fecha": "19-11-2026"
+      "enlace": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
+      "fecha": "20-11-2026"
     },
     {
-      "titulo": "Rockstar dice que el mapa de GTA 6 tiene margen para ampliarse con futuras historias",
+      "titulo": "Imágenes filtradas podrían mostrar la respuesta de Motorola al iPhone plegable",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2321545/rockstar-says-that-gta-6s-map-has-room-to-expand-for-future-storylines/",
+      "enlace": "https://www.engadget.com/2322557/leaked-images-may-show-motorolas-answer-to-the-iphone-duo/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "El Muse Charm de Meta costaría 300 dólares e incluiría 5G gratis de Verizon",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2322541/metas-muse-charm-will-reportedly-cost-300-and-come-with-free-verizon-5g/",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "Un ciberataque a un proveedor expone datos de beneficiarios de pagos de 40 cooperativas de crédito irlandesas",
+      "titulo": "Amazon combate la ley de protección de repartos de Nueva York con un banner y una ventana emergente en su app",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Uber prueba viajes para niños desde los 10 años, con pago extra para los conductores",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Meta vende ahora películas en 3D en los visores Quest",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Palo Alto Networks compra una empresa de entrenamiento de modelos de pesos abiertos",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/19/cyberattack-on-service-provider-exposes-payee-data-at-40-irish-credit-unions/5310979",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/19/palo-alto-networks-opens-wallet-for-open-weight-training-biz/5311168",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "Una nota adhesiva en un monitor dio las llaves de toda la empresa",
+      "titulo": "La FCC aprueba una norma que permite a las cárceles bloquear señales de móvil",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/policy/1037987/fcc-prison-cellphone-signal-jamming",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Nvidia suma una posible intrusión a la lista de problemas graves bajo investigación",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/19/sticky-note-on-monitor-provided-keys-to-the-companys-kingdom/5310908",
+      "enlace": "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "Google sigue con su experimento de química de modelos con Neon",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/19/google-continues-model-chemistry-experiment-with-neon/5310934",
+      "titulo": "Para cazar a un estafador de ransomware, el FBI se hizo pasar a la vez por víctima y atacante",
+      "fuente": "404 Media",
+      "enlace": "https://www.404media.co/ransomware-fraud-attack-fbi-indictment/",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "Corea del Sur lanza una alerta de «Emergencia Extrema» en los móviles para frenar el fraude en los exámenes",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/personal-tech/2026/11/19/south-korea-tries-to-out-exam-cheats-with-extreme-emergency-smartphone-alert/5310942",
-      "fecha": "19-11-2026"
-    },
-    {
-      "titulo": "EEUU busca desesperadamente tarjetas de memoria de los años 90 para su caza furtivo más sofisticado. El problema es que ya nadie las hace",
+      "titulo": "Tras jugar a 'GTA VI', tengo claro que Rockstar ha hecho el 'GTA' que quería: un 'Red Dead Redemption 2' con coches",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/eeuu-busca-desesperadamente-tarjetas-memoria-anos-90-para-su-caza-furtivo-sofisticado-problema-que-nadie-hace",
+      "enlace": "https://www.xataka.com/videojuegos/jugar-a-gta-vi-tengo-claro-que-rockstar-ha-hecho-gta-que-queria-red-dead-redemption-2-coches",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "BYD actualiza su coche más vendido con mejoras muy interesantes: así es el SEAL U DM-i Model Year 2027",
+      "titulo": "Filtrado el Razr Flex, la respuesta de Motorola al Galaxy Z Fold 8 y el iPhone Duo",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/movilidad/seal-u-dm-i-model-year-2027/",
+      "enlace": "https://hipertextual.com/mobile/filtrado-motorola-razr-flex-imagenes/",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "Digi no funciona: los usuarios informan de problemas con la conexión",
+      "titulo": "A partir de enero, podrías quedarte sin muchas de tus aplicaciones en Android",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/digi-caida-19-noviembre-2026/",
+      "enlace": "https://www.adslzone.net/noticias/moviles/android-verificacion-apps-enero-2027/",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "¿Por qué GTA 6 va a 30 FPS en PS5 Pro? Rockstar confirma que no habrá modo a 60 FPS porque \"no tiene la potencia suficiente\"",
+      "titulo": "La Voyager 1 se convierte en el objeto creado por el ser humano que más lejos ha llegado: está a un día luz de la Tierra",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/gaming/por-que-gta-6-va-30-fps-ps5-pro-rockstar-confirma-que-no-habra-modo-60-fps-porque-no-tiene-potencia-suficiente_7062956_0.html",
+      "enlace": "https://computerhoy.20minutos.es/ciencia/voyager-1-se-convierte-objeto-creado-por-ser-humano-que-mas-lejos-ha-llegado-esta-un-dia-luz-tierra_7063216_0.html",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "Los expertos en longevidad lo tienen claro: \"vivir más tiempo no es cuestión de hacer ejercicio, sino de en zonas donde todos los desplazamientos al trabajo se realizan caminando\"",
+      "titulo": "Unos científicos de la Universidad de Pensilvania quieren usar mantas de emergencia para construir edificaciones lunares",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/expertos-longevidad-tienen-claro-vivir-tiempo-no-cuestion-hacer-ejercicio-sino-zonas-donde-todos-desplazamientos-al-trabajo-se-realizan-caminando",
+      "enlace": "https://www.xataka.com/espacio/mantas-emergencia-tienen-aplicacion-inesperada-luna-estos-cientificos-quieren-construir-edificios-ellas",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "Joseba Barrenengoa, dueño de 19 gasolineras, avisa sobre el combustible por menos de 1 euro: «El E85 es un producto más barato»",
+      "titulo": "Lo nuevo de Windows te avisará si un programa o componente tiene una vulnerabilidad grave (y ayudará a solucionarlo)",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/seguridad/lo-nuevo-de-windows-te-avisara-si-un-programa-o-componente-tiene-una-vulnerabilidad-grave-y-ayudara-a-solucionarlo/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "Spotify tiene un nuevo rival en Android Auto: aparece una nueva app gratis con multitud de funciones",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/joseba-barrenengoa-combustible-e85/",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/jellybox-android-auto-musica-propia/",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "Es oficial, SkyShowtime cierra en 2027: qué pasará con tu suscripción y las series que estás viendo",
+      "titulo": "China anuncia que ha creado el clon perfecto de Windows 11: es gratis, gasta muy poca RAM y se puede instalar incluso en PC antiguos",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/es-oficial-skyshowtime-cierra-2027-que-pasara-con-tu-suscripcion-las-series-que-estas-viendo_7062947_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/china-anuncia-que-ha-creado-clon-perfecto-windows-11-es-gratis-gasta-muy-poca-ram-se-puede-instalar-incluso-pc-antiguos_7063098_0.html",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "Sale más rentable comprar este eReader con lápiz que sin él, pero solo durante el Día sin IVA de MediaMarkt",
+      "titulo": "Es uno de los mejores SSD NVMe y hacía mucho que no lo veíamos a este precio: el Samsung 990 Pro se apunta al Black Friday de Amazon",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/sale-rentable-comprar-este-ereader-lapiz-que-solo-durante-dia-iva-mediamarkt",
+      "enlace": "https://www.xataka.com/seleccion/uno-mejores-ssd-nvme-mucho-que-no-veiamos-a-este-precio-samsung-990-pro-se-apunta-al-black-friday-amazon",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "Un nuevo canal gratis perfecto para Navidad ya está disponible en las televisiones de Samsung",
+      "titulo": "Ojo con el autoguardado de ‘GTA 6’: no es tan frecuente como crees y puedes perder tu progreso",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/ojo-guardado-automatico-gta-6/",
+      "fecha": "19-11-2026"
+    },
+    {
+      "titulo": "He probado la Cosori Iconic Dual: la freidora de aire que jubila al horno con sus dos cajones",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/tecnologia/vevo-navidad-canal-gratis-samsung-tv-plus/",
+      "enlace": "https://www.adslzone.net/noticias/productos/cosori-iconic-dual-freidora-aire-cajones/",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "Pablo Motos, presentador de El Hormiguero, sobre los datos de La Séptima en la TDT: \"Es incomprensible todo y nos hemos quedado con cara de conejo\"",
+      "titulo": "La Séptima logra un nuevo récord fuera de la TDT y acaba con las excusas para no verla",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/pablo-motos-presentador-hormiguero-sobre-los-datos-septima-tdt-es-incomprensible-todo-nos-hemos-quedado-con-cara-conejo_7062951_0.html",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-logra-un-nuevo-record-fuera-tdt-acaba-con-las-excusas-para-no-verla_7063097_0.html",
       "fecha": "19-11-2026"
     },
     {
-      "titulo": "Mikel Oyarzabal, Bruce Springsteen y José Luis Rebordinos, entre los nominados al Tambor de Oro de San Sebastián",
+      "titulo": "Waymo ha retirado sus robotaxis de todas las autopistas de Estados Unidos tras el veto de sus vehículos en California",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/san-sebastian-han-organizado-torneo-para-elegir-al-embajador-ciudad-springsteen-oyarzabal-rebordinos-se-pelean-oro",
-      "fecha": "19-11-2026"
-    },
-    {
-      "titulo": "SkyShowtime cierra oficialmente en 2027: esto es lo que tienen que saber sus usuarios",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/streaming-tv/skyshowtime-cierre-2027/",
-      "fecha": "19-11-2026"
-    },
-    {
-      "titulo": "Se acabó uno de los mayores problemas de Instagram: ahora puedes editar y corregir tus Stories sin perder nada",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/redes-sociales/se-acabo-uno-los-mayores-problemas-instagram-ahora-puedes-editar-corregir-tus-stories-sin-perder-nada_7062963_0.html",
-      "fecha": "19-11-2026"
-    },
-    {
-      "titulo": "Lefant tiene un robot aspirador que friega siempre con agua limpia. Y este Black Friday lo tenemos a mitad de precio",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/lefant-tiene-robot-aspirador-que-friega-siempre-agua-limpia-este-black-friday-tenemos-a-mitad-precio",
-      "fecha": "19-11-2026"
-    },
-    {
-      "titulo": "IlloJuan borra por error GTA 6 segundos antes de comenzar su primera partida: \"Histórico lo mío, se me ha ido la olla\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/illojuan-borra-por-error-gta-6-segundos-antes-comenzar-su-primera-partida-historico-mio-se-me-ha-ido-olla_7062949_0.html",
+      "enlace": "https://www.xataka.com/movilidad/waymo-ha-retirado-todos-sus-robotaxis-todas-autopistas-estados-unidos-veto-sus-vehiculos-california",
       "fecha": "19-11-2026"
     }
   ]
