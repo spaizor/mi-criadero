@@ -1,0 +1,202 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "20-11-2026 15:15",
+  "destacadas": [
+    {
+      "titulo": "California cita a Nvidia a declarar por los vínculos de Jensen Huang con China",
+      "resumen": "El fiscal general de California, Rob Bonta, ha enviado una citación de investigación a Nvidia para averiguar si sus GPU avanzadas o información confidencial llegaron a China y si la empresa engañó a los inversores. La investigación llega tras la dimisión de Huang por su relación con una mujer a la que EE. UU. considera espía china. El Congreso prepara su propia citación y la SEC abriría un expediente civil.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
+      "fecha": "20-11-2026 14:21"
+    },
+    {
+      "titulo": "Microsoft propone un truco en el Registro para arreglar los fallos del parche en caliente de noviembre",
+      "resumen": "Microsoft confirma que el hotpatch KB5132043, publicado el 10 de noviembre, hace fallar la instalación o el arranque de aplicaciones que cargan la DLL msi.dll de 32 bits, con errores como 0xC0000099. La solución temporal es fijar la clave «HotPatchTableSize» en 2000 y reiniciar. No afecta a quienes instalaron la actualización acumulativa estándar.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/20/microsoft-suggests-registry-hack-to-work-around-hotpatch-woes/5311279",
+      "fecha": "20-11-2026 14:39"
+    },
+    {
+      "titulo": "El ordenador cuántico de Google resuelve con un 98,3 % de acierto un juego considerado imposible",
+      "resumen": "Los procesadores cuánticos Willow, de 105 cúbits, han logrado un 98,3 % de efectividad en un juego de cuadrícula 3x3 que clásicamente no pasa de 8 de cada 9. La clave es la contextualidad cuántica. Google publica los resultados en la revista Science.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/ordenador-cuantico-google-consigue-ganar-3x3-juego-imposible-que-ningun-superordenador-convencional-ha-logrado-resolver_7063482_0.html",
+      "fecha": "20-11-2026 13:44"
+    },
+    {
+      "titulo": "TP-Link sigue sin poder vender sus últimos routers en EE. UU. por el veto a los routers extranjeros",
+      "resumen": "El Gobierno de Trump prohibió en marzo de 2026 importar y vender nuevos modelos de routers diseñados o fabricados fuera de EE. UU., y TP-Link no ha obtenido exención, a diferencia de algunos rivales. Sus nuevos Wi-Fi 8, como el Archer 8 Ultra (899,99 libras en Reino Unido), no pueden venderse allí. La empresa promete ensamblar en EE. UU. y asegura estar separada de su matriz china.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us/",
+      "fecha": "20-11-2026 13:00"
+    },
+    {
+      "titulo": "GrapheneOS acusa a Google de presionar a los fabricantes en su contra",
+      "resumen": "Los desarrolladores de GrapheneOS denuncian en Mastodon que Google sabotea los desarrollos abiertos, justo cuando Motorola será la primera marca en darle soporte oficial con su Signature 27. Xataka lo enmarca en un Android cada vez más cerrado: LineageOS tiene 1,6 millones de instalaciones frente a más de 3.800 millones de usuarios de Android.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/moviles/grapheneos-acusa-a-google-presionar-a-fabricantes-su-ultimo-paso-android-cada-vez-cerrado",
+      "fecha": "20-11-2026 13:15"
+    },
+    {
+      "titulo": "Renfe avisa a sus clientes de que sus datos pudieron filtrarse en el ciberataque de septiembre",
+      "resumen": "Desde este viernes Renfe envía un correo a los afectados por el acceso no autorizado del 24 de septiembre a sistemas de venta de billetes. Pudieron exfiltrarse datos de contacto, viajes y documentos de identidad como DNI o NIE; las contraseñas están cifradas. La Guardia Civil detuvo en octubre al presunto autor y Renfe no tiene constancia de uso fraudulento, pero recomienda cambiar la contraseña y desconfiar del phishing.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/renfe-filtracion-datos-dni-correo-ciberataque/",
+      "fecha": "20-11-2026 12:51"
+    },
+    {
+      "titulo": "Los grupos de WhatsApp ya admiten hasta 1.500 participantes",
+      "resumen": "WhatsApp ha empezado a desplegar en Android e iOS el aumento del límite de 1.024 a 1.500 miembros por grupo, según WABetaInfo, pensado para administradores de colegios y comunidades. El despliegue es gradual. La app también ha añadido anclar mensajes durante más tiempo y filtrar por menciones y respuestas.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2322717/whatsapps-group-chats-can-now-have-up-to-1500-members/",
+      "fecha": "20-11-2026 12:48"
+    },
+    {
+      "titulo": "Por qué los robots abandonan a Uber: Waymo y Serve Robotics quieren llegar solos al cliente",
+      "resumen": "Waymo pondrá fin en enero de 2028 a su exclusividad con Uber en Austin y Atlanta, y sus usuarios podrán pedir viajes directamente en su app. Serve Robotics, con miles de robots de reparto, no renovará su acuerdo con Uber Eats en 2027. Las empresas de autonomía ya son un negocio comercial, aunque deficitario, y no quieren intermediarios.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/transportation/1037667/waymo-serve-robotics-ditch-uber-autonomous-partnerships",
+      "fecha": "20-11-2026 13:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Tras la salida de Jensen Huang, dudas sobre un estilo de gestión basado en el miedo",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "El Gobierno de EE. UU. cambia a su responsable de ciberseguridad",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2322705/the-trump-administration-has-replaced-its-cybersecurity-chief/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Un error de passkeys en Windows 11 muestra un fallo tras un inicio de sesión correcto",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/20/windows-11-passkey-bug-cries-failure-after-successful-sign-in/5311263",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Solo la tribu seminola puede ofrecer juego online en Florida, y está furiosa con DraftKings",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/seminole-tribe-tries-to-stop-draftkings-illegal-gambling-in-florida/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Ubuntu Core Desktop apunta a debutar en la 28.04 con la mira puesta en ser la opción por defecto",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/20/ubuntu-core-desktop-targets-2804-debut-with-default-status-in-its-sights/5310837",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "EE. UU. dejó vender a Nvidia y AMD enormes cantidades de chips a empresas chinas vinculadas al ejército",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/legal/2026/11/20/us-let-nvidia-and-amd-sell-bucketloads-of-chips-to-military-linked-chinese-companies/5311200",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "El cumplimiento de las normas de mercado de la UE por parte de las grandes tecnológicas es «de cara a la galería», dice una asociación de consumidores",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/legal/2026/11/20/big-techs-compliance-with-eu-market-rules-is-performative-consumer-group-says/5311066",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Ha tenido que llegar el Black Friday para que el Galaxy Watch Ultra2 baje de precio. Y lo ha hecho más que nunca",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/ha-tenido-que-llegar-black-friday-galaxy-watch-ultra2-baje-precio-ha-hecho-que-nunca",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "No te pases otro verano más limpiando la piscina: compra ahora un robot de limpieza en el Black Friday y ahorra hasta 300 euros",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/brands/aiper-robot-piscinas-black-friday/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Cuatro cosas únicas del Xiaomi 18 Pro que no tienen los demás: así se siente al probarlo",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/zona-xiaomi/moviles/cuatro-cosas-unicas-xiaomi-18-pro/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Alerta Windows 11: muchas de tus aplicaciones y juegos ya instalados en tu PC podrían dejar de funcionar a partir de 2027",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/alerta-windows-11-muchas-tus-aplicaciones-juegos-ya-instalados-tu-pc-podrian-dejar-funcionar-partir-2027_7063476_0.html",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "El Black Friday es un momento ideal para crear tu página web: puedes crearla, alojarla y tener hasta correo por menos de 2 euros al mes",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/black-friday-momento-ideal-para-crear-tu-pagina-web-puedes-crearla-alojarla-tener-correo-2-euros-al-mes",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Digi ya cambia el router a casi todos sus clientes, pero los de su fibra más rápida siguen esperando",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-cambio-router-mas-tarifas-fibra-smart/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "José Miguel Contreras, creador de La Séptima, el nuevo canal de la TDT: \"Para mí el éxito será que nos vea gente de derechas\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/jose-miguel-contreras-creador-septima-nuevo-canal-tdt-para-mi-exito-sera-que-nos-vea-gente-derechas_7063480_0.html",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "En 1945, la Segunda Guerra Mundial llegó a su fin. Para 286 españoles, la salida no llegó hasta 11 años después en un barco de la Cruz Roja",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/1945-segunda-guerra-mundial-llego-a-su-fin-para-286-espanoles-salida-no-llego-1954-barco-cruz-roja",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "El truco de 20 segundos en tu factura de la luz para saber si te están cobrando de más justo cuando llega el frío",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/fintech/truco-factura-luz-lectura-estimada-real/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Mercadona prueba un nuevo sistema de pago en sus supermercados sin dinero en efectivo ni tarjeta de crédito",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/mercadona-prueba-un-nuevo-sistema-pago-sus-supermercados-sin-dinero-efectivo-ni-tarjeta-credito_7063479_0.html",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Se suponía que 'GTA VI' no tendría primera persona. Los jugadores han tardado exactamente un día en desbloquearla",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/rockstar-dijo-que-gta-vi-no-tendria-primera-persona-jugadores-han-desbloqueado-su-primer-dia",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "El deco 4K de Orange recibe la función más inesperada del año",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/deco-4k-orange-funcion-inesperada/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Prepara tu Wi-Fi para el teletrabajo: configura tu red para trabajar desde casa con seguridad",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/branded/prepara-tu-wifi-teletrabajo-seguridad_7063163_5.html",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Hay un robot aspirador que cuesta tan solo 52,30 euros. Y mucho ojo porque es de Xiaomi",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/hay-robot-aspirador-que-cuesta-solo-52-30-euros-mucho-ojo-porque-xiaomi",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "La letra pequeña del nuevo salario mínimo de 1.286 euros en 2027 que nadie te cuenta",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/fintech/smi-2027-1286-euros-condiciones-irpf/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Sergio Parra, periodista de La Séptima: \"Hemos venido a hacernos un hueco; los primeros resultados han superado nuestras expectativas\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/sergio-parra-periodista-septima-hemos-venido-hacernos-un-hueco-los-primeros-resultados-han-superado-nuestras-expectativas_7063466_0.html",
+      "fecha": "20-11-2026"
+    }
+  ]
+}
