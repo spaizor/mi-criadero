@@ -1,6 +1,6 @@
 {
   "seccion": "steam",
-  "actualizado": "20-11-2026 08:35",
+  "actualizado": "20-11-2026 15:09",
   "serie_desde": "2026-09",
   "juegos": [
     {
@@ -19,7 +19,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 2.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -41,14 +41,14 @@
         },
         {
           "tienda": "Fanatical",
-          "precio": 28.19,
+          "precio": 4.49,
           "base": 29.99,
-          "descuento": 6,
+          "descuento": 85,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
           "minimo_tienda": 2.99,
-          "caduca": "2026-11-20T10:00:00+01:00",
+          "caduca": "2027-01-06T00:59:00+01:00",
           "enlace": "https://itad.link/018d9386-1711-7379-ae34-6ba0a6533f01/?app=opyd8c"
         },
         {
@@ -98,7 +98,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -201,7 +201,7 @@
           "base": 24.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 2.49,
           "minimo_fecha": "02-10-2026"
         },
@@ -214,7 +214,7 @@
           "base": 34.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 3.49,
           "minimo_fecha": "02-10-2026"
         }
@@ -243,6 +243,30 @@
           "minimo_tienda": 5.62,
           "caduca": "2026-12-04T23:59:59+01:00",
           "enlace": "https://itad.link/018d9386-320d-713c-bedd-73ad161350f0/?app=opyd8c"
+        },
+        {
+          "tienda": "Fanatical",
+          "precio": 5.37,
+          "base": 24.99,
+          "descuento": 79,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": 5.24,
+          "caduca": "2026-12-01T00:59:00+01:00",
+          "enlace": "https://itad.link/018d9386-320d-713c-bedd-73acfee121e4/?app=opyd8c"
+        },
+        {
+          "tienda": "JoyBuggy",
+          "precio": 5.88,
+          "base": 24.99,
+          "descuento": 76,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": null,
+          "minimo_tienda": 4.97,
+          "caduca": "2026-12-05T00:59:59+01:00",
+          "enlace": "https://itad.link/01a1f922-d73a-739a-84b7-f6f7c71e4483/?app=opyd8c"
         },
         {
           "tienda": "PlayerLand",
@@ -291,18 +315,6 @@
           "minimo_tienda": 24.99,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-320e-73a4-a46a-507d6b579765/?app=opyd8c"
-        },
-        {
-          "tienda": "Fanatical",
-          "precio": 21.39,
-          "base": 24.99,
-          "descuento": 14,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 5.24,
-          "caduca": "2026-11-20T10:00:00+01:00",
-          "enlace": "https://itad.link/018d9386-320d-713c-bedd-73acfee121e4/?app=opyd8c"
         },
         {
           "tienda": "Gamesload",
@@ -363,7 +375,7 @@
           "base": 9.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 4.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -390,7 +402,7 @@
           "base": 22.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 11.49,
           "minimo_fecha": "02-10-2026"
         }
@@ -444,7 +456,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 17.99,
           "minimo_fecha": "02-10-2026"
         },
@@ -458,7 +470,7 @@
           "base": 89.98,
           "descuento": 8,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 33.1,
           "minimo_fecha": "02-10-2026",
           "bundleid": "32470"
@@ -500,25 +512,23 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 9.89,
           "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
         {
-          "tienda": "Instant Gaming",
-          "precio": 8.29,
-          "base": null,
-          "descuento": 70,
+          "tienda": "Fanatical",
+          "precio": 8.39,
+          "base": 29.99,
+          "descuento": 72,
           "plataforma": "Steam",
           "cupon": null,
-          "marca": null,
-          "minimo_tienda": null,
-          "caduca": null,
-          "enlace": "https://www.instant-gaming.com/es/2457-comprar-devil-may-cry-hd-collection-pc-steam/",
-          "nombre_en_tienda": "Devil May Cry HD Collection",
-          "disponible": true
+          "marca": "S",
+          "minimo_tienda": 8.24,
+          "caduca": "2026-11-28T00:59:00+01:00",
+          "enlace": "https://itad.link/01986614-332d-70c8-ba2b-3ff0ff46d92f/?app=opyd8c"
         },
         {
           "tienda": "PlayerLand",
@@ -533,6 +543,32 @@
           "enlace": "https://itad.link/019c0b72-8148-7281-91cc-ccf2c66678a7/?app=opyd8c"
         },
         {
+          "tienda": "Instant Gaming",
+          "precio": 9.39,
+          "base": null,
+          "descuento": 66,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/2457-comprar-devil-may-cry-hd-collection-pc-steam/",
+          "nombre_en_tienda": "Devil May Cry HD Collection",
+          "disponible": true
+        },
+        {
+          "tienda": "GreenManGaming",
+          "precio": 9.9,
+          "base": 29.99,
+          "descuento": 67,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": 8.21,
+          "caduca": null,
+          "enlace": "https://itad.link/018d9386-4d11-73e6-8455-76af5d5d36e2/?app=opyd8c"
+        },
+        {
           "tienda": "GamersGate",
           "precio": 25.49,
           "base": 29.99,
@@ -543,18 +579,6 @@
           "minimo_tienda": 4.5,
           "caduca": null,
           "enlace": "https://itad.link/01985269-5dda-7098-b583-170e635ad642/?app=opyd8c"
-        },
-        {
-          "tienda": "Fanatical",
-          "precio": 25.49,
-          "base": 29.99,
-          "descuento": 15,
-          "plataforma": "Steam",
-          "cupon": "FANATICAL15",
-          "marca": null,
-          "minimo_tienda": 8.24,
-          "caduca": "2026-11-20T10:00:00+01:00",
-          "enlace": "https://itad.link/01986614-332d-70c8-ba2b-3ff0ff46d92f/?app=opyd8c"
         },
         {
           "tienda": "GameBillet",
@@ -569,6 +593,18 @@
           "enlace": "https://itad.link/018d9386-4d11-73e6-8455-76af6a60088c/?app=opyd8c"
         },
         {
+          "tienda": "JoyBuggy",
+          "precio": 28.19,
+          "base": 29.99,
+          "descuento": 6,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": null,
+          "minimo_tienda": 4.35,
+          "caduca": null,
+          "enlace": "https://itad.link/01a1f922-dd51-737c-b35c-1f8a6815bc3a/?app=opyd8c"
+        },
+        {
           "tienda": "PlanetPlay",
           "precio": 29.99,
           "base": 29.99,
@@ -579,18 +615,6 @@
           "minimo_tienda": 4.5,
           "caduca": null,
           "enlace": "https://itad.link/019852bb-6df9-7213-afa2-1a319487987a/?app=opyd8c"
-        },
-        {
-          "tienda": "GreenManGaming",
-          "precio": 29.99,
-          "base": 29.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 8.21,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9386-4d11-73e6-8455-76af5d5d36e2/?app=opyd8c"
         },
         {
           "tienda": "IndieGala Store",
@@ -626,7 +650,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 39.89,
           "minimo_fecha": "18-09-2026"
         },
@@ -640,7 +664,7 @@
           "base": 99.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -653,7 +677,7 @@
           "base": 119.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 77.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -708,6 +732,18 @@
           "minimo_tienda": 39.89,
           "caduca": null,
           "enlace": "https://itad.link/0197ad60-6db4-7120-9ff5-9f4d6689fa53/?app=opyd8c"
+        },
+        {
+          "tienda": "JoyBuggy",
+          "precio": 65.79,
+          "base": 69.99,
+          "descuento": 6,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": null,
+          "minimo_tienda": 39.54,
+          "caduca": null,
+          "enlace": "https://itad.link/01a1f922-dd6d-72c8-babc-08156f55c43e/?app=opyd8c"
         },
         {
           "tienda": "PlayerLand",
@@ -767,7 +803,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 29.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -780,7 +816,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 59.99,
           "minimo_fecha": "02-10-2026"
         },
@@ -794,7 +830,7 @@
           "base": 119.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 89.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -802,9 +838,9 @@
       "tiendas": [
         {
           "tienda": "Instant Gaming",
-          "precio": 26.19,
+          "precio": 26.09,
           "base": null,
-          "descuento": 42,
+          "descuento": 43,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -849,6 +885,18 @@
           "minimo_tienda": 29.99,
           "caduca": null,
           "enlace": "https://itad.link/018ffcec-e0b1-72e6-bec6-0090cd9a7bd1/?app=opyd8c"
+        },
+        {
+          "tienda": "JoyBuggy",
+          "precio": 46.99,
+          "base": 49.99,
+          "descuento": 6,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": null,
+          "minimo_tienda": 34.65,
+          "caduca": null,
+          "enlace": "https://itad.link/01a1f922-ded4-73c9-85f0-0c410223db9b/?app=opyd8c"
         },
         {
           "tienda": "PlayerLand",
@@ -909,7 +957,7 @@
           "base": 39.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 19.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -931,12 +979,12 @@
         },
         {
           "tienda": "GreenManGaming",
-          "precio": 39.99,
+          "precio": 20,
           "base": 39.99,
-          "descuento": 0,
+          "descuento": 50,
           "plataforma": "Steam",
           "cupon": null,
-          "marca": null,
+          "marca": "H",
           "minimo_tienda": 20,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-519c-7174-8b63-04da458c4845/?app=opyd8c"
@@ -963,7 +1011,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 59.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -977,7 +1025,7 @@
           "base": 79.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 79.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -990,7 +1038,7 @@
           "base": 99.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 99.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -1059,6 +1107,18 @@
           "enlace": "https://itad.link/018d9386-5634-71ca-ac17-8fff402da137/?app=opyd8c"
         },
         {
+          "tienda": "JoyBuggy",
+          "precio": 56.39,
+          "base": 59.99,
+          "descuento": 6,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": null,
+          "minimo_tienda": 28.17,
+          "caduca": null,
+          "enlace": "https://itad.link/01a1f922-e060-703b-b663-c7bd67538f41/?app=opyd8c"
+        },
+        {
           "tienda": "Gamesload",
           "precio": 59.99,
           "base": 59.99,
@@ -1117,7 +1177,7 @@
           "base": 24.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 16.24,
           "minimo_fecha": "02-10-2026"
         }
@@ -1146,6 +1206,18 @@
           "minimo_tienda": 16.24,
           "caduca": "2026-11-29T23:59:59+01:00",
           "enlace": "https://itad.link/019fae2e-1df3-72b9-adfc-a1cdab1f7294/?app=opyd8c"
+        },
+        {
+          "tienda": "JoyBuggy",
+          "precio": 15.27,
+          "base": 24.99,
+          "descuento": 39,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": "S",
+          "minimo_tienda": 16.24,
+          "caduca": "2026-11-30T00:59:59+01:00",
+          "enlace": "https://itad.link/01a1f922-e0c5-70b2-a926-2a03f119b3be/?app=opyd8c"
         },
         {
           "tienda": "PlayerLand",
@@ -1218,7 +1290,7 @@
           "base": 49.99,
           "descuento": 70,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 14.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1240,12 +1312,12 @@
         },
         {
           "tienda": "GreenManGaming",
-          "precio": 49.99,
+          "precio": 15,
           "base": 49.99,
-          "descuento": 0,
+          "descuento": 70,
           "plataforma": "Steam",
           "cupon": null,
-          "marca": null,
+          "marca": "H",
           "minimo_tienda": 15,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-63d8-72d6-be09-bc54b2634a58/?app=opyd8c"
@@ -1272,7 +1344,7 @@
           "base": 49.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 19.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -1286,7 +1358,7 @@
           "base": 69.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 27.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -1308,12 +1380,12 @@
         },
         {
           "tienda": "GreenManGaming",
-          "precio": 49.99,
+          "precio": 20,
           "base": 49.99,
-          "descuento": 0,
+          "descuento": 60,
           "plataforma": "Steam",
           "cupon": null,
-          "marca": null,
+          "marca": "S",
           "minimo_tienda": 20,
           "caduca": null,
           "enlace": "https://itad.link/01916c11-50fa-73d8-99be-e1dd03339978/?app=opyd8c"
@@ -1353,7 +1425,7 @@
           "base": 12.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 5.19,
           "minimo_fecha": "19-09-2026"
         }
@@ -1375,12 +1447,12 @@
         },
         {
           "tienda": "GreenManGaming",
-          "precio": 12.99,
+          "precio": 5.2,
           "base": 12.99,
-          "descuento": 0,
+          "descuento": 60,
           "plataforma": "Steam",
           "cupon": null,
-          "marca": null,
+          "marca": "H",
           "minimo_tienda": 5.2,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-63d7-7309-b125-fcda842b0632/?app=opyd8c"
@@ -1408,12 +1480,9 @@
           "base": 49.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 19.99,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 49.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -1456,6 +1525,30 @@
           "enlace": "https://itad.link/018d9386-6c96-73a3-8151-d9e681a571d7/?app=opyd8c"
         },
         {
+          "tienda": "JoyBuggy",
+          "precio": 18.8,
+          "base": 49.99,
+          "descuento": 62,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": null,
+          "minimo_tienda": 18.5,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/01a1f922-e523-707d-a070-23a5b7b866ab/?app=opyd8c"
+        },
+        {
+          "tienda": "IndieGala Store",
+          "precio": 19.99,
+          "base": 49.99,
+          "descuento": 60,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": 17.39,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/018d9584-f037-7016-8564-8d3de3d757d7/?app=opyd8c"
+        },
+        {
           "tienda": "GreenManGaming",
           "precio": 20,
           "base": 49.99,
@@ -1492,18 +1585,6 @@
           "enlace": "https://itad.link/018d9386-6c96-73a3-8151-d9e690b4d602/?app=opyd8c"
         },
         {
-          "tienda": "IndieGala Store",
-          "precio": 49.99,
-          "base": 49.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 17.39,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9584-f037-7016-8564-8d3de3d757d7/?app=opyd8c"
-        },
-        {
           "tienda": "Epic Game Store",
           "precio": 49.99,
           "base": 49.99,
@@ -1538,7 +1619,7 @@
           "base": 39.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 23.99,
           "minimo_fecha": "02-10-2026"
         },
@@ -1551,7 +1632,7 @@
           "base": 49.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 27.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -1641,7 +1722,7 @@
           "base": 39.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 19.99,
           "minimo_fecha": "17-11-2026"
         },
@@ -1654,7 +1735,7 @@
           "base": 49.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 24.99,
           "minimo_fecha": "17-11-2026"
         },
@@ -1668,7 +1749,7 @@
           "base": 64.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 32.49,
           "minimo_fecha": "17-11-2026"
         }
@@ -1745,12 +1826,9 @@
           "base": 59.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 29.99,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 59.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -1793,6 +1871,30 @@
           "enlace": "https://itad.link/018e61d5-1655-701d-a746-8a51cc3b44c4/?app=opyd8c"
         },
         {
+          "tienda": "JoyBuggy",
+          "precio": 28.2,
+          "base": 59.99,
+          "descuento": 53,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": "S",
+          "minimo_tienda": 29.7,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/01a1f922-e7ab-7002-9d74-630e73fa76cf/?app=opyd8c"
+        },
+        {
+          "tienda": "IndieGala Store",
+          "precio": 29.99,
+          "base": 59.99,
+          "descuento": 50,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": "S",
+          "minimo_tienda": 29.99,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/018d9585-82d1-73c4-89ea-fe7d513a19ec/?app=opyd8c"
+        },
+        {
           "tienda": "GreenManGaming",
           "precio": 30,
           "base": 59.99,
@@ -1815,18 +1917,6 @@
           "minimo_tienda": 30,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-76c8-72b7-9d9b-0628de18a8ac/?app=opyd8c"
-        },
-        {
-          "tienda": "IndieGala Store",
-          "precio": 59.99,
-          "base": 59.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 29.99,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9585-82d1-73c4-89ea-fe7d513a19ec/?app=opyd8c"
         },
         {
           "tienda": "Epic Game Store",
@@ -1863,12 +1953,9 @@
           "base": 49.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 24.99,
-          "minimo_fecha": "20-11-2026",
-          "bajada": {
-            "desde": 49.99
-          }
+          "minimo_fecha": "20-11-2026"
         }
       ],
       "tiendas": [
@@ -1897,6 +1984,30 @@
           "enlace": "https://www.instant-gaming.com/es/17853-comprar-horizon-zero-dawn-remastered-pc-juego-steam-europe/",
           "nombre_en_tienda": "Horizon Zero Dawn Remastered",
           "disponible": true
+        },
+        {
+          "tienda": "JoyBuggy",
+          "precio": 23.5,
+          "base": 49.99,
+          "descuento": 53,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": "S",
+          "minimo_tienda": 25,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/01a1f922-e7ae-733d-a6ae-37b56b6f43ba/?app=opyd8c"
+        },
+        {
+          "tienda": "IndieGala Store",
+          "precio": 24.99,
+          "base": 49.99,
+          "descuento": 50,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": "S",
+          "minimo_tienda": 24.99,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/0192d382-11c7-7252-bb67-a9b90b30ab7b/?app=opyd8c"
         },
         {
           "tienda": "GreenManGaming",
@@ -1947,18 +2058,6 @@
           "enlace": "https://itad.link/01935432-0fac-7028-bf8b-330c2e0ee955/?app=opyd8c"
         },
         {
-          "tienda": "IndieGala Store",
-          "precio": 49.99,
-          "base": 49.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 29.99,
-          "caduca": null,
-          "enlace": "https://itad.link/0192d382-11c7-7252-bb67-a9b90b30ab7b/?app=opyd8c"
-        },
-        {
           "tienda": "Epic Game Store",
           "precio": 49.99,
           "base": 49.99,
@@ -1993,7 +2092,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 19.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -2034,7 +2133,7 @@
           "base": 4.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 4.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -2075,7 +2174,7 @@
           "base": 14.99,
           "descuento": 70,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 4.49,
           "minimo_fecha": "02-10-2026"
         }
@@ -2102,12 +2201,9 @@
           "base": 59.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 23.99,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 59.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -2150,6 +2246,30 @@
           "enlace": "https://itad.link/018d9386-9338-71ed-919d-2325141aac33/?app=opyd8c"
         },
         {
+          "tienda": "JoyBuggy",
+          "precio": 22.56,
+          "base": 59.99,
+          "descuento": 62,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": "S",
+          "minimo_tienda": 23.7,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/01a1f922-ebf4-7250-b6de-8ebe089d73cd/?app=opyd8c"
+        },
+        {
+          "tienda": "IndieGala Store",
+          "precio": 23.99,
+          "base": 59.99,
+          "descuento": 60,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": "S",
+          "minimo_tienda": 23.99,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/018d9585-23e0-72e1-9b62-f18f7d4670e1/?app=opyd8c"
+        },
+        {
           "tienda": "GreenManGaming",
           "precio": 24,
           "base": 59.99,
@@ -2186,18 +2306,6 @@
           "enlace": "https://itad.link/018d9386-9338-71ed-919d-23251bffa041/?app=opyd8c"
         },
         {
-          "tienda": "IndieGala Store",
-          "precio": 59.99,
-          "base": 59.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 23.99,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9585-23e0-72e1-9b62-f18f7d4670e1/?app=opyd8c"
-        },
-        {
           "tienda": "Epic Game Store",
           "precio": 59.99,
           "base": 59.99,
@@ -2232,12 +2340,9 @@
           "base": 49.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 19.99,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 49.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -2280,6 +2385,30 @@
           "enlace": "https://itad.link/018d9386-9338-71ed-919d-2324f98b675a/?app=opyd8c"
         },
         {
+          "tienda": "JoyBuggy",
+          "precio": 18.8,
+          "base": 49.99,
+          "descuento": 62,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": "S",
+          "minimo_tienda": 19.75,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/01a1f922-ebfc-70f2-bf2c-8b0a52551ba9/?app=opyd8c"
+        },
+        {
+          "tienda": "IndieGala Store",
+          "precio": 19.99,
+          "base": 49.99,
+          "descuento": 60,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": "S",
+          "minimo_tienda": 19.99,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/018d9585-23e2-7163-bf6e-1c90dd1557ff/?app=opyd8c"
+        },
+        {
           "tienda": "GreenManGaming",
           "precio": 20,
           "base": 49.99,
@@ -2316,18 +2445,6 @@
           "enlace": "https://itad.link/018d9386-9338-71ed-919d-2324ff8276e7/?app=opyd8c"
         },
         {
-          "tienda": "IndieGala Store",
-          "precio": 49.99,
-          "base": 49.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 19.99,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9585-23e2-7163-bf6e-1c90dd1557ff/?app=opyd8c"
-        },
-        {
           "tienda": "Epic Game Store",
           "precio": 49.99,
           "base": 49.99,
@@ -2362,7 +2479,7 @@
           "base": 28.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 21.74,
           "minimo_fecha": "18-09-2026"
         }
@@ -2389,7 +2506,7 @@
           "base": 28.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 9.56,
           "minimo_fecha": "18-09-2026"
         }
@@ -2444,7 +2561,7 @@
           "base": 13.29,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 4.51,
           "minimo_fecha": "18-09-2026"
         }
@@ -2487,7 +2604,7 @@
           "base": 59.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 23.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -2509,9 +2626,9 @@
         },
         {
           "tienda": "GreenManGaming",
-          "precio": 59.99,
+          "precio": 24,
           "base": 59.99,
-          "descuento": 0,
+          "descuento": 60,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
@@ -2542,7 +2659,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 14.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -2550,13 +2667,13 @@
       "tiendas": [
         {
           "tienda": "GreenManGaming",
-          "precio": 29.99,
+          "precio": 13.5,
           "base": 29.99,
-          "descuento": 0,
+          "descuento": 55,
           "plataforma": "Steam",
           "cupon": null,
-          "marca": null,
-          "minimo_tienda": 15,
+          "marca": "S",
+          "minimo_tienda": 13.5,
           "caduca": null,
           "enlace": "https://itad.link/0197abe6-2d53-704c-b82c-ea99455bbf34/?app=opyd8c"
         },
@@ -2576,7 +2693,7 @@
       "minimo_itad": {
         "siempre": 9.31,
         "ano": 9.31,
-        "trimestre": 14.99
+        "trimestre": 13.5
       }
     },
     {
@@ -2595,7 +2712,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 27.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -2622,7 +2739,7 @@
           "base": 19.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 9.99,
           "minimo_fecha": "19-09-2026"
         }
@@ -2630,12 +2747,12 @@
       "tiendas": [
         {
           "tienda": "GreenManGaming",
-          "precio": 19.99,
+          "precio": 10,
           "base": 19.99,
-          "descuento": 0,
+          "descuento": 50,
           "plataforma": "Steam",
           "cupon": null,
-          "marca": null,
+          "marca": "S",
           "minimo_tienda": 10,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-aa82-72a0-8a45-3ba8cff72c34/?app=opyd8c"
@@ -2663,7 +2780,7 @@
           "base": 59.99,
           "descuento": 65,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 17.99,
           "minimo_fecha": "25-09-2026"
         },
@@ -2676,7 +2793,7 @@
           "base": 69.99,
           "descuento": 65,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 20.99,
           "minimo_fecha": "25-09-2026"
         },
@@ -2689,7 +2806,7 @@
           "base": 89.99,
           "descuento": 65,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 26.99,
           "minimo_fecha": "25-09-2026"
         }
@@ -2747,14 +2864,14 @@
         },
         {
           "tienda": "Fanatical",
-          "precio": 53.99,
+          "precio": 44.99,
           "base": 59.99,
-          "descuento": 10,
+          "descuento": 25,
           "plataforma": "Steam",
           "cupon": null,
           "marca": null,
           "minimo_tienda": 18.59,
-          "caduca": "2026-11-24T17:00:00+01:00",
+          "caduca": "2026-11-27T17:00:00+01:00",
           "enlace": "https://itad.link/018d9386-ab69-7259-a00d-8e36a83dc0bc/?app=opyd8c"
         }
       ],
@@ -2780,7 +2897,7 @@
           "base": 59.99,
           "descuento": 70,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 17.99,
           "minimo_fecha": "25-09-2026"
         },
@@ -2793,7 +2910,7 @@
           "base": 79.99,
           "descuento": 75,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 19.99,
           "minimo_fecha": "25-09-2026"
         }
@@ -2884,7 +3001,7 @@
           "base": 19.5,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 3.9,
           "minimo_fecha": "02-10-2026"
         }
@@ -2911,12 +3028,9 @@
           "base": 59.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 23.99,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 59.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -2959,6 +3073,30 @@
           "enlace": "https://itad.link/018d9386-b5e9-70cd-8576-c9e1f5d8d523/?app=opyd8c"
         },
         {
+          "tienda": "JoyBuggy",
+          "precio": 22.56,
+          "base": 59.99,
+          "descuento": 62,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": "S",
+          "minimo_tienda": 23.7,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/01a1f922-f3a0-71dd-b436-ecbb45aab0cf/?app=opyd8c"
+        },
+        {
+          "tienda": "IndieGala Store",
+          "precio": 23.99,
+          "base": 59.99,
+          "descuento": 60,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": "S",
+          "minimo_tienda": 23.99,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/018d9585-24b8-71a1-be06-9c4ec55a82a3/?app=opyd8c"
+        },
+        {
           "tienda": "GreenManGaming",
           "precio": 24,
           "base": 59.99,
@@ -2995,18 +3133,6 @@
           "enlace": "https://itad.link/018d9386-b5e9-70cd-8576-c9e205120ae7/?app=opyd8c"
         },
         {
-          "tienda": "IndieGala Store",
-          "precio": 59.99,
-          "base": 59.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 23.99,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9585-24b8-71a1-be06-9c4ec55a82a3/?app=opyd8c"
-        },
-        {
           "tienda": "Epic Game Store",
           "precio": 59.99,
           "base": 59.99,
@@ -3041,12 +3167,9 @@
           "base": 59.99,
           "descuento": 67,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 19.79,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 59.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -3089,6 +3212,30 @@
           "enlace": "https://itad.link/018d9386-b8f6-71f0-9974-87af4055edb9/?app=opyd8c"
         },
         {
+          "tienda": "JoyBuggy",
+          "precio": 18.61,
+          "base": 59.99,
+          "descuento": 69,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": "S",
+          "minimo_tienda": 19.5,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/01a1f922-f4c8-71a3-9a98-baabb98c878e/?app=opyd8c"
+        },
+        {
+          "tienda": "IndieGala Store",
+          "precio": 19.79,
+          "base": 59.99,
+          "descuento": 67,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": "S",
+          "minimo_tienda": 19.79,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/018d9584-f0e8-72c2-88d5-c1ee0c81a9ee/?app=opyd8c"
+        },
+        {
           "tienda": "GreenManGaming",
           "precio": 19.8,
           "base": 59.99,
@@ -3125,18 +3272,6 @@
           "enlace": "https://itad.link/018d9386-b8f6-71f0-9974-87af532dda32/?app=opyd8c"
         },
         {
-          "tienda": "IndieGala Store",
-          "precio": 59.99,
-          "base": 59.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 19.79,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9584-f0e8-72c2-88d5-c1ee0c81a9ee/?app=opyd8c"
-        },
-        {
           "tienda": "Epic Game Store",
           "precio": 59.99,
           "base": 59.99,
@@ -3171,7 +3306,7 @@
           "base": 24.5,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 9.8,
           "minimo_fecha": "02-10-2026"
         }
@@ -3226,12 +3361,9 @@
           "base": 59.99,
           "descuento": 67,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 19.79,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 59.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -3274,6 +3406,30 @@
           "enlace": "https://itad.link/018d9386-bf9b-70b1-92cf-d32ddbd1658b/?app=opyd8c"
         },
         {
+          "tienda": "JoyBuggy",
+          "precio": 18.61,
+          "base": 59.99,
+          "descuento": 69,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": "S",
+          "minimo_tienda": 19.5,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/01a1f922-f5cb-72a7-99f6-3a247b34c1fb/?app=opyd8c"
+        },
+        {
+          "tienda": "IndieGala Store",
+          "precio": 19.79,
+          "base": 59.99,
+          "descuento": 67,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": "S",
+          "minimo_tienda": 19.79,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/018d9584-f04e-706c-8b12-62bfd792a27f/?app=opyd8c"
+        },
+        {
           "tienda": "GreenManGaming",
           "precio": 19.8,
           "base": 59.99,
@@ -3310,18 +3466,6 @@
           "enlace": "https://itad.link/018d9386-bf9c-70ab-9f97-a3ef882f35c2/?app=opyd8c"
         },
         {
-          "tienda": "IndieGala Store",
-          "precio": 59.99,
-          "base": 59.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 19.79,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9584-f04e-706c-8b12-62bfd792a27f/?app=opyd8c"
-        },
-        {
           "tienda": "Epic Game Store",
           "precio": 59.99,
           "base": 59.99,
@@ -3356,7 +3500,7 @@
           "base": 39.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 23.99,
           "minimo_fecha": "17-11-2026"
         },
@@ -3369,7 +3513,7 @@
           "base": 59.99,
           "descuento": 40,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 35.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -3410,6 +3554,20 @@
           "minimo_tienda": 23.99,
           "caduca": null,
           "enlace": "https://itad.link/019984c5-2945-72e8-b35e-36159c1e4ec1/?app=opyd8c"
+        },
+        {
+          "tienda": "Instant Gaming",
+          "precio": 31.29,
+          "base": null,
+          "descuento": 14,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": null,
+          "caduca": null,
+          "enlace": "https://www.instant-gaming.com/es/18299-comprar-sonic-racing-crossworlds-pc-steam/",
+          "nombre_en_tienda": "Sonic Racing: CrossWorlds",
+          "disponible": true
         },
         {
           "tienda": "Fanatical",
@@ -3458,7 +3616,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 5.99,
           "minimo_fecha": "02-11-2026"
         }
@@ -3477,6 +3635,18 @@
           "enlace": "https://www.instant-gaming.com/es/16645-comprar-steamworld-heist-ii-pc-juego-steam/",
           "nombre_en_tienda": "SteamWorld Heist II",
           "disponible": true
+        },
+        {
+          "tienda": "GreenManGaming",
+          "precio": 6,
+          "base": 29.99,
+          "descuento": 80,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": "S",
+          "minimo_tienda": 6,
+          "caduca": null,
+          "enlace": "https://itad.link/019132af-2365-7176-8ee0-d0f1eb0ce1b7/?app=opyd8c"
         },
         {
           "tienda": "Fanatical",
@@ -3501,18 +3671,6 @@
           "minimo_tienda": 7.49,
           "caduca": null,
           "enlace": "https://itad.link/018eeca5-b1e0-722a-952e-e4ffda820432/?app=opyd8c"
-        },
-        {
-          "tienda": "GreenManGaming",
-          "precio": 29.99,
-          "base": 29.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 7.5,
-          "caduca": null,
-          "enlace": "https://itad.link/019132af-2365-7176-8ee0-d0f1eb0ce1b7/?app=opyd8c"
         }
       ],
       "minimo_itad": {
@@ -3537,12 +3695,9 @@
           "base": 69.99,
           "descuento": 33,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 46.89,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 69.99
-          }
+          "minimo_fecha": "02-10-2026"
         },
         {
           "nombre": "Edición Completa",
@@ -3553,12 +3708,9 @@
           "base": 89.99,
           "descuento": 33,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 60.29,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 89.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -3601,6 +3753,18 @@
           "enlace": "https://itad.link/01971760-1377-713c-9761-1b7a5ac8fdca/?app=opyd8c"
         },
         {
+          "tienda": "JoyBuggy",
+          "precio": 44.08,
+          "base": 69.99,
+          "descuento": 37,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": "S",
+          "minimo_tienda": 46.54,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/01a1f922-f9e1-730a-9e25-91ce3aea1b47/?app=opyd8c"
+        },
+        {
           "tienda": "GreenManGaming",
           "precio": 46.89,
           "base": 69.99,
@@ -3625,6 +3789,18 @@
           "enlace": "https://itad.link/019716b1-e80b-7252-b94f-5166ca6a18ca/?app=opyd8c"
         },
         {
+          "tienda": "IndieGala Store",
+          "precio": 46.89,
+          "base": 69.99,
+          "descuento": 33,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": "S",
+          "minimo_tienda": 46.89,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/01971b68-75e8-732b-92ff-123d35c0b666/?app=opyd8c"
+        },
+        {
           "tienda": "Epic Game Store",
           "precio": 69.99,
           "base": 69.99,
@@ -3635,18 +3811,6 @@
           "minimo_tienda": 46.89,
           "caduca": null,
           "enlace": "https://itad.link/01976106-e851-7318-b9f3-7e95ddd2ea49/?app=opyd8c"
-        },
-        {
-          "tienda": "IndieGala Store",
-          "precio": 69.99,
-          "base": 69.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 46.89,
-          "caduca": null,
-          "enlace": "https://itad.link/01971b68-75e8-732b-92ff-123d35c0b666/?app=opyd8c"
         }
       ],
       "minimo_itad": {
@@ -3689,7 +3853,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 19.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -3703,7 +3867,7 @@
           "base": 49.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 19.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -3716,7 +3880,7 @@
           "base": 69.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 48.99,
           "minimo_fecha": "02-10-2026"
         }
@@ -3781,6 +3945,18 @@
           "minimo_tienda": 15,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-dab1-7214-8b89-6ea217bc14fd/?app=opyd8c"
+        },
+        {
+          "tienda": "JoyBuggy",
+          "precio": 46.99,
+          "base": 49.99,
+          "descuento": 6,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": null,
+          "minimo_tienda": 14.7,
+          "caduca": null,
+          "enlace": "https://itad.link/01a1f922-fb72-7041-a9be-66943559ef49/?app=opyd8c"
         }
       ],
       "minimo_itad": {
@@ -3805,7 +3981,7 @@
           "base": 39.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 9.99,
           "minimo_fecha": "18-09-2026"
         },
@@ -3818,7 +3994,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 14.99,
           "minimo_fecha": "18-09-2026"
         }
@@ -3897,6 +4073,18 @@
           "minimo_tienda": 10,
           "caduca": null,
           "enlace": "https://itad.link/0194717f-00a2-709f-9500-7f418af04ad8/?app=opyd8c"
+        },
+        {
+          "tienda": "JoyBuggy",
+          "precio": 37.59,
+          "base": 39.99,
+          "descuento": 6,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": "S",
+          "minimo_tienda": 39.99,
+          "caduca": null,
+          "enlace": "https://itad.link/01a1f922-fb82-72c7-81be-1298232d0240/?app=opyd8c"
         }
       ],
       "minimo_itad": {
@@ -3921,7 +4109,7 @@
           "base": 59.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 50.39,
           "minimo_fecha": "18-09-2026"
         },
@@ -3934,7 +4122,7 @@
           "base": 71.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 50.39,
           "minimo_fecha": "18-09-2026"
         }
@@ -3961,12 +4149,9 @@
           "base": 59.99,
           "descuento": 50,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 29.99,
-          "minimo_fecha": "25-09-2026",
-          "bajada": {
-            "desde": 59.99
-          }
+          "minimo_fecha": "25-09-2026"
         }
       ],
       "tiendas": [
@@ -4005,8 +4190,32 @@
           "cupon": null,
           "marca": null,
           "minimo_tienda": 26.39,
-          "caduca": "2026-12-01T18:00:00+01:00",
+          "caduca": "2026-11-29T16:59:00+01:00",
           "enlace": "https://itad.link/018d9386-89c4-71dd-b17f-8af97701ef55/?app=opyd8c"
+        },
+        {
+          "tienda": "JoyBuggy",
+          "precio": 28.2,
+          "base": 59.99,
+          "descuento": 53,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": "S",
+          "minimo_tienda": 29.7,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/01a1f922-fdb0-7079-95fd-9c8a144c0213/?app=opyd8c"
+        },
+        {
+          "tienda": "IndieGala Store",
+          "precio": 29.99,
+          "base": 59.99,
+          "descuento": 50,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": null,
+          "minimo_tienda": 26.49,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/018d9585-24ac-725c-8f34-1d7634dbdb71/?app=opyd8c"
         },
         {
           "tienda": "GreenManGaming",
@@ -4045,18 +4254,6 @@
           "enlace": "https://itad.link/018d9386-89c4-71dd-b17f-8af97ed209fe/?app=opyd8c"
         },
         {
-          "tienda": "IndieGala Store",
-          "precio": 59.99,
-          "base": 59.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 26.49,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9585-24ac-725c-8f34-1d7634dbdb71/?app=opyd8c"
-        },
-        {
           "tienda": "Epic Game Store",
           "precio": 59.99,
           "base": 59.99,
@@ -4091,7 +4288,7 @@
           "base": 16.79,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 10.07,
           "minimo_fecha": "18-09-2026"
         }
@@ -4118,7 +4315,7 @@
           "base": 12.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 9.09,
           "minimo_fecha": "02-10-2026"
         }
@@ -4159,7 +4356,7 @@
           "base": 29.99,
           "descuento": 0,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 11.99,
           "minimo_fecha": "25-09-2026"
         }
@@ -4178,6 +4375,18 @@
           "enlace": "https://www.instant-gaming.com/es/13621-comprar-trine-5-a-clockwork-conspiracy-pc-juego-steam/",
           "nombre_en_tienda": "Trine 5: A Clockwork Conspiracy",
           "disponible": true
+        },
+        {
+          "tienda": "GreenManGaming",
+          "precio": 11.4,
+          "base": 29.99,
+          "descuento": 62,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": "S",
+          "minimo_tienda": 11.4,
+          "caduca": null,
+          "enlace": "https://itad.link/018d9386-e8a3-7224-92ad-75f2fac989ab/?app=opyd8c"
         },
         {
           "tienda": "GameBillet",
@@ -4228,18 +4437,6 @@
           "enlace": "https://itad.link/018d9386-e8a3-7224-92ad-75f304afa6d9/?app=opyd8c"
         },
         {
-          "tienda": "GreenManGaming",
-          "precio": 29.99,
-          "base": 29.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 11.7,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9386-e8a3-7224-92ad-75f2fac989ab/?app=opyd8c"
-        },
-        {
           "tienda": "Epic Game Store",
           "precio": 29.99,
           "base": 29.99,
@@ -4274,12 +4471,9 @@
           "base": 49.99,
           "descuento": 67,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 16.49,
-          "minimo_fecha": "02-10-2026",
-          "bajada": {
-            "desde": 49.99
-          }
+          "minimo_fecha": "02-10-2026"
         }
       ],
       "tiendas": [
@@ -4322,6 +4516,30 @@
           "enlace": "https://itad.link/018d9386-ec0a-705a-9d23-73f71cf8c466/?app=opyd8c"
         },
         {
+          "tienda": "JoyBuggy",
+          "precio": 15.51,
+          "base": 49.99,
+          "descuento": 69,
+          "plataforma": "Steam",
+          "cupon": "6BCE",
+          "marca": "S",
+          "minimo_tienda": 16.25,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/01a1f923-0208-736f-86b3-f16089278960/?app=opyd8c"
+        },
+        {
+          "tienda": "IndieGala Store",
+          "precio": 16.49,
+          "base": 49.99,
+          "descuento": 67,
+          "plataforma": "Steam",
+          "cupon": null,
+          "marca": "S",
+          "minimo_tienda": 16.49,
+          "caduca": "2026-12-01T18:00:00+01:00",
+          "enlace": "https://itad.link/018d9584-f0fd-72b5-91c9-47b2950e261e/?app=opyd8c"
+        },
+        {
           "tienda": "GreenManGaming",
           "precio": 16.5,
           "base": 49.99,
@@ -4358,18 +4576,6 @@
           "enlace": "https://itad.link/018d9386-ec0b-738b-b95b-1b5178052d26/?app=opyd8c"
         },
         {
-          "tienda": "IndieGala Store",
-          "precio": 49.99,
-          "base": 49.99,
-          "descuento": 0,
-          "plataforma": "Steam",
-          "cupon": null,
-          "marca": null,
-          "minimo_tienda": 16.49,
-          "caduca": null,
-          "enlace": "https://itad.link/018d9584-f0fd-72b5-91c9-47b2950e261e/?app=opyd8c"
-        },
-        {
           "tienda": "Epic Game Store",
           "precio": 49.99,
           "base": 49.99,
@@ -4403,7 +4609,7 @@
           "base": 24.99,
           "descuento": 60,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 9.99,
           "minimo_fecha": "19-09-2026"
         },
@@ -4417,7 +4623,7 @@
           "base": 40.98,
           "descuento": 61,
           "estado": "ok",
-          "consultado": "20-11-2026 08:35",
+          "consultado": "20-11-2026 15:09",
           "minimo": 15.89,
           "minimo_fecha": "19-09-2026",
           "bundleid": "9112"
@@ -4440,12 +4646,12 @@
         },
         {
           "tienda": "GreenManGaming",
-          "precio": 24.99,
+          "precio": 10,
           "base": 24.99,
-          "descuento": 0,
+          "descuento": 60,
           "plataforma": "Steam",
           "cupon": null,
-          "marca": null,
+          "marca": "H",
           "minimo_tienda": 10,
           "caduca": null,
           "enlace": "https://itad.link/018d9386-f805-7025-b7b4-269f4e8af768/?app=opyd8c"
