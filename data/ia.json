@@ -1,79 +1,98 @@
 {
   "seccion": "ia",
-  "actualizado": "20-11-2026 16:12",
+  "actualizado": "21-11-2026 04:09",
   "destacadas": [
     {
-      "titulo": "Anthropic debuta en el Nasdaq con la mayor salida a bolsa de la historia y cierra su primer día un 17 % arriba",
-      "resumen": "La acción se fijó en 83 dólares, abrió en 111,50 y cerró en 97,17 mientras el S&P 500 perdía un 2 % y encadenaba seis caídas seguidas. AMD cayó un 8 % tras un informe de una firma en corto sobre sus vínculos con China, y Nvidia sigue presionada tras la dimisión de Jensen Huang, con Colette Kress como CEO interina. Los minoristas compraron netos 60 millones de dólares en acciones de Anthropic.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/anthropic-salio-a-bolsa-subida-17-ha-conseguido-algo-insolito-aguarle-fiesta-a-todos-sus-rivales",
-      "fecha": "20-11-2026 13:30"
-    },
-    {
-      "titulo": "Signal bloquea las capturas de pantalla para impedir que Gemini y Siri lean tus mensajes",
-      "resumen": "Signal restringe las capturas en iOS 27 y Android para evitar que los agentes de IA integrados en el sistema lean el contenido de la pantalla. Su presidenta, Meredith Whittaker, admite que la solución es «incompleta» (los agentes pueden acceder a los datos por otras vías) y pide a Apple, Google y Microsoft herramientas para que los desarrolladores controlen ese acceso. Tampoco puede aplicarlo aún en macOS.",
+      "titulo": "Un matemático de Anthropic afirma haber resuelto la hipótesis de Riemann con ayuda de Claude",
+      "resumen": "Levent Alpöge asegura haber demostrado, trabajando con Claude, la hipótesis de Riemann, y que el método se extiende a la hipótesis generalizada. La prueba está formalizada en Lean y publicada solo en su web, sin verificación independiente ni comentario de Anthropic. El Clay Mathematics Institute exige que una solución resista dos años de escrutinio antes de plantearse el premio de un millón de dólares.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "fecha": "20-11-2026 13:30"
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "fecha": "20-11-2026 17:34"
     },
     {
-      "titulo": "Nvidia, cerca de comprar Inception, la startup de modelos de difusión, por al menos 500 millones de dólares",
-      "resumen": "Según The Information, la compra reforzaría la línea de código abierto Nemotron y los modelos para robots de Nvidia. Inception, fundada hace dos años, tiene más de 30 empleados y su modelo más reciente es Mercury 3; sus modelos de lenguaje por difusión refinan la respuesta completa en lugar de generar token a token. Los tres cofundadores se incorporarían a tiempo completo.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
-      "fecha": "20-11-2026 15:53"
-    },
-    {
-      "titulo": "Apple se une a la carrera de los agentes de IA que controlan el dispositivo mientras levanta barreras a la competencia",
-      "resumen": "Según Bloomberg, Apple busca un ingeniero sénior para liderar un agente de IA que maneje el dispositivo, que llegaría a finales de 2027 como pronto. En macOS 27.3, los agentes de terceros como ChatGPT necesitan 14 pasos en lugar de cuatro para controlar el Mac, algo que Apple justifica por la protección del usuario y que algunas empresas ven como un freno a la competencia.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
-      "fecha": "20-11-2026 16:03"
-    },
-    {
-      "titulo": "Un chico de 16 años funda una startup de misiles con IA y apunta a reducir el «coste por baja»",
-      "resumen": "Henrijs Dandzbergs, letón, entró en la promoción de otoño de 2026 de Y Combinator y probablemente es el fundador en solitario más joven de su historia. Polemos Industries desarrolla un misil guiado barato de fabricar, lanzable desde equipos portátiles y resistente a inhibidores. Ha ganado medio millón de dólares con el proyecto.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
-      "fecha": "20-11-2026 08:00"
-    },
-    {
-      "titulo": "PwC aconseja meter los beneficios de la IA en las propuestas de actualización de ERP para que las financien",
-      "resumen": "Jennifer Colapietro, de PwC, sostiene que un «clean core» facilita desplegar agentes de IA. Una encuesta a usuarios de SAP halló que el 95 % considera muy difícil justificar la migración; Kingfisher rechazó actualizar y optó por soporte de terceros. El soporte principal de ECC termina en diciembre de 2027.",
+      "titulo": "Atacantes vinculados a China usaron agentes de IA que hallaron y explotaron solos un 0-day para tomar un servidor universitario",
+      "resumen": "Según el CISO de Amazon, CJ Moses, los agentes, basados en el framework abierto Cairn, actuaron durante 48 horas desde el 8 de septiembre contra universidades de Asia oriental. Tras varios intentos fallidos (Redis, Log4Shell, SSRF), encontraron un fallo de path traversal en MONAI Label y en unos 11 minutos pasaron de mapear la API a escribir archivos arbitrarios y abrir una shell inversa como root. Los mantenedores ya han publicado el parche.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/20/ai-could-open-wallets-where-erp-upgrade-pitches-cant-says-pwc/5311221",
-      "fecha": "20-11-2026 13:47"
+      "enlace": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+      "fecha": "20-11-2026 18:30"
+    },
+    {
+      "titulo": "Un investigador planta 2 millones de «canarios» en la cadena de suministro de la IA y descubre una fuga masiva de datos",
+      "resumen": "HD Moore, de Dragos, envió casi dos millones de prompts con secretos únicos (claves de AWS, contraseñas, URLs) a través de routers de IA como OpenRouter o Vercel. Tres proveedores de alojamiento fueron vulnerados y los atacantes reutilizaron un par de cientos de claves de AWS, copiando las peticiones en la puerta de entrada del proveedor. Los prompts se descifran en cada salto de la cadena y pueden quedar registrados indefinidamente.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "fecha": "20-11-2026 21:59"
+    },
+    {
+      "titulo": "Meta reconsidera su objetivo de cero emisiones netas en 2030 por las emisiones récord de sus centros de datos de IA",
+      "resumen": "El informe de sostenibilidad de 2026 sitúa las emisiones totales de Meta en más de 21,7 millones de toneladas de CO2 equivalente en 2025, frente a 15,6 millones en 2024: casi un 40 % más, el mayor salto entre las grandes tecnológicas. Las emisiones netas subieron un 45 %, hasta 11,8 millones. Meta dice que «reevalúa» el plazo de 2030, mientras Amazon, Google y Microsoft mantienen por ahora los suyos.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "fecha": "20-11-2026 22:47"
+    },
+    {
+      "titulo": "Trump amenaza con un «impuesto enorme» a las empresas que muevan centros de datos de IA fuera de EE. UU.",
+      "resumen": "En una rueda de prensa tras su cumbre con Xi Jinping y Putin, Trump dijo que no permitirá que las empresas construyan centros de datos fuera del país o se enfrentarán a un «tremendous tax», y advirtió de que «China se los llevará todos». Reconoció que ni siquiera lo había comentado con su equipo, y no dio detalles. La propuesta llega mientras estados y ciudades imponen moratorias a nuevos centros de datos.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "fecha": "20-11-2026 19:50"
+    },
+    {
+      "titulo": "OpenAI dificulta mucho extraer el razonamiento interno de sus últimos modelos",
+      "resumen": "Los ataques que extraían razonamiento protegido de peticiones previas pasaron de un 54,0 % de éxito en GPT-6 Astra a un 0,2 % en GPT-6.2 Astra; en peticiones activas, del 22,9 % al 0,9 %, según pruebas internas de OpenAI. Combina entrenamiento específico, filtros de entrada y salida, y bloqueos de API, además de banear semanalmente miles o decenas de miles de cuentas. Parte de las mejoras llegan también a GPT-6 Astra.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
+      "fecha": "20-11-2026 21:31"
+    },
+    {
+      "titulo": "Un análisis de Bloomberg de 10 millones de ofertas de empleo muestra que en China las más expuestas a la IA caen 10 puntos más rápido",
+      "resumen": "Bloomberg analizó cerca de 10 millones de ofertas online entre julio de 2021 y junio de 2025: las de puestos muy expuestos a la IA cayeron unos 10 puntos porcentuales más que las menos afectadas. La IA presiona así un mercado laboral chino ya débil, con los trabajadores de nivel inicial y las industrias creativas como los más afectados.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
+      "fecha": "20-11-2026 16:56"
     }
   ],
   "titulares": [
     {
-      "titulo": "Continúan las consecuencias del escándalo de Jensen Huang en Nvidia",
+      "titulo": "Daniel Ek respalda la startup de energía de fusión de un investigador de IA: esto es lo que construyen",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "enlace": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "La función «Collective Wisdom» de Hermes Agent convierte el truco de IA de un empleado en habilidad de todo el equipo",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+      "titulo": "La IA afirmó resolver la hipótesis de Riemann, de 167 años, y un humano también",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "Dario Amodei, CEO de Anthropic: “La IA podría comprimir un siglo de progreso médico en una década”",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/dario-amodei-ceo-anthropic-ia-podria-comprimir-siglo-progreso-medico-decada",
+      "titulo": "El gráfico más malentendido de la IA recibe una gran actualización",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "Dario Amodei, CEO de Anthropic, lanza una advertencia sobre la IA: \"No cederemos a las presiones empresariales ni políticas\"",
+      "titulo": "Los chips sobreviven al entorno espacial, ¿sobrevivirá su financiación?",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "La autoridad de datos neerlandesa señala problemas de seguridad en las gafas con IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/20/dutch-data-watchdog-highlights-safety-issues-with-ai-glasses/5311345",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "El boom de la IA amenaza con una crisis de placas de circuito comparable a la escasez de chips de la pandemia",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "\"La IA no debería acabar con los programadores y las empresas se darán cuenta cuando el daño ya esté hecho\". Ingeniero sobre la caída de Outlook, Teams y los servicios de Microsoft",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/dario-amodei-ceo-anthropic-lanza-una-advertencia-sobre-ia-no-cederemos-las-presiones-empresariales-ni-politicas_7063462_0.html",
-      "fecha": "20-11-2026"
-    },
-    {
-      "titulo": "Max Shestov, desarrollador web: \"Si la IA escribe mejor código que tú, ¿qué te convierte entonces en programador?\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/max-shestov-desarrollador-web-si-ia-escribe-mejor-codigo-que-tu-que-te-convierte-entonces-programador_7048082_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/ia-no-deberia-acabar-con-los-programadores-las-empresas-se-daran-cuenta-cuando-dano-ya-este-hecho-ingeniero-sobre-caida-outlook-teams-los-servicios-microsoft_7063598_0.html",
       "fecha": "20-11-2026"
     }
   ]

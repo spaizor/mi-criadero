@@ -1,0 +1,99 @@
+{
+  "seccion": "ia",
+  "actualizado": "21-11-2026 04:09",
+  "destacadas": [
+    {
+      "titulo": "Un matemático de Anthropic afirma haber resuelto la hipótesis de Riemann con ayuda de Claude",
+      "resumen": "Levent Alpöge asegura haber demostrado, trabajando con Claude, la hipótesis de Riemann, y que el método se extiende a la hipótesis generalizada. La prueba está formalizada en Lean y publicada solo en su web, sin verificación independiente ni comentario de Anthropic. El Clay Mathematics Institute exige que una solución resista dos años de escrutinio antes de plantearse el premio de un millón de dólares.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "fecha": "20-11-2026 17:34"
+    },
+    {
+      "titulo": "Atacantes vinculados a China usaron agentes de IA que hallaron y explotaron solos un 0-day para tomar un servidor universitario",
+      "resumen": "Según el CISO de Amazon, CJ Moses, los agentes, basados en el framework abierto Cairn, actuaron durante 48 horas desde el 8 de septiembre contra universidades de Asia oriental. Tras varios intentos fallidos (Redis, Log4Shell, SSRF), encontraron un fallo de path traversal en MONAI Label y en unos 11 minutos pasaron de mapear la API a escribir archivos arbitrarios y abrir una shell inversa como root. Los mantenedores ya han publicado el parche.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+      "fecha": "20-11-2026 18:30"
+    },
+    {
+      "titulo": "Un investigador planta 2 millones de «canarios» en la cadena de suministro de la IA y descubre una fuga masiva de datos",
+      "resumen": "HD Moore, de Dragos, envió casi dos millones de prompts con secretos únicos (claves de AWS, contraseñas, URLs) a través de routers de IA como OpenRouter o Vercel. Tres proveedores de alojamiento fueron vulnerados y los atacantes reutilizaron un par de cientos de claves de AWS, copiando las peticiones en la puerta de entrada del proveedor. Los prompts se descifran en cada salto de la cadena y pueden quedar registrados indefinidamente.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "fecha": "20-11-2026 21:59"
+    },
+    {
+      "titulo": "Meta reconsidera su objetivo de cero emisiones netas en 2030 por las emisiones récord de sus centros de datos de IA",
+      "resumen": "El informe de sostenibilidad de 2026 sitúa las emisiones totales de Meta en más de 21,7 millones de toneladas de CO2 equivalente en 2025, frente a 15,6 millones en 2024: casi un 40 % más, el mayor salto entre las grandes tecnológicas. Las emisiones netas subieron un 45 %, hasta 11,8 millones. Meta dice que «reevalúa» el plazo de 2030, mientras Amazon, Google y Microsoft mantienen por ahora los suyos.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "fecha": "20-11-2026 22:47"
+    },
+    {
+      "titulo": "Trump amenaza con un «impuesto enorme» a las empresas que muevan centros de datos de IA fuera de EE. UU.",
+      "resumen": "En una rueda de prensa tras su cumbre con Xi Jinping y Putin, Trump dijo que no permitirá que las empresas construyan centros de datos fuera del país o se enfrentarán a un «tremendous tax», y advirtió de que «China se los llevará todos». Reconoció que ni siquiera lo había comentado con su equipo, y no dio detalles. La propuesta llega mientras estados y ciudades imponen moratorias a nuevos centros de datos.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "fecha": "20-11-2026 19:50"
+    },
+    {
+      "titulo": "OpenAI dificulta mucho extraer el razonamiento interno de sus últimos modelos",
+      "resumen": "Los ataques que extraían razonamiento protegido de peticiones previas pasaron de un 54,0 % de éxito en GPT-6 Astra a un 0,2 % en GPT-6.2 Astra; en peticiones activas, del 22,9 % al 0,9 %, según pruebas internas de OpenAI. Combina entrenamiento específico, filtros de entrada y salida, y bloqueos de API, además de banear semanalmente miles o decenas de miles de cuentas. Parte de las mejoras llegan también a GPT-6 Astra.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
+      "fecha": "20-11-2026 21:31"
+    },
+    {
+      "titulo": "Un análisis de Bloomberg de 10 millones de ofertas de empleo muestra que en China las más expuestas a la IA caen 10 puntos más rápido",
+      "resumen": "Bloomberg analizó cerca de 10 millones de ofertas online entre julio de 2021 y junio de 2025: las de puestos muy expuestos a la IA cayeron unos 10 puntos porcentuales más que las menos afectadas. La IA presiona así un mercado laboral chino ya débil, con los trabajadores de nivel inicial y las industrias creativas como los más afectados.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
+      "fecha": "20-11-2026 16:56"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Daniel Ek respalda la startup de energía de fusión de un investigador de IA: esto es lo que construyen",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "La IA afirmó resolver la hipótesis de Riemann, de 167 años, y un humano también",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "El gráfico más malentendido de la IA recibe una gran actualización",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Los chips sobreviven al entorno espacial, ¿sobrevivirá su financiación?",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "La autoridad de datos neerlandesa señala problemas de seguridad en las gafas con IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/20/dutch-data-watchdog-highlights-safety-issues-with-ai-glasses/5311345",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "El boom de la IA amenaza con una crisis de placas de circuito comparable a la escasez de chips de la pandemia",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "\"La IA no debería acabar con los programadores y las empresas se darán cuenta cuando el daño ya esté hecho\". Ingeniero sobre la caída de Outlook, Teams y los servicios de Microsoft",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/ia-no-deberia-acabar-con-los-programadores-las-empresas-se-daran-cuenta-cuando-dano-ya-este-hecho-ingeniero-sobre-caida-outlook-teams-los-servicios-microsoft_7063598_0.html",
+      "fecha": "20-11-2026"
+    }
+  ]
+}
