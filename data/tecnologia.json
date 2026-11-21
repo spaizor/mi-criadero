@@ -1,201 +1,213 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "20-11-2026 15:15",
+  "actualizado": "21-11-2026 03:11",
   "destacadas": [
     {
-      "titulo": "California cita a Nvidia a declarar por los vínculos de Jensen Huang con China",
-      "resumen": "El fiscal general de California, Rob Bonta, ha enviado una citación de investigación a Nvidia para averiguar si sus GPU avanzadas o información confidencial llegaron a China y si la empresa engañó a los inversores. La investigación llega tras la dimisión de Huang por su relación con una mujer a la que EE. UU. considera espía china. El Congreso prepara su propia citación y la SEC abriría un expediente civil.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
-      "fecha": "20-11-2026 14:21"
+      "titulo": "'GTA 6' factura 3.790 millones de dólares en su primer día a la venta",
+      "resumen": "Take-Two cifra en 3.790 millones de dólares la recaudación de 'GTA 6' en 24 horas, muy por encima de los 2.500 millones que estimaba Sensor Tower. El juego acumuló además 32,5 millones de copias vendidas en reservas, y su primer día multiplica por más de cuatro los 815 millones de 'GTA V' en 2013.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/cifras-oficiales-ventas-gta-6/",
+      "fecha": "20-11-2026 21:29"
     },
     {
-      "titulo": "Microsoft propone un truco en el Registro para arreglar los fallos del parche en caliente de noviembre",
-      "resumen": "Microsoft confirma que el hotpatch KB5132043, publicado el 10 de noviembre, hace fallar la instalación o el arranque de aplicaciones que cargan la DLL msi.dll de 32 bits, con errores como 0xC0000099. La solución temporal es fijar la clave «HotPatchTableSize» en 2000 y reiniciar. No afecta a quienes instalaron la actualización acumulativa estándar.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/11/20/microsoft-suggests-registry-hack-to-work-around-hotpatch-woes/5311279",
-      "fecha": "20-11-2026 14:39"
+      "titulo": "Las «mentiras» de Jensen Huang alarmaron al consejo de Nvidia antes de su dimisión",
+      "resumen": "Según fuentes del consejo citadas por Wired, lo que decidió la salida de Huang fue su falta de franqueza, que se extendió un año, desde octubre de 2025, y no tanto las sospechas sobre seguridad nacional. Huang admitió el 8 de noviembre una relación con Alice Huang, exempleada de Megaspeed, empresa de Singapur ligada a Nvidia, tras haberla negado ante el consejo. El presidente, Harvey Jones, intenta frenar el debate sobre un posible regreso.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
+      "fecha": "20-11-2026 20:52"
     },
     {
-      "titulo": "El ordenador cuántico de Google resuelve con un 98,3 % de acierto un juego considerado imposible",
-      "resumen": "Los procesadores cuánticos Willow, de 105 cúbits, han logrado un 98,3 % de efectividad en un juego de cuadrícula 3x3 que clásicamente no pasa de 8 de cada 9. La clave es la contextualidad cuántica. Google publica los resultados en la revista Science.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/ordenador-cuantico-google-consigue-ganar-3x3-juego-imposible-que-ningun-superordenador-convencional-ha-logrado-resolver_7063482_0.html",
-      "fecha": "20-11-2026 13:44"
-    },
-    {
-      "titulo": "TP-Link sigue sin poder vender sus últimos routers en EE. UU. por el veto a los routers extranjeros",
-      "resumen": "El Gobierno de Trump prohibió en marzo de 2026 importar y vender nuevos modelos de routers diseñados o fabricados fuera de EE. UU., y TP-Link no ha obtenido exención, a diferencia de algunos rivales. Sus nuevos Wi-Fi 8, como el Archer 8 Ultra (899,99 libras en Reino Unido), no pueden venderse allí. La empresa promete ensamblar en EE. UU. y asegura estar separada de su matriz china.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us/",
-      "fecha": "20-11-2026 13:00"
-    },
-    {
-      "titulo": "GrapheneOS acusa a Google de presionar a los fabricantes en su contra",
-      "resumen": "Los desarrolladores de GrapheneOS denuncian en Mastodon que Google sabotea los desarrollos abiertos, justo cuando Motorola será la primera marca en darle soporte oficial con su Signature 27. Xataka lo enmarca en un Android cada vez más cerrado: LineageOS tiene 1,6 millones de instalaciones frente a más de 3.800 millones de usuarios de Android.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/moviles/grapheneos-acusa-a-google-presionar-a-fabricantes-su-ultimo-paso-android-cada-vez-cerrado",
-      "fecha": "20-11-2026 13:15"
-    },
-    {
-      "titulo": "Renfe avisa a sus clientes de que sus datos pudieron filtrarse en el ciberataque de septiembre",
-      "resumen": "Desde este viernes Renfe envía un correo a los afectados por el acceso no autorizado del 24 de septiembre a sistemas de venta de billetes. Pudieron exfiltrarse datos de contacto, viajes y documentos de identidad como DNI o NIE; las contraseñas están cifradas. La Guardia Civil detuvo en octubre al presunto autor y Renfe no tiene constancia de uso fraudulento, pero recomienda cambiar la contraseña y desconfiar del phishing.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/seguridad/renfe-filtracion-datos-dni-correo-ciberataque/",
-      "fecha": "20-11-2026 12:51"
-    },
-    {
-      "titulo": "Los grupos de WhatsApp ya admiten hasta 1.500 participantes",
-      "resumen": "WhatsApp ha empezado a desplegar en Android e iOS el aumento del límite de 1.024 a 1.500 miembros por grupo, según WABetaInfo, pensado para administradores de colegios y comunidades. El despliegue es gradual. La app también ha añadido anclar mensajes durante más tiempo y filtrar por menciones y respuestas.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2322717/whatsapps-group-chats-can-now-have-up-to-1500-members/",
-      "fecha": "20-11-2026 12:48"
-    },
-    {
-      "titulo": "Por qué los robots abandonan a Uber: Waymo y Serve Robotics quieren llegar solos al cliente",
-      "resumen": "Waymo pondrá fin en enero de 2028 a su exclusividad con Uber en Austin y Atlanta, y sus usuarios podrán pedir viajes directamente en su app. Serve Robotics, con miles de robots de reparto, no renovará su acuerdo con Uber Eats en 2027. Las empresas de autonomía ya son un negocio comercial, aunque deficitario, y no quieren intermediarios.",
+      "titulo": "YouTube pagaría 3.000 millones de dólares para cerrar las demandas de distritos escolares por adicción",
+      "resumen": "Según Bloomberg, YouTube ha alcanzado un acuerdo en principio con miles de distritos escolares de EE. UU. que le acusan de un diseño adictivo que daña a los menores, e incluiría nuevas medidas de protección para adolescentes. En agosto Meta pactó 17.100 millones de dólares en 10 años con 47 estados, y el próximo juicio, contra Meta, Snap y TikTok, es en febrero de 2027 en Oakland.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1037667/waymo-serve-robotics-ditch-uber-autonomous-partnerships",
-      "fecha": "20-11-2026 13:00"
+      "enlace": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+      "fecha": "20-11-2026 21:43"
+    },
+    {
+      "titulo": "Bending Spoons compra Mailchimp a Intuit por 3.680 millones de dólares",
+      "resumen": "Intuit vende Mailchimp, que compró en 2021 por unos 12.000 millones, a la italiana Bending Spoons. El 90 % del pago es en efectivo, e Intuit recibirá además acciones de Bending Spoons por 368 millones. Intuit usará los fondos para recomprar acciones y centrarse en herramientas de IA para pequeñas empresas.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/",
+      "fecha": "20-11-2026 17:16"
+    },
+    {
+      "titulo": "Google apagará Google Assistant en los altavoces inteligentes en 2027",
+      "resumen": "La app Nest dejará de funcionar el 25 de enero de 2027 y sus dispositivos pasarán a Google Home, con las suscripciones Nest Aware de primera generación migradas a Google Home Premium. El 2 de agosto de 2027 Gemini for Home sustituirá a Assistant en altavoces y pantallas inteligentes, y el 25 de marzo Google empezará a borrar datos de cuentas Nest.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+      "fecha": "20-11-2026 19:00"
+    },
+    {
+      "titulo": "Motorola confirma qué móviles recibirán Android 17",
+      "resumen": "Motorola ha publicado en su web de Brasil la lista de modelos que se actualizarán: el Signature 27 lo traerá de serie y después llegará a la gama Razr (hasta el Razr 70 Ultra y el Razr Fold), Edge (del 50 al 70) y Moto G (G86, G77, G75, G67, G57, G56, G47, G37 y G Max). El despliegue será gradual y sin fecha.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/moviles-motorola-que-recibiran-android-17/",
+      "fecha": "20-11-2026 17:34"
+    },
+    {
+      "titulo": "Microsoft quiere unir varios PC por USB4 para ejecutar modelos de IA grandes",
+      "resumen": "Microsoft ha presentado una versión preliminar para desarrolladores que combina memoria y potencia gráfica de varios PC conectados por USB4, usando acceso remoto directo a memoria. Afirma reducir hasta cuatro veces la latencia frente a otras alternativas sobre USB4, con enlaces de 40 y de 80 Gbps, sin redes complejas ni hardware especializado.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/microsoft-quiere-que-conectes-varios-pc-con-un-cable-usb4-para-crear-un-superordenador-casa_7063712_0.html",
+      "fecha": "20-11-2026 21:23"
+    },
+    {
+      "titulo": "Una empresa de transcripción usada por policías y fiscalías dejó expuestos datos de clientes en internet",
+      "resumen": "Tigerfish, de San Francisco, dejó en un bucket de Amazon S3 sin contraseña transcripciones de interrogatorios, imágenes de cámaras corporales, audios, vídeos y facturas. El investigador Anurag Sen los halló en octubre y avisó sin respuesta; la empresa cerró el acceso tras contactar TechCrunch.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/",
+      "fecha": "20-11-2026 16:46"
     }
   ],
   "titulares": [
     {
-      "titulo": "Tras la salida de Jensen Huang, dudas sobre un estilo de gestión basado en el miedo",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
-      "fecha": "20-11-2026"
-    },
-    {
-      "titulo": "El Gobierno de EE. UU. cambia a su responsable de ciberseguridad",
+      "titulo": "Alemania va en serio con una compra de TikTok Europa",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2322705/the-trump-administration-has-replaced-its-cybersecurity-chief/",
+      "enlace": "https://www.engadget.com/2323606/germany-seems-to-be-serious-about-a-tiktok-europe-takeover/",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "Un error de passkeys en Windows 11 muestra un fallo tras un inicio de sesión correcto",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/20/windows-11-passkey-bug-cries-failure-after-successful-sign-in/5311263",
-      "fecha": "20-11-2026"
-    },
-    {
-      "titulo": "Solo la tribu seminola puede ofrecer juego online en Florida, y está furiosa con DraftKings",
+      "titulo": "La FCC de Trump prohíbe a California aplicar normas de telefonía contra AT&T",
       "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/11/seminole-tribe-tries-to-stop-draftkings-illegal-gambling-in-florida/",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "Ubuntu Core Desktop apunta a debutar en la 28.04 con la mira puesta en ser la opción por defecto",
+      "titulo": "Las dificultades de Starshield en Ucrania podrían amenazar el negocio militar de SpaceX",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Los trabajadores del Internet Archive se sindican",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2323828/the-internet-archives-workers-are-unionizing/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Los datos robados a Visa y Mastercard sirven para phishing, no para vaciar cuentas, según investigadores",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/11/20/ubuntu-core-desktop-targets-2804-debut-with-default-status-in-its-sights/5310837",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/20/visa-mastercard-theft-included-info-useful-for-phishing-but-not-draining-bank-accounts-say-researchers/5311478",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "EE. UU. dejó vender a Nvidia y AMD enormes cantidades de chips a empresas chinas vinculadas al ejército",
+      "titulo": "Autorizan a las prisiones a bloquear móviles de contrabando; CTIA avisa de que afectará a los cercanos",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Teenage Engineering presenta su primer reproductor de CD, con aspecto de tocadiscos",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2323390/teenage-engineerings-first-cd-player-kind-of-looks-like-a-turntable/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "Geotermia de roca ultracaliente, posible solución al problema energético de los centros de datos",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes/",
+      "fecha": "20-11-2026"
+    },
+    {
+      "titulo": "El último parche opcional de 2026 de Microsoft llega cargado de novedades",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/legal/2026/11/20/us-let-nvidia-and-amd-sell-bucketloads-of-chips-to-military-linked-chinese-companies/5311200",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/20/microsofts-last-non-security-preview-of-2026-packs-a-punch/5311300",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "El cumplimiento de las normas de mercado de la UE por parte de las grandes tecnológicas es «de cara a la galería», dice una asociación de consumidores",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/legal/2026/11/20/big-techs-compliance-with-eu-market-rules-is-performative-consumer-group-says/5311066",
+      "titulo": "Los prestamistas de SpaceX no quieren que Musk lance su garantía al espacio",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "Ha tenido que llegar el Black Friday para que el Galaxy Watch Ultra2 baje de precio. Y lo ha hecho más que nunca",
+      "titulo": "Freidora de aire y olla multifunción: este electrodoméstico 10 en 1 de Ninja es perfecto para cocinas pequeñas y un chollo hoy",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/ha-tenido-que-llegar-black-friday-galaxy-watch-ultra2-baje-precio-ha-hecho-que-nunca",
+      "enlace": "https://www.xataka.com/seleccion/freidora-aire-olla-multifuncion-este-electrodomestico-10-1-ninja-perfecto-para-cocinas-pequenas-chollo-hoy",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "No te pases otro verano más limpiando la piscina: compra ahora un robot de limpieza en el Black Friday y ahorra hasta 300 euros",
+      "titulo": "‘GTA 6’: el truco para conseguir «dinero infinito» apenas comienza el juego",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/brands/aiper-robot-piscinas-black-friday/",
+      "enlace": "https://hipertextual.com/videojuegos/gta-6-truco-glitch-dinero-infinito/",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "Cuatro cosas únicas del Xiaomi 18 Pro que no tienen los demás: así se siente al probarlo",
+      "titulo": "O2 desvela por qué tu móvil no siempre se conecta al 5G más rápido cuando vas por la calle",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/zona-xiaomi/moviles/cuatro-cosas-unicas-xiaomi-18-pro/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/o2-confirma-requisitos-5g/",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "Alerta Windows 11: muchas de tus aplicaciones y juegos ya instalados en tu PC podrían dejar de funcionar a partir de 2027",
+      "titulo": "El ciberataque a Renfe fue peor de lo anunciado: los hackers pudieron llevarse tu DNI y hasta tus contraseñas",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/alerta-windows-11-muchas-tus-aplicaciones-juegos-ya-instalados-tu-pc-podrian-dejar-funcionar-partir-2027_7063476_0.html",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/ciberataque-renfe-fue-peor-anunciado-los-hackers-pudieron-llevarse-tu-dni-hasta-tus-contrasenas_7063713_0.html",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "El Black Friday es un momento ideal para crear tu página web: puedes crearla, alojarla y tener hasta correo por menos de 2 euros al mes",
+      "titulo": "Solo durante este fin de semana: Dyson tira el precio de varios de sus dispositivos estrella",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/black-friday-momento-ideal-para-crear-tu-pagina-web-puedes-crearla-alojarla-tener-correo-2-euros-al-mes",
+      "enlace": "https://www.xataka.com/seleccion/solo-durante-este-fin-semana-dyson-tira-precio-varios-sus-dispositivos-estrella",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "Digi ya cambia el router a casi todos sus clientes, pero los de su fibra más rápida siguen esperando",
+      "titulo": "Crean una aplicación que acaba con el problema más molesto de Android Auto para ver YouTube",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/digi-cambio-router-mas-tarifas-fibra-smart/",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/fermata-auto-youtube-android-auto/",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "José Miguel Contreras, creador de La Séptima, el nuevo canal de la TDT: \"Para mí el éxito será que nos vea gente de derechas\"",
+      "titulo": "La Séptima arrasa también fuera de la TDT: estas son todas las formas, además de la antena convencional, para ver el nuevo canal",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/jose-miguel-contreras-creador-septima-nuevo-canal-tdt-para-mi-exito-sera-que-nos-vea-gente-derechas_7063480_0.html",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-arrasa-tambien-fuera-tdt-estas-son-todas-las-formas-ademas-antena-convencional-para-ver-nuevo-canal_7063588_0.html",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "En 1945, la Segunda Guerra Mundial llegó a su fin. Para 286 españoles, la salida no llegó hasta 11 años después en un barco de la Cruz Roja",
+      "titulo": "El chollo del Black Friday de Lidl (por menos de 20 euros): una máquina de palomitas ideal para las tardes de peli, sofá y manta",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/1945-segunda-guerra-mundial-llego-a-su-fin-para-286-espanoles-salida-no-llego-1954-barco-cruz-roja",
+      "enlace": "https://www.xataka.com/seleccion/chollo-black-friday-lidl-20-euros-maquina-palomitas-ideal-para-tardes-peli-sofa-manta",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "El truco de 20 segundos en tu factura de la luz para saber si te están cobrando de más justo cuando llega el frío",
+      "titulo": "Ni versión de PC ni emulador en días: qué hay detrás de la filtración de GTA VI",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/fintech/truco-factura-luz-lectura-estimada-real/",
+      "enlace": "https://www.adslzone.net/noticias/videojuegos/filtracion-gta-cyberleek-xbox-build/",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "Mercadona prueba un nuevo sistema de pago en sus supermercados sin dinero en efectivo ni tarjeta de crédito",
+      "titulo": "Si eres cliente de Movistar Plus, olvídate de Netflix, HBO, Prime o Disney+; llegan dos nuevos canales gratis con muchas de las mejores películas de la historia",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/mercadona-prueba-un-nuevo-sistema-pago-sus-supermercados-sin-dinero-efectivo-ni-tarjeta-credito_7063479_0.html",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/si-eres-cliente-movistar-plus-olvidate-netflix-hbo-prime-disney-llegan-dos-nuevos-canales-gratis-con-muchas-las-mejores-peliculas-historia_7063600_0.html",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "Se suponía que 'GTA VI' no tendría primera persona. Los jugadores han tardado exactamente un día en desbloquearla",
+      "titulo": "Llevamos años mirando si los suelos de caucho de los parques son tóxicos. La ciencia apunta a otro problema más inmediato: el calor",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/rockstar-dijo-que-gta-vi-no-tendria-primera-persona-jugadores-han-desbloqueado-su-primer-dia",
+      "enlace": "https://www.xataka.com/investigacion/llevamos-anos-mirando-suelos-caucho-parques-toxicos-ciencia-apunta-a-otro-problema-inmediato-calor",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "El deco 4K de Orange recibe la función más inesperada del año",
+      "titulo": "La app más utilizada de Garmin para entrenar cambia por sorpresa con las cinco novedades que tanto pedían sus clientes",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/deco-4k-orange-funcion-inesperada/",
+      "enlace": "https://www.adslzone.net/noticias/marcas/runna-cinco-novedades-relojes-garmin/",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "Prepara tu Wi-Fi para el teletrabajo: configura tu red para trabajar desde casa con seguridad",
+      "titulo": "El experto en ciberfraude Juan Carlos Galindo advierte: \"El fraude digital ha evolucionado y hoy no empieza en el sistema, empieza en la persona\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/branded/prepara-tu-wifi-teletrabajo-seguridad_7063163_5.html",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/experto-ciberfraude-juan-carlos-galindo-advierte-fraude-digital-ha-evolucionado-hoy-no-empieza-sistema-empieza-persona_7063617_0.html",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "Hay un robot aspirador que cuesta tan solo 52,30 euros. Y mucho ojo porque es de Xiaomi",
+      "titulo": "Si buscas un portátil con buena pantalla, ligero y buen rendimiento, ASUS lo ha puesto en bandeja en su Black Friday",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/hay-robot-aspirador-que-cuesta-solo-52-30-euros-mucho-ojo-porque-xiaomi",
+      "enlace": "https://www.xataka.com/seleccion/buscas-portatil-buena-pantalla-ligero-buen-rendimiento-asus-ha-puesto-bandeja-su-black-friday",
       "fecha": "20-11-2026"
     },
     {
-      "titulo": "La letra pequeña del nuevo salario mínimo de 1.286 euros en 2027 que nadie te cuenta",
+      "titulo": "Tienes activado por defecto un ajuste en tu móvil que comparte más datos de los que crees: así se quita en 15 segundos",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/fintech/smi-2027-1286-euros-condiciones-irpf/",
-      "fecha": "20-11-2026"
-    },
-    {
-      "titulo": "Sergio Parra, periodista de La Séptima: \"Hemos venido a hacernos un hueco; los primeros resultados han superado nuestras expectativas\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/sergio-parra-periodista-septima-hemos-venido-hacernos-un-hueco-los-primeros-resultados-han-superado-nuestras-expectativas_7063466_0.html",
+      "enlace": "https://www.adslzone.net/noticias/moviles/desactivar-uso-diagnostico-android/",
       "fecha": "20-11-2026"
     }
   ]
