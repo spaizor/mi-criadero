@@ -1,0 +1,142 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "21-11-2026 15:11",
+  "destacadas": [
+    {
+      "titulo": "Una startup demanda a Apple en India por NameDrop, la función de los iPhone para compartir contactos",
+      "resumen": "GG Technologies, creadora de la app StayTouch, demanda a Apple ante el Tribunal Superior de Bombay por NameDrop, la función de iOS 17 que intercambia datos de contacto acercando los teléfonos, a la que acusa de infringir una patente india. Pide 15.000 millones de rupias (unos 161,86 millones de dólares), una orden judicial que restrinja NameDrop y que se limite la venta o importación en India de iPhone y Apple Watch con esa función. La mediación previa fracasó en septiembre y Apple no respondió a la solicitud de comentarios.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/",
+      "fecha": "21-11-2026 05:00"
+    },
+    {
+      "titulo": "Las sondas Perseverance y Odyssey de la NASA sufren fallos en Marte",
+      "resumen": "El rover Perseverance entró en modo seguro el 30 de octubre al fallar los latidos de su radio principal; la de respaldo funciona con unos la mitad de su potencia, así que ambas se consideran inoperativas por ahora y las operaciones científicas están en pausa. El orbitador Odyssey, en órbita desde 2001, entró en modo seguro entre el 4 y el 6 de noviembre al detenerse una de sus ruedas de reacción restantes, y solo le quedan unos meses de combustible si hay que recurrir a sus propulsores. Según la NASA, los equipos trabajan primero en devolver la radio de respaldo a operación.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/science/2026/11/21/nasa-mars-rover-and-orbiter-suffer-glitches/5311360",
+      "fecha": "21-11-2026 08:47"
+    },
+    {
+      "titulo": "Euro-Office, la alternativa europea a Microsoft Office, ya está disponible para escritorio",
+      "resumen": "La suite ofimática de código abierto Euro-Office, desarrollada por un consorcio europeo con Nextcloud, IONOS, Open-Xchange y Office.eu, llega en versión de escritorio para Windows 11, macOS y Linux (paquetes .deb y .rpm). Permite trabajar sin conexión, usar las tipografías del sistema y aplicar firmas digitales, y abre archivos DOCX, XLSX y PPTX además de ODT, ODS y ODP. Su código está en GitHub bajo licencia AGPL v3 y se integra con Nextcloud Hub para editar en tiempo real.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/euro-office-alternativa-europa-microsoft-office-ya-esta-disponible-para-descargar-gratis-version-escritorio-para-windows-macos-linux_7061439_0.html",
+      "fecha": "21-11-2026 13:30"
+    },
+    {
+      "titulo": "Microsoft facilitará la actualización a Windows 11 26H2 con una entrega automática",
+      "resumen": "Microsoft empieza a ofrecer Windows 11 26H2 de forma automática a los equipos compatibles, sin tener que buscarla en Windows Update, tanto en PC personales como en equipos de empresa sin departamento de IT. Los usuarios de Windows 10 con un PC compatible con Windows 11 pueden pasar directamente a 26H2. Para quien ya usa 24H2 o 25H2 es un paquete de habilitación ligero; la oferta llegará de forma gradual y el artículo no da cifras de despliegue.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/software/actualizar-windows-11-26h2-mucho-mas-facil/",
+      "fecha": "21-11-2026 11:00"
+    },
+    {
+      "titulo": "Harbinger levanta 240 millones de dólares para fabricar camiones eléctricos medianos",
+      "resumen": "La startup de camiones eléctricos Harbinger ha cerrado una Serie D de 240 millones de dólares, tras un pedido de 300 millones de FedEx y un nuevo contrato de defensa con el Ejército de EE. UU. Se centra en furgonetas de reparto y camiones de clases 4 a 6, con baterías y unidades de accionamiento fabricadas en casa, y ofrece versiones eléctricas e híbridas enchufables. Fundada en 2021 por veteranos de Canoo, QuantumScape y Faraday Future, descarta los camiones de clase 8 como el Tesla Semi.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
+      "fecha": "21-11-2026 13:00"
+    },
+    {
+      "titulo": "Windows 11 prueba un bloqueo remoto de equipos, parecido al modo perdido del iPhone",
+      "resumen": "Microsoft prueba en la versión Insider una función que permite a un administrador bloquear a distancia un PC perdido, robado o comprometido sin borrar sus datos, desde Intune. El equipo cierra las sesiones, oculta las opciones de inicio y muestra una pantalla bloqueada con un mensaje personalizado, que sigue activa aunque se reinicie o pierda la conexión. Solo se desbloquea desde Intune: la cuenta y las credenciales no se revocan, y no hay fecha de lanzamiento general.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/software/windows-11-copia-funcion-iphone-bloqueo-remoto-pc/",
+      "fecha": "21-11-2026 10:00"
+    },
+    {
+      "titulo": "La sonda Hera de la ESA llega a los asteroides Didymos y Dimorphos",
+      "resumen": "La sonda Hera de la ESA, lanzada en octubre de 2024, empezó su fase de llegada en octubre de 2026 y publicó a principios de noviembre la primera imagen detallada de Didymos. Estudiará en profundidad el primer sistema binario de asteroides que se explora de cerca, incluido el cráter que dejó el impacto de la misión DART de la NASA en 2022, que acortó en 33 minutos la órbita de Dimorphos. Medirá con precisión la masa de Dimorphos, clave para valorar si DART funcionó como prueba de defensa planetaria.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/a-space-probe-returns-to-astroids-where-nasa-tested-planetary-defense-systems/",
+      "fecha": "21-11-2026 13:00"
+    },
+    {
+      "titulo": "Un estudio de medio millón de coches eléctricos muestra qué baterías envejecen mejor",
+      "resumen": "La empresa austriaca Aviloo, que certifica el estado de baterías de coches eléctricos de segunda mano, ha analizado cuatro años de datos de más de medio millón de vehículos en América, Europa, Australia y Asia. A 50.000 km, el Nissan Leaf de primera generación conserva de media el 91,23 % de su capacidad y el Hyundai Ioniq 5 el 97,13 %; a 150.000 km, el Leaf baja al 86,67 % y el Mercedes EQA lidera con un 93,97 %. Los Leaf y Renault Zoe, con baterías pequeñas y sin refrigeración líquida, son los que peor envejecen, y la mayor pérdida se produce en los primeros 50.000 km.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/empresa-queria-saber-cuanto-duran-baterias-coches-electricos-paso-nos-ha-dado-enorme-alegria",
+      "fecha": "21-11-2026 13:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Los calcetines que hacen que andar cueste menos: la ciencia ha dado con el santo grial de los vagos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/medicina-y-salud/calcetines-que-hacen-que-andar-cueste-ciencia-ha-dado-santo-grial-vagos",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "Netflix ha estrenado un thriller inspirado en hechos reales sobre un asesino que está arrasando",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/netflix-ley-bestias-serie-polaca-mariusz-trynkiewicz/",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "¿Cuánto duran los gigas acumulados en DIGI? Guía y todo lo que debes saber para no perderlos",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/cuanto-duran-los-gigas-acumulados-digi-guia-todo-que-debes-saber-para-no-perderlos_7059729_0.html",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "Europa tiene miedo al cambio climático. Pero tiene más miedo aún a quedarse sin energía este invierno",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/energia/crisis-energetica-obliga-a-ue-a-pisar-freno-climatico-bruselas-retrasa-dos-anos-normas-emisiones-metano",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "La DGT lo advierte: si conduces con lluvia o nieve hay 5 errores que te ponen en peligro",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/dgt-errores-conducir-lluvia-nieve/",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "Los nuevos emoji 3D de Android tienen unos requisitos sorprendentes: necesitarás 6 GB de RAM y 10 GB libres",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/los-nuevos-emoji-3d-android-tienen-unos-requisitos-sorprendentes-necesitaras-6-gb-ram-10-gb-libres_7064038_0.html",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "Andalucía pone GPS a 29 águilas imperiales y las convierte en centinelas frente al virus del Nilo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/andalucia-pone-gps-a-29-aguilas-imperiales-convierte-centinelas-frente-al-virus-nilo",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "PoE, PoE+ y PoE++: cómo saber si puedes alimentar un punto WiFi, cámara o teléfono solo con el cable Ethernet",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/redes/poe-poe-plus-poe-plus-plus-vatios-como-saber/",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "Neil Harbisson, primer cíborg reconocido del mundo, tiene implantada una antena en su cabeza: \"Te permite experimentar incluso antes de saber qué es algo\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/neil-harbisson-primer-ciborg-reconocido-mundo-tiene-implantada-una-antena-su-cabeza-te-permite-experimentar-incluso-antes-saber-que-es-algo_7056559_0.html",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "Lleva 50 años cruzando España con 2.500 ovejas. Tiene 64 años y un problema: nadie quiere heredar su trabajo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/lleva-50-anos-cruzando-espana-2-500-ovejas-tiene-64-anos-problema-nadie-quiere-heredar-su-trabajo",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "La Séptima derriba una nueva barrera más allá de la TDT y ya puedes seguir sus emisiones en una nueva plataforma",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-derriba-una-nueva-barrera-mas-alla-tdt-ya-puedes-seguir-sus-emisiones-una-nueva-plataforma_7060068_0.html",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "En 1940 un perro en Francia olisqueó un agujero a un lado de un árbol caído y destapó la \"Capilla Sixtina\" de la prehistoria",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/1940-perro-francia-olisqueo-agujero-a-lado-arbol-caido-destapo-capilla-sixtina-prehistoria",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "DIGI activa un nuevo aviso en los móviles de tdos sus clientes para que identifiquen las llamadas comerciales",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/digi-activa-nuevo-aviso-moviles-todos-clientes-identifiquen-llamadas-comerciales_7059114_0.html",
+      "fecha": "21-11-2026"
+    }
+  ]
+}
