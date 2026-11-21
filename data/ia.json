@@ -1,99 +1,111 @@
 {
   "seccion": "ia",
-  "actualizado": "21-11-2026 04:09",
+  "actualizado": "21-11-2026 16:10",
   "destacadas": [
     {
-      "titulo": "Un matemático de Anthropic afirma haber resuelto la hipótesis de Riemann con ayuda de Claude",
-      "resumen": "Levent Alpöge asegura haber demostrado, trabajando con Claude, la hipótesis de Riemann, y que el método se extiende a la hipótesis generalizada. La prueba está formalizada en Lean y publicada solo en su web, sin verificación independiente ni comentario de Anthropic. El Clay Mathematics Institute exige que una solución resista dos años de escrutinio antes de plantearse el premio de un millón de dólares.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-      "fecha": "20-11-2026 17:34"
+      "titulo": "El plan de España para acelerar la IA y los chips: hasta 20 centros públicos con más autonomía",
+      "resumen": "El Consejo de Ministros aprueba un real decreto-ley que crea hasta 20 centros públicos de interés nacional en 10 áreas estratégicas, entre ellas la IA y los semiconductores, con más autonomía para contratar y llevar sus resultados al mercado. El Barcelona Supercomputing Center pasa a ser una fundación pública que podrá crear una empresa para comercializar sus resultados, y la deducción por innovación sube del 12 % al 15 %. El decreto no incluye cifras de dinero y, con las Cortes disueltas, deberá ser convalidado por la Diputación Permanente en 30 días.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/oficial-gobierno-espana-elegira-20-centros-investigacion-para-competir-ia-chips-computacion-cuantica",
+      "fecha": "21-11-2026 09:30"
     },
     {
-      "titulo": "Atacantes vinculados a China usaron agentes de IA que hallaron y explotaron solos un 0-day para tomar un servidor universitario",
-      "resumen": "Según el CISO de Amazon, CJ Moses, los agentes, basados en el framework abierto Cairn, actuaron durante 48 horas desde el 8 de septiembre contra universidades de Asia oriental. Tras varios intentos fallidos (Redis, Log4Shell, SSRF), encontraron un fallo de path traversal en MONAI Label y en unos 11 minutos pasaron de mapear la API a escribir archivos arbitrarios y abrir una shell inversa como root. Los mantenedores ya han publicado el parche.",
+      "titulo": "Genesis AI levanta 500 millones de dólares para su robot sin cabeza Eno",
+      "resumen": "La startup de robótica Genesis AI, fundada en 2024, cerró el 17 de noviembre una ronda de 500 millones de dólares con una valoración de 3.500 millones, liderada por Khosla Ventures, Premji Invest y Eclipse. Su robot Eno no tiene cabeza ni piernas y se centra en las manos: la empresa ha fabricado entre 30 y 40 unidades, que prueba con clientes sin identificar, y espera un lanzamiento más amplio en 2027. Según su CEO, el principal reto es el hardware, porque las manos aguantan solo unas semanas de trabajo regular antes de necesitar reemplazo.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/cabeza-500-millones-robot-genesis-ai-que-europa-quiere-dar-punetazo-robotica",
+      "fecha": "21-11-2026 12:00"
+    },
+    {
+      "titulo": "Las tecnológicas de EE. UU. viven su peor semana desde la pandemia mientras crecen las dudas sobre la IA",
+      "resumen": "Según el Financial Times, el Nasdaq 100 cayó un 5,6 % el viernes y un 10,4 % en la semana, su peor registro desde la crisis del covid, y ya está un 20 % por debajo de su máximo de octubre. El índice de semiconductores bajó un 10,7 % y Nvidia un 14 % tras conocerse que la SEC revisa su contabilidad, mientras Anthropic cedió un 9,1 % un día después de salir a bolsa. Las causas citadas son las dudas sobre las gigantescas inversiones en infraestructura de IA, el escándalo de Nvidia y un petróleo caro por la guerra con Irán que mantiene los tipos altos.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+      "fecha": "21-11-2026 11:27"
+    },
+    {
+      "titulo": "Inkling 2 Mini, un modelo abierto que razona en bucles y funciona en un portátil",
+      "resumen": "Thinking Machines presenta Inkling 2 Mini, con 26.400 millones de parámetros totales (5.400 activos por token), licencia Apache 2.0 y una ventana de contexto de un millón de tokens, que procesa texto e imágenes. Su arquitectura repite tres veces seguidas 12 de sus 24 capas para razonar más sin generar más texto. Según la empresa, empata con Qwen3.8 27B en el Artificial Analysis Intelligence Index con 20 puntos, a una sexta parte del coste, y corre en Macs con 32 GB de memoria o más y en el DGX Spark de Nvidia.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+      "fecha": "21-11-2026 11:33"
+    },
+    {
+      "titulo": "Google obligará a usar Gemini en sus altavoces y pantallas inteligentes desde agosto de 2027",
+      "resumen": "Google confirma el fin del Asistente de Google en los altavoces y pantallas compatibles con Google Home: a partir del 2 de agosto de 2027 Gemini será el único asistente de voz del ecosistema doméstico, sin opción de seguir con el tradicional. La compañía asegura que Gemini llegará a «todos los dispositivos», aunque aún no ha detallado qué diferencias habrá según el hardware de cada producto. Los altavoces de terceros compatibles con Assistant, incluidos algunos modelos de Sonos, podrán actualizarse a Gemini en el futuro.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/asistente-google-tiene-los-dias-contados-tus-altavoces-inteligentes-sera-sustituido-por-gemini-esta-fecha_7064005_0.html",
+      "fecha": "21-11-2026 11:50"
+    },
+    {
+      "titulo": "Copilot podrá ordenar tus carpetas de Windows 11 y decidir qué archivos mover",
+      "resumen": "Microsoft mostró en Ignite 2026 una función opcional de Copilot para Windows 11, llamada «acciones sobre archivos locales», que analiza carpetas como Descargas o Escritorio, identifica documentos por su contenido y los traslada, por ejemplo a una carpeta de OneDrive. La IA pide permiso al usuario en cada sesión de trabajo, el acceso queda limitado a la conversación actual y los cambios pueden deshacerse. Microsoft la presenta como ayuda para tareas repetitivas de organización, aunque en la demostración no se indicó cuándo llegará a los usuarios.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/copilot-podra-ordenar-tus-carpetas-windows-11-por-ti-incluso-decidira-que-archivos-mover_7064028_0.html",
+      "fecha": "21-11-2026 12:50"
+    },
+    {
+      "titulo": "ChatGPT para Super Nintendo: un chatbot de 2,2 millones de parámetros que corre en la consola",
+      "resumen": "El periodista Benj Edwards ha creado un chatbot que funciona en una Super Nintendo, destilado del modelo abierto gpt-oss-120b de OpenAI y capaz de manejar unas 8.000 palabras. Hay dos versiones: una pura de unos 4 MB, en la que cada respuesta sale del propio modelo, y otra de unos 19 MB que añade datos de unos 150.000 artículos de Wikipedia en inglés sencillo. El propio autor reconoce que no es «un asistente útil», porque se equivoca a menudo y a veces con mucha seguridad.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
-      "fecha": "20-11-2026 18:30"
-    },
-    {
-      "titulo": "Un investigador planta 2 millones de «canarios» en la cadena de suministro de la IA y descubre una fuga masiva de datos",
-      "resumen": "HD Moore, de Dragos, envió casi dos millones de prompts con secretos únicos (claves de AWS, contraseñas, URLs) a través de routers de IA como OpenRouter o Vercel. Tres proveedores de alojamiento fueron vulnerados y los atacantes reutilizaron un par de cientos de claves de AWS, copiando las peticiones en la puerta de entrada del proveedor. Los prompts se descifran en cada salto de la cadena y pueden quedar registrados indefinidamente.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-      "fecha": "20-11-2026 21:59"
-    },
-    {
-      "titulo": "Meta reconsidera su objetivo de cero emisiones netas en 2030 por las emisiones récord de sus centros de datos de IA",
-      "resumen": "El informe de sostenibilidad de 2026 sitúa las emisiones totales de Meta en más de 21,7 millones de toneladas de CO2 equivalente en 2025, frente a 15,6 millones en 2024: casi un 40 % más, el mayor salto entre las grandes tecnológicas. Las emisiones netas subieron un 45 %, hasta 11,8 millones. Meta dice que «reevalúa» el plazo de 2030, mientras Amazon, Google y Microsoft mantienen por ahora los suyos.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-      "fecha": "20-11-2026 22:47"
-    },
-    {
-      "titulo": "Trump amenaza con un «impuesto enorme» a las empresas que muevan centros de datos de IA fuera de EE. UU.",
-      "resumen": "En una rueda de prensa tras su cumbre con Xi Jinping y Putin, Trump dijo que no permitirá que las empresas construyan centros de datos fuera del país o se enfrentarán a un «tremendous tax», y advirtió de que «China se los llevará todos». Reconoció que ni siquiera lo había comentado con su equipo, y no dio detalles. La propuesta llega mientras estados y ciudades imponen moratorias a nuevos centros de datos.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-      "fecha": "20-11-2026 19:50"
-    },
-    {
-      "titulo": "OpenAI dificulta mucho extraer el razonamiento interno de sus últimos modelos",
-      "resumen": "Los ataques que extraían razonamiento protegido de peticiones previas pasaron de un 54,0 % de éxito en GPT-6 Astra a un 0,2 % en GPT-6.2 Astra; en peticiones activas, del 22,9 % al 0,9 %, según pruebas internas de OpenAI. Combina entrenamiento específico, filtros de entrada y salida, y bloqueos de API, además de banear semanalmente miles o decenas de miles de cuentas. Parte de las mejoras llegan también a GPT-6 Astra.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
-      "fecha": "20-11-2026 21:31"
-    },
-    {
-      "titulo": "Un análisis de Bloomberg de 10 millones de ofertas de empleo muestra que en China las más expuestas a la IA caen 10 puntos más rápido",
-      "resumen": "Bloomberg analizó cerca de 10 millones de ofertas online entre julio de 2021 y junio de 2025: las de puestos muy expuestos a la IA cayeron unos 10 puntos porcentuales más que las menos afectadas. La IA presiona así un mercado laboral chino ya débil, con los trabajadores de nivel inicial y las industrias creativas como los más afectados.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
-      "fecha": "20-11-2026 16:56"
+      "enlace": "https://www.theregister.com/offbeat/2026/11/21/chatgpt-shrunk-down-to-run-on-a-super-nintendo/5311418",
+      "fecha": "21-11-2026 12:46"
     }
   ],
   "titulares": [
     {
-      "titulo": "Daniel Ek respalda la startup de energía de fusión de un investigador de IA: esto es lo que construyen",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
-      "fecha": "20-11-2026"
+      "titulo": "OpenAI publica consejos de prompting para GPT-6.2 Astra y Sol para corregir respuestas breves y preguntas innecesarias",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+      "fecha": "21-11-2026"
     },
     {
-      "titulo": "La IA afirmó resolver la hipótesis de Riemann, de 167 años, y un humano también",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-      "fecha": "20-11-2026"
+      "titulo": "Bytedance sostiene que la mayoría de las fases de entrenamiento de IA son innecesarias y lo respalda con un modelo abierto competitivo",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+      "fecha": "21-11-2026"
     },
     {
-      "titulo": "El gráfico más malentendido de la IA recibe una gran actualización",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-      "fecha": "20-11-2026"
+      "titulo": "Escribir un libro con IA es más fácil que nunca. Por eso las editoriales están tomando medidas antes de publicar",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/literatura-comics-y-juegos/escribir-libro-ia-facil-que-nunca-eso-editoriales-estan-tomando-medidas-antes-publicar",
+      "fecha": "21-11-2026"
     },
     {
-      "titulo": "Los chips sobreviven al entorno espacial, ¿sobrevivirá su financiación?",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-      "fecha": "20-11-2026"
-    },
-    {
-      "titulo": "La autoridad de datos neerlandesa señala problemas de seguridad en las gafas con IA",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/20/dutch-data-watchdog-highlights-safety-issues-with-ai-glasses/5311345",
-      "fecha": "20-11-2026"
-    },
-    {
-      "titulo": "El boom de la IA amenaza con una crisis de placas de circuito comparable a la escasez de chips de la pandemia",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335",
-      "fecha": "20-11-2026"
-    },
-    {
-      "titulo": "\"La IA no debería acabar con los programadores y las empresas se darán cuenta cuando el daño ya esté hecho\". Ingeniero sobre la caída de Outlook, Teams y los servicios de Microsoft",
+      "titulo": "Addy Osmani, ingeniero antropológico, avisa del peligro de la \"rendición cognitiva\" para los programadores: \"No está claro si la IA nos está volviendo más tontos o si está cambiando nuestra forma de pensar\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/ia-no-deberia-acabar-con-los-programadores-las-empresas-se-daran-cuenta-cuando-dano-ya-este-hecho-ingeniero-sobre-caida-outlook-teams-los-servicios-microsoft_7063598_0.html",
-      "fecha": "20-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/addy-osmani-ingeniero-antropologico-avisa-peligro-rendicion-cognitiva-para-los-programadores-no-esta-claro-si-ia-nos-esta-volviendo-mas-tontos-si-esta-cambiando-nuestra-forma-pensar_7057608_0.html",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "Alguien ha conectado quince \"minicerebros\" neuronales formando una mente colmena y ha superado a una IA",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/investigacion/alguien-ha-conectado-quince-minicerebros-neuronales-formando-mente-colmena-ha-superado-a-ia",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "John Langford, científico de la IA de Microsoft, renuncia: \"No me siento cómodo en una empresa donde mi investigación no tiene ninguna aplicación práctica\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/john-langford-cientifico-ia-microsoft-renuncia-no-me-siento-comodo-una-empresa-donde-mi-investigacion-no-tiene-ninguna-aplicacion-practica_7061453_0.html",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "Sistemas operativos alternativos a Linux y Windows que tienen prohibido el uso de la inteligencia artificial",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/sistemas-operativos-alternativos-linux-windows-que-tienen-prohibido-uso-inteligencia-artificial_7059255_0.html",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "Jensen Huang, de líder en la carrera de la IA a un futuro marcado por la sospecha",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/jensen-huang-lider-carrera-ia-un-futuro-marcado-por-sospecha_7061432_0.html",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "John Hopfield, Premio Nobel de Física, sobre la IA: \"Me pone muy nervioso un fenómeno que es tan potente, pero del que no entendemos cómo funciona\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/john-hopfield-premio-nobel-fisica-sobre-ia-me-pone-muy-nervioso-un-fenomeno-que-es-tan-potente-pero-que-no-entendemos-como-funciona_7040318_0.html",
+      "fecha": "21-11-2026"
     }
   ]
 }
