@@ -1,55 +1,159 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "22-11-2026 03:12",
+  "actualizado": "22-11-2026 15:12",
   "destacadas": [
     {
-      "titulo": "Reportan que el FBI y el USDA han sido hackeados",
-      "resumen": "Se ha informado de que el FBI y el Departamento de Agricultura de EE. UU. (USDA) han sufrido ataques informáticos. La brecha del FBI afecta al Centro Nacional de Información Criminal (NCIC), que usan las fuerzas de seguridad para compartir órdenes judiciales y datos de personas desaparecidas, y la del USDA a su base de datos de pagos, que según Reuters podría servir de puerta trasera a datos más sensibles como la seguridad alimentaria. Trump confirmó el hackeo a Fox News y sugirió que quizá sirva para conocer casos de fraude electoral; es el segundo ataque al FBI en pocos meses.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
-      "fecha": "21-11-2026 18:42"
-    },
-    {
-      "titulo": "Microsoft alerta de una campaña de phishing que aprovecha la caída de Microsoft 365",
-      "resumen": "Microsoft ha detectado una campaña masiva de correos falsos que imitan avisos oficiales sobre la caída de Microsoft 365 de la semana pasada. Los mensajes aseguran que algunos correos quedaron retenidos y que se eliminarán si no se pulsa un botón, y redirigen a una página externa para robar credenciales de Outlook y otros servicios. Microsoft recomienda borrarlos, revisar qué usuarios han interactuado con ellos y, si alguien ya introdujo su contraseña, cerrar todas las sesiones activas.",
+      "titulo": "Un investigador revela FastUnlock, un fallo de Windows 11 que salta BitLocker desde la pantalla de bloqueo",
+      "resumen": "Un investigador de seguridad ha publicado FastUnlock, un fallo que, según sus pruebas, permite saltarse el bloqueo de Windows 11 desde la pantalla de inicio y acceder a archivos de equipos cifrados con BitLocker, incluso con todas las actualizaciones instaladas. El origen estaría en el Narrador, la herramienta de accesibilidad, y solo afectaría a equipos con cuentas vinculadas a servicios online; con cuenta local no serían vulnerables. Requiere acceso físico al ordenador y Microsoft todavía no ha publicado un parche, porque el investigador hizo público el detalle antes de la corrección.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/si-recibes-este-correo-sobre-caida-microsoft-365-cuidado-los-ciberdelincuentes-usan-para-robar-cuentas_7064134_0.html",
-      "fecha": "21-11-2026 20:50"
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/ni-bitlocker-puede-proteger-tu-pc-descubren-como-saltarse-seguridad-windows-11-desde-pantalla-bloqueo_7064238_0.html",
+      "fecha": "22-11-2026 14:20"
     },
     {
-      "titulo": "Google Maps amplía en España Ask Maps con Gemini: itinerarios de varios días y llamadas a negocios",
-      "resumen": "Ask Maps, la función de Google Maps impulsada por Gemini, llega a España junto a Alemania y Reino Unido, y ya crea itinerarios de varios días con paradas recomendadas y marcadores en el mapa, que se pueden compartir o exportar a Google Docs desde el ordenador. La herramienta también puede buscar citas en negocios cercanos y llamar para comprobar horarios o disponibilidad. Antes de iniciar una ruta muestra aparcamiento, puntos de carga para eléctricos, previsión meteorológica, retrasos y peajes.",
+      "titulo": "Microsoft admite que algunos correos se perdieron en la caída global de Outlook",
+      "resumen": "En su informe final sobre la caída de Microsoft 365, que dejó sin servicio a Outlook y Exchange Online durante cerca de 12 horas, Microsoft reconoce que todos los correos empresariales en cola se entregaron, pero que algunos mensajes a buzones de Outlook.com inactivos más de 30 días expiraron y generaron avisos de no entrega. La causa fue un error de software introducido meses antes, agravado por una reducción de capacidad y un aumento de tráfico de Teams, que dejó fuera de servicio más del 80 % de los gateways de red. Microsoft reconoce también fallos temporales en Defender para Office y Purview, y anuncia cambios en su infraestructura.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/movilidad/google-maps-da-un-gran-salto-espana-ahora-puede-organizar-tus-viajes-llamar-por-telefono-por-ti_7064059_0.html",
-      "fecha": "21-11-2026 18:45"
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-admite-que-algunos-correos-se-perdieron-durante-caida-global-outlook-explica-que-salio-mal_7064213_0.html",
+      "fecha": "22-11-2026 12:32"
     },
     {
-      "titulo": "Amazon avisa a sus clientes de que el Concejo de Nueva York podría encarecer cada pedido hasta 5 dólares",
-      "resumen": "Amazon muestra en su app, en su web y ahora también en las etiquetas de envío un aviso de que el Concejo de Nueva York podría añadir hasta 5 dólares a cada pedido. La campaña se dirige contra la Delivery Protection Act, que prohibiría los acuerdos con repartidores externos que usa Amazon y obligaría a las empresas de reparto a tener licencia municipal y emplear directamente a sus trabajadores. Amazon dice que la ley supondría entregas más lentas y caras y amenaza con sacar sus almacenes de la ciudad; sindicatos, Julie Menin, al frente del Concejo, y el alcalde Zohran Mamdani lo acusan de intentar intimidar al Concejo.",
+      "titulo": "Opel y Leapmotor cierran el trato: el próximo eléctrico de Opel tendrá tecnología china y se fabricará en Zaragoza",
+      "resumen": "Opel y Leapmotor han cerrado el acuerdo para un nuevo SUV eléctrico de Opel, de unos 4,50 metros y situado entre el Frontera y el Grandland según los rumores que recoge Xataka. Leapmotor aportará ingeniería y componentes centrales, mientras que Opel se encarga del diseño, el habitáculo y el chasis; el contrato vale 100 millones de euros, según comunicó Leapmotor a la Bolsa de Hong Kong el 20 de noviembre. El coche se fabricará en la planta de Stellantis en Figueruelas, con producción prevista para septiembre de 2028.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/movilidad/proximo-opel-electrico-se-fabricara-zaragoza-capo-habra-tecnologia-china",
+      "fecha": "22-11-2026 11:30"
+    },
+    {
+      "titulo": "La patronal de los centros de datos carga contra el decreto del Gobierno y pide suspenderlo",
+      "resumen": "El Real Decreto 1032/2026, aprobado el 20 de noviembre y en vigor desde el 22, exige a los centros de datos de 10 MW o más cubrir el 80 % de su consumo con renovables nuevas y demostrar una correlación horaria del 80 %, además de clase A en eficiencia energética e hídrica. Begoña Villacís, directora de la patronal Spain DC, habla de « prohibición de facto » y pide recurrirlo y suspender su aplicación mientras se resuelve el recurso. El Gobierno calcula un sobrecoste de 5.000 millones de euros al año sin la norma, mientras la patronal cifra en 66.900 millones la inversión en riesgo hasta 2030.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/begona-villacis-prohibicion-facto-patronal-centros-datos-pie-guerra-gobierno",
+      "fecha": "22-11-2026 09:30"
+    },
+    {
+      "titulo": "Android 17 incorporará de forma nativa el bloqueo de apps con huella, PIN o patrón",
+      "resumen": "Android tendrá por fin un bloqueo de aplicaciones propio, en lugar de depender de cada app como WhatsApp. Se activa manteniendo pulsado el icono de la app y tocando « Bloqueo de la aplicación ». La función llega ya a la beta de Android 17 QPR3, después de que Google no la incluyera en QPR2, publicada a inicios de noviembre; QPR3 se espera para el primer trimestre de 2027, y los Galaxy con One UI 9.5 la tendrán desde el primer día.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/android-17-bloqueo-de-apps-huella-dactilar/",
+      "fecha": "22-11-2026 12:00"
+    },
+    {
+      "titulo": "BAE Systems desarrolla un radar pasivo que detecta drones y aviones sin emitir señal propia",
+      "resumen": "BAE Systems está desarrollando un radar « fantasma » que no emite señal: aprovecha los reflejos de las transmisiones de televisión, radio y redes móviles en los objetos del aire, así que no delata su posición. Según la empresa usa equipos comerciales, con un coste de hasta una décima parte de un sistema activo, y cabe en un SUV. Puede seguir desde pequeños drones hasta aviones grandes y dar una imagen 3D con velocidad, rumbo, distancia y altitud. Las pruebas en vivo están previstas para todo 2027; el artículo no da frecuencias ni alcance.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+      "fecha": "22-11-2026 10:15"
+    },
+    {
+      "titulo": "El audio del HomeView de Apple, respondido: suena más cerca del HomePod Mini que de un Sonos One",
+      "resumen": "The Verge amplía su análisis del HomeView, la primera pantalla inteligente de Apple, con pruebas de audio. Suena algo más fuerte y con más graves que el HomePod Mini 2, pero es menos nítido y llena menos la habitación, y su sonido cambia con el ángulo de la pantalla porque ajusta el EQ en tiempo real. No se pueden emparejar dos HomeView en estéreo, aunque sí agruparlos con otros altavoces AirPlay. Al pasar el vídeo desde el móvil, Netflix y Prime Video solo suenan, sin imagen.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
-      "fecha": "21-11-2026 22:59"
-    },
-    {
-      "titulo": "Google cierra o retira seis productos y servicios en 2026",
-      "resumen": "Google Assistant deja los móviles en favor de Gemini, con la fecha límite aplazada a septiembre de 2026, y el Pixel Tablet se descontinuó ese mismo mes. Los Nest Mini y Nest Audio dejaron de fabricarse en junio, con el Google Home Speaker de 99 dólares como sustituto, y la app de Fitbit se integró en Google Health en mayo. También caen Dark Web Report, Gmailify (disponible hasta enero de 2027) y la recuperación de correo por POP, y Google Earth Pro para escritorio no podrá descargarse después del 25 de junio de 2027.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2319181/google-products-services-discontinued-2026/",
-      "fecha": "22-11-2026 00:00"
+      "enlace": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
+      "fecha": "22-11-2026 14:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Este usuario ha conectado 30 ventiladores a su RTX 5090 para mantenerla por debajo de 40 grados: el resultado es tan caótico como efectivo",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/este-usuario-ha-conectado-30-ventiladores-su-rtx-5090-para-mantenerla-por-debajo-40-grados-resultado-es-tan-caotico-como-efectivo_7064125_0.html",
-      "fecha": "21-11-2026"
+      "titulo": "Las razones más comunes por las que algunos puertos USB son rojos",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2319349/common-reasons-why-usb-ports-red/",
+      "fecha": "22-11-2026"
     },
     {
-      "titulo": "Android Auto 18.2 ya está disponible para todos: cómo actualizar y qué cambia",
+      "titulo": "¿Qué significa el icono del copo de nieve azul en la batería de tu Tesla?",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2319342/tesla-battery-blue-snowflake-icon-meaning/",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "La NASA está reclutando astronautas para vivir en la luna a -203 °C con polvo abrasivo y sueldos de 164.000 dólares",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/nasa-esta-reclutando-astronautas-para-vivir-luna-a-203-c-polvo-abrasivo-sueldos-164-000-dolares",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "Este Android pasó más de 11 años encendido y nadie esperaba que durara tanto",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/android-encendido-mas-de-11-anos-sin-reiniciarse/",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "SkyShowtime se convierte en un polvorín antes de su cierre",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/skyshowtime-quejas-cierre/",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "Beatriz De Retes, coach y estratega de cuentas en Google: \"Trabajar como cajera, frutera y reponedora en Mercadona ha sido una de las mejores experiencias de mi vida\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-18-2-ya-esta-disponible-para-todos-como-actualizar-que-cambia_7064053_0.html",
-      "fecha": "21-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/tendencias/beatriz-retes-coach-estratega-google-trabajar-cajera-frutera-reponedora-mercadona-ha-sido-una-las-mejores-experiencias-mi-vida_7058148_0.html",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "Una jaguar recorre 2.100 kilómetros cruzando todo Brasil con un objetivo: preservar su especie",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/jaguar-recorre-2-100-kilometros-cruzando-todo-brasil-objetivo-preservar-su-especie",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "Ahorro de energía de Windows 11: qué es, cómo funciona y cómo te puede ayudar o perjudicar con el rendimiento de tu PC",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/guias/ahorro-de-energia-de-windows-ventajas-inconvenientes/",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "Movistar desvela el error más común que puede dejarte sin WiFi cuando conectas el amplificador",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-boton-wps-3-segundos-amplificador/",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "Raúl Becas y Ayudas, experto en ahorro: \"Ya entra en vigor la ley para que Mercadona te devuelva dinero\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/raul-becas-ayudas-experto-ahorro-ya-entra-vigor-ley-para-que-mercadona-te-devuelva-dinero_7059735_0.html",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "Durante años el mundo se obsesionó con los rascacielos XL. Ahora gana fuerza otra idea: los \"rascacielos horizontales\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/durante-anos-mundo-se-obsesiono-rascacielos-xl-ahora-gana-fuerza-otra-idea-rascacielos-horizontales",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "Tu router tiene dos redes WiFi y puede que lleves años conectado a la equivocada",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/redes/elegir-mejor-redes-wifi-router/",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "NVIDIA intentó corregir un fallo que desgasta los SSD, pero los usuarios aseguran que sigue presente",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/nvidia-intento-corregir-un-fallo-que-desgasta-los-ssd-pero-los-usuarios-aseguran-que-sigue-presente_7064223_0.html",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "Todos conocemos a Samsung por sus móviles y sus televisores. La gran \"tapada\" es su división de empresas",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/todos-conocemos-a-samsung-sus-moviles-sus-televisores-gran-tapada-su-division-empresas",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "Linus Torvalds, creador y padre de Linux: \"No creo en un mundo en el que a todos los niños deban saber a programar\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-padre-crador-linux-no-creo-mundo-todos-ninos-deban-saber-programar_7051005_0.html",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "Esta semana medio mundo está jugando al mismo GTA. El futuro es que cada uno juegue al de su pueblo",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/esta-semana-medio-mundo-esta-jugando-al-gta-futuro-que-cada-uno-juegue-al-su-pueblo",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "He creado el pendrive USB definitivo gracias a Ventoy: tiene Windows, Linux y todas las herramientas de recuperación para emergencias",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/he-creado-pendrive-usb-definitivo-gracias-ventoy-tiene-windows-linux-todas-las-herramientas-recuperacion-para-emergencias_7057111_0.html",
+      "fecha": "22-11-2026"
     }
   ]
 }
