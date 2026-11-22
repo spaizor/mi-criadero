@@ -1,0 +1,55 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "22-11-2026 03:12",
+  "destacadas": [
+    {
+      "titulo": "Reportan que el FBI y el USDA han sido hackeados",
+      "resumen": "Se ha informado de que el FBI y el Departamento de Agricultura de EE. UU. (USDA) han sufrido ataques informáticos. La brecha del FBI afecta al Centro Nacional de Información Criminal (NCIC), que usan las fuerzas de seguridad para compartir órdenes judiciales y datos de personas desaparecidas, y la del USDA a su base de datos de pagos, que según Reuters podría servir de puerta trasera a datos más sensibles como la seguridad alimentaria. Trump confirmó el hackeo a Fox News y sugirió que quizá sirva para conocer casos de fraude electoral; es el segundo ataque al FBI en pocos meses.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
+      "fecha": "21-11-2026 18:42"
+    },
+    {
+      "titulo": "Microsoft alerta de una campaña de phishing que aprovecha la caída de Microsoft 365",
+      "resumen": "Microsoft ha detectado una campaña masiva de correos falsos que imitan avisos oficiales sobre la caída de Microsoft 365 de la semana pasada. Los mensajes aseguran que algunos correos quedaron retenidos y que se eliminarán si no se pulsa un botón, y redirigen a una página externa para robar credenciales de Outlook y otros servicios. Microsoft recomienda borrarlos, revisar qué usuarios han interactuado con ellos y, si alguien ya introdujo su contraseña, cerrar todas las sesiones activas.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/si-recibes-este-correo-sobre-caida-microsoft-365-cuidado-los-ciberdelincuentes-usan-para-robar-cuentas_7064134_0.html",
+      "fecha": "21-11-2026 20:50"
+    },
+    {
+      "titulo": "Google Maps amplía en España Ask Maps con Gemini: itinerarios de varios días y llamadas a negocios",
+      "resumen": "Ask Maps, la función de Google Maps impulsada por Gemini, llega a España junto a Alemania y Reino Unido, y ya crea itinerarios de varios días con paradas recomendadas y marcadores en el mapa, que se pueden compartir o exportar a Google Docs desde el ordenador. La herramienta también puede buscar citas en negocios cercanos y llamar para comprobar horarios o disponibilidad. Antes de iniciar una ruta muestra aparcamiento, puntos de carga para eléctricos, previsión meteorológica, retrasos y peajes.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/google-maps-da-un-gran-salto-espana-ahora-puede-organizar-tus-viajes-llamar-por-telefono-por-ti_7064059_0.html",
+      "fecha": "21-11-2026 18:45"
+    },
+    {
+      "titulo": "Amazon avisa a sus clientes de que el Concejo de Nueva York podría encarecer cada pedido hasta 5 dólares",
+      "resumen": "Amazon muestra en su app, en su web y ahora también en las etiquetas de envío un aviso de que el Concejo de Nueva York podría añadir hasta 5 dólares a cada pedido. La campaña se dirige contra la Delivery Protection Act, que prohibiría los acuerdos con repartidores externos que usa Amazon y obligaría a las empresas de reparto a tener licencia municipal y emplear directamente a sus trabajadores. Amazon dice que la ley supondría entregas más lentas y caras y amenaza con sacar sus almacenes de la ciudad; sindicatos, Julie Menin, al frente del Concejo, y el alcalde Zohran Mamdani lo acusan de intentar intimidar al Concejo.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
+      "fecha": "21-11-2026 22:59"
+    },
+    {
+      "titulo": "Google cierra o retira seis productos y servicios en 2026",
+      "resumen": "Google Assistant deja los móviles en favor de Gemini, con la fecha límite aplazada a septiembre de 2026, y el Pixel Tablet se descontinuó ese mismo mes. Los Nest Mini y Nest Audio dejaron de fabricarse en junio, con el Google Home Speaker de 99 dólares como sustituto, y la app de Fitbit se integró en Google Health en mayo. También caen Dark Web Report, Gmailify (disponible hasta enero de 2027) y la recuperación de correo por POP, y Google Earth Pro para escritorio no podrá descargarse después del 25 de junio de 2027.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2319181/google-products-services-discontinued-2026/",
+      "fecha": "22-11-2026 00:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Este usuario ha conectado 30 ventiladores a su RTX 5090 para mantenerla por debajo de 40 grados: el resultado es tan caótico como efectivo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/este-usuario-ha-conectado-30-ventiladores-su-rtx-5090-para-mantenerla-por-debajo-40-grados-resultado-es-tan-caotico-como-efectivo_7064125_0.html",
+      "fecha": "21-11-2026"
+    },
+    {
+      "titulo": "Android Auto 18.2 ya está disponible para todos: cómo actualizar y qué cambia",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/movilidad/android-auto-18-2-ya-esta-disponible-para-todos-como-actualizar-que-cambia_7064053_0.html",
+      "fecha": "21-11-2026"
+    }
+  ]
+}
