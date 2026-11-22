@@ -1,49 +1,74 @@
 {
   "seccion": "ia",
-  "actualizado": "22-11-2026 04:10",
+  "actualizado": "22-11-2026 16:12",
   "destacadas": [
     {
-      "titulo": "Nvidia deja de vender sus chips H200 en China y se cierra también el acceso remoto desde terceros países",
-      "resumen": "Según la dirección interina de Nvidia, con Colette Kress al frente, la compañía dejará de vender sus H200 en China, y la Administración Trump busca cerrar también el acceso remoto a estos chips desde centros de datos en Malasia y otros países del entorno, que usaban empresas chinas. TechCrunch estima, citando a críticos de Nvidia, que alrededor del 20 % de su negocio llega indirectamente desde China. El anuncio llega junto a unos resultados con ingresos disparados, mientras los inversores siguen nerviosos por la caída de la acción y crece la petición para que Jensen Huang vuelva como CEO.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-      "fecha": "21-11-2026 22:07"
+      "titulo": "La comunidad de Lean y Mathlib confirma la demostración de la hipótesis de Riemann de Levent Alpöge",
+      "resumen": "La comunidad de Lean y Mathlib ha confirmado que la prueba de la hipótesis de Riemann presentada por Levent Alpöge, matemático de Stanford, es correcta. La demostración, publicada el 20 de noviembre, ocupa 17 millones de líneas de código escritas en Lean, un lenguaje que comprueba pruebas matemáticas, y decenas de personas la ejecutaron por su cuenta con el mismo resultado. Los pronósticos de Metaculus situaban la fecha esperada en 2035, y Terence Tao había dicho el mes pasado que esperaba una solución hacia 2050 con humanos e IA combinados.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+      "fecha": "22-11-2026 12:08"
     },
     {
-      "titulo": "La IA acapara la memoria RAM del mundo: Samsung tiene casi toda su producción reservada hasta 2029",
-      "resumen": "Según informes de Corea del Sur, Samsung tiene prácticamente comprometida su producción de memoria entre 2027 y 2029 por la demanda de centros de datos y empresas de IA, y algunos clientes intentan cerrar acuerdos de suministro hasta 2031. La compañía ya ha firmado contratos a largo plazo con diez grandes clientes y negocia con otros diez, con el objetivo de reservar entre el 60 % y el 70 % de su producción futura antes de 2030. La memoria HBM, esencial en los aceleradores de IA, consume recursos que limitan la DRAM convencional, lo que tensiona todo el mercado; la NAND podría bajar de precio en 2027.",
+      "titulo": "Investigadores hallan proveedores de IA baratos que roban claves y leen las peticiones de sus usuarios",
+      "resumen": "Dragos envió unas 2 millones de peticiones de IA con credenciales falsas a proveedores de inferencia y encontró al menos tres comprometidos, por los que atacantes robaban datos de usuarios, entre ellos cientos de claves de AWS. Los revendedores podían leer las peticiones solo con poner un modelo al precio más bajo y activar los registros, y la retención cero de datos se ignoraba con frecuencia. OpenRouter retiró tres proveedores de su plataforma y revocó la aprobación de retención cero para 125 endpoints.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+      "fecha": "22-11-2026 13:07"
+    },
+    {
+      "titulo": "Los bancos se plantan ante los agentes de IA: Wells Fargo avisa de que usarlos es «bajo tu propio riesgo»",
+      "resumen": "Wells Fargo aplicará a partir del martes unas condiciones nuevas para millones de clientes en las que advierte de que el uso de cualquier agente de IA es «bajo tu propio riesgo». JPMorgan Chase prohibió en octubre a los agentes de terceros que entran con las credenciales del usuario, Bank of America pidió no compartir los datos de acceso, y Citibank y PNC también añadieron avisos. Amazon bloqueó el agente de Meta para comprar en su plataforma y United anunció que no permitirá que los bots personales compren vuelos.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+      "fecha": "22-11-2026 12:00"
+    },
+    {
+      "titulo": "Google ha convertido Gemini en una tabla periódica y ahora hay dos modelos de programación sin pista de cuál elegir",
+      "resumen": "Google ha reorganizado su catálogo de Gemini 4 en cuatro ramas con nombres de elementos químicos: Argon, Carbon, Hydrogen y Neon. Neon sustituye a Argon en la app y ya es el modelo por defecto en Antigravity, mientras que Carbon es exclusivo de Google AI Ultra. Quien paga Pro ya no ve en la app ningún modelo etiquetado para programar, y Google no especifica para qué tarea conviene cada uno.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/google-ha-convertido-gemini-tabla-periodica-problema-que-ahora-hay-dos-modelos-programacion-ninguna-pista-cual-elegir",
+      "fecha": "22-11-2026 14:00"
+    },
+    {
+      "titulo": "Un desarrollador sin saber programar crea en cuatro días un RPG de mundo abierto con IA",
+      "resumen": "Mike Houser, que dice no saber programar, asegura haber creado en cuatro días el juego de rol de mundo abierto Age of Dragon combinando Claude, Tripo y ElevenLabs. El mapa cubre 144 km², con seis regiones, 79 ubicaciones, 34 misiones, nueve mazmorras y 20 jefes finales, y los modelos 3D, las voces y la música también se generaron con IA. Según Houser, su trabajo consistió en dirigir las tareas de la IA y revisar los resultados.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/ia-esta-acaparando-memoria-ram-todo-mundo-samsung-ya-tiene-su-produccion-reservada-hasta-2029_7064056_0.html",
-      "fecha": "21-11-2026 17:25"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/desarrolla-un-juego-rol-mundo-abierto-doble-grande-skyrim-cuatro-dias-con-ia-sin-saber-programar-yo-solo-dirigi-las-tareas-ia-revise-los-resultados_7060732_0.html",
+      "fecha": "22-11-2026 10:30"
     },
     {
-      "titulo": "Nvidia sostiene que las ventanas de contexto gigantes son un callejón sin salida",
-      "resumen": "Un equipo de investigación de Nvidia defiende que meter un libro entero de una vez en un modelo de lenguaje suele ser excesivo y caro. En muchas pruebas, los resúmenes periódicos y las búsquedas dirigidas dieron resultados casi iguales. El artículo recuerda que GPT-4, en 2023, manejaba 8.192 tokens, mientras que GPT-5.6 Sol maneja alrededor de un millón.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
-      "fecha": "21-11-2026 17:23"
-    },
-    {
-      "titulo": "Shortical usa el rostro de un actor para sus microdramas generados por IA",
-      "resumen": "La startup de microdramas Shortical, fundada el pasado enero, llena su portada de contenido generado por IA, mucho más barato de producir que el rodaje en vivo. Su último estreno en Los Ángeles, «Inevitable», es una serie totalmente IA en la que el actor Aki Avni se interpreta a sí mismo, tras licenciar su rostro a la empresa, su primer acuerdo de este tipo. El CEO, Guy Shimoni, defiende que la IA permite que equipos pequeños hagan producciones de escala cinematográfica.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
-      "fecha": "21-11-2026 17:00"
-    },
-    {
-      "titulo": "Un monasterio de Vermont quiere convertirse en la iglesia oficial de la industria de la IA",
-      "resumen": "Maple, una comunidad monástica de Vermont fundada en 2011 por Soryu Forall, se presenta como una salvación frente a un apocalipsis de la IA, y capta sobre todo a programadores y gestores de centros de datos quemados. Según el reportaje de The New Yorker que recoge The Decoder, viven allí unas dos decenas de residentes y cientos de personas han pasado por sus talleres sobre IA. Antiguos miembros aseguran que el lugar graba cada conversación y hasta la respiración de sus residentes para entrenar una IA espiritual, y las declaraciones fiscales muestran ingresos de hasta un millón de dólares al año.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
-      "fecha": "21-11-2026 17:04"
+      "titulo": "Los psicólogos notan el auge de la IA: menos pacientes que llegan por internet y chatbots que agravan problemas",
+      "resumen": "Una psicóloga consultada por Xataka dice que ha notado menos pacientes porque ya no entran en sus blogs, mientras que otras no han visto cambios. Varias profesionales relatan que algunas personas agravan sus problemas al usar chatbots generalistas como «terapeutas de bolsillo», y que el chatbot llega a darles la razón. Su propuesta es usar la IA como «copiloto clínico» bajo supervisión humana, nunca como terapeuta.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/medicina-y-salud/notamos-caida-pacientes-como-estan-viviendo-psicologos-auge-ia-poblacion",
+      "fecha": "22-11-2026 13:20"
     }
   ],
   "titulares": [
     {
-      "titulo": "La ONU no logra acordar reglas para los «robots asesinos» y da dos años a los países para proponer opciones",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-      "fecha": "21-11-2026"
+      "titulo": "El Monitor API de Perplexity convierte la búsqueda web en un vigilante permanente y no en una consulta puntual",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "METR avisa de que la IA mejora más rápido de lo que los expertos pueden comprobar si los nuevos sistemas son seguros",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "GPT-6.2 Astra y Sol responden más rápido, pero sacan peor nota en transparencia que Claude",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "¿Es GTA VI el último juego a gran escala desarrollado sin usar IA?",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/gta-vi-ultimo-gran-juego-desarrollado-usar-ia",
+      "fecha": "22-11-2026"
     }
   ]
 }
