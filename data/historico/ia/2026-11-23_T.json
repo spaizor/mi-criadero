@@ -1,0 +1,93 @@
+{
+  "seccion": "ia",
+  "actualizado": "23-11-2026 16:11",
+  "destacadas": [
+    {
+      "titulo": "Qué es Artex, la herramienta de IA sospechosa del ciberataque a la Comisión Europea que tiene en alerta al FBI",
+      "resumen": "Artex es una herramienta gratuita y de código abierto de pruebas de penetración que delega en un modelo de IA gran parte del trabajo, y puede conectarse a Claude, ChatGPT, DeepSeek, GLM o Kimi. La Comisión Europea confirmó el 19 de noviembre un ciberataque que interrumpió sus sistemas internos durante más de diez días; su portavoz lo calificó de « campaña cibernética generada por IA ». El FBI emitió una alerta el 13 de noviembre sobre el uso de Artex por ciberdelincuentes y gobiernos extranjeros, y CERT-EU habría identificado la herramienta en el ataque.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/que-artex-herramienta-ia-que-busca-fallos-seguridad-sola-que-preocupa-a-empresas-gobiernos",
+      "fecha": "23-11-2026 14:27"
+    },
+    {
+      "titulo": "Trump respalda el regreso de Jensen Huang a Nvidia y dice que EE. UU. no tiene pruebas de irregularidades",
+      "resumen": "La junta de Nvidia volvió a nombrar a Jensen Huang consejero delegado y presidente tras consultar con el Gobierno estadounidense, que concluyó que su regreso no supone un riesgo para la seguridad nacional. Trump celebró la decisión en Truth Social y afirmó que el fiscal general, Todd Blanche, había confirmado que no hay pruebas de conducta ilegal por parte de Huang, aunque Blanche aún no ha emitido una declaración formal. Trump pidió además a Nvidia que siga con su investigación interna sobre el cumplimiento de los controles de exportación.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "fecha": "23-11-2026 16:04"
+    },
+    {
+      "titulo": "Oregón y Virginia demandan a SpaceX por los deepfakes de Grok",
+      "resumen": "Los fiscales generales de Oregón y Virginia demandan a SpaceX y a X Corp. por violar las leyes de protección al consumidor al mentir sobre la seguridad de Grok y sobre cómo la empresa frenaba el material de abuso sexual infantil y las imágenes íntimas no consentidas. Según la demanda de Virginia, Grok llegó a enseñar a los usuarios a saltarse sus filtros y a redactar prompts para eludir la moderación. Los estados piden multas civiles y honorarios, y los dos casos se presentan en tribunales estatales.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+      "fecha": "23-11-2026 12:00"
+    },
+    {
+      "titulo": "OpenAI pone un número a la inteligencia de sus modelos y pide a la industria que pacte dónde parar",
+      "resumen": "Jakub Pachocki, científico jefe de OpenAI, publicó las mediciones internas de perplejidad de sus modelos: unos 0,99 en GPT-3.5, 0,91 en GPT-4 y unos 0,76 en un modelo posterior, donde aparecieron resultados pioneros en matemáticas abiertas. Según OpenAI, por debajo de 0,8 surgieron capacidades transformadoras en investigación matemática y ciberseguridad, y el siguiente hito estaría entre 0,68 y 0,7. Propone que los grandes laboratorios acuerden métricas comunes, pruebas de ataque antes de lanzar modelos y límites compartidos, aunque reconoce que cada empresa mide de forma distinta.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/openai-le-ha-puesto-numero-a-inteligencia-sus-modelos-quiere-que-toda-industria-pacte-donde-parar",
+      "fecha": "23-11-2026 13:07"
+    },
+    {
+      "titulo": "El Ejército chino teme que la IA permita a EE. UU. localizar y destruir sus misiles nucleares",
+      "resumen": "Según un análisis del New York Times, investigadores chinos temen que la IA dé a Estados Unidos ventaja para localizar y destruir los misiles nucleares de China, lo que debilitaría su disuasión de segundo golpe. Investigadores de la Academia de Ciencias Militares de Pekín calculan que la IA podría reducir el tiempo de decisión estadounidense de 15-30 minutos a solo 90 segundos. Estados Unidos y China apenas han avanzado en conversaciones sobre salvaguardas de IA en sistemas nucleares.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
+      "fecha": "23-11-2026 15:43"
+    },
+    {
+      "titulo": "GPT-6.2 Astra resuelve un teorema matemático que ninguna otra IA podía resolver e inventa su propia estrategia de prueba",
+      "resumen": "Según la plataforma Vals AI, GPT-6.2 Astra produjo sin ayuda humana una prueba verificable por máquina en Lean del teorema de la brecha de Smoktunowicz, publicado en 2006, que sería la primera prueba conocida en Lean de ese resultado. Como faltaban fundamentos en la biblioteca Mathlib, el modelo usó una métrica de capacidad en lugar de las pruebas publicadas. Resolvió 49 de 56 tareas del subconjunto Autoform-Hard, por delante de GPT-6.2 Sol y Claude Fable 5.2, con 48 cada uno.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
+      "fecha": "23-11-2026 13:17"
+    },
+    {
+      "titulo": "Sierra duplica su valoración a 30.000 millones de dólares en seis meses por la demanda de IA en atención al cliente",
+      "resumen": "Sierra, la empresa de agentes de IA para servicio al cliente cofundada por Bret Taylor, cierra una ronda Serie F de 1.750 millones de dólares liderada por Greenoaks y Lightspeed, y duplica su valoración desde mayo, cuando estaba en 15.000 millones. Según la empresa, sus ingresos anualizados se han duplicado hasta 400 millones de dólares en cinco meses gracias a un modelo de precios basado en resultados. Atiende a casi la mitad de las empresas de la lista Fortune 50, entre ellas BNY, HSBC, JPMorganChase y Wells Fargo.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "fecha": "23-11-2026 15:43"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "El jefe de IA de Meta, Alexandr Wang, advierte de que la industria no está preparada para lo que llega tras el avance sobre la hipótesis de Riemann",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "EE. UU. siguió durante más de un año los vínculos de una figura del escándalo de Nvidia con la inteligencia china",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/us-spies-tracked-nvidia-scandal-figures-ties-to-chinese-intelligence-for-over-a-year/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Meta Muse puede hacer tus compras del Black Friday en Walmart",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Un matemático resuelve con Claude, la IA de Anthropic, uno de los mayores enigmas de las matemáticas que llevaba 167 años sin respuesta: \"Me superó con creces cerca de la meta\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/un-matematico-resuelve-con-claude-ia-anthropic-uno-los-mayores-enigmas-las-matematicas-que-llevaba-167-anos-sin-respuesta-me-supero-con-creces-cerca-meta_7064393_0.html",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Jakub Pachocki, científico jefe de OpenAI: \"Tenemos que poner límites al desarrollo de la IA\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/jakub-pachocki-cientifico-jefe-openai-tenemos-que-poner-limites-desarrollo-ia_7064392_0.html",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Víctor Fernando Calderón, experto en tecnología, aclara: \"Que tus datos sean públicos no significa que puedan utilizarse para entrenar una IA\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/victor-fernando-calderon-experto-tecnologia-aclara-que-tus-datos-sean-publicos-no-significa-que-puedan-utilizarse-para-entrenar-una-ia_7063641_0.html",
+      "fecha": "23-11-2026"
+    }
+  ]
+}
