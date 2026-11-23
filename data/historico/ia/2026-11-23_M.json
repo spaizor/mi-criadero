@@ -1,0 +1,55 @@
+{
+  "seccion": "ia",
+  "actualizado": "23-11-2026 04:09",
+  "destacadas": [
+    {
+      "titulo": "Los agentes de programación con IA superan pruebas aisladas, pero completan menos de una de cada diez tareas en un entorno de trabajo simulado",
+      "resumen": "Un nuevo experimento pone a los agentes de programación a trabajar como « empleados digitales » en una empresa de software simulada, con compañeros, tableros de proyectos e historiales de chat. Incluso Claude Opus 5.5 y GPT-6 Astra completan por completo menos de una de cada diez tareas. El artículo recuerda que Anthropic afirma que Claude escribe más del 80 % del código de producción de la empresa, mientras los benchmarks estándar como SWE-bench están casi saturados.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+      "fecha": "22-11-2026 16:15"
+    },
+    {
+      "titulo": "El científico jefe de OpenAI propone usar la perplejidad como límite común al desarrollo de la IA",
+      "resumen": "Jakub Pachocki, científico jefe de OpenAI, publicó un blog que plantea límites al desarrollo de la IA basados en la perplejidad, una métrica que mide lo bien que un modelo predice el siguiente token. Según su gráfico, al bajar de 0,8 aparecieron capacidades transformadoras en ciberseguridad y matemáticas. Propone que las empresas no superen cierto umbral hasta alcanzar un hito concreto en la capacidad de monitorizar el comportamiento de la IA; Sam Altman lo describió como « lo más importante que OpenAI ha publicado en mucho tiempo ».",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "fecha": "22-11-2026 22:14"
+    },
+    {
+      "titulo": "Anthropic sale a bolsa con una recaudación de 81.300 millones de dólares y sus primeros inversores ganan unas 15 veces su dinero",
+      "resumen": "Anthropic recaudó 81.300 millones de dólares en la mayor OPV de la historia, con una valoración totalmente diluida de unos 1,5 billones de dólares. Notable Capital, GIC y Baillie Gifford, que apostaron por la compañía en rondas anteriores, tienen ahora un retorno en papel de unas 15 veces. GIC invirtió más de 4.500 millones de dólares en total y, según una fuente cercana a sus finanzas, tendrá cerca del 1 % de la empresa tras la salida a bolsa.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "fecha": "23-11-2026 02:25"
+    },
+    {
+      "titulo": "Un investigador logra que GPT-5.1 esquive el Gran Cortafuegos chino gastando menos de un dólar en tokens",
+      "resumen": "La herramienta « CircumVolve », presentada en la conferencia CCS de ACM, usa LLMs para generar programas en Python que manipulan paquetes y protocolos (TCP/IP, DNS y QUIC) y eludir la censura. Se probó con simulaciones de los sistemas de censura de China, Irán, Pakistán y Kazajistán, y el coste mediano hasta la primera evasión con GPT-5.1 fue inferior a 1 dólar. Los autores reconocen que los censores podrían detectarla, aunque creen que su bajo volumen de tráfico la haría pasar desapercibida.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532",
+      "fecha": "23-11-2026 01:23"
+    },
+    {
+      "titulo": "China tiene la energía, pero no los chips: lo que revelan los satélites sobre el centro de IA de Huawei",
+      "resumen": "Huawei levanta en Horinger (Mongolia Interior) uno de los mayores centros de datos de China, fotografiado por satélites Copernicus y Vantor. Según Epoch AI, su capacidad de cómputo es el 7 % de la de Colossus 2 de Tennessee, unas 14 veces menor, con unos 105.000 chips Ascend 910C y 8.000 Ascend 910B. Según SemiAnalysis, los chips más recientes de Nvidia son unas 2,5 veces más eficientes, así que el centro chino alcanzaría solo el 40 % del cómputo estadounidense con la misma potencia.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/china-tiene-energia-no-chips-que-revelan-satelites-centro-ia-huawei",
+      "fecha": "22-11-2026 18:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Por qué los centros de datos están en el centro del rechazo a las grandes tecnológicas",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "fecha": "22-11-2026"
+    },
+    {
+      "titulo": "El juego Binding of Isaac retira la música creada con IA de Repentance Plus",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "fecha": "22-11-2026"
+    }
+  ]
+}

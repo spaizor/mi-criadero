@@ -1,73 +1,54 @@
 {
   "seccion": "ia",
-  "actualizado": "22-11-2026 16:12",
+  "actualizado": "23-11-2026 04:09",
   "destacadas": [
     {
-      "titulo": "La comunidad de Lean y Mathlib confirma la demostración de la hipótesis de Riemann de Levent Alpöge",
-      "resumen": "La comunidad de Lean y Mathlib ha confirmado que la prueba de la hipótesis de Riemann presentada por Levent Alpöge, matemático de Stanford, es correcta. La demostración, publicada el 20 de noviembre, ocupa 17 millones de líneas de código escritas en Lean, un lenguaje que comprueba pruebas matemáticas, y decenas de personas la ejecutaron por su cuenta con el mismo resultado. Los pronósticos de Metaculus situaban la fecha esperada en 2035, y Terence Tao había dicho el mes pasado que esperaba una solución hacia 2050 con humanos e IA combinados.",
+      "titulo": "Los agentes de programación con IA superan pruebas aisladas, pero completan menos de una de cada diez tareas en un entorno de trabajo simulado",
+      "resumen": "Un nuevo experimento pone a los agentes de programación a trabajar como « empleados digitales » en una empresa de software simulada, con compañeros, tableros de proyectos e historiales de chat. Incluso Claude Opus 5.5 y GPT-6 Astra completan por completo menos de una de cada diez tareas. El artículo recuerda que Anthropic afirma que Claude escribe más del 80 % del código de producción de la empresa, mientras los benchmarks estándar como SWE-bench están casi saturados.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
-      "fecha": "22-11-2026 12:08"
+      "enlace": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+      "fecha": "22-11-2026 16:15"
     },
     {
-      "titulo": "Investigadores hallan proveedores de IA baratos que roban claves y leen las peticiones de sus usuarios",
-      "resumen": "Dragos envió unas 2 millones de peticiones de IA con credenciales falsas a proveedores de inferencia y encontró al menos tres comprometidos, por los que atacantes robaban datos de usuarios, entre ellos cientos de claves de AWS. Los revendedores podían leer las peticiones solo con poner un modelo al precio más bajo y activar los registros, y la retención cero de datos se ignoraba con frecuencia. OpenRouter retiró tres proveedores de su plataforma y revocó la aprobación de retención cero para 125 endpoints.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
-      "fecha": "22-11-2026 13:07"
+      "titulo": "El científico jefe de OpenAI propone usar la perplejidad como límite común al desarrollo de la IA",
+      "resumen": "Jakub Pachocki, científico jefe de OpenAI, publicó un blog que plantea límites al desarrollo de la IA basados en la perplejidad, una métrica que mide lo bien que un modelo predice el siguiente token. Según su gráfico, al bajar de 0,8 aparecieron capacidades transformadoras en ciberseguridad y matemáticas. Propone que las empresas no superen cierto umbral hasta alcanzar un hito concreto en la capacidad de monitorizar el comportamiento de la IA; Sam Altman lo describió como « lo más importante que OpenAI ha publicado en mucho tiempo ».",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "fecha": "22-11-2026 22:14"
     },
     {
-      "titulo": "Los bancos se plantan ante los agentes de IA: Wells Fargo avisa de que usarlos es «bajo tu propio riesgo»",
-      "resumen": "Wells Fargo aplicará a partir del martes unas condiciones nuevas para millones de clientes en las que advierte de que el uso de cualquier agente de IA es «bajo tu propio riesgo». JPMorgan Chase prohibió en octubre a los agentes de terceros que entran con las credenciales del usuario, Bank of America pidió no compartir los datos de acceso, y Citibank y PNC también añadieron avisos. Amazon bloqueó el agente de Meta para comprar en su plataforma y United anunció que no permitirá que los bots personales compren vuelos.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
-      "fecha": "22-11-2026 12:00"
+      "titulo": "Anthropic sale a bolsa con una recaudación de 81.300 millones de dólares y sus primeros inversores ganan unas 15 veces su dinero",
+      "resumen": "Anthropic recaudó 81.300 millones de dólares en la mayor OPV de la historia, con una valoración totalmente diluida de unos 1,5 billones de dólares. Notable Capital, GIC y Baillie Gifford, que apostaron por la compañía en rondas anteriores, tienen ahora un retorno en papel de unas 15 veces. GIC invirtió más de 4.500 millones de dólares en total y, según una fuente cercana a sus finanzas, tendrá cerca del 1 % de la empresa tras la salida a bolsa.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "fecha": "23-11-2026 02:25"
     },
     {
-      "titulo": "Google ha convertido Gemini en una tabla periódica y ahora hay dos modelos de programación sin pista de cuál elegir",
-      "resumen": "Google ha reorganizado su catálogo de Gemini 4 en cuatro ramas con nombres de elementos químicos: Argon, Carbon, Hydrogen y Neon. Neon sustituye a Argon en la app y ya es el modelo por defecto en Antigravity, mientras que Carbon es exclusivo de Google AI Ultra. Quien paga Pro ya no ve en la app ningún modelo etiquetado para programar, y Google no especifica para qué tarea conviene cada uno.",
+      "titulo": "Un investigador logra que GPT-5.1 esquive el Gran Cortafuegos chino gastando menos de un dólar en tokens",
+      "resumen": "La herramienta « CircumVolve », presentada en la conferencia CCS de ACM, usa LLMs para generar programas en Python que manipulan paquetes y protocolos (TCP/IP, DNS y QUIC) y eludir la censura. Se probó con simulaciones de los sistemas de censura de China, Irán, Pakistán y Kazajistán, y el coste mediano hasta la primera evasión con GPT-5.1 fue inferior a 1 dólar. Los autores reconocen que los censores podrían detectarla, aunque creen que su bajo volumen de tráfico la haría pasar desapercibida.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532",
+      "fecha": "23-11-2026 01:23"
+    },
+    {
+      "titulo": "China tiene la energía, pero no los chips: lo que revelan los satélites sobre el centro de IA de Huawei",
+      "resumen": "Huawei levanta en Horinger (Mongolia Interior) uno de los mayores centros de datos de China, fotografiado por satélites Copernicus y Vantor. Según Epoch AI, su capacidad de cómputo es el 7 % de la de Colossus 2 de Tennessee, unas 14 veces menor, con unos 105.000 chips Ascend 910C y 8.000 Ascend 910B. Según SemiAnalysis, los chips más recientes de Nvidia son unas 2,5 veces más eficientes, así que el centro chino alcanzaría solo el 40 % del cómputo estadounidense con la misma potencia.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/google-ha-convertido-gemini-tabla-periodica-problema-que-ahora-hay-dos-modelos-programacion-ninguna-pista-cual-elegir",
-      "fecha": "22-11-2026 14:00"
-    },
-    {
-      "titulo": "Un desarrollador sin saber programar crea en cuatro días un RPG de mundo abierto con IA",
-      "resumen": "Mike Houser, que dice no saber programar, asegura haber creado en cuatro días el juego de rol de mundo abierto Age of Dragon combinando Claude, Tripo y ElevenLabs. El mapa cubre 144 km², con seis regiones, 79 ubicaciones, 34 misiones, nueve mazmorras y 20 jefes finales, y los modelos 3D, las voces y la música también se generaron con IA. Según Houser, su trabajo consistió en dirigir las tareas de la IA y revisar los resultados.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/desarrolla-un-juego-rol-mundo-abierto-doble-grande-skyrim-cuatro-dias-con-ia-sin-saber-programar-yo-solo-dirigi-las-tareas-ia-revise-los-resultados_7060732_0.html",
-      "fecha": "22-11-2026 10:30"
-    },
-    {
-      "titulo": "Los psicólogos notan el auge de la IA: menos pacientes que llegan por internet y chatbots que agravan problemas",
-      "resumen": "Una psicóloga consultada por Xataka dice que ha notado menos pacientes porque ya no entran en sus blogs, mientras que otras no han visto cambios. Varias profesionales relatan que algunas personas agravan sus problemas al usar chatbots generalistas como «terapeutas de bolsillo», y que el chatbot llega a darles la razón. Su propuesta es usar la IA como «copiloto clínico» bajo supervisión humana, nunca como terapeuta.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/notamos-caida-pacientes-como-estan-viviendo-psicologos-auge-ia-poblacion",
-      "fecha": "22-11-2026 13:20"
+      "enlace": "https://www.xataka.com/robotica-e-ia/china-tiene-energia-no-chips-que-revelan-satelites-centro-ia-huawei",
+      "fecha": "22-11-2026 18:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "El Monitor API de Perplexity convierte la búsqueda web en un vigilante permanente y no en una consulta puntual",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+      "titulo": "Por qué los centros de datos están en el centro del rechazo a las grandes tecnológicas",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
       "fecha": "22-11-2026"
     },
     {
-      "titulo": "METR avisa de que la IA mejora más rápido de lo que los expertos pueden comprobar si los nuevos sistemas son seguros",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
-      "fecha": "22-11-2026"
-    },
-    {
-      "titulo": "GPT-6.2 Astra y Sol responden más rápido, pero sacan peor nota en transparencia que Claude",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
-      "fecha": "22-11-2026"
-    },
-    {
-      "titulo": "¿Es GTA VI el último juego a gran escala desarrollado sin usar IA?",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/gta-vi-ultimo-gran-juego-desarrollado-usar-ia",
+      "titulo": "El juego Binding of Isaac retira la música creada con IA de Repentance Plus",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
       "fecha": "22-11-2026"
     }
   ]
