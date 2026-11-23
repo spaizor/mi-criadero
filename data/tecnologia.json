@@ -1,97 +1,208 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "23-11-2026 03:11",
+  "actualizado": "23-11-2026 15:12",
   "destacadas": [
     {
-      "titulo": "Los vuelos de Delta en Atlanta sufren retrasos por una caída de su sistema de cálculo de peso y balance",
-      "resumen": "Los vuelos de Delta que salen y llegan a Atlanta, su principal centro de operaciones, acumulan retrasos importantes por un fallo en el sistema que calcula el peso total del avión y su centro de gravedad. La aerolínea usa procedimientos manuales mientras restaura la automatización, y según The New York Times ese sistema maneja datos de fuselaje, combustible, pasajeros y equipaje. Ocurre una semana después de una caída de la FAA que provocó una parada nacional y miles de vuelos cancelados.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
-      "fecha": "22-11-2026 18:46"
-    },
-    {
-      "titulo": "Los automóviles digitales cuestan a los estadounidenses unos 12.000 millones de dólares extra al año en reparaciones",
-      "resumen": "Según el informe «Closing Shop» del grupo PIRG, los consumidores de Estados Unidos pagan unos 12.000 millones de dólares más al año en reparaciones por las restricciones digitales de los fabricantes. Los mecánicos dedican unos 83 millones de horas anuales a comprar software, descargar datos, iniciar sesión y esperar, y casi uno de cada cinco trabajos acaba en concesionarios autorizados, que cobran más. PIRG pide a los legisladores impedir que se bloquee a los talleres independientes en reparaciones sencillas y estandarizar el acceso a las herramientas de diagnóstico.",
+      "titulo": "Noruega vincula ciberataques a energéticas con una vulnerabilidad crítica en Azure API Management",
+      "resumen": "Microsoft ha emitido un aviso de vulnerabilidad crítica tras detectar ataques contra instancias Classic de Azure API Management que robaban secretos y permitían operaciones administrativas; las versiones v2 no están afectadas. Los ataques han alcanzado a dos grandes energéticas noruegas, Equinor y Skagerak Energi, y la autoridad de seguridad de Noruega recomienda dar por expuestos los secretos y rotar tokens y credenciales. Microsoft detectó el problema el 18 de noviembre y aplicó una mitigación automática al día siguiente, pero los clientes deben revisar si sus instancias fueron comprometidas antes de ese cambio.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/personal-tech/2026/11/22/as-cars-go-digital-us-consumers-pay-an-extra-12-billion-a-year-for-repairs/5311412",
-      "fecha": "22-11-2026 17:08"
+      "enlace": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
+      "fecha": "23-11-2026 13:29"
     },
     {
-      "titulo": "El límite del 50 % de Digi en roaming: cómo funciona y qué pasa si lo superas",
-      "resumen": "Digi revisa el uso en roaming en una ventana móvil de cuatro meses: el aviso salta cuando más del 50 % de los días el cliente está conectado a redes de la UE y más de la mitad de su tráfico de voz, mensajes y datos se hace fuera de España. Superar solo uno de los dos indicadores no basta. Digi no corta la línea de inmediato: avisa por SMS o notificación y da 14 días para corregirlo, tras los cuales puede aplicar un recargo o suspender el servicio temporalmente. Fuera de la UE el servicio se bloquea al llegar a 60,5 euros con IVA.",
+      "titulo": "Cleverbridge admite que los atacantes robaron números de tarjeta y códigos CVV de sus clientes",
+      "resumen": "Cleverbridge, plataforma alemana de pagos de software, reconoce que atacantes robaron números de tarjeta, fechas de caducidad, códigos CVV/CVC y datos de contacto de clientes. La empresa detectó la actividad no autorizada el 4 de noviembre y empezó a notificar a los afectados el 20 de noviembre, más de dos semanas después. No ha explicado cómo obtuvieron los CVV, cuántas personas se vieron afectadas ni qué proveedores resultaron perjudicados.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/23/cleverbridge-admits-attackers-stole-customers-credit-card-and-cvv-numbers-yep-you-read-that-right/5311573",
+      "fecha": "23-11-2026 12:48"
+    },
+    {
+      "titulo": "Un ciberataque roba datos personales de usuarios y clubes de LaLiga",
+      "resumen": "LaLiga reconoce un ciberataque sufrido los días 14 y 16 de noviembre de 2026, en el que un ciberdelincuente accedió a sus plataformas y robó datos personales de usuarios registrados en sus servicios digitales y de algunos clubes. Su equipo de seguridad lo detectó el 16 de noviembre, detuvo la extracción, bloqueó al atacante e informó a la AEPD y a la Policía Nacional. LaLiga no ha precisado qué datos se filtraron ni cuántos usuarios se han visto afectados.",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/digi-limite-uso-roaming-50-por-ciento/",
-      "fecha": "22-11-2026 19:57"
+      "enlace": "https://www.adslzone.net/noticias/seguridad/laliga-ciberataque-robo-datos-usuarios-clubes/",
+      "fecha": "23-11-2026 10:41"
     },
     {
-      "titulo": "Protesta del Partido del Congreso frente a las oficinas de Meta en Delhi por las cuentas restringidas",
-      "resumen": "Miembros del Partido del Congreso, principal formación de la oposición india, protestaron el viernes ante las oficinas de Meta en Delhi y, según un vídeo compartido por CNN, llegaron a entrar en el edificio. Exigen que Meta restablezca las cuentas de sus dirigentes; dos de ellas se restauraron el viernes, pero el partido dice que siguen restringidas miles de cuentas de periodistas, creadores e influencers críticos con el Gobierno, y ha colgado pancartas que acusan a Mark Zuckerberg de favorecer al BJP. En febrero, India redujo de 36 horas a tres el plazo para retirar contenido «ilegal». Meta no había respondido a la petición de comentarios.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india",
-      "fecha": "22-11-2026 16:15"
+      "titulo": "Uber prueba viajes que graban todo el trayecto por defecto",
+      "resumen": "Uber prueba en EE. UU. la función «Record My Ride», que graba todo el viaje con la cámara frontal del teléfono del conductor y lo guarda en «Recorded Rides» dentro de la app. El piloto se realiza en Baltimore, Raleigh, Indianápolis y St. Louis, con pruebas también en viajes nocturnos o con adolescentes, y con activación automática si el coche se desvía de la ruta o podría haber un accidente. Conductores y pasajeros pueden rechazar la grabación desde los ajustes de la app o mediante una notificación.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/23/uber-now-lets-you-book-rides-that-record-the-drive-by-default/",
+      "fecha": "23-11-2026 15:00"
     },
     {
-      "titulo": "Windows 11 mantendrá la calidad del audio Bluetooth mientras usas el micrófono, pero solo en algunos auriculares",
-      "resumen": "Microsoft prueba en las versiones Insider de Windows 11 una opción que mantiene audio estéreo de 48 kHz en auriculares Bluetooth aunque el micrófono esté activo, algo que hasta ahora obligaba a cambiar al perfil HFP y a perder calidad. Para usarla hacen falta auriculares con Bluetooth LE Audio y soporte de Super Wideband Stereo, así que muchos dispositivos quedarán fuera. Microsoft todavía no ha dicho si la función llegará también a equipos o auriculares antiguos.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/windows-11-por-fin-soluciona-uno-los-problemas-mas-molestos-los-auriculares-bluetooth-pero-no-para-todos_7064251_0.html",
-      "fecha": "22-11-2026 15:25"
+      "titulo": "Nvidia pone su hardware detrás de las interfaces cerebro-ordenador",
+      "resumen": "Paradromics, empresa de interfaces cerebro-ordenador de Austin, anuncia una alianza con Nvidia para procesar sus datos neuronales. Su implante, con más de 400 electrodos, permite a una paciente de Míchigan con enfermedad de la motoneurona hablar mediante una voz sintetizada, pero hoy necesita un carro de electrónica enchufado a la corriente. Nvidia aportará sus módulos Jetson y su software Holoscan para llevar esa decodificación a un dispositivo pequeño que quepa en su silla de ruedas, y asegura que no tendrá acceso a los datos cerebrales.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+      "fecha": "23-11-2026 14:11"
+    },
+    {
+      "titulo": "BepiColombo llega a Mercurio: la sonda europeo-japonesa ya orbita el planeta",
+      "resumen": "La misión conjunta de la ESA y la JAXA llegó a la órbita de Mercurio el 21 de noviembre de 2026, tras ocho años de viaje y nueve sobrevuelos. Sus dos sondas, la europea MPO y la japonesa Mio, están previstas para separarse el 9 de diciembre, y la fase científica comenzará en abril de 2027.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/bepicolombo-llega-a-mercurio-sonda-europeo-japonesa-esta-orbita-se-prepara-para-separarse-dos",
+      "fecha": "23-11-2026 13:02"
+    },
+    {
+      "titulo": "Los satélites Starlink V3 ya dan servicio a clientes",
+      "resumen": "Según ADSLZone, los satélites V3 de Starlink ya están operativos para clientes, tras el lanzamiento de 26 unidades el 28 de septiembre a bordo de Starship. Cada V3 ofrece hasta 1 Tbps de bajada y 160 Gbps de subida, unas diez veces más que los V2 Mini, y orbita a unos 350 km de altura, lo que la compañía asocia a latencias inferiores a 20 ms en condiciones óptimas. El artículo advierte de que no se notará una mejora apreciable hasta que haya muchos más V3 en órbita.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/redes/starlink-satelites-v3-capacidad-latencia/",
+      "fecha": "23-11-2026 11:33"
+    },
+    {
+      "titulo": "Amazon pega etiquetas en sus paquetes de Nueva York contra una ley de reparto",
+      "resumen": "Amazon ha empezado a pegar etiquetas en sus paquetes en Nueva York que advierten de que los cambios propuestos a las entregas de última milla podrían añadir hasta 5 dólares por pedido. Es parte de su oposición a la Delivery Protection Act (Intro 518), respaldada por el alcalde Zohran Mamdani en agosto, que exigiría licencias para estas operaciones y que los repartidores sean empleados y no contratistas. Amazon sostiene que encarecería los envíos y ralentizaría las entregas, y ha amenazado con trasladar sus centros de distribución fuera de la ciudad.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2324629/amazon-resorts-to-package-stickers-in-its-fight-against-nyc-proposed-delivery-law/",
+      "fecha": "23-11-2026 10:35"
     }
   ],
   "titulares": [
     {
-      "titulo": "Hace 100 años, un explorador gallego se convirtió en el autoproclamado rey de los jíbaros: Alfonso I de la Amazonia",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/hace-100-anos-explorador-gallego-se-convirtio-autoproclamado-rey-jibaros-alfonso-i-amazonia-1",
-      "fecha": "22-11-2026"
+      "titulo": "Trump dice que no permitirá a las empresas estadounidenses construir centros de datos en el extranjero",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/off-prem/2026/11/23/trump-says-he-wont-allow-us-companies-to-build-datacenters-abroad/5311640",
+      "fecha": "23-11-2026"
     },
     {
-      "titulo": "Una nueva web incluye 7955 canales de televisión gratis para ver fútbol, cine, series y más",
+      "titulo": "Los problemas de adjuntos del nuevo Outlook empujaron a los usuarios de vuelta a su predecesor",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/saas/2026/11/23/new-outlooks-attachment-issues-sent-users-into-the-arms-of-its-predecessor/5311576",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Un exoperativo de DOGE gana un contrato federal y luego las cosas se complican",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/he-worked-with-doge-now-hes-bidding-for-government-contracts/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "El consejero delegado de Capita se va tras el desastre del contrato de pensiones",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/public-sector/2026/11/23/capita-ceo-leaves-following-pensions-contract-disaster/5311585",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Por dentro del fracaso de Google para que Google Maps funcione para los palestinos",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/inside-googles-failure-to-make-google-maps-work-for-palestinians/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Los escritorios Linux clásicos encuentran nuevas rutas hacia Wayland",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/23/old-school-linux-desktops-find-fresh-routes-to-wayland/5311349",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Un proveedor eléctrico de Meta pidió a los reguladores eximir de las normas de lluvia ácida a las plantas de centros de datos",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/a-power-provider-for-meta-urged-regulators-to-exempt-data-center-plants-from-acid-rain-rules/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Airbus puede dejar Microsoft Office, pero para sus 36.000 empleados de defensa Office no se va",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/applications/2026/11/23/airbus-may-be-leaving-microsoft-office-but-for-its-36000-defense-staff-office-isnt-leaving-them/5311325",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Lenovo se lleva el mejor portátil convertible del año con una apuesta que le ha salido muy bien: Nvidia Spark",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ordenadores/lenovo-se-lleva-mejor-portatil-convertible-ano-apuesta-que-le-ha-salido-muy-bien-nvidia-spark",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Así puedes conseguir cien euros al abrir una cuenta bancaria online sin comisiones",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/brands/caixabank-cien-euros/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Probamos el Nilait Scene Lite: un proyector pequeño y muy económico para montar una sesión de cine en casa",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/internet/freetv-plataforma-canales-television-gratis/",
-      "fecha": "22-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/productos/analisis-nilait-scene-lite-proyector/",
+      "fecha": "23-11-2026"
     },
     {
-      "titulo": "Chema Alonso, hacker ético, sobre la importancia de Cloudflare: \"Bloquea 232 billones de ataques por día, si lo quitas de un país podría afectar a su economía\"",
+      "titulo": "Si tienes DIGI y viajas por Europa, cuidado con esta regla del 50% que puede dejarte sin línea",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/chema-alonso-hacker-etico-sobre-importancia-cloudflare-bloquea-232-billones-ataques-por-dia-si-quitas-un-pais-podria-afectar-su-economia_7058151_0.html",
-      "fecha": "22-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/si-tienes-digi-viajas-por-europa-cuidado-con-esta-regla-50-que-puede-dejarte-sin-linea_7064438_0.html",
+      "fecha": "23-11-2026"
     },
     {
-      "titulo": "La nueva guerra fría entre Estados Unidos y China no es por los chips: es por los monos de laboratorio",
+      "titulo": "En 2016, Marruecos construyó esta extraña torre que hoy abastece de energía a más de un millón de personas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/investigacion/nueva-guerra-fria-estados-unidos-china-no-chips-monos-laboratorio",
-      "fecha": "22-11-2026"
+      "enlace": "https://www.xataka.com/energia/2016-marruecos-construyo-esta-extrana-torre-que-hoy-abastece-energia-a-millon-personas",
+      "fecha": "23-11-2026"
     },
     {
-      "titulo": "Tech with Gerard, experto en Linux: \"300 distribuciones y solo necesitas una... Linux por fin está listo para el público general\"",
+      "titulo": "Si utilizas Android Auto, tienes una nueva forma de escuchar la radio sin pagar y sin anuncios",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/radijo-radio-gratis-android-auto/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Apple prepara un ambicioso plan para el MacBook Neo: habrá novedades todos los años",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/tech-with-gerard-experto-linux-300-distribuciones-solo-necesitas-una-linux-por-fin-esta-listo-para-publico-general_7056550_0.html",
-      "fecha": "22-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/apple-prepara-un-ambicioso-plan-para-macbook-neo-habra-novedades-todos-los-anos_7064401_0.html",
+      "fecha": "23-11-2026"
     },
     {
-      "titulo": "Vuelve a tiendas Lidl el sábado 28 (por 100 euros menos) el robot de cocina superventas Monsieur Cuisine con pantalla táctil, báscula y más",
+      "titulo": "Carrefour tira el precio de esta tele Samsung OLED en su Black Friday: tiene 65 pulgadas y es ideal para cine o videojuegos",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/vuelve-a-tiendas-lidl-sabado-28-100-euros-robot-cocina-superventas-monsieur-cuisine-pantalla-tactil-bascula",
-      "fecha": "22-11-2026"
+      "enlace": "https://www.xataka.com/seleccion/carrefour-tira-precio-esta-tele-samsung-oled-su-black-friday-tiene-65-pulgadas-ideal-para-cine-videojuegos",
+      "fecha": "23-11-2026"
     },
     {
-      "titulo": "Sergio Llorente, electricista, y cómo añadir un enchufe adicional en el baño sin obras ni romper nada: \"El truco está en las versiones estrechas\"",
+      "titulo": "Menos de un mes: Los números que más veces han tocado en el Gordo de Navidad y las terminaciones que nunca han salido",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/fintech/numeros-repetidos-terminaciones-nunca-salido-gordo-navidad/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Windows 11 prepara un cambio importante para 2027: los fallos del WiFi ya no deberían provocar pantallazos azules",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/sergio-llorente-electricista-como-anadir-un-enchufe-adicional-bano-sin-obras-ni-romper-nada-truco-esta-las-versiones-estrechas_7060746_0.html",
-      "fecha": "22-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/windows-11-prepara-un-cambio-importante-para-2027-los-fallos-wifi-ya-no-deberian-provocar-pantallazos-azules_7064483_0.html",
+      "fecha": "23-11-2026"
     },
     {
-      "titulo": "Hace 2.000 años en Menorca despedían a los suyos por todo lo alto: funerales con vino y leche",
+      "titulo": "La nube europea con cifrado de conocimiento cero cae de precio en un 90%: aprovecha el Black Friday de Internxt",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/hace-2000-anos-menorca-despedian-a-suyos-todo-alto-funerales-vino-leche",
-      "fecha": "22-11-2026"
+      "enlace": "https://www.xataka.com/seleccion/nube-europea-cifrado-conocimiento-cero-cae-precio-90-aprovecha-black-friday-internxt",
+      "fecha": "23-11-2026"
     },
     {
-      "titulo": "Sabemos que entrenar sin descanso perjudica al cuerpo. Ahora han descubierto qué puede ocurrir también en el cerebro",
+      "titulo": "Movistar reescribe la letra pequeña de sus contratos: estos son los cambios que afectan a los clientes",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-cambios-contratos-atencion-cliente/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Linus Torvalds anuncia el lanzamiento de Linux 7.4-rc4: \"Es enorme. Qué sorpresa. Un montón de pequeñas correcciones por todas partes\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linus-torvalds-anuncia-lanzamiento-linux-7-4-rc4-es-enorme-que-sorpresa-un-monton-pequenas-correcciones-por-todas-partes_7064421_0.html",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "En 1976 los arqueólogos dejaron sin excavar parte de una casa romana de Mérida. Resulta que ocultaba un tesoro único en murales",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/sabemos-que-entrenar-descanso-perjudica-al-cuerpo-ahora-han-descubierto-que-puede-ocurrir-tambien-cerebro",
-      "fecha": "22-11-2026"
+      "enlace": "https://www.xataka.com/magnet/1976-arqueologos-dejaron-excavar-parte-casa-romana-merida-resulta-que-ocultaba-tesoro-unico-murales",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Xiaomi Clip: lo que nos ha enamorado de los primeros auriculares de pinza de Xiaomi",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/zona-xiaomi/wearables/xiaomi-clip-claves-recomendacion/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "No tengo consola y juego igual: así puedes jugar gratis online si tienes Prime",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/recomendados/no-tengo-consola-juego-igual-asi-puedes-jugar-gratis-online-si-tienes-prime_7062953_0.html",
+      "fecha": "23-11-2026"
     }
   ]
 }
