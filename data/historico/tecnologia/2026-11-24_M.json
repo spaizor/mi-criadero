@@ -1,0 +1,214 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "24-11-2026 03:15",
+  "destacadas": [
+    {
+      "titulo": "Jensen Huang vuelve a ser CEO de Nvidia once días después de dimitir",
+      "resumen": "Nvidia anuncia que Jensen Huang retoma de inmediato el cargo de consejero delegado, once días después de dimitir el 12 de noviembre; Colette Kress, que le había sustituido de forma interina, ocupaba el puesto. El consejo dice haber recibido aportaciones de «altos niveles» del Gobierno de EEUU, y Trump celebró la decisión. Una petición con más de 200.000 firmas, sobre todo de accionistas, pedía su vuelta, mientras las acciones de la compañía acumulaban una fuerte caída desde su dimisión.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+      "fecha": "23-11-2026 15:27"
+    },
+    {
+      "titulo": "CrowdStrike comprará Zscaler por 44.000 millones de dólares",
+      "resumen": "La empresa de protección de endpoints CrowdStrike adquiere Zscaler, especialista en acceso «zero trust» con unos 8.000 clientes empresariales, en una operación casi totalmente en acciones valorada en unos 43.900 millones de dólares. Ambas compañías dicen que la unión creará «el mercado direccionable más grande» de la ciberseguridad y la prepara para la era de la IA. El cierre depende de la aprobación regulatoria y se espera hacia finales de 2027.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+      "fecha": "23-11-2026 17:20"
+    },
+    {
+      "titulo": "Un fallo crítico de Cisco con puntuación 9,8 ya se explota en ataques",
+      "resumen": "La vulnerabilidad CVE-2026-76466 afecta a las pasarelas Expressway-C y Expressway-E de Cisco en clúster y permite ejecutar comandos como root sin autenticación, por credenciales codificadas en el software. Según la firma rusa F6, atacantes sin identificar comprometieron dos equipos expuestos a Internet y luego otros dos nodos internos, y usaron herramientas que parecen escritas con ayuda de una IA. Cisco ya publicó una actualización que lo corrige, y CISA lo añadió el 20 de noviembre a su catálogo de explotadas, aunque Cisco dice no tener pruebas directas de explotación activa.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722",
+      "fecha": "23-11-2026 18:56"
+    },
+    {
+      "titulo": "Rusia podría poner en órbita un satélite con un arma nuclear antes de fin de año",
+      "resumen": "Según los medios alemanes NDR, WDR y Süddeutsche Zeitung, los servicios de inteligencia occidentales creen que Rusia podría desplegar este año un satélite armado con una bomba nuclear, el llamado Sputnik-S, que el Mando Espacial alemán sitúa como posible lanzamiento ya en diciembre. Un arma así amenazaría a miles de satélites de órbita baja, como Starlink o Starshield, y vulneraría el Tratado del Espacio Exterior de 1967. El Kremlin lo calificó de poco fiable y el canciller Merz habló de una posible escalada.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
+      "fecha": "23-11-2026 20:28"
+    },
+    {
+      "titulo": "Un fallo de Bluetooth permite frenar a distancia remolques de Elecbrakes",
+      "resumen": "Los investigadores Patrick Forck y Jeremy McCarthy, de Element Digital, descubrieron que los controladores de freno de remolque de Elecbrakes, vendidos en Australia y Nueva Zelanda, aceptan órdenes de frenado por Bluetooth sin autenticación: cualquiera dentro del alcance puede accionar los frenos o aplicar más fuerza de la prevista. CISA ha asignado tres CVE, dos con puntuación 9,6. Las unidades del coche y del remolque ya tienen parche de instalación manual, pero el modelo ELBC2000, sin fabricar desde hace años, sigue sin corrección.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/23/bluetooth-brakes-are-broken-as-researchers-find-anyone-can-control-them/5311748",
+      "fecha": "23-11-2026 20:29"
+    },
+    {
+      "titulo": "Nuevo golpe de EEUU a China: también perseguirá los chips más básicos utilizados en televisores o teléfonos móviles",
+      "resumen": "El Departamento de Comercio de EEUU endurece los controles sobre circuitos integrados de 16 y 14 nm y sobre algunos nodos avanzados, y la norma alcanza a cualquier empresa que use tecnología o patentes estadounidenses. TSMC ha paralizado parte de sus envíos de chips a China para cumplir los nuevos requisitos. Estos chips maduros se usan en electrodomésticos, móviles y coches, y China exportó circuitos integrados por 43.300 millones de dólares en enero y febrero, un 72,6 % más que un año antes.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/nuevo-golpe-eeuu-a-china-no-perseguira-solo-sus-chips-avanzados-tambien-basicos-que-usan-moviles-televisores-coches",
+      "fecha": "23-11-2026 18:00"
+    },
+    {
+      "titulo": "Ladybird, el primer motor de navegador nuevo en años, ya se puede probar",
+      "resumen": "El navegador independiente Ladybird, con un motor escrito desde cero, llega en fase alfa a macOS y Linux tras más de cuatro años de desarrollo, según anunció su desarrollador Andreas Kling. Es el primer motor nuevo en años frente a Gecko, Blink y WebKit, y el equipo ha ido portando el código de C++ a Rust con ayuda de IA. Kling reconoce que el resultado es «modesto pero funcional» y que algunas webs no funcionarán; la versión para Windows llegará en una etapa posterior.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+      "fecha": "23-11-2026 23:38"
+    },
+    {
+      "titulo": "Kagi lanza Kagi Mail, su correo sin publicidad ni vigilancia en beta pública",
+      "resumen": "Kagi, que ya ofrece un buscador de pago y el navegador Orion, abre en beta pública Kagi Mail, con direcciones @kagimail.com, alias y dominios ilimitados, 50 GB de almacenamiento y calendario integrado. Tiene 60 días de prueba gratuita y después cuesta 99 dólares al año, o va incluido en la suscripción Kagi Ultimate de 25 dólares al mes. Los contactos llegarán en el primer trimestre de 2027 y las apps móviles en el tercero.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+      "fecha": "24-11-2026 01:02"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Dentro de Nvidia, no todo el mundo celebra la vuelta de Jensen Huang",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/inside-nvidia-not-everyone-is-celebrating-jensen-huangs-return/",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "El autor de las primeras filtraciones de GTA VI es condenado y queda en libertad",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Una empleada de Figma demanda a la empresa por obligarla a enfrentarse a sus acosadores",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/23/figma-employee-sues-alleging-company-forced-her-to-confront-harassers/",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Inception, posible relanzamiento de ShinyHunters, suma siete víctimas en una semana",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/23/inception-possibly-a-shinyhunters-reboot-claims-seven-victims-in-a-week/5311768",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Nuevas filtraciones indican que el iPhone 18e tendrá un módulo de cámaras rediseñado",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2325828/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "La fijación de precios por vigilancia usa nuestros datos personales para cobrarnos más",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Una universidad aprueba un centro de datos de armas nucleares; el municipio promete seguir peleando",
+      "fuente": "404 Media",
+      "enlace": "https://www.404media.co/ypsilanti-michigan-data-center-vote/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Jensen Huang declarará en público ante senadores el 3 de diciembre",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2325655/nvidia-jensen-huang-will-testify-publlicly-before-senators-on-december-3/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Amazon pega etiquetas en sus paquetes para combatir la ley de reparto de Nueva York",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Meta tira por la borda su objetivo de cero emisiones netas",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Informe sobre la caída masiva de Microsoft: fallos de pruebas y correos que nunca llegaron",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "La autoridad neerlandesa de privacidad pide no comprar las llamadas «gafas pervertidas»",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Si quieres ver las luces de Navidad en Madrid, hay un mapa interactivo que puedes llevar en tu móvil",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/aplicaciones/quieres-ver-luces-navidad-madrid-hay-mapa-interactivo-que-puedes-llevar-tu-movil",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Samsung por fin arregla uno de los problemas más molestos de la Galería en One UI 9.5",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/samsung-one-ui-9-5-funcion-unir-fotos-galeria/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Orange cambia las reglas con una de sus plataformas de streaming: ahora puedes quitar los anuncios pagando un extra",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/orange-cambio-plataformas-streaming-quitar-anuncios/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Linux se acerca un poco más al PC gaming: CachyOS incorpora soporte para Easy Anti-Cheat",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linux-se-acerca-un-poco-mas-pc-gaming-cachyos-incorpora-soporte-para-easy-anti-cheat_7064500_0.html",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "\"Nunca voté, pero veo que es necesario\": las colas en los consulados españoles dejan el primer termómetro del 29N",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/nunca-vote-veo-que-necesario-colas-consulados-espanoles-dejan-primer-termometro-29n",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "GTA 6 para PC podría llegar antes de lo esperado por culpa de una filtración",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/gta-6-para-pc-recompilacion-filtracion-cyberleek/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Así puedes bloquear los números 400: si tu operador no te deja, el truco está en el móvil",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/seguridad/bloquear-numeros-400-llamadas-comerciales/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Un paciente de Neuralink consigue jugar a GTA 6 con la mente y muestra cómo controla el videojuego",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/un-paciente-neuralink-consigue-jugar-gta-6-con-mente-muestra-como-controla-videojuego_7064806_0.html",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "La última misión del capítulo 1 de 'GTA 6': todo lo que hay que hacer antes del punto de no retorno",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/ultima-mision-capitulo-1-gta-6-todo-que-hay-que-hacer-antes-punto-no-retorno",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Jensen Huang vuelve como CEO de NVIDIA tras el escándalo por una espía china",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/economia-empresas/jensen-huang-regresa-ceo-nvidia-presion-donald-trump/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Nuevo caos en Renfe: falla el sistema de seguridad ERTMS y los trenes avanzan «a la vista»",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/renfe-fallo-sistema-seguridad-ertms/",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Expertos en Python alertan de un grave fallo en GitHub: \"Desconocidos podrían tener acceso a tus secretos\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/expertos-python-alertan-un-grave-fallo-github-desconocidos-podrian-tener-acceso-tus-secretos_7064402_0.html",
+      "fecha": "23-11-2026"
+    },
+    {
+      "titulo": "Cronología del lío de Nvidia: las fechas clave desde el contrato con Megaspeed hasta la vuelta de Jensen Huang como CEO",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/cronologia-lio-nvidia-fichaje-megaspeed-reincorporacion-jensen-huang-como-ceo",
+      "fecha": "23-11-2026"
+    }
+  ]
+}
