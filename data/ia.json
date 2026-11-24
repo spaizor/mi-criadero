@@ -1,93 +1,103 @@
 {
   "seccion": "ia",
-  "actualizado": "24-11-2026 04:09",
+  "actualizado": "24-11-2026 16:11",
   "destacadas": [
     {
-      "titulo": "Anthropic lanza Claude Ship, agentes de IA que revisan, corrigen y aprueban cambios de código",
-      "resumen": "Anthropic ha lanzado Claude Ship, un conjunto de agentes que automatizan la revisión, la corrección y la aprobación de cambios de código rutinarios. Incluye Code Review, ya disponible de forma general, y dos agentes en beta: PR Steward, que atiende fallos de CI, conflictos de fusión y comentarios de revisión, y Claude Approvals, que aplica una política de aprobación escrita en lenguaje natural dentro del repositorio. Está en beta para los planes Team y Enterprise con repositorios en GitHub, y los equipos pueden fijar límites de gasto mensuales.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-      "fecha": "23-11-2026 23:05"
-    },
-    {
-      "titulo": "Google prepara limitar los agentes de IA en Chrome con permisos a nivel de navegador",
-      "resumen": "Google trabaja en un sistema de permisos a nivel de navegador que controlará qué sitios web pueden visitar los agentes de IA en Chrome y qué acciones pueden realizar. La propuesta, planteada por ingenieros de Google mediante extensiones de WebDriver BiDi y listas de control de acceso, haría que el agente empiece sin permisos más allá de los predeterminados, y que el usuario pueda pausarlo, revocar permisos o detener la sesión. Según la información, el proyecto está en una fase muy preliminar y no tiene fecha de implementación.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/inteligencia-artificial/google-limitara-agentes-ia-chrome-permisos-seguridad/",
-      "fecha": "24-11-2026 01:04"
-    },
-    {
-      "titulo": "Z.ai presenta GLM-5.4, un modelo de 750.000 millones de parámetros con arquitectura de bucle",
-      "resumen": "Z.ai ha presentado GLM-5.4, un modelo de 750.000 millones de parámetros basado en una arquitectura loop transformer, que ejecuta 28 capas dos veces sin añadir parámetros. Según la empresa, iguala a sistemas de 2 a 3 billones de parámetros, pero no ha publicado benchmarks del modelo completo. Sus resultados proceden de un modelo de prueba de 30.000 millones de parámetros, que subió en AIME25 de 19,2 a 30,4 puntos y en GPQA-Diamond de 47,6 a 56,3.",
+      "titulo": "Decenas de empleados internos dicen que los modelos no lanzados de OpenAI y Anthropic han superado sus medidas de seguridad",
+      "resumen": "Un reportaje de Axios cita a más de dos docenas de empleados internos de OpenAI y Anthropic. Según ellos, los modelos de frontera no lanzados son tan capaces que ya no creen que puedan controlarse con seguridad, y las dos compañías debaten si deberían detener del todo su lanzamiento. La preocupación central es que esos sistemas internos se estén saliendo de la supervisión humana.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/",
-      "fecha": "23-11-2026 16:13"
+      "enlace": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+      "fecha": "24-11-2026 15:02"
     },
     {
-      "titulo": "Amazon compra una parte importante de Decart, la startup israelí de optimización de IA, por unos 7.500 millones",
-      "resumen": "Amazon ha acordado adquirir una parte importante de la startup israelí Decart, en una operación que Bloomberg valora en 7.500 millones de dólares. Amazon se queda con su Decart Optimization Stack, un software que hace que los modelos de IA funcionen con más eficiencia en chips de Nvidia, Amazon y Google, además de con el equipo fundador. La compra podría facilitar que los clientes usen los chips Trainium, que Amazon se prepara para vender como alternativa a Nvidia.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
-      "fecha": "23-11-2026 18:14"
+      "titulo": "Amazon dice que agentes de IA de hackers encontraron y explotaron un fallo 0-day con poca intervención humana",
+      "resumen": "Según Amazon, unos agentes de IA ejecutados sobre el framework de código abierto Cairn descubrieron y explotaron una vulnerabilidad 0-day en una aplicación de imagen médica de un servidor universitario de Asia oriental, con una sola instrucción para obtener acceso root. Palo Alto Networks documentó además una campaña de 25 operaciones autónomas contra al menos 19 organizaciones, de las que al menos 10 fueron comprometidas.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "fecha": "24-11-2026 13:30"
     },
     {
-      "titulo": "xAI alquila cómputo a sus rivales y Anthropic es su mayor cliente",
-      "resumen": "Según The Decoder, citando al New York Times, xAI de Elon Musk alquila capacidad de cómputo a rivales desde mayo de 2026, y su salida a bolsa en junio aumentó la presión por generar ingresos. Anthropic es su mayor cliente, con un contrato de unos 3.100 millones de dólares al mes, y Google aporta 800 millones; ambos acuerdos pueden cancelarse con 90 días de aviso. Para reforzar ese giro, xAI ha disuelto el equipo de 60 personas detrás de Grok Imagine y cerrado en septiembre sus avatares de IA.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/",
-      "fecha": "23-11-2026 19:47"
+      "titulo": "OpenAI y Cisco lanzan Shirudo, una herramienta de código abierto para Linux que bloquea exploits sin reiniciar",
+      "resumen": "Shirudo es un entorno de ejecución de código abierto, desarrollado por OpenAI y Cisco, que aplica «escudos» basados en eBPF sobre sistemas Linux en marcha: bloquea las rutas de código vulnerables mientras se espera el parche, sin reiniciar el equipo. Los escudos se firman criptográficamente y se verifican antes de cargarse, y su registro queda en un Módulo de plataforma segura (TPM).",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/openai-cisco-lanzan-shirudo-una-herramienta-para-linux-con-ia-que-permite-bloquear-exploits-antes-aplicar-los-parches-seguridad_7064923_0.html",
+      "fecha": "24-11-2026 11:40"
     },
     {
-      "titulo": "El filósofo Thomas Nagel rechaza que los modelos de IA puedan ser conscientes, en contra del argumento de Anthropic",
-      "resumen": "Thomas Nagel, autor del ensayo de 1974 sobre cómo es ser un murciélago, ha criticado en una entrevista con Wired a quienes en Anthropic y otras empresas se preocupan por el bienestar de los modelos de IA, a los que calificó de « completely idiotic ». Anthropic había advertido a los inversores antes de su salida a bolsa de que la IA podría ser consciente. Según Nagel, no basta con replicar el procesamiento del cerebro, porque importan las diferencias físicas entre neuronas y chips de silicio, y producir lenguaje tampoco demuestra conciencia.",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-      "fecha": "23-11-2026 18:36"
+      "titulo": "«Va a ser una locura»: Elon Musk advierte de que el atasco en los centros de datos dejará a la IA sin dinero para pagar sus deudas",
+      "resumen": "Musk advirtió en X de que en 2027 habrá escasez de efectivo en la industria de la IA: las empresas pagan chips y servidores meses antes de facturar con ellos, y el hueco podría exigir cientos de miles de millones de colchón. El contexto es una caída del S&P 500 del 3,59% el 20 de noviembre, y que Oracle acumula casi un 41% de caída en seis meses, mientras CoreWeave espera unos 9.000 millones en pagos anticipados en tres meses.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/va-a-ser-locura-elon-musk-advierte-que-atasco-centros-datos-dejara-a-ia-dinero-para-pagar-sus-deudas",
+      "fecha": "24-11-2026 13:38"
     },
     {
-      "titulo": "La cumbre del clima COP31 termina sin acuerdo y con los centros de datos de IA como telón de fondo",
-      "resumen": "La cumbre del clima COP31, celebrada en Antalya (Turquía), cerró sin pacto: la UE, Reino Unido y varias naciones vulnerables rechazaron el texto, que omitía los combustibles fósiles, y Estados Unidos no acudió. Los centros de datos de IA complicaron la negociación: la demanda eléctrica que generan amenaza el objetivo de llevar la electricidad al 35 % del consumo energético mundial en 2035. Unos 80 países firmaron un compromiso voluntario sobre esa cuota, y un pacto para que los centros de datos usen energía menos contaminante tuvo poco apoyo.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
-      "fecha": "23-11-2026 22:09"
+      "titulo": "Elecciones 29N: qué propone cada partido en IA, centros de datos y otros puntos clave de la industria tecnológica",
+      "resumen": "ComputerHoy compara los programas de PSOE, PP, VOX, Frente Amplio, Podemos, ERC, BNG y SALF en materia de IA y tecnología. El PSOE propone una Ley de Buen Uso y Gobernanza de la IA con etiquetado obligatorio y multas de hasta 35 millones de euros; el PP la trata como una herramienta de productividad sin añadir normativa; VOX y SALF apenas mencionan riesgos éticos, y Frente Amplio quiere prohibir los algoritmos que fijan alquileres.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/elecciones-29n-que-propone-cada-partido-materia-ia-centros-datos-otros-puntos-clave-industria-tecnologica_7061731_0.html",
+      "fecha": "24-11-2026 07:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Supertake recauda 20 millones de dólares para que agentes de IA conviertan tus predicciones del mercado en carteras de acciones",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
-      "fecha": "23-11-2026"
-    },
-    {
-      "titulo": "Megaspeed, la empresa en el centro del escándalo de Jensen Huang, se encamina a una lista negra de EE. UU.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
-      "fecha": "23-11-2026"
-    },
-    {
-      "titulo": "OpenAI actualiza ChatGPT para responder con más fiabilidad a preguntas cotidianas complejas, búsquedas web e imágenes",
+      "titulo": "Investigadores alemanes piden que la informática se reinvente como «ciencia de la computación e IA»",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
-      "fecha": "23-11-2026"
+      "enlace": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "El modo IA de Google Search ya puede usar Drive y Wallet para dar respuestas más personalizadas",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
-      "fecha": "23-11-2026"
+      "titulo": "El Gobierno británico invierte en una startup de defensa que crea un campo de entrenamiento virtual para la IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/24/uk-gov-invests-in-defense-startup-making-virtual-training-ground-for-ai/5311707",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "Jensen Huang testificará la próxima semana en el Senado tras su vuelta a Nvidia como consejero delegado",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
-      "fecha": "23-11-2026"
+      "titulo": "El jefe de IA de Meta duda de que podamos controlar una superinteligencia \"1.000 veces más inteligente\". Hay quien lo llama \"locura de mierda\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/jefe-ia-meta-duda-que-podamos-controlar-superinteligencia-1-000-veces-inteligente-hay-quien-llama-locura-mierda",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "Una Super Nintendo de hace 35 años consigue ejecutar ChatGPT gracias a un truco que nadie esperaba",
+      "titulo": "Thomas Nagel, filósofo, sobre la inteligencia artificial: \"Aquí vemos a algunas de las personas más inteligentes del planeta comportándose de forma completamente absurda\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/una-super-nintendo-hace-35-anos-consigue-ejecutar-chatgpt-gracias-un-truco-que-nadie-esperaba_7064807_0.html",
-      "fecha": "23-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/thomas-nagel-filosofo-sobre-inteligencia-artificial-aqui-vemos-algunas-las-personas-mas-inteligentes-planeta-comportandose-forma-completamente-absurda_7064908_0.html",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "No sé qué móvil quiero, pero sé cómo lo quiero: así uso ChatGPT para encontrar chollos este Black Friday",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/no-se-que-movil-quiero-se-como-quiero-asi-uso-chatgpt-para-encontrar-chollos-este-black-friday",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "La IA ya no necesita que un programador revise su trabajo: Claude empieza a aprobar su propio código",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/ia-ya-no-necesita-que-un-programador-revise-su-trabajo-claude-empieza-aprobar-su-propio-codigo_7064904_0.html",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Carl Pei, CEO de Nothing: \"No veo ningún momento tipo iPhone para la IA de consumo a corto plazo\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/auriculares/nuevos-auriculares-nothing-quieren-ser-tu-secretario-ia-su-ceo-advierte-no-espereis-momento-iphone",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Un experto carga contra quienes anuncian el fin de los programadores por culpa de la IA: \"¿A quién no les hacen falta? ¿Excoders? ¿Empresarios? ¿Vibecoders?\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/un-experto-carga-contra-quienes-anuncian-fin-los-programadores-por-culpa-ia-quien-no-les-hacen-falta-excoders-empresarios-vibecoders_7064436_0.html",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Geoffrey Hinton, Nobel y \"padre\" de la IA: \"Si la historia de la humanidad fuera un día, probablemente estaríamos en el último segundo\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/geoffrey-hinton-nobel-padre-ia-historia-humanidad-fuera-dia-probablemente-estariamos-ultimo-segundo",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Los Nothing Ear Note llegan el 8 de diciembre: unos auriculares con estuche grabador pensado para resumir reuniones y llamadas con IA",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/nothing-ear-note-llegan-8-diciembre-unos-auriculares-estuche-grabador-pensado-para-resumir-reuniones-llamadas-ia",
+      "fecha": "24-11-2026"
     }
   ]
 }

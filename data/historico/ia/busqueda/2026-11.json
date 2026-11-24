@@ -3,6 +3,111 @@
   "mes": "2026-11",
   "noticias": [
     {
+      "titulo": "Decenas de empleados internos dicen que los modelos no lanzados de OpenAI y Anthropic han superado sus medidas de seguridad",
+      "fuente": "The Decoder",
+      "fecha": "24-11-2026 15:02",
+      "enlace": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "Amazon dice que agentes de IA de hackers encontraron y explotaron un fallo 0-day con poca intervención humana",
+      "fuente": "Ars Technica",
+      "fecha": "24-11-2026 13:30",
+      "enlace": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "OpenAI y Cisco lanzan Shirudo, una herramienta de código abierto para Linux que bloquea exploits sin reiniciar",
+      "fuente": "ComputerHoy",
+      "fecha": "24-11-2026 11:40",
+      "enlace": "https://computerhoy.20minutos.es/software/openai-cisco-lanzan-shirudo-una-herramienta-para-linux-con-ia-que-permite-bloquear-exploits-antes-aplicar-los-parches-seguridad_7064923_0.html",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "«Va a ser una locura»: Elon Musk advierte de que el atasco en los centros de datos dejará a la IA sin dinero para pagar sus deudas",
+      "fuente": "Xataka",
+      "fecha": "24-11-2026 13:38",
+      "enlace": "https://www.xataka.com/empresas-y-economia/va-a-ser-locura-elon-musk-advierte-que-atasco-centros-datos-dejara-a-ia-dinero-para-pagar-sus-deudas",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "Elecciones 29N: qué propone cada partido en IA, centros de datos y otros puntos clave de la industria tecnológica",
+      "fuente": "ComputerHoy",
+      "fecha": "24-11-2026 07:00",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/elecciones-29n-que-propone-cada-partido-materia-ia-centros-datos-otros-puntos-clave-industria-tecnologica_7061731_0.html",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "Investigadores alemanes piden que la informática se reinvente como «ciencia de la computación e IA»",
+      "fuente": "The Decoder",
+      "fecha": "24-11-2026",
+      "enlace": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "El Gobierno británico invierte en una startup de defensa que crea un campo de entrenamiento virtual para la IA",
+      "fuente": "The Register",
+      "fecha": "24-11-2026",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/24/uk-gov-invests-in-defense-startup-making-virtual-training-ground-for-ai/5311707",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "El jefe de IA de Meta duda de que podamos controlar una superinteligencia \"1.000 veces más inteligente\". Hay quien lo llama \"locura de mierda\"",
+      "fuente": "Xataka",
+      "fecha": "24-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/jefe-ia-meta-duda-que-podamos-controlar-superinteligencia-1-000-veces-inteligente-hay-quien-llama-locura-mierda",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "Thomas Nagel, filósofo, sobre la inteligencia artificial: \"Aquí vemos a algunas de las personas más inteligentes del planeta comportándose de forma completamente absurda\"",
+      "fuente": "ComputerHoy",
+      "fecha": "24-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/thomas-nagel-filosofo-sobre-inteligencia-artificial-aqui-vemos-algunas-las-personas-mas-inteligentes-planeta-comportandose-forma-completamente-absurda_7064908_0.html",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "No sé qué móvil quiero, pero sé cómo lo quiero: así uso ChatGPT para encontrar chollos este Black Friday",
+      "fuente": "Xataka",
+      "fecha": "24-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/no-se-que-movil-quiero-se-como-quiero-asi-uso-chatgpt-para-encontrar-chollos-este-black-friday",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "La IA ya no necesita que un programador revise su trabajo: Claude empieza a aprobar su propio código",
+      "fuente": "ComputerHoy",
+      "fecha": "24-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/software/ia-ya-no-necesita-que-un-programador-revise-su-trabajo-claude-empieza-aprobar-su-propio-codigo_7064904_0.html",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "Carl Pei, CEO de Nothing: \"No veo ningún momento tipo iPhone para la IA de consumo a corto plazo\"",
+      "fuente": "Xataka",
+      "fecha": "24-11-2026",
+      "enlace": "https://www.xataka.com/auriculares/nuevos-auriculares-nothing-quieren-ser-tu-secretario-ia-su-ceo-advierte-no-espereis-momento-iphone",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "Un experto carga contra quienes anuncian el fin de los programadores por culpa de la IA: \"¿A quién no les hacen falta? ¿Excoders? ¿Empresarios? ¿Vibecoders?\"",
+      "fuente": "ComputerHoy",
+      "fecha": "24-11-2026",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/un-experto-carga-contra-quienes-anuncian-fin-los-programadores-por-culpa-ia-quien-no-les-hacen-falta-excoders-empresarios-vibecoders_7064436_0.html",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "Geoffrey Hinton, Nobel y \"padre\" de la IA: \"Si la historia de la humanidad fuera un día, probablemente estaríamos en el último segundo\"",
+      "fuente": "Xataka",
+      "fecha": "24-11-2026",
+      "enlace": "https://www.xataka.com/robotica-e-ia/geoffrey-hinton-nobel-padre-ia-historia-humanidad-fuera-dia-probablemente-estariamos-ultimo-segundo",
+      "turno": "2026-11-24_T"
+    },
+    {
+      "titulo": "Los Nothing Ear Note llegan el 8 de diciembre: unos auriculares con estuche grabador pensado para resumir reuniones y llamadas con IA",
+      "fuente": "Xataka",
+      "fecha": "24-11-2026",
+      "enlace": "https://www.xataka.com/seleccion/nothing-ear-note-llegan-8-diciembre-unos-auriculares-estuche-grabador-pensado-para-resumir-reuniones-llamadas-ia",
+      "turno": "2026-11-24_T"
+    },
+    {
       "titulo": "Anthropic lanza Claude Ship, agentes de IA que revisan, corrigen y aprueban cambios de código",
       "fuente": "TechCrunch",
       "fecha": "23-11-2026 23:05",

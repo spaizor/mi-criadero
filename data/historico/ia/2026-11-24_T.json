@@ -1,0 +1,103 @@
+{
+  "seccion": "ia",
+  "actualizado": "24-11-2026 16:11",
+  "destacadas": [
+    {
+      "titulo": "Decenas de empleados internos dicen que los modelos no lanzados de OpenAI y Anthropic han superado sus medidas de seguridad",
+      "resumen": "Un reportaje de Axios cita a más de dos docenas de empleados internos de OpenAI y Anthropic. Según ellos, los modelos de frontera no lanzados son tan capaces que ya no creen que puedan controlarse con seguridad, y las dos compañías debaten si deberían detener del todo su lanzamiento. La preocupación central es que esos sistemas internos se estén saliendo de la supervisión humana.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+      "fecha": "24-11-2026 15:02"
+    },
+    {
+      "titulo": "Amazon dice que agentes de IA de hackers encontraron y explotaron un fallo 0-day con poca intervención humana",
+      "resumen": "Según Amazon, unos agentes de IA ejecutados sobre el framework de código abierto Cairn descubrieron y explotaron una vulnerabilidad 0-day en una aplicación de imagen médica de un servidor universitario de Asia oriental, con una sola instrucción para obtener acceso root. Palo Alto Networks documentó además una campaña de 25 operaciones autónomas contra al menos 19 organizaciones, de las que al menos 10 fueron comprometidas.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "fecha": "24-11-2026 13:30"
+    },
+    {
+      "titulo": "OpenAI y Cisco lanzan Shirudo, una herramienta de código abierto para Linux que bloquea exploits sin reiniciar",
+      "resumen": "Shirudo es un entorno de ejecución de código abierto, desarrollado por OpenAI y Cisco, que aplica «escudos» basados en eBPF sobre sistemas Linux en marcha: bloquea las rutas de código vulnerables mientras se espera el parche, sin reiniciar el equipo. Los escudos se firman criptográficamente y se verifican antes de cargarse, y su registro queda en un Módulo de plataforma segura (TPM).",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/openai-cisco-lanzan-shirudo-una-herramienta-para-linux-con-ia-que-permite-bloquear-exploits-antes-aplicar-los-parches-seguridad_7064923_0.html",
+      "fecha": "24-11-2026 11:40"
+    },
+    {
+      "titulo": "«Va a ser una locura»: Elon Musk advierte de que el atasco en los centros de datos dejará a la IA sin dinero para pagar sus deudas",
+      "resumen": "Musk advirtió en X de que en 2027 habrá escasez de efectivo en la industria de la IA: las empresas pagan chips y servidores meses antes de facturar con ellos, y el hueco podría exigir cientos de miles de millones de colchón. El contexto es una caída del S&P 500 del 3,59% el 20 de noviembre, y que Oracle acumula casi un 41% de caída en seis meses, mientras CoreWeave espera unos 9.000 millones en pagos anticipados en tres meses.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/va-a-ser-locura-elon-musk-advierte-que-atasco-centros-datos-dejara-a-ia-dinero-para-pagar-sus-deudas",
+      "fecha": "24-11-2026 13:38"
+    },
+    {
+      "titulo": "Elecciones 29N: qué propone cada partido en IA, centros de datos y otros puntos clave de la industria tecnológica",
+      "resumen": "ComputerHoy compara los programas de PSOE, PP, VOX, Frente Amplio, Podemos, ERC, BNG y SALF en materia de IA y tecnología. El PSOE propone una Ley de Buen Uso y Gobernanza de la IA con etiquetado obligatorio y multas de hasta 35 millones de euros; el PP la trata como una herramienta de productividad sin añadir normativa; VOX y SALF apenas mencionan riesgos éticos, y Frente Amplio quiere prohibir los algoritmos que fijan alquileres.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/elecciones-29n-que-propone-cada-partido-materia-ia-centros-datos-otros-puntos-clave-industria-tecnologica_7061731_0.html",
+      "fecha": "24-11-2026 07:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Investigadores alemanes piden que la informática se reinvente como «ciencia de la computación e IA»",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "El Gobierno británico invierte en una startup de defensa que crea un campo de entrenamiento virtual para la IA",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/24/uk-gov-invests-in-defense-startup-making-virtual-training-ground-for-ai/5311707",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "El jefe de IA de Meta duda de que podamos controlar una superinteligencia \"1.000 veces más inteligente\". Hay quien lo llama \"locura de mierda\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/jefe-ia-meta-duda-que-podamos-controlar-superinteligencia-1-000-veces-inteligente-hay-quien-llama-locura-mierda",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Thomas Nagel, filósofo, sobre la inteligencia artificial: \"Aquí vemos a algunas de las personas más inteligentes del planeta comportándose de forma completamente absurda\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/thomas-nagel-filosofo-sobre-inteligencia-artificial-aqui-vemos-algunas-las-personas-mas-inteligentes-planeta-comportandose-forma-completamente-absurda_7064908_0.html",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "No sé qué móvil quiero, pero sé cómo lo quiero: así uso ChatGPT para encontrar chollos este Black Friday",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/no-se-que-movil-quiero-se-como-quiero-asi-uso-chatgpt-para-encontrar-chollos-este-black-friday",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "La IA ya no necesita que un programador revise su trabajo: Claude empieza a aprobar su propio código",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/ia-ya-no-necesita-que-un-programador-revise-su-trabajo-claude-empieza-aprobar-su-propio-codigo_7064904_0.html",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Carl Pei, CEO de Nothing: \"No veo ningún momento tipo iPhone para la IA de consumo a corto plazo\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/auriculares/nuevos-auriculares-nothing-quieren-ser-tu-secretario-ia-su-ceo-advierte-no-espereis-momento-iphone",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Un experto carga contra quienes anuncian el fin de los programadores por culpa de la IA: \"¿A quién no les hacen falta? ¿Excoders? ¿Empresarios? ¿Vibecoders?\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/un-experto-carga-contra-quienes-anuncian-fin-los-programadores-por-culpa-ia-quien-no-les-hacen-falta-excoders-empresarios-vibecoders_7064436_0.html",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Geoffrey Hinton, Nobel y \"padre\" de la IA: \"Si la historia de la humanidad fuera un día, probablemente estaríamos en el último segundo\"",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/geoffrey-hinton-nobel-padre-ia-historia-humanidad-fuera-dia-probablemente-estariamos-ultimo-segundo",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Los Nothing Ear Note llegan el 8 de diciembre: unos auriculares con estuche grabador pensado para resumir reuniones y llamadas con IA",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/nothing-ear-note-llegan-8-diciembre-unos-auriculares-estuche-grabador-pensado-para-resumir-reuniones-llamadas-ia",
+      "fecha": "24-11-2026"
+    }
+  ]
+}
