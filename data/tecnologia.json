@@ -1,214 +1,184 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "24-11-2026 03:15",
+  "actualizado": "24-11-2026 15:12",
   "destacadas": [
     {
-      "titulo": "Jensen Huang vuelve a ser CEO de Nvidia once días después de dimitir",
-      "resumen": "Nvidia anuncia que Jensen Huang retoma de inmediato el cargo de consejero delegado, once días después de dimitir el 12 de noviembre; Colette Kress, que le había sustituido de forma interina, ocupaba el puesto. El consejo dice haber recibido aportaciones de «altos niveles» del Gobierno de EEUU, y Trump celebró la decisión. Una petición con más de 200.000 firmas, sobre todo de accionistas, pedía su vuelta, mientras las acciones de la compañía acumulaban una fuerte caída desde su dimisión.",
+      "titulo": "Uber, Nuro y Lucid arrancan las pruebas de robotaxis totalmente sin conductor",
+      "resumen": "Uber, Nuro y Lucid empiezan a probar en carretera pública en el Área de la Bahía de San Francisco robotaxis sin ningún operario humano al volante, con viajes solo para empleados poco después. Las pruebas arrancan en Palo Alto, Mountain View, Los Altos y Sunnyvale, y Lucid ha entregado más de 100 SUV Gravity mejorados. El lanzamiento al público en la app de Uber se retrasa a principios de 2027 frente al objetivo de finales de 2026, con Houston después.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/transportation/1040676/uber-nuro-lucid-driverless-robotaxi-testing-bay-area",
+      "fecha": "24-11-2026 14:00"
+    },
+    {
+      "titulo": "Dos bases de datos expuestas dejan al descubierto más de 3.500 millones de credenciales y documentos",
+      "resumen": "Dos bases de datos sin protección accesibles desde internet contenían más de 3.500 millones de nombres de usuario, contraseñas, números de identidad y documentos de personas de decenas de países. Una, localizada por el investigador de UpGuard Greg Pollock, tenía unos 1.640 millones de documentos, sobre todo de ciudadanos chinos, con cerca de 840 millones de números de identidad nacional. La otra, hallada por Jeremiah Fowler, tenía unos 2.000 millones de credenciales extraídas con software espía, con cientos de millones de cuentas de plataformas estadounidenses.",
       "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
-      "fecha": "23-11-2026 15:27"
+      "enlace": "https://www.wired.com/story/3-billion-usernames-passwords-and-documents-leaked-online/",
+      "fecha": "24-11-2026 12:00"
     },
     {
-      "titulo": "CrowdStrike comprará Zscaler por 44.000 millones de dólares",
-      "resumen": "La empresa de protección de endpoints CrowdStrike adquiere Zscaler, especialista en acceso «zero trust» con unos 8.000 clientes empresariales, en una operación casi totalmente en acciones valorada en unos 43.900 millones de dólares. Ambas compañías dicen que la unión creará «el mercado direccionable más grande» de la ciberseguridad y la prepara para la era de la IA. El cierre depende de la aprobación regulatoria y se espera hacia finales de 2027.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
-      "fecha": "23-11-2026 17:20"
-    },
-    {
-      "titulo": "Un fallo crítico de Cisco con puntuación 9,8 ya se explota en ataques",
-      "resumen": "La vulnerabilidad CVE-2026-76466 afecta a las pasarelas Expressway-C y Expressway-E de Cisco en clúster y permite ejecutar comandos como root sin autenticación, por credenciales codificadas en el software. Según la firma rusa F6, atacantes sin identificar comprometieron dos equipos expuestos a Internet y luego otros dos nodos internos, y usaron herramientas que parecen escritas con ayuda de una IA. Cisco ya publicó una actualización que lo corrige, y CISA lo añadió el 20 de noviembre a su catálogo de explotadas, aunque Cisco dice no tener pruebas directas de explotación activa.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722",
-      "fecha": "23-11-2026 18:56"
-    },
-    {
-      "titulo": "Rusia podría poner en órbita un satélite con un arma nuclear antes de fin de año",
-      "resumen": "Según los medios alemanes NDR, WDR y Süddeutsche Zeitung, los servicios de inteligencia occidentales creen que Rusia podría desplegar este año un satélite armado con una bomba nuclear, el llamado Sputnik-S, que el Mando Espacial alemán sitúa como posible lanzamiento ya en diciembre. Un arma así amenazaría a miles de satélites de órbita baja, como Starlink o Starshield, y vulneraría el Tratado del Espacio Exterior de 1967. El Kremlin lo calificó de poco fiable y el canciller Merz habló de una posible escalada.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
-      "fecha": "23-11-2026 20:28"
-    },
-    {
-      "titulo": "Un fallo de Bluetooth permite frenar a distancia remolques de Elecbrakes",
-      "resumen": "Los investigadores Patrick Forck y Jeremy McCarthy, de Element Digital, descubrieron que los controladores de freno de remolque de Elecbrakes, vendidos en Australia y Nueva Zelanda, aceptan órdenes de frenado por Bluetooth sin autenticación: cualquiera dentro del alcance puede accionar los frenos o aplicar más fuerza de la prevista. CISA ha asignado tres CVE, dos con puntuación 9,6. Las unidades del coche y del remolque ya tienen parche de instalación manual, pero el modelo ELBC2000, sin fabricar desde hace años, sigue sin corrección.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/23/bluetooth-brakes-are-broken-as-researchers-find-anyone-can-control-them/5311748",
-      "fecha": "23-11-2026 20:29"
-    },
-    {
-      "titulo": "Nuevo golpe de EEUU a China: también perseguirá los chips más básicos utilizados en televisores o teléfonos móviles",
-      "resumen": "El Departamento de Comercio de EEUU endurece los controles sobre circuitos integrados de 16 y 14 nm y sobre algunos nodos avanzados, y la norma alcanza a cualquier empresa que use tecnología o patentes estadounidenses. TSMC ha paralizado parte de sus envíos de chips a China para cumplir los nuevos requisitos. Estos chips maduros se usan en electrodomésticos, móviles y coches, y China exportó circuitos integrados por 43.300 millones de dólares en enero y febrero, un 72,6 % más que un año antes.",
+      "titulo": "Perseverance y Mars Odyssey sufren averías a la vez y la NASA tiene paradas sus misiones en Marte",
+      "resumen": "El rover Perseverance tiene un fallo en sus dos radios UHF desde el 30 de octubre: ha pasado a modo seguro y no puede transmitir los datos de sus experimentos, que están detenidos. La sonda Mars Odyssey perdió el 4 de noviembre la funcionalidad de una de sus cuatro ruedas de reacción y necesita tres para orientarse; si no tiene reparación, habría que usar propulsores, lo que acortaría años su vida útil. Las causas son desconocidas y no parecen relacionadas.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/nuevo-golpe-eeuu-a-china-no-perseguira-solo-sus-chips-avanzados-tambien-basicos-que-usan-moviles-televisores-coches",
-      "fecha": "23-11-2026 18:00"
+      "enlace": "https://www.xataka.com/espacio/marte-esta-imposible-perseverance-mars-odyssey-se-han-averiado-a-vez-nasa-ha-tenido-que-parar-ciencia",
+      "fecha": "24-11-2026 12:45"
     },
     {
-      "titulo": "Ladybird, el primer motor de navegador nuevo en años, ya se puede probar",
-      "resumen": "El navegador independiente Ladybird, con un motor escrito desde cero, llega en fase alfa a macOS y Linux tras más de cuatro años de desarrollo, según anunció su desarrollador Andreas Kling. Es el primer motor nuevo en años frente a Gecko, Blink y WebKit, y el equipo ha ido portando el código de C++ a Rust con ayuda de IA. Kling reconoce que el resultado es «modesto pero funcional» y que algunas webs no funcionarán; la versión para Windows llegará en una etapa posterior.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
-      "fecha": "23-11-2026 23:38"
+      "titulo": "Un fallo en un sistema de inicio de sesión heredado expone 355.000 direcciones de correo de colegios",
+      "resumen": "Bromcom, proveedor británico de software educativo usado por más de 5.000 escuelas, sufrió un ataque en septiembre de 2026 a través de un componente de inicio de sesión único que ya había sido sustituido pero seguía activo por un sistema interno. Se expusieron 355.051 direcciones de correo de personal y alumnos y números de referencia SSO, aunque la empresa asegura que no se robaron contraseñas ni tokens. La cifra procede de Have I Been Pwned, y Bromcom no ha notificado el caso a la autoridad británica de protección de datos.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/24/education-software-suppliers-legacy-login-system-left-355000-school-email-addresses-exposed/5311622",
+      "fecha": "24-11-2026 09:37"
     },
     {
-      "titulo": "Kagi lanza Kagi Mail, su correo sin publicidad ni vigilancia en beta pública",
-      "resumen": "Kagi, que ya ofrece un buscador de pago y el navegador Orion, abre en beta pública Kagi Mail, con direcciones @kagimail.com, alias y dominios ilimitados, 50 GB de almacenamiento y calendario integrado. Tiene 60 días de prueba gratuita y después cuesta 99 dólares al año, o va incluido en la suscripción Kagi Ultimate de 25 dólares al mes. Los contactos llegarán en el primer trimestre de 2027 y las apps móviles en el tercero.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
-      "fecha": "24-11-2026 01:02"
+      "titulo": "Mapa de los centros de datos en España: entre 100 y 300 según la fuente",
+      "resumen": "El recuento de centros de datos en España varía según la fuente: Data Center Map lista 263 en 41 mercados, BtMData cuenta 300 (210 operativos) y SpainDC unas cien instalaciones comerciales, con 439 MW IT en funcionamiento a finales de 2025. Madrid lidera con 75, seguida de Aragón con 61, sobre todo en Zaragoza, donde hay nueve proyectos de interés general que suman 82 edificios, 54 de ellos de Amazon. Red Eléctrica ha concedido 6.329 MW de acceso, ninguno todavía en servicio, y el Real Decreto 1032/2026 exige a los centros de 10 MW o más cubrir el 80 % de su consumo con renovables.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/mapa-que-muestra-cuantos-centros-datos-hay-espana",
+      "fecha": "24-11-2026 13:00"
+    },
+    {
+      "titulo": "Movistar eleva en enero el límite de datos gratis en roaming por Europa a 68 GB",
+      "resumen": "A partir del 1 de enero de 2027, Movistar sube a 68 GB mensuales el límite de datos gratuitos en roaming en la Unión Europea, Reino Unido, Noruega, Islandia, Liechtenstein, Ucrania y Moldavia; sin datos compartidos, el límite es de 37 GB. El cambio responde a la bajada del precio mayorista máximo del GB en roaming, que pasa de 1,10 a 1 euro más IVA. Superado el límite, cada GB extra cuesta 1,21 euros con IVA.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-roaming-gratis-68gb-2027/",
+      "fecha": "24-11-2026 11:30"
+    },
+    {
+      "titulo": "Starlink llegará a los Tesla de toda su gama en 2027",
+      "resumen": "Tesla planea instalar antenas de Starlink en toda su gama de vehículos para 2027, integración que Elon Musk ya había anunciado para los nuevos Cybercab. Musk sostiene que los coches autónomos sin supervisión necesitan banda ancha en todas partes, sin depender de la cobertura móvil. El artículo no concreta cuántos clientes se sumarían, y Starlink no llegará a los Tesla vendidos en China, donde es ilegal.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/redes/starlink-tesla-integracion-2027/",
+      "fecha": "24-11-2026 10:33"
+    },
+    {
+      "titulo": "Honor lanza el Magic 9 Pro Max con cámaras diseñadas junto a Arri",
+      "resumen": "Honor se asocia con Arri, la empresa alemana fabricante de la cámara de cine Alexa, para el Magic 9 Pro Max, que incorpora un sistema triple de 200 MP, 200 MP y 50 MP y el procesador de imagen H1, con perfiles de color Arri LogC3 y relación de aspecto 2,39:1 para vídeo. El móvil lleva un Snapdragon 8 Elite Extreme Gen 6, batería de 8000 mAh y carga de hasta 100 W, y sale primero en Malasia a 5.999 ringgits (unos 1.455 dólares) para la versión de 12 GB y 512 GB, con llegada a Oriente Medio y a Occidente en enero.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2325316/honor-teams-up-with-cinema-camera-maker-arri-on-the-magic-9-pro-max/",
+      "fecha": "24-11-2026 10:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Dentro de Nvidia, no todo el mundo celebra la vuelta de Jensen Huang",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/inside-nvidia-not-everyone-is-celebrating-jensen-huangs-return/",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "El autor de las primeras filtraciones de GTA VI es condenado y queda en libertad",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "Una empleada de Figma demanda a la empresa por obligarla a enfrentarse a sus acosadores",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/23/figma-employee-sues-alleging-company-forced-her-to-confront-harassers/",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "Inception, posible relanzamiento de ShinyHunters, suma siete víctimas en una semana",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/23/inception-possibly-a-shinyhunters-reboot-claims-seven-victims-in-a-week/5311768",
-      "fecha": "23-11-2026"
-    },
-    {
-      "titulo": "Nuevas filtraciones indican que el iPhone 18e tendrá un módulo de cámaras rediseñado",
+      "titulo": "Por qué la FAA no quiere que metas los AirPods en la maleta",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2325828/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/",
-      "fecha": "23-11-2026"
+      "enlace": "https://www.engadget.com/2320357/why-faa-doesnt-want-airpods-in-luggage/",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "La fijación de precios por vigilancia usa nuestros datos personales para cobrarnos más",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/",
-      "fecha": "23-11-2026"
-    },
-    {
-      "titulo": "Una universidad aprueba un centro de datos de armas nucleares; el municipio promete seguir peleando",
-      "fuente": "404 Media",
-      "enlace": "https://www.404media.co/ypsilanti-michigan-data-center-vote/",
-      "fecha": "23-11-2026"
-    },
-    {
-      "titulo": "Jensen Huang declarará en público ante senadores el 3 de diciembre",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2325655/nvidia-jensen-huang-will-testify-publlicly-before-senators-on-december-3/",
-      "fecha": "23-11-2026"
-    },
-    {
-      "titulo": "Amazon pega etiquetas en sus paquetes para combatir la ley de reparto de Nueva York",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/",
-      "fecha": "23-11-2026"
-    },
-    {
-      "titulo": "Meta tira por la borda su objetivo de cero emisiones netas",
+      "titulo": "Según la prensa, Jensen Huang reconoció ante la junta de Nvidia más de dos aventuras",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/",
-      "fecha": "23-11-2026"
+      "enlace": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board/",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "Informe sobre la caída masiva de Microsoft: fallos de pruebas y correos que nunca llegaron",
+      "titulo": "9/UX trae el aspecto de un Mac clásico a 9front",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656",
-      "fecha": "23-11-2026"
+      "enlace": "https://www.theregister.com/software/2026/11/24/9/ux-brings-a-classic-mac-feel-to-9front/5311844",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "La autoridad neerlandesa de privacidad pide no comprar las llamadas «gafas pervertidas»",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/",
-      "fecha": "23-11-2026"
+      "titulo": "InferNode da una segunda vida de 64 bits a Inferno OS, el sistema de Bell Labs",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/24/infernode-gives-bell-labs-inferno-os-a-64-bit-second-wind/5311704",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "Si quieres ver las luces de Navidad en Madrid, hay un mapa interactivo que puedes llevar en tu móvil",
+      "titulo": "Alemania acaba de activar el pánico: Rusia tiene en un almacén de Moscú lo más parecido al botón de apagado de la civilización moderna",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/aplicaciones/quieres-ver-luces-navidad-madrid-hay-mapa-interactivo-que-puedes-llevar-tu-movil",
-      "fecha": "23-11-2026"
+      "enlace": "https://www.xataka.com/magnet/alemania-acaba-lanzar-advertencia-rusia-tendria-almacen-moscu-parecido-al-boton-apagado-civilizacion-moderna",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "Samsung por fin arregla uno de los problemas más molestos de la Galería en One UI 9.5",
+      "titulo": "El hacker que filtró ‘GTA 6’ queda en libertad tras declararse culpable",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/samsung-one-ui-9-5-funcion-unir-fotos-galeria/",
-      "fecha": "23-11-2026"
+      "enlace": "https://hipertextual.com/videojuegos/hacker-gta-6-libertad-declararse-culpable/",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "Orange cambia las reglas con una de sus plataformas de streaming: ahora puedes quitar los anuncios pagando un extra",
+      "titulo": "Los bancos ya empiezan a pagar la pensión de noviembre y la extra de Navidad: estos son los días de cobro",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/orange-cambio-plataformas-streaming-quitar-anuncios/",
-      "fecha": "23-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/fintech/pension-noviembre-paga-extra-dias-cobro/",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "Linux se acerca un poco más al PC gaming: CachyOS incorpora soporte para Easy Anti-Cheat",
+      "titulo": "La Séptima podría dar el salto fuera de la TDT con un nuevo proyecto y se prepara para \"asaltar\" RTVE",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/linux-se-acerca-un-poco-mas-pc-gaming-cachyos-incorpora-soporte-para-easy-anti-cheat_7064500_0.html",
-      "fecha": "23-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/septima-podria-dar-salto-fuera-tdt-con-un-nuevo-proyecto-se-prepara-para-asaltar-rtve_7064915_0.html",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "\"Nunca voté, pero veo que es necesario\": las colas en los consulados españoles dejan el primer termómetro del 29N",
+      "titulo": "Un diseño que no pasa desapercibido y un estuche que puedes usar como micrófono: los Nothing Ear (3) caen a su nuevo mínimo histórico",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/nunca-vote-veo-que-necesario-colas-consulados-espanoles-dejan-primer-termometro-29n",
-      "fecha": "23-11-2026"
+      "enlace": "https://www.xataka.com/seleccion/diseno-que-no-pasa-desapercibido-estuche-que-puedes-usar-como-microfono-nothing-ear-3-caen-a-su-nuevo-minimo-historico",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "GTA 6 para PC podría llegar antes de lo esperado por culpa de una filtración",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/gta-6-para-pc-recompilacion-filtracion-cyberleek/",
-      "fecha": "23-11-2026"
-    },
-    {
-      "titulo": "Así puedes bloquear los números 400: si tu operador no te deja, el truco está en el móvil",
+      "titulo": "ING estrena una nueva función que te salvará si olvidas el PIN de tu cuenta",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/seguridad/bloquear-numeros-400-llamadas-comerciales/",
-      "fecha": "23-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/fintech/ing-pin-recovery-sin-oficinas/",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "Un paciente de Neuralink consigue jugar a GTA 6 con la mente y muestra cómo controla el videojuego",
+      "titulo": "DIGI sigue imparable y ya tiene fecha para culminar un gran proyecto que afectará a todos sus clientes en España",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/un-paciente-neuralink-consigue-jugar-gta-6-con-mente-muestra-como-controla-videojuego_7064806_0.html",
-      "fecha": "23-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/moviles/digi-sigue-imparable-ya-tiene-fecha-para-culminar-un-gran-proyecto-que-afectara-todos-sus-clientes-espana_7064916_0.html",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "La última misión del capítulo 1 de 'GTA 6': todo lo que hay que hacer antes del punto de no retorno",
+      "titulo": "En el Sistema Solar hay objetos que no se mueven como deberían. Estos científicos le echan la culpa a un planeta que aún no hemos sabido ver",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/ultima-mision-capitulo-1-gta-6-todo-que-hay-que-hacer-antes-punto-no-retorno",
-      "fecha": "23-11-2026"
+      "enlace": "https://www.xataka.com/espacio/sistema-solar-hay-objetos-que-no-se-mueven-como-deberian-estos-cientificos-le-echan-culpa-a-planeta-que-no-hemos-sabido-ver",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "Jensen Huang vuelve como CEO de NVIDIA tras el escándalo por una espía china",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/economia-empresas/jensen-huang-regresa-ceo-nvidia-presion-donald-trump/",
-      "fecha": "23-11-2026"
-    },
-    {
-      "titulo": "Nuevo caos en Renfe: falla el sistema de seguridad ERTMS y los trenes avanzan «a la vista»",
+      "titulo": "Hasta 25 euros más por llenar el depósito: España defiende una medida europea que preocupa a los conductores",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/renfe-fallo-sistema-seguridad-ertms/",
-      "fecha": "23-11-2026"
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/25-euros-mas-deposito-espana-medida-europea/",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "Expertos en Python alertan de un grave fallo en GitHub: \"Desconocidos podrían tener acceso a tus secretos\"",
+      "titulo": "Un desarrollador consigue que Linux arranque macOS 27 y ejecute aplicaciones como Safari, Finder y Chrome",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/expertos-python-alertan-un-grave-fallo-github-desconocidos-podrian-tener-acceso-tus-secretos_7064402_0.html",
-      "fecha": "23-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/un-desarrollador-consigue-que-linux-arranque-macos-27-ejecute-aplicaciones-como-safari-finder-chrome_7064918_0.html",
+      "fecha": "24-11-2026"
     },
     {
-      "titulo": "Cronología del lío de Nvidia: las fechas clave desde el contrato con Megaspeed hasta la vuelta de Jensen Huang como CEO",
+      "titulo": "Permisos por nacimiento de 20 semanas y de duelo de 10 días: en plena campaña electoral, el Gobierno ha metido sexta en política social",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/cronologia-lio-nvidia-fichaje-megaspeed-reincorporacion-jensen-huang-como-ceo",
-      "fecha": "23-11-2026"
+      "enlace": "https://www.xataka.com/magnet/permisos-nacimiento-20-semanas-duelo-10-dias-plena-campana-electoral-gobierno-ha-metido-sexta-politica-social",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "“La envidia no paga nóminas”: el fundador de Holded responde a la idea de limitar las herencias a 10 millones",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/fintech/bernat-ripoll-holded-herencias-millones/",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Nvidia acaba de demostrar que tiene un problema: depende tanto de Jensen Huang que ni siquiera puede permitirse perderlo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/nvidia-acaba-demostrar-que-tiene-un-problema-depende-tanto-jensen-huang-que-ni-siquiera-puede-permitirse-perderlo_7064910_0.html",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Las gangas del día hoy, 24 de noviembre, en Amazon, PcComponentes, El Corte Inglés, Movistar Plus y más",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/gangas-dia-hoy-24-noviembre-amazon-pccomponentes",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "Si tienes un Garmin, desde hoy puedes acceder a cinco nuevas esferas en tu reloj",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-cinco-esferas-nuevas/",
+      "fecha": "24-11-2026"
+    },
+    {
+      "titulo": "GTA VI ya arranca en un PC sin ayuda de Rockstar pero sufre un grave revés que pone en grave peligro el futuro del proyecto",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/gta-vi-ya-arranca-un-pc-sin-ayuda-rockstar-pero-sufre-un-grave-reves-que-pone-grave-peligro-futuro-proyecto_7064922_0.html",
+      "fecha": "24-11-2026"
     }
   ]
 }
