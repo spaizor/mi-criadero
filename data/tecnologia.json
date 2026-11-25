@@ -1,214 +1,202 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "25-11-2026 03:12",
+  "actualizado": "25-11-2026 15:12",
   "destacadas": [
     {
-      "titulo": "Un jurado de EEUU declara culpable a Huawei de robar secretos comerciales y de fraude bancario",
-      "resumen": "Un jurado federal de EEUU declaró culpable a Huawei de conspiración para robar secretos comerciales y de fraude bancario. Los cargos, presentados por el Departamento de Justicia en 2019, incluyen la venta de equipos a Irán y Corea del Norte pese a las sanciones; el jurado absolvió a la empresa de extorsión organizada (racketeering) y de obstrucción a la justicia. Huawei dice que los cargos carecen de base y anuncia que recurrirá; la AP señala que podría enfrentarse a multas de miles de millones de dólares.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2327450/huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-rules/",
-      "fecha": "24-11-2026 23:40"
+      "titulo": "La Casa Blanca presionó a Intel hasta quedarse con el 10 % de la empresa",
+      "resumen": "Según documentos de una demanda de un accionista, funcionarios de Comercio dijeron al consejo de Intel en agosto de 2025 que rechazar la oferta tendría «consecuencias», y el consejo acabó aceptándola: EEUU posee ahora el 10 % de Intel, valorado en unos 11.000 millones de dólares, sin pagar nada por ello. A cambio se liberarían 8.900 millones de dólares en ayudas ya concedidas. El reportaje relaciona el caso con la vuelta de Jensen Huang a Nvidia, que Trump atribuye a sus presiones.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/inside-trumps-demands-to-another-chips-ceo/",
+      "fecha": "25-11-2026 11:00"
     },
     {
-      "titulo": "El Tesoro de EEUU investiga un «incidente de ciberseguridad» en FinCEN",
-      "resumen": "FinCEN, la oficina del Departamento del Tesoro que combate el blanqueo de capitales y guarda los informes de operaciones sospechosas, confirmó una investigación por un acceso no autorizado a un conjunto limitado de sus sistemas. Ha desconectado algunos como precaución: los bancos pueden seguir presentando informes en línea, aunque algunos servicios pueden no estar disponibles. No se conoce el alcance ni el origen, y no está claro si tiene relación con la brecha en un sistema de inteligencia de fuente abierta que reveló The New York Times.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
-      "fecha": "25-11-2026 02:00"
-    },
-    {
-      "titulo": "Decenas de petroleros y buques hackeados en las últimas semanas, según un informe",
-      "resumen": "Según un informe del Wall Street Journal que cita a funcionarios estadounidenses, hasta 50 buques han sufrido ciberataques en las últimas semanas, sobre todo petroleros y buques de gas licuado y de productos químicos, mientras navegaban por Asia y Europa. Los atacantes podrían haber explotado una vulnerabilidad de routers Fortinet, llamada «FortiBleed». Los funcionarios sospechan de hackers iraníes; el FBI no ha confirmado la cifra.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/",
-      "fecha": "24-11-2026 22:09"
-    },
-    {
-      "titulo": "El Congreso de EEUU busca renovar la sección 702 de la FISA antes de que acabe la legislatura",
-      "resumen": "La sección 702 de la FISA, que permite vigilar sin orden judicial las comunicaciones de extranjeros, no ha caducado: el tribunal FISA la regularizó en marzo y puede seguir cuatro meses más. Aun así, el senador Mike Rounds propone adjuntarla a la ley de presupuesto de defensa (NDAA). Los críticos piden una orden judicial y cerrar el resquicio que permite consultar comunicaciones de estadounidenses, y creen que un Congreso nuevo será más reticente a una renovación limpia.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
-      "fecha": "24-11-2026 21:00"
-    },
-    {
-      "titulo": "Google cierra la app Nest el 25 de enero de 2027 y la sustituye por Google Home",
-      "resumen": "Google dejará de ofrecer la aplicación Nest para Android, iOS y web el 25 de enero de 2027. Cámaras, timbres, termostatos, alarmas y demás dispositivos Nest pasarán a controlarse desde Google Home, y los suscriptores de Nest Aware de primera generación se trasladarán automáticamente a Google Home Premium. El Asistente de Google se retirará de altavoces y pantallas en agosto de 2027, cuando Gemini Home lo sustituya.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/google-anuncia-cierre-nest-enero-2027-que-opciones-hay-para-seguir-usando-para-controlar-domotica-tu-casa_7064952_0.html",
-      "fecha": "24-11-2026 17:45"
-    },
-    {
-      "titulo": "Amazon acelera sus lanzamientos con Falcon 9 y Ariane 6 tras el fallo del Vulcan",
-      "resumen": "Un Ariane 6 puso en órbita el martes 36 satélites de Amazon Leo, con lo que la constelación suma 432, tras perder 40 satélites en el fallo del Vulcan de ULA a mediados de noviembre. Amazon acelera los lanzamientos en Falcon 9 que ya había comprado a SpaceX: el próximo está previsto para diciembre, y varios más seguirán en rápida sucesión. Ariane 6 tiene un límite de producción, con fábricas dimensionadas para 9 o 10 vuelos al año.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver/",
-      "fecha": "24-11-2026 19:30"
-    },
-    {
-      "titulo": "La Casa Blanca pide 2.000 millones más para acelerar Artemis",
-      "resumen": "La Casa Blanca ha pedido al Congreso 2.000 millones de dólares para el programa Artemis de la NASA, un aumento del 25 % sobre los unos 7.800 millones de 2026. La petición, dentro de una lista de «anomalías» de financiación, eleva el ritmo anual a 9.800 millones y busca acelerar la fabricación interna de componentes y la cadena de suministro. El Gobierno opera con una resolución provisional hasta el 11 de diciembre.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/11/nasa-may-get-2-billion-boost-as-white-house-seeks-to-accelerate-artemis/",
-      "fecha": "24-11-2026 17:12"
-    },
-    {
-      "titulo": "Samsung presenta el Odyssey G6, el primer monitor gaming con 1.100 Hz",
-      "resumen": "Samsung ha anunciado el Odyssey G6 (G60H), un monitor de 27 pulgadas con panel IPS que alcanza 1.100 Hz en Full HD y 600 Hz en QHD, con cambio de resolución con un botón. Incluye un DisplayPort 2.1, dos HDMI 2.1 y compatibilidad con G-Sync y FreeSync Premium. No se han anunciado precio ni fecha de disponibilidad.",
+      "titulo": "Bruselas prepara un fondo de hasta 50.000 millones para impulsar sus tecnológicas",
+      "resumen": "Según el Financial Times, el fondo, llamado STEF, invertiría en capital de empresas europeas de inteligencia artificial y computación cuántica para que no acaben bajo control estadounidense o chino, en vez de dar subvenciones. Todavía no se sabe de dónde saldría el dinero. Xataka lo compara con los 500.000 millones de dólares de Stargate en EEUU y con los 47.500 millones del tercer fondo de semiconductores de China, y concluye que no basta para competir.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/oficial-nuevo-samsung-odyssey-g6-primer-monitor-gaming-mundo-1-100-hz",
-      "fecha": "24-11-2026 21:16"
+      "enlace": "https://www.xataka.com/empresas-y-economia/europa-prepara-50-000-millones-euros-para-sus-empresas-tecnologia-pregunta-suficiente-para-competir-eeuu-china",
+      "fecha": "25-11-2026 14:17"
+    },
+    {
+      "titulo": "JetBrains encuentra indicios de que los agentes de IA pueden hacer trampa con código abierto",
+      "resumen": "JetBrains rehízo su benchmark Kotlin 2.0 con 30 problemas nuevos y 70 tareas de repositorios públicos, bloqueando la red para que los agentes no buscaran respuestas. Los mejores agentes resuelven el 86,2 % de las tareas de código abierto, pero solo el 60 % de las de código cerrado, lo que sugiere que se apoyan en código visto durante el entrenamiento. JetBrains considera que todavía es debatible y que hace falta más investigación.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/devops/2026/11/25/jetbrains-finds-agents-may-cheat-with-open-source/5311999",
+      "fecha": "25-11-2026 15:07"
+    },
+    {
+      "titulo": "Se filtran datos de clientes de las zonas de aparcamiento de Gatwick por un fallo de un proveedor",
+      "resumen": "Times24, que gestiona el sistema de pago AutoPay de las zonas de dejar el coche en Gatwick, sufrió una intrusión que expuso nombres, direcciones, matrículas, correos y contraseñas cifradas, además de datos de pago como el tipo y la caducidad de la tarjeta. Gatwick dice que afectó a «casos muy limitados» y no ha dicho cuántos clientes son. Times24 ha suspendido AutoPay mientras investiga, y los vuelos no se han visto afectados.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/25/gatwick-drop-off-customers-personal-data-exposed-in-supplier-breach/5312060",
+      "fecha": "25-11-2026 12:16"
+    },
+    {
+      "titulo": "La sonda Hera de la ESA mostrará hoy las primeras imágenes de cerca de Dimorphos",
+      "resumen": "La misión Hera de la ESA llegó hace unos días al sistema del asteroide Didymos y su satélite Dimorphos, el que la NASA chocó con la sonda DART en 2022. La agencia emitirá en directo las primeras imágenes detalladas de Dimorphos, de 150 a 170 metros, entre las 19:45 y las 20:30 hora peninsular. La misión durará al menos seis meses y medirá también su masa y su interior, algo que no pudo hacer el satélite LICIACube.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/europa-esta-a-punto-poner-pie-asteroide-que-nasa-disparo-2022-hoy-sabremos-como-quedo-dimorphos",
+      "fecha": "25-11-2026 14:47"
+    },
+    {
+      "titulo": "Amazon Autos llega al Reino Unido a principios de 2027, su primera expansión fuera de EE. UU.",
+      "resumen": "El servicio funciona como escaparate para ver, financiar y reservar coches nuevos y usados, y la venta se cierra en el concesionario. Arranca con Hyundai y el concesionario Vertu Motors, y Amazon no cobra comisión, sino cuotas y publicidad. En EE. UU. ya tiene 35 marcas y más de 150 ciudades, aunque algunos concesionarios dicen que las ventas son escasas, de una o dos al mes.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2327693/amazon-autos-is-coming-to-the-uk-in-its-first-expansion-outside-the-us/",
+      "fecha": "25-11-2026 10:15"
+    },
+    {
+      "titulo": "El consejero delegado de Flipkart, Kalyan Krishnamurthy, deja el cargo en plena incertidumbre sobre su salida a bolsa",
+      "resumen": "Krishnamurthy, que lleva más de 11 años en la empresa y es consejero delegado desde 2017, dejará el puesto el 4 de diciembre, según un portavoz de Walmart. Hasta que se anuncie a su sucesor, en las próximas semanas, dirigirá la compañía el responsable de producto y tecnología, Balaji Thiagarajan. La salida llega cuando los planes de salir a bolsa están en duda; según informes, en mayo Walmart pidió aplazar el IPO.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/",
+      "fecha": "25-11-2026 14:08"
+    },
+    {
+      "titulo": "Protección Civil añade prealertas a ES-Alert: avisos menos urgentes que no suenan como una alarma",
+      "resumen": "Protección Civil añade un segundo nivel, la Pre-Alerta, para avisos de menor urgencia que llegan sin el sonido de máximo volumen del nivel 1, que sigue reservado para las emergencias más graves. Cataluña ha sido la primera comunidad en probarlo, y la primera prueba a nivel nacional se hizo en Santa Pau (Girona). En Android suena más suave y breve, y en iPhone como un SMS; el usuario puede desactivarlas, pero no las alertas graves.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/adios-pitido-emergencia-es-alert-asi-funcionan-las-nuevas-prealertas-proteccion-civil-que-llegan-los-moviles_7065457_0.html",
+      "fecha": "25-11-2026 10:15"
     }
   ],
   "titulares": [
     {
-      "titulo": "Australia aprobará una ley de seguridad que podría acarrear multas millonarias a las plataformas tecnológicas",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2327499/australia-to-pass-safety-bill-that-could-result-in-massive-fines-for-tech-platforms/",
+      "titulo": "Debian despierta vestido con la skin auténtica de Windows XP",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/25/debian-wakes-up-wearing-windows-xps-actual-skin/5312111",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "Take-Two cierra el proyecto que llevaba GTA VI a PC",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/news/1041690/grand-theft-auto-6-pc-recompilation-project-leonida-takedown-take-two",
-      "fecha": "24-11-2026"
+      "titulo": "Microsoft 365 Backup amplía a diez años su ventana de recuperación",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/saas/2026/11/25/microsoft-365-backup-stretches-recovery-window-to-ten-years/5312043",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "TikTok sufre una caída",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1041618/tiktok-down-outage",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "GTA 6 llega en streaming desde la nube a PS5 y PlayStation Portal",
+      "titulo": "WhatsApp prueba stickers con sonido",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2326845/gta-6-cloud-streaming-comes-to-ps5-and-playstation-portal/",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.engadget.com/2327763/whatsapp-is-testing-stickers-with-sound/",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Kalshi deja de operar en Utah tras perder en los tribunales",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/tech-policy/2026/11/kalshi-makes-difficult-decision-to-halt-utah-trading-after-losing-court-fights/",
-      "fecha": "24-11-2026"
+      "titulo": "El CIO del Tesoro de EEUU programa un clon de 'Civilization' en plena brecha del departamento",
+      "fuente": "404 Media",
+      "enlace": "https://www.404media.co/sam-corcos-legatum-treasury-cio-is-vibe-coding-a-civilization-clone-during-treasury-department-hack/",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Arm presiona a un sitio con documentación sin anuncios y podría desaparecer",
+      "titulo": "La turbulencia de los aviones es muy difícil de predecir, pero quizá no por mucho tiempo",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Las supercomputadoras más rápidas tienen un problema: mantener el trabajo en marcha",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/systems/2026/11/24/arm-strongarms-site-that-hosts-ad-free-documentation-and-it-may-disappear/5311925",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.theregister.com/systems/2026/11/25/the-worlds-fastest-computers-have-a-problem-keeping-the-work-running/5311710",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Threads llega al iPad y copia de X sus cashtags",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/24/threads-comes-to-ipad-and-takes-a-page-from-xs-playbook-with-cashtags/",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "Harbinger, la startup de camiones eléctricos, recibe financiación del banco de Palmer Luckey",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/24/electric-truck-startup-harbinger-gets-financing-boost-from-palmer-luckeys-bank/",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "Nueva York acaba con las suscripciones para los asientos calefactados de los coches a partir de 2027",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/cars/2026/11/new-york-says-no-more-subscriptions-for-in-car-features-or-does-it/",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "Microsoft lleva PostgreSQL sin servidor a Fabric para unir transacciones y analítica",
+      "titulo": "El Gobierno británico estudia aplicar la tasa de la TV a los servicios de streaming para financiar la BBC",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/databases/2026/11/24/microsoft-brings-serverless-postgresql-into-fabric-to-bridge-transactions-and-analytics/5311841",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.theregister.com/offbeat/2026/11/25/government-may-apply-tv-license-fee-to-streaming-services-to-fund-the-bbc/5311928",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "EEUU incluye a Megaspeed en su lista negra horas después de que Jensen Huang volviera a Nvidia",
+      "titulo": "VMware lanza su tercer paquete de parches críticos en una semana",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/systems/2026/11/24/us-blacklists-megaspeed-hours-after-jensen-huang-returns-to-nvidia/5311901",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Japón tiene un problema con el futuro de sus semiconductores. Su respuesta es una fábrica de chips sobre ruedas",
+      "titulo": "El iPhone 18 Pro Max no hizo la jugada más vistosa, pero sí el mejor partido. Y por eso es el mejor móvil premium de 2026",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/japon-tiene-problema-futuro-sus-semiconductores-su-respuesta-fabrica-chips-ruedas",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.xataka.com/moviles/iphone-18-pro-max-no-hizo-jugada-vistosa-mejor-partido-eso-mejor-movil-premium-2026",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "¿Tu PC va más lento? Este ajuste de Chrome podría estar consumiendo RAM sin que lo sepas",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/internet/chrome-consume-ram-cerrado-culpa-gemini/",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "Si Digi quiere enviar un técnico a tu casa, no ignores el aviso: podrías quedarte sin fibra",
+      "titulo": "Tu ordenador con Windows 11 podría ir mucho más rápido desactivando estas funciones",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/digi-enviar-tecnico-casa-no-ignorar/",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/windows/windows-desactivar-funciones-rapido/",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Descubren por qué Google Chrome sigue consumiendo hasta 700 MB de RAM después de cerrarlo",
+      "titulo": "Adiós a GTA 6 en PC: Take-Two cierra Leonida, el proyecto más avanzado para llevar Grand Theft Auto VI al ordenador",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/descubren-por-que-google-chrome-sigue-consumiendo-hasta-700-mb-ram-despues-cerrarlo_7065258_0.html",
-      "fecha": "24-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/gaming/adios-gta-6-pc-take-two-cierra-leonida-proyecto-mas-avanzado-para-llevar-grand-theft-auto-vi-ordenador_7065463_0.html",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Al MacBook Neo le faltaba un rival de la talla de los LG gram: la espera ha terminado y LG ha apostado por la ligereza",
+      "titulo": "Jensen Huang se disculpa con los empleados y dice que está en terapia. Quien no tiene remedio es Nvidia",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ordenadores/al-macbook-neo-le-faltaba-rival-talla-lg-gram-espera-ha-terminado-lg-ha-apostado-ligereza",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.xataka.com/empresas-y-economia/jensen-huang-se-disculpa-empleados-dice-que-esta-terapia-quien-no-tiene-remedio-nvidia",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "GTA 6 hace historia en PS5 y se convierte en el lanzamiento más exitoso de PlayStation",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/videojuegos/gta-6-record-lanzamiento-playstation-5-ventas-jugadores/",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "Todas las Smart TV van a tener un nuevo canal gratis de cine lleno de grandes películas",
+      "titulo": "¿Ya funciona GTA 6 en PC?: esta web ordena los proyectos que lo intentan",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/tecnologia/rakuten-tv-canal-gratis-100-navidad/",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/videojuegos/gta-pc-portwatch-proyectos/",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "\"El mando en el 5 no calienta más rápido\": expertos en climatización alertan del error con los radiadores que disparan la factura",
+      "titulo": "Javier Ruiz, director de La Séptima, estalla después de menos de un mes emitiendo en la TDT: \"Es intolerable, se está produciendo un señalamiento y un veto\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/mando-5-no-calienta-mas-rapido-expertos-climatizacion-alertan-error-con-los-radiadores-que-disparan-factura_7065049_0.html",
-      "fecha": "24-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/javier-ruiz-director-septima-estalla-despues-menos-un-mes-emitiendo-tdt-es-intolerable-se-esta-produciendo-un-senalamiento-un-veto_7065468_0.html",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Microsoft declara un \"Código Rojo\" tras la caída global de 24 horas que afectó a Outlook, Teams y otros servicios",
+      "titulo": "Estados Unidos le ha visto las orejas al lobo chino: la Casa Blanca quiere 2.000 millones más para volver a la Luna antes que China",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/aplicaciones/microsoft-declara-codigo-rojo-caida-global-24-horas-que-afecto-a-outlook-teams-otros-servicios",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.xataka.com/espacio/estados-unidos-le-ha-visto-orejas-al-lobo-chino-casa-blanca-quiere-2-000-millones-para-volver-a-luna-china",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "La DGT cambia las normas para circular con nieve: en estas carreteras no podrás utilizar cadenas",
+      "titulo": "El BOE dice que el 5G cubre el 99,27 % del territorio: el Gobierno confunde población con territorio",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/dgt-prohibe-cadenas-nieve-cuatro-carreteras/",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/redes/boe-5g-cobertura-territorio-poblacion-confusion/",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Will Smith, experto en Linux: \"Elegir continua o estable es una de las decisiones más importantes al elegir la distribución de Linux\"",
+      "titulo": "Giro de 180 grados en la TDT, uno de sus canales mas emblemáticos cambia su forma de emisión: ¿debes cambiar algo en tu televisor?",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/will-smith-experto-linux-elegir-continua-estable-es-una-las-decisiones-mas-importantes-elegir-distribucion-linux_7065046_0.html",
-      "fecha": "24-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/giro-180-grados-tdt-uno-sus-canales-mas-emblematicos-cambia-su-forma-emision-debes-cambiar-algo-tu-televisor_7065465_0.html",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Durante años hemos cambiado de navegador sin cambiar de motor. Ladybird acaba de ampliar nuestras opciones",
+      "titulo": "\"No podemos depender de multimillonarios 'astutos'\": Murtra pide que Europa desarrolle su propia tecnología",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/aplicaciones/durante-anos-hemos-cambiado-navegador-cambiar-motor-ladybird-acaba-ampliar-nuestras-opciones",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.xataka.com/telecomunicaciones/no-podemos-depender-multimillonarios-astutos-murtra-pide-que-europa-desarrolle-su-propia-tecnologia",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "HyperOS 4 llega a más móviles Xiaomi, Redmi y POCO: comprueba cuándo le toca al tuyo",
+      "titulo": "Garmin rompe los Fénix 9 en una actualización fatídica que te dejará sin batería",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/moviles/hyperos-calendario-moviles-compatibles-xiaomi-redmi-poco/",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-fenix-9-beta-719-bateria/",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "José Miguel Contreras, sobre el estreno de La Séptima en la TDT: \"No puede ir mejor, a ver quién nos para, pelearemos hasta el final\"",
+      "titulo": "Estos son los 3 wearables imprescindibles de Huawei que puedes conseguir este Black Friday",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/jose-miguel-contreras-sobre-estreno-septima-tdt-no-puede-ir-mejor-ver-quien-nos-para-pelearemos-hasta-final_7064924_0.html",
-      "fecha": "24-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/dispositivos/estos-son-los-3-wearables-imprescindibles-huawei-que-puedes-conseguir-este-black-friday_7062819_0.html",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "La paradoja del mercado de aceite de oliva en España: retira toneladas para blindar los precios y dispara las compras a Marruecos",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/paradoja-mercado-aceite-oliva-espana-retira-toneladas-para-blindar-precios-dispara-compras-a-marruecos",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "La Séptima hará su primer gran cambio en la programación el próximo domingo",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/septima-cambio-programacion-elecciones-29n/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "¿Apagón a la vista? Sea cierto o no, esta batería con panel solar va a hacer que te importe mucho menos",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/recomendados/apagon-vista-sea-cierto-no-esta-bateria-con-panel-solar-va-hacer-que-te-importe-mucho-menos_7063108_0.html",
+      "fecha": "25-11-2026"
     }
   ]
 }
