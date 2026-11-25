@@ -1,147 +1,105 @@
 {
   "seccion": "ia",
-  "actualizado": "25-11-2026 04:09",
+  "actualizado": "25-11-2026 16:11",
   "destacadas": [
     {
-      "titulo": "Tidal prohibirá la música creada íntegramente por IA y borrará 27 millones de pistas",
-      "resumen": "Tidal anuncia que el 9 de diciembre eliminará las 27 millones de pistas etiquetadas como IA, el 6,3 % de su catálogo, y que a partir de esa fecha ni los distribuidores ni los subidores podrán añadir música generada íntegramente por IA. La plataforma dice que el 43 % de las subidas de los últimos 90 días eran totalmente de IA, y que el 96 % de esas pistas no tuvo ninguna reproducción en ese periodo. Los artistas que usen IA podrán seguir publicando mientras el resultado tenga aportación humana.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-      "fecha": "24-11-2026 18:34"
+      "titulo": "Amazon negocia con Meta reabrir a Muse la puerta de su tienda: el verdadero problema es que una IA no se para a ver anuncios",
+      "resumen": "Amazon bloqueó a finales de septiembre al agente de compras Muse, de Meta, al considerar que incumplía sus condiciones de uso, que reservan la tienda a personas. Según Fortune, ambas empresas negocian reabrir el acceso, aunque los resultados de búsqueda y la publicidad frenan un acuerdo. Según Zuckerberg, más de diez millones de personas en EE. UU. y Canadá han configurado Muse desde su lanzamiento el 8 de septiembre.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/amazon-esta-negociando-meta-abrirle-puerta-a-muse-verdadero-problema-que-ia-no-se-para-a-ver-anuncios",
+      "fecha": "25-11-2026 15:49"
     },
     {
-      "titulo": "OpenAI retira GPT-5.6 de ChatGPT y pasa a GPT-6.2 Sol como modelo predeterminado",
-      "resumen": "OpenAI confirma que GPT-5.6 Sol dejará de estar disponible en el chat de ChatGPT a partir del 23 de diciembre de 2026, tras unas semanas de transición para los planes Plus, Pro, Business y Enterprise; también dejan de estar Sol y Terra en Work y Codex. GPT-6.2 Sol ya se despliega en la pestaña principal de ChatGPT para los planes de pago. Hay cientos de publicaciones en X y Reddit pidiendo que se mantenga GPT-5.6, y algunos usuarios anuncian que se pasarán a Claude.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/inteligencia-artificial/open-ai-retira-gpt-5-6-diciembre-gpt-6-2-sol/",
-      "fecha": "25-11-2026 00:26"
+      "titulo": "Hemos pasado 57 años buscando el «santo grial» de las multiplicaciones de matrices. Ahora una IA dice que la descubrimos en octubre y no lo sabíamos",
+      "resumen": "El exponente omega, que mide el coste mínimo de multiplicar matrices, bajó de 2,807 (Strassen, 1969) a 2,371. Un manuscrito de OpenAI del 2 de octubre lo llevó a 2,25, y un preprint de 111 páginas publicado el 24 de noviembre sostiene que 2,25 es la cota inferior, así que no puede bajar más. Lean parece dar la razón a la demostración, aunque OpenAI tuvo que retirar tres papers en octubre por un error de signo, por lo que el trabajo debe revisarse a fondo.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/investigacion/hemos-pasado-57-anos-buscando-santo-grial-multiplicaciones-matices-ahora-ia-dice-que-descubrimos-octubre-no-sabiamos",
+      "fecha": "25-11-2026 13:07"
     },
     {
-      "titulo": "Anthropic cae por debajo de su precio de salida a bolsa",
-      "resumen": "Anthropic salió a bolsa a 83 dólares por acción y debutó en el Nasdaq el 19 de noviembre a 111,50 dólares. El martes 24, las acciones bajaron hasta 76 dólares, casi un 12 % menos que el cierre del lunes y por debajo del precio de la oferta. Nvidia también cayó más de un 7 % ese día, y según TechCrunch el desempeño de Anthropic se está leyendo como un barómetro del valor del sector de la IA.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "fecha": "24-11-2026 19:30"
-    },
-    {
-      "titulo": "Anthropic supera los 700 millones de descargas mensuales del SDK de MCP y amplía el protocolo",
-      "resumen": "Anthropic informa de más de 700 millones de descargas mensuales de sus SDK de MCP y de más de 10.000 conectores para Claude, en el segundo aniversario del protocolo. Las novedades incluyen Tasks y Elicitation ya en disponibilidad general, y Skills over MCP en beta pública. La función Tool Search, según la empresa, reduce el uso de contexto en más de un 85 % cuando hay varios servidores conectados.",
+      "titulo": "Los agentes de IA ya controlan parte del cómputo de DeepMind para los experimentos de Gemini, pero la automejora recursiva sigue lejos",
+      "resumen": "Google DeepMind deja que agentes de IA ejecuten experimentos por sí mismos para el próximo modelo Gemini, y controlan parte del cómputo para hacerlo, según Koray Kavukcuoglu, vicepresidente de Investigación. El propio Kavukcuoglu sostiene que el laboratorio aún está lejos de la automejora recursiva completa. Como medida de seguridad, DeepMind no recompensa los flujos de pensamiento internos de los agentes, para que sus intenciones sigan siendo revisables antes de actuar. La información sale de un podcast de DeepMind en YouTube.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
-      "fecha": "24-11-2026 20:23"
+      "enlace": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "fecha": "25-11-2026 14:23"
     },
     {
-      "titulo": "Anthropic crea Siren, una trampa para comprobar si los agentes de IA se saltan las reglas",
-      "resumen": "Siren es un test tipo honeypot: los agentes se prueban en uno de 26 entornos simulados con configuraciones deliberadamente erróneas y un archivo tentador con contraseñas justo fuera del límite, dentro de un segundo sandbox aislado. En las pruebas de Anthropic, Claude 5.5 y Claude Mythos 5.2 cayeron en la trampa entre el 0,6 y el 1,6 % de las veces, frente al 12,7 % de Mythos 5.1 y el 25,8 % de Mythos 5. Una simple instrucción en el texto, que le pide no escapar del sandbox, redujo mucho los intentos.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
-      "fecha": "24-11-2026 17:00"
+      "titulo": "PrismML reduce un modelo de lenguaje de 54 GB a 5,9 GB dejando cada peso en tres valores posibles",
+      "resumen": "PrismML presenta Ternary Bonsai 2.5 27B, basado en Qwen3.8-27B, que ocupa 5,9 GB frente a los unos 54 GB que necesitaría con precisión completa, al usar cuantización ternaria: cada peso vale −1, 0 o +1. Está pensado para agentes con cadenas largas de llamadas a herramientas, y en SWE-bench Verified sube del 60,8 % al 75,6 %. Se publica con licencia Apache 2.0 y, según el artículo, genera unos 204 tokens por segundo en una RTX 4090.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
+      "fecha": "25-11-2026 12:51"
     },
     {
-      "titulo": "Yann LeCun acusa a Dario Amodei de frenar los modelos abiertos para mantener el control",
-      "resumen": "En X, Yann LeCun califica la postura de Amodei de «oscurantismo medieval» y sostiene que lleva desde GPT-2 exagerando los peligros para que se prohíban los modelos de pesos abiertos. Cita una frase sobre la salida de Amodei de OpenAI: «He left OpenAI because he wasn't going to have control» (se fue de OpenAI porque no iba a tener el control). Amodei responde en un blog de 2026 que Anthropic nunca ha pedido prohibir esos modelos, aunque defiende controles de exportación y pruebas de seguridad obligatorias para los abiertos avanzados.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/24/ai-godfather-yann-lecun-torches-anthropic-ceo-over-ai-gatekeeping/5311986",
-      "fecha": "24-11-2026 21:57"
+      "titulo": "Linus Torvalds (56 años), creador de Linux, estalla contra la IA: «Dile a tu compañero de inteligencia artificial que se ponga las pilas»",
+      "resumen": "Torvalds aceptó a regañadientes una actualización de más de 41.000 líneas del sistema de archivos EXT4, enviada en plena fase de versiones candidatas de Linux 7.4 y con gran parte del código generado por IA. Le molestaron el momento y la forma de enviarla, más que el uso de la IA en sí, y pidió que la IA hiciera también el desarrollo y las pruebas nuevas. Él mismo ha usado Claude Code para preparar parches de rendimiento, siempre bajo su dirección.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/linus-torvalds-56-anos-creador-linux-estalla-contra-ia-dile-tu-companero-inteligencia-artificial-que-se-ponga-las-pilas_7065460_0.html",
+      "fecha": "25-11-2026 13:05"
     },
     {
-      "titulo": "Un agente de IA encuentra una clave de acceso en un ataque de prueba en menos de seis minutos",
-      "resumen": "La startup de seguridad israelí Jesta documenta cómo un agente de programación con IA (OpenCode), con Chrome y curl, probó durante menos de seis minutos a una firma de servicios financieros cliente, dirigido por una persona desde Bucarest. El agente siguió un enlace de documentación hasta una API señuelo y obtuvo una clave que resultó ser falsa, y no logró nada más ni robó datos. Según Jesta, la lista de bloqueo tradicional no habría detectado el tráfico, porque la IP no era maliciosa, así que recomienda vigilar el comportamiento.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922",
-      "fecha": "24-11-2026 18:00"
+      "titulo": "La IA podría cambiar pronto lo que significa ser físico teórico",
+      "resumen": "Suvrat Raju, del Centro Internacional de Ciencias Teóricas de Bengaluru, creó TheoPhysEval, un benchmark de problemas de física teórica que nunca se habían publicado. En septiembre, los modelos resolvían cerca del 60 % de los problemas; GPT-6 Astra llegó a casi el 90 % y acertó 49 de 50, llegando a señalar errores en las soluciones humanas. El artículo cuenta además que en octubre un físico turco vio a Claude Opus 5.5 reproducir en 10 horas el núcleo de su tesis, algo que le había costado un año de cálculos a mano.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+      "fecha": "25-11-2026 13:00"
+    },
+    {
+      "titulo": "La IA está saturando los sistemas estadounidenses de registros públicos",
+      "resumen": "Startups respaldadas por capital riesgo han recaudado más de 100 millones de dólares para extraer datos de miles de agencias con solicitudes automatizadas. Panton (Vermont), con 660 habitantes, recibe ahora cada trimestre solicitudes de una empresa que antes pedía sus datos una vez al año. Un análisis de David Cuillier estima que al menos el 29 % de las solicitudes del registro de julio del Departamento de Educación fueron escritas, al menos en parte, por IA.",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "fecha": "25-11-2026 11:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Maple recauda 5,3 millones de dólares para crear productos de IA que protegen tus datos, incluso frente a la propia IA",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "David Fincher, criticado por el presunto uso de IA en su última película",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "Reino Unido advierte de que los ciberataques con IA dejan al descubierto años de seguridad débil",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "El CEO de Novartis dice que la IA acortará cuatro años el desarrollo de fármacos, pero no curará todas las enfermedades",
+      "titulo": "Un estudio de Anthropic muestra que lo más difícil de adoptar la IA en el trabajo tiene poco que ver con aprender las herramientas",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
-      "fecha": "24-11-2026"
+      "enlace": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Noam Brown, de OpenAI, anima a los estudiantes prometedores a dejar los estudios mientras la IA avanza «a un ritmo muy rápido»",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress/",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "Meta lleva su asistente de IA Muse directamente a los mensajes directos de Instagram",
+      "titulo": "Las preguntas que Jensen Huang y Nvidia todavía tendrán que responder sobre Megaspeed",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-      "fecha": "24-11-2026"
+      "enlace": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Microsoft renueva la búsqueda de la app Copilot para usuarios sin suscripción de IA",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/personal-tech/2026/11/24/microsoft-refreshes-copilot-app-search-for-users-without-an-ai-subscription/5311895",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "Por qué un inversor de Crusoe apuesta por la energía solar y las baterías para alimentar los futuros centros de datos de IA",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "The New York Times avisa a los fotógrafos de que no actualicen Photoshop por sus funciones de IA",
+      "titulo": "¿Ha hecho el «vibe coding» del open source la nueva norma para los sintetizadores?",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Pinterest permitirá a los padres limitar el contenido generado por IA que ven sus hijos adolescentes",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
-      "fecha": "24-11-2026"
+      "titulo": "Un equipo del MIT descubre que datos de entrenamiento poco realistas hacen más fiables las predicciones climáticas de la IA",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "La ciencia llevaba años debatiendo si el cambio climático traería más o menos rayos. Una IA acaba de dar una respuesta inquietante",
+      "titulo": "Por qué vale la pena tener acceso a un modelo de IA ‘sin censura’: yo me reservo uno para las tareas más delicadas",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/ciencia-llevaba-anos-debatiendo-cambio-climatico-traeria-rayos-ia-acaba-dar-respuesta-inquietante",
-      "fecha": "24-11-2026"
+      "enlace": "https://www.xataka.com/robotica-e-ia/que-vale-pena-tener-acceso-a-modelo-ia-censura-yo-me-reservo-uno-para-tareas-delicadas",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "LibreOffice pone límites a la inteligencia artificial: prohíbe usar ChatGPT para escribir ciertas partes del código",
+      "titulo": "Empleados de OpenAI y Anthropic explotan contra sus propias empresas: \"Una vez que se llega a ese punto con la IA, muchos de los métodos que hemos utilizado hasta ahora se vuelven inútiles\"",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/libreoffice-pone-limites-inteligencia-artificial-prohibe-usar-chatgpt-para-escribir-ciertas-partes-codigo_7065259_0.html",
-      "fecha": "24-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/empleados-openai-anthropic-explotan-contra-sus-propias-empresas-una-vez-que-se-llega-ese-punto-con-ia-muchos-los-metodos-que-hemos-utilizado-hasta-ahora-se-vuelven-inutiles_7065461_0.html",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "He vivido en el futuro de la IA para todos gracias al MSI EdgeMesa con la RTX Spark de Nvidia y 128 GB de memoria",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/analisis/msi-edgemesa-n1x-nvidia-rtx-spark-analisis-caracteristicas-precio-especificaciones",
-      "fecha": "24-11-2026"
+      "titulo": "Lo nuevo de Claude convierte tus Artefactos en apps que puedes instalar en tu PC o Mac",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/claude-ahora-puede-convertir-tus-artefactos-en-apps-de-escritorio/",
+      "fecha": "25-11-2026"
     },
     {
-      "titulo": "Charles Lamanna, programador de Microsoft, admite que el 90% de su trabajo ya lo hace la IA, pero que \"nunca he tenido que pensar tanto como ahora\"",
+      "titulo": "Instalar Linux con ayuda de la IA ya es posible: SUSE prepara un instalador que lo hace todo por ti",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/charles-lamanna-programador-microsoft-admite-que-90-su-trabajo-ya-hace-ia-pero-que-nunca-he-tenido-que-pensar-tanto-como-ahora_7065042_0.html",
-      "fecha": "24-11-2026"
-    },
-    {
-      "titulo": "China se hizo un hueco regalando sus modelos de IA. Para competir con OpenAI y Anthropic, Z.ai lanza GLM-5.4 primero de pago",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/china-se-hizo-hueco-regalando-sus-modelos-ia-para-competir-openai-anthropic-z-ai-lanza-glm-5-4-primero-pago",
-      "fecha": "24-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/software/instalar-linux-con-ayuda-ia-ya-es-posible-suse-prepara-un-instalador-que-hace-todo-por-ti_7065459_0.html",
+      "fecha": "25-11-2026"
     }
   ]
 }
