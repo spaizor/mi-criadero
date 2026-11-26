@@ -1,214 +1,196 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "26-11-2026 03:12",
+  "actualizado": "26-11-2026 15:12",
   "destacadas": [
     {
-      "titulo": "La FCC autoriza a SpaceX a desplegar hasta un millón de satélites para centros de datos en órbita",
-      "resumen": "La Comisión Federal de Comunicaciones de EEUU ha concedido a SpaceX una autorización condicionada para lanzar una constelación de hasta un millón de satélites, denominados Starmind, diseñados como centros de datos orbitales. Si se completa, multiplicaría unas 50 veces el número de satélites en órbita. SpaceX tiene siete años para desplegar un primer satélite operativo, hasta noviembre de 2035 para 100.000 y hasta noviembre de 2040 para la constelación completa. La FCC rechazó por ahora una exención para desechar satélites fuera de la atmósfera, y desestimó buena parte de las objeciones ambientales presentadas por organizaciones como la Secure World Foundation o la American Astronomical Society.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
-      "fecha": "25-11-2026 19:22"
+      "titulo": "Neuralink recibe la aprobación de la FDA para un ensayo «pivotal» de su implante cerebral en pacientes con ELA",
+      "resumen": "La FDA ha dado permiso a Neuralink para iniciar LINK, el primer ensayo pivotal (de etapa avanzada) de un implante cerebro-computadora en Estados Unidos, dirigido a personas con ELA. La aprobación es de carácter experimental y el artículo no indica el número de pacientes; Neuralink ya ha trabajado con más de 30 participantes. El objetivo es comprobar si los pacientes pueden controlar dispositivos digitales con el pensamiento, mejorando su independencia diaria, y evaluar la seguridad y fiabilidad a largo plazo.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
+      "fecha": "26-11-2026 08:28"
     },
     {
-      "titulo": "1Password confirma que los atacantes entraron en sus sistemas internos, pero las contraseñas de los clientes están a salvo",
-      "resumen": "1Password detectó una intrusión el 19 de noviembre: el atacante accedió a la cuenta corporativa de un empleado en GitHub y desde allí subió código malicioso a los servidores internos de la empresa. Según la compañía, pudo descargar nombres, correos electrónicos usados para iniciar sesión y fechas de creación y de último acceso de las cuentas de clientes. Las cajas fuertes de los usuarios, donde están las contraseñas, nunca fueron accesibles, y 1Password afirma que sus aplicaciones y extensiones no se vieron afectadas. La empresa dice tener millones de clientes y más de 200.000 empresas usuarias, y no indicó cuántos clientes resultaron afectados ni cómo obtuvo el atacante acceso a la cuenta del empleado.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
-      "fecha": "25-11-2026 19:49"
-    },
-    {
-      "titulo": "Amazon pierde en los tribunales y tendrá que gestionar la retirada de más de 400.000 productos peligrosos",
-      "resumen": "Un tribunal federal de Maryland ha dado la razón a la Comisión de Seguridad de Productos de Consumo de EEUU (CPSC), que sostiene que Amazon es un distribuidor y no un simple operador logístico, y por tanto responsable de las retiradas de productos de terceros. La orden afecta a más de 400.000 artículos «Fulfilled by Amazon», entre ellos detectores de monóxido de carbono defectuosos, secadores de pelo sin protección contra electrocución y ropa de dormir infantil que no cumple la normativa de inflamabilidad. Amazon deberá publicar las retiradas en su web, avisar por correo a los compradores, reembolsar a quien demuestre la destrucción del producto y mantener los registros durante cinco años, con informes mensuales de progreso.",
+      "titulo": "¿Por qué Waymo sigue tropezando en las autopistas tras conquistar las calles de las ciudades?",
+      "resumen": "Waymo ha pausado los viajes comerciales por autopista en todos sus mercados de EE. UU., después de que el DMV de California le prohibiera circular por las autopistas estatales. El 6 de noviembre, uno de sus robotaxis intentó adelantar a dos patrullas de la CHP en la I-280, y entre octubre y noviembre la compañía registró 11 casos en los que no reconoció un carril cerrado por obras. Es el segundo parón del año en las autopistas, y un experto de Carnegie Mellon considera que las retiradas por software son «tiritas» que no resuelven el problema.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
-      "fecha": "26-11-2026 00:56"
+      "enlace": "https://www.theverge.com/transportation/1042151/waymo-highway-ban-ai-safety-recalls",
+      "fecha": "26-11-2026 13:00"
     },
     {
-      "titulo": "WhatsApp ya permite programar mensajes en chats individuales y de grupo",
-      "resumen": "WhatsApp empieza a desplegar la programación de mensajes, disponible tanto en chats individuales como en grupos, en iOS y Android. Para usarla, el usuario escribe el mensaje, mantiene pulsado el botón de enviar y elige la hora, con un margen de entre 10 minutos y 14 días. Los mensajes se envían aunque el teléfono esté apagado o sin cobertura, y desde la aplicación se pueden ver y eliminar, aunque no está claro si se pueden editar. Admite texto, fotos y vídeos. Telegram y Signal ya ofrecían esta función desde hace tiempo.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
-      "fecha": "25-11-2026 17:57"
-    },
-    {
-      "titulo": "La sonda Hera de la ESA encuentra un cráter del tamaño de un estadio en Dimorphos tras el impacto de DART",
-      "resumen": "La sonda Hera ha confirmado que el impacto de DART, en septiembre de 2022, dejó un cráter que atraviesa toda la anchura del asteroide Dimorphos, de unos 151 metros, y que lo hizo girar de forma descontrolada en su órbita. Según Patrick Michel, investigador principal de Hera, el impacto cambió a la vez la forma, la órbita y la superficie del asteroide. En 2027 llegarán los minisatélites Juventas y Milani, que medirán la masa del asteroide y su composición, un dato clave para calcular cuánto impulso transfirió DART y mejorar futuras desviaciones de asteroides.",
+      "titulo": "Se paraliza una operación de uranio en Wyoming tras un ciberataque",
+      "resumen": "Strata Energy, filial estadounidense de la australiana Peninsula Energy, suspendió la producción en su proyecto Lance (Wyoming) después de detectar un incidente de ciberseguridad el 20 de noviembre. El ataque afectó a los sistemas de control de la planta de procesamiento y del campo de pozos; según la compañía, los sistemas administrativos no se vieron afectados. No hay fecha de reinicio, la empresa no puede evaluar aún el impacto en su previsión de producción de 2027 y ha pedido suspender la cotización hasta el 30 de noviembre o hasta anunciar el reinicio.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/science/2026/11/25/hera-probe-finds-dart-left-a-stadium-sized-dent-in-asteroid-dimorphos/5312153",
-      "fecha": "25-11-2026 18:30"
+      "enlace": "https://www.theregister.com/security/2026/11/26/wyoming-uranium-operation-shuts-down-after-cyberattack/5312323",
+      "fecha": "26-11-2026 15:02"
     },
     {
-      "titulo": "Backblaze aclara por qué compartirá datos de cuentas con anunciantes desde el 1 de diciembre",
-      "resumen": "La nueva política de privacidad de Backblaze, que entra en vigor el 1 de diciembre, reconoce que desde el 1 de diciembre de 2025 la empresa ha compartido con socios publicitarios identificadores, información comercial, datos de geolocalización y actividad en red. La compañía asegura que no vende ni comparte grabaciones de llamadas ni datos de vigilancia para publicidad, ni datos sensibles como números de la Seguridad Social o de tarjetas de crédito. También sostiene que el contenido de las copias de seguridad, que se cifra antes de salir del equipo, no se comparte con anunciantes. Los usuarios pueden optar por no vender ni compartir sus datos mediante un enlace específico.",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
-      "fecha": "25-11-2026 19:38"
+      "titulo": "El regulador financiero británico acusa a Meta de negarse a probar Muse en su sandbox",
+      "resumen": "La FCA británica dice que Meta rechazó su propuesta de probar conjuntamente Muse, su asistente personal de IA, en el sandbox regulatorio del país. El regulador quiere entender cómo harán los agentes los pagos y cómo afectarán a los consumidores británicos, y lamenta que Meta solo le avisara del plan el mes pasado. Meta responde que ha colaborado «de forma constructiva» con las autoridades. Muse supera los 10 millones de usuarios en Norteamérica desde su lanzamiento en septiembre, y la CMA ya obligó a Meta a adaptar sus condiciones para usuarios del Reino Unido.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+      "fecha": "26-11-2026 11:51"
     },
     {
-      "titulo": "La NASA avanza con SR-1 Freedom, su nave con reactor nuclear para llevar drones a Marte",
-      "resumen": "SR-1 Freedom es el proyecto de la NASA para una nave con reactor de fisión, la primera de este tipo que viajaría más allá de la órbita terrestre, con lanzamiento previsto para finales de 2028. Transportaría hasta Marte una cápsula llamada SkyFall con tres helicópteros de clase Ingenuity. Tras la revisión de octubre, el blindaje del reactor permite un brazo más corto y las antenas de banda X serán más grandes, aunque quedan por definir el número de radiadores y la potencia del módulo nuclear. La NASA ha adjudicado 39,3 millones de dólares al Laboratorio de Física Aplicada de la Universidad Johns Hopkins para desarrollar el sistema de disipación de calor.",
+      "titulo": "NVIDIA podría recortar entre un 20 y un 30 % el suministro de chips a sus socios de GPU",
+      "resumen": "Según rumores recogidos por VideoCardz, citando foros chinos, NVIDIA reduciría entre un 20 y un 30 % la asignación de chips a los fabricantes de sus tarjetas gráficas, con efecto en el trimestre que va de noviembre de 2026 a enero de 2027. NVIDIA no lo ha confirmado. Algunos socios ya se están quedando sin stock de la serie RTX 50 y recurren a modelos antiguos como la RTX 3050 y la RTX 3060, lo que podría encarecer y dificultar la compra de tarjetas.",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/hardware/comprar-una-gpu-de-nvidia-podria-volverse-mas-dificil-y-caro/",
+      "fecha": "26-11-2026 15:01"
+    },
+    {
+      "titulo": "Microsoft lanza un hotpatch fuera de ciclo para un fallo que puede tumbar Windows Server 2025",
+      "resumen": "Microsoft publicó el 25 de noviembre el hotpatch KB5138318 para corregir un fallo que introdujo su actualización de seguridad de noviembre (KB5131077) en Windows Server 2025. Los servidores con Router Advertisement activado pueden caerse, con el error 0x139, cuando expira el temporizador de una ruta IPv6 con tiempo limitado. Microsoft identifica ese vencimiento como desencadenante, pero no ha explicado el fallo de código subyacente. Según Lansweeper, Windows Server 2025 representa el 7 % de los servidores que monitoriza, frente al 32 % de Server 2022.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/science/2026/11/25/nasas-nuclear-powered-mars-delivery-service-takes-shape/5312147",
-      "fecha": "25-11-2026 16:30"
+      "enlace": "https://www.theregister.com/os-platforms/2026/11/26/microsoft-hotpatches-hotpatch-that-could-crash-windows-server-2025/5312301",
+      "fecha": "26-11-2026 13:27"
     },
     {
-      "titulo": "Microsoft reconoce que sus propias aplicaciones consumían casi 900 MB de RAM en Windows 11 y ya lo ha corregido",
-      "resumen": "Durante Ignite 2026, Microsoft admitió que varias de sus aplicaciones y servicios en segundo plano consumían una cantidad considerable de memoria en Windows 11, algo especialmente notable en equipos de 8 GB. Tras meses de trabajo, la compañía asegura haber reducido ese consumo en más de 860 MB: Microsoft 365 usa ahora 360 MB menos y los servicios en segundo plano como Defender, OneDrive y Purview liberan más de medio gigabyte. Según explicó Ian LeGrow, responsable de un equipo de ingeniería del núcleo de Windows, las mejoras consisten en cargar solo lo necesario y reutilizar memoria entre componentes, sin eliminar funciones.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/microsoft-reconoce-que-sus-propias-aplicaciones-devoraban-casi-900-mb-ram-windows-11-ya-ha-puesto-remedio_7065732_0.html",
-      "fecha": "25-11-2026 21:00"
+      "titulo": "X estrena sus primeros controles parentales para cuentas de adolescentes",
+      "resumen": "X lanza sus primeros controles parentales para cuentas de usuarios de 13 a 17 años. Las cuentas adolescentes activan por defecto el modo protegido, restringen el contenido sensible y bloquean la publicidad dirigida. El padre o tutor puede fijar un límite diario de tiempo, aprobar a los nuevos seguidores, limitar el «Para ti» a las cuentas que el adolescente ya sigue y ver con qué cuentas ha tenido conversaciones privadas, sin leer los mensajes. La vinculación la inicia el adulto y la deben aceptar ambas partes, y un padre puede controlar hasta cinco cuentas.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2329049/x-is-adding-its-first-ever-parental-controls/",
+      "fecha": "26-11-2026 10:26"
+    },
+    {
+      "titulo": "Digi lanza una fibra asimétrica de 2 Gbps por 20 euros al mes",
+      "resumen": "Digi ha publicado la Fibra SMART 2Gb asimétrica por 20 € al mes, con hasta 2000 Mbps de bajada y 1000 Mbps de subida, y permanencia de tres meses. Solo está disponible en domicilios con cobertura de Fibra SMART que no tengan XGS-PON, con router GPON y Wi-Fi 7 en depósito. Los clientes con la fibra de 1 Gbps que puedan pasar a XGS-PON migran a la simétrica de 2 Gbps al cambiar de router, y el resto a la asimétrica, con el mismo precio en ambos casos.",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-fibra-2gbps-asimetricos-euros/",
+      "fecha": "26-11-2026 10:29"
     }
   ],
   "titulares": [
     {
-      "titulo": "¿Se puede jugar a GTA 6 desde un disco duro externo en PS5 o Xbox Series X/S?",
+      "titulo": "La app Screens permitirá convertir tu iPhone Duo en un MacBook diminuto",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2328792/can-you-play-gta-6-from-external-hard-drive/",
-      "fecha": "25-11-2026"
+      "enlace": "https://www.engadget.com/2329115/the-screens-app-will-let-you-turn-your-iphone-duo-into-an-itty-bitty-macbook/",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "El Tesla Cybertruck cancelado es el camión de segunda mano que más se vende en EE. UU.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "La seguridad de los sistemas de agua de EE. UU. es aún más frágil de lo que se pensaba",
+      "titulo": "Una empresa muy metódica con sus copias de seguridad, pero que las dejó expuestas",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/25/the-security-of-us-water-systems-is-even-leakier-than-we-thought/5312243",
-      "fecha": "25-11-2026"
+      "enlace": "https://www.theregister.com/security/2026/11/26/company-was-religious-about-backups-but-sinned-by-leaving-them-exposed/5312234",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "Los científicos usan aves marinas para rastrear barcos ocultos",
-      "fuente": "404 Media",
-      "enlace": "https://www.404media.co/the-birds-are-listening-scientists-used-seabirds-to-track-hidden-ships/",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "Huawei y otros fabricantes presentan herramientas EDA propias para suplir el déficit de fábricas de China",
+      "titulo": "Enlaces obsoletos en webs del sector público británico llevan a los visitantes a casas de apuestas",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/systems/2026/11/25/huawei-and-crew-tout-homegrown-eda-tools-to-overcome-chinas-fab-deficit/5312205",
-      "fecha": "25-11-2026"
+      "enlace": "https://www.theregister.com/public-sector/2026/11/26/stale-links-on-uk-public-sector-websites-direct-visitors-to-gambling-dens/5312049",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "El Departamento de Justicia acusa a un exejecutivo de ciberseguridad de estafar a víctimas de ransomware al pagar en secreto a los hackers",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "La última actualización de X para creadores se centra en el vídeo vertical",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "Los cambios de seguridad de NTLM de Microsoft dan problemas a los inicios de sesión de terceros",
+      "titulo": "El Gobierno británico trabaja «sin descanso» en planes de contingencia para Capita",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085",
-      "fecha": "25-11-2026"
+      "enlace": "https://www.theregister.com/public-sector/2026/11/26/uk-government-working-around-the-clock-on-capita-contingency-plans/5312298",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "Un grupo de hackers iraní conocido encuentra una nueva forma de causar caos",
-      "fuente": "Ars Technica",
-      "enlace": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
-      "fecha": "25-11-2026"
+      "titulo": "Entradas de agua a 45 °C han dejado fuera de juego a los enfriadores, y casi nadie lo ha notado",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "Todoist confirma que se robaron datos del 6 % de sus clientes en una brecha",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
-      "fecha": "25-11-2026"
+      "titulo": "El Ministerio del Interior británico dio luz verde a su sistema fronterizo sin una solución que funcione para los datos erróneos",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/26/uk-home-office-waved-through-border-system-without-a-working-fix-for-bad-data/5312162",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "1Password ha sido hackeado",
+      "titulo": "WhatsApp, basta ya",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/1password-ha-sido-hackeado",
-      "fecha": "25-11-2026"
+      "enlace": "https://www.xataka.com/aplicaciones/whatsapp-basta",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "La forma más inesperada de usar Windows XP en 2026 está dentro de Linux",
+      "titulo": "Cinco productos de Apple con el mejor precio en este Black Friday",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/tecnologia/windows-xp-linux-win4wine-proyecto/",
-      "fecha": "25-11-2026"
+      "enlace": "https://hipertextual.com/ofertas-descuentos/apple-black-friday/",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "Si falla tu conexión a Internet, esta compañía lo arregla más rápido: Movistar vs Orange vs Vodafone vs DIGI",
+      "titulo": "Android Auto tiene una nueva app que une lo mejor de YouTube y de las listas IPTV en una misma herramienta",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-orange-vodafone-digi-tiempo-reparacion-averias/",
-      "fecha": "25-11-2026"
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/mm-auto-android-auto-youtube-iptv/",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "Google Maps prepara un cambio de colores que llevábamos años esperando y también llegará a Android Auto",
+      "titulo": "Los trabajadores de la Clínica Mayo tendrán 5 minutos pagados para poder encender sus ordenadores cada día",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/google-maps-prepara-un-cambio-colores-que-llevabamos-anos-esperando-tambien-llegara-android-auto_7065731_0.html",
-      "fecha": "25-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/tendencias/los-trabajadores-clinica-mayo-tendran-5-minutos-pagados-para-poder-encender-sus-ordenadores-cada-dia_7065999_0.html",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "Primero el FBI, después la CIA y ahora el Tesoro: EEUU encadena incidentes de ciberseguridad y el último salpica a un videojuego",
+      "titulo": "Café de barista en casa a precio de Black Friday: esta cafetera De’Longhi con molinillo integrado es muy fácil de usar y de limpiar",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/primero-fbi-despues-cia-ahora-tesoro-eeuu-encadena-incidentes-ciberseguridad-ultimo-salpica-a-videojuego",
-      "fecha": "25-11-2026"
+      "enlace": "https://www.xataka.com/seleccion/cafe-barista-casa-a-precio-black-friday-esta-cafetera-longhi-molinillo-integrado-muy-facil-usar-limpiar",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "1Password sufre un hackeo. Qué ha pasado y cómo te afecta",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/seguridad/1password-sufre-un-hackeo-que-ha-pasado-y-como-te-afecta/",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "El deco 4K de la tele por satélite Astra TV va más allá con DVB-I: ahora se confirma todo lo que puede hacer sin Internet",
+      "titulo": "Ottocast en Black Friday: usa CarPlay y Android Auto sin cables desde solo 35,99 euros",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/streaming-tv/astra-tv-dvb-i-deco-4k-satelite/",
-      "fecha": "25-11-2026"
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/ottocast-en-black-friday-usa-carplay-y-android-auto-sin-cables-desde-solo-3599-euros/",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "Un desarrollador consigue que el escritorio original de Windows XP funcione en Linux",
+      "titulo": "Un programador convierte el trackpad de su MacBook en un altavoz robótico capaz de reproducir voz y música",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/un-desarrollador-consigue-que-escritorio-original-windows-xp-funcione-linux_7065605_0.html",
-      "fecha": "25-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/tendencias/un-programador-convierte-trackpad-su-macbook-un-altavoz-robotico-capaz-reproducir-voz-musica_7065994_0.html",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "Take-Two frena Leonida, un proyecto que pretendía llevar 'GTA VI' a Windows a partir de una versión filtrada de Xbox",
+      "titulo": "SpaceX ya no lanzará más satélites pequeños ajenos y Blue Origin ha sacado tajada de ello",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/videojuegos/take-two-frena-leonida-proyecto-que-pretendia-llevar-gta-vi-a-windows-a-partir-version-filtrada-xbox",
-      "fecha": "25-11-2026"
+      "enlace": "https://www.xataka.com/espacio/spacex-no-lanzara-satelites-pequenos-ajenos-blue-origin-ha-sacado-tajada-ello",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "Samsung no tira la toalla con el Galaxy Z Trifold: estaría preparando un modelo de segunda generación",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/samsung-posible-galaxy-z-trifold-2/",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "Digi activa los mensajes RCS: qué cambia en tu móvil Android y cuándo llegará a los iPhone",
+      "titulo": "El BOE confirma casi 15.000 plazas de funcionario: “Con la ESO ya puedes opositar”",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/digi-activa-rcs-android-cuando-iphone/",
-      "fecha": "25-11-2026"
+      "enlace": "https://www.adslzone.net/noticias/fintech/boe-convocatoria-15000-plazas-funcionario-eso-bachillerato/",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "El Samsung Galaxy S27 Ultra podría perder funciones y montar una cámara inferior a la de su predecesor",
+      "titulo": "GTA 6 para PC, grupos de desarrolladores se pican para ver quién lo logra antes: el líder tiene una versión jugable a más del 90% con 25 FPS de media",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/samsung-galaxy-s27-ultra-podria-perder-funciones-montar-una-camara-inferior-su-predecesor_7065602_0.html",
-      "fecha": "25-11-2026"
+      "enlace": "https://computerhoy.20minutos.es/gaming/gta-6-para-pc-grupos-desarrolladores-se-pican-para-ver-quien-logra-antes-lider-tiene-una-version-jugable-mas-90-con-25-fps-media_7065986_0.html",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "Mopas triangulares, 21.000 Pa y una base que apenas necesita mantenimiento: Dyson rebaja su robot aspirador y fregona por el Black Friday",
+      "titulo": "Alemania acaba de explicar de forma muy sencilla por qué sigue pagando la factura militar de Ucrania: porque \"Rusia quiere algo más que Ucrania\"",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/mopas-triangulares-21-000-pa-base-que-apenas-necesita-mantenimiento-dyson-rebaja-su-robot-aspirador-fregona-black-friday",
-      "fecha": "25-11-2026"
+      "enlace": "https://www.xataka.com/magnet/alemania-acaba-explicar-forma-muy-sencilla-que-sigue-pagando-factura-militar-ucrania-porque-rusia-quiere-algo-que-ucrania",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "WhatsApp por fin introduce la función que más pedíamos: así son los nuevos mensajes programados",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/mobile/whatsapp-introduce-al-fin-los-mensajes-programados/",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "Ya es oficial: WhatsApp ya te deja programar los mensajes para enviarlos el día y a la hora que quieras",
+      "titulo": "La señal R-120 de la DGT que debes tener muy presente en 2027: no respetarla te puede costar 200 euros",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/whatsapp/oficial-whatsapp-programar-mensajes/",
-      "fecha": "25-11-2026"
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/senal-r-120-dgt-200-euros/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Linux recupera la compatibilidad con un adaptador WiFi de hace 20 años gracias al código abierto: \"¿Algún voluntario para gestionar su reincorporación y mantenimiento?\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/linux-recupera-compatibilidad-con-un-adaptador-wifi-hace-20-anos-gracias-codigo-abierto-algun-voluntario-para-gestionar-su-reincorporacion-mantenimiento_7065982_0.html",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Rafael Guerrero, psicólogo: \"Los niños nacidos en diciembre tienen un 39% más de probabilidades de ser diagnosticados de TDAH que aquellos niños nacidos en enero”",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/medicina-y-salud/rafael-guerrero-psicologo-ninos-nacidos-diciembre-tienen-39-probabilidades-ser-diagnosticados-tdah-que-ninos-nacidos-enero",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Tu móvil Xiaomi está en la lista de HyperOS 4, pero sigue sin actualizarse: estos son los motivos",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/moviles/xiaomi-hyperos-actualiza-motivos/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Confirman el hackeo a 1Password pero aseguran que los hackers no han logrado acceder a las cajas fuertes de los usuarios",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/confirman-hackeo-1password-pero-aseguran-que-los-hackers-no-han-logrado-acceder-las-cajas-fuertes-los-usuarios_7065984_0.html",
+      "fecha": "26-11-2026"
     }
   ]
 }
