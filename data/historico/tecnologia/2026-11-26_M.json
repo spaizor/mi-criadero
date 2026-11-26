@@ -1,0 +1,214 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "26-11-2026 03:12",
+  "destacadas": [
+    {
+      "titulo": "La FCC autoriza a SpaceX a desplegar hasta un millón de satélites para centros de datos en órbita",
+      "resumen": "La Comisión Federal de Comunicaciones de EEUU ha concedido a SpaceX una autorización condicionada para lanzar una constelación de hasta un millón de satélites, denominados Starmind, diseñados como centros de datos orbitales. Si se completa, multiplicaría unas 50 veces el número de satélites en órbita. SpaceX tiene siete años para desplegar un primer satélite operativo, hasta noviembre de 2035 para 100.000 y hasta noviembre de 2040 para la constelación completa. La FCC rechazó por ahora una exención para desechar satélites fuera de la atmósfera, y desestimó buena parte de las objeciones ambientales presentadas por organizaciones como la Secure World Foundation o la American Astronomical Society.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+      "fecha": "25-11-2026 19:22"
+    },
+    {
+      "titulo": "1Password confirma que los atacantes entraron en sus sistemas internos, pero las contraseñas de los clientes están a salvo",
+      "resumen": "1Password detectó una intrusión el 19 de noviembre: el atacante accedió a la cuenta corporativa de un empleado en GitHub y desde allí subió código malicioso a los servidores internos de la empresa. Según la compañía, pudo descargar nombres, correos electrónicos usados para iniciar sesión y fechas de creación y de último acceso de las cuentas de clientes. Las cajas fuertes de los usuarios, donde están las contraseñas, nunca fueron accesibles, y 1Password afirma que sus aplicaciones y extensiones no se vieron afectadas. La empresa dice tener millones de clientes y más de 200.000 empresas usuarias, y no indicó cuántos clientes resultaron afectados ni cómo obtuvo el atacante acceso a la cuenta del empleado.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+      "fecha": "25-11-2026 19:49"
+    },
+    {
+      "titulo": "Amazon pierde en los tribunales y tendrá que gestionar la retirada de más de 400.000 productos peligrosos",
+      "resumen": "Un tribunal federal de Maryland ha dado la razón a la Comisión de Seguridad de Productos de Consumo de EEUU (CPSC), que sostiene que Amazon es un distribuidor y no un simple operador logístico, y por tanto responsable de las retiradas de productos de terceros. La orden afecta a más de 400.000 artículos «Fulfilled by Amazon», entre ellos detectores de monóxido de carbono defectuosos, secadores de pelo sin protección contra electrocución y ropa de dormir infantil que no cumple la normativa de inflamabilidad. Amazon deberá publicar las retiradas en su web, avisar por correo a los compradores, reembolsar a quien demuestre la destrucción del producto y mantener los registros durante cinco años, con informes mensuales de progreso.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
+      "fecha": "26-11-2026 00:56"
+    },
+    {
+      "titulo": "WhatsApp ya permite programar mensajes en chats individuales y de grupo",
+      "resumen": "WhatsApp empieza a desplegar la programación de mensajes, disponible tanto en chats individuales como en grupos, en iOS y Android. Para usarla, el usuario escribe el mensaje, mantiene pulsado el botón de enviar y elige la hora, con un margen de entre 10 minutos y 14 días. Los mensajes se envían aunque el teléfono esté apagado o sin cobertura, y desde la aplicación se pueden ver y eliminar, aunque no está claro si se pueden editar. Admite texto, fotos y vídeos. Telegram y Signal ya ofrecían esta función desde hace tiempo.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
+      "fecha": "25-11-2026 17:57"
+    },
+    {
+      "titulo": "La sonda Hera de la ESA encuentra un cráter del tamaño de un estadio en Dimorphos tras el impacto de DART",
+      "resumen": "La sonda Hera ha confirmado que el impacto de DART, en septiembre de 2022, dejó un cráter que atraviesa toda la anchura del asteroide Dimorphos, de unos 151 metros, y que lo hizo girar de forma descontrolada en su órbita. Según Patrick Michel, investigador principal de Hera, el impacto cambió a la vez la forma, la órbita y la superficie del asteroide. En 2027 llegarán los minisatélites Juventas y Milani, que medirán la masa del asteroide y su composición, un dato clave para calcular cuánto impulso transfirió DART y mejorar futuras desviaciones de asteroides.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/science/2026/11/25/hera-probe-finds-dart-left-a-stadium-sized-dent-in-asteroid-dimorphos/5312153",
+      "fecha": "25-11-2026 18:30"
+    },
+    {
+      "titulo": "Backblaze aclara por qué compartirá datos de cuentas con anunciantes desde el 1 de diciembre",
+      "resumen": "La nueva política de privacidad de Backblaze, que entra en vigor el 1 de diciembre, reconoce que desde el 1 de diciembre de 2025 la empresa ha compartido con socios publicitarios identificadores, información comercial, datos de geolocalización y actividad en red. La compañía asegura que no vende ni comparte grabaciones de llamadas ni datos de vigilancia para publicidad, ni datos sensibles como números de la Seguridad Social o de tarjetas de crédito. También sostiene que el contenido de las copias de seguridad, que se cifra antes de salir del equipo, no se comparte con anunciantes. Los usuarios pueden optar por no vender ni compartir sus datos mediante un enlace específico.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+      "fecha": "25-11-2026 19:38"
+    },
+    {
+      "titulo": "La NASA avanza con SR-1 Freedom, su nave con reactor nuclear para llevar drones a Marte",
+      "resumen": "SR-1 Freedom es el proyecto de la NASA para una nave con reactor de fisión, la primera de este tipo que viajaría más allá de la órbita terrestre, con lanzamiento previsto para finales de 2028. Transportaría hasta Marte una cápsula llamada SkyFall con tres helicópteros de clase Ingenuity. Tras la revisión de octubre, el blindaje del reactor permite un brazo más corto y las antenas de banda X serán más grandes, aunque quedan por definir el número de radiadores y la potencia del módulo nuclear. La NASA ha adjudicado 39,3 millones de dólares al Laboratorio de Física Aplicada de la Universidad Johns Hopkins para desarrollar el sistema de disipación de calor.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/science/2026/11/25/nasas-nuclear-powered-mars-delivery-service-takes-shape/5312147",
+      "fecha": "25-11-2026 16:30"
+    },
+    {
+      "titulo": "Microsoft reconoce que sus propias aplicaciones consumían casi 900 MB de RAM en Windows 11 y ya lo ha corregido",
+      "resumen": "Durante Ignite 2026, Microsoft admitió que varias de sus aplicaciones y servicios en segundo plano consumían una cantidad considerable de memoria en Windows 11, algo especialmente notable en equipos de 8 GB. Tras meses de trabajo, la compañía asegura haber reducido ese consumo en más de 860 MB: Microsoft 365 usa ahora 360 MB menos y los servicios en segundo plano como Defender, OneDrive y Purview liberan más de medio gigabyte. Según explicó Ian LeGrow, responsable de un equipo de ingeniería del núcleo de Windows, las mejoras consisten en cargar solo lo necesario y reutilizar memoria entre componentes, sin eliminar funciones.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-reconoce-que-sus-propias-aplicaciones-devoraban-casi-900-mb-ram-windows-11-ya-ha-puesto-remedio_7065732_0.html",
+      "fecha": "25-11-2026 21:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "¿Se puede jugar a GTA 6 desde un disco duro externo en PS5 o Xbox Series X/S?",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2328792/can-you-play-gta-6-from-external-hard-drive/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "El Tesla Cybertruck cancelado es el camión de segunda mano que más se vende en EE. UU.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "La seguridad de los sistemas de agua de EE. UU. es aún más frágil de lo que se pensaba",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/25/the-security-of-us-water-systems-is-even-leakier-than-we-thought/5312243",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Los científicos usan aves marinas para rastrear barcos ocultos",
+      "fuente": "404 Media",
+      "enlace": "https://www.404media.co/the-birds-are-listening-scientists-used-seabirds-to-track-hidden-ships/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Huawei y otros fabricantes presentan herramientas EDA propias para suplir el déficit de fábricas de China",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/systems/2026/11/25/huawei-and-crew-tout-homegrown-eda-tools-to-overcome-chinas-fab-deficit/5312205",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "El Departamento de Justicia acusa a un exejecutivo de ciberseguridad de estafar a víctimas de ransomware al pagar en secreto a los hackers",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "La última actualización de X para creadores se centra en el vídeo vertical",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Los cambios de seguridad de NTLM de Microsoft dan problemas a los inicios de sesión de terceros",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Un grupo de hackers iraní conocido encuentra una nueva forma de causar caos",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Todoist confirma que se robaron datos del 6 % de sus clientes en una brecha",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "1Password ha sido hackeado",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/1password-ha-sido-hackeado",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "La forma más inesperada de usar Windows XP en 2026 está dentro de Linux",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/tecnologia/windows-xp-linux-win4wine-proyecto/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Si falla tu conexión a Internet, esta compañía lo arregla más rápido: Movistar vs Orange vs Vodafone vs DIGI",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-orange-vodafone-digi-tiempo-reparacion-averias/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Google Maps prepara un cambio de colores que llevábamos años esperando y también llegará a Android Auto",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/google-maps-prepara-un-cambio-colores-que-llevabamos-anos-esperando-tambien-llegara-android-auto_7065731_0.html",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Primero el FBI, después la CIA y ahora el Tesoro: EEUU encadena incidentes de ciberseguridad y el último salpica a un videojuego",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/primero-fbi-despues-cia-ahora-tesoro-eeuu-encadena-incidentes-ciberseguridad-ultimo-salpica-a-videojuego",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "1Password sufre un hackeo. Qué ha pasado y cómo te afecta",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/seguridad/1password-sufre-un-hackeo-que-ha-pasado-y-como-te-afecta/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "El deco 4K de la tele por satélite Astra TV va más allá con DVB-I: ahora se confirma todo lo que puede hacer sin Internet",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/astra-tv-dvb-i-deco-4k-satelite/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Un desarrollador consigue que el escritorio original de Windows XP funcione en Linux",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/un-desarrollador-consigue-que-escritorio-original-windows-xp-funcione-linux_7065605_0.html",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Take-Two frena Leonida, un proyecto que pretendía llevar 'GTA VI' a Windows a partir de una versión filtrada de Xbox",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/videojuegos/take-two-frena-leonida-proyecto-que-pretendia-llevar-gta-vi-a-windows-a-partir-version-filtrada-xbox",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Samsung no tira la toalla con el Galaxy Z Trifold: estaría preparando un modelo de segunda generación",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/samsung-posible-galaxy-z-trifold-2/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Digi activa los mensajes RCS: qué cambia en tu móvil Android y cuándo llegará a los iPhone",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-activa-rcs-android-cuando-iphone/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "El Samsung Galaxy S27 Ultra podría perder funciones y montar una cámara inferior a la de su predecesor",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/samsung-galaxy-s27-ultra-podria-perder-funciones-montar-una-camara-inferior-su-predecesor_7065602_0.html",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Mopas triangulares, 21.000 Pa y una base que apenas necesita mantenimiento: Dyson rebaja su robot aspirador y fregona por el Black Friday",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/mopas-triangulares-21-000-pa-base-que-apenas-necesita-mantenimiento-dyson-rebaja-su-robot-aspirador-fregona-black-friday",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "WhatsApp por fin introduce la función que más pedíamos: así son los nuevos mensajes programados",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/whatsapp-introduce-al-fin-los-mensajes-programados/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Ya es oficial: WhatsApp ya te deja programar los mensajes para enviarlos el día y a la hora que quieras",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/whatsapp/oficial-whatsapp-programar-mensajes/",
+      "fecha": "25-11-2026"
+    }
+  ]
+}

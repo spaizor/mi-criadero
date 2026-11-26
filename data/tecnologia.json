@@ -1,201 +1,213 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "25-11-2026 15:12",
+  "actualizado": "26-11-2026 03:12",
   "destacadas": [
     {
-      "titulo": "La Casa Blanca presionó a Intel hasta quedarse con el 10 % de la empresa",
-      "resumen": "Según documentos de una demanda de un accionista, funcionarios de Comercio dijeron al consejo de Intel en agosto de 2025 que rechazar la oferta tendría «consecuencias», y el consejo acabó aceptándola: EEUU posee ahora el 10 % de Intel, valorado en unos 11.000 millones de dólares, sin pagar nada por ello. A cambio se liberarían 8.900 millones de dólares en ayudas ya concedidas. El reportaje relaciona el caso con la vuelta de Jensen Huang a Nvidia, que Trump atribuye a sus presiones.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/inside-trumps-demands-to-another-chips-ceo/",
-      "fecha": "25-11-2026 11:00"
+      "titulo": "La FCC autoriza a SpaceX a desplegar hasta un millón de satélites para centros de datos en órbita",
+      "resumen": "La Comisión Federal de Comunicaciones de EEUU ha concedido a SpaceX una autorización condicionada para lanzar una constelación de hasta un millón de satélites, denominados Starmind, diseñados como centros de datos orbitales. Si se completa, multiplicaría unas 50 veces el número de satélites en órbita. SpaceX tiene siete años para desplegar un primer satélite operativo, hasta noviembre de 2035 para 100.000 y hasta noviembre de 2040 para la constelación completa. La FCC rechazó por ahora una exención para desechar satélites fuera de la atmósfera, y desestimó buena parte de las objeciones ambientales presentadas por organizaciones como la Secure World Foundation o la American Astronomical Society.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+      "fecha": "25-11-2026 19:22"
     },
     {
-      "titulo": "Bruselas prepara un fondo de hasta 50.000 millones para impulsar sus tecnológicas",
-      "resumen": "Según el Financial Times, el fondo, llamado STEF, invertiría en capital de empresas europeas de inteligencia artificial y computación cuántica para que no acaben bajo control estadounidense o chino, en vez de dar subvenciones. Todavía no se sabe de dónde saldría el dinero. Xataka lo compara con los 500.000 millones de dólares de Stargate en EEUU y con los 47.500 millones del tercer fondo de semiconductores de China, y concluye que no basta para competir.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/europa-prepara-50-000-millones-euros-para-sus-empresas-tecnologia-pregunta-suficiente-para-competir-eeuu-china",
-      "fecha": "25-11-2026 14:17"
-    },
-    {
-      "titulo": "JetBrains encuentra indicios de que los agentes de IA pueden hacer trampa con código abierto",
-      "resumen": "JetBrains rehízo su benchmark Kotlin 2.0 con 30 problemas nuevos y 70 tareas de repositorios públicos, bloqueando la red para que los agentes no buscaran respuestas. Los mejores agentes resuelven el 86,2 % de las tareas de código abierto, pero solo el 60 % de las de código cerrado, lo que sugiere que se apoyan en código visto durante el entrenamiento. JetBrains considera que todavía es debatible y que hace falta más investigación.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/devops/2026/11/25/jetbrains-finds-agents-may-cheat-with-open-source/5311999",
-      "fecha": "25-11-2026 15:07"
-    },
-    {
-      "titulo": "Se filtran datos de clientes de las zonas de aparcamiento de Gatwick por un fallo de un proveedor",
-      "resumen": "Times24, que gestiona el sistema de pago AutoPay de las zonas de dejar el coche en Gatwick, sufrió una intrusión que expuso nombres, direcciones, matrículas, correos y contraseñas cifradas, además de datos de pago como el tipo y la caducidad de la tarjeta. Gatwick dice que afectó a «casos muy limitados» y no ha dicho cuántos clientes son. Times24 ha suspendido AutoPay mientras investiga, y los vuelos no se han visto afectados.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/25/gatwick-drop-off-customers-personal-data-exposed-in-supplier-breach/5312060",
-      "fecha": "25-11-2026 12:16"
-    },
-    {
-      "titulo": "La sonda Hera de la ESA mostrará hoy las primeras imágenes de cerca de Dimorphos",
-      "resumen": "La misión Hera de la ESA llegó hace unos días al sistema del asteroide Didymos y su satélite Dimorphos, el que la NASA chocó con la sonda DART en 2022. La agencia emitirá en directo las primeras imágenes detalladas de Dimorphos, de 150 a 170 metros, entre las 19:45 y las 20:30 hora peninsular. La misión durará al menos seis meses y medirá también su masa y su interior, algo que no pudo hacer el satélite LICIACube.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/europa-esta-a-punto-poner-pie-asteroide-que-nasa-disparo-2022-hoy-sabremos-como-quedo-dimorphos",
-      "fecha": "25-11-2026 14:47"
-    },
-    {
-      "titulo": "Amazon Autos llega al Reino Unido a principios de 2027, su primera expansión fuera de EE. UU.",
-      "resumen": "El servicio funciona como escaparate para ver, financiar y reservar coches nuevos y usados, y la venta se cierra en el concesionario. Arranca con Hyundai y el concesionario Vertu Motors, y Amazon no cobra comisión, sino cuotas y publicidad. En EE. UU. ya tiene 35 marcas y más de 150 ciudades, aunque algunos concesionarios dicen que las ventas son escasas, de una o dos al mes.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2327693/amazon-autos-is-coming-to-the-uk-in-its-first-expansion-outside-the-us/",
-      "fecha": "25-11-2026 10:15"
-    },
-    {
-      "titulo": "El consejero delegado de Flipkart, Kalyan Krishnamurthy, deja el cargo en plena incertidumbre sobre su salida a bolsa",
-      "resumen": "Krishnamurthy, que lleva más de 11 años en la empresa y es consejero delegado desde 2017, dejará el puesto el 4 de diciembre, según un portavoz de Walmart. Hasta que se anuncie a su sucesor, en las próximas semanas, dirigirá la compañía el responsable de producto y tecnología, Balaji Thiagarajan. La salida llega cuando los planes de salir a bolsa están en duda; según informes, en mayo Walmart pidió aplazar el IPO.",
+      "titulo": "1Password confirma que los atacantes entraron en sus sistemas internos, pero las contraseñas de los clientes están a salvo",
+      "resumen": "1Password detectó una intrusión el 19 de noviembre: el atacante accedió a la cuenta corporativa de un empleado en GitHub y desde allí subió código malicioso a los servidores internos de la empresa. Según la compañía, pudo descargar nombres, correos electrónicos usados para iniciar sesión y fechas de creación y de último acceso de las cuentas de clientes. Las cajas fuertes de los usuarios, donde están las contraseñas, nunca fueron accesibles, y 1Password afirma que sus aplicaciones y extensiones no se vieron afectadas. La empresa dice tener millones de clientes y más de 200.000 empresas usuarias, y no indicó cuántos clientes resultaron afectados ni cómo obtuvo el atacante acceso a la cuenta del empleado.",
       "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/",
-      "fecha": "25-11-2026 14:08"
+      "enlace": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+      "fecha": "25-11-2026 19:49"
     },
     {
-      "titulo": "Protección Civil añade prealertas a ES-Alert: avisos menos urgentes que no suenan como una alarma",
-      "resumen": "Protección Civil añade un segundo nivel, la Pre-Alerta, para avisos de menor urgencia que llegan sin el sonido de máximo volumen del nivel 1, que sigue reservado para las emergencias más graves. Cataluña ha sido la primera comunidad en probarlo, y la primera prueba a nivel nacional se hizo en Santa Pau (Girona). En Android suena más suave y breve, y en iPhone como un SMS; el usuario puede desactivarlas, pero no las alertas graves.",
+      "titulo": "Amazon pierde en los tribunales y tendrá que gestionar la retirada de más de 400.000 productos peligrosos",
+      "resumen": "Un tribunal federal de Maryland ha dado la razón a la Comisión de Seguridad de Productos de Consumo de EEUU (CPSC), que sostiene que Amazon es un distribuidor y no un simple operador logístico, y por tanto responsable de las retiradas de productos de terceros. La orden afecta a más de 400.000 artículos «Fulfilled by Amazon», entre ellos detectores de monóxido de carbono defectuosos, secadores de pelo sin protección contra electrocución y ropa de dormir infantil que no cumple la normativa de inflamabilidad. Amazon deberá publicar las retiradas en su web, avisar por correo a los compradores, reembolsar a quien demuestre la destrucción del producto y mantener los registros durante cinco años, con informes mensuales de progreso.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
+      "fecha": "26-11-2026 00:56"
+    },
+    {
+      "titulo": "WhatsApp ya permite programar mensajes en chats individuales y de grupo",
+      "resumen": "WhatsApp empieza a desplegar la programación de mensajes, disponible tanto en chats individuales como en grupos, en iOS y Android. Para usarla, el usuario escribe el mensaje, mantiene pulsado el botón de enviar y elige la hora, con un margen de entre 10 minutos y 14 días. Los mensajes se envían aunque el teléfono esté apagado o sin cobertura, y desde la aplicación se pueden ver y eliminar, aunque no está claro si se pueden editar. Admite texto, fotos y vídeos. Telegram y Signal ya ofrecían esta función desde hace tiempo.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
+      "fecha": "25-11-2026 17:57"
+    },
+    {
+      "titulo": "La sonda Hera de la ESA encuentra un cráter del tamaño de un estadio en Dimorphos tras el impacto de DART",
+      "resumen": "La sonda Hera ha confirmado que el impacto de DART, en septiembre de 2022, dejó un cráter que atraviesa toda la anchura del asteroide Dimorphos, de unos 151 metros, y que lo hizo girar de forma descontrolada en su órbita. Según Patrick Michel, investigador principal de Hera, el impacto cambió a la vez la forma, la órbita y la superficie del asteroide. En 2027 llegarán los minisatélites Juventas y Milani, que medirán la masa del asteroide y su composición, un dato clave para calcular cuánto impulso transfirió DART y mejorar futuras desviaciones de asteroides.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/science/2026/11/25/hera-probe-finds-dart-left-a-stadium-sized-dent-in-asteroid-dimorphos/5312153",
+      "fecha": "25-11-2026 18:30"
+    },
+    {
+      "titulo": "Backblaze aclara por qué compartirá datos de cuentas con anunciantes desde el 1 de diciembre",
+      "resumen": "La nueva política de privacidad de Backblaze, que entra en vigor el 1 de diciembre, reconoce que desde el 1 de diciembre de 2025 la empresa ha compartido con socios publicitarios identificadores, información comercial, datos de geolocalización y actividad en red. La compañía asegura que no vende ni comparte grabaciones de llamadas ni datos de vigilancia para publicidad, ni datos sensibles como números de la Seguridad Social o de tarjetas de crédito. También sostiene que el contenido de las copias de seguridad, que se cifra antes de salir del equipo, no se comparte con anunciantes. Los usuarios pueden optar por no vender ni compartir sus datos mediante un enlace específico.",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+      "fecha": "25-11-2026 19:38"
+    },
+    {
+      "titulo": "La NASA avanza con SR-1 Freedom, su nave con reactor nuclear para llevar drones a Marte",
+      "resumen": "SR-1 Freedom es el proyecto de la NASA para una nave con reactor de fisión, la primera de este tipo que viajaría más allá de la órbita terrestre, con lanzamiento previsto para finales de 2028. Transportaría hasta Marte una cápsula llamada SkyFall con tres helicópteros de clase Ingenuity. Tras la revisión de octubre, el blindaje del reactor permite un brazo más corto y las antenas de banda X serán más grandes, aunque quedan por definir el número de radiadores y la potencia del módulo nuclear. La NASA ha adjudicado 39,3 millones de dólares al Laboratorio de Física Aplicada de la Universidad Johns Hopkins para desarrollar el sistema de disipación de calor.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/science/2026/11/25/nasas-nuclear-powered-mars-delivery-service-takes-shape/5312147",
+      "fecha": "25-11-2026 16:30"
+    },
+    {
+      "titulo": "Microsoft reconoce que sus propias aplicaciones consumían casi 900 MB de RAM en Windows 11 y ya lo ha corregido",
+      "resumen": "Durante Ignite 2026, Microsoft admitió que varias de sus aplicaciones y servicios en segundo plano consumían una cantidad considerable de memoria en Windows 11, algo especialmente notable en equipos de 8 GB. Tras meses de trabajo, la compañía asegura haber reducido ese consumo en más de 860 MB: Microsoft 365 usa ahora 360 MB menos y los servicios en segundo plano como Defender, OneDrive y Purview liberan más de medio gigabyte. Según explicó Ian LeGrow, responsable de un equipo de ingeniería del núcleo de Windows, las mejoras consisten en cargar solo lo necesario y reutilizar memoria entre componentes, sin eliminar funciones.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/moviles/adios-pitido-emergencia-es-alert-asi-funcionan-las-nuevas-prealertas-proteccion-civil-que-llegan-los-moviles_7065457_0.html",
-      "fecha": "25-11-2026 10:15"
+      "enlace": "https://computerhoy.20minutos.es/software/microsoft-reconoce-que-sus-propias-aplicaciones-devoraban-casi-900-mb-ram-windows-11-ya-ha-puesto-remedio_7065732_0.html",
+      "fecha": "25-11-2026 21:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Debian despierta vestido con la skin auténtica de Windows XP",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/11/25/debian-wakes-up-wearing-windows-xps-actual-skin/5312111",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "Microsoft 365 Backup amplía a diez años su ventana de recuperación",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/saas/2026/11/25/microsoft-365-backup-stretches-recovery-window-to-ten-years/5312043",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "WhatsApp prueba stickers con sonido",
+      "titulo": "¿Se puede jugar a GTA 6 desde un disco duro externo en PS5 o Xbox Series X/S?",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2327763/whatsapp-is-testing-stickers-with-sound/",
+      "enlace": "https://www.engadget.com/2328792/can-you-play-gta-6-from-external-hard-drive/",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "El CIO del Tesoro de EEUU programa un clon de 'Civilization' en plena brecha del departamento",
+      "titulo": "El Tesla Cybertruck cancelado es el camión de segunda mano que más se vende en EE. UU.",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "La seguridad de los sistemas de agua de EE. UU. es aún más frágil de lo que se pensaba",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/25/the-security-of-us-water-systems-is-even-leakier-than-we-thought/5312243",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Los científicos usan aves marinas para rastrear barcos ocultos",
       "fuente": "404 Media",
-      "enlace": "https://www.404media.co/sam-corcos-legatum-treasury-cio-is-vibe-coding-a-civilization-clone-during-treasury-department-hack/",
+      "enlace": "https://www.404media.co/the-birds-are-listening-scientists-used-seabirds-to-track-hidden-ships/",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "La turbulencia de los aviones es muy difícil de predecir, pero quizá no por mucho tiempo",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "Las supercomputadoras más rápidas tienen un problema: mantener el trabajo en marcha",
+      "titulo": "Huawei y otros fabricantes presentan herramientas EDA propias para suplir el déficit de fábricas de China",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/systems/2026/11/25/the-worlds-fastest-computers-have-a-problem-keeping-the-work-running/5311710",
+      "enlace": "https://www.theregister.com/systems/2026/11/25/huawei-and-crew-tout-homegrown-eda-tools-to-overcome-chinas-fab-deficit/5312205",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "El Gobierno británico estudia aplicar la tasa de la TV a los servicios de streaming para financiar la BBC",
+      "titulo": "El Departamento de Justicia acusa a un exejecutivo de ciberseguridad de estafar a víctimas de ransomware al pagar en secreto a los hackers",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "La última actualización de X para creadores se centra en el vídeo vertical",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Los cambios de seguridad de NTLM de Microsoft dan problemas a los inicios de sesión de terceros",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/offbeat/2026/11/25/government-may-apply-tv-license-fee-to-streaming-services-to-fund-the-bbc/5311928",
+      "enlace": "https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "VMware lanza su tercer paquete de parches críticos en una semana",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017",
+      "titulo": "Un grupo de hackers iraní conocido encuentra una nueva forma de causar caos",
+      "fuente": "Ars Technica",
+      "enlace": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "El iPhone 18 Pro Max no hizo la jugada más vistosa, pero sí el mejor partido. Y por eso es el mejor móvil premium de 2026",
+      "titulo": "Todoist confirma que se robaron datos del 6 % de sus clientes en una brecha",
+      "fuente": "TechCrunch",
+      "enlace": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "1Password ha sido hackeado",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/moviles/iphone-18-pro-max-no-hizo-jugada-vistosa-mejor-partido-eso-mejor-movil-premium-2026",
+      "enlace": "https://www.xataka.com/seguridad/1password-ha-sido-hackeado",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "Tu ordenador con Windows 11 podría ir mucho más rápido desactivando estas funciones",
+      "titulo": "La forma más inesperada de usar Windows XP en 2026 está dentro de Linux",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/tecnologia/windows-xp-linux-win4wine-proyecto/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Si falla tu conexión a Internet, esta compañía lo arregla más rápido: Movistar vs Orange vs Vodafone vs DIGI",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/windows/windows-desactivar-funciones-rapido/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-orange-vodafone-digi-tiempo-reparacion-averias/",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "Adiós a GTA 6 en PC: Take-Two cierra Leonida, el proyecto más avanzado para llevar Grand Theft Auto VI al ordenador",
+      "titulo": "Google Maps prepara un cambio de colores que llevábamos años esperando y también llegará a Android Auto",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/gaming/adios-gta-6-pc-take-two-cierra-leonida-proyecto-mas-avanzado-para-llevar-grand-theft-auto-vi-ordenador_7065463_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/google-maps-prepara-un-cambio-colores-que-llevabamos-anos-esperando-tambien-llegara-android-auto_7065731_0.html",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "Jensen Huang se disculpa con los empleados y dice que está en terapia. Quien no tiene remedio es Nvidia",
+      "titulo": "Primero el FBI, después la CIA y ahora el Tesoro: EEUU encadena incidentes de ciberseguridad y el último salpica a un videojuego",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/jensen-huang-se-disculpa-empleados-dice-que-esta-terapia-quien-no-tiene-remedio-nvidia",
+      "enlace": "https://www.xataka.com/seguridad/primero-fbi-despues-cia-ahora-tesoro-eeuu-encadena-incidentes-ciberseguridad-ultimo-salpica-a-videojuego",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "¿Ya funciona GTA 6 en PC?: esta web ordena los proyectos que lo intentan",
+      "titulo": "1Password sufre un hackeo. Qué ha pasado y cómo te afecta",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/seguridad/1password-sufre-un-hackeo-que-ha-pasado-y-como-te-afecta/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "El deco 4K de la tele por satélite Astra TV va más allá con DVB-I: ahora se confirma todo lo que puede hacer sin Internet",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/videojuegos/gta-pc-portwatch-proyectos/",
+      "enlace": "https://www.adslzone.net/noticias/streaming-tv/astra-tv-dvb-i-deco-4k-satelite/",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "Javier Ruiz, director de La Séptima, estalla después de menos de un mes emitiendo en la TDT: \"Es intolerable, se está produciendo un señalamiento y un veto\"",
+      "titulo": "Un desarrollador consigue que el escritorio original de Windows XP funcione en Linux",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/javier-ruiz-director-septima-estalla-despues-menos-un-mes-emitiendo-tdt-es-intolerable-se-esta-produciendo-un-senalamiento-un-veto_7065468_0.html",
+      "enlace": "https://computerhoy.20minutos.es/software/un-desarrollador-consigue-que-escritorio-original-windows-xp-funcione-linux_7065605_0.html",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "Estados Unidos le ha visto las orejas al lobo chino: la Casa Blanca quiere 2.000 millones más para volver a la Luna antes que China",
+      "titulo": "Take-Two frena Leonida, un proyecto que pretendía llevar 'GTA VI' a Windows a partir de una versión filtrada de Xbox",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/estados-unidos-le-ha-visto-orejas-al-lobo-chino-casa-blanca-quiere-2-000-millones-para-volver-a-luna-china",
+      "enlace": "https://www.xataka.com/videojuegos/take-two-frena-leonida-proyecto-que-pretendia-llevar-gta-vi-a-windows-a-partir-version-filtrada-xbox",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "El BOE dice que el 5G cubre el 99,27 % del territorio: el Gobierno confunde población con territorio",
+      "titulo": "Samsung no tira la toalla con el Galaxy Z Trifold: estaría preparando un modelo de segunda generación",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/samsung-posible-galaxy-z-trifold-2/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Digi activa los mensajes RCS: qué cambia en tu móvil Android y cuándo llegará a los iPhone",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/redes/boe-5g-cobertura-territorio-poblacion-confusion/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/digi-activa-rcs-android-cuando-iphone/",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "Giro de 180 grados en la TDT, uno de sus canales mas emblemáticos cambia su forma de emisión: ¿debes cambiar algo en tu televisor?",
+      "titulo": "El Samsung Galaxy S27 Ultra podría perder funciones y montar una cámara inferior a la de su predecesor",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/giro-180-grados-tdt-uno-sus-canales-mas-emblematicos-cambia-su-forma-emision-debes-cambiar-algo-tu-televisor_7065465_0.html",
+      "enlace": "https://computerhoy.20minutos.es/moviles/samsung-galaxy-s27-ultra-podria-perder-funciones-montar-una-camara-inferior-su-predecesor_7065602_0.html",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "\"No podemos depender de multimillonarios 'astutos'\": Murtra pide que Europa desarrolle su propia tecnología",
+      "titulo": "Mopas triangulares, 21.000 Pa y una base que apenas necesita mantenimiento: Dyson rebaja su robot aspirador y fregona por el Black Friday",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/telecomunicaciones/no-podemos-depender-multimillonarios-astutos-murtra-pide-que-europa-desarrolle-su-propia-tecnologia",
+      "enlace": "https://www.xataka.com/seleccion/mopas-triangulares-21-000-pa-base-que-apenas-necesita-mantenimiento-dyson-rebaja-su-robot-aspirador-fregona-black-friday",
       "fecha": "25-11-2026"
     },
     {
-      "titulo": "Garmin rompe los Fénix 9 en una actualización fatídica que te dejará sin batería",
+      "titulo": "WhatsApp por fin introduce la función que más pedíamos: así son los nuevos mensajes programados",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/whatsapp-introduce-al-fin-los-mensajes-programados/",
+      "fecha": "25-11-2026"
+    },
+    {
+      "titulo": "Ya es oficial: WhatsApp ya te deja programar los mensajes para enviarlos el día y a la hora que quieras",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-fenix-9-beta-719-bateria/",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "Estos son los 3 wearables imprescindibles de Huawei que puedes conseguir este Black Friday",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/dispositivos/estos-son-los-3-wearables-imprescindibles-huawei-que-puedes-conseguir-este-black-friday_7062819_0.html",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "La paradoja del mercado de aceite de oliva en España: retira toneladas para blindar los precios y dispara las compras a Marruecos",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/paradoja-mercado-aceite-oliva-espana-retira-toneladas-para-blindar-precios-dispara-compras-a-marruecos",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "La Séptima hará su primer gran cambio en la programación el próximo domingo",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/streaming-tv/septima-cambio-programacion-elecciones-29n/",
-      "fecha": "25-11-2026"
-    },
-    {
-      "titulo": "¿Apagón a la vista? Sea cierto o no, esta batería con panel solar va a hacer que te importe mucho menos",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/recomendados/apagon-vista-sea-cierto-no-esta-bateria-con-panel-solar-va-hacer-que-te-importe-mucho-menos_7063108_0.html",
+      "enlace": "https://www.adslzone.net/noticias/whatsapp/oficial-whatsapp-programar-mensajes/",
       "fecha": "25-11-2026"
     }
   ]
