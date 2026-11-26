@@ -1,0 +1,80 @@
+{
+  "seccion": "ia",
+  "actualizado": "26-11-2026 16:11",
+  "destacadas": [
+    {
+      "titulo": "Microsoft describe cómo grupos respaldados por Estados usan el framework de IA ARTEX para automatizar ciberataques",
+      "resumen": "Microsoft Threat Intelligence detalla ARTEX, un framework de pentesting con IA publicado en julio de 2026 que automatiza ciberataques desde el reconocimiento hasta el robo de datos. Según Microsoft, lo han integrado grupos vinculados a China y Corea del Norte (Salt Typhoon, Crystal Typhoon, Onyx Sleet, Storm-0940) y también ciberdelincuentes, aunque su código original se borró en octubre y circulan copias y una versión comercial. No inventa técnicas nuevas: coordina herramientas como Nmap, Sqlmap o Metasploit con casi ninguna intervención humana, y acepta cualquier modelo de lenguaje, incluidos los modificados sin salvaguardas.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+      "fecha": "26-11-2026 12:30"
+    },
+    {
+      "titulo": "Nvidia detiene los envíos de servidores a Malasia, Singapur, Tailandia e Indonesia tras los nuevos controles de exportación de EE. UU.",
+      "resumen": "Según el Financial Times, Nvidia ha pedido a socios como Dell y Supermicro que paren los envíos de servidores a esos cuatro países, después de que el Departamento de Comercio estadounidense cerrara la vía de alquilar cómputo en nubes extranjeras a empresas chinas. Los proveedores de nube tienen 90 días para pedir licencia, y los bancos han frenado unos 500 millones de dólares en préstamos a Aolani, un proveedor de Singapur que iba a alquilar capacidad a ByteDance. CNBC señala además un aumento inusual de GPU Nvidia de segunda mano a la venta, incluidos miles de B300.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+      "fecha": "26-11-2026 12:21"
+    },
+    {
+      "titulo": "La IA ha encontrado nuevas pistas para uno de los grandes problemas matemáticos del milenio: P=NP",
+      "resumen": "Anthropic y OpenAI han subido casi a la vez a sus cuentas de GitHub dos trabajos casi gemelos que abren nuevos caminos hacia P=NP. Ninguno resuelve el problema, pero ambas compañías aseguran haber demostrado que ciertos cálculos son difíciles de verdad y no solo lo parecen. Lo relevante es que una respuesta afectaría a la base de sistemas como el cifrado RSA, que protege los pagos en línea y el correo. Lo cuenta Xataka.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/investigacion/anthropic-openai-plantean-nuevas-vias-para-resolver-problema-matematico-que-pondria-jaque-seguridad-informatica-p-np",
+      "fecha": "26-11-2026 13:30"
+    },
+    {
+      "titulo": "El Gobierno indio estudia una vigilancia de la IA «de la cuna a la tumba» con datos de menores y redes sociales",
+      "resumen": "The Register recoge dos propuestas del Gobierno indio. El primer ministro Narendra Modi planteó una app de IA que recoja datos de los niños desde los tres años para orientar sus estudios y carrera, con acceso de padres, profesores y amigos. Uttar Pradesh, el estado más poblado, licita un «AI Stack» de 178 páginas que cruza datos de varias agencias con el Family ID de cada hogar y monitoriza redes sociales para detectar quejas. Los críticos señalan que el pliego es vago y podría permitir enlazar el sistema con agencias de seguridad.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/public-sector/2026/11/26/indias-government-ponders-cradle-to-grave-ai-oversight/5312275",
+      "fecha": "26-11-2026 04:42"
+    },
+    {
+      "titulo": "Anthropic migra la API de Messages de Python a Rust y usa su propio tráfico como verificador",
+      "resumen": "Anthropic ha pasado su Messages API, la vía principal por la que llegan a Claude sus clientes y sus propias apps como Claude Code y Cowork, de Python a Rust. El tráfico creció unas 1.800 veces desde principios de 2024, y Rust reduce el consumo de CPU por petición. Claude escribió la primera versión del núcleo en una semana, pero la parte difícil fue demostrar que la versión nueva era equivalente a la de producción, y para eso usaron la propia API en vivo como referencia.",
+      "fuente": "Anthropic",
+      "enlace": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "fecha": "25-11-2026 01:00"
+    },
+    {
+      "titulo": "Ant publica con licencia MIT Ling-3.2-air, un modelo multimodal pensado para agentes que usan herramientas",
+      "resumen": "Ant Group ha liberado los pesos de Ling-3.2-air con licencia MIT. Es un modelo que procesa texto, imagen y vídeo, con arquitectura de mezcla de expertos: 124.000 millones de parámetros en total y 5.500 millones activos por token. Según Ant, su tasa de finalización de tareas en el benchmark AutomationBench-AA sube del 15,7 % al 61 % respecto a su versión anterior, con mejoras en documentos, ofimática y flujos de trabajo de navegador.",
+      "fuente": "TechNode",
+      "enlace": "https://technode.com/2026/11/25/ant-releases-ling-3-2-air-multimodal-model-under-mit-license/",
+      "fecha": "25-11-2026 06:11"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Gemini sustituye a Google Assistant en Android Auto: esto es lo que puede hacer en el coche",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "The Download: mejores manos biónicas y el auge del gas natural para la IA",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Hace un año instalé OpenClaw y he matado más agentes que Tamagotchis. Sigo convencido de que cambió la IA",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/hace-ano-instale-openclaw-he-matado-agentes-que-tamagotchis-sigo-convencido-que-cambio-ia",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Dario Amodei (43 años), CEO de Anthropic, rompe su silencio: \"No vamos a entregar el control de la humanidad a la IA\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/dario-amodei-43-anos-ceo-anthropic-rompe-su-silencio-no-vamos-entregar-control-humanidad-ia_7065985_0.html",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "El mayor terremoto de la salida a bolsa de Anthropic no se notó en Wall Street, lo está sufriendo la vivienda de lujo de San Francisco",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/mayor-terremoto-salida-a-bolsa-anthropic-no-se-noto-wall-street-esta-sufriendo-vivienda-lujo-san-francisco",
+      "fecha": "26-11-2026"
+    }
+  ]
+}

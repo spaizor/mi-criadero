@@ -1,81 +1,80 @@
 {
   "seccion": "ia",
-  "actualizado": "26-11-2026 04:10",
+  "actualizado": "26-11-2026 16:11",
   "destacadas": [
     {
-      "titulo": "Character.AI quiere subastar los chats privados de sus usuarios y 42 fiscales estatales se oponen",
-      "resumen": "Character.AI, que se acogió al Capítulo 11 en octubre de 2026, quiere vender en su quiebra datos con historiales de chat de más de 21 millones de cuentas estadounidenses, de ellas más de 2,1 millones de menores, junto con direcciones IP. Una coalición de 42 fiscales generales, encabezada por el de California, Rob Bonta, pide al tribunal frenar la venta, cuya única oferta conocida procede de una empresa creada el 13 de noviembre y cuya subasta está prevista para el 1 de diciembre. La compañía había prometido a sus usuarios que su información personal no se vendería.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-      "fecha": "25-11-2026 18:35"
-    },
-    {
-      "titulo": "Amodei rechaza que la IA deba gobernar la sociedad y califica de «absurda» la idea de que quiera que la gente le ceda el control",
-      "resumen": "Dario Amodei respondió en X a un informe de Axios que decía que algunos empleados de Anthropic creen que la humanidad debería ceder autoridad a sistemas superinteligentes. Dijo que delegar el gobierno en la IA es una mala idea, y separó la automatización de tareas concretas, como conducir, desarrollar fármacos contra el cáncer o escribir software, de ceder el control político. Recordó además que Anthropic se negó a que sus modelos se usaran para armas autónomas, aun arriesgándose a sanciones legales.",
+      "titulo": "Microsoft describe cómo grupos respaldados por Estados usan el framework de IA ARTEX para automatizar ciberataques",
+      "resumen": "Microsoft Threat Intelligence detalla ARTEX, un framework de pentesting con IA publicado en julio de 2026 que automatiza ciberataques desde el reconocimiento hasta el robo de datos. Según Microsoft, lo han integrado grupos vinculados a China y Corea del Norte (Salt Typhoon, Crystal Typhoon, Onyx Sleet, Storm-0940) y también ciberdelincuentes, aunque su código original se borró en octubre y circulan copias y una versión comercial. No inventa técnicas nuevas: coordina herramientas como Nmap, Sqlmap o Metasploit con casi ninguna intervención humana, y acepta cualquier modelo de lenguaje, incluidos los modificados sin salvaguardas.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
-      "fecha": "25-11-2026 21:15"
+      "enlace": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+      "fecha": "26-11-2026 12:30"
     },
     {
-      "titulo": "Los controles de chips de EE. UU. y las medidas contra la destilación ya frenan a los laboratorios chinos de IA",
-      "resumen": "Según The Information, citado por The Decoder, las restricciones estadounidenses al acceso remoto de empresas chinas a chips Nvidia avanzados en centros de datos extranjeros se aplican desde septiembre, y las medidas contra la destilación de OpenAI y Anthropic dificultan extraer resultados de sus modelos. Muchos proyectos de DeepSeek, Moonshot AI y Alibaba se retrasan, y DeepSeek calcula que su distancia con los modelos estadounidenses podría pasar de tres o seis meses a nueve si la destilación desaparece del todo. Moonshot AI canceló un acuerdo de 150 millones de dólares por chips Blackwell en Indonesia.",
+      "titulo": "Nvidia detiene los envíos de servidores a Malasia, Singapur, Tailandia e Indonesia tras los nuevos controles de exportación de EE. UU.",
+      "resumen": "Según el Financial Times, Nvidia ha pedido a socios como Dell y Supermicro que paren los envíos de servidores a esos cuatro países, después de que el Departamento de Comercio estadounidense cerrara la vía de alquilar cómputo en nubes extranjeras a empresas chinas. Los proveedores de nube tienen 90 días para pedir licencia, y los bancos han frenado unos 500 millones de dólares en préstamos a Aolani, un proveedor de Singapur que iba a alquilar capacidad a ByteDance. CNBC señala además un aumento inusual de GPU Nvidia de segunda mano a la venta, incluidos miles de B300.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/",
-      "fecha": "25-11-2026 21:51"
+      "enlace": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+      "fecha": "26-11-2026 12:21"
     },
     {
-      "titulo": "La FCC autoriza a SpaceX a desplegar hasta un millón de satélites con chips de IA para centros de datos en el espacio",
-      "resumen": "La Comisión Federal de Comunicaciones de EE. UU. aprobó el proyecto Starmind de SpaceX, que prevé lanzar hasta un millón de satélites equipados con chips de IA, la primera autorización de una constelación completa de este tipo. SpaceX debe poner al menos un satélite en órbita antes de 2033 y llegar al millón antes de 2040. La agencia aplazó, en cambio, la petición de la empresa para eliminar satélites en órbitas cementerio por encima de 600 km, porque no ha dado «información suficiente» sobre cómo lo haría.",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-      "fecha": "25-11-2026 18:44"
-    },
-    {
-      "titulo": "OpenAI unifica Chat y Work en ChatGPT con un único límite de uso, y los usuarios más intensivos lo notarán antes",
-      "resumen": "Desde el 25 de noviembre, OpenAI empieza a probar con un pequeño grupo de suscriptores Pro una experiencia que une Chat y Work con un único contador de uso. Las conversaciones con el modelo Instant no cuentan para ese límite y siguen disponibles aunque se agote. OpenAI calcula que solo una pequeña fracción de los usuarios más intensivos llegará antes a sus límites, y prevé extenderlo a todos en diciembre, mientras algunos suscriptores temen perder acceso a los modelos de razonamiento sin que cambie lo que pagan.",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "fecha": "25-11-2026 21:03"
-    },
-    {
-      "titulo": "Consultar el voto con la IA: los chatbots evitan recomendar partido, pero no todos se comportan igual",
-      "resumen": "Antes de las elecciones del 29N, muchos usuarios recurren a los chatbots para resumir los programas electorales, pero no son imparciales. Un estudio de la UOC y Science4Insights lanzó 61 preguntas en las cuatro lenguas oficiales a seis chatbots: el 85,4% de las respuestas evitó recomendar un partido, pero Grok se decantó en el 44,7% de los casos y ChatGPT en el 25,4%, frente al 1,6% de Gemini y el 1,2% de Claude. Según el INE, el 54,8% de la población de 16 a 74 años usó IA generativa en los últimos tres meses.",
+      "titulo": "La IA ha encontrado nuevas pistas para uno de los grandes problemas matemáticos del milenio: P=NP",
+      "resumen": "Anthropic y OpenAI han subido casi a la vez a sus cuentas de GitHub dos trabajos casi gemelos que abren nuevos caminos hacia P=NP. Ninguno resuelve el problema, pero ambas compañías aseguran haber demostrado que ciertos cálculos son difíciles de verdad y no solo lo parecen. Lo relevante es que una respuesta afectaría a la base de sistemas como el cifrado RSA, que protege los pagos en línea y el correo. Lo cuenta Xataka.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/consultar-voto-ia-que-pesa-respuesta-no-programa-electoral-eres-tu",
-      "fecha": "25-11-2026 19:30"
+      "enlace": "https://www.xataka.com/investigacion/anthropic-openai-plantean-nuevas-vias-para-resolver-problema-matematico-que-pondria-jaque-seguridad-informatica-p-np",
+      "fecha": "26-11-2026 13:30"
     },
     {
-      "titulo": "David Fincher, criticado por el presunto uso excesivo de IA en su última película",
-      "resumen": "The Further Mis-Adventures of Cliff Booth, secuela de Tarantino ambientada en Los Ángeles de 1977 con Brad Pitt, ha generado críticas en redes por el uso de IA generativa en algunas escenas, que varios espectadores consideran abusivo. Fincher ha respondido en declaraciones recogidas por Los Angeles Times que no es un ludita y que solo ha actualizado sus herramientas de edición y montaje. Se preguntó si todos estamos tan seguros de dominar esta forma de arte como para volver al celuloide.",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/entretenimiento/david-fincher-64-anos-criticado-por-usar-ia-su-ultima-pelicula-me-siento-completamente-destripado_7065467_0.html",
-      "fecha": "25-11-2026 16:55"
+      "titulo": "El Gobierno indio estudia una vigilancia de la IA «de la cuna a la tumba» con datos de menores y redes sociales",
+      "resumen": "The Register recoge dos propuestas del Gobierno indio. El primer ministro Narendra Modi planteó una app de IA que recoja datos de los niños desde los tres años para orientar sus estudios y carrera, con acceso de padres, profesores y amigos. Uttar Pradesh, el estado más poblado, licita un «AI Stack» de 178 páginas que cruza datos de varias agencias con el Family ID de cada hogar y monitoriza redes sociales para detectar quejas. Los críticos señalan que el pliego es vago y podría permitir enlazar el sistema con agencias de seguridad.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/public-sector/2026/11/26/indias-government-ponders-cradle-to-grave-ai-oversight/5312275",
+      "fecha": "26-11-2026 04:42"
+    },
+    {
+      "titulo": "Anthropic migra la API de Messages de Python a Rust y usa su propio tráfico como verificador",
+      "resumen": "Anthropic ha pasado su Messages API, la vía principal por la que llegan a Claude sus clientes y sus propias apps como Claude Code y Cowork, de Python a Rust. El tráfico creció unas 1.800 veces desde principios de 2024, y Rust reduce el consumo de CPU por petición. Claude escribió la primera versión del núcleo en una semana, pero la parte difícil fue demostrar que la versión nueva era equivalente a la de producción, y para eso usaron la propia API en vivo como referencia.",
+      "fuente": "Anthropic",
+      "enlace": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "fecha": "25-11-2026 01:00"
+    },
+    {
+      "titulo": "Ant publica con licencia MIT Ling-3.2-air, un modelo multimodal pensado para agentes que usan herramientas",
+      "resumen": "Ant Group ha liberado los pesos de Ling-3.2-air con licencia MIT. Es un modelo que procesa texto, imagen y vídeo, con arquitectura de mezcla de expertos: 124.000 millones de parámetros en total y 5.500 millones activos por token. Según Ant, su tasa de finalización de tareas en el benchmark AutomationBench-AA sube del 15,7 % al 61 % respecto a su versión anterior, con mejoras en documentos, ofimática y flujos de trabajo de navegador.",
+      "fuente": "TechNode",
+      "enlace": "https://technode.com/2026/11/25/ant-releases-ling-3-2-air-multimodal-model-under-mit-license/",
+      "fecha": "25-11-2026 06:11"
     }
   ],
   "titulares": [
     {
-      "titulo": "La patente de Google para feeds de vídeo con IA personalizados pinta un futuro sombrío para el entretenimiento",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
-      "fecha": "25-11-2026"
+      "titulo": "Gemini sustituye a Google Assistant en Android Auto: esto es lo que puede hacer en el coche",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "OpenAI quiere que las empresas le confíen trabajo sensible prometiendo no mirar sus datos",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
-      "fecha": "25-11-2026"
+      "titulo": "The Download: mejores manos biónicas y el auge del gas natural para la IA",
+      "fuente": "MIT Technology Review",
+      "enlace": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "¿Quieres regalar a tu hijo un juguete con IA esta Navidad? No en Nueva York",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-      "fecha": "25-11-2026"
+      "titulo": "Hace un año instalé OpenClaw y he matado más agentes que Tamagotchis. Sigo convencido de que cambió la IA",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/hace-ano-instale-openclaw-he-matado-agentes-que-tamagotchis-sigo-convencido-que-cambio-ia",
+      "fecha": "26-11-2026"
     },
     {
-      "titulo": "Los centros de datos de IA son cada vez más difíciles de construir, y los neoclouds lo notan",
-      "fuente": "TechCrunch",
-      "enlace": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
-      "fecha": "25-11-2026"
+      "titulo": "Dario Amodei (43 años), CEO de Anthropic, rompe su silencio: \"No vamos a entregar el control de la humanidad a la IA\"",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/dario-amodei-43-anos-ceo-anthropic-rompe-su-silencio-no-vamos-entregar-control-humanidad-ia_7065985_0.html",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "El mayor terremoto de la salida a bolsa de Anthropic no se notó en Wall Street, lo está sufriendo la vivienda de lujo de San Francisco",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/mayor-terremoto-salida-a-bolsa-anthropic-no-se-noto-wall-street-esta-sufriendo-vivienda-lujo-san-francisco",
+      "fecha": "26-11-2026"
     }
   ]
 }
