@@ -1,195 +1,176 @@
 {
   "seccion": "tecnologia",
-  "actualizado": "26-11-2026 15:12",
+  "actualizado": "27-11-2026 03:12",
   "destacadas": [
     {
-      "titulo": "Neuralink recibe la aprobación de la FDA para un ensayo «pivotal» de su implante cerebral en pacientes con ELA",
-      "resumen": "La FDA ha dado permiso a Neuralink para iniciar LINK, el primer ensayo pivotal (de etapa avanzada) de un implante cerebro-computadora en Estados Unidos, dirigido a personas con ELA. La aprobación es de carácter experimental y el artículo no indica el número de pacientes; Neuralink ya ha trabajado con más de 30 participantes. El objetivo es comprobar si los pacientes pueden controlar dispositivos digitales con el pensamiento, mejorando su independencia diaria, y evaluar la seguridad y fiabilidad a largo plazo.",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
-      "fecha": "26-11-2026 08:28"
+      "titulo": "Países Bajos se planta ante EE. UU. por las restricciones a las máquinas de ASML",
+      "resumen": "El Congreso de EE. UU. debate incorporar la MATCH Act a la ley de defensa (NDAA), con negociaciones previstas para diciembre. La norma obligaría a aliados como Países Bajos y Japón a aplicar controles de exportación equivalentes, y afectaría a las máquinas DUV de inmersión de ASML. El ministro de Comercio neerlandés, Sjoerd Sjoerdsma, dijo el 26 de noviembre que pedirá a Washington que no la aplique si se convierte en ley. ASML prevé unas ventas de 44.000 a 45.000 millones de euros en 2026, de las que cerca del 20 % corresponden a China.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/paises-bajos-se-planta-eeuu-restricciones-a-maquinas-asml",
+      "fecha": "26-11-2026 22:30"
     },
     {
-      "titulo": "¿Por qué Waymo sigue tropezando en las autopistas tras conquistar las calles de las ciudades?",
-      "resumen": "Waymo ha pausado los viajes comerciales por autopista en todos sus mercados de EE. UU., después de que el DMV de California le prohibiera circular por las autopistas estatales. El 6 de noviembre, uno de sus robotaxis intentó adelantar a dos patrullas de la CHP en la I-280, y entre octubre y noviembre la compañía registró 11 casos en los que no reconoció un carril cerrado por obras. Es el segundo parón del año en las autopistas, y un experto de Carnegie Mellon considera que las retiradas por software son «tiritas» que no resuelven el problema.",
+      "titulo": "La UE lanza su primera Ley Cuántica para liderar las tecnologías cuánticas en 2030",
+      "resumen": "La Comisión Europea propone su primera Ley Cuántica, dentro de la Estrategia Europa Cuántica adoptada en julio de 2025, con el objetivo de situar a la UE entre las grandes potencias de las tecnologías cuánticas antes de 2030. La propuesta crea una Iniciativa Marco para la Europa Cuántica que acompaña el desarrollo desde la investigación básica hasta la implantación industrial, impulsa la criptografía poscuántica y busca evitar que los descubrimientos europeos acaben explotándose fuera del continente. Bruselas reconoce que falta financiación privada para que las startups crezcan.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/union-europea-lanza-su-primera-ley-cuantica-para-convertirse-lider-mundial-tecnologias-cuanticas-para-2030_7066093_0.html",
+      "fecha": "26-11-2026 17:10"
+    },
+    {
+      "titulo": "Los desarrolladores independientes de Android tendrán que publicar su teléfono y dirección",
+      "resumen": "Google exigirá a los desarrolladores de Android considerados «comerciantes» compartir públicamente su teléfono y dirección desde el 1 de marzo de 2027, para cumplir la Ley de Servicios Digitales europea. Tienen hasta el 1 de febrero de 2027 para declararse o no comerciantes. Google no acepta apartados de correos y mostrará los datos en todo el mundo, mientras que Apple solo los mostrará en los países europeos y admite apartados con justificante. Algunos desarrolladores barajan alquilar una oficina o pagar un agente registrado para no publicar su domicilio.",
       "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/transportation/1042151/waymo-highway-ban-ai-safety-recalls",
-      "fecha": "26-11-2026 13:00"
+      "enlace": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+      "fecha": "26-11-2026 18:06"
     },
     {
-      "titulo": "Se paraliza una operación de uranio en Wyoming tras un ciberataque",
-      "resumen": "Strata Energy, filial estadounidense de la australiana Peninsula Energy, suspendió la producción en su proyecto Lance (Wyoming) después de detectar un incidente de ciberseguridad el 20 de noviembre. El ataque afectó a los sistemas de control de la planta de procesamiento y del campo de pozos; según la compañía, los sistemas administrativos no se vieron afectados. No hay fecha de reinicio, la empresa no puede evaluar aún el impacto en su previsión de producción de 2027 y ha pedido suspender la cotización hasta el 30 de noviembre o hasta anunciar el reinicio.",
+      "titulo": "Rackspace cierra Spot, su nube barata, tras una brecha de seguridad",
+      "resumen": "Rackspace cerrará Spot, su servicio de nube de bajo coste basado en subastas, el 8 de diciembre a las 17:00 (hora central). Los atacantes usaron credenciales filtradas para estar unas 22 horas dentro del servicio el 17 de noviembre: crearon pods en clústeres de clientes y accedieron a Kubernetes Secrets. Rackspace ha revocado tokens y cambiado claves, y pide a los clientes reemitir tokens y rotar sus credenciales. No ha dicho cuántos clientes resultaron afectados ni por qué opta por cerrar en vez de recuperar el servicio.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/26/wyoming-uranium-operation-shuts-down-after-cyberattack/5312323",
-      "fecha": "26-11-2026 15:02"
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352",
+      "fecha": "26-11-2026 15:45"
     },
     {
-      "titulo": "El regulador financiero británico acusa a Meta de negarse a probar Muse en su sandbox",
-      "resumen": "La FCA británica dice que Meta rechazó su propuesta de probar conjuntamente Muse, su asistente personal de IA, en el sandbox regulatorio del país. El regulador quiere entender cómo harán los agentes los pagos y cómo afectarán a los consumidores británicos, y lamenta que Meta solo le avisara del plan el mes pasado. Meta responde que ha colaborado «de forma constructiva» con las autoridades. Muse supera los 10 millones de usuarios en Norteamérica desde su lanzamiento en septiembre, y la CMA ya obligó a Meta a adaptar sus condiciones para usuarios del Reino Unido.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
-      "fecha": "26-11-2026 11:51"
-    },
-    {
-      "titulo": "NVIDIA podría recortar entre un 20 y un 30 % el suministro de chips a sus socios de GPU",
-      "resumen": "Según rumores recogidos por VideoCardz, citando foros chinos, NVIDIA reduciría entre un 20 y un 30 % la asignación de chips a los fabricantes de sus tarjetas gráficas, con efecto en el trimestre que va de noviembre de 2026 a enero de 2027. NVIDIA no lo ha confirmado. Algunos socios ya se están quedando sin stock de la serie RTX 50 y recurren a modelos antiguos como la RTX 3050 y la RTX 3060, lo que podría encarecer y dificultar la compra de tarjetas.",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/hardware/comprar-una-gpu-de-nvidia-podria-volverse-mas-dificil-y-caro/",
-      "fecha": "26-11-2026 15:01"
-    },
-    {
-      "titulo": "Microsoft lanza un hotpatch fuera de ciclo para un fallo que puede tumbar Windows Server 2025",
-      "resumen": "Microsoft publicó el 25 de noviembre el hotpatch KB5138318 para corregir un fallo que introdujo su actualización de seguridad de noviembre (KB5131077) en Windows Server 2025. Los servidores con Router Advertisement activado pueden caerse, con el error 0x139, cuando expira el temporizador de una ruta IPv6 con tiempo limitado. Microsoft identifica ese vencimiento como desencadenante, pero no ha explicado el fallo de código subyacente. Según Lansweeper, Windows Server 2025 representa el 7 % de los servidores que monitoriza, frente al 32 % de Server 2022.",
+      "titulo": "Flight Centre avisa de una brecha que expone registros de clientes",
+      "resumen": "Flight Centre Travel Group informó a la bolsa australiana el 26 de noviembre de que «un número significativo de registros de clientes» pudo ser accedido tras un ciberataque a un sistema de reservas de alojamiento de un proveedor externo, también usado por Travel Associates y Cruiseabout. La mayoría de los registros contendría solo nombres; un porcentaje muy pequeño podría incluir fechas de nacimiento, correos, datos de pasaporte o, en casos raros, datos de salud o movilidad. Los vuelos y los viajes corporativos están en sistemas separados. La empresa trabaja con Mandiant y avisará directamente a los afectados.",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/os-platforms/2026/11/26/microsoft-hotpatches-hotpatch-that-could-crash-windows-server-2025/5312301",
-      "fecha": "26-11-2026 13:27"
+      "enlace": "https://www.theregister.com/security/2026/11/26/significant-number-of-customer-records-pwned-in-flight-centre-travel-group-breach/5312360",
+      "fecha": "26-11-2026 16:29"
     },
     {
-      "titulo": "X estrena sus primeros controles parentales para cuentas de adolescentes",
-      "resumen": "X lanza sus primeros controles parentales para cuentas de usuarios de 13 a 17 años. Las cuentas adolescentes activan por defecto el modo protegido, restringen el contenido sensible y bloquean la publicidad dirigida. El padre o tutor puede fijar un límite diario de tiempo, aprobar a los nuevos seguidores, limitar el «Para ti» a las cuentas que el adolescente ya sigue y ver con qué cuentas ha tenido conversaciones privadas, sin leer los mensajes. La vinculación la inicia el adulto y la deben aceptar ambas partes, y un padre puede controlar hasta cinco cuentas.",
+      "titulo": "Backloggd sufre una brecha y pide a sus usuarios cambiar la contraseña",
+      "resumen": "Alguien explotó un fallo de Backloggd, la web para registrar y valorar videojuegos, para entrar en sus herramientas de administración. Se expusieron nombres de usuario, correos, contraseñas cifradas y las IP desde las que se inició sesión; los pagos, gestionados por Patreon, no se vieron comprometidos. El administrador, MrProg, pide cambiar la contraseña también en otros servicios donde se use la misma, y todos los usuarios tendrán que volver a iniciar sesión. El sitio se desconectó, el fallo se corrigió y el atacante fue bloqueado. El sitio tiene ocho años y acaba de llegar al millón de usuarios.",
       "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2329049/x-is-adding-its-first-ever-parental-controls/",
-      "fecha": "26-11-2026 10:26"
+      "enlace": "https://www.engadget.com/2329256/backloggd-breach-november-2026-password-reset/",
+      "fecha": "26-11-2026 22:26"
     },
     {
-      "titulo": "Digi lanza una fibra asimétrica de 2 Gbps por 20 euros al mes",
-      "resumen": "Digi ha publicado la Fibra SMART 2Gb asimétrica por 20 € al mes, con hasta 2000 Mbps de bajada y 1000 Mbps de subida, y permanencia de tres meses. Solo está disponible en domicilios con cobertura de Fibra SMART que no tengan XGS-PON, con router GPON y Wi-Fi 7 en depósito. Los clientes con la fibra de 1 Gbps que puedan pasar a XGS-PON migran a la simétrica de 2 Gbps al cambiar de router, y el resto a la asimétrica, con el mismo precio en ambos casos.",
-      "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/operadores/digi-fibra-2gbps-asimetricos-euros/",
-      "fecha": "26-11-2026 10:29"
+      "titulo": "Un malware usa GTA VI como cebo y roba contraseñas y criptomonedas",
+      "resumen": "McAfee alerta de campañas de malware que usan GTA VI como señuelo, con falsas descargas para PC, supuestos accesos beta y trucos o mods que esconden programas maliciosos. Analiza Marsalek, un malware como servicio que roba contraseñas guardadas en navegadores basados en Chromium y en Firefox, tokens de Discord y datos de carteras de criptomonedas. Según McAfee, los propios clientes de la plataforma también eran víctimas: junto al malware generado se desplegaba PureLog, que enviaba una copia de los datos robados a los operadores del servicio.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/cuidado-con-los-trucos-gta-vi-un-malware-esta-robando-contrasenas-criptomonedas-hasta-los-propios-hackers_7066268_0.html",
+      "fecha": "26-11-2026 22:11"
     }
   ],
   "titulares": [
     {
-      "titulo": "La app Screens permitirá convertir tu iPhone Duo en un MacBook diminuto",
-      "fuente": "Engadget",
-      "enlace": "https://www.engadget.com/2329115/the-screens-app-will-let-you-turn-your-iphone-duo-into-an-itty-bitty-macbook/",
-      "fecha": "26-11-2026"
-    },
-    {
-      "titulo": "Una empresa muy metódica con sus copias de seguridad, pero que las dejó expuestas",
+      "titulo": "El regulador británico de privacidad se enfrenta a una investigación sobre su cultura laboral",
       "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/26/company-was-religious-about-backups-but-sinned-by-leaving-them-exposed/5312234",
+      "enlace": "https://www.theregister.com/public-sector/2026/11/26/uk-privacy-watchdog-faces-probe-into-its-workplace-culture/5312380",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Enlaces obsoletos en webs del sector público británico llevan a los visitantes a casas de apuestas",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/public-sector/2026/11/26/stale-links-on-uk-public-sector-websites-direct-visitors-to-gambling-dens/5312049",
-      "fecha": "26-11-2026"
-    },
-    {
-      "titulo": "El Gobierno británico trabaja «sin descanso» en planes de contingencia para Capita",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/public-sector/2026/11/26/uk-government-working-around-the-clock-on-capita-contingency-plans/5312298",
-      "fecha": "26-11-2026"
-    },
-    {
-      "titulo": "Entradas de agua a 45 °C han dejado fuera de juego a los enfriadores, y casi nadie lo ha notado",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
-      "fecha": "26-11-2026"
-    },
-    {
-      "titulo": "El Ministerio del Interior británico dio luz verde a su sistema fronterizo sin una solución que funcione para los datos erróneos",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/security/2026/11/26/uk-home-office-waved-through-border-system-without-a-working-fix-for-bad-data/5312162",
-      "fecha": "26-11-2026"
-    },
-    {
-      "titulo": "WhatsApp, basta ya",
+      "titulo": "Podíais elegir cualquier producto para el premio de la comunidad. El ganador ha sido el Xiaomi 17 Ultra",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/aplicaciones/whatsapp-basta",
+      "enlace": "https://www.xataka.com/telefono-movil/podiais-elegir-cualquier-producto-para-premio-comunidad-ganador-ha-sido-xiaomi-17-ultra",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Cinco productos de Apple con el mejor precio en este Black Friday",
+      "titulo": "¿Cómo logró ‘GTA 6’ mantener a salvo su secreto más importante? Rockstar responde",
       "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/ofertas-descuentos/apple-black-friday/",
+      "enlace": "https://hipertextual.com/videojuegos/gta-6-rob-nelson-mayor-secreto-a-salvo-rockstar/",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Android Auto tiene una nueva app que une lo mejor de YouTube y de las listas IPTV en una misma herramienta",
+      "titulo": "Otro operador desafía a Lowi, Finetwork o Pepephone con su nueva tarifa móvil de 5 euros que no subirá de precio",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-tecnologia/mm-auto-android-auto-youtube-iptv/",
+      "enlace": "https://www.adslzone.net/noticias/operadores/comparativa-tarifa-movil-5-euros-1126/",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Los trabajadores de la Clínica Mayo tendrán 5 minutos pagados para poder encender sus ordenadores cada día",
+      "titulo": "Llevan una Radeon RX 9060 XT hasta los 4.837 MHz y pulverizan el récord mundial de frecuencia en una GPU",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/los-trabajadores-clinica-mayo-tendran-5-minutos-pagados-para-poder-encender-sus-ordenadores-cada-dia_7065999_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/llevan-una-radeon-rx-9060-xt-hasta-los-4-837-mhz-pulverizan-record-mundial-frecuencia-una-gpu_7066269_0.html",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Café de barista en casa a precio de Black Friday: esta cafetera De’Longhi con molinillo integrado es muy fácil de usar y de limpiar",
+      "titulo": "El Black Friday de FRITZ! es la oportunidad perfecta para comprar un router o un sistema mesh de calidad al mejor precio",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seleccion/cafe-barista-casa-a-precio-black-friday-esta-cafetera-longhi-molinillo-integrado-muy-facil-usar-limpiar",
+      "enlace": "https://www.xataka.com/seleccion/black-friday-fritz-oportunidad-perfecta-para-comprar-router-sistema-mesh-calidad-al-mejor-precio",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Ottocast en Black Friday: usa CarPlay y Android Auto sin cables desde solo 35,99 euros",
+      "titulo": "‘GTA 6’ rompe el récord de estreno en físico en España… con una caja sin disco",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/gta-6-record-lanzamiento-fisico-caja-sin-disco/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Comer, beber agua, fumar o maquillarse al volante: qué dice de verdad la norma",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/ottocast-en-black-friday-usa-carplay-y-android-auto-sin-cables-desde-solo-3599-euros/",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/comer-beber-fumar-maquillarse-al-volante-norma/",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Un programador convierte el trackpad de su MacBook en un altavoz robótico capaz de reproducir voz y música",
+      "titulo": "Movistar Plus se actualiza a lo grande: si estás abonado a este formato, cuidado, lo cambia todo y podrías quedarte en negro si no te actualizas",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tendencias/un-programador-convierte-trackpad-su-macbook-un-altavoz-robotico-capaz-reproducir-voz-musica_7065994_0.html",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/movistar-plus-se-actualiza-grande-si-estas-abonado-este-formato-cuidado-cambia-todo-podrias-quedarte-negro-si-no-te-actualizas_7066272_0.html",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "SpaceX ya no lanzará más satélites pequeños ajenos y Blue Origin ha sacado tajada de ello",
+      "titulo": "La inseguridad se ha convertido en una condición estructural de Internet",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/spacex-no-lanzara-satelites-pequenos-ajenos-blue-origin-ha-sacado-tajada-ello",
+      "enlace": "https://www.xataka.com/opinion/inseguridad-se-ha-convertido-condicion-estructural-internet",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "El BOE confirma casi 15.000 plazas de funcionario: “Con la ESO ya puedes opositar”",
+      "titulo": "El Black Friday más allá de teléfonos y ordenadores: areneros autolimpiables, proyectores y cámaras dashcams",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/ofertas-descuentos/ofertas-black-friday-areneros/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "La Navidad comienza mañana en Zaragoza con tres grandes mercados navideños, pista de hielo y tobogán de trineos",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/fintech/boe-convocatoria-15000-plazas-funcionario-eso-bachillerato/",
+      "enlace": "https://www.adslzone.net/noticias/internet/navidad-zaragoza-mercados-pista-hielo-tobogan/",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "GTA 6 para PC, grupos de desarrolladores se pican para ver quién lo logra antes: el líder tiene una versión jugable a más del 90% con 25 FPS de media",
+      "titulo": "DIGI al fin se convierte en una opción \"completa\" para sus clientes con iPhone",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/gaming/gta-6-para-pc-grupos-desarrolladores-se-pican-para-ver-quien-logra-antes-lider-tiene-una-version-jugable-mas-90-con-25-fps-media_7065986_0.html",
+      "enlace": "https://computerhoy.20minutos.es/moviles/digi-fin-se-convierte-una-opcion-completa-para-sus-clientes-con-iphone_7066105_0.html",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Alemania acaba de explicar de forma muy sencilla por qué sigue pagando la factura militar de Ucrania: porque \"Rusia quiere algo más que Ucrania\"",
+      "titulo": "En los pantanos de Florida hay conejos de peluche con paneles solares montando guardia: su presa son serpientes invasoras",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/alemania-acaba-explicar-forma-muy-sencilla-que-sigue-pagando-factura-militar-ucrania-porque-rusia-quiere-algo-que-ucrania",
+      "enlace": "https://www.xataka.com/magnet/pantanos-florida-hay-conejos-peluche-paneles-solares-montando-guardia-su-presa-serpientes-invasoras",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "La señal R-120 de la DGT que debes tener muy presente en 2027: no respetarla te puede costar 200 euros",
+      "titulo": "Apple no tira la toalla con el iPad plegable, pero no te hagas muchas ilusiones",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/apple-aun-trabaja-en-el-ipad-plegable-pero-no-te-hagas-ilusiones/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Decenas de novedades llegan a tu Garmin tras una nueva actualización repleta de cambios",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/senal-r-120-dgt-200-euros/",
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-forerunner-570-actualizacion-19-25/",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Linux recupera la compatibilidad con un adaptador WiFi de hace 20 años gracias al código abierto: \"¿Algún voluntario para gestionar su reincorporación y mantenimiento?\"",
+      "titulo": "Las raíces separadas entre Bill Gates (71 años) y Linus Torvalds (56 años): 7.696 km en línea recta separan la capital del imperio Microsoft en Seattle y de Linux en Helsinki",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/software/linux-recupera-compatibilidad-con-un-adaptador-wifi-hace-20-anos-gracias-codigo-abierto-algun-voluntario-para-gestionar-su-reincorporacion-mantenimiento_7065982_0.html",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/las-raices-separadas-entre-bill-gates-71-anos-linus-torvalds-56-anos-7-696-km-linea-recta-separan-capital-imperio-microsoft-seattle-linux-helsinki_7066103_0.html",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Rafael Guerrero, psicólogo: \"Los niños nacidos en diciembre tienen un 39% más de probabilidades de ser diagnosticados de TDAH que aquellos niños nacidos en enero”",
+      "titulo": "Acaba el Black November de AEG, pero estos cuatro chollos siguen disponibles: tenemos un horno, una lavadora con eficiencia A y más",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/medicina-y-salud/rafael-guerrero-psicologo-ninos-nacidos-diciembre-tienen-39-probabilidades-ser-diagnosticados-tdah-que-ninos-nacidos-enero",
+      "enlace": "https://www.xataka.com/seleccion/acaba-black-november-aeg-estos-cuatro-chollos-siguen-disponibles-tenemos-horno-lavadora-eficiencia-a",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Tu móvil Xiaomi está en la lista de HyperOS 4, pero sigue sin actualizarse: estos son los motivos",
+      "titulo": "Probamos la Rowenta X-Clean 12: la fregona eléctrica que se limpia sola y nos ahorra el secado manual",
       "fuente": "ADSLZone",
-      "enlace": "https://www.adslzone.net/noticias/moviles/xiaomi-hyperos-actualiza-motivos/",
+      "enlace": "https://www.adslzone.net/noticias/productos/analisis-rowenta-x-clean-12-fregona-electrica/",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Confirman el hackeo a 1Password pero aseguran que los hackers no han logrado acceder a las cajas fuertes de los usuarios",
+      "titulo": "Los más pacientes logran su recompensa y GTA 6 ya seria jugable en las PlayStation 5 con jailbreak",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/confirman-hackeo-1password-pero-aseguran-que-los-hackers-no-han-logrado-acceder-las-cajas-fuertes-los-usuarios_7065984_0.html",
+      "enlace": "https://computerhoy.20minutos.es/gaming/los-mas-pacientes-logran-su-recompensa-gta-6-ya-seria-jugable-las-playstation-5-con-jailbreak_7066097_0.html",
       "fecha": "26-11-2026"
     }
   ]

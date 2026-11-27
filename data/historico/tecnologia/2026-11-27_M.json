@@ -1,0 +1,177 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "27-11-2026 03:12",
+  "destacadas": [
+    {
+      "titulo": "Países Bajos se planta ante EE. UU. por las restricciones a las máquinas de ASML",
+      "resumen": "El Congreso de EE. UU. debate incorporar la MATCH Act a la ley de defensa (NDAA), con negociaciones previstas para diciembre. La norma obligaría a aliados como Países Bajos y Japón a aplicar controles de exportación equivalentes, y afectaría a las máquinas DUV de inmersión de ASML. El ministro de Comercio neerlandés, Sjoerd Sjoerdsma, dijo el 26 de noviembre que pedirá a Washington que no la aplique si se convierte en ley. ASML prevé unas ventas de 44.000 a 45.000 millones de euros en 2026, de las que cerca del 20 % corresponden a China.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/empresas-y-economia/paises-bajos-se-planta-eeuu-restricciones-a-maquinas-asml",
+      "fecha": "26-11-2026 22:30"
+    },
+    {
+      "titulo": "La UE lanza su primera Ley Cuántica para liderar las tecnologías cuánticas en 2030",
+      "resumen": "La Comisión Europea propone su primera Ley Cuántica, dentro de la Estrategia Europa Cuántica adoptada en julio de 2025, con el objetivo de situar a la UE entre las grandes potencias de las tecnologías cuánticas antes de 2030. La propuesta crea una Iniciativa Marco para la Europa Cuántica que acompaña el desarrollo desde la investigación básica hasta la implantación industrial, impulsa la criptografía poscuántica y busca evitar que los descubrimientos europeos acaben explotándose fuera del continente. Bruselas reconoce que falta financiación privada para que las startups crezcan.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/union-europea-lanza-su-primera-ley-cuantica-para-convertirse-lider-mundial-tecnologias-cuanticas-para-2030_7066093_0.html",
+      "fecha": "26-11-2026 17:10"
+    },
+    {
+      "titulo": "Los desarrolladores independientes de Android tendrán que publicar su teléfono y dirección",
+      "resumen": "Google exigirá a los desarrolladores de Android considerados «comerciantes» compartir públicamente su teléfono y dirección desde el 1 de marzo de 2027, para cumplir la Ley de Servicios Digitales europea. Tienen hasta el 1 de febrero de 2027 para declararse o no comerciantes. Google no acepta apartados de correos y mostrará los datos en todo el mundo, mientras que Apple solo los mostrará en los países europeos y admite apartados con justificante. Algunos desarrolladores barajan alquilar una oficina o pagar un agente registrado para no publicar su domicilio.",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+      "fecha": "26-11-2026 18:06"
+    },
+    {
+      "titulo": "Rackspace cierra Spot, su nube barata, tras una brecha de seguridad",
+      "resumen": "Rackspace cerrará Spot, su servicio de nube de bajo coste basado en subastas, el 8 de diciembre a las 17:00 (hora central). Los atacantes usaron credenciales filtradas para estar unas 22 horas dentro del servicio el 17 de noviembre: crearon pods en clústeres de clientes y accedieron a Kubernetes Secrets. Rackspace ha revocado tokens y cambiado claves, y pide a los clientes reemitir tokens y rotar sus credenciales. No ha dicho cuántos clientes resultaron afectados ni por qué opta por cerrar en vez de recuperar el servicio.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352",
+      "fecha": "26-11-2026 15:45"
+    },
+    {
+      "titulo": "Flight Centre avisa de una brecha que expone registros de clientes",
+      "resumen": "Flight Centre Travel Group informó a la bolsa australiana el 26 de noviembre de que «un número significativo de registros de clientes» pudo ser accedido tras un ciberataque a un sistema de reservas de alojamiento de un proveedor externo, también usado por Travel Associates y Cruiseabout. La mayoría de los registros contendría solo nombres; un porcentaje muy pequeño podría incluir fechas de nacimiento, correos, datos de pasaporte o, en casos raros, datos de salud o movilidad. Los vuelos y los viajes corporativos están en sistemas separados. La empresa trabaja con Mandiant y avisará directamente a los afectados.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/security/2026/11/26/significant-number-of-customer-records-pwned-in-flight-centre-travel-group-breach/5312360",
+      "fecha": "26-11-2026 16:29"
+    },
+    {
+      "titulo": "Backloggd sufre una brecha y pide a sus usuarios cambiar la contraseña",
+      "resumen": "Alguien explotó un fallo de Backloggd, la web para registrar y valorar videojuegos, para entrar en sus herramientas de administración. Se expusieron nombres de usuario, correos, contraseñas cifradas y las IP desde las que se inició sesión; los pagos, gestionados por Patreon, no se vieron comprometidos. El administrador, MrProg, pide cambiar la contraseña también en otros servicios donde se use la misma, y todos los usuarios tendrán que volver a iniciar sesión. El sitio se desconectó, el fallo se corrigió y el atacante fue bloqueado. El sitio tiene ocho años y acaba de llegar al millón de usuarios.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2329256/backloggd-breach-november-2026-password-reset/",
+      "fecha": "26-11-2026 22:26"
+    },
+    {
+      "titulo": "Un malware usa GTA VI como cebo y roba contraseñas y criptomonedas",
+      "resumen": "McAfee alerta de campañas de malware que usan GTA VI como señuelo, con falsas descargas para PC, supuestos accesos beta y trucos o mods que esconden programas maliciosos. Analiza Marsalek, un malware como servicio que roba contraseñas guardadas en navegadores basados en Chromium y en Firefox, tokens de Discord y datos de carteras de criptomonedas. Según McAfee, los propios clientes de la plataforma también eran víctimas: junto al malware generado se desplegaba PureLog, que enviaba una copia de los datos robados a los operadores del servicio.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/cuidado-con-los-trucos-gta-vi-un-malware-esta-robando-contrasenas-criptomonedas-hasta-los-propios-hackers_7066268_0.html",
+      "fecha": "26-11-2026 22:11"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "El regulador británico de privacidad se enfrenta a una investigación sobre su cultura laboral",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/public-sector/2026/11/26/uk-privacy-watchdog-faces-probe-into-its-workplace-culture/5312380",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Podíais elegir cualquier producto para el premio de la comunidad. El ganador ha sido el Xiaomi 17 Ultra",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/telefono-movil/podiais-elegir-cualquier-producto-para-premio-comunidad-ganador-ha-sido-xiaomi-17-ultra",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "¿Cómo logró ‘GTA 6’ mantener a salvo su secreto más importante? Rockstar responde",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/gta-6-rob-nelson-mayor-secreto-a-salvo-rockstar/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Otro operador desafía a Lowi, Finetwork o Pepephone con su nueva tarifa móvil de 5 euros que no subirá de precio",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/comparativa-tarifa-movil-5-euros-1126/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Llevan una Radeon RX 9060 XT hasta los 4.837 MHz y pulverizan el récord mundial de frecuencia en una GPU",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tendencias/llevan-una-radeon-rx-9060-xt-hasta-los-4-837-mhz-pulverizan-record-mundial-frecuencia-una-gpu_7066269_0.html",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "El Black Friday de FRITZ! es la oportunidad perfecta para comprar un router o un sistema mesh de calidad al mejor precio",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/black-friday-fritz-oportunidad-perfecta-para-comprar-router-sistema-mesh-calidad-al-mejor-precio",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "‘GTA 6’ rompe el récord de estreno en físico en España… con una caja sin disco",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/gta-6-record-lanzamiento-fisico-caja-sin-disco/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Comer, beber agua, fumar o maquillarse al volante: qué dice de verdad la norma",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/comer-beber-fumar-maquillarse-al-volante-norma/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Movistar Plus se actualiza a lo grande: si estás abonado a este formato, cuidado, lo cambia todo y podrías quedarte en negro si no te actualizas",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/entretenimiento/movistar-plus-se-actualiza-grande-si-estas-abonado-este-formato-cuidado-cambia-todo-podrias-quedarte-negro-si-no-te-actualizas_7066272_0.html",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "La inseguridad se ha convertido en una condición estructural de Internet",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/opinion/inseguridad-se-ha-convertido-condicion-estructural-internet",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "El Black Friday más allá de teléfonos y ordenadores: areneros autolimpiables, proyectores y cámaras dashcams",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/ofertas-descuentos/ofertas-black-friday-areneros/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "La Navidad comienza mañana en Zaragoza con tres grandes mercados navideños, pista de hielo y tobogán de trineos",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/internet/navidad-zaragoza-mercados-pista-hielo-tobogan/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "DIGI al fin se convierte en una opción \"completa\" para sus clientes con iPhone",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/digi-fin-se-convierte-una-opcion-completa-para-sus-clientes-con-iphone_7066105_0.html",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "En los pantanos de Florida hay conejos de peluche con paneles solares montando guardia: su presa son serpientes invasoras",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/pantanos-florida-hay-conejos-peluche-paneles-solares-montando-guardia-su-presa-serpientes-invasoras",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Apple no tira la toalla con el iPad plegable, pero no te hagas muchas ilusiones",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/apple-aun-trabaja-en-el-ipad-plegable-pero-no-te-hagas-ilusiones/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Decenas de novedades llegan a tu Garmin tras una nueva actualización repleta de cambios",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/marcas/garmin-forerunner-570-actualizacion-19-25/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Las raíces separadas entre Bill Gates (71 años) y Linus Torvalds (56 años): 7.696 km en línea recta separan la capital del imperio Microsoft en Seattle y de Linux en Helsinki",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/las-raices-separadas-entre-bill-gates-71-anos-linus-torvalds-56-anos-7-696-km-linea-recta-separan-capital-imperio-microsoft-seattle-linux-helsinki_7066103_0.html",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Acaba el Black November de AEG, pero estos cuatro chollos siguen disponibles: tenemos un horno, una lavadora con eficiencia A y más",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/acaba-black-november-aeg-estos-cuatro-chollos-siguen-disponibles-tenemos-horno-lavadora-eficiencia-a",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Probamos la Rowenta X-Clean 12: la fregona eléctrica que se limpia sola y nos ahorra el secado manual",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/productos/analisis-rowenta-x-clean-12-fregona-electrica/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Los más pacientes logran su recompensa y GTA 6 ya seria jugable en las PlayStation 5 con jailbreak",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/los-mas-pacientes-logran-su-recompensa-gta-6-ya-seria-jugable-las-playstation-5-con-jailbreak_7066097_0.html",
+      "fecha": "26-11-2026"
+    }
+  ]
+}
