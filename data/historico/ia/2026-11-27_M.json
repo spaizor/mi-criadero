@@ -1,0 +1,61 @@
+{
+  "seccion": "ia",
+  "actualizado": "27-11-2026 04:12",
+  "destacadas": [
+    {
+      "titulo": "Un antiguo investigador de OpenAI sostiene que lo relevante es que una IA pueda producir demostraciones matemáticas",
+      "resumen": "Scott Aaronson, catedrático de la Universidad de Texas en Austin y antiguo investigador de OpenAI, afirma que lo importante no es una demostración concreta, sino que un sistema de IA pueda producirla. Cita dos resultados de OpenAI: una mejora de la multiplicación de matrices con una cota inferior que completa el algoritmo rápido, y un cálculo más rápido de la transformada de Fourier con la prueba de que no puede hacerse mucho más rápido. Cree que una prueba de P ≠ NP « no está lejos », sin dar detalles verificables.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+      "fecha": "26-11-2026 20:31"
+    },
+    {
+      "titulo": "Moonshot y Z.AI retrasan sus próximos modelos por los controles de chips y la protección frente a la destilación",
+      "resumen": "Según Reuters, citado por The Decoder, el GLM-5.5 de Z.AI, de unos 3 billones de parámetros y previsto para noviembre, probablemente se retrasará al primer trimestre de 2027; mientras tanto Z.AI ha publicado el GLM-5.4, de 750.000 millones de parámetros. Moonshot podría pasar de un ciclo de seis a uno de doce meses, lo que empujaría su modelo Kimi K4 a mediados de 2027. Las causas citadas son las restricciones de EE. UU. al acceso a la nube con chips de Nvidia, el corte de envíos a Sudeste Asiático y las medidas contra la destilación; OpenAI y Anthropic bloquean ya el raspado de datos para ese fin.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+      "fecha": "26-11-2026 16:45"
+    },
+    {
+      "titulo": "Brad Smith avisa de más caídas tecnológicas y las liga a la carrera por parchear vulnerabilidades",
+      "resumen": "El presidente de Microsoft, Brad Smith, dijo a CBS News el 22 de noviembre que hay que prepararse para más caídas en los próximos meses. Descarta que la IA causara la caída global de Microsoft 365 del 12 y 13 de noviembre, pero la vincula al efecto indirecto de la carrera por encontrar y parchear fallos. Como cifras, los socios del proyecto Glasswing de Anthropic verificaron al menos 129.000 vulnerabilidades entre abril y julio con Claude Mythos, y Google pasó de 5.045 a 10.740 divulgaciones de CVE al mes entre enero y agosto, aunque no todo el aumento se debe a la IA.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seguridad/tenemos-que-prepararnos-para-proximos-meses-presidente-microsoft-alerta-riesgo-caidas-ligado-a-ia",
+      "fecha": "26-11-2026 22:00"
+    },
+    {
+      "titulo": "Un investigador de OpenAI afirma haber avanzado en la unión de relatividad y cuántica, sin revisión por pares",
+      "resumen": "Venkatesh Chandrasekaran, investigador de Stanford que trabaja en OpenAI, publicó el 25 de noviembre en arXiv un artículo de 54 páginas de un solo autor. Propone cuantizar la frontera de un « diamante causal » entre dos conos de luz en lugar de todo el universo, y dice obtener resultados finitos, la fórmula de la entropía de los agujeros negros y, a gran escala, las ecuaciones de Einstein. El trabajo solo trata el espacio vacío, tiene un paso heurístico, no ofrece predicciones comprobables y aún no lo ha revisado ningún experto.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/investigacion/llevamos-decadas-tratando-unir-relatividad-fisica-cuantica-investigador-openai-dice-que-ha-conseguido-parcialmente",
+      "fecha": "26-11-2026 16:43"
+    },
+    {
+      "titulo": "Tim Sweeney acusa a Claude de frenar su trabajo con un falso positivo de destilación",
+      "resumen": "El CEO de Epic Games, Tim Sweeney, criticó a Claude después de que el sistema bloqueara la actividad de su cuenta corporativa autorizada al trabajar en una tarea de teoría de conjuntos, que interpretó como un intento de destilación. Según Sweeney, las cláusulas de Anthropic, OpenAI y Google contra la destilación existen, pero sus mecanismos de detección marcan como sospechosa actividad legítima. Él mismo ha defendido en público el uso de la IA en el desarrollo de software y videojuegos.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/tim-sweeney-ceo-epic-games-critica-con-dureza-claude-ia-anthropic-es-una-basura-no-puede-seguir-saboteando-trabajo-sus-clientes-esta-manera_7066095_0.html",
+      "fecha": "26-11-2026 20:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Los usuarios de GPT-6.2 Astra alcanzan los límites un 40 % antes tras corregir OpenAI un error de precios",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "SpaceX tiene luz verde para desplegar un millón de satélites con centros de datos: no es por la IA es por la energía",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/spacex-tiene-luz-verde-para-desplegar-millon-satelites-centros-datos-no-ia-energia",
+      "fecha": "26-11-2026"
+    },
+    {
+      "titulo": "Gemini Notebook (NotebookLM) lanza una función que ayuda a recordar información sin tanto esfuerzo",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-notebook-mejora-flashcards-imagenes-recordatorios/",
+      "fecha": "26-11-2026"
+    }
+  ]
+}

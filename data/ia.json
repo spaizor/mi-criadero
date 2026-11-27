@@ -1,79 +1,60 @@
 {
   "seccion": "ia",
-  "actualizado": "26-11-2026 16:11",
+  "actualizado": "27-11-2026 04:12",
   "destacadas": [
     {
-      "titulo": "Microsoft describe cómo grupos respaldados por Estados usan el framework de IA ARTEX para automatizar ciberataques",
-      "resumen": "Microsoft Threat Intelligence detalla ARTEX, un framework de pentesting con IA publicado en julio de 2026 que automatiza ciberataques desde el reconocimiento hasta el robo de datos. Según Microsoft, lo han integrado grupos vinculados a China y Corea del Norte (Salt Typhoon, Crystal Typhoon, Onyx Sleet, Storm-0940) y también ciberdelincuentes, aunque su código original se borró en octubre y circulan copias y una versión comercial. No inventa técnicas nuevas: coordina herramientas como Nmap, Sqlmap o Metasploit con casi ninguna intervención humana, y acepta cualquier modelo de lenguaje, incluidos los modificados sin salvaguardas.",
+      "titulo": "Un antiguo investigador de OpenAI sostiene que lo relevante es que una IA pueda producir demostraciones matemáticas",
+      "resumen": "Scott Aaronson, catedrático de la Universidad de Texas en Austin y antiguo investigador de OpenAI, afirma que lo importante no es una demostración concreta, sino que un sistema de IA pueda producirla. Cita dos resultados de OpenAI: una mejora de la multiplicación de matrices con una cota inferior que completa el algoritmo rápido, y un cálculo más rápido de la transformada de Fourier con la prueba de que no puede hacerse mucho más rápido. Cree que una prueba de P ≠ NP « no está lejos », sin dar detalles verificables.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
-      "fecha": "26-11-2026 12:30"
+      "enlace": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+      "fecha": "26-11-2026 20:31"
     },
     {
-      "titulo": "Nvidia detiene los envíos de servidores a Malasia, Singapur, Tailandia e Indonesia tras los nuevos controles de exportación de EE. UU.",
-      "resumen": "Según el Financial Times, Nvidia ha pedido a socios como Dell y Supermicro que paren los envíos de servidores a esos cuatro países, después de que el Departamento de Comercio estadounidense cerrara la vía de alquilar cómputo en nubes extranjeras a empresas chinas. Los proveedores de nube tienen 90 días para pedir licencia, y los bancos han frenado unos 500 millones de dólares en préstamos a Aolani, un proveedor de Singapur que iba a alquilar capacidad a ByteDance. CNBC señala además un aumento inusual de GPU Nvidia de segunda mano a la venta, incluidos miles de B300.",
+      "titulo": "Moonshot y Z.AI retrasan sus próximos modelos por los controles de chips y la protección frente a la destilación",
+      "resumen": "Según Reuters, citado por The Decoder, el GLM-5.5 de Z.AI, de unos 3 billones de parámetros y previsto para noviembre, probablemente se retrasará al primer trimestre de 2027; mientras tanto Z.AI ha publicado el GLM-5.4, de 750.000 millones de parámetros. Moonshot podría pasar de un ciclo de seis a uno de doce meses, lo que empujaría su modelo Kimi K4 a mediados de 2027. Las causas citadas son las restricciones de EE. UU. al acceso a la nube con chips de Nvidia, el corte de envíos a Sudeste Asiático y las medidas contra la destilación; OpenAI y Anthropic bloquean ya el raspado de datos para ese fin.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
-      "fecha": "26-11-2026 12:21"
+      "enlace": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+      "fecha": "26-11-2026 16:45"
     },
     {
-      "titulo": "La IA ha encontrado nuevas pistas para uno de los grandes problemas matemáticos del milenio: P=NP",
-      "resumen": "Anthropic y OpenAI han subido casi a la vez a sus cuentas de GitHub dos trabajos casi gemelos que abren nuevos caminos hacia P=NP. Ninguno resuelve el problema, pero ambas compañías aseguran haber demostrado que ciertos cálculos son difíciles de verdad y no solo lo parecen. Lo relevante es que una respuesta afectaría a la base de sistemas como el cifrado RSA, que protege los pagos en línea y el correo. Lo cuenta Xataka.",
+      "titulo": "Brad Smith avisa de más caídas tecnológicas y las liga a la carrera por parchear vulnerabilidades",
+      "resumen": "El presidente de Microsoft, Brad Smith, dijo a CBS News el 22 de noviembre que hay que prepararse para más caídas en los próximos meses. Descarta que la IA causara la caída global de Microsoft 365 del 12 y 13 de noviembre, pero la vincula al efecto indirecto de la carrera por encontrar y parchear fallos. Como cifras, los socios del proyecto Glasswing de Anthropic verificaron al menos 129.000 vulnerabilidades entre abril y julio con Claude Mythos, y Google pasó de 5.045 a 10.740 divulgaciones de CVE al mes entre enero y agosto, aunque no todo el aumento se debe a la IA.",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/investigacion/anthropic-openai-plantean-nuevas-vias-para-resolver-problema-matematico-que-pondria-jaque-seguridad-informatica-p-np",
-      "fecha": "26-11-2026 13:30"
+      "enlace": "https://www.xataka.com/seguridad/tenemos-que-prepararnos-para-proximos-meses-presidente-microsoft-alerta-riesgo-caidas-ligado-a-ia",
+      "fecha": "26-11-2026 22:00"
     },
     {
-      "titulo": "El Gobierno indio estudia una vigilancia de la IA «de la cuna a la tumba» con datos de menores y redes sociales",
-      "resumen": "The Register recoge dos propuestas del Gobierno indio. El primer ministro Narendra Modi planteó una app de IA que recoja datos de los niños desde los tres años para orientar sus estudios y carrera, con acceso de padres, profesores y amigos. Uttar Pradesh, el estado más poblado, licita un «AI Stack» de 178 páginas que cruza datos de varias agencias con el Family ID de cada hogar y monitoriza redes sociales para detectar quejas. Los críticos señalan que el pliego es vago y podría permitir enlazar el sistema con agencias de seguridad.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/public-sector/2026/11/26/indias-government-ponders-cradle-to-grave-ai-oversight/5312275",
-      "fecha": "26-11-2026 04:42"
+      "titulo": "Un investigador de OpenAI afirma haber avanzado en la unión de relatividad y cuántica, sin revisión por pares",
+      "resumen": "Venkatesh Chandrasekaran, investigador de Stanford que trabaja en OpenAI, publicó el 25 de noviembre en arXiv un artículo de 54 páginas de un solo autor. Propone cuantizar la frontera de un « diamante causal » entre dos conos de luz en lugar de todo el universo, y dice obtener resultados finitos, la fórmula de la entropía de los agujeros negros y, a gran escala, las ecuaciones de Einstein. El trabajo solo trata el espacio vacío, tiene un paso heurístico, no ofrece predicciones comprobables y aún no lo ha revisado ningún experto.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/investigacion/llevamos-decadas-tratando-unir-relatividad-fisica-cuantica-investigador-openai-dice-que-ha-conseguido-parcialmente",
+      "fecha": "26-11-2026 16:43"
     },
     {
-      "titulo": "Anthropic migra la API de Messages de Python a Rust y usa su propio tráfico como verificador",
-      "resumen": "Anthropic ha pasado su Messages API, la vía principal por la que llegan a Claude sus clientes y sus propias apps como Claude Code y Cowork, de Python a Rust. El tráfico creció unas 1.800 veces desde principios de 2024, y Rust reduce el consumo de CPU por petición. Claude escribió la primera versión del núcleo en una semana, pero la parte difícil fue demostrar que la versión nueva era equivalente a la de producción, y para eso usaron la propia API en vivo como referencia.",
-      "fuente": "Anthropic",
-      "enlace": "https://www.anthropic.com/research/migrating-api-to-rust",
-      "fecha": "25-11-2026 01:00"
-    },
-    {
-      "titulo": "Ant publica con licencia MIT Ling-3.2-air, un modelo multimodal pensado para agentes que usan herramientas",
-      "resumen": "Ant Group ha liberado los pesos de Ling-3.2-air con licencia MIT. Es un modelo que procesa texto, imagen y vídeo, con arquitectura de mezcla de expertos: 124.000 millones de parámetros en total y 5.500 millones activos por token. Según Ant, su tasa de finalización de tareas en el benchmark AutomationBench-AA sube del 15,7 % al 61 % respecto a su versión anterior, con mejoras en documentos, ofimática y flujos de trabajo de navegador.",
-      "fuente": "TechNode",
-      "enlace": "https://technode.com/2026/11/25/ant-releases-ling-3-2-air-multimodal-model-under-mit-license/",
-      "fecha": "25-11-2026 06:11"
+      "titulo": "Tim Sweeney acusa a Claude de frenar su trabajo con un falso positivo de destilación",
+      "resumen": "El CEO de Epic Games, Tim Sweeney, criticó a Claude después de que el sistema bloqueara la actividad de su cuenta corporativa autorizada al trabajar en una tarea de teoría de conjuntos, que interpretó como un intento de destilación. Según Sweeney, las cláusulas de Anthropic, OpenAI y Google contra la destilación existen, pero sus mecanismos de detección marcan como sospechosa actividad legítima. Él mismo ha defendido en público el uso de la IA en el desarrollo de software y videojuegos.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/tecnologia/tim-sweeney-ceo-epic-games-critica-con-dureza-claude-ia-anthropic-es-una-basura-no-puede-seguir-saboteando-trabajo-sus-clientes-esta-manera_7066095_0.html",
+      "fecha": "26-11-2026 20:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Gemini sustituye a Google Assistant en Android Auto: esto es lo que puede hacer en el coche",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
+      "titulo": "Los usuarios de GPT-6.2 Astra alcanzan los límites un 40 % antes tras corregir OpenAI un error de precios",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "The Download: mejores manos biónicas y el auge del gas natural para la IA",
-      "fuente": "MIT Technology Review",
-      "enlace": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
-      "fecha": "26-11-2026"
-    },
-    {
-      "titulo": "Hace un año instalé OpenClaw y he matado más agentes que Tamagotchis. Sigo convencido de que cambió la IA",
+      "titulo": "SpaceX tiene luz verde para desplegar un millón de satélites con centros de datos: no es por la IA es por la energía",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/hace-ano-instale-openclaw-he-matado-agentes-que-tamagotchis-sigo-convencido-que-cambio-ia",
+      "enlace": "https://www.xataka.com/espacio/spacex-tiene-luz-verde-para-desplegar-millon-satelites-centros-datos-no-ia-energia",
       "fecha": "26-11-2026"
     },
     {
-      "titulo": "Dario Amodei (43 años), CEO de Anthropic, rompe su silencio: \"No vamos a entregar el control de la humanidad a la IA\"",
-      "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/dario-amodei-43-anos-ceo-anthropic-rompe-su-silencio-no-vamos-entregar-control-humanidad-ia_7065985_0.html",
-      "fecha": "26-11-2026"
-    },
-    {
-      "titulo": "El mayor terremoto de la salida a bolsa de Anthropic no se notó en Wall Street, lo está sufriendo la vivienda de lujo de San Francisco",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/magnet/mayor-terremoto-salida-a-bolsa-anthropic-no-se-noto-wall-street-esta-sufriendo-vivienda-lujo-san-francisco",
+      "titulo": "Gemini Notebook (NotebookLM) lanza una función que ayuda a recordar información sin tanto esfuerzo",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-notebook-mejora-flashcards-imagenes-recordatorios/",
       "fecha": "26-11-2026"
     }
   ]
