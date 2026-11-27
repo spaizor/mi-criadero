@@ -1,61 +1,75 @@
 {
   "seccion": "ia",
-  "actualizado": "27-11-2026 04:12",
+  "actualizado": "27-11-2026 16:10",
   "destacadas": [
     {
-      "titulo": "Un antiguo investigador de OpenAI sostiene que lo relevante es que una IA pueda producir demostraciones matemáticas",
-      "resumen": "Scott Aaronson, catedrático de la Universidad de Texas en Austin y antiguo investigador de OpenAI, afirma que lo importante no es una demostración concreta, sino que un sistema de IA pueda producirla. Cita dos resultados de OpenAI: una mejora de la multiplicación de matrices con una cota inferior que completa el algoritmo rápido, y un cálculo más rápido de la transformada de Fourier con la prueba de que no puede hacerse mucho más rápido. Cree que una prueba de P ≠ NP « no está lejos », sin dar detalles verificables.",
+      "titulo": "SAP prepara el recorte de al menos 10.000 empleos para reorientarse hacia la IA",
+      "resumen": "Según Bloomberg, SAP planea eliminar al menos 10.000 puestos, más del 9 % de sus más de 110.000 empleados, dentro de una reestructuración en torno a la IA. Las cifras pueden cambiar tras negociar con los representantes de los trabajadores, y el CEO Christian Klein quiere integrar herramientas de IA en toda su línea de productos. Oracle ha recortado 21.000 puestos en doce meses y Microsoft ofrece bajas voluntarias a unos 60.000 empleados.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
-      "fecha": "26-11-2026 20:31"
+      "enlace": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+      "fecha": "27-11-2026 15:57"
     },
     {
-      "titulo": "Moonshot y Z.AI retrasan sus próximos modelos por los controles de chips y la protección frente a la destilación",
-      "resumen": "Según Reuters, citado por The Decoder, el GLM-5.5 de Z.AI, de unos 3 billones de parámetros y previsto para noviembre, probablemente se retrasará al primer trimestre de 2027; mientras tanto Z.AI ha publicado el GLM-5.4, de 750.000 millones de parámetros. Moonshot podría pasar de un ciclo de seis a uno de doce meses, lo que empujaría su modelo Kimi K4 a mediados de 2027. Las causas citadas son las restricciones de EE. UU. al acceso a la nube con chips de Nvidia, el corte de envíos a Sudeste Asiático y las medidas contra la destilación; OpenAI y Anthropic bloquean ya el raspado de datos para ese fin.",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
-      "fecha": "26-11-2026 16:45"
-    },
-    {
-      "titulo": "Brad Smith avisa de más caídas tecnológicas y las liga a la carrera por parchear vulnerabilidades",
-      "resumen": "El presidente de Microsoft, Brad Smith, dijo a CBS News el 22 de noviembre que hay que prepararse para más caídas en los próximos meses. Descarta que la IA causara la caída global de Microsoft 365 del 12 y 13 de noviembre, pero la vincula al efecto indirecto de la carrera por encontrar y parchear fallos. Como cifras, los socios del proyecto Glasswing de Anthropic verificaron al menos 129.000 vulnerabilidades entre abril y julio con Claude Mythos, y Google pasó de 5.045 a 10.740 divulgaciones de CVE al mes entre enero y agosto, aunque no todo el aumento se debe a la IA.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/seguridad/tenemos-que-prepararnos-para-proximos-meses-presidente-microsoft-alerta-riesgo-caidas-ligado-a-ia",
-      "fecha": "26-11-2026 22:00"
-    },
-    {
-      "titulo": "Un investigador de OpenAI afirma haber avanzado en la unión de relatividad y cuántica, sin revisión por pares",
-      "resumen": "Venkatesh Chandrasekaran, investigador de Stanford que trabaja en OpenAI, publicó el 25 de noviembre en arXiv un artículo de 54 páginas de un solo autor. Propone cuantizar la frontera de un « diamante causal » entre dos conos de luz en lugar de todo el universo, y dice obtener resultados finitos, la fórmula de la entropía de los agujeros negros y, a gran escala, las ecuaciones de Einstein. El trabajo solo trata el espacio vacío, tiene un paso heurístico, no ofrece predicciones comprobables y aún no lo ha revisado ningún experto.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/investigacion/llevamos-decadas-tratando-unir-relatividad-fisica-cuantica-investigador-openai-dice-que-ha-conseguido-parcialmente",
-      "fecha": "26-11-2026 16:43"
-    },
-    {
-      "titulo": "Tim Sweeney acusa a Claude de frenar su trabajo con un falso positivo de destilación",
-      "resumen": "El CEO de Epic Games, Tim Sweeney, criticó a Claude después de que el sistema bloqueara la actividad de su cuenta corporativa autorizada al trabajar en una tarea de teoría de conjuntos, que interpretó como un intento de destilación. Según Sweeney, las cláusulas de Anthropic, OpenAI y Google contra la destilación existen, pero sus mecanismos de detección marcan como sospechosa actividad legítima. Él mismo ha defendido en público el uso de la IA en el desarrollo de software y videojuegos.",
+      "titulo": "SAP investiga un posible ataque informático, quizá ejecutado con IA, relacionado con GitHub",
+      "resumen": "SAP ha detectado actividad sospechosa en una de sus herramientas de trabajo relacionada con GitHub, según Der Spiegel, y ha pedido a sus empleados que revisen sus accesos y cambien las contraseñas si hace falta. La compañía no confirma que sea un ciberataque ni que se haya accedido a datos de clientes, y no se sabe quién está detrás ni cuándo empezó. La gran duda es si se usó IA para acceder a los sistemas, algo que tampoco está confirmado.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/tecnologia/tim-sweeney-ceo-epic-games-critica-con-dureza-claude-ia-anthropic-es-una-basura-no-puede-seguir-saboteando-trabajo-sus-clientes-esta-manera_7066095_0.html",
-      "fecha": "26-11-2026 20:00"
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/sap-admite-haber-sufrido-un-ataque-informatico-posiblemente-ejecutado-con-inteligencia-artificial_7066531_0.html",
+      "fecha": "27-11-2026 12:50"
+    },
+    {
+      "titulo": "El Gobierno británico rechaza una consulta nacional sobre los centros de datos de IA",
+      "resumen": "El Gobierno del Reino Unido descartó el 23 de noviembre una consulta pública nacional sobre el impacto ambiental de los centros de datos de IA, pese a una petición que ya supera las 39.000 firmas. Remite el asunto a la planificación de cada proyecto y a un borrador de política de centros de datos abierto hasta el 8 de enero de 2027. Los centros «estratégicos» deberán cumplir las pruebas del «Data Centre Covenant» para recibir ayudas, aunque aún no se han definido.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/off-prem/2026/11/27/uk-government-rejects-national-consultation-on-ai-datacenters/5312501",
+      "fecha": "27-11-2026 13:38"
+    },
+    {
+      "titulo": "La primera película hecha con IA no competirá por el Oscar de animación",
+      "resumen": "La Academia de Hollywood no ha incluido «Gods Don't Give Gifts», el largo de ciencia ficción de Zack London hecho con IA generativa, en su lista de 38 aspirantes a mejor película de animación publicada el 23 de noviembre. La producción, de Fable, asegura que entre 30 y 35 personas han trabajado en ella, aunque el movimiento lo genera un modelo. Llega a los cines estadounidenses el 4 de diciembre, y Saatchi ya ha anunciado que recurrirá.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/cine-y-tv/primera-pelicula-hecha-ia-no-participara-oscar-hollywood-se-cierra-al-cine-participacion-humana",
+      "fecha": "27-11-2026 12:28"
+    },
+    {
+      "titulo": "Europa impulsa su soberanía en IA, pero Gartner duda de que cambie el gasto",
+      "resumen": "Gartner prevé que el gasto en TI de Europa crezca un 9,9 % en 2027, hasta 1,57 billones de dólares, frente al 15 % mundial. Su analista sostiene que Europa irá por detrás en la provisión de IA, es decir, centros de datos y modelos fundacionales, aunque sí podrá usarla. Advierte de que la soberanía pesa poco en las decisiones: los directores de TI no comprarán una solución peor y más cara solo por ser europea.",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/27/europes-ai-sovereignty-push-lots-of-cloud-not-much-silver-lining/5312120",
+      "fecha": "27-11-2026 12:32"
+    },
+    {
+      "titulo": "Un nuevo tipo de chip ejecuta modelos de IA con ondas de luz",
+      "resumen": "La startup alemana Q.ANT fabrica procesadores fotónicos, que usan luz en lugar de electrones y generan menos calor. No pretenden sustituir a las GPU, sino trabajar junto a ellas en cálculos no lineales. Sus chips ya están en un programa piloto con los centros de la nube IONOS, y más de 30 equipos de ingenieros desarrollan modelos optimizados para este tipo de hardware. La promesa es reducir el consumo energético y la necesidad de refrigeración.",
+      "fuente": "Wired",
+      "enlace": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+      "fecha": "27-11-2026 08:00"
+    },
+    {
+      "titulo": "GPTZero y Pangram, los detectores de textos de IA, se pueden engañar con unas frases",
+      "resumen": "GPTZero y Pangram compiten por ser el mejor detector de textos generados por IA. Al probarlos, el autor de Xataka encontró que GPTZero acertó más: marcó como 97 % sintético un texto de GPT-6.2 Astra que Pangram calificó en un 90 %. Según el artículo, basta con cambiar algunas frases para engañar a ambos detectores.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/gptzero-pangram-se-pelean-ser-mejor-detector-textos-hechos-ia-he-probado-basta-cambiar-unas-frases-para-enganarlos",
+      "fecha": "27-11-2026 13:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Los usuarios de GPT-6.2 Astra alcanzan los límites un 40 % antes tras corregir OpenAI un error de precios",
-      "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
-      "fecha": "26-11-2026"
+      "titulo": "Los widgets personalizados de Android, con un poco de diversión de vibe-coding",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "fecha": "27-11-2026"
     },
     {
-      "titulo": "SpaceX tiene luz verde para desplegar un millón de satélites con centros de datos: no es por la IA es por la energía",
+      "titulo": "El auge de la IA deja a los operadores de red esperando hasta 18 meses por equipos",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/networks/2026/11/27/ai-boom-leaves-network-operators-waiting-up-to-18-months-for-kit/5312366",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "Taiwán sufre la mayor fuga de capital extranjero de su historia y la IA es la gran sospechosa",
       "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/espacio/spacex-tiene-luz-verde-para-desplegar-millon-satelites-centros-datos-no-ia-energia",
-      "fecha": "26-11-2026"
-    },
-    {
-      "titulo": "Gemini Notebook (NotebookLM) lanza una función que ayuda a recordar información sin tanto esfuerzo",
-      "fuente": "Hipertextual",
-      "enlace": "https://hipertextual.com/inteligencia-artificial/gemini-notebook-mejora-flashcards-imagenes-recordatorios/",
-      "fecha": "26-11-2026"
+      "enlace": "https://www.xataka.com/empresas-y-economia/taiwan-sufre-mayor-fuga-capital-extranjero-su-historia-ia-gran-sospechosa",
+      "fecha": "27-11-2026"
     }
   ]
 }
