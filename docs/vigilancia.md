@@ -339,6 +339,26 @@ El mensaje del commit tambien cambia (`"Vigilancia: falta la pasada de precios,
 la lanza este push"` en vez de `"1 aviso"`): decir "aviso" en el historial de un
 commit cuyo unico cometido es lanzar la pasada seria mentir en el mismo sitio.
 
+### La salida que decia las dos cosas a la vez
+
+Aquello arreglo la portada pero no lo que `vigilar` **imprime**, que es lo que
+lee la rutina para escribir su resumen. Cada manana, con la pasada pendiente y
+sin token, salian seguidas "su push lance precios.yml. No se pinta banda: se
+esta arreglando" y "no hay token en GITHUB_TOKEN_PRECIOS, asi que solo se
+avisa; la pasada hay que lanzarla a mano desde Actions". La segunda venia de
+intentar el camino del token sin tenerlo. El modelo se quedaba con ella: el
+21-11-2026 pidio lanzar `Precios` a mano, y el 28-11 ademas dijo que la portada
+pintaba el aviso y mando una notificacion al movil. Los precios entraron solos
+a las 08:40.
+
+Desde el **28-11-2026**:
+
+- **Sin token no se intenta lanzar**, asi que ese mensaje no sale. Si hay token
+  y falla (caducado, sin permiso), el error de GitHub si se imprime.
+- **Cada caso dice una sola cosa sobre si hace falta una persona.** El disparo
+  lleva "(no es un aviso, se arregla solo)" y "no hay que hacer nada"; el
+  disparo que no sirvio dice que se pinta banda y que workflow lanzar a mano.
+
 ## `assets/secciones.json` y el comando `comprobar`
 
 Dar de alta una seccion toca **ocho sitios** (su HTML, la entrada de

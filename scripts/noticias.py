@@ -23,6 +23,7 @@ import functools
 import gzip
 import io
 import json
+import os
 import re
 import subprocess
 import sys
@@ -2411,7 +2412,8 @@ def cmd_vigilar(args):
     arregla sola. Ahi la banda es el unico canal que hay.
     """
     # Aqui dentro, que los dos importan de este fichero.
-    from precios import revisar_frescura, lanzar_pasada, SALIDA
+    from precios import (revisar_frescura, lanzar_pasada, SALIDA,
+                         VARIABLE_TOKEN)
 
     # Steam se importa aparte y sin dejar caer el resto. Este comando corre en
     # una rutina de Claude y es el unico vigilante que vive fuera de GitHub: si
@@ -2497,18 +2499,31 @@ def cmd_vigilar(args):
             disparos.append({"que": que, "texto": _resumen(lineas)})
         return lanzamiento
 
-    lanzamiento = pendiente("precios", revisar_frescura, SALIDA, lanzar_pasada)
+    # Sin token no se intenta, que es lo normal en la rutina (no admite
+    # secretos). Intentarlo solo sacaba un "hay que lanzarla a mano" debajo del
+    # "la lanza este push", y la rutina le hacia caso al segundo.
+    con_token = bool(os.environ.get(VARIABLE_TOKEN, "").strip())
+    lanzamiento = pendiente("precios", revisar_frescura, SALIDA,
+                            lanzar_pasada if con_token else None)
     if revisar_steam is not None:
         pendiente("steam", revisar_steam, SALIDA_STEAM)
 
+    # Lo que se imprime aqui es lo que la rutina resume, asi que cada caso dice
+    # una sola cosa sobre si hace falta una persona. El workflow se nombra a
+    # partir de la seccion porque los dos que escuchan este push se llaman como
+    # ella: precios.yml y steam.yml.
     for aviso in avisos:
         print(f"{aviso['que'].upper()}: {aviso['texto']}")
+        if aviso["que"] in ("precios", "steam"):
+            print(f"  El disparo anterior no sirvio. Se pinta banda en la "
+                  f"portada: hay que lanzar {aviso['que']}.yml a mano desde "
+                  f"Actions.")
     for disparo in disparos:
-        print(f"{disparo['que'].upper()}: {disparo['texto']}")
-        # El workflow se nombra a partir de la seccion porque los dos que
-        # escuchan este push se llaman como ella: precios.yml y steam.yml.
-        print(f"  Se publica data/vigilancia.json para que su push lance "
-              f"{disparo['que']}.yml. No se pinta banda: se esta arreglando.")
+        print(f"{disparo['que'].upper()} (no es un aviso, se arregla solo): "
+              f"{disparo['texto']}")
+        print(f"  Al publicar data/vigilancia.json, su push lanza "
+              f"{disparo['que']}.yml. No se pinta banda y no hay que hacer "
+              f"nada.")
     if lanzamiento:
         print(f"PRECIOS: {lanzamiento}")
     if not avisos and not disparos and not lanzamiento:
