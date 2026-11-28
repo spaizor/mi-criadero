@@ -1,74 +1,40 @@
 {
   "seccion": "ia",
-  "actualizado": "27-11-2026 16:10",
+  "actualizado": "28-11-2026 04:10",
   "destacadas": [
     {
-      "titulo": "SAP prepara el recorte de al menos 10.000 empleos para reorientarse hacia la IA",
-      "resumen": "Según Bloomberg, SAP planea eliminar al menos 10.000 puestos, más del 9 % de sus más de 110.000 empleados, dentro de una reestructuración en torno a la IA. Las cifras pueden cambiar tras negociar con los representantes de los trabajadores, y el CEO Christian Klein quiere integrar herramientas de IA en toda su línea de productos. Oracle ha recortado 21.000 puestos en doce meses y Microsoft ofrece bajas voluntarias a unos 60.000 empleados.",
+      "titulo": "OpenAI demanda a Apple por robo de secretos comerciales y presiones a proveedores",
+      "resumen": "OpenAI ha presentado una demanda reconvencional contra Apple en un tribunal de California, respondiendo a la que Apple interpuso en julio contra exempleados acusados de filtrar información a OpenAI. Según la demanda, Apple coacciona y amenaza a proveedores que trabajan con ambas empresas, y un exempleado de OpenAI que volvió a Apple habría pasado detalles de planes de producto y proveedores. OpenAI alega robo de secretos comerciales y prácticas comerciales desleales, en plena competencia por sus futuros dispositivos, que la empresa prepara tras comprar io por 6.400 millones de dólares.",
       "fuente": "The Decoder",
-      "enlace": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
-      "fecha": "27-11-2026 15:57"
+      "enlace": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "fecha": "27-11-2026 20:38"
     },
     {
-      "titulo": "SAP investiga un posible ataque informático, quizá ejecutado con IA, relacionado con GitHub",
-      "resumen": "SAP ha detectado actividad sospechosa en una de sus herramientas de trabajo relacionada con GitHub, según Der Spiegel, y ha pedido a sus empleados que revisen sus accesos y cambien las contraseñas si hace falta. La compañía no confirma que sea un ciberataque ni que se haya accedido a datos de clientes, y no se sabe quién está detrás ni cuándo empezó. La gran duda es si se usó IA para acceder a los sistemas, algo que tampoco está confirmado.",
+      "titulo": "Chips Blackwell prohibidos de Nvidia aparecen en un centro de datos de Shanghái",
+      "resumen": "Según Bloomberg, documentos presentados ante reguladores chinos muestran un rack GB300-NVL72 y un servidor GB200 de Nvidia en un centro de datos de Shanghái. El rack se ofreció como garantía de un préstamo de 96 millones de yuanes (unos 14 millones de dólares) de Shanghai Innovation Bank, y el sitio está ligado a Megaspeed, socio de Nvidia que el Gobierno de EE. UU. incluyó a principios de este mes en su lista negra comercial comercial por sospechas de contrabando de chips. Exportar estos chips a China sin licencia estadounidense está prohibido, y Bloomberg rastreó el rack hasta el fabricante taiwanés Gigabyte a través de un número de serie.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+      "fecha": "27-11-2026 19:27"
+    },
+    {
+      "titulo": "Atacantes usan agentes de IA para explotar un fallo desconocido y tomar un servidor en 11 minutos",
+      "resumen": "Una investigación de Amazon Threat Intelligence documenta una campaña, del 8 al 10 de septiembre, en la que atacantes usaron varios agentes de IA sobre la plataforma Cairn, pensada para auditorías de seguridad autorizadas. Los agentes encontraron una vulnerabilidad de día cero en una aplicación de análisis de imágenes médicas que permitía modificar archivos fuera de sus rutas previstas, y lograron acceso total a un servidor de un entorno universitario en 11 minutos. Amazon atribuye la operación, dirigida sobre todo a instituciones educativas de Asia oriental fuera de China continental, a un actor vinculado a China con confianza moderada, y señala que otros intentos contra sistemas protegidos no lograron su objetivo.",
       "fuente": "ComputerHoy",
-      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/sap-admite-haber-sufrido-un-ataque-informatico-posiblemente-ejecutado-con-inteligencia-artificial_7066531_0.html",
-      "fecha": "27-11-2026 12:50"
-    },
-    {
-      "titulo": "El Gobierno británico rechaza una consulta nacional sobre los centros de datos de IA",
-      "resumen": "El Gobierno del Reino Unido descartó el 23 de noviembre una consulta pública nacional sobre el impacto ambiental de los centros de datos de IA, pese a una petición que ya supera las 39.000 firmas. Remite el asunto a la planificación de cada proyecto y a un borrador de política de centros de datos abierto hasta el 8 de enero de 2027. Los centros «estratégicos» deberán cumplir las pruebas del «Data Centre Covenant» para recibir ayudas, aunque aún no se han definido.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/off-prem/2026/11/27/uk-government-rejects-national-consultation-on-ai-datacenters/5312501",
-      "fecha": "27-11-2026 13:38"
-    },
-    {
-      "titulo": "La primera película hecha con IA no competirá por el Oscar de animación",
-      "resumen": "La Academia de Hollywood no ha incluido «Gods Don't Give Gifts», el largo de ciencia ficción de Zack London hecho con IA generativa, en su lista de 38 aspirantes a mejor película de animación publicada el 23 de noviembre. La producción, de Fable, asegura que entre 30 y 35 personas han trabajado en ella, aunque el movimiento lo genera un modelo. Llega a los cines estadounidenses el 4 de diciembre, y Saatchi ya ha anunciado que recurrirá.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/cine-y-tv/primera-pelicula-hecha-ia-no-participara-oscar-hollywood-se-cierra-al-cine-participacion-humana",
-      "fecha": "27-11-2026 12:28"
-    },
-    {
-      "titulo": "Europa impulsa su soberanía en IA, pero Gartner duda de que cambie el gasto",
-      "resumen": "Gartner prevé que el gasto en TI de Europa crezca un 9,9 % en 2027, hasta 1,57 billones de dólares, frente al 15 % mundial. Su analista sostiene que Europa irá por detrás en la provisión de IA, es decir, centros de datos y modelos fundacionales, aunque sí podrá usarla. Advierte de que la soberanía pesa poco en las decisiones: los directores de TI no comprarán una solución peor y más cara solo por ser europea.",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/ai-and-ml/2026/11/27/europes-ai-sovereignty-push-lots-of-cloud-not-much-silver-lining/5312120",
-      "fecha": "27-11-2026 12:32"
-    },
-    {
-      "titulo": "Un nuevo tipo de chip ejecuta modelos de IA con ondas de luz",
-      "resumen": "La startup alemana Q.ANT fabrica procesadores fotónicos, que usan luz en lugar de electrones y generan menos calor. No pretenden sustituir a las GPU, sino trabajar junto a ellas en cálculos no lineales. Sus chips ya están en un programa piloto con los centros de la nube IONOS, y más de 30 equipos de ingenieros desarrollan modelos optimizados para este tipo de hardware. La promesa es reducir el consumo energético y la necesidad de refrigeración.",
-      "fuente": "Wired",
-      "enlace": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
-      "fecha": "27-11-2026 08:00"
-    },
-    {
-      "titulo": "GPTZero y Pangram, los detectores de textos de IA, se pueden engañar con unas frases",
-      "resumen": "GPTZero y Pangram compiten por ser el mejor detector de textos generados por IA. Al probarlos, el autor de Xataka encontró que GPTZero acertó más: marcó como 97 % sintético un texto de GPT-6.2 Astra que Pangram calificó en un 90 %. Según el artículo, basta con cambiar algunas frases para engañar a ambos detectores.",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/robotica-e-ia/gptzero-pangram-se-pelean-ser-mejor-detector-textos-hechos-ia-he-probado-basta-cambiar-unas-frases-para-enganarlos",
-      "fecha": "27-11-2026 13:00"
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/hackers-utilizan-una-inteligencia-artificial-para-descubrir-una-vulnerabilidad-desconocida-conseguir-acceso-total-un-servidor-solo-11-minutos_7066629_0.html",
+      "fecha": "27-11-2026 17:00"
     }
   ],
   "titulares": [
     {
-      "titulo": "Los widgets personalizados de Android, con un poco de diversión de vibe-coding",
-      "fuente": "The Verge",
-      "enlace": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "titulo": "Tres estudios de Meta y AMI Labs respaldan la apuesta de Yann LeCun por los modelos de mundo JEPA frente a los LLM",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
       "fecha": "27-11-2026"
     },
     {
-      "titulo": "El auge de la IA deja a los operadores de red esperando hasta 18 meses por equipos",
-      "fuente": "The Register",
-      "enlace": "https://www.theregister.com/networks/2026/11/27/ai-boom-leaves-network-operators-waiting-up-to-18-months-for-kit/5312366",
-      "fecha": "27-11-2026"
-    },
-    {
-      "titulo": "Taiwán sufre la mayor fuga de capital extranjero de su historia y la IA es la gran sospechosa",
-      "fuente": "Xataka",
-      "enlace": "https://www.xataka.com/empresas-y-economia/taiwan-sufre-mayor-fuga-capital-extranjero-su-historia-ia-gran-sospechosa",
+      "titulo": "OpenAI construye la plataforma de datos «Athena» para reducir las conjeturas de los agentes de IA",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
       "fecha": "27-11-2026"
     }
   ]

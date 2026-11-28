@@ -1,0 +1,41 @@
+{
+  "seccion": "ia",
+  "actualizado": "28-11-2026 04:10",
+  "destacadas": [
+    {
+      "titulo": "OpenAI demanda a Apple por robo de secretos comerciales y presiones a proveedores",
+      "resumen": "OpenAI ha presentado una demanda reconvencional contra Apple en un tribunal de California, respondiendo a la que Apple interpuso en julio contra exempleados acusados de filtrar información a OpenAI. Según la demanda, Apple coacciona y amenaza a proveedores que trabajan con ambas empresas, y un exempleado de OpenAI que volvió a Apple habría pasado detalles de planes de producto y proveedores. OpenAI alega robo de secretos comerciales y prácticas comerciales desleales, en plena competencia por sus futuros dispositivos, que la empresa prepara tras comprar io por 6.400 millones de dólares.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "fecha": "27-11-2026 20:38"
+    },
+    {
+      "titulo": "Chips Blackwell prohibidos de Nvidia aparecen en un centro de datos de Shanghái",
+      "resumen": "Según Bloomberg, documentos presentados ante reguladores chinos muestran un rack GB300-NVL72 y un servidor GB200 de Nvidia en un centro de datos de Shanghái. El rack se ofreció como garantía de un préstamo de 96 millones de yuanes (unos 14 millones de dólares) de Shanghai Innovation Bank, y el sitio está ligado a Megaspeed, socio de Nvidia que el Gobierno de EE. UU. incluyó a principios de este mes en su lista negra comercial comercial por sospechas de contrabando de chips. Exportar estos chips a China sin licencia estadounidense está prohibido, y Bloomberg rastreó el rack hasta el fabricante taiwanés Gigabyte a través de un número de serie.",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+      "fecha": "27-11-2026 19:27"
+    },
+    {
+      "titulo": "Atacantes usan agentes de IA para explotar un fallo desconocido y tomar un servidor en 11 minutos",
+      "resumen": "Una investigación de Amazon Threat Intelligence documenta una campaña, del 8 al 10 de septiembre, en la que atacantes usaron varios agentes de IA sobre la plataforma Cairn, pensada para auditorías de seguridad autorizadas. Los agentes encontraron una vulnerabilidad de día cero en una aplicación de análisis de imágenes médicas que permitía modificar archivos fuera de sus rutas previstas, y lograron acceso total a un servidor de un entorno universitario en 11 minutos. Amazon atribuye la operación, dirigida sobre todo a instituciones educativas de Asia oriental fuera de China continental, a un actor vinculado a China con confianza moderada, y señala que otros intentos contra sistemas protegidos no lograron su objetivo.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/hackers-utilizan-una-inteligencia-artificial-para-descubrir-una-vulnerabilidad-desconocida-conseguir-acceso-total-un-servidor-solo-11-minutos_7066629_0.html",
+      "fecha": "27-11-2026 17:00"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Tres estudios de Meta y AMI Labs respaldan la apuesta de Yann LeCun por los modelos de mundo JEPA frente a los LLM",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "OpenAI construye la plataforma de datos «Athena» para reducir las conjeturas de los agentes de IA",
+      "fuente": "The Decoder",
+      "enlace": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+      "fecha": "27-11-2026"
+    }
+  ]
+}
