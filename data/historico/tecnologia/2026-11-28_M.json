@@ -1,0 +1,145 @@
+{
+  "seccion": "tecnologia",
+  "actualizado": "28-11-2026 03:12",
+  "destacadas": [
+    {
+      "titulo": "Hackers habrían entrado en la nube de la Fuerza Aérea de EE. UU. y paralizado proyectos",
+      "resumen": "Según Reuters, citado por Engadget, unos atacantes no identificados habrían accedido a Cloud One, la infraestructura en la nube de la Fuerza Aérea estadounidense, aprovechando una vulnerabilidad en su «plano de control», que una fuente describió como « un mando universal». El incidente se detectó durante trabajos de actualización en el último mes; algunos usuarios han perdido derechos de administrador, se han prohibido las actualizaciones de aplicaciones en ejecución y se han parado proyectos de traslado de aplicaciones de misión. La Fuerza Aérea no comenta el caso y el Cyber Command ha sido llamado para revisarlo.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems/",
+      "fecha": "27-11-2026 17:55"
+    },
+    {
+      "titulo": "Chips de NVIDIA restringidos acaban en un centro de datos chino ligado a Alice Huang",
+      "resumen": "Según Bloomberg, recogido por Engadget, racks NVIDIA GB300 NVL72 y GB200, además de servidores con GPU Hopper, estarían instalados en el Yangtze River Delta Project, en Shanghái, cuyo presidente sería Kang Wei, marido de Alice Huang, antigua accionista mayoritaria de la nube Megaspeed. Un rack GB300 NVL72 sirvió como garantía de un préstamo de unos 14 millones de dólares, y su número de serie lleva hasta Gigabyte Technology, de Taiwán. El Departamento de Justicia de EE. UU. investiga si Megaspeed incumplió las normas de exportación, que exigen licencia para enviar estos sistemas a China; Megaspeed niega irregularidades y NVIDIA no había respondido en el momento de la publicación.",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/",
+      "fecha": "27-11-2026 20:45"
+    },
+    {
+      "titulo": "Un malware preinstalado de fábrica en más de 220.000 móviles Android, casi imposible de borrar",
+      "resumen": "Kaspersky ha detectado que más de 220.000 dispositivos Android vendidos durante los diez primeros meses de 2026 llegaron al usuario con Keenadu, una puerta trasera instalada en el firmware. Está alojada en una partición del sistema, por lo que los antivirus habituales y la reinstalación no la eliminan, y algunas variantes pueden permanecer inactivas durante dos meses y medio. Kaspersky señala que la infección puede venir de un fabricante o de un proveedor que modifique el firmware antes de la venta, y recomienda a las empresas analizar varias unidades antes de comprar en masa.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/tu-proximo-movil-android-podria-venir-infectado-fabrica-descubren-un-malware-imposible-borrar_7066800_0.html",
+      "fecha": "27-11-2026 19:47"
+    },
+    {
+      "titulo": "Remus Infostealer usa una falsa extensión de Chrome que sigue leyendo Gmail aunque cambies la contraseña",
+      "resumen": "Remus se instala como una extensión falsa con apariencia de Google Sheets y pide permiso para acceder a todos los sitios web del navegador, lo que le permite revisar los correos de Gmail: asuntos, contenido, remitentes y direcciones. Aunque deja de actuar mientras la víctima está desconectada, vuelve a espiar en cuanto se inicia sesión de nuevo desde el mismo navegador infectado, por eso cambiar la contraseña no basta. GenDigital concluyó que no hay ningún fallo de día cero en Gmail ni en Chrome; la solución es revisar y eliminar a mano las extensiones sospechosas.",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/ciberseguridad/este-virus-roba-tus-correos-gmail-sigue-haciendolo-aunque-cambies-contrasena_7066799_0.html",
+      "fecha": "27-11-2026 20:45"
+    },
+    {
+      "titulo": "EE. UU. aprieta para frenar las GPU de Nvidia hacia China, y Nvidia pide a sus socios no enviar servidores a cuatro países",
+      "resumen": "Según el Financial Times, citado por Xataka, Nvidia habría pedido a socios como Dell y Supermicro que dejen de enviar servidores con sus chips a Malasia, Singapur, Tailandia e Indonesia, países por los que se estima que pasaban las GPU alquiladas y el contrabando hacia China. Antes, según CNBC, la compañía avisó a las neoclouds de que no les suministrará equipos si una parte de su capacidad acaba en empresas chinas. El detonante es el caso de Megaspeed, una empresa de Singapur a la que se atribuye haber desviado chips por valor de varios miles de millones de dólares, y la norma provisional del Departamento de Comercio de EE. UU., publicada el 16 de noviembre y en vigor desde el 19, que busca cerrar el acceso indirecto a chips.",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/robotica-e-ia/eeuu-se-va-a-poner-dura-para-evitar-que-gpu-nvidia-lleguen-a-china-esta-vez-parece-que-van-serio",
+      "fecha": "27-11-2026 19:32"
+    }
+  ],
+  "titulares": [
+    {
+      "titulo": "Los envíos de smartphones seguirán cayendo un año más antes de una modesta recuperación en 2028",
+      "fuente": "The Register",
+      "enlace": "https://www.theregister.com/personal-tech/2026/11/27/smartphone-shipments-face-another-bleak-year-before-modest-2028-comeback/5312580",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "WhatsApp añade compatibilidad con eSIM de viaje",
+      "fuente": "Engadget",
+      "enlace": "https://www.engadget.com/2329553/whatsapp-adds-support-for-travel-esims/",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "Allstate sufre una caída desde el lunes",
+      "fuente": "The Verge",
+      "enlace": "https://www.theverge.com/tech/1044612/allstate-has-been-suffering-an-outage-since-monday",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "Tu perro convierte la vuelta a casa en una caótica fiesta. La ciencia sabe perfectamente por qué se entusiasma",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/ecologia-y-naturaleza/que-tu-perro-convierte-tu-vuelta-a-casa-autentica-fiesta-incluso-solo-has-salido-a-tirar-basura",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "El padre de PlayStation confiesa cómo ayudó a crear Xbox",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/videojuegos/padre-playstation-ayudo-crear-xbox-ken-kutaragi/",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "Movistar no cambia gratis el router WiFi 7 a todos: aclara qué criterios hay que cumplir como cliente",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/operadores/movistar-aclara-criterio-router-wifi-7-gratis/",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "Japón ha encontrado una segunda vida para sus trenes bala retirados: convertir su aluminio en ventanas de edificios",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/japon-ha-encontrado-segunda-vida-para-sus-trenes-bala-retirados-convertir-su-aluminio-ventanas-edificios",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "WhatsApp acaba de solucionar uno de los mayores dolores de cabeza al viajar",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/mobile/whatsapp-comprar-esim-desde-la-app-viajes/",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "Los 3 datos que te chivan si Windows 11 cambia esta configuración sin tu permiso",
+      "fuente": "ADSLZone",
+      "enlace": "https://www.adslzone.net/noticias/windows/windows-cambia-controlador-permiso/",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "GTA 6 para PC: modders desvelan los requisitos mínimos y recomendados para jugarlo en ordenador",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/gaming/gta-6-para-pc-modders-desvelan-los-requisitos-minimos-recomendados-para-jugarlo-ordenador_7066687_0.html",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "Doble cesta, 9,5 litros y 2.470 W: la freidora de aire gigante de Ninja se desploma en el Black Friday de Amazon",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/seleccion/doble-cesta-9-5-litros-2-470-w-freidora-aire-gigante-ninja-se-desploma-black-friday-amazon",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "Consiguen ejecutar GTA 6 en Mac, pero hay un detalle que cambia todo",
+      "fuente": "Hipertextual",
+      "enlace": "https://hipertextual.com/apple/gta-6-funciona-mac-apple-silicon/",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "Pavan Davuluri, vicepresidente ejecutivo de Windows, no descarta la llegada de Windows 12, pero que antes debe \"ganarse el permiso\" para hacerlo",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/pavan-davuluri-vicepresidente-ejecutivo-windows-no-descarta-llegada-windows-12-pero-que-antes-debe-ganarse-permiso-para-hacerlo_7066693_0.html",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "Un cuartel en Pozuelo, una estación en Torrejón y un satélite: así ha sido el primer ensayo militar de España con la red satelital de la UE",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/espacio/cuartel-pozuelo-estacion-torrejon-satelite-espanol-asi-ha-sido-primer-ensayo-militar-espana-red-satelital-ue",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "Una de cal para DIGI, pero también una de arena: gana y pierde más clientes que ninguna otra operadora en España",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/moviles/una-cal-para-digi-pero-tambien-una-arena-gana-pierde-mas-clientes-que-ninguna-otra-operadora-espana_7066684_0.html",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "En Madrid la crisis de la vivienda se está cobrando una nueva víctima: 370.000 metros cuadrados de oficinas",
+      "fuente": "Xataka",
+      "enlace": "https://www.xataka.com/magnet/madrid-crisis-vivienda-se-esta-cobrando-nueva-victima-370-000-metros-cuadrados-oficinas",
+      "fecha": "27-11-2026"
+    },
+    {
+      "titulo": "El navegador Orion para Linux y Windows ya es oficialmente de código abierto: Kagi publica ambos proyectos en GitHub",
+      "fuente": "ComputerHoy",
+      "enlace": "https://computerhoy.20minutos.es/software/navegador-orion-para-linux-windows-ya-es-oficialmente-codigo-abierto-kagi-publica-ambos-proyectos-github_7066691_0.html",
+      "fecha": "27-11-2026"
+    }
+  ]
+}
